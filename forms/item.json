@@ -1,0 +1,247 @@
+{
+  "title": "Item",
+  "entity": "Item",
+  "sections": [
+    {
+      "title": "Traits",
+      "type": "group",
+      "fields": [
+        {
+          "title": "Traits",
+          "type": "tags",
+          "attribute": "data.traits",
+          "attributeType": "Trait"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "fields": [
+        {
+          "title": "Category",
+          "type": "picker",
+          "attribute": "data.category",
+          "attributeType": "ItemCategory"
+        },
+        {
+          "title": "Group",
+          "type": "picker",
+          "attribute": "group",
+          "attributeType": "ItemGroup"
+        },
+        {
+          "title": "Price",
+          "type": "decimal",
+          "attribute": "data.price"
+        },
+        {
+          "title": "Ammunition",
+          "attribute": "data.ammunition"
+        },
+        {
+          "title": "Usage",
+          "attribute": "data.usage"
+        },
+        {
+          "title": "Bulk",
+          "attribute": "data.bulk"
+        },
+        {
+          "title": "Activation Action",
+          "type": "picker",
+          "attribute": "data.activation.actions",
+          "attributeType": "Action"
+        },
+        {
+          "title": "Custom Action",
+          "attribute": "data.activation.custom",
+          "hiddenIf": "{{data.activation.actions}}"
+        },
+        {
+          "title": "Components",
+          "type": "multiPicker",
+          "attribute": "data.activation.components",
+          "attributeType": "ItemActivationComponent"
+        },
+        {
+          "title": "Onset",
+          "attribute": "data.onset"
+        }
+      ]
+    },
+    {
+      "title": "Activations",
+      "type": "list",
+      "attribute": "data.activations",
+      "form": {
+        "title": "Activation",
+        "sections": [
+          {
+            "type": "group",
+            "fields": [
+              {
+                "title": "Actions",
+                "type": "picker",
+                "attribute": "actions",
+                "attributeType": "Action"
+              },
+              {
+                "title": "Custom",
+                "attribute": "custom",
+                "hiddenIf": "{{actions}}"
+              },
+              {
+                "title": "Components",
+                "type": "multiPicker",
+                "attribute": "components",
+                "attributeType": "ItemActivationComponent"
+              },
+              {
+                "title": "Traits",
+                "type": "tags",
+                "attribute": "data.traits",
+                "attributeType": "Trait"
+              }
+            ]
+          },
+          {
+            "title": "Description",
+            "type": "group",
+            "fields": [
+              {
+                "title": "Description",
+                "type": "textArea",
+                "attribute": "text"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "title": "Armor",
+      "type": "group",
+      "visibleIf": "{{type == 'armor'}}",
+      "fields": [
+        {
+          "title": "AC Bonus",
+          "type": "number",
+          "attribute": "data.ac"
+        },
+        {
+          "title": "Dex Cap",
+          "type": "number",
+          "attribute": "data.dex"
+        },
+        {
+          "title": "Check Penalty",
+          "type": "number",
+          "attribute": "data.checkPenalty"
+        },
+        {
+          "title": "Speed Penalty (ft)",
+          "type": "number",
+          "attribute": "data.speedPenalty"
+        },
+        {
+          "title": "Strength",
+          "type": "number",
+          "attribute": "data.strength"
+        }
+      ]
+    },
+    {
+      "title": "Shield",
+      "type": "group",
+      "visibleIf": "{{type == 'shield'}}",
+      "fields": [
+        {
+          "title": "AC Bonus",
+          "type": "number",
+          "attribute": "data.ac"
+        },
+        {
+          "title": "Speed Penalty (ft)",
+          "type": "number",
+          "attribute": "data.speedPenalty"
+        },
+        {
+          "title": "Hardness",
+          "type": "number",
+          "attribute": "data.hardness"
+        },
+        {
+          "title": "HP",
+          "type": "number",
+          "attribute": "data.hp"
+        },
+        {
+          "title": "BT",
+          "type": "number",
+          "attribute": "data.bt"
+        }
+      ]
+    },
+    {
+      "title": "Weapon",
+      "type": "group",
+      "visibleIf": "{{type == 'weapon'}}",
+      "fields": [
+        {
+          "title": "Damage",
+          "attribute": "data.damage"
+        },
+        {
+          "title": "Damage Type",
+          "type": "picker",
+          "attribute": "data.damageType",
+          "attributeType": "Damage"
+        },
+        {
+          "title": "Hands",
+          "type": "number",
+          "attribute": "data.hands"
+        },
+        {
+          "title": "Range (ft)",
+          "type": "decimal",
+          "attribute": "data.range"
+        },
+        {
+          "title": "Reload",
+          "type": "number",
+          "attribute": "data.reload"
+        },
+        {
+          "title": "Traits",
+          "type": "tags",
+          "attribute": "data.weaponTraits",
+          "attributeType": "Trait"
+        }
+      ]
+    },
+    {
+      "title": "Gear",
+      "type": "group",
+      "visibleIf": "{{type == 'gear'}}",
+      "fields": [
+        {
+          "title": "Hands",
+          "type": "number",
+          "attribute": "data.hands"
+        }
+      ]
+    },
+    {
+      "title": "Other",
+      "type": "group",
+      "fields": [
+        {
+          "title": "Craft Requirements",
+          "type": "textArea",
+          "attribute": "data.craft"
+        }
+      ]
+    }
+  ]
+}

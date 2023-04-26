@@ -1,0 +1,55 @@
+{
+  "debug": false,
+  "spacing": 8,
+  "padding": [
+    20,
+    20,
+    20,
+    20
+  ],
+  "footer": true,
+  "images": false,
+  "views": [
+    {
+      "type": "vStack",
+      "spacing": 4,
+      "views": [
+        {
+          "value": "{{name}}",
+          "style": "title",
+          "alignment": "center"
+        },
+      ]
+    },
+    {
+      "type": "text",
+      "style": "summary",
+      "value": "{{data.summary}}",
+    }, 
+    {
+      "type": "image",
+      "value": "/images/top-border.png",
+    },
+    {
+      "type": "text",
+      "value": "{{descr}}",
+    },
+    {
+      "type": "image",
+      "value": "/images/bottom-border.png",
+    },
+    {
+      "value": "{{name}} Mechanics",
+      "style": "heading2",
+      "divider": true
+    },
+    {
+      "type": "text",
+      "style": "mechanics-body",
+      "value": "{% include \"ancestry-primary.md\" %}",
+      "bgColor": "#ffffff",
+      "padding": [16],
+      "borderColor": "#cccccc",
+    },
+  ]
+}

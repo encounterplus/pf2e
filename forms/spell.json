@@ -1,0 +1,106 @@
+{
+  "title": "Spell",
+  "entity": "Spell",
+  "sections": [
+    {
+      "title": "Traits",
+      "type": "group",
+      "fields": [
+        {
+          "title": "Traits",
+          "type": "tags",
+          "attribute": "data.traits",
+          "attributeType": "Trait"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "fields": [
+        {
+          "title": "Level",
+          "type": "number",
+          "attribute": "data.level"
+        }, 
+        {
+          "title": "School",
+          "type": "picker",
+          "attribute": "type",
+          "attributeType": "SpellSchool",
+        },
+        {
+          "title": "Traditions",
+          "type": "multiPicker",
+          "attribute": "data.traditions",
+          "attributeType": "MagicalTradition"
+        },
+      ]
+    },
+    {
+      "title": "Cast",
+      "type": "group",
+      "fields": [
+        {
+          "title": "Actions",
+          "type": "picker",
+          "attribute": "data.actions",
+          "attributeType": "Action",
+        },
+        {
+          "title": "Custom Action",
+          "attribute": "data.customAction",
+          "hiddenIf": "{{data.actions}}"
+        },
+        {
+          "title": "Components",
+          "type": "multiPicker",
+          "attribute": "data.components",
+          "attributeType": "SpellComponent"
+        },
+        {
+          "title": "Range (Units)",
+          "type": "number",
+          "attribute": "data.range"
+        },
+        {
+          "title": "Area Effect",
+          "type": "form",
+          "text": "{% if data.areaEffectSize %}{{data.areaEffectSize}}-foot {{data.areaEffectShape|lowercase}}{% endif %}",
+          "form": {
+            "title": "Area Effect",
+            "sections": [
+              {
+                "title": "Shape",
+                "type": "picker",
+                "attribute": "data.areaEffectShape",
+                "attributeType": "AreaEffectShape"
+              },
+              {
+                "type": "group",
+                "fields": [
+                  {
+                    "title": "Size (ft)",
+                    "type": "decimal",
+                    "attribute": "data.areaEffectSize"
+                  },
+                ]
+              },
+            ]
+          }
+        },
+        {
+          "title": "Targets",
+          "attribute": "data.targets"
+        },
+        {
+          "title": "Duration",
+          "attribute": "data.duration"
+        },
+        {
+          "title": "Saving Throw",
+          "attribute": "data.savingThrow"
+        }
+      ]
+    },
+  ]
+}

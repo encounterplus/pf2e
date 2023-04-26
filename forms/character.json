@@ -1,0 +1,36 @@
+{
+  "title": "Character",
+  "sections": [
+    {
+      "type": "group",
+      "fields": [
+        {
+          "title": "Level",
+          "type": "number",
+          "attribute": "data.level"
+        }
+      ]
+    },
+    {
+      "title": "Hit Points",
+      "type": "group",
+      "fields": [
+        {
+          "title": "Maximum",
+          "type": "number",
+          "attribute": "data.hpMaximum"
+        },
+        {
+          "title": "Current",
+          "type": "number",
+          "attribute": "data.hpCurrent"
+        },
+        {
+          "title": "Temporary",
+          "type": "number",
+          "attribute": "data.hpTemporary"
+        },
+      ]
+    },
+  ]
+}

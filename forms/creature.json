@@ -1,0 +1,304 @@
+{
+  "title": "Creature",
+  "entity": "Creature",
+  "sections": [
+    {
+      "type": "group",
+      "fields": [
+        {
+          "title": "Level",
+          "type": "number",
+          "attribute": "data.level"
+        }
+      ]
+    },
+    {
+      "title": "Base Traits",
+      "type": "group",
+      "fields": [
+        {
+          "title": "Rarity",
+          "type": "picker",
+          "attribute": "data.rarity",
+          "attributeType": "Rarity"
+        }, 
+        {
+          "title": "Alignment",
+          "type": "picker",
+          "attribute": "data.alignment",
+          "attributeType": "Alignment"
+        },
+        {
+          "title": "Size",
+          "type": "picker",
+          "attribute": "data.size",
+          "attributeType": "Size"
+        }
+      ]
+    },
+    {
+      "title": "Other Traits",
+      "type": "group",
+      "fields": [
+        {
+          "title": "Traits",
+          "type": "tags",
+          "attribute": "data.traits",
+          "attributeType": "Trait"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "fields": [
+        {
+          "title": "Perception",
+          "type": "number",
+          "attribute": "data.perception",
+        },
+        {
+          "title": "Special Senses",
+          "attribute": "data.senses"
+        },
+        {
+          "title": "Languages",
+          "type": "multiPicker",
+          "attribute": "data.languages",
+          "attributeType": "Language"
+        },
+      ]
+    },
+    {
+      "title": "Skills",
+      "type": "group",
+      "fields": [
+        {
+          "title": "Skills",
+          "type": "attributes",
+          "attribute": "data.skills",
+          "attributeType": "Skill"
+        },
+      ]
+    },
+    {
+      "title": "Ability Modifiers",
+      "type": "group",
+      "fields": [
+        {
+          "title": "STR",
+          "type": "number",
+          "attribute": "data.str"
+        },
+        {
+          "title": "DEX",
+          "type": "number",
+          "attribute": "data.dex"
+        },
+        {
+          "title": "CON",
+          "type": "number",
+          "attribute": "data.con"
+        },
+        {
+          "title": "INT",
+          "type": "number",
+          "attribute": "data.int"
+        },
+        {
+          "title": "WIS",
+          "type": "number",
+          "attribute": "data.wis"
+        },
+        {
+          "title": "CHA",
+          "type": "number",
+          "attribute": "data.cha"
+        },
+      ]
+    },
+    {
+      "title": "Items",
+      "type": "group",
+      "fields": [
+        {
+          "title": "Items",
+          "type": "list",
+          "attribute": "data.items"
+        }
+      ]
+    },
+    {
+      "title": "Interaction Abilities",
+      "type": "list",
+      "attribute": "data.interactionAbilities",
+      "form": {
+        "title": "Ability",
+        "partial": "ability"
+      }
+    },
+    {
+      "title": "Armor Class",
+      "type": "group",
+      "fields": [
+        {
+          "title": "AC",
+          "type": "number",
+          "attribute": "data.ac"
+        },
+        {
+          "placeholder": "Detail",
+          "attribute": "data.acDetail"
+        },
+      ]
+    },
+    {
+      "title": "Saving Throws",
+      "type": "group",
+      "fields": [
+        {
+          "title": "Fortitude",
+          "type": "number",
+          "attribute": "data.fort"
+        },
+        {
+          "title": "Reflex",
+          "type": "number",
+          "attribute": "data.ref"
+        },
+        {
+          "title": "Will",
+          "type": "number",
+          "attribute": "data.will"
+        },
+        {
+          "placeholder": "Detail",
+          "attribute": "data.saveDetail"
+        },
+      ]
+    },
+    {
+      "title": "Hit Points",
+      "type": "group",
+      "fields": [
+        {
+          "title": "HP",
+          "type": "number",
+          "attribute": "data.hp"
+        },
+        {
+          "placeholder": "Detail",
+          "attribute": "data.hpDetail"
+        },
+      ]
+    },
+    {
+      "type": "group",
+      "fields": [
+        {
+          "title": "Immunities",
+          "type": "list",
+          "attribute": "data.immunities",
+        },
+        {
+          "title": "Weaknesses",
+          "type": "attributes",
+          "attribute": "data.weaknesses",
+          "attributeType": "Damage"
+        },
+        {
+          "title": "Resistances",
+          "type": "attributes",
+          "attribute": "data.resistances",
+          "attributeType": "Damage"
+        },
+      ]
+    },
+    {
+      "title": "Automatic or Ractive Abilities",
+      "type": "list",
+      "attribute": "data.defensiveAbilities",
+      "form": {
+        "title": "Ability",
+        "partial": "ability"
+      }
+    }, 
+    {
+      "title": "Movement",
+      "type": "group",
+      "fields": [
+        {
+          "title": "Speed",
+          "type": "form",
+          "form": {
+            "partial": "movement"
+          }
+        },
+      ]
+    },
+    {
+      "title": "Attacks",
+      "type": "list",
+      "attribute": "data.attacks",
+      "form": {
+        "title": "Ability",
+        "partial": "attack"
+      }
+    },
+    {
+      "title": "Spellcasting",
+      "type": "list",
+      "attribute": "data.spellcasting",
+      "form": {
+        "title": "Spellcasting",
+        "partial": "spellcasting"
+      }
+    },
+    {
+      "title": "Rituals",
+      "type": "group",
+      "fields": [
+        {
+          "title": "Rituals",
+          "type": "form",
+          "text": "{{data.ritualsType}}",
+          "form": {
+            "sections": [
+              {
+                "type": "group",
+                "fields": [
+                  {
+                    "placeholder": "Type",
+                    "attribute": "data.ritualsType"
+                  },
+                ]
+              },
+              {
+                "type": "group",
+                "fields": [
+                  {
+                    "title": "DC",
+                    "attribute": "data.ritualsDC"
+                  },
+                  {
+                    "title": "Rituals",
+                    "type": "textArea",
+                    "attribute": "data.rituals"
+                  },
+                ]
+              },
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": "Offensive or Proactive Abilities",
+      "type": "list",
+      "attribute": "data.offensiveAbilities",
+      "form": {
+        "title": "Ability",
+        "partial": "ability"
+      }
+    }
+  ]
+}

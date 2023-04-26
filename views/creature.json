@@ -1,0 +1,121 @@
+{
+  "debug": false,
+  "spacing": 8,
+  "padding": [
+    20,
+    20,
+    20,
+    20
+  ],
+  "footer": true,
+  "images": true,
+  "views": [
+    {
+      "type": "vStack",
+      "spacing": -1,
+      "views": [
+        {
+          "type": "hStack",
+          "alignment": "bottom",
+          "views": [
+            {
+              "value": "{{name|uppercase}}",
+              "style": "stats-title",
+            },
+            {
+              "value": "CREATURE {{data.level|default: '0'}}",
+              "alignment": "trailing",
+              "style": "stats-title",
+              "width": -1,
+            },
+          ]
+        },
+        {
+          "type": "divider",
+          "bgColor": "#000000",
+          "height": 1.5,
+          "padding": [0]
+        },
+      ]
+    },
+    {
+      "type": "flow",
+      "spacing": 0,
+      "views": [
+        {
+          "type": "label",
+          "value": "{{data.rarity|map: 'Rarity'}}",
+          "style": "trait",
+          "bgColor": "#54166d",
+          "padding": [4, 8],
+          "borderColor": "#d8c384",
+          "borderWidth": 2,
+          "link": "/trait/{{data.rarity|map: 'Rarity'}}"
+        },
+        {
+          "type": "label",
+          "value": "{{data.alignment}}",
+          "style": "trait",
+          "bgColor": "#566193",
+          "padding": [4, 8],
+          "borderColor": "#d8c384",
+          "borderWidth": 2,
+          "link": "/trait/{{data.alignment}}"
+        },
+        {
+          "type": "label",
+          "value": "{{data.size|map: 'Size'}}",
+          "style": "trait",
+          "bgColor": "#3a7a58",
+          "padding": [4, 8],
+          "borderColor": "#d8c384",
+          "borderWidth": 2,
+          "link": "/trait/{{data.size|map: 'Size'}}"
+        },
+        {
+          "type": "list",
+          "attribute": "data.traits",
+          "views": [
+            {
+              "type": "label",
+              "value": "{{self}}",
+              "style": "trait",
+              "bgColor": "#58180D",
+              "padding": [4, 8],
+              "borderColor": "#d8c384",
+              "borderWidth": 2,
+              "link": "/trait/{{self}}"
+            },
+          ]
+        },
+      ]
+    },
+    {
+      "type": "text",
+      "style": "stats-body",
+      "value": "{% include \"creature-primary.md\" %}",
+    }, 
+    {
+      "type": "divider",
+      "padding": [0],
+    }, 
+    {
+      "type": "text",
+      "style": "stats-body",
+      "value": "{% include \"creature-secondary.md\" %}",
+    }, 
+    {
+      "type": "divider",
+      "padding": [0],
+    }, 
+    {
+      "type": "text",
+      "style": "stats-body",
+      "value": "{% include \"creature-tertiary.md\" %}",
+    }, 
+    {
+      "type": "text",
+      "value": "{{descr}}",
+    }
+  ]
+}

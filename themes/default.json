@@ -1,0 +1,104 @@
+{
+  "tintColor": "#5D0000",
+  "primaryColor": "#9C2B1B",
+  "textColor": "#000000",
+  "dividerColor": "#cccccc",
+  "bgColor": "#F7F3F0",
+  "bgImage": "/images/paper.jpg",
+  "styles": {
+    "body": {
+      "font": "Sabon",
+      "lineSpacing": 3,
+      "size": 16,
+    },
+    "title": {
+      "font": "Taroca",
+      "color": "#5D0000",
+      "size": 34
+    },
+    "subtitle": {
+      "font": "NotoSans-Italic",
+      "size": 15
+    },
+    "heading": {
+      "font": "Gin",
+      "color": "#5D0000",
+    },
+    "heading1": {
+      "font": "Taroca",
+      "color": "#5D0000",
+      "size": 28
+    },
+    "heading2": {
+      "font": "Taroca",
+      "color": "#02256E",
+      "size": 26
+    },
+    "heading3": {
+      "font": "Gin",
+      "color": "#5D0000",
+      "case": "uppercase",
+      "lineHeight": 26,
+      "lineSpacing": 6,
+      "size": 19,
+    },
+    "heading4": {
+      "font": "Gin",
+      "color": "#A76652",
+      "lineSpacing": 3,
+      "size": 18
+    },
+    "heading5": {
+      "font": "Tauri",
+      "color": "#000000",
+      "lineHeight": 26,
+      "size": 18
+    },
+    "heading6": {
+      "font": "Tauri",
+      "color": "#000000",
+      "size": 16
+    },
+    "stats-title": {
+      "font": "FF Good Pro Cond Bold",
+      "color": "#000000",
+      "size": 21,
+    },
+    "stats-body": {
+      "font": "FF Good Pro",
+      "lineSpacing":2,
+      "color": "#000000",
+      "size": 16
+    },
+    "mechanics-body": {
+      "font": "FF Good Pro",
+      "lineSpacing": 3,
+      "color": "#5D0000",
+      "size": 16
+    },
+    "mechanics-body-white": {
+      "font": "FF Good Pro",
+      "lineSpacing": 3,
+      "color": "#F7F3F0",
+      "size": 16
+    },
+    "trait": {
+      "font": "Roboto Condensed",
+      "color": "#ffffff",
+      "case": "uppercase",
+      "size": 14
+    },
+    "blockquote": {
+      "font": "FF Good Pro",
+      "color": "#5D0000",
+      "lineSpacing": 3,
+      "size": 16
+    },
+    "summary": {
+      "font": "Sabon Italic",
+      "lineSpacing": 3,
+      "color": "#5D0000",
+      "size": 20,
+    },
+  }
+}

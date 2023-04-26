@@ -1,0 +1,81 @@
+{
+  "title": "Class",
+  "sections": [
+    {
+      "type": "group",
+      "fields": [
+        {
+          "title": "Key Abilities",
+          "type": "multiPicker",
+          "attribute": "data.abilities",
+          "attributeType": "Ability"
+        },
+        {
+          "title": "Hit Points",
+          "type": "number",
+          "attribute": "data.hp"
+        },
+      ]
+    },
+    {
+      "title": "Initial Proficiencies",
+      "type": "group",
+      "fields": [
+        {
+          "title": "Perception",
+          "type": "picker",
+          "attribute": "data.perception",
+          "attributeType": "Proficiency"
+        }, 
+        {
+          "title": "Fortitude",
+          "type": "picker",
+          "attribute": "data.fortitude",
+          "attributeType": "Proficiency"
+        }, 
+        {
+          "title": "Reflex",
+          "type": "picker",
+          "attribute": "data.reflex",
+          "attributeType": "Proficiency"
+        }, 
+        {
+          "title": "Will",
+          "type": "picker",
+          "attribute": "data.will",
+          "attributeType": "Proficiency"
+        }, 
+        {
+          "title": "Skills",
+          "type": "list",
+          "attribute": "data.skills",
+        },
+        {
+          "title": "Attacks",
+          "type": "list",
+          "attribute": "data.attacks",
+        },
+        {
+          "title": "Defenses",
+          "type": "list",
+          "attribute": "data.defenses",
+        },
+        {
+          "title": "Spells",
+          "type": "list",
+          "attribute": "data.spells",
+        },
+      ]
+    },
+    {
+      "title": "Class Features",
+      "type": "list",
+      "attribute": "data.classFeatures",
+      "listItemValue": "{{level|ordinal}}",
+      "form": {
+        "title": "Feature",
+        "partial": "feature"
+      }
+    },
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "title": "Feat",
+  "sections": [
+    {
+      "title": "Traits",
+      "type": "group",
+      "fields": [
+        {
+          "title": "Traits",
+          "type": "tags",
+          "attribute": "data.traits",
+          "attributeType": "Trait"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "fields": [
+        {
+          "title": "Level",
+          "type": "number",
+          "attribute": "data.level"
+        }, 
+        {
+          "title": "Prerequisites",
+          "type": "text",
+          "attribute": "data.prerequisites"
+        }
+      ]
+    },
+    {
+      "title": "Benefits",
+      "type": "group",
+      "fields": [
+        {
+          "placeholder": "Benefits",
+          "type": "textArea",
+          "attribute": "data.benefits"
+        },
+      ]
+    }
+  ]
+}

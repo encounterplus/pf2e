@@ -1,0 +1,62 @@
+{
+  "debug": false,
+  "spacing": 8,
+  "padding": [
+    20,
+    20,
+    20,
+    20
+  ],
+  "footer": true,
+  "images": false,
+  "views": [
+    {
+      "type": "vStack",
+      "spacing": -1,
+      "views": [
+        {
+          "type": "hStack",
+          "alignment": "bottom",
+          "views": [
+            {
+              "value": "{{name|uppercase}}",
+              "style": "stats-title",
+            },
+            {
+              "value": "BACKGROUND",
+              "alignment": "trailing",
+              "style": "stats-title",
+              "width": -1,
+            },
+          ]
+        },
+        {
+          "type": "divider",
+          "bgColor": "#000000",
+          "height": 1.5,
+          "padding": [0]
+        },
+      ]
+    },
+    {
+      "type": "label",
+      "value": "{% if data.rarity == 'rare' or data.rarity == 'uncommon' %}{{data.rarity|map: 'Rarity'}}{% endif %}",
+      "style": "trait",
+      "bgColor": "#58180D",
+      "padding": [4, 8],
+      "borderColor": "#d8c384",
+      "borderWidth": 2,
+      "width": -1,
+      "link": "/trait/{{data.rarity|map: 'Rarity'}}"
+    },
+    {
+      "type": "text",
+      "value": "{{descr}}",
+      "style": "stats-body",
+    },
+    {
+      "type": "divider",
+      "padding": [0],
+    }
+  ]
+}

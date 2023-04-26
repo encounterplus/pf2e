@@ -1,0 +1,94 @@
+[
+  {
+    "entity": "Trait",
+    "params": [
+      {
+        "attribute": "type",
+        "attributeType": "TraitType",
+        "title": "Trait.Type"
+      },
+      {
+        "attribute": "source",
+        "title": "Trait.Source",
+        "dynamic": true
+      }
+    ],
+    "group": [
+      {
+        "attribute": "type",
+        "title": "Trait.Type"
+      },
+      {
+        "attribute": "source",
+        "title": "Trait.Source"
+      },
+      {
+        "attribute": "name",
+        "title": "Trait.Name"
+      }
+    ],
+    "sort": [
+      {
+        "attribute": "name",
+        "title": "Trait.Name"
+      }
+    ]
+  },
+  {
+    "entity": "Spell",
+    "params": [
+      {
+        "attribute": "type",
+        "attributeType": "SpellType",
+        "title": "Spell.Type"
+      },
+      {
+        "attribute": "source",
+        "title": "Spell.Source",
+        "dynamic": true
+      }
+    ],
+    "group": [
+      {
+        "attribute": "type",
+        "title": "Spell.Type"
+      },
+      {
+        "attribute": "name",
+        "title": "Spell.Name"
+      }
+    ],
+    "sort": [
+      {
+        "attribute": "name",
+        "title": "Spell.Name"
+      }
+    ]
+  },
+  {
+    "entity": "Item",
+    "filter": [
+      {
+        "attribute": "type",
+        "attributeType": "ItemType",
+        "title": "Item.Type"
+      },
+      {
+        "attribute": "source",
+        "title": "Item.Source",
+        "dynamic": true
+      }
+    ],
+    "group": [
+      {
+        "attribute": "type",
+        "attributeType": "ItemType",
+        "title": "Item.Type"
+      },
+      {
+        "attribute": "title",
+        "title": "Item.Name"
+      }
+    ]
+  }
+]

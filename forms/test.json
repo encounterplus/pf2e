@@ -1,0 +1,71 @@
+{
+  "title": "Test",
+  "sections": [
+    {
+      "type": "group",
+      "fields": [
+        {
+          "title": "Picker",
+          "type": "picker",
+          "attribute": "data.picker",
+          "attributeType": "Rarity"
+        },
+        {
+          "title": "MultiPicker",
+          "type": "multiPicker",
+          "attribute": "data.multiPicker",
+          "visibleIf": "{{data.picker}}",
+          "attributeType": "Feat"
+        },
+        {
+          "title": "Text",
+          "attribute": "data.text"
+        }, 
+        {
+          "title": "Number",
+          "type": "number",
+          "attribute": "data.number"
+        }, 
+        {
+          "placeholder": "Text Area",
+          "type": "textArea",
+          "attribute": "data.textArea"
+        }, 
+      ]
+    },
+    {
+      "type": "group",
+      "fields": [
+        {
+          "title": "Form",
+          "type": "form",
+          "text": "{{data.nested.name}} | {{data.nested.text}}",
+          "form": {
+            "title": "Feat",
+            "sections": [
+              {
+                "type": "group",
+                "fields": [
+                  {
+                    "title": "Name",
+                    "attribute": "data.nested.name"
+                  }, 
+                ]
+              },
+              {
+                "type": "group",
+                "fields": [
+                  {
+                    "placeholder": "Text",
+                    "type": "textArea",
+                    "attribute": "data.nested.text"
+                  },
+                ]
+              }
+            ]
+          }
+        },
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "title": "Background",
+  "sections": [
+    {
+      "type": "group",
+      "fields": [
+        {
+          "title": "Rarity",
+          "type": "picker",
+          "attribute": "data.rarity",
+          "attributeType": "Rarity"
+        },
+        {
+          "title": "Ability Boosts",
+          "type": "multiPicker",
+          "attribute": "data.abilities",
+          "attributeType": "Ability"
+        }, 
+        {
+          "title": "Skill Training",
+          "type": "multiPicker",
+          "attribute": "data.skills",
+          "attributeType": "Skill"
+        },
+        {
+          "title": "Feats",
+          "type": "multiPicker",
+          "attribute": "data.feats",
+          "attributeType": "Feat"
+        }, 
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "debug": false,
+  "spacing": 8,
+  "padding": [
+    20,
+    20,
+    20,
+    20
+  ],
+  "footer": true,
+  "images": false,
+  "views": [
+    {
+      "type": "vStack",
+      "spacing": 4,
+      "views": [
+        {
+          "value": "{{name}}",
+          "style": "title",
+          "alignment": "center"
+        },
+      ]
+    },
+    {
+      "type": "text",
+      "style": "summary",
+      "value": "{{data.summary}}",
+    }, 
+    {
+      "type": "image",
+      "value": "/images/top-border.png",
+    },
+    {
+      "type": "text",
+      "style": "mechanics-body-white",
+      "value": "{% include \"class-primary.md\" %}",
+      "bgColor": "#5D0000",
+      "padding": [16],
+      "borderColor": "#d8c384",
+      "borderWidth": 2,
+    },
+    {
+      "type": "text",
+      "value": "{{descr}}",
+    },
+    {
+      "type": "image",
+      "value": "/images/bottom-border.png",
+    },
+    {
+      "type": "text",
+      "value": "## Initial Proficiencies\n\nAt 1st level, you gain the listed proficiency ranks in the following statistics. You are untrained in anything not listed unless you gain a better proficiency rank in some other way.",
+    },
+    {
+      "type": "text",
+      "style": "mechanics-body",
+      "value": "{% include \"class-secondary.md\" %}",
+      "bgColor": "#ffffff",
+      "padding": [16],
+      "borderColor": "#cccccc",
+    },
+    {
+      "type": "image",
+      "value": "/images/bottom-border.png",
+    },
+    {
+      "type": "text",
+      "value": "## Class Features\n\nYou gain these abilities as an {{name|lowercase}}. Abilities gained at higher levels list the levels at which you gain them next to the features’ names.",
+    },
+    {
+      "type": "list",
+      "attribute": "data.classFeatures",
+      "views": [
+        {
+          "type": "hStack",
+          "alignment": "bottom",
+          "padding": [8, 0, 0, 0],
+          "views": [
+            {
+              "value": "{{name|uppercase}}",
+              "style": "heading3",
+            },
+            {
+              "value": "{% if level > 1 %}{{level|ordinal}}{% endif %}",
+              "alignment": "trailing",
+              "style": "heading3",
+              "width": -1,
+            },
+          ]
+        }, 
+        {
+          "type": "text",
+          "value": "{{text}}",
+        }
+      ]
+    },
+  ]
+}

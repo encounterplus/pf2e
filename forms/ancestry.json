@@ -1,0 +1,88 @@
+{
+  "title": "Ancestry",
+  "sections": [
+    {
+      "type": "group",
+      "fields": [
+        {
+          "title": "Hit Points",
+          "type": "number",
+          "attribute": "data.hp"
+        },
+        {
+          "title": "Size",
+          "type": "picker",
+          "attribute": "data.size",
+          "attributeType": "Size"
+        },
+        {
+          "title": "Speed",
+          "type": "form",
+          "form": {
+            "partial": "movement"
+          }
+        },
+        {
+          "title": "Ability Boosts",
+          "type": "multiPicker",
+          "attribute": "data.abilityBoosts",
+          "attributeType": "Ability"
+        }, 
+        {
+          "title": "Ability Flaws",
+          "type": "multiPicker",
+          "attribute": "data.abilityFlaws",
+          "attributeType": "Ability"
+        }, 
+        {
+          "title": "Skill Training",
+          "type": "multiPicker",
+          "attribute": "data.skills",
+          "attributeType": "Skill"
+        },
+        {
+          "title": "Languages",
+          "type": "multiPicker",
+          "attribute": "data.languages",
+          "attributeType": "Language"
+        }, 
+      ]
+    },
+    {
+      "title": "Traits",
+      "type": "group",
+      "fields": [
+        {
+          "title": "Traits",
+          "type": "tags",
+          "attribute": "data.traits",
+          "attributeType": "Trait"
+        }
+      ]
+    },
+    {
+      "title": "Features",
+      "type": "list",
+      "attribute": "data.features",
+      "form": {
+        "title": "Feature",
+        "sections": [
+          {
+            "type": "group",
+            "fields": [
+              {
+                "placeholder": "Name",
+                "attribute": "name"
+              },
+              {
+                "title": "Text",
+                "type": "textArea",
+                "attribute": "text"
+              }
+            ]
+          }
+        ]
+      }
+    },
+  ]
+}

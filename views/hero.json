@@ -1,0 +1,148 @@
+{
+  "debug": false,
+  "spacing": 8,
+  "padding": [
+    20,
+    20,
+    20,
+    20
+  ],
+  "footer": true,
+  "images": false,
+  "views": [
+    {
+      "type": "hStack",
+      "alignment": "leading",
+      "width": 0,
+      "views": [
+        {
+          "type": "image",
+          "value": "{{imagePath}}",
+          "link": "{{imagePath}}",
+          "borderWidth": 5,
+          "borderColor": "#000000",
+          "height": 80
+        },
+        {
+          "type": "vStack",
+          "alignment": "leading",
+          "width": 0,
+          "views": [
+            {
+              "value": "{{name}}",
+              "style": "title",
+            },
+            {
+              "value": "{{data.class}}",
+              "style": "subtitle",
+            },
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider",
+    },
+    {
+      "type": "text",
+      "value": 
+      "**Strength** [{{data.strength|signed|default:'+0'}}](/roll/d20{{data.strength|signed|default:'+0'}})  **Agility** [{{data.agility|signed|default:'+0'}}](/roll/d20{{data.agility|signed|default:'+0'}}) **Presence** [{{data.presence|signed|default:'+0'}}](/roll/d20{{data.presence|signed|default:'+0'}}) **Toughness** [{{data.toughness|signed|default:'+0'}}](/roll/d20{{data.toughness|signed|default:'+0'}})",
+    },
+    {
+      "type": "text",
+      "value": "**HP** {{data.hpCurrent}}/{{data.hpMaximum}} {% if data.armor.name and data.armor.value %}**{{data.armor.name}}** {{data.armor.value}}{% else %}**Armor** —{% endif %} **Omens** {{data.omens|default:'—'}}",
+    },
+    {
+      "type": "divider",
+    },
+    {
+      "value": "Class",
+      "style": "section",
+      "padding": [6, 0, 6, 0]
+    },
+    {
+      "type": "text",
+      "value": "{{data.classDescription}}\n\n{% for feature in data.classFeatures %}**{{feature.name}}**\n{{feature.text}}\n\n{% endfor %} ",
+    },
+    {
+      "type": "divider",
+    },
+    {
+      "value": "Powers",
+      "style": "section",
+      "padding": [6, 0, 6, 0]
+    },
+    {
+      "type": "text",
+      "value": "{% for power in data.powers %}▸**{{power.name}}** {{power.text}}\n{% endfor %}",
+    },
+    {
+      "type": "divider",
+    },
+    {
+      "value": "Weapons",
+      "style": "section",
+      "padding": [6, 0, 6, 0]
+    },
+    {
+      "type": "text",
+      "value": "{% for weapon in data.weapons %}▸**{{weapon.name}}** {{weapon.text}}\n{% endfor %}",
+    },
+    {
+      "type": "divider",
+    },
+    {
+      "value": "Equipment",
+      "style": "section",
+      "padding": [6, 0, 6, 0]
+    },
+    {
+      "type": "text",
+      "value": "{% for item in data.items %}▸**{{item.name}}** {{item.text}}\n{% endfor %}\n\n**Silver** {{data.silver|default:'0'}}",
+    },
+    {
+      "type": "divider",
+    },
+    {
+      "value": "Description",
+      "style": "section",
+      "padding": [6, 0, 6, 0]
+    },
+    {
+      "type": "text",
+      "value": "{{descr}}",
+    },
+    {
+      "type": "image",
+      "alignment": "center",
+      "value": "/images/sigil-yellow.png",
+      "width": 0,
+      "height": 80,
+    },
+  ],
+  "background": {
+    "type": "zStack",
+    "views": [
+      {
+        "type": "vStack",
+        "views": [
+          {
+            "type": "image",
+            "value": "/images/top.jpg",
+            "imageResizeMode": "tile",
+            "height": 60,
+          },
+          {
+            "type": "spacer",
+          },
+          {
+            "type": "image",
+            "value": "/images/paper-bottom.png",
+            "imageResizeMode": "tile",
+            "height": 400,
+          }
+        ]
+      }
+    ]
+  }
+}

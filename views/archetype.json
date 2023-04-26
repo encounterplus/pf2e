@@ -1,0 +1,38 @@
+{
+  "debug": false,
+  "spacing": 8,
+  "padding": [
+    20,
+    20,
+    20,
+    20
+  ],
+  "footer": true,
+  "images": false,
+  "views": [
+    {
+      "type": "vStack",
+      "spacing": 4,
+      "views": [
+        {
+          "value": "{{name}}",
+          "style": "title",
+          "alignment": "center"
+        },
+      ]
+    },
+    {
+      "type": "text",
+      "style": "summary",
+      "value": "{{data.summary}}",
+    }, 
+    {
+      "type": "image",
+      "value": "/images/top-border.png",
+    },
+    {
+      "type": "text",
+      "value": "{{descr}}",
+    }
+  ]
+}

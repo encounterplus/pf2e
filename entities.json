@@ -1,0 +1,101 @@
+[
+  {
+    "name": "Creature",
+    "label": "creature",
+    "collection": {
+      "label": "creatures"
+    },
+    "loadable": true
+  },
+  {
+    "name": "Spell",
+    "label": "spell",
+    "collection": {
+      "label": "spells"
+    },
+    "loadable": true
+  },
+  {
+    "name": "Item",
+    "label": "item",
+    "collection": {
+      "label": "items"
+    },
+    "loadable": true,
+    "role": "neutral"
+  },
+  {
+    "name": "Feat",
+    "label": "feat",
+    "collection": {
+      "label": "feats"
+    }
+  },
+  {
+    "name": "Background",
+    "label": "background",
+    "collection": {
+      "label": "backgrounds"
+    }
+  },
+  {
+    "name": "Condition",
+    "label": "condition",
+    "collection": {
+      "label": "conditions"
+    }
+  },
+  {
+    "name": "Ancestry",
+    "label": "ancestry",
+    "collection": {
+      "label": "ancestries"
+    }
+  },
+  {
+    "name": "Heritage",
+    "label": "heritage",
+    "collection": {
+      "label": "heritages"
+    }
+  },
+  {
+    "name": "Archetype",
+    "label": "archetype",
+    "collection": {
+      "label": "archetypes"
+    }
+  },
+  {
+    "name": "Class",
+    "label": "class",
+    "collection": {
+      "label": "classes"
+    }
+  },
+  {
+    "name": "Character",
+    "label": "character",
+    "collection": {
+      "label": "characters"
+    },
+    "loadable": true,
+    "role": "friendly"
+  }, 
+  {
+    "name": "Trait",
+    "label": "trait",
+    "collection": {
+      "label": "traits"
+    }
+  },
+  {
+    "name": "Test",
+    "label": "test",
+    "title": "Test",
+    "collection": {
+      "label": "tests",
+      "title": "Tests"
+    },
+  },
+]
