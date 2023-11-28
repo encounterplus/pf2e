@@ -57,9 +57,9 @@
     "F": "SpellComponent.Focus"
   },
   "SpellActivationUnit": {
-    "action": "SpellComponent.Verbal",
-    "minute": "SpellComponent.Somatic",
-    "hour": "SpellComponent.Material",
+    "action": "SpellActivationUnit.Action",
+    "minute": "SpellActivationUnit.Minute",
+    "hour": "SpellActivationUnit.Hour",
   },
   "SpellDurationType": {
     "timed": "SpellDurationType.Timed",
@@ -72,8 +72,8 @@
     "day": "SpellDurationUnit.Day",
   },
   "SpellRange": {
-    "touch": "SpellComponent.Somatic",
-    "range": "SpellComponent.Material"
+    "touch": "SpellRange.Touch",
+    "range": "SpellRange.Range"
   },
   "Spellcasting": {
     "prepared": "Spellcasting.Prepared",
