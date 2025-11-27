@@ -1,94 +1,297 @@
-[
-  {
-    "entity": "Trait",
+{
+  "Creature": {
     "params": [
       {
-        "attribute": "type",
-        "attributeType": "TraitType",
-        "title": "Trait.Type"
+        "attribute": "data.level",
+        "title": "Common.Level",
+        "dynamic": true,
       },
       {
-        "attribute": "source",
-        "title": "Trait.Source",
+        "attribute": "data.rarity",
+        "attributeType": "Rarity",
+        "title": "Rarity"
+      },
+      {
+        "attribute": "data.alignment",
+        "attributeType": "Alignment",
+        "title": "Alignment"
+      },
+      {
+        "attribute": "data.size",
+        "attributeType": "Size",
+        "title": "Size"
+      },
+      {
+        "attribute": "data.traits",
+        "dynamic": true,
+        "title": "Trait"
+      },
+      {
+        "attribute": "sources.name",
+        "title": "Common.Source",
         "dynamic": true
       }
     ],
     "group": [
       {
-        "attribute": "type",
-        "title": "Trait.Type"
-      },
-      {
-        "attribute": "source",
-        "title": "Trait.Source"
+        "attribute": "data.level",
+        "text": "{{'Common.Level'|l}} {{value}}",
+        "title": "Common.Level"
       },
       {
         "attribute": "name",
-        "title": "Trait.Name"
+        "title": "Name"
       }
     ],
     "sort": [
       {
         "attribute": "name",
-        "title": "Trait.Name"
+        "title": "Name"
       }
     ]
   },
-  {
-    "entity": "Spell",
+  "Spell": {
     "params": [
       {
-        "attribute": "type",
+        "attribute": "data.type",
         "attributeType": "SpellType",
-        "title": "Spell.Type"
+        "title": "Common.Type"
       },
       {
-        "attribute": "source",
-        "title": "Spell.Source",
+        "attribute": "data.rank",
+        "title": "Spell.Rank",
+        "dynamic": true,
+      },
+      {
+        "attribute": "data.rarity",
+        "attributeType": "Rarity",
+        "title": "Common.Rarity"
+      },
+      {
+        "attribute": "data.traditions",
+        "attributeType": "MagicalTradition",
+        "title": "Spell.Tradition"
+      },
+      {
+        "attribute": "data.traits",
+        "dynamic": true,
+        "title": "Common.Trait"
+      },
+      {
+        "attribute": "sources.name",
+        "title": "Common.Source",
         "dynamic": true
       }
     ],
     "group": [
       {
-        "attribute": "type",
-        "title": "Spell.Type"
+        "attribute": "data.rank",
+        "text": "{{'Spell.Rank'|l}} {{value}}",
+        "title": "Spell.Rank"
+      },
+      {
+        "attribute": "data.type",
+        "attributeType": "SpellType",
+        "title": "Common.Type"
       },
       {
         "attribute": "name",
-        "title": "Spell.Name"
+        "title": "Name"
       }
     ],
     "sort": [
       {
         "attribute": "name",
-        "title": "Spell.Name"
+        "title": "Name"
       }
     ]
   },
-  {
-    "entity": "Item",
-    "filter": [
+  "Ritual": {
+    "params": [
       {
-        "attribute": "type",
-        "attributeType": "ItemType",
-        "title": "Item.Type"
+        "attribute": "data.rank",
+        "title": "Spell.Rank",
+        "dynamic": true,
+      },
+      {
+        "attribute": "data.rarity",
+        "attributeType": "Rarity",
+        "title": "Common.Rarity"
+      },
+      {
+        "attribute": "data.traits",
+        "dynamic": true,
+        "title": "Common.Trait"
+      },
+      {
+        "attribute": "sources.name",
+        "title": "Common.Source",
+        "dynamic": true
+      }
+    ],
+    "group": [
+      {
+        "attribute": "data.rank",
+        "text": "{{'Spell.Rank'|l}} {{value}}",
+        "title": "Spell.Rank"
+      },
+      {
+        "attribute": "name",
+        "title": "Name"
+      }
+    ],
+    "sort": [
+      {
+        "attribute": "name",
+        "title": "Name"
+      }
+    ]
+  },
+  "Item": {
+    "params": [
+      {
+        "attribute": "data.category",
+        "attributeType": "ItemCategory",
+        "title": "Common.Category"
+      },
+      {
+        "attribute": "data.subcategory",
+        "attributeType": "ItemSubcategory",
+        "title": "Common.Subcategory"
+      },
+      {
+        "attribute": "data.level",
+        "title": "Common.Level",
+        "dynamic": true,
+      },
+      {
+        "attribute": "data.rarity",
+        "attributeType": "Rarity",
+        "title": "Common.Rarity"
+      },
+      {
+        "attribute": "sources.name",
+        "title": "Common.Source",
+        "dynamic": true
+      }
+    ],
+    "group": [
+      {
+        "attribute": "data.category",
+        "attributeType": "ItemCategory",
+        "title": "Common.Category"
+      },
+      {
+        "text": "{{'Common.Level'|l}} {{value}}",
+        "title": "Common.Level",
+        "attribute": "data.level",
+      },
+      {
+        "attribute": "name",
+        "title": "Common.Name"
+      }
+    ],
+    "sort": [
+      {
+        "attribute": "name",
+        "title": "Common.Name"
+      }
+    ]
+  },
+  "Feat": {
+    "params": [
+      {
+        "attribute": "data.level",
+        "title": "Common.Level",
+        "dynamic": true,
+      },
+      {
+        "attribute": "data.rarity",
+        "attributeType": "Rarity",
+        "title": "Common.Rarity"
+      },
+      {
+        "attribute": "data.traits",
+        "dynamic": true,
+        "title": "Common.Trait"
+      },
+      {
+        "attribute": "sources.name",
+        "title": "Common.Source",
+        "dynamic": true
+      }
+    ],
+    "sort": [
+      {
+        "attribute": "name",
+        "title": "Name"
+      },
+      {
+        "attribute": "data.level",
+        "title": "Common.Level",
+        "dynamic": true,
+      },
+    ]
+  },
+  "Trait": {
+    "params": [
+      {
+        "attribute": "data.type",
+        "attributeType": "TraitType",
+        "title": "Common.Type"
+      },
+      {
+        "attribute": "data.rarity",
+        "attributeType": "Rarity",
+        "title": "Common.Rarity"
+      },
+      {
+        "attribute": "sources.name",
+        "title": "Common.Source",
+        "dynamic": true
+      }
+    ],
+    "group": [
+      {
+        "attribute": "data.type",
+        "title": "Common.Type",
+        "attributeType": "TraitType",
       },
       {
         "attribute": "source",
-        "title": "Item.Source",
+        "title": "Common.Source"
+      },
+      {
+        "attribute": "name",
+        "title": "Common.Name"
+      }
+    ],
+    "sort": [
+      {
+        "attribute": "name",
+        "title": "Common.Name"
+      }
+    ]
+  },
+  "Rule": {
+    "params": [
+      {
+        "attribute": "type",
+        "attributeType": "RuleType",
+        "title": "Common.Type"
+      },
+      {
+        "attribute": "sources.name",
+        "title": "Common.Source",
         "dynamic": true
       }
     ],
     "group": [
       {
         "attribute": "type",
-        "attributeType": "ItemType",
-        "title": "Item.Type"
-      },
-      {
-        "attribute": "title",
-        "title": "Item.Name"
+        "attributeType": "RuleType",
+        "title": "Common.Type"
       }
     ]
-  }
-]
+  }, 
+}

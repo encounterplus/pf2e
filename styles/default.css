@@ -1,0 +1,502 @@
+/*
+ Encounter+ iOS
+ version 1.0
+ ----------------
+ global styles & theme
+ */
+/******** Color Variables ********/
+@font-face {
+  font-family: 'FF Good Pro';
+  src: url('../fonts/FFGoodPro-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FF Good Pro';
+  src: url('../fonts/FFGoodPro-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FF Good Pro Cond';
+  src: url('../fonts/FFGoodProCond-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FF Good Pro Cond';
+  src: url('../fonts/FFGoodProCond-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Taroca';
+  src: url('../fonts/Taroca\ Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sabon';
+  src: url('../fonts/Sabon.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sabon';
+  src: url('../fonts/SabonBold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sabon';
+  src: url('../fonts/SabonItalic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Sabon';
+  src: url('../fonts/SabonBoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+:root {
+  /* default font family */
+  --pico-font-family: FF Good Pro;
+  --pico-font-weight: 400;
+  --pico-typography-spacing-vertical: 0.6rem;
+
+  /* use this variable to change default font size */
+  --font-size: 100%;
+  /* --font-size: 106.25%; */
+  /* --font-size: 112.5%; */
+  /* --font-size: 118.75%; */
+
+  /* calculate font size based on default font size and custom font scale */
+  --pico-font-size: calc(var(--font-size, 100%) * var(--font-scale, 1));
+
+  line-height: 1.5;
+
+  /* prevent horizontal bounce */
+  overscroll-behavior-x: none;
+
+  --green-color: #002A17;
+  --dark-red-color: #4E1B0E;
+  --yellow-color: #DBC385;
+  --tag-default-color: #5E0000;
+  --tag-blue-color: #002664;
+  --tag-purple-color: #54166E;
+  --tag-green-color: #3a7a58;
+  --tag-orange-color: #98513D;
+
+  --box-divider-color: black;
+  --box-border-color: rgba(0, 0, 0, 0.255);
+  --box-background-color: rgba(255, 255, 255, 0.9);
+  --box-text-color: #4E1B0E;
+}
+
+/* larger font size for catalyst */
+:root.catalyst {
+  /* --font-size: 100%; */
+  --font-size: 106.25%;
+  --pico-font-size: calc(var(--font-size, 100%) * var(--font-scale, 1));
+}
+
+/* colors */
+
+/* Light color scheme (Default) */
+/* Can be forced with data-theme="light" */
+[data-theme=light],
+:root:not([data-theme=dark]),
+:host(:not([data-theme=dark])) {
+  --pico-color: #000;
+  --pico-background-color: #F9F5EC;
+
+  --pico-h1-color: var(--dark-red-color);
+  --pico-h2-color: var(--dark-red-color);
+  --pico-h3-color: var(--dark-red-color);
+  --pico-h4-color: var(--dark-red-color);
+  --pico-h5-color: var(--dark-red-color);
+  --pico-h6-color: var(--dark-red-color);
+
+  .stat-block {
+    --pico-background-color: #fff;
+    background-color: white;
+  }
+}
+
+/* Dark color scheme (Auto) */
+/* Automatically enabled if user has Dark mode enabled */
+ @media only screen and (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    /* --pico-background-color: #120301; */
+    /* --pico-background-color: #0e160b; */
+    --pico-background-color: #101a0d;
+    --pico-color: #c2c7d0;
+
+    --box-divider-color: white;
+    --box-border-color: rgba(255, 255, 255, 0.3);
+    --box-background-color: rgba(255, 255, 255, 0.05);
+    --box-text-color: white;
+
+    --pico-h1-color: #f0f1f3;
+    --pico-h2-color: #e0e3e7;
+    --pico-h3-color: #c2c7d0;
+    --pico-h4-color: #b3b9c5;
+    --pico-h5-color: #a4acba;
+    --pico-h6-color: #8891a4;
+
+    .stat-block {
+      background-color: #F7F3F0;
+      --pico-background-color: #F7F3F0;
+    }
+  }
+}
+
+/* Dark color scheme (Forced) */
+/* Enabled if forced with data-theme="dark" */
+[data-theme="dark"] {
+  --pico-background-color: #101a0d;
+  --pico-color: #c2c7d0;
+}
+
+h1 {
+  --pico-font-size: 1.5rem;
+  --pico-line-height: 1.125;
+  --pico-typography-spacing-top: 0rem;
+}
+
+h2 {
+  --pico-font-size: 1.25rem;
+  --pico-line-height: 1.15;
+  --pico-typography-spacing-top: 1.625rem;
+}
+
+h3 {
+  --pico-font-size: 1.125rem;
+  --pico-line-height: 1.175;
+  --pico-typography-spacing-top: 1.25rem;
+}
+
+h4 {
+  --pico-font-size: 1.125rem;
+  --pico-line-height: 1.2;
+  --pico-typography-spacing-top: 0.874rem;
+}
+
+h5 {
+  --pico-font-size: 1.125rem;
+  --pico-line-height: 1.225;
+  --pico-typography-spacing-top: 0.6875rem;
+}
+
+h6 {
+  --pico-font-size: 1rem;
+  --pico-line-height: 1.25;
+  --pico-typography-spacing-top: 0.5rem;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.p-0 {
+  padding: 0 !important;
+}
+
+.px-0 {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.mb-1 {
+  margin-bottom: .25rem !important;
+}
+
+.mb-2 {
+  margin-bottom: .5rem !important;
+}
+
+main section {
+  --pico-block-spacing-vertical: 0.6rem;
+}
+
+/* body size is not calculated properly without this */
+p:last-child {
+  margin: 0;
+}
+
+.muted {
+  opacity: 0.7;
+}
+
+.header {
+  border-bottom: 2px solid;
+  text-transform: uppercase;
+  display: grid;
+  grid-auto-flow: column;
+  align-items: end;
+  justify-items: end;
+  margin-bottom: 0.3rem;
+  --pico-color: #000;
+  color: var(--pico-color);
+
+  &>* {
+    font-family: FF Good Pro Cond;
+    font-size: 1.33rem;
+    font-weight: 700;
+    line-height: 0.9;
+    --pico-color: #000;
+  }
+
+  h1 {
+    margin: 0;
+    padding: 0;
+    justify-self: start;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    --pico-color: #000;
+
+    img {
+      height: 0.9em;
+      width: auto;
+    }
+  }
+}
+
+.header-paper {
+  display: block;
+  background-color: #fef4c9;
+  background-image: url('../images/header-paper.jpg');
+  background-repeat: repeat;
+  text-align: center;
+
+  padding-top: 1.5rem;
+  padding-bottom: 0.5rem;
+
+  margin-left: -1rem;
+  margin-right: -1rem;
+  margin-top: -1rem;
+  margin-bottom: 1rem;
+
+  /* overflow-x: hidden; */
+  position: relative;
+
+  /* border-bottom: 4px solid rgba(197, 197, 197, 0.466); */
+  /* border-bottom: 3px solid white; */
+  border-top: 3px solid var(--box-divider-color);
+  border-bottom: 3px solid var(--box-divider-color);
+  /* border-bottom: 4px solid #000; */
+
+  color: var(--green-color);
+
+
+  h1 {
+    color: var(--green-color);
+    font-family: "Taroca";
+    font-size: 1.8rem;
+    text-transform: uppercase;
+  }
+
+  .quote {
+    color: var(--green-color);
+    font-family: "Sabon";
+    font-style: italic;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1rem;
+  }
+}
+
+.header-paper::after {
+  content: " ";
+  /* content: url('../images/box-divider.svg'); */
+  display: block;
+  /* width: 100%; */
+  width: 120px;
+  height: 18px;
+  /* background-image: url('../images/box-divider-white.svg');
+  background-position: center; */
+  position: absolute;
+  z-index: 10;
+  /* bottom: -0.585rem; */
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 55%);
+  mask:  url('../images/box-divider-white.svg') 50% 50%;
+  mask-position: center;
+  background-color: var(--box-divider-color);
+  /* filter: brightness(0.8) */
+}
+
+.split-header {
+
+  .right {
+    float: right;
+  }
+}
+
+.box {
+  padding: 1rem;
+  border: 1px solid var(--box-border-color);
+  background-color: var(--box-background-color);
+  --pico-color: var(--box-text-color);
+  margin-bottom: 1rem;
+
+  h1, h2, h3, h4, h5, h6 {
+    text-transform: uppercase;
+    color: var(--box-text-color);
+    margin-bottom: 0.1rem;
+  }
+
+  a {
+    --pico-color: var(--box-text-color);
+    --pico-underline: var(--box-text-color);
+  }
+}
+
+.traits {
+  margin-bottom: 0.1rem;
+
+  .trait {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 2px solid #d8c384;
+    background-color: var(--tag-default-color);
+    padding: 0.3rem 0.3rem 0.1rem 0.3rem;
+    font-family: FF Good Pro Cond;
+    font-size: 0.8rem;
+    font-weight: 600;
+    line-height: 1;
+    text-underline-offset: 0;
+    text-transform: uppercase;
+  }
+
+  .trait-rarity-uncommon {
+    background-color: var(--tag-orange-color);
+  }
+
+  .trait-rarity-rare {
+    background-color: var(--tag-blue-color);
+  }
+
+  .trait-rarity-unique {
+    background-color: var(--tag-purple-color);
+  }
+
+  .trait-size {
+    background-color: var(--tag-green-color);
+  }
+
+  .trait-type {
+    background-color: var(--tag-purple-color);
+  }
+}
+
+.stat-block {
+  padding: 1rem;
+  margin: -1rem;
+  background-color: #F7F3F0;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  line-height: 1.33;
+
+  --pico-color: #000;
+  --pico--h1-color: #000;
+  
+
+  .stat-token {
+    float: right;
+    margin-left: 1rem;
+    width: 3rem;
+    height: 3rem
+  }
+
+  a {
+    --pico-color: #000;
+    --pico-underline: #00000055;
+  }
+
+  strong {
+    color: var(--pico-color);
+  }
+
+  hr {
+    margin: 0.4rem 0;
+    height: 1px;
+    background-color: #333;
+    border: none;
+  }
+
+  .stat-section {
+    --pico-typography-spacing-vertical: 0.1rem;
+    --pico-typography-spacing-vertical: 0rem;
+    line-height: 1.33;
+
+    p:has(strong) {
+      text-indent: 1em hanging;
+    }
+
+    hr:only-child {
+      display: none;
+    }
+
+    img[src*="action"] {
+      height: 1.1em;
+      /* filter: invert(1); */
+    }
+  }
+
+  /* table {
+  } */
+}
+
+.table-responsive {
+  width: 100%;
+  overflow-x: scroll;
+}
+
+.stat-block:not(:only-child) {
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 576px) {
+  .stat-block {
+    margin: 0rem;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+  }
+}
+
+.tags {
+  display: flex;
+  gap: 0.5rem;
+
+  .tag {
+    display: inline-block;
+    border: 1px solid var(--tag-color);
+    border-radius: 0.3rem;
+    background-color: white;
+    padding: 0.3rem 0.5rem;
+    text-transform: uppercase;
+    font-size: 0.6rem;
+    font-weight: 600;
+    color: var(--tag-color);
+  }
+}

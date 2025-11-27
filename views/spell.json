@@ -21,9 +21,20 @@
             {
               "value": "{{name|uppercase}}",
               "style": "stats-title",
+              "width": -1
             },
             {
-              "value": "SPELL {{data.level|default: '0'}}",
+              "type": "image",
+              "value": "/icons/actions/{{data.actions}}.png",
+              "color": "#000",
+              "height": 26,
+              "visibleIf": "data.actions"
+            },
+            {
+              "type": "spacer"
+            },
+            {
+              "value": "{{data.type|map: 'SpellType'|uppercase}} {{data.rank|default: '0'}}",
               "alignment": "trailing",
               "style": "stats-title",
               "width": -1,
@@ -43,18 +54,29 @@
       "spacing": 0,
       "views": [
         {
+          "type": "label",
+          "value": "{{data.rarity|map: 'Rarity'}}",
+          "style": "trait",
+          "bgColor": "#8F5441",
+          "padding": [4, 8],
+          "borderColor": "#d8c384",
+          "borderWidth": 2,
+          "visibleIf": "data.rarity != '' and data.rarity != 'common'",
+          "link": "/trait/{{data.rarity|map: 'Rarity'}}"
+        },
+        {
           "type": "list",
           "attribute": "data.traits",
           "views": [
             {
               "type": "label",
-              "value": "{{self}}",
+              "value": "{{value}}",
               "style": "trait",
               "bgColor": "#58180D",
               "padding": [4, 8],
               "borderColor": "#d8c384",
               "borderWidth": 2,
-              "link": "/trait/{{self}}"
+              "link": "/trait/{{value}}"
             },
           ]
         },
@@ -73,6 +95,24 @@
       "type": "text",
       "value": "{{descr}}",
       "style": "stats-body",
+    },
+    {
+      "type": "text",
+      "title": "Common.Notes",
+      "value": "{{notes}}",
+    },
+    {
+      "type": "image",
+      "value": "{{image}}",
+      "link": "{{image}}"
+    },
+    {
+      "type": "text",
+      "value": "{{footer}}"
+    }, 
+    {
+      "type": "tags",
+      "attribute": "tags"
     }
   ]
 }

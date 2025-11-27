@@ -12,37 +12,27 @@
     "label": "spell",
     "collection": {
       "label": "spells"
-    },
-    "loadable": true
+    }
+  },
+  {
+    "name": "Ritual",
+    "label": "ritual",
+    "collection": {
+      "label": "rituals"
+    }
   },
   {
     "name": "Item",
     "label": "item",
     "collection": {
       "label": "items"
-    },
-    "loadable": true,
-    "role": "neutral"
+    }
   },
   {
     "name": "Feat",
     "label": "feat",
     "collection": {
       "label": "feats"
-    }
-  },
-  {
-    "name": "Background",
-    "label": "background",
-    "collection": {
-      "label": "backgrounds"
-    }
-  },
-  {
-    "name": "Condition",
-    "label": "condition",
-    "collection": {
-      "label": "conditions"
     }
   },
   {
@@ -60,10 +50,10 @@
     }
   },
   {
-    "name": "Archetype",
-    "label": "archetype",
+    "name": "Background",
+    "label": "background",
     "collection": {
-      "label": "archetypes"
+      "label": "backgrounds"
     }
   },
   {
@@ -71,6 +61,13 @@
     "label": "class",
     "collection": {
       "label": "classes"
+    }
+  },
+  {
+    "name": "Archetype",
+    "label": "archetype",
+    "collection": {
+      "label": "archetypes"
     }
   },
   {
@@ -90,12 +87,11 @@
     }
   },
   {
-    "name": "Test",
-    "label": "test",
-    "title": "Test",
+    "name": "Rule",
+    "label": "rule",
     "collection": {
-      "label": "tests",
-      "title": "Tests"
+      "label": "rules"
     },
+    "dynamic": true 
   },
 ]

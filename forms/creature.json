@@ -1,35 +1,27 @@
 {
-  "title": "Creature",
-  "entity": "Creature",
   "sections": [
     {
       "type": "group",
       "fields": [
         {
-          "title": "Level",
+          "title": "Common.Level",
           "type": "number",
           "attribute": "data.level"
         }
       ]
     },
     {
-      "title": "Base Traits",
+      "title": "Common.BaseTraits",
       "type": "group",
       "fields": [
         {
-          "title": "Rarity",
+          "title": "Common.Rarity",
           "type": "picker",
           "attribute": "data.rarity",
           "attributeType": "Rarity"
-        }, 
-        {
-          "title": "Alignment",
-          "type": "picker",
-          "attribute": "data.alignment",
-          "attributeType": "Alignment"
         },
         {
-          "title": "Size",
+          "title": "Common.Size",
           "type": "picker",
           "attribute": "data.size",
           "attributeType": "Size"
@@ -37,11 +29,11 @@
       ]
     },
     {
-      "title": "Other Traits",
+      "title": "Common.OtherTraits",
       "type": "group",
       "fields": [
         {
-          "title": "Traits",
+          "title": "Common.Traits",
           "type": "tags",
           "attribute": "data.traits",
           "attributeType": "Trait"
@@ -52,16 +44,16 @@
       "type": "group",
       "fields": [
         {
-          "title": "Perception",
+          "title": "Creature.Perception",
           "type": "number",
           "attribute": "data.perception",
         },
         {
-          "title": "Special Senses",
+          "title": "Creature.SpecialSenses",
           "attribute": "data.senses"
         },
         {
-          "title": "Languages",
+          "title": "Creature.Languages",
           "type": "multiPicker",
           "attribute": "data.languages",
           "attributeType": "Language"
@@ -69,7 +61,7 @@
       ]
     },
     {
-      "title": "Skills",
+      "title": "Creature.Skills",
       "type": "group",
       "fields": [
         {
@@ -81,113 +73,124 @@
       ]
     },
     {
-      "title": "Ability Modifiers",
       "type": "group",
+      "title": "Creature.AttributeModifiers",
       "fields": [
         {
-          "title": "STR",
-          "type": "number",
-          "attribute": "data.str"
-        },
-        {
-          "title": "DEX",
-          "type": "number",
-          "attribute": "data.dex"
-        },
-        {
-          "title": "CON",
-          "type": "number",
-          "attribute": "data.con"
-        },
-        {
-          "title": "INT",
-          "type": "number",
-          "attribute": "data.int"
-        },
-        {
-          "title": "WIS",
-          "type": "number",
-          "attribute": "data.wis"
-        },
-        {
-          "title": "CHA",
-          "type": "number",
-          "attribute": "data.cha"
+          "type": "hStack",
+          "fields": [
+            {
+              "title": "Attribute.STR",
+              "type": "number",
+              "alignment": "top",
+              "attribute": "data.attributes.str"
+            },
+            {
+              "title": "Attribute.DEX",
+              "type": "number",
+              "alignment": "top",
+              "attribute": "data.attributes.dex"
+            },
+            {
+              "title": "Attribute.CON",
+              "type": "number",
+              "alignment": "top",
+              "attribute": "data.attributes.con"
+            },
+            {
+              "title": "Attribute.INT",
+              "type": "number",
+              "alignment": "top",
+              "attribute": "data.attributes.int"
+            },
+            {
+              "title": "Attribute.WIS",
+              "type": "number",
+              "alignment": "top",
+              "attribute": "data.attributes.wis"
+            },
+            {
+              "title": "Attribute.CHA",
+              "type": "number",
+              "alignment": "top",
+              "attribute": "data.attributes.cha"
+            }
+          ]
         },
       ]
     },
     {
-      "title": "Items",
+      "title": "Creature.Items",
       "type": "group",
       "fields": [
         {
-          "title": "Items",
-          "type": "list",
+          "placeholder": "Creature.Items",
+          "type": "textArea",
           "attribute": "data.items"
         }
       ]
     },
     {
-      "title": "Interaction Abilities",
+      "title": "Creature.InteractionAbilities",
       "type": "list",
-      "attribute": "data.interactionAbilities",
+      "attribute": "data.abilities.interaction",
       "form": {
-        "title": "Ability",
+        "title": "Creature.Ability",
         "partial": "ability"
       }
     },
     {
-      "title": "Armor Class",
+      "title": "Common.ArmorClass",
       "type": "group",
       "fields": [
         {
-          "title": "AC",
+          "title": "Common.AC",
           "type": "number",
-          "attribute": "data.ac"
+          "attribute": "data.ac.value"
         },
         {
-          "placeholder": "Detail",
-          "attribute": "data.acDetail"
+          "placeholder": "Common.Details",
+          "attribute": "data.ac.details"
         },
       ]
     },
     {
-      "title": "Saving Throws",
+      "title": "Creature.SavingThrows",
       "type": "group",
       "fields": [
         {
-          "title": "Fortitude",
+          "title": "SavingThrow.Fortitude",
           "type": "number",
-          "attribute": "data.fort"
+          "attribute": "data.saves.fortitude"
         },
         {
-          "title": "Reflex",
+          "title": "SavingThrow.Reflex",
           "type": "number",
-          "attribute": "data.ref"
+          "attribute": "data.saves.reflex"
         },
         {
-          "title": "Will",
+          "title": "SavingThrow.Will",
           "type": "number",
-          "attribute": "data.will"
+          "attribute": "data.saves.will"
         },
         {
-          "placeholder": "Detail",
-          "attribute": "data.saveDetail"
+          "placeholder": "Common.Details",
+          "attribute": "data.saves.details"
         },
       ]
     },
     {
-      "title": "Hit Points",
+      "title": "Common.HitPoints",
       "type": "group",
       "fields": [
         {
-          "title": "HP",
+          "title": "Common.HP",
           "type": "number",
-          "attribute": "data.hp"
+          "attribute": "data.hp.value"
         },
         {
-          "placeholder": "Detail",
-          "attribute": "data.hpDetail"
+          "placeholder": "Common.Details",
+          "attribute": "data.hp.details"
         },
       ]
     },
@@ -195,18 +198,18 @@
       "type": "group",
       "fields": [
         {
-          "title": "Immunities",
+          "title": "Creature.Immunities",
           "type": "list",
           "attribute": "data.immunities",
         },
         {
-          "title": "Weaknesses",
+          "title": "Creature.Weaknesses",
           "type": "attributes",
           "attribute": "data.weaknesses",
           "attributeType": "Damage"
         },
         {
-          "title": "Resistances",
+          "title": "Creature.Resistances",
           "type": "attributes",
           "attribute": "data.resistances",
           "attributeType": "Damage"
@@ -214,61 +217,63 @@
       ]
     },
     {
-      "title": "Automatic or Ractive Abilities",
+      "title": "Creature.AutomaticOrRactiveAbilities",
       "type": "list",
-      "attribute": "data.defensiveAbilities",
+      "attribute": "data.abilities.defensive",
       "form": {
-        "title": "Ability",
+        "title": "Creature.Ability",
         "partial": "ability"
       }
-    }, 
+    },
     {
-      "title": "Movement",
+      "title": "Common.Movement",
       "type": "group",
       "fields": [
         {
-          "title": "Speed",
+          "title": "Common.Speed",
           "type": "form",
+          "attribute": "data.movement",
+          "text": "{% include \"movement.md\" data.movement %}",
           "form": {
-            "partial": "movement"
+            "partial": "movement",
           }
         },
       ]
     },
     {
-      "title": "Attacks",
+      "title": "Creature.Attacks",
       "type": "list",
       "attribute": "data.attacks",
       "form": {
-        "title": "Ability",
+        "title": "Creature.Attack",
         "partial": "attack"
       }
     },
     {
-      "title": "Spellcasting",
+      "title": "Creature.Spellcasting",
       "type": "list",
       "attribute": "data.spellcasting",
       "form": {
-        "title": "Spellcasting",
+        "title": "Creature.Spellcasting",
         "partial": "spellcasting"
       }
     },
     {
-      "title": "Rituals",
+      "title": "Creature.Rituals",
       "type": "group",
       "fields": [
         {
-          "title": "Rituals",
+          "title": "Creature.Rituals",
           "type": "form",
-          "text": "{{data.ritualsType}}",
+          "text": "{{data.rituals.type}}",
           "form": {
             "sections": [
               {
                 "type": "group",
                 "fields": [
                   {
-                    "placeholder": "Type",
-                    "attribute": "data.ritualsType"
+                    "placeholder": "Common.Type",
+                    "attribute": "data.rituals.type"
                   },
                 ]
               },
@@ -277,12 +282,12 @@
                 "fields": [
                   {
                     "title": "DC",
-                    "attribute": "data.ritualsDC"
+                    "attribute": "data.rituals.dc"
                   },
                   {
                     "title": "Rituals",
                     "type": "textArea",
-                    "attribute": "data.rituals"
+                    "attribute": "data.rituals.text"
                   },
                 ]
               },
@@ -292,11 +297,11 @@
       ]
     },
     {
-      "title": "Offensive or Proactive Abilities",
+      "title": "Creature.OffensiveOrProactiveAbilities",
       "type": "list",
-      "attribute": "data.offensiveAbilities",
+      "attribute": "data.abilities.offensive",
       "form": {
-        "title": "Ability",
+        "title": "Creature.Ability",
         "partial": "ability"
       }
     }

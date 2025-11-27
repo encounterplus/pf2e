@@ -1,0 +1,44 @@
+{
+  "title": "Settings",
+  "sections": [
+    {
+      "type": "group",
+      "title": "Locale",
+      "fields": [
+        {
+          "type": "picker",
+          "title": "Common.Language",
+          "placeholder": "Common.Default",
+          "attribute": "language",
+          "attributeType": "SystemLanguage"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "title": "Combat Tracker",
+      "fields": [
+        {
+          "type": "picker",
+          "title": "Auto-Roll Initiative",
+          "placeholder": "None",
+          "defaultValue": "hostileAndNeutral",
+          "attribute": "combat.initiative.autoRoll",
+          "attributeType": "InitiativeRollType",
+        },
+        {
+          "type": "picker",
+          "title": "Group Initiative By",
+          "placeholder": "None",
+          "attribute": "combat.initiative.group",
+          "attributeType": "InitiativeGroupType",
+        },
+        {
+          "type": "toggle",
+          "title": "Re-Roll Initiative Every Round",
+          "attribute": "combat.initiative.everyRound",
+        },
+      ]
+    },
+  ]
+}

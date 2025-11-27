@@ -2,11 +2,40 @@
   "title": "Feat",
   "sections": [
     {
-      "title": "Traits",
       "type": "group",
       "fields": [
         {
-          "title": "Traits",
+          "title": "Common.Level",
+          "type": "number",
+          "attribute": "data.level"
+        }, 
+        {
+          "title": "Common.Actions",
+          "type": "picker",
+          "attribute": "data.actions",
+          "attributeType": "Action"
+        }
+      ]
+    },
+    {
+      "title": "Common.BaseTraits",
+      "type": "group",
+      "fields": [
+        {
+          "title": "Common.Rarity",
+          "type": "picker",
+          "attribute": "data.rarity",
+          "attributeType": "Rarity"
+        },
+        
+      ]
+    },
+    {
+      "title": "Common.Traits",
+      "type": "group",
+      "fields": [
+        {
+          "title": "Common.Traits",
           "type": "tags",
           "attribute": "data.traits",
           "attributeType": "Trait"
@@ -14,26 +43,22 @@
       ]
     },
     {
+      "title": "Feat.Prerequisites",
       "type": "group",
       "fields": [
         {
-          "title": "Level",
-          "type": "number",
-          "attribute": "data.level"
-        }, 
-        {
-          "title": "Prerequisites",
-          "type": "text",
+          "placeholder": "Feat.Prerequisites",
+          "type": "textArea",
           "attribute": "data.prerequisites"
-        }
+        },
       ]
-    },
+    }, 
     {
-      "title": "Benefits",
+      "title": "Feat.Benefits",
       "type": "group",
       "fields": [
         {
-          "placeholder": "Benefits",
+          "placeholder": "Feat.Benefits",
           "type": "textArea",
           "attribute": "data.benefits"
         },

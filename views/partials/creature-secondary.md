@@ -1,7 +1,7 @@
-{% if data.ac %}**AC** {{data.ac}}{% if data.acDetail %} ({{data.acDetail}}){% endif %}; {% endif %}{% if data.fort %}**Fort** {{data.fort}}, {% endif %}{% if data.ref %}**Ref** {{data.ref}}, {% endif %}{% if data.will %}**Will** {{data.will}}{% endif %}{% if data.saveDetail %}; {{data.saveDetail}}{% endif %}
+{% if data.ac %}**{{'Common.AC'|l}}** {{data.ac.value}}{% if data.ac.details %} ({{data.ac.details}}){% endif %}; {% endif %}{% if data.saves.fortitude %}**{{'SavingThrow.Fort'|l}}** [{{data.saves.fortitude|signed}}](roll "{{'SavingThrow.Fort'|l}}/save"), {% endif %}{% if data.saves.reflex %}**{{'SavingThrow.Ref'|l}}** [{{data.saves.reflex|signed}}](roll "{{'SavingThrow.Ref'|l}}/save"), {% endif %}{% if data.saves.will %}**{{'SavingThrow.Will'|l}}** [{{data.saves.will|signed}}](roll "{{'SavingThrow.Will'|l}}/save"){% endif %}{% if data.saves.details %}; {{data.saves.details}}{% endif %}
 
-{% if data.hp %}**HP** {{data.hp}}{% if data.hpDetail %}, {{data.hpDetail}}{% endif %}{% endif %}; {% if data.immunities %}**Immunities** {{data.immunities|join:', '}}; {% endif %}{% if data.weaknesses %}**Weaknesses** {% for key, value in data.weaknesses %}{{ key|map: 'Damage' }} {{value}}{% if not forloop.last %}, {% endif %}{% endfor %}; {% endif %}{% if data.resistances %}**Resistances** {% for key, value in data.resistances %}{{ key|map: 'Damage' }} {{value}}{% if not forloop.last %}, {% endif %}{% endfor %}{% endif %}
+{% if data.hp %}**{{'Common.HP'|l}}** {{data.hp.value}}{% if data.hp.details %}, {{data.hp.details}}{% endif %}{% endif %}; {% if data.immunities %}**{{'Creature.Immunities'|l}}** {{data.immunities|join:', '}}; {% endif %}{% if data.weaknesses %}**{{'Creature.Weaknesses'|l}}** {% for key, value in data.weaknesses %}{{ key|map: 'Damage' }} {{value}}{% if not forloop.last %}, {% endif %}{% endfor %}; {% endif %}{% if data.resistances %}**{{'Creature.Resistances'|l}}** {% for key, value in data.resistances %}{{ key|map: 'Damage' }} {{value}}{% if not forloop.last %}, {% endif %}{% endfor %}{% endif %}
 
-{% for ability in data.defensiveAbilities %}
+{% for ability in data.abilities.defensive %}
 {% include "ability.md" %}
 {% endfor %}

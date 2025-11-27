@@ -1,13 +1,40 @@
 {
   "title": "Spell",
-  "entity": "Spell",
   "sections": [
     {
-      "title": "Traits",
       "type": "group",
       "fields": [
         {
-          "title": "Traits",
+          "title": "Common.Type",
+          "type": "picker",
+          "attribute": "data.type",
+          "attributeType": "SpellType"
+        },
+        {
+          "title": "Spell.Rank",
+          "type": "number",
+          "attribute": "data.rank"
+        }
+      ]
+    },
+    {
+      "title": "Common.BaseTraits",
+      "type": "group",
+      "fields": [
+        {
+          "title": "Common.Rarity",
+          "type": "picker",
+          "attribute": "data.rarity",
+          "attributeType": "Rarity"
+        },
+      ]
+    },
+    {
+      "title": "Common.Traits",
+      "type": "group",
+      "fields": [
+        {
+          "title": "Common.Traits",
           "type": "tags",
           "attribute": "data.traits",
           "attributeType": "Trait"
@@ -18,88 +45,37 @@
       "type": "group",
       "fields": [
         {
-          "title": "Level",
-          "type": "number",
-          "attribute": "data.level"
-        }, 
-        {
-          "title": "School",
-          "type": "picker",
-          "attribute": "type",
-          "attributeType": "SpellSchool",
-        },
-        {
-          "title": "Traditions",
-          "type": "multiPicker",
-          "attribute": "data.traditions",
-          "attributeType": "MagicalTradition"
-        },
-      ]
-    },
-    {
-      "title": "Cast",
-      "type": "group",
-      "fields": [
-        {
-          "title": "Actions",
+          "title": "Common.Actions",
           "type": "picker",
           "attribute": "data.actions",
           "attributeType": "Action",
         },
         {
-          "title": "Custom Action",
-          "attribute": "data.customAction",
-          "hiddenIf": "{{data.actions}}"
+          "title": "Spell.Cast",
+          "type": "text",
+          "attribute": "data.cast"
         },
         {
-          "title": "Components",
-          "type": "multiPicker",
-          "attribute": "data.components",
-          "attributeType": "SpellComponent"
-        },
-        {
-          "title": "Range (Units)",
-          "type": "number",
+          "title": "Spell.Range",
+          "type": "text",
           "attribute": "data.range"
         },
         {
-          "title": "Area Effect",
-          "type": "form",
-          "text": "{% if data.areaEffectSize %}{{data.areaEffectSize}}-foot {{data.areaEffectShape|lowercase}}{% endif %}",
-          "form": {
-            "title": "Area Effect",
-            "sections": [
-              {
-                "title": "Shape",
-                "type": "picker",
-                "attribute": "data.areaEffectShape",
-                "attributeType": "AreaEffectShape"
-              },
-              {
-                "type": "group",
-                "fields": [
-                  {
-                    "title": "Size (ft)",
-                    "type": "decimal",
-                    "attribute": "data.areaEffectSize"
-                  },
-                ]
-              },
-            ]
-          }
+          "title": "Spell.Area",
+          "attribute": "data.area"
         },
         {
-          "title": "Targets",
+          "title": "Spell.Targets",
           "attribute": "data.targets"
         },
         {
-          "title": "Duration",
-          "attribute": "data.duration"
+          "title": "Spell.Defense",
+          "attribute": "data.defense"
         },
         {
-          "title": "Saving Throw",
-          "attribute": "data.savingThrow"
-        }
+          "title": "Spell.Duration",
+          "attribute": "data.duration"
+        },
       ]
     },
   ]

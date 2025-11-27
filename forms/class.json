@@ -2,78 +2,114 @@
   "title": "Class",
   "sections": [
     {
+      "title": "Common.Summary",
       "type": "group",
       "fields": [
         {
-          "title": "Key Abilities",
+          "type": "textArea",
+          "attribute": "data.summary",
+        },
+      ]
+    },
+    {
+      "type": "group",
+      "fields": [
+        {
+          "title": "Class.KeyAttribute",
           "type": "multiPicker",
-          "attribute": "data.abilities",
-          "attributeType": "Ability"
+          "attribute": "data.attributes",
+          "attributeType": "Attribute"
         },
         {
-          "title": "Hit Points",
+          "title": "Common.HitPoints",
           "type": "number",
           "attribute": "data.hp"
         },
       ]
     },
     {
-      "title": "Initial Proficiencies",
+      "title": "Class.InitialProficiencies",
       "type": "group",
       "fields": [
         {
-          "title": "Perception",
+          "title": "Common.Perception",
           "type": "picker",
           "attribute": "data.perception",
           "attributeType": "Proficiency"
-        }, 
+        },
         {
-          "title": "Fortitude",
+          "title": "SavingThrow.Fortitude",
           "type": "picker",
           "attribute": "data.fortitude",
           "attributeType": "Proficiency"
-        }, 
+        },
         {
-          "title": "Reflex",
+          "title": "SavingThrow.Reflex",
           "type": "picker",
           "attribute": "data.reflex",
           "attributeType": "Proficiency"
-        }, 
+        },
         {
-          "title": "Will",
+          "title": "SavingThrow.Will",
           "type": "picker",
           "attribute": "data.will",
           "attributeType": "Proficiency"
+        },
+        {
+          "title": "Common.Skills",
+          "type": "textArea",
+          "attribute": "data.skills"
         }, 
         {
-          "title": "Skills",
-          "type": "list",
-          "attribute": "data.skills",
-        },
+          "title": "Common.Attacks",
+          "type": "textArea",
+          "attribute": "data.attacks"
+        }, 
         {
-          "title": "Attacks",
-          "type": "list",
-          "attribute": "data.attacks",
-        },
+          "title": "Common.Defenses",
+          "type": "textArea",
+          "attribute": "data.defenses"
+        }, 
         {
-          "title": "Defenses",
-          "type": "list",
-          "attribute": "data.defenses",
-        },
-        {
-          "title": "Spells",
-          "type": "list",
-          "attribute": "data.spells",
-        },
+          "title": "Common.Spells",
+          "type": "textArea",
+          "attribute": "data.spells"
+        }
       ]
     },
     {
-      "title": "Class Features",
+      "title": "Class.KeyTerms",
+      "type": "group",
+      "fields": [
+        {
+          "type": "textArea",
+          "attribute": "data.keyTerms",
+          "custom": {
+            "lines": 6
+          }
+        }
+      ]
+    },
+    {
+      "title": "Class.ClassFeaturesText",
+      "type": "group",
+      "fields": [
+        {
+          "type": "textArea",
+          "attribute": "data.classFeaturesText",
+          "custom": {
+            "lines": 6
+          }
+        }
+      ]
+    },
+    {
+      "title": "Class.ClassFeatures",
       "type": "list",
       "attribute": "data.classFeatures",
       "listItemValue": "{{level|ordinal}}",
       "form": {
-        "title": "Feature",
+        "title": "Class.ClassFeature",
         "partial": "feature"
       }
     },

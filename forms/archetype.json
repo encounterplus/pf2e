@@ -2,11 +2,11 @@
   "title": "Archetype",
   "sections": [
     {
-      "title": "Traits",
+      "title": "Common.Traits",
       "type": "group",
       "fields": [
         {
-          "title": "Traits",
+          "title": "Common.Traits",
           "type": "tags",
           "attribute": "data.traits",
           "attributeType": "Trait"
@@ -17,26 +17,16 @@
       "type": "group",
       "fields": [
         {
-          "title": "Level",
+          "title": "Common.Level",
           "type": "number",
           "attribute": "data.level"
         }, 
         {
-          "title": "Rarity",
+          "title": "Common.Rarity",
           "type": "picker",
           "attribute": "data.rarity",
           "attributeType": "Rarity"
         }, 
-        {
-          "title": "Prerequisites",
-          "type": "text",
-          "attribute": "data.prerequisites"
-        }, 
-        {
-          "title": "Summary",
-          "type": "textArea",
-          "attribute": "data.summary",
-        },
       ]
     },
    

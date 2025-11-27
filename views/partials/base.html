@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <base href="{{env.baseURL|default: '/'}}" />
+  <title>{{name}}</title>
+  <link href="styles/pico.min.css" rel="stylesheet" type="text/css">
+  <link href="styles/default.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  {% block content %}{% endblock %}
+</body>
+<!-- <script src="/scripts/character.js"></script> -->
+<script>
+  // this needs to be injected
+  document.addEventListener('contextmenu', function (event) {
+    console.log("context menu handler")
+    const target = event.target || event.srcElement;
+
+    if (target instanceof HTMLAnchorElement && window.webkit.messageHandlers.API) {
+      let link = target.getAttribute('href')
+
+      submitAction({link: link});
+
+      event.preventDefault();
+      console.log("preventing context menu");
+      return false
+    }
+
+    return true
+  })
+
+  // TODO: beta
+  // custom action
+  function submitAction(data) {
+    if (window.webkit.messageHandlers.API) {
+      let string = JSON.stringify({ name: 'action', data: data })
+      window.webkit.messageHandlers.API.postMessage(string)
+    } else {
+      Alert("No API handlers available")
+    }
+  }
+</script>
+
+{% block scripts %}{% endblock %}
+
+</html>

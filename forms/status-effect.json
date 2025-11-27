@@ -1,0 +1,15 @@
+{
+  "title": "Status Effect",
+  "sections": [
+    {
+      "type": "group",
+      "fields": [
+        {
+          "type": "number",
+          "title": "StatusEffect.Stage",
+          "attribute": "data.stage"
+        },
+      ]
+    },
+  ]
+}

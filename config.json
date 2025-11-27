@@ -1,0 +1,50 @@
+{
+  "statusEffects": {
+    "menuProvider": ["Rule:condition"],
+    "viewRenderer": "html",
+    "collection": {
+      "title": "{{name|default: 'Unknown Effect'}} {% if data.stage > 0 %}{{data.stage}}{% endif %}",
+    }
+  },
+  "entities": {
+    "Default": {
+      "viewRenderer": "html",
+      "combatant": {
+        "bars": [
+          {
+            "attribute": "data.hp",
+            "title": "Common.HitPoints",
+            "label": "Common.HP",
+            "temporary": true
+          }
+        ]
+      }
+    },
+    "Character": {
+      "role": "friendly",
+      "collection": {
+        "detail": "{{data.race.name|default: 'Unknown Race'}} {% for class in data.classes %}{{class.name}} {{class.level}}{% if forloop.last == false  %} | {% endif %}{% endfor %}",
+      },
+      "combatant": {
+        "states": {
+          "defeated": "#{{data.hp.current|default: 1}} <= -{{data.hp.maximum|default: 0}}",
+        },
+        "bars": [
+          {
+            "attribute": "data.hp",
+            "title": "Common.HitPoints",
+            "label": "Common.HP",
+            "temporary": true
+          }
+        ]
+      }
+    },
+    "Creature": {
+      "collection": {
+      },
+      "combatant": {
+        "image": "token"
+      }
+    }
+  },
+}

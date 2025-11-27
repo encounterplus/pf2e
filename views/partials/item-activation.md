@@ -1,0 +1,1 @@
+**{{'Item.Activate'|l}}-{{name}}**{% if actions %} ![Action](icons/actions/{{actions}}.png#height=18){% endif %}{% if traits %} ({{traits|map: 'Trait'|lowercase}}){% endif %} {{text}}

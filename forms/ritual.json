@@ -1,0 +1,86 @@
+{
+  "title": "Ritual",
+  "sections": [
+    {
+      "type": "group",
+      "fields": [
+        {
+          "title": "Spell.Rank",
+          "type": "number",
+          "attribute": "data.rank"
+        }
+      ]
+    },
+    {
+      "title": "Common.BaseTraits",
+      "type": "group",
+      "fields": [
+        {
+          "title": "Common.Rarity",
+          "type": "picker",
+          "attribute": "data.rarity",
+          "attributeType": "Rarity"
+        },
+      ]
+    },
+    {
+      "title": "Common.Traits",
+      "type": "group",
+      "fields": [
+        {
+          "title": "Common.Traits",
+          "type": "tags",
+          "attribute": "data.traits",
+          "attributeType": "Trait"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "fields": [
+        {
+          "title": "Spell.Cast",
+          "type": "text",
+          "attribute": "data.cast"
+        },
+        {
+          "title": "Spell.Cost",
+          "type": "text",
+          "attribute": "data.cost"
+        },
+        {
+          "title": "Ritual.SecondaryCasters",
+          "type": "text",
+          "attribute": "data.secondaryCasters"
+        },
+        {
+          "title": "Ritual.PrimaryChecks",
+          "type": "text",
+          "attribute": "data.primaryChecks"
+        },
+        {
+          "title": "Ritual.SecondaryChecks",
+          "type": "text",
+          "attribute": "data.secondaryChecks"
+        },
+        {
+          "title": "Spell.Range",
+          "type": "text",
+          "attribute": "data.range"
+        },
+        {
+          "title": "Spell.Area",
+          "attribute": "data.area"
+        },
+        {
+          "title": "Spell.Targets",
+          "attribute": "data.targets"
+        },
+        {
+          "title": "Spell.Duration",
+          "attribute": "data.duration"
+        },
+      ]
+    },
+  ]
+}

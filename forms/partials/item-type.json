@@ -1,0 +1,46 @@
+{
+  "sections": [
+    {
+      "type": "group",
+      "fields": [
+        {
+          "placeholder": "Common.Name",
+          "attribute": "name"
+        },
+        {
+          "title": "Common.Level",
+          "type": "number",
+          "attribute": "level"
+        }, 
+        {
+          "title": "Common.Price",
+          "attribute": "price"
+        },
+        {
+          "title": "Item.Bulk",
+          "attribute": "bulk"
+        },
+      ]
+    },
+    {
+      "title": "Item.CraftRequirements",
+      "type": "group",
+      "fields": [
+       {
+          "type": "textArea",
+          "attribute": "craftRequirements",
+        }
+      ]
+    },
+    {
+      "title": "Common.Description",
+      "type": "group",
+      "fields": [
+        {
+          "type": "textArea",
+          "attribute": "text"
+        }
+      ]
+    },
+  ]
+}

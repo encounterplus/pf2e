@@ -4,7 +4,7 @@
       "type": "group",
       "fields": [
         {
-          "placeholder": "Name",
+          "placeholder": "Common.Name",
           "attribute": "name"
         },
       ]
@@ -13,25 +13,24 @@
       "type": "group",
       "fields": [
         {
-          "title": "Actions",
+          "title": "Common.Actions",
           "type": "picker",
           "attribute": "actions",
           "attributeType": "Action"
         },
         {
-          "title": "Traits",
+          "title": "Common.Traits",
           "type": "tags",
-          "attribute": "data.traits",
+          "attribute": "traits",
           "attributeType": "Trait"
         }, 
       ]
     },
     {
-      "title": "Description",
+      "title": "Common.Description",
       "type": "group",
       "fields": [
         {
-          "title": "Description",
           "type": "textArea",
           "attribute": "text"
         }

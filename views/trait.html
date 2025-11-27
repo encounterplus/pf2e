@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block content %}
+<main id="trait" class="container-fluid">
+  <section class="stat-block" data-theme="light">
+    <div class="header">
+      <h1 class="title">{{name}} {% if data.actions %}<img src="icons/actions/{{data.actions}}.png"
+          alt="{{data.actions}}" />{% endif %}</h1>
+      <div>
+         {{data.type|map: 'TraitType'|uppercase}} {{'Entity.Trait'|l|uppercase}}
+      </div>
+    </div>
+
+    <!-- <div class="traits">
+      {% if data.type %}
+      <a class="trait trait-type" href="/trait/{{data.type}}">{{data.type|map: 'TraitType'}}</a>
+      {% endif %}
+    </div> -->
+
+    {% if descr %}
+    {{descr|md}}
+    {% endif %}
+
+  </section>
+
+  {% include "footer.html" %}
+
+</main>
+{% endblock %}

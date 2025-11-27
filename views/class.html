@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <base href="{{env.baseURL|default: '/'}}" />
+  <title>{{name}}</title>
+  <link href="styles/pico.min.css" rel="stylesheet" type="text/css">
+  <link href="styles/default.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <main id="class" class="container-fluid">
+
+    <div class="header-paper">
+      <h1 class="title">{{name}}</h1>
+      <div class="quote">
+        {{data.summary}}
+      </div>
+    </div>
+
+    <div class="box">
+      {% markdown -%}
+      {% include "class-primary.md" %}
+      {% endmarkdown %}
+    </div>
+    
+    {% if descr %}
+    {{descr|md}}
+    {% endif %}
+
+    <div class="box">
+      {% markdown -%}
+      {% include "class-secondary.md" %}
+      {% endmarkdown %}
+    </div>
+
+    {% if data.classFeaturesText %}
+    <h2>{{'Class.ClassFeatures'|l}}</h2>
+    {{data.classFeaturesText|md}}
+    {% endif %}
+
+    {% if data.keyTerms %}
+    <div class="box">
+      <h2>{{'Class.KeyTerms'|l}}</h2>
+      {% markdown -%}
+      {{data.keyTerms}}
+      {% endmarkdown %}
+    </div>
+    {% endif %}
+
+    {% for feature in data.classFeatures %}
+    
+    <h3 class="split-header">{{feature.name}} 
+      {% if feature.level > 1 %}<span class="right">{{feature.level|ordinal}}</span>{% endif %}
+    </h3>
+
+    {{feature.text|md}}
+
+    {% endfor %}
+
+    {% if notes %}
+    <h2>{{'Common.Notes'|l}}</h2>
+    {{notes|md}}
+    {% endif %}
+
+    {% if image %}
+    <a href="{{env.dataURL}}{{image}}" target="_blank"><img style="width: 100%" src="{{env.dataURL}}{{image}}" /></a>
+    {% endif %}
+
+    <hr>
+
+    {% include "footer.html" %}
+
+  </main>
+</body>
+
+</html>

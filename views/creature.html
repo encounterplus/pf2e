@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+{% block content %}
+<main id="creature" class="container-fluid">
+  <section class="stat-block" data-theme="light">
+    <div class="header">
+      <h1 class="title">{{name}}</h1>
+      <div>
+        {{'Entity.Creature'|l}} {{data.level|default: '0'}}
+      </div>
+    </div>
+
+    {% if token %}
+    <a class="stat-token" href="{{env.dataURL}}{{token}}" target="_blank"><img src="{{env.dataURL}}{{token}}" /></a>
+    {% endif %}
+
+    <div class="traits">
+      {% if data.rarity and data.rarity != 'common' %}
+      <a class="trait trait-rarity-{{data.rarity}}" href="/trait/{{data.rarity}}">{{data.rarity|map: 'Rarity'}}</a>
+      {% endif %}
+
+      {% if data.size %}
+      <a class="trait trait-size" href="/trait/{{data.size}}">{{data.size|map: 'Size'}}</a>
+      {% endif %}
+
+      {% for trait in data.traits %}
+      <a class="trait" href="/trait/{{trait}}">{{trait}}</a>
+      {% endfor %}
+    </div>
+
+    <div class="stat-section">
+      {% markdown -%}
+      {% include "creature-primary.md" %}
+      {% endmarkdown %}
+    </div>
+
+    <hr>
+
+    <div class="stat-section">
+      {% markdown -%}
+      {% include "creature-secondary.md" %}
+      {% endmarkdown %}
+    </div>
+
+    <hr>
+
+    <div class="stat-section">
+      {% markdown -%}
+      {% include "creature-tertiary.md" %}
+      {% endmarkdown %}
+    </div>
+
+    <div class="stat-section">
+      {% markdown -%}
+      {% include "creature-tertiary.md" %}
+      {% endmarkdown %}
+    </div>
+  </section>
+
+  <section class="other">
+    {% if descr %}
+    {{descr|md}}
+    {% endif %}
+
+    {% if notes %}
+    <h3>{{'Common.Notes'|l}}</h3>
+    {{notes|md}}
+    {% endif %}
+
+    {% if image %}
+    <a href="{{env.dataURL}}{{image}}" target="_blank"><img style="width: 100%" src="{{env.dataURL}}{{image}}" /></a>
+    {% endif %}
+  </section>
+
+  {% include "footer.html" %}
+
+</main>
+{% endblock %}

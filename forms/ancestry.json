@@ -2,46 +2,52 @@
   "title": "Ancestry",
   "sections": [
     {
+      "title": "Common.Summary",
       "type": "group",
       "fields": [
         {
-          "title": "Hit Points",
+          "type": "textArea",
+          "attribute": "data.summary",
+        },
+      ]
+    },
+    {
+      "type": "group",
+      "fields": [
+        {
+          "title": "Common.HitPoints",
           "type": "number",
           "attribute": "data.hp"
         },
         {
-          "title": "Size",
+          "title": "Common.Size",
           "type": "picker",
           "attribute": "data.size",
           "attributeType": "Size"
         },
         {
-          "title": "Speed",
+          "title": "Common.Speed",
           "type": "form",
+          "attribute": "data.movement",
+          "text": "{% include \"movement.md\" data.movement %}",
           "form": {
-            "partial": "movement"
+            "partial": "movement",
           }
         },
         {
-          "title": "Ability Boosts",
+          "title": "Ancestry.AttributeBoosts",
           "type": "multiPicker",
-          "attribute": "data.abilityBoosts",
-          "attributeType": "Ability"
+          "attribute": "data.attributeBoosts",
+          "attributeType": "Attribute"
         }, 
         {
-          "title": "Ability Flaws",
+          "title": "Ancestry.AttributeFlaws",
           "type": "multiPicker",
-          "attribute": "data.abilityFlaws",
-          "attributeType": "Ability"
-        }, 
-        {
-          "title": "Skill Training",
-          "type": "multiPicker",
-          "attribute": "data.skills",
-          "attributeType": "Skill"
+          "attribute": "data.attributeFlaws",
+          "attributeType": "Attribute"
         },
         {
-          "title": "Languages",
+          "title": "Common.Languages",
           "type": "multiPicker",
           "attribute": "data.languages",
           "attributeType": "Language"
@@ -61,21 +67,21 @@
       ]
     },
     {
-      "title": "Features",
+      "title": "Ancestry.SpecialAbilities",
       "type": "list",
-      "attribute": "data.features",
+      "attribute": "data.abilities",
       "form": {
-        "title": "Feature",
+        "title": "Ancestry.SpecialAbility",
         "sections": [
           {
             "type": "group",
             "fields": [
               {
-                "placeholder": "Name",
+                "placeholder": "Common.Name",
                 "attribute": "name"
               },
               {
-                "title": "Text",
+                "title": "Common.Description",
                 "type": "textArea",
                 "attribute": "text"
               }

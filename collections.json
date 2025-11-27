@@ -1,11 +1,29 @@
 {
   "Size": [
-    "T",
-    "S",
-    "M",
-    "L",
-    "H",
-    "G",
-    "C"
+    "tiny",
+    "small",
+    "medium",
+    "large",
+    "huge",
+    "gargantuan",
+  ],
+  "Attribute": [
+    "strength",
+    "dexterity",
+    "constitution",
+    "intelligence",
+    "wisdom",
+    "charisma"
+  ],
+  "Alignment": [
+    "LG",
+    "NG",
+    "CG",
+    "LN",
+    "NN",
+    "CN",
+    "LE",
+    "NE",
+    "CE"
   ],
 }

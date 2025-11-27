@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% block content %}
+<main id="spell" class="container-fluid">
+  <section class="stat-block" data-theme="light">
+    <div class="header">
+      <h1 class="title">{{name}} {% if data.actions %}<img src="icons/actions/{{data.actions}}.png"
+          alt="{{data.actions}}" />{% endif %}</h1>
+      <div>
+        {{data.type|map: 'SpellType'|uppercase}} {{data.rank|default: '0'}}
+      </div>
+    </div>
+
+    <div class="traits">
+      {% if data.rarity and data.rarity != 'common' %}
+      <a class="trait trait-rarity-{{data.rarity}}" href="/trait/{{data.rarity}}">{{data.rarity|map: 'Rarity'}}</a>
+      {% endif %}
+
+      {% for trait in data.traits %}
+      <a class="trait" href="/trait/{{trait}}">{{trait}}</a>
+      {% endfor %}
+    </div>
+
+    <div class="stat-section">
+      {% markdown -%}
+      {% include "spell-primary.md" %}
+      {% endmarkdown %}
+    </div>
+
+    <hr>
+
+    {% if descr %}
+    {{descr|md}}
+    {% endif %}
+  </section>
+
+  <section class="other">
+    {% if notes %}
+    <h3>{{'Common.Notes'|l}}</h3>
+    {{notes|md}}
+    {% endif %}
+
+    {% if image %}
+    <a href="{{env.dataURL}}{{image}}" target="_blank"><img style="width: 100%" src="{{env.dataURL}}{{image}}" /></a>
+    {% endif %}
+  </section>
+
+  {% include "footer.html" %}
+
+</main>
+{% endblock %}

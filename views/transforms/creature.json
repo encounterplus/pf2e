@@ -1,0 +1,12 @@
+{
+  "attributes": [
+    {
+      "data.armor": "#{{data.ac.value|integer}}",
+      "data.initiativeBonus": "#{% if data.perception %}{{data.perception}}{% else %}{{data.attributes.dex|default: 0}}{% endif %}",
+    },
+    {
+      "inCombatDetail": "{{'Common.AC'|l}} {{data.armor}}",
+      "outCombatDetail": "{{'Common.AC'|l}} {{data.armor}}",
+    }
+  ]
+}

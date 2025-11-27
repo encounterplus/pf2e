@@ -1,0 +1,21 @@
+{
+  "sections": [
+    {
+      "type": "group",
+      "fields": [
+        {
+          "title": "Common.Rarity",
+          "type": "picker",
+          "attribute": "data.rarity",
+          "attributeType": "Rarity"
+        },
+        {
+          "title": "Common.Type",
+          "type": "picker",
+          "attribute": "data.type",
+          "attributeType": "TraitType"
+        },
+      ]
+    },
+  ]
+}

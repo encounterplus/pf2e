@@ -1,12 +1,10 @@
 {% if data.traditions %}
-**Traditions** {{data.traditions|map: 'MagicalTradition'|lowercase}}
+**{{'Spell.Traditions'|l}}** {{data.traditions|map: 'MagicalTradition'|lowercase}}
 {% endif %}
 
-{% if data.components or data.actions or data.time %}
-**Cast** {% if data.actions %}![Action](/icons/Action/{{data.actions}}.png#height=18) {% else %}{{data.time}} {% endif %}{{data.components|map: 'SpellComponent'|lowercase}}
-{% endif %}
+{% if data.cast %}**{{'Spell.Cast'|l}}** {{data.cast}}; {% endif %}{% if data.trigger %}**{{'Spell.Trigger'|l}}** {{data.trigger}}{% endif %}
 
-{% if data.range %}**Range** {{data.range}} feet; {% endif %}{% if data.areaEffectSize %}**Area** {{data.areaEffectSize}}-foot {{data.areaEffectShape|map: 'AreaEffectShape'|lowercase}}; {% endif %}{% if data.targets %}**Targets** {{data.targets}}; {% endif %}
+{% if data.range %}**{{'Spell.Range'|l}}** {{data.range}}; {% endif %}{% if data.area %}**{{'Spell.Area'|l}}** {{data.area}}; {% endif %}{% if data.targets %}**{{'Spell.Targets'|l}}** {{data.targets}} {% endif %}
 
-{% if data.savingThrow %}**Saving Throw** {{data.savingThrow}}; {% endif %}{% if data.duration %}**Duration** {{data.duration}}{% endif %}
+{% if data.defense %}**{{'Spell.Defense'|l}}** {{data.defense}}; {% endif %}{% if data.duration %}**{{'Spell.Duration'|l}}** {{data.duration}}{% endif %}
 

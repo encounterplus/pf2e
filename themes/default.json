@@ -5,7 +5,7 @@
   "dividerColor": "#cccccc",
   "bgColor": "#F7F3F0",
   "bgImage": "/images/paper.jpg",
-  "styles": {
+  "textStyles": {
     "body": {
       "font": "Sabon",
       "lineSpacing": 3,
@@ -39,7 +39,7 @@
       "color": "#5D0000",
       "case": "uppercase",
       "lineHeight": 26,
-      "lineSpacing": 6,
+      "lineSpacing": 3,
       "size": 19,
     },
     "heading4": {
@@ -66,7 +66,11 @@
     },
     "stats-body": {
       "font": "FF Good Pro",
-      "lineSpacing":2,
+      "color": "#000000",
+      "size": 16
+    },
+    "stats-body-bold": {
+      "font": "FF Good Pro Bold",
       "color": "#000000",
       "size": 16
     },
@@ -89,8 +93,8 @@
       "size": 14
     },
     "blockquote": {
-      "font": "FF Good Pro",
-      "color": "#5D0000",
+      "font": "Roboto Condensed",
+      "color": "#02256E",
       "lineSpacing": 3,
       "size": 16
     },

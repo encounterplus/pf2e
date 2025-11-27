@@ -1,37 +1,33 @@
 {% if data.perception %}
-### Perception
+#### {{'Common.Perception'|l}}
 {{data.perception|map: 'Proficiency'}} in Perception
 {% endif %}
 
-### Saving Throws
-{{data.fortitude|map: 'Proficiency'|suffix: ' in Fortitude'}}
-{{data.reflex|map: 'Proficiency'|suffix: ' in Reflex'}}
-{{data.will|map: 'Proficiency'|suffix: ' in Will'}}
+#### {{'Common.SavingThrows'|l}}
+{% if data.fortitude %}{{data.fortitude|map: 'Proficiency'}} in Fortitude{% endif %}
+{% if data.reflex %}{{data.reflex|map: 'Proficiency'}} in Reflex'{% endif %}
+{% if data.will %}{{data.will|map: 'Proficiency'}} in Will{% endif %}
 
-{% if data.skills%}
-### Skills
-{% for text in data.skills %}
-{{text}}{% endfor %}
+{% if data.skills %}
+#### {{'Common.Skills'|l}}
+{{data.skills}}
 {% endif %}
 
 {% if data.attacks %}
-### Attacks
-{% for text in data.attacks %}
-{{text}}{% endfor %}
+#### {{'Common.Attacks'|l}}
+{{data.attacks}}
 {% endif %}
 
 {% if data.defenses %}
-### Defenses
-{% for text in data.defenses %}
-{{text}}{% endfor %}
+#### {{'Common.Defenses'|l}}
+{{data.defenses}}
 {% endif %}
 
 {% if data.spells %}
-### Spells
-{% for text in data.spells %}
-{{text}}{% endfor %}
+#### {{'Common.Spells'|l}}
+{{data.spells}}
 {% endif %}
 
-### Class DC
+#### {{'Class.ClassDC'|l}}
 
 Trained in {{name|lowercase}} class DC

@@ -1,39 +1,39 @@
 {% if data.hp %}
-### Hit Points
+##### {{'Common.HitPoints'|l}}
 {{data.hp}}
 {% endif %}
 
 {% if data.size %}
-### Size
+##### {{'Common.Size'|l}}
 {{data.size|map: 'Size'}}
 {% endif %}
 
 {% if data.movement %}
-### Speed
-{{data.movement}}
+##### {{'Common.Speed'|l}}
+{% include "movement.md" data.movement %}
 {% endif %}
 
-{% if data.abilityBoosts %}
-### Ability Boosts
-{{data.abilityBoosts|map: "Ability", "\n"}}
+{% if data.attributeBoosts %}
+##### {{'Ancestry.AttributeBoosts'|l}}
+{{data.attributeBoosts|map: "Attribute", "\n"}}
 {% endif %}
 
-{% if data.abilityFlaws %}
-### Ability Flaws
-{{data.abilityFlaws|map: "Ability", "\n"}}
+{% if data.attributeFlaws %}
+##### {{'Ancestry.AttributeFlaws'|l}}
+{{data.attributeFlaws|map: "Attribute", "\n"}}
 {% endif %}
 
 {% if data.languages %}
-### Languages
+##### {{'Common.Languages'|l}}
 {{data.languages|map: 'Language', "\n"}}
 {% endif %}
 
 {% if data.traits %}
-### Traits
+##### {{'Common.Traits'|l}}
 {{data.traits|map: 'Trait', "\n"}}
 {% endif %}
 
-{% for feature in data.features %}
-### {{feature.name}}
-{{feature.text}}
+{% for ability in data.abilities %}
+##### {{ability.name}}
+{{ability.text}}
 {% endfor %}

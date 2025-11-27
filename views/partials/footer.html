@@ -1,0 +1,14 @@
+<footer>
+  {% markdown -%}
+  {% if sourceFormatted %}**{{'Common.Source'|l}}:** {{sourceFormatted}}{% endif %}
+  {% if locationFormatted %}**{{'Common.Location'|l}}:** {{locationFormatted}}{% endif %}
+  {% endmarkdown %}
+
+  {% if tags %}
+  <div class="tags">
+  {% for tag in tags %}
+    <span class="tag">{{tag}}</span>
+  {% endfor %}
+  </div>
+  {% endif %}
+</footer>

@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+{% block content %}
+<main id="status-effect" class="container-fluid">
+  <section class="stat-block" data-theme="light">
+    <div class="header">
+      <h1 class="title">{{name}} {% if data.stage > 0 %}{{data.stage}}{% endif %}</h1>
+      <div>
+        {{'Common.StatusEffect'|l|uppercase}}
+      </div>
+    </div>
+
+    <div class="traits">
+      {% if entityTitle %}
+      <a class="trait trait-type">{{entityTitle}}</a>
+      {% endif %}
+    </div>
+
+    <div class="stat-section">
+      {% markdown -%}
+      {% include "status-effect-primary.md" %}
+      {% endmarkdown %}
+    </div>
+
+    <hr>
+
+    <div class="checkbox-group">
+      <strong style="cursor: pointer;" onclick="updateStage(1, 1)">{{'StatusEffect.Stage'|l}}</strong>&nbsp;
+      {% for i in 1...6 %}
+      <input type="checkbox" onchange="updateStage({{data.stage|default: 0}}, {{i}})" {% if data.stage >= i %}checked{% endif %}>
+      {% endfor %}
+    </div>
+
+    <hr>
+
+    {% if descr %}
+    {{descr|md}}
+    {% endif %}
+  </section>
+
+  {% if notes %}
+  <h3>{{'Common.Notes'|l}}</h3>
+  {{notes|md}}
+  {% endif %}
+
+</main>
+{% endblock %}
+
+{% block scripts %}
+<script>
+  function updateStage(currentStage, index) {
+    // current stage rendered with template engine
+    var newStage = 0
+    if (index > currentStage || index < currentStage) {
+      newStage = index;
+    } else {
+      newStage = index - 1;
+    }
+    submitAction({set: {'data.stage': newStage }});
+  }
+</script>
+{% endblock %}
