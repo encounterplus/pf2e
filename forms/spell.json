@@ -5,6 +5,18 @@
       "type": "group",
       "fields": [
         {
+          "title": "Common.Actions",
+          "type": "picker",
+          "attribute": "data.actions",
+          "attributeType": "Action",
+        },
+        {
+          "title": "Common.ActionsMult",
+          "type": "picker",
+          "attribute": "data.actionsmult",
+          "attributeType": "ActionMult",
+        },
+        {
           "title": "Common.Type",
           "type": "picker",
           "attribute": "data.type",
@@ -45,16 +57,20 @@
       "type": "group",
       "fields": [
         {
-          "title": "Common.Actions",
-          "type": "picker",
-          "attribute": "data.actions",
-          "attributeType": "Action",
-        },
-        {
           "title": "Spell.Traditions",
           "type": "multiPicker",
           "attribute": "data.traditions",
           "attributeType": "MagicalTradition"
+        },
+        {
+          "title": "Spell.Muse",
+          "type": "text",
+          "attribute": "data.muse"
+        },
+        {
+          "title": "Spell.Trigger",
+          "type": "text",
+          "attribute": "data.trigger"
         },
         {
           "title": "Spell.Requirements",
@@ -70,11 +86,6 @@
           "title": "Spell.Cost",
           "type": "text",
           "attribute": "data.cost"
-        },
-        {
-          "title": "Spell.Trigger",
-          "type": "text",
-          "attribute": "data.trigger"
         },
         {
           "title": "Spell.Range",
