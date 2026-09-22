@@ -4,7 +4,8 @@
   <section class="stat-block" data-theme="light">
     <div class="header">
       <h1 class="title">{{name}} {% if data.actions %}<img src="icons/actions/{{data.actions}}.png"
-          alt="{{data.actions}}" />{% endif %}</h1>
+          alt="{{data.actions}}" />{% endif %}{% if data.actionsmult %} {{'Common.To'|l}} <img src="icons/actions/{{data.actionsmult}}.png"
+          alt="{{data.actionsmult}}" />{% endif %}</h1>
       <div>
         {{data.type|map: 'SpellType'|uppercase}} {{data.rank|default: '0'}}
       </div>

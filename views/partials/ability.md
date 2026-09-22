@@ -1,1 +1,1 @@
-**{{ability.name}}**{% if ability.actions %} ![Action](/icons/actions/{{ability.actions}}.png#height=18){% endif %}{% if ability.traits %} ({{ability.traits|map: 'Trait'|lowercase}}){% endif %} {{ability.text}}
+**{{ability.name}}**{% if ability.actions %} ![Action](/icons/actions/{{ability.actions}}.png#height=18){% endif %}{% if ability.traits %} ({% for key, value in ability.traits %}[{{key|map:’Trait’|lowercase}}](trait){% if forloop.last != true %}, {% endif %}{% endfor %}) {% endif %} {{ability.text}}

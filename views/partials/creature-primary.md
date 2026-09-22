@@ -1,4 +1,4 @@
-{% if data.perception %}
+{% if data.perception or data.senses %}
 **{{'Creature.Perception'|l}}** [{{data.perception|signed}}](roll "{{'Creature.Perception'|l}}"); {{data.senses}}
 {% endif %}
 
