@@ -18,17 +18,17 @@
         {
           "title": "Maximum",
           "type": "number",
-          "attribute": "data.hpMaximum"
+          "attribute": "data.hp.maximum"
         },
         {
           "title": "Current",
           "type": "number",
-          "attribute": "data.hpCurrent"
+          "attribute": "data.hp.current"
         },
         {
           "title": "Temporary",
           "type": "number",
-          "attribute": "data.hpTemporary"
+          "attribute": "data.hp.temporary"
         },
       ]
     },

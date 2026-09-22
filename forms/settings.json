@@ -38,7 +38,41 @@
           "title": "Re-Roll Initiative Every Round",
           "attribute": "combat.initiative.everyRound",
         },
+        {
+          "type": "picker",
+          "title": "Settings.CombatantImageType",
+          "placeholder": "Common.Default",
+          "attribute": "entities.Default.combatant.image",
+          "attributeType": "CombatImageDisplayType",
+        },
       ]
     },
+    {
+      "type": "group",
+      "title": "Settings.UI",
+      "fields": [
+        {
+          "type": "picker",
+          "title": "Settings.CollectionImageType",
+          "placeholder": "Common.Default",
+          "attribute": "entities.Default.collection.image",
+          "attributeType": "ListImageDisplayType",
+        },
+        {
+          "type": "picker",
+          "title": "Settings.CreatureCollectionImageType",
+          "placeholder": "Common.Default",
+          "attribute": "entities.Creature.collection.image",
+          "attributeType": "ListImageDisplayType",
+        },
+         {
+          "type": "picker",
+          "title": "Settings.CharacterCollectionImageType",
+          "placeholder": "Common.Default",
+          "attribute": "entities.Character.collection.image",
+          "attributeType": "ListImageDisplayType",
+        }
+      ]
+    }
   ]
 }
