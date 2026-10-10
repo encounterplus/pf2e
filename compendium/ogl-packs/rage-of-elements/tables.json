@@ -1,0 +1,155 @@
+[
+  {
+    "id": "28E2F64A-85F6-5782-83F5-81F0676F844F",
+    "kind": "Table",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Octopus Potion Added Effect",
+    "slug": "octopus-potion-added-effect-rage-of-elements",
+    "descr": "Roll 1d4 and use the matching result range. [Open the source entry](/item/octopus-potion-lesser-rage-of-elements) for context.",
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "table",
+      "rollable",
+      "rage-of-elements"
+    ],
+    "columns": [
+      {
+        "name": "1d4",
+        "size": 0.5,
+        "align": null
+      },
+      {
+        "name": "Added Effect",
+        "size": 0.5,
+        "align": null
+      }
+    ],
+    "rows": [
+      [
+        "1",
+        "The arms cover the eyes; the target is also [Blinded](/condition/blinded-player-core)."
+      ],
+      [
+        "2",
+        "The arms cover the mouth; the target can't speak."
+      ],
+      [
+        "3",
+        "The arms wrap around the limbs; the flat check for the target to use a manipulate action while grabbed is Flat DC 7 instead of DC 5."
+      ],
+      [
+        "4",
+        "The arms crush your enemy; the target takes bludgeoning damage equal to the potion's level immediately and at the end of each of its turns."
+      ]
+    ],
+    "rollMode": "normal"
+  },
+  {
+    "id": "63C9E2D2-9DC0-5421-96D9-598154E159FB",
+    "kind": "Table",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Rainbow Fumarole Color",
+    "slug": "rainbow-fumarole-color-rage-of-elements",
+    "descr": "Roll 1d8 and use the matching result range. [Open the source entry](/spell/rainbow-fumarole-rage-of-elements) for context.",
+    "sources": [
+      {
+        "name": "Rage of Elements",
+        "page": 122
+      }
+    ],
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "table",
+      "rollable",
+      "rage-of-elements"
+    ],
+    "columns": [
+      {
+        "name": "1d8",
+        "size": 0.25,
+        "align": null
+      },
+      {
+        "name": "Color",
+        "size": 0.25,
+        "align": null
+      },
+      {
+        "name": "Damage",
+        "size": 0.25,
+        "align": null
+      },
+      {
+        "name": "Added Effect",
+        "size": 0.25,
+        "align": null
+      }
+    ],
+    "rows": [
+      [
+        "1",
+        "Red",
+        "50 fire plus 2d6 persistent fire",
+        "—"
+      ],
+      [
+        "2",
+        "Orange",
+        "50 fire",
+        "Knocked Prone"
+      ],
+      [
+        "3",
+        "Yellow",
+        "30 fire plus 20 bludgeoning",
+        "Pushed 10 feet"
+      ],
+      [
+        "4",
+        "Green",
+        "20 fire plus 20 acid",
+        "Sickened 2"
+      ],
+      [
+        "5",
+        "Blue",
+        "30 fire",
+        "Paralyzed for 1 round"
+      ],
+      [
+        "6",
+        "Indigo",
+        "30 fire",
+        "Confused for 1 minute"
+      ],
+      [
+        "7",
+        "Violet",
+        "30 fire",
+        "Slowed 1 for 1 minute"
+      ],
+      [
+        "8",
+        "All",
+        "Choose the color for each affected creature and use that color's damage and added effect; if a creature is affected again, you can choose a different color.",
+        "—"
+      ]
+    ],
+    "rollMode": "normal"
+  }
+]

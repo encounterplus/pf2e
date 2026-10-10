@@ -1,0 +1,61 @@
+{
+  "sections": [
+    {
+      "type": "group",
+      "fields": [
+        {
+          "title": "Common.Name",
+          "attribute": "name"
+        }
+      ]
+    },
+    {
+      "title": "Reference",
+      "type": "group",
+      "fields": [
+        {
+          "title": "Reference",
+          "type": "reference",
+          "attribute": "reference"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "fields": [
+        {
+          "title": "Creature.SenseAcuity",
+          "type": "picker",
+          "attribute": "acuity",
+          "attributeType": "SenseAcuity"
+        },
+        {
+          "title": "Common.Details",
+          "attribute": "details"
+        }
+      ]
+    },
+    {
+      "title": "Custom Acuity Reference",
+      "type": "group",
+      "visibleIf": "{% if acuity and acuity != 'precise' and acuity != 'imprecise' and acuity != 'vague' %}true{% endif %}",
+      "fields": [
+        {
+          "title": "Reference",
+          "type": "reference",
+          "attribute": "acuityReference"
+        }
+      ]
+    },
+    {
+      "title": "Creature.CustomSenseText",
+      "type": "group",
+      "fields": [
+        {
+          "type": "textArea",
+          "attribute": "customText"
+        }
+      ]
+    }
+  ]
+}

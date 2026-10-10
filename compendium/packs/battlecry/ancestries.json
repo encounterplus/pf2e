@@ -1,0 +1,70 @@
+[
+  {
+    "id": "13BF4732-77A8-5893-B6F3-042E3A1E6679",
+    "kind": "Ancestry",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Jotunborn",
+    "slug": "jotunborn-battlecry",
+    "descr": "",
+    "data": {
+      "rarity": "rare",
+      "traits": [
+        "giant",
+        "humanoid",
+        "jotunborn"
+      ],
+      "hp": 10,
+      "size": "large",
+      "movement": {
+        "walk": 25
+      },
+      "attributeBoosts": [
+        "strength",
+        "wisdom"
+      ],
+      "attributeFlaws": [
+        "charisma"
+      ],
+      "languages": [
+        "common",
+        "jotun"
+      ],
+      "summary": "",
+      "traitLinks": [
+        {
+          "label": "giant",
+          "slug": "giant"
+        },
+        {
+          "label": "humanoid",
+          "slug": "humanoid"
+        },
+        {
+          "label": "jotunborn",
+          "slug": "jotunborn"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "giant",
+      "humanoid",
+      "jotunborn",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

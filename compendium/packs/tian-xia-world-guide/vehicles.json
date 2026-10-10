@@ -1,0 +1,342 @@
+[
+  {
+    "id": "5BD2B084-E15F-59B7-9783-6B558D6B1392",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Atakebune",
+    "slug": "atakebune-tian-xia-world-guide-vehicle-vehicle-83",
+    "descr": "",
+    "data": {
+      "level": 11,
+      "rarity": "common",
+      "traits": [],
+      "size": "huge",
+      "price": "4,000 gp",
+      "space": {
+        "long": 75,
+        "wide": 30,
+        "high": 30
+      },
+      "crew": "1 pilot, 80 rowers",
+      "passengers": "60",
+      "pilotingCheck": "Sailing Lore (DC 27), Diplomacy (DC 29), or Intimidation (DC 29)",
+      "speed": "swim 30 feet (rowed)",
+      "ac": {
+        "value": 26,
+        "details": ""
+      },
+      "hp": {
+        "value": 150,
+        "details": "",
+        "bt": 75
+      },
+      "hardness": 20,
+      "fortitude": 21,
+      "collisionDC": 27,
+      "collisionDamage": "8d10",
+      "abilities": [
+        {
+          "name": "Sluggish",
+          "text": "This vehicle must move twice its length for each 90-degree turn it makes.",
+          "traits": []
+        }
+      ],
+      "traitLinks": [],
+      "immunities": [
+        "critical hits, object immunities, precision damage"
+      ],
+      "description": "A rowed ship for travel on the water."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "tian-xia-world-guide",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "tian-xia-world-guide",
+      "vehicle"
+    ],
+    "sources": [
+      {
+        "name": "Tian Xia World Guide",
+        "url": "https://2e.aonprd.com/Vehicles.aspx?ID=83",
+        "page": 266
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "9817D967-B9BB-5E33-AB85-CAF94CE02241",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Baochuan",
+    "slug": "baochuan-tian-xia-world-guide-vehicle-vehicle-84",
+    "descr": "",
+    "data": {
+      "level": 13,
+      "rarity": "common",
+      "traits": [],
+      "size": "gargantuan",
+      "price": "8,000 gp",
+      "space": {
+        "long": 300,
+        "wide": 50,
+        "high": 40
+      },
+      "crew": "1 pilot, 200 crew",
+      "passengers": "400",
+      "pilotingCheck": "Sailing Lore (DC 31) or Nature (DC 33)",
+      "speed": "swim 30 feet (wind)",
+      "ac": {
+        "value": 29,
+        "details": ""
+      },
+      "hp": {
+        "value": 250,
+        "details": "",
+        "bt": 125
+      },
+      "hardness": 10,
+      "fortitude": 23,
+      "collisionDamage": "",
+      "abilities": [],
+      "traitLinks": [],
+      "immunities": [
+        "critical hits, object immunities, precision damage"
+      ],
+      "weaknesses": "fire 10 until broken",
+      "description": "A wind-driven ship for travel on the water."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "tian-xia-world-guide",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "tian-xia-world-guide",
+      "vehicle"
+    ],
+    "sources": [
+      {
+        "name": "Tian Xia World Guide",
+        "url": "https://2e.aonprd.com/Vehicles.aspx?ID=84",
+        "page": 266
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "6DA10CB3-9FE6-5A84-89EA-A4C2A4A4D89E",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Djong",
+    "slug": "djong-tian-xia-world-guide-vehicle-vehicle-85",
+    "descr": "",
+    "data": {
+      "level": 15,
+      "rarity": "common",
+      "traits": [],
+      "size": "gargantuan",
+      "price": "17,000 gp",
+      "space": {
+        "long": 250,
+        "wide": 100,
+        "high": 50
+      },
+      "crew": "1 pilot, 400 rowers",
+      "passengers": "100",
+      "pilotingCheck": "Sailing Lore (DC 34), Diplomacy (DC 36), or Intimidation (DC 36)",
+      "speed": "swim 50 feet (rowed, wind)",
+      "ac": {
+        "value": 32,
+        "details": ""
+      },
+      "hp": {
+        "value": 280,
+        "details": "",
+        "bt": 140
+      },
+      "hardness": 15,
+      "fortitude": 26,
+      "collisionDC": 34,
+      "collisionDamage": "9d12",
+      "abilities": [
+        {
+          "name": "Sluggish",
+          "text": "This vehicle must move twice its length for each 90-degree turn it makes.",
+          "traits": []
+        }
+      ],
+      "traitLinks": [],
+      "immunities": [
+        "critical hits, object immunities, precision damage"
+      ],
+      "weaknesses": "fire 15 until broken",
+      "description": "A sailing vessel that can also be propelled by rowers."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "tian-xia-world-guide",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "tian-xia-world-guide",
+      "vehicle"
+    ],
+    "sources": [
+      {
+        "name": "Tian Xia World Guide",
+        "url": "https://2e.aonprd.com/Vehicles.aspx?ID=85",
+        "page": 267
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "9D166DC3-67C1-5032-A227-68318F341D41",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Geobukseon",
+    "slug": "geobukseon-tian-xia-world-guide-vehicle-vehicle-86",
+    "descr": "",
+    "data": {
+      "level": 12,
+      "rarity": "common",
+      "traits": [],
+      "size": "huge",
+      "price": "6,000 gp",
+      "space": {
+        "long": 110,
+        "wide": 35,
+        "high": 40
+      },
+      "crew": "1 pilot, 80 rowers",
+      "passengers": "50",
+      "pilotingCheck": "Sailing Lore (DC 30), Diplomacy (DC 32), or Intimidation (DC 32)",
+      "speed": "swim 30 feet (rowed, wind)",
+      "ac": {
+        "value": 23,
+        "details": ""
+      },
+      "hp": {
+        "value": 180,
+        "details": "",
+        "bt": 90
+      },
+      "hardness": 20,
+      "fortitude": 18,
+      "collisionDC": 30,
+      "collisionDamage": "8d10",
+      "abilities": [
+        {
+          "name": "Smoking Breath",
+          "text": "When the geobukseon Stops, it's concealed by the smoke for 1 round or until it next moves. The geobukseon can't use this concealment to Hide or Sneak.\n **Turtleback Spikes** The roof of a geobukseon is difficult terrain and hazardous terrain. A creature that moves on the roof takes 1d6 piercing damage for every square of that area it moves into. Falling prone on the geobukseon's roof deals 5d6 piercing damage.",
+          "traits": []
+        }
+      ],
+      "traitLinks": [],
+      "immunities": [
+        "critical hits, object immunities, precision damage"
+      ],
+      "description": "A watercraft propelled by rowing or wind."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "tian-xia-world-guide",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "tian-xia-world-guide",
+      "vehicle"
+    ],
+    "sources": [
+      {
+        "name": "Tian Xia World Guide",
+        "url": "https://2e.aonprd.com/Vehicles.aspx?ID=86",
+        "page": 267
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "16635DDB-32BC-59B5-8B4C-2705002AF99B",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Karakoa",
+    "slug": "karakoa-tian-xia-world-guide-vehicle-vehicle-87",
+    "descr": "",
+    "data": {
+      "level": 5,
+      "rarity": "common",
+      "traits": [],
+      "size": "large",
+      "price": "450 gp",
+      "space": {
+        "long": 80,
+        "wide": 40,
+        "high": 30
+      },
+      "crew": "1 pilot, 20 rowers",
+      "passengers": "20",
+      "pilotingCheck": "Sailing Lore (DC 20) or Athletics (DC 22)",
+      "speed": "swim 40 feet (rowed, wind)",
+      "ac": {
+        "value": 17,
+        "details": ""
+      },
+      "hp": {
+        "value": 70,
+        "details": "",
+        "bt": 35
+      },
+      "hardness": 10,
+      "fortitude": 12,
+      "collisionDC": 20,
+      "collisionDamage": "5d8",
+      "abilities": [],
+      "traitLinks": [],
+      "immunities": [
+        "critical hits, object immunities, precision damage"
+      ],
+      "weaknesses": "fire 10 until broken",
+      "description": "A vessel propelled by rowers or wind."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "tian-xia-world-guide",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "tian-xia-world-guide",
+      "vehicle"
+    ],
+    "sources": [
+      {
+        "name": "Tian Xia World Guide",
+        "url": "https://2e.aonprd.com/Vehicles.aspx?ID=87",
+        "page": 267
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  }
+]

@@ -1,0 +1,148 @@
+[
+  {
+    "id": "D89F279A-95A1-5462-9553-27A31119137E",
+    "kind": "Table",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Eerie Proclamation Failure",
+    "slug": "eerie-proclamation-failure-dark-archive",
+    "descr": "Roll 1d4 and use the matching result range. [Open the source entry](/feat/eerie-proclamation-dark-archive) for context.",
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 66
+      }
+    ],
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "table",
+      "rollable",
+      "dark-archive"
+    ],
+    "columns": [
+      {
+        "name": "1d4",
+        "size": 0.3333333333333333,
+        "align": null
+      },
+      {
+        "name": "Failure",
+        "size": 0.3333333333333333,
+        "align": null
+      },
+      {
+        "name": "Critical Failure",
+        "size": 0.3333333333333333,
+        "align": null
+      }
+    ],
+    "rows": [
+      [
+        "1",
+        "Clumsy 2",
+        "Clumsy 3"
+      ],
+      [
+        "2",
+        "Enfeebled 2",
+        "Enfeebled 3"
+      ],
+      [
+        "3",
+        "Stupefied 2",
+        "Stupefied 3"
+      ],
+      [
+        "4",
+        "Dazzled",
+        "Blinded for 1 round, then Dazzled"
+      ]
+    ],
+    "rollMode": "normal"
+  },
+  {
+    "id": "F05F755A-B749-5BC7-9D59-85605052FDAB",
+    "kind": "Table",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Deviant Ability Quirk",
+    "slug": "deviant-ability-quirk-dark-archive",
+    "descr": "Roll 1d10 and use the matching result range. [Open the source entry](/rule/quirks-rules-3509) for context.",
+    "sources": [
+      {
+        "name": "Dark Archives (Remastered)",
+        "page": 103,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3509"
+      }
+    ],
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "table",
+      "rollable",
+      "dark-archive"
+    ],
+    "columns": [
+      {
+        "name": "1d10",
+        "size": 0.5,
+        "align": null
+      },
+      {
+        "name": "Quirk",
+        "size": 0.5,
+        "align": null
+      }
+    ],
+    "rows": [
+      [
+        "1",
+        "**Temporal Effectiveness** The deviation's power feels slightly stronger (or slightly weaker) at a specific time of day."
+      ],
+      [
+        "2",
+        "**Musical Notation** Your deviation produces strange ethereal tones or chimes when activated, or you activate it through singing, whistling, or similar performance."
+      ],
+      [
+        "3",
+        "**Strange Biology** When you gained your deviation, you grew extra eyes, a set of chitinous antennae, or some other strange biological feature unusual for your ancestry. While you might be able to hide it underneath clothing, your deviant abilities all center around this organ, so it must be uncovered and unobstructed for you to use your deviation."
+      ],
+      [
+        "4",
+        "**Chromatic Absorption** Whenever you use your deviation, you absorb or mute a specific color from an object near you, and any manifestation of your deviant ability has that color. The absorbed colors return to your surroundings within an hour."
+      ],
+      [
+        "5",
+        "**Selective Application** The deviation works slightly better (or slightly worse) on a certain type of creature (such as gnomes or caterpillars) or material (such as glass or silver)."
+      ],
+      [
+        "6",
+        "**Atmospheric Disturbance** When you use your deviation, tiny clouds, light wind, or other small atmospheric disturbances occur within 5 feet of your body."
+      ],
+      [
+        "7",
+        "**Fractal Sign** Your deviation causes sand, droplets, small insects, or other lightweight objects to organize themselves into strange, geometric patterns whenever activated."
+      ],
+      [
+        "8",
+        "**Harmless Wound** When you use your deviation, trace amounts of blood drip from your eyes or nose."
+      ],
+      [
+        "9",
+        "**Strange Fuel** Each day, you must consume a small amount of a specific material, such as quartz or holy water (which you can do harmlessly), or your deviation is painful to use."
+      ],
+      [
+        "10",
+        "**Forgotten Prayers** When you gain your deviation, piecemeal knowledge of a forgotten language fills your mind—not enough to communicate, but enough that you control your deviation by commanding or beseeching some higher power in the language."
+      ]
+    ],
+    "rollMode": "normal"
+  }
+]

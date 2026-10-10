@@ -1,0 +1,155 @@
+[
+  {
+    "name": "Acrobatics",
+    "aonId": 34,
+    "attribute": [
+      "dexterity"
+    ],
+    "page": 233,
+    "descr": "Acrobatics measures your ability to perform tasks requiring coordination and grace. When you use the [Escape](/action/escape-player-core) basic action, you can use your Acrobatics modifier instead of your unarmed attack modifier. You can also use it for the basic actions [Arrest a Fall](/action/arrest-a-fall-player-core) and [Grab an Edge](/action/grab-an-edge-player-core) instead of Reflex.\n\n## Acrobatics Untrained Actions\n\n- [Balance](/action/balance-player-core)\n- [Tumble Through](/action/tumble-through-player-core)\n\n## Acrobatics Trained Actions\n\n- [Maneuver in Flight](/action/maneuver-in-flight-player-core)\n- [Squeeze](/action/squeeze-player-core)"
+  },
+  {
+    "name": "Arcana",
+    "aonId": 35,
+    "attribute": [
+      "intelligence"
+    ],
+    "page": 234,
+    "descr": "Arcana measures how much you know about arcane magic and creatures.\n\n## Arcana Untrained General Actions\n\n- [Recall Knowledge](/action/recall-knowledge-player-core) about arcane theories; magic traditions; creatures of arcane significance (like [constructs](/trait/construct), [beasts](/trait/beast), and [elementals](/trait/elemental)); and the Astral Plane, Elemental Planes, and the Netherworld.\n\n## Arcana Trained General Actions\n\n- [Decipher Writing](/action/decipher-writing-player-core) about arcane theory.\n\n- [Identify Magic](/action/identify-magic-player-core), particularly magic of the arcane tradition.\n\n- [Learn a Spell](/action/learn-a-spell-player-core) from the arcane tradition.\n\n## Arcana Trained Actions\n\n- [Borrow an Arcane Spell](/action/borrow-an-arcane-spell-player-core)"
+  },
+  {
+    "name": "Athletics",
+    "aonId": 36,
+    "attribute": [
+      "strength"
+    ],
+    "page": 234,
+    "descr": "Athletics allows you to perform deeds of physical prowess. Most Athletics actions let you move about the environment ([Climb](/action/climb-player-core), [High Jump](/action/high-jump-player-core), [Long Jump](/action/long-jump-player-core), [Swim](/action/swim-player-core)) or control your opponent's movement in combat ([Grapple](/action/grapple-player-core), Reposition, [Shove](/action/shove-player-core), [Trip](/action/trip-player-core), and [Disarm](/action/disarm-player-core)). [Escape](/action/escape-player-core): When you use the Escape basic action, you can use your Athletics modifier instead of your unarmed attack modifier.\n\n### Multiple Attacks with Athletics\n\nSeveral Athletics actions have the [attack](/trait/attack) trait, meaning that using them more than once in the same turn makes them less accurate. Since these actions use your free hand, you use the traits for your fist attack to determine the multiple attack penalty, so your fist's [agile](/trait/agile) trait applies. Therefore, you take a –4 penalty if the action is your second attack of the turn, or a –8 if it's the third. Some weapon traits allow you to take these actions using a weapon, in which case the penalty might be –5 or –10 if the weapon doesn't have the agile trait. Some characters can get unarmed attacks without the agile trait as well. If it's unclear which penalty to use, the GM makes the call.\n\n## Athletics Untrained Actions\n\n- [Climb](/action/climb-player-core)\n- [Force Open](/action/force-open-player-core)\n- [Grapple](/action/grapple-player-core)\n- [High Jump](/action/high-jump-player-core)\n- [Long Jump](/action/long-jump-player-core)\n- [Reposition](/action/reposition-player-core)\n- [Shove](/action/shove-player-core)\n- [Swim](/action/swim-player-core)\n- [Trip](/action/trip-player-core)\n\n## Athletics Trained Actions\n\n- [Disarm](/action/disarm-player-core)"
+  },
+  {
+    "name": "Crafting",
+    "aonId": 37,
+    "attribute": [
+      "intelligence"
+    ],
+    "page": 236,
+    "descr": "You can use this skill to create and repair items.\n\n## Crafting Untrained General Actions\n\n- [Recall Knowledge](/action/recall-knowledge-player-core) about alchemical reactions, the value of items, engineering, unusual materials, and alchemical or mechanical creatures. The GM determines which creatures this applies to, but it usually includes [constructs](/trait/construct).\n\n## Crafting Trained General Actions\n\n- [Earn Income](/action/earn-income-player-core) by crafting goods for the market.\n\n## Consumables and Ammunition\n\nYou can [Craft](/action/craft-player-core) items with the [consumable](/trait/consumable) trait in batches, making up to four of the same item at once with a single check. This requires you to include the raw materials for all the items in the batch at the start, and you must complete the batch all at once. You also Craft non-magical ammunition in batches, using the quantity listed in the Ranged Weapons table (typically 10).\n\n## Getting Formulas\n\nYou can gain access to the formulas for all common items in Chapter 6: Equipment by purchasing a [basic crafter's book](/item/basic-crafter-s-book-player-core) (page 287). See [Formulas](/rule/formulas-rules-2214) for information on how to acquire other formulas.\n\n## Crafting Untrained Actions\n\n- [Repair](/action/repair-player-core)\n\n## Crafting Trained Actions\n\n- [Craft](/action/craft-player-core)\n- [Identify Alchemy](/action/identify-alchemy-player-core)"
+  },
+  {
+    "name": "Deception",
+    "aonId": 38,
+    "attribute": [
+      "charisma"
+    ],
+    "page": 237,
+    "descr": "You can trick and mislead others using disguises, lies, and other forms of subterfuge. Deception often has a drawback if you get found out, and it's often best to be out of town by the time this happens.\n\n## Deception Untrained Actions\n\n- [Create a Diversion](/action/create-a-diversion-player-core)\n- [Impersonate](/action/impersonate-player-core)\n- [Lie](/action/lie-player-core)\n\n## Deception Trained Actions\n\n- [Feint](/action/feint-player-core)"
+  },
+  {
+    "name": "Diplomacy",
+    "aonId": 39,
+    "attribute": [
+      "charisma"
+    ],
+    "page": 239,
+    "descr": "You influence others through negotiation and flattery, or find out information through friendly chats.\n\n## Diplomacy Untrained Actions\n\n- [Gather Information](/action/gather-information-player-core)\n- [Make an Impression](/action/make-an-impression-player-core)\n- [Request](/action/request-player-core)"
+  },
+  {
+    "name": "Intimidation",
+    "aonId": 40,
+    "attribute": [
+      "charisma"
+    ],
+    "page": 240,
+    "descr": "You bend others to your will using threats. Unlike [Deception](/rule/deception-skill-player-core) or [Diplomacy](/rule/diplomacy-skill-player-core), Intimidation is typically a blunt instrument with little room for nuance or care.\n\n## Intimidation Untrained Actions\n\n- [Coerce](/action/coerce-player-core)\n- [Demoralize](/action/demoralize-player-core)"
+  },
+  {
+    "name": "Lore",
+    "aonId": 41,
+    "attribute": [
+      "intelligence"
+    ],
+    "page": 240,
+    "descr": "You have specialized information on a narrow topic. Lore features many subcategories. You might have Military Lore, Sailing Lore, Vampire Lore, or any similar subcategory of the skill. Each subcategory counts as its own skill, so applying a skill increase to Planar Lore wouldn't increase your proficiency with Sailing Lore, for example.\n\nMost backgrounds make you trained in a specific subcategory of the Lore skill. The GM determines what other subcategories they'll allow as Lore skills, though these categories are always less broad than any of the other skills that allow you to [Recall Knowledge](/action/recall-knowledge-player-core), and they should never be able to take the place of another skill's Recall Knowledge action. For instance, you couldn't choose Magic Lore to recall the breadth of knowledge about magic covered by [Arcana](/rule/arcana-skill-player-core), [Nature](/rule/nature-skill-player-core), [Occultism](/rule/occultism-skill-player-core), and [Religion](/rule/religion-skill-player-core), or choose Adventuring Lore to give you all the information an adventurer needs, or choose Planar Lore to gain all the information spread across various skills and subcategories such as Heaven Lore.\n\nIf you're making a check and multiple subcategories of Lore could apply, or a non-Lore skill could apply, you can use whichever skill you prefer. If there's any doubt whether a Lore skill applies to a specific topic or action, the GM decides whether it can be used or not. Even if you’re untrained in Lore, you can use it to Recall Knowledge.\n\n## Lore Untrained General Actions\n\n- [Recall Knowledge](/action/recall-knowledge-player-core) about the subject of the Lore skill's subcategory.\n\n## Lore Trained General Actions\n\n- [Earn Income](/action/earn-income-player-core) by using your knowledge to practice a trade.\n\n### Common Lore Subcategories\n\nYou can learn any Lore skill your GM gives you permission to take. The following list covers a wide variety of common Lore topics appropriate for player characters in most campaigns. Backgrounds often grant you a Lore skill from this list.\n\n- Academia Lore\n- Accounting Lore\n- Architecture Lore\n- Art Lore\n- Astronomy Lore\n- Carpentry Lore\n- Circus Lore\n- Driving Lore\n- Engineering Lore\n- Farming Lore\n- Fishing Lore\n- Fortune-Telling Lore\n- Games Lore\n- Genealogy Lore\n- Gladiatorial Lore\n- Guild Lore\n- Heraldry Lore\n- Herbalism Lore\n- Hunting Lore\n- Labor Lore\n- Legal Lore\n- Library Lore\n- Lore about a specific deity (Abadar Lore, Iomedae Lore)\n- Lore about a specific creature or narrow category of creatures (Demon Lore, Giant Lore, Vampire Lore)\n- Lore about a specific plane other than the Universe, or the plane in which the game is set if not the Universe (Astral Plane Lore, Heaven Lore, Outer Rifts Lore)\n- Lore about a specific public organization (Hellknights Lore, Pathfinder Society Lore)\n- Lore about a specific settlement (Absalom Lore, Magnimar Lore)\n- Lore about a specific terrain (Mountain Lore, River Lore)\n- Lore about a type of food or drink (Alcohol Lore, Baking Lore, Butchering Lore, Cooking Lore, Tea Lore)\n- Mercantile Lore\n- Midwifery Lore\n- Milling Lore\n- Mining Lore\n- Piloting Lore\n- Sailing Lore\n- Scouting Lore\n- Scribing Lore\n- Stabling Lore\n- Tanning Lore\n- Theater Lore\n- Underworld Lore\n- Warfare Lore"
+  },
+  {
+    "name": "Medicine",
+    "aonId": 42,
+    "attribute": [
+      "wisdom"
+    ],
+    "page": 241,
+    "descr": "You can patch up wounds and help people recover from diseases and poisons. [Treat Wounds](/action/treat-wounds-player-core) is especially useful, allowing your adventuring party to heal up between fights. It can be made more efficient with skill feats like [Continual Recovery](/feat/continual-recovery-player-core) and [Ward Medic](/feat/ward-medic-player-core).\n\n## Medicine Untrained General Actions\n\n- [Recall Knowledge](/action/recall-knowledge-player-core) about diseases, injuries, poisons, and other ailments. You can use this to perform forensic examinations if you spend 10 minutes (or more, as determined by the GM) checking for evidence such as wound patterns. This is most useful when determining how a body was injured or killed.\n\n## Medicine Untrained Actions\n\n- [Administer First Aid](/action/administer-first-aid-player-core)\n\n## Medicine Trained Actions\n\n- [Treat Disease](/action/treat-disease-player-core)\n- [Treat Poison](/action/treat-poison-player-core)\n- [Treat Wounds](/action/treat-wounds-player-core)"
+  },
+  {
+    "name": "Nature",
+    "aonId": 43,
+    "attribute": [
+      "wisdom"
+    ],
+    "page": 242,
+    "descr": "You know about the natural world, and you command and train animals and magical beasts.\n\n## Nature Untrained General Actions\n\n- [Recall Knowledge](/action/recall-knowledge-player-core) about fauna, flora, geography, weather, the environment, creatures of natural origin (like [animals](/trait/animal), [beasts](/trait/beast), [fey](/trait/fey), and [plants](/trait/plant)), the First World, and the Elemental Planes.\n\n## Nature Trained General Actions\n\n- [Identify Magic](/action/identify-magic-player-core), particularly magic of the primal tradition.\n\n- [Learn a Spell](/action/learn-a-spell-player-core) from the primal tradition.\n\n## Nature Untrained Actions\n\n- [Command an Animal](/action/command-an-animal-player-core)"
+  },
+  {
+    "name": "Occultism",
+    "aonId": 44,
+    "attribute": [
+      "intelligence"
+    ],
+    "page": 243,
+    "descr": "You know a great deal about ancient philosophies, esoteric lore, obscure mysticism, and supernatural creatures.\n\n## Occultism Untrained General Actions\n\n- [Recall Knowledge](/action/recall-knowledge-player-core) about ancient mysteries; obscure philosophies; creatures of occult significance (like [aberrations](/trait/aberration), [spirits](/trait/spirit), and [oozes](/trait/ooze)); and esoteric planes like the Astral Plane, Creation's Forge, the Ethereal Plane, the Netherworld, and the Void.\n\n## Occultism Trained General Actions\n\n- [Decipher Writing](/action/decipher-writing-player-core) on occult topics, including complex metaphysical systems, syncretic principles, obscure philosophies, and incoherent ramblings.\n\n- [Identify Magic](/action/identify-magic-player-core), particularly magic of the occult tradition.\n\n- [Learn a Spell](/action/learn-a-spell-player-core) from the occult tradition."
+  },
+  {
+    "name": "Performance",
+    "aonId": 45,
+    "attribute": [
+      "charisma"
+    ],
+    "page": 243,
+    "descr": "You are skilled at a form of performance, using your talents to impress a crowd or make a living.\n\n## Basic Competence\n\nSome performances require you to be more than just charismatic, and if you don't meet the demands of the art form or the audience, the GM might apply a penalty based on the relevant attribute. For example, if you're dancing and have a negative Dexterity modifier, you might take a penalty to your attempt at dancing. Likewise, if you are orating and have a negative Intelligence modifier, you might have to hope your raw Charisma can overcome the penalties from your intellectual shortcomings—or ask someone to help write your speeches!\n\n## Performance Traits\n\nWhen you use an action that utilizes the Performance skill, it gains one or more traits relevant to the type of performance. The GM might change these depending on the circumstances, but the most common performance-based traits are listed below.\n\nIf you want to be particularly skilled with one type of performance, you can select the [Virtuosic Performer](/feat/virtuosic-performer-player-core) skill feat (page 264). That feat breaks down some of the performance listed above into specific instrument types, and your GM might allow you to add your own type.\n\n| **Performance** | **Additional Traits** |\n| --- | --- |\n| Act or perform comedy | [Auditory](/trait/auditory), [linguistic](/trait/linguistic), and [visual](/trait/visual) |\n| Dance | [Move](/trait/move) and [visual](/trait/visual) |\n| Play an instrument | [Auditory](/trait/auditory) and [manipulate](/trait/manipulate) |\n| Orate or sing | [Auditory](/trait/auditory) and [linguistic](/trait/linguistic) |\n\n## Performance Trained General Actions\n\n- [Earn Income](/action/earn-income-player-core) by staging a performance.\n\n## Performance Untrained Actions\n\n- [Perform](/action/perform-player-core)"
+  },
+  {
+    "name": "Religion",
+    "aonId": 46,
+    "attribute": [
+      "wisdom"
+    ],
+    "page": 244,
+    "descr": "The secrets of deities, dogma, faith, and the realms of divine creatures both sublime and sinister are open to you. You also understand how magic works, though your training imparts a religious slant to that knowledge.\n\n## Religion Untrained General Actions\n\n- [Recall Knowledge](/action/recall-knowledge-player-core) about divine agents, the finer points of theology, obscure myths regarding a faith, and creatures of religious significance (like [celestials](/trait/celestial), [fiends](/trait/fiend), and [undead](/trait/undead)), Creation's Forge, the Void, and the Outer Sphere.\n\n## Religion Trained General Actions\n\n- [Decipher Writing](/action/decipher-writing-player-core) of a religious nature, including allegories, homilies, and proverbs.\n\n- [Identify Magic](/action/identify-magic-player-core), particularly magic of the divine tradition.\n\n- [Learn a Spell](/action/learn-a-spell-player-core) from the divine tradition."
+  },
+  {
+    "name": "Society",
+    "aonId": 47,
+    "attribute": [
+      "intelligence"
+    ],
+    "page": 244,
+    "descr": "You understand the people and systems that make civilization run, and you know the historical events that make societies what they are today. Further, you can use that knowledge to navigate the complex physical, societal, and economic workings of settlements.\n\n## Society Untrained General Actions\n\n- [Recall Knowledge](/action/recall-knowledge-player-core) about local history, important personalities, legal institutions, societal structure, and humanoid cultures. The GM might allow Society to apply to other creatures that are major elements of society in your region, such as the draconic nobility in a kingdom of humans ruled by dragons.\n\n- [Subsist](/action/subsist-player-core) in a settlement by finding shelter, scrounging, or begging for food.\n\n## Society Trained General Actions\n\n- [Decipher Writing](/action/decipher-writing-player-core) that's a coded message, text written in an incomplete or archaic form, or in some cases, text in a language you don't know.\n\n## Society Trained Actions\n\n- [Create Forgery](/action/create-forgery-player-core)"
+  },
+  {
+    "name": "Stealth",
+    "aonId": 48,
+    "attribute": [
+      "dexterity"
+    ],
+    "page": 244,
+    "descr": "You are skilled at avoiding detection, allowing you to slip past foes, hide, or conceal an item.\n\n### Being Stealthy\n\nIf you want to sneak around when there are creatures that can see you, you can use a combination of [Hide](/action/hide-player-core) and [Sneak](/action/sneak-player-core) to do so.\n\n- First, **Hide** behind something (either by taking advantage of [cover](/rule/cover-rules-2372) or having the [concealed](/condition/concealed-player-core) condition due to fog, a spell, or a similar effect). A successful Stealth check makes you [hidden](/condition/hidden-player-core), though the creatures still know roughly where you are. - Second, now that you're hidden, you can **Sneak**. That means you can move at half your Speed and attempt another Stealth check. If it's successful, you're now [undetected](/condition/undetected-player-core). That means the creatures don't know which square you're in anymore. If you were approaching creatures that didn't know you were there, you could begin Sneaking right away, since they didn't know your location to start with. Some actions can cause you to become [observed](/condition/observed-player-core) again, but they're mostly what you'd expect: standing out in the open, attacking someone, making a bunch of noise, and so forth. Unobtrusive actions, such as Recalling Knowledge or reloading a weapon, allow you to remain hidden or undetected. If you Strike someone after successfully Hiding or Sneaking, though, they're [off-guard](/condition/off-guard-player-core) to that Strike.\n\nCreatures can try to find you using the [Seek](/action/seek-player-core) action.\n\nThree conditions explain the states of detection. Remember that these conditions are relative to each creature—you can be observed by one creature while hidden to another and undetected by a third. [**Observed**](/condition/observed-player-core): You're in the creature's clear view. [**Hidden**](/condition/hidden-player-core): The creature knows your location but can't see you. [**Undetected**](/condition/undetected-player-core): The creature doesn't know your location.\n\n### Unobservable Stealth\n\nIn some cases, it can be impossible for a creature to fully observe you. Typically this happens if you're [invisible](/condition/invisible-player-core), the observer is [blinded](/condition/blinded-player-core), or you're in [darkness](/rule/darkness-rules-2404) and the creature can't see in darkness. In such cases, any critical failure you roll on a check to Sneak is a failure instead. You also continue to be [undetected](/condition/undetected-player-core) if you lose cover or greater cover against or are no longer [concealed](/condition/concealed-player-core) from such a creature.\n\n## Stealth Untrained Actions\n\n- [Conceal an Object](/action/conceal-an-object-player-core)\n- [Hide](/action/hide-player-core)\n- [Sneak](/action/sneak-player-core)"
+  },
+  {
+    "name": "Survival",
+    "aonId": 49,
+    "attribute": [
+      "wisdom"
+    ],
+    "page": 246,
+    "descr": "You are adept at living in the wilderness, foraging for food and building shelter, and with training you discover the secrets of tracking and hiding your trail.\n\n## Survival Untrained General Actions\n\n- [Subsist](/action/subsist-player-core) in the wild by foraging for food and building shelter.\n\n## Survival Untrained Actions\n\n- [Sense Direction](/action/sense-direction-player-core)\n\n## Survival Trained Actions\n\n- [Cover Tracks](/action/cover-tracks-player-core)\n- [Track](/action/track-player-core)"
+  },
+  {
+    "name": "Thievery",
+    "aonId": 50,
+    "attribute": [
+      "dexterity"
+    ],
+    "page": 246,
+    "descr": "You are trained in a particular set of skills favored by thieves and miscreants.\n\n## Thievery Untrained Actions\n\n- [Palm an Object](/action/palm-an-object-player-core)\n- [Steal](/action/steal-player-core)\n\n## Thievery Trained Actions\n\n- [Disable a Device](/action/disable-a-device-player-core)\n- [Pick a Lock](/action/pick-a-lock-player-core)"
+  }
+]

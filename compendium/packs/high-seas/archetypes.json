@@ -1,0 +1,38 @@
+[
+  {
+    "id": "C7D63C7A-9ED6-5380-AD75-9A22B67C023C",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Marine Marauder",
+    "slug": "marine-marauder-high-seas-archetype-archetype-385",
+    "descr": "You’ve spent your life beside the sea or nestled against the shores of a vast lake, and water has become a part of your being. You’ve learned from the secrets of shore and seabed and adapted them to your daily life. While some spend their whole life at sea and others never venture beyond the safety of the land, you managed to blend the best of both worlds.\n\nMany like you embrace the lives of sailors, pirates, or swashbucklers. They know as well as you do that there’s nothing like a good fight at sea and the salty tang on your lips when it’s over.\n\nThe techniques of a marine marauder allow them to be a danger both on land and underwater. Many navies train their sailors in these techniques due to their effectiveness at dealing with underwater attackers. Cheliax’s and Vidrian’s navies are particularly known for their elite marines. Among Cheliax, these marines are known as “sea devils,” while in Vidrian the common parlance is “spines” due to their habit of sticking to a foe.\n\nThis fighting style developed over centuries of sea travel and many of the techniques make use of common sea tools like ropes, nets, and harpoons. The reliance on these items means that it’s not uncommon to encounter what otherwise seems like a fisher or a mundane sailor that’s capable of tangling with the best underwater warriors.\n\n## Using Nets\n\nNets aren’t weapons, despite being used similarly. They are held in two hands and can be used in two distinct ways.\n\nWith a rope attached, you can use the net to [Grapple](/action/grapple-player-core) a Medium or smaller creature from up to 10 feet away, and can continue to Grapple the target so long as it remains within 10 feet and you continue to hold the net. The [grabbed](/condition/grabbed-player-core) creature gains a +2 circumstance bonus to [Escape](/action/escape-player-core) unless you’re adjacent to it and can attempt a DC 16 Athletics check to [Force Open](/action/force-open-player-core) the net. Once the target Escapes, the net is unwieldy until you use an [Interact](/action/interact-player-core) action with the [concentrate](/trait/concentrate) trait and two free hands to refold it; until refolded, Grapple checks attempted with the net take a –2 penalty.\n\nWithout a rope, you can throw the net, attempting a ranged attack roll using your simple weapon proficiency against a Medium or smaller creature within 20 feet. On a hit, the target is [off-guard](/condition/off-guard-player-core) and takes a -10-foot circumstance penalty to its Speeds until it Escapes against a DC of 16, and on a critical hit, it’s also [immobilized](/condition/immobilized-player-core) until it Escapes. A creature adjacent to the target can also Interact to remove the net.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "level": 2,
+      "prerequisites": "Trained in Athletics",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "high-seas",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Archetypes.aspx?ID=385",
+        "page": 106
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  }
+]

@@ -1,0 +1,606 @@
+[
+  {
+    "id": "88E4E6D1-36AB-5439-BAC3-6E0321579F73",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Act Together",
+    "slug": "act-together-impossible-magic-action-action-4268",
+    "descr": "**Frequency** once per round\n\nYou and your eidolon act as one. Either you or your eidolon takes an action or activity using the same number of actions as Act Together, and the other takes a single action.\n\n For example, if you spent 2 actions to Act Together, you could cast [_breathe fire_](/spell/breathe-fire-player-core) (2 actions) and your eidolon could Strike (1 action), or your eidolon could use their Dragon Breath (2 actions) and you could Stride (1 action).\n\n This lets you each use separate [exploration activities](/rule/exploration-activities-rules-2442) like [Avoid Notice](/action/avoid-notice-player-core) as you travel.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "summoner",
+        "tandem"
+      ],
+      "category": "action",
+      "frequency": "once per round",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": [
+        {
+          "label": "summoner",
+          "slug": "summoner"
+        },
+        {
+          "label": "tandem",
+          "slug": "tandem"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "action",
+      "impossible-magic",
+      "remaster",
+      "summoner",
+      "tandem"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Actions.aspx?ID=4268",
+        "page": 65
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "2E8E605D-19A2-5CDD-A0C8-22B3AA1F5257",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Arcane Cascade",
+    "slug": "arcane-cascade-impossible-magic-action-action-4261",
+    "descr": "---\n\nYou cycle arcane power through your body and weapon using specialized forms, breathing, or footwork. While you're in the stance, your melee [Strikes](/action/strike-player-core) gain the [arcane](/trait/arcane) trait (making them magical) and deal 1 extra force damage, and you gain [resistance](/rule/resistance-rules-2318) 1 to damage from spells. If you have the weapon specialization class feature, the damage and resistance increase to 2, and if you have greater weapon specialization, they increase to 3.\n\n If you [Cast a Spell](/action/cast-a-spell-player-core) and then enter Arcane Cascade on the same turn, you can change the damage from the stance to any one damage type that spell could deal instead of force.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "magus",
+        "stance"
+      ],
+      "category": "action",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "magus",
+          "slug": "magus"
+        },
+        {
+          "label": "stance",
+          "slug": "stance"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "action",
+      "concentrate",
+      "impossible-magic",
+      "magus",
+      "remaster",
+      "stance"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Actions.aspx?ID=4261",
+        "page": 12
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "7C952ACA-D400-5FF3-AE2B-CB128B237298",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Cleanse Soul Path",
+    "slug": "cleanse-soul-path-impossible-magic-action-action-4270",
+    "descr": "---\n\nYou meditate, pray, or otherwise try to reinforce your soul's connection to your armament. This takes 10 minutes. Attempt a [counteract](/rule/counteracting-rules-3280) check against your _soulforged corruption_. The counteract rank is half your level rounded up, and the counteract check modifier is your Religion modifier. If successful, reduce the stage of soulforged corruption by 1 (to a minimum of stage 1).",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "exploration"
+      ],
+      "category": "action",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": [
+        {
+          "label": "exploration",
+          "slug": "exploration"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "action",
+      "exploration",
+      "impossible-magic",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Actions.aspx?ID=4270",
+        "page": 101
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "50093744-CF0B-5515-B414-99171F13303C",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Double Spellstrike",
+    "slug": "double-spellstrike-impossible-magic-action-action-4262",
+    "descr": "**Frequency** once per day\n\n**Requirements** Your Spellstrike is charged.\n\nYou [Spellstrike](/action/spellstrike-impossible-magic-action-action-4260), but you cast two spells instead of one. The combined rank of the spells must be 10 or less, and they must both meet the normal criteria for spells you can cast in a Spellstrike.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "magus"
+      ],
+      "category": "action",
+      "frequency": "once per day",
+      "requirements": "Your Spellstrike is charged.",
+      "trigger": "",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "magus",
+          "slug": "magus"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "action",
+      "impossible-magic",
+      "magus",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Actions.aspx?ID=4262",
+        "page": 11
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "A91861DA-FAAC-58F9-9D05-B8A1D1EBEDE2",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Fuel Impossible Spell",
+    "slug": "fuel-impossible-spell-impossible-magic-action-action-4271",
+    "descr": "---\n\nYou put more of yourself on the line to draw forth the hidden potentials behind an impossible spell. You empower the effect of one of your active impossible spells further as detailed under the spell's description. Every time you Fuel an Impossible Spell, you become [doomed](/condition/doomed-player-core) 1 or increase your doomed condition by 1 if you' re already doomed.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "exploration"
+      ],
+      "category": "action",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "exploration",
+          "slug": "exploration"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "action",
+      "exploration",
+      "impossible-magic",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Actions.aspx?ID=4271",
+        "page": 174
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "E9390968-9120-563F-816A-0999AEC28836",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Inevitable Return",
+    "slug": "inevitable-return-impossible-magic-action-action-4263",
+    "descr": "**Trigger** A Small or Medium enemy within 30 feet dies.\n\nThe deaths of those around you simply fuel your undead army. You create a thrall in the triggering corpse’s space. This thrall is the same size as the triggering creature.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "necromancer",
+        "thrall"
+      ],
+      "category": "action",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "A Small or Medium enemy within 30 feet dies.",
+      "actions": "reaction",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "necromancer",
+          "slug": "necromancer"
+        },
+        {
+          "label": "thrall",
+          "slug": "thrall"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "action",
+      "concentrate",
+      "impossible-magic",
+      "necromancer",
+      "remaster",
+      "thrall"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Actions.aspx?ID=4263",
+        "page": 31
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "4F0E4775-560A-52EF-A934-BE3A94B29BC8",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Invoke Rune",
+    "slug": "invoke-rune-impossible-magic-action-action-4265",
+    "descr": "---\n\nYou utter the names of up to two of your runes within 30 feet, and each of which blazes with power, applying the effect in its Invocation entry. An invoked rune then fades away, its task completed. Though you can invoke up to two runes with a single Invoke Rune action, creatures that would be affected by multiple copies of the same rune are affected only once, as normal for duplicate effects.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "invocation",
+        "magical",
+        "runesmith"
+      ],
+      "category": "action",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "invocation",
+          "slug": "invocation"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "runesmith",
+          "slug": "runesmith"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "action",
+      "impossible-magic",
+      "invocation",
+      "magical",
+      "remaster",
+      "runesmith"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Actions.aspx?ID=4265",
+        "page": 44
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "AC033DBB-B035-51D8-8657-1958012D5FFC",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Manifest Eidolon",
+    "slug": "manifest-eidolon-impossible-magic-action-action-4267",
+    "descr": "---\n\nYour eidolon appears in an open space adjacent to you, and can then take a single action. If your eidolon was already manifested, you unmanifest them instead.\n\n The conduit that allows your eidolon to manifest is also a tether between you. Your eidolon must remain within 100 feet of you at all times and can't willingly go beyond that limit. If forced beyond this distance, or if you are reduced to 0 Hit Points or your eidolon were to die, your eidolon's physical form unmanifests, and you need to use Manifest Eidolon to manifest them again.\n\n**Special** This activity has the trait matching your eidolon's tradition ([arcane](/trait/arcane), [divine](/trait/divine), [occult](/trait/occult), or [primal](/trait/primal)).",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "manipulate",
+        "summoner",
+        "teleportation"
+      ],
+      "category": "action",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "three",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "summoner",
+          "slug": "summoner"
+        },
+        {
+          "label": "teleportation",
+          "slug": "teleportation"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "action",
+      "concentrate",
+      "impossible-magic",
+      "manipulate",
+      "remaster",
+      "summoner",
+      "teleportation"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Actions.aspx?ID=4267",
+        "page": 64
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "4548A728-1BEF-5380-AF1C-A4337758ADD0",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Share Senses",
+    "slug": "share-senses-impossible-magic-action-action-4269",
+    "descr": "**Requirements** Your eidolon is manifested.\n\nYou project your senses into your eidolon, allowing you to perceive through them. When you do, you lose all sensory information from your own body but can sense through your eidolon's body for up to 1 minute. You can Dismiss this effect.\n\n**Special** This action has the trait matching your eidolon's tradition ([arcane](/trait/arcane), [divine](/trait/divine), [occult](/trait/occult), or [primal](/trait/primal)). Your eidolon can also use this ability. When they do, they project their senses into your body.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "scrying",
+        "summoner"
+      ],
+      "category": "action",
+      "frequency": "",
+      "requirements": "Your eidolon is manifested.",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "scrying",
+          "slug": "scrying"
+        },
+        {
+          "label": "summoner",
+          "slug": "summoner"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "action",
+      "concentrate",
+      "impossible-magic",
+      "remaster",
+      "scrying",
+      "summoner"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Actions.aspx?ID=4269",
+        "page": 65
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "3E7B9C0A-FCE0-5838-BD23-C401D3834314",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spellstrike",
+    "slug": "spellstrike-impossible-magic-action-action-4260",
+    "descr": "**Frequency** until recharged (see below)\n\nYou channel a spell into a punch or sword thrust to deliver a combined attack. You cast a spell that takes 1 or 2 actions to cast and requires either a spell attack roll or a saving throw. You imbue its effects into an attack instead of executing the spell normally. Make a melee [Strike](/action/strike-player-core) with a weapon or unarmed attack. This counts as two attacks for your multiple attack penalty, but you don't apply the penalty until after you've completed the Spellstrike. The infusion of spell energy grants your Strike the [arcane](/trait/arcane) trait, making it magical. If the spell required a spell attack roll, use your Strike's results to determine the effects of both the Strike and the spell. If the spell required a save, the target of the Strike rolls its saving throw normally regardless of your attack roll's result unless your Strike was a critical failure, in which case your spell is disrupted. Combine the Strike and spell's damage for the purpose of [resistances](/rule/resistance-rules-2318) and [weaknesses](/rule/weakness-rules-2317).\n\n After you use Spellstrike, you can't do so again until you recharge your Spellstrike as a single action, which has the [concentrate](/trait/concentrate) trait. You also recharge your Spellstrike when you cast a conflux spell that takes at least 1 action to cast; casting a focus spell of another type doesn't recharge your Spellstrike.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "magus"
+      ],
+      "category": "action",
+      "frequency": "until recharged (see below)",
+      "requirements": "",
+      "trigger": "",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "magus",
+          "slug": "magus"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "action",
+      "impossible-magic",
+      "magus",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Actions.aspx?ID=4260",
+        "page": 11
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "936B6507-3DB6-5A32-91C9-95C203666AF8",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Trace Rune",
+    "slug": "trace-rune-impossible-magic-action-action-4264",
+    "descr": "---\n\nYour fingers dance, glowing light leaving behind the image of a rune. You apply one rune to an adjacent target matching the rune's Usage entry. You can have any number of runes traced at a time, but each rune remains only until the end of your next turn.\n\n If you spend 2 actions to Trace a Rune, you draw the rune in the air, causing it to appear on a target within 30 feet.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "magical",
+        "manipulate",
+        "runesmith"
+      ],
+      "category": "action",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "runesmith",
+          "slug": "runesmith"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "action",
+      "concentrate",
+      "impossible-magic",
+      "magical",
+      "manipulate",
+      "remaster",
+      "runesmith"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Actions.aspx?ID=4264",
+        "page": 44
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  }
+]

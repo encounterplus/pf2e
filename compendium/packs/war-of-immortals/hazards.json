@@ -1,0 +1,415 @@
+[
+  {
+    "id": "CAB08702-069B-52AA-8E4A-7AD99E443815",
+    "kind": "Hazard",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Boneburst",
+    "slug": "boneburst-war-of-immortals",
+    "descr": "",
+    "data": {
+      "level": 14,
+      "rarity": "rare",
+      "traits": [
+        "magical",
+        "unholy"
+      ],
+      "complexity": "complex",
+      "stealth": 28,
+      "ac": {
+        "value": 33,
+        "details": ""
+      },
+      "hp": {
+        "value": 90,
+        "details": "(BT 45)",
+        "bt": 45
+      },
+      "hardness": 20,
+      "saves": {
+        "fortitude": 30,
+        "reflex": 28,
+        "will": 0
+      },
+      "disable": "Occultism DC 38 (master) to temporarily negate the psychic resonances around each fragment, causing the agglomeration to fall apart, or Religion DC 33 (expert) to temporarily interrupt Verex-That-Was's unholy power with divine energy from another source. If a boneburst takes 40 points of damage from a single source and it isn't destroyed, it is rendered dormant for 1 round.",
+      "routine": "(2 actions) An awakened boneburst occupies a 20-foot square; it is reduced to a 10-foot square when it reaches its BT. It can occupy the same space as other creatures, but not other bonebursts. On its initiative, the boneburst Flies up to 30 feet toward the nearest living creature as its first action. As its second action, the boneburst then coalesces around any living creature within its space, invisible shards of bone tearing at their flesh. Each living creature in its space takes 2d10+18 slashing damage and 1d10 spirit damage (basic Reflex DC 35 save). If no living creatures are within its space, the boneburst can use its second action to Fly up to 30 feet.",
+      "reset": "If the boneburst spends 5 consecutive rounds without coalescing around a living creature, it falls dormant, sinking back into the earth. After it falls dormant or is disabled, the boneburst gathers energy over the course of the next hour, after which it can be triggered again.",
+      "abilities": [
+        {
+          "name": "Gathering Mist",
+          "text": "**Trigger** A living creature approaches within 50 feet of a dormant boneburst\n\n**Effect** The boneburst awakens, roiling up from the ground, and rolls initiative.",
+          "traits": [],
+          "actions": "reaction"
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "unholy",
+          "slug": "unholy"
+        }
+      ],
+      "stealthDetails": "(master) to notice that clouds of debris are coalescing into swirling, faceless shapes held together by rust-red fog and spectral, dripping clots of gore",
+      "immunities": [
+        "critical hits",
+        "object immunities",
+        "precision damage"
+      ],
+      "description": "Scattered remains rise from the earth into a violent magical formation."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "magical",
+      "remaster",
+      "unholy",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "93444578-E61D-5610-8F41-34AEC028A7F7",
+    "kind": "Hazard",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Lightning's Dance",
+    "slug": "lightning-s-dance-war-of-immortals",
+    "descr": "",
+    "data": {
+      "level": 11,
+      "rarity": "rare",
+      "traits": [
+        "kaiju",
+        "mythic",
+        "primal"
+      ],
+      "complexity": "complex",
+      "stealth": 10,
+      "ac": {
+        "value": 0,
+        "details": ""
+      },
+      "hp": {
+        "value": 0,
+        "details": ""
+      },
+      "hardness": 0,
+      "saves": {
+        "fortitude": 0,
+        "reflex": 0,
+        "will": 0
+      },
+      "disable": "Crafting DC 35 (master) to fashion a makeshift lightning rod, Nature DC 33 (expert) to dissipate the electrical charge harmlessly into the air.",
+      "routine": "(2 actions) Bolts of lightning flash out. The hazard makes two lightning bolt Strikes at two different creatures within 120 feet of the hazard's center. If only one creature is in range, the hazard makes only one Strike.",
+      "reset": "The hazard deactivates and immediately resets if has no targets for 1 round; it also resets if Agyra uses her lightning breath multiple times in a single combat in the area.",
+      "abilities": [
+        {
+          "name": "Static Shock",
+          "text": "**Trigger** A creature approaches within 10 feet of the hazard's center\n\n**Effect** Electricity wells up from the ground and nearby material. Each creature in the hazard's area must attempt a Fortitude DC 33 save, and the hazard then rolls initiative. A character wearing metal armor or wielding a metal shield or weapon of at least 1 Bulk treats the result of their saving throw as one step worse.\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature is [Clumsy 1](/condition/clumsy-player-core) for 1 round.\n\n**Failure** The creature is [Clumsy 2](/condition/clumsy-player-core) for 2 rounds.\n\n**Critical Failure** The creature is [clumsy 2](/condition/clumsy-player-core) for 4 rounds and [Stunned 1](/condition/stunned-player-core) for 1 round.",
+          "traits": [
+            "electricity"
+          ],
+          "actions": "reaction"
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "kaiju",
+          "slug": "kaiju"
+        },
+        {
+          "label": "mythic",
+          "slug": "mythic"
+        },
+        {
+          "label": "primal",
+          "slug": "primal"
+        }
+      ],
+      "stealthDetails": "(expert) or Perception DC 33 (master) to notice sparks dancing around normally non-conductive surfaces",
+      "description": "Lingering electricity makes an area dangerously unstable."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "kaiju",
+      "mythic",
+      "primal",
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "AA07C83D-2DF7-58A4-9115-EF0A5A5C0917",
+    "kind": "Hazard",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Primal Chaos Aura",
+    "slug": "primal-chaos-aura-war-of-immortals",
+    "descr": "",
+    "data": {
+      "level": 5,
+      "rarity": "rare",
+      "traits": [
+        "kaiju",
+        "magical",
+        "mythic",
+        "primal"
+      ],
+      "complexity": "complex",
+      "stealth": 1,
+      "ac": {
+        "value": 0,
+        "details": ""
+      },
+      "hp": {
+        "value": 0,
+        "details": ""
+      },
+      "hardness": 0,
+      "saves": {
+        "fortitude": 0,
+        "reflex": 0,
+        "will": 0
+      },
+      "disable": "Nature DC 22 to negate the aura's effect for 1 round by temporarily drawing off the excess power and channeling it back into surrounding terrain, Nature DC 26 (expert) to completely disperse the lingering magic",
+      "routine": "(2 actions) On its initiative, the hazard gathers primal energy from the surroundings as its first action. Roll 1d6 to determine the type of energy gathered. The hazard uses its second action to replicate the associated spell (2nd rank, DC 23, spell attack modifier +15). The spell's target or targets are chosen randomly from creatures in the area. Any spell cast by this hazard is primal. **1** air (Gust Of Wind); **2** electricity (Thunderstrike); **3** fire (Blazing Bolt); **4** poison (Spider Sting); **5** sonic (Shatter); **6** water (Hydraulic Push)",
+      "reset": "The hazard deactivates and immediately resets if it has no targets for 1 round; it also resets if Agyra slumbers for 1 week within 100 feet.",
+      "abilities": [
+        {
+          "name": "Wild Surge",
+          "text": "**Trigger** A character casts a primal spell within the hazard's area\n\n**Effect** Each living creature in the area gains 2d4 temporary Hit Points that last for 1 minute as life energy wells up around them, and the hazard rolls initiative.",
+          "traits": [
+            "primal",
+            "vitality"
+          ],
+          "actions": "reaction"
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "kaiju",
+          "slug": "kaiju"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "mythic",
+          "slug": "mythic"
+        },
+        {
+          "label": "primal",
+          "slug": "primal"
+        }
+      ],
+      "stealthDetails": "or Perception DC 26 to feel a tingle in the air and smell a rich, chlorophyll-green fragrance with no discernible source",
+      "description": "Primal energies fluctuate unpredictably around the area."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "kaiju",
+      "magical",
+      "mythic",
+      "primal",
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B2DF58EC-9FD1-5CAF-AE78-9091FB5BE2CA",
+    "kind": "Hazard",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Trump of the Oliphaunt",
+    "slug": "trump-of-the-oliphaunt-war-of-immortals",
+    "descr": "",
+    "data": {
+      "level": 12,
+      "rarity": "rare",
+      "traits": [
+        "environmental",
+        "mythic"
+      ],
+      "complexity": "complex",
+      "stealth": 15,
+      "ac": {
+        "value": 0,
+        "details": ""
+      },
+      "hp": {
+        "value": 0,
+        "details": ""
+      },
+      "hardness": 0,
+      "saves": {
+        "fortitude": 0,
+        "reflex": 0,
+        "will": 0
+      },
+      "disable": "Arcana DC 38 (expert), Maelstrom Lore DC 38 (expert), Occultism DC 38 (master), Religion DC 38 (master) to recognize and shore up the area against the localized planar instability causing a connection to the Oliphaunt of Jandelay. Four successes are needed to strengthen the area enough against the instability to end the hazard.",
+      "routine": "(1 action) Each creature in the area must attempt a Fortitude DC 36 save. A creature with the [slowed](/condition/slowed-player-core) condition from this hazard takes a –2 circumstance penalty on further saves against this effect.\n\n---\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature takes 2d6+6 sonic damage and is [Deafened](/condition/deafened-player-core) for 1 round.\n\n**Failure** The creature takes 4d6+13 sonic damage and is [Slowed 1](/condition/slowed-player-core) for 2 rounds.\n\n**Critical Failure** The creature takes 8d6+26 sonic damage and is [Slowed 2](/condition/slowed-player-core) for 2 rounds.",
+      "reset": "The area becomes unstable again after 24 hours.",
+      "abilities": [
+        {
+          "name": "Bone-Shattering Rhythms",
+          "text": "**Trigger** Three or more characters enter the area of planar instability\n\n**Effect** Pent-up magical energy from another world begins to release in waves of overwhelming sound. The hazard rolls initiative.",
+          "traits": [],
+          "actions": "reaction"
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "environmental",
+          "slug": "environmental"
+        },
+        {
+          "label": "mythic",
+          "slug": "mythic"
+        }
+      ],
+      "stealthDetails": "(master) to notice the tension of a low vibration forming in the area from the imminent release of the Oliphaunt's trumpet",
+      "description": "A deafening blast of sound slows creatures in its area."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "environmental",
+      "mythic",
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2F6718AB-2650-5CDC-98F6-FA7D65611B50",
+    "kind": "Hazard",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Wind Surge",
+    "slug": "wind-surge-war-of-immortals",
+    "descr": "",
+    "data": {
+      "level": 7,
+      "rarity": "rare",
+      "traits": [
+        "kaiju",
+        "mythic",
+        "primal"
+      ],
+      "complexity": "simple",
+      "stealth": 17,
+      "ac": {
+        "value": 0,
+        "details": ""
+      },
+      "hp": {
+        "value": 0,
+        "details": ""
+      },
+      "hardness": 0,
+      "saves": {
+        "fortitude": 0,
+        "reflex": 0,
+        "will": 0
+      },
+      "disable": "Athletics DC 27 (expert) or Acrobatics DC 27 (expert) to crouch and contort out of the wind's way (disables the hazard for only yourself), Survival DC 30 to point out a safe space from the winds for up to 3 creatures.",
+      "routine": "",
+      "reset": "",
+      "abilities": [
+        {
+          "name": "Hurricane Flyby",
+          "text": "**Trigger** Agyra flies overhead for at least 120 feet in a straight line\n\n**Effect** Supernaturally powerful winds batter the area in a line that is 120 feet long and 30 feet wide and 30 feet tall. Each creature in the line must attempt a Reflex DC 29 save. Moving above ground against the direction of the line is greater difficult terrain for 1 minute.\n\n**Critical Success** The creature is pushed 10 feet along the line.\n\n**Success** The creature takes 5d6 bludgeoning damage and is pushed 15 along the line.\n\n**Failure** The creatures takes 10d6 bludgeoning damage, is pushed 30 feet along the line, and is knocked [Prone](/condition/prone-player-core).\n\n**Critical Failure** The creature takes 20d6 bludgeoning damage, is pushed 45 feet along the line, is knocked [prone](/condition/prone-player-core), and is [Stunned 1](/condition/stunned-player-core) for 1 round.\n\nIf the line overlaps a body of water, the winds cause massive waves that deal 6d6 bludgeoning damage to creatures in the water or within 15 feet of the waterline (basic Reflex DC 29 save). On a critical failure, a creature is also swept 30 feet away from the waterline and 15 feet beneath the water's surface.",
+          "traits": [
+            "air"
+          ],
+          "actions": "reaction"
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "kaiju",
+          "slug": "kaiju"
+        },
+        {
+          "label": "mythic",
+          "slug": "mythic"
+        },
+        {
+          "label": "primal",
+          "slug": "primal"
+        }
+      ],
+      "stealthDetails": "(expert) to note stirrings in the wind",
+      "description": "A sudden violent wind sweeps across the area.",
+      "stealthDC": 27
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "kaiju",
+      "mythic",
+      "primal",
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

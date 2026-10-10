@@ -14,25 +14,13 @@
           "title": "Spell.Rank",
           "type": "number",
           "attribute": "data.rank"
-        }
-      ]
-    },
-    {
-      "title": "Common.BaseTraits",
-      "type": "group",
-      "fields": [
+        },
         {
           "title": "Common.Rarity",
           "type": "picker",
           "attribute": "data.rarity",
           "attributeType": "Rarity"
         },
-      ]
-    },
-    {
-      "title": "Common.Traits",
-      "type": "group",
-      "fields": [
         {
           "title": "Common.Traits",
           "type": "tags",
@@ -42,12 +30,13 @@
       ]
     },
     {
+      "title": "Spell.Casting",
       "type": "group",
       "fields": [
         {
-          "title": "Common.Actions",
-          "type": "picker",
-          "attribute": "data.actions",
+          "title": "Spell.CastActions",
+          "type": "multiPicker",
+          "attribute": "data.castActions",
           "attributeType": "Action",
         },
         {
@@ -57,25 +46,46 @@
           "attributeType": "MagicalTradition"
         },
         {
-          "title": "Spell.Requirements",
-          "type": "text",
-          "attribute": "data.requirements"
-        },
-        {
-          "title": "Spell.Cast",
-          "type": "text",
-          "attribute": "data.cast"
-        },
-        {
-          "title": "Spell.Cost",
-          "type": "text",
-          "attribute": "data.cost"
-        },
-        {
-          "title": "Spell.Trigger",
-          "type": "text",
-          "attribute": "data.trigger"
-        },
+          "title": "Spell.CastingDetails",
+          "type": "form",
+          "text": "{% if data.cast or data.requirements or data.cost or data.trigger %}{% if data.cast %}{{'Spell.CastingNotes'|l}}: {{data.cast}}{% endif %}{% if data.requirements %}{% if data.cast %} • {% endif %}{{'Spell.Requirements'|l}}: {{data.requirements}}{% endif %}{% if data.cost %}{% if data.cast or data.requirements %} • {% endif %}{{'Spell.Cost'|l}}: {{data.cost}}{% endif %}{% if data.trigger %}{% if data.cast or data.requirements or data.cost %} • {% endif %}{{'Spell.Trigger'|l}}: {{data.trigger}}{% endif %}{% else %}{{'Common.None'|l}}{% endif %}",
+          "form": {
+            "title": "Spell.CastingDetails",
+            "sections": [
+              {
+                "type": "group",
+                "fields": [
+                  {
+                    "title": "Spell.CastingNotes",
+                    "type": "text",
+                    "attribute": "data.cast"
+                  },
+                  {
+                    "title": "Spell.Requirements",
+                    "type": "text",
+                    "attribute": "data.requirements"
+                  },
+                  {
+                    "title": "Spell.Cost",
+                    "type": "text",
+                    "attribute": "data.cost"
+                  },
+                  {
+                    "title": "Spell.Trigger",
+                    "type": "text",
+                    "attribute": "data.trigger"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": "Spell.RangeAndEffect",
+      "type": "group",
+      "fields": [
         {
           "title": "Spell.Range",
           "type": "text",
@@ -97,7 +107,57 @@
         },
         {
           "title": "Spell.Duration",
-          "attribute": "data.duration"
+          "attribute": "data.durationText",
+          "visibleIf": "{% if data.durationText != nil or data.duration == nil or data.durationType != nil or data.durationUnit != nil %}true{% endif %}"
+        },
+        {
+          "title": "Spell.Duration",
+          "attribute": "data.duration",
+          "visibleIf": "{% if data.durationText == nil and data.duration != nil and data.durationType == nil and data.durationUnit == nil %}true{% endif %}"
+        }
+      ]
+    },
+    {
+      "title": "Spell.MapAndTokenEffects",
+      "type": "group",
+      "fields": [
+        {
+          "title": "Spell.AreaTemplate",
+          "type": "form",
+          "text": "{% if data.areaEffectShape or data.areaEffectSize != nil %}{% if data.areaEffectSize != nil %}{{data.areaEffectSize|units: 'ft'}}{% endif %}{% if data.areaEffectShape %}{% if data.areaEffectSize != nil %} {% endif %}{{data.areaEffectShape|map: 'AreaEffectShape'}}{% endif %}{% else %}{{'Common.None'|l}}{% endif %}",
+          "form": {
+            "title": "Spell.AreaTemplate",
+            "sections": [
+              {
+                "title": "AreaEffect.Shape",
+                "type": "picker",
+                "attribute": "data.areaEffectShape",
+                "attributeType": "AreaEffectShape"
+              },
+              {
+                "type": "group",
+                "fields": [
+                  {
+                    "title": "AreaEffect.Size",
+                    "units": "ft",
+                    "type": "decimal",
+                    "attribute": "data.areaEffectSize"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "title": "Spell.EffectDuration",
+          "detail": "Spell.EffectDurationHelp",
+          "type": "form",
+          "visibleIf": "{% if data.durationText != nil or data.duration == nil or data.durationType != nil or data.durationUnit != nil %}true{% endif %}",
+          "text": "{% include 'spell-effect-duration.md' %}",
+          "form": {
+            "title": "Spell.Duration",
+            "partial": "spell-effect-duration"
+          }
         },
       ]
     },

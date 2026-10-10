@@ -8,7 +8,8 @@
 {% include "spellcasting.md" spellcasting %}
 {% endfor %}
 
-{% if data.rituals.type %}**{{data.rituals.type}}** {% endif %}{% if data.rituals %}**{{'Creature.Rituals'|l}}** {% if data.rituals.dc %}{{'Common.DC'|l}} {{data.rituals.dc}}; {% endif %}{{data.rituals.text}}{% endif %}
+{% if data.ritualcasting %}{% for ritualcasting in data.ritualcasting %}{% if ritualcasting.type %}**{{ritualcasting.type}}** {% else %}**{{'Creature.Rituals'|l}}** {% endif %}{% if ritualcasting.dc %}{{'Common.DC'|l}} {{ritualcasting.dc}}; {% endif %}{% if ritualcasting.ritualGroups %}{% for group in ritualcasting.ritualGroups %}**{{group.label}}** {% for ritual in group.rituals %}{% if ritual.reference %}[{{ritual.name}}](<{{ritual.reference}}>){% else %}{{ritual.name}}{% endif %}{% if ritual.details %} ({{ritual.details}}){% endif %}{% if not forloop.last %}, {% endif %}{% endfor %}{% if not forloop.last %}; {% endif %}{% endfor %}{% else %}{{ritualcasting.text}}{% endif %}{% if not forloop.last %}
+{% endif %}{% endfor %}{% else %}{% if data.rituals %}{% if data.rituals.type %}**{{data.rituals.type}}** {% else %}**{{'Creature.Rituals'|l}}** {% endif %}{% if data.rituals.dc %}{{'Common.DC'|l}} {{data.rituals.dc}}; {% endif %}{% if data.rituals.ritualGroups %}{% for group in data.rituals.ritualGroups %}**{{group.label}}** {% for ritual in group.rituals %}{% if ritual.reference %}[{{ritual.name}}](<{{ritual.reference}}>){% else %}{{ritual.name}}{% endif %}{% if ritual.details %} ({{ritual.details}}){% endif %}{% if not forloop.last %}, {% endif %}{% endfor %}{% if not forloop.last %}; {% endif %}{% endfor %}{% else %}{{data.rituals.text}}{% endif %}{% endif %}{% endif %}
 
 {% for ability in data.abilities.offensive %}
 {% include "ability.md" %}

@@ -1,0 +1,448 @@
+[
+  {
+    "id": "1A5FE5B9-1991-5155-9E3F-E92093C7082C",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Adjusting Creatures",
+    "slug": "adjusting-creatures-rules-3262",
+    "type": "other",
+    "descr": "Sometimes you might need to customize a creature based on the needs of your story or the narrative circumstances as your story unfolds. This section guides you through some basic strategies you can use to adjust creatures. It includes quick adjustments you can make to a creature to alter its level. You might also need to adjust a creature’s languages or gear, or know its proficiency ranks in skills or Perception.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Introduction"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3262"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "introduction",
+      "monster-core",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core",
+        "page": 6,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3262"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E65348F2-66FC-52C4-AF2C-E703662D6332",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Combat Power",
+    "slug": "combat-power-rules-3263",
+    "type": "combat",
+    "descr": "The creatures presented in this book have appropriate statistics for their levels. In many cases, you can make relatively minor adjustments to a creature’s statistics, called elite and weak adjustments, to raise or lower its level by 1. Adjust the XP players earn for defeating the creature and how you build encounters with it accordingly.\n\nElite and weak adjustments work best with creatures that focus on physical combat. These adjustments overstate the normal numerical gains the creature would make from increasing its level to make up for the lack of new special abilities. Creatures that cast spells or rely on noncombat abilities typically need specific adjustments to those spells or abilities. These adjustments have a greater effect on the power level of low-level creatures, as noted. Applying the adjustments more than once to a creature should be avoided. If you need to alter a creature’s level more drastically, use the _GM Core_ guidance on [building creatures](/rule/building-creatures-rules-2874).",
+    "data": {
+      "type": "combat",
+      "breadcrumbs": [
+        "Introduction",
+        "Adjusting Creatures"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3263"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "adjusting-creatures",
+      "combat",
+      "introduction",
+      "monster-core",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core",
+        "page": 6,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3263"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A7D8D499-5378-5589-A5B1-0DC557E91DB9",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Elite Adjustments",
+    "slug": "elite-adjustments-rules-3264",
+    "type": "combat",
+    "descr": "Sometimes you’ll want a creature that’s just a bit more powerful than normal so that you can present a challenge that would otherwise be trivial or show that one enemy is stronger than its kin. To do this quickly and easily, apply the elite adjustments to its statistics as follows:\n\n- Increase the creature’s level by 1; if the creature is level –1 or 0, instead increase its level by 2.\n- Increase the creature’s AC, attack modifiers, DCs, saving throws, Perception, and skill modifiers by 2.\n- Increase the damage of its Strikes and other offensive abilities by 2. If the creature has limits on how many times or how often it can use an ability (such as a spellcaster’s spells or a dragon’s breath), increase the damage by 4 instead.\n- Increase the creature’s Hit Points based on its starting level (see the table below).\n\n## Elite Adjustment\n\n| **Starting Level** | **HP Increase** |\n| --- | --- |\n| 1 or lower | 10 |\n| 2-4 | 15 |\n| 5-19 | 20 |\n| 20+ | 30 |",
+    "data": {
+      "type": "combat",
+      "breadcrumbs": [
+        "Introduction",
+        "Adjusting Creatures",
+        "Combat Power"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3264"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "adjusting-creatures",
+      "combat",
+      "combat-power",
+      "introduction",
+      "monster-core",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core",
+        "page": 6,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3264"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0A52CDF6-5990-5831-8C56-B250F1C5EC52",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Gear",
+    "slug": "gear-rules-3267",
+    "type": "other",
+    "descr": "Some creatures rely on gear, like armor and weapons. You might need statistics for such a creature that has lost its gear. For example, a creature could be [Disarmed](/action/disarm-player-core), it might be ambushed while it’s out of its armor, or one of its worn magic items could be disabled with [_dispel magic_](/spell/dispel-magic-player-core). In most cases, you can simply improvise, but if you want to be more exacting, use these guidelines for weapons and armor.\n\nIf a creature loses its weapon, it might draw another weapon or use an unarmed attack. If it uses a [Strike](/action/strike-player-core) it doesn’t have listed in its stat block, find a Strike entry for the creature that most closely matches the substitute, reduce the attack modifier by 2, and use the damage dice for the new Strike. If the creature needs to make an unarmed attack and doesn’t have one listed in its stat block, it uses the statistics for a fist. If the creature loses a weapon with a weapon potency rune, you usually should reduce the attack modifier by 2 plus the bonus granted by the weapon’s _potency_ rune for the new weapon. For example, if the creature is Disarmed of its _+1 [mace](/item/mace-player-core)_, then you would reduce the attack modifier by 3 instead of 2 for the new Strike.\n\nIf a creature doesn’t have its armor, find the armor in its Items entry, and reduce the creature’s AC by that armor’s item bonus. If the armor has an armor potency rune, increase the reduction as appropriate; for example, if the creature has a suit of +2 [chain mail](/item/chain-mail-player-core) in its statistics, and the characters catch the creature without its armor, you would reduce the creature’s AC by 6 instead of 4. If the armor has a [resilient](/item/resilient-gm-core) rune, reduce the creature’s saves based on the rune’s type (1 for _resilient_, 2 for _greater resilient_, or 3 for _major resilient_).",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Introduction",
+        "Adjusting Creatures"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3267"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "adjusting-creatures",
+      "introduction",
+      "monster-core",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core",
+        "page": 7,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3267"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8F81C2C1-916C-5D90-A1C0-3BD2FA60B637",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Introduction",
+    "slug": "introduction-rules-3258",
+    "type": "other",
+    "descr": "Welcome to _Pathfinder Monster Core_! Inside this tome of creatures, you’ll find haughty celestials and ravenous fiends, fierce animals and strange moving plants, new peoples to interact with and horrid monsters to hunt down. And while this book details hundreds of monsters, it’s only a portion of the myriad interesting creatures that populate the world of Pathfinder.\n\nTo use this book, you’ll need _Pathfinder Player Core_ and _Pathfinder GM Core_, which contain the rules of the game and give you further understanding of each creature’s rules and its place in the world. Using these books allows you as the Game Master (or GM) to create stories of grand adventure and populate them with fearsome foes, possible allies, and friendly guides.\n\nMost of the sections of this book describe a creature or a group of related creatures, present their game statistics, illustrate their place within the game world, and provide details about their behavior or society.\n\nIn this introduction, you can find advice on how to play these creatures in the game, including how to read and use their statistics, recommendations regarding roleplaying their interactions with player characters, and guidance on adjusting creature statistics to the needs of your setting.\n\nLastly, the appendix in the back of the book contains sections that provide information about frequently used monster abilities, creature traits, new rituals, uncommon languages, and lists of monsters sorted by type and level.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3258"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core",
+        "page": 5,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3258"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3E9EC5DD-A961-5FC4-A1D6-F49FC8F33B06",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Languages",
+    "slug": "languages-rules-3266",
+    "type": "other",
+    "descr": "The languages listed in a creature’s entry represent the languages a typical creature of that type knows. However, you might want to vary these based on the specific creature. For instance, if a creature is interested in speaking with or understanding the people in its region, it would most likely know the language those people speak. This language is most often [Common](/language/common), but you can give it a more appropriate language depending on where the creature lives (such as [Sakvroth](/language/sakvroth) for [the Darklands](/rule/the-darklands-rules-2993)).\n\nBeings from other planes are unlikely to know any languages from [the Universe](/rule/the-universe-rules-2984) unless they frequently travel there. If such a creature knows a mortal language, then that creature likely is interested in communicating with mortals. This language is most often Common, though keep in mind that such a creature should speak Common only if it specifically travels to or studies your campaign’s world and region above others.\n\nThe languages are listed on [Languages page](/rule/languages-rules-2095) from _Player Core_ and in the Uncommon Languages table below.\n\n## Uncommon Languages\n\n| Language | Speakers |\n| --- | --- |\n| Alghollthu | Alghollthu, thralls, and enemies |\n| Amurrun | Catfolk |\n| Arboreal | Arboreals and other plant creatures |\n| Boggard | Boggards |\n| Caligni | Calignis and associated creatures |\n| Cyclops | Cyclopes |\n| Daemonic | Daemons and those who buy souls |\n| Kholo | Kholos and pugwampis |\n| Iruxi | Lizardfolk |\n| Muan | Wood elemental creatures |\n| Protean | Proteans and related creatures |\n| Requian | Psychopomps and related creatures |\n| Sphinx | Sphinxes |\n| Talican | Metal elemental creatures |\n| Tengu | Tengus |\n| Utopian | Aeons, archons, coatls, and allies |",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Introduction",
+        "Adjusting Creatures"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3266"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "adjusting-creatures",
+      "introduction",
+      "monster-core",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core",
+        "page": 7,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3266"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E6FB5105-0153-554C-8B34-033E565A4645",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Playing Creatures",
+    "slug": "playing-creatures-rules-3259",
+    "type": "other",
+    "descr": "While the other players portray their characters, you as the Game Master get to play everyone else. This section provides the basics for using the creatures in this book. It guides you through the process of reading and understanding creature statistics so you know how to present a creature as a threat or ally in and out of combat. It also provides general advice for roleplaying creatures to help provide more depth when characterizing them within your game’s world.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Introduction"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3259"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "introduction",
+      "monster-core",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core",
+        "page": 5,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3259"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "EC00164C-F995-575A-94AE-AF450924A348",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Reading Creature Statistics",
+    "slug": "reading-creature-statistics-rules-3260",
+    "type": "other",
+    "descr": "Each creature’s rules appear in a stat block, with a structure similar to those of feats, spells, and magic items. Because creatures have more abilities than those game elements, however, their statistics include more entries, many of which have special formatting.\n\nA creature’s traits line sometimes begins with a rarity; if the creature’s rarity is common, no rarity is listed. The next entry is the creature’s size (Tiny, Small, Medium, Large, Huge, or Gargantuan). Any other traits are then listed alphabetically. The traits appearing in this book, including some traits from _Pathfinder Player Core_, can be found in Creature Traits.\n\nActions and activities the creature can use have the appropriate icons next to those abilities’ names noting how many actions they require. A creature always has the requisite proficiency ranks or other abilities required to use what’s listed in its stat block. For instance, a spellcasting creature can perform the Cast a Spell activity, and a creature is never untrained with any of its items.\n\nSome abilities are abbreviated in stat blocks, with their full text in the Ability Glossary.\n\n## Creature Name\n\n**Perception** The creature’s Perception modifier is listed here, followed by any special senses.\n**Languages** The languages for a typical creature of that kind are listed here, followed by any special communication abilities. If a creature lacks this entry, it cannot communicate with or understand another creature through language.\n**Skills** The creature is trained or better in these skills. For untrained skills, use the corresponding attribute modifier.\n**Attribute Modifiers** The creature’s attribute modifiers are listed here.\n**Items** Any significant gear the creature carries is listed here.\n**Interaction Abilities** Special abilities that affect how a creature perceives and interacts with the world are listed here.\n\n---\n\n**AC**, followed by any special bonuses to AC; **Saving Throws** A special bonus to a specific save appears in parentheses after that save’s bonus. Any special bonuses to all three saving throws against particular types of effects are listed after the three saves.\n**HP**, followed by automatic abilities that affect the creature’s Hit Points or healing; **Immunities; Weaknesses; Resistances** Any immunities, weaknesses, or resistances the creature has are listed here.\n**Automatic Abilities** The creature’s auras, any abilities that automatically affect its defenses, and the like are listed here.\n**Reactive Abilities** Free actions or reactions that are usually triggered when it’s not the creature’s turn are listed here.\n\n---\n\n **Speed**, followed by any other Speeds or movement abilities.\n**Melee** **Single Action** (traits; some weapon traits, such as [deadly](/trait/deadly), include their calculations for convenience) The name of the weapon or unarmed attack the creature uses for a melee Strike, followed by the attack modifier and traits in parentheses. If a creature has any abilities or gear that would affect its attack modifier, such as a weapon with a _+1 weapon potency_ rune, those calculations are already included, **Damage** amount and damage type, plus any additional effects (this entry is **Effect** if the Strike doesn’t deal damage).\n**Ranged** **Single Action** As Melee, but also lists range or range increment with traits, **Damage** as Melee.\n **Spells** The entry starts with the magical tradition and whether the spells are prepared or spontaneous, followed by the DC (and spell attack modifier if any spells require spell attack rolls). Spells are listed by rank, followed by cantrips. A spell prepared multiple times lists the number of times in parentheses—for example, “(×2).” Spontaneous spells list the number of spell slots after the spell rank.\n**Innate Spells** These are listed like other spells, but can also include constant, at-will, and focus spells. If the creature has a focus spell as an innate spell, it works like other innate spells with listed uses, rather than costing Focus Points. Spells that can be used an unlimited number of times list “(at will)” after the spell’s name. Constant spells appear at the end, separated by rank. Rules for constant and at-will spells appear in the Ability Glossary.\n**Focus Spells** If a creature has focus spells, this entry lists the spells’ rank, the Focus Points in the creature’s focus pool, the DC, and those spells.\n**Rituals** Any rituals the creature can cast appear here.\n**Offensive or Proactive Abilities** Any actions, activities, or abilities that automatically affect the creature’s offense, as well as free actions or reactions that are usually triggered on the creature’s turn, appear here in alphabetical order.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Introduction",
+        "Playing Creatures"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3260"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "introduction",
+      "monster-core",
+      "other",
+      "playing-creatures",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core",
+        "page": 5,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3260"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "CF4C442B-3DDA-58D9-9258-1C79C3D38FC4",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Roleplaying Creatures",
+    "slug": "roleplaying-creatures-rules-3261",
+    "type": "other",
+    "descr": "Whether it’s an adversary or a potential ally, a creature might have a very different worldview than the PCs. When roleplaying creatures, think about how they experience the world differently due to their senses, physiology, and habitat. Each creature entry in this book gives you some context about the creature’s worldview, motivations, ecology, and societies. Many sections have sidebars that provide relevant facts about creatures (labeled with the icons shown on page 7). You can use the information in each creature entry as cues on how to roleplay the creature in and out of combat. These cues can be as simple as a difference in idioms (perhaps saying “in the other tentacle” rather than “on the other hand”) and as complex as determining the motivations, hopes, and dreams for an individual creature. Understanding a creature you’re playing also informs what tactics it uses, as well as whether it’s willing to surrender or flee when losing a fight.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Introduction",
+        "Playing Creatures"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3261"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "introduction",
+      "monster-core",
+      "other",
+      "playing-creatures",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core",
+        "page": 6,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3261"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "EB882575-6E51-599C-B402-05D0D7E88FD3",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Skills, Perception, and Proficiency",
+    "slug": "skills-perception-and-proficiency-rules-3268",
+    "type": "skill",
+    "descr": "In some situations, such as when a creature is trying to Disable a PC’s snare, you need to know the creature’s proficiency rank. Creatures are trained in the skills listed in their stat blocks and untrained in skills that aren’t listed. A creature usually has expert proficiency in its listed skills around 5th level, master proficiency around 9th level, and legendary proficiency around 17th level. A creature might need a certain proficiency rank in Perception to detect certain things. Many creatures have expert proficiency in Perception and improve to master proficiency around 7th level and legendary proficiency around 13th level.\n\nAt your discretion, creatures with world-class aptitude for a particular skill or in Perception, such as a shadow with Stealth, might have a higher proficiency rank in that skill or Perception.",
+    "data": {
+      "type": "skill",
+      "breadcrumbs": [
+        "Introduction",
+        "Adjusting Creatures"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3268"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "adjusting-creatures",
+      "introduction",
+      "monster-core",
+      "remaster",
+      "rule",
+      "skill"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core",
+        "page": 7,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3268"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9E76F252-0A07-5D5D-ADD4-8FFBDA0D054A",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Weak Adjustments",
+    "slug": "weak-adjustments-rules-3265",
+    "type": "combat",
+    "descr": "Sometimes you’ll want a creature that’s weaker than normal so you can use a creature that would otherwise be too challenging or show that one enemy is weaker than its kin. To do this quickly and easily, apply the weak adjustments to its statistics as follows:\n\n- Decrease the creature’s level by 1; if the creature is level 1, instead decrease its level by 2.\n- Decrease the creature’s AC, attack modifiers, DCs, saving throws, Perception, and skill modifiers by 2.\n- Decrease the damage of its Strikes and other offensive abilities by 2. If the creature has limits on how many times or how often it can use an ability (such as a spellcaster’s spells or a dragon’s breath), decrease the damage by 4 instead.\n- Decrease the creature’s HP based on its starting level.\n\n## Weak Adjustment\n\n| **Starting Level** | **HP Decrease** |\n| --- | --- |\n| 1-2 | -10 |\n| 3-5 | -15 |\n| 6-20 | -20 |\n| 21+ | -30 |",
+    "data": {
+      "type": "combat",
+      "breadcrumbs": [
+        "Introduction",
+        "Adjusting Creatures",
+        "Combat Power"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3265"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "adjusting-creatures",
+      "combat",
+      "combat-power",
+      "introduction",
+      "monster-core",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core",
+        "page": 7,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3265"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

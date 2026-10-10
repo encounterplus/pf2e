@@ -1,0 +1,74 @@
+[
+  {
+    "id": "9BB3F2C1-8F46-5E59-92AB-8707DC6FD490",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Draconic Acolyte",
+    "slug": "draconic-acolyte-draconic-codex-archetype-archetype-333",
+    "descr": "You possess an item infused with draconic essence, whether that be an item of significance gifted to you from a powerful dragon, a piece of treasure stolen from a mighty dragon’s hoard, or even a discarded or forcefully removed piece of a dragon’s body. This object allows you to call on a fragment of that dragon’s essence to perform mighty magical deeds.",
+    "data": {
+      "rarity": "uncommon",
+      "traits": [],
+      "level": 2,
+      "prerequisites": "Trained in Arcana, Trained in Nature, Trained in Occultism, or Trained in Religion",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "draconic-codex",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "draconic-codex",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Draconic Codex",
+        "url": "https://2e.aonprd.com/Archetypes.aspx?ID=333",
+        "page": 218
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "DB33A77E-C7B7-521C-B3B7-424F167F30C1",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Drake Rider",
+    "slug": "drake-rider-draconic-codex-archetype-archetype-334",
+    "descr": "A dragon chooses its rider.\n\nOnly a few are worthy. “Having the soul of a dragon” is an apt Avistani saying for individuals who show indomitable charisma, unfaltering purpose, and an iron will. Such qualities mark every drake rider, while a proud or noble dragon also demands respect from any who would ride upon their back. A dedicated rider who doesn’t confuse violence with strength and shows no hesitation or fear earns a deep bond that grows from the dragon’s mutual respect. In the air or on the ground, this bond forms a lethal union of dragon and rider.",
+    "data": {
+      "rarity": "uncommon",
+      "traits": [],
+      "level": 2,
+      "prerequisites": "Trained in Nature; Charisma +1",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "draconic-codex",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "draconic-codex",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Draconic Codex",
+        "url": "https://2e.aonprd.com/Archetypes.aspx?ID=334",
+        "page": 220
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  }
+]

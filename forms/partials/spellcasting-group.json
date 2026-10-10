@@ -1,0 +1,31 @@
+{
+  "sections": [
+    {
+      "type": "group",
+      "fields": [
+        {
+          "placeholder": "Creature.SpellLevelGroupHint",
+          "attribute": "label",
+          "title": "Creature.SpellLevelGroup"
+        }
+      ]
+    },
+    {
+      "title": "Entity.Spell.many",
+      "type": "list",
+      "attribute": "spells",
+      "attributeType": "Spell",
+      "custom": {
+        "map": {
+          "rank": "data.rank"
+        },
+        "itemTitle": "{{name}}",
+        "itemDetail": "{% if rank != nil %}{{'Spell.Rank'|l}} {{rank}}{% endif %}{% if atWill %}{% if rank != nil %} \u2022 {% endif %}{{'Spellcasting.AtWill'|l}}{% endif %}{% if details %}{% if rank != nil or atWill %} \u2022 {% endif %}{{details}}{% endif %}"
+      },
+      "form": {
+        "title": "Entity.Spell",
+        "partial": "spellcasting-spell"
+      }
+    }
+  ]
+}

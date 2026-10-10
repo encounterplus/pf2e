@@ -1,0 +1,1117 @@
+[
+  {
+    "id": "EBE6EA44-F7FC-5223-AB8A-5EC12CFF1510",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Acquiring a Deviant Ability",
+    "slug": "acquiring-a-deviant-ability-rules-3501",
+    "type": "other",
+    "descr": "There are two main ways to approach deviant abilities in your game: as an intentional and persistent part of a player's character that is intrinsic to them and grows throughout their career, or as a more turbulent and transient power they gain as part of an ongoing campaign, intended to be acquired at a certain point in the story and to eventually burn out or fade away when that chapter of the story is told.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Deviant Abilities"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3501"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "dark-archive",
+      "deviant-abilities",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archives (Remastered)",
+        "page": 98,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3501"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "58A7A249-0ECA-5780-BD45-F67E2AAFFC37",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Aftermath Feats",
+    "slug": "aftermath-feats-rules-3492",
+    "type": "other",
+    "descr": "Stories abound of a battle-scarred hero, bathed in the blood of the fearsome [dragon](/trait/dragon), awakening to a strange new power. The conflict changes their very being, leaving an unforgettable reminder that awakens greater power and a unique kind of heroism.\n\n[Aftermath](/trait/aftermath) feats, which are always [rare](/trait/rare), represent new powers causes by dangerous encounters with the weird and deadly. The prerequisite of an aftermath feat can be met only at a dramatic moment in your story— slitting the throat of a drowsy drake in a random encounter likely won't awaken any latent abilities, but defeating a mighty dragon at the end of a long, heroic journey just might. A fool who runs around dousing themself in the blood of every dragon they slay is more likely to contract some sort of disease than manifest a new power.\n\n Every aftermath feat is a class feat but can be taken by a character of any class, provided the character has gone through the unlikely ordeal that unlocks it. The feat gains the appropriate trait for the class of the character who selected Devil'sit. If an appropriate story event occurs that fits the prerequisites of an aftermath feat of your level or lower, the GM might permit you to immediately retrain a class feat into the appropriate aftermath feat. An aftermath feat isn't something you can typically remove once you have one, so you can't retrain it in the normal manner. The GM might determine a specific quest or other procedure you could use to remove the aftermath feat.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3492"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "dark-archive",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archives (Remastered)",
+        "page": 55,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3492"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "722F0A8D-426B-5073-B877-4E8D36D7EF67",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Apocryphal Domain Spells",
+    "slug": "apocryphal-domain-spells-rules-3510",
+    "type": "other",
+    "descr": "Not all clerical traditions are taught among the orthodoxy. Some are whispered in secret, passed down from a priest to trusted acolytes or scribed in tomes left behind by splinter factions. Some apocryphal spells are considered heretical and suppressed, but others have fallen out of use or are specific to a region or sect. These apocryphal spells usually rely on more abstract associations between divine power and a certain effect than those seen in orthodox ones.\n\nThe GM might allow a character who comes from a strange sect or worships an underground aspect of a deity to select an apocryphal domain spell in place of the standard initial or advanced spell for that domain. These characters are typically clerics with [Domain Initiate](/feat/domain-initiate-player-core) but can include other characters with domain spells, like champions with [Deity's Domain](/feat/deity-s-domain-player-core-2) or oracles with [Domain Acumen](/feat/domain-acumen-player-core-2).",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3510"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "dark-archive",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archives (Remastered)",
+        "page": 142,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3510"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "83E8767C-583A-596B-BBD1-33A23047CE6B",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Attacks and Defenses",
+    "slug": "attacks-and-defenses-rules-3517",
+    "type": "combat",
+    "descr": "Any action taken in a mindscape is converted into a thoughtform called a psychic manifestation. An attack or spell has essentially the effect one would expect it to, though its form is far more mutable in the mindscape. Though taking place in the mind, a psychic duel still consumes any resources used by its combatants, such as HP and spell slots. A skilled warrior brought into a psychic duel isn't a helpless weakling; their martial arts training carries over into the thoughtforms they use in the duel. Statistics and actions change in a psychic duel as follows. **Always Use Will Defense:** Because a psychic duel pits mind against mind, you use Will for all saving throws and your Will DC as your Armor Class. In cases where a different DC (not a save or AC) would be used for defense, the GM determines which statistic to use, typically replacing only ones based on physical attribute modifiers.\n\n **Any Damage Becomes Mental Damage:** Any damage dealt in a psychic duel is converted to mental damage. Any immunities, resistances, and weaknesses a creature would normally have to the psychic manifestation's form still apply, for instance, applying fire resistance to a psychic fireball. Apply the higher of a creature's weakness or resistance to the damage as normal. Weakness or resistance to mental damage applies only once against a given manifestation, no matter how many types of damage it deals.\n\n **Change Strike Damage:** Though Strikes use their normal attribute modifiers to represent thoughtform versions of the attacker's prowess, any physical attribute modifier to damage is replaced with the attacker's highest mental attribute modifier. A creature stat block typically doesn't list a breakdown of its Strike damage, but the GM can find the difference between its Strength modifier and highest mental attribute modifier to adjust the damage.\n\n **Range Doesn't Matter:** Spells and attacks with a range can target anyone inside the mindscape without penalty, even if outside their maximum range or range increment. Spells and abilities that affect a specific area or emanate from you must still follow those restrictions. Melee attacks only target foes within your reach.",
+    "data": {
+      "type": "combat",
+      "breadcrumbs": [
+        "Psychic Duels"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3517"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "combat",
+      "dark-archive",
+      "psychic-duels",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archives (Remastered)",
+        "page": 202,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3517"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B14AEF55-1422-52EB-93D2-E593F72E30DE",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Awakened Powers",
+    "slug": "awakened-powers-rules-3508",
+    "type": "other",
+    "descr": "A deviant ability's unstable nature means it can grow in power at a later point, responding to a stressful moment or continuing to evolve along a mysterious path. “Awakening” lines in deviant feats represent possible paths the power's awakening can take. You don't gain the awakening unless you take a feat that grants you those benefits. You can gain only one awakening for a given deviant feat.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Deviant Abilities",
+        "Deviant Classifications"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3508"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "dark-archive",
+      "deviant-abilities",
+      "deviant-classifications",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archives (Remastered)",
+        "page": 100,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3508"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "64CF1381-03D5-5142-8446-34C20FFE2D2E",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Background Deviant Abilities",
+    "slug": "background-deviant-abilities-rules-3502",
+    "type": "other",
+    "descr": "A background deviant ability is a core part of a character's concept—a character may simply have been born with the power to light things on fire by whistling, or they may have gained it as part of whatever incident set them down the road to adventure. When using background deviant abilities, the player should get to decide what type of deviation they want and build their power. As the player grows, they should be able to improve their deviant ability, whether through special training, seeking out objects of power, or self-improvement, represented as taking additional deviant ability feats. If everyone in your party wishes to make deviant abilities a part of their character, or for a setting where these abilities are more common, consider using a variant similar to the [free archetype variant rule](/rule/free-archetype-rules-2751) to grant each character an extra class feat at 2nd level and every even-numbered level thereafter that they can use only to take deviant feats. In most cases, they can gain every possible deviant ability feat by 16th level in this fashion, so there's no need to grant extra feats after that.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Deviant Abilities",
+        "Acquiring a Deviant Ability"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3502"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "acquiring-a-deviant-ability",
+      "dark-archive",
+      "deviant-abilities",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archives (Remastered)",
+        "page": 98,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3502"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "DB0797AB-20F7-5BE5-822F-6B1C211DDD27",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Backlash",
+    "slug": "backlash-rules-3507",
+    "type": "other",
+    "descr": "The same blood that lets one of the dragon-descended spit out a gout of flame is precisely what keeps the inside of their mouth from being singed in the furnace. Deviations, unfortunately, lack these safeguards, their powers coming from haphazard circumstance and interactions rather than intentional design. A character using their deviation always risks the chance of backlash.\n\n Whenever you attempt to use a deviation, roll a DC 5 flat check. On a success, you use your deviation and the DC for subsequent checks increases by 5, to a maximum of 20; on a failure, you use your deviation and then suffer a backlash effect, after which your flat check DC resets to 5. Backlash progresses from mild, to moderate, to severe. When you have already taken mild backlash in a given day, the next time you would take backlash, you take the moderate backlash instead, and if you have already taken moderate backlash, you take the severe backlash instead, and your deviation can't be used for the rest of the day— attempting to use it simply brings pain. When you make your daily preparations, your flat check DC returns to 5 and your next backlash returns to mild.\n\n Any effects from backlash can't be reduced, prevented, or otherwise bypassed. Conditions and damage you take from backlash can't be reduced or prevented by resistance or immunity, but still triggers any weakness you have to it.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Deviant Abilities",
+        "Deviant Classifications"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3507"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "dark-archive",
+      "deviant-abilities",
+      "deviant-classifications",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archives (Remastered)",
+        "page": 100,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3507"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "969821D1-6D95-551F-BC0D-A7D4D79BD6E3",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Bargained Contracts",
+    "slug": "bargained-contracts-rules-3512",
+    "type": "other",
+    "descr": "Anyone can have a taste of power—if they're willing to pay the price for it. These _bargained contracts_ are readily offered to those who know how to ask. However, fey, spirits of nature, hags, and the otherwise supernaturally inclined don't deal in currency as simple as gold. Each of these _bargained contracts_ offers specific benefits and drawbacks. While negotiation is part of these bargains, the entities that offer such deals rarely recognize the spirit of the agreement—only the written deal is final. Upon close review, the wording often matches the original proposal, leaving the mortal to wonder if the bargaining was just for show. A _bargained contract_ is a magic item that has the [contract](/trait/contract) trait. The item has no physical substance and can't be dispelled or altered. Nonetheless, it comes with a pair of tokens indicating the contract has been struck, one held by each end of the deal. A bargained contract can be destroyed only if both tokens are destroyed. If discarded, lost, or stolen, a token tends to find its way back to the being to whom it belongs. Holding the token isn't necessary to receive the benefits of the contract except where specifically stated that the token is part of the activation or Key to theeffect. A _bargained contract_ is automatically invested and counts toward a character's limit of 10 invested items; part of the cost is that the contract draws from the holder's investiture. Entities that offer bargained contracts can enter into any number without restriction. _bargained contracts_ don't cost money because they're always part of a contract roleplayed during the story and priced in things more meaningful than coin. Nonetheless, the GM should consider contracts as a story reward in much the same way as they would other types of treasure. For instance, if the GM is looking to give out two 9th-level items, they might have one of those items be a [key to the stomach](/item/key-to-the-stomach-dark-archive). In other words, the lack of cost just means it can't be bought or sold in stores, not that it doesn't count as part of the PCs' overall treasure.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3512"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "dark-archive",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archives (Remastered)",
+        "page": 164,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3512"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8DD3AF80-C533-5DB7-85C0-CBDCD6AA5732",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Building a Deviant Ability",
+    "slug": "building-a-deviant-ability-rules-3504",
+    "type": "other",
+    "descr": "Decide what deviant ability you want to build, and what event led to the deviant ability or awoke it. Each ability comprises a main **classification**—grouping energy projection or enhanced physiology together—with an attendant **backlash** effect that can occur when the unstable power is pushed too far, and finally, one or more strange **quirks** that personalize the deviant ability further. If building a background deviant ability, take a feat from the classification that best matches the power you want— these ability classifications determine the general theme of your ability, as well as what type of backlash can happen if your ability runs rampant. For instance, if your power is to breathe blasts of electricity, you could take the [Storming Breath](/feat/storming-breath-dark-archive) feat from the dragon classification, which covers energy manipulation. Once you have gained a feat in a given classification, you can take only feats from that classification, as well as universal deviant ability feats. If you are playing with campaign deviant abilities, simply grant your player the abilities that best fit the story, ignoring the split between classifications if needed.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Deviant Abilities"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3504"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "dark-archive",
+      "deviant-abilities",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archives (Remastered)",
+        "page": 99,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3504"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "13AFEE20-AB5F-58B6-A5B2-CDC3F10040BE",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Campaign Deviant Abilities",
+    "slug": "campaign-deviant-abilities-rules-3503",
+    "type": "other",
+    "descr": "A campaign deviant ability comes about as part of the story of your campaign. The party may find themselves with strangely expanded senses after taking shelter beneath an ancient monolith, or they might drink from a spring of pure magic in a grove and find themselves able to command the elements. As the GM, you should decide the specifics of the deviant abilities yourself, matching them to the event and themes of your campaign. The players might not discover the full capabilities or quirks of their new abilities immediately. Consider waiting for a dramatic moment to reveal that a player has gained a deviant ability, perhaps letting them unleash an unexpected blast of lightning right when they need it the most.\n\n Because a campaign deviant ability is normally only present for a level or maybe two, you usually don't have to worry about advancing the ability or adjusting campaign rewards to take stock of your PCs' additional powers. Rather, simply keep in mind that the players might have an extra source of damage or utility ability up their sleeve while they are in a given town or dungeon. Be clear with your players that their newly acquired abilities are temporary; for instance, it might be that the powers the players gained from the ancient monolith will fade once their journey takes them too far. If a player enjoys their deviant ability and wants to keep it even after the moment in the campaign has passed, work with them to develop a story that fits their character—maybe they take a piece of the monolith with them, letting them keep their powers. In this case, you can give them the opportunity to retrain some of their existing feats into deviant ability feats or let them take those feats again in the future.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Deviant Abilities",
+        "Acquiring a Deviant Ability"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3503"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "acquiring-a-deviant-ability",
+      "dark-archive",
+      "deviant-abilities",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archives (Remastered)",
+        "page": 99,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3503"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8DB831E2-55C9-5407-B158-55C8C0569500",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Cryptid Adjustments",
+    "slug": "cryptid-adjustments-rules-3493",
+    "type": "other",
+    "descr": "They resemble the familiar creatures common to the world, but are always just a bit off. The following sets of adjustments can make ordinary creatures suited to be cryptids.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3493"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "dark-archive",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archives (Remastered)",
+        "page": 58,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3493"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2DEA41C5-11FF-5111-A939-FB5A61B0D52D",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Deviant Abilities",
+    "slug": "deviant-abilities-rules-3500",
+    "type": "other",
+    "descr": "The frost struck in the time it took him to look. No waving fingers, no incantation, no circle of ancient runes hanging in the air. Just ice covering everything he laid eyes on, his breath hanging white in the summer afternoon as chills wracked his body.\n\n **Rarity**: [Rare](/trait/rare)\n Though Golarion contains classically trained spellcasters, descendants of magical creatures, and entire species who can invoke ancestral patrons for supernatural aid, there are always some who gain unique and unstable powers in strange or unorthodox ways. GMs can use the rules here to grant these so-called deviant abilities to their players and incorporate them into their games. A deviant ability can be the result of exposure to exotic energies, a boon from a powerful entity, cutting-edge scientific experimentation, or any other process that makes sense for your story.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3500"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "dark-archive",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archives (Remastered)",
+        "page": 98,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3500"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E247D98C-FC17-5FE2-9D1E-19FE5E13A048",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Deviant Classifications",
+    "slug": "deviant-classifications-rules-3505",
+    "type": "other",
+    "descr": "The Dark Archive classifies deviant abilities into broad categories, typically filing them according to their ultimate effects, since the source of the deviations range so widely. If you are advancing your deviant ability, you can do so with the below deviant feats. Feats with the [deviant](/trait/deviant) trait are class feats, but can be taken by any class. When you take the feat, it gains the trait appropriate for your class.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Deviant Abilities"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3505"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "dark-archive",
+      "deviant-abilities",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archives (Remastered)",
+        "page": 99,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3505"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8726F204-A4CA-53C1-B6AA-53A23F93F865",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Deviation Saves and Attack Rolls",
+    "slug": "deviation-saves-and-attack-rolls-rules-3506",
+    "type": "combat",
+    "descr": "Many deviations allow for a saving throw or have other abilities that change as you go up in level. The DC for any saving throw called for by a deviation is the higher of your class DC or spell DC. The attack modifier of a deviation is 10 lower than that DC, unless the deviation calls for a Strike, in which case the attack modifier is the normal attack modifier of the Strike. A deviation's counteract modifier is equal the deviation's DC – 10.",
+    "data": {
+      "type": "combat",
+      "breadcrumbs": [
+        "Deviant Abilities",
+        "Deviant Classifications"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3506"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "combat",
+      "dark-archive",
+      "deviant-abilities",
+      "deviant-classifications",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archives (Remastered)",
+        "page": 99,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3506"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1B079B3D-B514-5B52-ADEC-E98ECB6A6622",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Experimental Cryptids",
+    "slug": "experimental-cryptids-rules-3494",
+    "type": "other",
+    "descr": "An experimental cryptid has been purposefully altered through alchemy, engineering, magic, or ritual to contain some degree of construct components. Although powerful, the process is volatile and imperfect.\n\nExperimental Cryptid Template",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Cryptid Adjustments"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3494"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "cryptid-adjustments",
+      "dark-archive",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archives (Remastered)",
+        "page": 58,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3494"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1355A28D-8646-5707-B86F-6A9894F21A27",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Gear and Companions",
+    "slug": "gear-and-companions-rules-3519",
+    "type": "combat",
+    "descr": "When you enter a psychic duel, psychic echoes of your gear travel with you. An eidolon, familiar, animal companion, or the like typically appears as a psychic echo based on your perception of it. However, the GM might determine a particularly intelligent companion joins its own mind into the psychic duel.",
+    "data": {
+      "type": "combat",
+      "breadcrumbs": [
+        "Psychic Duels",
+        "Attacks and Defenses"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3519"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "attacks-and-defenses",
+      "combat",
+      "dark-archive",
+      "psychic-duels",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archives (Remastered)",
+        "page": 202,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3519"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A5D92FE5-C49F-5D27-A56A-47268268A916",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Initiative and Dueling Actions",
+    "slug": "initiative-and-dueling-actions-rules-3516",
+    "type": "combat",
+    "descr": "Each duelist rolls initiative normally and proceeds in that initiative order, like a spellcasting duel rather than a combat duel. Each duelist can roll a Deception, Diplomacy, Intimidation, or Occultism check instead of Perception. If the participant is trained at the skill they rolled for initiative, they gain the psychic center of that skill—a mental state corresponding to the skill. The GM might allow Lore skills for initiative in a psychic duel; these give the Occultism psychic center unless the GM determines otherwise. All participants gain the Psychic Defense reaction, which they can use while psychically centered. Its specific effect depends on the user's psychic center and using it expends the state. Each participant also has the [Recenter](/action/recenter-dark-archive) action, which lets them change or assume a psychic center.",
+    "data": {
+      "type": "combat",
+      "breadcrumbs": [
+        "Psychic Duels"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3516"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "combat",
+      "dark-archive",
+      "psychic-duels",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archives (Remastered)",
+        "page": 201,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3516"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A0FA28CD-5AB9-547D-B3F1-E58773B3AAC8",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Mindscape Statistics",
+    "slug": "mindscape-statistics-rules-3513",
+    "type": "other",
+    "descr": "Similar to a plane or dimension, a mindscape has statistics. The rules for planar traits and stat blocks are under [The Planes](/rule/the-planes-rules-3014).\n\n## Immersive Mindscape\n\n An immersive mindscape forms in the Astral Plane and is shaped purely from the thoughts of its creator. Created of powerful psychic magic, it brings creatures fully into it in their astral forms. Their bodies might remain behind, inactive, or be totally drawn in, depending on the nature of the mindscape. Typically, the mindscape appears to the senses to be a real place, and the inhabitants believe they're physically there.\n\n Though a mindscape is always mutable with subjective gravity, its nature can be veiled, causing inhabitants to be unaware of these properties. Veiled mindscapes typically appear to have normal gravity and morphic traits. Overcoming this appearance to alter the mindscape's structure or use subjective gravity requires realizing it's false. **Variations** A mindscape might have unbounded scope and its time might be altered, typically to flowing time or timeless. These aren't possible with the basic [_construct mindscape_](/ritual/construct-mindscape-dark-archive) ritual.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3513"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "dark-archive",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archives (Remastered)",
+        "page": 198,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3513"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4E7377BA-289C-57E0-A33C-B395D3A67C6A",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Movement and Location",
+    "slug": "movement-and-location-rules-3520",
+    "type": "combat",
+    "descr": "Changing location is usually easy within a psychic duel, as a participant can move at the speed of thought. It typically takes only a single action to move to any location the participant wants and range of attacks and spells rarely matter much. You can usually run a psychic duel without a grid. Functions of positioning and movement still matter, but have a more flexible appearance. For instance, a participant can [Hide](/action/hide-player-core), but this likely means shaping the imaginary environment around them to create a visual screen, glowing phenomenon, or even psychic static. Likewise, spells that immobilize or [grab](/action/grab-monster-core) a creature can prevent the easy movement detailed above.",
+    "data": {
+      "type": "combat",
+      "breadcrumbs": [
+        "Psychic Duels"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3520"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "combat",
+      "dark-archive",
+      "psychic-duels",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archives (Remastered)",
+        "page": 202,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3520"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "94D3C6BF-B327-59DE-89B0-B8A5EECA8BC7",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Mutant Cryptids",
+    "slug": "mutant-cryptids-rules-3495",
+    "type": "other",
+    "descr": "Some strange creatures defy what's expected from others of their kind due to a peculiar mutation. A mutation can come from a wide variety of sources: a quirk in their lineage, effects from their environment, radiation from bizarre crystals, or exposure to uncontrolled magic. A mutant cryptid can defy the normal expectations of its kind. A water elemental might have a planar disjunction that changes its makeup moment to moment, or a werewolf might detest music instead of silver.\n\nMutant Cryptid Template",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Cryptid Adjustments"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3495"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "cryptid-adjustments",
+      "dark-archive",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archives (Remastered)",
+        "page": 59,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3495"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9492BF8F-B4AF-5785-91CB-200DA21EDB85",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Natural Psychic Spells",
+    "slug": "natural-psychic-spells-rules-3518",
+    "type": "combat",
+    "descr": "Any creature in a psychic duel can cast two spells, both heightened to half the participant's level, rounded up. They can cast the [_daze_](/spell/daze-player-core) cantrip at will and get a second spell that can be cast once during the duel. They choose from the following when they roll initiative: [_fear_](/spell/fear-player-core), [_phantom pain_](/spell/phantom-pain-player-core), or a common summoning spell (typically [_summon animal_](/spell/summon-animal-player-core), [_summon construct_](/spell/summon-construct-player-core), [_summon fey_](/spell/summon-fey-player-core), or [_summon lesser servitor_](/spell/summon-lesser-servitor-player-core-2) for a 1st-rank spell). If the creature can't cast spells, they gain these as innate occult spells until the end of the psychic duel. If they can already cast spells, they add these to their other spells and temporarily gain any spell slots necessary to cast them (even if they can't cast spells of that rank yet) that can be used only for the additional spell. Natural psychic spells use the higher of the caster's spell DC or class DC for their spell DC, and that number – 10 for spell attack rolls.",
+    "data": {
+      "type": "combat",
+      "breadcrumbs": [
+        "Psychic Duels",
+        "Attacks and Defenses"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3518"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "attacks-and-defenses",
+      "combat",
+      "dark-archive",
+      "psychic-duels",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archives (Remastered)",
+        "page": 202,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3518"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A7AC49F3-4D68-5B38-B748-A7D4AA9F083B",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Primeval Cryptid",
+    "slug": "primeval-cryptid-rules-3496",
+    "type": "other",
+    "descr": "Scholars dream of discovering primeval creatures: remnants of an older age, long thought extinct. The immense bodies and vicious instincts that staved off death in the brutal world before still thrive in their intimidating forms. Primeval cryptids are resilient survivors of their kind or particularly clever individuals that find ways to extend their already prodigious lifespans.\n\nPrimeval Cryptid Template",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Cryptid Adjustments"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3496"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "cryptid-adjustments",
+      "dark-archive",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archives (Remastered)",
+        "page": 60,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3496"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "763F4A63-D096-5A54-9BCE-B63DA52762D7",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Psychic Duels",
+    "slug": "psychic-duels-rules-3514",
+    "type": "other",
+    "descr": "Two challengers flood their minds with a vision of a psychic battlefield. Imagination explodes into psychic attacks. Fireballs bloom into explosions of color, imaginary swords open wounds bleeding iridescent butterflies, unreal monstrosities escape from nightmares to lash out with their thousand fangs. A defender's shield of psychic glass shatters into fractal shrapnel and the combatant faints, overwhelmed. The victor's mind snaps back to the ordinary world as their foe crumples to the ground.\n\n Taking place entirely in a mindscape, psychic duels can occur when foes come into conflict in an area rife with mental magic, through the magic of a bizarre artifact, when two creatures' minds connect within a dream, or when a psychic duelist instigates a duel Psychic duels play out much like the [duels](/rule/duels-rules-3084). The main differences are the participants conduct their duel in mental space and their mental state and emotions determine the outcome. (A duel taking place in the physical world with occult spells uses the rules for spellcasting duels, not psychic duels.) While engaged in a psychic duel, the participants are paralyzed in the real world and can mentally act only in the psychic duel mindscape.\n\n Though other kinds of duels have a judge, a psychic duel is governed by the workings of the mind. This means most psychic duels last until a participant yields or is knocked out (or all participants on one side in the case of a group duel). However, the duel can also end if the participants share an event they would consider a satisfying end to the duel. For instance, they might decide the goal of the duel is to demonstrate mastery of illusion spells, with the first to fully fall for an illusion losing the duel. Because the duel takes place on a mental battlefield, a creature that is [mindless](/trait/mindless) or immune to [mental](/trait/mental) effects is incapable of joining a psychic duel.\n\n## Binary Mindscape Statistics\n\nPsychic duels take place in a binary mindscape, which is much like a very simple plane or dimension. It can be easily altered by its inhabitants during the duel. The stat block for a binary mindscape is as follows.\n\n## Binary Mindscape\n\nA binary mindscape is formed of only two linked minds and most often created to provide the arena for a psychic duel. It's typically simple in structure, with basic details that become even more indistinct at the edges of the duelists' imaginations.\n\n The time trait typically matches that of the plane on which the participants' forms are. A participant with particularly strong psychic abilities might be able to adjust the [time](/trait/time) trait (typically to timeless). In a voluntary duel, adjustments like these need to be agreed upon by all participants.\n\n## Imagery of a Psychic Duel\n\nUpon entering the psychic duel, a creature's psychic avatar appears in the minds of the duelists. This mental manifestation looks vaguely like them but might be altered based on their mental abilities and the statistics they used for initiative. For instance, a creature that rolled Deception might appear cloaked, shadowy, or diabolic. Over the course of the battle, this avatar changes appearance multiple times, adapting to the flow of the duel. A vicious, powerful attack might cause the attacker to look more fearsome or increase the splendor of their imaginary attire; a failure might make them shrink or become translucent. Armor might change form to defend against varied manifestations.\n\n Psychic manifestations, too, flex to meet the psychic battlefield. Players should describe the actions they use in imaginative ways unbound by the laws of the physical world. Weapons can grow, shrink, twist, and [fly](/spell/fly-player-core). Spells can become a riot of color and noise, directing sensation straight into the target's mind. Participants transform into animals or warriors that reflect their ferocity or cunning. Mental and [illusion](/trait/illusion) spells are particularly mutable since they're more directly tied to the mind and senses. Since the participants are mentally linked, their thoughts can bleed over, making an illusion pull imagery directly from the target's mind to show them a vision of a loved one or a bit of their past.\n\n The varied forms of Psychic Defense illustrate this easily. Just a few examples appear here, but anything that makes sense to a participant's imagination might appear.\n\n **Armor of Insight:** Suck an attack into a fractal vortex of color, speed acres of distance away from your foe, transform into an unbreakable mountain, deflect an attack by creating a prism of light that breaks the attack into a rainbow of colors.\n\n **Empathic Orbit:** Transform into the pleading visage of someone the foe inadvertently harmed, remove your face to reveal a crying version of your foe's own face, broadcast one of your memories that can elicit sympathy.\n\n **Ire's Spear:** Roil a crashing storm, mirror the manifestation upon your attacker, emit a red-faced roar that shatters eardrums, froth rabidly to form a river of blazing spittle.\n\n **Rational Labyrinth:** Call up a foe's memory of being lost, block access to your mind with mathematical equations, levy a requirement for legalistic precision upon your foe's thoughts.\n\n **Sensory Phantasm:** Duplicate your form infinitely, transform into a grotesque corpse to avert your foe's gaze, cast a falcon's hood over your foe's head, emit distracting strobes of light.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3514"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "dark-archive",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archives (Remastered)",
+        "page": 200,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3514"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "658B9C78-F17C-5986-A3F0-9E1147561057",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Quirks",
+    "slug": "quirks-rules-3509",
+    "type": "other",
+    "descr": "No two deviant abilities are exactly alike, and even when two characters gain the same ability in the same event, individual factors like age, ancestry, and personality alter how their abilities manifest. Every deviant ability has one or two quirks, determined when the ability is gained. If playing with background deviant abilities, collaborate with your player to decide the quirk, maybe each suggesting one. If playing with campaign deviant abilities, simply pick quirks that fit the story or roll randomly.\n\n You can also use the quirks on the Ability Quirks table as a guide to invent new ones for your players. These quirks don't normally have any mechanical effect, since their purpose is only to alter minor details of a power to make them stand out, though they may have narrative implications on occasion. If you want to give a quirk a mechanical effect, it should never grant more than a +1 status bonus or –1 status penalty, and even then the statistic or check it applies to should be narrow and not in the direct control of the character with the quirk.\n\n## Table 5: Ability Quirks\n\n| d10 | Quirk |\n| --- | --- |\n| 1 | **Temporal Effectiveness** The deviation's power feels slightly stronger (or slightly weaker) at a specific time of day. |\n| 2 | **Musical Notation** Your deviation produces strange ethereal tones or chimes when activated, or you activate it through singing, whistling, or similar performance. |\n| 3 | **Strange Biology** When you gained your deviation, you grew extra eyes, a set of chitinous antennae, or some other strange biological feature unusual for your ancestry. While you might be able to hide it underneath clothing, your deviant abilities all center around this organ, so it must be uncovered and unobstructed for you to use your deviation. |\n| 4 | **Chromatic Absorption** Whenever you use your deviation, you absorb or mute a specific color from an object near you, and any manifestation of your deviant ability has that color. The absorbed colors return to your surroundings within an hour. |\n| 5 | **Selective Application** The deviation works slightly better (or slightly worse) on a certain type of creature (such as gnomes or caterpillars) or material (such as glass or silver). |\n| 6 | **Atmospheric Disturbance** When you use your deviation, tiny clouds, light wind, or other small atmospheric disturbances occur within 5 feet of your body. |\n| 7 | **Fractal Sign** Your deviation causes sand, droplets, small insects, or other lightweight objects to organize themselves into strange, geometric patterns whenever activated. |\n| 8 | **Harmless Wound** When you use your deviation, trace amounts of blood drip from your eyes or nose. |\n| 9 | **Strange Fuel** Each day, you must consume a small amount of a specific material, such as quartz or holy water (which you can do harmlessly), or your deviation is painful to use. |\n| 10 | **Forgotten Prayers** When you gain your deviation, piecemeal knowledge of a forgotten language fills your mind—not enough to communicate, but enough that you control your deviation by commanding or beseeching some higher power in the language. |",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Deviant Abilities"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3509"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "dark-archive",
+      "deviant-abilities",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archives (Remastered)",
+        "page": 103,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3509"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A84B4BC6-DF7C-5C02-B7D7-91245250DA47",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Rumored Cryptid",
+    "slug": "rumored-cryptid-rules-3497",
+    "type": "other",
+    "descr": "As stories spread about a rumored cryptid, the weight of collective belief transforms the creature to match the tales. The limits of its physical body no longer confine it.\n\nRumored Cryptid Template",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Cryptid Adjustments"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3497"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "cryptid-adjustments",
+      "dark-archive",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archives (Remastered)",
+        "page": 61,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3497"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "27BD8718-1166-563B-BBB0-F3B10735FADA",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Secret Society Member",
+    "slug": "secret-society-member-rules-3499",
+    "type": "other",
+    "descr": "A secret society member is an NPC or creature that belongs to a covert organization with influence and connections throughout its local setting and perhaps beyond. Characters with this adjustment have been elevated from the outerperiphery of the secret society and possess some leverage in its halls of power, able to command the loyalty of other members and use their connections to their advantage. Secret society members have received advanced training from their organization, which makes them slightly more of a threat in combat than they would be otherwise, but much of their power is expressed in social situations.\n\nSecrety Society Member Template",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3499"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "dark-archive",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archives (Remastered)",
+        "page": 80,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3499"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "65D558B0-0468-519F-A147-DEBFD752E0AD",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Tempting Curses",
+    "slug": "tempting-curses-rules-3511",
+    "type": "other",
+    "descr": "There is a cruel logic to most curses, which torment their victims in ways that speak to their misdeeds. Each curse becomes a cautionary tale of the price of bad behavior returned threefold. The thief's pockets sag under the weight of stolen goods. The stench of death follows the grave robber. However, not all curses start with a punishment; some present a tempting offer instead, promising power in exchange for an ever-tightening hold, eventually making the curse irresistible.\n\n These curses mostly follow the rules of [Curses](/rule/curses-rules-2766), but they also include a tempted version of the curse, which usually grants greater power... at a steeper price. A PC can activate the tempted version of the curse as a free action, which has the [concentrate](/trait/concentrate) trait. While active, the tempted version of the curse affects the target instead of the ongoing effect. The tempted version is active until the target next makes their daily preparations, at which time the curse returns to its ongoing effect and the PC can attempt a new saving throw to remove the curse. Activating the tempted version increases the save DC of the curse by 1. This increase is permanent and cumulative for each time the target activates the tempted version.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3511"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "dark-archive",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archives (Remastered)",
+        "page": 162,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3511"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D2A79CDF-E1DA-5257-A390-CB0A831CDE1A",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Terms of the Duel",
+    "slug": "terms-of-the-duel-rules-3515",
+    "type": "other",
+    "descr": "Because of the entirely mental nature of a psychic duel, participants can easily establish more ground rules for their duel through simple consensus, such as the following example options.\n\n- All psychic manifestations are nonlethal.\n- Participants can cast no spells but battle form spells.\n- A participant can escape the duel by attaining a certain\n- goal, ending it early as a draw. This is especially\n- common in a duel between a powerful psychic and\n- someone with weak psychic capabilities.\n- Participants can leave the duel immediately if their\n- physical body is disturbed or harmed.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Psychic Duels"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3515"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "dark-archive",
+      "other",
+      "psychic-duels",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archives (Remastered)",
+        "page": 200,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3515"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5D681DB1-9E84-594C-A681-138C30D5AB38",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Unseen Animal Companion",
+    "slug": "unseen-animal-companion-rules-3498",
+    "type": "other",
+    "descr": "**Rarity**: [Uncommon](/trait/uncommon)\nCryptid animal companions look a touch peculiar, often with uncanny features or ones that seem to come from a different animal. If you take a feat that would normally allow you to choose to have your companion become a savage or nimble animal companion, you can choose to make it an unseen animal companion instead.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3498"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "dark-archive",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archives (Remastered)",
+        "page": 65,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3498"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

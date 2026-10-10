@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% block content %}
+<main id="character" class="container-fluid">
+  <section class="stat-block">
+    <div class="header">
+      <h1 class="title">{{name}}</h1>
+      <div>{{'Entity.Character'|l}} {{data.level|default: '1'}}</div>
+    </div>
+
+    {% if token %}
+    <a class="stat-token" href="{{env.dataURL}}{{token}}" target="_blank"><img src="{{env.dataURL}}{{token}}" /></a>
+    {% endif %}
+
+    <div class="traits">
+      {% if data.size %}<a class="trait trait-size" href="/trait/{{data.size}}">{{data.size|map: 'Size'}}</a>{% endif %}
+      {% if data.traitLinks %}
+        {% for trait in data.traitLinks %}{% if trait.slug %}<a class="trait" href="/trait/{{trait.slug}}">{{trait.label}}</a>{% else %}<span class="trait">{{trait.label}}</span>{% endif %}{% endfor %}
+      {% else %}
+        {% for trait in data.traits %}<a class="trait" href="/trait/{{trait}}">{{trait}}</a>{% endfor %}
+      {% endif %}
+    </div>
+
+    <div class="stat-section">{% markdown %}{% include "character-primary.md" %}{% endmarkdown %}</div>
+    <hr>
+    <div class="stat-section">{% markdown %}{% include "character-secondary.md" %}{% endmarkdown %}</div>
+    <hr>
+    <div class="stat-section">{% markdown %}{% include "character-tertiary.md" %}{% endmarkdown %}</div>
+  </section>
+
+  <section class="other">
+    {% if descr %}{{descr|md}}{% endif %}
+    {% if notes %}<h3>{{'Common.Notes'|l}}</h3>{{notes|md}}{% endif %}
+    {% if image %}<a href="{{env.dataURL}}{{image}}" target="_blank"><img style="width: 100%" src="{{env.dataURL}}{{image}}" /></a>{% endif %}
+  </section>
+
+  {% include "footer.html" %}
+</main>
+{% endblock %}

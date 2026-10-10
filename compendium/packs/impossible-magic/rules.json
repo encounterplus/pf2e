@@ -1,0 +1,3325 @@
+[
+  {
+    "id": "9B5534C5-6BCE-58CC-A7D5-C8287706AB3D",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Aberrant",
+    "slug": "aberrant-impossible-magic-eidolon-eidolon-14",
+    "descr": "Your eidolon is a terrifying, incomprehensible nightmare patterned after the creatures who owe their existence to the Outer Gods and Great Old Ones. Aberrant eidolons come in a variety of forms, though their anatomies often appear twisted and impossible. Most people can't even look at any aberrant eidolon without developing a splitting headache or having a panic attack, but your studies of the occult have inured your mind to these dread terrors.\n\n**Tradition** Occult\n\n**Home Plane** Dimension of Dreams or the Universe\n\n---\n\n**Size** Medium or Small\n\n**Suggested Attacks** claw (slashing), jaws (piercing), tentacle (bludgeoning)\n\n- Str\n- Dex\n- Con 2\n- Int 1\n- Wis 1\n- Cha -1\n- AC ( Dex cap)\n\n**Skills** Athletics, Occultism\n\n**Senses** darkvision\n\n**Language** [Aklo](/language/aklo)\n\n**Speed** 25 feet\n\n---\n\n**Eidolon Abilities**\n\n- **Initial** Surprising Anatomy **Reaction**\n- **Symbiosis** Unfathomable Mind\n- **Transcendence** Maddening Whispers\n\n## Surprising Anatomy **Reaction**\n\n**Trigger** An enemy adjacent to your eidolon deals damage to your eidolon; **Effect** Your eidolon's form shifts horribly to retaliate against the attacker. Your eidolon makes a melee unarmed Strike against the triggering enemy.\n\n## Unfathomable Mind\n\nThose who try to touch your eidolon's mind find their own minds shattered. When your eidolon succeeds at a saving throw against a mental effect from a creature, that creature takes 4d6 mental damage with a basic Will save against your spell DC. A creature who fails this save is also [stupefied](/condition/stupefied-player-core) 1 (stupefied 2 on a critical failure). At 9th level and every 2 levels thereafter, the damage increases by 1d6.\n\n## Maddening Whispers\n\nYour aberrant eidolon utters terrible secrets about the true nature of the universe. They can cast [_unfathomable song_](/spell/unfathomable-song-player-core) once per day as an innate occult spell. Your eidolon can Sustain this spell as a free action if they spend at least one action Striding toward one of the targets.",
+    "data": {
+      "type": "other",
+      "category": "Summoner Eidolon",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Eidolons.aspx?ID=14"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "aberration",
+      "eidolon",
+      "impossible-magic",
+      "remaster",
+      "summoner-eidolon"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Eidolons.aspx?ID=14",
+        "page": 70
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "034A9301-A33B-5A77-A851-70ECD800496B",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Aiuen, The Elf-Gate Key",
+    "slug": "aiuen-the-elf-gate-key-impossible-magic-runesmith-rune-runesmith-rune-41",
+    "descr": "**Usage** drawn on a creature\n\n---\n\nThis masterful circular rune is a key to the aiudara network of elf gates that stretch across the stars. Once per turn, when the rune-bearer [Strides](/action/stride-player-core), it can instead teleport a distance equal to its Speed.\n\n**Invocation**\nYou teleport the rune-bearer to a location adjacent to any of your other runes, as long as it is on the same plane. An unwilling target can be teleported a maximum distance of 60 feet, and it avoids being teleported at all if it succeeds at a Will save against your class DC.\n\n---\nIf you have the ability to cast the [_sigil_](/spell/sigil-player-core) cantrip, then you can use _aiuen, the elf-gate key's_ invocation to teleport the rune-bearer to a location adjacent to any of your sigils on the same plane, in addition to any of your runes.",
+    "data": {
+      "type": "other",
+      "category": "Runesmith Rune",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=41"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "arcane",
+      "impossible-magic",
+      "remaster",
+      "rune",
+      "runesmith",
+      "runesmith-rune",
+      "teleportation"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=41",
+        "page": 61
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "C04C9419-3CE1-50A9-8644-900952452DFB",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Angel",
+    "slug": "angel-impossible-magic-eidolon-eidolon-15",
+    "descr": "Your eidolon is a celestial messenger, a member of the angelic host with a unique link to you, allowing them to carry a special message to the mortal world at your side. Most angel eidolons are roughly humanoid in form, with feathered wings, glowing eyes, halos, or similar angelic features. However, some take the form of smaller angelic servitors like the winged helmet cassisian angel instead. The two of you are destined for an important role in the plans of the celestial realms. Though a true angel, your angel eidolon's link to you as a mortal prevents them from casting the [_angelic messenger_](/ritual/angelic-messenger-monster-core) ritual, even if they somehow learn it.\n\n**Tradition** Divine\n\n**Home Plane** Elysium, Heaven, or Nirvana\n\n---\n\n**Size** Medium or Small\n\n**Suggested Attacks** fist (bludgeoning), wing (bludgeoning), unarmed attacks shaped like a weapon\n\n- Str\n- Dex\n- Con 1\n- Int -1\n- Wis 1\n- Cha 2\n- AC ( Dex cap)\n\n**Skills** Diplomacy, Religion\n\n**Senses** darkvision\n\n**Language** [Empyrean](/language/empyrean)\n\n**Speed** 25 feet\n\n---\n\n**Eidolon Abilities**\n\n- **Initial** Hallowed Strikes\n- **Symbiosis** Traveler's Aura\n- **Transcendence** Angelic Mercy\n\n## Hallowed Strikes\n\nYour eidolon's unarmed Strikes gain the [holy](/trait/holy) trait and deal 1 extra spirit damage to unholy creatures and creatures with weakness to holy. Additionally, your eidolon can make [nonlethal](/trait/nonlethal) attacks with their unarmed attacks without taking the usual –2 circumstance penalty.\n\n## Traveler's Aura\n\nYour eidolon emanates a powerful aura that protects creatures as they travel. Your eidolon and their allies (including you) within a 20-foot emanation are protected from severe heat and cold, and your eidolon is never [off-guard](/condition/off-guard-player-core) to creatures inside the aura that are of a lower level than you. When you gain the transcendence class feature, your eidolon and allies in the aura are protected from environmental damage from any plane, including severe and extreme heat and cold as well as more unusual dangers.\n\n## Angelic Mercy\n\nYour eidolon can cast [_cleanse affliction_](/spell/cleanse-affliction-player-core), [_clear mind_](/spell/clear-mind-player-core), and [_heal_](/spell/heal-player-core) once per day each as 9th-rank divine innate spells.",
+    "data": {
+      "type": "other",
+      "category": "Summoner Eidolon",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Eidolons.aspx?ID=15"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "angel",
+      "celestial",
+      "eidolon",
+      "holy",
+      "impossible-magic",
+      "remaster",
+      "summoner-eidolon"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Eidolons.aspx?ID=15",
+        "page": 71
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "07A64553-F7EB-51EF-BBD3-99C1C79ACF2E",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Anger Phantom",
+    "slug": "anger-phantom-impossible-magic-eidolon-eidolon-16",
+    "descr": "Your eidolon is a lost soul, bound to the mortal world by undying anger or a bitter grudge. Most phantom eidolons are humanoids with a spectral or ectoplasmic appearance, though some take far stranger forms. Your link with your eidolon prevents them from succumbing to corruption and undeath. Together, you will need to decide whether to work with your eidolon to control their anger or channel their wrath into power.\n\n**Tradition** Occult\n\n**Home Plane** Ethereal Plane\n\n---\n\n**Size** Medium or Small\n\n**Suggested Attacks** fist (bludgeoning), tendril (bludgeoning), unarmed attacks shaped like a weapon\n\n- Str\n- Dex\n- Con 3\n- Int 0\n- Wis -1\n- Cha 1\n- AC ( Dex cap)\n\n**Skills** Intimidation, Occultism\n\n**Senses** darkvision\n\n**Language** one common mortal language the eidolon spoke in life\n\n**Speed** 25 feet\n\n---\n\n**Eidolon Abilities**\n\n- **Initial** Furious Strike **Two Actions**\n- **Symbiosis** Seething Frenzy **Single Action**\n- **Transcendence** Anger Aura\n\n## Furious Strike **Two Actions**\n\nYour eidolon makes a melee Strike. This counts as two attacks when calculating your multiple attack penalty. If this Strike hits, your eidolon deals an extra die of weapon damage and gains a +1 circumstance bonus to the damage roll.\n\n## Seething Frenzy **Single Action**\n\nYour eidolon's fury boils over into a reckless, out-of-control frenzy. While frenzied, your eidolon is affected by [_boost eidolon_](/spell/boost-eidolon-impossible-magic-spell-spell-2913) and gains temporary Hit Points equal to your level, but takes a –1 penalty to AC. Your eidolon can't voluntarily end the frenzy or start another frenzy while in the frenzy. The frenzy and the accompanying temporary Hit Points last for 1 minute or until your eidolon is no longer manifested, whichever comes first, after which they can't start another frenzy for 1 minute.\n\n When your eidolon makes a Furious Strike while in a Seething Frenzy, the status bonus from _boost eidolon_ is 3 per damage die. The extra damage die from Furious Strike still doesn't count toward _boost eidolon's_ bonus, as normal for weapon dice added by abilities.\n\n## Anger Aura\n\nYour eidolon exudes wrath in an aura, rousing the ire of nearby creatures and causing their defenses to crack as they seethe with rage. Your eidolon gains an anger aura in a 20-foot emanation. The resistances of any creature in the aura, including you, your allies, your enemies, and your eidolon, are reduced by 10. Your eidolon can hold in their rage by spending a single action, which has the [concentrate](/trait/concentrate) trait. This reduces the aura's effect to affect only your eidolon. They can take this action again to reinstate the full effect of their aura. Creatures in a barbarian Rage, Seething Frenzy, or similar ability that allows them to channel their anger (such as Blood Frenzy) aren't affected by the anger aura.",
+    "data": {
+      "type": "other",
+      "category": "Summoner Eidolon",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Eidolons.aspx?ID=16"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "eidolon",
+      "ethereal",
+      "impossible-magic",
+      "phantom",
+      "remaster",
+      "summoner-eidolon"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Eidolons.aspx?ID=16",
+        "page": 71
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "732FF855-EED9-51D0-9295-AB10DD8CAE54",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Astillu, Rune of Submersion",
+    "slug": "astillu-rune-of-submersion-impossible-magic-runesmith-rune-runesmith-rune-25",
+    "descr": "**Usage** drawn on a creature\n\n---\n\nOriginating from Thalassic script, this wavy rune is popular with iruxi practitioners of rune magic who want to easily traverse their watery environs. The rune-bearer can breathe underwater and gains a [swim Speed](/rule/swim-speed-rules-2351) equal to its land Speed or 30 feet, whichever is greater. Its melee [Strikes](/action/strike-player-core) don't take the usual circumstance penalty for passing through water.\n\n**Invocation**\nThe rune's power pushes the bearer forward in a surprising surge of speed. The rune-bearer can [Swim](/action/swim-player-core) up to 60 feet as a free action, and this movement doesn't trigger reactions.",
+    "data": {
+      "type": "other",
+      "category": "Runesmith Rune",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=25"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "impossible-magic",
+      "magical",
+      "remaster",
+      "rune",
+      "runesmith",
+      "runesmith-rune",
+      "water"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=25",
+        "page": 59
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "C1DAF0FB-B3CB-5E62-A2D8-967750E89DA9",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Atryl, Rune of Fire",
+    "slug": "atryl-rune-of-fire-impossible-magic-runesmith-rune-runesmith-rune-1",
+    "descr": "**Usage** drawn on a creature or object\n\n---\n\nThis rune is often placed on a stone in a hearth, its power ensuring the stone remains warm through the night. The bearer’s fire [resistance](/rule/resistance-rules-2318), if any, is reduced by 5. Its [immunities](/rule/immunity-rules-2313) are unaffected.\n\n**Invocation**\nThe bearer takes 1d8 fire damage with a [basic](/rule/basic-saving-throws-rules-2297) Fortitude save. On a critical failure, it's also [dazzled](/condition/dazzled-player-core) for 1 round.\n\n---\n**Level (+2)** The reduction in fire resistance increases by 1, and the damage of the invocation increases by 1d8.",
+    "data": {
+      "type": "other",
+      "category": "Runesmith Rune",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=1"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "fire",
+      "impossible-magic",
+      "primal",
+      "remaster",
+      "rune",
+      "runesmith",
+      "runesmith-rune"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=1",
+        "page": 55
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "2FCA5457-F2C0-59AF-BEDE-7118D2E39B71",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Attribute Modifiers and Defenses",
+    "slug": "attribute-modifiers-and-defenses-impossible-magic-rules-rules-3684",
+    "descr": "Many of an eidolon's attribute modifiers are set, but when you choose your eidolon, you decide their key attribute. Choose Strength or Dexterity as your eidolon's key attribute. They gain a +4 attribute modifier for that attribute, and a +2 attribute modifier for the one you didn't choose. Your eidolon's other attribute modifiers are listed in their entry under Eidolon Attributes.\n\n This also sets your eidolon's defenses, as represented by an item bonus to AC and their Dexterity cap. If Strength is their key attribute, your eidolon has a +2 item bonus to AC with a +3 Dexterity cap. If Dexterity is their key attribute, your eidolon has +1 item bonus to AC with a +4 Dexterity cap. The appearance of the eidolon's protection can be anything you choose that fits the eidolon: armor, scales, tough hide, a mystical aura of deflection, and so on.\n\n As noted in your [attribute boosts class feature](/class/summoner-impossible-magic-class-class-77), your eidolon gets boosts to their attribute modifiers starting at 5th level at the same time you do. They also increase one modifier by 1 when they gain their transcendence ability.",
+    "data": {
+      "type": "other",
+      "category": "Rules",
+      "breadcrumbs": [
+        "Eidolons"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3684"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "impossible-magic",
+      "remaster",
+      "rules"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3684",
+        "page": 69
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "231B185E-F97F-50DE-B2A5-DDD89EFA8441",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Av-, Diacritic Rune of Succession",
+    "slug": "av-diacritic-rune-of-succession-impossible-magic-runesmith-rune-runesmith-rune-17",
+    "descr": "**Usage** drawn on a rune\n\n---\n\nThis diacritic surrounds the base rune with similar-looking smaller runes to give the impression of distant echoes. When the base rune is invoked, you can [Invoke a single Rune](/action/invoke-rune-impossible-magic-action-action-4265) on a different rune-bearer within 15 feet of the original rune-bearer as a free action.\n\n---\nYou can have only one copy of _av-, diacritic rune of succession_ applied at a given time, and once you invoke it, you can't etch or trace it again for 10 minutes.",
+    "data": {
+      "type": "other",
+      "category": "Runesmith Rune",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=17"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "diacritic",
+      "impossible-magic",
+      "magical",
+      "remaster",
+      "rune",
+      "runesmith",
+      "runesmith-rune"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=17",
+        "page": 57
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "55D91EE4-2208-5BA8-AFA5-3918A29E3154",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Baruiel, Rune of Hold's Bravery",
+    "slug": "baruiel-rune-of-hold-s-bravery-impossible-magic-runesmith-rune-runesmith-rune-2",
+    "descr": "**Usage** drawn on a willing creature\n\n---\n\nThis scratched rune reminds the bearer to stand strong against fear when near allies. As long as the rune-bearer is within 10 feet of one of its allies, whenever it would reduce its [frightened](/condition/frightened-player-core) condition by 1, it instead reduces it by 2.\n\n**Invocation**\nThe essence of the rune is released outward, easing the minds of others. Each ally of the rune-bearer within a 10-foot [emanation](/rule/emanation-rules-2387) reduces their frightened condition by 2.",
+    "data": {
+      "type": "other",
+      "category": "Runesmith Rune",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=2"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "emotion",
+      "impossible-magic",
+      "magical",
+      "mental",
+      "remaster",
+      "rune",
+      "runesmith",
+      "runesmith-rune"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=2",
+        "page": 55
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "8BB5EC0C-848F-58A3-8B19-225192822319",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Beast",
+    "slug": "beast-impossible-magic-eidolon-eidolon-17",
+    "descr": "Your eidolon is a manifestation of the life force of nature in the form of a powerful magical beast that often has animal features, possibly even several from different species. You might have learned the way to connect with the world's life force via a specific philosophy or practice, such as the beliefs of the god callers of Sarkoris, or formed a bond on your own. Regardless, your link to your eidolon allows you both to grow in power and influence to keep your home safe from those who would despoil it.\n\n**Tradition** Primal\n\n**Home Plane** The Universe\n\n---\n\n**Size** Medium\n\n**Suggested Attacks** claw (slashing), fangs (piercing), hoof (bludgeoning), horn (piercing), jaws (piercing)\n\n- Str\n- Dex\n- Con 3\n- Int -1\n- Wis 1\n- Cha 0\n- AC ( Dex cap)\n\n**Skills** Intimidation, Nature\n\n**Senses** low-light vision\n\n**Language** [Fey](/language/fey)\n\n**Speed** 25 feet\n\n---\n\n**Eidolon Abilities**\n\n- **Initial** Beast's Charge **Two Actions**\n- **Symbiosis** Primal Roar **Two Actions**\n- **Transcendence** Whirlwind Maul **Two Actions**\n\n## Beast's Charge **Two Actions**\n\nYour eidolon rushes forward, using their momentum to increase the power of their attack. Your eidolon Strides twice and then Strikes. If the eidolon moved at least 20 feet away from their starting position and moved entirely in a straight line, they gain a +1 circumstance bonus to this attack roll.\n\n## Primal Roar **Two Actions**\n\nYour eidolon unleashes a primal roar or other terrifying noise that fits your eidolon's form. Your eidolon attempts to [Demoralize](/action/demoralize-player-core) each enemy that can hear the roar, comparing the result of a single Intimidation check to the Will DC of each target; this check doesn't take any penalty for not sharing a language.\n\n## Whirlwind Maul **Two Actions**\n\nYour eidolon lashes out in all directions. They make a melee unarmed Strike against up to four enemies within reach. They can choose different unarmed attacks for each enemy. Each attack counts toward your multiple attack penalty, but you don't increase your penalty until the eidolon has made all their attacks.",
+    "data": {
+      "type": "other",
+      "category": "Summoner Eidolon",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Eidolons.aspx?ID=17"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "beast",
+      "eidolon",
+      "impossible-magic",
+      "remaster",
+      "summoner-eidolon"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Eidolons.aspx?ID=17",
+        "page": 73
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "732BA152-52C0-52B7-B3EB-962196344F77",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Binding an Armament",
+    "slug": "binding-an-armament-impossible-magic-rules-rules-3690",
+    "descr": "You bind an armament—a weapon, shield, or suit of armor—to your soul in a special ritual when you select the [Soulforger Dedication](/archetype/soulforger-impossible-magic-archetype-archetype-393) feat. You can choose an item you own or spontaneously manifest one with a form drawn from the essence of your soul. In the latter case, you can choose the form, selecting a mundane weapon, shield, or armor of 1st level or lower, either common or one to which you have access. An existing armament is deconstructed and then recreated with the substance of your soul binding it together. This changes the appearance of the armament to match the state of your soul, which can change based on your actions. Most soulforgers also choose a unique name for their armament.\n\n **Traits:** A soulforged armament is always magical. If it doesn't otherwise have any traits that make it magical, it gains the [magical](/trait/magical) trait.\n\n **[Extradimensional](/trait/extradimensional) Storage:** The armament is stored in an extradimensional space when not in use, and the soulforger can manifest it to instantly summon it into their hands or onto their body. A soulforged armament can be dropped, [Disarmed](/action/disarm-player-core), or otherwise removed from the soulforger, but its soulforged abilities don't function for anyone else, and the soulforger can [Dismiss](/action/dismiss-player-core) the manifestation ability to return the items to the extradimensional space no matter where the items are. If you die or choose to pass ownership of a soulforged armament to a successor, it loses any soulforged abilities, though violating the spirit of the soulforged bond by selling the item tends to have disastrous results. There might be special techniques or rituals that can allow a determined foe to break your bond with a soulforged item, but otherwise, your ability to Dismiss and manifest it essentially means it can't be stolen.\n\n **Special Armament Types:** The types of items you can choose for your armaments are fairly flexible, but some require special rules.\n\n _Specific Items:_ You can turn a specific item for your armament, such as a [searing blade](/item/searing-blade-gm-core) or sturdy shield. Some unusual or special items, such as cursed items, artifacts, and intelligent items, can't be bonded, in addition to other story-specific items at the GM's discretion. Bonding a specific item follows the standard procedure for upgrading or reshaping your armament.\n\n _Dual Weapons:_ You can choose two one-handed weapons you want to wield simultaneously as your soulforged weapons. When you Manifest Soulforged Armament, both weapons appear. Because they're a pair, you must manifest them together, having two hands free to do so, and Dismiss them both simultaneously as well. The [essence power](/rule/essence-powers-impossible-magic-rules-rules-3689) applies to both weapons, so they share benefits like the new damage type and status bonus to damage from planar pain. However, you still get any effects the bond grants you only once, as the dual weapons are shared as a single armament. For instance, if your essence power is healing grace, you could still cast only one [heal](/spell/heal-player-core) spell when you manifest the essence form of your dual weapons, not two.\n\n _Attached Weapons:_ An attached weapon (such as a [shield boss](/item/shield-boss-player-core)) brings the item it's attached to with it when manifested or Dismissed. Manifest Soulforged Armament uses the item the weapon is attached to for its Requirements, so a shield boss would require you to have a hand free to hold the shield. If you have Soul Arsenal, you could have a soulforged weapon attached to a soulforged shield. These items work normally for Soul Arsenal, except that you can neither manifest nor Dismiss one without the other.\n\n _Ammunition:_ If a soulforged weapon requires ammunition, that ammunition appears with the weapon when you Manifest it. You can choose the way it appears, such as in a magical quiver that appears on your body or simply floating in the air, where you can pluck it to load or shoot your weapon. The form doesn't change how many or what type of actions reloading takes or any other functions of the ammunition. If you want anything other than the basic ammunition for your weapon (such as a sleep arrow), you need to attain and carry that separately.",
+    "data": {
+      "type": "other",
+      "category": "Rules",
+      "breadcrumbs": [
+        "Soulforger"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3690"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "impossible-magic",
+      "remaster",
+      "rules"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3690",
+        "page": 99
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "E1C11F3D-3338-5874-831F-C98DB167D53F",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Blood",
+    "slug": "blood-impossible-magic-grim-fascination-grim-fascination-1",
+    "descr": "Blood necromancers, also known as sanguimancers, manipulate their own blood and the flowing blood of their enemies. Your thralls often resemble vampiric spawn or constructs of hardened blood.\n\n**Grave Spell** [Blood Infusion](/spell/blood-infusion-impossible-magic-spell-spell-2887)\n\n**Thrall Enhancement** Your thralls are enhanced with a drop of your blood, and when they fall, your blood returns to you. Whenever a thrall is destroyed, you regain 1 Hit Point. At 5th level and every 4 levels thereafter, the amount of Hit Points you regain when a thrall is destroyed increases by 1.",
+    "data": {
+      "type": "other",
+      "category": "Necromancer Grim Fascination",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/GrimFascinations.aspx?ID=1"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "grim-fascination",
+      "impossible-magic",
+      "necromancer-grim-fascination",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/GrimFascinations.aspx?ID=1",
+        "page": 30
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "DC703BDA-F79B-5655-9099-648748B9ECE0",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Bone",
+    "slug": "bone-impossible-magic-grim-fascination-grim-fascination-2",
+    "descr": "Bone necromancers, also known as osteomancers, craft what they desire from the skeletons of the dead or simply create new skeletons by expanding and shaping small bone pieces.\n\n**Grave Spell** [Bone Spear](/spell/bone-spear-impossible-magic-spell-spell-2890)\n\n**Thrall Enhancement** Your thralls are well constructed and nimble. Each of your thralls’ Speed is increased by 5 feet.",
+    "data": {
+      "type": "other",
+      "category": "Necromancer Grim Fascination",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/GrimFascinations.aspx?ID=2"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "grim-fascination",
+      "impossible-magic",
+      "necromancer-grim-fascination",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/GrimFascinations.aspx?ID=2",
+        "page": 30
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "768B0DFA-9AC0-5FF6-822D-933D8E69DA70",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Camonica, Rune of Perplexity",
+    "slug": "camonica-rune-of-perplexity-impossible-magic-runesmith-rune-runesmith-rune-3",
+    "descr": "**Usage** drawn on a creature\n\n---\n\nThis rune of looping swirls is difficult to look straight at and stirs up a psychic cacophony in a foe's mind. The first time each round the rune-bearer takes an action with the [concentrate](/trait/concentrate) trait, the turmoil increases, dealing it 2 mental damage.\n\n**Invocation**\nThe cacophony fragments and expands rapidly in a mental explosion, dealing 1d4 mental damage to the rune- bearer with a [basic](/rule/basic-saving-throws-rules-2297) Will save. On a failure, the rune-bearer is [stupefied 1](/condition/stupefied-player-core) for 1 round (or stupefied 2 on a critical failure).\n\n---\n**Level (+2)** The damage from the mental turmoil increases by 1 and the damage of the invocation increases by 1d4.",
+    "data": {
+      "type": "other",
+      "category": "Runesmith Rune",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=3"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "impossible-magic",
+      "mental",
+      "occult",
+      "remaster",
+      "rune",
+      "runesmith",
+      "runesmith-rune"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=3",
+        "page": 55
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "61449D7A-6575-5BE9-AFE7-3B7CEFD25DD1",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Casting Impossible Spells",
+    "slug": "casting-impossible-spells-impossible-magic-rules-rules-3695",
+    "descr": "[Impossible](/trait/impossible) spells are counted separately from a caster's list of learned spells, spell repertoire, or similar spellcasting class features. They are in a separate list of their own and don't consume a spell slot when cast. While most impossible spells are simply recorded as knowledge within a book, it's possible for them to exist in the form of a scroll, wand, staff, or other magical implement. Even in such forms, the power required to cast an impossible spell means only trained spellcasters can use the item. The items are also always consumed in the process of casting the impossible spell, preventing it from becoming an artifact or relic that can be passed on easily.\n\n **Fueling:** The impossible spell can be further fueled by the caster pouring more of themself into the spell to make it more powerful. After casting an impossible spell, the caster can use the [Fuel Impossible Spell](/action/fuel-impossible-spell-impossible-magic-action-action-4271) action.",
+    "data": {
+      "type": "other",
+      "category": "Rules",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3695"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "impossible-magic",
+      "remaster",
+      "rules"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3695",
+        "page": 174
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "49252055-BD8A-51B8-A854-2CCFFF3A8237",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Construct",
+    "slug": "construct-impossible-magic-eidolon-eidolon-18",
+    "descr": "Your eidolon is a mental construct based on an astral thoughtform and given physical presence and life by their connection to you, their shape limited only by your imagination. Your eidolon's appearance and physical form vary based on your shared vision for their construction, from clockworks to stuffed dolls and everything between, and it's not uncommon for that appearance to change greatly as your construct gains evolutions. Because they arise from an astral entity, your construct is no mindless servitor, but a fully thinking being with their own ideas, goals, and even emotions. These entities are extremely diverse; while many construct eidolons come from a powerful symbiotic connection with astral denizens, just as many arise from the forgotten memories of ancient empires and craftworks drifting across the Silver Sea of the Astral Plane.\n\n**Tradition** Arcane\n\n**Home Plane** Astral Plane\n\n---\n\n**Size** Medium\n\n**Suggested Attacks** fist (bludgeoning)\n\n- Str\n- Dex\n- Con 3\n- Int 1\n- Wis 0\n- Cha -1\n- AC ( Dex cap)\n\n**Skills** Arcana, Crafting\n\n**Senses** darkvision\n\n**Language** one common mortal language\n\n**Speed** 25 feet\n\n---\n\n**Eidolon Abilities**\n\n- **Initial** Construct Heart\n- **Symbiosis** Reconfigured Evolution\n- **Transcendence** Ultimate Reconfiguration\n\n## Construct Heart\n\nYour construct eidolon has a link directly to your life force, which renders them a living creature and therefore susceptible to many ailments that bother only the living, though they do possess some resistances to these effects. They don't have a construct's normal immunities, but they do gain a +2 circumstance bonus to saving throws against [death](/trait/death) effects, [disease](/trait/disease), [poison](/trait/poison), and [spirit](/trait/spirit) effects, as well as effects causing the [fatigued](/condition/fatigued-player-core) or [sickened](/condition/sickened-player-core) conditions. Additionally, their astral essence bleeds off slowly. The flat check to remove [persistent bleed damage](/condition/persistent-damage-player-core) from the eidolon is DC 10 (or DC 5 after receiving particularly effective aid).\n\n## Reconfigured Evolution\n\nYour construct eidolon is particularly easy to reconfigure, gaining an additional evolution that suits both of your whims. Choose one additional evolution feat of 6th level or lower. Your eidolon gains that feat. You can Retrain this feat for any other evolution feat of 6th level or lower with only a single day of downtime if you succeed at a Crafting check with a standard DC of your eidolon's level. If you fail, you can try again on a later day. Many summoners choose [Eidolon's Wrath](/feat/eidolon-s-wrath-impossible-magic-feat-feat-9246) for this ability.\n\n## Ultimate Reconfiguration\n\nYour construct eidolon becomes even more customizable. Choose an evolution feat of 16th level or lower. Your eidolon gains that feat. You can spend downtime to adjust it using Crafting, just like the feat from reconfigured evolution. Many summoners select [Ever-Vigilant Senses](/feat/ever-vigilant-senses-impossible-magic-feat-feat-9277) for this ability.",
+    "data": {
+      "type": "other",
+      "category": "Summoner Eidolon",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Eidolons.aspx?ID=18"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "astral",
+      "construct",
+      "eidolon",
+      "impossible-magic",
+      "remaster",
+      "summoner-eidolon"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Eidolons.aspx?ID=18",
+        "page": 73
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "1AD6D673-3384-5DFC-B5B7-0C5098BA89A6",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Corruption",
+    "slug": "corruption-impossible-magic-rules-rules-3693",
+    "descr": "Though a soulbond is powerful, once you're bound to a one, your devotion to your soul path will be tested.\n\n If you behave in a way that directly opposes or hinders the motivation, goal, or cause declared in your soul path (regardless of whether the act involves your soulforged armaments), your spirit tarnishes. It's anathema for you to commit acts opposed to your soul path or even to go a long time without taking action to pursue the path. You and your GM determine when you've performed an anathematic act. Anathematic acts trigger a curse known as _soulforged corruption_ that degrades the energies within your _soulforged armament_. This brings out a flaw inextricably tied to the armament's true essence. The corruption flaw applies to you even when your armament isn't manifested. The rules for the flaw appear in the essence power. As normal for a curse, this affliction can be removed only by effects that specifically target curses, including the methods in [Removing Corruption](/rule/removing-corruption-impossible-magic-rules-rules-3694) below.\n\n **Soulforged Corruption** ([curse](/trait/curse), [divine](/trait/divine)) A successful 4th-rank [_cleanse affliction_](/spell/cleanse-affliction-player-core) spell, rather than ending this curse, reduces its stage by 1 (to a minimum of stage 1). **Level** your level; **Saving Throw** Will save against a [very hard DC of the curse's level](/rule/difficulty-classes-rules-2627); **Stage 1** You suffer the effects of your armament's corruption flaw. If you try to manifest the armament's essence form, you must attempt a DC 5 flat check. If you fail, only the normal form manifests, and you can't try to manifest that armament's essence form again that day (1 day); **Stage 2** You suffer the effects of your armament's corruption flaw, and any attempt to activate the armament's essence form fails (1 day); **Stage 3** Your soulforged armament is permanently destroyed. You can't have a new soulforged armament until you remove the curse entirely with the [purify soul path](/ritual/purify-soul-path-impossible-magic-ritual-ritual-243) ritual (1 day).",
+    "data": {
+      "type": "other",
+      "category": "Rules",
+      "breadcrumbs": [
+        "Soulforger",
+        "Soul Path"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3693"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "impossible-magic",
+      "remaster",
+      "rules"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3693",
+        "page": 101
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "14CD756D-162C-552D-A7BF-6CFE024072E8",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Cruonign, Rune of Leeching",
+    "slug": "cruonign-rune-of-leeching-impossible-magic-runesmith-rune-runesmith-rune-26",
+    "descr": "**Usage** drawn on a slashing or piercing weapon\n\n---\n\nThe jagged shape of this rune resembles a vampire's fangs. [Strikes](/action/strike-player-core) with the rune-bearing weapon deal an additional 3 void damage. Whenever a living creature is damaged by one of these Strikes, the rune-bearer gains [temporary Hit Points](/rule/temporary-hit-points-rules-2321) equal to the void damage the target took (after applying [resistances](/rule/resistance-rules-2318) and the like). These temporary Hit Points last 1 round.\n\n**Invocation**\nThe rune lashes out in a 30-foot [cone](/rule/cone-rules-2386) from the wielder of the weapon, dealing 4d10 void damage to each creature in the area, with a [basic](/rule/basic-saving-throws-rules-2297) Fortitude save. If any creatures take damage, the wielder regains 12 Hit Points.\n\n---\n**Level (+2)** The additional void damage increases by 1, the damage of the invocation increases by 1d10, and the healing increases by 3.",
+    "data": {
+      "type": "other",
+      "category": "Runesmith Rune",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=26"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "death",
+      "impossible-magic",
+      "magical",
+      "void",
+      "remaster",
+      "rune",
+      "runesmith",
+      "runesmith-rune"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=26",
+        "page": 59
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "1975ED55-18A0-5303-9DDF-7A5A3EAA1300",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Demon",
+    "slug": "demon-impossible-magic-eidolon-eidolon-19",
+    "descr": "Your eidolon is a demon, born of mortal sin congealed amid the chaos and evil of the Outer Rifts, using their link to you to spread chaos at your side. Choose an associated sin for your demon. Demon eidolons have appearances as varied as the infinite Outer Rifts. While demons are inherently untrustworthy, your demon eidolon has reached an accord with you and generally keeps it, though that doesn't mean your eidolon isn't actively working to bring your life deeper into their associated sin. Though a true demon, your demon eidolon's link to you as a mortal prevents them from casting the [_demonic pact_](/ritual/demonic-pact-monster-core) ritual, even if they somehow learn it.\n\n**Tradition** Divine\n\n**Home Plane** The Outer Rifts\n\n---\n\n**Size** Medium or Small\n\n**Suggested Attacks** claw (slashing), horn (piercing), jaws (piercing), tail (bludgeoning), tentacle (bludgeoning), wing (bludgeoning)\n\n- Str\n- Dex\n- Con 3\n- Int 0\n- Wis -1\n- Cha 1\n- AC ( Dex cap)\n\n**Skills** Intimidation, Religion\n\n**Senses** darkvision\n\n**Language** [Chthonian](/language/chthonian)\n\n**Speed** 25 feet\n\n---\n\n**Eidolon Abilities**\n\n- **Initial** Demonic Strikes\n- **Symbiosis** Visions of Sin **Two Actions**\n- **Transcendence** Blasphemous Decree\n\n## Demonic Strikes\n\nYour eidolon's attacks are corrupted by the Outer Rifts and imbued with pure malice and shifting chaos. Your eidolon's unarmed Strikes gain the [unholy](/trait/unholy) trait and deal an additional 1 spirit damage to holy creatures and creatures with weakness to unholy. Additionally, choose one of your eidolon's unarmed attacks that deals physical damage; it gains your choice of [versatile](/trait/versatile) B, versatile P, or versatile S.\n\n## Visions of Sin **Two Actions**\n\n**Frequency** once per 10 minutes; **Effect** Your eidolon summons images of their sin into the mind of a target creature within 30 feet, tormenting and confusing the target. The target must attempt a Will save against your spell DC with the following effects. The effects last until the end of your next turn, but your eidolon can Sustain the effects to a maximum duration of 1 minute. If the target is unholy, it takes a –2 circumstance penalty to its save. Regardless of whether it succeeds, the target becomes temporarily immune for 1 day.\n\n**Critical Success** The target is unaffected.\n\n**Success** The target can't use reactions.\n\n**Failure** The target is slowed 1 and can't use reactions.\n\n**Critical Failure** As failure, and the target is also confused for 1 round. The confusion can't be extended, but the other effects can.\n\n## Blasphemous Decree\n\nYour demon utters indescribable words writhing with their associated sin. They can cast [_divine decree_](/spell/divine-decree-player-core) once per day as a 9th-rank spell. You are unaffected by this decree. At 19th level, this becomes a 10th-rank _divine decree_ instead.",
+    "data": {
+      "type": "other",
+      "category": "Summoner Eidolon",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Eidolons.aspx?ID=19"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "demon",
+      "eidolon",
+      "fiend",
+      "impossible-magic",
+      "remaster",
+      "summoner-eidolon",
+      "unholy"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Eidolons.aspx?ID=19",
+        "page": 74
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "5DC4F233-3834-5BDA-A5A0-2814222A530D",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Devotion Phantom",
+    "slug": "devotion-phantom-impossible-magic-eidolon-eidolon-20",
+    "descr": "Your eidolon is a lost soul, unable to escape the mortal world due to a strong sense of duty, an undying devotion, or a need to complete a task that was of vital importance to the soul during their life. Most phantom eidolons are humanoid with a spectral or ectoplasmic appearance, though some take far stranger forms. Your link with your eidolon prevents them from succumbing to corruption and undeath, and together, you will grow in strength and fulfill your phantom's devotion.\n\n**Tradition** Occult\n\n**Home Plane** Ethereal Plane\n\n---\n\n**Size** Medium or Small\n\n**Suggested Attacks** fist (bludgeoning), tendril (bludgeoning), unarmed attacks shaped like a weapon\n\n- Str\n- Dex\n- Con 3\n- Int 0\n- Wis 0\n- Cha 0\n- AC ( Dex cap)\n\n**Skills** Medicine, Occultism\n\n**Senses** darkvision\n\n**Language** one common mortal language the eidolon spoke in life\n\n**Speed** 25 feet\n\n---\n\n**Eidolon Abilities**\n\n- **Initial** Dutiful Retaliation **Reaction**\n- **Symbiosis** Steadfast Devotion\n- **Transcendence** Devotion Aura\n\n## Dutiful Retaliation **Reaction**\n\n**Trigger** An enemy within 15 feet of you hits you with a Strike and deals damage to you; **Requirements** Your eidolon is within 15 feet of you; **Effect** Your eidolon instinctively flashes with ectoplasmic energy, allowing them to strike back against an enemy who dares to harm you. Your eidolon makes a melee unarmed Strike against the triggering enemy, even if that enemy isn't within your eidolon's reach.\n\n## Steadfast Devotion\n\nYour eidolon's dedication makes it extremely challenging for your foes to bend their mind. Your eidolon gains a +2 circumstance bonus to saving throws against [mental](/trait/mental) effects, and if they roll a success against such an effect, they get a critical success instead. If you have the shared resolve class feature and your eidolon rolls a critical failure against a mental effect, they get a failure instead.\n\n## Devotion Aura\n\nAfter fighting at your side for so long, your eidolon has become as devoted to protecting you and your allies as they are to their original cause. Your eidolon gains a 20-foot devotion aura. Whenever one of your eidolon's allies (including you) within the aura takes damage, you can reduce the damage by 6. You lose a number of Hit Points equal to half the amount by which the eidolon reduced the damage, rounded down. If the damage was lower than 6, base the damage you take on the actual amount of damage prevented. For instance, if the eidolon prevented 5 damage, you would lose 2 HP.",
+    "data": {
+      "type": "other",
+      "category": "Summoner Eidolon",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Eidolons.aspx?ID=20"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "eidolon",
+      "ethereal",
+      "impossible-magic",
+      "phantom",
+      "remaster",
+      "summoner-eidolon"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Eidolons.aspx?ID=20",
+        "page": 75
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "F26163A8-B766-5733-BEB5-49F65DEFC138",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Dragon",
+    "slug": "dragon-impossible-magic-eidolon-eidolon-21",
+    "descr": "Because dragons have a strong connection to magic, their minds can often leave an echo floating in the Astral Plane. Such an entity is extremely powerful but unable to interact with the outside world on their own. Dragon eidolons manifest in the powerful, scaled forms they had in life; most take the form of great dragons (albeit smaller), but some manifest as drakes or other draconic beings. You have forged a connection with such a dragon eidolon and together, you seek to grow as powerful as an archdragon.\n\n**Tradition**\n\n**Traits** (Variable)** The trait matching the eidolon’s tradition\n\n**Home Plane** Astral Plane\n\n---\n\n**Size** Medium\n\n**Suggested Attacks** claw (slashing), horn (piercing), jaws (piercing), tail (bludgeoning), wing (bludgeoning)\n\n- Str\n- Dex\n- Con 1\n- Int 1\n- Wis 0\n- Cha 1\n- AC ( Dex cap)\n\n**Skills**\n\n**Senses** darkvision\n\n**Language** [Draconic](/language/draconic)\n\n**Speed** 25 feet\n\n---\n\n**Eidolon Abilities**\n\n- **Initial** Dragon Breath **Two Actions**\n- **Symbiosis** Draconic Frenzy **Two Actions**\n- **Transcendence** Empower Breath **Free Action**\n\n## Dragon Breath **Two Actions**\n\nYour eidolon exhales a blast of destructive energy that deals 1d6 damage to all creatures in an area with a basic Reflex save against your spell DC. Your eidolon then can't use Dragon Breath again for the next 1d4 rounds. At 3rd level and every 2 levels thereafter, the damage increases by 1d6.\n\n When the eidolon gains this ability, you choose the area—a 60-foot line or a 30-foot cone—as well as the damage type—acid, cold, electricity, fire, piercing, poison, or void. You can instead choose force if your eidolon has the [arcane](/trait/arcane) trait, [spirit](/trait/spirit) if they have the [divine](/trait/divine) trait, or mental if they have the [occult](/trait/occult) trait. If you model your eidolon after a specific type of dragon, your GM might allow you to choose from additional damage types.\n\n Dragon Breath has the tradition trait of your eidolon and the trait matching the damage type chosen (unless you choose piercing damage).\n\n## Draconic Frenzy **Two Actions**\n\nYour eidolon makes one Strike with their primary unarmed attack and two Strikes with their secondary unarmed attack (in any order). If any of these attacks critically hits an enemy, your eidolon instantly recovers the use of their Dragon Breath.\n\n## Empower Breath **Free Action**\n\n**Frequency** once per minute; **Effect** Your eidolon gathers the power of the mightiest archdragons to make their magical breath even more spectacular. If your eidolon's next action is to use Dragon Breath, both the number of damage dice and area of Dragon Breath are doubled.",
+    "data": {
+      "type": "other",
+      "category": "Summoner Eidolon",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Eidolons.aspx?ID=21"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "astral",
+      "dragon",
+      "eidolon",
+      "impossible-magic",
+      "remaster",
+      "summoner-eidolon"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Eidolons.aspx?ID=21",
+        "page": 75
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "9EE4E7BD-0630-5B3C-AF2B-E5DFF0A2DD13",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Eck-, Diacritic Rune of Phantasma",
+    "slug": "eck-diacritic-rune-of-phantasma-impossible-magic-runesmith-rune-runesmith-rune-37",
+    "descr": "**Usage** drawn on a rune that deals damage\n\n---\n\nThis diacritic frames a base rune with almost invisible lines that turn the rune's effects against the bearer's soul. The damage dealt on the base rune becomes spirit damage, and each of your enemies adjacent to the rune-bearer takes 1d8 [persistent spirit damage](/condition/persistent-damage-player-core).\n\n---\n**Level (17th)** The persistent spirit damage increases by 1d8.",
+    "data": {
+      "type": "other",
+      "category": "Runesmith Rune",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=37"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "diacritic",
+      "impossible-magic",
+      "magical",
+      "remaster",
+      "rune",
+      "runesmith",
+      "runesmith-rune"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=37",
+        "page": 60
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "C9D2AE40-23B6-5C42-B58D-AE6E1DE0A196",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Eidolon Spells",
+    "slug": "eidolon-spells-impossible-magic-rules-rules-3686",
+    "descr": "An eidolon normally can't Cast a Spell; however, some feats or abilities can grant them this capability. An eidolon that has spells also gains the Cast a Spell activity. They don't have their own spell DC or spell attack modifier; if they need to Cast a Spell, they use your spell DC and spell attack modifier. If your eidolon has focus spells, those spells count toward your focus pool maximum and your eidolon uses your Focus Points to cast them. Your eidolon can't [Refocus](/action/refocus-player-core). Your eidolon can cast only spells they gain from their own abilities. They can't cast your spells, nor can you cast spells they have.",
+    "data": {
+      "type": "other",
+      "category": "Rules",
+      "breadcrumbs": [
+        "Eidolons"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3686"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "impossible-magic",
+      "remaster",
+      "rules"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3686",
+        "page": 70
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "A77CB6D4-AADC-5B4D-9CE6-3BBEFD90F8EE",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Eidolons",
+    "slug": "eidolons-impossible-magic-rules-rules-3682",
+    "descr": "Though each eidolon is a unique creature and there are many types of eidolons, each draws upon a particular tradition of magic and manifests from related essence. Multiple types of each eidolon exist as well—for instance, the types of construct eidolon presented in this book are the warrior construct and the scout construct.\n\n [Arcane](/trait/arcane) eidolons are usually formed of mental essence, also known as astral essence. They include construct eidolons and ooze eidolons, beings formed into simple shapes through arcane magic and held together through mental fortitude.\n\n [Divine](/trait/divine) eidolons are always formed of spiritual essence, much like the divine servitors they resemble. They include representatives of the many families of divine servitors, such as angels, demons, and psychopomps.\n\n [Occult](/trait/occult) eidolons are also usually formed of spiritual essence, though they tend toward a more ectoplasmic consistency than divine eidolons. Occult eidolons usually form from the essence of a spirit that is unwilling or unable to pass on and find refuge with a summoner to avoid becoming undead; these types of eidolons are known as phantoms. Each phantom eidolon has a connection to a particular emotion, such as the anger phantom and devotion phantom described in this book.\n\n [Primal](/trait/primal) eidolons usually manifest from life essence. Their forms resemble creatures found in the natural world, such as beasts, plants, fey, or some combination thereof.",
+    "data": {
+      "type": "other",
+      "category": "Rules",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3682"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "impossible-magic",
+      "remaster",
+      "rules"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3682",
+        "page": 69
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "F1FA41A1-9947-540E-B268-4FB73AF5F430",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "En-, Diacritic Rune of Expansion",
+    "slug": "en-diacritic-rune-of-expansion-impossible-magic-runesmith-rune-runesmith-rune-18",
+    "descr": "**Usage** drawn on a rune that deals damage\n\n---\n\nThis diacritic surrounds a rune with outward-facing arrows to magnify and direct power outward. When the base rune is invoked, the rune-bearer is affected by it as usual, and each other creature in a 15-foot [emanation](/rule/emanation-rules-2387) around the rune-bearer also takes the damage and other effects from the base rune (and can attempt a saving throw if possible). An individual creature can be affected by the rune only once, even if the rune could normally affect more creatures than just the rune-bearer.",
+    "data": {
+      "type": "other",
+      "category": "Runesmith Rune",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=18"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "diacritic",
+      "impossible-magic",
+      "magical",
+      "remaster",
+      "rune",
+      "runesmith",
+      "runesmith-rune"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=18",
+        "page": 57
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "36F2DB87-018E-5571-BA3C-55F6A2A5CA97",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Essence Powers",
+    "slug": "essence-powers-impossible-magic-rules-rules-3689",
+    "descr": "Your soulforged armament has an essence power you choose when you first bind an armament. It gains this power temporarily when you manifest its essence form. Each power has a specific corruption flaw that affects you if you have [_soulforged corruption_](/rule/corruption-impossible-magic-rules-rules-3693). Essence powers that apply only to some types of armament indicate which.\n\n **Adaptable Persona** Armor only. When you manifest the essence form, gain your choice of a climb Speed or swim Speed equal to your land Speed. If you're 8th level or higher, you can choose a fly Speed instead; _Corruption Flaw_ You take a –10-foot penalty to all your Speeds.\n\n **Bounding Spirit** Melee weapon only. The weapon gains the thrown 30 feet trait and has the [returning](/item/returning-gm-core) rune (even if it has its maximum number of property runes); _Corruption Flaw_ When you make a Strike with a thrown or ranged weapon and miss, reroll the Strike targeting your ally nearest to the original target. This Strike uses the same multiple attack penalty as the missed Strike and doesn't count toward your multiple attack penalty.\n\n **Deep-Seated Fear** You gain a +2 status bonus to your Intimidation checks and don't take any penalties for not sharing a language when [Demoralizing](/action/demoralize-player-core) foes who can perceive your armament's essence form. When you Manifest the essence form, you can attempt to Demoralize an enemy who can perceive the manifestation as part of the action; _Corruption Flaw_ If you attempt to Demoralize an enemy, it also targets the closest ally to you.\n\n **Determined Toughness** Any status penalties you take from the following conditions are 1 less severe than their condition value would indicate: [clumsy](/condition/clumsy-player-core), [drained](/condition/drained-player-core), [enfeebled](/condition/enfeebled-player-core), [frightened](/condition/frightened-player-core), [sickened](/condition/sickened-player-core), and [stupefied](/condition/stupefied-player-core). This doesn't change the actual condition value or any other effects of the condition (such as stupefied's disruption and its DC); _Corruption Flaw_ Whenever you take a status penalty from the listed conditions, increase the condition's value by 1.\n\n **Harmful Malice** ([void](/trait/void)) Your Strikes deal 1d4 additional void damage. You can cast [_harm_](/spell/harm-player-core) once as an innate spell heightened to a rank equal to half your level rounded up; _Corruption Flaw_ Reduce any damage you would deal by half your level.\n\n **Heroic Heart** ([mental](/trait/mental)) You gain a +1 status bonus to attack rolls, Perception checks, saving throws, and skill checks; _Corruption Flaw_ You take a –1 status penalty to attack rolls.\n\n **Healing Grace** ([healing](/trait/healing), [vitality](/trait/vitality)) You gain fast healing equal to half your level. You can cast heal once as an innate spell heightened to a rank equal to half your level rounded up; _Corruption Flaw_ Reduce any healing you would receive or grant with a spell by half your level.\n\n **Magical Resilience** Armor or shield only. You gain a +2 status bonus to saving throws and AC against spells. If you're 5th level or higher, you can cast [_dispel magic_](/spell/dispel-magic-player-core) once as an innate spell. The dispel magic is heightened to a rank equal to 1 lower than half your level rounded up (2nd rank if you're 5th or 6th level, 3rd rank if you're 7th or 8th level, and so on); _Corruption Flaw_ You take a –1 status penalty to saving throws and AC against spells.\n\n **Planar Bond** Armor or shield only. When you manifest the essence form, choose one damage type: acid, cold, electricity, fire, sonic, spirit, vitality, or void. You gain resistance equal to your level + 2 to damage of the selected type; _Corruption Flaw_ You gain weakness 1 to all damage.\n\n **Planar Pain** Weapon only. When you manifest the essence form, choose one damage type: acid, cold, electricity, fire, sonic, spirit, vitality, or void. Attacks with the weapon deal this type of damage instead of their physical damage, with a +2 status bonus to the damage; _Corruption Flaw_ When you deal damage with a weapon or unarmed attack, you take 2 damage of the last type you chose for planar pain. You take this damage even if it's of a damage type that normally wouldn't harm you, such as vitality damage if you are living.\n\n **Pull of Stasis** Weapon only. Any time you hit with the soulforged weapon, the target takes a –10-foot penalty to its Speeds for 1 round. On a critical hit, the creature is [immobilized](/condition/immobilized-player-core) for 1 round instead; _Corruption Flaw_ You take a –10-foot penalty to all your Speeds.\n\n **Reflecting Spirit** Armor or shield only. You gain a +2 status bonus to AC against physical ranged attacks. If an enemy's physical ranged attack misses you, you can use your reaction to reflect the projectile back, dealing damage equal to half your shield's hardness to the attacker. The damage type of the reflected projectile is the same as type as the original projectile; _Corruption Flaw_ You have weakness 5 to physical ranged attacks.\n\n**Resolute Defiance** Shield only. The shield gains a +2 status bonus to its Hardness and temporary Hit Points equal to your level + 2 that last until the essence effect ends. If you don't have the [Shield Block](/feat/shield-block-player-core) reaction, you gain it while your shield is manifested; **Corruption Flaw** When you take damage while you have a shield raised or use Shield Block, attempt a DC 5 flat check. If you fail, the shield is Dismissed if it's your soulforged armament or Dropped if it's a different shield.",
+    "data": {
+      "type": "other",
+      "category": "Rules",
+      "breadcrumbs": [
+        "Soulforger"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3689"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "impossible-magic",
+      "remaster",
+      "rules"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3689",
+        "page": 98
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "379F9506-89E1-5145-9108-E21ECE1A71F7",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Esvadir, Rune of Whetstones",
+    "slug": "esvadir-rune-of-whetstones-impossible-magic-runesmith-rune-runesmith-rune-4",
+    "descr": "**Usage** drawn on a weapon or unarmed attack that deals piercing or slashing damage\n\n---\n\nThis cuspate rune, when placed on a blade, ensures it won't go dull. [Strikes](/action/strike-player-core) with the weapon or unarmed attack deal an extra 2 [persistent bleed damage](/condition/persistent-damage-player-core) per weapon damage die.\n\n**Invocation**\nA blast of cutting energy is released outward from the rune, dealing 1d8 slashing damage to a creature adjacent to the rune-bearer, with a [basic](/rule/basic-saving-throws-rules-2297) Reflex save.\n\n---\n**Level (+2)** The damage of the invocation increases by 1d8.",
+    "data": {
+      "type": "other",
+      "category": "Runesmith Rune",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=4"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "impossible-magic",
+      "magical",
+      "remaster",
+      "rune",
+      "runesmith",
+      "runesmith-rune"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=4",
+        "page": 55
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "57763C05-0442-561D-A716-31F8CEB0AD40",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Feikris, Rune of Gravity",
+    "slug": "feikris-rune-of-gravity-impossible-magic-runesmith-rune-runesmith-rune-27",
+    "descr": "**Usage** drawn on a creature wearing armor\n\n---\n\nThe lines of this rune overlap strangely, making it seem larger than it really is. The rune-bearer gains a +2 status bonus to Athletics checks. They can [Disarm](/action/disarm-player-core), [Grapple](/action/grapple-player-core), [Reposition](/action/reposition-player-core), [Shove](/action/shove-player-core), or [Trip](/action/trip-player-core) creatures up to two sizes larger than themself, or three sizes larger if the rune-bearer is legendary in Athletics.\n\n**Invocation**\nAll creatures in a 15-foot [emanation](/rule/emanation-rules-2387) around the rune-bearer must succeed at a Fortitude save or be [pulled](/rule/forced-movement-rules-2364) 5 feet toward the rune-bearer (or 10 feet on a critical failure).\n\n---\n**Level (17th)** The status bonus increases to +3.",
+    "data": {
+      "type": "other",
+      "category": "Runesmith Rune",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=27"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "arcane",
+      "impossible-magic",
+      "remaster",
+      "rune",
+      "runesmith",
+      "runesmith-rune"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=27",
+        "page": 59
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "3593EADE-E5F2-5D28-8854-CD9748A09235",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Fey",
+    "slug": "fey-impossible-magic-eidolon-eidolon-22",
+    "descr": "Your eidolon is a fey, a capricious being of the mysterious First World. Many fey appear similar to mortal humanoids, with unusual features such as pointed ears, wings, or bodies composed of natural elements, but the full variety of fey is endless, and many others appear completely inhuman. Fey from the First World never truly die, instead eventually forming into a new creature after being destroyed. Fey eidolons usually come about when a summoner helps stabilize a difficult reincarnation. This means your fey eidolon likely lived a different life just before meeting you and might remember fragments of their old memories. Together, you might have to unravel a memory from your eidolon's past life among the fey.\n\n**Tradition** Primal\n\n**Home Plane** First World\n\n---\n\n**Size** Small or Medium\n\n**Suggested Attacks** fist (bludgeoning), wing (bludgeoning), attacks shaped like a weapon\n\n- Str\n- Dex\n- Con 0\n- Int 1\n- Wis -1\n- Cha 3\n- AC ( Dex cap)\n\n**Skills** Deception, Nature\n\n**Senses** low-light vision\n\n**Language** [Fey](/language/fey)\n\n**Speed** 25 feet\n\n---\n\n**Eidolon Abilities**\n\n- **Initial** Fey Gift Spells\n- **Symbiosis** Fey Mischief\n- **Transcendence** Fey Chicanery\n\n## Fey Gift Spells\n\nYour eidolon expands your primal magic with illusion and mental magic, allowing both of you to wield the power of fey glamour. When you add spells to your repertoire, you can choose from the primal list as well as from spells that have the [illusion](/trait/illusion) or [mental](/trait/mental) traits that appear on the arcane spell list. As usual for when you add spells of a different tradition to your spell list, you're still a primal spellcaster, so all your spells are primal spells. Your eidolon gains the [Magical Understudy](/feat/magical-understudy-impossible-magic-feat-feat-9231) summoner feat, despite not meeting the prerequisite level, and can choose fey gift cantrips in addition to primal cantrips. As normal for a feat you are granted by name, you can't retrain Magical Understudy into another feat.\n\n## Fey Mischief\n\nYour eidolon's fey magic becomes more powerful and mischievous. Your eidolon gains the [Magical Adept](/feat/magical-adept-impossible-magic-feat-feat-9255) feat, despite not meeting the prerequisite level, and can choose from fey gift spells in addition to primal spells.\n\n## Fey Chicanery\n\nEver full of tricks, your fey eidolon twists magical protections into your shared life force, granting them a [_contingency_](/spell/contingency-player-core) in their back pocket for desperate situations. During your daily preparations, your eidolon can cast a _contingency_ spell. The 4th-rank spell they choose must come from the primal or fey gift list, and must either be common or be another spell you have access to.",
+    "data": {
+      "type": "other",
+      "category": "Summoner Eidolon",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Eidolons.aspx?ID=22"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "eidolon",
+      "fey",
+      "impossible-magic",
+      "remaster",
+      "summoner-eidolon"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Eidolons.aspx?ID=22",
+        "page": 75
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "C44EAA6E-48F1-5D3C-BEFA-2398EB3BA2D3",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Flesh",
+    "slug": "flesh-impossible-magic-grim-fascination-grim-fascination-3",
+    "descr": "Flesh necromancers, also known as caromancers, are experts at the destruction, production, and manipulation of flesh and muscles. Your thralls generally take on the form of zombies and other creatures of dead flesh.\n\n**Grave Spell** [Dead Weight](/spell/dead-weight-impossible-magic-spell-spell-2896)\n\n**Thrall Enhancement** You can still make use of a destroyed thrall’s flesh. Whenever one of your thralls is destroyed, you can cause the thrall to leave behind [difficult terrain](/rule/difficult-terrain-rules-2366) in the space it was destroyed. The difficult terrain lasts 10 minutes.",
+    "data": {
+      "type": "other",
+      "category": "Necromancer Grim Fascination",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/GrimFascinations.aspx?ID=3"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "grim-fascination",
+      "impossible-magic",
+      "necromancer-grim-fascination",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/GrimFascinations.aspx?ID=3",
+        "page": 30
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "A660966E-7272-59EA-BA22-2A73752A1703",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Fob-, Diacritic Rune of Doubling",
+    "slug": "fob-diacritic-rune-of-doubling-impossible-magic-runesmith-rune-runesmith-rune-19",
+    "descr": "**Usage** drawn on a rune that doesn't deal damage\n\n---\n\nThis diacritic consists of pairs of diamonds in opposite positions around the base rune. When the base rune is invoked, the rune-bearer is affected by it as usual, and you can choose to also be affected by the invocation if possible.",
+    "data": {
+      "type": "other",
+      "category": "Runesmith Rune",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=19"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "diacritic",
+      "impossible-magic",
+      "magical",
+      "remaster",
+      "rune",
+      "runesmith",
+      "runesmith-rune"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=19",
+        "page": 58
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "734745E8-1277-5F1D-B610-9CDA36EE6E86",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Germantria, Rune of Partnership",
+    "slug": "germantria-rune-of-partnership-impossible-magic-runesmith-rune-runesmith-rune-28",
+    "descr": "**Usage** drawn on a creature\n\n---\n\nWhen drawn, this knobby rune pulses with your own heartbeat, creating a vital connection between you and the bearer. While you are within 1 mile of the rune-bearer, it takes half damage from all effects that deal Hit Point damage, and you take the remainder of the damage. When you take this damage, you don't apply any [resistances](/rule/resistance-rules-2318), [weaknesses](/rule/weakness-rules-2317), or other abilities you have to that damage; you simply take that amount of damage. If either you or the rune-bearer is reduced to 0 Hit Points, the rune fades without being invoked.\n\n**Invocation**\n([healing](/trait/healing)) The connection between you and the rune-bearer is severed in a burst of healing energy. Both you and the rune-bearer regain 20 Hit Points.\n\n---\n**Level (+2)** The amount of Hit Points healed by the invocation increases by 5.",
+    "data": {
+      "type": "other",
+      "category": "Runesmith Rune",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=28"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "impossible-magic",
+      "magical",
+      "remaster",
+      "rune",
+      "runesmith",
+      "runesmith-rune"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=28",
+        "page": 59
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "B4173382-D577-5FD1-A82E-92283A273472",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Holtrik, Rune of Dwarven Ramparts",
+    "slug": "holtrik-rune-of-dwarven-ramparts-impossible-magic-runesmith-rune-runesmith-rune-5",
+    "descr": "**Usage** drawn on a shield\n\n---\n\nSimilarity in the Dwarven words for “wall” and “shield” ensure that this angular rune, once used to shore up tunnels, can apply equally well in the heat of battle. A creature that has the shield raised gains a +1 status bonus to AC.\n\n**Invocation**\nYou call the shield to its rightful place. You Raise the Shield bearing the rune, as if the rune-bearer had used Raise a Shield, and the shield's status bonus to AC lasts until the beginning of the creature's next turn.",
+    "data": {
+      "type": "other",
+      "category": "Runesmith Rune",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=5"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "impossible-magic",
+      "magical",
+      "remaster",
+      "rune",
+      "runesmith",
+      "runesmith-rune"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=5",
+        "page": 55
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "6D157A19-6507-57C0-AA1C-7A44E2499D40",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Ichelsu, Rune of Observation",
+    "slug": "ichelsu-rune-of-observation-impossible-magic-runesmith-rune-runesmith-rune-29",
+    "descr": "**Usage** drawn on a creature\n\n---\n\nA ring of dotted circles, this rune allows a creature marked with it to see all. The target is affected by [_see the unseen_](/spell/see-the-unseen-player-core) and gains all-around vision, which prevents it from being flanked.\n\n**Invocation**\nThe eyes of the rune fly outwards, attaching to all creatures in a 20-foot [emanation](/rule/emanation-rules-2387). A creature with an eye attached to it that would be invisible is [concealed](/condition/concealed-player-core) instead, and one that would be concealed for any other reason is not concealed. This effect lasts for 2 rounds.",
+    "data": {
+      "type": "other",
+      "category": "Runesmith Rune",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=29"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "impossible-magic",
+      "occult",
+      "remaster",
+      "rune",
+      "runesmith",
+      "runesmith-rune"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=29",
+        "page": 59
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "D858542D-A410-5A73-9E3E-BAA9E4A8996E",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Inexorable Iron",
+    "slug": "inexorable-iron-impossible-magic-hybrid-study-hybrid-study-10",
+    "descr": "Once you begin along a path, nothing can stop you from reaching its end. You transform the mass of an enormous weapon into an unstoppable force to augment your own striking power or keep you standing on the battlefield.\n\n When you enter [Arcane Cascade](/action/arcane-cascade-impossible-magic-action-action-4261) stance and at the start of each of your turns while you're in that stance, if you're wielding a melee weapon in two hands, you gain temporary Hit Points equal to half your level (minimum 1 temporary HP).\n\n**Conflux Spell** [Thunderous Strike](/spell/thunderous-strike-impossible-magic-spell-spell-2885)\n\n**Studious Spell (7th)** [Enlarge](/spell/enlarge-player-core)\n\n**Studious Spell (11th)** [Earthbind](/spell/earthbind-player-core)\n\n**Studious Spell (13th)** [Planar Tether](/spell/planar-tether-player-core)",
+    "data": {
+      "type": "other",
+      "category": "Magus Hybrid Study",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/HybridStudies.aspx?ID=10"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "hybrid-study",
+      "impossible-magic",
+      "magus-hybrid-study",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/HybridStudies.aspx?ID=10",
+        "page": 13
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "8B5944AF-DC1E-566A-B67E-831851C1379D",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Inth-, Diacritic Rune of Corruption",
+    "slug": "inth-diacritic-rune-of-corruption-impossible-magic-runesmith-rune-runesmith-rune-38",
+    "descr": "**Usage** drawn on a rune\n\n---\n\nThis set of angular accents around the base rune channels the essence of fiendish corruption. The base rune gains the [unholy](/trait/unholy) trait, as does any damage it deals. If applied to a holy creature, that creature is [enfeebled 2](/condition/enfeebled-player-core) for as long as it bears the rune.\n\n**Invocation**\n([fire](/trait/fire)) When the base rune is invoked, it burns away in unholy black fire that lingers on its target. In addition to the base rune's normal effect, the target takes 2d4 [persistent fire damage](/condition/persistent-damage-player-core).\n\n---\n**Level (+2)** The persistent fire damage increases by 2d4.",
+    "data": {
+      "type": "other",
+      "category": "Runesmith Rune",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=38"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "diacritic",
+      "divine",
+      "impossible-magic",
+      "remaster",
+      "rune",
+      "runesmith",
+      "runesmith-rune",
+      "unholy"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=38",
+        "page": 60
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "0D3E5281-AE50-5610-832D-0D6F572391D4",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Jurroz, Rune of Dragon Fury",
+    "slug": "jurroz-rune-of-dragon-fury-impossible-magic-runesmith-rune-runesmith-rune-30",
+    "descr": "**Usage** drawn onto a creature\n\n---\n\nThis craggy rune channels the fury of dragon kind. Whenever an enemy [Strikes](/action/strike-player-core) or [Steals](/action/steal-player-core) from the rune-bearer, they become [off-guard](/condition/off-guard-player-core) for 1 round.\n\n**Invocation**\nAs a free action, the rune-bearer can [Fly](/action/fly-player-core) up to 60 feet toward an enemy that has damaged it or stolen from it in the last minute. If it ends this movement adjacent to the enemy, the enemy becomes off-guard until the end of the rune-bearer's next turn. If the rune-bearer doesn't have a [fly Speed](/rule/fly-speed-rules-2350) and ends its movement in the air, it safely floats back to the ground at the end of its next turn.",
+    "data": {
+      "type": "other",
+      "category": "Runesmith Rune",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=30"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "impossible-magic",
+      "magical",
+      "remaster",
+      "rune",
+      "runesmith",
+      "runesmith-rune"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=30",
+        "page": 59
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "823A0FB5-7013-5700-865E-234299D95B83",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Kit-, Diacritic Rune of Mercy",
+    "slug": "kit-diacritic-rune-of-mercy-impossible-magic-runesmith-rune-runesmith-rune-20",
+    "descr": "**Usage** drawn on a rune that deals damage and doesn't have the [death](/trait/death) or [void](/trait/void) trait\n\n---\n\nThis diacritic frames a rune with soft curves that mitigate its deadlier effects but make them harder to resist. When the base rune is invoked, it has the [nonlethal](/trait/nonlethal) trait, but the rune-bearer takes a –1 status penalty to any saving throw.",
+    "data": {
+      "type": "other",
+      "category": "Runesmith Rune",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=20"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "diacritic",
+      "impossible-magic",
+      "magical",
+      "remaster",
+      "rune",
+      "runesmith",
+      "runesmith-rune"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=20",
+        "page": 58
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "4359036F-32F5-56C6-9CE8-648E684ABF47",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Kojastri, Rune of Insulation",
+    "slug": "kojastri-rune-of-insulation-impossible-magic-runesmith-rune-runesmith-rune-31",
+    "descr": "**Usage** drawn on armor\n\n---\n\nThis rune insulates from harmful energy of all kinds. The creature wearing the armor gains [resistance](/rule/resistance-rules-2318) 4 to your choice of cold, electricity, or fire, and any creature that touches the rune-bearer or damages it with an unarmed attack or non-reach melee weapon takes 2 damage of the chosen type. The rune has the trait of the energy type chosen.\n\n**Invocation**\nAny creature that has the armor's wearer engulfed, [grabbed](/condition/grabbed-player-core), [restrained](/condition/restrained-player-core), or swallowed whole takes 8d4 damage of the rune's chosen type with a [basic](/rule/basic-saving-throws-rules-2297) Reflex save against your class DC. On a failure, it also releases the armor's wearer.\n\n---\n**Level (+2)** The resistance and damage granted by insulation both increase by 1, and the damage dealt by the invocation increases by 2d4.",
+    "data": {
+      "type": "other",
+      "category": "Runesmith Rune",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=31"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "arcane",
+      "impossible-magic",
+      "remaster",
+      "rune",
+      "runesmith",
+      "runesmith-rune"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=31",
+        "page": 59
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "35029E62-BC2A-59E6-8C59-33FF8FC7149A",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Laughing Shadow",
+    "slug": "laughing-shadow-impossible-magic-hybrid-study-hybrid-study-11",
+    "descr": "Magic is freeing, a means to your ends, and you can use it to go where you want, do as you please, and avoid the consequences. You are a laughing shadow of spell and blade, always one step ahead of your foes, always with a trick up your sleeve.\n\n While in [Arcane Cascade](/action/arcane-cascade-impossible-magic-action-action-4261) stance, you gain a +5-foot status bonus to your Speeds, or a +10-foot bonus if you're unarmored. If you Strike an [off-guard](/condition/off-guard-player-core) creature while you're in the stance and have a free hand, that Strike's extra damage from Arcane Cascade is increased to 3. The increased extra damage is 5 if you have weapon specialization, or 7 if you have greater weapon specialization. You must have your other hand completely free; the extra damage doesn't apply if you have a free-hand weapon or other item in that hand, even if you would normally be able to use the hand for other things.\n\n**Conflux Spell** [Dimensional Assault](/spell/dimensional-assault-impossible-magic-spell-spell-2877)\n\n**Studious Spell (7th)** [Blur](/spell/blur-player-core)\n\n**Studious Spell (11th)** [Ghostly Weapon](/spell/ghostly-weapon-player-core)\n\n**Studious Spell (13th)** [Translocate](/spell/translocate-player-core)",
+    "data": {
+      "type": "other",
+      "category": "Magus Hybrid Study",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/HybridStudies.aspx?ID=11"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "hybrid-study",
+      "impossible-magic",
+      "magus-hybrid-study",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/HybridStudies.aspx?ID=11",
+        "page": 13
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "7FA73E52-40F1-5BEA-8730-719F0351C987",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Ledria, Rune of Appeal",
+    "slug": "ledria-rune-of-appeal-impossible-magic-runesmith-rune-runesmith-rune-6",
+    "descr": "**Usage** drawn on a creature\n\n---\n\nNo matter what skin, shell, or scale this rune is drawn on, it shines like gold. The rune-bearer gains a +1 status bonus to Deception, Diplomacy, and Performance checks.\n\n**Invocation**\nThe rune draws creatures closer to the bearer. Each creature within 30 feet of the rune-bearer can [Step](/action/step-player-core) closer to the rune-bearer as a free action.\n\n---\n**Level (9th)** The bonus increases to +2.\n\n**Level (17th)** The bonus increases to +3.",
+    "data": {
+      "type": "other",
+      "category": "Runesmith Rune",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=6"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "impossible-magic",
+      "occult",
+      "remaster",
+      "rune",
+      "runesmith",
+      "runesmith-rune"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=6",
+        "page": 55
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "6A35AD38-F110-574E-9422-359017B60D9F",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Lyskel, Rune of Frost",
+    "slug": "lyskel-rune-of-frost-impossible-magic-runesmith-rune-runesmith-rune-7",
+    "descr": "**Usage** drawn on a creature or object\n\n---\n\nThis rune is often placed on chests and boxes to keep their contents from spoiling, even in the hottest of climates. The rune-bearer takes a –5-foot circumstance penalty to its Speeds and becomes so cold that movement becomes dangerous; if the bearer takes a [move](/trait/move) action, it becomes [clumsy 1](/condition/clumsy-player-core) until the beginning of its next turn.\n\n**Invocation**\nThe rune-bearer takes 1d4 cold damage, with a [basic](/rule/basic-saving-throws-rules-2297) Fortitude save. All squares on the ground in the bearer's space and adjacent squares are covered in snow, becoming [difficult terrain](/rule/difficult-terrain-rules-2366) for 1 round.\n\n---\n**Level (+2)** The damage of the invocation increases by 1d4.",
+    "data": {
+      "type": "other",
+      "category": "Runesmith Rune",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=7"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "cold",
+      "impossible-magic",
+      "primal",
+      "remaster",
+      "rune",
+      "runesmith",
+      "runesmith-rune"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=7",
+        "page": 55
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "D42D9BCA-B269-5AD7-9DB7-5D09CD17EEF7",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Marssyl, Rune of Impact",
+    "slug": "marssyl-rune-of-impact-impossible-magic-runesmith-rune-runesmith-rune-8",
+    "descr": "**Usage** drawn on a weapon or unarmed attack that deals bludgeoning damage\n\n---\n\nThis rune magnifies force many times over as it passes through the rune's concentric rings. The weapon or unarmed attack deals 1 bludgeoning [splash](/trait/splash) damage per weapon damage die. If the rune is on a melee weapon or melee unarmed attack, you and the rune-bearer are immune to this splash damage.\n\n**Invocation**\nThe rune vibrates as power concentrates within it. The next successful [Strike](/action/strike-player-core) made with the weapon or unarmed attack before the end of its wielder's next turn deals an additional die of damage, and the target must succeed at a Fortitude save against your class DC or be [pushed](/rule/forced-movement-rules-2364) 10 feet away from the attacker (20 feet on a critical failure).",
+    "data": {
+      "type": "other",
+      "category": "Runesmith Rune",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=8"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "impossible-magic",
+      "magical",
+      "remaster",
+      "rune",
+      "runesmith",
+      "runesmith-rune"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=8",
+        "page": 56
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "B3B45845-0A7E-5B55-9C9E-D385E9AE3354",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Nesh-, Diacritic Rune of Contingency",
+    "slug": "nesh-diacritic-rune-of-contingency-impossible-magic-runesmith-rune-runesmith-rune-39",
+    "descr": "**Usage** drawn on a rune\n\n---\n\nThe wavy lines of this diacritic seem to stretch the base rune into a wider area. When you draw this rune, choose a trigger that when met will invoke the base rune, using the same restrictions as for the trigger of a [Ready](/action/ready-player-core) action. When the trigger is met, you can [Invoke the base Rune](/action/invoke-rune-impossible-magic-action-action-4265) as a reaction; you can't invoke any additional runes with that reaction. If you define complicated conditions, as determined by the GM, the trigger might fail.\n\n---\nYou can have only one _nesh-, diacritic rune of contingency_ applied at a given time, and once you invoke it, you can't etch or trace it again for 10 minutes.",
+    "data": {
+      "type": "other",
+      "category": "Runesmith Rune",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=39"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "diacritic",
+      "impossible-magic",
+      "magical",
+      "remaster",
+      "rune",
+      "runesmith",
+      "runesmith-rune"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=39",
+        "page": 60
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "46A89922-CCDD-5CE1-9811-04B18F8E1178",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Ochygholl, The Poisoned Star",
+    "slug": "ochygholl-the-poisoned-star-impossible-magic-runesmith-rune-runesmith-rune-42",
+    "descr": "**Usage** drawn on a creature\n\n---\n\nThis awe-inspiring rune of pointed curves is rumored to have been part of the magic that alghollthus used to call down the meteoroids of the Earthfall cataclysm. The rune-bearer senses a foreboding shadow overhead and that something terrible is about to happen. This dread is contagious. The rune-bearer becomes [doomed 1](/condition/doomed-player-core), and its allies that begin their turn adjacent to the rune-bearer also become doomed 1 for 1 round. Each creature doomed this way takes 10 mental damage the first time each round it attempts an attack roll or skill check.\n\n**Invocation**\n([fire](/trait/fire)) The rune calls a meteorite down on the rune-bearer, fulfilling its terrible promise. Each creature in a 10-foot [burst](/rule/burst-rules-2385) centered on a corner in the rune-bearer's space takes 3d10 bludgeoning damage with a [basic](/rule/basic-saving-throws-rules-2297) Reflex save. Then, each creature within a 40-foot burst centered on that same corner takes 8d6 fire damage, also with a basic Reflex save. This invocation has the [death](/trait/death) trait for doomed creatures.",
+    "data": {
+      "type": "other",
+      "category": "Runesmith Rune",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=42"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "impossible-magic",
+      "magical",
+      "remaster",
+      "rune",
+      "runesmith",
+      "runesmith-rune"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=42",
+        "page": 61
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "0C644D07-83EF-5D86-A757-C593CFD2D415",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Oljinex, Rune of Cowards' Bane",
+    "slug": "oljinex-rune-of-cowards-bane-impossible-magic-runesmith-rune-runesmith-rune-9",
+    "descr": "**Usage** drawn on a shield\n\n---\n\nThis rune resembles a broken arrow. The shield bearing the rune gains a +2 status bonus to its [Hardness](/rule/item-damage-rules-2160) against physical damage from ranged attacks.\n\n**Invocation**\n([illusion](/trait/illusion), [mental](/trait/mental), [visual](/trait/visual)) The rune creates an illusion in the minds of all creatures adjacent to the rune-bearer that lasts for 1 round. The illusion is of a large, impassable wall blocking all paths away from the rune-bearer. Creatures affected by this invocation can't willingly move farther away from the rune-bearer for 1 round or until they disbelieve the illusion, usually by using a [Seek](/action/seek-player-core) action.\n\n---\n**Level (+4)** The status bonus to Hardness increases by 1.",
+    "data": {
+      "type": "other",
+      "category": "Runesmith Rune",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=9"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "arcane",
+      "impossible-magic",
+      "remaster",
+      "rune",
+      "runesmith",
+      "runesmith-rune"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=9",
+        "page": 56
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "8089C3F3-EAC5-5420-BB08-263E01B14ADD",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Ooze",
+    "slug": "ooze-impossible-magic-eidolon-eidolon-23",
+    "descr": "Your eidolon is a simple creature of protoplasm held together by magic and your mind. They often appear as creeping blobs of a single color, but this doesn't mean they can't have distinctive features, such as moss or fungus growing on their surface or bones and other debris floating within. Because they have been formed by your thoughts, your ooze eidolon isn't mindless, but likely doesn't have a complete personality. Though your ooze eidolon speaks no language, you might believe you can interpret the constant burbles and plops they make as a form of speaking.\n\n**Tradition** Arcane\n\n**Home Plane** the Universe\n\n---\n\n**Size** Medium\n\n**Suggested Attacks** pseudopod (bludgeoning)\n\n- Str\n- Dex\n- Con 3\n- Int -1\n- Wis 1\n- Cha 0\n- AC ( Dex cap)\n\n**Skills** Arcana, Athletics\n\n**Senses** motion sense ([precise](/rule/precise-senses-rules-2406)) 60 feet, no vision\n\n**Language**\n\n**Speed** 20 feet\n\n---\n\n**Eidolon Abilities**\n\n- **Initial** Ooze Physiology\n- **Symbiosis** Stretching Pseudopods\n- **Transcendence** Flowing Engulf **Three Actions**\n\n## Ooze Physiology\n\nYou and your ooze eidolon are directly connected in both body and mind, which renders your eidolon susceptible to effects that wouldn't normally bother an ooze. They don't have an ooze's normal immunities, but do gain resistance equal to half your level (minimum 1 resistance) against acid, critical hits, and precision damage and a +2 circumstance bonus to saving throws against [mental](/trait/mental) effects. Additionally, their surface closes quickly after being wounded. The flat check to remove [persistent bleed damage](/condition/persistent-damage-player-core) from the eidolon is DC 10 (or DC 5 after receiving particularly effective aid).\n\n## Stretching Pseudopods\n\nYour eidolon's pseudopods can stretch farther. All your eidolon's melee unarmed attacks gain the [reach](/trait/reach) trait.\n\n## Flowing Engulf **Three Actions**\n\nYour eidolon Strides up to double their Speed and can move through the spaces of any creatures in their path. Any creature of the eidolon's size or smaller whose space your eidolon moves through is engulfed unless it succeeds at a Reflex save against your spell DC. Your eidolon can attempt to engulf the same creature only once in a single use of Flowing Engulf, and they can contain as many creatures as can fit in their space.\n\n An engulfed creature is pulled into your eidolon's body. It is grabbed, [slowed](/condition/slowed-player-core) 1, and moves along with your eidolon as long as it is engulfed. It can get free by [Escaping](/action/escape-player-core) against your spell DC, moving to a space of its choice adjacent to your eidolon.",
+    "data": {
+      "type": "other",
+      "category": "Summoner Eidolon",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Eidolons.aspx?ID=23"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "eidolon",
+      "impossible-magic",
+      "ooze",
+      "remaster",
+      "summoner-eidolon"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Eidolons.aspx?ID=23",
+        "page": 76
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "33A6504B-FF6A-596A-B75E-EE0F8D7484E2",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Oraloq, Rune of Inarticulateness",
+    "slug": "oraloq-rune-of-inarticulateness-impossible-magic-runesmith-rune-runesmith-rune-32",
+    "descr": "**Usage** drawn on a creature\n\n---\n\nThis hard-to-read rune makes language difficult for the unfortunate rune-bearer. When the rune-bearer attempts a skill check or ability with the [linguistic](/trait/linguistic) trait or attempts to [Cast a Spell](/action/cast-a-spell-player-core) that doesn't have the [subtle](/trait/subtle) trait, they must succeed a DC 5 [flat check](/rule/checks-rules-2278), or the action is lost.\n\n**Invocation**\nThe rune-bearer must attempt a Will save as the rune puts a strong mental block on the part of their mind that interprets language. If the rune-bearer fails their save, they take 20 mental damage (or double damage on a critical failure) the first time they use any language, take a linguistic action, or Cast a Spell without the subtle trait. The rune-bearer is aware of this and knows what will trigger the damage. The effect ends once the damage is taken or at the end of the rune-bearer's next turn, whichever comes first.\n\n---\n**Level (+2)** The damage of the invocation increases by 5.",
+    "data": {
+      "type": "other",
+      "category": "Runesmith Rune",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=32"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "impossible-magic",
+      "magical",
+      "mental",
+      "remaster",
+      "rune",
+      "runesmith",
+      "runesmith-rune"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=32",
+        "page": 59
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "7F9E38FD-F506-5682-B436-AB1A2BEA1B6D",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Per-, Diacritic Rune of Continuum",
+    "slug": "per-diacritic-rune-of-continuum-impossible-magic-runesmith-rune-runesmith-rune-21",
+    "descr": "**Usage** drawn on a rune\n\n---\n\nThis whirling diacritic recirculates the magic of the base rune onto another creature. After the base rune is invoked, it automatically traces itself on a different target of your choice within 15 feet of the original rune-bearer.\n\n---\nYou can have only one copy of _per-, diacritic rune of continuum_ applied at a given time, and once you invoke it, you can't etch or trace it again for 10 minutes.",
+    "data": {
+      "type": "other",
+      "category": "Runesmith Rune",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=21"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "diacritic",
+      "impossible-magic",
+      "magical",
+      "remaster",
+      "rune",
+      "runesmith",
+      "runesmith-rune"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=21",
+        "page": 58
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "37DD1867-75D0-58EA-9403-C47D6FC0BDB3",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Piteregrin, Rune of Transposition",
+    "slug": "piteregrin-rune-of-transposition-impossible-magic-runesmith-rune-runesmith-rune-33",
+    "descr": "**Usage** drawn onto a creature\n\n---\n\nThe slanted lines and odd curls of this rune give the impression that it is trying to escape. The rune-bearer can use a single action to swap places with any other willing rune-bearer within 15 feet. (The other rune-bearer can be bearing any rune.) Each creature must have room to appear in its new location or the effect is disrupted. This action has the [concentrate](/trait/concentrate) and [teleportation](/trait/teleportation) traits.\n\n**[Invocation](/trait/invocation)**\n(teleportation) The rune grows to an enormous size, swallowing up the rune-bearer and each Large or smaller creature adjacent to them, and then immediately spits them back out. Choose a square within a 15-foot [emanation](/rule/emanation-rules-2387) from the rune-bearer's original position for each swallowed creature to reappear. A Large creature doesn't necessarily need to reappear completely within the emanation, as long as one of its squares is. An unwilling creature avoids being teleported if it succeeds at a Will save against your class DC.",
+    "data": {
+      "type": "other",
+      "category": "Runesmith Rune",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=33"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "impossible-magic",
+      "magical",
+      "remaster",
+      "rune",
+      "runesmith",
+      "runesmith-rune"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=33",
+        "page": 60
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "8E10B10F-9945-5FEE-B3B9-0196515B7650",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Plant",
+    "slug": "plant-impossible-magic-eidolon-eidolon-24",
+    "descr": "Your eidolon is an intelligent plant, formed from the same disembodied fragments of nature's life energy that become leshies. Plant eidolons tend to be curious and adaptable, with temperaments based on the parts of mortal culture they feel affinity toward. Despite coming from the same source, plant eidolons don't always look like leshies. Plant eidolons have forms that vary greatly and can look like almost any kind of plant creature in existence. Some even resemble plant creatures so strange they are impossible to identify.\n\n**Tradition** Primal\n\n**Home Plane** the Universe\n\n---\n\n**Size** Medium\n\n**Suggested Attacks** branch (bludgeoning), root (bludgeoning), vine (bludgeoning)\n\n- Str\n- Dex\n- Con 3\n- Int -1\n- Wis 1\n- Cha 0\n- AC ( Dex cap)\n\n**Skills** Nature, Survival\n\n**Senses** low-light vision\n\n**Language** [Muan](/language/muan)\n\n**Speed** 25 feet\n\n---\n\n**Eidolon Abilities**\n\n- **Initial** Tendril Strike **Single Action**\n- **Symbiosis** Growing Vines\n- **Transcendence** Field of Roots **Two Actions**\n\n## Tendril Strike **Single Action**\n\nStretching to extend their body to its limits, your eidolon attacks a foe that would normally be beyond their reach. Your eidolon makes a melee unarmed Strike, increasing their reach by 5 feet for that Strike. If the unarmed attack has the [disarm](/trait/disarm), [shove](/trait/shove), or [trip](/trait/trip) trait, the eidolon can use the corresponding action instead of a Strike.\n\n## Growing Vines\n\nYour eidolon's vines and branches lengthen even more. All your eidolon's melee unarmed attacks gain the [reach](/trait/reach) trait.\n\n## Field of Roots **Two Actions**\n\nYour eidolon extends their roots underground to entangle and possibly damage all foes nearby. All enemies within your eidolon's reach take damage of the same type and amount as your eidolon's most damaging Strike, depending on their Reflex saves against your spell DC. Any ongoing effects of the save last until the enemy either Escapes (rolling against your spell DC) or leaves your eidolon's reach. After using Field of Roots, your eidolon is immobilized until they take an [Interact](/action/interact-player-core) action to detach from the ground; this also ends any remaining effects on enemies from Field of Roots.\n\n**Critical Success** The enemy is unaffected.\n\n**Success** The enemy takes no damage, but takes a –10 foot circumstance penalty to its Speeds.\n\n**Failure** The enemy takes half damage, takes a –10-foot circumstance penalty to its Speeds, and at the end of each of its turns, takes half damage again.\n\n**Critical Failure** The enemy is immobilized, takes full damage, and at the end of each of its turns, takes full damage again.",
+    "data": {
+      "type": "other",
+      "category": "Summoner Eidolon",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Eidolons.aspx?ID=24"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "eidolon",
+      "impossible-magic",
+      "plant",
+      "remaster",
+      "summoner-eidolon"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Eidolons.aspx?ID=24",
+        "page": 76
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "6B1FFA1D-4D9D-5F7C-8A8B-7D5B6F7A7FE6",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Pluuna, Rune of Illumination",
+    "slug": "pluuna-rune-of-illumination-impossible-magic-runesmith-rune-runesmith-rune-10",
+    "descr": "**Usage** drawn on a creature or armor\n\n---\n\nWhile many runes emit a faint glow, illumination is the focus of this simple rune. The rune sheds [bright light](/rule/light-rules-2401) in a 20-foot [emanation](/rule/emanation-rules-2387) (and [dim light](/rule/dim-light-rules-2403) to 40 feet). Creatures in the emanation take a –1 item penalty to Stealth checks.\n\n**Invocation**\nEach creature in the light must succeed at a Fortitude save against your class DC or be [dazzled](/condition/dazzled-player-core) for 1 round. The light fades, but the target still sheds dim light in a 20-foot emanation for 1 round.",
+    "data": {
+      "type": "other",
+      "category": "Runesmith Rune",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=10"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "impossible-magic",
+      "light",
+      "magical",
+      "remaster",
+      "rune",
+      "runesmith",
+      "runesmith-rune"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=10",
+        "page": 56
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "6093F75A-2F0D-52FB-A10D-6FA2B5973655",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Proficiencies",
+    "slug": "proficiencies-impossible-magic-rules-rules-3683",
+    "descr": "Your eidolon’s level is equal to yours. They begin with expert proficiency in Fortitude and Will saves and trained proficiency in Reflex saves and Perception. In addition, they’re trained in [unarmed](/trait/unarmed) attacks and unarmored defense. They share your skill proficiencies. Certain class features increase your eidolon’s proficiencies.",
+    "data": {
+      "type": "other",
+      "category": "Rules",
+      "breadcrumbs": [
+        "Eidolons"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3683"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "impossible-magic",
+      "remaster",
+      "rules"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3683",
+        "page": 69
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "AF56A1D3-9563-5A8C-A379-4CD1682CC547",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Psychopomp",
+    "slug": "psychopomp-impossible-magic-eidolon-eidolon-25",
+    "descr": "Your eidolon is a psychopomp, a creature whose sworn duty is to usher souls safely to the afterlife and maintain the courts of the dead. Psychopomp eidolons have a variety of appearances, but since they often traffic with mortals, their form typically includes an elaborate mask. You and your psychopomp eidolon share an important fate together, whether it relates directly to your own soul or to a mission that will somehow protect the souls of others.\n\n**Tradition** Divine\n\n**Home Plane** The Boneyard\n\n---\n\n**Size** Medium\n\n**Suggested Attacks** beak (piercing), claw (slashing), fist (bludgeoning), jaws (piercing), unarmed attacks shaped like a weapon\n\n- Str\n- Dex\n- Con 3\n- Int 0\n- Wis 1\n- Cha -1\n- AC ( Dex cap)\n\n**Skills** Intimidation, Religion\n\n**Senses** darkvision\n\n**Language** [Requian](/language/requian)\n\n**Speed** 25 feet\n\n---\n\n**Eidolon Abilities**\n\n- **Initial** Shepherd’s Touch\n- **Symbiosis** Hidden Watcher\n- **Transcendence** Spirit Taker\n\n## Shepherd’s Touch\n\nYour eidolon's attacks possess a psychopomp's ability to harm the living and the dead. Your eidolon's unarmed Strikes affect incorporeal creatures as though etched with a _[ghost touch](/item/ghost-touch-gm-core)_ property rune and deal an extra 1 void damage to living creatures and an extra 1 vitality damage to undead.\n\n## Hidden Watcher\n\nYour eidolon can render both of you unseen. Once per hour, they can cast [_invisibility_](/spell/invisibility-player-core) as a divine innate spell targeting you, them, or both of you at once. If the spell targeted both of you, the spell ends for both of you if either of you uses a hostile action.\n\n## Spirit Taker\n\nYour eidolon is particularly capable when it comes to handling bodiless spirits and putting undead to their final rest. Your eidolon can see incorporeal creatures inside of solid objects and can attack them with Strikes without penalty; an incorporeal creature in a solid object that takes damage from your eidolon's Strike is expelled from the object to the nearest available space, moving closer to your eidolon if possible.\n\n Additionally, your eidolon can target or affect a creature projecting its consciousness (such as via project image) or possessing another creature, even if its body is elsewhere, though your eidolon must know about the possession or projection and choose to do so.\n\n Finally, the spirit of an undead destroyed by your eidolon's Strikes is sent directly to the Boneyard for judgment; an undead with an ability to avoid such a fate automatically, such as a ghost's rejuvenation, can attempt a [counteract](/rule/counteracting-rules-3280) check against your spell DC to return via that ability as normal. In that case, the enemy uses its Will save modifier as its counteract modifier. When your eidolon destroys an undead (even if the undead later returns), they gain temporary Hit Points equal to your level that last for 1 minute.",
+    "data": {
+      "type": "other",
+      "category": "Summoner Eidolon",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Eidolons.aspx?ID=25"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "eidolon",
+      "impossible-magic",
+      "monitor",
+      "psychopomp",
+      "remaster",
+      "summoner-eidolon"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Eidolons.aspx?ID=25",
+        "page": 77
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "B74E7D9A-C4BE-57D4-B5D6-F8A6FE288A4C",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Puppeteer",
+    "slug": "puppeteer-impossible-magic-fatal-method-fatal-method-1",
+    "descr": "You prefer to study life and death from afar. You gain the Consume Thrall action and the thrall proliferation ability.\n\n**Consume Thrall**\n**Free Action** ([concentrate](/trait/concentrate), [necromancer](/trait/necromancer), [occult](/trait/occult)) **Frequency** once per day; **Requirements** You have 0 Focus Points and at least one thrall with 30 feet of you; **Effects** You destroy one thrall within 30 feet of you and regain 1 Focus Point. You can spend this focus point only to cast a grave spell.\n\n**Thrall Proliferation**\nOnce per round when you cast [_create thrall_](/spell/create-thrall-impossible-magic-spell-spell-2895), you can create one additional thrall in range.",
+    "data": {
+      "type": "other",
+      "category": "Necromancer Fatal Method",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/FatalMethods.aspx?ID=1"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "fatal-method",
+      "impossible-magic",
+      "necromancer-fatal-method",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/FatalMethods.aspx?ID=1",
+        "page": 29
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "E7344D32-13D9-5AF5-B717-4E9C0547A66D",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Ranshu, Rune of Thunder",
+    "slug": "ranshu-rune-of-thunder-impossible-magic-runesmith-rune-runesmith-rune-11",
+    "descr": "**Usage** drawn on a creature or object\n\n---\n\nThis vertical rune is often carved on tall towers to draw lightning and shield the buildings below it. If the rune-bearer doesn't take a [move](/trait/move) action at least once on its turn, a small bolt of static finds it, dealing 3 electricity damage.\n\n**Invocation**\nThe preliminary streaks of lightning braid together into a powerful bolt. The rune-bearer takes 1d8 electricity damage with a [basic](/rule/basic-saving-throws-rules-2297) Fortitude save.\n\n---\n**Level (+2)** The damage from the bolt of static increases by 1, and the damage of the invocation increases by 1d8.",
+    "data": {
+      "type": "other",
+      "category": "Runesmith Rune",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=11"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "electricity",
+      "impossible-magic",
+      "primal",
+      "remaster",
+      "rune",
+      "runesmith",
+      "runesmith-rune"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=11",
+        "page": 57
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "92E20239-2157-597F-A6CF-2E61D3974955",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Reading an Eidolon Entry",
+    "slug": "reading-an-eidolon-entry-impossible-magic-rules-rules-3687",
+    "descr": "An eidolon entry contains the following information, followed by a description of the eidolon's initial ability and abilities gained from the eidolon symbiosis and eidolon transcendence class features.\n\n **Tradition** This is the eidolon's corresponding magical tradition, which determines the type of magic you can cast.\n **Traits** All eidolons have the [eidolon](/trait/eidolon) trait, and each type of eidolon has additional traits. They all appear in this entry. Home Plane This is the eidolon's home plane, where they go when unmanifested. This can help you determine the effects of abilities dependent on a creature's home plane, such as [_banishment_](/spell/banishment-player-core).\n\n---\n\n **Size** This is the eidolon's starting Size.\n **Suggested Attacks** This entry suggests forms that the eidolon's attacks might take (see [Unarmed Attacks](/rule/unarmed-attacks-impossible-magic-rules-rules-3685) above).\n **Eidolon Attributes** Your eidolon's attributes other than Strength and Dexterity start at the values listed here ([see Attribute Modifiers and Defenses](/rule/attribute-modifiers-and-defenses-impossible-magic-rules-rules-3684)).\n **Skills** These are the skills that the eidolon has taught you, or that you learned as part of linking with your eidolon. You are trained in these skills, and the eidolon shares this proficiency as normal for their skills.\n **Senses** This entry, if present, lists your eidolon's special senses. If this entry is not present, the eidolon has senses like a human's.\n **Language** This is the eidolon's starting language. You know this language, in addition to the other languages you know normally. Your eidolon doesn't gain any additional languages based on their Intelligence modifier, but they can speak all the same languages you can.\n **Speed** This entry lists your eidolon's Speeds.\n\n---\n\n **Eidolon Abilities** The eidolon starts with an initial ability, gains the symbiosis ability when you gain the eidolon symbiosis class feature, and gains the transcendence ability when you gain the eidolon transcendence class feature.\n\n## Gear and Your Eidolon\n\nYour eidolon can't wear or use magic items, except for items with the eidolon trait. An eidolon can have up to two items [invested](/rule/gates-rules-2799). Your eidolon's link to you means they can benefit from certain magic items invested by you.\n\n- Your eidolon gains item bonuses to Perception and skills from any magical items that you have invested.\n- Your eidolon increases their item bonus to AC based on your armor's _armor potency rune_ or [_bands of force_](/item/bands-of-force-gm-core). They also gain an item bonus to their saves from the [_resilient rune_](/item/resilient-gm-core) on your armor or from your bands of force. Other permanent items that grant or increase item bonuses to AC and saves might convey a similar benefit, as determined by the GM.\n- Your eidolon's Strikes benefit from the fundamental and property runes on your [_handwraps of mighty blows_](/item/handwraps-of-mighty-blows-gm-core). Alternatively, you can Invest a magic weapon (even though magic weapons can't normally be Invested) to share its fundamental and property runes with your eidolon. You share these benefits only while you're holding the weapon, and you can have no more than one weapon invested in this way at a time. In either case, the eidolon gains only the benefits that can apply to their attacks, with the same limitations noted in _handwraps of mighty blows_.",
+    "data": {
+      "type": "other",
+      "category": "Rules",
+      "breadcrumbs": [
+        "Eidolons"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3687"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "impossible-magic",
+      "remaster",
+      "rules"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3687",
+        "page": 70
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "C551F2EF-46DC-5A2C-94CA-93D4F7C53C8E",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Reaper",
+    "slug": "reaper-impossible-magic-fatal-method-fatal-method-2",
+    "descr": "You study flesh up close by clashing blade against bone. You gain the reaper’s edge and thrall teamwork abilities.\n\n**Reaper’s Edge**\nYou become trained in martial weapons and medium armor. At 11th level, you become an expert in martial weapons, and at 13th you become an expert in medium armor.\n\n**Thrall Teamwork**\nOnce per round after you cast [_create thrall_](/spell/create-thrall-impossible-magic-spell-spell-2895), you can make a melee Strike as a free action against a creature within your melee reach that is adjacent to at least one of your thralls.",
+    "data": {
+      "type": "other",
+      "category": "Necromancer Fatal Method",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/FatalMethods.aspx?ID=2"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "fatal-method",
+      "impossible-magic",
+      "necromancer-fatal-method",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/FatalMethods.aspx?ID=2",
+        "page": 29
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "C8180CB5-637B-5DE5-90CE-A3FE2FD1FAF5",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Rehgog, Rune of Bestial Might",
+    "slug": "rehgog-rune-of-bestial-might-impossible-magic-runesmith-rune-runesmith-rune-12",
+    "descr": "**Usage** drawn on a willing creature\n\n---\n\nThe jagged edges of this rune evoke the claws and talons of mighty beasts. The target's nose becomes an animal-like snout, giving the rune-bearer scent as an [imprecise scent](/rule/imprecise-senses-rules-2407) with a range of 30 feet.\n\n**Invocation**\nThe rune-bearer's muscles bulge with the strength of a ferocious beast. The bearer can immediately [Step](/action/step-player-core) as a free action. The next unarmed [Strike](/action/strike-player-core) the bearer attempts before the start of your next turn deals an additional die of damage.",
+    "data": {
+      "type": "other",
+      "category": "Runesmith Rune",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=12"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "impossible-magic",
+      "morph",
+      "primal",
+      "remaster",
+      "rune",
+      "runesmith",
+      "runesmith-rune"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=12",
+        "page": 57
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "4F900D45-C1B5-5442-8DF1-E403374F0C7F",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Removing Corruption",
+    "slug": "removing-corruption-impossible-magic-rules-rules-3694",
+    "descr": "The effects of [_soulforged corruption_](/rule/corruption-impossible-magic-rules-rules-3693) can be staved off with the Cleanse Soul Path exploration activity or cured with the _[purify soul path](/ritual/purify-soul-path-impossible-magic-ritual-ritual-243)_ ritual.",
+    "data": {
+      "type": "other",
+      "category": "Rules",
+      "breadcrumbs": [
+        "Soulforger",
+        "Soul Path"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3694"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "impossible-magic",
+      "remaster",
+      "rules"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3694",
+        "page": 101
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "3EC121C3-8F93-5EE4-AE2A-FFE78BA0E800",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Rovan, Seal of the Dead Vault",
+    "slug": "rovan-seal-of-the-dead-vault-impossible-magic-runesmith-rune-runesmith-rune-43",
+    "descr": "**Usage** drawn on a creature\n\n---\n\nThis mighty, jagged rune is just one of several that keeps the Destroyer sealed in his prison, deep in Golarion's core. The creature takes a –20-foot status penalty to its land Speed and a –40-foot status penalty to all other Speeds as the rune attempts to bind the creature. If a creature's [fly Speed](/rule/fly-speed-rules-2350) is reduced to 0 this way, it can't take the [Fly](/action/fly-player-core) or [Arrest a Fall](/action/arrest-a-fall-player-core) actions.\n\n**Invocation**\n([incapacitation](/trait/incapacitation)) The ground in the rune-bearer's space and in a 10-foot [emanation](/rule/emanation-rules-2387) becomes [difficult terrain](/rule/difficult-terrain-rules-2366) permanently, and the rune-bearer must attempt a Fortitude saving throw as the earth around it attempts to surround and imprison it. The rune-bearer is then immune to your _rovan, seal of the Dead Vault_ runes for 24 hours.\n\n**Critical Success** The bearer is unaffected.\n\n**Success** The rune-bearer becomes slowed 1 for 1 round.\n\n**Failure** The rune-bearer becomes slowed 2 for 1 round.\n\n**Critical Failure** The bearer becomes restrained and blinded as it is trapped in a massive, compressed sphere of earth. While restrained, the bearer is also slowed 2. If the bearer is unable to escape the sphere within 3 rounds, it becomes petrified. Over the course of a year, the sphere forms a small hill around it, hiding its buried prisoner. At the top of the hill, a stone with the image of this rune remains. Counteracting the stone frees the prisoner.",
+    "data": {
+      "type": "other",
+      "category": "Runesmith Rune",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=43"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "divine",
+      "earth",
+      "impossible-magic",
+      "remaster",
+      "rune",
+      "runesmith",
+      "runesmith-rune"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=43",
+        "page": 61
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "97509CB5-F163-5659-8F84-1C7416382335",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Sar-, Diacritic Rune of Righteousness",
+    "slug": "sar-diacritic-rune-of-righteousness-impossible-magic-runesmith-rune-runesmith-rune-40",
+    "descr": "**Usage** drawn on a rune\n\n---\n\nClean arcs of gold faintly glow on the base rune, evoking celestial order and serenity. The base rune gains the [holy](/trait/holy) trait, as does any damage it deals. If applied to an [unholy](/trait/unholy) creature, that creature is [enfeebled 2](/condition/enfeebled-player-core) for as long as it bears the rune.\n\n**Invocation**\nWhen the base rune is invoked, it shines with holy light that harshly judges the target for any of its sins. In addition to the base rune's normal effect, the target is [drained 1](/condition/drained-player-core).",
+    "data": {
+      "type": "other",
+      "category": "Runesmith Rune",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=40"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "diacritic",
+      "divine",
+      "holy",
+      "impossible-magic",
+      "remaster",
+      "rune",
+      "runesmith",
+      "runesmith-rune"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=40",
+        "page": 61
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "1A8B22A2-F068-5D8D-A905-4628CA02FB39",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "School of Breathtaking Influence",
+    "slug": "school-of-breathtaking-influence-impossible-magic-arcane-school-arcane-school-31",
+    "descr": "You have sway in powerful social circles and pride yourself on being able to predict and manipulate opponents. Less scrupulous academies openly teach this curriculum to aspiring politicians, while other colleges frame it as the study of countering mental manipulation. These spells are staples in Quantium, where ambition and ruthlessness are measures of success.\n\n**Curriculum**\n- Cantrips:\n[Daze](/spell/daze-player-core), [Infectious Enthusiasm](/spell/infectious-enthusiasm-impossible-magic-spell-spell-2748)\n- 1st:\n[Command](/spell/command-player-core), [Fear](/spell/fear-player-core), [Sleep](/spell/sleep-player-core)\n- 2nd:\n[Blood Vendetta](/spell/blood-vendetta-player-core), [Phantom Crowd](/spell/phantom-crowd-impossible-magic-spell-spell-2787)\n- 3rd:\n[Enthrall](/spell/enthrall-player-core), [Mind of Menace](/spell/mind-of-menace-impossible-magic-spell-spell-2769)\n- 4th:\n[Confusion](/spell/confusion-player-core), [Outcast's Curse](/spell/outcast-s-curse-player-core)\n- 5th:\n[Subconscious Suggestion](/spell/subconscious-suggestion-player-core), [Wave of Despair](/spell/wave-of-despair-player-core)\n- 6th:\n[Dominate](/spell/dominate-player-core), [Never Mind](/spell/never-mind-player-core)\n- 7th:\n[Contingency](/spell/contingency-player-core), [Puppet Strings](/spell/puppet-strings-impossible-magic-spell-spell-2796)\n- 8th:\n[Dream Council](/spell/dream-council-player-core-2), [Hidden Mind](/spell/hidden-mind-gm-core)\n- 9th:\n[Telepathic Demand](/spell/telepathic-demand-player-core-2)\n\n**School Spells**\n- Initial: [Appeal to Authority](/spell/appeal-to-authority-impossible-magic-spell-spell-2920)\n- Advanced: [Hot Air](/spell/hot-air-impossible-magic-spell-spell-2921)",
+    "data": {
+      "type": "other",
+      "category": "Wizard Arcane School",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/ArcaneSchools.aspx?ID=31"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "arcane-school",
+      "impossible-magic",
+      "remaster",
+      "wizard-arcane-school"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/ArcaneSchools.aspx?ID=31",
+        "page": 108
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "B75EC709-1D3F-57DA-BF89-DA728AB90539",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "School of Keen Inquiry",
+    "slug": "school-of-keen-inquiry-impossible-magic-arcane-school-arcane-school-32",
+    "descr": "You’re a scholar of truth, seeking knowledge about the nature of existence and events past, present, and future. Whether you share or obfuscate that truth—best reserve judgment until you know what you’re working with. Quantium’s elite claim agents of Her Most Keen Eye, Nex’s network of spies, developed this curriculum, but it’s a staple in many politically oriented colleges.\n\n**Curriculum**\n- Cantrips:\n[Detect Magic](/spell/detect-magic-player-core), [Sigil](/spell/sigil-player-core)\n- 1st:\n[Disguise Magic](/spell/disguise-magic-player-core), [Illusory Disguise](/spell/illusory-disguise-player-core), [Mindlink](/spell/mindlink-player-core)\n- 2nd:\n[Knock](/spell/knock-player-core), [See the Unseen](/spell/see-the-unseen-player-core)\n- 3rd:\n[Clairaudience](/spell/clairaudience-player-core), [Locate](/spell/locate-player-core)\n- 4th:\n[Clairvoyance](/spell/clairvoyance-player-core), [Detect Scrying](/spell/detect-scrying-player-core)\n- 5th:\n[Mind Probe](/spell/mind-probe-player-core), [Scouting Eye](/spell/scouting-eye-player-core)\n- 6th:\n[Scrying](/spell/scrying-player-core), [Truesight](/spell/truesight-player-core)\n- 7th:\n[Retrocognition](/spell/retrocognition-player-core), [True Target](/spell/true-target-player-core)\n- 8th:\n[Disappearance](/spell/disappearance-player-core), [Pinpoint](/spell/pinpoint-player-core)\n- 9th:\n[Foresight](/spell/foresight-player-core)\n\n**School Spells**\n- Initial: [Fact Check](/spell/fact-check-impossible-magic-spell-spell-2922)\n- Advanced: [Unsettling Perspective](/spell/unsettling-perspective-impossible-magic-spell-spell-2923)",
+    "data": {
+      "type": "other",
+      "category": "Wizard Arcane School",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/ArcaneSchools.aspx?ID=32"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "arcane-school",
+      "impossible-magic",
+      "remaster",
+      "wizard-arcane-school"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/ArcaneSchools.aspx?ID=32",
+        "page": 108
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "6F0FC089-1FD8-56E4-A13B-9E6011E1D5C9",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "School of Nexian Spaces",
+    "slug": "school-of-nexian-spaces-impossible-magic-arcane-school-arcane-school-33",
+    "descr": "Whether your goal is immortality or creating a world with every detail tailored to your liking, retracing Nex’s experiments with demiplanes is the road to achieving your desires. Your formal learning starts with reshaping your current reality and drawing power from other planes of existence. You graduate to creating extraplanar spaces and traveling between planes, making time and space yours to mold like clay.\n\n**Curriculum**\n- Cantrips:\n[Phase Bolt](/spell/phase-bolt-dark-archive), [Warp Step](/spell/warp-step-dark-archive)\n- 1st:\n[Alarm](/spell/alarm-player-core), [Pet Cache](/spell/pet-cache-player-core), [Thoughtful Gift](/spell/thoughtful-gift-player-core-2)\n- 2nd:\n[Dimensional Drop](/spell/dimensional-drop-impossible-magic-spell-spell-2676), [Vanish Weapon](/spell/vanish-weapon-impossible-magic-spell-spell-2857)\n- 3rd:\n[Cozy Cabin](/spell/cozy-cabin-player-core), [Far Reach](/spell/far-reach-impossible-magic-spell-spell-2698)\n- 4th:\n[Flicker](/spell/flicker-player-core), [Liminal Doorway](/spell/liminal-doorway-player-core)\n- 5th:\n[Banishment](/spell/banishment-player-core), [Space Fold Gate](/spell/space-fold-gate-impossible-magic-spell-spell-2822)\n- 6th:\n[Collective Transposition](/spell/collective-transposition-player-core-2), [Proximal Shift](/spell/proximal-shift-impossible-magic-spell-spell-2794)\n- 7th:\n[Interplanar Teleport](/spell/interplanar-teleport-player-core), [Planar Palace](/spell/planar-palace-player-core)\n- 8th:\n[Quandary](/spell/quandary-player-core), [Stars of Another Sky](/spell/stars-of-another-sky-impossible-magic-spell-spell-2828)\n- 9th:\n[Resplendent Mansion](/spell/resplendent-mansion-player-core-2)\n\n**School Spells**\n- Initial: [Extradimensional Cover](/spell/extradimensional-cover-impossible-magic-spell-spell-2924)\n- Advanced: [Unbounded Sphere](/spell/unbounded-sphere-impossible-magic-spell-spell-2925)",
+    "data": {
+      "type": "other",
+      "category": "Wizard Arcane School",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/ArcaneSchools.aspx?ID=33"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "arcane-school",
+      "impossible-magic",
+      "remaster",
+      "wizard-arcane-school"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/ArcaneSchools.aspx?ID=33",
+        "page": 108
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "48EC4B85-ABCC-58D9-BC32-82F5ED15152C",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "School of Quantic Control",
+    "slug": "school-of-quantic-control-impossible-magic-arcane-school-arcane-school-34",
+    "descr": "You’re an architect, but not merely of buildings. You call upon elemental forces to control the building blocks of reality itself, reshaping the environment and moving creatures like the world is a diorama for you to perfect. Your curriculum draws heavily upon the experience of the geniekin of Quantium’s Wish, who maintain the infrastructure of Nex’s capital in seeming defiance of physics itself.\n\n**Curriculum**\n- Cantrips:\n[Gale Blast](/spell/gale-blast-player-core-2), [Scatter Scree](/spell/scatter-scree-player-core-2)\n- 1st:\n[Cradle Aloft](/spell/cradle-aloft-impossible-magic-spell-spell-2663), [Gentle Landing](/spell/gentle-landing-player-core), [Pummeling Rubble](/spell/pummeling-rubble-player-core)\n- 2nd:\n[Dismantle](/spell/dismantle-player-core-2), [Unrelenting Gravity](/spell/unrelenting-gravity-impossible-magic-spell-spell-2855)\n- 3rd:\n[Chosen Gravity](/spell/chosen-gravity-impossible-magic-spell-spell-2654), [Inertia Lock](/spell/inertia-lock-impossible-magic-spell-spell-2746)\n- 4th:\n[Containment](/spell/containment-player-core-2), [Living Terrain](/spell/living-terrain-impossible-magic-spell-spell-2758)\n- 5th:\n[Control Water](/spell/control-water-player-core), [Wall of Stone](/spell/wall-of-stone-player-core)\n- 6th:\n[Repulsion](/spell/repulsion-player-core), [Wall of Force](/spell/wall-of-force-player-core)\n- 7th:\n[Infinitesimal Collapse Field](/spell/infinitesimal-collapse-field-impossible-magic-spell-spell-2750), [Planar Seal](/spell/planar-seal-player-core)\n- 8th:\n[Arctic Rift](/spell/arctic-rift-player-core), [Earthbreaker Stride](/spell/earthbreaker-stride-impossible-magic-spell-spell-2684)\n- 9th:\n[Implosion](/spell/implosion-player-core)\n\n**School Spells**\n- Initial: [Circle of Weakness](/spell/circle-of-weakness-impossible-magic-spell-spell-2926)\n- Advanced: [Quantic Dampening](/spell/quantic-dampening-impossible-magic-spell-spell-2927)",
+    "data": {
+      "type": "other",
+      "category": "Wizard Arcane School",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/ArcaneSchools.aspx?ID=34"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "arcane-school",
+      "impossible-magic",
+      "remaster",
+      "wizard-arcane-school"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/ArcaneSchools.aspx?ID=34",
+        "page": 108
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "A764E184-464A-5B2A-9DB2-DBF1CCF263BE",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Sertum, Rune of Preparedness",
+    "slug": "sertum-rune-of-preparedness-impossible-magic-runesmith-rune-runesmith-rune-13",
+    "descr": "**Usage** drawn on a creature\n\n---\n\nThe wavy lines of this rune evoke fields of reeds, the branches of trees blowing in the wind, or other natural phenomena. The rune-bearer gains a +1 status bonus to Survival checks and to Lore checks related to a type of terrain or specific natural location you choose as you draw the rune. The rune-bearer can use Survival to roll [initiative](/rule/initiative-rules-3300), and the status bonus applies to this roll.\n\n**Invocation**\nThe rune reaches out to the surrounding terrain, shifting it to the rune-bearer's advantage. The rune-bearer can [Step](/action/step-player-core) up to three times as a free action.\n\n---\n**Level (9th)** The bonus increases to +2.\n\n**Level (17th)** The bonus increases to +3.",
+    "data": {
+      "type": "other",
+      "category": "Runesmith Rune",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=13"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "impossible-magic",
+      "primal",
+      "remaster",
+      "rune",
+      "runesmith",
+      "runesmith-rune"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=13",
+        "page": 57
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "22295E5F-ACE4-5970-B44D-91F8BC9320DD",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Soul Path",
+    "slug": "soul-path-impossible-magic-rules-rules-3692",
+    "descr": "When you take Soulforger Dedication, you must choose a soul path—a motivation, cause, or goal that compels you to act and drives you to face significant danger. Such a motivation can be limited or grand in scope but must be actionable enough to be easily linked to gameplay. Work with your GM to choose a soul path that fits in well with the themes of your campaign and group dynamic, allowing you to pursue your soul path in an interesting fashion.",
+    "data": {
+      "type": "other",
+      "category": "Rules",
+      "breadcrumbs": [
+        "Soulforger"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3692"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "impossible-magic",
+      "remaster",
+      "rules"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3692",
+        "page": 101
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "572DFC1A-2275-5038-8D2A-B5EAF0FF405B",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Soulforger",
+    "slug": "soulforger-impossible-magic-rules-rules-3688",
+    "descr": "Your devotion to a cause grants you the power to summon and wield a soulforged armament tethered to the very essence of your spirit.",
+    "data": {
+      "type": "other",
+      "category": "Rules",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3688"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "impossible-magic",
+      "remaster",
+      "rules"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3688",
+        "page": 98
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "5A1AD653-26E7-5B2B-A971-63649F91D436",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Sparkling Targe",
+    "slug": "sparkling-targe-impossible-magic-hybrid-study-hybrid-study-12",
+    "descr": "You've studied the applications of magic, training yourself to perform not just offensive maneuvers but defensive tactics as well. When magic flows through you, your shield can block impossible things, even a dragon's breath or a [_force barrage_](/spell/force-barrage-player-core).\n\n You gain the general [Shield Block](/feat/shield-block-player-core) feat.\n\n When you're in [Arcane Cascade](/action/arcane-cascade-impossible-magic-action-action-4261) stance with your shield raised, your circumstance bonus to AC from your shield also applies to your saves against spells and other magical effects. In addition, damage you take from a spell or other magical effect while you're in Arcane Cascade can trigger your Shield Block reaction, even if the damage isn't physical. When blocking damage from a magical effect in this way, increase your shield's Hardness by an amount equal to the resistance you have from Arcane Cascade. These benefits apply whether you're using an actual shield, the [_shield_](/spell/shield-player-core) spell, or something else that works like a shield (such as a raised tome if you have the [Raise a Tome](/feat/raise-a-tome-impossible-magic-feat-feat-9046) feat).\n\n**Conflux Spell** [Shielding Strike](/spell/shielding-strike-impossible-magic-spell-spell-2882)\n\n**Studious Spell (7th)** [Resist Energy](/spell/resist-energy-player-core)\n\n**Studious Spell (11th)** [Warding Aggression](/spell/warding-aggression-impossible-magic-spell-spell-2860)\n\n**Studious Spell (13th)** [Mountain Resilience](/spell/mountain-resilience-player-core)",
+    "data": {
+      "type": "other",
+      "category": "Magus Hybrid Study",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/HybridStudies.aspx?ID=12"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "hybrid-study",
+      "impossible-magic",
+      "magus-hybrid-study",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/HybridStudies.aspx?ID=12",
+        "page": 13
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "1727B00D-9C94-5FFF-A345-FB4E6A8B39CD",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spirit",
+    "slug": "spirit-impossible-magic-grim-fascination-grim-fascination-4",
+    "descr": "Spirit necromancers, also known as vitamancers, seek the secrets of the soul and play with the eternal energies of the living and dead. Your thralls often resemble ghosts and spirits.\n\n**Grave Spell** [Life Tap](/spell/life-tap-impossible-magic-spell-spell-2900)\n\n**Thrall Enhancement** Your thralls, while still being tied to the physical world, have an incorporeal essence. Whenever one of your thralls Strikes, you can choose for that damage to be spirit or void damage instead of physical damage.",
+    "data": {
+      "type": "other",
+      "category": "Necromancer Grim Fascination",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/GrimFascinations.aspx?ID=4"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "grim-fascination",
+      "impossible-magic",
+      "necromancer-grim-fascination",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/GrimFascinations.aspx?ID=4",
+        "page": 30
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "CF5AD9E8-4060-55CD-BF54-064B02495654",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Starlit Span",
+    "slug": "starlit-span-impossible-magic-hybrid-study-hybrid-study-13",
+    "descr": "With magic, the sky's the limit, and you can't be bound by the confines of physical proximity. Your power reaches as far as your senses can perceive, transcending the space between you and your target even with spells that normally require direct physical contact.\n\n When you use [Spellstrike](/action/spellstrike-impossible-magic-action-action-4260), you can make a ranged weapon or ranged unarmed Strike, as long as the target is within the first range increment of your ranged weapon or ranged unarmed attack. This overrides the actual range of the spell.\n\n While you're in [Arcane Cascade](/action/arcane-cascade-impossible-magic-action-action-4261) stance, your ranged attacks ignore any [lesser cover](/rule/cover-rules-2372) your allies would grant to your target.\n\n**Conflux Spell** [Shooting Star](/spell/shooting-star-impossible-magic-spell-spell-2883)\n\n**Studious Spell (7th)** [Telekinetic Maneuver](/spell/telekinetic-maneuver-player-core)\n\n**Studious Spell (11th)** [Wall of Wind](/spell/wall-of-wind-player-core)\n\n**Studious Spell (13th)** [Unfettered Movement](/spell/unfettered-movement-player-core)",
+    "data": {
+      "type": "other",
+      "category": "Magus Hybrid Study",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/HybridStudies.aspx?ID=13"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "hybrid-study",
+      "impossible-magic",
+      "magus-hybrid-study",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/HybridStudies.aspx?ID=13",
+        "page": 13
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "CF479B9D-CBDF-5FB1-B41B-26300CD5CE78",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Sun-, Diacritic Rune of Preservation",
+    "slug": "sun-diacritic-rune-of-preservation-impossible-magic-runesmith-rune-runesmith-rune-22",
+    "descr": "**Usage** drawn on a rune\n\n---\n\nThis spiraling diacritic channels the magic of a rune outwards, then back to the same location, allowing a rune to reconstitute itself. After the base rune is invoked, the base rune automatically traces itself back upon the same target.\n\n---\nYou can have only one copy of _sun-, diacritic rune of preservation_ applied at a given time, and once you invoke it, you can't Etch or Trace the Rune again for 10 minutes.",
+    "data": {
+      "type": "other",
+      "category": "Runesmith Rune",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=22"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "diacritic",
+      "impossible-magic",
+      "magical",
+      "remaster",
+      "rune",
+      "runesmith",
+      "runesmith-rune"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=22",
+        "page": 58
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "25D69F6B-B23B-5DC6-81E2-2AF54667B9C5",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Thullax, Rune of Corrosion",
+    "slug": "thullax-rune-of-corrosion-impossible-magic-runesmith-rune-runesmith-rune-14",
+    "descr": "**Usage** drawn on a creature or object\n\n---\n\nThe swooping lines of this rune seem to melt into each other as if their edges were hazy and indistinct, though the meaning is clear to you. The rune-bearer's [resistance](/rule/resistance-rules-2318) to each physical damage type is reduced by 1 (if it has any such resistances). Its [immunities](/rule/immunity-rules-2313) are unaffected.\n\n**Invocation**\nThe bearer takes 1d6 acid damage with a [basic](/rule/basic-saving-throws-rules-2297) Fortitude save; on a critical failure, it takes 1 [persistent acid damage](/condition/persistent-damage-player-core).\n\n---\n**Level (+2)** The reduction in physical resistance increases by 1, the damage of the invocation increases by 1d6, and the persistent damage increases by 1.",
+    "data": {
+      "type": "other",
+      "category": "Runesmith Rune",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=14"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "acid",
+      "arcane",
+      "impossible-magic",
+      "remaster",
+      "rune",
+      "runesmith",
+      "runesmith-rune"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=14",
+        "page": 57
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "1C3865A2-0204-5C01-8ADC-E7A1A998F1C5",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Ti-, Diacritic Rune of Fundaments",
+    "slug": "ti-diacritic-rune-of-fundaments-impossible-magic-runesmith-rune-runesmith-rune-23",
+    "descr": "**Usage** drawn on a rune that deals acid, cold, electricity, or fire damage\n\n---\n\nThis wavering diacritic encompasses the base rune to slightly change its meaning. When the base rune is invoked, you can alter the damage its invocation deals, choosing acid, cold, electricity, or fire.",
+    "data": {
+      "type": "other",
+      "category": "Runesmith Rune",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=23"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "diacritic",
+      "impossible-magic",
+      "magical",
+      "remaster",
+      "rune",
+      "runesmith",
+      "runesmith-rune"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=23",
+        "page": 58
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "96BD01C9-E5C9-55DF-ABA9-F3319DFF9728",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Tilus, Rune of Vocabulary",
+    "slug": "tilus-rune-of-vocabulary-impossible-magic-runesmith-rune-runesmith-rune-15",
+    "descr": "**Usage** drawn on a creature\n\n---\n\nUpon close inspection, this rune comprises hundreds of smaller characters of various runic languages. When you etch or trace this rune, choose one language you know. The rune-bearer can speak and understand the chosen language and gains a +1 status bonus to Society checks and to Lore checks related to writing (such as Library Lore and Scribing Lore).\n\n**Invocation**\nThe rune-bearer's voice rings clear and true, allowing them to automatically succeed at any [flat check](/rule/checks-rules-2278) that could disrupt an [auditory](/trait/auditory) action (such as the one imposed by the [deafened](/condition/deafened-player-core) condition) for 1 round. During this time, the bearer can also speak their true mind even if they are currently [confused](/condition/confused-player-core), [controlled](/condition/controlled-player-core), or otherwise unable to speak.\n\n---\n**Level (9th)** The bonus increases to +2.\n\n**Level (17th)** The bonus increases to +3.",
+    "data": {
+      "type": "other",
+      "category": "Runesmith Rune",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=15"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "arcane",
+      "impossible-magic",
+      "mental",
+      "remaster",
+      "rune",
+      "runesmith",
+      "runesmith-rune"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=15",
+        "page": 57
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "A30189B5-4CEF-58C5-B4FB-7FFD05DDDA30",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Trolistri, Rune of Forlorn Sorrow",
+    "slug": "trolistri-rune-of-forlorn-sorrow-impossible-magic-runesmith-rune-runesmith-rune-34",
+    "descr": "**Usage** drawn onto a creature\n\n---\n\nThis rune calls to mind the beauty hidden in sorrow. While this rune is beautiful, sorrow is best admired from a distance, discouraging approach. Enemies within 20 feet of the rune-bearer treat all spaces between them and the rune-bearer as [difficult terrain](/rule/difficult-terrain-rules-2366).\n\n**Invocation**\nSorrow blots out the capacity for any other action. Each enemy in a 15-foot [emanation](/rule/emanation-rules-2387) around the rune-bearer must succeed at a Will saving throw or be [slowed 1](/condition/slowed-player-core) for 1 round as it spends the first action of its next turn sobbing (slowed 2 on a critical failure). Regardless of the outcome, the creature is then temporarily immune to the invocation of _trolistri, rune of forlorn sorrow_ for 1 hour.",
+    "data": {
+      "type": "other",
+      "category": "Runesmith Rune",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=34"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "arcane",
+      "emotion",
+      "impossible-magic",
+      "mental",
+      "remaster",
+      "rune",
+      "runesmith",
+      "runesmith-rune"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=34",
+        "page": 60
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "A5F6A23C-8103-514F-B63E-442BA7483A95",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Twisting Tree",
+    "slug": "twisting-tree-impossible-magic-hybrid-study-hybrid-study-14",
+    "descr": "The staff is perhaps the simplest of weapons, but this simplicity belies its elegance and versatility. To you, a staff is casting implement and martial weapon alike—the foundation of a fighting style.\n\n While you wield a staff in one hand, the staff adjusts in shape and weight, gaining the [agile](/trait/agile) trait and increasing its damage die size to 1d6. While you wield a staff in both hands, it lengthens, twists, and reshapes, gaining the [parry](/trait/parry), [reach](/trait/reach), and [trip](/trait/trip) traits.\n\n While you're in [Arcane Cascade](/action/arcane-cascade-impossible-magic-action-action-4261) stance, once per round you can [Interact](/action/interact-player-core) to change your grip on a staff as a free action.\n\n**Conflux Spell** [Spinning Staff](/spell/spinning-staff-impossible-magic-spell-spell-2884)\n\n**Studious Spell (7th)** [Oaken Resilience](/spell/oaken-resilience-player-core)\n\n**Studious Spell (11th)** [Slow](/spell/slow-player-core)\n\n**Studious Spell (13th)** [Flicker](/spell/flicker-player-core)",
+    "data": {
+      "type": "other",
+      "category": "Magus Hybrid Study",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/HybridStudies.aspx?ID=14"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "hybrid-study",
+      "impossible-magic",
+      "magus-hybrid-study",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/HybridStudies.aspx?ID=14",
+        "page": 14
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "5DA26645-3097-5805-A0E7-406B53735D09",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Twofold Tine",
+    "slug": "twofold-tine-impossible-magic-hybrid-study-hybrid-study-15",
+    "descr": "Magic dances between the two weapons you wield with equally deadly grace. Fighting groups of enemies takes full advantage of your capabilities as you move from one foe to another.\n\n While in [Arcane Cascade](/action/arcane-cascade-impossible-magic-action-action-4261) stance, if you make a Strike with a melee weapon you're holding, you can intensify the stance's power for another melee weapon of your choice you're holding in a different hand. Until the end of your turn, any extra damage the chosen weapon gains from Arcane Cascade is increased to 2. The extra damage increases to 4 if you have weapon specialization or 6 if you have greater weapon specialization.\n\n**Conflux Spell** [Force Fling](/spell/force-fling-impossible-magic-spell-spell-2879)\n\n**Studious Spell (7th)** [Blur](/spell/blur-player-core)\n\n**Studious Spell (11th)** [Gravity Well](/spell/gravity-well-player-core-2)\n\n**Studious Spell (13th)** [Unfettered Movement](/spell/unfettered-movement-player-core)",
+    "data": {
+      "type": "other",
+      "category": "Magus Hybrid Study",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/HybridStudies.aspx?ID=15"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "hybrid-study",
+      "impossible-magic",
+      "magus-hybrid-study",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/HybridStudies.aspx?ID=15",
+        "page": 14
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "28F6483B-F539-57FA-BE2C-FA316D15BE09",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Ulgatus, Rune of Restraint",
+    "slug": "ulgatus-rune-of-restraint-impossible-magic-runesmith-rune-runesmith-rune-35",
+    "descr": "**Usage** drawn on armor\n\n---\n\nA faction of the constructed beings called automatons developed this rune to avoid the weaknesses of flesh. When the creature wearing the armor would gain or increase the value of their [drained](/condition/drained-player-core), [enfeebled](/condition/enfeebled-player-core), or [sickened](/condition/sickened-player-core) condition, the rune attempts to prevent the imposition. The bearer attempts a DC 15 [flat check](/rule/checks-rules-2278). On a success, it doesn't gain or increase the value of that condition, but the rune goes temporarily dormant for 10 minutes. While dormant, the rune can't protect the bearer from conditions but can be invoked.\n\n**Invocation**\nThe rune causes the armor to grow around the creature wearing it, fortifying any vulnerable spots. For 1 minute, the wearer gains [resistance](/rule/resistance-rules-2318) 10 to critical hits.\n\n---\n**Level (17th)** The DC of the flat check decreases to 10 and the resistance to critical hits increases to 20.",
+    "data": {
+      "type": "other",
+      "category": "Runesmith Rune",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=35"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "impossible-magic",
+      "magical",
+      "remaster",
+      "rune",
+      "runesmith",
+      "runesmith-rune"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=35",
+        "page": 60
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "60B43443-AB6B-5BC5-84B1-40CB167DF97A",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Unarmed Attacks",
+    "slug": "unarmed-attacks-impossible-magic-rules-rules-3685",
+    "descr": "Your eidolon starts with two [unarmed](/trait/unarmed) attacks. Each eidolon entry suggests some forms the eidolon's attacks might take, but since eidolons can have a variety of body shapes, you decide the specific form of the unarmed attacks (claw, jaws, horn, fist, and so on) when you choose your eidolon. Some eidolons' unarmed attacks might look like swords, clubs, or other weapons, even though they are extensions of the eidolon's form. Your choice of unarmed attack determines its damage type— bludgeoning, piercing, or slashing, as appropriate. Some of the suggested attacks list a typical damage type in parentheses, but you can work with your GM to choose a damage type that is right for your eidolon. Once you decide upon your eidolon's unarmed attacks, they can't be changed except via abilities that specifically change them, except with your GM's permission. Your eidolon has a primary and secondary unarmed attack.\n\n **Primary Attack:** Choose from the following statistics for the more flexible primary attack.\n\n- 1d8 damage (choose one of disarm, nonlethal, shove, or trip)\n- 1d6 damage ([fatal d10](/trait/fatal))\n- 1d6 damage ([forceful](/trait/forceful) and [sweep](/trait/sweep))\n- 1d6 damage ([deadly d8](/trait/deadly) and [finesse](/trait/finesse))\n**Secondary Attack:** The secondary attack always deals 1d6 damage and has the [agile](/trait/agile) and finesse traits.",
+    "data": {
+      "type": "other",
+      "category": "Rules",
+      "breadcrumbs": [
+        "Eidolons"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3685"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "impossible-magic",
+      "remaster",
+      "rules"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3685",
+        "page": 70
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "D0634F42-DB1A-5245-BC68-FF2D359F5A14",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Undead",
+    "slug": "undead-impossible-magic-eidolon-eidolon-26",
+    "descr": "Your eidolon is an undead spirit pulled from the Ethereal Plane or the Void, embodied, and bound to your life force in an unusual, potentially antithetical way that even other summoners can't quite understand. Undead eidolons take about every imaginable shape and form, as their bodies manifest from their connection to you. Their ultimate form can be influenced by an amalgamation of the echoes and memories of their old life before becoming undead, their cause of death, their encounters in the afterlife, and portions of your own essences. Together, you and your eidolon need to explore the mysteries of life, death, and undeath to understand what your bond means for both of your futures.\n\n**Tradition** Divine\n\n**Home Plane** Ethereal Plane or Void\n\n---\n\n**Size** Medium or Small\n\n**Suggested Attacks** claw (slashing), fist (bludgeoning), jaws (piercing)\n\n- Str\n- Dex\n- Con 3\n- Int -1\n- Wis 1\n- Cha 0\n- AC ( Dex cap)\n\n**Skills** Intimidation, Religion\n\n**Senses** darkvision\n\n**Language** [Necril](/language/necril)\n\n**Speed** 25 feet\n\n---\n\n**Eidolon Abilities**\n\n- **Initial** Void Essence\n- **Symbiosis** Drain Life **Two Actions**\n- **Transcendence** Rejuvenation\n\n## Void Essence\n\nYour undead eidolon has a link directly to your life force, which grants them a twilight state between living and undead. This renders them a living creature and therefore susceptible to many ailments that bother only the living, though they possess some resistances to these effects. The eidolon has void healing, meaning they heal from void effects that heal undead and are damaged by vitality effects that damage undead. They don't have an undead's normal immunities, but they do gain a +2 circumstance bonus to saving throws against [death](/trait/death) effects, [disease](/trait/disease), [poison](/trait/poison) effects, and non-damaging effects that target only undead. Additionally, their necrotic essence stanches their wounds easily. The flat check to remove [persistent bleed damage](/condition/persistent-damage-player-core) from the eidolon is DC 10 (or DC 5 after receiving particularly effective aid).\n\n## Drain Life **Two Actions**\n\nYour eidolon attacks a living creature and drains some of the creature's life force to feed your shared link. Your eidolon Strikes a living enemy. If the Strike hits and deals damage, the target must attempt a Fortitude save against your spell DC, with the following effects. On a critical hit, the enemy uses the result one degree worse than it rolled.\n\n**Critical Success** No effect.\n\n**Success** Your eidolon drains a small amount of life force. The enemy takes additional void damage equal to half your level.\n\n**Failure** Your eidolon drains enough life force to satisfy itself. The enemy takes additional void damage equal to half your level and is drained 1. Your eidolon gains temporary Hit Points equal to the enemy's level, which last for 1 minute.\n\n**Critical Failure** Your eidolon drains an incredible amount of life force and is thoroughly glutted with energy. As failure, but the enemy is drained 2 and the temporary Hit Points are equal to double the enemy's level.\n\n## Rejuvenation\n\nYour eidolon's unusual connection with you allows you both to rejuvenate when defeated. The first time each day your turn begins while you're dying, you instantly regain a number of Hit Points equal to three times your level and wake up. (Increase your [wounded](/condition/wounded-player-core) condition as normal.) You can immediately [Manifest your Eidolon](/action/manifest-eidolon-impossible-magic-action-action-4267) as a free action. You can then take your turn as normal.",
+    "data": {
+      "type": "other",
+      "category": "Summoner Eidolon",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Eidolons.aspx?ID=26"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "eidolon",
+      "impossible-magic",
+      "remaster",
+      "summoner-eidolon",
+      "undead"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Eidolons.aspx?ID=26",
+        "page": 77
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "BBEBCAF7-EC36-5774-B89A-44C2029E2B77",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Upgrading, Reshaping, and Restoring",
+    "slug": "upgrading-reshaping-and-restoring-impossible-magic-rules-rules-3691",
+    "descr": "You might want to alter your soulbound armament by adding new runes to it, replacing its old form with a new one, or creating a new armament after yours was destroyed. When you do, it's up to you whether you consider this to be the same armament of the same lineage or a brand-new creation with a totally different appearance and name.\n\n Upgrading your armament works like [etching or transferring a rune or upgrading a permanent item from a lower-level version of the same item](/rule/runes-rules-3162), whichever is appropriate to what you're doing. You or someone else can do the work, but you must leave the item manifested for the entire process. You can transfer runes off your armament as well, typically in anticipation of establishing your bond with a different item.\n\n Reshaping your armament allows you to change the base weapon, armor, or shield into another of the same type, turning [half plate](/item/half-plate-player-core) armor into full plate, changing a warhammer into a longbow, and so on. If all you're doing is changing the form while keeping the same runes and other magical properties, you can do so by spending a day in meditation. This doesn't cost any gp or extra time unless the new form is higher than 1st level or unless the difference is so vast that the GM determines it might take additional time and cost. For example, turning explorer's clothing into full plate requires the same time, expense, and Crafting check as you'd need to Craft full plate since full plate is a 2nd-level item. Specific items can't be reshaped in this way unless the GM specifically allows it.\n\n You can also use this day in meditation to rebind your soul to a different item in your possession. Typically, you keep the old item, its power removed. Since the essence power you chose represents the effects of the connection to your soul, typically the essence power doesn't change when you bind a new armament. If you rebind your soul to an armament that can't accommodate your current essence power, you might also need to change the essence power. You can recreate a destroyed soulforged armament or bond to a new one if your previous one was destroyed. If it was destroyed by [_soulforged corruption_](/rule/corruption-impossible-magic-rules-rules-3693), you must first successfully use [_purify soul path_](/rule/removing-corruption-impossible-magic-rules-rules-3694). Recreating costs the same amount of time and money as creating the item from scratch. If you already have an item to form a new bond with, it takes 1 day in meditation, as with reshaping an armament.",
+    "data": {
+      "type": "other",
+      "category": "Rules",
+      "breadcrumbs": [
+        "Soulforger",
+        "Binding an Armament"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3691"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "impossible-magic",
+      "remaster",
+      "rules"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3691",
+        "page": 100
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "9B407187-5167-5A6D-95E4-F2A99E1B81B8",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Ur-, Diacritic Rune of Intensity",
+    "slug": "ur-diacritic-rune-of-intensity-impossible-magic-runesmith-rune-runesmith-rune-24",
+    "descr": "**Usage** drawn on a rune that deals damage\n\n---\n\nThis diacritic accentuates the base rune with bolder lines to give greater weight to its effects. When the base rune is invoked, its invocation gains a status bonus to damage equal to 2 plus half your level.",
+    "data": {
+      "type": "other",
+      "category": "Runesmith Rune",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=24"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "diacritic",
+      "impossible-magic",
+      "magical",
+      "remaster",
+      "rune",
+      "runesmith",
+      "runesmith-rune"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=24",
+        "page": 58
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "58044084-0515-5AAB-8D34-24F49B5CE5D4",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Volatile Spark",
+    "slug": "volatile-spark-impossible-magic-hybrid-study-hybrid-study-16",
+    "descr": "Your crashing spells meet their match with booming gunshots in a magical fusillade. By modifying your shots with your magic, you create explosions and cut through defenses.\n\n When you use [Spellstrike](/action/spellstrike-impossible-magic-action-action-4260), you can make a ranged firearm Strike, as long as the target is within the first range increment of your firearm. This overrides the actual range of the spell. If your firearm has the [concussive](/trait/concussive) trait, any damage from the spell you use in the Spellstrike uses the target's weakest resistance to any of the following: the spell's damage type, piercing, or bludgeoning. This benefit applies only to creatures you target with your firearm Strike during the Spellstrike, so it wouldn't apply to other creatures damaged with Expansive Spellstrike or similar abilities.\n\n In addition, you gain the Reloading Cascade action.\n **Reloading Cascade** **Single Action** You use Arcane Cascade and [Interact](/action/interact-player-core) to reload a firearm.\n\n**Conflux Spell** [Booming Blast](/spell/booming-blast-impossible-magic-spell-spell-2875)\n\n**Studious Spell (7th)** [Entangling Flora](/spell/entangling-flora-player-core)\n\n**Studious Spell (11th)** [Earthbind](/spell/earthbind-player-core)\n\n**Studious Spell (13th)** [Seal Fate](/spell/seal-fate-player-core-2)",
+    "data": {
+      "type": "other",
+      "category": "Magus Hybrid Study",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/HybridStudies.aspx?ID=16"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "hybrid-study",
+      "impossible-magic",
+      "magus-hybrid-study",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/HybridStudies.aspx?ID=16",
+        "page": 14
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "3EF8D926-C6DE-5A48-93F5-5D005DCD7037",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Xinsala, The Well of Virtues",
+    "slug": "xinsala-the-well-of-virtues-impossible-magic-runesmith-rune-runesmith-rune-44",
+    "descr": "**Usage** drawn on an unoccupied square\n\n---\n\nThis complex rune comprises many different ligatures from the ancient Thassilonian runes representing the seven virtues of rule, before they were corrupted by the runelords. When drawn, it creates a well of glowing energy that occupies the square it's drawn on and creates an aura of swirling, virtuous runes in a 30-foot [emanation](/rule/emanation-rules-2387). While in the aura, you or any of your allies gain a +1 status bonus to AC against magic, a +1 status bonus to saving throws against magic, and [resistance](/rule/resistance-rules-2318) 10 to damage from magical effects.\n\n**Invocation**\n([healing](/trait/healing), [vitality](/trait/vitality)) The well explodes outward with invigorating force. The well heals any number of creatures in its area for a total of 70 Hit Points divided as you choose, and you and each of your allies in the area gain a +20-foot status bonus to your Speeds and are [quickened](/condition/quickened-player-core) for 1 round. The extra action from quickened can be used only to [Stride](/action/stride-player-core) or [Strike](/action/strike-player-core).",
+    "data": {
+      "type": "other",
+      "category": "Runesmith Rune",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=44"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "impossible-magic",
+      "magical",
+      "remaster",
+      "rune",
+      "runesmith",
+      "runesmith-rune"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=44",
+        "page": 61
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "E67D2583-0C34-5F5E-B6DA-6194ED1E2F55",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Yudici, Rune of Remonstrance",
+    "slug": "yudici-rune-of-remonstrance-impossible-magic-runesmith-rune-runesmith-rune-36",
+    "descr": "**Usage** drawn on a shield\n\n---\n\nThis majestic rune grants the shield's wielder the conviction to aid their allies. While a shield bearing this rune is raised, its bearer emits an aura in a 10-foot [emanation](/rule/emanation-rules-2387) that grants their allies a +1 circumstance bonus to AC.\n\n**Invocation**\nThe shield regains 40 Hit Points, and all of the bearer's allies in a 10-foot emanation gain a +1 status bonus to attack rolls and skill checks for 1 round.\n\n---\n**Level (+3)** The Hit Points restored increases by 10.",
+    "data": {
+      "type": "other",
+      "category": "Runesmith Rune",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=36"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "aura",
+      "divine",
+      "impossible-magic",
+      "magical",
+      "remaster",
+      "rune",
+      "runesmith",
+      "runesmith-rune"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=36",
+        "page": 60
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "A2D02936-9F0D-56DD-8E18-CCA42FE40A57",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Zohk, Rune of Homecoming",
+    "slug": "zohk-rune-of-homecoming-impossible-magic-runesmith-rune-runesmith-rune-16",
+    "descr": "**Usage** drawn on a creature\n\n---\n\nThis circular mark allows travelers to always find their way home. The rune-bearer gains a +15-foot status bonus to its Speeds, but only when its movement would end closer to you than where the creature started its turn.\n\n**Invocation**\n([teleportation](/trait/teleportation)) You call the rune-bearer to your side. You teleport the target to any unoccupied square adjacent to you. If the bearer is unwilling, it must succeed at a Will save to negate the effect.",
+    "data": {
+      "type": "other",
+      "category": "Runesmith Rune",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=16"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "arcane",
+      "impossible-magic",
+      "remaster",
+      "rune",
+      "runesmith",
+      "runesmith-rune"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/RunesmithRunes.aspx?ID=16",
+        "page": 57
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  }
+]

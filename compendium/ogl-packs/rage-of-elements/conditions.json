@@ -1,0 +1,3013 @@
+[
+  {
+    "id": "F96FCF48-52BD-5E0A-ADED-46B31275965D",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Alloy Flesh and Steel",
+    "slug": "effect-alloy-flesh-and-steel-rage-of-elements",
+    "descr": "Granted by [Alloy Flesh And Steel](/feat/alloy-flesh-and-steel-rage-of-elements)\n\nYou gain resistance 10 to physical damage, except adamantine. You're immune to death effects, disease, drained, fatigued, healing, nonlethal attacks, paralyzed, poison, sickened, vitality, and void.\n\nYour fist Strikes have a 1d10 damage die, and your metal spells deal one additional die of damage (of the same damage die and damage type the spell uses). Your metal Elemental Blasts deal an additional die of damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8C5CD242-529E-5748-9592-6BBAE3CB6C14",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Aura Junction (Air)",
+    "slug": "effect-aura-junction-air-rage-of-elements",
+    "descr": "You gain a +10-foot status bonus to land and fly Speed.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A3AF7EF1-DD15-5371-8954-911112F37CC8",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Aura Junction (Fire)",
+    "slug": "effect-aura-junction-fire-rage-of-elements",
+    "descr": "Enemies in your kinetic aura gain weakness to fire from your fire impulses. The weakness is equal to half your level (minimum weakness 1).",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "74537106-2B1C-5956-AA31-926DA259E7D3",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Aura Junction (Metal)",
+    "slug": "effect-aura-junction-metal-rage-of-elements",
+    "descr": "Creatures with the [metal](/trait/metal) trait take a -1 status penalty to AC.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "050C520D-6BC2-5F5C-B516-4F5F3FA18DD8",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Aura Junction (Water)",
+    "slug": "effect-aura-junction-water-rage-of-elements",
+    "descr": "You gain fire resistance equal to half the kineticist's level.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "7645BEFB-C2E6-526F-B1B1-D9E903C3899A",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Aura Junction (Wood)",
+    "slug": "effect-aura-junction-wood-rage-of-elements",
+    "descr": "Any ally that begins its turn in the aura gains 1 temporary Hit Point that lasts until the start of its next turn. This increases to 2 temporary Hit Points if you're 10th level or higher and to 3 temporary Hit Points if you're 15th level or higher.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "15D2639A-0413-5338-AAC4-1CBD8AEEDF07",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Beacon of the Rowan Guard",
+    "slug": "effect-beacon-of-the-rowan-guard-rage-of-elements",
+    "descr": "While within the emanation, a creature with the [elemental](/trait/elemental) trait and either the [plant](/trait/plant) trait or [wood](/trait/wood) trait gains fast healing 10 and a +2 circumstance bonus to all attack and damage rolls.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3C1D1C72-16C8-5970-A3C0-50614746A242",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Blight Breath",
+    "slug": "effect-blight-breath-rage-of-elements",
+    "descr": "Granted by [Blight Breath](/item/blight-breath-rage-of-elements)\n\nYou gain resistance 10 to poison.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "AAD470CC-B617-55AD-8C2D-D4D1E879439B",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Conductive Sphere",
+    "slug": "effect-conductive-sphere-rage-of-elements",
+    "descr": "Granted by [Conductive Sphere](/feat/conductive-sphere-rage-of-elements)\n\nYou gain resistance to electricity equal to the level of the origin and add the *[shock](/item/shock-gm-core)* rune to all your Strikes with metal objects.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8EF79641-B338-59F9-A7EA-ED1AA6E730C8",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Consume Power",
+    "slug": "effect-consume-power-rage-of-elements",
+    "descr": "Granted by [Consume Power](/feat/consume-power-rage-of-elements)\n\nYou gain a status bonus equal to half your level to the damage of your metal impulse.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3EF39467-1CE3-545F-B960-FE59828768CE",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Cyclonic Ascent",
+    "slug": "effect-cyclonic-ascent-rage-of-elements",
+    "descr": "Granted by [Cyclonic Ascent](/feat/cyclonic-ascent-rage-of-elements)\n\nYou gain a fly Speed equal to your land Speed or 30 feet, whichever is greater.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 10,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0FFE2717-2ACF-51EF-BCF7-050D0A74B76B",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Downcast",
+    "slug": "effect-downcast-rage-of-elements",
+    "descr": "The creature takes a –1 status penalty to attack rolls",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4CF7D30C-8856-5B26-B4F8-BF7078698B57",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Dust Eternal",
+    "slug": "effect-dust-eternal-rage-of-elements",
+    "descr": "Everything within the aura is concealed.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "410186C6-47F7-501A-B3BD-CFD6D9FAC6A4",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Earth Impulse Junction",
+    "slug": "effect-earth-impulse-junction-rage-of-elements",
+    "descr": "You gain a +1 circumstance bonus to AC.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "18934E02-73C5-5E1F-8FE1-4A9BFF3A03B0",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Elementalist Dedication",
+    "slug": "effect-elementalist-dedication-rage-of-elements",
+    "descr": "Granted by [Elementalist Dedication](/feat/elementalist-dedication-rage-of-elements)\n\nEach day when you make your daily preparations, you can attune yourself to one element of your choice from your elemental philosophy. You gain resistance equal to half your level (minimum 1 resistance) against damage dealt by effects with your attuned [elemental](/trait/elemental) trait. This attunement lasts until you next make your daily preparations.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2A304799-C445-59E2-8D7B-A411EC926EB8",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Eternal Torch",
+    "slug": "effect-eternal-torch-rage-of-elements",
+    "descr": "Granted by [Eternal Torch](/feat/eternal-torch-rage-of-elements)\n\nYou create a torch-like flame. If you create a flame on a weapon, you still need to use it as an improvised weapon to attack with the flame, just as with a torch.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D015956D-884E-587C-96AF-0C37A5A58BB5",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Fold Form",
+    "slug": "effect-fold-form-rage-of-elements",
+    "descr": "The kinzaruk swiftly unfolds and refolds its body into a new shape chosen from the options of animal form. This grants it the movement Speeds and Strikes of the chosen form, but none of the other benefits. Its attack bonus is unchanged, and its damage bonus is +3.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "933DBBC2-CBBE-5819-959C-29FB7EAC19FF",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Fresh Produce",
+    "slug": "effect-fresh-produce-rage-of-elements",
+    "descr": "Granted by [Fresh Produce](/feat/fresh-produce-rage-of-elements)\n\nYou gain resistance to void damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 10,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "DAE1A621-C2C5-5B20-942A-955951704A3F",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Frost Breath",
+    "slug": "effect-frost-breath-rage-of-elements",
+    "descr": "Granted by [Frost Breath](/item/frost-breath-rage-of-elements)\n\nYou gain resistance 5 to cold.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E2D92661-4DA3-5A46-9CEE-36569A5C6EF9",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Furnace Form",
+    "slug": "effect-furnace-form-rage-of-elements",
+    "descr": "Granted by [Furnace Form](/feat/furnace-form-rage-of-elements)\n\nYou gain fire immunity, resistance 10 to precision damage, weakness 5 to cold and to water, and a fly Speed of 40 feet. Any creature that touches you or damages you with an unarmed attack or non-reach melee weapon takes 3d6 fire damage.\n\nYour unarmed attacks deal 1d4 additional fire damage, and your fire spells deal one additional die of fire damage (of the same damage die the spell uses). Your fire Elemental Blasts deal an additional die of damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D765BFF1-8A7F-517F-830A-833D13181C3D",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Ghosts in the Storm",
+    "slug": "effect-ghosts-in-the-storm-rage-of-elements",
+    "descr": "Granted by Stance: Ghosts In The Storm\n\nYou gain a +2 status bonus to Reflex saves and Acrobatics checks.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F8357A9E-81E6-5B9F-9CFA-390DB844F446",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Ghosts in the Storm (Move)",
+    "slug": "effect-ghosts-in-the-storm-move-rage-of-elements",
+    "descr": "Granted by [Ghosts In The Storm](/feat/ghosts-in-the-storm-rage-of-elements)\n\nYou are concealed, and your Strikes gain the *[shock](/item/shock-gm-core)* rune.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B4FE81E0-DF85-556E-8CCD-FF7FA91FD7EA",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Glowing Lantern Fruit (Lantern Light)",
+    "slug": "effect-glowing-lantern-fruit-lantern-light-rage-of-elements",
+    "descr": "Granted by [Glowing Lantern Fruit](/item/glowing-lantern-fruit-rage-of-elements)\n\nThe *glowing lantern fruit* sheds bright light in a 60-foot radius (and dim light for the next 60 feet). You can Interact with the *glowing lantern fruit* to open or close some of its reflective leaves, making the light directional like a bull's-eye lantern or a hooded lantern.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 8,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8FFD2E50-975B-5BA2-A931-EBDF68528A44",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Jann's Prism (Jann's Light)",
+    "slug": "effect-jann-s-prism-jann-s-light-rage-of-elements",
+    "descr": "Granted by [Jann'S Prism](/item/jann-s-prism-rage-of-elements)\n\nYou shed bright light in a 20-foot emanation (and dim light for the next 20 feet). You gain resistance 5 to two damage types.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "16BE53D2-79BD-5A72-9353-B4EB0D733EDE",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Kindle Inner Flames",
+    "slug": "effect-kindle-inner-flames-rage-of-elements",
+    "descr": "Granted by [Kindle Inner Flames](/feat/kindle-inner-flames-rage-of-elements)\n\nYou gain a status bonus to Reflex saves and Acrobatics checks.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A5D67BE9-76AF-5AF6-A6CE-8EFC0A3A2BC1",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Kinetic Aura",
+    "slug": "effect-kinetic-aura-rage-of-elements",
+    "descr": "Granted by [Channel Elements](/action/channel-elements-rage-of-elements)\n\nYou activate your kinetic aura.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "BB55EB1E-127C-5257-957E-4C55FBC25675",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Lava Leap",
+    "slug": "effect-lava-leap-rage-of-elements",
+    "descr": "Granted by [Lava Leap](/feat/lava-leap-rage-of-elements)\n\nYou gain a +2 circumstance bonus to AC.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "16BD0A54-B873-52AE-8C05-F935F4F82F19",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Metallic Skin",
+    "slug": "effect-metallic-skin-rage-of-elements",
+    "descr": "Granted by [Metallic Skin](/feat/metallic-skin-rage-of-elements)\n\nYou gain a +2 status bonus to AC and resistance 10 to physical damage (except adamantine), but you take a –10-foot penalty to Speed. If you take fire damage while this ability is active, until the end of your next turn, you deal an additional 2d6 fire damage with all your unarmed melee Strikes.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9F5DD3B3-01DC-529B-9E90-2006DDACD8F5",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Nimbus Breath",
+    "slug": "effect-nimbus-breath-rage-of-elements",
+    "descr": "Granted by [Nimbus Breath](/item/nimbus-breath-rage-of-elements)\n\nYou gain resistance 5 to electricity and gain a fly speed equal to your land speed or 20, whichever is higher.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "57DC440F-BA83-58CA-9B19-9A528BEE3403",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Ocean's Balm",
+    "slug": "effect-ocean-s-balm-rage-of-elements",
+    "descr": "Granted by [Ocean'S Balm](/feat/ocean-s-balm-rage-of-elements)\n\nYou gain fire resistance.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "17DE7351-AC7C-5924-9C7C-AC037706BAD2",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Orchard's Endurance",
+    "slug": "effect-orchard-s-endurance-rage-of-elements",
+    "descr": "Granted by [Orchard'S Endurance](/feat/orchard-s-endurance-rage-of-elements)\n\nYou gain resistance to bludgeoning and piercing damage. In addition, you roll flat checks to recover from persistent damage twice and take the higher result; this is a fortune effect.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "48CAD749-20C7-5A80-8793-6AB016030860",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Rebirth in Living Stone",
+    "slug": "effect-rebirth-in-living-stone-rage-of-elements",
+    "descr": "Granted by [Rebirth In Living Stone](/feat/rebirth-in-living-stone-rage-of-elements)\n\nYou gain temporary Hit Points. You're immune to critical hits and precision damage. Your earth Elemental Blasts deal an additional 1d10 damage of their normal type.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F1354ED2-DE6A-5240-9490-71286D099834",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Roast",
+    "slug": "effect-roast-rage-of-elements",
+    "descr": "Creatures who have been Roasted take a –2 circumstance penalty to Fortitude saves against Serve.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "773B55AB-5B44-51C4-B2E5-AB534E2E9BEE",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Sairazul Blue",
+    "slug": "effect-sairazul-blue-rage-of-elements",
+    "descr": "Granted by [Sairazul Blue](/item/sairazul-blue-rage-of-elements)\n\nYou gain resistance 5 to poison damage and void damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 8,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "7A519C10-BC8B-507E-BA61-287044B7EB17",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Sea Glass Guardians",
+    "slug": "effect-sea-glass-guardians-rage-of-elements",
+    "descr": "Granted by [Sea Glass Guardians](/feat/sea-glass-guardians-rage-of-elements)\n\nYou gain a +1 status bonus to AC and saving throws.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "74630FBC-3288-5AEB-A0C7-52BE18928648",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Sharkskin Robe",
+    "slug": "effect-sharkskin-robe-rage-of-elements",
+    "descr": "Granted by [Sharkskin Robe](/item/sharkskin-robe-rage-of-elements)\n\nYour weapon or unarmed attack gains the benefit of the *[underwater](/item/underwater-rage-of-elements)* weapon property rune.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "73DB6C26-8F39-5DC0-9FD3-744A938DB72A",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Shattershields",
+    "slug": "effect-shattershields-rage-of-elements",
+    "descr": "Granted by [Shattershields](/feat/shattershields-rage-of-elements)\n\nYou gain a +1 circumstance bonus to AC.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A7F16362-8CBA-5600-ABC2-C658731FBB40",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Spike Skin",
+    "slug": "effect-spike-skin-rage-of-elements",
+    "descr": "Granted by [Spike Skin](/feat/spike-skin-rage-of-elements)\n\nYou gain resistance to all physical damage, except adamantine.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 10,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "FF5650C8-16E5-5190-9B84-FE80821BB923",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Spiny Lodestone - Armor",
+    "slug": "effect-spiny-lodestone-armor-rage-of-elements",
+    "descr": "Granted by [Spiny Lodestone](/item/spiny-lodestone-rage-of-elements), [Spiny Lodestone (Greater)](/item/spiny-lodestone-greater-rage-of-elements), [Spiny Lodestone (Major)](/item/spiny-lodestone-major-rage-of-elements)\n\nYou gain an item bonus to Athletics checks and resistance to nonlethal damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "57A9B8D1-3814-5807-9A47-26004C2D02A7",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Spiny Lodestone - Weapon",
+    "slug": "effect-spiny-lodestone-weapon-rage-of-elements",
+    "descr": "Granted by [Spiny Lodestone](/item/spiny-lodestone-rage-of-elements), [Spiny Lodestone (Greater)](/item/spiny-lodestone-greater-rage-of-elements), [Spiny Lodestone (Major)](/item/spiny-lodestone-major-rage-of-elements)\n\nYour Strikes with the weapon deal additional piercing damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "BD46E46F-0A17-58F5-A6BC-7C1EAEC3F8C1",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Spun Cloud (Blue)",
+    "slug": "effect-spun-cloud-blue-rage-of-elements",
+    "descr": "Granted by [Spun Cloud (Blue)](/item/spun-cloud-blue-rage-of-elements)\n\nCreatures gain resistance 5 to electricity while in the cloud.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5B7B52BF-9ADB-564C-86BF-187147CC23CE",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Spun Cloud (White)",
+    "slug": "effect-spun-cloud-white-rage-of-elements",
+    "descr": "Granted by [Spun Cloud (White)](/item/spun-cloud-white-rage-of-elements)\n\nYou gain a +10-foot item bonus to your land Speed and fly Speed (if you have one).",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 0,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "485CB68F-00FE-5141-8AB2-E2B6A4A2C4F2",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Storm Breath",
+    "slug": "effect-storm-breath-rage-of-elements",
+    "descr": "Granted by [Storm Breath](/item/storm-breath-rage-of-elements)\n\nYou gain resistance 5 to both electricity and sonic.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C7C94000-73E5-58E3-B655-79994AD2DAE0",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Strum of Thunder",
+    "slug": "effect-strum-of-thunder-rage-of-elements",
+    "descr": "Granted by [Resonant Guitar](/item/resonant-guitar-rage-of-elements)\n\nThis item gains the *[thundering](/item/thundering-gm-core)* rune.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "15FD4D43-4216-5165-B6E6-E8E4951B03DC",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Thawing Candle",
+    "slug": "effect-thawing-candle-rage-of-elements",
+    "descr": "Creatures in the area gain cold resistance 10.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 10,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F09C54E8-4CEB-58A9-8268-BD9A6EB53AC8",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Therapeutic Snap Peas",
+    "slug": "effect-therapeutic-snap-peas-rage-of-elements",
+    "descr": "Granted by [Therapeutic Snap Peas](/item/therapeutic-snap-peas-rage-of-elements)\n\nYou gain a +2 item bonus to all saves against poisons or diseases.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F7F51FCE-4915-50ED-8D17-C8C1CB55DFFB",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Thermal Nimbus",
+    "slug": "effect-thermal-nimbus-rage-of-elements",
+    "descr": "Granted by [Thermal Nimbus](/feat/thermal-nimbus-rage-of-elements)\n\nYou gain cold or fire resistance.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "DD7F8473-E95B-5CD6-AD2A-5986ECB98782",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Thorn Triad - Armor",
+    "slug": "effect-thorn-triad-armor-rage-of-elements",
+    "descr": "Granted by [Thorn Triad](/item/thorn-triad-rage-of-elements), [Thorn Triad (Greater)](/item/thorn-triad-greater-rage-of-elements), [Thorn Triad (Major)](/item/thorn-triad-major-rage-of-elements)\n\nYou gain resistance to bludgeoning and piercing damage and weakness 3 to fire, or double the resistance for a non-cantrip spell.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "56147D4F-4348-515A-9732-30C8AEF73EF8",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Thorn Triad - Weapon",
+    "slug": "effect-thorn-triad-weapon-rage-of-elements",
+    "descr": "Granted by [Thorn Triad](/item/thorn-triad-rage-of-elements), [Thorn Triad (Greater)](/item/thorn-triad-greater-rage-of-elements), [Thorn Triad (Major)](/item/thorn-triad-major-rage-of-elements)\n\nYour Strikes with the weapon deal an additional persistent bleed damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "59F9AF33-B772-5706-8DF1-EE1308D7A014",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Viscous Breath",
+    "slug": "effect-viscous-breath-rage-of-elements",
+    "descr": "Creatures in the aura take a –2 status penalty to any non-magical physical attacks they attempt.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "56A36D86-38DC-567C-81C6-C9C955E7BD84",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Voice of Oceans",
+    "slug": "effect-voice-of-oceans-rage-of-elements",
+    "descr": "Granted by [Conch Of Otherworldly Seas](/item/conch-of-otherworldly-seas-rage-of-elements)\n\nYou can understand and speak Thalassic.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "230DFA83-CDA1-56FA-AB2E-45B5A4935C69",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Weapon Infusion",
+    "slug": "effect-weapon-infusion-rage-of-elements",
+    "descr": "Granted by [Weapon Infusion](/feat/weapon-infusion-rage-of-elements).\n\nIf your next action is an Elemental Blast, choose a weapon shape for it to take. You can choose to change the blast's damage type to bludgeoning, piercing, or slashing-whichever suits the weapon shape-and you can choose other alterations depending on whether you make a melee or ranged blast.\n\n**Melee** Add one of the following traits of your choice: agile, backswing, forceful, reach, sweep.\n**Ranged** Choose one of three options: range increment 100 feet and the volley 30 feet trait, range increment 50 feet and the [propulsive](/trait/propulsive) trait, or range increment 20 feet and the [thrown](/trait/thrown) trait.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 0,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2B4424B0-69C0-59F6-B868-B111A1576DFF",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Wood Impulse Junction",
+    "slug": "effect-wood-impulse-junction-rage-of-elements",
+    "descr": "You gain temporary hit points equal to your level.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "53F5700C-FB62-5AAD-8EF0-77EF0B62AF0C",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Cauterize Wounds",
+    "slug": "spell-effect-cauterize-wounds-rage-of-elements",
+    "descr": "Granted by [Cauterize Wounds](/spell/cauterize-wounds-rage-of-elements)\n\nYou can attempt to recover from your persistent bleed damage, with the lower DC for particularly effective assistance.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 0,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "13965E79-93F8-52A9-A22E-1337DE231E63",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Conductive Weapon",
+    "slug": "spell-effect-conductive-weapon-rage-of-elements",
+    "descr": "Granted by [Conductive Weapon](/spell/conductive-weapon-rage-of-elements)\n\nThe target becomes a *+1 [shock](/item/shock-gm-core) weapon*. If any target of an attack with the weapon is wearing metal armor or is primarily made of metal, the electricity damage die from the *shock* rune is 1d12.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E131B266-B564-50B2-8737-768C2EDBB5B6",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Eat Fire",
+    "slug": "spell-effect-eat-fire-rage-of-elements",
+    "descr": "Granted by [Eat Fire](/spell/eat-fire-rage-of-elements)\n\nYou gain resistance to fire damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C7F3D8B3-8876-5B83-97ED-018E282FBED2",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Entwined Roots",
+    "slug": "spell-effect-entwined-roots-rage-of-elements",
+    "descr": "Granted by [Entwined Roots](/spell/entwined-roots-rage-of-elements)\n\nYou gain resistance to bludgeoning and piercing damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 10,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "EF3166FC-0070-5E60-8572-399D3EDB7806",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Ferrous Form",
+    "slug": "spell-effect-ferrous-form-rage-of-elements",
+    "descr": "Granted by [Ferrous Form](/spell/ferrous-form-rage-of-elements)\n\nYou gain resistance to physical damage, except adamantine. You're immune to death effects, disease, drained, fatigued, healing, nonlethal attacks, paralyzed, poison, sickened, vitality, and void.\n\nYour fist Strikes have a 1d10 damage die, and your metal spells deal one additional die of damage (of the same damage die and damage type the spell uses).",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C7D7BE55-E846-5865-A15D-2A691A247350",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Flame Dancer",
+    "slug": "spell-effect-flame-dancer-rage-of-elements",
+    "descr": "Granted by [Flame Dancer](/spell/flame-dancer-rage-of-elements)\n\nThe target's unarmed Strikes deal additional fire damage. Critical hits with these Strikes also deal persistent fire damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "514DFD09-BCAF-59DE-8A20-DBA78B7069AB",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Gentle Breeze",
+    "slug": "spell-effect-gentle-breeze-rage-of-elements",
+    "descr": "Granted by [Gentle Breeze](/spell/gentle-breeze-rage-of-elements)\n\nMedicine checks attempted to benefit living creatures in the area get a +2 status bonus. Any living creature in the area also gets a +2 status bonus to saving throws against afflictions.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 10,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "7599EE53-68D4-51A4-AA50-A1B3F717A5F5",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Glass Form",
+    "slug": "spell-effect-glass-form-rage-of-elements",
+    "descr": "Granted by [Glass Form](/spell/glass-form-rage-of-elements)\n\nThe target gains resistance to acid, cold, electricity, and piercing damage and weakness to sonic and bludgeoning damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 10,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4300FF9A-2D3D-57B1-8631-F9617630433C",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Glass Shield",
+    "slug": "spell-effect-glass-shield-rage-of-elements",
+    "descr": "Granted by [Glass Shield](/spell/glass-shield-rage-of-elements)\n\nYou gain a +1 circumstance bonus to AC. You can Shield Block with the glass shield.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "FEDCA764-97CC-5A7E-B794-676329BB08A3",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Mantle of the Melting Heart",
+    "slug": "spell-effect-mantle-of-the-melting-heart-rage-of-elements",
+    "descr": "Granted by [Mantle Of The Melting Heart](/spell/mantle-of-the-melting-heart-rage-of-elements)\n\nPick two of the options below. As a single action, which has the [concentrate](/trait/concentrate) trait, you can change one of your chosen abilities to a different option from the list.\n\n**Copper Core** You gain resistance 10 to electricity.**Golden Flesh** You become immune to poison and disease and gain a +2 circumstance bonus to your checks against any poison and disease effects currently affecting you.**Reactive Touch** Any metal that touches you or that you touch takes 2d6 acid damage that bypasses Hardness.**Weighted Grasp** You gain a cabled fist unarmed attack with the disarm, finesse, reach, and [trip](/trait/trip) traits and that's in the flail group. Your cabled fist deals 1d4 bludgeoning damage plus an additional 1d6 poison damage and Grab.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F0EDFBE2-4606-5036-A353-F29E43B95B60",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Mantle of the Unwavering Heart",
+    "slug": "spell-effect-mantle-of-the-unwavering-heart-rage-of-elements",
+    "descr": "Granted by [Mantle Of The Unwavering Heart](/spell/mantle-of-the-unwavering-heart-rage-of-elements)\n\nPick two of the options below. As a single action, which has the [concentrate](/trait/concentrate) trait, you can change one of your chosen abilities to a different option from the list.\n\n**Evergreen Vitality** You gain fast healing 3 and a +2 bonus to saves against poison and disease. This effect has the healing and [vitality](/trait/vitality) traits.**Overwhelming Perfume** (aura, olfactory) A cloud of potent floral scent surrounds you in a 15-foot emanation. Creatures in the aura can't benefit from the scent ability and are sickened 1 as long as they remain in the aura. The sickness is a disease effect.**Towering Trunk** You grow to your size to Large. You're clumsy 1. Your reach increases by 5 feet (or by 10 feet if you started out Tiny), and you gain a grasping branch unarmed attack; this attack is in the brawling weapon group and deals 2d8 bludgeoning damage plus Grab.**Unyielding Will** You're immune to being fascinated, and you get a +1 bonus to saves and DCs against mental effects.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "EFBB37BE-6A45-5B4B-AFFE-3724A9EB9190",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Overwhelming Perfume",
+    "slug": "spell-effect-overwhelming-perfume-rage-of-elements",
+    "descr": "Granted by [Mantle Of The Unwavering Heart](/spell/mantle-of-the-unwavering-heart-rage-of-elements)\n\nCreatures in the aura can't benefit from the scent ability and are sickened 1 as long as they remain in the aura.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "disease"
+      ],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": [
+        {
+          "label": "disease",
+          "slug": "disease"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "disease",
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "33A168B6-86F5-540A-AC96-AD3AEE4B1A95",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Phoenix Ward",
+    "slug": "spell-effect-phoenix-ward-rage-of-elements",
+    "descr": "Granted by [Phoenix Ward](/spell/phoenix-ward-rage-of-elements)\n\nYou gain resistance 10 to fire.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E7731FD4-4DB2-574D-A3EE-6C1C62115468",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Rousing Splash",
+    "slug": "spell-effect-rousing-splash-rage-of-elements",
+    "descr": "Granted by [Rousing Splash](/spell/rousing-splash-rage-of-elements)\n\nYou gain temporary Hit Points.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "573A099B-C94D-581B-9F59-2D7C9A8E2A17",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Sand Form",
+    "slug": "spell-effect-sand-form-rage-of-elements",
+    "descr": "Granted by [Sand Form](/spell/sand-form-rage-of-elements)\n\nYou gain resistance to piercing and slashing damage, and immunity to bleed.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 10,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "69216808-22D0-5B56-AB6E-3C15E1B1119D",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Take Root",
+    "slug": "spell-effect-take-root-rage-of-elements",
+    "descr": "Granted by [Take Root](/spell/take-root-rage-of-elements)\n\nYou gain a +1 circumstance bonus to your Fortitude DC against attempts to Shove you and a +1 circumstance bonus to your Reflex DC against attempts to Disarm or Trip you.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "BE0A8394-1474-5DCB-85E8-DDC9F913E29D",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Tempest Cloak",
+    "slug": "spell-effect-tempest-cloak-rage-of-elements",
+    "descr": "Granted by [Tempest Cloak](/spell/tempest-cloak-rage-of-elements)\n\nThe twisting shield of wind creates difficult terrain in a 5-foot burst surrounding you. You gain a +2 circumstance bonus to your AC against physical ranged attacks. You also gain a +2 circumstance bonus to all defenses against auditory effects.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "271E6863-E5F0-5CC1-972E-ED4E2E5471A2",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Thermal Remedy",
+    "slug": "spell-effect-thermal-remedy-rage-of-elements",
+    "descr": "Granted by [Thermal Remedy](/spell/thermal-remedy-rage-of-elements)\n\nChoose one of the benefits listed below. Any creature that consumes the targeted drink or food gains that benefit.\n\nGain temporary Hit Points.\nGain resistance to fire.\nGain a circumstance bonus to saves against disease.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0332A71E-2297-5DAD-863B-7422FAF5FAB1",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Tremorsense",
+    "slug": "spell-effect-tremorsense-rage-of-elements",
+    "descr": "Granted by [Tremorsense](/spell/tremorsense-rage-of-elements)\n\nYou gain tremorsense as an imprecise sense with a range of 30 feet.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 10,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E7B543D2-8ABE-50BE-89A8-5706AF6177E8",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Vitrifying Blast",
+    "slug": "spell-effect-vitrifying-blast-rage-of-elements",
+    "descr": "Granted by [Vitrifying Blast](/spell/vitrifying-blast-rage-of-elements)\n\nYou gain weakness to sonic and bludgeoning damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2A3AFADA-5AF7-58F4-A9F2-8EF65F3F7B9E",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Weaken Earth",
+    "slug": "spell-effect-weaken-earth-rage-of-elements",
+    "descr": "Granted by [Weaken Earth](/spell/weaken-earth-rage-of-elements)\n\nYou gain weakness to physical damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "16A40D50-FAC0-503B-AADD-FE998DD7CB69",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Wooden Fists",
+    "slug": "spell-effect-wooden-fists-rage-of-elements",
+    "descr": "Granted by [Wooden Fists](/spell/wooden-fists-rage-of-elements)\n\nYour fists deal more bludgeoning damage, lose the [nonlethal](/trait/nonlethal) trait, and have reach.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E073003A-5F0E-5A96-8FF6-0182BB9117A9",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Stance: Air Shroud",
+    "slug": "stance-air-shroud-rage-of-elements",
+    "descr": "Granted by [Air Shroud](/feat/air-shroud-rage-of-elements)\n\nAttacks with ranged weapons take a -1 circumstance penalty to their attack rolls if their paths pass through your kinetic aura. Air in your kinetic aura is difficult terrain for flying creatures other than yourself.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B017EB98-D457-55F4-8DB1-3E75581B08BC",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Stance: Assume Earth's Mantle",
+    "slug": "stance-assume-earth-s-mantle-rage-of-elements",
+    "descr": "Granted by [Assume Earth'S Mantle](/feat/assume-earth-s-mantle-rage-of-elements)\n\nYou become Large if you were smaller. This increases your reach by 5 feet (or by 10 feet if you started out Tiny).You gain a climb Speed equal to your land Speed, but you can use it only to climb surfaces of earthen matter.You gain a +1 circumstance bonus to your Fortitude saves and a +2 circumstance bonus to your Fortitude or Reflex DCs against attempts to Shove you, Trip you, or knock you Prone.If your Strength is below +4, this armor raises your Strength to +4. If your Strength is +4 or higher, this armor grants you a +1 item bonus to your Strength.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C54F74CE-19E0-592B-B64E-764808E82AE8",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Stance: Crowned in Tempest's Fury",
+    "slug": "stance-crowned-in-tempest-s-fury-rage-of-elements",
+    "descr": "Granted by [Crowned In Tempest'S Fury](/feat/crowned-in-tempest-s-fury-rage-of-elements)\n\nAny creature that enters your kinetic aura or ends its turn there takes 2d12 electricity damage.If you don't have a fly Speed, you gain a 20-foot fly Speed. If you have the Cyclonic Ascent impulse, you instead gain that fly Speed and the extra benefits.You gain a +10-foot status bonus to all your Speeds.Your air Elemental Blasts deal an additional 1d12 electricity damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "14840CE1-D223-5D0C-B96B-C3D183640EA5",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Stance: Desert Wind",
+    "slug": "stance-desert-wind-rage-of-elements",
+    "descr": "Granted by [Desert Wind](/feat/desert-wind-rage-of-elements)\n\nWhen you use a damaging air impulse that affects at least one creature in your kinetic aura, that impulse deals additional slashing damage. This damage is doubled if the impulse has a single target.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "239344C9-0449-5E4C-A7E8-69F2403D216D",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Stance: Drifting Pollen",
+    "slug": "stance-drifting-pollen-rage-of-elements",
+    "descr": "Granted by [Drifting Pollen](/feat/drifting-pollen-rage-of-elements)\n\nA creature in your kinetic aura when you enter the stance, or who later enters the aura or ends its turn in the aura, attempts at a Fortitude save against your class DC. On a failure, it's sickened 1 (sickened 2 on a critical failure) and dazzled until it's no longer sickened. A creature attempts this save no more than once per round and doesn't attempt a new save if already affected.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E606AF11-D408-5A3A-A125-3F4865CFD22E",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Stance: Geologic Attunement",
+    "slug": "stance-geologic-attunement-rage-of-elements",
+    "descr": "Granted by [Geologic Attunement](/feat/geologic-attunement-rage-of-elements)\n\nYou gain tremorsense (imprecise) in your kinetic aura.\n\nAt 13th level this becomes precise tremorsense.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2BB21F79-5D58-5589-8111-8E82DF7BEB5B",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Stance: Ghosts in the Storm",
+    "slug": "stance-ghosts-in-the-storm-rage-of-elements",
+    "descr": "Granted by [Ghosts In The Storm](/feat/ghosts-in-the-storm-rage-of-elements)\n\nYou and your allies while they're in your kinetic aura gain a +2 status bonus to Reflex saves and Acrobatics checks. When an affected creature uses a move action, clouds dance around it. Until the start of its next turn, it's concealed, and its Strikes gain the *[shock](/item/shock-gm-core)* rune.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "7567C8C5-268D-5C97-A0E8-6C9FB84487B6",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Stance: Kindle Inner Flames",
+    "slug": "stance-kindle-inner-flames-rage-of-elements",
+    "descr": "Granted by [Kindle Inner Flames](/feat/kindle-inner-flames-rage-of-elements)\n\nYou shed faint, glowing embers, as do your allies while they're in your kinetic aura. Anyone shedding these embers gains a +1 status bonus to Reflex saves and Acrobatics checks and can Step as a free action once per round. When an affected creature takes a move action, its Strikes deal an extra 2 fire damage until the end of its turn.\n\n---\n\n**Level (12th)** The status bonus to Reflex saves and Acrobatics checks is +2, and the Strikes gain the *[Flaming](/item/flaming-gm-core)* rune instead of the extra 2 fire damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A3BB9E91-645E-5D2B-B1C7-5D96E3CA9A61",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Stance: Magnetic Field",
+    "slug": "stance-magnetic-field-rage-of-elements",
+    "descr": "Granted by [Magnetic Field](/feat/magnetic-field-rage-of-elements)\n\nChoose a polarity when you take this action. You can switch the polarity as a free action at the start of each of your turns while you remain in this stance.\n\n**Attract** A creature that is wearing metal armor, has the [metal](/trait/metal) trait, or is made of metal treats squares in your kinetic aura as difficult terrain when moving away from you. You pull unattended metal objects of light Bulk or less in your kinetic aura to you. They gather in your space and move with you.\n\n**Repel** A creature that is wearing metal armor, has the metal trait, or is made of metal treats squares in your kinetic aura as difficult terrain when moving closer to you. You push unattended metal objects of light Bulk or less in your kinetic aura away. They stop moving once they're outside your aura.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "6E482BEC-A38F-57BE-8372-01608E63487B",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Stance: Orchard's Endurance",
+    "slug": "stance-orchard-s-endurance-rage-of-elements",
+    "descr": "You and your allies in your kinetic aura gain resistance 5 to bludgeoning and piercing damage. In addition, you and your affected allies roll flat checks to recover from persistent damage twice and take the higher result; this is a fortune effect.\n\n---\n\n**Level (+4)** The resistance increases by 2.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "99CAADE9-F029-59AE-ACAD-15A9F6F9411D",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Stance: Ravel of Thorns",
+    "slug": "stance-ravel-of-thorns-rage-of-elements",
+    "descr": "Granted by [Ravel Of Thorns](/feat/ravel-of-thorns-rage-of-elements)\n\nA creature that starts its turn in the thorns takes a –10-foot circumstance penalty to its Speeds until it leaves the area. The thorns are hazardous terrain. A creature takes 1 piercing damage each time it moves into one of these squares. If any square the thorns grow on is water or soil, double the hazardous terrain damage for all thorns. If you move, the thorns disappear; new thorns grow at the end of your turn.\n\n---\n\n**Level (+4)** The damage increases by 1.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B3E3D85D-0440-52AC-BBB8-B6D14E081527",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Stance: Sea Glass Guardians",
+    "slug": "stance-sea-glass-guardians-rage-of-elements",
+    "descr": "Granted by [Sea Glass Guardians](/feat/sea-glass-guardians-rage-of-elements)\n\nYou and your allies within your kinetic aura gain a +1 status bonus to AC and saving throws.\n\nIf any creature affected is critically hit or critically fails at a saving throw against an attack, effect from an enemy, or hazard and remains above 0 HP, the guardians reach out to heal that creature. The creature regains 4d8+8 HP, and the impulse ends. If the creature is in water, the healing dice are d10s instead of d8s.\n\n---\n\n**Level (+3)** The healing increases by 1d8+4.\n\nLeveled HP",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4E6976C4-2009-5665-8652-A67932E00348",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Stance: Shattershields",
+    "slug": "stance-shattershields-rage-of-elements",
+    "descr": "Granted by [Shattershields](/feat/shattershields-rage-of-elements)\n\nYou and allies in your kinetic aura gain a +1 circumstance bonus to AC.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0EA7D55D-FACD-5B8E-820B-29AD9FA77501",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Stance: Steam Knight",
+    "slug": "stance-steam-knight-rage-of-elements",
+    "descr": "Granted by [Steam Knight](/feat/steam-knight-rage-of-elements)\n\nYou shape your kinetic aura into swirling armor of steam that scalds your enemies and propels you on super-heated jet streams. A creature can take damage from Steam Knight only once per round. Your steam armor has the following effects.\n\nYou gain a +10-foot status bonus to your Speed.When you [Leap](/action/leap-player-core), you can jump up to your Speed. You don't immediately fall at the end of a jump, provided you Leap again with your next action. If you Leap over a creature and come within 10 feet, that creature takes 0d6 fire damage with a basic Reflex save against your class DC.At the start of each of your turns, you can emit steam as a free action. It deals 0d6 fire damage to each creature in your kinetic aura with a basic Reflex save against your class DC. A creature that fails is also pushed 5 feet.\n\n---\n\n**Level (+5)** The fire damage from a jump or blast of steam increases by 1d6.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C86E56CC-122D-5874-94A6-46614CDB3592",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Stance: Thermal Nimbus",
+    "slug": "stance-thermal-nimbus-rage-of-elements",
+    "descr": "Granted by [Thermal Nimbus](/feat/thermal-nimbus-rage-of-elements)\n\nChoose cold or fire. You and allies in your kinetic aura gain resistance equal to your level to damage of that type.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "33DDED80-BAA8-50E5-8C7D-9667C795EEE2",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Stance: Winter Sleet",
+    "slug": "stance-winter-sleet-rage-of-elements",
+    "descr": "Granted by [Winter Sleet](/feat/winter-sleet-rage-of-elements)\n\nBone-chilling, swirling sleet surrounds you, cruel as deepest winter. Surfaces in your kinetic aura are coated in slippery ice. A creature that moves on the ice immediately falls unless it succeeds at an Acrobatics check or Reflex save against your impulse DC – 2. A creature that Steps or Crawls doesn't have to attempt a check or save. You're immune to this effect.\n\nIf a creature on the ice is critically hit by one of your water impulses or critically fails at a save against one, that creature is [Slowed 1](/condition/slowed-player-core) until the end of its next turn.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

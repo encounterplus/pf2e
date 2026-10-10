@@ -1,0 +1,254 @@
+[
+  {
+    "id": "3B9EF02A-8F40-545F-9F31-1E8059A181A1",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Battle Harbinger",
+    "slug": "battle-harbinger-divine-mysteries-archetype-archetype-304",
+    "descr": "Battle harbingers are elite, specially trained members of their faith, usually carrying out missions that require extra martial prowess. Built for the battlefield and used to working alongside other warriors, as well as tackling dangerous solo operations, battle harbingers typically spend more time training outside their temples than praying within them. What they lack in spellcasting prowess they make up for with expertise in weaponry and defense.\n\n Even less combat-oriented faiths understand that battle harbingers can be a necessity, especially if there's a dangerous quest that must be undertaken alone. Because battle harbingers rigorously train their bodies to withstand hardship, they tend to have more capability to support themselves, leaving more traditional priests to handle group-wide supportive magic and prayers. Battle harbingers specialize in bolstering themselves with their deity's power and weakening their opponents in the same vein.\n\n A battle harbinger's training varies greatly from that of a typical cleric. While this training initially resembles that of a warpriest cleric, the martial and spellcasting philosophies of a battle harbinger soon differ. A battle harbinger is taught to rely less on their spells, instead focusing on a select array of spells to supplement their combat abilities. Their main magical abilities focus on battle auras, spells that create areas centered on the battle harbinger that either empower their allies or hamper their foes. Battle harbingers are generally expected to take the fight directly to a foe, and their auras supplement these tactics. The main component of a battle harbinger's training involves their battle creed. While a battle creed varies from faith to faith, the core aspects of these creeds remain the same regardless of dogma. A battle creed declares a battle harbinger to be a living weapon for their god or faith. The battle harbinger is expected to enter combat on behalf of their god and to adhere to strict training regimens that support this goal. Battle harbingers train to make use of powerful armor and their god's favored weapon. Supplemental training focuses on the body, allowing battle harbingers to stave off fatigue and dangers that target one's health directly. Some battle harbingers, such as those who follow Erastil, prefer to make use of ranged tactics, but they still learn more direct combat should the need arise.\n\n Although a battle harbinger's spellcasting capabilities are more limited than their fellow clerics, their magic generally isn't less potent. Battle harbingers are still capable of calling down strong divine power, but they rely on this magic less often than their brethren. This is mostly due to their martial training, which focuses on their bodies, combat, and defense. As such, a battle harbinger doesn't carry as much magic potential as other clerics. The exception to this is their training in battle auras, which many battle harbingers are able to make greater use of as their prowess grows.\n\n While most battle harbingers are associated with a given temple, it's not unusual for one to be a lone mercenary, enacting their deity's will along their travels and through their contract work.\n\n## Battle Creed\n\nYou've undergone a special training to focus your body toward combat. While you still adhere to the teachings of your faith, you also know that you serve as an instrument of your church. More so than any warpriest, the physical rigors that come with battle are key to your training. You've dedicated yourself to the battle creed, a specific approach that puts combat prowess first, even at the expense of a cleric's typical spellcasting and restorative abilities. Defeating one's enemies is more important than healing an ally in the heat of battle; the time for healing comes after. As you abide by the battle creed, your physical and martial capabilities grow stronger. You must select Battle Herald Dedication as your 2nd- level class feat.\n\n **Prerequisites:** You must be a [cleric](/class/cleric-player-core).\n You don't gain the Resolute Faith class feature.\n You don't gain the Miraculous Spell class feature.\n\n **Spellcasting Adjustment:** Your spellcasting capabilities are more restricted. At 1st level, you can prepare one 1st-rank spell and five cantrips. As you increase in level, your number of spell slots and the highest rank of spells you can cast from spell slots increases, shown in Battle Harbinger Spells per Day. Because of your focus on your physical training at the expense of magical aptitude, you have no more than two spell slots of your highest rank and, if you can cast 2nd-rank spells or higher, two spell slots of 1 rank lower than your highest spell rank. For anything that requires the ability to cast spells of a certain rank that's lower than the highest slots you have, you still qualify even if you no longer have spell slots at those ranks.\n\n **Divine Font Adjustment:** Instead of preparing [_heal_](/spell/heal-player-core) or [_harm_](/spell/harm-player-core) spells with your divine font, you instead gain the battle font, which allows you to prepare battle aura spells. You gain 4 additional spell slots each day at your highest rank of cleric spell slots. You can prepare only [_bane_](/spell/bane-player-core) or [_bless_](/spell/bless-player-core) in these slots. Any feats and effects that refer to a battle aura refers to these spells, regardless of whether they were cast with your standard spell slots or your divine font spell slots. At 5th level, the number of additional slots increases to 5, and at 15th level, the total number of additional slots increases to 6. Your battle auras use your class DC instead of your spell DC.\n\n **Doctrine Adjustment:** Instead of choosing a doctrine, you follow the battle creed. At 1st level, you gain the benefits of the initial creed. You gain additional benefits from your creed at the listed levels.\n\n _Initial Creed (1st):_ You're trained in light and medium armor, and you have expert proficiency in Fortitude saves. You're trained in martial weapons. If your deity's favored weapon is a simple weapon or an unarmed attack, you gain the [Deadly Simplicity](/feat/deadly-simplicity-player-core) cleric feat. At 13th level when you gain the Divine Defense class feature, you also gain expert proficiency in light and medium armor.\n\n _Lesser Creed (5th):_ You gain expert proficiency with your deity's favored weapon, martial weapons, simple weapons, and unarmed attacks. When you critically succeed at an attack roll using your deity's favored weapon, you apply the weapon's critical specialization effect. Your proficiency rank for your class DC increases to expert.\n\n _Moderate Creed (9th):_ You gain [Reactive Strike](/feat/reactive-strike-player-core) as a cleric feat.\n\n _Greater Creed (11th):_ Your proficiency ranks for the spell attack modifier and spell DC statistics increase to expert.\n\n_Major Creed (13th):_ You gain master proficiency with your deity's favored weapon. Your proficiency rank for Fortitude saves increases to master. When you roll a success on a Fortitude save, you get a critical success instead.\n\n _True Creed (15th):_ Your proficiency rank for your class DC increases to master. Your proficiency rank for Will saves increases to master.\n\n _Final Creed (19th):_ Your proficiency ranks for light and medium armor, as well as for unarmed defense, increase to master. Your proficiency rank for your class DC increases to legendary.\n\n## Battle Harbinger Spells Per Day\n\n| **Your Level** | **Cantrips** | **1** | **2** | **3** | **4** | **5** | **6** | **7** | **8** | **9** |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 1 | 5 | 1 | — | — | — | — | — | — | — | — |\n| 2 | 5 | 2 | — | — | — | — | — | — | — | — |\n| 3 | 5 | 2 | 1 | — | — | — | — | — | — | — |\n| 4 | 5 | 2 | 2 | — | — | — | — | — | — | — |\n| 5 | 5 | — | 2 | 2 | — | — | — | — | — | — |\n| 6 | 5 | — | 2 | 2 | — | — | — | — | — | — |\n| 7 | 5 | — | — | 2 | 2 | — | — | — | — | — |\n| 8 | 5 | — | — | 2 | 2 | — | — | — | — | — |\n| 9 | 5 | — | — | — | 2 | 2 | — | — | — | — |\n| 10 | 5 | — | — | — | 2 | 2 | — | — | — | — |\n| 11 | 5 | — | — | — | — | 2 | 2 | — | — | — |\n| 12 | 5 | — | — | — | — | 2 | 2 | — | — | — |\n| 13 | 5 | — | — | — | — | — | 2 | 2 | — | — |\n| 14 | 5 | — | — | — | — | — | 2 | 2 | — | — |\n| 15 | 5 | — | — | — | — | — | — | 2 | 2 | — |\n| 16 | 5 | — | — | — | — | — | — | 2 | 2 | — |\n| 17 | 5 | — | — | — | — | — | — | — | 2 | 2 |\n| 18 | 5 | — | — | — | — | — | — | — | 2 | 2 |\n| 19 | 5 | — | — | — | — | — | — | — | 2 | 2 |\n| 20 | 5 | — | — | — | — | — | — | — | 2 | 2 |\n\n## Additional Feats\n\nThis archetype has some feats at a level other than their original level.\nSuch feats are marked with a \\*.\n\n[Click here for the full rules on Additional Feats](/rule/additional-feats-rules-2130).",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "level": 2,
+      "prerequisites": "battle creed",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "divine-mysteries",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "divine-mysteries",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Divine Mysteries",
+        "url": "https://2e.aonprd.com/Archetypes.aspx?ID=304",
+        "page": 272
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "03E096F6-2F86-5F39-BBEB-A638A56BDF09",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Mortal Herald",
+    "slug": "mortal-herald-divine-mysteries-archetype-archetype-305",
+    "descr": "When a follower earns the respect and trust of their god, the god sometimes grants that worshipper a great boon in the form of enhanced divine power. This chosen follower becomes a mortal herald, a living instrument for their god. Like a champion or cleric of a deity, a mortal herald has great divine power coursing through them, allowing the individual to enact the god's will within the Universe. Unlike a champion or cleric however, the god recognizes that their chosen mortal herald has skills and abilities that may be unique to them. Not every mortal herald is clad in impenetrable armor or capable of casting divine magic. Instead, the god grants gifts to their mortal herald that best match the individual's strengths. Regardless of who the person was before becoming a mortal herald, they are now a powerful divine being in their own right. Due to the specific needs of a deity and the dedicated nature of a mortal herald, a follower of a covenant or pantheon can't become a mortal herald.\n\n In some cases, the god grants greater potential to their mortal heralds in the form of [mythic power](/rule/mythic-rules-rules-3320). A mythic character can select the mortal herald archetype as their mythic destiny. You must be a mythic character to select feats from this archetype that have the [mythic](/trait/mythic) trait. More information about mythic destinies can be found here.\n\n## Additional Feats\n\nThis archetype has some feats at a level other than their original level.\nSuch feats are marked with a \\*.\n\n[Click here for the full rules on Additional Feats](/rule/additional-feats-rules-2130).",
+    "data": {
+      "rarity": "rare",
+      "traits": [],
+      "level": 12,
+      "prerequisites": "Worshiper of a specific deity; Master in Religion or your deity’s divine skill",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "divine-mysteries",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "divine-mysteries",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Divine Mysteries",
+        "url": "https://2e.aonprd.com/Archetypes.aspx?ID=305",
+        "page": 279
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "72838849-0AA5-5039-937B-FAC7464853B6",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Palatine Detective",
+    "slug": "palatine-detective-divine-mysteries-archetype-archetype-306",
+    "descr": "You are an elite agent of the Esoteric Order of the Palatine Eye. Separated from the regular members of this obscure league of scholars and academics, you have attained divine and occult abilities through methods kept secret to outsiders. The air of mystery that surrounds you and your organization only serves to aid you in your cases, which can often be dangerous investigations into cultists and supernatural threats. However, you might have earned the suspicion or ire of others within the Order of the Palatine Eye due to your near-constant field work and the fact that initiates and lower-order members are kept in the dark about your provenance.\n\n You are likely unclear as to the exact source of your abilities. Depending on your understanding of your Order’s teachings, you could have gained this power from the knowledge you gained through _The Lost Gospels of Tabris_. This knowledge seems to hint at greater mysteries underlying existence and the cosmos, as well as mysteries hidden between the veils of morality that suffuse the planes, which could have unlocked your potential. It could also be that you gained your abilities due to your connection to the various artifacts and relics that the Order of the Palatine Eye has collected over its lifetime. The nature of many of these items remains unclear even after decades of study, but your proximity to these relics could have triggered an awakening of abilities. Your abilities might simply function because you believe they must. It would be disastrous for you to lose access to these abilities, so you believe them to function and considerations otherwise are something you refuse to acknowledge.\n\n Regardless, you’ve learned to make use of your abilities to work against magical forces. These abilities allow you to tap into greater magical potential, create wards to protect yourself from magical attacks, and even grant you esoteric insight to better harm your foes. While these abilities are potent, you must also make sure to not let your Order training lapse. You make use of your mind, your canny insight, and deductive skills to deal with the various mysteries of existence that you encounter and the supernatural foes that you find along the way.\n\n## Palatine Detective\n\nWhether at the invitation of a senior member of the Esoteric Order of the Palatine Eye, after going through a rigorous sorting process, or by a twist of fate, you recently underwent a secret ritual involving _The Lost Gospels of Tabris_ that granted you a greater understanding of both the divine and the occult. Not even you are certain of the origin or purpose of the forces that have granted you these abilities, but you know the key to answering that question and expanding your power lies hidden behind the cryptic words of the many ancient texts still waiting to be discovered and examined. If you choose this class archetype, you must select Palatine Detective Dedication as your 2nd-level class feat.\n\n **Prerequisites:** You must be an investigator. You are affiliated with the Esoteric Order of the Palatine Eye.\n\n **Palatine Detective Adjustments:** Instead of choosing a methodology from others available to the [investigator](/class/investigator-player-core-2) class, you have the esoterica methodology.\n\n## Additional Feats\n\nThis archetype has some feats at a level other than their original level.\nSuch feats are marked with a \\*.\n\nClick here for the full rules on Additional Feats.",
+    "data": {
+      "rarity": "uncommon",
+      "traits": [],
+      "level": 2,
+      "prerequisites": "investigator",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "divine-mysteries",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "divine-mysteries",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Divine Mysteries",
+        "url": "https://2e.aonprd.com/Archetypes.aspx?ID=306",
+        "page": 288
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "B16131B6-7D17-5E07-B643-3EB1117DEEF8",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Razmiran Priest",
+    "slug": "razmiran-priest-divine-mysteries-archetype-archetype-307",
+    "descr": "You are a Razmiran priest, initiated in the 31 Steps, the doctrines of [Razmir's](/deity/razmir-the-living-god-divine-mysteries-deity-deity-357) religion. You were trained at the Exalted Lodge or another of the temples where the priests specialize in crafting masks that also serve as Razmir's religious symbol, and you are charged with spreading and enforcing Razmir's faith. Razmiran priests are zealous worshippers of their god and use the magical techniques that they are taught to spread his word and his will. You have placed service to the Living God above all other duties and entrusted your wealth, prosperity, and ambitions to his teachings, while availing yourself of the knowledge and wisdom that only his most blessed servants are ever bestowed with, accepting the power and authority that is the right of the Living God's priests. Perhaps this is a pure zealousness, or perhaps you are motivated by Razmir's promises of wealth and authority. Either way, you have donned the mask and wield the power reserved for those who follow in Razmir's footsteps.",
+    "data": {
+      "rarity": "uncommon",
+      "traits": [],
+      "level": 2,
+      "prerequisites": "Trained in Crafting; Trained in Deception",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "divine-mysteries",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "divine-mysteries",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Divine Mysteries",
+        "url": "https://2e.aonprd.com/Archetypes.aspx?ID=307",
+        "page": 290
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "C59BC81E-8D0F-528B-BFD8-3BDA206B1BA3",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Rivethun Emissary",
+    "slug": "rivethun-emissary-divine-mysteries-archetype-archetype-308",
+    "descr": "_**PFS Note** Rivethun is a philosophy which characters may choose as their religion. Doing so fulfills the “follower of Rivethun” access condition for relevant options._\n\nRivethun emissaries form bonds with external spirits, using their own spiritual power as an anchor. This is a diplomatic endeavor, not a sycophantic one; they form mutual alliances and bonds of friendship and respect, they don't swear their service. In this way, Rivethun emissaries serve as intermediaries between the Universe and the spirit world.\n\n## Additional Feats\n\nThis archetype has some feats at a level other than their original level.\nSuch feats are marked with a \\*.\n\n[Click here for the full rules on Additional Feats](/rule/additional-feats-rules-2130).",
+    "data": {
+      "rarity": "uncommon",
+      "traits": [],
+      "level": 2,
+      "prerequisites": "Trained in Diplomacy; Trained in Religion",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "divine-mysteries",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "divine-mysteries",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Divine Mysteries",
+        "url": "https://2e.aonprd.com/Archetypes.aspx?ID=308",
+        "page": 292
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "C918575E-0168-53BA-86DC-1F6075C904E9",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Rivethun Invoker",
+    "slug": "rivethun-invoker-divine-mysteries-archetype-archetype-309",
+    "descr": "_**PFS Note** Rivethun is a philosophy which characters may choose as their religion. Doing so fulfills the “follower of Rivethun” access condition for relevant options._\n\nRivethun invokers manifest the spirits within their own body, gaining magical powers that bolster their physical form. They can ignore pain, defy death, and gain other powers thematically tied to the spirit they’ve invoked within their body.\n\n## Additional Feats\n\nThis archetype has some feats at a level other than their original level.\nSuch feats are marked with a \\*.\n\n[Click here for the full rules on Additional Feats](/rule/additional-feats-rules-2130).",
+    "data": {
+      "rarity": "uncommon",
+      "traits": [],
+      "level": 2,
+      "prerequisites": "Trained in Athletics; Trained in Religion",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "divine-mysteries",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "divine-mysteries",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Divine Mysteries",
+        "url": "https://2e.aonprd.com/Archetypes.aspx?ID=309",
+        "page": 294
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "187CACB4-FC5A-5CD1-A3CE-37543F3CE792",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Rivethun Involutionist",
+    "slug": "rivethun-involutionist-divine-mysteries-archetype-archetype-310",
+    "descr": "_**PFS Note** Rivethun is a philosophy which characters may choose as their religion. Doing so fulfills the “follower of Rivethun” access condition for relevant options._\n\nRivethun involutionists leverage their connection to the spirit world to cast spells. This magic can also grant them a powerful spirit companion.\n\n## Additional Feats\n\nThis archetype has some feats at a level other than their original level.\nSuch feats are marked with a \\*.\n\n[Click here for the full rules on Additional Feats](/rule/additional-feats-rules-2130).",
+    "data": {
+      "rarity": "uncommon",
+      "traits": [],
+      "level": 2,
+      "prerequisites": "Trained in Nature; Trained in Religion",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "divine-mysteries",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "divine-mysteries",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Divine Mysteries",
+        "url": "https://2e.aonprd.com/Archetypes.aspx?ID=310",
+        "page": 295
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  }
+]

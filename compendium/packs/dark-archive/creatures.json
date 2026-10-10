@@ -1,0 +1,1486 @@
+[
+  {
+    "id": "C64CE314-C738-56F4-AAFD-058213B3C6B8",
+    "kind": "Creature",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Amalgamite",
+    "slug": "amalgamite-dark-archive",
+    "descr": "",
+    "data": {
+      "level": 13,
+      "rarity": "rare",
+      "size": "medium",
+      "traits": [
+        "aberration"
+      ],
+      "attributes": {
+        "str": 5,
+        "dex": 6,
+        "con": 4,
+        "int": 8,
+        "wis": 6,
+        "cha": -1
+      },
+      "perception": 23,
+      "ac": {
+        "value": 33,
+        "details": ""
+      },
+      "hp": {
+        "value": 220,
+        "details": "Regeneration 10 (deactivated by piercing)"
+      },
+      "saves": {
+        "fortitude": 22,
+        "reflex": 22,
+        "will": 26
+      },
+      "skills": {
+        "arcana": 27,
+        "athletics": 22,
+        "occultism": 27
+      },
+      "languages": [
+        "aklo",
+        "common",
+        "draconic"
+      ],
+      "senses": "[Low-Light Vision](/action/low-light-vision-monster-core)",
+      "immunities": [
+        "Controlled",
+        "[Mental](/trait/mental)"
+      ],
+      "weaknesses": {
+        "piercing": 10
+      },
+      "resistances": {
+        "bludgeoning": 10,
+        "slashing": 10
+      },
+      "movement": {
+        "walk": 25
+      },
+      "attacks": [
+        {
+          "name": "Limb",
+          "type": "melee",
+          "actions": "one",
+          "attack": 24,
+          "traits": [],
+          "damage": "3d10+11 bludgeoning"
+        },
+        {
+          "name": "Warping Ray",
+          "type": "melee",
+          "actions": "one",
+          "attack": 27,
+          "traits": [
+            "deadly-2d8",
+            "magical"
+          ],
+          "damage": "3d8+8 force"
+        }
+      ],
+      "abilities": {
+        "interaction": [],
+        "defensive": [
+          {
+            "name": "Regeneration 10 (Deactivated by Piercing)",
+            "text": "",
+            "traits": [],
+            "reference": "/action/regeneration-monster-core",
+            "description": ""
+          },
+          {
+            "name": "Destabilizing Field",
+            "text": "40 feet. A creature that begins its turn within the area feels its body begin to stretch and must succeed at a Fortitude DC 33 save or become destabilized. A destabilized creature emits a 10-foot destabilizing field aura and becomes [Sickened 1](/condition/sickened-player-core). The destabilization ends when the creature is no longer sickened. A creature that succeeds at its saving throw against the aura is temporarily immune to all destabilizing fields for 1 minute.",
+            "traits": [
+              "aura",
+              "occult"
+            ],
+            "description": "40 feet. A creature that begins its turn within the area feels its body begin to stretch and must succeed at a Fortitude DC 33 save or become destabilized. A destabilized creature emits a 10-foot destabilizing field aura and becomes [Sickened 1](/condition/sickened-player-core). The destabilization ends when the creature is no longer sickened. A creature that succeeds at its saving throw against the aura is temporarily immune to all destabilizing fields for 1 minute."
+          },
+          {
+            "name": "Displace",
+            "text": "**Trigger** The amalgamite is hit by a [Strike](/action/strike-player-core); **Effect** The amalgamite Relocates or Transposes themself with another creature. If the amalgamite successfully changes location, they and any Transposed creature take half damage from the triggering Strike.",
+            "traits": [],
+            "actions": "reaction",
+            "effect": "The amalgamite Relocates or Transposes themself with another creature. If the amalgamite successfully changes location, they and any Transposed creature take half damage from the triggering Strike.",
+            "trigger": "The amalgamite is hit by a [Strike](/action/strike-player-core)",
+            "triggerBeforeDescription": true,
+            "description": ""
+          }
+        ],
+        "offensive": [
+          {
+            "name": "Relocate",
+            "text": "The amalgamite teleports into an unoccupied space they can see within 50 feet.",
+            "traits": [
+              "concentrate",
+              "occult",
+              "teleportation"
+            ],
+            "actions": "two",
+            "description": "The amalgamite teleports into an unoccupied space they can see within 50 feet."
+          },
+          {
+            "name": "Transpose",
+            "text": "The amalgamite teleports up to two destabilized creatures within 50 feet that they can see. They can either move a single creature to an unoccupied space or swap the positions of two creatures of the same size. If the amalgamite swaps two creatures, they can choose their self as one target. An unwilling creature can attempt a Will DC 33 save. If either target succeeds at this saving throw, both are unaffected.",
+            "traits": [
+              "concentrate",
+              "occult",
+              "teleportation"
+            ],
+            "actions": "two",
+            "description": "The amalgamite teleports up to two destabilized creatures within 50 feet that they can see. They can either move a single creature to an unoccupied space or swap the positions of two creatures of the same size. If the amalgamite swaps two creatures, they can choose their self as one target. An unwilling creature can attempt a Will DC 33 save. If either target succeeds at this saving throw, both are unaffected."
+          }
+        ]
+      },
+      "recallKnowledge": {
+        "dc": 36,
+        "skills": [
+          "occultism"
+        ],
+        "subjects": [
+          "aberration"
+        ],
+        "entries": [
+          {
+            "subject": "aberration",
+            "skills": [
+              "occultism"
+            ]
+          }
+        ]
+      },
+      "languagesText": "Aklo, Common, Draconic",
+      "recallKnowledgeText": "DC 36 (Occultism)",
+      "traitLinks": [
+        {
+          "label": "aberration",
+          "slug": "aberration"
+        }
+      ],
+      "loreSkills": [
+        {
+          "name": "Lore (Any One Subcategory)",
+          "value": 27
+        }
+      ],
+      "spellcasting": [
+        {
+          "name": "Occult Innate Spells",
+          "spellGroups": [
+            {
+              "label": "7th",
+              "spells": [
+                {
+                  "name": "Warp Mind",
+                  "rank": 7,
+                  "reference": "/spell/warp-mind-player-core"
+                }
+              ]
+            },
+            {
+              "label": "4th",
+              "spells": [
+                {
+                  "name": "Flicker",
+                  "rank": 4,
+                  "reference": "/spell/flicker-player-core",
+                  "details": "×2"
+                }
+              ]
+            }
+          ],
+          "spellDC": 33,
+          "spellAttack": 25
+        }
+      ],
+      "senseEntries": [
+        {
+          "name": "Low-Light Vision",
+          "reference": "/action/low-light-vision-monster-core"
+        }
+      ],
+      "immunityEditor": {
+        "entries": [
+          {
+            "name": "Controlled"
+          },
+          {
+            "name": "Mental",
+            "reference": "/trait/mental"
+          }
+        ]
+      },
+      "skillsEditor": {
+        "skills": {
+          "arcana": 27,
+          "athletics": 22,
+          "occultism": 27
+        },
+        "loreSkills": [
+          {
+            "name": "Lore (Any One Subcategory)",
+            "value": 27
+          }
+        ]
+      },
+      "weaknessEntries": [
+        {
+          "type": "piercing",
+          "value": 10
+        }
+      ],
+      "resistanceEntries": [
+        {
+          "type": "bludgeoning",
+          "value": 10
+        },
+        {
+          "type": "slashing",
+          "value": 10
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "aberration",
+      "dark-archive",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9CB4BB65-F595-5FA7-98C9-A8AE0C2FB3A7",
+    "kind": "Creature",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "K. H. W.'s Echo",
+    "slug": "k-h-w-s-echo-dark-archive",
+    "descr": "",
+    "data": {
+      "level": 14,
+      "rarity": "unique",
+      "size": "medium",
+      "traits": [
+        "human",
+        "humanoid"
+      ],
+      "attributes": {
+        "str": 4,
+        "dex": 5,
+        "con": 4,
+        "int": 5,
+        "wis": 5,
+        "cha": 8
+      },
+      "perception": 30,
+      "ac": {
+        "value": 36,
+        "details": ""
+      },
+      "hp": {
+        "value": 280,
+        "details": "destabilized form"
+      },
+      "saves": {
+        "fortitude": 23,
+        "reflex": 24,
+        "will": 28
+      },
+      "skills": {
+        "acrobatics": 28,
+        "arcana": 25,
+        "athletics": 25,
+        "nature": 25,
+        "occultism": 25,
+        "religion": 25
+      },
+      "languages": [
+        "common",
+        "tien"
+      ],
+      "senses": "",
+      "immunities": [],
+      "weaknesses": {},
+      "resistances": {},
+      "movement": {
+        "walk": 25
+      },
+      "attacks": [
+        {
+          "name": "Rope Dart",
+          "type": "melee",
+          "actions": "one",
+          "attack": 29,
+          "traits": [
+            "disarm",
+            "finesse",
+            "magical",
+            "sweep",
+            "tethered",
+            "trip"
+          ],
+          "damage": "4d4 + 13 piercing; 2d6 mental"
+        },
+        {
+          "name": "Rope Dart",
+          "type": "ranged",
+          "actions": "one",
+          "attack": 29,
+          "traits": [
+            "disarm",
+            "finesse",
+            "magical",
+            "sweep",
+            "tethered",
+            "thrown-80",
+            "trip"
+          ],
+          "damage": "4d4 + 13 piercing; 2d6 mental"
+        }
+      ],
+      "abilities": {
+        "interaction": [],
+        "defensive": [
+          {
+            "name": "Destabilized Form",
+            "text": "When the Echo has fewer than 140 Hit Points, his form destabilizes, large chunks disintegrating from his face, limbs, and torso. White moths constantly stream from the missing spaces, creating a 10-foot emanation that deals 6d6 mental damage with a basic Will DC 34.\n\nAs long as the aura persists, he can dissolve into moths and re-form at another location within 15 feet as a free action at the beginning of each of his turns; this has the occult and [teleportation](/trait/teleportation) traits.",
+            "traits": [],
+            "description": "When the Echo has fewer than 140 Hit Points, his form destabilizes, large chunks disintegrating from his face, limbs, and torso. White moths constantly stream from the missing spaces, creating a 10-foot emanation that deals 6d6 mental damage with a basic Will DC 34.\n\nAs long as the aura persists, he can dissolve into moths and re-form at another location within 15 feet as a free action at the beginning of each of his turns; this has the occult and [teleportation](/trait/teleportation) traits."
+          },
+          {
+            "name": "Reactive Strike (Special)",
+            "text": "The Echo has reach 15 for the purpose of determining when Reactive [Strike](/action/strike-player-core) triggers and when making Reactive Strikes.",
+            "traits": [],
+            "actions": "reaction",
+            "reference": "/action/reactive-strike-monster-core",
+            "description": "The Echo has reach 15 for the purpose of determining when Reactive [Strike](/action/strike-player-core) triggers and when making Reactive Strikes."
+          }
+        ],
+        "offensive": [
+          {
+            "name": "Astral Spindel Implement",
+            "text": "The Echo carries a drop spindle that constantly spins red astral thread, which is both his thaumaturgic implement and weapon. If his *rope dart* is lost or broken, he can re-form it with an [Interact](/action/interact-player-core) action. If he critically succeeds at a *rope dart* [Strike](/action/strike-player-core), overwhelming thoughts and figments flow down the thread into the target's mind. The target becomes [Confused](/condition/confused-player-core) for 1 round.",
+            "traits": [],
+            "description": "The Echo carries a drop spindle that constantly spins red astral thread, which is both his thaumaturgic implement and weapon. If his *rope dart* is lost or broken, he can re-form it with an [Interact](/action/interact-player-core) action. If he critically succeeds at a *rope dart* [Strike](/action/strike-player-core), overwhelming thoughts and figments flow down the thread into the target's mind. The target becomes [Confused](/condition/confused-player-core) for 1 round."
+          },
+          {
+            "name": "Astral Thread Control",
+            "text": "**Frequency** once per round; **Requirements** The Echo's previous action was a successful thrown rope dart [Strike](/action/strike-player-core); **Effect** The Echo flicks his wrist and makes a follow-up thrown rope dart Strike at a different target within 30 feet of the first target, using the same multiple attack penalty as his previous Strike. Regardless of whether his attack hits, he then retrieves the weapon.",
+            "traits": [],
+            "actions": "one",
+            "effect": "The Echo flicks his wrist and makes a follow-up thrown rope dart Strike at a different target within 30 feet of the first target, using the same multiple attack penalty as his previous Strike. Regardless of whether his attack hits, he then retrieves the weapon.",
+            "description": "**Frequency** once per round; **Requirements** The Echo's previous action was a successful thrown rope dart [Strike](/action/strike-player-core)"
+          },
+          {
+            "name": "Contingency Oathday-Nine-Rova",
+            "text": "**Frequency** once per day; **Trigger** The Echo's turn begins and he's stunned, slowed, [Confused](/condition/confused-player-core), [Controlled](/condition/controlled-player-core), [Immobilized](/condition/immobilized-player-core), [Grabbed](/condition/grabbed-player-core), [Paralyzed](/condition/paralyzed-player-core), [Restrained](/condition/restrained-player-core), or otherwise can't act; **Effect** The Echo has set up numerous contingencies in the event he's compromised. Talismans on his body shatter, counteracting the triggering effect. The Echo can use this free action even if he can't act.",
+            "traits": [],
+            "actions": "free",
+            "effect": "The Echo has set up numerous contingencies in the event he's compromised. Talismans on his body shatter, counteracting the triggering effect. The Echo can use this free action even if he can't act.",
+            "trigger": "The Echo's turn begins and he's stunned, slowed, [Confused](/condition/confused-player-core), [Controlled](/condition/controlled-player-core), [Immobilized](/condition/immobilized-player-core), [Grabbed](/condition/grabbed-player-core), [Paralyzed](/condition/paralyzed-player-core), [Restrained](/condition/restrained-player-core), or otherwise can't act",
+            "triggerBeforeDescription": false,
+            "description": "**Frequency** once per day"
+          },
+          {
+            "name": "Reconstitute from Thought",
+            "text": "**Requirements** The Echo is standing on one of the eight large islands of the map, and the island hasn't darkened; **Effect** The Echo throws his rope dart into the island and uses it to absorb mental essence from the mindscape, repairing himself. He regains 45 healing Hit Points and the island turns a desaturated gray for 1 day, preventing future absorption and disabling the [Call Of The Void](/hazard/call-of-the-void-dark-archive) hazard on that island.",
+            "traits": [
+              "healing"
+            ],
+            "actions": "one",
+            "effect": "The Echo throws his rope dart into the island and uses it to absorb mental essence from the mindscape, repairing himself. He regains 45 healing Hit Points and the island turns a desaturated gray for 1 day, preventing future absorption and disabling the [Call Of The Void](/hazard/call-of-the-void-dark-archive) hazard on that island.",
+            "description": "**Requirements** The Echo is standing on one of the eight large islands of the map, and the island hasn't darkened"
+          },
+          {
+            "name": "Spindle's Web",
+            "text": "The Echo's spindle revolves faster and faster until it's a blur, lashing red threads in every direction. The threads deal 7d6 slashing damage and 7d6 mental damage to all creatures in a 30-foot emanation, with a basic Reflex DC 34. If a creature fails its save, the threads awaken the mindscape anchor within it, affecting it differently based on which anchor that creature used to gain access to the center of the mindscape. (If there is a PC who didn't absorb a mindscape anchor, for instance because there are more than four PCs in the party, then use the anchor of the PC closest to them.)\n\nThe Echo then can't use Spindle's Web for 1d4 rounds.\n\n**Lantern** The lantern outlines the creature with searing [Revealing Light](/spell/revealing-light-player-core) that deals 2d6 persistent fire damage.**Mirror** The mirror reflects the creature to another location, teleporting them to a clear space within 25 feet of their current location.**Chalice** The chalice drains life force, granting the Echo temporary HP equal to half the damage dealt.**Tome** The tome floods the creature's mind with information; the target is [Slowed 1](/condition/slowed-player-core) for 1 round.",
+            "traits": [],
+            "actions": "two",
+            "description": "The Echo's spindle revolves faster and faster until it's a blur, lashing red threads in every direction. The threads deal 7d6 slashing damage and 7d6 mental damage to all creatures in a 30-foot emanation, with a basic Reflex DC 34. If a creature fails its save, the threads awaken the mindscape anchor within it, affecting it differently based on which anchor that creature used to gain access to the center of the mindscape. (If there is a PC who didn't absorb a mindscape anchor, for instance because there are more than four PCs in the party, then use the anchor of the PC closest to them.)\n\nThe Echo then can't use Spindle's Web for 1d4 rounds.\n\n**Lantern** The lantern outlines the creature with searing [Revealing Light](/spell/revealing-light-player-core) that deals 2d6 persistent fire damage.**Mirror** The mirror reflects the creature to another location, teleporting them to a clear space within 25 feet of their current location.**Chalice** The chalice drains life force, granting the Echo temporary HP equal to half the damage dealt.**Tome** The tome floods the creature's mind with information; the target is [Slowed 1](/condition/slowed-player-core) for 1 round."
+          }
+        ]
+      },
+      "recallKnowledge": {
+        "dc": 42,
+        "skills": [
+          "society"
+        ],
+        "subjects": [
+          "humanoid"
+        ],
+        "entries": [
+          {
+            "subject": "humanoid",
+            "skills": [
+              "society"
+            ]
+          }
+        ]
+      },
+      "languagesText": "Common, Tien",
+      "recallKnowledgeText": "DC 42 (Society)",
+      "traitLinks": [
+        {
+          "label": "human",
+          "slug": "human"
+        },
+        {
+          "label": "humanoid",
+          "slug": "humanoid"
+        }
+      ],
+      "loreSkills": [
+        {
+          "name": "Esoteric Lore",
+          "value": 30
+        }
+      ],
+      "skillsEditor": {
+        "skills": {
+          "acrobatics": 28,
+          "arcana": 25,
+          "athletics": 25,
+          "nature": 25,
+          "occultism": 25,
+          "religion": 25
+        },
+        "loreSkills": [
+          {
+            "name": "Esoteric Lore",
+            "value": 30
+          }
+        ]
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "dark-archive",
+      "human",
+      "humanoid",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "DAC1CCD2-92A9-585E-AF13-D9EE9DDF6C78",
+    "kind": "Creature",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Mother Mitera",
+    "slug": "mother-mitera-dark-archive",
+    "descr": "",
+    "data": {
+      "level": 8,
+      "rarity": "unique",
+      "size": "medium",
+      "traits": [
+        "human"
+      ],
+      "attributes": {
+        "str": 1,
+        "dex": 3,
+        "con": 0,
+        "int": 2,
+        "wis": 4,
+        "cha": 4
+      },
+      "perception": 18,
+      "ac": {
+        "value": 25,
+        "details": ""
+      },
+      "hp": {
+        "value": 140,
+        "details": "crystal vitality link"
+      },
+      "saves": {
+        "fortitude": 14,
+        "reflex": 17,
+        "will": 18
+      },
+      "skills": {
+        "deception": 20,
+        "diplomacy": 18,
+        "nature": 18,
+        "religion": 18,
+        "society": 16
+      },
+      "languages": [
+        "common"
+      ],
+      "senses": "",
+      "immunities": [],
+      "weaknesses": {},
+      "resistances": {},
+      "movement": {
+        "walk": 25
+      },
+      "attacks": [
+        {
+          "name": "Dagger",
+          "type": "melee",
+          "actions": "one",
+          "attack": 18,
+          "traits": [
+            "agile",
+            "finesse",
+            "magical",
+            "versatile-s"
+          ],
+          "damage": "2d4+7 piercing; 1d6 mental; 1d6 bleed"
+        },
+        {
+          "name": "Dagger",
+          "type": "ranged",
+          "actions": "one",
+          "attack": 18,
+          "traits": [
+            "agile",
+            "magical",
+            "thrown-10",
+            "versatile-s"
+          ],
+          "damage": "2d4+7 piercing; 1d6 mental; 1d6 bleed"
+        }
+      ],
+      "abilities": {
+        "interaction": [],
+        "defensive": [
+          {
+            "name": "Crystal Vitality Link",
+            "text": "The power of the island links Mitera's vitality to her followers. As long as any of the three quartz formations are intact, whenever Mitera takes damage, any of her followers within 10 miles lose the same amount of HP.",
+            "traits": [],
+            "description": "The power of the island links Mitera's vitality to her followers. As long as any of the three quartz formations are intact, whenever Mitera takes damage, any of her followers within 10 miles lose the same amount of HP."
+          }
+        ],
+        "offensive": [
+          {
+            "name": "Ascension is Near",
+            "text": "**Frequency** once per ascension ritual; **Effect** Mitera activates the moonflower link with her followers. Any followers within 30 feet who failed their saving throw against the moonflower tea become [Sickened 1](/condition/sickened-player-core). Anyone who critically failed and did not receive an antidote explodes (this is about half of Mitera's congregation if the PCs didn't successfully administer the antidote). If anyone's body explodes, Mitera gains 30 temporary HP and is [Quickened](/condition/quickened-player-core) for 3 rounds; she can use this additional action each round only for [Strike](/action/strike-player-core) and [Stride](/action/stride-player-core) actions.",
+            "traits": [
+              "auditory",
+              "concentrate",
+              "emotion",
+              "incapacitation",
+              "mental"
+            ],
+            "actions": "one",
+            "effect": "Mitera activates the moonflower link with her followers. Any followers within 30 feet who failed their saving throw against the moonflower tea become [Sickened 1](/condition/sickened-player-core). Anyone who critically failed and did not receive an antidote explodes (this is about half of Mitera's congregation if the PCs didn't successfully administer the antidote). If anyone's body explodes, Mitera gains 30 temporary HP and is [Quickened](/condition/quickened-player-core) for 3 rounds; she can use this additional action each round only for [Strike](/action/strike-player-core) and [Stride](/action/stride-player-core) actions.",
+            "description": "**Frequency** once per ascension ritual"
+          }
+        ]
+      },
+      "recallKnowledge": {
+        "dc": 34,
+        "skills": []
+      },
+      "languagesText": "Common",
+      "recallKnowledgeText": "DC 34",
+      "items": "[Dagger](/item/dagger-player-core), Ceremonial Robes, Crystal Flower Crown",
+      "traitLinks": [
+        {
+          "label": "human",
+          "slug": "human"
+        }
+      ],
+      "loreSkills": [
+        {
+          "name": "Ludovica Lore",
+          "value": 16
+        }
+      ],
+      "spellcasting": [
+        {
+          "name": "Primal Prepared Spells",
+          "spellGroups": [
+            {
+              "label": "4th (3 slots)",
+              "spells": [
+                {
+                  "name": "Grasping Earth",
+                  "rank": 4,
+                  "reference": "/spell/grasping-earth-rage-of-elements"
+                },
+                {
+                  "name": "Life-Draining Roots",
+                  "rank": 4,
+                  "reference": "/spell/life-draining-roots-rage-of-elements"
+                },
+                {
+                  "name": "Unfettered Movement",
+                  "rank": 4,
+                  "reference": "/spell/unfettered-movement-player-core"
+                }
+              ]
+            },
+            {
+              "label": "3rd (3 slots)",
+              "spells": [
+                {
+                  "name": "Heal",
+                  "rank": 3,
+                  "reference": "/spell/heal-player-core"
+                },
+                {
+                  "name": "Lightning Bolt",
+                  "rank": 3,
+                  "reference": "/spell/lightning-bolt-player-core"
+                },
+                {
+                  "name": "Tempest Cloak",
+                  "rank": 3,
+                  "reference": "/spell/tempest-cloak-rage-of-elements"
+                }
+              ]
+            },
+            {
+              "label": "2nd (3 slots)",
+              "spells": [
+                {
+                  "name": "Entangling Flora",
+                  "rank": 2,
+                  "reference": "/spell/entangling-flora-player-core"
+                },
+                {
+                  "name": "One with Plants",
+                  "rank": 2,
+                  "reference": "/spell/one-with-plants-player-core"
+                },
+                {
+                  "name": "Revealing Light",
+                  "rank": 2,
+                  "reference": "/spell/revealing-light-player-core"
+                }
+              ]
+            },
+            {
+              "label": "Cantrips (4th)",
+              "spells": [
+                {
+                  "name": "Frostbite",
+                  "rank": 4,
+                  "reference": "/spell/frostbite-player-core"
+                },
+                {
+                  "name": "Guidance",
+                  "rank": 4,
+                  "reference": "/spell/guidance-player-core"
+                },
+                {
+                  "name": "Light",
+                  "rank": 4,
+                  "reference": "/spell/light-player-core"
+                },
+                {
+                  "name": "Message",
+                  "rank": 4,
+                  "reference": "/spell/message-player-core"
+                },
+                {
+                  "name": "Tangle Vine",
+                  "rank": 4,
+                  "reference": "/spell/tangle-vine-player-core"
+                }
+              ]
+            }
+          ],
+          "spellDC": 26,
+          "spellAttack": 18
+        }
+      ],
+      "itemEntries": [
+        {
+          "name": "Dagger",
+          "reference": "/item/dagger-player-core"
+        },
+        {
+          "name": "Ceremonial Robes"
+        },
+        {
+          "name": "Crystal Flower Crown"
+        }
+      ],
+      "skillsEditor": {
+        "skills": {
+          "deception": 20,
+          "diplomacy": 18,
+          "nature": 18,
+          "religion": 18,
+          "society": 16
+        },
+        "loreSkills": [
+          {
+            "name": "Ludovica Lore",
+            "value": 16
+          }
+        ]
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "dark-archive",
+      "human",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 152
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A5B99388-EE97-5079-8914-B04D17838F66",
+    "kind": "Creature",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Quartz-Spawned Shadow",
+    "slug": "quartz-spawned-shadow-dark-archive",
+    "descr": "",
+    "data": {
+      "level": 4,
+      "rarity": "common",
+      "size": "medium",
+      "traits": [
+        "incorporeal",
+        "undead",
+        "unholy"
+      ],
+      "attributes": {
+        "str": -5,
+        "dex": 4,
+        "con": 0,
+        "int": -2,
+        "wis": 2,
+        "cha": 3
+      },
+      "perception": 10,
+      "ac": {
+        "value": 20,
+        "details": ""
+      },
+      "hp": {
+        "value": 40,
+        "details": ""
+      },
+      "saves": {
+        "fortitude": 8,
+        "reflex": 14,
+        "will": 12
+      },
+      "skills": {
+        "acrobatics": 10,
+        "stealth": 14
+      },
+      "languages": [
+        "necril"
+      ],
+      "senses": "[Darkvision](/action/darkvision-monster-core)",
+      "immunities": [
+        "Bleed",
+        "[Death Effects](/rule/death-effects-rules-2331)",
+        "[Disease](/trait/disease)",
+        "[Paralyzed](/condition/paralyzed-player-core)",
+        "[Poison](/trait/poison)",
+        "Precision",
+        "[Unconscious](/condition/unconscious-player-core)"
+      ],
+      "weaknesses": {},
+      "resistances": {
+        "all-damage": "5 (except Force, Ghost Touch, [Vitality](/trait/vitality); double vs. Non Magical)"
+      },
+      "movement": {
+        "fly": 30
+      },
+      "attacks": [
+        {
+          "name": "Shadow Hand",
+          "type": "melee",
+          "actions": "one",
+          "attack": 15,
+          "traits": [
+            "finesse",
+            "magical"
+          ],
+          "damage": "2d6+3 void"
+        }
+      ],
+      "abilities": {
+        "interaction": [],
+        "defensive": [
+          {
+            "name": "Light Vulnerability",
+            "text": "An object shedding magical light (such as from the [Light](/spell/light-player-core) spell) is treated as magical when used to attack the shadow.",
+            "traits": [],
+            "description": "An object shedding magical light (such as from the [Light](/spell/light-player-core) spell) is treated as magical when used to attack the shadow."
+          }
+        ],
+        "offensive": [
+          {
+            "name": "Crystal Siphon",
+            "text": "**Requirements** The shadow and the target are both within 40 feet of the crystal that spawned the shadow, and the crystal isn't covered or obstructed; **Effect** Shadows in the shape of tendrils curl around the target, drawing out a portion of the target's vitality and siphoning it into the crystal. The target takes 4d6 void damage (basic Fortitude DC 21). On a failure, they are also [Enfeebled 1](/condition/enfeebled-player-core). This enfeebled condition is cumulative with other enfeebled conditions from quartz-spawned shadows, to a maximum of enfeebled 4. If Crystal Siphon increases the creature's enfeebled value to 3 or more, the target's shadow is pulled entirely into the shadow's crystal.\n\nWhile the target's shadow is trapped, they feel an [Invisible](/condition/invisible-player-core) tether linking them to the crystal, and they become [Slowed 1](/condition/slowed-player-core) whenever they are more than 40 feet away from it. The enfeebled condition from Crystal Siphon can't be reduced until the crystal is broken; if the crystal is broken, the effect immediately ends.",
+            "traits": [
+              "death",
+              "divine",
+              "void"
+            ],
+            "actions": "two",
+            "effect": "Shadows in the shape of tendrils curl around the target, drawing out a portion of the target's vitality and siphoning it into the crystal. The target takes 4d6 void damage (basic Fortitude DC 21). On a failure, they are also [Enfeebled 1](/condition/enfeebled-player-core). This enfeebled condition is cumulative with other enfeebled conditions from quartz-spawned shadows, to a maximum of enfeebled 4. If Crystal Siphon increases the creature's enfeebled value to 3 or more, the target's shadow is pulled entirely into the shadow's crystal.\n\nWhile the target's shadow is trapped, they feel an [Invisible](/condition/invisible-player-core) tether linking them to the crystal, and they become [Slowed 1](/condition/slowed-player-core) whenever they are more than 40 feet away from it. The enfeebled condition from Crystal Siphon can't be reduced until the crystal is broken; if the crystal is broken, the effect immediately ends.",
+            "description": "**Requirements** The shadow and the target are both within 40 feet of the crystal that spawned the shadow, and the crystal isn't covered or obstructed"
+          },
+          {
+            "name": "Slink in Shadows",
+            "text": "The shadow can [Hide](/action/hide-player-core) or end its [Sneak](/action/sneak-player-core) in a creature's or object's shadow.",
+            "traits": [],
+            "description": "The shadow can [Hide](/action/hide-player-core) or end its [Sneak](/action/sneak-player-core) in a creature's or object's shadow."
+          }
+        ]
+      },
+      "recallKnowledge": {
+        "dc": 19,
+        "skills": [
+          "religion"
+        ],
+        "subjects": [
+          "undead"
+        ],
+        "entries": [
+          {
+            "subject": "undead",
+            "skills": [
+              "religion"
+            ]
+          }
+        ]
+      },
+      "languagesText": "Necril",
+      "recallKnowledgeText": "DC 19 (Religion)",
+      "sanctification": "unholy",
+      "traitLinks": [
+        {
+          "label": "incorporeal",
+          "slug": "incorporeal"
+        },
+        {
+          "label": "undead",
+          "slug": "undead"
+        },
+        {
+          "label": "unholy",
+          "slug": "unholy"
+        }
+      ],
+      "senseEntries": [
+        {
+          "name": "Darkvision",
+          "reference": "/action/darkvision-monster-core"
+        }
+      ],
+      "immunityEditor": {
+        "entries": [
+          {
+            "name": "Bleed"
+          },
+          {
+            "name": "Death Effects",
+            "reference": "/rule/death-effects-rules-2331"
+          },
+          {
+            "name": "Disease",
+            "reference": "/trait/disease"
+          },
+          {
+            "name": "Paralyzed",
+            "reference": "/condition/paralyzed-player-core"
+          },
+          {
+            "name": "Poison",
+            "reference": "/trait/poison"
+          },
+          {
+            "name": "Precision"
+          },
+          {
+            "name": "Unconscious",
+            "reference": "/condition/unconscious-player-core"
+          }
+        ]
+      },
+      "skillsEditor": {
+        "skills": {
+          "acrobatics": 10,
+          "stealth": 14
+        },
+        "loreSkills": []
+      },
+      "resistanceEntries": [
+        {
+          "type": "all-damage",
+          "value": "5 (except Force, Ghost Touch, [Vitality](/trait/vitality); double vs. Non Magical)"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "dark-archive",
+      "incorporeal",
+      "remaster",
+      "undead",
+      "unholy"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D9CDCFE9-8802-5C94-9EF9-296F4BB947F6",
+    "kind": "Creature",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Reflection",
+    "slug": "reflection-dark-archive",
+    "descr": "",
+    "data": {
+      "level": 6,
+      "rarity": "common",
+      "size": "medium",
+      "traits": [],
+      "attributes": {
+        "str": 0,
+        "dex": 0,
+        "con": 0,
+        "int": 0,
+        "wis": 0,
+        "cha": 0
+      },
+      "perception": 0,
+      "ac": {
+        "value": 24,
+        "details": ""
+      },
+      "hp": {
+        "value": 30,
+        "details": ""
+      },
+      "saves": {
+        "fortitude": 11,
+        "reflex": 17,
+        "will": 0
+      },
+      "skills": {},
+      "languages": [],
+      "senses": "",
+      "immunities": [
+        "Object Immunities"
+      ],
+      "weaknesses": {},
+      "resistances": {},
+      "movement": {
+        "walk": 50
+      },
+      "attacks": [
+        {
+          "name": "Reflected Weapon",
+          "type": "melee",
+          "actions": "one",
+          "attack": 17,
+          "traits": [
+            "versatile-p",
+            "versatile-s"
+          ],
+          "damage": "2d6+8 bludgeoning"
+        }
+      ],
+      "abilities": {
+        "interaction": [],
+        "defensive": [],
+        "offensive": [
+          {
+            "name": "Reflection Routine",
+            "text": "Each reflection has 2 actions which it uses to [Step](/action/step-player-core), [Stride](/action/stride-player-core), or [Strike](/action/strike-player-core) (in any combination). Reflections can act on the same turn they're created.",
+            "traits": [
+              "magical",
+              "trap"
+            ],
+            "description": "Each reflection has 2 actions which it uses to [Step](/action/step-player-core), [Stride](/action/stride-player-core), or [Strike](/action/strike-player-core) (in any combination). Reflections can act on the same turn they're created."
+          }
+        ]
+      },
+      "recallKnowledge": {
+        "dc": 22,
+        "skills": []
+      },
+      "languagesText": "",
+      "recallKnowledgeText": "DC 22",
+      "traitLinks": [],
+      "immunityEditor": {
+        "entries": [
+          {
+            "name": "Object Immunities"
+          }
+        ]
+      },
+      "skillsEditor": {
+        "skills": {},
+        "loreSkills": []
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "dark-archive",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B5BF44C1-D6C4-5870-90F0-23CCCE85C3CD",
+    "kind": "Creature",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "The Morrowkin",
+    "slug": "the-morrowkin-dark-archive",
+    "descr": "",
+    "data": {
+      "level": 14,
+      "rarity": "unique",
+      "size": "medium",
+      "traits": [
+        "aberration",
+        "time"
+      ],
+      "attributes": {
+        "str": 8,
+        "dex": 7,
+        "con": 7,
+        "int": 5,
+        "wis": 4,
+        "cha": 4
+      },
+      "perception": 24,
+      "ac": {
+        "value": 34,
+        "details": ""
+      },
+      "hp": {
+        "value": 320,
+        "details": ""
+      },
+      "saves": {
+        "fortitude": 28,
+        "reflex": 25,
+        "will": 25
+      },
+      "skills": {
+        "athletics": 26,
+        "deception": 24,
+        "intimidation": 28,
+        "occultism": 25,
+        "stealth": 25
+      },
+      "languages": [],
+      "senses": "",
+      "immunities": [],
+      "weaknesses": {},
+      "resistances": {},
+      "movement": {
+        "walk": 35
+      },
+      "attacks": [
+        {
+          "name": "Claw",
+          "type": "melee",
+          "actions": "one",
+          "attack": 29,
+          "traits": [
+            "agile",
+            "finesse",
+            "reach-10"
+          ],
+          "damage": "3d8 + 14 slashing",
+          "effects": [
+            {
+              "name": "Drain Potential"
+            }
+          ]
+        }
+      ],
+      "abilities": {
+        "interaction": [
+          {
+            "name": "Disgusted by Food",
+            "text": "The morrowkin eats dreams and potential, not food. A creature that spends an action to brandish food at the morrowkin automatically makes the creature [Sickened 1](/condition/sickened-player-core) (or increases its sickened value by 1, to a maximum of sickened 6), decreasing the morrowkin's AC, attack rolls, saves, skills, and ability DCs accordingly, as normal for the sickened condition. The morrowkin can't retch to reduce its sickened condition.",
+            "traits": [],
+            "description": "The morrowkin eats dreams and potential, not food. A creature that spends an action to brandish food at the morrowkin automatically makes the creature [Sickened 1](/condition/sickened-player-core) (or increases its sickened value by 1, to a maximum of sickened 6), decreasing the morrowkin's AC, attack rolls, saves, skills, and ability DCs accordingly, as normal for the sickened condition. The morrowkin can't retch to reduce its sickened condition."
+          },
+          {
+            "name": "Endless",
+            "text": "If reduced to 0 Hit Points or incapacitated for more than a few rounds, the morrowkin vanishes. In 1 minute, it reappears refreshed completely as if the previous battle never happened, with full HP, with all effects on it cleared, and with its Swallow Future ability ready to use again.",
+            "traits": [],
+            "description": "If reduced to 0 Hit Points or incapacitated for more than a few rounds, the morrowkin vanishes. In 1 minute, it reappears refreshed completely as if the previous battle never happened, with full HP, with all effects on it cleared, and with its Swallow Future ability ready to use again."
+          }
+        ],
+        "defensive": [],
+        "offensive": [
+          {
+            "name": "Drain Potential",
+            "text": "The morrowkin tries to drain the motivation from its target, who must attempt a Fortitude DC 31 save. If the target fails, it is [Doomed 1](/condition/doomed-player-core) (Doomed 2 on a critical failure) and must roll twice and use the worse result on all checks for 1 minute. Creatures wearing a hope talisman are unaffected.",
+            "traits": [
+              "misfortune",
+              "void"
+            ],
+            "description": "The morrowkin tries to drain the motivation from its target, who must attempt a Fortitude DC 31 save. If the target fails, it is [Doomed 1](/condition/doomed-player-core) (Doomed 2 on a critical failure) and must roll twice and use the worse result on all checks for 1 minute. Creatures wearing a hope talisman are unaffected."
+          },
+          {
+            "name": "Swallow Future",
+            "text": "**Frequency** once per minute; **Effect** The morrowkin inhales and draws forth the future deeds of all creatures around it. All creatures within a 30-foot emanation of the morrowkin take 6d8+18 mental damage depending on their Will DC 39 save. Creatures wearing hope talismans can choose to let their hope talisman break in order to ignore the effect after seeing the result of their Will save.\n **Critical Success** The creature takes no damage.\n **Success** The creature takes half damage and is [Doomed 1](/condition/doomed-player-core).\n **Failure** The creature takes full damage and is Doomed 2.\n **Critical Failure** The creature takes double damage and becomes Doomed 4 (likely causing it to die immediately).",
+            "traits": [
+              "mental",
+              "void"
+            ],
+            "actions": "two",
+            "effect": "The morrowkin inhales and draws forth the future deeds of all creatures around it. All creatures within a 30-foot emanation of the morrowkin take 6d8+18 mental damage depending on their Will DC 39 save. Creatures wearing hope talismans can choose to let their hope talisman break in order to ignore the effect after seeing the result of their Will save.\n **Critical Success** The creature takes no damage.\n **Success** The creature takes half damage and is [Doomed 1](/condition/doomed-player-core).\n **Failure** The creature takes full damage and is Doomed 2.\n **Critical Failure** The creature takes double damage and becomes Doomed 4 (likely causing it to die immediately).",
+            "description": "**Frequency** once per minute"
+          },
+          {
+            "name": "Tomorrow's Fury",
+            "text": "The morrowkin makes claw attacks against any number of targets within reach. The claw attacks count against the morrowkin's multiple attack penalty, but don't apply the penalty until after all attacks have been made.",
+            "traits": [],
+            "actions": "two",
+            "description": "The morrowkin makes claw attacks against any number of targets within reach. The claw attacks count against the morrowkin's multiple attack penalty, but don't apply the penalty until after all attacks have been made."
+          }
+        ]
+      },
+      "recallKnowledge": {
+        "dc": 42,
+        "skills": [
+          "occultism"
+        ],
+        "subjects": [
+          "aberration",
+          "time"
+        ],
+        "entries": [
+          {
+            "subject": "aberration",
+            "skills": [
+              "occultism"
+            ]
+          },
+          {
+            "subject": "time",
+            "skills": [
+              "occultism"
+            ]
+          }
+        ]
+      },
+      "languagesText": "",
+      "recallKnowledgeText": "DC 42 (Occultism)",
+      "traitLinks": [
+        {
+          "label": "aberration",
+          "slug": "aberration"
+        },
+        {
+          "label": "time",
+          "slug": "time"
+        }
+      ],
+      "skillsEditor": {
+        "skills": {
+          "athletics": 26,
+          "deception": 24,
+          "intimidation": 28,
+          "occultism": 25,
+          "stealth": 25
+        },
+        "loreSkills": []
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "aberration",
+      "dark-archive",
+      "remaster",
+      "time"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 192
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9A5A8C8E-0C71-5772-821C-2D7D059BA09F",
+    "kind": "Creature",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Verdure's Moonflower",
+    "slug": "verdure-s-moonflower-dark-archive",
+    "descr": "",
+    "data": {
+      "level": 8,
+      "rarity": "rare",
+      "size": "huge",
+      "traits": [
+        "plant"
+      ],
+      "attributes": {
+        "str": 7,
+        "dex": 0,
+        "con": 4,
+        "int": -2,
+        "wis": 4,
+        "cha": 3
+      },
+      "perception": 16,
+      "ac": {
+        "value": 24,
+        "details": ""
+      },
+      "hp": {
+        "value": 120,
+        "details": "fast healing 10"
+      },
+      "saves": {
+        "fortitude": 18,
+        "reflex": 10,
+        "will": 16
+      },
+      "skills": {
+        "athletics": 19,
+        "stealth": 14
+      },
+      "languages": [],
+      "senses": "[Darkvision](/action/darkvision-monster-core)",
+      "immunities": [
+        "Electricity"
+      ],
+      "weaknesses": {
+        "fire": 10
+      },
+      "resistances": {
+        "physical": "10 (except Slashing)"
+      },
+      "movement": {
+        "walk": 20
+      },
+      "attacks": [
+        {
+          "name": "Bite",
+          "type": "melee",
+          "actions": "one",
+          "attack": 20,
+          "traits": [
+            "reach-15"
+          ],
+          "damage": "2d10+10 piercing",
+          "effects": [
+            {
+              "name": "Grab",
+              "reference": "/action/grab-monster-core"
+            }
+          ]
+        },
+        {
+          "name": "Root",
+          "type": "melee",
+          "actions": "one",
+          "attack": 20,
+          "traits": [
+            "agile",
+            "reach-15"
+          ],
+          "damage": "2d8+10 bludgeoning"
+        }
+      ],
+      "abilities": {
+        "interaction": [],
+        "defensive": [
+          {
+            "name": "Fast Healing 10",
+            "text": "",
+            "traits": [],
+            "reference": "/action/fast-healing-monster-core",
+            "description": ""
+          }
+        ],
+        "offensive": [
+          {
+            "name": "Pod Prison",
+            "text": "**Requirements** A creature is swallowed by the moonflower; **Effect** The moonflower wraps the swallowed creature in a cocoon and extrudes it into an adjacent square. The creature continues to be Swallowed Whole and takes half damage from any damage dealt to the cocoon. Once the cocoon is Ruptured, it deflates and decays.",
+            "traits": [],
+            "actions": "free",
+            "effect": "The moonflower wraps the swallowed creature in a cocoon and extrudes it into an adjacent square. The creature continues to be Swallowed Whole and takes half damage from any damage dealt to the cocoon. Once the cocoon is Ruptured, it deflates and decays.",
+            "description": "**Requirements** A creature is swallowed by the moonflower"
+          },
+          {
+            "name": "Pod Spawn",
+            "text": "If a Small or larger creature dies within a pod prison, the pod transforms into an adult moonflower with full Hit Points after 1d4 hours of growth. The dead creature's equipment remains inside the new moonflower and can be retrieved if the moonflower is slain.",
+            "traits": [],
+            "description": "If a Small or larger creature dies within a pod prison, the pod transforms into an adult moonflower with full Hit Points after 1d4 hours of growth. The dead creature's equipment remains inside the new moonflower and can be retrieved if the moonflower is slain."
+          },
+          {
+            "name": "Spray Blossoms",
+            "text": "The moonflower expels mind-warping petals in a 30-foot [cone](/rule/cone-rules-2386). Creatures in the area take 4d6 mental damage and 4d6 poison damage (basic Will DC 26 save). A creature that fails is [Stupefied 2](/condition/stupefied-player-core) for 1 minute, and [Confused](/condition/confused-player-core) for 1 round if it got a critical failure. The moonflower can't Spray Blossoms again for 1d4 rounds.",
+            "traits": [
+              "mental",
+              "plant",
+              "poison"
+            ],
+            "actions": "two",
+            "description": "The moonflower expels mind-warping petals in a 30-foot [cone](/rule/cone-rules-2386). Creatures in the area take 4d6 mental damage and 4d6 poison damage (basic Will DC 26 save). A creature that fails is [Stupefied 2](/condition/stupefied-player-core) for 1 minute, and [Confused](/condition/confused-player-core) for 1 round if it got a critical failure. The moonflower can't Spray Blossoms again for 1d4 rounds."
+          },
+          {
+            "name": "Swallow Whole",
+            "text": "Large, 2d10 + 10 bludgeoning and 2d6 acid, Rupture 21",
+            "traits": [
+              "attack"
+            ],
+            "actions": "one",
+            "reference": "/action/swallow-whole-monster-core",
+            "description": "Large, 2d10 + 10 bludgeoning and 2d6 acid, Rupture 21"
+          }
+        ]
+      },
+      "recallKnowledge": {
+        "dc": 29,
+        "skills": [
+          "nature"
+        ],
+        "subjects": [
+          "plant"
+        ],
+        "entries": [
+          {
+            "subject": "plant",
+            "skills": [
+              "nature"
+            ]
+          }
+        ]
+      },
+      "languagesText": "",
+      "recallKnowledgeText": "DC 29 (Nature)",
+      "traitLinks": [
+        {
+          "label": "plant",
+          "slug": "plant"
+        }
+      ],
+      "languagesDetails": "[Telepathy](/action/telepathy-monster-core) 1 mile (other moonflowers only)",
+      "senseEntries": [
+        {
+          "name": "Darkvision",
+          "reference": "/action/darkvision-monster-core"
+        }
+      ],
+      "immunityEditor": {
+        "entries": [
+          {
+            "name": "Electricity"
+          }
+        ]
+      },
+      "skillsEditor": {
+        "skills": {
+          "athletics": 19,
+          "stealth": 14
+        },
+        "loreSkills": []
+      },
+      "weaknessEntries": [
+        {
+          "type": "fire",
+          "value": 10
+        }
+      ],
+      "resistanceEntries": [
+        {
+          "type": "physical",
+          "value": "10 (except Slashing)"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "dark-archive",
+      "plant",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

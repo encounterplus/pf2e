@@ -1,0 +1,705 @@
+[
+  {
+    "id": "40796E38-3C81-57C4-9F95-933DBFE895FB",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Armor of Thorn and Claw",
+    "slug": "armor-of-thorn-and-claw-draconic-codex-spell-spell-2524",
+    "descr": "Razor-sharp thorns and claws erupt from your skin or scales. Whenever a creature touches you or hits you with a melee unarmed attack, it takes 1 piercing damage. Additionally, if you become [grabbed](/condition/grabbed-player-core), [restrained](/condition/restrained-player-core), or otherwise held [immobilized](/condition/immobilized-player-core) in a creature’s grasp, such as by being engulfed or swallowed, the creature takes 1d4 [persistent bleed damage](/condition/persistent-damage-player-core).\n\n---\n**Heightened (+2)** The piercing damage increases by 2, and the persistent bleed damage increases by 1d4.",
+    "data": {
+      "rank": 1,
+      "rarity": "uncommon",
+      "traits": [
+        "concentrate",
+        "manipulate",
+        "morph"
+      ],
+      "cost": "",
+      "cast": "Two Actions",
+      "range": "",
+      "targets": "",
+      "requirements": "",
+      "trigger": "",
+      "defense": "",
+      "traditions": [
+        "primal"
+      ],
+      "traditionsText": "Primal",
+      "type": "spell",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "morph",
+          "slug": "morph"
+        }
+      ],
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "draconic-codex",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "draconic-codex",
+      "manipulate",
+      "morph",
+      "remaster",
+      "spell"
+    ],
+    "sources": [
+      {
+        "name": "Draconic Codex",
+        "url": "https://2e.aonprd.com/Spells.aspx?ID=2524",
+        "page": 224
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "68B18C74-1BB2-585E-9416-466DE1EDC3F8",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Blood-Feasting Breath",
+    "slug": "blood-feasting-breath-draconic-codex-spell-spell-2525",
+    "descr": "**Area** two 30-foot [cones](/rule/cone-rules-2386)\n\n**Defense**\n[basic](/rule/basic-saving-throws-rules-2297) Fortitude\n\n---\n\nLike a vorpal dragon, you absorb life with an inhale and release it with an exhale. All living creatures in the first cone take 5d6 void damage with a basic Fortitude save. You and all living creatures in the second cone regain Hit Points equal to the greatest damage a single creature took from the first cone.\n\n---\n**Heightened (+1)** The damage and healing increase by 1d6.",
+    "data": {
+      "rank": 5,
+      "rarity": "uncommon",
+      "traits": [
+        "concentrate",
+        "healing",
+        "manipulate",
+        "void",
+        "vitality"
+      ],
+      "cost": "",
+      "cast": "Three Actions",
+      "range": "",
+      "targets": "",
+      "requirements": "",
+      "trigger": "",
+      "defense": "basicfortitude",
+      "traditions": [
+        "divine",
+        "occult"
+      ],
+      "traditionsText": "Divine, Occult",
+      "type": "spell",
+      "area": "two 30-foot cones",
+      "castActions": [
+        "three"
+      ],
+      "actions": "three",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "healing",
+          "slug": "healing"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "void",
+          "slug": "void"
+        },
+        {
+          "label": "vitality",
+          "slug": "vitality"
+        }
+      ],
+      "durationText": "",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "draconic-codex",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "draconic-codex",
+      "healing",
+      "manipulate",
+      "void",
+      "vitality",
+      "remaster",
+      "spell"
+    ],
+    "sources": [
+      {
+        "name": "Draconic Codex",
+        "url": "https://2e.aonprd.com/Spells.aspx?ID=2525",
+        "page": 224
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "F4E075B8-1E5C-587B-B65A-1FFD152822D8",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Channel Arrogance",
+    "slug": "channel-arrogance-draconic-codex-spell-spell-2526",
+    "descr": "You channel your heightened sense of self-worth into a creature, forcing them to acknowledge your true worth. You can [Cast](/action/cast-a-spell-player-core) this Spell using 1 action if you know the target isn’t worthy of you spending your time to generate the full force of this spell, or using 3 actions if you can’t possibly hold back the majesty of your presence and must flood the target with your full attention.\n\nThe target takes 5d10 mental damage and other effects depending on its Will saving throw. If you Cast the Spell using 1 action, the target gets a result one degree of success better than it rolled.\n\n**Critical Success** The creature is unaffected.\n\n**Success** The target takes half damage and is [fascinated](/condition/fascinated-player-core) with you for 1 round.\n\n**Failure** The target takes full damage and is fascinated with you for 1 round. While fascinated with you, the target must succeed at a DC 5 [flat check](/rule/checks-rules-2278) when attempting to Cast a Spell or use an action with the [auditory](/trait/auditory) trait. On a failure, the action is disrupted as the target blurts praise for you instead of saying what it intended.\n\n**Critical Failure** As failure, but double damage and the effect lasts for 1 minute.\n\n---\n**Heightened (+1)** The damage increases by 1d10.",
+    "data": {
+      "rank": 4,
+      "rarity": "uncommon",
+      "traits": [
+        "concentrate",
+        "manipulate",
+        "mental"
+      ],
+      "cost": "",
+      "cast": "Single Action or Three Actions",
+      "range": "30 feet",
+      "targets": "1 creature",
+      "requirements": "",
+      "trigger": "",
+      "defense": "will",
+      "traditions": [
+        "arcane",
+        "occult"
+      ],
+      "traditionsText": "Arcane, Occult",
+      "type": "spell",
+      "castActions": [
+        "one",
+        "three"
+      ],
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        }
+      ],
+      "durationText": "",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "draconic-codex",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "draconic-codex",
+      "manipulate",
+      "mental",
+      "remaster",
+      "spell"
+    ],
+    "sources": [
+      {
+        "name": "Draconic Codex",
+        "url": "https://2e.aonprd.com/Spells.aspx?ID=2526",
+        "page": 224
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "AE479A48-3950-5C61-BFCB-350DD22B442A",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Cloud Current",
+    "slug": "cloud-current-draconic-codex-spell-spell-2527",
+    "descr": "Air and water vapor combine into a great cloud that funnels a powerful current within it. The eddies make the cloud appear from a distance to be a group of cloud dragons tumbling through the sky. The cloud is up to 30 feet wide, 30 feet tall, and 10 miles long. It runs parallel to the ground, and the nearest end of it must be within range and at least 100 feet above the ground. The current travels in a direction you choose when you [Cast](/action/cast-a-spell-player-core) the Spell, and the [travel Speed](/rule/travel-speed-rules-2581) of creatures flying through the cloud in that direction is doubled. You can [Dismiss](/action/dismiss-player-core) the cloud.\n\n---\n**Heightened (5th)** The duration is 8 hours, and the cloud can be up to 50 feet wide and 100 miles long.\n\n**Heightened (8th)** As 6th, and travel speed is quadrupled.",
+    "data": {
+      "rank": 4,
+      "rarity": "uncommon",
+      "traits": [
+        "air",
+        "concentrate",
+        "manipulate",
+        "water"
+      ],
+      "cost": "",
+      "cast": "1 minute",
+      "range": "500 feet",
+      "targets": "",
+      "requirements": "",
+      "trigger": "",
+      "defense": "",
+      "traditions": [
+        "arcane",
+        "primal"
+      ],
+      "traditionsText": "Arcane, Primal",
+      "type": "spell",
+      "traitLinks": [
+        {
+          "label": "air",
+          "slug": "air"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "water",
+          "slug": "water"
+        }
+      ],
+      "durationText": "1 hour",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "hour"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "draconic-codex",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "air",
+      "concentrate",
+      "draconic-codex",
+      "manipulate",
+      "remaster",
+      "spell",
+      "water"
+    ],
+    "sources": [
+      {
+        "name": "Draconic Codex",
+        "url": "https://2e.aonprd.com/Spells.aspx?ID=2527",
+        "page": 224
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "3305E314-A09A-53E5-B0E2-ECF291D67631",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Divine Dragon's Watch",
+    "slug": "divine-dragon-s-watch-draconic-codex-spell-spell-2528",
+    "descr": "You summon an invisible divine draconic spirit to watch over your target. When the spell is complete, you gain the Dragon’s Protection reaction; once you use the reaction, the spell ends.\n\n**Dragon’s Protection** **Reaction** ([concentrate](/trait/concentrate), [sanctified](/trait/sanctified), [spirit](/trait/spirit)) **Trigger** An enemy you can see would reduce this spell’s target to 0 Hit Points; **Effect** The dragon intercepts, preventing the spell’s target from being knocked out; the spell’s target remains at 1 Hit Point. As the dragon disappears, it flies over the triggering enemy and releases its retributive breath, dealing 5d4 spirit damage to it with a [basic](/rule/basic-saving-throws-rules-2297) Reflex save.\n\n---\n**Heightened (+1)** The damage increases by 1d4.",
+    "data": {
+      "rank": 5,
+      "rarity": "uncommon",
+      "traits": [
+        "concentrate",
+        "contingency",
+        "manipulate",
+        "sanctified",
+        "spirit"
+      ],
+      "cost": "",
+      "cast": "10 minutes",
+      "range": "touch",
+      "targets": "1 creature",
+      "requirements": "",
+      "trigger": "",
+      "defense": "",
+      "traditions": [
+        "divine"
+      ],
+      "traditionsText": "Divine",
+      "type": "spell",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "contingency",
+          "slug": "contingency"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "sanctified",
+          "slug": "sanctified"
+        },
+        {
+          "label": "spirit",
+          "slug": "spirit"
+        }
+      ],
+      "durationText": "24 hours",
+      "duration": 24,
+      "durationType": "time",
+      "durationUnit": "hour"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "draconic-codex",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "contingency",
+      "draconic-codex",
+      "manipulate",
+      "remaster",
+      "sanctified",
+      "spell",
+      "spirit"
+    ],
+    "sources": [
+      {
+        "name": "Draconic Codex",
+        "url": "https://2e.aonprd.com/Spells.aspx?ID=2528",
+        "page": 224
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "BC29F22A-4264-51C2-AE4A-BEDB753251C9",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Dragon Turret",
+    "slug": "dragon-turret-draconic-codex-spell-spell-2529",
+    "descr": "You conjure forth a massive tower with a large dragon that’s bound to crawl its length. The dragon and the tower share the same space, and the dragon intercepts any attack targeting the tower. When the dragon dies, the tower crumbles. The dragon is immune to all conditions, has an AC of 40, a +30 modifier for all saving throws, and 250 Hit Points. When you Cast the Spell, and once per round when you Sustain it, the dragon unleashes its breath in a 60-foot [cone](/rule/cone-rules-2386), dealing 13d8 damage ([basic](/rule/basic-saving-throws-rules-2297) Reflex save). The damage type depends on the tradition used to cast this spell: **arcane** [force](/trait/force), **divine** [spirit](/trait/spirit), **occult** [mental](/trait/mental), **primal** [fire](/trait/fire).",
+    "data": {
+      "rank": 10,
+      "rarity": "uncommon",
+      "traits": [
+        "concentrate",
+        "manipulate"
+      ],
+      "cost": "",
+      "cast": "Three Actions",
+      "range": "500 feet",
+      "targets": "",
+      "requirements": "",
+      "trigger": "",
+      "defense": "",
+      "traditions": [
+        "arcane",
+        "divine",
+        "occult",
+        "primal"
+      ],
+      "traditionsText": "Arcane, Divine, Occult, Primal",
+      "type": "spell",
+      "area": "an empty 10-foot radius, 50-foot-tall cylinder",
+      "castActions": [
+        "three"
+      ],
+      "actions": "three",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ],
+      "durationText": "sustained for up to 10 minutes",
+      "duration": 10,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "draconic-codex",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "draconic-codex",
+      "manipulate",
+      "remaster",
+      "spell"
+    ],
+    "sources": [
+      {
+        "name": "Draconic Codex",
+        "url": "https://2e.aonprd.com/Spells.aspx?ID=2529",
+        "page": 225
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "96E149B3-8D80-59A2-A36F-87539A842576",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Earth and Sky",
+    "slug": "earth-and-sky-draconic-codex-spell-spell-2530",
+    "descr": "_**PFS Note** Damage is too high for a spell of its rank._\n\n**Traditions**\nArcane, Primal\n\n**Area** 20-foot [emanation](/rule/emanation-rules-2387)\n\n**Defense**\nFortitude\n\n---\n\nYou erupt into the air with the force of a dragon taking flight, launching nearby creatures into the sky with you. This spell has no effect unless you’re on solid ground when you cast it. You fly directly upward, up to 100 feet into the air. When the spell ends, you safely float to the ground, as [_gentle landing_](/spell/gentle-landing-player-core). Every other creature in the area when you [Cast](/action/cast-a-spell-player-core) this Spell must attempt a Fortitude saving throw.\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature is launched the same distance into the air as you, then falls.\n\n**Failure** The creature is launched the same distance into the air as you, then falls and can’t Arrest its Fall.\n\n**Critical Failure** As failure, but the creature takes twice as much damage from falling.",
+    "data": {
+      "rank": 6,
+      "rarity": "uncommon",
+      "traits": [
+        "air",
+        "concentrate",
+        "earth",
+        "manipulate"
+      ],
+      "cost": "",
+      "cast": "Two Actions",
+      "range": "",
+      "targets": "",
+      "requirements": "",
+      "trigger": "",
+      "defense": "fortitude",
+      "traditions": [
+        "arcane",
+        "primal"
+      ],
+      "traditionsText": "Arcane, Primal",
+      "type": "spell",
+      "area": "20-foot emanation",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "air",
+          "slug": "air"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "earth",
+          "slug": "earth"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ],
+      "areaEffectShape": "sphere",
+      "areaEffectSize": 20,
+      "durationText": "",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "draconic-codex",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "air",
+      "concentrate",
+      "draconic-codex",
+      "earth",
+      "manipulate",
+      "remaster",
+      "spell"
+    ],
+    "sources": [
+      {
+        "name": "Draconic Codex",
+        "url": "https://2e.aonprd.com/Spells.aspx?ID=2530",
+        "page": 225
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "D3804ED7-C96F-542B-8FF5-1984F87D402F",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Horde of Underlings",
+    "slug": "horde-of-underlings-draconic-codex-spell-spell-2531",
+    "descr": "**Area** 30-foot [cone](/rule/cone-rules-2386)\n\n---\n\nYou summon six underlings, such as skeletons or kobolds. When you cast this spell, you decide what kind of creatures they are, if they’re Small or Medium, and whether they deal bludgeoning, piercing, or slashing damage (choose once and applying it to all underlings). Each underling has 1 Hit Point, 5 AC, and automatically fails all saving throws. Each underling appears in an unoccupied square of your choice within the area. The underlings don’t block movement, but they are [difficult terrain](/rule/difficult-terrain-rules-2586) for creatures other than you.\n\nEach underling attacks one enemy adjacent to it (if any), automatically dealing 1d4 damage of the chosen type. The First time you [Sustain](/action/sustain-player-core) the spell on each subsequent round, each underling moves 20 feet toward the nearest enemy. If an underling ends its movement adjacent to an enemy, it damages that enemy as described above.\n\n---\n**Heightened (+1)** The number of underlings increases by 2.",
+    "data": {
+      "rank": 3,
+      "rarity": "rare",
+      "traits": [
+        "concentrate",
+        "manipulate"
+      ],
+      "cost": "",
+      "cast": "Three Actions",
+      "range": "",
+      "targets": "",
+      "requirements": "",
+      "trigger": "",
+      "defense": "",
+      "traditions": [
+        "arcane",
+        "divine",
+        "occult",
+        "primal"
+      ],
+      "traditionsText": "Arcane, Divine, Occult, Primal",
+      "type": "spell",
+      "area": "30-foot cone",
+      "castActions": [
+        "three"
+      ],
+      "actions": "three",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ],
+      "areaEffectShape": "cone",
+      "areaEffectSize": 30,
+      "durationText": "sustained up to 1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "draconic-codex",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "draconic-codex",
+      "manipulate",
+      "remaster",
+      "spell"
+    ],
+    "sources": [
+      {
+        "name": "Draconic Codex",
+        "url": "https://2e.aonprd.com/Spells.aspx?ID=2531",
+        "page": 225
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "5EA7E261-E024-5CB0-B3AA-71F710FD7B8C",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Orb of Twisting Fate",
+    "slug": "orb-of-twisting-fate-draconic-codex-spell-spell-2532",
+    "descr": "The glass orb of an omen dragon erupts from your target’s forehead, overwhelming their mind with alternative options.\n\n**Critical Success** The creature is unaffected.\n\n**Success** At the start of its turn, the target must decide whether to spend its first action to [Stride](/action/stride-player-core) in a random direction or to spend its first action doing nothing. The spell then ends.\n\n**Failure** As success, but instead of ending automatically, the target attempts a new save at the end of each of its turns, ending the effect on a success.\n\n**Critical Failure** As success, but instead of ending automatically, the spell lasts for the full duration.",
+    "data": {
+      "rank": 7,
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "manipulate",
+        "mental"
+      ],
+      "cost": "",
+      "cast": "Two Actions",
+      "range": "15 feet",
+      "targets": "1 creature",
+      "requirements": "",
+      "trigger": "",
+      "defense": "will",
+      "traditions": [
+        "occult"
+      ],
+      "traditionsText": "Occult",
+      "type": "spell",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        }
+      ],
+      "durationText": "up to 1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "draconic-codex",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "draconic-codex",
+      "manipulate",
+      "mental",
+      "remaster",
+      "spell"
+    ],
+    "sources": [
+      {
+        "name": "Draconic Codex",
+        "url": "https://2e.aonprd.com/Spells.aspx?ID=2532",
+        "page": 225
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  }
+]

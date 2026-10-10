@@ -1,0 +1,29 @@
+{
+  "sections": [
+    {
+      "title": "Creature.Skills",
+      "type": "group",
+      "fields": [
+        {
+          "title": "Creature.Skills",
+          "type": "attributes",
+          "attribute": "data.skillsEditor.skills",
+          "attributeType": "CreatureSkill"
+        }
+      ]
+    },
+    {
+      "title": "Skill.Lore",
+      "type": "list",
+      "attribute": "data.skillsEditor.loreSkills",
+      "custom": {
+        "itemTitle": "{{name}}",
+        "itemDetail": "{{value|signed}}"
+      },
+      "form": {
+        "title": "Skill.Lore",
+        "partial": "lore-skill"
+      }
+    }
+  ]
+}

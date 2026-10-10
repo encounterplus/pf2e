@@ -1,0 +1,4135 @@
+[
+  {
+    "id": "542690EA-278A-53DC-8717-1FF61C64F52B",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Aetheric Irritant (Greater)",
+    "slug": "aetheric-irritant-greater-rival-academies",
+    "descr": "---\n\nAn aetheric irritant is a chime that can emit a subsonic frequency that otherworldly beings find unpleasant. When you Activate an aetheric irritant, you sound the chime and place it on the ground in a square within your reach. The aetheric irritant affects an area in a 20-foot emanation. Creatures with the fey, spirit, or [undead](/trait/undead) traits must attempt a Will DC 28 save when they enter the affected area and at the beginning of every turn they are in the affected area. Those who fail the save treat the area as difficult terrain until the beginning of their next turn. A creature that critically succeeds at the save is immune to all aetheric irritants for 24 hours. An aetheric irritant continues to hum until it shakes itself to pieces after 10 minutes of being activated or it is moved, whichever comes first.",
+    "data": {
+      "level": 11,
+      "rarity": "uncommon",
+      "traits": [
+        "consumable",
+        "gadget",
+        "sonic"
+      ],
+      "category": "consumable",
+      "price": "275 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "gadget",
+          "slug": "gadget"
+        },
+        {
+          "label": "sonic",
+          "slug": "sonic"
+        }
+      ],
+      "activation": {
+        "actions": "one",
+        "traits": [
+          "manipulate"
+        ],
+        "text": ""
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "gadget",
+      "remaster",
+      "rival-academies",
+      "sonic"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0E0EAAB4-4B2C-597D-B13E-FE1E9871AA71",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Aetheric Irritant (Lesser)",
+    "slug": "aetheric-irritant-lesser-rival-academies",
+    "descr": "---\n\nAn aetheric irritant is a chime that can emit a subsonic frequency that otherworldly beings find unpleasant. When you Activate an aetheric irritant, you sound the chime and place it on the ground in a square within your reach. The aetheric irritant affects an area in a 10-foot emanation. Creatures with the fey, spirit, or [undead](/trait/undead) traits must attempt a Will DC 15 save when they enter the affected area and at the beginning of every turn they are in the affected area. Those who fail the save treat the area as difficult terrain until the beginning of their next turn. A creature that critically succeeds at the save is immune to all aetheric irritants for 24 hours. An aetheric irritant continues to hum until it shakes itself to pieces after 10 minutes of being activated or it is moved, whichever comes first.",
+    "data": {
+      "level": 1,
+      "rarity": "uncommon",
+      "traits": [
+        "consumable",
+        "gadget",
+        "sonic"
+      ],
+      "category": "consumable",
+      "price": "4 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "gadget",
+          "slug": "gadget"
+        },
+        {
+          "label": "sonic",
+          "slug": "sonic"
+        }
+      ],
+      "activation": {
+        "actions": "one",
+        "traits": [
+          "manipulate"
+        ],
+        "text": ""
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "gadget",
+      "remaster",
+      "rival-academies",
+      "sonic"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4A30378A-1219-5B28-BFF3-89947F97EB3C",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Aetheric Irritant (Major)",
+    "slug": "aetheric-irritant-major-rival-academies",
+    "descr": "---\n\nAn aetheric irritant is a chime that can emit a subsonic frequency that otherworldly beings find unpleasant. When you Activate an aetheric irritant, you sound the chime and place it on the ground in a square within your reach. The aetheric irritant affects an area in a 30-foot emanation. Creatures with the fey, spirit, or [undead](/trait/undead) traits must attempt a Will DC 36 save when they enter the affected area and at the beginning of every turn they are in the affected area. Those who fail the save treat the area as difficult terrain until the beginning of their next turn. A creature that critically succeeds at the save is immune to all aetheric irritants for 24 hours. An aetheric irritant continues to hum until it shakes itself to pieces after 10 minutes of being activated or it is moved, whichever comes first.",
+    "data": {
+      "level": 17,
+      "rarity": "uncommon",
+      "traits": [
+        "consumable",
+        "gadget",
+        "sonic"
+      ],
+      "category": "consumable",
+      "price": "2750 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "gadget",
+          "slug": "gadget"
+        },
+        {
+          "label": "sonic",
+          "slug": "sonic"
+        }
+      ],
+      "activation": {
+        "actions": "one",
+        "traits": [
+          "manipulate"
+        ],
+        "text": ""
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "gadget",
+      "remaster",
+      "rival-academies",
+      "sonic"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9373B20D-744D-5B82-B128-FB8FE3E84F61",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Aetheric Irritant (Moderate)",
+    "slug": "aetheric-irritant-moderate-rival-academies",
+    "descr": "---\n\nAn aetheric irritant is a chime that can emit a subsonic frequency that otherworldly beings find unpleasant. When you Activate an aetheric irritant, you sound the chime and place it on the ground in a square within your reach. The aetheric irritant affects an area in a 15-foot emanation. Creatures with the fey, spirit, or [undead](/trait/undead) traits must attempt a Will DC 18 save when they enter the affected area and at the beginning of every turn they are in the affected area. Those who fail the save treat the area as difficult terrain until the beginning of their next turn. A creature that critically succeeds at the save is immune to all aetheric irritants for 24 hours. An aetheric irritant continues to hum until it shakes itself to pieces after 10 minutes of being activated or it is moved, whichever comes first.",
+    "data": {
+      "level": 3,
+      "rarity": "uncommon",
+      "traits": [
+        "consumable",
+        "gadget",
+        "sonic"
+      ],
+      "category": "consumable",
+      "price": "11 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "gadget",
+          "slug": "gadget"
+        },
+        {
+          "label": "sonic",
+          "slug": "sonic"
+        }
+      ],
+      "activation": {
+        "actions": "one",
+        "traits": [
+          "manipulate"
+        ],
+        "text": ""
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "gadget",
+      "remaster",
+      "rival-academies",
+      "sonic"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4774D2CB-99DB-551B-8372-66155933282E",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Blood Pack Squib",
+    "slug": "blood-pack-squib-rival-academies",
+    "descr": "Used by theater troupes in combination with a fake blood pack, this bit of minor magic can simulate a dramatic and sudden wound. A *blood pack squib* is a small unassuming stone that is keyed to a single fake blood pack in a process that takes 1 minute.",
+    "data": {
+      "level": 2,
+      "rarity": "uncommon",
+      "traits": [
+        "consumable",
+        "magical"
+      ],
+      "category": "consumable",
+      "price": "6 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "—",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ],
+      "activations": [
+        {
+          "actions": "one",
+          "traits": [
+            "manipulate"
+          ],
+          "name": "Burst Pack",
+          "text": "**Requirements** The blood pack squib must be within 20 feet of its associated fake blood pack\n\n---\n\n**Effect** You lightly squeeze the stone and the fake blood pack dramatically bursts. The creature wearing the fake blood pack gains the benefits of a punctured fake blood pack. A single creature adjacent to the creature wearing the fake blood pack must succeed at a Reflex DC 16 save or be splattered with the fake blood, becoming [Dazzled](/condition/dazzled-player-core) until the end of their next turn. You can also activate the blood pack squib as a reaction when the fake blood pack is punctured normally.",
+          "effect": "You lightly squeeze the stone and the fake blood pack dramatically bursts. The creature wearing the fake blood pack gains the benefits of a punctured fake blood pack. A single creature adjacent to the creature wearing the fake blood pack must succeed at a Reflex DC 16 save or be splattered with the fake blood, becoming [Dazzled](/condition/dazzled-player-core) until the end of their next turn. You can also activate the blood pack squib as a reaction when the fake blood pack is punctured normally.",
+          "description": "**Requirements** The blood pack squib must be within 20 feet of its associated fake blood pack\n\n---"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "magical",
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E15867CB-B166-518E-ACCC-0073AA233F38",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Bloodstone Doll (Major)",
+    "slug": "bloodstone-doll-major-rival-academies",
+    "descr": "---\n\n**Trigger** A creature within 60 feet casts a summon spell\n\n**Requirements** You have a free hand.\n\nThis small doll has been carved from a fragment of Bloodstone. When you Activate a bloodstone doll in response to another's magic, you Interact to take it in hand and hold it up toward the triggering creature. Attempt a counteract check against the triggering spell with a counteract modifier of +25 and a counteract rank of 8. If the spell would be counteracted, the bloodstone doll instead influences the summoned creature. You gain control of the summoned creature and can dictate its 2 actions for that turn. The triggering creature then regains control of their summoned creature, but the summoned creature takes a –2 status penalty to attack rolls against you. Your bloodstone doll shatters when the summon spell ends\n\n---",
+    "data": {
+      "level": 16,
+      "rarity": "rare",
+      "traits": [
+        "consumable",
+        "magical"
+      ],
+      "category": "consumable",
+      "price": "1800 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ],
+      "activation": {
+        "actions": "reaction",
+        "traits": [
+          "concentrate",
+          "manipulate"
+        ],
+        "text": ""
+      },
+      "craftRequirements": "You have a fragment of the Bloodstone at the heart of the Bloodstone Conservatory."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "magical",
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C80D1B16-D58A-5426-A2A8-B23ED09F8CFF",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Bloodstone Doll (Minor)",
+    "slug": "bloodstone-doll-minor-rival-academies",
+    "descr": "---\n\n**Trigger** A creature within 60 feet casts a summon spell\n\n**Requirements** You have a free hand.\n\nThis small doll has been carved from a fragment of Bloodstone. When you Activate a bloodstone doll in response to another's magic, you Interact to take it in hand and hold it up toward the triggering creature. Attempt a counteract check against the triggering spell with a counteract modifier of +9 and a counteract rank of 2. If the spell would be counteracted, the bloodstone doll instead influences the summoned creature. You gain control of the summoned creature and can dictate its 2 actions for that turn. The triggering creature then regains control of their summoned creature, but the summoned creature takes a –2 status penalty to attack rolls against you. Your bloodstone doll shatters when the summon spell ends\n\n---",
+    "data": {
+      "level": 4,
+      "rarity": "rare",
+      "traits": [
+        "consumable",
+        "magical"
+      ],
+      "category": "consumable",
+      "price": "15 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ],
+      "activation": {
+        "actions": "reaction",
+        "traits": [
+          "concentrate",
+          "manipulate"
+        ],
+        "text": ""
+      },
+      "craftRequirements": "You have a fragment of the Bloodstone at the heart of the Bloodstone Conservatory."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "magical",
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1DBF784A-D37A-5014-98FA-37166C51AA2A",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Bloodstone Doll (Moderate)",
+    "slug": "bloodstone-doll-moderate-rival-academies",
+    "descr": "---\n\n**Trigger** A creature within 60 feet casts a summon spell\n\n**Requirements** You have a free hand.\n\nThis small doll has been carved from a fragment of Bloodstone. When you Activate a bloodstone doll in response to another's magic, you Interact to take it in hand and hold it up toward the triggering creature. Attempt a counteract check against the triggering spell with a counteract modifier of +17 and a counteract rank of 5. If the spell would be counteracted, the bloodstone doll instead influences the summoned creature. You gain control of the summoned creature and can dictate its 2 actions for that turn. The triggering creature then regains control of their summoned creature, but the summoned creature takes a –2 status penalty to attack rolls against you. Your bloodstone doll shatters when the summon spell ends\n\n---",
+    "data": {
+      "level": 10,
+      "rarity": "rare",
+      "traits": [
+        "consumable",
+        "magical"
+      ],
+      "category": "consumable",
+      "price": "180 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ],
+      "activation": {
+        "actions": "reaction",
+        "traits": [
+          "concentrate",
+          "manipulate"
+        ],
+        "text": ""
+      },
+      "craftRequirements": "You have a fragment of the Bloodstone at the heart of the Bloodstone Conservatory."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "magical",
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9D4243FA-AC8F-534A-A561-2290C4FDF713",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Branch Attendant's Mask",
+    "slug": "branch-attendant-s-mask-rival-academies",
+    "descr": "Although not all attendants' masks are enchanted, many apply a first enchantment to celebrate their acceptance into a branch of the academy. While you wear the mask or have it as your bonded item, add the associated cantrip to your prepared cantrips. This has no effect if you do not prepare cantrips from the arcane or primal lists.\n\n**Cascade Bearers** [Read Aura](/spell/read-aura-player-core)**Emerald Boughs** [Root Reading](/spell/root-reading-rage-of-elements)**Rain-Scribes** [Deep Breath](/spell/deep-breath-rage-of-elements)**Tempest-Sun Mages** [Electric Arc](/spell/electric-arc-player-core)**Uzunjati** [Prestidigitation](/spell/prestidigitation-player-core)",
+    "data": {
+      "level": 2,
+      "rarity": "uncommon",
+      "traits": [
+        "invested",
+        "magical"
+      ],
+      "category": "worn",
+      "price": "25 gp",
+      "usage": "worn",
+      "bulk": "—",
+      "traitLinks": [
+        {
+          "label": "invested",
+          "slug": "invested"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "invested",
+      "magical",
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E2A16063-23B4-548C-AD8E-4F93C410786B",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Conspirator's Cookie",
+    "slug": "conspirator-s-cookie-rival-academies",
+    "descr": "---\n\nThe shape and exact flavor of these chocolate-covered cookies vary slightly based on who prepares them and the language they are imbued with when crafted. Although named for their use in obfuscating communications, Diarra finds them useful for quite the opposite reason.\n\nAfter eating one of these treats, you can speak and understand the chosen language for the next hour. If you have the Read Lips or [Sign Language](/feat/sign-language-player-core) feat, you can use that language with those feats. A conspirator's cookie grants you a +1 item bonus to Diplomacy checks to [Make An Impression](/action/make-an-impression-player-core) or [Request](/action/request-player-core) in the chosen language and you can add your level even if untrained.\n\n---",
+    "data": {
+      "level": 4,
+      "rarity": "rare",
+      "traits": [
+        "consumable",
+        "magical"
+      ],
+      "category": "consumable",
+      "price": "15 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ],
+      "activation": {
+        "actions": "one",
+        "traits": [
+          "manipulate"
+        ],
+        "text": ""
+      },
+      "craftRequirements": "You must know the chosen language."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "magical",
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "33D04D8F-D129-5FE0-8BAA-40A28F04111D",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Demon Bone Tiles (Brimorak)",
+    "slug": "demon-bone-tiles-brimorak-rival-academies",
+    "descr": "---\n\nThese bones from different types of demons can be used to form temporary barriers. When you crush the bone fragments and blow the resulting dust around yourself as you cast [Shield](/spell/shield-player-core), the shield appears as a bone bulwark shaped like the demon's face.\n\nWhen use Shield Block with the spell, the barrier explodes into many bone fragments. The shards cause 1d6 bleed damage to each creature adjacent to you that fails a Reflex DC 20 save. This persistent bleed damage is unholy and can be stopped with an [Interact](/action/interact-player-core) action to remove the shards.",
+    "data": {
+      "level": 5,
+      "rarity": "rare",
+      "traits": [
+        "catalyst",
+        "consumable",
+        "magical",
+        "unholy"
+      ],
+      "category": "consumable",
+      "price": "28 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "catalyst",
+          "slug": "catalyst"
+        },
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "unholy",
+          "slug": "unholy"
+        }
+      ],
+      "activation": {
+        "type": "Cast a Spell",
+        "text": "(add 1 action)"
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "catalyst",
+      "consumable",
+      "magical",
+      "remaster",
+      "rival-academies",
+      "unholy"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "661F67DF-6A36-574D-846A-3D81DB76910A",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Demon Bone Tiles (Pusk)",
+    "slug": "demon-bone-tiles-pusk-rival-academies",
+    "descr": "---\n\nThese bones from different types of demons can be used to form temporary barriers. When you crush the bone fragments and blow the resulting dust around yourself as you cast [Shield](/spell/shield-player-core), the shield appears as a bone bulwark shaped like the demon's face.\n\nWhen use Shield Block with the spell, the barrier explodes into many bone fragments. The shards cause 1d4 bleed damage to each creature adjacent to you that fails a Reflex DC 16 save. This persistent bleed damage is unholy and can be stopped with an [Interact](/action/interact-player-core) action to remove the shards.",
+    "data": {
+      "level": 2,
+      "rarity": "rare",
+      "traits": [
+        "catalyst",
+        "consumable",
+        "magical",
+        "unholy"
+      ],
+      "category": "consumable",
+      "price": "7 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "catalyst",
+          "slug": "catalyst"
+        },
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "unholy",
+          "slug": "unholy"
+        }
+      ],
+      "activation": {
+        "type": "Cast a Spell",
+        "text": "(add 1 action)"
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "catalyst",
+      "consumable",
+      "magical",
+      "remaster",
+      "rival-academies",
+      "unholy"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "70D40D3F-0082-53ED-A3DA-AFFDCEF8B424",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Demon Bone Tiles (Seraptis)",
+    "slug": "demon-bone-tiles-seraptis-rival-academies",
+    "descr": "---\n\nThese bones from different types of demons can be used to form temporary barriers. When you crush the bone fragments and blow the resulting dust around yourself as you cast [Shield](/spell/shield-player-core), the shield appears as a bone bulwark shaped like the demon's face.\n\nWhen use Shield Block with the spell, the barrier explodes into many bone fragments. The shards cause 2d8 bleed damage to each creature adjacent to you that fails a Reflex DC 34 save. This persistent bleed damage is unholy and can be stopped with an [Interact](/action/interact-player-core) action to remove the shards.",
+    "data": {
+      "level": 15,
+      "rarity": "rare",
+      "traits": [
+        "catalyst",
+        "consumable",
+        "magical",
+        "unholy"
+      ],
+      "category": "consumable",
+      "price": "1200 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "catalyst",
+          "slug": "catalyst"
+        },
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "unholy",
+          "slug": "unholy"
+        }
+      ],
+      "activation": {
+        "type": "Cast a Spell",
+        "text": "(add 1 action)"
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "catalyst",
+      "consumable",
+      "magical",
+      "remaster",
+      "rival-academies",
+      "unholy"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "CEA0E076-252F-5881-BA61-BFB0710A9604",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Demon-Hunting Bands",
+    "slug": "demon-hunting-bands-rival-academies",
+    "descr": "---\n\n**Trigger** You Stride.\n\nThese strips of supple leather, typically about 2 inches wide and 3 feet long, feature sigils, runes, and divine marks that reflect family lineage and beliefs in the old gods of Sarkoris. When activated, the band's holy patterns surround you as you move, preventing your movement from triggering reactions from demons. The holy patterns scour nearby demons; any demons you pass adjacent to during the triggering movement take damage equal to their weakness to holy effects. You can activate the bands when you Burrow, Climb, Fly, or Swim (instead of Stride) if you have the corresponding movement type.",
+    "data": {
+      "level": 3,
+      "rarity": "rare",
+      "traits": [
+        "consumable",
+        "divine",
+        "holy",
+        "talisman"
+      ],
+      "category": "talisman",
+      "price": "10 gp",
+      "usage": "affixed-to-armor",
+      "bulk": "—",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "divine",
+          "slug": "divine"
+        },
+        {
+          "label": "holy",
+          "slug": "holy"
+        },
+        {
+          "label": "talisman",
+          "slug": "talisman"
+        }
+      ],
+      "activation": {
+        "actions": "free",
+        "traits": [
+          "concentrate"
+        ],
+        "text": ""
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "divine",
+      "holy",
+      "remaster",
+      "rival-academies",
+      "talisman"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "7CE9A6A5-A11D-5D32-A9A2-BFC294CD56FB",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Dr. Ushernacht's Astonishing Ink (Major)",
+    "slug": "dr-ushernacht-s-astonishing-ink-major-rival-academies",
+    "descr": "This syrupy ink smells organic and faintly spoiled. It's tied to one of Ushernacht's engines, created with a sample of the fluid from inside the engine. If the associated engine stops functioning, all ink linked with it can no longer be activated, including freshly created ink.\n\nWhen you write a question on a sheet of paper using the astonishing ink, handwriting scrawls over the paper after 10 minutes, answering with the knowledge it can draw from its engine. The astonishing ink has all Lore skills and attempts a Recall Knowledge check to answer the question with a +28 modifier. At the GM's discretion, the astonishing ink takes a –4 circumstance penalty to the check if the question relates to advice, emotions, opinions, or other subjective topics.\n\nIf the astonishing ink fails (but not critically fails) the check to Recall Knowledge, the writing turns blood-red as it forms disturbing words. Anyone reading these words must succeed at a Will DC 36 save or become Stupefied 1 until they get a full night's rest. The bloody message may also carry valuable or misleading information at the GM's discretion.\n\nYou can use a vial of astonishing ink to ask 5 questions before it's used up.",
+    "data": {
+      "level": 17,
+      "rarity": "uncommon",
+      "traits": [
+        "alchemical",
+        "consumable"
+      ],
+      "category": "consumable",
+      "price": "2250 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "alchemical",
+          "slug": "alchemical"
+        },
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "alchemical",
+      "consumable",
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "920AFD2C-E206-5F46-9F7B-9B36EBD3ED55",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Dr. Ushernacht's Astonishing Ink (Minor)",
+    "slug": "dr-ushernacht-s-astonishing-ink-minor-rival-academies",
+    "descr": "This syrupy ink smells organic and faintly spoiled. It's tied to one of Ushernacht's engines, created with a sample of the fluid from inside the engine. If the associated engine stops functioning, all ink linked with it can no longer be activated, including freshly created ink.\n\nWhen you write a question on a sheet of paper using the astonishing ink, handwriting scrawls over the paper after 10 minutes, answering with the knowledge it can draw from its engine. The astonishing ink has all Lore skills and attempts a Recall Knowledge check to answer the question with a +10 modifier. At the GM's discretion, the astonishing ink takes a –4 circumstance penalty to the check if the question relates to advice, emotions, opinions, or other subjective topics.\n\nIf the astonishing ink fails (but not critically fails) the check to Recall Knowledge, the writing turns blood-red as it forms disturbing words. Anyone reading these words must succeed at a Will DC 18 save or become Stupefied 1 until they get a full night's rest. The bloody message may also carry valuable or misleading information at the GM's discretion.\n\nYou can use a vial of astonishing ink to ask 5 questions before it's used up.",
+    "data": {
+      "level": 3,
+      "rarity": "uncommon",
+      "traits": [
+        "alchemical",
+        "consumable"
+      ],
+      "category": "consumable",
+      "price": "10 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "alchemical",
+          "slug": "alchemical"
+        },
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "alchemical",
+      "consumable",
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1116C595-15AC-512D-98FD-8B105AF0FBB1",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Dr. Ushernacht's Astonishing Ink (Moderate)",
+    "slug": "dr-ushernacht-s-astonishing-ink-moderate-rival-academies",
+    "descr": "This syrupy ink smells organic and faintly spoiled. It's tied to one of Ushernacht's engines, created with a sample of the fluid from inside the engine. If the associated engine stops functioning, all ink linked with it can no longer be activated, including freshly created ink.\n\nWhen you write a question on a sheet of paper using the astonishing ink, handwriting scrawls over the paper after 10 minutes, answering with the knowledge it can draw from its engine. The astonishing ink has all Lore skills and attempts a Recall Knowledge check to answer the question with a +19 modifier. At the GM's discretion, the astonishing ink takes a –4 circumstance penalty to the check if the question relates to advice, emotions, opinions, or other subjective topics.\n\nIf the astonishing ink fails (but not critically fails) the check to Recall Knowledge, the writing turns blood-red as it forms disturbing words. Anyone reading these words must succeed at a Will DC 27 save or become Stupefied 1 until they get a full night's rest. The bloody message may also carry valuable or misleading information at the GM's discretion.\n\nYou can use a vial of astonishing ink to ask 5 questions before it's used up.",
+    "data": {
+      "level": 10,
+      "rarity": "uncommon",
+      "traits": [
+        "alchemical",
+        "consumable"
+      ],
+      "category": "consumable",
+      "price": "160 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "alchemical",
+          "slug": "alchemical"
+        },
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "alchemical",
+      "consumable",
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "132F95A1-CC7D-5547-BF6B-358F260DED6E",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Drop of Convergent Waters",
+    "slug": "drop-of-convergent-waters-rival-academies",
+    "descr": "Abhaya's tireless years of study have allowed her to reproduce, at some level, the unconscious melding of elements she experienced during the last Challenge of Sky and Heaven. A single drop of water in a crystalline container is the simplest application of her research.\n\nWhen you activate this talisman, a watery echo of one of your limbs emerges from the container. Make a Strike with your fist or an unarmed attack from your ancestry. This attack gains the magical, reach, and [water](/trait/water) traits, retains any benefits from appropriate weapon fundamental runes (but not of weapon property runes), and takes no penalties for being used underwater. You can perform this Strike even if you're in a stance or under a polymorph effect that restricts your Strikes.\n\nEffect: Drop Of Convergent Waters",
+    "data": {
+      "level": 2,
+      "rarity": "rare",
+      "traits": [
+        "consumable",
+        "magical",
+        "talisman",
+        "water"
+      ],
+      "category": "talisman",
+      "price": "7 gp",
+      "usage": "affixed-to-armor",
+      "bulk": "—",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "talisman",
+          "slug": "talisman"
+        },
+        {
+          "label": "water",
+          "slug": "water"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "magical",
+      "remaster",
+      "rival-academies",
+      "talisman",
+      "water"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "AC19EBEE-BB47-54E4-B595-FF323DC75460",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Echo Token",
+    "slug": "echo-token-rival-academies",
+    "descr": "Visitors to the Echo Repository always emerge with one of these silver coins, stamped with the visage of a faceless queen, somewhere on their person. An *echo token* carries a minute shard of the Echo Repository's mission to impart lost information.",
+    "data": {
+      "level": 1,
+      "rarity": "rare",
+      "traits": [
+        "consumable",
+        "magical"
+      ],
+      "category": "consumable",
+      "price": "3 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ],
+      "activations": [
+        {
+          "actions": "one",
+          "traits": [
+            "manipulate"
+          ],
+          "name": "Flip Coin",
+          "text": "---\n\n**Effect** When flipped, the coin disintegrates into a glittery mist. You learn and memorize one random fact about a specific type of Lore (such as Architecture Lore, Elf Lore, Astral Plane Lore) that you didn't previously know, chosen by the GM. The next time you attempt a check to Recall Knowledge on this type of Lore within the next year, you gain a +1 status bonus on the check. You can benefit from only one *echo token* at a time in this way; if you Flip another *echo token*, the Lore skill changes. However, the memorized fact will remain perfectly in your memory forever unless magically altered or removed.",
+          "effect": "When flipped, the coin disintegrates into a glittery mist. You learn and memorize one random fact about a specific type of Lore (such as Architecture Lore, Elf Lore, Astral Plane Lore) that you didn't previously know, chosen by the GM. The next time you attempt a check to Recall Knowledge on this type of Lore within the next year, you gain a +1 status bonus on the check. You can benefit from only one *echo token* at a time in this way; if you Flip another *echo token*, the Lore skill changes. However, the memorized fact will remain perfectly in your memory forever unless magically altered or removed.",
+          "description": "---"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "magical",
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3CD81877-159E-51BD-98EF-21DB8B0F8480",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Fake Blood Pack",
+    "slug": "fake-blood-pack-rival-academies",
+    "descr": "Adventurers have found a number of uses for these animal blood–filled bladders, which were originally used in theatrical productions. Whenever you take slashing or piercing damage with the fake blood pack under your clothes or armor, roll a Flat DC 11. On a success, the blood pack is punctured. You or an ally can puncture the hidden pack intentionally with an [Interact](/action/interact-player-core) action. When faking an injury, a punctured blood pack grants a +2 item bonus to relevant Deception checks, such as to [Lie](/action/lie-player-core) about being injured, for 4 hours after the pack has been punctured or until the blood is washed off, whichever comes first. Abilities that trigger when a creature deals bleed damage, that determine if a creature is bleeding, or are otherwise based on bleed damage don't trigger or apply for blood from a fake blood pack, which might mean creatures with such abilities automatically realize the ruse.",
+    "data": {
+      "level": 0,
+      "rarity": "common",
+      "traits": [
+        "consumable"
+      ],
+      "category": "consumable",
+      "price": "1 gp",
+      "usage": "worn-under-armor",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "77A34451-300E-5970-9A1D-19CE5B144537",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Hidden Pocket Outfit",
+    "slug": "hidden-pocket-outfit-rival-academies",
+    "descr": "Usually worn by actors but also popular with anyone intent on subterfuge, this outfit resembles a normal piece of clothing, but with multiple pockets designed to conceal blood pack squibs and similar small items. When wearing this outfit, you automatically succeed on all relevant checks to Conceal an Object on your person as long as the object is of light or negligible Bulk. However, someone specifically searching you can still attempt a Perception check against your Stealth DC.",
+    "data": {
+      "level": 4,
+      "rarity": "uncommon",
+      "traits": [],
+      "category": "worn",
+      "price": "75 gp",
+      "usage": "worngarment",
+      "bulk": "L",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "63387BB0-BBD6-538F-8E62-5C6D237EF675",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Illusory Backdrop",
+    "slug": "illusory-backdrop-rival-academies",
+    "descr": "This three-panel folding backdrop measures 5 feet tall and 3 feet wide and takes 2 hands to carry when folded up. It projects a preset illusion when fully unfolded. Illusory backdrops are typically used by artists, bards, gallery owners, and the occasional politician, and common illusions include the tops of battlements with grand castles in the background, cozy bowers, and well-appointed rooms.",
+    "data": {
+      "level": 10,
+      "rarity": "rare",
+      "traits": [
+        "illusion",
+        "magical",
+        "structure"
+      ],
+      "category": "other",
+      "price": "900 gp",
+      "usage": "carried",
+      "bulk": "3",
+      "traitLinks": [
+        {
+          "label": "illusion",
+          "slug": "illusion"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "structure",
+          "slug": "structure"
+        }
+      ],
+      "activations": [
+        {
+          "name": "Set the Scene",
+          "text": "1 minute (manipulate)\n\n---\n\n**Effect** You unfold the illusory backdrop, placing it on the edge of three contiguous 5-foot squares in a straight line. The illusion then emanates in a 15-foot cone from the center of the line, facing straight away from the panel. The illusion contains a scene that includes up to 5 discrete objects (usually foliage or pieces of furniture). The scene is static and lasts for 1 hour, though that duration restarts if the backdrop is refolded and then unfolded again. The appearance of the illusion is determined when the illusory backdrop is crafted and can't be changed.",
+          "effect": "You unfold the illusory backdrop, placing it on the edge of three contiguous 5-foot squares in a straight line. The illusion then emanates in a 15-foot cone from the center of the line, facing straight away from the panel. The illusion contains a scene that includes up to 5 discrete objects (usually foliage or pieces of furniture). The scene is static and lasts for 1 hour, though that duration restarts if the backdrop is refolded and then unfolded again. The appearance of the illusion is determined when the illusory backdrop is crafted and can't be changed.",
+          "description": "1 minute (manipulate)\n\n---"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "illusion",
+      "magical",
+      "remaster",
+      "rival-academies",
+      "structure"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "918A88F8-E29F-57DA-B668-EC2F5230B911",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Illusory Program",
+    "slug": "illusory-program-rival-academies",
+    "descr": "Produced to promote plays, *illusory programs* are thin pamphlets infused with minor magic. Upon opening one of these pamphlets, readers are treated to a series of tiny illusions that stand on each page, typically showcasing highlights of the performance or profiles of the cast. The magic woven into each page is of the cheap, short-lived variety, fading 24 hours after the program has been opened.",
+    "data": {
+      "level": 1,
+      "rarity": "uncommon",
+      "traits": [
+        "consumable",
+        "illusion",
+        "magical"
+      ],
+      "category": "consumable",
+      "price": "3 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "—",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "illusion",
+          "slug": "illusion"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "illusion",
+      "magical",
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "AF93FC49-0C35-5831-BF40-C7DDD7AFD3A2",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Inspiring Spotlight (Mounted)",
+    "slug": "inspiring-spotlight-mounted-rival-academies",
+    "descr": "An *inspiring spotlight* consists of a drum-shaped metal housing around several reflective plates. It has the capacity to cast a powerful, narrow beam of light to illuminate important moments or characters on stage. The portable version consists of an 18-inch-diameter lamp on a tripod that can be set up or broken down over the course of 10 minutes. The mounted version is typically 3 feet in diameter and affixed to a bracket above and behind the audience for indoor performances.",
+    "data": {
+      "level": 15,
+      "rarity": "rare",
+      "traits": [
+        "light",
+        "magical"
+      ],
+      "category": "held",
+      "price": "650 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "8",
+      "traitLinks": [
+        {
+          "label": "light",
+          "slug": "light"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ],
+      "activations": [
+        {
+          "actions": "one",
+          "traits": [
+            "light",
+            "manipulate"
+          ],
+          "name": "Light It Up",
+          "text": "**Frequency** once per hour\n\n---\n\n**Effect** The inspiring spotlight emits a 5-foot burst of bright magical light within 240 feet. If the burst intersects with an area of magical darkness, the inspiring spotlight attempts to counteract the darkness with a +25 modifier. Creatures within the burst gain a +2 item bonus to saving throws and Charisma-based skill checks. The spotlight remains lit for 1 minute or until you Interact to turn it off. During this time any creature adjacent to the spotlight can move the burst up to 20 feet from the burst's original position with an [Interact](/action/interact-player-core) action.",
+          "effect": "The inspiring spotlight emits a 5-foot burst of bright magical light within 240 feet. If the burst intersects with an area of magical darkness, the inspiring spotlight attempts to counteract the darkness with a +25 modifier. Creatures within the burst gain a +2 item bonus to saving throws and Charisma-based skill checks. The spotlight remains lit for 1 minute or until you Interact to turn it off. During this time any creature adjacent to the spotlight can move the burst up to 20 feet from the burst's original position with an [Interact](/action/interact-player-core) action.",
+          "description": "**Frequency** once per hour\n\n---"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "light",
+      "magical",
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A7CAEBBF-3F11-53E8-BB7E-A24082DE37EA",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Inspiring Spotlight (Portable)",
+    "slug": "inspiring-spotlight-portable-rival-academies",
+    "descr": "An *inspiring spotlight* consists of a drum-shaped metal housing around several reflective plates. It has the capacity to cast a powerful, narrow beam of light to illuminate important moments or characters on stage. The portable version consists of an 18-inch-diameter lamp on a tripod that can be set up or broken down over the course of 10 minutes. The mounted version is typically 3 feet in diameter and affixed to a bracket above and behind the audience for indoor performances.",
+    "data": {
+      "level": 9,
+      "rarity": "rare",
+      "traits": [
+        "light",
+        "magical"
+      ],
+      "category": "held",
+      "price": "650 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "3",
+      "traitLinks": [
+        {
+          "label": "light",
+          "slug": "light"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ],
+      "activations": [
+        {
+          "actions": "one",
+          "traits": [
+            "light",
+            "manipulate"
+          ],
+          "name": "Light It Up",
+          "text": "**Frequency** once per hour\n\n---\n\n**Effect** The inspiring spotlight emits a 5-foot burst of bright magical light within 120 feet. If the burst intersects with an area of magical darkness, the inspiring spotlight attempts to counteract the darkness with a +17 modifier. Creatures within the burst gain a +1 item bonus to saving throws and Charisma-based skill checks. The spotlight remains lit for 1 minute or until you Interact to turn it off. During this time any creature adjacent to the spotlight can move the burst up to 20 feet from the burst's original position with an [Interact](/action/interact-player-core) action.",
+          "effect": "The inspiring spotlight emits a 5-foot burst of bright magical light within 120 feet. If the burst intersects with an area of magical darkness, the inspiring spotlight attempts to counteract the darkness with a +17 modifier. Creatures within the burst gain a +1 item bonus to saving throws and Charisma-based skill checks. The spotlight remains lit for 1 minute or until you Interact to turn it off. During this time any creature adjacent to the spotlight can move the burst up to 20 feet from the burst's original position with an [Interact](/action/interact-player-core) action.",
+          "description": "**Frequency** once per hour\n\n---"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "light",
+      "magical",
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "43FE48CC-ACFA-5C3B-A314-617AD07C23C8",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Kimanéz Luminescent Toadstool",
+    "slug": "kimanez-luminescent-toadstool-rival-academies",
+    "descr": "This large blue toadstool glimmers with soft, magical light similar to moonlight. The spots of white adorning the mushroom's cap glow ethereally, as if illuminated from the inside, shedding dim light in a 10-foot radius.",
+    "data": {
+      "level": 3,
+      "rarity": "rare",
+      "traits": [
+        "consumable",
+        "fungus",
+        "light",
+        "magical"
+      ],
+      "category": "consumable",
+      "price": "9 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "fungus",
+          "slug": "fungus"
+        },
+        {
+          "label": "light",
+          "slug": "light"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ],
+      "activations": [
+        {
+          "name": "Ward Area",
+          "text": "10 minutes (concentrate, light, manipulate)\n\n---\n\n**Effect** You plant the toadstool in the ground, allowing it to connect to all living fungi and plant matter within 120 feet of its planting. For 8 hours, any corporeal creature that touches the affected matter even accidentally begins to glow with bright magical light in a 10-foot emanation, which persists as long as they remain within 120 feet of the planted mushroom. A creature can move through an area containing affected fungi and plant matter without touching it by treating the area as difficult terrain and succeeding at a Acrobatics DC 18 check.",
+          "effect": "You plant the toadstool in the ground, allowing it to connect to all living fungi and plant matter within 120 feet of its planting. For 8 hours, any corporeal creature that touches the affected matter even accidentally begins to glow with bright magical light in a 10-foot emanation, which persists as long as they remain within 120 feet of the planted mushroom. A creature can move through an area containing affected fungi and plant matter without touching it by treating the area as difficult terrain and succeeding at a Acrobatics DC 18 check.",
+          "description": "10 minutes (concentrate, light, manipulate)\n\n---"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "fungus",
+      "light",
+      "magical",
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A12E6798-3522-56BA-A5A4-F2C1F2EF7ECB",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Krasovnatype",
+    "slug": "krasovnatype-rival-academies",
+    "descr": "---\n\nA krasovnatype (named after Dr. Krasovna Gerenevich) consists of a carefully prepared silvered glass plate charged by a Stasian coil. When you touch the front of the glass or hold it near a living creature within your reach, an image of that creature's aura is imprinted on the glass. Once a krasovnatype has an image on it, you can't use the glass plate on another creature. If you are trained in Occultism, you can look at the image and learn if the associated creature has innate, prepared, or spontaneous spellcasting, along with the tradition of that casting and the highest rank of spells they can cast. Referencing the image grants a +1 item bonus to any Recall Knowledge check regarding the creature.",
+    "data": {
+      "level": 4,
+      "rarity": "uncommon",
+      "traits": [
+        "consumable",
+        "gadget"
+      ],
+      "category": "consumable",
+      "price": "15 gp",
+      "usage": "held-in-two-hands",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "gadget",
+          "slug": "gadget"
+        }
+      ],
+      "activation": {
+        "actions": "one",
+        "traits": [
+          "manipulate"
+        ],
+        "text": ""
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "gadget",
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5D74A890-093D-5469-B0DE-6858C8996529",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Maelstromic Destabilizer (Lesser)",
+    "slug": "maelstromic-destabilizer-lesser-rival-academies",
+    "descr": "---\n\nA maelstromic destabilizer is a whirling gyroscope of burnished bronze and glass. It strengthens the bonds that hold a creature to this world by weakening those same bonds to every other nearby creature. When activated, the destabilizer emits a constant pleasant chime as it spins. For the next minute, the creature holding the gadget gains resistance 2 to spirit damage, while all creatures not immune to spirit damage in a 10-foot emanation gains weakness 2 to spirit damage.",
+    "data": {
+      "level": 2,
+      "rarity": "uncommon",
+      "traits": [
+        "consumable",
+        "gadget",
+        "spirit"
+      ],
+      "category": "consumable",
+      "price": "6 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "gadget",
+          "slug": "gadget"
+        },
+        {
+          "label": "spirit",
+          "slug": "spirit"
+        }
+      ],
+      "activation": {
+        "actions": "one",
+        "traits": [
+          "manipulate"
+        ],
+        "text": ""
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "gadget",
+      "remaster",
+      "rival-academies",
+      "spirit"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "47B3D544-6BF0-58F2-B4D2-91BBE070026F",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Maelstromic Destabilizer (Major)",
+    "slug": "maelstromic-destabilizer-major-rival-academies",
+    "descr": "---\n\nA maelstromic destabilizer is a whirling gyroscope of burnished bronze and glass. It strengthens the bonds that hold a creature to this world by weakening those same bonds to every other nearby creature. When activated, the destabilizer emits a constant pleasant chime as it spins. For the next minute, the creature holding the gadget gains resistance 10 to spirit damage, while all creatures not immune to spirit damage in a 10-foot emanation gains weakness 10 to spirit damage.",
+    "data": {
+      "level": 17,
+      "rarity": "uncommon",
+      "traits": [
+        "consumable",
+        "gadget",
+        "spirit"
+      ],
+      "category": "consumable",
+      "price": "2750 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "gadget",
+          "slug": "gadget"
+        },
+        {
+          "label": "spirit",
+          "slug": "spirit"
+        }
+      ],
+      "activation": {
+        "actions": "one",
+        "traits": [
+          "manipulate"
+        ],
+        "text": ""
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "gadget",
+      "remaster",
+      "rival-academies",
+      "spirit"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "BBA04128-525F-5224-B9A9-2EAA7344A465",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Maelstromic Destabilizer (Moderate)",
+    "slug": "maelstromic-destabilizer-moderate-rival-academies",
+    "descr": "---\n\nA maelstromic destabilizer is a whirling gyroscope of burnished bronze and glass. It strengthens the bonds that hold a creature to this world by weakening those same bonds to every other nearby creature. When activated, the destabilizer emits a constant pleasant chime as it spins. For the next minute, the creature holding the gadget gains resistance 5 to spirit damage, while all creatures not immune to spirit damage in a 10-foot emanation gains weakness 5 to spirit damage.",
+    "data": {
+      "level": 7,
+      "rarity": "uncommon",
+      "traits": [
+        "consumable",
+        "gadget",
+        "spirit"
+      ],
+      "category": "consumable",
+      "price": "65 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "gadget",
+          "slug": "gadget"
+        },
+        {
+          "label": "spirit",
+          "slug": "spirit"
+        }
+      ],
+      "activation": {
+        "actions": "one",
+        "traits": [
+          "manipulate"
+        ],
+        "text": ""
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "gadget",
+      "remaster",
+      "rival-academies",
+      "spirit"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8765FA8B-777B-5D20-A72B-C929BED03AA2",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Monster Suit",
+    "slug": "monster-suit-rival-academies",
+    "descr": "Monster suits are used in elaborate and often tawdry performances where actors portray monstrous creatures. These shows tend to feature gratuitous special effects and culminate with the costumed actors engaging in mock battles on stage, to audiences' delight.\n\nA monster suit is crafted to resemble a specific creature with the animal, beast, dragon, fiend, giant, plant, or [undead](/trait/undead) trait. You can wear a monster suit that resembles a creature that is your size or one size larger, though this doesn't change your actual size. It takes 10 minutes to don a monster suit, and when wearing one, you take a –10-foot item penalty to your Speeds and a –4 circumstance penalty to skill checks for move actions due to the suit's unwieldy shape. However, the monster suit counts as a using a disguise kit for [Impersonating](/action/impersonate-player-core) the associated creature, and you gain a +2 item bonus to your Deception check and DC for the activity.",
+    "data": {
+      "level": 5,
+      "rarity": "uncommon",
+      "traits": [],
+      "category": "worn",
+      "price": "80 gp",
+      "usage": "worngarment",
+      "bulk": "2",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5D9772CE-5C64-5A38-B841-0A8CB3BBEAA1",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Moritype",
+    "slug": "moritype-rival-academies",
+    "descr": "---\n\nThis plate of smoky glass is a variation on Dr. Krasovna Gerenevich's krasovnatype that is imprinted with void energies. Creating the plate requires a living thing to die as part of its electrical charging; most creators use insects or lab mice. The moritype creates an image in the same way as a krasovnatype, but also siphons off part of that aura. If used on a living creature, that creature must attempt a Will DC 27 save.\n\n---\n\n**Critical Success** The creature is unaffected.\n\n**Success** If the creature has any innate, prepared, or spontaneous spells, they're unable to Cast a Spell of their highest-ranked slot for 1 round. Cantrips and focus spells are unaffected.\n\n**Failure** As success, except they can't cast the 2 highest ranks they have available.\n\n**Critical Failure** As success, except they can't cast any spells other than cantrips and focus spells.",
+    "data": {
+      "level": 10,
+      "rarity": "rare",
+      "traits": [
+        "consumable",
+        "gadget",
+        "void"
+      ],
+      "category": "consumable",
+      "price": "200 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "gadget",
+          "slug": "gadget"
+        },
+        {
+          "label": "void",
+          "slug": "void"
+        }
+      ],
+      "activation": {
+        "actions": "one",
+        "traits": [
+          "manipulate"
+        ],
+        "text": ""
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "gadget",
+      "remaster",
+      "rival-academies",
+      "void"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8E4478DE-BD0F-5AF1-B991-1D2EEDF9157A",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Moritype (Greater)",
+    "slug": "moritype-greater-rival-academies",
+    "descr": "---\n\nThis plate of smoky glass is a variation on Dr. Krasovna Gerenevich's krasovnatype that is imprinted with void energies. Creating the plate requires a living thing to die as part of its electrical charging; most creators use insects or lab mice. The moritype creates an image in the same way as a krasovnatype, but also siphons off part of that aura. If used on a living creature, that creature must attempt a Will DC 35 save.\n\n---\n\n**Critical Success** The creature is unaffected.\n\n**Success** If the creature has any innate, prepared, or spontaneous spells, they're unable to Cast a Spell of their highest-ranked slot for 1 round. Cantrips and focus spells are unaffected.\n\n**Failure** As success, except they can't cast the 2 highest ranks they have available.\n\n**Critical Failure** As success, except they can't cast any spells other than cantrips and focus spells.",
+    "data": {
+      "level": 16,
+      "rarity": "rare",
+      "traits": [
+        "consumable",
+        "gadget",
+        "void"
+      ],
+      "category": "consumable",
+      "price": "2000 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "gadget",
+          "slug": "gadget"
+        },
+        {
+          "label": "void",
+          "slug": "void"
+        }
+      ],
+      "activation": {
+        "actions": "one",
+        "traits": [
+          "manipulate"
+        ],
+        "text": ""
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "gadget",
+      "remaster",
+      "rival-academies",
+      "void"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "47BE2EE1-82A9-5DE5-90BB-0B620302B25C",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Mutator Onyx",
+    "slug": "mutator-onyx-rival-academies",
+    "descr": "---\n\nA mutator onyx is a jet-black, alien mineral first found within the walls of the Onyx Citadel but is now used primarily as an alchemical teaching or experimentation tool within Oprak. Pressing the gem into a solid, unattended inanimate object with Hardness 5 or less transforms that object's surface into a curious syrupy, liquid-like state, reducing its Hardness to 0. One mutator onyx can transform up to a 5-foot cube. After 10 minutes, the matter reverts to its solid state, regaining its Hardness.",
+    "data": {
+      "level": 3,
+      "rarity": "rare",
+      "traits": [
+        "alchemical",
+        "consumable",
+        "earth"
+      ],
+      "category": "consumable",
+      "price": "10 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "alchemical",
+          "slug": "alchemical"
+        },
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "earth",
+          "slug": "earth"
+        }
+      ],
+      "activation": {
+        "actions": "one",
+        "traits": [
+          "manipulate"
+        ],
+        "text": ""
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "alchemical",
+      "consumable",
+      "earth",
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B49B77BE-4921-5533-8EA9-8FD4ED1F8DE7",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Oathlamp of Accord",
+    "slug": "oathlamp-of-accord-rival-academies",
+    "descr": "This hooded lantern takes the form of a translucent prism. It functions as a normal [Hooded Lantern](/item/lantern-hooded-player-core), except that it isn't fueled by oil, but by oaths. While you're holding the lantern, you gain a +1 item bonus to Diplomacy checks.",
+    "data": {
+      "level": 3,
+      "rarity": "rare",
+      "traits": [
+        "light",
+        "magical",
+        "mental"
+      ],
+      "category": "held",
+      "price": "50 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "light",
+          "slug": "light"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        }
+      ],
+      "activations": [
+        {
+          "actions": "reaction",
+          "traits": [
+            "light",
+            "mental"
+          ],
+          "name": "Announce Oath",
+          "text": "**Trigger** You make a promise in good faith\n\n---\n\n**Effect** The *oathlamp of accord* sheds light without consuming fuel until the promise you made is broken or fulfilled. The GM adjudicates whether a spoken promise is broken or fulfilled. This light and the shutters to conceal it work as normal for a hooded lantern. Any creature in the light of the oathlamp becomes aware of the contents of the oath, along with who made it and how long ago.",
+          "effect": "The *oathlamp of accord* sheds light without consuming fuel until the promise you made is broken or fulfilled. The GM adjudicates whether a spoken promise is broken or fulfilled. This light and the shutters to conceal it work as normal for a hooded lantern. Any creature in the light of the oathlamp becomes aware of the contents of the oath, along with who made it and how long ago.",
+          "trigger": "You make a promise in good faith",
+          "triggerBeforeDescription": true,
+          "triggerParagraphBreak": true,
+          "description": "---"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "light",
+      "magical",
+      "mental",
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "28937980-7371-52CC-A6F2-ACBC52E38F63",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "One-Hour Flower",
+    "slug": "one-hour-flower-rival-academies",
+    "descr": "---\n\nPopular with lovers, decorators, and sports fans, the seeds of these ephemeral plants grow and bloom immediately into flowers when placed in any warm environment, including a cup of dirt, a bowl of warm water, and a tightly clenched hand. The color of these flowers varies, but each has an internal glow that sheds bright light in a 30-foot radius. The radius of this light shrinks by 10 feet every 20 minutes. At the end of an hour, the plant disintegrates, leaving only a vaguely pleasant scent in the air.",
+    "data": {
+      "level": 1,
+      "rarity": "rare",
+      "traits": [
+        "consumable",
+        "magical"
+      ],
+      "category": "consumable",
+      "price": "4 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "—",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ],
+      "activation": {
+        "actions": "one",
+        "traits": [
+          "manipulate"
+        ],
+        "text": ""
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "magical",
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "CF1914EC-B1C9-51A4-927D-FAD1EC7EC314",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Perfection's First Step",
+    "slug": "perfection-s-first-step-rival-academies",
+    "descr": "---\n\nThis palm-leaf manuscript contains an incomplete philosophical treatise about perfection, which you must complete and provide written commentaries upon before you can activate it. This activity takes 10 minutes, but can occur at any time before you activate the treatise.\n\nWhen you activate *perfection's first step*, you cast Unbreaking Wave Advance with a save DC of 19. You are then temporarily immune to benefiting from further copies of *perfection's first step* until your next daily preparations.",
+    "data": {
+      "level": 5,
+      "rarity": "uncommon",
+      "traits": [
+        "consumable",
+        "mental",
+        "occult",
+        "water"
+      ],
+      "category": "consumable",
+      "price": "23 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "—",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        },
+        {
+          "label": "occult",
+          "slug": "occult"
+        },
+        {
+          "label": "water",
+          "slug": "water"
+        }
+      ],
+      "activation": {
+        "actions": "one",
+        "traits": [
+          "concentrate"
+        ],
+        "text": ""
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "mental",
+      "occult",
+      "remaster",
+      "rival-academies",
+      "water"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "27C2CD47-603F-5DB0-80A2-A6E835C7BDE9",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Portable Seal (Lesser)",
+    "slug": "portable-seal-lesser-rival-academies",
+    "descr": "---\n\nA portable seal is a stiff framework of copper wires and strategically placed hinges, so that when the device is snapped open it forms an instant geometric design. A tiny Stasian coil is attached, which when activated runs a mixture of occult energy and high-voltage electricity through the wire. The design covers a 5-foot burst when unfolded and must be unfolded into an area free of major obstructions such as rocks or [hostile](/condition/hostile-player-core) creatures. When a creature with the [summoned](/trait/summoned) trait attempts to enter the seal's area or make a melee Strike against a creature in that area, the summoned creature must attempt a Will DC 20 save.\n\n---\n\n**Success** The action occurs normally, and the creature is immune to the effects of this portable seal this round.\n\n**Failure** The movement or Strike is disrupted, but the creature is immune to further effects of the portable seal this round.\n\n**Critical Failure** The movement or Strike is disrupted.",
+    "data": {
+      "level": 6,
+      "rarity": "uncommon",
+      "traits": [
+        "consumable",
+        "gadget",
+        "magical"
+      ],
+      "category": "consumable",
+      "price": "45 gp",
+      "usage": "held-in-two-hands",
+      "bulk": "1",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "gadget",
+          "slug": "gadget"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ],
+      "activation": {
+        "actions": "two",
+        "traits": [
+          "manipulate"
+        ],
+        "text": ""
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "gadget",
+      "magical",
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "72E46C06-82D2-51F5-A89C-58B48DB5A1BB",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Portable Seal (Major)",
+    "slug": "portable-seal-major-rival-academies",
+    "descr": "---\n\nA portable seal is a stiff framework of copper wires and strategically placed hinges, so that when the device is snapped open it forms an instant geometric design. A tiny Stasian coil is attached, which when activated runs a mixture of occult energy and high-voltage electricity through the wire. The design covers a 5-foot burst when unfolded and must be unfolded into an area free of major obstructions such as rocks or [hostile](/condition/hostile-player-core) creatures. When a creature with the [summoned](/trait/summoned) trait attempts to enter the seal's area or make a melee Strike against a creature in that area, the summoned creature must attempt a Will DC 36 save.\n\n---\n\n**Success** The action occurs normally, and the creature is immune to the effects of this portable seal this round.\n\n**Failure** The movement or Strike is disrupted, but the creature is immune to further effects of the portable seal this round.\n\n**Critical Failure** The movement or Strike is disrupted.",
+    "data": {
+      "level": 18,
+      "rarity": "uncommon",
+      "traits": [
+        "consumable",
+        "gadget",
+        "magical"
+      ],
+      "category": "consumable",
+      "price": "5000 gp",
+      "usage": "held-in-two-hands",
+      "bulk": "1",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "gadget",
+          "slug": "gadget"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ],
+      "activation": {
+        "actions": "two",
+        "traits": [
+          "manipulate"
+        ],
+        "text": ""
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "gadget",
+      "magical",
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4F64B60B-CBBC-5C29-8B46-D0CC80E8C25F",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Portable Seal (Moderate)",
+    "slug": "portable-seal-moderate-rival-academies",
+    "descr": "---\n\nA portable seal is a stiff framework of copper wires and strategically placed hinges, so that when the device is snapped open it forms an instant geometric design. A tiny Stasian coil is attached, which when activated runs a mixture of occult energy and high-voltage electricity through the wire. The design covers a 5-foot burst when unfolded and must be unfolded into an area free of major obstructions such as rocks or [hostile](/condition/hostile-player-core) creatures. When a creature with the [summoned](/trait/summoned) trait attempts to enter the seal's area or make a melee Strike against a creature in that area, the summoned creature must attempt a Will DC 28 save.\n\n---\n\n**Success** The action occurs normally, and the creature is immune to the effects of this portable seal this round.\n\n**Failure** The movement or Strike is disrupted, but the creature is immune to further effects of the portable seal this round.\n\n**Critical Failure** The movement or Strike is disrupted.",
+    "data": {
+      "level": 12,
+      "rarity": "uncommon",
+      "traits": [
+        "consumable",
+        "gadget",
+        "magical"
+      ],
+      "category": "consumable",
+      "price": "400 gp",
+      "usage": "held-in-two-hands",
+      "bulk": "1",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "gadget",
+          "slug": "gadget"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ],
+      "activation": {
+        "actions": "two",
+        "traits": [
+          "manipulate"
+        ],
+        "text": ""
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "gadget",
+      "magical",
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "36B8B8FB-1965-5CEE-8A79-4A0ABEB211CF",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Prankster's Perpetual Pieplate",
+    "slug": "prankster-s-perpetual-pieplate-rival-academies",
+    "descr": "Although the simple pies that fill this glass plate every minute are edible, they don't last long enough to sate hunger or provide any real nutritive value. Instead, they can be magically guided at targets, unleashed harmlessly by even the most uncoordinated child.",
+    "data": {
+      "level": 1,
+      "rarity": "rare",
+      "traits": [
+        "magical"
+      ],
+      "category": "held",
+      "price": "12 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ],
+      "activations": [
+        {
+          "actions": "one",
+          "traits": [
+            "manipulate"
+          ],
+          "name": "Project Pastry",
+          "text": "**Frequency** once per minute\n\n---\n\n**Effect** You magically hurl the pie at a creature within 30 feet. Unless the target succeeds at a Reflex DC 15 save, they're splattered with a harmless but tasty mess, which remains until it is wiped away with an [Interact](/action/interact-player-core) action or is otherwise cleaned off (like if the target is submerged in water). After a minute, the mess disappears, and the pieplate refills with another kind of pie.",
+          "effect": "You magically hurl the pie at a creature within 30 feet. Unless the target succeeds at a Reflex DC 15 save, they're splattered with a harmless but tasty mess, which remains until it is wiped away with an [Interact](/action/interact-player-core) action or is otherwise cleaned off (like if the target is submerged in water). After a minute, the mess disappears, and the pieplate refills with another kind of pie.",
+          "description": "**Frequency** once per minute\n\n---"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "magical",
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B94CBDC8-131E-5F69-9B4E-3E720D1BF191",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Prismatic Dust",
+    "slug": "prismatic-dust-rival-academies",
+    "descr": "---\n\nThis pigmented dust is often used to add color to the lights of a performance. Prismatic dust can be activated while you are adjacent to a source of magical bright light. When activated, the dust is sprinkled into the light, changing the light's color into the color of the dust for 1 hour. The color of the dust is determined upon the dust's creation.",
+    "data": {
+      "level": 1,
+      "rarity": "uncommon",
+      "traits": [
+        "consumable",
+        "magical"
+      ],
+      "category": "consumable",
+      "price": "1 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "—",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ],
+      "activation": {
+        "actions": "one",
+        "traits": [
+          "manipulate"
+        ],
+        "text": ""
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "magical",
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "52A6208C-31B6-51DD-80F4-B0F2210186CE",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Quartz-Coil Rail Transport (Greater)",
+    "slug": "quartz-coil-rail-transport-greater-rival-academies",
+    "descr": "---\n\nThis odd metal rod is often misinterpreted as a mechanical wand of some kind. Any gadgeteer or mage will be able to elaborate on the fact that magic wands do not need to be throughly covered in a copper wire coil and that the pointed quartz crystal at its tip thrums with electricity, not magic.\n\nWhen activated, electricity courses through you, allowing you to move through the voltage that arcs through the air. You instantly transport yourself and any items you're wearing and holding from your current space to an unoccupied space up to 60 feet away that you can see. If this would bring another creature with you—even if you're carrying it in an extradimensional container—the teleportation fails. You and all creatures in a line between your original location and your destination take 6 electricity damage.",
+    "data": {
+      "level": 14,
+      "rarity": "uncommon",
+      "traits": [
+        "consumable",
+        "electricity",
+        "gadget",
+        "teleportation"
+      ],
+      "category": "consumable",
+      "price": "650 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "electricity",
+          "slug": "electricity"
+        },
+        {
+          "label": "gadget",
+          "slug": "gadget"
+        },
+        {
+          "label": "teleportation",
+          "slug": "teleportation"
+        }
+      ],
+      "activation": {
+        "actions": "two",
+        "traits": [
+          "manipulate"
+        ],
+        "text": ""
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "electricity",
+      "gadget",
+      "remaster",
+      "rival-academies",
+      "teleportation"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4B858F9E-B30C-51DC-BC6F-4295692DDA90",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Quartz-Coil Rail Transport (Lesser)",
+    "slug": "quartz-coil-rail-transport-lesser-rival-academies",
+    "descr": "---\n\nThis odd metal rod is often misinterpreted as a mechanical wand of some kind. Any gadgeteer or mage will be able to elaborate on the fact that magic wands do not need to be throughly covered in a copper wire coil and that the pointed quartz crystal at its tip thrums with electricity, not magic.\n\nWhen activated, electricity courses through you, allowing you to move through the voltage that arcs through the air. You instantly transport yourself and any items you're wearing and holding from your current space to an unoccupied space up to 20 feet away that you can see. If this would bring another creature with you—even if you're carrying it in an extradimensional container—the teleportation fails. You and all creatures in a line between your original location and your destination take 2 electricity damage.",
+    "data": {
+      "level": 4,
+      "rarity": "uncommon",
+      "traits": [
+        "consumable",
+        "electricity",
+        "gadget",
+        "teleportation"
+      ],
+      "category": "consumable",
+      "price": "20 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "electricity",
+          "slug": "electricity"
+        },
+        {
+          "label": "gadget",
+          "slug": "gadget"
+        },
+        {
+          "label": "teleportation",
+          "slug": "teleportation"
+        }
+      ],
+      "activation": {
+        "actions": "two",
+        "traits": [
+          "manipulate"
+        ],
+        "text": ""
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "electricity",
+      "gadget",
+      "remaster",
+      "rival-academies",
+      "teleportation"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "41796B6E-D213-57E7-9CFD-75F3D386A73F",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Quartz-Coil Rail Transport (Major)",
+    "slug": "quartz-coil-rail-transport-major-rival-academies",
+    "descr": "---\n\nThis odd metal rod is often misinterpreted as a mechanical wand of some kind. Any gadgeteer or mage will be able to elaborate on the fact that magic wands do not need to be throughly covered in a copper wire coil and that the pointed quartz crystal at its tip thrums with electricity, not magic.\n\nWhen activated, electricity courses through you, allowing you to move through the voltage that arcs through the air. You instantly transport yourself and any items you're wearing and holding from your current space to an unoccupied space up to 80 feet away that you can see. If this would bring another creature with you—even if you're carrying it in an extradimensional container—the teleportation fails. You and all creatures in a line between your original location and your destination take 8 electricity damage.",
+    "data": {
+      "level": 19,
+      "rarity": "uncommon",
+      "traits": [
+        "consumable",
+        "electricity",
+        "gadget",
+        "teleportation"
+      ],
+      "category": "consumable",
+      "price": "8000 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "electricity",
+          "slug": "electricity"
+        },
+        {
+          "label": "gadget",
+          "slug": "gadget"
+        },
+        {
+          "label": "teleportation",
+          "slug": "teleportation"
+        }
+      ],
+      "activation": {
+        "actions": "two",
+        "traits": [
+          "manipulate"
+        ],
+        "text": ""
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "electricity",
+      "gadget",
+      "remaster",
+      "rival-academies",
+      "teleportation"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0CC8BEC9-1C0F-5FEC-9AF4-26DB8625AE21",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Quartz-Coil Rail Transport (Moderate)",
+    "slug": "quartz-coil-rail-transport-moderate-rival-academies",
+    "descr": "---\n\nThis odd metal rod is often misinterpreted as a mechanical wand of some kind. Any gadgeteer or mage will be able to elaborate on the fact that magic wands do not need to be throughly covered in a copper wire coil and that the pointed quartz crystal at its tip thrums with electricity, not magic.\n\nWhen activated, electricity courses through you, allowing you to move through the voltage that arcs through the air. You instantly transport yourself and any items you're wearing and holding from your current space to an unoccupied space up to 40 feet away that you can see. If this would bring another creature with you—even if you're carrying it in an extradimensional container—the teleportation fails. You and all creatures in a line between your original location and your destination take 4 electricity damage.",
+    "data": {
+      "level": 9,
+      "rarity": "uncommon",
+      "traits": [
+        "consumable",
+        "electricity",
+        "gadget",
+        "teleportation"
+      ],
+      "category": "consumable",
+      "price": "150 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "electricity",
+          "slug": "electricity"
+        },
+        {
+          "label": "gadget",
+          "slug": "gadget"
+        },
+        {
+          "label": "teleportation",
+          "slug": "teleportation"
+        }
+      ],
+      "activation": {
+        "actions": "two",
+        "traits": [
+          "manipulate"
+        ],
+        "text": ""
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "electricity",
+      "gadget",
+      "remaster",
+      "rival-academies",
+      "teleportation"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D62EE7AC-FDD9-5FFF-852D-9341A1484125",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Seed Pod of Rooted Wisdom",
+    "slug": "seed-pod-of-rooted-wisdom-rival-academies",
+    "descr": "---\n\nThis tiny magic item looks like a ripe brown fruit from a kapok tree. Inside the fruit are three seeds. Each magical seed releases an effect when swallowed. The first grants you a +1 status bonus on Will saves against fear effects for 10 minutes. The second makes your next 10 words comprehensible to any creature that understands any language. The third lets you recall precisely how to get from where you are to any other place you've stayed for more than an hour within the past day. Once the seeds are removed, the fruit is edible, if chewed slowly, and quite tasty, being much sweeter than the non-magical version.",
+    "data": {
+      "level": 2,
+      "rarity": "uncommon",
+      "traits": [
+        "consumable",
+        "magical",
+        "mental",
+        "plant"
+      ],
+      "category": "consumable",
+      "price": "7 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        },
+        {
+          "label": "plant",
+          "slug": "plant"
+        }
+      ],
+      "activation": {
+        "actions": "one",
+        "traits": [
+          "manipulate"
+        ],
+        "text": ""
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "magical",
+      "mental",
+      "plant",
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "7B5D4738-0039-5F01-A4B7-C42CBE143FDF",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Shaping Sweet",
+    "slug": "shaping-sweet-rival-academies",
+    "descr": "Many inhabitants of the First World can shape their environment around them; weaker creatures can only make minor changes, while powerful entities such as the Eldest can remake entire landscapes. A *shaping sweet* is a gelatinous, fruit-flavored candy that confers a whisper of this ability on you when you eat it. For 1 hour after eating a *shaping sweet*, you can make each of the following changes to your surroundings with an [Interact](/action/interact-player-core) action. You can make each change only once.\n\n**Alter Weather** You create or eliminate minor precipitation in a 30-foot emanation.**Fairy Ring** A ring of flowers and mushrooms appears in a 10-foot burst around you, restoring 1 Hit Point at the start of each of your turns to a randomly chosen fey creature within. The ring lasts for 1 minute.**Foliate Vegetation** grows around you in a 10-foot radius burst, creating light undergrowth that lasts for 1 minute.**Terrain Shift** The ground in your space rises or falls by 5 feet, remaining at that height for 1 minute.",
+    "data": {
+      "level": 2,
+      "rarity": "rare",
+      "traits": [
+        "consumable",
+        "magical"
+      ],
+      "category": "consumable",
+      "price": "6 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "magical",
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "BED86C38-44DC-5EA5-BA85-37ECB95BCA1A",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spark Wafer",
+    "slug": "spark-wafer-rival-academies",
+    "descr": "---\n\nThese wafers contain ground-up alchemical reagents that activate shortly after being snapped. First popularized by technicians in Absalom's Ivy Playhouse, they have spread throughout Golarion as an inexpensive way to add to the visual splendor of a show without relying on magic. When you activate a spark wafer, you bend the wafer, nearly snapping it in two, and then throw it at a corner of a square within 20 feet (all part of the same manipulate action). The wafer then releases a 10-foot-high column of sparks for 1 round. The sparks shed bright light in a 5-foot burst and dim light in the next 5 feet. Any creature that begins their turn in the burst takes 1d4 fire damage (basic Reflex DC 14 save).",
+    "data": {
+      "level": 1,
+      "rarity": "uncommon",
+      "traits": [
+        "alchemical",
+        "consumable",
+        "fire",
+        "light"
+      ],
+      "category": "consumable",
+      "price": "3 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "alchemical",
+          "slug": "alchemical"
+        },
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "fire",
+          "slug": "fire"
+        },
+        {
+          "label": "light",
+          "slug": "light"
+        }
+      ],
+      "activation": {
+        "actions": "one",
+        "traits": [
+          "manipulate"
+        ],
+        "text": ""
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "alchemical",
+      "consumable",
+      "fire",
+      "light",
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "7BABC4E7-DBE4-50EF-A348-8C763AFC02DB",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spiced Demonade",
+    "slug": "spiced-demonade-rival-academies",
+    "descr": "---\n\nThere are some who claim that the original version of this tart red drink contained the ground skin of actual demons, but in truth, spiced demonade was created by a first-year academy student desperate to look awake and alert after a night of carousing.\n\nAfter consuming spiced demonade, you ignore all effects and penalties from the consumption of alcohol and lack of sleep for 1 hour. These effects resume when the spiced demonade wears off, and you become temporarily immune to spiced demonade for 24 hours.",
+    "data": {
+      "level": 2,
+      "rarity": "rare",
+      "traits": [
+        "alchemical",
+        "consumable",
+        "elixir"
+      ],
+      "category": "consumable",
+      "price": "8 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "—",
+      "traitLinks": [
+        {
+          "label": "alchemical",
+          "slug": "alchemical"
+        },
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "elixir",
+          "slug": "elixir"
+        }
+      ],
+      "activation": {
+        "actions": "one",
+        "traits": [
+          "manipulate"
+        ],
+        "text": ""
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1C1C3F58-66ED-57B1-A6A8-6DC9F11A3FE9",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Static Muscular Relay",
+    "slug": "static-muscular-relay-rival-academies",
+    "descr": "---\n\nThis glass orb has a Stasian coil in the center, allowing visible electricity to be safely seen within the glass. The electricity that dances within this orb can be transferred to the user of this gadget, allowing their muscles to react and respond much quicker. When activated, you gain a +2 circumstance bonus to Reflex saves and AC for 1 minute, or until you are hit by an attack or fail a Reflex saving throw, whichever happens first.\n\nEffect: Static Muscular Relay",
+    "data": {
+      "level": 10,
+      "rarity": "uncommon",
+      "traits": [
+        "consumable",
+        "electricity",
+        "gadget"
+      ],
+      "category": "consumable",
+      "price": "180 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "electricity",
+          "slug": "electricity"
+        },
+        {
+          "label": "gadget",
+          "slug": "gadget"
+        }
+      ],
+      "activation": {
+        "actions": "one",
+        "traits": [
+          "manipulate"
+        ],
+        "text": ""
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "electricity",
+      "gadget",
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "EC8B650B-A261-53F8-BD9B-7E0D113DAA52",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Talented Tap Shoes",
+    "slug": "talented-tap-shoes-rival-academies",
+    "descr": "These stylish shoes were originally created by the Tappin' Toes Troupe, a group of tap-dancing Taldan bards who achieved massive popularity for their line dance routines. Notoriously lazy when it came to practicing choreography, the troupe enchanted their footwear to enhance their agility. Upon retirement, the troupe sold off their shoe designs, and talented tap shoes have become popular among professional dancers ever since. While wearing the shoes, you gain a +2 item bonus to Acrobatics checks to [Balance](/action/balance-player-core) and [Tumble Through](/action/tumble-through-player-core) an enemy's space and to Performance checks using dance.",
+    "data": {
+      "level": 11,
+      "rarity": "rare",
+      "traits": [
+        "invested",
+        "magical"
+      ],
+      "category": "worn",
+      "price": "1250 gp",
+      "usage": "wornshoes",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "invested",
+          "slug": "invested"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ],
+      "activations": [
+        {
+          "actions": "one",
+          "traits": [
+            "manipulate"
+          ],
+          "name": "Strut Your Stuff",
+          "text": "**Frequency** once per day\n\n---\n\n**Effect** You click the toes of your talented tap shoes on the ground, and for the next minute, whenever you succeed or critically succeed at a Reflex save to avoid a damaging effect, you can Stride half your Speed as a reaction. However, during this time, you take a –2 item penalty to Stealth checks to [Sneak](/action/sneak-player-core).\n\nEffect: Talented Tap Shoes",
+          "effect": "You click the toes of your talented tap shoes on the ground, and for the next minute, whenever you succeed or critically succeed at a Reflex save to avoid a damaging effect, you can Stride half your Speed as a reaction. However, during this time, you take a –2 item penalty to Stealth checks to [Sneak](/action/sneak-player-core).\n\nEffect: Talented Tap Shoes",
+          "description": "**Frequency** once per day\n\n---"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "invested",
+      "magical",
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "303323FA-584B-57FD-B0F9-164A7DD0901B",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Tangibility Resonator (Lesser)",
+    "slug": "tangibility-resonator-lesser-rival-academies",
+    "descr": "---\n\nOne of the stranger devices to come out of the University of Lepidstadt is a twisted glass contraption that hums with electricity. This vibration is harmless to most but is massively disruptive to the locomotion of incorporeal creatures. When activated, one incorporeal creature within 15 feet must attempt a Fortitude DC 19 saving throw. Once used, the vibrations cause the glass to shatter.\n\n---\n\n**Success** The target is unaffected.\n\n**Failure** The target is [Immobilized](/condition/immobilized-player-core) for 1 round.\n\n**Critical Failure** The target is immobilized and [Off Guard](/condition/off-guard-player-core) for 1 round.",
+    "data": {
+      "level": 5,
+      "rarity": "uncommon",
+      "traits": [
+        "consumable",
+        "gadget",
+        "sonic"
+      ],
+      "category": "consumable",
+      "price": "25 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "gadget",
+          "slug": "gadget"
+        },
+        {
+          "label": "sonic",
+          "slug": "sonic"
+        }
+      ],
+      "activation": {
+        "actions": "one",
+        "traits": [
+          "manipulate"
+        ],
+        "text": ""
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "gadget",
+      "remaster",
+      "rival-academies",
+      "sonic"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "AFB09174-5E6D-5BFF-BD34-9C762E59DA9F",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Tangibility Resonator (Major)",
+    "slug": "tangibility-resonator-major-rival-academies",
+    "descr": "---\n\nOne of the stranger devices to come out of the University of Lepidstadt is a twisted glass contraption that hums with electricity. This vibration is harmless to most but is massively disruptive to the locomotion of incorporeal creatures. When activated, one incorporeal creature within 15 feet must attempt a Fortitude DC 35 saving throw. Once used, the vibrations cause the glass to shatter.\n\n---\n\n**Success** The target is unaffected.\n\n**Failure** The target is [Immobilized](/condition/immobilized-player-core) for 1 round.\n\n**Critical Failure** The target is immobilized and [Off Guard](/condition/off-guard-player-core) for 1 round.",
+    "data": {
+      "level": 17,
+      "rarity": "uncommon",
+      "traits": [
+        "consumable",
+        "gadget",
+        "sonic"
+      ],
+      "category": "consumable",
+      "price": "2500 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "gadget",
+          "slug": "gadget"
+        },
+        {
+          "label": "sonic",
+          "slug": "sonic"
+        }
+      ],
+      "activation": {
+        "actions": "one",
+        "traits": [
+          "manipulate"
+        ],
+        "text": ""
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "gadget",
+      "remaster",
+      "rival-academies",
+      "sonic"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "ED53FA09-CEB9-5E57-AE74-3074CF2088E0",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Tangibility Resonator (Moderate)",
+    "slug": "tangibility-resonator-moderate-rival-academies",
+    "descr": "---\n\nOne of the stranger devices to come out of the University of Lepidstadt is a twisted glass contraption that hums with electricity. This vibration is harmless to most but is massively disruptive to the locomotion of incorporeal creatures. When activated, one incorporeal creature within 15 feet must attempt a Fortitude DC 27 saving throw. Once used, the vibrations cause the glass to shatter.\n\n---\n\n**Success** The target is unaffected.\n\n**Failure** The target is [Immobilized](/condition/immobilized-player-core) for 1 round.\n\n**Critical Failure** The target is immobilized and [Off Guard](/condition/off-guard-player-core) for 1 round.",
+    "data": {
+      "level": 11,
+      "rarity": "uncommon",
+      "traits": [
+        "consumable",
+        "gadget",
+        "sonic"
+      ],
+      "category": "consumable",
+      "price": "300 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "gadget",
+          "slug": "gadget"
+        },
+        {
+          "label": "sonic",
+          "slug": "sonic"
+        }
+      ],
+      "activation": {
+        "actions": "one",
+        "traits": [
+          "manipulate"
+        ],
+        "text": ""
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "gadget",
+      "remaster",
+      "rival-academies",
+      "sonic"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C7B10B70-0940-5700-931A-6E541F6BE87D",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Theater Enhancers",
+    "slug": "theater-enhancers-rival-academies",
+    "descr": "*Theater enhancers* resemble a pair of opera glasses. When worn, they allow the viewer to see subtle illusions on key props or stage elements that have been cast ahead of time. For instance, a puppet of a demon might appear to project a sinister moving shadow, or a backdrop of a mountain might have snowflakes falling over it. Popular among theatergoers who want a visual experience grander than what they can see with their own eyes, *theater enhancers* are largely limited to fancy stage productions that can afford the time and money it takes to enchant a stage with them in mind.",
+    "data": {
+      "level": 1,
+      "rarity": "uncommon",
+      "traits": [],
+      "category": "worn",
+      "price": "15 gp",
+      "usage": "worneyeglasses",
+      "bulk": "—",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "327343C4-B01F-5D2A-B93D-697B1EB4E451",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Three-Pillared Yang Na",
+    "slug": "three-pillared-yang-na-rival-academies",
+    "descr": "This tattoo represents an abstract tree whose trunk is made up of three lines of Tang text. Applied in a ritual involving jasmine, turmeric, and a blossom from a yang na tree, the tattoo provides three blessings. The first blessing keeps your mind still during negotiations, granting a +1 item bonus to Diplomacy checks.",
+    "data": {
+      "level": 4,
+      "rarity": "rare",
+      "traits": [
+        "divine",
+        "invested",
+        "tattoo"
+      ],
+      "category": "other",
+      "price": "80 gp",
+      "usage": "tattooed-on-the-body",
+      "bulk": "—",
+      "traitLinks": [
+        {
+          "label": "divine",
+          "slug": "divine"
+        },
+        {
+          "label": "invested",
+          "slug": "invested"
+        },
+        {
+          "label": "tattoo",
+          "slug": "tattoo"
+        }
+      ],
+      "activations": [
+        {
+          "actions": "one",
+          "traits": [
+            "concentrate",
+            "detection"
+          ],
+          "name": "Second Blessing",
+          "text": "---\n\n**Effect** You learn the direction of the yang na tree that gave the blossom used in creating your tattoo. Most such trees are in Tang Mai, far to the west of the Inner Sea.\n\n---",
+          "effect": "You learn the direction of the yang na tree that gave the blossom used in creating your tattoo. Most such trees are in Tang Mai, far to the west of the Inner Sea.\n\n---",
+          "description": "---"
+        },
+        {
+          "actions": "reaction",
+          "traits": [
+            "concentrate"
+          ],
+          "name": "Third Blessing",
+          "text": "**Trigger** You take spirit damage\n\n---\n\n**Effect** You gain resistance 3 against that spirit damage.",
+          "effect": "You gain resistance 3 against that spirit damage.",
+          "trigger": "You take spirit damage",
+          "triggerBeforeDescription": true,
+          "triggerParagraphBreak": true,
+          "description": "---"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "divine",
+      "invested",
+      "remaster",
+      "rival-academies",
+      "tattoo"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8AAB5626-B660-55E0-B849-B26CA7DE1665",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Twig of Knowledge and Memory",
+    "slug": "twig-of-knowledge-and-memory-rival-academies",
+    "descr": "---\n\nThis tiny magic item looks like a twig from the rare mti'le tree with its swirls of reddish-gold veins through dark brown wood. Each one is unique and fits easily in the palm of a Medium-sized creature's hand. When pressed to the temple or lips of a sentient creature, that creature can immediately attempt a check to Recall Knowledge about any subject using a corresponding skill (such as Society to Recall Knowledge about a humanoid); they gain a +1 status bonus on this check. This consumable is not immediately consumed on its first use, but can be used three times before it loses its power and becomes a mundane, if still beautiful, twig.",
+    "data": {
+      "level": 1,
+      "rarity": "uncommon",
+      "traits": [
+        "consumable",
+        "magical",
+        "mental",
+        "plant"
+      ],
+      "category": "consumable",
+      "price": "4 gp",
+      "usage": "held-in-1-hand-hung-on-a-cord-or-attached-to-clothing",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        },
+        {
+          "label": "plant",
+          "slug": "plant"
+        }
+      ],
+      "activation": {
+        "actions": "one",
+        "traits": [
+          "manipulate"
+        ],
+        "text": ""
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "magical",
+      "mental",
+      "plant",
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "56AE1D14-A9F6-5013-AAAB-DAFE6BC5154C",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Uzunjati Storytelling Amulet",
+    "slug": "uzunjati-storytelling-amulet-rival-academies",
+    "descr": "This round, flat amulet can be made of metal, clay, or leather and is usually highly personalized with runes, sigils, lines of poetry, or a depiction of a storyteller at work. In Azimbye's case, their gold-rimmed metal amulet boasts fine dwarven workmanship, and bears lines from one of the oldest epic poems of the legendary folk hero Kgalaserke on one side and a stylized portrait of a storytelling event in Ranage's Circle on the other. While wearing the amulet, you gain a +1 item bonus to Performance checks.\n\n---",
+    "data": {
+      "level": 5,
+      "rarity": "rare",
+      "traits": [
+        "invested",
+        "magical"
+      ],
+      "category": "worn",
+      "price": "145 gp",
+      "usage": "worn",
+      "bulk": "—",
+      "traitLinks": [
+        {
+          "label": "invested",
+          "slug": "invested"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ],
+      "activations": [
+        {
+          "actions": "free",
+          "traits": [
+            "concentrate"
+          ],
+          "name": "Enamoring Story",
+          "text": "**Frequency** once per day\n\n**Trigger** The perfect anecdote or story to impress your interlocutor comes floating to your memory.\n\n---\n\nYou attempt to Make an Impression or Request, using a Performance check instead of a Diplomacy check.",
+          "trigger": "The perfect anecdote or story to impress your interlocutor comes floating to your memory.",
+          "triggerBeforeDescription": false,
+          "triggerParagraphBreak": true,
+          "description": "**Frequency** once per day; ---\n\nYou attempt to Make an Impression or Request, using a Performance check instead of a Diplomacy check."
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "invested",
+      "magical",
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "DDE1F053-DF2B-559E-8C80-8C5EB61F65EE",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Vanishing Shocker (Greater)",
+    "slug": "vanishing-shocker-greater-rival-academies",
+    "descr": "---\n\nThe vanishing shocker is a cube with extruding spikes at each corner. This inscrutable device channels occult energy through the electricity it produces, creating the result of invisible lighting. When activated, the cube floats above your head, creating a field of invisible electricity in a 10-foot emanation that lasts for 1 round. You and creatures within the emanation are [Concealed](/condition/concealed-player-core). Creatures that enter or start their turn within the area must attempt a Reflex DC 33 save.\n\n---\n\n**Success** The target is unaffected.\n\n**Failure** The target is [Off Guard](/condition/off-guard-player-core) for 1 round.\n\n**Critical Failure** The target is [Clumsy 1](/condition/clumsy-player-core) and off-guard for 1 round.",
+    "data": {
+      "level": 15,
+      "rarity": "uncommon",
+      "traits": [
+        "consumable",
+        "electricity",
+        "gadget",
+        "illusion",
+        "magical"
+      ],
+      "category": "consumable",
+      "price": "1300 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "electricity",
+          "slug": "electricity"
+        },
+        {
+          "label": "gadget",
+          "slug": "gadget"
+        },
+        {
+          "label": "illusion",
+          "slug": "illusion"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ],
+      "activation": {
+        "actions": "one",
+        "traits": [
+          "manipulate"
+        ],
+        "text": ""
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "electricity",
+      "gadget",
+      "illusion",
+      "magical",
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0D356BBE-7660-5237-9D2D-7471DBCB71FD",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Vanishing Shocker (Lesser)",
+    "slug": "vanishing-shocker-lesser-rival-academies",
+    "descr": "---\n\nThe vanishing shocker is a cube with extruding spikes at each corner. This inscrutable device channels occult energy through the electricity it produces, creating the result of invisible lighting. When activated, the cube floats above your head, creating a field of invisible electricity in a 10-foot emanation that lasts for 1 round. You and creatures within the emanation are [Concealed](/condition/concealed-player-core). Creatures that enter or start their turn within the area must attempt a Reflex DC 22 save.\n\n---\n\n**Success** The target is unaffected.\n\n**Failure** The target is [Off Guard](/condition/off-guard-player-core) for 1 round.\n\n**Critical Failure** The target is [Clumsy 1](/condition/clumsy-player-core) and off-guard for 1 round.",
+    "data": {
+      "level": 7,
+      "rarity": "uncommon",
+      "traits": [
+        "consumable",
+        "electricity",
+        "gadget",
+        "illusion",
+        "magical"
+      ],
+      "category": "consumable",
+      "price": "70 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "electricity",
+          "slug": "electricity"
+        },
+        {
+          "label": "gadget",
+          "slug": "gadget"
+        },
+        {
+          "label": "illusion",
+          "slug": "illusion"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ],
+      "activation": {
+        "actions": "one",
+        "traits": [
+          "manipulate"
+        ],
+        "text": ""
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "electricity",
+      "gadget",
+      "illusion",
+      "magical",
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "BAF5AF85-E1BD-5866-8502-F6F1FE0D3DFA",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Vanishing Shocker (Major)",
+    "slug": "vanishing-shocker-major-rival-academies",
+    "descr": "---\n\nThe vanishing shocker is a cube with extruding spikes at each corner. This inscrutable device channels occult energy through the electricity it produces, creating the result of invisible lighting. When activated, the cube floats above your head, creating a field of invisible electricity in a 10-foot emanation that lasts for 1 round. You and creatures within the emanation are [Concealed](/condition/concealed-player-core). Creatures that enter or start their turn within the area must attempt a Reflex DC 38 save.\n\n---\n\n**Success** The target is unaffected.\n\n**Failure** The target is [Off Guard](/condition/off-guard-player-core) for 1 round.\n\n**Critical Failure** The target is [Clumsy 1](/condition/clumsy-player-core) and off-guard for 1 round.",
+    "data": {
+      "level": 19,
+      "rarity": "uncommon",
+      "traits": [
+        "consumable",
+        "electricity",
+        "gadget",
+        "illusion",
+        "magical"
+      ],
+      "category": "consumable",
+      "price": "8000 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "electricity",
+          "slug": "electricity"
+        },
+        {
+          "label": "gadget",
+          "slug": "gadget"
+        },
+        {
+          "label": "illusion",
+          "slug": "illusion"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ],
+      "activation": {
+        "actions": "one",
+        "traits": [
+          "manipulate"
+        ],
+        "text": ""
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "electricity",
+      "gadget",
+      "illusion",
+      "magical",
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5569BD76-2F04-58E4-B505-4F0F7B0F5DE4",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Vanishing Shocker (Moderate)",
+    "slug": "vanishing-shocker-moderate-rival-academies",
+    "descr": "---\n\nThe vanishing shocker is a cube with extruding spikes at each corner. This inscrutable device channels occult energy through the electricity it produces, creating the result of invisible lighting. When activated, the cube floats above your head, creating a field of invisible electricity in a 10-foot emanation that lasts for 1 round. You and creatures within the emanation are [Concealed](/condition/concealed-player-core). Creatures that enter or start their turn within the area must attempt a Reflex DC 27 save.\n\n---\n\n**Success** The target is unaffected.\n\n**Failure** The target is [Off Guard](/condition/off-guard-player-core) for 1 round.\n\n**Critical Failure** The target is [Clumsy 1](/condition/clumsy-player-core) and off-guard for 1 round.",
+    "data": {
+      "level": 11,
+      "rarity": "uncommon",
+      "traits": [
+        "consumable",
+        "electricity",
+        "gadget",
+        "illusion",
+        "magical"
+      ],
+      "category": "consumable",
+      "price": "300 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "electricity",
+          "slug": "electricity"
+        },
+        {
+          "label": "gadget",
+          "slug": "gadget"
+        },
+        {
+          "label": "illusion",
+          "slug": "illusion"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ],
+      "activation": {
+        "actions": "one",
+        "traits": [
+          "manipulate"
+        ],
+        "text": ""
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "electricity",
+      "gadget",
+      "illusion",
+      "magical",
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "64340143-9B65-504C-9A26-B4DE47710FC6",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Vocal Shells",
+    "slug": "vocal-shells-rival-academies",
+    "descr": "Used by more technologically inclined bards, ventriloquists, and other performers to throw their voices, this gadget consists of two button-sized conch shells, each containing a miniaturized mechanism designed to pick up and transmit sound. One of the shells is designated the sending shell and contains a tiny indentation. When this indentation is pressed and the shell is close to a source of sound (such as on an actor's necklace), any sound that reaches it is transmitted to the receiver shell. If the receiver shell is located within 20 feet, it plays the sounds captured by the sending shell at a perfect volume and pitch.",
+    "data": {
+      "level": 3,
+      "rarity": "rare",
+      "traits": [
+        "clockwork"
+      ],
+      "category": "held",
+      "price": "50 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "—",
+      "traitLinks": [
+        {
+          "label": "clockwork",
+          "slug": "clockwork"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "clockwork",
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3C2D98D5-B403-5F1E-B5BD-9EE5883D40C9",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Weapon of False Wounds",
+    "slug": "weapon-of-false-wounds-rival-academies",
+    "descr": "These weapons consist mostly of illusions, except in the spots where the weapon would be held. A sword, for example, would consist only of a physical handle with the permanent illusion of a blade. *Weapons of false wounds* come in all shapes and sizes to help accurately reenact both historic and theatrical combat without risk of injury. The most amazing property of these items is the fact the illusions become partially physical when interacting with other *weapons of false wounds*, allowing blades to clash and parry as they would in actual combat. As a *weapon of false wounds* is designed specifically to interact with other illusions, paying attention to subtle changes in the weapon's appearance can help alert the wielder to nearby illusions. While using this item, you gain a +1 item bonus to Perception checks to disbelieve an illusion.",
+    "data": {
+      "level": 3,
+      "rarity": "uncommon",
+      "traits": [
+        "illusion",
+        "magical",
+        "visual"
+      ],
+      "category": "held",
+      "price": "80 gp",
+      "usage": "held-in-one-or-two-hands",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "illusion",
+          "slug": "illusion"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "visual",
+          "slug": "visual"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "illusion",
+      "magical",
+      "remaster",
+      "rival-academies",
+      "visual"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "63788E4E-9398-518F-8C59-0A41B779DE45",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Windborne Platform",
+    "slug": "windborne-platform-rival-academies",
+    "descr": "These magical platforms are used in a variety of performances. They allow performers to access high places safely, while also serving an important role before the performance even begins. They're used by various backstage crews to hang lights, curtains, and scenery above the stage. Sometimes several of these platforms are lined up to make an upper and lower stage. This large 10-foot-by-10-foot platform can be secured to a surface as a 1-minute activity. While standing on a secured platform, any creature can use the Adjust Height activation.",
+    "data": {
+      "level": 8,
+      "rarity": "uncommon",
+      "traits": [
+        "air",
+        "magical"
+      ],
+      "category": "held",
+      "price": "500 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "5",
+      "traitLinks": [
+        {
+          "label": "air",
+          "slug": "air"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ],
+      "activations": [
+        {
+          "actions": "one",
+          "traits": [
+            "manipulate"
+          ],
+          "name": "Adjust Height",
+          "text": "---\n\n**Effect** The platform and all creatures and items on the platform either rise or lower up to 10 feet. This action fails if there is more than 50 Bulk on the platform.",
+          "effect": "The platform and all creatures and items on the platform either rise or lower up to 10 feet. This action fails if there is more than 50 Bulk on the platform.",
+          "description": "---"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "air",
+      "magical",
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D0F8D93C-9F19-54A8-A9C1-BE18057AA75A",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Zarothrask's Contract",
+    "slug": "zarothrask-s-contract-rival-academies",
+    "descr": "You've bargained for power with a gongorinan, but in return, you must avoid furthering demonic goals. You gain a +2 item bonus to Athletics checks to Disarm manufactured items and to Grapple. Once per day, the gongorinan can warp your body with animal features; you must attempt a Fortitude DC 25 save or become Sickened 2. When you recover from the [sickened](/condition/sickened-player-core) condition, your features revert to normal. The gongorinan will usually do this if you sin or aid a demon, even unintentionally.",
+    "data": {
+      "level": 9,
+      "rarity": "rare",
+      "traits": [
+        "contract",
+        "invested",
+        "occult"
+      ],
+      "category": "other",
+      "price": "",
+      "usage": "other",
+      "bulk": "—",
+      "traitLinks": [
+        {
+          "label": "contract",
+          "slug": "contract"
+        },
+        {
+          "label": "invested",
+          "slug": "invested"
+        },
+        {
+          "label": "occult",
+          "slug": "occult"
+        }
+      ],
+      "activations": [
+        {
+          "actions": "two",
+          "traits": [
+            "concentrate",
+            "mental",
+            "morph",
+            "occult",
+            "unholy"
+          ],
+          "name": "Gongorinan's Emergence",
+          "text": "**Frequency** once per day\n\n---\n\n**Effect** Stony tentacles burst out of your body, lashing at foes. Creatures in a 10-foot emanation take 6d6 bludgeoning, 2d6 mental damage (basic Fortitude DC 25 save); on a failure, the creature also becomes Sickened 1 (sickened 2 on a critical failure) as parts of their anatomy temporarily warp into animal features. When a creature recovers from the sickened condition, its features revert to normal.",
+          "effect": "Stony tentacles burst out of your body, lashing at foes. Creatures in a 10-foot emanation take 6d6 bludgeoning, 2d6 mental damage (basic Fortitude DC 25 save); on a failure, the creature also becomes Sickened 1 (sickened 2 on a critical failure) as parts of their anatomy temporarily warp into animal features. When a creature recovers from the sickened condition, its features revert to normal.",
+          "description": "**Frequency** once per day\n\n---"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "contract",
+      "invested",
+      "occult",
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

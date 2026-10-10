@@ -1,0 +1,827 @@
+[
+  {
+    "id": "E0E3CC7C-2FC8-5658-8DF5-4FFD5164D785",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Base Kinesis",
+    "slug": "base-kinesis-rage-of-elements",
+    "descr": "It's trivial for you to create some of your element or alter a portion of it that already exists. Choose one of your kinetic elements to affect. This impulse has a range of 30 feet, and the Bulk of the target must be negligible or light. The GM decides what Bulk the element is. You can't affect an element that's magical, secured in place (like a stone mortared in a wall), or attended by a creature unwilling to let you.\n\nChoose one of the following options, though the GM might allow you to make similar small alterations. Base Kinesis can't deal damage or cause conditions unless otherwise noted.\n\n**Generate** You bring an ordinary, non-magical piece of the chosen element from its elemental plane. The element can be used for any of its normal uses. For example, air can be breathed by an air-breathing creature, and fire casts light and can ignite flammable substances.\n**Move** Move an existing piece of the element up to 20 feet in any direction. If you bring it into your space, you can catch it in an open hand. You can Sustain the impulse to keep moving the element.\n**Suppress** You destroy an existing piece of element, such as snuffing out a flame or evaporating water from a cup. This affects only natural forms of the element, not durable, crafted goods like a stone statue, metal lock, or wooden door.\n\n**Level (+4)** The range increases by 15 feet, and the maximum Bulk increases by 1 (allowing Bulk 1 at 5th level).",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "impulse",
+        "kineticist",
+        "primal"
+      ],
+      "category": "interaction",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "impulse",
+          "slug": "impulse"
+        },
+        {
+          "label": "kineticist",
+          "slug": "kineticist"
+        },
+        {
+          "label": "primal",
+          "slug": "primal"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "impulse",
+      "kineticist",
+      "primal",
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D906F3B9-3ECA-52DB-938F-02BF447D42AF",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Channel Elements",
+    "slug": "channel-elements-rage-of-elements",
+    "descr": "**Requirements** Your kinetic gate isn't active.\n\nYou tap into your kinetic gate to make elements flow around you. Your kinetic aura activates, and as a part of this action, you can use a 1-action [Elemental Blast](/action/elemental-blast-rage-of-elements) or a 1-action stance impulse. Your kinetic aura is a 10-foot emanation where pieces of your kinetic element (or all your kinetic elements, if you can channel more than one) flow around you. The kinetic aura can't damage anything or affect the environment around you unless another ability allows it to. Channel Elements has the traits of all your kinetic elements.\n\nYour kinetic aura automatically deactivates if you're knocked out, you use an impulse with the [overflow](/trait/overflow) trait, or you Dismiss the aura. Though you can't use new impulses while your kinetic aura is deactivated, ones you already used remain, and you can still Sustain any that can be sustained. Stance impulses are linked to your kinetic aura and end when the aura deactivates.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "aura",
+        "kineticist",
+        "primal"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "Your kinetic gate isn't active",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "aura",
+          "slug": "aura"
+        },
+        {
+          "label": "kineticist",
+          "slug": "kineticist"
+        },
+        {
+          "label": "primal",
+          "slug": "primal"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "aura",
+      "kineticist",
+      "primal",
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2747BE0F-57A0-5514-9719-A5C1AC860411",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Decompose",
+    "slug": "decompose-rage-of-elements",
+    "descr": "**Frequency** once per day\n\n**Effect** Void energy seeps out of you, decaying everything within a 5-foot emanation and causing plants and foliage to age and decompose. Natural difficult terrain is destroyed, and creatures in the area with the plant or [wood](/trait/wood) trait take 1d6 void damage with a basic Fortitude save against your class DC or spell DC, whichever is higher.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "primal",
+        "void"
+      ],
+      "category": "offensive",
+      "frequency": "once per day",
+      "requirements": "",
+      "trigger": "",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "primal",
+          "slug": "primal"
+        },
+        {
+          "label": "void",
+          "slug": "void"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "primal",
+      "rage-of-elements",
+      "remaster",
+      "void"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8899386C-FBE4-5FE8-8B0C-E2E447E19A7A",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Elemental",
+    "slug": "elemental-rage-of-elements",
+    "descr": "Your familiar has the [elemental](/trait/elemental) trait instead of the [animal](/trait/animal) trait. Choose air, earth, fire, metal, water, or wood. Your familiar gains that trait. The familiar is immune to bleed, [Paralyzed](/condition/paralyzed-player-core), poison, sleep, and the element matching its trait. Your familiar must have the resistance familiar ability to select this.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "familiar",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "72D0D694-28E7-5994-87E1-1C3D96218004",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Elemental Blast",
+    "slug": "elemental-blast-rage-of-elements",
+    "descr": "1 or 2\n\nWith a wave of your hand, you collect elemental matter from your aura and swing or hurl it. Choose one of your kinetic elements and a damage type listed for that element, then make a melee or ranged impulse attack against the AC of one creature. Add your Strength modifier to the damage roll for a melee Elemental Blast. If you make a 2-action [Elemental](/action/elemental-rage-of-elements) Blast, you gain a status bonus to the damage roll equal to your Constitution modifier. The element determines the damage die, damage type, and range (for a ranged blast). A damage type other than a physical damage type adds its trait to the blast.\n\n**Air** 1d6 electricity or slashing, 60 feet\n**Earth** 1d8 bludgeoning or piercing, 30 feet\n**Fire** 1d6 fire, range 60 feet\n**Metal** 1d8 piercing or slashing, 30 feet\n**Water** 1d8 bludgeoning or cold, 30 feet\n**Wood** 1d8 bludgeoning or vitality, 30 feet\n\n**Critical Success** The target takes double damage.\n\n**Success** The target takes full damage.\n\n**Level (+4)** The damage increases by one die.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "attack",
+        "impulse",
+        "kineticist",
+        "primal"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "attack",
+          "slug": "attack"
+        },
+        {
+          "label": "impulse",
+          "slug": "impulse"
+        },
+        {
+          "label": "kineticist",
+          "slug": "kineticist"
+        },
+        {
+          "label": "primal",
+          "slug": "primal"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "attack",
+      "impulse",
+      "kineticist",
+      "primal",
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "AE1E3B06-24A3-5912-A96D-32C9528E8BE9",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Elemental Burst",
+    "slug": "elemental-burst-rage-of-elements",
+    "descr": "**Frequency** once per 10 minutes\n\nYour eidolon rips off a chunk of elemental matter from their own form and hurls it into a group of foes. Your eidolon loses a number of Hit Points equal to your level. All creatures in a 20-foot burst within 60 feet take 6d6 damage with a basic Reflex save against your spell DC. The damage increases by 1d6 for each level you have beyond 7th. The damage's type is either fire damage if your eidolon is a fire elemental, or the same physical damage type as your eidolon's primary unarmed attack if your eidolon isn't a fire elemental. Elemental Burst gains any traits that your eidolon's unarmed attacks gain from elemental core.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "eidolon"
+      ],
+      "category": "offensive",
+      "frequency": "once per 10 minutes",
+      "requirements": "",
+      "trigger": "",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "eidolon",
+          "slug": "eidolon"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "eidolon",
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "7938B14B-B6C6-5C40-901C-7CF0B14378C3",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Elemental Familiar (Air)",
+    "slug": "elemental-familiar-air-rage-of-elements",
+    "descr": "Your familiar gains the air [elemental](/trait/elemental) trait.\n\nIf your familiar stays completely still for 1 round, it becomes [Invisible](/condition/invisible-player-core) until it next takes an action. Any motion, even being moved or carried by another creature, ends this effect.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "air"
+      ],
+      "category": "familiar",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": [
+        {
+          "label": "air",
+          "slug": "air"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "air",
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8FF4ABBE-0522-5404-B8E5-87418AB7F81B",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Elemental Familiar (Earth)",
+    "slug": "elemental-familiar-earth-rage-of-elements",
+    "descr": "Your familiar gains the earth [elemental](/trait/elemental) trait.\n\nYour familiar gains resistance to physical damage (except adamantine) equal to half your level.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "earth"
+      ],
+      "category": "familiar",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": [
+        {
+          "label": "earth",
+          "slug": "earth"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "earth",
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "70449902-7B21-5592-9F39-CAD2AEDB9012",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Elemental Familiar (Fire)",
+    "slug": "elemental-familiar-fire-rage-of-elements",
+    "descr": "Your familiar gains the fire [elemental](/trait/elemental) trait.\n\nYour familiar sheds bright light in a 20-foot radius (and dim light for the next 20 feet) and emits warmth. Creatures who remain within a 15-foot emanation don't take damage from severe environmental cold.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "fire"
+      ],
+      "category": "familiar",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": [
+        {
+          "label": "fire",
+          "slug": "fire"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "fire",
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D383268B-9FC3-57AC-B57A-3D4AA7E81A34",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Elemental Familiar (Metal)",
+    "slug": "elemental-familiar-metal-rage-of-elements",
+    "descr": "Your familiar gains the metal [elemental](/trait/elemental) trait.\n\nYour familiar gains resistance to physical damage from metal weapons equal to half your level.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "metal"
+      ],
+      "category": "familiar",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": [
+        {
+          "label": "metal",
+          "slug": "metal"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "metal",
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "AB73064F-E2E9-59A2-A239-B7B968F9830F",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Elemental Familiar (Water)",
+    "slug": "elemental-familiar-water-rage-of-elements",
+    "descr": "Your familiar gains the water [elemental](/trait/elemental) trait.\n\nYour familiar can move through a gap at least 2 inches wide without Squeezing and can Squeeze through a gap at least 1 inch wide.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "water"
+      ],
+      "category": "familiar",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": [
+        {
+          "label": "water",
+          "slug": "water"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster",
+      "water"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "6F1AE665-C9CB-5A92-B36E-EFA96EF0ABF7",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Elemental Familiar (Wood)",
+    "slug": "elemental-familiar-wood-rage-of-elements",
+    "descr": "Your familiar gains the wood [elemental](/trait/elemental) trait.\n\nIf your familiar remains in bright light for 1 round, it gains fast healing equal to half your level. Once it is out of bright light, this effect ends.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "wood"
+      ],
+      "category": "familiar",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": [
+        {
+          "label": "wood",
+          "slug": "wood"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster",
+      "wood"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "65C9CCEA-BDD0-5B4D-BB83-F9B7E9AABFD2",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Elemental Maelstrom",
+    "slug": "elemental-maelstrom-rage-of-elements",
+    "descr": "Your eidolon temporarily shifts its form into a swirling vortex of elemental matter and rampages through their foes. Your eidolon Strides. During their movement, they can attempt a Strike against each enemy that is within their reach. If an enemy comes within your eidolon's reach more than once, your eidolon makes only a single Strike against a given enemy. These attacks all count towards your eidolon's multiple attack penalty, but the penalty doesn't increase until after all the attacks. If your eidolon has the appropriate Speed, they can Climb, Fly, or Swim instead of Stride.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "eidolon"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "three",
+      "traitLinks": [
+        {
+          "label": "eidolon",
+          "slug": "eidolon"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "eidolon",
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "29631C84-7C39-5B04-A876-8572246E70C2",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Extract Element",
+    "slug": "extract-element-rage-of-elements",
+    "descr": "You extract elemental matter from a creature's body to weaken it and take its power for your own. Target a creature within 30 feet that has a trait matching one of your kinetic elements or is made of one of your kinetic elements. The target takes 0d4 untyped damage (with no damage type) and becomes susceptible to your impulses, depending on its Fortitude save against your class DC.\n\n**Critical Success** The creature is unaffected\n\n**Success** The creature takes half damage, and you add some of its elemental matter to your kinetic aura. Your impulses bypass any immunity the creature has to their [elemental](/trait/elemental) trait or traits, and the target takes a -1 circumstance penalty to its saves and AC against your impulses. If the target normally has a resistance that would apply to damage from one of your impulses, ignore that resistance; if it normally would be immune to that damage type, it instead has resistance equal to its level to damage from the impulse. You can't target a creature with Extract Element if elemental matter you extracted from it is already in your kinetic aura. These effects last for 5 minutes or until your kinetic aura ends, whichever comes first\n\n**Failure** As success, but the creature takes full damage.\n\n**Critical Failure** As failure, but the creature takes double damage.\n\n**Level (+2)** The damage increases by 1d4.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "impulse",
+        "kineticist",
+        "primal"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "impulse",
+          "slug": "impulse"
+        },
+        {
+          "label": "kineticist",
+          "slug": "kineticist"
+        },
+        {
+          "label": "primal",
+          "slug": "primal"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "impulse",
+      "kineticist",
+      "primal",
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "91769DC8-C120-528C-A567-0D3D874CBB94",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Jet",
+    "slug": "jet-rage-of-elements",
+    "descr": "Your familiar can use bursts of elemental energy or magic to [Leap](/action/leap-player-core) up to 30 feet in any direction, even if that would exceed its normal maximum distance for leaping. The Leap must begin and end on a solid surface capable of supporting the familiar.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "familiar",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4C5168F7-F0FC-578B-AD93-6441C047327D",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Levitator",
+    "slug": "levitator-rage-of-elements",
+    "descr": "Using magnetism, magic, or other forces, your familiar can float up to 3 feet above solid and liquid surfaces while moving at a Speed of 25 feet. This allows it to ignore difficult terrain and damaging effects related to coming into direct contact with the surface. It typically allows the familiar to also avoid triggering the reactions of hazards that require you to step on them or an attached pressure plate.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "familiar",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1DC11CB3-BC08-5F38-99AB-0B493143679C",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Pacifying Infusion",
+    "slug": "pacifying-infusion-rage-of-elements",
+    "descr": "If your next action is an impulse, it gains the [nonlethal](/trait/nonlethal) trait. If it has an area, you can exclude creatures you've designated with Safe Elements from its effects.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "infusion"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "infusion",
+          "slug": "infusion"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "infusion",
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "BCABD810-8011-552F-ABCD-66B32BC533AC",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Toxic Touch",
+    "slug": "toxic-touch-rage-of-elements",
+    "descr": "**Frequency** once per day\n\n**Requirements** Your most recent action was to [Tumble Through](/action/tumble-through-player-core), and you successfully moved through an enemy's space\n\n**Effect** Make a melee unarmed Strike against the enemy whose space you moved through. On a hit, the target takes 1d6 persistent poison damage and is [Sickened 1](/condition/sickened-player-core) (or takes 2d6 persistent poison and is Sickened 2 on a critical hit).",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "poison"
+      ],
+      "category": "offensive",
+      "frequency": "once per day",
+      "requirements": "Your most recent action was to Tumble Through, and you successfully moved through an enemy's space",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "poison",
+          "slug": "poison"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rage-of-elements",
+      "license": "OGL-1.0a"
+    },
+    "tags": [
+      "poison",
+      "rage-of-elements",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Rage of Elements"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

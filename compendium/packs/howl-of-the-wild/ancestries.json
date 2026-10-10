@@ -1,0 +1,394 @@
+[
+  {
+    "id": "ABFBF091-715F-5053-9EBC-56A8769C957C",
+    "kind": "Ancestry",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Athamaru",
+    "slug": "athamaru-howl-of-the-wild",
+    "descr": "",
+    "data": {
+      "rarity": "uncommon",
+      "traits": [
+        "amphibious",
+        "athamaru",
+        "humanoid"
+      ],
+      "hp": 8,
+      "size": "medium",
+      "movement": {
+        "walk": 20
+      },
+      "attributeBoosts": [
+        "strength",
+        "wisdom"
+      ],
+      "attributeFlaws": [
+        "intelligence"
+      ],
+      "languages": [
+        "common",
+        "thalassic"
+      ],
+      "summary": "",
+      "traitLinks": [
+        {
+          "label": "amphibious",
+          "slug": "amphibious"
+        },
+        {
+          "label": "athamaru",
+          "slug": "athamaru"
+        },
+        {
+          "label": "humanoid",
+          "slug": "humanoid"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "amphibious",
+      "athamaru",
+      "howl-of-the-wild",
+      "humanoid",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D3D95916-8EED-5EBE-9E75-2501854F061E",
+    "kind": "Ancestry",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Awakened Animal",
+    "slug": "awakened-animal-howl-of-the-wild",
+    "descr": "",
+    "data": {
+      "rarity": "rare",
+      "traits": [
+        "awakened-animal",
+        "beast"
+      ],
+      "hp": 6,
+      "size": "medium",
+      "movement": {
+        "walk": 5
+      },
+      "attributeBoosts": [
+        "constitution",
+        "wisdom"
+      ],
+      "attributeFlaws": [
+        "intelligence"
+      ],
+      "languages": [
+        "common"
+      ],
+      "summary": "",
+      "traitLinks": [
+        {
+          "label": "awakened-animal",
+          "slug": "awakened-animal"
+        },
+        {
+          "label": "beast",
+          "slug": "beast"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "awakened-animal",
+      "beast",
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "EFAAEC0B-B7C6-5951-B22C-C86DD52863D5",
+    "kind": "Ancestry",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Centaur",
+    "slug": "centaur-howl-of-the-wild",
+    "descr": "",
+    "data": {
+      "rarity": "uncommon",
+      "traits": [
+        "beast",
+        "centaur",
+        "humanoid"
+      ],
+      "hp": 8,
+      "size": "large",
+      "movement": {
+        "walk": 30
+      },
+      "attributeBoosts": [
+        "strength",
+        "wisdom"
+      ],
+      "attributeFlaws": [
+        "charisma"
+      ],
+      "languages": [
+        "common",
+        "fey"
+      ],
+      "summary": "",
+      "traitLinks": [
+        {
+          "label": "beast",
+          "slug": "beast"
+        },
+        {
+          "label": "centaur",
+          "slug": "centaur"
+        },
+        {
+          "label": "humanoid",
+          "slug": "humanoid"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "beast",
+      "centaur",
+      "howl-of-the-wild",
+      "humanoid",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3AEB7B95-4A70-5761-ABC0-2BDF59F78307",
+    "kind": "Ancestry",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Merfolk",
+    "slug": "merfolk-howl-of-the-wild",
+    "descr": "",
+    "data": {
+      "rarity": "uncommon",
+      "traits": [
+        "amphibious",
+        "humanoid",
+        "merfolk"
+      ],
+      "hp": 8,
+      "size": "medium",
+      "movement": {
+        "walk": 5
+      },
+      "attributeBoosts": [
+        "dexterity",
+        "charisma"
+      ],
+      "attributeFlaws": [
+        "constitution"
+      ],
+      "languages": [
+        "common",
+        "thalassic"
+      ],
+      "summary": "",
+      "traitLinks": [
+        {
+          "label": "amphibious",
+          "slug": "amphibious"
+        },
+        {
+          "label": "humanoid",
+          "slug": "humanoid"
+        },
+        {
+          "label": "merfolk",
+          "slug": "merfolk"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "amphibious",
+      "howl-of-the-wild",
+      "humanoid",
+      "merfolk",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4AE5720D-F125-5A7A-9179-F59BEBCAAA33",
+    "kind": "Ancestry",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Minotaur",
+    "slug": "minotaur-howl-of-the-wild",
+    "descr": "",
+    "data": {
+      "rarity": "uncommon",
+      "traits": [
+        "beast",
+        "humanoid",
+        "minotaur"
+      ],
+      "hp": 10,
+      "size": "large",
+      "movement": {
+        "walk": 25
+      },
+      "attributeBoosts": [
+        "strength",
+        "constitution"
+      ],
+      "attributeFlaws": [
+        "charisma"
+      ],
+      "languages": [
+        "common",
+        "jotun"
+      ],
+      "summary": "",
+      "traitLinks": [
+        {
+          "label": "beast",
+          "slug": "beast"
+        },
+        {
+          "label": "humanoid",
+          "slug": "humanoid"
+        },
+        {
+          "label": "minotaur",
+          "slug": "minotaur"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "beast",
+      "howl-of-the-wild",
+      "humanoid",
+      "minotaur",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1D5571EE-FAD7-5975-A3EC-4638D229D0AB",
+    "kind": "Ancestry",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Surki",
+    "slug": "surki-howl-of-the-wild",
+    "descr": "",
+    "data": {
+      "rarity": "rare",
+      "traits": [
+        "humanoid",
+        "surki"
+      ],
+      "hp": 8,
+      "size": "medium",
+      "movement": {
+        "walk": 25
+      },
+      "attributeBoosts": [
+        "constitution"
+      ],
+      "attributeFlaws": [],
+      "languages": [
+        "common",
+        "surki"
+      ],
+      "summary": "",
+      "traitLinks": [
+        {
+          "label": "humanoid",
+          "slug": "humanoid"
+        },
+        {
+          "label": "surki",
+          "slug": "surki"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "humanoid",
+      "remaster",
+      "surki"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

@@ -1,0 +1,901 @@
+[
+  {
+    "id": "BEC0F88A-35A2-59B9-B54C-2702E1E99A29",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Abyssal Merfolk",
+    "slug": "abyssal-merfolk-howl-of-the-wild",
+    "descr": "You live far, far below the surface of the ocean. Your fish tail might resemble a viperfish or anglerfish, and you might have luminous eyes or translucent skin. Abyssal merfolk have an uncanny reputation, but they can exist in even the most lightless realms. You gain darkvision and are immune to the crushing pressure of the oceanic depths.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "040383AB-05A6-502E-84EF-9CE487BD33A2",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Breaker Surki",
+    "slug": "breaker-surki-howl-of-the-wild",
+    "descr": "Your claws are especially hard and can break through earth and predators alike. You gain a claw unarmed attack that deals 1d4 slashing damage. Your claws are in the brawling group and have the agile, finesse, unarmed, and [versatile B](/trait/versatile) traits.\n\n**Evolution** Your wrist nodes project magic into a durable digging wedge. You can spend an [Interact](/action/interact-player-core) action to increase your claw unarmed attack's damage to 1d6; grant it the magical, razing, and versatile [force](/trait/force) traits; and remove the [agile](/trait/agile) trait. You can spend another action to deactivate the wedge and return your claw to its normal statistics.\n**Evolution** Your ankle nodes can emit grounding claw spikes of magic to hold you in place. If any effect would force you to move 10 feet or more, you can choose to move only half the distance. The extra traction from your claw spikes allows you to Climb with one hand occupied (or with both hands occupied if you have the [Combat Climber](/feat/combat-climber-player-core) feat). You gain the [Trench Digging](/action/trench-digging-howl-of-the-wild) reaction.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F0E91375-94A9-54C9-AB5E-CA0462605F41",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Budding Speaker Centaur",
+    "slug": "budding-speaker-centaur-howl-of-the-wild",
+    "descr": "You were born with a spark of magic that could set you on the path to becoming a Greenspeaker or Faithspeaker. Select divine or primal. If you selected divine, you're a Faithspeaker. If you selected primal, you're a Greenspeaker. This choice can't be changed. You gain one cantrip from the chosen spell list. You can cast this spell as an innate spell at will. A cantrip is heightened to a spell rank equal to half your level rounded up.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "BB7E3AFF-52F0-5C2F-905C-422D635FFA19",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Carcharodon Merfolk",
+    "slug": "carcharodon-merfolk-howl-of-the-wild",
+    "descr": "As a fearsome shark merfolk, your lower body is similar to that of one of the apex predators of the ocean. Like a shark, you can smell blood from quite a distance. You gain scent as an imprecise sense with a range of 30 feet. However, you can smell spilled blood at a range of 120 feet in the air and 500 feet in the water.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "7F1C2E42-1660-5989-8A42-BD01D26D8CDF",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Climbing Animal",
+    "slug": "climbing-animal-howl-of-the-wild",
+    "descr": "You are an animal whose limbs are adapted to grab, climb, and brachiate. You might be dexterous and ready to use tools like a chimpanzee or otter, or you may simply be a quick climber like a bear, raccoon, or sloth.\n\nYou have a land Speed of 20 feet, a climb Speed of 20 feet, and one animal attack of your choice (typically claw, fist, or jaws).",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A2E0786D-17E8-58D6-BE8A-E039EB5C4743",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Coral Athamaru",
+    "slug": "coral-athamaru-howl-of-the-wild",
+    "descr": "Coral covers patches of your body, which provides a natural layer of defense. Coral athamarus often choose Coral Symbiotes and other related ancestry feats. The coral plates are medium armor in the plate armor group that grant a +4 item bonus to AC, a Dex cap of +1, a check penalty of –2, a Speed penalty of –5 feet, a Strength value of +3, and have the aquadynamic and [comfort](/trait/comfort) traits. You can never wear other armor or remove the coral. You can etch armor runes onto the coral.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3B1D566B-8F03-5A83-BF77-AD8F2D3A5396",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Elytron Surki",
+    "slug": "elytron-surki-howl-of-the-wild",
+    "descr": "The top layer of your carapace is especially mobile, and you can unfurl it to catch the air gracefully as you fall. You take no damage from falling, regardless of the distance you fall.\n\n**Evolution** Your shoulder nodes have evolved into a pair of spines that you can energize to project a pair of glowing wings. You can cast [Fly](/spell/fly-player-core) as an innate spell once per day, targeting yourself; while your wings are energized, you shed bright light in a 20-foot radius and dim light for the next 20 feet.\n**Evolution** Your shoulder nodes have evolved into a fan of thin membranes that resonate when magic is coursed through them. You gain the [Stridulating Song](/action/stridulating-song-howl-of-the-wild) action.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "80B73E87-996E-5D49-A816-E0203CBA6B2C",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Fleetwind Centaur",
+    "slug": "fleetwind-centaur-howl-of-the-wild",
+    "descr": "You're sleek of frame and capable of reaching incredible speeds on hooves alone. Your Speed increases by 5 feet.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3AD15EF4-3DD9-5855-B807-179C8FD5D35B",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Flying Animal",
+    "slug": "flying-animal-howl-of-the-wild",
+    "descr": "You are an animal that can take flight for long or sustained bursts, such as an eagle, bat, bee, or flying squirrel.\n\nThe awakening process has disrupted your ability to fly as freely as you once did. What used to be an automatic process is now one that you must apply some thought to until it becomes automatic once again. You can still slow your descent, so you take no damage from falling, regardless of the distance you fall. Most flying awakened animals choose the Take Flight ancestry feat at 1st level to regain a limited ability to fly. You have a land Speed of 20 feet and one animal attack of your choice (typically beak, claw, jaws, talon, or wing).",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8C3D2BCD-92F0-56AA-8721-6BF8AB490864",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Ghost Bull Minotaur",
+    "slug": "ghost-bull-minotaur-howl-of-the-wild",
+    "descr": "Your fur is as pale as death, possibly from some connection you or your family has to the afterlife, which lets you supernaturally find your way. You can cast [Know The Way](/spell/know-the-way-player-core) as an occult innate spell at will. A cantrip is heightened to a spell rank equal to half your level rounded up. In addition, you gain a +1 circumstance bonus against spells or effects that cause the [Confused](/condition/confused-player-core) condition.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "AE04195C-B118-5C9A-8FDF-058D1A264ACA",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Glacier Cavern Minotaur",
+    "slug": "glacier-cavern-minotaur-howl-of-the-wild",
+    "descr": "Your fur grows thick and warm, well suited to the frozen mountains in which you reside. You gain cold resistance equal to half your level (minimum of 1). Environmental cold effects are one step less extreme for you.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "AF2C72BF-3241-589D-A385-641BCCF3881B",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Hardshell Surki",
+    "slug": "hardshell-surki-howl-of-the-wild",
+    "descr": "Your carapace is much denser than that of other surkis, offering you a suit of your very own armor. Your carapace is medium armor in the plate armor group that grants a +4 item bonus to AC, a Dex cap of +1, a check penalty of –2, a Speed penalty of –5 feet, a Strength value of +3, and has the [comfort](/trait/comfort) trait. You can never wear other armor or remove your carapace. You can etch armor runes onto your carapace.\n\n**Evolution** The magical circulatory system that runs between your nodes has become a reinforcing network that strengthens your carapace with magical energy. If you're struck by a critical hit that deals physical damage, you can use your reaction to attempt a Flat DC 17. If successful, the attack becomes a normal hit.\n**Evolution** Your abdominal nodes can project a field around you that guards you against the type of magic you're most familiar with. You gain the [Dampening Harmonics](/action/dampening-harmonics-howl-of-the-wild) action.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5B4085E1-A152-5084-9252-2D34ED706341",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Hopeful Athamaru",
+    "slug": "hopeful-athamaru-howl-of-the-wild",
+    "descr": "You have begun to prepare yourself to become an athamaru matriarch, and are likely stepping outside of your community to better prepare yourself as a leader. As part of the physical change, you are substantially taller than you once were. Instead of Medium, your size is Large. In addition, you instill your allies with a feeling of hopefulness. You have a 10-foot aura that grants any ally in it a +1 circumstance bonus to saving throws against fear; this is an emotion and mental effect.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0A2F1B5A-9560-5CC4-AF8A-70D20BF5E0ED",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Ironhoof Centaur",
+    "slug": "ironhoof-centaur-howl-of-the-wild",
+    "descr": "Your hooves are incredibly strong and serve as formidable weapons. You gain a hoof unarmed attack that deals 1d6 bludgeoning damage. Your hooves are in the brawling group and have the finesse and [unarmed](/trait/unarmed) traits.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "77A8253F-FE66-5FA5-992D-9D19AB29C769",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Kaleidoscopic Athamaru",
+    "slug": "kaleidoscopic-athamaru-howl-of-the-wild",
+    "descr": "Your scales are a spectrum of color that shimmers in the light. In areas of bright light or dim light, you gain a +1 circumstance bonus to Performance checks. You also gain the [Dazzle Seeker](/action/dazzle-seeker-howl-of-the-wild) reaction.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "FB6D3DFB-9479-517A-8A24-664AF11683F2",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Lantern Surki",
+    "slug": "lantern-surki-howl-of-the-wild",
+    "descr": "The nodes in your abdomen are particularly luminous. You can use an [Interact](/action/interact-player-core) action to shed light from your abdomen in a 20-foot radius (and dim light for the next 20 feet). This is a magical light effect with a counteract rank equal to half your level rounded up. You can change the color of the light or extinguish it with another Interact action.\n\n**Evolution** Your abdominal nodes have evolved into a pair of secondary limbs that project a magical focusing lens. You gain the [Lantern Beam](/action/lantern-beam-howl-of-the-wild) action.**Evolution** Secondary light emitters grow from your shoulder nodes that flash in time with your lantern. You gain the [Lantern Strobe](/action/lantern-strobe-howl-of-the-wild) action.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E0913842-1DE3-55BC-91B5-39563E29C21C",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Littlehorn Minotaur",
+    "slug": "littlehorn-minotaur-howl-of-the-wild",
+    "descr": "Though no less powerful, your frame (and your horns) are smaller than those of most other minotaurs. Instead of Large, your size is Medium. Your horns unarmed attack deals 1d6 piercing damage instead of 1d8, but it has the [agile](/trait/agile) trait.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "85A88B1F-15B3-5C1C-9869-6DC47AB6CBF2",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Mottle-Coat Centaur",
+    "slug": "mottle-coat-centaur-howl-of-the-wild",
+    "descr": "Your coat is mottled or striped, granting you natural camouflage in your home environment. Select a terrain from the following: arctic, desert, forest, mountain, plains, or swamp. In your selected terrain, you gain a +1 circumstance bonus to Stealth checks to [Hide](/action/hide-player-core) or [Sneak](/action/sneak-player-core) and to Deception checks to [Feint](/action/feint-player-core).",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "ACE77FBA-3D30-566E-8D7E-307761ACEAD0",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Pelagic Merfolk",
+    "slug": "pelagic-merfolk-howl-of-the-wild",
+    "descr": "You're a merfolk of the open seas. Your tail is patterned after the silvery tuna and herring that school by the million in your hunting grounds. Water obeys your will, and with a quick word, you can draw a sheathe of it around you. You gain the [Shielding Wave](/action/shielding-wave-howl-of-the-wild) action.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "26756CB1-65C9-597F-9268-E643F48FCF1B",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Ponygait Centaur",
+    "slug": "ponygait-centaur-howl-of-the-wild",
+    "descr": "You are smaller than most other centaurs, though no less fleet of foot. Instead of Large, your size is Medium. You gain a +1 circumstance bonus to Reflex saving throws.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "46D076C3-2A17-55C9-A0CD-686852082BD5",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Quilled Athamaru",
+    "slug": "quilled-athamaru-howl-of-the-wild",
+    "descr": "Sharp quills on your head can pierce your foes deeply. Most athamarus use such quills for defense, but a well-timed headbash can be devastatingly effective. You gain a quills melee unarmed attack that deals 1d6 piercing damage. Your quills are in the brawling group and have the agile, finesse, and [unarmed](/trait/unarmed) traits.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8FA957A1-C9D2-55C9-94B5-D76F7FFEEDD2",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Reef Merfolk",
+    "slug": "reef-merfolk-howl-of-the-wild",
+    "descr": "You were raised amid colorful corals and schools of tropical fish. Compared to most merfolk, your body is vividly hued with stripes, spots, and patterns like a clownfish or angelfish. You're used to the occasionally toxic denizens of your home and are bothered little by stings or petty poisons. You gain poison resistance equal to half your level (minimum 1), and each of your successful saving throws against a poison affliction reduces its stage by 2, or by 1 for a virulent poison. Each critical success against an ongoing poison reduces its stage by 3, or by 2 for a virulent poison.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "7078080D-59EF-5508-A16B-D5B99EBB9704",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Roaming Minotaur",
+    "slug": "roaming-minotaur-howl-of-the-wild",
+    "descr": "Your hooves are broad and powerful, perfect for clearing away rubble as you step. You become trained in Survival (or another skill if you were already trained in Survival) and gain the [Terrain Expertise](/feat/terrain-expertise-player-core) skill feat. You ignore difficult terrain caused by natural uneven ground while in the terrain chosen for your Terrain Expertise feat.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "89E50364-2A37-5149-BE6D-045F6BA57AAC",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Running Animal",
+    "slug": "running-animal-howl-of-the-wild",
+    "descr": "You are an animal meant for running at great speeds across land. Typically, you run on all fours like a dog, cheetah, or an iguana, but you could also use two legs like a kangaroo, emu, or penguin.\n\nYou have a land Speed of 30 feet and one animal attack of your choice (typically claw, jaws, or tail).",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "17C459BB-2F52-5856-8A9B-C677977833B1",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Sailfish Merfolk",
+    "slug": "sailfish-merfolk-howl-of-the-wild",
+    "descr": "The lower half of your body resembles a powerful sailfish, complete with a large dorsal fin. Using this fin, you can move through the water faster and leap farther. Your swim Speed increases to 30 feet. When you attempt a [High Jump](/action/high-jump-player-core) or [Long Jump](/action/long-jump-player-core), you gain a +1 circumstance bonus to the Athletics check, and you can Swim instead of Striding before attempting the jump.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "DCCDAE53-3C58-5B12-84CD-3CFC4544225B",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Slabsoul Minotaur",
+    "slug": "slabsoul-minotaur-howl-of-the-wild",
+    "descr": "Your deep connection with stone and walls allows you to conjure massive slabs of granite that collapse on your foes. You gain the [Raise Slabs](/action/raise-slabs-howl-of-the-wild) activity.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B313A17D-DFF2-5D37-BD90-861266B233CF",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Stalker Minotaur",
+    "slug": "stalker-minotaur-howl-of-the-wild",
+    "descr": "Despite your heavy frame, you walk on shaggy hooves that muffle your footfalls, allowing you to surprise your prey. You become trained in Stealth (or another skill if you were already trained in Stealth) and gain the [Terrain Stalker](/feat/terrain-stalker-player-core) skill feat, except you must choose rubble and you can [Sneak](/action/sneak-player-core) no more than 10 feet instead of 5 feet without attempting a Stealth check.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0A55BC37-C3A5-574D-9B00-B367A6E4A1A3",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Stoutheart Centaur",
+    "slug": "stoutheart-centaur-howl-of-the-wild",
+    "descr": "You're a hardy centaur, firm of stance and strong of heart. You gain 10 Hit Points from your ancestry instead of 8 and gain a +1 circumstance bonus to Acrobatics checks to [Balance](/action/balance-player-core) and to your Reflex DC to avoid being tripped.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "6B5B0A36-69A2-57FD-B07C-16F46A6495D8",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Swimming Animal",
+    "slug": "swimming-animal-howl-of-the-wild",
+    "descr": "You are an aquatic animal who is most comfortable in the water. You may spend much of your time in the water like an alligator, seal, whale, or dolphin, or you may require the water to breathe like a fish or some crustaceans.\n\nYou have one animal attack of your choice (typically claw, jaws, or tail; see the sidebar). Choose if you are aquatic or water-dwelling.\n\n**Aquatic:** You gain the [aquatic](/trait/aquatic) trait and you have a swim Speed of 30 feet. The aquatic trait means you breathe water but not air, and your bludgeoning and slashing unarmed Strikes don't take the usual –2 penalty for being underwater.\n**Water-dwelling:** You can hold your breath underwater for 10 minutes before needing air. You have a swim Speed of 20 feet, and if you can move on land, you have base Speed of 20 feet.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

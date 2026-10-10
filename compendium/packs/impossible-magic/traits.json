@@ -1,0 +1,548 @@
+[
+  {
+    "id": "D86C9626-FEBA-532F-895C-7BA87F19452B",
+    "kind": "Trait",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Diacritic",
+    "slug": "diacritic",
+    "descr": "A diacritic is a special type of rune that’s not applied directly to a creature or object, but rather drawn on another rune itself, modifying or empowering that base rune. A diacritic can never be applied by itself, and any effect that would remove or invoke the base rune always also removes or invokes the diacritic rune. A rune can have only one diacritic. A base rune with a diacritic counts as one rune for the purposes of invoking.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "diacritic"
+      ],
+      "traitLinks": [
+        {
+          "label": "diacritic",
+          "slug": "diacritic"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "diacritic",
+      "impossible-magic",
+      "remaster",
+      "trait"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Traits.aspx?ID=948",
+        "page": 45
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "543B1B6D-62C6-55DC-9540-42096FD40782",
+    "kind": "Trait",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Eidolon",
+    "slug": "eidolon",
+    "descr": "A creature with this trait is a [summoner's](/class/summoner-impossible-magic-class-class-77) eidolon. An action or spell with this trait can be performed by an eidolon only. An item with this trait can be used or worn by an eidolon only, and an eidolon can't use items that don't have this trait. (An eidolon can have up to two items [invested](/trait/invested).)",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "eidolon"
+      ],
+      "traitLinks": [
+        {
+          "label": "eidolon",
+          "slug": "eidolon"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "eidolon",
+      "impossible-magic",
+      "remaster",
+      "trait"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Traits.aspx?ID=958",
+        "page": 69
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "4BDE8F24-A407-5E06-83CE-3CE57BA2AA37",
+    "kind": "Trait",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Evolution",
+    "slug": "evolution",
+    "descr": "Feats with this trait affect your eidolon instead of you, typically by granting it additional physical capabilities.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "evolution"
+      ],
+      "traitLinks": [
+        {
+          "label": "evolution",
+          "slug": "evolution"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "evolution",
+      "impossible-magic",
+      "remaster",
+      "trait"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Traits.aspx?ID=959",
+        "page": 69
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "CD0A38D4-2B19-5142-AEAC-BCA49345A4C7",
+    "kind": "Trait",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Grimoire",
+    "slug": "grimoire",
+    "descr": "Grimoires are valuable types of spellbooks, and the magic imbued within their pages augments the spells of a specialized caster.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "grimoire"
+      ],
+      "traitLinks": [
+        {
+          "label": "grimoire",
+          "slug": "grimoire"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "grimoire",
+      "impossible-magic",
+      "remaster",
+      "trait"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Traits.aspx?ID=962",
+        "page": 228
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "C03B3E27-9948-5DE1-A9C2-E940AAC7FC9B",
+    "kind": "Trait",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Impossible",
+    "slug": "impossible",
+    "descr": "All impossible spells have the impossible trait, which labels them as spells that can be cast only once in a creature's existence. After casting a spell with the impossible trait, the same creature can't cast any spell with the impossible trait ever again. An hour after casting the spell, the caster starts experiencing the consequences detailed under the spell's lethologic mark entry. The entry also includes how the effects of the mark can be healed.\n\n Spells with this trait are also more difficult to [counteract](/rule/counteracting-rules-3280). Any counteract check against the spell gets an outcome one degree of success worse than was rolled, and any effect that would automatically counteract the spell fails.\n\n [Spellshape](/trait/spellshape) effects cannot be applied to impossible spells.\n\nThe full rules for casting impossible spells appear [here](/rule/casting-impossible-spells-impossible-magic-rules-rules-3695)",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "impossible"
+      ],
+      "traitLinks": [
+        {
+          "label": "impossible",
+          "slug": "impossible"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "impossible",
+      "impossible-magic",
+      "remaster",
+      "trait"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Traits.aspx?ID=949",
+        "page": 175
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "16B024C4-6029-59AD-8943-36B9CC3E95E7",
+    "kind": "Trait",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Invocation",
+    "slug": "invocation",
+    "descr": "An invocation action allows a [runesmith](/class/runesmith-impossible-magic-class-class-76) to surge power through their rune by uttering its true name. Invocation requires you to be able to speak clearly in a strong voice and requires that you be within 30 feet of the target rune or runes unless another ability changes this. These actions include the [Invoke Rune](/action/invoke-rune-impossible-magic-action-action-4265) action, which makes the rune’s invocation take place, then causes the rune to fade away. Using Invoke Rune normally allows you to invoke two runes, but other abilities that include the Invoke Rune action often change that number or the specific runes you can invoke.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "invocation"
+      ],
+      "traitLinks": [
+        {
+          "label": "invocation",
+          "slug": "invocation"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "impossible-magic",
+      "invocation",
+      "remaster",
+      "trait"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Traits.aspx?ID=956",
+        "page": 45
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "E3605C33-B75D-5F37-9212-DE2F6085C4E4",
+    "kind": "Trait",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Magus",
+    "slug": "magus",
+    "descr": "This indicates abilities from the [magus class.](/class/magus-impossible-magic-class-class-74)",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "magus"
+      ],
+      "traitLinks": [
+        {
+          "label": "magus",
+          "slug": "magus"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "impossible-magic",
+      "magus",
+      "remaster",
+      "trait"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Traits.aspx?ID=953",
+        "page": 252
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "7DA5CDD8-91FD-57E2-8738-C51AA77D11A0",
+    "kind": "Trait",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Necromancer",
+    "slug": "necromancer",
+    "descr": "This indicates abilities from the [necromancer](/class/necromancer-impossible-magic-class-class-75) class.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "necromancer"
+      ],
+      "traitLinks": [
+        {
+          "label": "necromancer",
+          "slug": "necromancer"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "impossible-magic",
+      "necromancer",
+      "remaster",
+      "trait"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Traits.aspx?ID=950",
+        "page": 252
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "36C52C49-5BBF-5706-8613-2C02D631DF36",
+    "kind": "Trait",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Rune",
+    "slug": "rune",
+    "descr": "A runesmith doesn't cast spells, but they can apply various magical effects through runes. Runes can be applied via etching or tracing. Etched runes are applied in exploration mode and last indefinitely, while traced runes can be applied more quickly but last only until the end of your next turn. Their effects, however, are the same. Several abilities refer to creatures bearing one of your runes—this is any creature who has one of your runes applied to its body or to any gear it is wearing or holding.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "rune"
+      ],
+      "traitLinks": [
+        {
+          "label": "rune",
+          "slug": "rune"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "impossible-magic",
+      "remaster",
+      "rune",
+      "trait"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Traits.aspx?ID=951",
+        "page": 44
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "69A089E2-8444-53E4-88BB-1A2C5FEA1A47",
+    "kind": "Trait",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Runesmith",
+    "slug": "runesmith",
+    "descr": "This indicates abilities from the [runesmith](/class/runesmith-impossible-magic-class-class-76) class.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "runesmith"
+      ],
+      "traitLinks": [
+        {
+          "label": "runesmith",
+          "slug": "runesmith"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "impossible-magic",
+      "remaster",
+      "runesmith",
+      "trait"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Traits.aspx?ID=952",
+        "page": 253
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "48B2AF69-FA21-5A87-B1FB-3D1F4869E1D2",
+    "kind": "Trait",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Summoner",
+    "slug": "summoner",
+    "descr": "This indicates abilities from the [summoner class.](/class/summoner-impossible-magic-class-class-77)",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "summoner"
+      ],
+      "traitLinks": [
+        {
+          "label": "summoner",
+          "slug": "summoner"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "impossible-magic",
+      "remaster",
+      "summoner",
+      "trait"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Traits.aspx?ID=954",
+        "page": 254
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "506D1E00-0729-5A2B-BF31-B331573D0D62",
+    "kind": "Trait",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Tandem",
+    "slug": "tandem",
+    "descr": "Actions with this trait involve you and your eidolon acting in concert. You can't use a tandem action if either you or your eidolon can't act, if you haven't Manifested your Eidolon, or if you've Manifested your Eidolon in a way where it isn't a separate entity (such as with the [Meld into Eidolon](/feat/meld-into-eidolon-impossible-magic-feat-feat-9227) feat). Tandem actions often let both you and your eidolon take separate actions, but these must be actions taken separately by you and your eidolon; you can't use a tandem action to take another tandem action.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "tandem"
+      ],
+      "traitLinks": [
+        {
+          "label": "tandem",
+          "slug": "tandem"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "impossible-magic",
+      "remaster",
+      "tandem",
+      "trait"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Traits.aspx?ID=960",
+        "page": 69
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "36CC6E03-0A05-5737-92F2-24FC4319761D",
+    "kind": "Trait",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Thrall",
+    "slug": "thrall",
+    "descr": "The mindless undead you can create as a [necromancer](/class/necromancer-impossible-magic-class-class-75) are called thralls. Spells or abilities that create thralls have the thrall trait.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "thrall"
+      ],
+      "traitLinks": [
+        {
+          "label": "thrall",
+          "slug": "thrall"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "impossible-magic",
+      "remaster",
+      "thrall",
+      "trait"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Traits.aspx?ID=955",
+        "page": 31
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  }
+]

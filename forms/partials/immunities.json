@@ -1,0 +1,17 @@
+{
+  "sections": [
+    {
+      "title": "Creature.Immunities",
+      "type": "list",
+      "attribute": "data.immunityEditor.entries",
+      "custom": {
+        "itemTitle": "{% if customText %}{{customText}}{% else %}{{name}}{% endif %}",
+        "itemDetail": "{{details}}"
+      },
+      "form": {
+        "title": "Creature.Immunity",
+        "partial": "immunity"
+      }
+    }
+  ]
+}

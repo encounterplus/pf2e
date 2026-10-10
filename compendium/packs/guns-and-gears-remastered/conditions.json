@@ -1,0 +1,1388 @@
+[
+  {
+    "id": "0D42E93A-E771-5DC2-AA05-2D4DB3F3774D",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Ablative Armor Plating (Greater)",
+    "slug": "effect-ablative-armor-plating-greater-guns-and-gears-remastered",
+    "descr": "Granted by [Ablative Armor Plating (Greater)](/item/ablative-armor-plating-greater-guns-and-gears-remastered)\n\nThe plating grants the wearer of the armor the 20 Hit Points for 1 hour or until lost. Removing the plating early destroys it.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B36D9C53-CC4B-5C69-845C-6813835A8C8E",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Ablative Armor Plating (Lesser)",
+    "slug": "effect-ablative-armor-plating-lesser-guns-and-gears-remastered",
+    "descr": "Granted by [Ablative Armor Plating (Lesser)](/item/ablative-armor-plating-lesser-guns-and-gears-remastered)\n\nThe plating grants the wearer of the armor the 5 Hit Points for 1 minute or until lost. Removing the plating early destroys it.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "71912AAC-38B7-5A69-8D28-116FD65A70E5",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Ablative Armor Plating (Major)",
+    "slug": "effect-ablative-armor-plating-major-guns-and-gears-remastered",
+    "descr": "Granted by [Ablative Armor Plating (Major)](/item/ablative-armor-plating-major-guns-and-gears-remastered)\n\nThe plating grants the wearer of the armor the 30 Hit Points for 1 hour or until lost. Removing the plating early destroys it.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "97081C8E-A2DE-520A-9BBA-D4B6E24722AF",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Ablative Armor Plating (Moderate)",
+    "slug": "effect-ablative-armor-plating-moderate-guns-and-gears-remastered",
+    "descr": "Granted by [Ablative Armor Plating (Moderate)](/item/ablative-armor-plating-moderate-guns-and-gears-remastered)\n\nThe plating grants the wearer of the armor the 10 Hit Points for 10 minutes or until lost. Removing the plating early destroys it.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 10,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "31B5F56F-5D21-5787-84BC-E33B5E22DBED",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Ablative Armor Plating (True)",
+    "slug": "effect-ablative-armor-plating-true-guns-and-gears-remastered",
+    "descr": "Granted by [Ablative Armor Plating (True)](/item/ablative-armor-plating-true-guns-and-gears-remastered)\n\nThe plating grants the wearer of the armor the 40 Hit Points for 1 hour or until lost. Removing the plating early destroys it.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8B92AD91-2E04-51A5-87DD-DF2785AF16CB",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Arcane Propulsion",
+    "slug": "effect-arcane-propulsion-guns-and-gears-remastered",
+    "descr": "Granted by [Arcane Propulsion](/feat/arcane-propulsion-guns-and-gears-remastered)\n\nYou gain a fly Speed equal to your Speed.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 5,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C4D2B803-FF77-5D16-B4DF-4B2F4CDF7A6F",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Armor Tampered With (Critical Success)",
+    "slug": "effect-armor-tampered-with-critical-success-guns-and-gears-remastered",
+    "descr": "Granted by [Tamper](/feat/tamper-guns-and-gears-remastered)\n\nYou are [Off Guard](/condition/off-guard-player-core) and take a –10-foot penalty to your Speeds.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "83864834-1CFB-5DBC-AD3D-2FD5E0597E58",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Armor Tampered With (Success)",
+    "slug": "effect-armor-tampered-with-success-guns-and-gears-remastered",
+    "descr": "Granted by [Tamper](/feat/tamper-guns-and-gears-remastered)\n\nYou are [Off Guard](/condition/off-guard-player-core) and take a –10-foot penalty to your Speeds.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B25E52C5-8E86-5943-BC2D-1D7508E9F988",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Aromatic Ammunition",
+    "slug": "effect-aromatic-ammunition-guns-and-gears-remastered",
+    "descr": "Granted by [Aromatic Ammunition](/item/aromatic-ammunition-guns-and-gears-remastered)\n\nAny creatures within 30 feet smell the target, allowing even those with a weak sense of smell to detect its presence, and all creatures gain a +1 item bonus to Track the affected creature for as long as it has the odor. A creature that has imprecise or precise scent doubles the range at which they can detect the target using their scent compared to the normal range of their scent.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0896CF79-9D9D-57CE-876A-5B27B4AA0E99",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Called Shot",
+    "slug": "effect-called-shot-guns-and-gears-remastered",
+    "descr": "Granted by [Called Shot](/feat/called-shot-guns-and-gears-remastered)\n\nYou gain an effect based on the selected body part.\n\n**Arm (or another limb used for attacks, such as a tentacle)** You are enfeebled 2.**Head** You are stupefied 2.**Legs** You take a –10-foot status penalty to your Speeds.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "17D7F5BB-7CC4-532F-A3EA-9695D73CEBC8",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Called Shot (Critical)",
+    "slug": "effect-called-shot-critical-guns-and-gears-remastered",
+    "descr": "Granted by [Called Shot](/feat/called-shot-guns-and-gears-remastered)\n\nYou gain an effect based on the selected body part.\n\n**Arm (or another limb used for attacks, such as a tentacle)** You are enfeebled 1.**Head** You are stupefied 1.**Legs** You take a –5-foot status penalty to your Speeds.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "6B0BA3BE-27EE-5726-B454-BCDD28F3713A",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Clockwork Goggles",
+    "slug": "effect-clockwork-goggles-guns-and-gears-remastered",
+    "descr": "Granted by [Clockwork Goggles](/item/clockwork-goggles-guns-and-gears-remastered), [Clockwork Goggles (Greater)](/item/clockwork-goggles-greater-guns-and-gears-remastered), Clockwork Goggles (Major)\n\nYou gain low-light vision, darkvision (*greater* or *major*), and *see the unseen* (*major*).",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 10,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "79E4968B-9B06-538A-B613-719408DE78CA",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Control Tower",
+    "slug": "effect-control-tower-guns-and-gears-remastered",
+    "descr": "Granted by [Control Tower](/feat/control-tower-guns-and-gears-remastered)\n\nYou gain a +2 circumstance bonus when using the [Seek](/action/seek-player-core) action to find hidden or [undetected](/condition/undetected-player-core) creatures within the overwatch field.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "374A1B08-1464-5247-861F-E6BC0B03DAF1",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Core Cannon",
+    "slug": "effect-core-cannon-guns-and-gears-remastered",
+    "descr": "Granted by [Core Cannon](/feat/core-cannon-guns-and-gears-remastered)\n\nSelect a potency rune. You gain a Strike that deals 3d8 fire damage and 3d6 force damage, which increases to 4d8 fire damage and 4d6 force damage at level 20. The Strike has the item bonus from the selected rune, has a range increment of 120 feet, and on a critical hit the target takes 10 persistent fire damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "25A2D325-095F-5141-8233-E0838846D1D4",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Deep Freeze",
+    "slug": "effect-deep-freeze-guns-and-gears-remastered",
+    "descr": "Granted by [Deep Freeze](/feat/deep-freeze-guns-and-gears-remastered)\n\nOn a **Success**, you take a –5-foot status penalty to your Speeds.\n\nOn a **Failure**, you take a –10-foot status penalty to your Speeds.\n\nOn a **Critical Failure**, you are slowed 1 and take a –15-foot status penalty to your Speeds.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "200B27E9-69E7-5200-82BD-DCD6D644E9F9",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Drake Rifle (Cold)",
+    "slug": "effect-drake-rifle-cold-guns-and-gears-remastered",
+    "descr": "Granted by [Drake Rifle (Cold)](/item/drake-rifle-cold-guns-and-gears-remastered)\n\nYou take a –10-foot status penalty to your Speeds.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "6CFD99B2-E3C8-504B-8931-025EA9C25FED",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Electromuscular Stimulator",
+    "slug": "effect-electromuscular-stimulator-guns-and-gears-remastered",
+    "descr": "Granted by [Electromuscular Stimulator](/item/electromuscular-stimulator-guns-and-gears-remastered)\n\nYou gain the [quickened](/condition/quickened-player-core) condition and you can use the extra action each round only to Stride or Strike. On a success, you also take 3 persistent electricity damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "10FEF17F-9B42-5467-81B2-F5EEA50EFE51",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Electromuscular Stimulator (Failure)",
+    "slug": "effect-electromuscular-stimulator-failure-guns-and-gears-remastered",
+    "descr": "Granted by [Electromuscular Stimulator](/item/electromuscular-stimulator-guns-and-gears-remastered)\n\nYou gain the [quickened](/condition/quickened-player-core) condition and you can use the extra action each round only to Stride or Strike. You also take 3 persistent electricity damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 2,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "EB8ECDAB-6E48-57F7-99C2-CED90DF2C190",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Energized Cartridge",
+    "slug": "effect-energized-cartridge-guns-and-gears-remastered",
+    "descr": "Granted by [Energized Cartridge](/item/energized-cartridge-guns-and-gears-remastered)\n\nThe ammunition fired from the affixed weapon transforms into your choice of acid, cold, electricity, or fire, dealing damage of the appropriate energy type instead of its usual damage as well as 1d6 persistent damage of the same type on a critical hit.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "234A9A14-57AB-5835-BB9A-460A602669F0",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Energy Shot",
+    "slug": "effect-energy-shot-guns-and-gears-remastered",
+    "descr": "Granted by [Energy Shot](/action/energy-shot-guns-and-gears-remastered)\n\nOn your first three Strikes of this encounter with a firearm or crossbow, you deal an additional 1 acid, cold, fire or electricity damage. You choose which damage type to deal as part of making each Strike.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0662D807-D006-5297-9A00-A1D89196D51E",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Engine of Destruction",
+    "slug": "effect-engine-of-destruction-guns-and-gears-remastered",
+    "descr": "Granted by [Engine Of Destruction](/feat/engine-of-destruction-guns-and-gears-remastered)\n\nYour construct innovation gains a +2 circumstance bonus to its attack rolls.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "41E29489-FF6E-5CCD-9CD2-8021E85A1279",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Fulminating Shot",
+    "slug": "effect-fulminating-shot-guns-and-gears-remastered",
+    "descr": "Granted by [Fulminating Shot](/feat/fulminating-shot-guns-and-gears-remastered)\n\nChoose acid, cold, electricity, or fire. If you hit with your next attack roll using a firearm or crossbow before the end of your turn, you deal 1d6 additional damage of this type. At 12th level, this increases to 2d6 additional damage, and at 18th level, it increases to 3d6 additional damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 0,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5A7F7A56-59A1-5A6E-92CA-B22A2688EFC8",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Glue Bullet",
+    "slug": "effect-glue-bullet-guns-and-gears-remastered",
+    "descr": "Granted by [Glue Bullet](/item/glue-bullet-guns-and-gears-remastered)\n\nYou take a –10-foot circumstance penalty to your Speeds. On a critical hit, you are also immobilized.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 2,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "79B22F01-C520-547E-9FFA-B05F1943E4AF",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Gunpowder Gauntlet",
+    "slug": "effect-gunpowder-gauntlet-guns-and-gears-remastered",
+    "descr": "Granted by [Gunpowder Gauntlet](/feat/gunpowder-gauntlet-guns-and-gears-remastered)\n\nYou take a penalty to attack rolls against creatures other than the origin.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "30A6ADCD-C19F-5403-8E77-E5CBBA063884",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Helpful Tinkering",
+    "slug": "effect-helpful-tinkering-guns-and-gears-remastered",
+    "descr": "Granted by [Helpful Tinkering](/feat/helpful-tinkering-guns-and-gears-remastered)\n\nYour strikes with the chosen weapon gain the same offensive boost your inventor ally's innovation has.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "309E86FC-B762-5466-AEBA-62D4D6F780F8",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Holy Steam Ball",
+    "slug": "effect-holy-steam-ball-guns-and-gears-remastered",
+    "descr": "Granted by [Holy Steam Ball](/item/holy-steam-ball-guns-and-gears-remastered)\n\nYou gain a +2 item bonus to Will saving throws against possession effects from fiends and undead and effects from fiends and undead that cause the [controlled](/condition/controlled-player-core) condition.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "573F401E-E892-5C23-B7DF-E20C5C2B3705",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Hot Foot (Critical Success)",
+    "slug": "effect-hot-foot-critical-success-guns-and-gears-remastered",
+    "descr": "Granted by [Hot Foot](/feat/hot-foot-guns-and-gears-remastered)\n\nYou are off-guard and take a -2 circumstance penalty to Reflex saves.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F48099D1-44B8-59DB-B5F6-2ECB22D424F7",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Living Fortification",
+    "slug": "effect-living-fortification-guns-and-gears-remastered",
+    "descr": "Granted by [Living Fortification](/action/living-fortification-guns-and-gears-remastered)\n\nYou gain a +1 circumstance bonus to AC until the start of your next turn.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 0,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B2B33F0C-C21B-5EB9-98F6-F504D60CF51F",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Lock On",
+    "slug": "effect-lock-on-guns-and-gears-remastered",
+    "descr": "Granted by [Lock On](/feat/lock-on-guns-and-gears-remastered)\n\nYou gain a circumstance bonus to attack rolls against the designated enemy.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "7925E4AC-93B2-5846-837B-17E6F88C2F6F",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Overdrive",
+    "slug": "effect-overdrive-guns-and-gears-remastered",
+    "descr": "Granted by [Overdrive](/action/overdrive-guns-and-gears-remastered)\n\nYour Strikes deal additional damage equal to your Intelligence modifier on a critical success, or half your Intelligence modifier on a success. On a failure, your Strikes deal 1 additional fire damage instead.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "18F52A56-9007-53DB-BCE8-16B7BBD351A8",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Overdrive Ally (Shared Overdrive)",
+    "slug": "effect-overdrive-ally-shared-overdrive-guns-and-gears-remastered",
+    "descr": "Granted by [Shared Overdrive](/feat/shared-overdrive-guns-and-gears-remastered)\n\nThe first time you use Overdrive Ally during a given Overdrive, the effect lasts for the remainder of the duration of your Overdrive, instead of just until the end of the target's next turn.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "90283BD2-3BD8-526A-AD20-A76CB5D0F404",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Overwatch Field",
+    "slug": "effect-overwatch-field-guns-and-gears-remastered",
+    "descr": "Granted by [Overwatch Dedication](/feat/overwatch-dedication-guns-and-gears-remastered)\n\nYou gain a +2 circumstance bonus to initiative rolls.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E3197060-B742-595B-9C9B-4E28E15620E0",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Phenom Verve",
+    "slug": "effect-phenom-verve-guns-and-gears-remastered",
+    "descr": "Granted by [Phenom'S Verve](/feat/phenom-s-verve-guns-and-gears-remastered)\n\nYou gain a +1 status bonus to your attack rolls with one-handed firearms and one-handed melee weapons.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 0,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5418142E-4048-5C09-A526-D93D8734B62D",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Pistolero's Challenge",
+    "slug": "effect-pistolero-s-challenge-guns-and-gears-remastered",
+    "descr": "Granted by [Pistolero'S Challenge](/feat/pistolero-s-challenge-guns-and-gears-remastered)\n\nBoth you and the opponent gain a +2 status bonus to damage rolls with Strikes made against each other. If you're a master in the skill you used for the check, the status bonus to damage rolls increases to +3, and if you're legendary, it increases to +4.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "BC1ADE39-7A5E-588E-9728-F66828BAB7CA",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Prepared Camouflage Suit",
+    "slug": "effect-prepared-camouflage-suit-guns-and-gears-remastered",
+    "descr": "Granted by [Camouflage Suit](/item/camouflage-suit-guns-and-gears-remastered)\n\nYou gain an item bonus to Stealth checks while you attempt to Hide or Sneak.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "20D603EF-2F97-5D8D-B3F4-C12D02A9536C",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Sniping Duo Dedication",
+    "slug": "effect-sniping-duo-dedication-guns-and-gears-remastered",
+    "descr": "Granted by [Sniping Duo Dedication](/feat/sniping-duo-dedication-guns-and-gears-remastered).\n\nWhenever you or your spotter successfully Strikes a target, the other member of your duo gains a +1 circumstance bonus per weapon damage die on the damage roll of their next Strike made against that target before the end of their next turn.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "FAD94908-E993-5372-ABFA-318C58782DF6",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Spark Fist",
+    "slug": "effect-spark-fist-guns-and-gears-remastered",
+    "descr": "Granted by [Spark Fist](/feat/spark-fist-guns-and-gears-remastered)\n\nYour fist loses the [nonlethal](/trait/nonlethal) trait and deals additional fire damage on a successful Strike.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3B8EE387-5CF1-5C81-8D62-F2216B03D27E",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Storm Chair",
+    "slug": "effect-storm-chair-guns-and-gears-remastered",
+    "descr": "Granted by [Storm Chair](/item/storm-chair-guns-and-gears-remastered)\n\nYou gain a fly Speed equal to your Speed.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0F4339A2-9498-5A7D-9A84-F8F754CE8369",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Topple Giants",
+    "slug": "effect-topple-giants-guns-and-gears-remastered",
+    "descr": "Granted by [Topple Giants](/feat/topple-giants-guns-and-gears-remastered)\n\nWhen an ally within your overwatch field attempts to [Disarm](/action/disarm-player-core), [Shove](/action/shove-player-core), or [Trip](/action/trip-player-core) an opponent within your overwatch field and fails, you coordinate efforts to provide a +2 circumstance bonus to the next Athletics check rolled by a different ally to attempt the same action on the same target before that target's next turn.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B1EA0CDF-0F77-54CA-B8CB-81FCF694517B",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Weapon Tampered With (Critical Success)",
+    "slug": "effect-weapon-tampered-with-critical-success-guns-and-gears-remastered",
+    "descr": "Granted by [Tamper](/feat/tamper-guns-and-gears-remastered)\n\nYour weapon has been tampered with! You take a -2 circumstance penalty to attack rolls and damage rolls with that weapon. The effect lasts until you [Interact](/action/interact-player-core) to remove it.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2F60EA21-C228-526F-A41C-A6B0EBCFA1D1",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Weapon Tampered With (Success)",
+    "slug": "effect-weapon-tampered-with-success-guns-and-gears-remastered",
+    "descr": "Granted by [Tamper](/feat/tamper-guns-and-gears-remastered)\n\nYour weapon has been tampered with! You take a -2 circumstance penalty to attack rolls and damage rolls with that weapon. The effect ends at the start of the inventor's next turn, or until you [Interact](/action/interact-player-core) to remove it.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C1835534-97D1-53CA-BA37-5C3D7A78F0A5",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Stance: Bullet Dancer Stance",
+    "slug": "stance-bullet-dancer-stance-guns-and-gears-remastered",
+    "descr": "Granted by [Bullet Dancer Stance](/action/bullet-dancer-stance-guns-and-gears-remastered)\n\nWhile in this stance, the only Strikes you can make are those using bayonets, reinforced stocks, simple firearms, and simple combination weapons. You can use Flurry of Blows with these weapons. You can use other monk feats or monk abilities you have that normally require unarmed attacks with bayonets, reinforced stocks, and the melee component of simple combination weapons, so long as the feat or ability doesn't require a single, specific Strike. You can also use them with simple firearms when attacking within half the first range increment.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

@@ -1,0 +1,4391 @@
+[
+  {
+    "id": "CD9A011F-EBD0-5780-8C8D-6793A31A53D5",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Bulwark) Serpentstone Breath",
+    "slug": "bulwark-serpentstone-breath-monster-core",
+    "descr": "The bulwark breathes a 60-foot cone of green gas. Each creature in the area must attempt a Fortitude DC 34 save. The bulwark can't use Serpentstone Breath again for 1d4 rounds.\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature's body hardens, causing it to become Slowed 1 for 1 round.\n\n**Failure** The creature becomes Petrified for 1 minute. It can attempt a new save at the end of each of its turns.\n\n**Critical Failure** The creature becomes petrified permanently.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "earth",
+        "incapacitation",
+        "primal"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "earth",
+          "slug": "earth"
+        },
+        {
+          "label": "incapacitation",
+          "slug": "incapacitation"
+        },
+        {
+          "label": "primal",
+          "slug": "primal"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "earth",
+      "incapacitation",
+      "monster-core",
+      "primal",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C30BF738-00F3-5ED3-8CBB-EFA34A662FD4",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Ghost) Corrupting Gaze",
+    "slug": "ghost-corrupting-gaze-monster-core",
+    "descr": "The ghost stares at a creature it can see within 30 feet. The target takes 1d6 void damage + 1d6 per 2 levels with a basic Will save.\n\nA creature that fails its save is also [Stupefied 1](/condition/stupefied-player-core) for 1 minute.\n\nFor DCs, use the high spell DC of the ghost's level.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "two",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "FA078544-455B-5152-A47B-00EE50ACA8D7",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Ghost) Draining Touch",
+    "slug": "ghost-draining-touch-monster-core",
+    "descr": "With a touch, the ghost attempts to drain a living creature's life force. It makes a ghostly hand Strike but deals no damage on a hit.\n\nInstead, the target becomes [Drained 1](/condition/drained-player-core) for 1 day, and the ghost regains HP equal to half its own level.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "two",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "13B15EBB-4CFD-5D16-9A91-C7F998E863EB",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Ghost) Frightful Moan",
+    "slug": "ghost-frightful-moan-monster-core",
+    "descr": "The ghost laments its fate, forcing each living creature within 30 feet to attempt a Will save. On a failure, a creature becomes [Frightened 2](/condition/frightened-player-core) (or Frightened 3 on a critical failure). On a success, a creature is temporarily immune to this ghost's frightful moan for 1 minute.\n\nFor DCs, use the high spell DC of the ghost's level.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "auditory",
+        "divine",
+        "emotion",
+        "fear",
+        "mental"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "auditory",
+          "slug": "auditory"
+        },
+        {
+          "label": "divine",
+          "slug": "divine"
+        },
+        {
+          "label": "emotion",
+          "slug": "emotion"
+        },
+        {
+          "label": "fear",
+          "slug": "fear"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "auditory",
+      "divine",
+      "emotion",
+      "fear",
+      "mental",
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "845563E6-977C-50A3-A291-E1ECB035576F",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Ghost) Inhabit Object",
+    "slug": "ghost-inhabit-object-monster-core",
+    "descr": "The ghost possesses an object of size Large or smaller within 20 feet, making it an animated object. This animated object's level can be no higher than the ghost's level -2. If the target object is being held by a creature, the bearer can attempt a Will save to prevent the possession.\n\nThis possession ends when the object is destroyed or the ghost leaves it. At this point, the ghost reappears in the object's square and can't Inhabit an Object again for 1d4 rounds.\n\nFor DCs, use the high spell DC of the ghost's level.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2F3E82BD-DE5D-5476-8763-D753F26D913B",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Ghost) Malevolent Possession",
+    "slug": "ghost-malevolent-possession-monster-core",
+    "descr": "The ghost attempts to possess an adjacent corporeal creature. This has the same effect as the [Possession](/spell/possession-player-core) spell, except since the ghost doesn't have a physical body, it is unaffected by that restriction of the spell.\n\nFor DCs, use the high spell DC of the ghost's level.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "incapacitation",
+        "mental",
+        "possession"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "incapacitation",
+          "slug": "incapacitation"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        },
+        {
+          "label": "possession",
+          "slug": "possession"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "incapacitation",
+      "mental",
+      "monster-core",
+      "possession",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "86001A63-A8E0-5A70-8965-1F3802679A70",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Ghost) Rejuvenation",
+    "slug": "ghost-rejuvenation-monster-core",
+    "descr": "When a ghost is destroyed, it re-forms after 2d4 days within the location it's bound to, fully healed. A ghost can be permanently destroyed only if someone determines the reason for its existence and sets right whatever prevents the spirit from resting.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "divine"
+      ],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": [
+        {
+          "label": "divine",
+          "slug": "divine"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "divine",
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "610D3114-9AFA-5089-BA70-0B2CFF449BE3",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Ghost) Site Bound",
+    "slug": "ghost-site-bound-monster-core",
+    "descr": "A typical ghost can stray only a short distance from where it was killed or the place it haunts. A typical limit is 120 feet. Some ghosts are instead bound to a room, building, item, or creature that was special to it rather than a location.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "interaction",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "03822DA1-D557-52D8-818E-B8ECC2E5D26A",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Ghost) Telekinetic Assault",
+    "slug": "ghost-telekinetic-assault-monster-core",
+    "descr": "The ghost cries out in pain and anguish as small objects and debris fly about in a 30-foot emanation. Creatures in this area take 1d6 bludgeoning damage + 1d6 per 2 levels, subject to a basic Reflex save.\n\nFor DCs, use the high spell DC of the ghost's level.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "divine"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "divine",
+          "slug": "divine"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "divine",
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8DF7F67D-1440-502D-8EC4-BA5DF8E91BDE",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Ghoul) Consume Flesh",
+    "slug": "ghoul-consume-flesh-monster-core",
+    "descr": "**Requirements** The ghoul is adjacent to the corpse of a creature that died within the last hour.\n\n**Effect** The ghoul devours a chunk of the corpse and regains 1d6 healing Hit Points plus 1d6 for every 2 levels it has.\n\nIt can regain Hit Points from any given corpse only once.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "manipulate"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "The ghoul is adjacent to the corpse of a creature that died within the last hour",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "manipulate",
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "711318AF-6BF5-5B14-87BE-564EBB61C4D0",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Ghoul) Ghoul Whispers",
+    "slug": "ghoul-ghoul-whispers-monster-core",
+    "descr": "**Requirements** A [Grabbed](/condition/grabbed-player-core), [Paralyzed](/condition/paralyzed-player-core), [Restrained](/condition/restrained-player-core), or [Unconscious](/condition/unconscious-player-core) creature is within the ghoul's reach\n\n**Effect** The ghoul whispers dark thoughts and vile cravings into the creature's ears. The creature must save against the forbidden cravings curse.\n\n**Forbidden Cravings** (curse) A creature can still eat and drink while sickened by this curse\n\n**Saving Throw** Will, using the high spell DC for the ghoul's level\n\n**Stage 1** carrier with no ill effects (1 day)\n\n**Stage 2** 2d6 void damage and the target is [Sickened 1](/condition/sickened-player-core) until it consumes raw meat (1 day)\n\n**Stage 3** as stage 2\n\n**Stage 4** as stage 2 unless the target has consumed raw meat in the past 24 hours, then it takes 4d6 void damage and is Sickened 2 until it consumes raw meat;\n\n**Stage 5** if the creature has eaten raw meat in the past 24 hours, it dies and rises as a ghoul, if not, it returns to stage 4",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "auditory",
+        "linguistic",
+        "occult"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "A Grabbed, Paralyzed, Restrained, or Unconscious creature is within the ghoul's reach",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "auditory",
+          "slug": "auditory"
+        },
+        {
+          "label": "linguistic",
+          "slug": "linguistic"
+        },
+        {
+          "label": "occult",
+          "slug": "occult"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "auditory",
+      "linguistic",
+      "monster-core",
+      "occult",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A5AD947C-5C7C-5441-BF12-674E09270AD4",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Ghoul) Grave Knowledge",
+    "slug": "ghoul-grave-knowledge-monster-core",
+    "descr": "**Frequency** once per hour\n\n**Effect** The ghoul calls upon knowledge it retains from one creature it has consumed in the past 7 days. The ghoul attempts a skill check using a skill in which the consumed creature was trained (if it's unclear whether the creature was trained, the GM decides). The ghoul is treated as trained and uses the high skill modifier for the ghoul's level. This takes the same amount of actions or time as usual for the check.\n\nThe ghoul can instead automatically learn something specific known by a creature it consumed in the last 7 days, like the location of a [Hidden](/condition/hidden-player-core) treasure or the name of a loved one. The ghoul can do this only once for a given creature, no matter how much of its flesh the ghoul consumed.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "occult"
+      ],
+      "category": "offensive",
+      "frequency": "once per hour",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": [
+        {
+          "label": "occult",
+          "slug": "occult"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "occult",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "44967115-203B-5F00-9A11-4496B79BD49B",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Ghoul) Swift Leap",
+    "slug": "ghoul-swift-leap-monster-core",
+    "descr": "The ghoul jumps up to half its Speed. This movement doesn't trigger reactions.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "move"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "move",
+          "slug": "move"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "move",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "11E68715-F243-5252-AE35-1DD7C8C4EF64",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Graveknight) Betrayed Revivification",
+    "slug": "graveknight-betrayed-revivification-monster-core",
+    "descr": "The graveknight died after being deeply betrayed.\n\nInstead of being immune to a type of energy damage, it is immune to mental damage, its weapons deal 1d6 mental damage, and its Devastating Blast deals mental damage with a Will saving throw instead of Reflex.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "64D530F1-583C-509D-8B2A-95126716B5FD",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Graveknight) Create Grave Squire",
+    "slug": "graveknight-create-grave-squire-monster-core",
+    "descr": "The graveknight can gift a piece of their armor to another creature, which becomes their grave squire.\n\nThe graveknight can communicate telepathically with their squire at any distance, see through the squire's senses, and cast Suggestion as a divine innate spell through the telepathic link at will; the squire treats their degree of success as one step worse.\n\nIf the graveknight's main armor is destroyed, the squire's piece expands to cover the squire's body over 1d10 days, after which point it becomes the graveknight's new body.\n\nThe graveknight can have only one squire at a time and must recover the armor piece to create a new squire.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "interaction",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2114B56C-CF14-5866-8210-F3D569D70D71",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Graveknight) Dark Deliverance",
+    "slug": "graveknight-dark-deliverance-monster-core",
+    "descr": "The graveknight has vitality resistance equal to its level.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "20BF2230-1096-5EE9-A7B4-0D948570B3A6",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Graveknight) Devastating Blast",
+    "slug": "graveknight-devastating-blast-monster-core",
+    "descr": "The graveknight unleashes a 30-foot cone of energy. Creatures in the area take limited use area damage for a creature of the graveknight's level with a basic Reflex based on a high DC of the graveknight's level.\n\nThe graveknight can use this ability once every 1d4 rounds.\n\nThis energy damage is of the same type as that of their ruinous weapons, and Devastating Blast gains the associated trait.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "arcane"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "arcane",
+          "slug": "arcane"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "arcane",
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E567B2C8-7CA1-50A0-9D49-A2A269D98B28",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Graveknight) Graveknight's Curse",
+    "slug": "graveknight-graveknight-s-curse-monster-core",
+    "descr": "This curse affects anyone who wears a graveknight's armor for at least 1 hour\n\n**Saving Throw** Will save\n\n**Onset** 1 hour\n\n**Stage 1** [Doomed 1](/condition/doomed-player-core) and can't remove armor (1 day)\n\n**Stage 2** Doomed 2, –10-foot status penalty to Speeds, and can't remove armor (1 day)\n\n**Stage 3** dies and transforms into the armor's graveknight.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "arcane",
+        "curse"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": [
+        {
+          "label": "arcane",
+          "slug": "arcane"
+        },
+        {
+          "label": "curse",
+          "slug": "curse"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "arcane",
+      "curse",
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A14B47CC-B8C7-50B5-A544-5BB53D4EA83B",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Graveknight) Phantom Mount",
+    "slug": "graveknight-phantom-mount-monster-core",
+    "descr": "HP __; AC __, Fort +__, Ref +__, Will +__\n\nThe graveknight summons a supernatural mount, as [Marvelous Mount](/spell/marvelous-mount-player-core) heightened to a rank equal to half the graveknight's level. Unlike *marvelous mount*, the steed's AC and saving throw bonuses are all 4 lower than the graveknight's, and the steed has one-third the graveknight's Hit Points (rounded down).\n\nIf the steed is destroyed, the graveknight must wait 1 hour before using this ability again.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "arcane",
+        "summon"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "three",
+      "traitLinks": [
+        {
+          "label": "arcane",
+          "slug": "arcane"
+        },
+        {
+          "label": "summon",
+          "slug": "summon"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "arcane",
+      "monster-core",
+      "remaster",
+      "summon"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "304A7CF5-B661-5907-9098-88F191176485",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Graveknight) Rejuvenation",
+    "slug": "graveknight-rejuvenation-monster-core",
+    "descr": "When a graveknight is destroyed, their armor rebuilds their body over the course of 1d10 days—or more quickly if the armor is worn by a living host. If the body is destroyed before then, the process restarts.\n\nA graveknight can only be permanently destroyed by obliterating their armor (such as with Disintegrate), transporting it to the Forge of Creation, or throwing it into the heart of a volcano.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "divine"
+      ],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": [
+        {
+          "label": "divine",
+          "slug": "divine"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "divine",
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5644B2F7-304F-59BD-9FEB-5D73E060DD23",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Graveknight) Ruinous Weapons",
+    "slug": "graveknight-ruinous-weapons-monster-core",
+    "descr": "When created, a graveknight chooses one of the following energy types that was relevant to their life or death: acid, cold, electricity, or fire.\n\nAny weapon the graveknight wields or unarmed attack the graveknight uses gains the effects of the *caustic*, *frost*, *shock*, or *[flaming](/item/flaming-gm-core)* weapon rune, respectively, in addition to a +1 [striking](/item/striking-gm-core) weapon rune.\n\nIf the graveknight is 14th level or higher, their weapons instead gain the effects of the greater versions of both of these runes.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C3D49B79-961A-58C1-803D-6A65ACDCD1B8",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Graveknight) Sacrilegious Aura",
+    "slug": "graveknight-sacrilegious-aura-monster-core",
+    "descr": "30 feet.\n\nWhen a creature in the aura uses a vitality spell or ability, the graveknight automatically attempts to counteract it, with a counteract modifier of +x.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "aura",
+        "divine",
+        "void"
+      ],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": [
+        {
+          "label": "aura",
+          "slug": "aura"
+        },
+        {
+          "label": "divine",
+          "slug": "divine"
+        },
+        {
+          "label": "void",
+          "slug": "void"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "aura",
+      "divine",
+      "monster-core",
+      "remaster",
+      "void"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F8DA3561-EDCE-585B-9FC5-39134302B097",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Graveknight) Weapon Master",
+    "slug": "graveknight-weapon-master-monster-core",
+    "descr": "The graveknight has access to the critical specialization effects of any weapons it wields.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0F583CF1-6C00-56B2-B5FD-ECCABA1AB062",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Lich) Blasphemous Utterances",
+    "slug": "lich-blasphemous-utterances-monster-core",
+    "descr": "10 feet. The lich is accompanied by a constant echo of blasphemous murmurs and tainted whispers.\n\nA creature in the aura takes a -2 circumstance penalty to saves against mental effects and can't take actions that have the [concentrate](/trait/concentrate) trait unless they succeed at a Flat DC 10 check. On a failure, the action is disrupted.\n\nEffect: Blasphemous Utterances",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "arcane",
+        "aura",
+        "mental"
+      ],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": [
+        {
+          "label": "arcane",
+          "slug": "arcane"
+        },
+        {
+          "label": "aura",
+          "slug": "aura"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "arcane",
+      "aura",
+      "mental",
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5C20D7A7-EC3C-5311-A028-3B328112ED60",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Lich) Cold Beyond Cold",
+    "slug": "lich-cold-beyond-cold-monster-core",
+    "descr": "The lich's hand Strike deals cold damage instead of void, and the target is [Slowed 2](/condition/slowed-player-core).\n\nA successful Fortitude save reduces this to Slowed 1 (or negates it on a critical success).",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9674333B-0FE5-54AC-BD18-6B58ED5CDE84",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Lich) Dark Deliverance",
+    "slug": "lich-dark-deliverance-monster-core",
+    "descr": "The lich has resistance equal to their level to vitality.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "BD24F36B-74A8-5970-92D2-FD73A7DC4D56",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Lich) Drain Soul Cage",
+    "slug": "lich-drain-soul-cage-monster-core",
+    "descr": "**Frequency** once per day\n\n**Effect** The lich taps into their *Soul Cage*'s power to cast any arcane spell up to the highest rank the lich can cast, even if the spell being cast is not one of the lich's prepared spells. The lich's soul cage doesn't need to be present for the lich to use this ability.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "offensive",
+      "frequency": "once per day",
+      "requirements": "",
+      "trigger": "",
+      "actions": "free",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0BCA8813-2ACF-5722-8BF4-B5C55FBF6F11",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Lich) Rejuvenation",
+    "slug": "lich-rejuvenation-monster-core",
+    "descr": "When a lich is destroyed, its soul immediately transfers to their *Soul Cage*. A lich can be permanently destroyed only if their *soul cage* is found and destroyed.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "arcane"
+      ],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": [
+        {
+          "label": "arcane",
+          "slug": "arcane"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "arcane",
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E921FB23-6042-59CE-8E8B-35F26C8BD855",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Lich) Siphon Life",
+    "slug": "lich-siphon-life-monster-core",
+    "descr": "A lich's form draws forth life from those who come into contact with it. When the lich damages a living creature with an unarmed attack, the lich gains 5 temporary Hit Points and the creature must succeed at a Fortitude save against the lich's spell DC – 2 or become [Drained 1](/condition/drained-player-core).\n\nIf the lich is [Grabbed](/condition/grabbed-player-core) or [Restrained](/condition/restrained-player-core) at the start of its turn, each creature grabbing or restraining it must succeed at a Fortitude save or become drained 1. If the lich siphons a creature's life again, the drained value increase by 1, to a maximum of Drained 4.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5ED7835F-B798-512C-83ED-CF73BDAB91D3",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Lich) Void Shroud",
+    "slug": "lich-void-shroud-monster-core",
+    "descr": "30 feet. The lich is surrounded by an aura of death, drawing forth souls to be consumed by the lich's constant hunger.\n\nLiving creatures in the emanation take a -2 status penalty to saves against fear and death effects. In addition, any creature that starts its turn in the area gains the [Doomed 1](/condition/doomed-player-core) condition unless it succeeds at a Will save against the lich's spell DC-4.\n\nEffect: Void Shroud",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "aura",
+        "death"
+      ],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": [
+        {
+          "label": "aura",
+          "slug": "aura"
+        },
+        {
+          "label": "death",
+          "slug": "death"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "aura",
+      "death",
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "EBEF7FD9-47C4-5552-949C-CCC085B3BF8B",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Nymph Queen) Change Shape",
+    "slug": "nymph-queen-change-shape-monster-core",
+    "descr": "Nymph queens can transform between their original form, which looks much like a typical nymph of their kind, and any Small or Medium humanoid form, typically choosing a more humanoid-looking version of their natural form.\n\nThe monster changes its shape indefinitely. It can use this action again to return to its natural shape or adopt a new shape. Unless otherwise noted, a monster cannot use Change Shape to appear as a specific individual. Using Change Shape counts as creating a disguise for the [Impersonate](/action/impersonate-player-core) use of Deception. The monster's transformation automatically defeats Perception DCs to determine whether the creature is a member of the ancestry or creature type into which it transformed, and it gains a +4 status bonus to its Deception DC to prevent others from seeing through its disguise. Change Shape abilities specify what shapes the monster can adopt. The monster doesn't gain any special abilities of the new shape, only its physical form. For example, in each shape, it replaces its normal Speeds and Strikes, and might potentially change its senses or size. Any changes are listed in its stat block.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "polymorph",
+        "primal"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "polymorph",
+          "slug": "polymorph"
+        },
+        {
+          "label": "primal",
+          "slug": "primal"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "polymorph",
+      "primal",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3B76B19F-DEBD-5193-8AD0-BCC466CBAEC2",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Nymph Queen) Focus Beauty",
+    "slug": "nymph-queen-focus-beauty-monster-core",
+    "descr": "The nymph queen focuses her beauty upon a target, who must attempt a save against her nymph's beauty aura (Will DC 0 save). If the creature fails and was already affected by the aura, it takes a greater effect described in the nymph queen's entry.\n\nA nymph queen can Focus Beauty on a given creature only once per turn.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "emotion",
+        "mental",
+        "primal",
+        "visual"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "emotion",
+          "slug": "emotion"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        },
+        {
+          "label": "primal",
+          "slug": "primal"
+        },
+        {
+          "label": "visual",
+          "slug": "visual"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "emotion",
+      "mental",
+      "monster-core",
+      "primal",
+      "remaster",
+      "visual"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "72648284-1382-5400-946D-4BE554C80A54",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Nymph Queen) Inspiration",
+    "slug": "nymph-queen-inspiration-monster-core",
+    "descr": "The nymph queen inspires a single intelligent creature by giving that creature a token of her favor, typically a lock of her hair, though it can be some other significant object as well. As long as the creature carries her token and remains in good standing with her, the creature gains a +1 status bonus to all Crafting checks, Performance checks, and Will saves.\n\nIf the nymph grants her token to a bard, and she's the bard's muse, the queen chooses one additional benefit granted by her token: a +1 status bonus to all Lore checks, a +2 status bonus to Performance checks when determining the effects of compositions, a +4 status bonus to untrained skill checks, or a +2 status bonus to Will saves against fey.\n\nEffect: Nymph Queen'S Inspiration",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "emotion",
+        "mental",
+        "primal"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "three",
+      "traitLinks": [
+        {
+          "label": "emotion",
+          "slug": "emotion"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        },
+        {
+          "label": "primal",
+          "slug": "primal"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "emotion",
+      "mental",
+      "monster-core",
+      "primal",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C22263A2-D715-5215-9C49-7B6F53836760",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Nymph Queen) Nymph's Beauty",
+    "slug": "nymph-queen-nymph-s-beauty-monster-core",
+    "descr": "30 feet. [Nymph Effect]\n\nCreatures that start their turn in the aura must succeed at a Will DC 0 save or suffer an effect described in the nymph queen's entry.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "aura",
+        "emotion",
+        "mental",
+        "primal",
+        "visual"
+      ],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": [
+        {
+          "label": "aura",
+          "slug": "aura"
+        },
+        {
+          "label": "emotion",
+          "slug": "emotion"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        },
+        {
+          "label": "primal",
+          "slug": "primal"
+        },
+        {
+          "label": "visual",
+          "slug": "visual"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "aura",
+      "emotion",
+      "mental",
+      "monster-core",
+      "primal",
+      "remaster",
+      "visual"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3F518C85-A11E-5971-BEAC-983466FE6C29",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Nymph Queen) Tied to the Land",
+    "slug": "nymph-queen-tied-to-the-land-monster-core",
+    "descr": "A nymph queen is intrinsically tied to a specific region. As long as the queen is healthy, the environment is exceptionally resilient, allowing the nymph queen to automatically attempt to counteract any spell that would harm the environment (such as the [Blight](/ritual/blight-player-core) ritual), using her spell DC with a counteract rank equal to the highest-rank druid spell she can cast.\n\nWhen the nymph queen becomes physically or psychologically unhealthy, however, her warded region eventually becomes twisted or unhealthy as well. In that case, restoring the nymph queen swiftly heals the entire region.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "interaction",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "BBDD5B87-C3C9-5E70-A11A-2BBB99A644C2",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Protean) Protean Anatomy",
+    "slug": "protean-protean-anatomy-monster-core",
+    "descr": "A protean's vital organs shift and change shape and position constantly. Immediately after the protean takes acid, electricity, or sonic damage, it gains the listed amount of resistance to that damage type. This lasts for 1 hour or until the next time the protean takes damage of one of the other types (in which case its resistance changes to match that type), whichever comes first. The protean is immune to polymorph effects unless it is a willing target. If [Blinded](/condition/blinded-player-core) or [Deafened](/condition/deafened-player-core), the protean automatically recovers at the end of its next turn as new sensory organs grow to replace the compromised ones.\n\nEffect: Protean Anatomy",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "divine"
+      ],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": [
+        {
+          "label": "divine",
+          "slug": "divine"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "divine",
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "757234F3-24C2-5F13-86EC-D24B267A7AFA",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Protean) Warpwave",
+    "slug": "protean-warpwave-monster-core",
+    "descr": "Many proteans can subject their foes to disorienting alterations perceived in time and space by creating ripples of unstable reality in the environment called warpwaves. When a creature fails its saving throw and is affected by a warpwave, roll 1d8 and consult the table below for the specific effect on that creature. Unless indicated otherwise, a warpwave effect lasts for 1d4 rounds, and a new warpwave effect negates any previous warpwave effect already affecting a creature.\n\n| 1d8 | Warpwave Effect |\n| --- | --- |\n| 1 | Clumsy 2 (Clumsy 3 on a critical failure) |\n| 2 | Confused and gains 4d6 temporary Hit Points |\n| 3 | Dazzled (permanent on a critical failure) |\n| 4 | Enfeebled 2 (Enfeebled 3 on a critical failure) |\n| 5 | Immobilized by filaments of energy |\n| 6 | Quickened (Stride, Strike, or Step only) |\n| 7 | Slowed 1 |\n| 8 | Stupefied 2 (Stupefied 3 on a critical failure) |",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "738CC31E-9B45-5FCA-A6EC-5E512821585A",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Skeleton) Bloody",
+    "slug": "skeleton-bloody-monster-core",
+    "descr": "A coating of blood gives the skeleton fast healing equal to its level.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D5983961-FBFF-50A7-8D06-06F63177FAC4",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Skeleton) Collapse",
+    "slug": "skeleton-collapse-monster-core",
+    "descr": "**Trigger** The skeleton is critically hit.\n\n**Effect** The skeleton collapses into a pile of bones and the attack deals only normal damage. The skeleton can reform in a standing position as an action, but until it does, it is [Immobilized](/condition/immobilized-player-core) and [Off Guard](/condition/off-guard-player-core).",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "The skeleton is critically hit",
+      "actions": "reaction",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "07D28EFD-DE43-5696-B85E-FFF093E1C2F6",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Skeleton) Explosive Death",
+    "slug": "skeleton-explosive-death-monster-core",
+    "descr": "When the skeleton is destroyed, its bones shatter and explode.\n\nAdjacent creatures take 1d6 slashing damage per 2 levels (minimum 1d6) with a basic Reflex save against the moderate spell DC for the skeleton's level.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F30E2C0C-C37C-5ABA-95C6-2F357F648F22",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Skeleton) Screaming Skull",
+    "slug": "skeleton-screaming-skull-monster-core",
+    "descr": "The skeleton removes its skull and throws it, making a jaws attack with a range of 20 feet. It then attempts to [Demoralize](/action/demoralize-player-core) each foe within 10 feet of the target.\n\nThe head bounces, rolls, or even flies back, returning to the skeleton at the start of its next turn. The skeleton is [Blinded](/condition/blinded-player-core) until then.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "auditory",
+        "emotion",
+        "fear",
+        "mental"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "auditory",
+          "slug": "auditory"
+        },
+        {
+          "label": "emotion",
+          "slug": "emotion"
+        },
+        {
+          "label": "fear",
+          "slug": "fear"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "auditory",
+      "emotion",
+      "fear",
+      "mental",
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C229071E-9AA9-59E8-A399-66146362DCF0",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Vampire, Basic) Coffin Restoration",
+    "slug": "vampire-basic-coffin-restoration-monster-core",
+    "descr": "Unlike other undead, a vampire isn't destroyed at 0 HP. Instead, it falls [Unconscious](/condition/unconscious-player-core). If its body rests in its coffin for 1 hour, the vampire gains 1 HP, after which its fast healing begins to function normally.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "divine",
+        "void"
+      ],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": [
+        {
+          "label": "divine",
+          "slug": "divine"
+        },
+        {
+          "label": "void",
+          "slug": "void"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "divine",
+      "monster-core",
+      "remaster",
+      "void"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9E72DE89-62E0-56A1-8B77-1B448CD293B7",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Vampire, Basic) Drink Blood",
+    "slug": "vampire-basic-drink-blood-monster-core",
+    "descr": "**Requirement** A [Grabbed](/condition/grabbed-player-core), [Paralyzed](/condition/paralyzed-player-core), [Restrained](/condition/restrained-player-core), [Unconscious](/condition/unconscious-player-core), or willing creature is within the vampire's reach.\n\n**Effect** The vampire sinks its fangs into that creature to drink its blood. This requires an Athletics check against the victim's Fortitude DC if the victim is grabbed and is automatic for any of the other conditions.\n\nThe victim is [Drained 1](/condition/drained-player-core) and the vampire regains HP equal to 10% of its maximum HP, gaining any excess HP as temporary Hit Points. Drinking Blood from a creature that's already drained doesn't restore any HP to the vampire but increases the victim's drained value by 1, killing the victim when it reaches drained 5. A vampire can also consume blood that's been emptied into a vessel for sustenance, but it gains no HP from doing so.\n\nA victim's drained condition decreases by 1 per week. A blood transfusion, which requires a Medicine DC 20 check and sufficient blood or a blood donor, reduces the drain by 1 after 10 minutes.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "divine"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "divine",
+          "slug": "divine"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "divine",
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "09145921-F94C-5313-B0E6-6553B80DCA8E",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Vampire, Basic) Vampire Vulnerabilities",
+    "slug": "vampire-basic-vampire-vulnerabilities-monster-core",
+    "descr": "All vampires possess the following vulnerabilities.\n\n**Compulsions** Vampires are creatures with strange and unknowable compulsions. A typical vampire can't voluntarily cross running water unless they're transported while they hide within their coffin, nor can they enter a private dwelling unless invited in by someone with the authority to do so. At your discretion, vampires might have different compulsions—a pirate vampire might not be able to set foot on solid ground without being invited, for example. The vampire can still be forced to do these things and might be able to overcome their compulsion just as they do their revulsion.\n**Revulsion** A vampire can't voluntarily come within 10 feet of brandished garlic or a brandished religious symbol of a deity with a holy sanctification option. To brandish garlic or a religious symbol, a creature must Interact to do so, and it remains brandished for 1 round (similar to Raising a Shield). If the vampire involuntarily comes within 10 feet of an object of their revulsion, they gain the [Fleeing](/condition/fleeing-player-core) condition, running from the object of their revulsion until they end an action beyond 10 feet. After 1 round of being exposed to the subject of their revulsion, a vampire can attempt a Will DC 25 save as a single action, which has the [concentrate](/trait/concentrate) trait. On a success, they overcome their revulsions for 1d6 rounds (or 1 hour on a critical success).\n**Stake** A wooden stake driven through a vampire's heart drops the vampire to 0 HP and prevents them from healing above 0 HP, even in their coffin. Staking a vampire requires 3 actions and works only if the vampire is Unconscious. If the stake is removed, the vampire can heal above 0 HP again, and if they're in their coffin, the 1-hour rest period begins once the stake is removed. If the vampire's head is severed and anointed with holy water while the stake is in place, the vampire is destroyed.\n**Sunlight** If exposed to direct sunlight, a vampire immediately becomes Slowed 1. The slowed value increases by 1 each time the vampire ends their turn in sunlight, and the condition ends when they're no longer in sunlight. If the vampire loses all their actions in this way, they're destroyed. Due to their supernatural aversion to light, vampires don't cast shadows or show a reflection in mirrors",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "97AEC197-04E9-5DAD-9547-0A33F7000422",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Vampire, True) Change Shape",
+    "slug": "vampire-true-change-shape-monster-core",
+    "descr": "The vampire transforms into one of its animal forms or back into its normal form. Most vampires can turn into a bat, but some can turn into a different creature, such as a rat or a wolf.\n\nUse the options in the [Aerial Form](/spell/aerial-form-player-core) and [Animal Form](/spell/animal-form-player-core) spells as guidelines.\n\n**Bat** The vampire changes into a [Bat Swarm](/creature/vampire-bat-swarm-monster-core) or [Giant Bat](/creature/giant-bat-monster-core). They gain echolocation 40 feet, a land Speed of 20 feet and a fly Speed of 30 feet, and a fangs Strike with the same attack bonus as their highest melee attack. These fangs deal the same amount of damage as the vampire's claws, but deal piercing damage rather than slashing damage.\n\nThe monster changes its shape indefinitely. It can use this action again to return to its natural shape or adopt a new shape. Unless otherwise noted, a monster cannot use Change Shape to appear as a specific individual. Using Change Shape counts as creating a disguise for the [Impersonate](/action/impersonate-player-core) use of Deception. The monster's transformation automatically defeats Perception DCs to determine whether the creature is a member of the ancestry or creature type into which it transformed, and it gains a +4 status bonus to its Deception DC to prevent others from seeing through its disguise. Change Shape abilities specify what shapes the monster can adopt. The monster doesn't gain any special abilities of the new shape, only its physical form. For example, in each shape, it replaces its normal Speeds and Strikes, and might potentially change its senses or size. Any changes are listed in its stat block.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "divine",
+        "polymorph"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "divine",
+          "slug": "divine"
+        },
+        {
+          "label": "polymorph",
+          "slug": "polymorph"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "divine",
+      "monster-core",
+      "polymorph",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E12492AB-32CC-580C-BA79-792786B28DB8",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Vampire, True) Children of the Night",
+    "slug": "vampire-true-children-of-the-night-monster-core",
+    "descr": "The vampire's presence brings forth creatures of the night to do the master's bidding. These typically include [Rat Swarms](/creature/rat-swarm-monster-core), [Bat Swarms](/creature/vampire-bat-swarm-monster-core), and [Wolves](/creature/wolf-monster-core), but can include other creatures.\n\nThe vampire can give telepathic orders to these creatures as long as they are within 100 feet, but they can't communicate back.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "divine",
+        "mental"
+      ],
+      "category": "interaction",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": [
+        {
+          "label": "divine",
+          "slug": "divine"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "divine",
+      "mental",
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D04E10C7-7F3B-5746-AA0C-0D82FB169D30",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Vampire, True) Create Servitor",
+    "slug": "vampire-true-create-servitor-monster-core",
+    "descr": "If a creature dies after being reduced to 0 HP by Drink Blood, the vampire can turn this victim into a vampire servitor by donating some of their own blood to the victim and burying the victim in earth for 3 nights.\n\nA vampiric servitor is compelled to obey its creator, but if a vampire controls too many vampiric servitors at once (as determined by the GM), or if the servitor is a higher level than the vampire that created it, strong-willed servitors can free themselves by succeeding at a Will saving throw against the vampire's Will DC.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "divine",
+        "downtime"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": [
+        {
+          "label": "divine",
+          "slug": "divine"
+        },
+        {
+          "label": "downtime",
+          "slug": "downtime"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "divine",
+      "downtime",
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "90D1D15A-1E2A-5908-844E-174310FB3991",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Vampire, True) Dominate",
+    "slug": "vampire-true-dominate-monster-core",
+    "descr": "The vampire can cast [Dominate](/spell/dominate-player-core) at will as a divine innate spell. Casting it requires staring into the target's eyes, giving the spell the [visual](/trait/visual) trait (Will). The save DC uses the high spell DC of the vampire's level, and a creature that succeeds is temporarily immune to that vampire's Dominate for 24 hours.\n\nFully destroying the vampire ends the domination, but merely reducing the vampire to 0 HP is insufficient to break the spell.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "divine",
+        "incapacitation",
+        "mental",
+        "visual"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "divine",
+          "slug": "divine"
+        },
+        {
+          "label": "incapacitation",
+          "slug": "incapacitation"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        },
+        {
+          "label": "visual",
+          "slug": "visual"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "divine",
+      "incapacitation",
+      "mental",
+      "monster-core",
+      "remaster",
+      "visual"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4855B50A-DED9-5AA8-AEEE-6DB38E30DCD0",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Vampire, True) Drink Blood",
+    "slug": "vampire-true-drink-blood-monster-core",
+    "descr": "**Requirement** A [Grabbed](/condition/grabbed-player-core), [Paralyzed](/condition/paralyzed-player-core), [Restrained](/condition/restrained-player-core), [Unconscious](/condition/unconscious-player-core), or willing creature is within the vampire's reach.\n\n**Effect** The vampire sinks its fangs into that creature to drink its blood. This requires an Athletics check against the victim's Fortitude DC if the victim is grabbed and is automatic for any of the other conditions.\n\nThe victim is [Drained 2](/condition/drained-player-core) and the vampire regains HP equal to 10% of its maximum HP, gaining any excess HP as temporary Hit Points. Drinking Blood from a creature that's already drained doesn't restore any HP to the vampire but increases the victim's drained value by 1, killing the victim when it reaches drained 5. A vampire can also consume blood that's been emptied into a vessel for sustenance, but it gains no HP from doing so.\n\nA victim's drained condition decreases by 1 per week. A blood transfusion, which requires a Medicine DC 20 check and sufficient blood or a blood donor, reduces the drain by 1 after 10 minutes.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "divine"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "divine",
+          "slug": "divine"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "divine",
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "25131493-810F-51FD-8C6B-66138D83DEDC",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Vampire, True) Mist Escape",
+    "slug": "vampire-true-mist-escape-monster-core",
+    "descr": "**Trigger** The vampire is reduced to 0 HP.\n\n**Effect** The vampire uses Turn to Mist. They can take move actions to move toward its coffin even though it's at 0 HP. While at 0 HP in this form, the vampire is unaffected by further damage.\n\nThey automatically returns to its corporeal form, unconscious, if they reaches their coffin or after 2 hours, whichever comes first.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "The vampire is reduced to 0 HP",
+      "actions": "free",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E2AE728F-4D90-5D6A-831A-EDCE2F4034FA",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Vampire, True) Turn to Mist",
+    "slug": "vampire-true-turn-to-mist-monster-core",
+    "descr": "The vampire turns into a cloud of vapor, as the [Vapor Form](/spell/vapor-form-player-core) spell, or back to its normal form. The vampire loses fast healing while in gaseous form.\n\nThe vampire can remain in this form indefinitely.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "air",
+        "concentrate",
+        "divine",
+        "polymorph"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "air",
+          "slug": "air"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "divine",
+          "slug": "divine"
+        },
+        {
+          "label": "polymorph",
+          "slug": "polymorph"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "air",
+      "concentrate",
+      "divine",
+      "monster-core",
+      "polymorph",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E7A3CBA4-D495-5338-8B56-350983CF95DE",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Werecreature) Animal Empathy",
+    "slug": "werecreature-animal-empathy-monster-core",
+    "descr": "The werecreature can ask questions of, receive answers from, and use the Diplomacy skill with animals of its general kind.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "interaction",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E2F8B444-08DE-5A39-A6F4-8105DBB3FE47",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Werecreature) Change Shape",
+    "slug": "werecreature-change-shape-monster-core",
+    "descr": "**Human**\n\n**Melee** fist +x **Damage** 1d4+x\n\n**Animal**\n\nThe werecreature changes into its humanoid, hybrid, or animal shape. Each shape has a specific, persistent appearance. A true werecreature's natural form is its hybrid shape.\n\nIn humanoid shape, the werecreature uses its original humanoid size, loses its jaws and claws Strikes, and gains a melee fist Strike that deals bludgeoning damage equal to the slashing damage dealt by its claw.\n\nIn animal shape, its Speed and size change to that of the animal, it gains any special Strike effects of the animal that it didn't already have (such as Grab), and it loses its weapon Strikes.\n\nThe monster changes its shape indefinitely. It can use this action again to return to its natural shape or adopt a new shape. Unless otherwise noted, a monster cannot use Change Shape to appear as a specific individual. Using Change Shape counts as creating a disguise for the [Impersonate](/action/impersonate-player-core) use of Deception. The monster's transformation automatically defeats Perception DCs to determine whether the creature is a member of the ancestry or creature type into which it transformed, and it gains a +4 status bonus to its Deception DC to prevent others from seeing through its disguise. Change Shape abilities specify what shapes the monster can adopt. The monster doesn't gain any special abilities of the new shape, only its physical form. For example, in each shape, it replaces its normal Speeds and Strikes, and might potentially change its senses or size. Any changes are listed in its stat block.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "polymorph",
+        "primal"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "polymorph",
+          "slug": "polymorph"
+        },
+        {
+          "label": "primal",
+          "slug": "primal"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "monster-core",
+      "polymorph",
+      "primal",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "623022B3-3950-50BD-9883-F7A9711DEDA8",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Werecreature) Curse of the Werecreature",
+    "slug": "werecreature-curse-of-the-werecreature-monster-core",
+    "descr": "This curse affects only humanoids.\n\n**Saving Throw** Fortitude DC is the moderate spell DC for the werecreature's new level.\n\nOn each full moon, the cursed creature must succeed at another Fortitude save or turn into the same kind of werecreature until dawn.\n\nThe creature is under the GM's control and goes on a rampage for half the night before falling unconscious until dawn.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "curse",
+        "primal"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": [
+        {
+          "label": "curse",
+          "slug": "curse"
+        },
+        {
+          "label": "primal",
+          "slug": "primal"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "curse",
+      "monster-core",
+      "primal",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "DB6A2100-1E40-57D3-A386-762FFE9653D0",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Werecreature) Moon Frenzy",
+    "slug": "werecreature-moon-frenzy-monster-core",
+    "descr": "When a full moon appears in the night sky, the werecreature must enter hybrid form, can't Change Shape thereafter, becomes one size larger, increases its reach by 5 feet, and increases the damage of its jaws by 2.\n\nWhen the moon sets or the sun rises, the werecreature returns to humanoid form and is Fatigued for 2d4 hours.\n\nEffect: Moon Frenzy",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "polymorph",
+        "primal"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": [
+        {
+          "label": "polymorph",
+          "slug": "polymorph"
+        },
+        {
+          "label": "primal",
+          "slug": "primal"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "polymorph",
+      "primal",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "FC25163D-AFBA-5E9A-9B34-0BDE63464920",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Zombie) Disgusting Pustules",
+    "slug": "zombie-disgusting-pustules-monster-core",
+    "descr": "The zombie is covered in pustules that rupture when it takes any piercing damage or any critical hit.\n\nAdjacent creatures are hit with vile fluid, causing them to become [Sickened 1](/condition/sickened-player-core) unless they succeed at a Fortitude save against the moderate spell DC for the zombie's level.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "disease"
+      ],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": [
+        {
+          "label": "disease",
+          "slug": "disease"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "disease",
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "11D921C1-D4FB-5D30-B494-70360B3CCE3C",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Zombie) Feast",
+    "slug": "zombie-feast-monster-core",
+    "descr": "If the zombie is adjacent to a [Restrained](/condition/restrained-player-core) or [Unconscious](/condition/unconscious-player-core) creature, or a corpse that died in the past hour, the zombie can feast upon its flesh to heal itself.\n\nThis restores an amount of Hit Points equal to the zombie's level. If the creature is alive, the zombie deals damage equal to its jaws, fist, or claw damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "manipulate"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "manipulate",
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "024C0462-900E-550F-89AA-1E074AD1AB82",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Zombie) Plague-Ridden",
+    "slug": "zombie-plague-ridden-monster-core",
+    "descr": "The zombie carries a plague that can create more of its own kind.\n\nThis functions as the [Plague Zombie's](/creature/plague-zombie-monster-core) zombie rot, except at stage 5, the victim rises as another of the zombie's type, rather than a plague zombie.\n\n**Zombie Rot**\n\nAn infected creature can't heal damage it takes from zombie rot until it has been cured of the disease.\n\n**Saving Throw** Type:fortitude. Use the high spell DC for the zombie's level.\n\n**Stage 1** carrier with no ill effect (1 day)\n\n**Stage 2** 1d6 void damage (1 day)\n\n**Stage 3** 1d6 void damage (1 day)\n\n**Stage 4** 1d6 void damage (1 day)\n\n**Stage 5** dead, rising as another of the zombie's type immediately",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "disease"
+      ],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": [
+        {
+          "label": "disease",
+          "slug": "disease"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "disease",
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D4125F0B-47DF-529C-962A-827E63BBD712",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Zombie) Rotting Aura",
+    "slug": "zombie-rotting-aura-monster-core",
+    "descr": "10 feet. The zombie emits an aura of rot and disease that causes wounds to fester.\n\nAny living creature that starts its turn within 10 feet of the zombie and is not at full Hit Points takes 1d6 void damage. This damage increases by 1d6 for every 6 levels the zombie has.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "aura",
+        "disease",
+        "void"
+      ],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": [
+        {
+          "label": "aura",
+          "slug": "aura"
+        },
+        {
+          "label": "disease",
+          "slug": "disease"
+        },
+        {
+          "label": "void",
+          "slug": "void"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "aura",
+      "disease",
+      "monster-core",
+      "remaster",
+      "void"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "7CB344AA-76B2-5188-AC0F-6CCEF8DA98E2",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Zombie) Unkillable",
+    "slug": "zombie-unkillable-monster-core",
+    "descr": "This zombie is nigh unkillable. The zombie loses its weakness to slashing and gains resistance against all damage equal to its level (minimum 3), and it gains weakness equal to twice its level (minimum 6) to critical hits.\n\nIncrease the zombie's level by 1 if you give it this ability.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "ABF31DD0-37ED-5C90-9943-7D90D0A539ED",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "+1 Status to All Saves vs. Magic",
+    "slug": "1-status-to-all-saves-vs-magic-monster-core",
+    "descr": "",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4B97CAE8-80F9-5BAB-9094-690E98A87E18",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "All-Around Vision",
+    "slug": "all-around-vision-monster-core",
+    "descr": "This monster can see in all directions simultaneously and therefore can't be flanked.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A693BE89-F01D-5FE7-AAD2-FB7EBB3A2C02",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Aquatic Ambush",
+    "slug": "aquatic-ambush-monster-core",
+    "descr": "**Requirements** The monster is hiding in water and a creature that hasn't detected it is within the listed number of feet.\n\n**Effect** The monster moves up to its swim Speed + 10 feet toward the triggering creature, traveling on water and on land. Once the creature is in reach, the monster makes a Strike against it. The creature is [Off-Guard](/condition/off-guard-player-core) against this Strike.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "22ABBB02-6FBC-56EA-A6A8-7960E8BCF7DA",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "At-Will Spells",
+    "slug": "at-will-spells-monster-core",
+    "descr": "The monster can cast its at-will spells any number of times without using up spell slots.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "interaction",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "74E49619-0976-5DFE-B2A9-A653528BB266",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Aura",
+    "slug": "aura-monster-core",
+    "descr": "A monster's aura automatically affects everything within a specified emanation around that monster. The monster doesn't need to spend actions on the aura; rather, the aura's effects are applied at specific times, such as when a creature ends its turn in the aura or when creatures enter the aura.\n\nIf an aura does nothing but deal damage, its entry lists only the radius, damage, and saving throw. Such auras deal this damage to a creature when the creature enters the aura and when a creature starts its turn in the aura. A creature can take damage from the aura only once per round.\n\nThe GM might determine that a monster's aura doesn't affect its own allies. For example, a creature might be immune to a monster's frightful presence if they have been around each other for a long time.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "220E0212-53E2-5962-836E-F6F21B810D4A",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Buck",
+    "slug": "buck-monster-core",
+    "descr": "Reflex",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "reaction",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8B88BD4A-94ED-52D2-B336-538DFA97FF0E",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Change Shape",
+    "slug": "change-shape-monster-core",
+    "descr": "The monster changes its shape indefinitely. It can use this action again to return to its natural shape or adopt a new shape. Unless otherwise noted, a monster cannot use Change Shape to appear as a specific individual. Using Change Shape counts as creating a disguise for the [Impersonate](/action/impersonate-player-core) use of Deception. The monster's transformation automatically defeats Perception DCs to determine whether the creature is a member of the ancestry or creature type into which it transformed, and it gains a +4 status bonus to its Deception DC to prevent others from seeing through its disguise. Change Shape abilities specify what shapes the monster can adopt. The monster doesn't gain any special abilities of the new shape, only its physical form. For example, in each shape, it replaces its normal Speeds and Strikes, and might potentially change its senses or size. Any changes are listed in its stat block.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "polymorph"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "polymorph",
+          "slug": "polymorph"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "monster-core",
+      "polymorph",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "899F94CA-8236-5061-91AC-88F929EE274F",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Constant Spells",
+    "slug": "constant-spells-monster-core",
+    "descr": "A constant spell affects the monster without the monster needing to cast it, and its duration is unlimited. If a constant spell gets counteracted, the monster can reactivate it by spending the normal spellcasting actions the spell requires.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "interaction",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "BF04F132-E9F9-5654-9292-01D0AA9A7FF4",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Constrict",
+    "slug": "constrict-monster-core",
+    "descr": "0 bludgeoning, basic Fortitude\n\nThe monster deals the listed amount of damage to any number of creatures [Grabbed](/condition/grabbed-player-core) or [Restrained](/condition/restrained-player-core) by it. Each of those creatures can attempt a basic Fortitude save with the listed DC.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C99F0FFA-7F9E-53B5-8A85-B94B0C65F4E7",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Coven",
+    "slug": "coven-monster-core",
+    "descr": "This monster can form a coven with two or more other creatures who also have the coven ability. This involves performing an 8-hour ceremony with all prospective coven members. After the coven is formed, each of its members gains elite adjustments, adjusting their levels accordingly. Coven members can sense other members' locations and conditions by spending a single action, which has the concentrate trait, and can sense what another coven member is sensing as a two-action activity, which has the concentrate trait as well.\n\nCovens also grant spells and rituals to their members, but these can be cast only in cooperation between three coven members who are all within 30 feet of one another. A coven member can contribute to a coven spell with a single action that has the concentrate trait. If two coven members have contributed these actions within the last round, a third member can cast a coven spell on her turn by spending the normal spellcasting actions. A coven can cast its coven spells an unlimited number of times but can cast only one coven spell each round. All covens grant the 8th-rank [Cursed Metamorphosis](/spell/cursed-metamorphosis-player-core) spell and all the following spells, which the coven can cast at any rank up to 5th: [Augury](/spell/augury-player-core), [Charm](/spell/charm-player-core), [Clairaudience](/spell/clairaudience-player-core), [Clairvoyance](/spell/clairvoyance-player-core), [Dream Message](/spell/dream-message-player-core), [Illusory Disguise](/spell/illusory-disguise-player-core), [Illusory Scene](/spell/illusory-scene-player-core), [Scouting Eye](/spell/scouting-eye-player-core), and [Talking Corpse](/spell/talking-corpse-player-core). Individual creatures with the coven ability also grant additional spells to any coven they join. A coven can also cast the [Control Weather](/ritual/control-weather-player-core) ritual, with a DC of 23 instead of the standard DC.\n\nIf a coven member's departure or death brings the coven below three members, the remaining members keep their elite adjustments for 24 hours, but without enough members to contribute the necessary actions, they can't cast coven spells.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "mental",
+        "occult"
+      ],
+      "category": "interaction",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": [
+        {
+          "label": "mental",
+          "slug": "mental"
+        },
+        {
+          "label": "occult",
+          "slug": "occult"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "mental",
+      "monster-core",
+      "occult",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "6F827FD5-09B1-53A2-8A36-B026013C7AEF",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Darkvision",
+    "slug": "darkvision-monster-core",
+    "descr": "A monster with darkvision can see perfectly well in areas of darkness and dim light, though such vision is in black and white only. Some forms of magical darkness, such as a 4th-rank [Darkness](/spell/darkness-player-core) spell, block normal darkvision. A monster with [Greater Darkvision](/action/greater-darkvision-monster-core), however, can see through even these forms of magical darkness.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "interaction",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0AFA9562-45EA-54E3-AC6C-4DE61E144B5C",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Disease",
+    "slug": "disease-monster-core",
+    "descr": "When a creature is exposed to a monster's disease, it attempts a Fortitude save or succumbs to the disease. The level of a disease is the level of the monster inflicting the disease. The disease follows the rules for afflictions.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2695358D-B059-5674-A1FF-BBC057B73208",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Engulf",
+    "slug": "engulf-monster-core",
+    "descr": "Reflex, (0) damageType damage, Escape, Rupture [0]\n\nThe monster Strides up to double its Speed and can move through the spaces of any creatures in its path. Any creature of the monster's size or smaller whose space the monster moves through can attempt a Reflex save with the listed DC to avoid being engulfed. A creature unable to act automatically critically fails this save. If a creature succeeds at its save, it can choose to be either pushed aside (out of the monster's path) or pushed in front of the monster to the end of the monster's movement. The monster can attempt to Engulf the same creature only once in a single use of Engulf. The monster can contain as many creatures as can fit in its space.\n\nA creature that fails its save is pulled into the monster's body. It is [Grabbed](/condition/grabbed-player-core), is [Slowed 1](/condition/slowed-player-core), and has to hold its breath or start suffocating. The creature takes the listed amount of damage when first engulfed and at the end of each of its turns while it's engulfed. An engulfed creature can get free by [Escaping](/action/escape-player-core) against the listed escape DC. An engulfed creature can attack the monster engulfing it, but only with unarmed attacks or with weapons of light Bulk or less. The engulfing creature is [Off-Guard](/condition/off-guard-player-core) against the attack. If the monster takes piercing or slashing damage equaling or exceeding the listed Rupture value from a single attack or spell, the engulfed creature cuts itself free.\n\n[Effect: Engulf and Swallow Whole](/condition/effect-engulf-and-swallow-whole-monster-core)\n\nA creature that gets free by either method can immediately breathe and exits the swallowing monster's space.\n\nIf the monster dies, all creatures it has engulfed are automatically released as the monster's form loses cohesion.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "two",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2FEB6B31-098F-581D-B16D-E598509F931A",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Fast Healing",
+    "slug": "fast-healing-monster-core",
+    "descr": "A monster with this ability regains the given number of Hit Points each round at the beginning of its turn.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B8B9E8C4-DF38-56AD-9372-FE3E78C0DA98",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Ferocity",
+    "slug": "ferocity-monster-core",
+    "descr": "**Trigger** The monster is reduced to 0 HP.\n\n**Effect** The monster avoids being knocked out and remains at 1 HP, but its [Wounded](/condition/wounded-player-core) value increases by 1. When it is Wounded 3, it can no longer use this ability",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "reaction",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "BB18EAAB-AB43-56ED-9BED-A9B60CAD18B0",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Frightful Presence",
+    "slug": "frightful-presence-monster-core",
+    "descr": "0 feet. Will\n\nA creature that first enters the area must attempt a Will save.\n\nRegardless of the result of the saving throw, the creature is temporarily immune to this monster's Frightful Presence for 1 minute.\n\n**Critical Success** The creature is unaffected by the presence.\n\n**Success** The creature is [Frightened 1](/condition/frightened-player-core).\n\n**Failure** The creature is Frightened 2.\n\n**Critical Failure** The creature is Frightened 4.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "aura",
+        "emotion",
+        "fear",
+        "mental"
+      ],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": [
+        {
+          "label": "aura",
+          "slug": "aura"
+        },
+        {
+          "label": "emotion",
+          "slug": "emotion"
+        },
+        {
+          "label": "fear",
+          "slug": "fear"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "aura",
+      "emotion",
+      "fear",
+      "mental",
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0D111300-C8B8-53F5-A115-235F9CF89CB1",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Grab",
+    "slug": "grab-monster-core",
+    "descr": "**Requirements** The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature [Grabbed](/condition/grabbed-player-core) or [Restrained](/condition/restrained-player-core)\n\n**Effect** If used after a Strike, the monster attempts to Grapple the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.\n\nThe monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B64D74DB-D2F4-5693-9046-84D59A0B78B7",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Greater Constrict",
+    "slug": "greater-constrict-monster-core",
+    "descr": "0 bludgeoning, basic Fortitude\n\nThe monster deals the listed amount of damage to any number of creatures [Grabbed](/condition/grabbed-player-core) or [Restrained](/condition/restrained-player-core) by it. Each of those creatures can attempt a basic Fortitude save with the listed DC. A creature that fails this save falls [Unconscious](/condition/unconscious-player-core), and a creature that succeeds is then temporarily immune to falling unconscious from Greater Constrict for 1 minute.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "6BA3E9F9-30FB-5810-BA89-0AA1F7D99DFA",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Greater Darkvision",
+    "slug": "greater-darkvision-monster-core",
+    "descr": "A creature with greater darkvision can see perfectly well in areas of darkness and dim light, though such vision is in black and white only. A creature with greater darkvision can see through even forms of magical darkness.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "interaction",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8A7BCE21-5E2E-5FFC-8C89-3CB475DBEFC1",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Improved Grab",
+    "slug": "improved-grab-monster-core",
+    "descr": "**Trigger** The monster's last action was a successful Strike that lists Improved Grab in its damage entry, or the monster has a creature [Grabbed](/condition/grabbed-player-core) or [Restrained](/condition/restrained-player-core)\n\n**Effect** If used after a Strike, the monster attempts to Grapple the creature using the body part it attacked with as a free action. This attempt neither applies nor counts toward the creature's multiple attack penalty.\n\nThe monster can instead use Improved Grab as an action and choose one creature it's grabbing or restraining with an appendage that has Improved Grab to automatically extend that condition to the end of the monster's next turn.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "free",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "94837E20-0DAC-5635-9F0D-1882492C1F09",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Improved Knockdown",
+    "slug": "improved-knockdown-monster-core",
+    "descr": "**Trigger** The monster's last action was a successful Strike that lists Improved Knockdown in its damage entry\n\n**Effect** The monster attempts to Trip the creature as a free action. This attempt neither applies nor counts toward the monster's multiple attack penalty.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "free",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "585D82E2-5D59-56AB-92E1-871E3D06AE4E",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Improved Push",
+    "slug": "improved-push-monster-core",
+    "descr": "**Trigger** The monster's last action was a successful Strike that lists Improved Push in its damage entry\n\n**Effect** The monster attempts to Shove the creature. This attempt neither applies nor counts toward the monster's multiple attack penalty. If Improved Push lists a distance, change the distance the creature is pushed on a success to that distance.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "free",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "CD5C2B6F-A794-5F56-AC20-F0D7214C61C0",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Knockdown",
+    "slug": "knockdown-monster-core",
+    "descr": "**Requirements** The monster's last action was a successful Strike that lists Knockdown in its damage entry\n\n**Effect** The monster attempts to Trip the creature. This attempt neither applies nor counts toward the monster's multiple attack penalty.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9CB91CB7-01A8-540A-A225-AC75A5D13161",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Lifesense",
+    "slug": "lifesense-monster-core",
+    "descr": "Lifesense allows a monster to sense the vital essence of living and undead creatures within the listed range. The sense can distinguish between the vitality energy animating living creatures and the void energy animating undead creatures, much as sight distinguishes colors.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "interaction",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "CA3E06F5-47BB-5706-9F9D-0838437843EB",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Light Blindness",
+    "slug": "light-blindness-monster-core",
+    "descr": "When first exposed to bright light, the monster is [Blinded](/condition/blinded-player-core) until the end of its next turn. After this exposure, light doesn't blind the monster again until after it spends 1 hour in darkness. However, as long as the monster is in an area of bright light, it's [Dazzled](/condition/dazzled-player-core).",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D84AD7AF-8B8F-5EBC-B1D0-D979FF523788",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Low-Light Vision",
+    "slug": "low-light-vision-monster-core",
+    "descr": "The monster can see in dim light as though it were bright light, so it ignores the [Concealed](/condition/concealed-player-core) condition due to dim light.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "interaction",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B4F6B9DA-D368-59D7-9236-4D06CE967428",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Master's Eye",
+    "slug": "master-s-eye-monster-core",
+    "descr": "The master observes the world through the raktavarna's eyes instead of their own, using the raktavarna's Perception and darkvision. This lasts until the end of the master's next turn, but the master can Sustain the activity.\n\nThis ability functions at any range, even on different planes of existence. If the raktavarna dies while their master is using this ability, the master is [Stunned 5](/condition/stunned-player-core).",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "divine",
+        "scrying"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "three",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "divine",
+          "slug": "divine"
+        },
+        {
+          "label": "scrying",
+          "slug": "scrying"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "divine",
+      "monster-core",
+      "remaster",
+      "scrying"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "11D7C7CA-1820-5864-AE02-D565CE8017B8",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Poison",
+    "slug": "poison-monster-core",
+    "descr": "When a creature is exposed to a monster's poison, it attempts a Fortitude save to avoid becoming poisoned. The level of a poison is the level of the monster inflicting the poison. The poison follows the rules for afflictions.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C7FD5A7B-81E0-5836-97D8-FA19BDC76AC1",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Pull",
+    "slug": "pull-monster-core",
+    "descr": "**Requirements** The monster's last action was a success with a Strike that lists Pull in its damage entry\n\n**Effect** The monster attempts to [Reposition](/action/reposition-player-core) the creature, moving it closer to the monster. This attempt neither applies nor counts toward the monster's multiple attack penalty. If Pull lists a distance, change the distance the creature is pulled on a success to that distance.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "38A40770-09C8-52DB-9559-24173ACE240A",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Push",
+    "slug": "push-monster-core",
+    "descr": "**Requirements** The monster's last action was a successful Strike that lists Push in its damage entry\n\n**Effect** The monster attempts to Shove the creature. This attempt neither applies nor counts toward the monster's multiple attack penalty. If Push lists a distance, change the distance the creature is pushed on a success to that distance.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F8CC875F-2131-578B-B468-1D1B5A1AD07D",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Reactive Strike",
+    "slug": "reactive-strike-monster-core",
+    "descr": "**Trigger** A creature within the monster's reach uses a manipulate action or a move action, makes a ranged attack, or leaves a square during a move action it's using.\n\n**Effect** The monster attempts a melee Strike against the triggering creature. If the attack is a critical hit and the trigger was a manipulate action, the monster disrupts that action. This Strike doesn't count toward the monster's multiple attack penalty, and its multiple attack penalty doesn't apply to this Strike.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "reaction",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4382CA51-E8D1-5966-B5EB-BAD5BD243283",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Regeneration",
+    "slug": "regeneration-monster-core",
+    "descr": "This monster regains the listed number of Hit Points each round at the beginning of its turn. Its [Dying](/condition/dying-player-core) condition never increases beyond Dying 3 as long as its regeneration is active. However, if it takes damage of a type listed in the regeneration entry, its regeneration deactivates until the end of its next turn. Deactivate the regeneration before applying any damage of a listed type, since that damage might kill the monster by bringing it to Dying 4.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "426B52D6-D074-53EB-852C-401EFBA9DDB5",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Rend",
+    "slug": "rend-monster-core",
+    "descr": "A Rend entry lists a Strike the monster has.\n\n**Requirements** The monster hit the same enemy with two consecutive Strikes of the listed type in the same round.\n\n**Effect** The monster automatically deals that Strike's damage again to the enemy.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "84E3AC4E-E439-59D4-AF7D-E98E8D432DB5",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Scent",
+    "slug": "scent-monster-core",
+    "descr": "Scent involves sensing creatures or objects by smell, and is usually a vague sense. The range is listed in the ability, and it functions only if the creature or object being detected emits an aroma (for instance, incorporeal creatures usually do not exude an aroma).\n\nIf a creature emits a heavy aroma or is upwind, the GM can double or even triple the range of scent abilities used to detect that creature, and the GM can reduce the range if a creature is downwind.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "interaction",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "25C20B2E-6192-5F65-8F18-23E67281AD0C",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Shield Block",
+    "slug": "shield-block-monster-core",
+    "descr": "**Trigger** The monster has its shield raised and takes damage from a physical attack.\n\n**Effect** The monster snaps its shield into place to deflect a blow. The shield prevents the monster from taking an amount of damage up to the shield's Hardness. The monster and the shield each take any remaining damage, possibly breaking or destroying the shield.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "reaction",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9F09C6B7-444D-5EA0-B038-6B3261F221CD",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Stench",
+    "slug": "stench-monster-core",
+    "descr": "0 feet. Fortitude\n\nA creature entering the aura or starting its turn in the area must succeed at a Fortitude save or become [Sickened 1](/condition/sickened-player-core) (plus [Slowed 1](/condition/slowed-player-core) as long as it's sickened on a critical failure). A creature that succeeds at its save or recovers from being sickened is temporarily immune to all stench auras for 1 minute.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "aura",
+        "olfactory"
+      ],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": [
+        {
+          "label": "aura",
+          "slug": "aura"
+        },
+        {
+          "label": "olfactory",
+          "slug": "olfactory"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "aura",
+      "monster-core",
+      "olfactory",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "AE3BEC30-CD3D-5333-97ED-DE7D6AF28E96",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Swallow Whole",
+    "slug": "swallow-whole-monster-core",
+    "descr": "[Listed Size], 0 bludgeoning, Rupture [0]\n\nThe monster attempts to swallow a creature of the listed size or smaller that it has grabbed or restrained in its jaws or mouth. If a swallowed creature is of the maximum size listed, the monster can't use Swallow Whole again. If the creature is smaller than the maximum, the monster can usually swallow more creatures; the GM determines the maximum. The monster attempts an Athletics check opposed by the grabbed creature's Reflex DC. If it succeeds, it swallows the creature. The monster's mouth or jaws no longer grab a creature it has swallowed, so the monster is free to use them to Strike or Grab once again. The monster can't attack creatures it has swallowed.\n\nA swallowed creature is [Grabbed](/condition/grabbed-player-core), is [Slowed 1](/condition/slowed-player-core), and has to hold its breath or start suffocating. The swallowed creature takes the listed amount of damage when first swallowed and at the end of each of its turns while it's swallowed. If the victim [Escapes](/action/escape-player-core) this ability's grabbed condition, it exits through the monster's mouth. This frees any other creature grabbed in the monster's mouth or jaws. A swallowed creature can attack the monster that has swallowed it, but only with unarmed attacks or with weapons of light Bulk or less. The swallowing creature is [Off-Guard](/condition/off-guard-player-core) against the attack. If the monster takes piercing or slashing damage equaling or exceeding the listed Rupture value from a single attack or spell, the swallowed creature cuts itself free. A creature that gets free by either Escaping or cutting itself free can immediately breathe and exits the swallowing monster's space.\n\n[Effect: Engulf and Swallow Whole](/condition/effect-engulf-and-swallow-whole-monster-core)\n\nIf the monster dies, a swallowed creature can be freed by creatures adjacent to the corpse if they spend a combined total of 3 actions cutting the monster open with a weapon or unarmed attack that deals piercing or slashing damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "attack"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "attack",
+          "slug": "attack"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "attack",
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "FAE44FED-CA64-56A5-A4A4-D8B7808FBBFF",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Swarm Mind",
+    "slug": "swarm-mind-monster-core",
+    "descr": "This monster doesn't have a single mind (typically because it's a swarm of smaller creatures), and is immune to mental effects that target only a specific number of creatures. It is still subject to mental effects that affect all creatures in an area.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B425B503-8687-5D67-A276-36451FF2DDFE",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Telepathy",
+    "slug": "telepathy-monster-core",
+    "descr": "A monster with telepathy can communicate mentally with any creatures within the listed radius, as long as they share a language. This doesn't give any special access to their thoughts, and communicates no more information than normal speech would.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "aura",
+        "magical",
+        "mental"
+      ],
+      "category": "interaction",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": [
+        {
+          "label": "aura",
+          "slug": "aura"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "aura",
+      "magical",
+      "mental",
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3BE98E60-FBE5-5FF8-9760-62747BAB5FCA",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Throw Rock",
+    "slug": "throw-rock-monster-core",
+    "descr": "The monster picks up a rock within reach or retrieves a stowed rock and throws it, making a ranged Strike.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "19CF2F3C-1661-58BC-9DE2-E763FE99EB9F",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Trample",
+    "slug": "trample-monster-core",
+    "descr": "[Size], [Listed Strike], basic Reflex\n\nThe monster Strides up to double its Speed and can move through the spaces of creatures of the listed size, Trampling each creature whose space it enters. The monster can attempt to Trample the same creature only once in a single use of Trample. The monster deals the damage of the listed Strike, but trampled creatures can attempt a basic Reflex save at the listed DC (no damage on a critical success, half damage on a success, double damage on a critical failure).",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "three",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9913824B-5306-53F1-9E20-ED1B039CD79C",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Tremorsense",
+    "slug": "tremorsense-monster-core",
+    "descr": "Tremorsense allows a monster to feel the vibrations through a solid surface caused by movement. It is an imprecise sense with a limited range (listed in the ability). Tremorsense functions only if the monster is on the same surface as the subject, and only if the subject is moving along (or burrowing through) the surface.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "interaction",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2E9AF09A-7739-5E14-B53F-D753EE9E5F3D",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Void Healing",
+    "slug": "void-healing-monster-core",
+    "descr": "A creature with void healing draws health from void energy rather than vitality energy. It is damaged by vitality damage and is not healed by vitality healing effects. It does not take void damage, and it is healed by void effects that heal undead.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "7ED79F9B-6B9B-5F18-A487-FCFC037E19CC",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Wavesense",
+    "slug": "wavesense-monster-core",
+    "descr": "This sense allows a monster to feel vibrations caused by movement through a liquid. It's an imprecise sense with a limited range (listed in the ability). Wavesense functions only if monster and the subject are in the same body of liquid, and only if the subject is moving through the liquid.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "interaction",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

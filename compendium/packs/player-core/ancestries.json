@@ -1,0 +1,488 @@
+[
+  {
+    "id": "D5BA9C79-96D5-5782-9F06-20346467F402",
+    "kind": "Ancestry",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Dwarf",
+    "slug": "dwarf-player-core",
+    "descr": "",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "dwarf",
+        "humanoid"
+      ],
+      "hp": 10,
+      "size": "medium",
+      "movement": {
+        "walk": 20
+      },
+      "attributeBoosts": [
+        "constitution",
+        "wisdom"
+      ],
+      "attributeFlaws": [
+        "charisma"
+      ],
+      "languages": [
+        "common",
+        "dwarven"
+      ],
+      "summary": "",
+      "traitLinks": [
+        {
+          "label": "dwarf",
+          "slug": "dwarf"
+        },
+        {
+          "label": "humanoid",
+          "slug": "humanoid"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "dwarf",
+      "humanoid",
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "97E65DE4-8EA2-5C33-A966-DF70D9D1150C",
+    "kind": "Ancestry",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Elf",
+    "slug": "elf-player-core",
+    "descr": "",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "elf",
+        "humanoid"
+      ],
+      "hp": 6,
+      "size": "medium",
+      "movement": {
+        "walk": 30
+      },
+      "attributeBoosts": [
+        "dexterity",
+        "intelligence"
+      ],
+      "attributeFlaws": [
+        "constitution"
+      ],
+      "languages": [
+        "common",
+        "elven"
+      ],
+      "summary": "",
+      "traitLinks": [
+        {
+          "label": "elf",
+          "slug": "elf"
+        },
+        {
+          "label": "humanoid",
+          "slug": "humanoid"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "elf",
+      "humanoid",
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "BAC67135-03E1-5BAC-9798-179D7A6BCC5B",
+    "kind": "Ancestry",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Gnome",
+    "slug": "gnome-player-core",
+    "descr": "",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "gnome",
+        "humanoid"
+      ],
+      "hp": 8,
+      "size": "small",
+      "movement": {
+        "walk": 25
+      },
+      "attributeBoosts": [
+        "charisma",
+        "constitution"
+      ],
+      "attributeFlaws": [
+        "strength"
+      ],
+      "languages": [
+        "common",
+        "fey",
+        "gnomish"
+      ],
+      "summary": "",
+      "traitLinks": [
+        {
+          "label": "gnome",
+          "slug": "gnome"
+        },
+        {
+          "label": "humanoid",
+          "slug": "humanoid"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gnome",
+      "humanoid",
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "529AA9F1-7976-50BB-B5C7-E37F6CC9AC4B",
+    "kind": "Ancestry",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Goblin",
+    "slug": "goblin-player-core",
+    "descr": "",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "goblin",
+        "humanoid"
+      ],
+      "hp": 6,
+      "size": "small",
+      "movement": {
+        "walk": 25
+      },
+      "attributeBoosts": [
+        "charisma",
+        "dexterity"
+      ],
+      "attributeFlaws": [
+        "wisdom"
+      ],
+      "languages": [
+        "common",
+        "goblin"
+      ],
+      "summary": "",
+      "traitLinks": [
+        {
+          "label": "goblin",
+          "slug": "goblin"
+        },
+        {
+          "label": "humanoid",
+          "slug": "humanoid"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "goblin",
+      "humanoid",
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4D239FCB-AADB-5D55-9F6C-86D048E10991",
+    "kind": "Ancestry",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Halfling",
+    "slug": "halfling-player-core",
+    "descr": "",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "halfling",
+        "humanoid"
+      ],
+      "hp": 6,
+      "size": "small",
+      "movement": {
+        "walk": 25
+      },
+      "attributeBoosts": [
+        "dexterity",
+        "wisdom"
+      ],
+      "attributeFlaws": [
+        "strength"
+      ],
+      "languages": [
+        "common",
+        "halfling"
+      ],
+      "summary": "",
+      "traitLinks": [
+        {
+          "label": "halfling",
+          "slug": "halfling"
+        },
+        {
+          "label": "humanoid",
+          "slug": "humanoid"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "halfling",
+      "humanoid",
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "ACB3C8C8-5F91-58D3-9C20-89C1AC2CF093",
+    "kind": "Ancestry",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Human",
+    "slug": "human-player-core",
+    "descr": "",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "human",
+        "humanoid"
+      ],
+      "hp": 8,
+      "size": "medium",
+      "movement": {
+        "walk": 25
+      },
+      "attributeBoosts": [],
+      "attributeFlaws": [],
+      "languages": [
+        "common"
+      ],
+      "summary": "",
+      "traitLinks": [
+        {
+          "label": "human",
+          "slug": "human"
+        },
+        {
+          "label": "humanoid",
+          "slug": "humanoid"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "human",
+      "humanoid",
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "25D3030D-0A8F-5965-94CC-BBB40BA29C5E",
+    "kind": "Ancestry",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Leshy",
+    "slug": "leshy-player-core",
+    "descr": "",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "leshy",
+        "plant"
+      ],
+      "hp": 8,
+      "size": "small",
+      "movement": {
+        "walk": 25
+      },
+      "attributeBoosts": [
+        "constitution",
+        "wisdom"
+      ],
+      "attributeFlaws": [
+        "intelligence"
+      ],
+      "languages": [
+        "common",
+        "fey"
+      ],
+      "summary": "",
+      "traitLinks": [
+        {
+          "label": "leshy",
+          "slug": "leshy"
+        },
+        {
+          "label": "plant",
+          "slug": "plant"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "leshy",
+      "plant",
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8FE41369-8458-505B-A2C5-037E0C4B8D78",
+    "kind": "Ancestry",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Orc",
+    "slug": "orc-player-core",
+    "descr": "",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "humanoid",
+        "orc"
+      ],
+      "hp": 10,
+      "size": "medium",
+      "movement": {
+        "walk": 25
+      },
+      "attributeBoosts": [],
+      "attributeFlaws": [],
+      "languages": [
+        "common",
+        "orcish"
+      ],
+      "summary": "",
+      "traitLinks": [
+        {
+          "label": "humanoid",
+          "slug": "humanoid"
+        },
+        {
+          "label": "orc",
+          "slug": "orc"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "humanoid",
+      "orc",
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

@@ -1,0 +1,937 @@
+{
+  "adaptable-paddleboat-guns-and-gears-remastered": {
+    "immunities": [
+      "object immunities"
+    ],
+    "bt": 15
+  },
+  "air-cycle-battlecry": {
+    "bt": 25
+  },
+  "airship-gm-core": {
+    "immunities": [
+      "critical hits",
+      "object immunities",
+      "precision damage"
+    ],
+    "weaknesses": "fire 15 until broken",
+    "bt": 105
+  },
+  "ambling-surveyor-guns-and-gears-remastered": {
+    "immunities": [
+      "critical hits",
+      "object immunities",
+      "precision damage"
+    ],
+    "bt": 95
+  },
+  "apparatus-of-the-octopus-guns-and-gears-remastered": {
+    "immunities": [
+      "critical hits",
+      "object immunities",
+      "precision damage"
+    ],
+    "bt": 75
+  },
+  "armageddon-orb-gm-core": {
+    "stealthDetails": "or detect magic"
+  },
+  "armored-carriage-guns-and-gears-remastered": {
+    "immunities": [
+      "critical hits",
+      "object immunities",
+      "precision damage"
+    ],
+    "bt": 35
+  },
+  "armored-sleigh-battlecry": {
+    "bt": 140
+  },
+  "atakebune-tian-xia-world-guide-vehicle-vehicle-83": {
+    "page": 266,
+    "immunities": [
+      "critical hits, object immunities, precision damage"
+    ],
+    "abilities": [
+      {
+        "name": "Sluggish",
+        "text": "This vehicle must move twice its length for each 90-degree turn it makes.",
+        "traits": []
+      }
+    ],
+    "bt": 75
+  },
+  "augustana-s-pride-hellfire-dispatches-vehicle-vehicle-145": {
+    "page": 94,
+    "immunities": [
+      "object immunities"
+    ],
+    "weaknesses": "fire 20 until broken",
+    "abilities": [
+      {
+        "name": "Inspiring Presence",
+        "text": "300 feet. The sight of the Andoren navy's flagship bolsters its fleet and its crew. At the beginning of their turns or when they enter the aura, allied creatures on board the ship and allied creatures within a 300-foot-emanation who can see the ship gain a +1 status bonus to attack rolls, damage rolls, and saves against fear for 1 round.",
+        "traits": [
+          "aura",
+          "emotion",
+          "mental",
+          "visual"
+        ]
+      },
+      {
+        "name": "Weapon Mounts",
+        "text": "This vehicle has 6 weapon mounts, three on each side of the vehicle. At purchase, these weapon mounts are initially empty. Installing or uninstalling a weapon into a mount requires 1 day, a successful DC 40 Crafting check, and an appropriate weapon. The weapon mounts can be equipped with Huge or smaller ranged [siege weapons](/rule/siege-weapons-rules-1622).",
+        "traits": []
+      }
+    ],
+    "bt": 150
+  },
+  "automated-cycle-guns-and-gears-remastered": {
+    "immunities": [
+      "critical hits",
+      "object immunities",
+      "precision damage"
+    ],
+    "bt": 9
+  },
+  "backpack-balloon-battlecry": {
+    "weaknesses": "fire 5 until broken",
+    "bt": 40
+  },
+  "baochuan-tian-xia-world-guide-vehicle-vehicle-84": {
+    "page": 266,
+    "immunities": [
+      "critical hits, object immunities, precision damage"
+    ],
+    "weaknesses": "fire 10 until broken",
+    "bt": 125
+  },
+  "bathysphere-gm-core": {
+    "immunities": [
+      "object immunities"
+    ],
+    "bt": 40
+  },
+  "battery-tower-guns-and-gears-remastered": {
+    "immunities": [
+      "object immunities"
+    ],
+    "bt": 75
+  },
+  "battle-dirigible-battlecry": {
+    "weaknesses": "fire 15 until broken",
+    "bt": 120
+  },
+  "bloodthirsty-urge-gm-core": {
+    "stealthDetails": "(trained)"
+  },
+  "boneburst-war-of-immortals": {
+    "stealthDetails": "(master) to notice that clouds of debris are coalescing into swirling, faceless shapes held together by rust-red fog and spectral, dripping clots of gore",
+    "immunities": [
+      "critical hits",
+      "object immunities",
+      "precision damage"
+    ],
+    "bt": 45
+  },
+  "bottomless-pit-gm-core": {
+    "stealthDetails": "(or 0 if the trapdoor is disabled or broken) or detect magic",
+    "immunities": [
+      "object immunities",
+      "critical hits",
+      "precision damage"
+    ],
+    "bt": 18
+  },
+  "caisson-battlecry": {
+    "bt": 25
+  },
+  "call-of-the-void-dark-archive": {
+    "stealthDetails": "(expert) to notice a slight tugging feeling"
+  },
+  "carriage-gm-core": {
+    "immunities": [
+      "object immunities"
+    ],
+    "bt": 20
+  },
+  "cart-gm-core": {
+    "immunities": [
+      "object immunities"
+    ],
+    "bt": 7
+  },
+  "cavern-crawler-battlecry": {
+    "immunities": [
+      "precision damage"
+    ],
+    "bt": 150
+  },
+  "chariot-heavy-gm-core": {
+    "immunities": [
+      "object immunities"
+    ],
+    "bt": 20
+  },
+  "chariot-light-gm-core": {
+    "immunities": [
+      "object immunities"
+    ],
+    "bt": 7
+  },
+  "clockwork-borer-guns-and-gears-remastered": {
+    "immunities": [
+      "critical hits",
+      "object immunities",
+      "precision damage"
+    ],
+    "bt": 55
+  },
+  "clockwork-castle-guns-and-gears-remastered": {
+    "immunities": [
+      "critical hits",
+      "object immunities",
+      "precision damage"
+    ],
+    "bt": 125
+  },
+  "clockwork-hopper-guns-and-gears-remastered": {
+    "immunities": [
+      "critical hits",
+      "object immunities",
+      "precision damage"
+    ],
+    "bt": 40
+  },
+  "clockwork-wagon-guns-and-gears-remastered": {
+    "immunities": [
+      "critical hits",
+      "object immunities",
+      "precision damage"
+    ],
+    "bt": 24
+  },
+  "clone-mirrors-dark-archive": {
+    "bt": 27
+  },
+  "clunkerjunker-guns-and-gears-remastered": {
+    "immunities": [
+      "critical hits",
+      "object immunities",
+      "precision damage"
+    ],
+    "bt": 9
+  },
+  "combat-catamaran-battlecry": {
+    "weaknesses": "fire 10 until broken",
+    "bt": 115
+  },
+  "combat-kite-battlecry": {
+    "weaknesses": "fire 5 until broken",
+    "bt": 40
+  },
+  "combat-transport-battlecry": {
+    "immunities": [
+      "precision damage"
+    ],
+    "bt": 115
+  },
+  "confounding-betrayal-gm-core": {
+    "stealthDetails": "(expert)"
+  },
+  "cook-s-caravan-battlecry": {
+    "bt": 175
+  },
+  "cutter-gm-core": {
+    "immunities": [
+      "object immunities"
+    ],
+    "weaknesses": "fire 10 until broken",
+    "bt": 50
+  },
+  "dance-of-death-gm-core": {
+    "stealthDetails": "(master)"
+  },
+  "darkside-mirror-dark-archive": {
+    "stealthDetails": "(master) to notice it isn't a regular mirror",
+    "bt": 2
+  },
+  "distortion-mirror-dark-archive": {
+    "stealthDetails": "0 to notice the mirror",
+    "bt": 45
+  },
+  "djong-tian-xia-world-guide-vehicle-vehicle-85": {
+    "page": 267,
+    "immunities": [
+      "critical hits, object immunities, precision damage"
+    ],
+    "weaknesses": "fire 15 until broken",
+    "abilities": [
+      {
+        "name": "Sluggish",
+        "text": "This vehicle must move twice its length for each 90-degree turn it makes.",
+        "traits": []
+      }
+    ],
+    "bt": 140
+  },
+  "drowning-pit-gm-core": {
+    "stealthDetails": "(trained); Perception DC 22 (expert) to notice the water spouts once the pit opens",
+    "immunities": [
+      "object immunities",
+      "critical hits",
+      "precision damage"
+    ],
+    "bt": 30
+  },
+  "duskwood-corvette-hellfire-dispatches-vehicle-vehicle-144": {
+    "page": 94,
+    "immunities": [
+      "object immunities"
+    ],
+    "weaknesses": "fire 15 until broken",
+    "abilities": [
+      {
+        "name": "Stealthy",
+        "text": "Due to its ebony coloration, a duskwood corvette is difficult to detect under certain conditions. It is [concealed](/condition/concealed-player-core) in dim light.",
+        "traits": []
+      },
+      {
+        "name": "Weapon Mounts",
+        "text": "This vehicle has 2 weapon mounts, one on each side of the vehicle. At purchase, these weapon mounts are initially empty. Installing or uninstalling a weapon into a mount requires 1 day, a successful DC 28 [Crafting](/rule/crafting-skill-player-core) check, and an appropriate weapon. The weapon mounts can be equipped with Huge or smaller ranged [siege weapons](/rule/siege-weapons-rules-1622).",
+        "traits": []
+      }
+    ],
+    "bt": 100
+  },
+  "electric-latch-rune-gm-core": {
+    "stealthDetails": "(trained)"
+  },
+  "entrapping-chair-dark-archive": {
+    "stealthDetails": "(0 to notice the chair)",
+    "bt": 27
+  },
+  "eternal-flame-gm-core": {
+    "stealthDetails": "(expert)"
+  },
+  "falling-ceiling-bb-beginner-box-remaster": {
+    "bt": 5
+  },
+  "false-floor-dark-archive": {
+    "stealthDetails": "(trained; or 0 if the illusory floor is dispelled)"
+  },
+  "fireball-rune-gm-core": {
+    "stealthDetails": "(expert)"
+  },
+  "firefly-guns-and-gears-remastered": {
+    "immunities": [
+      "critical hits",
+      "object immunities",
+      "precision damage"
+    ],
+    "resistances": "electricity 10",
+    "bt": 30
+  },
+  "flensing-blades-gm-core": {
+    "stealthDetails": "(expert)",
+    "immunities": [
+      "object immunities",
+      "critical hits",
+      "precision damage"
+    ],
+    "weaknesses": "vitality 15",
+    "bt": 50
+  },
+  "floating-camouflage-blind-battlecry": {
+    "weaknesses": "fire 5 until broken",
+    "bt": 25
+  },
+  "flying-fortress-battlecry": {
+    "bt": 165
+  },
+  "flying-submersible-battlecry": {
+    "weaknesses": "fire 10 until broken",
+    "bt": 140
+  },
+  "galley-gm-core": {
+    "immunities": [
+      "object immunities"
+    ],
+    "weaknesses": "fire 15 until broken",
+    "bt": 85
+  },
+  "geobukseon-tian-xia-world-guide-vehicle-vehicle-86": {
+    "page": 267,
+    "immunities": [
+      "critical hits, object immunities, precision damage"
+    ],
+    "abilities": [
+      {
+        "name": "Smoking Breath",
+        "text": "When the geobukseon Stops, it's concealed by the smoke for 1 round or until it next moves. The geobukseon can't use this concealment to Hide or Sneak.\n **Turtleback Spikes** The roof of a geobukseon is difficult terrain and hazardous terrain. A creature that moves on the roof takes 1d6 piercing damage for every square of that area it moves into. Falling prone on the geobukseon's roof deals 5d6 piercing damage.",
+        "traits": []
+      }
+    ],
+    "bt": 90
+  },
+  "ghostly-choir-gm-core": {
+    "stealthDetails": "(expert)"
+  },
+  "glider-gm-core": {
+    "immunities": [
+      "object immunities"
+    ],
+    "weaknesses": "fire 5",
+    "bt": 8
+  },
+  "hallucination-powder-trap-gm-core": {
+    "stealthDetails": "(expert)",
+    "immunities": [
+      "object immunities",
+      "critical hits",
+      "precision damage"
+    ]
+  },
+  "hammer-of-forbiddance-gm-core": {
+    "stealthDetails": "(expert)",
+    "immunities": [
+      "object immunities",
+      "critical hits",
+      "precision damage"
+    ],
+    "bt": 44
+  },
+  "hampering-web-gm-core": {
+    "stealthDetails": "(expert)",
+    "immunities": [
+      "object immunities",
+      "critical hits",
+      "precision damage"
+    ],
+    "bt": 13
+  },
+  "hellclad-trireme-hellfire-dispatches-vehicle-vehicle-146": {
+    "page": 94,
+    "immunities": [
+      "object immunities"
+    ],
+    "weaknesses": "fire 15 until broken",
+    "abilities": [
+      {
+        "name": "Armor of Nessus",
+        "text": "Over the course of 1 minute, the ship's crew lowers spiky metal plates across key sections of the hull. The ship gains a +2 circumstance bonus to its AC and immunity to precision damage. Its collision damage becomes piercing damage. Its weakness to fire is reduced to 5, but its swim Speed is reduced to 15 feet and it can no longer be rowed. The crew can retract the plates by taking another minute.",
+        "traits": []
+      },
+      {
+        "name": "Weapon Mounts",
+        "text": "This vehicle has 2 weapon mounts, one on each side of the vehicle. At purchase, these weapon mounts are initially empty. Installing or uninstalling a weapon into a mount requires 1 day, a successful DC 31 Crafting check, and an appropriate weapon. The weapon mounts can be equipped with Huge or smaller ranged [siege weapons](/rule/siege-weapons-rules-1622).",
+        "traits": []
+      }
+    ],
+    "bt": 100
+  },
+  "hidden-pit-gm-core": {
+    "stealthDetails": "(or 0 if the trapdoor is disabled or broken)",
+    "immunities": [
+      "object immunities",
+      "critical hits",
+      "precision damage"
+    ],
+    "bt": 6
+  },
+  "hot-air-balloon-gm-core": {
+    "immunities": [
+      "object immunities"
+    ],
+    "weaknesses": "fire 10",
+    "bt": 20
+  },
+  "ice-breaker-battlecry": {
+    "immunities": [
+      "precision damage"
+    ],
+    "bt": 180
+  },
+  "iceboat-battlecry": {
+    "weaknesses": "fire 5",
+    "bt": 40
+  },
+  "insistent-privacy-fence-guns-and-gears-remastered": {
+    "stealthDetails": "(expert)",
+    "bt": 30
+  },
+  "ironclad-battlecry": {
+    "immunities": [
+      "precision damage"
+    ],
+    "bt": 160
+  },
+  "karakoa-tian-xia-world-guide-vehicle-vehicle-87": {
+    "page": 267,
+    "immunities": [
+      "critical hits, object immunities, precision damage"
+    ],
+    "weaknesses": "fire 10 until broken",
+    "bt": 35
+  },
+  "lightning-s-dance-war-of-immortals": {
+    "stealthDetails": "(expert) or Perception DC 33 (master) to notice sparks dancing around normally non-conductive surfaces"
+  },
+  "longship-gm-core": {
+    "immunities": [
+      "object immunities"
+    ],
+    "weaknesses": "fire 15 until broken",
+    "bt": 70
+  },
+  "malevolent-mannequins-guns-and-gears-remastered": {
+    "immunities": [
+      "object immunities",
+      "critical hits",
+      "precision damage"
+    ],
+    "weaknesses": "electricity 20",
+    "bt": 35
+  },
+  "medical-wagon-battlecry": {
+    "bt": 45
+  },
+  "mermaid-fountain-bb-beginner-box-remaster": {
+    "stealthDetails": "Notice Perception DC 20 check",
+    "bt": 7
+  },
+  "mobile-command-post-battlecry": {
+    "bt": 125
+  },
+  "mobile-inn-guns-and-gears-remastered": {
+    "immunities": [
+      "critical hits",
+      "object immunities",
+      "precision damage"
+    ],
+    "bt": 50
+  },
+  "necro-roamer-battlecry": {
+    "bt": 110
+  },
+  "nighthawk-battlecry": {
+    "weaknesses": "fire 10 until broken",
+    "bt": 65
+  },
+  "pharaoh-s-ward-gm-core": {
+    "stealthDetails": "(expert)"
+  },
+  "planar-rift-gm-core": {
+    "stealthDetails": "(trained)"
+  },
+  "poisoned-dart-gallery-gm-core": {
+    "stealthDetails": "(expert) or Perception DC 31 (master) to notice the control panel",
+    "immunities": [
+      "object immunities",
+      "precision damage",
+      "critical hits"
+    ],
+    "bt": 28
+  },
+  "poisoned-lock-gm-core": {
+    "stealthDetails": "(trained)",
+    "immunities": [
+      "object immunities",
+      "critical hits",
+      "precision damage"
+    ],
+    "bt": 12
+  },
+  "poisonous-mold-gm-core": {
+    "stealthDetails": "(trained)",
+    "immunities": [
+      "object immunities",
+      "critical hits",
+      "precision damage"
+    ],
+    "weaknesses": "fire 10",
+    "bt": 15
+  },
+  "polymorph-trap-gm-core": {
+    "stealthDetails": "(trained)"
+  },
+  "primal-chaos-aura-war-of-immortals": {
+    "stealthDetails": "or Perception DC 26 to feel a tingle in the air and smell a rich, chlorophyll-green fragrance with no discernible source"
+  },
+  "quicksand-gm-core": {
+    "stealthDetails": "(trained) (or -10 and no minimum proficiency if the surface is disturbed)"
+  },
+  "raft-gm-core": {
+    "immunities": [
+      "object immunities"
+    ],
+    "bt": 8
+  },
+  "reflected-desires-dark-archive": {
+    "stealthDetails": "(0 to notice the mirror)",
+    "bt": 12
+  },
+  "rowboat-gm-core": {
+    "immunities": [
+      "object immunities"
+    ],
+    "bt": 8
+  },
+  "sailing-ship-gm-core": {
+    "immunities": [
+      "object immunities"
+    ],
+    "weaknesses": "fire 15 until broken",
+    "bt": 75
+  },
+  "sand-diver-guns-and-gears-remastered": {
+    "immunities": [
+      "critical hits",
+      "object immunities",
+      "precision damage"
+    ],
+    "bt": 21
+  },
+  "scythe-blades-gm-core": {
+    "stealthDetails": "(trained)",
+    "immunities": [
+      "object immunities",
+      "critical hits",
+      "precision damage"
+    ],
+    "bt": 22
+  },
+  "shrouded-assailant-dark-archive": {
+    "resistances": "all damage 20",
+    "bt": 115
+  },
+  "shuffling-hall-dark-archive": {
+    "bt": 6
+  },
+  "siege-barge-battlecry": {
+    "bt": 150
+  },
+  "siege-dragon-battlecry": {
+    "immunities": [
+      "precision damage"
+    ],
+    "bt": 150
+  },
+  "sigil-of-deepest-fears-dark-archive": {
+    "stealthDetails": "(master)"
+  },
+  "skimmer-battlecry": {
+    "weaknesses": "fire 5 until broken",
+    "bt": 75
+  },
+  "sky-chariot-armored-battlecry": {
+    "bt": 95
+  },
+  "sky-chariot-heavy-gm-core": {
+    "immunities": [
+      "critical hits",
+      "object immunities",
+      "precision damage"
+    ],
+    "bt": 115
+  },
+  "sky-chariot-light-gm-core": {
+    "immunities": [
+      "critical hits",
+      "object immunities",
+      "precision damage"
+    ],
+    "bt": 40
+  },
+  "sky-chariot-medium-gm-core": {
+    "immunities": [
+      "critical hits",
+      "object immunities",
+      "precision damage"
+    ],
+    "bt": 80
+  },
+  "slamming-door-gm-core": {
+    "stealthDetails": "(trained)",
+    "immunities": [
+      "object immunities",
+      "critical hits",
+      "precision damage"
+    ],
+    "bt": 10
+  },
+  "sled-gm-core": {
+    "immunities": [
+      "object immunities"
+    ],
+    "bt": 7
+  },
+  "sleigh-gm-core": {
+    "immunities": [
+      "object immunities"
+    ],
+    "bt": 9
+  },
+  "smuggler-s-speronara-hellfire-dispatches-vehicle-vehicle-148": {
+    "page": 95,
+    "immunities": [
+      "object immunities"
+    ],
+    "weaknesses": "fire 10 until broken",
+    "abilities": [
+      {
+        "name": "Maneuverable",
+        "text": "With a full complement of skilled rowers, a rowed speronara can turn swiftly, turn in place, and even row backward. Each 90-degree turn made in less than a vehicle length costs 5 extra feet of movement. It can row backward no faster than half its speed, and it can't turn while rowing backward.",
+        "traits": []
+      },
+      {
+        "name": "Smuggling",
+        "text": "Compartments The speronara can hold up to 20 Bulk of items in secret compartments that require a successful DC 23 Perception check to find.",
+        "traits": []
+      }
+    ],
+    "bt": 55
+  },
+  "snail-coach-guns-and-gears-remastered": {
+    "immunities": [
+      "critical hits",
+      "object immunities",
+      "precision damage"
+    ],
+    "bt": 50
+  },
+  "snowfall-gm-core": {
+    "stealthDetails": "(trained)",
+    "immunities": [
+      "object immunities",
+      "critical hits",
+      "precision damage"
+    ],
+    "bt": 4
+  },
+  "spear-launcher-gm-core": {
+    "stealthDetails": "(trained)",
+    "immunities": [
+      "object immunities",
+      "critical hits",
+      "precision damage"
+    ],
+    "bt": 16
+  },
+  "spectral-reflection-gm-core": {
+    "stealthDetails": "(expert)",
+    "immunities": [
+      "object immunities",
+      "critical hits",
+      "precision damage"
+    ],
+    "bt": 25
+  },
+  "speedster-guns-and-gears-remastered": {
+    "immunities": [
+      "critical hits",
+      "object immunities",
+      "precision damage"
+    ],
+    "bt": 65
+  },
+  "spinning-blade-pillar-gm-core": {
+    "stealthDetails": "(trained) or Perception DC 26 (expert) to notice the control panel",
+    "immunities": [
+      "object immunities",
+      "critical hits",
+      "precision damage"
+    ],
+    "bt": 24
+  },
+  "spirit-window-dark-archive": {
+    "bt": 66
+  },
+  "sportlebore-monster-core-2": {
+    "stealthDetails": "(expert)",
+    "bt": 5
+  },
+  "steam-cart-guns-and-gears-remastered": {
+    "immunities": [
+      "critical hits",
+      "object immunities",
+      "precision damage"
+    ],
+    "bt": 15
+  },
+  "steam-giant-gm-core": {
+    "immunities": [
+      "object immunities"
+    ],
+    "bt": 100
+  },
+  "steam-trolley-guns-and-gears-remastered": {
+    "immunities": [
+      "critical hits",
+      "object immunities",
+      "precision damage"
+    ],
+    "bt": 25
+  },
+  "steam-turtle-battlecry": {
+    "immunities": [
+      "critical hits",
+      "precision damage"
+    ],
+    "bt": 125
+  },
+  "steam-vents-guns-and-gears-remastered": {
+    "stealthDetails": "(trained)",
+    "bt": 24
+  },
+  "steelstone-assault-engine-battlecry": {
+    "immunities": [
+      "precision damage"
+    ],
+    "bt": 160
+  },
+  "strider-gm-core": {
+    "immunities": [
+      "object immunities"
+    ],
+    "bt": 60
+  },
+  "summoning-rune-gm-core": {
+    "stealthDetails": "(trained)"
+  },
+  "thalassophobia-pool-dark-archive": {
+    "stealthDetails": "(trained)"
+  },
+  "the-dark-prince-hellfire-dispatches-vehicle-vehicle-147": {
+    "page": 95,
+    "immunities": [
+      "object immunities"
+    ],
+    "resistances": "fire 20 until broken",
+    "abilities": [
+      {
+        "name": "Dreadful Aura",
+        "text": "The flagship of the Chelaxian navy exudes a malevolent air. At the beginning of their turns or when they enter the aura, enemy creatures on board the ship and enemy creatures within a 300-foot-emanation who can see the ship must succeed at a DC 39 Will save or become [frightened](/condition/frightened-player-core) 1 (or frightened 2 on a critical failure). Regardless of the result, the creature is temporarily immune to this aura for 1 minute. However, an enemy creature on board can't reduce its frightened condition below 1 until it is no longer on board.",
+        "traits": [
+          "aura",
+          "emotion",
+          "mental",
+          "visual"
+        ]
+      },
+      {
+        "name": "Weapon Mounts",
+        "text": "This vehicle has 6 weapon mounts, three on each side of the vehicle. At purchase, these weapon mounts are initially empty. Installing or uninstalling a weapon into a mount requires 1 day, a successful DC 40 Crafting check, and an appropriate weapon. The weapon mounts can be equipped with Huge or smaller ranged [siege weapons](/rule/siege-weapons-rules-1622).",
+        "traits": []
+      }
+    ],
+    "bt": 160
+  },
+  "titanic-flytrap-gm-core": {
+    "stealthDetails": "(trained)",
+    "immunities": [
+      "mental"
+    ],
+    "resistances": "acid 20, fire 10",
+    "bt": 28
+  },
+  "titanic-stomper-guns-and-gears-remastered": {
+    "immunities": [
+      "critical hits",
+      "object immunities",
+      "precision damage"
+    ],
+    "resistances": "electricity 20",
+    "bt": 115
+  },
+  "trump-of-the-oliphaunt-war-of-immortals": {
+    "stealthDetails": "(master) to notice the tension of a low vibration forming in the area from the imminent release of the Oliphaunt's trumpet"
+  },
+  "two-person-submersible-battlecry": {
+    "bt": 15
+  },
+  "undersurf-boat-hellfire-dispatches-vehicle-vehicle-149": {
+    "page": 95,
+    "immunities": [
+      "object immunities"
+    ],
+    "resistances": "fire 5",
+    "abilities": [
+      {
+        "name": "Submersible",
+        "text": "This vehicle can travel below the surface of the water, usually to a depth of no deeper than 60 feet. Though enclosed, it is not watertight, so crew and passengers must hold their breath or be able to breathe underwater.",
+        "traits": []
+      }
+    ],
+    "bt": 30
+  },
+  "velocipede-gm-core": {
+    "immunities": [
+      "object immunities"
+    ],
+    "bt": 7
+  },
+  "vonthos-s-golden-bridge-guns-and-gears-remastered": {
+    "immunities": [
+      "critical hits",
+      "object immunities",
+      "precision damage"
+    ],
+    "bt": 155
+  },
+  "vorpal-executioner-gm-core": {
+    "stealthDetails": "(expert)",
+    "immunities": [
+      "object immunities",
+      "critical hits",
+      "precision damage"
+    ],
+    "bt": 60
+  },
+  "wagon-gm-core": {
+    "immunities": [
+      "object immunities"
+    ],
+    "bt": 9
+  },
+  "war-strider-battlecry": {
+    "bt": 140
+  },
+  "war-wagon-battlecry": {
+    "bt": 60
+  },
+  "wheel-of-misery-gm-core": {
+    "stealthDetails": "(expert) to detect the magical sensor; noticing the wheel has a DC of 0",
+    "immunities": [
+      "object immunities",
+      "critical hits",
+      "precision damage"
+    ],
+    "bt": 28
+  },
+  "wind-surge-war-of-immortals": {
+    "stealthDetails": "(expert) to note stirrings in the wind"
+  },
+  "yellow-sailed-schooner-hellfire-dispatches-vehicle-vehicle-150": {
+    "page": 95,
+    "immunities": [
+      "object immunities"
+    ],
+    "weaknesses": "fire 15 until broken",
+    "abilities": [
+      {
+        "name": "Unfurl Yellow Sails",
+        "text": "With the pull of a rope, the pilot or one of the crew unfurls the yellow sails that Okeno freebooters are so infamous for. Each enemy creature within a 100-foot emanation who can see the sails must succeed at a DC 26 Will save or become [frightened](/condition/frightened-player-core) 1 (or frightened 2 on a critical failure). Regardless of the save's results, the creature is temporarily immune to Unfurl Yellow Sails for 24 hours.",
+        "traits": [
+          "emotion",
+          "fear",
+          "manipulate",
+          "mental",
+          "visual"
+        ],
+        "actions": "one"
+      }
+    ],
+    "bt": 75
+  }
+}

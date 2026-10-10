@@ -1,0 +1,1879 @@
+[
+  {
+    "id": "680C7AA1-0B55-551F-A266-B8DFB516FB08",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Affix a Talisman",
+    "slug": "affix-a-talisman-gm-core",
+    "descr": "**Requirements** You must use a [Repair Toolkit](/item/repair-toolkit-player-core)\n\nYou spend 10 minutes affixing a talisman to an item, placing the item on a stable surface and using the repair toolkit with both hands. You can also use this activity to remove a talisman. Attaching more than one talisman to an item deactivates all the talismans. They must be removed and re-affixed before they can be used again.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "exploration",
+        "manipulate"
+      ],
+      "category": "",
+      "frequency": "",
+      "requirements": "You must use a Repair Toolkit",
+      "trigger": "",
+      "traitLinks": [
+        {
+          "label": "exploration",
+          "slug": "exploration"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "exploration",
+      "gm-core",
+      "manipulate",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "469DCD08-F215-580E-8D29-A9C162147D08",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Apothecary's Garden",
+    "slug": "apothecary-s-garden-gm-core",
+    "descr": "**Aspect** plant\n\nYour relic grows potent natural medicines. Each night, two medicinal herbs (or other plants) grow from your relic and can be harmlessly harvested during your next daily preparations. A living creature that consumes an herb with an [Interact](/action/interact-player-core) action regains 1d8 healing Hit Points for every 2 relic levels (minimum 1d8). At 9th level, the relic grows three herbs each night, and at 17th level, the relic grows four herbs each night. Herbs wither away 1 day after being harvested.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "plant"
+      ],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": [
+        {
+          "label": "plant",
+          "slug": "plant"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "plant",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C48D92D9-BB14-50B9-941E-97B9B372537C",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Blazing Soul",
+    "slug": "blazing-soul-gm-core",
+    "descr": "**Aspect** fire\n\nFire magic suffuses your body and soul, protecting you from lesser flames and allowing you to kindle even the smallest sparks into powerful infernos. You gain fire resistance 10. The first time each hour you are targeted by a fire effect that would deal damage, you regain 1d8 healing Hit Points per counteract rank of the effect, in addition to taking the damage.\n\n**Activate** r (concentrate)\n\n**Trigger** A creature within 60 feet is critically hit by or critically fails a save against a fire effect and is not reduced to 0 Hit Points\n\n**Effect** Flames roar forth from the triggering creature, dealing 6d6 fire damage to all creatures in a 15-foot burst centered on it, including that creature (basic Reflex). You aren't affected by the activation, though your allies are. If this damage reduces the triggering creature to 0 Hit Points, it's reduced to a fine ash, though its gear remains. You can't use this activation again for 1d4 rounds.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "fire"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "A creature within 60 feet is critically hit by or critically fails a save against a fire effect and is not reduced to 0 Hit Points",
+      "traitLinks": [
+        {
+          "label": "fire",
+          "slug": "fire"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "fire",
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "DF39B16F-59DE-5B21-B813-B2D408D57181",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Board",
+    "slug": "board-gm-core",
+    "descr": "**Requirements** You are adjacent to a point of entry on the vehicle you are attempting to board.\n\nYou board a vehicle through an open top, a door, a portal, or a hatch; if you're already on board, you can instead use this action to disembark into an empty space adjacent to the vehicle's point of entry. Using this action while the vehicle is in motion is challenging, requiring a successful Acrobatics or Athletics check with a DC equal to the vehicle's AC.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "move"
+      ],
+      "category": "interaction",
+      "frequency": "",
+      "requirements": "You are adjacent to a point of entry on the vehicle you are attempting to board",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "move",
+          "slug": "move"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "move",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "73CDA935-B068-5BF8-B289-ED20502B8F50",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Bottomless Reservoir",
+    "slug": "bottomless-reservoir-gm-core",
+    "descr": "**Aspect** water\n\n**Activate** 1 (manipulate)\n\n**Effect** Your relic can absorb and release water, storing it in an endless reservoir. You either touch your relic to an adjacent body of water and absorb 1 gallon of it into the reservoir, or you release 1 gallon of a liquid from the reservoir. You can add another action to the activation to absorb water from a touched creature made entirely of water, like a water elemental. If you do, it takes 1d6 damage per relic level (basic Fortitude save).\n\n**Activate** r (manipulate)\n\n**Trigger** You are targeted by an acid or water effect\n\n**Effect** Your relic attempts to counteract the effect, expending 1 gallon of stored liquid. At the GM's discretion, you can use this ability on effects made of other liquids, such as blood.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "water"
+      ],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "You are targeted by an acid or water effect",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "water",
+          "slug": "water"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster",
+      "water"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8D34048A-9807-5BF0-81EB-6E377863F682",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Bribe Contact",
+    "slug": "bribe-contact-gm-core",
+    "descr": "**Cost** A bribe worth at least one-tenth of the Currency per Additional PC listed on Party Treasure by level. Doubling this amount grants a +2 circumstance bonus to the check.\n\n**Requirements** You've successfully Gained a Contact.\n\nYou offer a bribe to your contact to help the heist in some way. Attempt a hard or very hard Deception or Diplomacy check.\n\n**Success** The contact accepts the bribe and you gain 1 EP.\n\n**Failure** You believe you successfully Bribed your Contact and gained 1 EP, but in fact the contact informs the opposition of the attempted bribery, adding 1 AP to the infiltration. The GM can reveal that this Edge Point grants no benefit at any point during the infiltration, as befits the story.\n\n**Critical Failure** As failure, but adding 2 AP to the infiltration.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "downtime",
+        "secret"
+      ],
+      "category": "interaction",
+      "frequency": "",
+      "requirements": "You've successfully Gained a Contact",
+      "trigger": "",
+      "traitLinks": [
+        {
+          "label": "downtime",
+          "slug": "downtime"
+        },
+        {
+          "label": "secret",
+          "slug": "secret"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "downtime",
+      "gm-core",
+      "remaster",
+      "secret"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F2C6CF4E-EE76-5784-896F-7BDAE6F19263",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Bullying Press",
+    "slug": "bullying-press-gm-core",
+    "descr": "**Trigger** You attempt a melee Strike against your opponent, but haven't rolled yet.\n\n**Requirements** You're in a duel, you're trained in Intimidation, and you rolled an Intimidation check for initiative this round.\n\nIf you hit, your opponent becomes [Frightened 1](/condition/frightened-player-core). If your opponent is using Perception for initiative when this ability is used, they become Frightened 2 instead.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "flourish"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "You're in a duel, you're trained in Intimidation, and you rolled an Intimidation check for initiative this round",
+      "trigger": "You attempt a melee Strike against your opponent, but haven't rolled yet",
+      "actions": "reaction",
+      "traitLinks": [
+        {
+          "label": "flourish",
+          "slug": "flourish"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "flourish",
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D1659795-5065-5C6D-A621-C77BBEADB90E",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Change Tradition Focus",
+    "slug": "change-tradition-focus-gm-core",
+    "descr": "**Requirements** You are in a duel and are trained in the skill for the tradition you're changing your focus to (Arcana for arcane, Occultism for occult, Nature for primal, or Religion for divine).\n\nYou change your tradition focus to another magical tradition.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "interaction",
+      "frequency": "",
+      "requirements": "You are in a duel and are trained in the skill for the tradition you're changing your focus to (Arcana for arcane, Occultism for occult, Nature for primal, or Religion for divine)",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C76BFCF0-58EF-56FF-90F0-37CC991D3974",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Death Gaze",
+    "slug": "death-gaze-gm-core",
+    "descr": "**Aspect** death\n\n**Activate** 2 (concentrate, manipulate)\n\n**Effect** Your stare causes a creature's flesh to rot and wither away. Target a creature you can see within 30 feet. Your stare deals 1d6 void damage to the creature for every 2 levels the relic has (minimum 1d6; basic Fortitude save). An undead creature or other creature with void healing targeted this way is instead healed 1d6 healing HP per level of the relic and is temporarily immune to this effect for 10 minutes.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "void"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "void",
+          "slug": "void"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster",
+      "void"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "731E1AC9-8321-549C-B633-80EDEC62C5C6",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Deceptive Sidestep",
+    "slug": "deceptive-sidestep-gm-core",
+    "descr": "**Trigger** An opponent hits, but does not critically hit you, with a melee Strike.\n\n**Requirements** You're in a duel, you're trained in Deception, and you rolled a Deception check for initiative this round.\n\nYou draw your enemy in and pull away at the last moment. The triggering opponent must roll again and take the second result. If your opponent is using Intimidation for initiative when this ability is used, they also take a -2 circumstance penalty to the second attack roll.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "misfortune"
+      ],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "You're in a duel, you're trained in Deception, and you rolled a Deception check for initiative this round",
+      "trigger": "An opponent hits, but does not critically hit you, with a melee Strike",
+      "actions": "reaction",
+      "traitLinks": [
+        {
+          "label": "misfortune",
+          "slug": "misfortune"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "misfortune",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "ED3223B9-E565-5AA0-A9E1-B0546D66250F",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Discover",
+    "slug": "discover-gm-core",
+    "descr": "You watch or study an NPC to learn more about that NPC's preferences. Attempt a Perception check or an appropriate skill check determined by the GM. The DC is found in the NPC's influence stat block.\n\n**Critical Success** Choose two of the options detailed in Success below; you can choose the same option twice to learn two pieces of information from the same category.\n\n**Success** Choose one of the following: You learn which skill that can Influence the NPC has the lowest DC (skipping any skills that you already know), one of the NPC's personal biases, one of the NPC's resistances, or one of the NPC's weaknesses.\n\n**Failure** You learn no information.\n\n**Critical Failure** Choose a piece of information to learn about, as success, but the information is incorrect.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "secret"
+      ],
+      "category": "interaction",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "secret",
+          "slug": "secret"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "gm-core",
+      "remaster",
+      "secret"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2C5D7E02-E68E-56A2-8C56-DE098C110F12",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Drive",
+    "slug": "drive-gm-core",
+    "descr": "**Requirements** You are piloting a vehicle.\n\nYou pilot your vehicle to move. Decide how many actions you intend to spend before you begin Driving. The effects depend on the number of actions you spend. You can't Drive through spaces occupied by creatures, even if they are allies.\n\n1 Attempt a piloting check. On a success, the vehicle moves up to its Speed and can turn normally. On a failure, the vehicle moves its Speed in a straight line. On a critical failure, the vehicle moves its Speed in a straight line and becomes uncontrolled\n\n2 (reckless) The vehicle moves up to twice its Speed in a straight line at the vehicle's current heading.\n\n3 (reckless) You take a –5 penalty on your piloting check to maintain control of the vehicle. The vehicle moves up to three times its Speed in a straight line at the vehicle's current heading.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "move"
+      ],
+      "category": "interaction",
+      "frequency": "",
+      "requirements": "You are piloting a vehicle",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "move",
+          "slug": "move"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "move",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "53FE0FF8-3EF4-52B6-94E1-D467B7F7EB8B",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Dueling Counter",
+    "slug": "dueling-counter-gm-core",
+    "descr": "**Trigger** Your opponent Casts a Spell from the same tradition as your tradition focus.\n\n**Requirements** You are in a duel and have a tradition focus.\n\nExpend a prepared spell or spell slot. You then attempt to counteract the triggering spell with the expended spell.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "magical"
+      ],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "You are in a duel and have a tradition focus",
+      "trigger": "Your opponent Casts a Spell from the same tradition as your tradition focus",
+      "actions": "reaction",
+      "traitLinks": [
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "magical",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B144A78A-5086-53FA-A205-BE377AC33D29",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Flowing Footsteps",
+    "slug": "flowing-footsteps-gm-core",
+    "descr": "**Aspect** water\n\nYour relic ensures no water impedes your movement. You gain the effects of the [Water Walk](/spell/water-walk-player-core) spell, and the ability to breathe water. You also gain a swim Speed equal to your Speed or 15 feet, whichever is higher.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "water"
+      ],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": [
+        {
+          "label": "water",
+          "slug": "water"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster",
+      "water"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0CB98487-9560-59FB-BF68-C7B2A9E01FBE",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Forge Documents",
+    "slug": "forge-documents-gm-core",
+    "descr": "You prepare forgeries that might serve as convincing props. Attempt a hard or very hard Society check.\n\n**Success** You create convincing forgeries and gain 1 EP you can use only when presenting some form of paperwork.\n\n**Failure** You create unconvincing documents. You gain 1 EP that (unknown to you) grants no benefit when used.\n\n**Critical Failure** As a failure, but a PC who tries to use the Edge Point gets a critical failure, even if they use the Edge Point after rolling a failure.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "downtime",
+        "secret"
+      ],
+      "category": "interaction",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": [
+        {
+          "label": "downtime",
+          "slug": "downtime"
+        },
+        {
+          "label": "secret",
+          "slug": "secret"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "downtime",
+      "gm-core",
+      "remaster",
+      "secret"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "87F39268-DEFC-51CC-B741-45CC5A04EC50",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Gain Contact",
+    "slug": "gain-contact-gm-core",
+    "descr": "You try to make contact with an individual who can aid you in the infiltration. Attempt a normal, hard, or very hard DC Diplomacy or Society check, or a check using a Lore skill appropriate to your prospective contact.\n\n**Success** You make contact and gain 1 EP.\n\n**Failure** You fail to make contact.\n\n**Critical Failure** You insult or spook the contact in some way. Future attempts take a -2 circumstance penalty.\n\n**Special** Multiple critical failures might cause the contact to work against the PCs in some way, likely increasing the party's Awareness Points.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "downtime"
+      ],
+      "category": "interaction",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": [
+        {
+          "label": "downtime",
+          "slug": "downtime"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "downtime",
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3E273A5E-A8C8-575E-91B6-4D934A6969A3",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Gossip",
+    "slug": "gossip-gm-core",
+    "descr": "You seek out rumors about the infiltration's target. Attempt a normal, hard, or very hard Diplomacy check.\n\n**Critical Success** You gain inside information about the location or group you're trying to infiltrate. This grants you a +2 circumstance bonus to future checks you attempt for preparation activities for this infiltration. If you share this information, those you share it with also gain this bonus.\n\n**Success** You gain inside information about the place or group you're attempting to infiltrate that aids your planning.\n\n**Failure** You learn nothing.\n\n**Critical Failure** You hear a few mistaken rumors and take a -2 circumstance penalty to your next check for a preparation activity. Word spreads around that you're asking after that group or individual, increasing your Awareness Points by 1.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "downtime",
+        "secret"
+      ],
+      "category": "interaction",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": [
+        {
+          "label": "downtime",
+          "slug": "downtime"
+        },
+        {
+          "label": "secret",
+          "slug": "secret"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "downtime",
+      "gm-core",
+      "remaster",
+      "secret"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3E1915A2-B56B-5CDB-B591-2981FEB0F8A6",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Grim Specter",
+    "slug": "grim-specter-gm-core",
+    "descr": "**Aspect** death\n\n**Activate** 2 (concentrate, polymorph, void)\n\n**Frequency** once per day\n\n**Effect** You can call upon the terrifying powers that fuel your relic to transform yourself into a specter of death. You become incorporeal, having no physical body. You are immune to effects that require a physical body, including precision damage as well as exposure to most diseases and poisons. You also have resistance to all damage equal to half the relic's level; force damage, [Ghost Touch](/item/ghost-touch-gm-core) attacks, spirit damage, void damage, and vitality damage ignore this resistance, and the resistance doubles against non-magical damage.\n\nYou can move through solid objects. When inside an object, you can't perceive, attack, or Interact with anything outside it, and you're always [Slowed 1](/condition/slowed-player-core) on turns you start in an object. Corporeal creatures can pass through you but can't end their movement in your space. You can't attempt Strength-based checks against corporeal creatures or objects, unless those objects have the *ghost touch* property rune. Likewise, corporeal creatures can't attempt Strength-based checks against you.\n\nYou can Sustain the activation for up to 1 minute.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "polymorph",
+        "void"
+      ],
+      "category": "defensive",
+      "frequency": "once per day",
+      "requirements": "",
+      "trigger": "",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "polymorph",
+          "slug": "polymorph"
+        },
+        {
+          "label": "void",
+          "slug": "void"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "polymorph",
+      "remaster",
+      "void"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "97AE625B-C85F-59D3-B43A-254E154B1479",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Healing Wave",
+    "slug": "healing-wave-gm-core",
+    "descr": "**Aspect** life\n\n**Activate** 2 (concentrate)\n\n**Frequency** once per hour\n\n**Effect** You release a wave of vitality energy in a 15-foot cone. You and each living target in the area regain 1d4 healing HP per level of the relic.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "healing",
+        "vitality"
+      ],
+      "category": "defensive",
+      "frequency": "once per hour",
+      "requirements": "",
+      "trigger": "",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "healing",
+          "slug": "healing"
+        },
+        {
+          "label": "vitality",
+          "slug": "vitality"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "healing",
+      "remaster",
+      "vitality"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5E73EE0B-FCD9-5DD4-A768-4BF4E33B309A",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Incandescent Sight",
+    "slug": "incandescent-sight-gm-core",
+    "descr": "**Aspect** fire\n\n**Activate** 2 (concentrate)\n\n**Frequency** once per day\n\n**Effect** Your eyes become attuned to heat signatures as your vision extends into the infrared, granting you a heatsight precise sense for 1 minute. Your heatsight can see temperature gradients out to a range of 30 feet, allowing you to detect living creatures and warm objects even in the dark. Warm objects block your heatsight even if they are transparent, such as hot water.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "fire"
+      ],
+      "category": "defensive",
+      "frequency": "once per day",
+      "requirements": "",
+      "trigger": "",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "fire",
+          "slug": "fire"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "fire",
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "953025FD-997A-553F-9683-9A146BD555AB",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Inextinguishable",
+    "slug": "inextinguishable-gm-core",
+    "descr": "**Aspect** life\n\nYour connection to life force makes you more difficult to snuff out than others. You die from the [Dying](/condition/dying-player-core) condition at dying 5, rather than dying 4. If you roll a success on a save against a death or void effect, you get a critical success instead.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "vitality"
+      ],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": [
+        {
+          "label": "vitality",
+          "slug": "vitality"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster",
+      "vitality"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0AA75856-0269-59E5-8F88-AADE423A6A9A",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Influence",
+    "slug": "influence-gm-core",
+    "descr": "You attempt to make a favorable impression on an NPC to convince the NPC to support your cause. Attempt a skill check to impress that NPC. The DC and skills which can apply can be found in the NPC's stat block.\n\n**Critical Success** You gain 2 Influence Points with the chosen NPC.\n\n**Success** You gain 1 Influence Point with the chosen NPC.\n\n**Failure** You gain no Influence Points with the chosen NPC.\n\n**Critical Failure** You lose 1 Influence Point with the chosen NPC.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "linguistic"
+      ],
+      "category": "interaction",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "linguistic",
+          "slug": "linguistic"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "gm-core",
+      "linguistic",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "43A2142C-542E-59E3-9738-3C2D7137AF96",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Invest an Item",
+    "slug": "invest-an-item-gm-core",
+    "descr": "You invest your energy in an item with the [invested](/trait/invested) trait as you don it. This process requires 1 or more [Interact](/action/interact-player-core) actions, usually taking the same amount of time it takes to don the item. Once you've Invested the Item, you benefit from its constant magical abilities as long as you meet its other requirements (for most invested items, the only other requirement is that you must be wearing the item). This investiture lasts until you remove the item.\n\nYou can invest no more than 10 items per day. If you remove an invested item, it loses its investiture. The item still counts against your daily limit after it loses its investiture. You reset the limit during your daily preparations, at which point you Invest your Items anew. If you're still wearing items you had invested the previous day, you can typically keep them invested on the new day, but they still count against your limit.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "interaction",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3ACAAEB8-0E18-5C79-8C5F-D8BFB9E7BA61",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Jet Propulsion",
+    "slug": "jet-propulsion-gm-core",
+    "descr": "**Aspect** fire\n\n**Activate** 1 (concentrate)\n\n**Frequency** once per hour\n\n**Effect** Flames from your relic channel through your body, erupting from your feet, hands, or other limbs with enough force to blast you across the ground and propel you through the air. For 1 minute, you gain a +10-foot status bonus to your Speed and gain a fly Speed equal to your new Speed or 20 feet, whichever is greater. You must end your turn on solid ground, or you fall.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "fire"
+      ],
+      "category": "defensive",
+      "frequency": "once per hour",
+      "requirements": "",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "fire",
+          "slug": "fire"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "fire",
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C3D2AE95-C924-513F-AC93-DDDA783089B3",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Life Everlasting",
+    "slug": "life-everlasting-gm-core",
+    "descr": "**Aspect** life\n\n**Activate** 2 (concentrate)\n\n**Frequency** once per day\n\n**Effect** Massive amounts of vitality energy surge forth. For 1 minute, you emit vitality energy in a 10-foot emanation centered on you. At the end of your turn, you (if you are living) and allied living creatures in the emanation regain 10 healing Hit Points. If you or an allied creature would die due to an increased [Dying](/condition/dying-player-core) value, you can Dismiss the activation as a free action to prevent the death; if you do, their dying value doesn't increase.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "healing",
+        "vitality"
+      ],
+      "category": "defensive",
+      "frequency": "once per day",
+      "requirements": "",
+      "trigger": "",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "healing",
+          "slug": "healing"
+        },
+        {
+          "label": "vitality",
+          "slug": "vitality"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "healing",
+      "remaster",
+      "vitality"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "89484915-8705-589B-9F57-D04056A4FDE7",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Living Death",
+    "slug": "living-death-gm-core",
+    "descr": "**Aspect** death\n\nYou stand on the threshold between the living and the dead. If you attempt a saving throw against an effect that would deal void damage to you, such as [Harm](/spell/harm-player-core), your outcome is one degree of success better than what you rolled. If you roll a critical success and the effect is capable of healing undead, you regain Hit Points equal to half the spell's full damage. Any vitality spell or effect that would heal you has only half the normal effect. All these effects apply only if you are a living creature.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "void"
+      ],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": [
+        {
+          "label": "void",
+          "slug": "void"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster",
+      "void"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2F8DD628-6AC0-5F8E-AFC5-B44B94F050E3",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Monsoon Curtain",
+    "slug": "monsoon-curtain-gm-core",
+    "descr": "**Aspect** water\n\n**Activate** 3 (attack, concentrate)\n\n**Frequency** once per day\n\n**Effect** You call down a curtain of violent rain in a location within 120 feet. The wall is 5 feet thick, 30 feet long, up to 30 feet high, and lasts for 1 minute. The wall stands vertically, but you can shape its path. The wall has the following effects.\n\nIf a fire effect crosses through the wall, it either uses the outcome one degree of success worse than the result of its attack roll or its targets use the outcome one degree of success better than the result of their saving throw, as appropriate.\nCreatures with a weakness to water that cross the wall or start their turn in the wall take damage equal to their weakness.\nThe wall imposes a –2 status penalty to Perception checks to sense creatures or objects on the other side.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "air",
+        "water"
+      ],
+      "category": "offensive",
+      "frequency": "once per day",
+      "requirements": "",
+      "trigger": "",
+      "actions": "three",
+      "traitLinks": [
+        {
+          "label": "air",
+          "slug": "air"
+        },
+        {
+          "label": "water",
+          "slug": "water"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "air",
+      "gm-core",
+      "remaster",
+      "water"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A0B28DA6-F7D7-549C-919A-672479886AF4",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Petal Dance",
+    "slug": "petal-dance-gm-core",
+    "descr": "**Aspect** plant\n\n**Activate** 2 (concentrate)\n\n**Frequency** once per hour\n\n**Effect** You discorporate into a cloud of petals and leaves. This grants you the [swarm](/trait/swarm) trait, immunity to falling damage, resistance 5 to bludgeoning and slashing damage, and weakness 5 to area and splash damage. You can fit into spaces only a few inches wide, moving your constituent petals through the gap. You don't gain the swarm mind ability, so you're still affected normally by mental effects. As a swarm, you can't speak, cast spells, use manipulate actions requiring your hands, activate your magic items, or make any of your Strikes with your normal body. You remain in this form for 1 minute or until you Dismiss the activation. At 13th level, the relic gains a reaction that triggers when you fall or take damage, applying this gift's resistances, weaknesses, and immunity to falling damage to the triggering effect.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "plant"
+      ],
+      "category": "defensive",
+      "frequency": "once per hour",
+      "requirements": "",
+      "trigger": "",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "plant",
+          "slug": "plant"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "plant",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3E5FA6F8-8805-5ED8-BBCE-09B55F83C5E3",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Pierce the Veil",
+    "slug": "pierce-the-veil-gm-core",
+    "descr": "**Aspect** death\n\n**Prerequisite** living death gift\n\nThe relic allows you to pierce the veil between life and death. While you are holding or wearing the relic, you have the void healing ability (as though you were undead; vitality energy harms you and void energy heals you). In addition, whenever you are healed by a void spell or effect, you gain resistance 5 to all damage (except force, [Ghost Touch](/item/ghost-touch-gm-core), spirit, and vitality) until the start of your next turn. Finally, you gain a +2 item bonus to all saves against death effects while you are the bearer of the relic; this increases to a +3 item bonus at 13th level.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "void"
+      ],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": [
+        {
+          "label": "void",
+          "slug": "void"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster",
+      "void"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4E219F3C-0C4B-57E4-B6E8-871AC0B620EB",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Research",
+    "slug": "research-gm-core",
+    "descr": "You comb through information to learn more about the topic at hand. Choose your research topic, section of the library, or other division depending on the form of research, and attempt a skill check. The skills to use and the DC for the check depend on the specific research task, and the Research activity gains any traits appropriate to the type of research (such as linguistic when perusing books).\n\n**Critical Success** You gain 2 RP.\n\n**Success** You gain 1 RP.\n\n**Critical Failure** You make a false discovery and lose 1 RP.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "exploration"
+      ],
+      "category": "interaction",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "exploration",
+          "slug": "exploration"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "exploration",
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "988DE849-70FE-5251-9645-6DA92893AD22",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Righteous Call",
+    "slug": "righteous-call-gm-core",
+    "descr": "**Aspect** celestial\n\n**Activate** 2 (concentrate, manipulate)\n\n**Frequency** once per day\n\n**Effect** Holy magic fills your armaments, making them true weapons against evil. For 1 minute, your weapons and unarmed attacks gain the [holy](/item/holy-gm-core) weapon rune while you hold them. If a weapon is at its limit on property runes, you can choose one property rune on the weapon to go dormant while the holy rune takes effect. In addition, Strikes your allies make while they're within 30 feet of you gain the [holy](/trait/holy) trait.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "holy"
+      ],
+      "category": "offensive",
+      "frequency": "once per day",
+      "requirements": "",
+      "trigger": "",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "holy",
+          "slug": "holy"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "holy",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "809C065B-4DD0-5DAE-A282-CED6C225A8FC",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Ripples and Waves",
+    "slug": "ripples-and-waves-gm-core",
+    "descr": "**Aspect** water\n\nYou become attuned to the ebb and flow of all things, as if embodying water itself. You gain wavesense 60 feet as a precise sense and can cast 5th-rank [Hydraulic Push](/spell/hydraulic-push-player-core) at will as an innate spell.\n\n**Activate** 2 (concentrate)\n\n**Frequency** once per day\n\n**Effect** Ankle-deep water floods outward from you, filling a 60-foot emanation centered on you for 1 minute. Enemies within the area without a swim Speed treat the area as difficult terrain for movement on land. While the effect persists, you can have any water effects you generate originate from any point within the emanation, in addition to their normal range and area.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "water"
+      ],
+      "category": "defensive",
+      "frequency": "once per day",
+      "requirements": "",
+      "trigger": "",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "water",
+          "slug": "water"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster",
+      "water"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "EF3BE596-01AA-5F86-AD63-C4058BC803B9",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Run Over",
+    "slug": "run-over-gm-core",
+    "descr": "**Requirements** You are piloting a vehicle.\n\n(reckless) You try to run over creatures with your vehicle, possibly also ramming one larger creature or object. If you maintain control of your vehicle, the vehicle moves up to twice its Speed in a straight line at the vehicle's current heading. You attempt to run over any creatures in your path two sizes smaller than the vehicle or smaller, and you can attempt to ram one target creature or object in your path one size smaller than the vehicle or larger.\n\nEach creature in your path, including a rammed target, takes the vehicle's collision damage (basic Reflex save at vehicle's collision DC). If the rammed target is a vehicle, its pilot can attempt a piloting check in place of this Reflex save, with the same results. If the target of your ram takes damage, you and your vehicle each take collision damage (no save) and your movement ends.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "move"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "You are piloting a vehicle",
+      "trigger": "",
+      "actions": "three",
+      "traitLinks": [
+        {
+          "label": "move",
+          "slug": "move"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "move",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C601797B-3FF0-5D5B-9B2C-463466330B3B",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Scout Location",
+    "slug": "scout-location-gm-core",
+    "descr": "You spend time observing the place or group you wish to infiltrate. Attempt a normal, hard, or very hard DC Perception, Society or Stealth check.\n\n**Success** You make observations that provide 1 EP.\n\n**Failure** You learn nothing particularly noteworthy.\n\n**Critical Failure** You misjudge some aspect of what you observed, gaining 1 EP that results in a critical failure instead of a success when used, even if a PC uses the Edge Point after rolling a failure.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "downtime",
+        "secret"
+      ],
+      "category": "interaction",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": [
+        {
+          "label": "downtime",
+          "slug": "downtime"
+        },
+        {
+          "label": "secret",
+          "slug": "secret"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "downtime",
+      "gm-core",
+      "remaster",
+      "secret"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B531EA92-6531-5F1B-84DB-37D7E491238E",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Secure Disguises",
+    "slug": "secure-disguises-gm-core",
+    "descr": "You seek to procure or create disguises. Attempt a normal, hard, or very hard Crafting, Deception, Performance, or Society check.\n\n**Success** You procure or creates disguises, gaining 1 EP that can be used only to maintain a cover identity.\n\n**Failure** Your efforts result in an unusable disguise.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "downtime"
+      ],
+      "category": "interaction",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": [
+        {
+          "label": "downtime",
+          "slug": "downtime"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "downtime",
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "AA85BC85-C8D8-5306-9D44-5D94DBCBCF8B",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Sense Weakness",
+    "slug": "sense-weakness-gm-core",
+    "descr": "**Trigger** You attempt a melee Strike against your opponent, but haven't rolled yet.\n\n**Requirements** You're in a duel, you're trained in Perception, and you rolled a Perception check for initiative this round.\n\nYou pick a precise moment to attack, giving you an edge. Your opponent is [Off Guard](/condition/off-guard-player-core) against the attack. If your opponent is using Deception for initiative when this ability is used, they are instead off-guard until the start of their next turn.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "interaction",
+      "frequency": "",
+      "requirements": "You're in a duel, you're trained in Perception, and you rolled a Perception check for initiative this round",
+      "trigger": "You attempt a melee Strike against your opponent, but haven't rolled yet",
+      "actions": "reaction",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F4215674-195F-5C26-95FB-A20A59456860",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Stop",
+    "slug": "stop-gm-core",
+    "descr": "**Requirements** You are piloting a vehicle in motion.\n\nYou bring the vehicle to a stop.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "manipulate"
+      ],
+      "category": "interaction",
+      "frequency": "",
+      "requirements": "You are piloting a vehicle in motion",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "manipulate",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2E19A0CB-00B1-50B8-A59B-94C0CB44327A",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Take Control",
+    "slug": "take-control-gm-core",
+    "descr": "**Requirements** You are aboard the vehicle and adjacent to its controls.\n\nYou grab the reins, the wheel, or some other mechanism to control the vehicle. Attempt a piloting check; on a success, you become the vehicle's pilot, or regain control of the vehicle if it was uncontrolled. Some vehicles have complicated controls that cause this action to become a multi-action activity.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "manipulate"
+      ],
+      "category": "interaction",
+      "frequency": "",
+      "requirements": "You are aboard the vehicle and adjacent to its controls",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "manipulate",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "ADF72425-00B3-51A2-8957-70D4F5267FB0",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Tidal Crash",
+    "slug": "tidal-crash-gm-core",
+    "descr": "**Aspect** water\n\n**Activate** 2 (concentrate)\n\n**Effect** Your relic spews forth a dense sphere of water. Make a spell attack roll against a target within 30 feet. On a success, you deal 2 bludgeoning splash damage. At 3rd level and every 2 levels thereafter, increase the initial damage by 1d10 and the splash damage by 1.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "water"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "water",
+          "slug": "water"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster",
+      "water"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1903142E-723C-51FF-BA35-D005CAE9C07C",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Tide of Death",
+    "slug": "tide-of-death-gm-core",
+    "descr": "**Aspect** death\n\n**Prerequisite** death gaze gift\n\nYou can Activate [Death Gaze](/action/death-gaze-gm-core) with 3 actions instead of 2. If you do, it targets all living creatures within 30 feet except for you. If you have the void healing ability, you can include yourself to be healed.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "void"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": [
+        {
+          "label": "void",
+          "slug": "void"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster",
+      "void"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4DA53391-E319-589F-895A-9821B43486F0",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Travel",
+    "slug": "travel-gm-core",
+    "descr": "You progress toward moving into an adjacent hex. In open terrain, like a plain, using 1 Travel activity allows you to move from one hex to an adjacent hex. Traversing a hex with difficult terrain (such as a typical forest or desert) requires 2 Travel activities, and hexes of greater difficult terrain (such as a steep mountain or typical swamp) require 3 Travel activities to traverse. Traveling along a road uses a terrain type one step better than the surrounding terrain. For example, if you are traveling on a road over a mountain pass, the terrain is difficult terrain instead of greater difficult terrain.\n\nThe Travel activity assumes you are walking overland. If you are flying or traveling on water, most hexes are open terrain, though there are exceptions. Flying into storms or high winds count as difficult or greater difficult terrain. Traveling down a river is open terrain, but traveling upriver is difficult or greater difficult terrain.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "move"
+      ],
+      "category": "interaction",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": [
+        {
+          "label": "move",
+          "slug": "move"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "move",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "082CD53C-2784-5FF2-B424-5F8610F9C41C",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Wind Barrier",
+    "slug": "wind-barrier-gm-core",
+    "descr": "**Aspect** air\n\n**Activate** 1 concentrate\n\n**Effect** An invisible barrier of air deflects ranged attacks, granting you a +2 circumstance bonus to AC against ranged attacks until the beginning of your next turn. At 13th level, this increases to a +3 circumstance bonus to AC against ranged attacks.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "air"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "air",
+          "slug": "air"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "air",
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

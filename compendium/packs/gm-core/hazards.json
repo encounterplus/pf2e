@@ -1,0 +1,2737 @@
+[
+  {
+    "id": "98D6AE94-9981-583C-8708-E9A749445AA1",
+    "kind": "Hazard",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Armageddon Orb",
+    "slug": "armageddon-orb-gm-core",
+    "descr": "",
+    "data": {
+      "level": 23,
+      "rarity": "rare",
+      "traits": [
+        "magical"
+      ],
+      "complexity": "simple",
+      "stealth": 0,
+      "ac": {
+        "value": 10,
+        "details": ""
+      },
+      "hp": {
+        "value": 0,
+        "details": ""
+      },
+      "hardness": 0,
+      "saves": {
+        "fortitude": 0,
+        "reflex": 0,
+        "will": 0
+      },
+      "disable": "Thievery DC 48 (legendary) to imbue a thieves' toolkit with aspects representing Asmodeus and Sarenrae and use them to drain away the orb's power over 10 minutes; the character attempting this check takes 5 fire damage each round until the orb is depleted",
+      "routine": "",
+      "reset": "",
+      "abilities": [
+        {
+          "name": "Burn It All",
+          "text": "**Trigger** A special condition set by the trap's creator occurs, typically the event of their death.\n\n**Effect** Fire rains from the sky in a 100-mile radius, dealing 10d6 fire damage to creatures and objects in the area. Each creature or object can attempt a basic Reflex DC 46 save. Any creature reduced to 0 Hit Points by this damage dies instantly. This is not enough damage to completely burn away a forest or level an entire mountain or city, but it typically kills most creatures in the area.",
+          "traits": [
+            "death",
+            "divine",
+            "fire"
+          ],
+          "actions": "reaction"
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ],
+      "stealthDetails": "or detect magic",
+      "description": "A suspended orb threatens a vast area with falling fire when its creator's condition is met."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "magical",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "501C2962-901C-5F6E-AF51-A56F7C13987B",
+    "kind": "Hazard",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Bloodthirsty Urge",
+    "slug": "bloodthirsty-urge-gm-core",
+    "descr": "",
+    "data": {
+      "level": 10,
+      "rarity": "common",
+      "traits": [
+        "haunt"
+      ],
+      "complexity": "simple",
+      "stealth": 21,
+      "ac": {
+        "value": 10,
+        "details": ""
+      },
+      "hp": {
+        "value": 0,
+        "details": ""
+      },
+      "hardness": 0,
+      "saves": {
+        "fortitude": 0,
+        "reflex": 0,
+        "will": 0
+      },
+      "disable": "Religion DC 29 (master) to exorcise the spirit or Diplomacy DC 31 (expert) to talk it down",
+      "routine": "",
+      "reset": "",
+      "abilities": [
+        {
+          "name": "Quietus",
+          "text": "**Trigger** A creature moves within 10 feet of the haunted object\n\n**Effect** The haunt takes control of the triggering creature, forcing it to attack itself. The creature must attempt a Will DC 29 save.\n\n**Critical Success** The target is unaffected.\n\n**Success** The target makes a Strike against itself and automatically hits; the target also becomes [Frightened 1](/condition/frightened-player-core).\n\n**Failure** The target makes a Strike against itself and automatically scores a critical hit; the target also becomes [Frightened 2](/condition/frightened-player-core).\n\n**Critical Failure** The target attempts a Fortitude save. If the target succeeds, it is subject to the effects of a failure instead. If the target fails, it is reduced to 0 HP and dies",
+          "traits": [
+            "death",
+            "emotion",
+            "fear",
+            "illusion",
+            "mental",
+            "occult"
+          ],
+          "actions": "reaction"
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "haunt",
+          "slug": "haunt"
+        }
+      ],
+      "stealthDetails": "(trained)",
+      "description": "A haunted object turns a nearby creature's violence against itself.",
+      "stealthDC": 31
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "haunt",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "69562467-3DA3-5F24-BD3E-EBA72CEA3CFB",
+    "kind": "Hazard",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Bottomless Pit",
+    "slug": "bottomless-pit-gm-core",
+    "descr": "",
+    "data": {
+      "level": 9,
+      "rarity": "common",
+      "traits": [
+        "magical",
+        "mechanical",
+        "trap"
+      ],
+      "complexity": "simple",
+      "stealth": 20,
+      "ac": {
+        "value": 28,
+        "details": ""
+      },
+      "hp": {
+        "value": 36,
+        "details": "",
+        "bt": 18
+      },
+      "hardness": 9,
+      "saves": {
+        "fortitude": 12,
+        "reflex": 12,
+        "will": 0
+      },
+      "disable": "Thievery DC 28 (trained) to remove the trapdoor",
+      "routine": "",
+      "reset": "The trap still causes creatures to fall forever if they fall in, but the trapdoor must be reset manually for the trap to become [Hidden](/condition/hidden-player-core) again.",
+      "abilities": [
+        {
+          "name": "Infinite Pitfall",
+          "text": "**Trigger** A creature walks onto the trapdoor\n\n**Effect** The triggering creature falls in and continues to fall, potentially forever. That creature can try to [Grab An Edge](/action/grab-an-edge-player-core) to avoid falling. The DC to Climb the walls or Grab an Edge is 26. The pit contains many handholds, so the falling creature can try to Grab an Edge again every 6 seconds. If the creature succeeds, it can start to Climb out from that point (though it might be a very long climb, depending on how far the creature fell). Since the creature falls endlessly, it can rest and even prepare spells while falling, though items dropped while falling are usually lost forever.",
+          "traits": [],
+          "actions": "reaction"
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "mechanical",
+          "slug": "mechanical"
+        },
+        {
+          "label": "trap",
+          "slug": "trap"
+        }
+      ],
+      "stealthDetails": "(or 0 if the trapdoor is disabled or broken) or detect magic",
+      "immunities": [
+        "object immunities",
+        "critical hits",
+        "precision damage"
+      ],
+      "description": "A concealed iron trapdoor opens over a bottomless, 10-foot-square shaft.",
+      "stealthDC": 30
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "magical",
+      "mechanical",
+      "remaster",
+      "trap"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F64D940E-839B-59E9-8B15-249F9465FFAA",
+    "kind": "Hazard",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Confounding Betrayal",
+    "slug": "confounding-betrayal-gm-core",
+    "descr": "",
+    "data": {
+      "level": 8,
+      "rarity": "common",
+      "traits": [
+        "haunt"
+      ],
+      "complexity": "complex",
+      "stealth": 21,
+      "ac": {
+        "value": 10,
+        "details": ""
+      },
+      "hp": {
+        "value": 0,
+        "details": ""
+      },
+      "hardness": 0,
+      "saves": {
+        "fortitude": 0,
+        "reflex": 0,
+        "will": 0
+      },
+      "disable": "Deception DC 28 (expert) twice to confound the haunt with your own deceptions, or Occultism DC 28 (trained) twice to create a ward against the haunt's mental influence",
+      "routine": "(1 action; illusion, incapacitation, occult) The haunt continues to confound victims' senses and inspire them to commit violence against each other. Each creature in the haunt's area must attempt a Will DC 26 save.\n\n---\n\n**Critical Success** The creature is unaffected and temporarily immune for 1 minute.\n\n**Success** The creature is unaffected.\n\n**Failure** The creature is [Confused](/condition/confused-player-core) for 1 round.\n\n**Critical Failure** The creature is [confused](/condition/confused-player-core) for 1 minute.",
+      "reset": "The haunt deactivates 1 minute after all creatures leave the area but resets immediately thereafter.",
+      "abilities": [
+        {
+          "name": "Unmask",
+          "text": "**Trigger** Two or more creatures enter the haunt's area\n\n**Effect** Each creature sees the forms of nearby creatures shift and change, appearing to transform into fiendish or aberrant beings with a thirst for blood. Each creature in the area must attempt a Will DC 30 save. The haunt then rolls initiative.\n\n**Critical Success** The creature sees through the illusions entirely and is temporarily immune to the haunt's routine for 1 minute.\n\n**Success** The creature is unaffected by the strange images.\n\n**Failure** The creature believes the illusions to be true; if they become [Confused](/condition/confused-player-core) by the haunt's routine, they can't attempt flat checks to end the [confused](/condition/confused-player-core) condition when they take damage.\n\n**Critical Failure** As failure, but the creature is left with a lingering suspicion of others and can't benefit from Aid reactions for 24 hours.",
+          "traits": [
+            "illusion",
+            "occult"
+          ],
+          "actions": "reaction"
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "haunt",
+          "slug": "haunt"
+        }
+      ],
+      "stealthDetails": "(expert)",
+      "description": "A haunt makes allies appear to transform into threatening monsters."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "haunt",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D55E9A05-7796-554C-8A9F-AF094BF04120",
+    "kind": "Hazard",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Dance Of Death",
+    "slug": "dance-of-death-gm-core",
+    "descr": "",
+    "data": {
+      "level": 16,
+      "rarity": "common",
+      "traits": [
+        "haunt"
+      ],
+      "complexity": "complex",
+      "stealth": 32,
+      "ac": {
+        "value": 10,
+        "details": ""
+      },
+      "hp": {
+        "value": 0,
+        "details": ""
+      },
+      "hardness": 0,
+      "saves": {
+        "fortitude": 0,
+        "reflex": 0,
+        "will": 0
+      },
+      "disable": "Intimidation DC 42 (expert) three times to frighten dancers and spectral musicians alike away from participating in the deadly performance, Performance DC 40 (master) twice to produce a tune discordant enough to disrupt the compulsion, or Religion DC 42 (master) three times to banish the spirits with prayers",
+      "routine": "(1 action; auditory, incapacitation, mental, occult) The orchestra performs a raucous tune, compelling all creatures that can hear it to spend actions dancing. Each round, creature must attempt a Will DC 37 save; the results of this save modify the number of actions that the creature must spend dancing each round. If this would cause the creature to spend more actions dancing than it can use on its turn, the creature takes 10d6 damage (or double that on a critical failure) from moving faster than its body can manage.\n\n---\n\n**Critical Success** The creature decreases the number of actions it must spend dancing by 1.\n\n**Success** No effect.\n\n**Failure** The creature increases the actions it must spend dancing by 1.\n\n**Critical Failure** The creature increases the actions it must spend dancing by 2.",
+      "reset": "The eerie orchestra spends an hour retuning its phantasmal instruments, after which it is ready to begin its routine again.",
+      "abilities": [
+        {
+          "name": "Prelude",
+          "text": "**Trigger** A creature approaches within 30 feet of the orchestra\n\n**Effect** The orchestra compels all creatures that can hear it to begin dancing. Each creature must attempt a Will DC 41 save, with the following effects. The haunt then rolls initiative.\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature is [Off Guard](/condition/off-guard-player-core) and cannot use reactions. Additionally, it must spend 1 of its actions each round dancing. Dancing is a move action that allows the creature to Stride up to half its Speed.\n\n**Failure** As success, except the creature must spend 2 of its actions each round dancing.\n\n**Critical Failure** As failure, except the creature must spend 3 of its actions each round dancing.",
+          "traits": [
+            "auditory",
+            "incapacitation",
+            "occult"
+          ],
+          "actions": "reaction"
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "haunt",
+          "slug": "haunt"
+        }
+      ],
+      "stealthDetails": "(master)",
+      "description": "Unseen music compels listeners to keep dancing until exhausted."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "haunt",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "55393C57-C436-5026-B936-7D5D28EE4FE8",
+    "kind": "Hazard",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Drowning Pit",
+    "slug": "drowning-pit-gm-core",
+    "descr": "",
+    "data": {
+      "level": 3,
+      "rarity": "common",
+      "traits": [
+        "mechanical",
+        "trap"
+      ],
+      "complexity": "complex",
+      "stealth": 10,
+      "ac": {
+        "value": 19,
+        "details": ""
+      },
+      "hp": {
+        "value": 60,
+        "details": "Spout Hardness 8, Spout HP 32 (BT 16)",
+        "bt": 30
+      },
+      "hardness": 15,
+      "saves": {
+        "fortitude": 8,
+        "reflex": 5,
+        "will": 0
+      },
+      "disable": "Thievery DC 18 (trained) to seal each water spout, Thievery DC 22 (trained) to open the trapdoor, or Athletics DC 22 to Force Open: Athletics the trapdoor",
+      "routine": "(4 actions) The trap loses 1 action each turn for each disabled water spout. On each of the trap's actions, a spout pours water, increasing the depth of the water by 5 feet. Once the pit is full of water, the pit stops using actions, but creatures in the pit begin drowning.",
+      "reset": "The trap can be reset if the door is manually reengaged and the water tanks are refilled; it can be reset without draining the pit, but doing so renders the pit less effective.",
+      "abilities": [
+        {
+          "name": "Pitfall",
+          "text": "**Trigger** A creature walks onto the trapdoor\n\n**Effect** The triggering creature falls in and takes damage from the fall, reduced by 5 feet for falling into the water (typically 12 bludgeoning damage). A creature can [Grab An Edge](/action/grab-an-edge-player-core) to avoid falling. The trapdoor then slams shut, and the hazard rolls initiative.",
+          "traits": [],
+          "actions": "reaction"
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "mechanical",
+          "slug": "mechanical"
+        },
+        {
+          "label": "trap",
+          "slug": "trap"
+        }
+      ],
+      "stealthDetails": "(trained); Perception DC 22 (expert) to notice the water spouts once the pit opens",
+      "immunities": [
+        "object immunities",
+        "critical hits",
+        "precision damage"
+      ],
+      "description": "A trapdoor hides a deep pit that fills through concealed wall spouts."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "mechanical",
+      "remaster",
+      "trap"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F85F3EA4-B935-578F-A7F5-63410C4F97DB",
+    "kind": "Hazard",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Electric Latch Rune",
+    "slug": "electric-latch-rune-gm-core",
+    "descr": "",
+    "data": {
+      "level": 3,
+      "rarity": "common",
+      "traits": [
+        "electricity",
+        "magical",
+        "trap"
+      ],
+      "complexity": "simple",
+      "stealth": 10,
+      "ac": {
+        "value": 10,
+        "details": ""
+      },
+      "hp": {
+        "value": 0,
+        "details": ""
+      },
+      "hardness": 0,
+      "saves": {
+        "fortitude": 0,
+        "reflex": 0,
+        "will": 0
+      },
+      "disable": "Thievery DC 20 (expert) to scratch out the rune without allowing electricity to flow, or Dispel Magic (2nd rank; counteract DC 18) to counteract the rune",
+      "routine": "",
+      "reset": "",
+      "abilities": [
+        {
+          "name": "Electrocution",
+          "text": "**Trigger** A creature grasps the door latch directly or with a tool\n\n**Effect** The trap deals 3d12 electricity damage to the triggering creature (basic Reflex DC 22 save).",
+          "traits": [
+            "arcane",
+            "electricity"
+          ],
+          "actions": "reaction"
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "electricity",
+          "slug": "electricity"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "trap",
+          "slug": "trap"
+        }
+      ],
+      "stealthDetails": "(trained)",
+      "description": "An unseen rune on a latch discharges electricity when disturbed.",
+      "stealthDC": 20
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "electricity",
+      "gm-core",
+      "magical",
+      "remaster",
+      "trap"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2BFA6A57-1DF2-5039-B8B1-C2793C137E13",
+    "kind": "Hazard",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Eternal Flame",
+    "slug": "eternal-flame-gm-core",
+    "descr": "",
+    "data": {
+      "level": 7,
+      "rarity": "common",
+      "traits": [
+        "haunt"
+      ],
+      "complexity": "complex",
+      "stealth": 18,
+      "ac": {
+        "value": 10,
+        "details": ""
+      },
+      "hp": {
+        "value": 0,
+        "details": ""
+      },
+      "hardness": 0,
+      "saves": {
+        "fortitude": 0,
+        "reflex": 0,
+        "will": 0
+      },
+      "disable": "Diplomacy DC 27 (expert) to temporarily calm the rage of one of the three spirits, or Religion DC 30 (trained) to exorcise one of the spirits; three total successes are required to disable the haunt",
+      "routine": "(1 action) Phantom flames rage across the haunted area, dealing 4d6 fire damage to each living creature within the area (basic Will DC 23 save). Undead creatures in the area are infused with flames for the following round. They gain the fire trait and immunity to fire, and all their attacks deal an additional 1d6 fire damage. Objects in the area are unaffected.",
+      "reset": "The flames cease 1 minute after all living creatures leave the area, but after 1 hour, the anger and pain simmer up and the haunt is ready to trigger again.",
+      "abilities": [
+        {
+          "name": "Searing Agony",
+          "text": "**Trigger** A living creature approaches within 10 feet of the remains of a victim of the original fire\n\n**Effect** Memories of the pain suffered by the fire's past victims assault the triggering creature's mind. The creature must attempt a Will DC 25 save, and the haunt then rolls initiative.\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature is [Sickened 1](/condition/sickened-player-core).\n\n**Failure** The creature is [Sickened 2](/condition/sickened-player-core).\n\n**Critical Failure** The creature is [Sickened 3](/condition/sickened-player-core), and it is [Off Guard](/condition/off-guard-player-core) for as long as it remains within the haunt's area and for 3 rounds thereafter.",
+          "traits": [
+            "mental"
+          ],
+          "actions": "reaction"
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "haunt",
+          "slug": "haunt"
+        }
+      ],
+      "stealthDetails": "(expert)",
+      "description": "Spectral flames manifest and empower undead within their reach."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "haunt",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "90424F0B-8FB5-5E59-8B1E-61B154588C1C",
+    "kind": "Hazard",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Fireball Rune",
+    "slug": "fireball-rune-gm-core",
+    "descr": "",
+    "data": {
+      "level": 5,
+      "rarity": "common",
+      "traits": [
+        "fire",
+        "magical",
+        "trap"
+      ],
+      "complexity": "simple",
+      "stealth": 14,
+      "ac": {
+        "value": 0,
+        "details": ""
+      },
+      "hp": {
+        "value": 0,
+        "details": ""
+      },
+      "hardness": 0,
+      "saves": {
+        "fortitude": 0,
+        "reflex": 0,
+        "will": 0
+      },
+      "disable": "Thievery DC 22 (expert) to erase the rune without triggering the sensor, or Dispel Magic (3rd rank; counteract DC 20) to counteract the rune",
+      "routine": "",
+      "reset": "",
+      "abilities": [
+        {
+          "name": "Fireball",
+          "text": "**Trigger** A living creature enters the sensor area\n\n**Effect** The rune detonates a [Fireball](/spell/fireball-player-core) centered on the triggering creature's square. This is a 3rd-rank fireball spell that deals 6d6 fire damage (basic Reflex DC 22 save).",
+          "traits": [
+            "arcane",
+            "fire"
+          ],
+          "actions": "reaction"
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "fire",
+          "slug": "fire"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "trap",
+          "slug": "trap"
+        }
+      ],
+      "stealthDetails": "(expert)",
+      "description": "An invisible rune watches the area through a magical sensor and releases fire.",
+      "stealthDC": 24
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "fire",
+      "gm-core",
+      "magical",
+      "remaster",
+      "trap"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "CBD16C4C-4ECF-5A37-AD56-F0647717E8C2",
+    "kind": "Hazard",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Flensing Blades",
+    "slug": "flensing-blades-gm-core",
+    "descr": "",
+    "data": {
+      "level": 12,
+      "rarity": "common",
+      "traits": [
+        "haunt"
+      ],
+      "complexity": "complex",
+      "stealth": 25,
+      "ac": {
+        "value": 33,
+        "details": ""
+      },
+      "hp": {
+        "value": 100,
+        "details": "",
+        "bt": 50
+      },
+      "hardness": 20,
+      "saves": {
+        "fortitude": 27,
+        "reflex": 25,
+        "will": 22
+      },
+      "disable": "Thievery DC 35 (master) to precisely adjust the blades so that they destroy each other, or Religion DC 38 (expert) to weaken the haunt; four successes are required to disable it",
+      "routine": "(3 actions) The tornado of blades uses 3 actions to move, traveling up to 30 feet with each action and dealing 2d10+10 slashing damage. Each creature in its path must attempt a Reflex DC 33.\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature takes half damage.\n\n**Failure** The creature takes full damage plus 1d10 bleed.\n\n**Critical Failure** The creature takes double damage and 1d10 bleed. It also becomes [Wounded 1](/condition/wounded-player-core) (or increases its [wounded](/condition/wounded-player-core) value by 1, if it is already [wounded](/condition/wounded-player-core)).\n\nEach successful check to disable this hazard reduces the haunt's movement by 30 feet, and the fourth success disables it completely.",
+      "reset": "The haunt draws jagged shards back into its area over the course of an hour, after which it can trigger again.",
+      "abilities": [
+        {
+          "name": "Whirling Blades",
+          "text": "**Trigger** Three or more creatures enter the area of the haunt\n\n**Effect** Sharp fragments lift up from the ground and begin to spin in rapid circles taking up one 5-foot square. The haunt rolls initiative.",
+          "traits": [],
+          "actions": "reaction"
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "haunt",
+          "slug": "haunt"
+        }
+      ],
+      "stealthDetails": "(expert)",
+      "immunities": [
+        "object immunities",
+        "critical hits",
+        "precision damage"
+      ],
+      "weaknesses": "vitality 15",
+      "description": "A storm of floating glass and metal cuts creatures in its path."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "haunt",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "57B4BE4C-64A4-587B-A013-F96AC66A0EDB",
+    "kind": "Hazard",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Ghostly Choir",
+    "slug": "ghostly-choir-gm-core",
+    "descr": "",
+    "data": {
+      "level": 6,
+      "rarity": "common",
+      "traits": [
+        "haunt"
+      ],
+      "complexity": "simple",
+      "stealth": 10,
+      "ac": {
+        "value": 0,
+        "details": ""
+      },
+      "hp": {
+        "value": 0,
+        "details": ""
+      },
+      "hardness": 0,
+      "saves": {
+        "fortitude": 0,
+        "reflex": 0,
+        "will": 0
+      },
+      "disable": "Performance DC 28 (trained) to disrupt the song's resonance with another tune or Religion DC 28 (trained) to ritually silence the spirits",
+      "routine": "",
+      "reset": "",
+      "abilities": [
+        {
+          "name": "Profane Chant",
+          "text": "**Trigger** A creature moves within 10 feet of the section of floor from which the choir can arise\n\n**Effect** The choir rises, and its song deals 4d8+18 mental damage to living creatures within 30 feet of the souls' spectral forms. Affected creatures must each attempt a Will DC 24 save.\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature takes half damage and becomes [Frightened 1](/condition/frightened-player-core).\n\n**Failure** The creature takes full damage and becomes [Frightened 2](/condition/frightened-player-core).\n\n**Critical Failure** The creature takes double damage. It also becomes [Frightened 3](/condition/frightened-player-core) and [Fleeing](/condition/fleeing-player-core) for 1 round.",
+          "traits": [
+            "auditory",
+            "emotion",
+            "fear",
+            "mental",
+            "occult"
+          ],
+          "actions": "reaction"
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "haunt",
+          "slug": "haunt"
+        }
+      ],
+      "stealthDetails": "(expert)",
+      "description": "Voices rise from a section of floor; their chant harms and frightens nearby living creatures.",
+      "stealthDC": 20
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "haunt",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core",
+        "page": 102
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "6C8AD4BC-E963-510A-B53F-D7F0A5F33409",
+    "kind": "Hazard",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Hallucination Powder Trap",
+    "slug": "hallucination-powder-trap-gm-core",
+    "descr": "",
+    "data": {
+      "level": 6,
+      "rarity": "common",
+      "traits": [
+        "mechanical",
+        "trap"
+      ],
+      "complexity": "simple",
+      "stealth": 14,
+      "ac": {
+        "value": 24,
+        "details": ""
+      },
+      "hp": {
+        "value": 1,
+        "details": ""
+      },
+      "hardness": 0,
+      "saves": {
+        "fortitude": 0,
+        "reflex": 0,
+        "will": 0
+      },
+      "disable": "Thievery DC 26 (expert) to disable the hammer that strikes the percussion cap",
+      "routine": "",
+      "reset": "",
+      "abilities": [
+        {
+          "name": "Powder Burst",
+          "text": "**Trigger** The latch is opened or the tube is broken.\n\n**Effect** The tube explodes, spraying hallucinogenic powder in a 30-foot cone. Any creature in the cone must succeed at a Will DC 24 save or be confused for 1 round and take a -2 status penalty to Perception checks and saves against mental effects for 1d4 hours. On a critical failure, the penalty is instead -4.\n\nEffect: Powder Burst",
+          "traits": [
+            "mental",
+            "poison"
+          ],
+          "actions": "reaction"
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "mechanical",
+          "slug": "mechanical"
+        },
+        {
+          "label": "trap",
+          "slug": "trap"
+        }
+      ],
+      "stealthDetails": "(expert)",
+      "immunities": [
+        "object immunities",
+        "critical hits",
+        "precision damage"
+      ],
+      "description": "A powder-filled tube is attached to a latch and bursts when triggered.",
+      "stealthDC": 24
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "mechanical",
+      "remaster",
+      "trap"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1451C585-B57A-51A3-9855-CBEFFA45DAC7",
+    "kind": "Hazard",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Hammer Of Forbiddance",
+    "slug": "hammer-of-forbiddance-gm-core",
+    "descr": "",
+    "data": {
+      "level": 11,
+      "rarity": "common",
+      "traits": [
+        "magical",
+        "mechanical",
+        "trap"
+      ],
+      "complexity": "simple",
+      "stealth": 20,
+      "ac": {
+        "value": 32,
+        "details": ""
+      },
+      "hp": {
+        "value": 88,
+        "details": "Joint Hardness: 16, Joint HP: 64 (BT 32)",
+        "bt": 44
+      },
+      "hardness": 22,
+      "saves": {
+        "fortitude": 24,
+        "reflex": 15,
+        "will": null
+      },
+      "disable": "Thievery DC 28 (expert) once on the hammer itself and once on its joint to prevent the hammer from swinging",
+      "routine": "",
+      "reset": "The trap resets over the course of the round, and is ready to swing again 1 round later.",
+      "abilities": [
+        {
+          "name": "Forbid Entry",
+          "text": "**Trigger** A creature attempts to enter through the entrance.\n\n**Effect** The hammer swings down, making a Strike against the triggering creature.",
+          "traits": [
+            "divine"
+          ],
+          "actions": "reaction"
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "mechanical",
+          "slug": "mechanical"
+        },
+        {
+          "label": "trap",
+          "slug": "trap"
+        }
+      ],
+      "stealthDetails": "(expert)",
+      "immunities": [
+        "object immunities",
+        "critical hits",
+        "precision damage"
+      ],
+      "description": "A concealed hammer swings down at the entrance to strike and repel intruders.",
+      "stealthDC": 30,
+      "attacks": [
+        {
+          "name": "Hammer",
+          "type": "melee",
+          "attack": 28,
+          "damageParts": [
+            {
+              "name": "6d8+20",
+              "details": "bludgeoning"
+            }
+          ]
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "magical",
+      "mechanical",
+      "remaster",
+      "trap"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D38C7E1E-6819-5958-8258-D6A5F5A4EED6",
+    "kind": "Hazard",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Hampering Web",
+    "slug": "hampering-web-gm-core",
+    "descr": "",
+    "data": {
+      "level": 1,
+      "rarity": "common",
+      "traits": [
+        "environmental"
+      ],
+      "complexity": "simple",
+      "stealth": 8,
+      "ac": {
+        "value": 19,
+        "details": ""
+      },
+      "hp": {
+        "value": 26,
+        "details": "",
+        "bt": 13
+      },
+      "hardness": 0,
+      "saves": {
+        "fortitude": 10,
+        "reflex": 11,
+        "will": 0
+      },
+      "disable": "Survival DC 17 (trained) to dislodge it",
+      "routine": "",
+      "reset": "",
+      "abilities": [
+        {
+          "name": "Ensnare",
+          "text": "**Trigger** A creature that isn't a spider walks into the web\n\n**Effect** The web wraps around the triggering creature's body, clinging to their limbs. The triggering creature must succeed at a Reflex DC 20 save or take a –10-foot circumstance penalty to all their Speeds until they [Escape](/action/escape-player-core) the web (DC 20). On a critical failure, the webbing also clings to the creature's face, making them [Sickened 1](/condition/sickened-player-core), and they can't attempt to reduce this condition until they Escape the web.",
+          "traits": [],
+          "actions": "reaction"
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "environmental",
+          "slug": "environmental"
+        }
+      ],
+      "stealthDetails": "(expert)",
+      "immunities": [
+        "object immunities",
+        "critical hits",
+        "precision damage"
+      ],
+      "description": "Fine sheets of webbing cover a passage and cling to creatures crossing it.",
+      "stealthDC": 18
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "environmental",
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A45A2421-FEAE-5115-B7C4-622F1AE19903",
+    "kind": "Hazard",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Hidden Pit",
+    "slug": "hidden-pit-gm-core",
+    "descr": "",
+    "data": {
+      "level": 0,
+      "rarity": "common",
+      "traits": [
+        "mechanical",
+        "trap"
+      ],
+      "complexity": "simple",
+      "stealth": 8,
+      "ac": {
+        "value": 10,
+        "details": ""
+      },
+      "hp": {
+        "value": 12,
+        "details": "",
+        "bt": 6
+      },
+      "hardness": 3,
+      "saves": {
+        "fortitude": 1,
+        "reflex": 1,
+        "will": 0
+      },
+      "disable": "Thievery DC 12 to remove the trapdoor",
+      "routine": "",
+      "reset": "Creatures can still fall into the trap, but the trapdoor must be reset manually for the trap to become hidden again.",
+      "abilities": [
+        {
+          "name": "Pitfall",
+          "text": "**Trigger** A creature walks onto the trapdoor.\n\n**Effect** The triggering creature falls in and takes falling damage (typically 10 bludgeoning damage). That creature can use the [Grab An Edge](/action/grab-an-edge-player-core) reaction to avoid falling.",
+          "traits": [],
+          "actions": "reaction"
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "mechanical",
+          "slug": "mechanical"
+        },
+        {
+          "label": "trap",
+          "slug": "trap"
+        }
+      ],
+      "stealthDetails": "(or 0 if the trapdoor is disabled or broken)",
+      "immunities": [
+        "object immunities",
+        "critical hits",
+        "precision damage"
+      ],
+      "description": "A wooden trapdoor covers a 10-foot-square, 20-foot-deep pit.",
+      "stealthDC": 18
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "mechanical",
+      "remaster",
+      "trap"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "39530FAE-E26E-5FFE-B07B-D282F0EBBE36",
+    "kind": "Hazard",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Pharaoh's Ward",
+    "slug": "pharaoh-s-ward-gm-core",
+    "descr": "",
+    "data": {
+      "level": 7,
+      "rarity": "common",
+      "traits": [
+        "magical",
+        "trap"
+      ],
+      "complexity": "simple",
+      "stealth": 15,
+      "ac": {
+        "value": 0,
+        "details": ""
+      },
+      "hp": {
+        "value": 0,
+        "details": ""
+      },
+      "hardness": 0,
+      "saves": {
+        "fortitude": 0,
+        "reflex": 0,
+        "will": 0
+      },
+      "disable": "Thievery DC 27 (master) to painstakingly remove the lintel without triggering the magic, or Dispel Magic (4th rank; counteract DC 25) to counteract the rune",
+      "routine": "",
+      "reset": "The trap resets when the door is shut.",
+      "abilities": [
+        {
+          "name": "Curse the Intruders",
+          "text": "**Trigger** The seal on the tomb is broken from the outside.\n\n**Effect** Each living creature within 60 feet must succeed at a Will DC 23 save or be subjected to the pharaoh's curse. A cursed creature takes a -2 status penalty to Fortitude saves, and any natural or magical healing it receives is halved. The curse remains until removed by [Cleanse Affliction](/spell/cleanse-affliction-player-core) or similar magic.",
+          "traits": [
+            "curse",
+            "divine"
+          ],
+          "actions": "reaction"
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "trap",
+          "slug": "trap"
+        }
+      ],
+      "stealthDetails": "(expert)",
+      "description": "A magical curse waits at an entryway's threshold.",
+      "stealthDC": 25
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "magical",
+      "remaster",
+      "trap"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "DE49420D-74D5-5939-B006-4F4B233A3247",
+    "kind": "Hazard",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Planar Rift",
+    "slug": "planar-rift-gm-core",
+    "descr": "",
+    "data": {
+      "level": 13,
+      "rarity": "common",
+      "traits": [
+        "magical",
+        "trap"
+      ],
+      "complexity": "simple",
+      "stealth": 25,
+      "ac": {
+        "value": 10,
+        "details": ""
+      },
+      "hp": {
+        "value": 0,
+        "details": ""
+      },
+      "hardness": 0,
+      "saves": {
+        "fortitude": 0,
+        "reflex": 0,
+        "will": 0
+      },
+      "disable": "Thievery DC 33 (master) to assemble a rift seal using objects strongly grounded to your plane, or Dispel Magic (7th rank; counteract DC 31) to counteract the rift",
+      "routine": "",
+      "reset": "",
+      "abilities": [
+        {
+          "name": "Into the Great Beyond",
+          "text": "**Trigger** A creature moves within 10 feet of the rift.\n\n**Effect** The triggering creature and all creatures within 30 feet of the rift are drawn into another plane. Each creature can attempt a Reflex DC 33 save to avoid this fate.",
+          "traits": [
+            "occult",
+            "teleportation"
+          ],
+          "actions": "reaction"
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "trap",
+          "slug": "trap"
+        }
+      ],
+      "stealthDetails": "(trained)",
+      "description": "An opening to another plane pulls nearby creatures toward it.",
+      "stealthDC": 35
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "magical",
+      "remaster",
+      "trap"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "554A0B94-80AF-5343-BB5E-6CF61527C26A",
+    "kind": "Hazard",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Poisoned Dart Gallery",
+    "slug": "poisoned-dart-gallery-gm-core",
+    "descr": "",
+    "data": {
+      "level": 8,
+      "rarity": "common",
+      "traits": [
+        "mechanical",
+        "trap"
+      ],
+      "complexity": "complex",
+      "stealth": 16,
+      "ac": {
+        "value": 27,
+        "details": ""
+      },
+      "hp": {
+        "value": 56,
+        "details": "to destroy the control panel and disable the trap",
+        "bt": 28
+      },
+      "hardness": 14,
+      "saves": {
+        "fortitude": 13,
+        "reflex": 17,
+        "will": null
+      },
+      "disable": "Thievery DC 21 (expert) on the control panel deactivates the trap.",
+      "routine": "(1 action) The trap launches one dart against every creature in the gallery as 1 action. Because it launches darts continuously, the trap can also use the Continuous Barrage free action (see below) to launch darts at each creature during that creature's turn.",
+      "reset": "The trap deactivates and resets after 1 minute.",
+      "abilities": [
+        {
+          "name": "Dart Volley",
+          "text": "**Trigger** A creature enters the hallway or ends its turn in the hallway\n\n**Effect** The trap makes a poisoned dart Strike against the triggering creature, then rolls initiative.",
+          "traits": [],
+          "actions": "reaction"
+        },
+        {
+          "name": "Continuous Barrage",
+          "text": "**Trigger** A creature within the active gallery finishes an action\n\n**Effect** The trap makes a poisoned dart Strike against the triggering creature.",
+          "traits": [],
+          "actions": "free"
+        },
+        {
+          "name": "Flesset Poison",
+          "text": "**Saving Throw** Fortitude DC 22\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 1d6 poison damage and [Clumsy 1](/condition/clumsy-player-core) (1 round)\n\n**Stage 2** 2d6 poison damage and [Clumsy 2](/condition/clumsy-player-core) (1 round)\n\n**Stage 3** 3d6 poison damage and [Clumsy 3](/condition/clumsy-player-core) (1 round)",
+          "traits": [
+            "poison"
+          ]
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "mechanical",
+          "slug": "mechanical"
+        },
+        {
+          "label": "trap",
+          "slug": "trap"
+        }
+      ],
+      "stealthDetails": "(expert) or Perception DC 31 (master) to notice the control panel",
+      "immunities": [
+        "object immunities",
+        "precision damage",
+        "critical hits"
+      ],
+      "description": "Concealed openings along a hall launch poisoned darts from a distant control panel.",
+      "attacks": [
+        {
+          "name": "Poisoned Dart",
+          "type": "ranged",
+          "attack": 21,
+          "damageParts": [
+            {
+              "name": "3d4",
+              "details": "piercing"
+            }
+          ]
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "mechanical",
+      "remaster",
+      "trap"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "BEB0FD61-DA45-5306-990B-5109348D876E",
+    "kind": "Hazard",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Poisoned Lock",
+    "slug": "poisoned-lock-gm-core",
+    "descr": "",
+    "data": {
+      "level": 1,
+      "rarity": "common",
+      "traits": [
+        "mechanical",
+        "trap"
+      ],
+      "complexity": "simple",
+      "stealth": 7,
+      "ac": {
+        "value": 15,
+        "details": ""
+      },
+      "hp": {
+        "value": 24,
+        "details": "",
+        "bt": 12
+      },
+      "hardness": 6,
+      "saves": {
+        "fortitude": 8,
+        "reflex": 4,
+        "will": 0
+      },
+      "disable": "Thievery DC 17 (trained) on the spring mechanism",
+      "routine": "",
+      "reset": "",
+      "abilities": [
+        {
+          "name": "Spring",
+          "text": "**Trigger** A creature tries to unlock or Pick the Lock.\n\n**Effect** A spine extends to Strike the triggering creature.",
+          "traits": [
+            "attack"
+          ],
+          "actions": "reaction"
+        },
+        {
+          "name": "Cladis Poison",
+          "text": "**Saving Throw** Fortitude DC 19\n\n**Maximum Duration** 4 hours\n\n**Stage 1** 1d6 poison damage and [Drained 1](/condition/drained-player-core) (1 hour)\n\n**Stage 2** 2d6 poison damage and [Drained 2](/condition/drained-player-core) (1 hour)\n\n**Stage 3** 3d6 poison damage and [drained 2](/condition/drained-player-core) (1 hour)",
+          "traits": [
+            "poison"
+          ]
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "mechanical",
+          "slug": "mechanical"
+        },
+        {
+          "label": "trap",
+          "slug": "trap"
+        }
+      ],
+      "stealthDetails": "(trained)",
+      "immunities": [
+        "object immunities",
+        "critical hits",
+        "precision damage"
+      ],
+      "description": "A poisoned spine is concealed beside a lock's keyhole.",
+      "stealthDC": 17,
+      "attacks": [
+        {
+          "name": "Spine",
+          "type": "melee",
+          "attack": 13,
+          "damageParts": [
+            {
+              "name": "1",
+              "details": "piercing"
+            }
+          ]
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "mechanical",
+      "remaster",
+      "trap"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "32094FA2-68D9-577A-92E8-A8EF8354E95F",
+    "kind": "Hazard",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Poisonous Mold",
+    "slug": "poisonous-mold-gm-core",
+    "descr": "",
+    "data": {
+      "level": 2,
+      "rarity": "common",
+      "traits": [
+        "environmental",
+        "fungus"
+      ],
+      "complexity": "simple",
+      "stealth": 11,
+      "ac": {
+        "value": 18,
+        "details": ""
+      },
+      "hp": {
+        "value": 30,
+        "details": "",
+        "bt": 15
+      },
+      "hardness": null,
+      "saves": {
+        "fortitude": 11,
+        "reflex": 5,
+        "will": 0
+      },
+      "disable": "Survival DC 18 (trained) to safely remove the mold",
+      "routine": "",
+      "reset": "Unless entirely eradicated (typically with acid or fire), the mold regrows over the course of 2 weeks.",
+      "abilities": [
+        {
+          "name": "Feed on Decay",
+          "text": "The mold expands when fed by blood or decay. If at any point a creature takes bleed damage while adjacent to the mold or a dying or dead body is adjacent to the mold, the mold grows to expand into every square adjacent to its current space. This can happen only once per day.",
+          "traits": []
+        },
+        {
+          "name": "Spore Burst",
+          "text": "**Frequency** once per day\n\n**Trigger** A creature touches the mold, hits it, or damages it\n\n**Effect** The mold explodes in a burst of spores and mold clusters, dealing 2d6+6 poison damage to creatures within 10 feet of it, with a basic Fortitude DC 18 save.",
+          "traits": [
+            "poison"
+          ],
+          "actions": "reaction"
+        },
+        {
+          "name": "Floating Spores",
+          "text": "5 feet. A creature that enters or starts its turn in the aura takes 2d6 poison damage.",
+          "traits": [
+            "aura",
+            "poison"
+          ]
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "environmental",
+          "slug": "environmental"
+        },
+        {
+          "label": "fungus",
+          "slug": "fungus"
+        }
+      ],
+      "stealthDetails": "(trained)",
+      "immunities": [
+        "object immunities",
+        "critical hits",
+        "precision damage"
+      ],
+      "weaknesses": "fire 10",
+      "description": "A patch of mold sheds toxic spores when a creature comes close.",
+      "stealthDC": 21
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "environmental",
+      "fungus",
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "98BE9234-7CA8-5F3A-B347-C668EF743664",
+    "kind": "Hazard",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Polymorph Trap",
+    "slug": "polymorph-trap-gm-core",
+    "descr": "",
+    "data": {
+      "level": 12,
+      "rarity": "common",
+      "traits": [
+        "magical",
+        "trap"
+      ],
+      "complexity": "simple",
+      "stealth": 24,
+      "ac": {
+        "value": 10,
+        "details": ""
+      },
+      "hp": {
+        "value": 0,
+        "details": ""
+      },
+      "hardness": 0,
+      "saves": {
+        "fortitude": 0,
+        "reflex": 0,
+        "will": 0
+      },
+      "disable": "Thievery DC 32 (master) to drain the glyph's power harmlessly, or Dispel Magic (6th rank; counteract DC 30) to counteract the glyph",
+      "routine": "",
+      "reset": "",
+      "abilities": [
+        {
+          "name": "Cursed Metamorphosis",
+          "text": "**Trigger** A creature moves within 30 feet of the glyph without speaking the passphrase in Druidic\n\n**Effect** The creature is targeted by [Cursed Metamorphosis](/spell/cursed-metamorphosis-player-core) (Will DC 32 save).",
+          "traits": [
+            "primal"
+          ],
+          "actions": "reaction"
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "trap",
+          "slug": "trap"
+        }
+      ],
+      "stealthDetails": "(trained)",
+      "description": "A magical glyph attempts to change an intruder into an animal.",
+      "stealthDC": 34
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "magical",
+      "remaster",
+      "trap"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8CDFD374-1609-53A1-AB98-0C455FBF73E2",
+    "kind": "Hazard",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Quicksand",
+    "slug": "quicksand-gm-core",
+    "descr": "",
+    "data": {
+      "level": 3,
+      "rarity": "common",
+      "traits": [
+        "environmental"
+      ],
+      "complexity": "complex",
+      "stealth": 12,
+      "ac": {
+        "value": 10,
+        "details": ""
+      },
+      "hp": {
+        "value": 0,
+        "details": ""
+      },
+      "hardness": 0,
+      "saves": {
+        "fortitude": 0,
+        "reflex": 0,
+        "will": 0
+      },
+      "disable": "Survival DC 18 (trained) to disturb the surface",
+      "routine": "(1 action) On its initiative, the quicksand pulls down each creature within it. A creature that was submerged up to its waist becomes submerged up to its neck, and a creature that was submerged up to its neck is pulled under and has to hold its breath to avoid suffocation. A creature in the quicksand can attempt a Athletics DC 20 check to Swim to either raise itself by one step if it's submerged to its neck or worse, or to move 5 feet if it's submerged only up to its waist. On a critical failure, the creature is pulled down one step. A creature that Swims out of the quicksand escapes the hazard and is [Prone](/condition/prone-player-core) in a space adjacent to the quicksand patch. Other creatures can Aid the creature, typically by using a rope or similar aid, or attempt to pull the creature out with their own Athletics DC 20 check, with the same results as if the creature attempted the check.",
+      "reset": "The hazard still submerges anyone who walks in, but the surface doesn't become hidden again until it settles over the course of 24 hours.",
+      "abilities": [
+        {
+          "name": "Submerge",
+          "text": "**Trigger** A Huge or smaller creature walks onto the quicksand\n\n**Effect** The triggering creature sinks into the quicksand up to its waist. The quicksand rolls initiative if it hasn't already.",
+          "traits": [],
+          "actions": "free"
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "environmental",
+          "slug": "environmental"
+        }
+      ],
+      "stealthDetails": "(trained) (or -10 and no minimum proficiency if the surface is disturbed)",
+      "description": "A waterlogged patch of sand pulls creatures beneath its surface."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "environmental",
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "7953FC71-18A6-5DCF-B507-DC457DA93FE3",
+    "kind": "Hazard",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Scythe Blades",
+    "slug": "scythe-blades-gm-core",
+    "descr": "",
+    "data": {
+      "level": 4,
+      "rarity": "common",
+      "traits": [
+        "mechanical",
+        "trap"
+      ],
+      "complexity": "simple",
+      "stealth": 13,
+      "ac": {
+        "value": 21,
+        "details": ""
+      },
+      "hp": {
+        "value": 44,
+        "details": "",
+        "bt": 22
+      },
+      "hardness": 11,
+      "saves": {
+        "fortitude": 12,
+        "reflex": 8,
+        "will": null
+      },
+      "disable": "Thievery DC 21 (trained) to disable each blade",
+      "routine": "",
+      "reset": "The trap resets after 15 minutes.",
+      "abilities": [
+        {
+          "name": "Falling Scythes",
+          "text": "**Trigger** The trip wire is pulled or severed.\n\n**Effect** Both blades swing down, each one Striking all creatures under the ceiling grooves.",
+          "traits": [],
+          "actions": "reaction"
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "mechanical",
+          "slug": "mechanical"
+        },
+        {
+          "label": "trap",
+          "slug": "trap"
+        }
+      ],
+      "stealthDetails": "(trained)",
+      "immunities": [
+        "object immunities",
+        "critical hits",
+        "precision damage"
+      ],
+      "description": "A trip wire releases two blades concealed in ceiling grooves.",
+      "stealthDC": 23,
+      "attacks": [
+        {
+          "name": "Scythe",
+          "type": "melee",
+          "attack": 17,
+          "traits": [
+            "deadly-d12"
+          ],
+          "damageParts": [
+            {
+              "name": "2d12+4",
+              "details": "slashing"
+            }
+          ]
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "mechanical",
+      "remaster",
+      "trap"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4E092F1A-7394-5884-91F4-FF08C74753D6",
+    "kind": "Hazard",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Slamming Door",
+    "slug": "slamming-door-gm-core",
+    "descr": "",
+    "data": {
+      "level": 1,
+      "rarity": "common",
+      "traits": [
+        "mechanical",
+        "trap"
+      ],
+      "complexity": "simple",
+      "stealth": 7,
+      "ac": {
+        "value": 16,
+        "details": ""
+      },
+      "hp": {
+        "value": 20,
+        "details": "",
+        "bt": 10
+      },
+      "hardness": 5,
+      "saves": {
+        "fortitude": 10,
+        "reflex": 2,
+        "will": 0
+      },
+      "disable": "Thievery DC 15 (trained) on the floor panels before the slab falls",
+      "routine": "",
+      "reset": "",
+      "abilities": [
+        {
+          "name": "Slam Shut",
+          "text": "**Trigger** Pressure is placed on any floor tile.\n\n**Effect** The door falls, closing off the hallway. The stone slab deals 3d8 bludgeoning damage to anyone beneath or adjacent to the slab when it drops and pushes them out of its space in a random direction. A creature that succeeds at a Reflex DC 17 save takes no damage and rolls out of the way in a random direction. On a critical success, they can choose the direction.\n\nLifting the fallen slab requires a successful Athletics DC 25 check.\n\nHitting the floor panels triggers the trap. The slab uses the same AC and saves as the trap, but it has Hardness 12, HP 48 (BT 24).",
+          "traits": [],
+          "actions": "reaction"
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "mechanical",
+          "slug": "mechanical"
+        },
+        {
+          "label": "trap",
+          "slug": "trap"
+        }
+      ],
+      "stealthDetails": "(trained)",
+      "immunities": [
+        "object immunities",
+        "critical hits",
+        "precision damage"
+      ],
+      "description": "Floor panels trigger a stone slab concealed overhead.",
+      "stealthDC": 17
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "mechanical",
+      "remaster",
+      "trap"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9076D1E9-EEBC-50DE-92DE-B85E1D9A3415",
+    "kind": "Hazard",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Snowfall",
+    "slug": "snowfall-gm-core",
+    "descr": "",
+    "data": {
+      "level": 0,
+      "rarity": "common",
+      "traits": [
+        "environmental"
+      ],
+      "complexity": "simple",
+      "stealth": 6,
+      "ac": {
+        "value": 16,
+        "details": ""
+      },
+      "hp": {
+        "value": 8,
+        "details": "",
+        "bt": 4
+      },
+      "hardness": 0,
+      "saves": {
+        "fortitude": 10,
+        "reflex": 8,
+        "will": 0
+      },
+      "disable": "Survival DC 19 (trained) to safely dislodge the snow, or deal any amount of fire damage to destroy the hazard without triggering it",
+      "routine": "",
+      "reset": "",
+      "abilities": [
+        {
+          "name": "Snowdrop",
+          "text": "**Trigger** A creature moves beneath where the snowfall is resting.\n\n**Effect** Ice and snow fall on the triggering creature, dealing 2d6+3 bludgeoning damage (basic Reflex DC 18 save) and soaking their clothing. Until they change into fresh clothing or spend at least an hour in an area of normal or higher temperature, they treat cold environments as one step colder (for example, mild cold as severe cold).",
+          "traits": [],
+          "actions": "reaction"
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "environmental",
+          "slug": "environmental"
+        }
+      ],
+      "stealthDetails": "(trained)",
+      "immunities": [
+        "object immunities",
+        "critical hits",
+        "precision damage"
+      ],
+      "description": "Unstable snow and ice fall from an elevated surface when disturbed.",
+      "stealthDC": 16
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "environmental",
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "7349CCFE-D04B-5727-AD35-95479330A59C",
+    "kind": "Hazard",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spear Launcher",
+    "slug": "spear-launcher-gm-core",
+    "descr": "",
+    "data": {
+      "level": 2,
+      "rarity": "common",
+      "traits": [
+        "mechanical",
+        "trap"
+      ],
+      "complexity": "simple",
+      "stealth": 10,
+      "ac": {
+        "value": 18,
+        "details": ""
+      },
+      "hp": {
+        "value": 32,
+        "details": "",
+        "bt": 16
+      },
+      "hardness": 8,
+      "saves": {
+        "fortitude": 11,
+        "reflex": 3,
+        "will": 0
+      },
+      "disable": "Thievery DC 18 (trained) on the floor tile or wall socket",
+      "routine": "",
+      "reset": "",
+      "abilities": [
+        {
+          "name": "Spear",
+          "text": "**Trigger** Pressure is applied to the floor tile.\n\n**Effect** The trap shoots a spear, making a Strike against the creature or object on the floor tile.",
+          "traits": [
+            "attack"
+          ],
+          "actions": "reaction"
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "mechanical",
+          "slug": "mechanical"
+        },
+        {
+          "label": "trap",
+          "slug": "trap"
+        }
+      ],
+      "stealthDetails": "(trained)",
+      "immunities": [
+        "object immunities",
+        "critical hits",
+        "precision damage"
+      ],
+      "description": "A pressure-sensitive floor tile activates a spear hidden in a wall socket.",
+      "stealthDC": 20,
+      "attacks": [
+        {
+          "name": "Spear",
+          "type": "ranged",
+          "attack": 14,
+          "damageParts": [
+            {
+              "name": "2d6+6",
+              "details": "piercing"
+            }
+          ]
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "mechanical",
+      "remaster",
+      "trap"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5CFC8CFC-0C82-5B21-AD9C-1B25D8F6EE6C",
+    "kind": "Hazard",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spectral Reflection",
+    "slug": "spectral-reflection-gm-core",
+    "descr": "",
+    "data": {
+      "level": 5,
+      "rarity": "common",
+      "traits": [
+        "haunt"
+      ],
+      "complexity": "simple",
+      "stealth": 16,
+      "ac": {
+        "value": 19,
+        "details": ""
+      },
+      "hp": {
+        "value": 50,
+        "details": "",
+        "bt": 25
+      },
+      "hardness": 13,
+      "saves": {
+        "fortitude": 15,
+        "reflex": 10,
+        "will": 0
+      },
+      "disable": "Religion DC 23 (trained) to exorcise the spirit, or Thievery DC 23 (trained) to quickly cover the mirror",
+      "routine": "",
+      "reset": "The haunt re-forms after 1 minute, manifesting in any mirror within its infused area (see Special below).",
+      "abilities": [
+        {
+          "name": "Spectral Impale",
+          "text": "**Trigger** A living creature approaches within 15 feet of the mirror, and the mirror is lit with dim or brighter light.\n\n**Effect** Shadowy barbs impale the body of the reflected creature as the haunt makes a shadow barbs Strike.",
+          "traits": [],
+          "actions": "reaction"
+        },
+        {
+          "name": "Sap Vitality",
+          "text": "A creature hit by the reflection's shadow barbs must attempt a Fortitude DC 22 save as the haunt tries to draw a portion of its vital essence into the mirror. The target is [Drained 1](/condition/drained-player-core) on a failed saving throw, or [Drained 2](/condition/drained-player-core) on a critical failure.",
+          "traits": []
+        },
+        {
+          "name": "Special",
+          "text": "Spectral reflections often infuse entire buildings, manifesting in any sufficiently large mirror. The example Hit Points and Hardness given represent a typical mirror reinforced by the haunt; at your discretion, the haunt might appear in reflective surfaces that are harder to destroy. Defeating a manifestation through damage destroys the surface, preventing the haunt from using it again. If this haunt appears in an area with many mirrors, consider giving PCs double or even triple the XP for a typical simple hazard.",
+          "traits": []
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "haunt",
+          "slug": "haunt"
+        }
+      ],
+      "stealthDetails": "(expert)",
+      "immunities": [
+        "object immunities",
+        "critical hits",
+        "precision damage"
+      ],
+      "description": "A mirror image turns hostile toward the creature it reflects.",
+      "stealthDC": 26,
+      "attacks": [
+        {
+          "name": "Shadow Barbs",
+          "type": "melee",
+          "attack": 19,
+          "damageParts": [
+            {
+              "name": "4d8+9",
+              "details": "void"
+            }
+          ]
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "haunt",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "88017D31-EEBD-5FB2-A7F4-8D3B0A3D448D",
+    "kind": "Hazard",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spinning Blade Pillar",
+    "slug": "spinning-blade-pillar-gm-core",
+    "descr": "",
+    "data": {
+      "level": 4,
+      "rarity": "common",
+      "traits": [
+        "mechanical",
+        "trap"
+      ],
+      "complexity": "complex",
+      "stealth": 11,
+      "ac": {
+        "value": 21,
+        "details": ""
+      },
+      "hp": {
+        "value": 48,
+        "details": "Panel Hardness: 5, Panel HP: 20 (BT 10)",
+        "bt": 24
+      },
+      "hardness": 12,
+      "saves": {
+        "fortitude": 10,
+        "reflex": 12,
+        "will": 0
+      },
+      "disable": "Thievery DC 21 (trained) twice on the pillar, or Thievery DC 19 (expert) once on the control panel deactivates the whole trap. Breaking the control panel prevents anyone from disabling the trap using the control panel and prevents the trap from deactivating automatically.",
+      "routine": "(3 actions) The trap uses its first action to make a spinning blade Strike against each adjacent creature, its second action to move straight in a random direction (roll 1d4 to determine the direction), and its third to make a spinning blade Strike against each adjacent creature. This trap doesn't take a multiple attack penalty.",
+      "reset": "The trap deactivates and resets after 1 minute.",
+      "abilities": [
+        {
+          "name": "Rising Pillar",
+          "text": "**Trigger** A creature steps on one of the trapped floor tiles\n\n**Effect** The trap pops up in a grid intersection and makes a spinning blade Strike against one adjacent creature (if any), then rolls initiative.",
+          "traits": [
+            "attack"
+          ],
+          "actions": "reaction"
+        },
+        {
+          "name": "Speed",
+          "text": "10 feet",
+          "traits": []
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "mechanical",
+          "slug": "mechanical"
+        },
+        {
+          "label": "trap",
+          "slug": "trap"
+        }
+      ],
+      "stealthDetails": "(trained) or Perception DC 26 (expert) to notice the control panel",
+      "immunities": [
+        "object immunities",
+        "critical hits",
+        "precision damage"
+      ],
+      "description": "Floor plates raise a concealed pillar of rotating blades.",
+      "attacks": [
+        {
+          "name": "Spinning Blade",
+          "type": "melee",
+          "attack": 12,
+          "damageParts": [
+            {
+              "name": "2d10+5",
+              "details": "slashing"
+            }
+          ]
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "mechanical",
+      "remaster",
+      "trap"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "40790429-CBE5-5BD1-9D57-C8D5EFAA3825",
+    "kind": "Hazard",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Summoning Rune",
+    "slug": "summoning-rune-gm-core",
+    "descr": "",
+    "data": {
+      "level": 1,
+      "rarity": "common",
+      "traits": [
+        "magical",
+        "trap"
+      ],
+      "complexity": "complex",
+      "stealth": 7,
+      "ac": {
+        "value": 10,
+        "details": ""
+      },
+      "hp": {
+        "value": 0,
+        "details": ""
+      },
+      "hardness": 0,
+      "saves": {
+        "fortitude": 0,
+        "reflex": 0,
+        "will": 0
+      },
+      "disable": "Acrobatics DC 15 to approach without triggering the trap followed by Thievery DC 17 (trained) to erase the rune, or Dispel Magic (1st rank; counteract DC 15) to counteract the rune",
+      "routine": "",
+      "reset": "The trap resets each day at dawn.",
+      "abilities": [
+        {
+          "name": "Summon Monster",
+          "text": "**Trigger** A creature enters the cloud of magical sensors\n\n**Effect** This trap summons a specific 1st-level creature, determined when the trap is created. The creature rolls initiative and remains for 2d6 rounds, after which the spell ends and the creature disappears. The creature also disappears if someone disables the trap before the duration expires. The summoned creature can use 3 actions each round and can use reactions, unlike most summoned creatures.",
+          "traits": [
+            "arcane",
+            "summon"
+          ],
+          "actions": "reaction"
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "trap",
+          "slug": "trap"
+        }
+      ],
+      "stealthDetails": "(trained)",
+      "description": "An unseen magical sensor surrounds a rune that summons a creature."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "magical",
+      "remaster",
+      "trap"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "DDDDD6A9-AD92-5537-90E6-0C6973B8100E",
+    "kind": "Hazard",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Titanic Flytrap",
+    "slug": "titanic-flytrap-gm-core",
+    "descr": "",
+    "data": {
+      "level": 4,
+      "rarity": "common",
+      "traits": [
+        "environmental"
+      ],
+      "complexity": "simple",
+      "stealth": 15,
+      "ac": {
+        "value": 21,
+        "details": ""
+      },
+      "hp": {
+        "value": 56,
+        "details": "",
+        "bt": 28
+      },
+      "hardness": 0,
+      "saves": {
+        "fortitude": 15,
+        "reflex": 8,
+        "will": 0
+      },
+      "disable": "Survival DC 22 (trained) to mislead the flytrap's sense of weight and pressure",
+      "routine": "",
+      "reset": "1 hour (or longer, after a large meal)",
+      "abilities": [
+        {
+          "name": "Snap Shut",
+          "text": "**Trigger** A Small or Medium creature moves into a square that is within reach of the flytrap's hidden jaws\n\n**Effect** The flytrap's jaws snap shut, making a jaws Strike against the triggering creature.",
+          "traits": [],
+          "actions": "reaction"
+        },
+        {
+          "name": "Devour",
+          "text": "The target is trapped by the flytrap's jaws, gaining the [Grabbed](/condition/grabbed-player-core) condition until it Escapes. Additionally, it is exposed to the titanic flytrap toxin from the hundreds of tiny hairs that line the inside of its leaves. If the flytrap's jaws Strike was a critical success, the target takes a –2 circumstance penalty to its saving throws against this poison. At the end of each of the target's turns that it remains [grabbed](/condition/grabbed-player-core), the target takes 3d6 acid damage.",
+          "traits": []
+        },
+        {
+          "name": "Titanic Flytrap Toxin",
+          "text": "**Saving Throw** Fortitude DC 21\n\n**Maximum Duration** 4 rounds\n\n**Stage 1** 2d6 poison damage and [Stunned 1](/condition/stunned-player-core) (1 round)\n\n**Stage 2** 3d6 poison damage and [Stunned 2](/condition/stunned-player-core) (1 round)\n\n**Stage 3** 4d6 poison damage and [Paralyzed](/condition/paralyzed-player-core) (1 round)",
+          "traits": [
+            "contact",
+            "poison"
+          ]
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "environmental",
+          "slug": "environmental"
+        }
+      ],
+      "stealthDetails": "(trained)",
+      "immunities": [
+        "mental"
+      ],
+      "resistances": "acid 20, fire 10",
+      "description": "A deceptively small patch of vegetation hides oversized jaws beneath the water.",
+      "stealthDC": 25,
+      "attacks": [
+        {
+          "name": "Jaws",
+          "type": "melee",
+          "attack": 17,
+          "damage": "see ability"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "environmental",
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8EB772EB-2505-5ADC-B375-2462F898939E",
+    "kind": "Hazard",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Vorpal Executioner",
+    "slug": "vorpal-executioner-gm-core",
+    "descr": "",
+    "data": {
+      "level": 19,
+      "rarity": "common",
+      "traits": [
+        "mechanical",
+        "trap"
+      ],
+      "complexity": "simple",
+      "stealth": 33,
+      "ac": {
+        "value": 43,
+        "details": ""
+      },
+      "hp": {
+        "value": 120,
+        "details": "per junction",
+        "bt": 60
+      },
+      "hardness": 30,
+      "saves": {
+        "fortitude": 32,
+        "reflex": 32,
+        "will": null
+      },
+      "disable": "Thievery DC 41 (expert) at four different junctions to jam all the saw blade's possible paths, preventing it from traveling through the room",
+      "routine": "",
+      "reset": "The trap resets over the course of the round and can be triggered again 1 round later.",
+      "abilities": [
+        {
+          "name": "Total Decapitation",
+          "text": "**Trigger** A creature attempts to exit the room.\n\n**Effect** The saw blade travels along its path, making one Strike against each creature in the room, twisting and varying its height for a maximum chance of beheading its targets.",
+          "traits": [],
+          "actions": "reaction"
+        },
+        {
+          "name": "Decapitation",
+          "text": "On a critical hit, a target must succeed at a Fortitude DC 39 save or be decapitated, dying instantly unless it can survive without a head.",
+          "traits": []
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "mechanical",
+          "slug": "mechanical"
+        },
+        {
+          "label": "trap",
+          "slug": "trap"
+        }
+      ],
+      "stealthDetails": "(expert)",
+      "immunities": [
+        "object immunities",
+        "critical hits",
+        "precision damage"
+      ],
+      "description": "A saw blade descends and travels through grooves across the room.",
+      "stealthDC": 43,
+      "attacks": [
+        {
+          "name": "Saw Blade",
+          "type": "melee",
+          "attack": 40,
+          "traits": [
+            "deadly-d12",
+            "death"
+          ],
+          "damageParts": [
+            {
+              "name": "6d12+25",
+              "details": "slashing"
+            }
+          ]
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "mechanical",
+      "remaster",
+      "trap"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "80F2C3C6-02E6-5481-A7C6-6B86E450328A",
+    "kind": "Hazard",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Wheel Of Misery",
+    "slug": "wheel-of-misery-gm-core",
+    "descr": "",
+    "data": {
+      "level": 6,
+      "rarity": "common",
+      "traits": [
+        "magical",
+        "mechanical",
+        "trap"
+      ],
+      "complexity": "complex",
+      "stealth": 16,
+      "ac": {
+        "value": 24,
+        "details": ""
+      },
+      "hp": {
+        "value": 56,
+        "details": "",
+        "bt": 28
+      },
+      "hardness": 14,
+      "saves": {
+        "fortitude": 15,
+        "reflex": 13,
+        "will": 0
+      },
+      "disable": "Thievery DC 26 (expert) on the wheel to stop it from spinning, Thievery DC 22 (master) to erase each rune, or Dispel Magic (4th rank; counteract DC 22) to counteract each rune",
+      "routine": "(2 actions) On its initiative, the trap uses its first action to spin, then stops. Roll 1d6 to determine which segment is topmost when the wheel stops spinning. The wheel uses its second action to replicate the spell listed for that segment (3rd rank, DC 24, spell attack modifier +14). This spell's target is centered on or otherwise includes the nearest creature in the area. This increases the spell's range to 100 feet if necessary. Any spell cast by this trap is arcane.\n\n**1** Sleep\n\n**2** Paralyze\n\n**3** Lightning Bolt (100-foot line)\n\n**4** Blindness\n\n**5** Caustic Blast\n\n**6** Enfeeble",
+      "reset": "The trap deactivates and resets if 1 minute passes without any creature moving within range of its sensor.",
+      "abilities": [
+        {
+          "name": "Wheel Spin",
+          "text": "**Trigger** A creature enters the sensor's detection area.\n\n**Effect** The wheel begins to spin and rolls initiative.",
+          "traits": [],
+          "actions": "reaction"
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "mechanical",
+          "slug": "mechanical"
+        },
+        {
+          "label": "trap",
+          "slug": "trap"
+        }
+      ],
+      "stealthDetails": "(expert) to detect the magical sensor; noticing the wheel has a DC of 0",
+      "immunities": [
+        "object immunities",
+        "critical hits",
+        "precision damage"
+      ],
+      "description": "A rune-marked wheel reacts to creatures standing before it."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "magical",
+      "mechanical",
+      "remaster",
+      "trap"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

@@ -1,0 +1,146 @@
+{% extends "base.html" %}
+
+{% block content %}
+<main id="gm-tool" class="container-fluid">
+  {% if data.tool == 'encounter-xp-calculator' %}
+  <section class="xp-calculator" data-xp-calculator>
+    <header class="xp-header">
+      <div>
+        <h1>{{name}}</h1>
+        <p>{{descr}}</p>
+      </div>
+      <span class="xp-remaster-mark">GM TOOL</span>
+    </header>
+
+    <section class="xp-setup" aria-labelledby="xp-party-heading">
+      <h2 id="xp-party-heading">Party Setup</h2>
+      <div class="xp-field-grid">
+        <label>Party level
+          <input type="number" min="1" max="20" step="1" value="1" data-xp-party-level>
+        </label>
+        <label>Number of PCs
+          <input type="number" min="1" max="12" step="1" value="4" data-xp-party-size>
+        </label>
+        <label>Additional award XP
+          <input type="number" min="0" step="1" value="0" data-xp-additional>
+          <small>Accomplishments or other GM awards; not part of encounter threat.</small>
+        </label>
+      </div>
+    </section>
+
+    <section class="xp-results" aria-live="polite">
+      <div class="xp-result-card">
+        <span>Encounter XP</span>
+        <strong data-xp-total>0</strong>
+      </div>
+      <div class="xp-result-card xp-threat-card" data-xp-threat-card>
+        <span>Estimated threat</span>
+        <strong data-xp-threat>Trivial</strong>
+      </div>
+      <div class="xp-result-card">
+        <span>Native award total</span>
+        <strong data-xp-award>0</strong>
+      </div>
+    </section>
+
+    <section class="xp-native-handoff" aria-labelledby="xp-native-heading">
+      <div>
+        <h2 id="xp-native-heading">Award with Encounter+</h2>
+        <p>Copy this result, close the planner, tap <strong>Experience</strong> on the game screen, paste it into <strong>Total Experience</strong>, choose the creatures to include, then use Encounter+'s <strong>Award</strong> button.</p>
+        <p class="xp-native-note">Pathfinder creature XP changes with party level, so it cannot be stored as one permanent number on a creature. Encounter+ still handles the final selection and character award.</p>
+      </div>
+      <div class="xp-native-action">
+        <button type="button" class="xp-button xp-copy-native" data-xp-copy-native data-copy-value="0">Copy 0 XP</button>
+        <span class="xp-copy-status" data-xp-copy-status role="status" aria-live="polite"></span>
+      </div>
+    </section>
+
+    <section class="xp-budget-panel" aria-labelledby="xp-budget-heading">
+      <div class="xp-section-heading">
+        <div>
+          <h2 id="xp-budget-heading">Adjusted Encounter Budgets</h2>
+          <p>Targets are adjusted for party size. XP awarded to each PC is not.</p>
+        </div>
+      </div>
+      <div class="table-responsive">
+        <table class="xp-budget-table">
+          <thead>
+            <tr><th>Threat</th><th>Trivial</th><th>Low</th><th>Moderate</th><th>Severe</th><th>Extreme</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>XP target</th>
+              <td data-xp-budget="trivial">40</td>
+              <td data-xp-budget="low">60</td>
+              <td data-xp-budget="moderate">80</td>
+              <td data-xp-budget="severe">120</td>
+              <td data-xp-budget="extreme">160</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="xp-interpretation" data-xp-interpretation></p>
+    </section>
+
+    <section class="xp-roster" aria-labelledby="xp-roster-heading">
+      <div class="xp-section-heading">
+        <div>
+          <h2 id="xp-roster-heading">Encounter Entries</h2>
+          <p>Complex hazards use creature XP. Simple hazards use one-fifth that amount.</p>
+        </div>
+        <button type="button" class="xp-button" data-xp-add-entry>Add entry</button>
+      </div>
+      <div class="table-responsive">
+        <table class="xp-entry-table">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Type</th>
+              <th>Level</th>
+              <th>Adjustment</th>
+              <th>Quantity</th>
+              <th>XP override</th>
+              <th>XP each</th>
+              <th>Total</th>
+              <th><span class="visually-hidden">Remove</span></th>
+            </tr>
+          </thead>
+          <tbody data-xp-entries></tbody>
+        </table>
+      </div>
+      <p class="xp-warning" data-xp-warning hidden></p>
+      <div class="xp-actions">
+        <button type="button" class="xp-button secondary" data-xp-reset>Reset planner</button>
+      </div>
+    </section>
+
+    <section class="xp-reference" aria-labelledby="xp-reference-heading">
+      <h2 id="xp-reference-heading">Rules Reference</h2>
+      <p>Open the full Remaster rules without leaving the system:</p>
+      <nav aria-label="XP rules">
+        <a href="/rule/xp-budget-rules-2717">XP Budget</a>
+        <a href="/rule/xp-awards-rules-2649">XP Awards</a>
+        <a href="/rule/different-party-sizes-rules-2719">Different Party Sizes</a>
+      </nav>
+      <p class="xp-rules-note">The threat label compares the exact encounter XP with the adjusted budget targets. The exact XP and every target remain visible so the GM can judge encounters that fall between them.</p>
+    </section>
+
+    {% if notes %}
+    <section class="xp-reference">
+      <h2>{{'Common.Notes'|l}}</h2>
+      {{notes|md}}
+    </section>
+    {% endif %}
+  </section>
+  {% else %}
+  <section id="default">
+    <h1>{{name}}</h1>
+    {{descr|md}}
+  </section>
+  {% endif %}
+</main>
+{% endblock %}
+
+{% block scripts %}
+<script src="scripts/xp-calculator.js"></script>
+{% endblock %}

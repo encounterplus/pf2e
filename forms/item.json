@@ -3,40 +3,6 @@
   "entity": "Item",
   "sections": [
     {
-      "title": "Common.BaseTraits",
-      "type": "group",
-      "fields": [
-        {
-          "title": "Common.Rarity",
-          "type": "picker",
-          "attribute": "data.rarity",
-          "attributeType": "Rarity"
-        },
-      ]
-    },
-    {
-      "title": "Common.Traits",
-      "type": "group",
-      "fields": [
-        {
-          "title": "Common.Traits",
-          "type": "tags",
-          "attribute": "data.traits",
-          "attributeType": "Trait"
-        }
-      ]
-    },
-    {
-      "type": "group",
-      "fields": [
-        {
-          "title": "Common.Level",
-          "type": "number",
-          "attribute": "data.level"
-        }
-      ]
-    },
-    {
       "type": "group",
       "fields": [
         {
@@ -46,18 +12,37 @@
           "attributeType": "ItemCategory"
         },
         {
+          "title": "Common.Level",
+          "type": "number",
+          "attribute": "data.level"
+        },
+        {
+          "title": "Common.Rarity",
+          "type": "picker",
+          "attribute": "data.rarity",
+          "attributeType": "Rarity"
+        },
+        {
+          "title": "Common.Traits",
+          "type": "tags",
+          "attribute": "data.traits",
+          "attributeType": "Trait"
+        },
+        {
           "title": "Common.Subcategory",
           "type": "picker",
           "attribute": "data.subcategory",
           "attributeType": "ItemSubcategory"
-        },
+        }
+      ]
+    },
+    {
+      "title": "Item.Equipment",
+      "type": "group",
+      "fields": [
         {
           "title": "Common.Price",
           "attribute": "data.price"
-        },
-        {
-          "title": "Item.Ammunition",
-          "attribute": "data.ammunition"
         },
         {
           "title": "Item.Usage",
@@ -68,57 +53,45 @@
           "attribute": "data.bulk"
         },
         {
-          "title": "Item.Activate",
-          "attribute": "data.activation",
+          "title": "Item.AdditionalDetails",
           "type": "form",
+          "text": "{% if data.ammunition or data.onset or data.craftRequirements %}{% if data.ammunition %}{{'Item.Ammunition'|l}}: {{data.ammunition}}{% endif %}{% if data.onset %}{% if data.ammunition %} • {% endif %}{{'Item.Onset'|l}}: {{data.onset}}{% endif %}{% if data.craftRequirements %}{% if data.ammunition or data.onset %} • {% endif %}{{'Item.CraftRequirements'|l}}: {{data.craftRequirements}}{% endif %}{% else %}{{'Common.None'|l}}{% endif %}",
           "form": {
+            "title": "Item.AdditionalDetails",
             "sections": [
               {
                 "type": "group",
                 "fields": [
                   {
-                    "title": "Common.Actions",
-                    "type": "picker",
-                    "attribute": "actions",
-                    "attributeType": "Action"
+                    "title": "Item.Ammunition",
+                    "attribute": "data.ammunition"
                   },
                   {
-                    "title": "Common.Type",
-                    "attribute": "type",
-                    "attributeType": "ItemActivationType"
-                  },
-                  {
-                    "title": "Common.Traits",
-                    "type": "tags",
-                    "attribute": "traits",
-                    "attributeType": "Trait"
-                  },
+                    "title": "Item.Onset",
+                    "attribute": "data.onset"
+                  }
                 ]
               },
               {
-                "title": "Common.Description",
+                "title": "Item.CraftRequirements",
                 "type": "group",
                 "fields": [
                   {
-                    "title": "Common.Description",
+                    "title": "Item.CraftRequirements",
                     "type": "textArea",
-                    "attribute": "text"
+                    "attribute": "data.craftRequirements"
                   }
                 ]
               }
             ]
           }
-        },
-        {
-          "title": "Item.Onset",
-          "attribute": "data.onset"
         }
       ]
     },
     {
       "title": "ItemCategory.Armor",
       "type": "group",
-      "visibleIf": "data.category == 'armor'",
+      "visibleIf": "{% if data.category == 'armor' or data.dexCap != nil or data.checkPenalty != nil or data.str != nil or data.armorCategory or data.armorGroup %}true{% elif data.category != 'shield' %}{% if data.ac != nil or data.speedPenalty != nil %}true{% endif %}{% endif %}",
       "fields": [
         {
           "title": "Item.AcBonus",
@@ -156,13 +129,13 @@
           "type": "picker",
           "attribute": "data.armorGroup",
           "attributeType": "ArmorGroup"
-        },
+        }
       ]
     },
     {
       "title": "ItemCategory.Shield",
       "type": "group",
-      "visibleIf": "data.category == 'shield'",
+      "visibleIf": "{% if data.category == 'shield' or data.hardness != nil or data.hp != nil or data.bt != nil %}true{% endif %}",
       "fields": [
         {
           "title": "Item.AcBonus",
@@ -194,7 +167,7 @@
     {
       "title": "ItemCategory.Weapon",
       "type": "group",
-      "visibleIf": "data.category == 'weapon'",
+      "visibleIf": "{% if data.category == 'weapon' or data.damage or data.range != nil or data.reload or data.weaponType or data.weaponCategory or data.weaponGroup %}true{% endif %}",
       "fields": [
         {
           "title": "Common.Damage",
@@ -230,18 +203,18 @@
           "type": "picker",
           "attribute": "data.weaponGroup",
           "attributeType": "WeaponGroup"
-        },
+        }
       ]
     },
     {
       "title": "ItemCategory.AdventuringGear",
       "type": "group",
-      "visibleIf": "data.category == 'adventuringGear'",
+      "visibleIf": "{% if data.category == 'adventuringGear' %}true{% elif data.category != 'weapon' and data.hands %}true{% endif %}",
       "fields": [
         {
           "title": "Item.Hands",
           "attribute": "data.hands"
-        },
+        }
       ]
     },
     {
@@ -255,33 +228,72 @@
       ]
     },
     {
-      "title": "Item.Activations",
-      "type": "list",
-      "attribute": "data.activations",
-      "form": {
-        "title": "Item.Activation",
-        "partial": "ability"
-      }
-    },
-    {
-      "title": "Item.CraftRequirements",
+      "title": "Item.ActivationSettings",
       "type": "group",
       "fields": [
         {
-          "title": "Item.CraftRequirements",
-          "type": "textArea",
-          "attribute": "data.craftRequirements",
+          "title": "Item.PrimaryActivation",
+          "type": "form",
+          "text": "{% if data.activation.actions or data.activation.type or data.activation.traits or data.activation.text %}{% if data.activation.actions %}{{data.activation.actions|map: 'Action'}}{% endif %}{% if data.activation.type %}{% if data.activation.actions %} • {% endif %}{{data.activation.type}}{% endif %}{% if data.activation.traits %}{% if data.activation.actions or data.activation.type %} • {% endif %}{{data.activation.traits|map: 'Trait'}}{% endif %}{% if data.activation.text %}{% if data.activation.actions or data.activation.type or data.activation.traits %} • {% endif %}{{data.activation.text}}{% endif %}{% else %}{{'Common.None'|l}}{% endif %}",
+          "form": {
+            "sections": [
+              {
+                "type": "group",
+                "fields": [
+                  {
+                    "title": "Common.Actions",
+                    "type": "picker",
+                    "attribute": "data.activation.actions",
+                    "attributeType": "Action"
+                  },
+                  {
+                    "title": "Common.Type",
+                    "attribute": "data.activation.type",
+                    "attributeType": "ItemActivationType"
+                  },
+                  {
+                    "title": "Common.Traits",
+                    "type": "tags",
+                    "attribute": "data.activation.traits",
+                    "attributeType": "Trait"
+                  }
+                ]
+              },
+              {
+                "title": "Common.Description",
+                "type": "group",
+                "fields": [
+                  {
+                    "title": "Common.Description",
+                    "type": "textArea",
+                    "attribute": "data.activation.text"
+                  }
+                ]
+              }
+            ],
+            "title": "Item.PrimaryActivation"
+          },
+          "detail": "Item.PrimaryActivationHelp"
         }
       ]
     },
     {
-      "title": "Item.Types",
+      "title": "Item.AdditionalActivations",
+      "type": "list",
+      "attribute": "data.activations",
+      "form": {
+        "title": "Item.NamedActivation",
+        "partial": "ability"
+      }
+    },
+    {
+      "title": "Item.Variants",
       "type": "list",
       "attribute": "data.types",
       "form": {
-        "title": "Item.Type",
+        "title": "Item.Variant",
         "partial": "item-type"
       }
-    },
+    }
   ]
 }

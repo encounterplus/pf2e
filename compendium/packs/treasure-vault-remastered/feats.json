@@ -1,0 +1,1061 @@
+[
+  {
+    "id": "02C64811-DFF2-528D-8BFD-6DB4B22085ED",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Bear Empathy",
+    "slug": "bear-empathy-treasure-vault-remastered",
+    "descr": "You have a magical affinity for bears and can speak to them through sounds and body language. You can communicate with all bears, as well as other ursine creatures at the GM's discretion.",
+    "data": {
+      "level": 10,
+      "rarity": "common",
+      "traits": [
+        "archetype",
+        "primal"
+      ],
+      "prerequisites": "",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "You have a magical affinity for bears and can speak to them through sounds and body language. You can communicate with all bears, as well as other ursine creatures at the GM's discretion.",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "primal",
+          "slug": "primal"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "primal",
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)",
+        "page": 185
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "6301079A-0613-50A3-8B4C-5A0778BD5014",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Bear Hug",
+    "slug": "bear-hug-treasure-vault-remastered",
+    "descr": "**Requirements** Your last action was a successful claw Strike.\n\n---\n\nYou snatch at your opponent with your claws, pulling them close in a ferocious bear hug. You make another claw Strike against the same target. If this Strike hits, the target is also [Grabbed](/condition/grabbed-player-core).",
+    "data": {
+      "level": 6,
+      "rarity": "common",
+      "traits": [
+        "archetype"
+      ],
+      "prerequisites": "",
+      "frequency": "",
+      "requirements": "Your last action was a successful claw Strike",
+      "trigger": "",
+      "benefits": "**Requirements** Your last action was a successful claw Strike.\n\n---\n\nYou snatch at your opponent with your claws, pulling them close in a ferocious bear hug. You make another claw Strike against the same target. If this Strike hits, the target is also Grabbed.",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)",
+        "page": 183
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "DF4D1C87-92C9-5057-90DA-17D967FDFAD6",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Call Ursine Ally",
+    "slug": "call-ursine-ally-treasure-vault-remastered",
+    "descr": "**Frequency** once per hour\n\n---\n\nYou can cast a 3rd-rank [Summon Animal](/spell/summon-animal-player-core) as an innate spell, but only to summon a Black Bear. At 10th level, the *summon animal* spell is heightened to 4th level, and you can summon a [Grizzly Bear](/creature/grizzly-bear-monster-core). At 12th level, your *summon animal* innate spell is heightened to 5th level, and you can summon a Polar Bear. At 14th level, it's heightened to 6th level, and you can summon a [Cave Bear](/creature/cave-bear-monster-core).",
+    "data": {
+      "level": 8,
+      "rarity": "common",
+      "traits": [
+        "archetype",
+        "primal",
+        "summon"
+      ],
+      "prerequisites": "",
+      "frequency": "once per hour",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "**Frequency** once per hour\n\n---\n\nYou can cast a 3rd-rank Summon Animal as an innate spell, but only to summon a Black Bear. At 10th level, the *summon animal* spell is heightened to 4th level, and you can summon a Grizzly Bear. At 12th level, your *summon animal* innate spell is heightened to 5th level, and you can summon a Polar Bear. At 14th level, it's heightened to 6th level, and you can summon a Cave Bear.",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "primal",
+          "slug": "primal"
+        },
+        {
+          "label": "summon",
+          "slug": "summon"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "primal",
+      "remaster",
+      "summon",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)",
+        "page": 185
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "6464C2C5-7224-5BEC-A5A5-C251CD6C56F4",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Expert Snowcasting",
+    "slug": "expert-snowcasting-treasure-vault-remastered",
+    "descr": "You draw ever more magical cold into your being, learning how to manipulate it to your whims. You gain the expert spellcasting benefits.",
+    "data": {
+      "level": 12,
+      "rarity": "common",
+      "traits": [
+        "archetype"
+      ],
+      "prerequisites": "",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "You draw ever more magical cold into your being, learning how to manipulate it to your whims. You gain the expert spellcasting benefits.",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)",
+        "page": 186
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A3641A7D-4141-57BC-80C7-2E82DDD014F8",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Fearsome Fangs",
+    "slug": "fearsome-fangs-treasure-vault-remastered",
+    "descr": "Your claws and jaws are brutally powerful and efficient, even by ursine standards. The base damage of your jaws unarmed attack from Ursine Avenger Form increases to 1d12. The base damage of your claws unarmed attack from Ursine Avenger Form increases to 1d8.",
+    "data": {
+      "level": 16,
+      "rarity": "common",
+      "traits": [
+        "archetype"
+      ],
+      "prerequisites": "",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "Your claws and jaws are brutally powerful and efficient, even by ursine standards. The base damage of your jaws unarmed attack from Ursine Avenger Form increases to 1d12. The base damage of your claws unarmed attack from Ursine Avenger Form increases to 1d8.",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)",
+        "page": 185
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4EE1D46B-7EC9-5572-B0C3-D1AADF767692",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "First Frost",
+    "slug": "first-frost-treasure-vault-remastered",
+    "descr": "The gelid shard within your heart may sap your ability to feel and experience emotion, but it also lets you create and manipulate cold. You learn to cast arcane spontaneous spells, and you gain a spell repertoire with the [Frostbite](/spell/frostbite-player-core) and [Frost'S Touch](/spell/frost-s-touch-treasure-vault-remastered) cantrips. You're trained in spell attack modifier and spell DC. Your key spellcasting attribute is Charisma.",
+    "data": {
+      "level": 2,
+      "rarity": "common",
+      "traits": [
+        "archetype"
+      ],
+      "prerequisites": "",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "The gelid shard within your heart may sap your ability to feel and experience emotion, but it also lets you create and manipulate cold. You learn to cast arcane spontaneous spells, and you gain a spell repertoire with the Frostbite and Frost'S Touch cantrips. You're trained in spell attack modifier and spell DC. Your key spellcasting attribute is Charisma.",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)",
+        "page": 186
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "41EE492F-780B-50AF-B619-FEA794ADB67A",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Frozen Breadth",
+    "slug": "frozen-breadth-treasure-vault-remastered",
+    "descr": "Your attunement to arcane cold enhances the depths of your growing power. Increase the number of spells in your repertoire and number of spell slots you gain from *gelid shard* archetype feats by 1 for each spell rank other than your two highest *gelid shard* spell slots.",
+    "data": {
+      "level": 8,
+      "rarity": "common",
+      "traits": [
+        "archetype"
+      ],
+      "prerequisites": "",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "Your attunement to arcane cold enhances the depths of your growing power. Increase the number of spells in your repertoire and number of spell slots you gain from *gelid shard* archetype feats by 1 for each spell rank other than your two highest *gelid shard* spell slots.",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)",
+        "page": 186
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "251CBC17-5BA1-584B-B37E-5CF54E09A0CD",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Great Bear",
+    "slug": "great-bear-treasure-vault-remastered",
+    "descr": "**Frequency** once per hour\n\n---\n\nWhen you transform, you can take on a bear's bulk and size. You can spend an additional action when using Ursine Avenger Form to gain the effects of a 1st-rank [Enlarge](/spell/enlarge-player-core) spell, which lasts for the spell's normal duration or until you leave your Ursine Avenger Form, whichever comes first.",
+    "data": {
+      "level": 12,
+      "rarity": "common",
+      "traits": [
+        "archetype"
+      ],
+      "prerequisites": "Ursine Avenger Form",
+      "frequency": "once per hour",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "**Frequency** once per hour\n\n---\n\nWhen you transform, you can take on a bear's bulk and size. You can spend an additional action when using Ursine Avenger Form to gain the effects of a 1st-rank Enlarge spell, which lasts for the spell's normal duration or until you leave your Ursine Avenger Form, whichever comes first.",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)",
+        "page": 185
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1C152699-F9FE-59B2-9908-7A7784F0F809",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Greater Snow Step",
+    "slug": "greater-snow-step-treasure-vault-remastered",
+    "descr": "You can't be impeded by environmental effects that rely on cold or its byproducts. You ignore greater difficult terrain caused by snow and ice.",
+    "data": {
+      "level": 16,
+      "rarity": "common",
+      "traits": [
+        "archetype"
+      ],
+      "prerequisites": "",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "You can't be impeded by environmental effects that rely on cold or its byproducts. You ignore greater difficult terrain caused by snow and ice.",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)",
+        "page": 186
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F8261829-625D-5E89-9F4C-D2EEB1E4BD3D",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Icy Apotheosis",
+    "slug": "icy-apotheosis-treasure-vault-remastered",
+    "descr": "You are as much a creature of cold as whatever ancestry you were born to. You are immune to cold damage and gain the [cold](/trait/cold) trait. You automatically succeed on saving throws against effects that have the cold trait.",
+    "data": {
+      "level": 20,
+      "rarity": "common",
+      "traits": [
+        "archetype"
+      ],
+      "prerequisites": "",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "You are as much a creature of cold as whatever ancestry you were born to. You are immune to cold damage and gain the cold trait. You automatically succeed on saving throws against effects that have the cold trait.",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)",
+        "page": 186
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "86077FF0-553F-5498-BF6A-C0D71C0D8445",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Immortal Bear",
+    "slug": "immortal-bear-treasure-vault-remastered",
+    "descr": "Your body thrums with the primal vitality of the greatest of the ursine beasts. When in Ursine Avenger Form, you gain fast healing 5.",
+    "data": {
+      "level": 20,
+      "rarity": "common",
+      "traits": [
+        "archetype"
+      ],
+      "prerequisites": "Ursine Avenger Form",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "Your body thrums with the primal vitality of the greatest of the ursine beasts. When in Ursine Avenger Form, you gain fast healing 5.",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)",
+        "page": 185
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "82B32EB9-9366-51ED-A4B9-2A46A365725B",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Legendary Tattoo Artist",
+    "slug": "legendary-tattoo-artist-treasure-vault-remastered",
+    "descr": "Your craftsmanship at decorating flesh is unparalleled. You become legendary in Crafting. Whenever you craft a magical tattoo whose level is at least 3 lower than your level, increase all attack roll and DC values of the tattoo's activated abilities by 1, and increase all resistances granted by the tattoo by 1.",
+    "data": {
+      "level": 15,
+      "rarity": "common",
+      "traits": [
+        "general",
+        "skill"
+      ],
+      "prerequisites": "Tattoo Artist; master in Crafting",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "Your craftsmanship at decorating flesh is unparalleled. You become legendary in Crafting. Whenever you craft a magical tattoo whose level is at least 3 lower than your level, increase all attack roll and DC values of the tattoo's activated abilities by 1, and increase all resistances granted by the tattoo by 1.",
+      "traitLinks": [
+        {
+          "label": "general",
+          "slug": "general"
+        },
+        {
+          "label": "skill",
+          "slug": "skill"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "general",
+      "remaster",
+      "skill",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)",
+        "page": 118
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "74A77097-0135-50CC-96C3-948411C42CE2",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Master Snowcasting",
+    "slug": "master-snowcasting-treasure-vault-remastered",
+    "descr": "You have unlocked the deeper magic of your *gelid shard*, gaining access to new ranks of spells. You gain the master spellcasting benefits.",
+    "data": {
+      "level": 18,
+      "rarity": "common",
+      "traits": [
+        "archetype"
+      ],
+      "prerequisites": "",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "You have unlocked the deeper magic of your *gelid shard*, gaining access to new ranks of spells. You gain the master spellcasting benefits.",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)",
+        "page": 186
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B9ACECC9-E1EA-5A38-B176-2A8D08B3A7B2",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Mighty Bear",
+    "slug": "mighty-bear-treasure-vault-remastered",
+    "descr": "The power of the bear within you can expand your physical presence even further. The [Enlarge](/spell/enlarge-player-core) spell you cast with your [Great Bear](/feat/great-bear-treasure-vault-remastered) feat is heightened to 4th level.",
+    "data": {
+      "level": 18,
+      "rarity": "common",
+      "traits": [
+        "archetype"
+      ],
+      "prerequisites": "Great Bear",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "The power of the bear within you can expand your physical presence even further. The Enlarge spell you cast with your Great Bear feat is heightened to 4th level.",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)",
+        "page": 185
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B4196F51-1D23-5918-BD2A-90AD298C0EAA",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Quick Setup",
+    "slug": "quick-setup-treasure-vault-remastered",
+    "descr": "If you reduce the setup time for a batch of consumables at least 6 levels lower than you to less than 1 day, you can set it up in just 2 hours (allowing you to do so during an adventuring day if you have access to your tools and materials). If you rush the setup of a permanent item at least 6 levels lower than you and reduce the setup time to less than 1 day, you can perform the setup in 4 hours.",
+    "data": {
+      "level": 7,
+      "rarity": "rare",
+      "traits": [
+        "general",
+        "skill"
+      ],
+      "prerequisites": "master in Crafting",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "If you reduce the setup time for a batch of consumables at least 6 levels lower than you to less than 1 day, you can set it up in just 2 hours (allowing you to do so during an adventuring day if you have access to your tools and materials). If you rush the setup of a permanent item at least 6 levels lower than you and reduce the setup time to less than 1 day, you can perform the setup in 4 hours.",
+      "traitLinks": [
+        {
+          "label": "general",
+          "slug": "general"
+        },
+        {
+          "label": "skill",
+          "slug": "skill"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "general",
+      "remaster",
+      "skill",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2F5F3C05-B768-558C-8E99-B915D4D13D88",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Senses of the Bear",
+    "slug": "senses-of-the-bear-treasure-vault-remastered",
+    "descr": "While in ursine form, you gain low-light vision and scent (imprecise) 30 feet. If you already had low-light vision, you instead gain darkvision.",
+    "data": {
+      "level": 4,
+      "rarity": "common",
+      "traits": [
+        "archetype"
+      ],
+      "prerequisites": "",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "While in ursine form, you gain low-light vision and scent (imprecise) 30 feet. If you already had low-light vision, you instead gain darkvision.",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)",
+        "page": 184
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A554AC46-C0FA-5F57-BFEB-7E720D183F44",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Snow Step",
+    "slug": "snow-step-treasure-vault-remastered",
+    "descr": "Snow and ice are no hindrance to you. You ignore difficult terrain caused by snow and ice, treat greater difficult terrain created by snow and ice as difficult terrain, and leave no tracks when moving through areas of snow or ice.",
+    "data": {
+      "level": 6,
+      "rarity": "common",
+      "traits": [
+        "archetype"
+      ],
+      "prerequisites": "",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "Snow and ice are no hindrance to you. You ignore difficult terrain caused by snow and ice, treat greater difficult terrain created by snow and ice as difficult terrain, and leave no tracks when moving through areas of snow or ice.",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)",
+        "page": 186
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "DD62B9AC-A370-5512-A991-0F0B011D659C",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Snowcaster",
+    "slug": "snowcaster-treasure-vault-remastered",
+    "descr": "Your magical power grows as the shard's icy influence spreads ever deeper into your being. You gain the basic spellcasting benefits. Each time you gain a spell slot of a new level from this archetype, add a spell of the appropriate spell rank (including heightened versions of lower-rank spells) to your repertoire, either a common spell of the arcane tradition that has the [cold](/trait/cold) trait or another cold spell you have access to.",
+    "data": {
+      "level": 4,
+      "rarity": "common",
+      "traits": [
+        "archetype"
+      ],
+      "prerequisites": "",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "Your magical power grows as the shard's icy influence spreads ever deeper into your being. You gain the basic spellcasting benefits. Each time you gain a spell slot of a new level from this archetype, add a spell of the appropriate spell rank (including heightened versions of lower-rank spells) to your repertoire, either a common spell of the arcane tradition that has the cold trait or another cold spell you have access to.",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)",
+        "page": 186
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "7901F5AC-8315-5405-88EB-CE3583085D0A",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Terrible Transformation",
+    "slug": "terrible-transformation-treasure-vault-remastered",
+    "descr": "You let out a mighty roar as part of your transformation. When you use Ursine Avenger Form, you can make an Intimidation check to [Demoralize](/action/demoralize-player-core) against each enemy within 30 feet that can see you, and you don't take a penalty to your Demoralize check if the creature doesn't understand your language.",
+    "data": {
+      "level": 14,
+      "rarity": "common",
+      "traits": [
+        "archetype"
+      ],
+      "prerequisites": "Ursine Avenger Form",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "You let out a mighty roar as part of your transformation. When you use Ursine Avenger Form, you can make an Intimidation check to Demoralize against each enemy within 30 feet that can see you, and you don't take a penalty to your Demoralize check if the creature doesn't understand your language.",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)",
+        "page": 185
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0BFCD58B-3812-5BF1-990F-71824E60F310",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Ursine Avenger Form",
+    "slug": "ursine-avenger-form-treasure-vault-remastered",
+    "descr": "You draw the *Ursine Avenger Hood* over your head and its fur over your arms, assuming an ursine form that has traits of your original form as well as that of a bear. In your ursine form, you gain a jaws unarmed attack that deals 1d8 piercing damage and a claws unarmed attack that deals 1d6 slashing damage and has the [agile](/trait/agile) trait. Both unarmed attacks are in the brawling group. You lose the ability to speak complex sentences while transformed and can only communicate through grunts and gestures; this prevents you from using effects that require a shared or spoken language until you revert back to your non-hybrid form. You can use this action while transformed to remove the hood and return to your original form.",
+    "data": {
+      "level": 2,
+      "rarity": "common",
+      "traits": [
+        "archetype",
+        "artifact",
+        "morph",
+        "primal"
+      ],
+      "prerequisites": "",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "You draw the *Ursine Avenger Hood* over your head and its fur over your arms, assuming an ursine form that has traits of your original form as well as that of a bear. In your ursine form, you gain a jaws unarmed attack that deals 1d8 piercing damage and a claws unarmed attack that deals 1d6 slashing damage and has the agile trait. Both unarmed attacks are in the brawling group. You lose the ability to speak complex sentences while transformed and can only communicate through grunts and gestures; this prevents you from using effects that require a shared or spoken language until you revert back to your non-hybrid form. You can use this action while transformed to remove the hood and return to your original form.",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "artifact",
+          "slug": "artifact"
+        },
+        {
+          "label": "morph",
+          "slug": "morph"
+        },
+        {
+          "label": "primal",
+          "slug": "primal"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "artifact",
+      "morph",
+      "primal",
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)",
+        "page": 184
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "49DC04BB-73CD-5ECE-B033-A80F2FA23A37",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Winter's Embrace",
+    "slug": "winter-s-embrace-treasure-vault-remastered",
+    "descr": "Your eyes are accustomed to the harsh glare of the sun on snow and ice. You gain a +1 status bonus to saving throws against effects that inflict the [Dazzled](/condition/dazzled-player-core) condition. Snow doesn't impair your vision; you ignore concealment from snowfall. Your skin becomes cold to the touch, and sometimes frost forms on you. You are protected from severe cold and heat.",
+    "data": {
+      "level": 10,
+      "rarity": "common",
+      "traits": [
+        "archetype"
+      ],
+      "prerequisites": "",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "Your eyes are accustomed to the harsh glare of the sun on snow and ice. You gain a +1 status bonus to saving throws against effects that inflict the Dazzled condition. Snow doesn't impair your vision; you ignore concealment from snowfall. Your skin becomes cold to the touch, and sometimes frost forms on you. You are protected from severe cold and heat.",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "6E687FCE-4AA1-5523-BF9E-4A7D884B56FE",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Winter's Kiss",
+    "slug": "winter-s-kiss-treasure-vault-remastered",
+    "descr": "Whether in the heart of a volcanic passageway or the glacial tundras of the Crown of the World, the only temperature you ever personally experience is an oddly comfortable chill. You are now protected from extreme cold and extreme heat, and you gain resistance to fire equal to half your level. If you would already have resistance to fire equal to half your level from a heritage, ancestry feat, class feat, or another archetype feat, you instead gain resistance to fire equal to your level.",
+    "data": {
+      "level": 14,
+      "rarity": "common",
+      "traits": [
+        "archetype"
+      ],
+      "prerequisites": "",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "Whether in the heart of a volcanic passageway or the glacial tundras of the Crown of the World, the only temperature you ever personally experience is an oddly comfortable chill. You are now protected from extreme cold and extreme heat, and you gain resistance to fire equal to half your level. If you would already have resistance to fire equal to half your level from a heritage, ancestry feat, class feat, or another archetype feat, you instead gain resistance to fire equal to your level.",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

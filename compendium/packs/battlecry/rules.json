@@ -1,0 +1,2390 @@
+[
+  {
+    "id": "3B67095E-E011-5CF0-9BF7-093EB5078185",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "1. Set Objectives",
+    "slug": "1-set-objectives-rules-3454",
+    "type": "combat",
+    "descr": "Given the large number of creatures involved in a skirmish encounter, it’s best to avoid just playing out a fight until everybody is at 0 HP. A skirmish encounter should have a specific objective! You can set up any objective that makes sense, which is usually relevant to the PCs but can sometimes be a shared objective both sides are competing to attain. Once the objective is attained or becomes impossible to complete, the encounter ends. It’s vitally important to make the objective clear to the players at the start of the encounter, usually while they’re making preparations. The more details you can give them, the better they can plan for the encounter and measure their success.\n\nSome of the basic types of objectives you might choose from while designing your skirmish encounters are defined in the Military section of NPC Core. They are: defend, eliminate, and seize.",
+    "data": {
+      "type": "combat",
+      "breadcrumbs": [
+        "Skirmish Units",
+        "Building Skirmish Encounters"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3454"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "building-skirmish-encounters",
+      "combat",
+      "remaster",
+      "rule",
+      "skirmish-units"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 163,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3454"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "EA95C2FC-04A4-599D-BD45-003D2F60B38F",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "2. Pick the Battlefield",
+    "slug": "2-pick-the-battlefield-rules-3458",
+    "type": "combat",
+    "descr": "A skirmish encounter is massively dependent on the battlefield. You typically want every PC and their troop to have the option to venture into melee range, so locations that are large and mostly open are usually the best option. You’ll also need to consider the engagement range—how close the PCs and enemies are when you roll initiative and start the encounter. If you choose a distant engagement range, it’s easy for troops and characters with strong ranged attacks to pick off enemies effectively from far away. Usually, you’ll want to set the range far enough that ranged attackers aren’t useless, but close enough that melee attackers who are determined can get at least one attack (or offensive troop ability) off in the first round of combat.\n\nIf the battlefield is small, narrow, or has many impediments like walls in the way, it can be hard for troops to engage successfully in melee. Most combats call for something in the middle: a mostly open field that still provides some tactical depth through a couple pieces of terrain, which won’t completely block the path of the forces but must still be navigated around.\n\n## Playing at a Different Scale\n\nTroops take up a lot of space on the battlefield. This can be a fun twist if you’re using a digital tabletop that lets you zoom in and out or if you have plenty of space and gaming miniatures to indicate the scale. In other situations, it might work better for your playing space to change the scale of your map for a troop skirmish. You might want to play using a 10-foot scale, with each segment of a troop filling one square. If you do, you’ll need to take care of two main tasks.\n\n**Rounding Movement and Size:** It’s usually best to round up movement and sizes to the nearest 10 feet. This makes a 25-foot speed travel 3 squares, has a Medium or Small creature fill 1 square, and has a Huge creature fill a 2 × 2 space. You can still place up to four Medium or Small creatures in a single square if necessary, though usually you want to play out skirmishes on a large enough scale that such fine positioning isn’t important.\n\n**Track Troops and Individual Creatures:** It can be tricky to differentiate between a troop and their leader at this scale. To represent a leader and troop on the battlefield, it’s best to put a miniature for the leader in one square and three miniatures for the troops in the other squares. This way, you can remove one miniature each time the troop drops below an HP threshold, then remove the final troop mini when the troop is defeated, leaving just the leader on the battlefield.",
+    "data": {
+      "type": "combat",
+      "breadcrumbs": [
+        "Skirmish Units",
+        "Building Skirmish Encounters"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3458"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "building-skirmish-encounters",
+      "combat",
+      "remaster",
+      "rule",
+      "skirmish-units"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 164,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3458"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "19F89346-5EAF-5562-9621-A77B575CA922",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "3. Choose a Difficulty",
+    "slug": "3-choose-a-difficulty-rules-3461",
+    "type": "combat",
+    "descr": "Designing a skirmish encounter starts the same way as designing a regular encounter. Choose a threat and [XP budget](/rule/xp-budget-rules-2717) appropriate for your group. Then, add the troops you want the PCs to have to their side and increase the XP budget by the troops' XP value. For example, if you were designing a low-threat skirmish encounter for a 7th-level group of four PCs, you'd start with 60 XP for the budget If each PC had a 7th-level troop, you'd add 160 XP to the encounter budget since that's the XP for four 7th-level creatures. You would then have a total budget of 220 XP. This still counts as a low encounter, though if you later decide you want a moderate encounter, you can adjust the budget to 240 XP and add more adversaries or increase the level of the ones you have.",
+    "data": {
+      "type": "combat",
+      "breadcrumbs": [
+        "Skirmish Units",
+        "Building Skirmish Encounters"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3461"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "building-skirmish-encounters",
+      "combat",
+      "remaster",
+      "rule",
+      "skirmish-units"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 165,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3461"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8422B30E-3DBC-5BE9-9A50-5FC9FB175955",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "3D Terrain",
+    "slug": "3d-terrain-rules-3460",
+    "type": "combat",
+    "descr": "Skirmishes can occur across three dimensions if you make use of multiple floors in a castle turret, a bridge above a bigger battlefield, or similar areas. This can make the best use of your space but can be hard to play out in the game, so these scenarios work best if you’re playing with 3D gaming terrain. In other situations, you might need to build out a map that has segments for each floor and arrows or colored zones to show how they’re linked. If you want to use this technique, it’s best to start small, such as by making a gatehouse that has small turrets to the side, so you don’t need to stack one layer on top of another.",
+    "data": {
+      "type": "combat",
+      "breadcrumbs": [
+        "Skirmish Units",
+        "Building Skirmish Encounters",
+        "2. Pick the Battlefield"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3460"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "2-pick-the-battlefield",
+      "battlecry",
+      "building-skirmish-encounters",
+      "combat",
+      "remaster",
+      "rule",
+      "skirmish-units"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 165,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3460"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "38DD1847-B2C7-54CE-A02D-9FFB9ED12F2C",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "4. Add the Right Enemies",
+    "slug": "4-add-the-right-enemies-rules-3462",
+    "type": "combat",
+    "descr": "Now you have your encounter budget, but you need to pick the troops and other adversaries. The normal encounter-building guidelines still apply in a skirmish encounter! Most of the budget should be for troops and opposing leaders within 1 or 2 levels of the party. Of course, choosing enemies for a skirmish is about more than just the numbers. Consider the following factors in the structure of your battle to pick the best options.",
+    "data": {
+      "type": "combat",
+      "breadcrumbs": [
+        "Skirmish Units",
+        "Building Skirmish Encounters"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3462"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "building-skirmish-encounters",
+      "combat",
+      "remaster",
+      "rule",
+      "skirmish-units"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 165,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3462"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "85E7DEE5-B999-55D1-A0D4-A4F39EA4CBA7",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Abominable Armies (Level 8)",
+    "slug": "abominable-armies-level-8-rules-3473",
+    "type": "other",
+    "descr": "**Threat** Moderate (80 XP)\n**PC Troops** animated army (40 XP), 2 hobgoblin veteran regiments (60 XP each), woodland scouts (40 XP)\n**Enemy Commanders** 2 jah-tohls (40 XP each);\n**Enemy Troops** 2 fleshwarp amalgams (40 XP each), 2 sinswarms (60 XP each)",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Skirmish Units",
+        "Quick Skirmish Groups"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3473"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "other",
+      "quick-skirmish-groups",
+      "remaster",
+      "rule",
+      "skirmish-units"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 169,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3473"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D113B545-6D13-5E90-83E7-71B749840134",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Back-Up Plans",
+    "slug": "back-up-plans-rules-3449",
+    "type": "other",
+    "descr": "A leader can usually preemptively issue an order their troop will attempt to follow if the leader is knocked out or otherwise removed from the battle. This could include taking the leader to safety, assisting another troop, or simply retreating. If a troop is under such an order, the GM should determine what happens when the leader is lost. Typically, the troop will try to follow the back-up plan, but circumstances might render that difficult or even impossible.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Skirmish Units",
+        "Troops in Skirmishes"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3449"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "other",
+      "remaster",
+      "rule",
+      "skirmish-units",
+      "troops-in-skirmishes"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 161,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3449"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "22D195D7-DA3D-5B62-8F9D-E5FCBF2F7442",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Banners",
+    "slug": "banners-rules-3421",
+    "type": "other",
+    "descr": "It’s customary for armies to march under a standard— both to identify themselves amidst the throng of fighters, and to create an air of professionalism and training for their troops. The sight of a banner on the battlefield is also a beacon of morale during the darkest moments of a battle. Such symbols are invaluable during any conflict between opposing factions. In addition to increasing morale among troops, magical banners and standards can also serve further purposes if they’re enchanted prior to battle.\n\nMagical banners can be affixed to a weapon or shield you’re wielding (this takes 1 minute), attached to a simple pole or handle and held in one hand, or worn affixed to a pole alongside your backpack. A weapon or shield can have only one magical banner affixed to it at a time, and you can affix a magical banner and a talisman to the same item. Magical banners can only grant their benefits and be used when they’re in somebody’s possession. They often provide a benefit to creatures within the banner’s aura, which is a 30-foot [emanation](/rule/emanation-rules-2387) centered on the creature in possession of the magical banner. A creature can benefit from the effects of only one magical banner at a time. If a creature is in the aura of two or more friendly magical banners, they gain the benefit of the higher-level one, or in the case of a tie, the banner the creature feels most loyal to. A commander can spend 1 minute to designate a magical banner as their commander’s banner, granting them all the effects of the commander’s banner class feature in addition to the effects of the item. Additionally, any ability that modifies the commander’s banner aura also modifies the aura of magical banners in the same way.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3421"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 138,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3421"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "AD051DC2-11A2-5A6B-8A1B-90AD4D75DDDA",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Behind Enemy Lines",
+    "slug": "behind-enemy-lines-rules-3432",
+    "type": "other",
+    "descr": "Finally, in some war campaigns the player characters are far behind enemy lines, and a big friendly army is little more than a wistful dream. In these cases, the protagonists might be spies or commandos sent into enemy territory, either for one important job or as a long-term infiltration. They might be resistance fighters, trying to throw out some hostile occupying force. Or perhaps they’re guerrillas, hidden deep in a forest or cavern, and coming out to strike at the enemy. These stories can also intersect with the other genres presented, either temporarily or long-term—perhaps the protagonists are infiltrating the enemy’s front-line army, or perhaps the war hasn’t quite started yet but will any minute now.\n\nStories set behind enemy lines have a great deal in common with espionage and even crime stories. In all cases, the heroes are in a deeply hostile and dangerous environment. It doesn’t matter how powerful the player characters are; if they remain out in the open long enough, then the enemy can and will destroy them. Their only hope of survival lies in stealth and secrecy. They might act openly for a little while, but how to escape before enemy reinforcements show up will be a part of every mission’s planning—except, perhaps, the last.\n\nStories set behind enemy lines will usually be a bit darker and more morally complex than frontline stories, even if they tend to be less directly violent. For this narrative to work, the enemy can’t be faceless monsters or soulless undead. They’re people, to be manipulated or beguiled or killed as appropriate. Some might be evil monsters, but others may well be somewhat sympathetic, servants of their country right or wrong.\n\nMore optimistic stories of this stripe might end with a popular revolution and will allow the player characters to convert the more sympathetic of their foes to their side. More cynical narratives play out like a horror campaign, allies dropping one by one in the face of an implacable security state, the heroes trying to strike one last desperate blow before they too are captured and killed at dawn.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Genres of War"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3432"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "genres-of-war",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 198,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3432"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A4CC779E-0FA9-5B30-B2EC-A8058CF8BCD7",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Being in Command",
+    "slug": "being-in-command-rules-3438",
+    "type": "other",
+    "descr": "When the characters reach a point in their military career where they’re given command over soldiers of their own or if circumstances arise that require the characters take part in larger-scale battles, consider the new [skirmish warfare subsystem](/rule/skirmish-units-rules-3439).\n\nThis subsystem allows players to take control and act alongside troop creatures, usually in encounters against other troops and their leaders. These encounters function very similarly to standard encounters and can represent the tumult of armies clashing against each other. The section contains advice for GMs about creating and running such encounters. In addition, a plethora of troop stat blocks usable with this subsystem as both allies and enemies begins [here](/trait/troop). That section also includes a table of troop stat blocks found in other sources to date.\n\nSkirmish encounters can be used alongside Victory Points to simulate a larger war; as the PCs complete or fail at certain objectives, they can lose or gain Victory Points. In addition, when certain Victory Point thresholds are met, perhaps the PCs gain command of more powerful troops or deepen their bonds with their current troop.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "How to Have a War"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3438"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "how-to-have-a-war",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 203,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3438"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "68792B0B-AC8E-505C-8934-0CD4813DA3B7",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Boosted Morale",
+    "slug": "boosted-morale-rules-3444",
+    "type": "other",
+    "descr": "A leader’s presence inures their troop against terror and retreat. Troops in a skirmish encounter have a chance to become afraid or run away, as described under [Routing Troops](/rule/routing-troops-rules-3446). When a troop with a leader attempts a rout roll, it gets a result one degree of success better than it rolled.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Skirmish Units"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3444"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "other",
+      "remaster",
+      "rule",
+      "skirmish-units"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 160,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3444"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "ACD41E6E-FEBD-594C-AD6C-FB2A42E83FA6",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Building Skirmish Encounters",
+    "slug": "building-skirmish-encounters-rules-3453",
+    "type": "combat",
+    "descr": "Because skirmish encounters require more from the players and GM, they need to be set up with more care than a typical combat encounter. Build your skirmish encounter deliberately, following these steps.\n1. Set objectives and victory and defeat conditions.\n2. Pick the battlefield.\n3. Choose a difficulty.\n4. Add the right enemies.\n\n## Commanders and Troops\n\nA commander can choose a troop as a squadmate, treating them as one ally. They can choose troops led by allies as squadmates, too, if the ally allows it. The Under Command skirmish bond can make commanders more effective in skirmish warfare.\n\nCommanders should note the movement limit for units off their turn, as described under [Combined Movement](/rule/combined-movement-rules-3442) . Tactics that can grant movement to multiple squadmates don’t get to double up for combined units. There might be some overlap between your tactics and the options you have for skirmish bonds. Check carefully to make sure you’re choosing combinations that actually work well together. For most commanders, the best choice of skirmish bond is Under Command.",
+    "data": {
+      "type": "combat",
+      "breadcrumbs": [
+        "Skirmish Units"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3453"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "combat",
+      "remaster",
+      "rule",
+      "skirmish-units"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 163,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3453"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "CCB4487C-9A5B-5740-BF0C-472E2BF76513",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Clash of Steel (Level 6)",
+    "slug": "clash-of-steel-level-6-rules-3472",
+    "type": "other",
+    "descr": "**Threat** Moderate (70 XP)\n**Player Troops** 2 dwarf battalions 40 XP each), heavy cavalry (60 XP), line infantry (40 XP)\n **Enemy Commanders** hobgoblin archer (20 XP), 2 hobgoblin generals MC (40 XP each);\n**Enemy Troops** goblin get gang (30 XP), 2 hobgoblin battalions NPCC (40 XP each), Qadiran camel corps (40 XP)",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Skirmish Units",
+        "Quick Skirmish Groups"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3472"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "other",
+      "quick-skirmish-groups",
+      "remaster",
+      "rule",
+      "skirmish-units"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 169,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3472"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "89B2A313-3FAF-53CF-8D44-2A62EB7D6CA7",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Combined Movement",
+    "slug": "combined-movement-rules-3442",
+    "type": "combat",
+    "descr": "Any move action a troop or leader takes moves the whole unit. For example, if the leader uses a [Stride](/action/stride-player-core) action, they move the troop. Use the acting creature’s Speed to determine how far the group moves. The GM determines whether the group can move together using a Speed they don’t both possess (such as if the leader has a fly Speed and the troop doesn’t).\n\n**Movement Limit:** To prevent the combined unit from rocketing across the battlefield in the space of a single turn, the leader and troop combined can take no more than 3 actions worth of move actions and activities that include move actions in a turn. Any of these actions that include more than one move action or increase movement still apply, though. For instance, if an [elf](/ancestry/elf-player-core) PC has the [Elf Step](/feat/elf-step-player-core) feat, which lets them Step twice for 1 action, they can use it three times to let their troop Step a total of six times.\n\nIf an ability lets the troop and its leader move outside their turn, the unit can move only once. For example, if a commander tactic lets multiple squadmates Stride as a reaction, and the troop and leader are both squadmates, they can only collectively move one time. Only the leader or troop would need to spend a reaction, and the other could save their reaction for another purpose.",
+    "data": {
+      "type": "combat",
+      "breadcrumbs": [
+        "Skirmish Units",
+        "Shared Space and Movement"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3442"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "combat",
+      "remaster",
+      "rule",
+      "shared-space-and-movement",
+      "skirmish-units"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 159,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3442"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "237A7096-A262-5197-9440-CF137C503FBB",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Customizing Troops",
+    "slug": "customizing-troops-rules-3469",
+    "type": "other",
+    "descr": "Choosing the right troops for your group can be challenging since the number of troops in the game is limited compared to the number of creatures overall. The [Troops](/trait/troop) trait troops options and can be especially useful as a reference.\n\nWhen choosing troops, first remember that you can stretch a level up or down fairly easily. Second, you can use the elite and weak adjustments for a quick and dirty adjustment to statistics. Third, you can freely “reskin” troops to change their theme, such as making a boggard scouting party human rogues who use grappling hooks instead of tongues to pull in enemies. Fourth, you can mix and match abilities from different troops of similar levels—if one has an emanation offensive ability you like and another's ranged ability works for the theme you like, swap them in as needed!\n\n## Additional Skirmish Bonds\n\nA leader can typically share one skirmish bond with a troop. To give an advantage for the growing bond with a recurring troop, the GM can allow the leader to select a second skirmish bond. They need to take a day of downtime with their troop to prepare them with the new skirmish bond the first time they use it, as usual. The GM determines when the second bond gets unlocked. Usually, it occurs with the troop’s second appearance, though typically this doesn’t happen if the troop reappears very soon after its first appearance. A good basic rule is to give the additional bond if the leader is at least 9th level and has gained at least 2 levels since their first skirmish with the troop.\n\nThe GM can grant a third skirmish bond if the troop continues to appear. Usually this happens after the leader has reached 13th level and has gained at least 2 more levels since the troop’s second appearance.\n\n## Leveling Up Troops\n\nIf the GM wants to increase a troop’s level, they can use the [troop creation](/rule/designing-troops-rules-3427) guidelines to generate its new statistics. They might also want to add new abilities, such as a [fly Speed](/rule/fly-speed-rules-2350), for higher-level troops. These improvements can often be themed as the troop being outfitted with additional magic items or magical abilities.\n\n## Recurring Troops\n\nYour campaign’s story might revolve around the same troops appearing in several skirmish encounters over the course of multiple levels. The GM might choose to lean into recurring troops and reinforce their experience with a PC leader.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Skirmish Units"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3469"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "other",
+      "remaster",
+      "rule",
+      "skirmish-units"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 169,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3469"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "25C2DEFE-B2E5-59C6-A64D-0E92EFDA8281",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Defend",
+    "slug": "defend-rules-3455",
+    "type": "combat",
+    "descr": "The PCs must defend a place, people, or valuable asset against enemy forces. To keep a skirmish that features a defend objective from being a battle that carries on until an entire side is defeated, you can use a timer—the PCs need to defend for 3 rounds, for example. It’s also wise to define what counts as failing to defend the objective. Some examples could entail:\n\n- The PCs must protect a refugee caravan. They meet their objective if they defend the caravan for 3 rounds but lose it if the raiders destroy three or more wagons.\n- [Fiends](/trait/fiend) are attacking a holy site, and the PCs must keep them from desecrating it. Allied clerics can seal one of four doorways each round, and the PCs can choose the order in which they do it. If all four doors are sealed, the site is safe and the objective met!\n- Enemy [troops](/trait/troop) are trying to reach a teleportation portal to join a siege of a major city. The PCs must block a narrow mountain pass to delay them until the portal has closed. Blocking any of the enemy troops is a partial success toward the objective, but the more they stop, the safer the city will be.",
+    "data": {
+      "type": "combat",
+      "breadcrumbs": [
+        "Skirmish Units",
+        "Building Skirmish Encounters",
+        "1. Set Objectives"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3455"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "1-set-objectives",
+      "battlecry",
+      "building-skirmish-encounters",
+      "combat",
+      "remaster",
+      "rule",
+      "skirmish-units"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 164,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3455"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "00DC0677-EA7C-588F-A416-CE882E6D6F9C",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Designing Troops",
+    "slug": "designing-troops-rules-3427",
+    "type": "other",
+    "descr": "While [swarms](/trait/swarm) work well for creatures that are particularly small or not especially intelligent, troops are an ideal way to portray tactical groupings of foes sized similarly to most PCs. In addition to the creature creation guidelines from GM Core, consider the following elements when building troops for your campaign.\n\n**Conceptualizing a Troop:** When conceptualizing a troop that’s made of combat-capable creatures, it’s often useful to start by considering how an individual’s abilities could scale up when many of that creature fight together. What weapons, spells, and special abilities would the individuals have, and how could those abilities interact with each other? Could an ability that one creature can use against a single target transform into an area effect when done by many of those creatures simultaneously? If a creature has abilities that seem difficult to use in a coordinated fashion, consider omitting them from the troop. A troop need not be based on an existing creature, but looking at it through the lens of its component creatures can guide you.\n\nTroops can also be far more than the sum of their parts, allowing creatures that wouldn’t be strong enough to pose a threat on their own to gather together and challenge PCs. With troop mechanics, creatures weaker than level –1 can appear in combat, in much the same way that swarms allow rats, spiders, and other animals to form an interesting encounter. Troops can also allow for more unusual situations, like an army of people who aren’t physically durable on their own but are skilled at wielding siege weaponry.\n\n**Troop Level:** A troop consisting of many individuals is always significantly higher level than one of its members. Around 5 to 6 levels higher than a single component creature is a useful benchmark, meaning a troop of level –1 creatures would be a level 4 or 5 troop. Troops with particularly poor or good coordination may be higher or lower level than the standard.\n\n**Movement, Senses, and Languages:** Troops have the same movement types, senses, and languages as their component creatures. However, they are restricted to moving together as a group, as described in troop movement.\n\n**Skills:** When giving skills to a troop, consider how sensible it is for a large group to work together at various tasks that the skill represents. A large group of people is likely to do well at skills that represent knowledge, as they can pool their experiences. However, large groups are unlikely to be particularly good at Stealth, unless they have powerful magic or other extenuating circumstances, such as a troop that has trained to work together as assassins.\n\n**Armor Class, Hit Points, and Thresholds:** Troops use the standard rules for determining Armor Class and Hit Points [here](/rule/building-creatures-rules-2874). After accounting for their default weaknesses to area and splash damage, a typical troop has high AC and moderate Hit Points, or moderate AC and moderate to high Hit Points. Troops with additional defenses and resistances should have lower AC or fewer Hit Points to compensate.\n\nAs a troop takes damage, it eventually shrinks to take up fewer squares. At the first threshold, after taking an amount of damage equal to one-third of its maximum Hit Points, the troop is reduced to 12 squares (or three segments, each 10 feet on a side). At the second threshold, after taking an amount of damage equal to two-thirds of its maximum Hit Points, the troop is reduced to 8 squares (or two segments).\n\n**Immunities, Resistances, and Weaknesses:** All troops have troop defenses and gain any immunities, resistances, and weaknesses that their component creatures have. For example, a troop of [elementals](/trait/elemental) has the standard elemental immunities. A troop is typically weak to both area and splash damage. Use the average values for [weaknesses](/rule/immunities-weaknesses-and-resistances-rules-2893) for both. If it makes sense for a troop to not have these weaknesses, consider lowering its Hit Points since you’re removing one of the main tactics the PCs have for dealing with troops.\n\n**Troop Damage:** Most troops have an offensive ability that’s themed like coordinated melee attacks and can be activated by spending the troop’s choice of one, two, or three actions. Using the [table](/rule/strikes-rules-2895), the damage for the one-action version should be roughly half of the low Strike damage, the damage for the two-action version should be roughly three-quarters of the high Strike damage, and the damage for the three-action version should be roughly equal to the high Strike damage.\n\nIf the offensive ability has a ranged counterpart—an area burst offensive ability—it’s typically always two actions. The ranged ability’s damage should be lower than the troop’s 2-action melee ability, typically threequarters of the moderate Strike damage. If a troop is dedicated to ranged attacks, this might be a bit higher, but the troop should have a weaker melee offensive ability and lower defenses and Hit Points.\n\nTroop ability DCs tend to use [moderate spell DCs](/rule/spell-dc-and-spell-attack-modifier-rules-2899). If a troop has multiple offensive abilities, you might make one’s DC a bit lower if it suits the troop’s theme. For example, a troop of barbarians might have a DC 2 lower for a ranged offensive ability. Similarly, you might use a lower DC for an ability that inflicts conditions or otherwise shakes up the battlefield.\n\n**Spells:** Troops composed of creatures with spells often have spellcasting abilities. Troops can cast spells with a single target on themselves; this represents each member of the troop casting the spell. To represent the effects of many creatures casting an offensive spell at the same time, consider using a version of the spell heightened up to a higher rank as appropriate for their level. For example, if level 5 pyromancers that can cast 3rd-rank [_fireball_](/spell/fireball-player-core) gather together into a level 11 troop, consider giving the troop 6th-rank fireball.\n\nAs usual for creature design, spells that deal damage or have the [incapacitation](/trait/incapacitation) trait are most useful when they are of the highest rank the creature could use, and rapidly diminish in value at lower ranks.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3427"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 170,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3427"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4C5E1CAC-0A11-5042-A6C6-7F0A67B21932",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Downtime",
+    "slug": "downtime-rules-3477",
+    "type": "other",
+    "descr": "Even the bloodiest wars don’t see constant battle after battle. Armies need time to march from place to place and, unless magic is involved, orders from high command aren’t always transmitted instantaneously to the leaders in the field. Soldiers need time to rest and recuperate or train for hardships to come. In each of these cases, characters involved in war might find themselves facing stretches of downtime. The following [downtime activities](/trait/downtime) might be flavored to match a war-focused campaign.\n\n**[Earning Income:](/rule/earning-income-rules-2445)** If the PCs are on a military’s payroll, they already see a steady income and will likely not need to perform jobs to gain extra cash, and they won’t have to worry about their cost of living. However, enterprising characters can still have a side hustle. A [fighter](/class/fighter-player-core) could do a fellow soldier a favor and pick up their shift in the kitchen or cleaning latrines. A [rogue](/class/rogue-player-core) could find ways to smuggle luxury items from a nearby city to the lower ranks. A [druid](/class/druid-player-core) could hire out their animal companion to move equipment between camps.\n\n**Long-Term Rest:** Battlefields are dangerous and dirty. PCs returning from a mission may have suffered grievous wounds or caught some nasty disease. Most military camps will have a medic to assist with their recovery, though a PC might want to rely on another PC’s expertise (or magic). In either case, such healing takes time.\n\n**[Retraining:](/action/retraining-player-core)** Soldiers must always be at their best, and physical training is paramount to most militaries. When not directly fighting, a regiment might run for several miles or perform calisthenics as morning exercise. Such activity could serve as a background for PCs who wish to retrain feats, skills, and class features. Perhaps a wizard wants to increase their proficiency in Athletics in preparation for a long march. A barbarian might want to be able to better intimidate a large group of people in preparation for a siege. A bard might want to replace a spell in their repertoire that focuses more on dealing damage than healing.\n\n[**Shopping and Crafting**](/rule/shopping-and-crafting-rules-2451): A good army’s quartermaster should provide their soldiers with everything they need, but sometimes they can offer a little extra... for a price. PCs might also be campaigning near a friendly city, allowing them to purchase items as normal, though occasionally they might see a steep increase in prices due to low supply. Alternatively, an established military camp might provide a PC with tools or a workshop, usually in the form of a portable smithy, for them to be able to craft their own items.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "How to Have a War"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3477"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "how-to-have-a-war",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 203,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3477"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "873E9A5A-FCC3-5220-9681-08221DDF79FD",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Eliminate",
+    "slug": "eliminate-rules-3456",
+    "type": "combat",
+    "descr": "Destroying a target could swing the tide of battle. PCs might look for all sorts of ways to achieve this objective, taking a more proactive approach than they would if they were defending. These encounters usually work best if the PCs can clearly find and identify the target they need to destroy—uncertainty can be especially annoying in a skirmish encounter. If you do want to make finding the target part of the encounter, such as by finding a cowardly enemy spellcaster and incapacitating them to end a ritual, give the PCs a limited number of clear places to search. Examples of eliminate objectives include:\n\n- [Troops](/trait/troop) are stationed at the estate of a powerful political figurehead. Get past the guards and assassinate this leader.\n- Multiple shipments of weapons have been transported to an isolated but centrally located fort before being sent out to arm several battalions. Destroy the stockpile!\n- Siege engines are laying waste to allied forces and keeping them holed up in a crumbling castle. Disable or destroy the siege engines to give your allies the chance to rush forward and take the fight to the enemy.",
+    "data": {
+      "type": "combat",
+      "breadcrumbs": [
+        "Skirmish Units",
+        "Building Skirmish Encounters",
+        "1. Set Objectives"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3456"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "1-set-objectives",
+      "battlecry",
+      "building-skirmish-encounters",
+      "combat",
+      "remaster",
+      "rule",
+      "skirmish-units"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 164,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3456"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "6CDB396C-27B9-5F06-B6E8-840D5CD682E0",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Establishing a New Command",
+    "slug": "establishing-a-new-command-rules-3450",
+    "type": "other",
+    "descr": "When a troop loses its leader, one of its allies (another PC or allied NPC, typically) can attempt to become its new leader—even during an active battle. This isn’t easy to do! The potential leader must use the following activity to do so.\n\n**Take the Lead** **Two Actions** ([auditory](/trait/auditory), [concentrate](/trait/concentrate), [linguistic](/trait/linguistic)) **Requirements** You aren’t leading a troop, and you’re adjacent to an allied troop that had a leader at the start of the encounter but has since lost its leader; **Effect** You try to become the leader of the troop. Attempt a Diplomacy check against the easy DC for the troop’s level.\n**Success** You become the leader of the troop until the end of this combat and immediately [Step](/action/step-player-core) into its space. The troop doesn’t gain any special skirmish actions or bonds, even if it had one with its former leader or if you had one for a troop you’ve since lost.\n**Failure** You fail to lead the troop.\n**Critical Failure** You fail to lead the troop, and the troop must immediately attempt a rout check.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Skirmish Units",
+        "Troops in Skirmishes"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3450"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "other",
+      "remaster",
+      "rule",
+      "skirmish-units",
+      "troops-in-skirmishes"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 161,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3450"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "34671292-5FB6-5972-952E-4F9E1D2AADF0",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Five Actions",
+    "slug": "five-actions-rules-3443",
+    "type": "basicAction",
+    "descr": "At the start of each of the leader’s turns, they regain actions for both themself and their troop instead of regaining their normal number of actions. The leader can choose to either grant themself 3 actions and their troop 2 actions or to grant themself 2 actions and their troop 3 actions. Either way, both the leader and troop each regain 1 reaction. The leader can choose whether they take their actions first or the troop takes their actions first, but the two can’t alternate taking actions in the same turn.\n\n**Gaining and Losing Actions:** Conditions that adjust a creature’s number of actions, such as [quickened](/condition/quickened-player-core) and [slowed](/condition/slowed-player-core), are tracked separately. For instance, if the leader and troop were both slowed 1 and the leader chose to give themself 2 actions and their troop 3, the leader would get 1 action after the deduction from slowed, and the troop would have 2. The leader still chooses how to distribute the actions if they’re unable to act. A troop that loses its leader can still take some actions, as described under [Losing a Leader](/rule/losing-a-leader-rules-3448).",
+    "data": {
+      "type": "basicAction",
+      "breadcrumbs": [
+        "Skirmish Units"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3443"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "basicAction",
+      "battlecry",
+      "remaster",
+      "rule",
+      "skirmish-units"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 159,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3443"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "CAD9917B-DF36-5A65-9EA0-4479B260F975",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Follower Actions",
+    "slug": "follower-actions-rules-3423",
+    "type": "basicAction",
+    "descr": "Use the following guidelines to determine what followers can do in encounter mode, exploration mode, and downtime.\n\n**Encounter Mode:** During an encounter, you can spend a single action on your turn to Direct Follower, an action described below. If you don’t spend an action to Direct your Follower, the follower gains 1 action that they spend to Stride, usually to get to a safer position or to set themselves up to assist you more effectively on future rounds.\n\n **Exploration Mode:** In exploration mode, followers typically tag along with the group. They either travel normally without using an exploration activity or [Avoid Notice](/action/avoid-notice-player-core), [Hustle](/action/hustle-player-core), or [Follow the Expert](/action/follow-the-expert-player-core) to Avoid Notice (your choice). Alternatively, you can use your exploration activity to direct your follower to Follow the Expert, [Investigate](/action/investigate-player-core), [Scout](/action/scout-player-core), or [Search](/action/search-player-core), or to use any of the [exploration](/trait/exploration) skill actions which they meet the prerequisites.\n\n**Downtime:** Followers use their downtime to train, upkeep their kits, and perform other background activities at the GM’s discretion. They don’t perform downtime activities on behalf of the PCs like Crafting or [Earning Income](/rule/earning-income-rules-2445).\n\n## Followers vs. Non-Companion NPCs\n\nFollowers are NPCs who are designed to be balanced with other companion options, such as animal companions, and to maintain their own necessary gear without cost to the PCs. As such, they have the [minion](/trait/minion) trait, and they can only use the actions listed under follower actions and in their stat block.\n\nSince followers are intelligent people, these abstractions can potentially lead to unusual circumstances at the table. For example, some groups might find it odd that followers can’t Activate an Item to use magic item abilities or feed potions to PCs. However, activated items are balanced around the idea that a PC is spending their own actions to use them. For example, magic items with a 2-action activation are balanced around the idea that they can’t be used on the same turn as any other 2-action spell or activity. If your group would rather have an NPC companion that can take 3 actions per round and use items, consider asking your GM to add an NPC to the party, counting them as an extra PC for the purposes of XP and treasure.",
+    "data": {
+      "type": "basicAction",
+      "breadcrumbs": [
+        "Followers"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3423"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "basicAction",
+      "battlecry",
+      "followers",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 76,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3423"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A0DD7996-BA19-5377-A3AF-621560839AFD",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Follower Types",
+    "slug": "follower-types-rules-3426",
+    "type": "other",
+    "descr": "The theme of a follower’s abilities and skills is called their follower type. Each follower type has its own stat block and advancement, as follows.\n\n**Strikes** One or more entries with the follower’s Strikes and their traits and damage\n**Attribute Modifiers** Starting attribute modifiers\n**Hit Points** The follower’s starting Hit Points\n**Kit Armor** The item bonus and Dexterity modifier cap (or Dex cap) for the armor from the follower’s kit\n**Skills** Trained skills your follower has\n**Follower Ability** A special ability that your follower has; this is either an action you can Direct your Follower to perform or an ability that happens automatically\n**Special** If present, this section lists other mechanics that apply to the follower\n**Experienced Advancement** The bonuses and abilities the follower gains when they become an experienced follower\n**Veteran Advancement** The bonuses and abilities the follower gains when they become a veteran follower\n**Exceptional Advancement** The bonuses and abilities the follower gains when they become an exceptional follower",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Followers"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3426"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "followers",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 77,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3426"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8BF53347-5EC0-5468-8AA9-34264F5D7DF7",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Followers",
+    "slug": "followers-rules-3422",
+    "type": "other",
+    "descr": "A follower is an NPC who accompanies and assists you for an extended period of time, perhaps even an entire campaign. You can gain a follower by taking the [captain](/archetype/captain-battlecry) archetype. Followers are companions who rely upon you for direction in combat; they have the [minion](/trait/minion) trait. You can have a follower and a familiar or pet, but you can’t have a follower if you already have an [animal companion](/feat/animal-companion-player-core) or another companion that prevents you from having an animal companion.\n\n**Ancestry:** Most followers are human, and so have the human and [humanoid](/trait/humanoid) traits. They are size Medium, have a 25-foot Speed, and speak Common plus a number of additional languages equal to 1 + their Intelligence modifier. While followers have a heritage that is part of their personal story and background, followers don’t gain mechanical benefits from their heritage. For information on followers of other ancestries, see the [Leader of All](/feat/leader-of-all-battlecry) feat.\n\n**Follower Type:** Followers can come from all walks of life and have a wide variety of experiences and abilities. For ease of play, followers are grouped into broad categories called follower types, such as berserker or medic. For more on follower types, see here.\n\n **Kits:** Each follower has a personal set of gear called a kit, which automatically improves as the PCs level up and has a level equal to the PCs’ level. The kit includes the follower’s weapons, armor, and other items that they require to perform the actions listed in their statistics. Followers can’t wear or use items other than those in their kit, nor can they share equipment with the PCs. A follower’s damage with melee and ranged Strikes depends upon their follower type. Each follower type has a default weapon listed; if you would like your follower to use a different weapon that deals the same or lower damage from the same category (for example, simple melee weapon or martial ranged weapon) that requires the same number of hands to wield, talk to your GM. Followers are assumed to maintain their kit. This includes procuring adequate ammunition for ranged weapons, as well as repairing damaged gear. A follower can spend 10 minutes to repair all their [broken](/condition/broken-player-core) and damaged equipment, and they can replace destroyed equipment during daily preparations.\n\n**Payment:** The follower mechanics abstract away the compensation that followers receive for their work, so as not to impact the expected party wealth. Followers are assumed to earn enough income to provide for their own food, clothing, and shelter, to maintain and upgrade their kits (see above), and to have a comfortable standard of living. The source of this income is up to the GM and player to decide based on the follower’s circumstances; perhaps they have been hired by the PCs’ patron or an outside organization to work with the PCs, or perhaps the PCs earn additional wealth in their adventures that is earmarked for the follower.\n\n**Replacing a Follower:** Followers might part ways with the PCs for a variety of reasons, whether it be the follower’s death or other events during the campaign. If a PC loses a follower, they can spend a week of downtime to replace them. Replacing a follower generally requires the PC to be in a settlement or other location where recruits are available, but the GM can also introduce followers organically during the adventure.\n\n## Monstrous Followers\n\nThis follower framework can also be used to represent intelligent monsters that follow the PCs. The GM can create a new follower type for them or adjust one of the existing progressions, renaming their attacks and replacing their abilities accordingly.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3422"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 76,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3422"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9688DC40-E121-5DFA-BF7A-11C497AF6763",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Genres of War",
+    "slug": "genres-of-war-rules-3428",
+    "type": "other",
+    "descr": "The stories of war change depending on the characters’ relation to it. Although the most obvious war stories are those set on the battlefield itself, the war can be distant in location or even time. The causes of war stretch far before the first battle and, by the time they get rolling, the disruption can spread across continents and ages.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3428"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 197,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3428"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "7603F0A2-D7A1-54A1-8D4D-FFEEC58F40FE",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Glorious Death! (Level 11)",
+    "slug": "glorious-death-level-11-rules-3475",
+    "type": "other",
+    "descr": "**Threat** Moderate (80 XP)\n**PC Troops** angelic chorus (60 XP), weak vanth guardian flock (60 XP), 2 viking guards (40 XP each)\n **Enemy Commanders** 2 graveknights (30 XP each), lich (60 XP); **Enemy Troops** 2 rancorous priesthoods (40 XP each), 2 skeleton infantries (40 XP each)",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Skirmish Units",
+        "Quick Skirmish Groups"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3475"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "other",
+      "quick-skirmish-groups",
+      "remaster",
+      "rule",
+      "skirmish-units"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 169,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3475"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "74FDBA7E-1A30-55AB-9A86-946CE03E72D3",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "How to Have a War",
+    "slug": "how-to-have-a-war-rules-3433",
+    "type": "other",
+    "descr": "Having decided what kind of story you want to tell, the next step is to figure out how exactly you are going to run the game—and that, in turn, means deciding what kind of war you are dealing with and where the protagonists fit into the war.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3433"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 199,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3433"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "80289AD5-11E8-56EE-9A19-DA97EF17456B",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Leaders",
+    "slug": "leaders-rules-3464",
+    "type": "combat",
+    "descr": "A variety in leaders can be just as important as a variety of troops. Even two of the same [troop](/trait/troop) can play differently if they have two different leaders or one has a leader and the other doesn’t. Usually, you’ll want to choose leaders out of the base XP budget before adjusting for troops. If you want to focus the narrative on one significant leader, spend much of your budget on one NPC who’s 2 levels higher than the PCs. If you want a more even battle, choose leaders of the PCs’ level or 1 lower.\n\nIncluding troops with no leaders lets you bring the full set of skirmish rules into play. Troops who can be routed can simplify the battlefield quickly and make the PCs feel powerful. Usually, you’ll want at least one or two leaderless troops in a skirmish encounter.",
+    "data": {
+      "type": "combat",
+      "breadcrumbs": [
+        "Skirmish Units",
+        "Building Skirmish Encounters",
+        "4. Add the Right Enemies"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3464"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "4-add-the-right-enemies",
+      "battlecry",
+      "building-skirmish-encounters",
+      "combat",
+      "remaster",
+      "rule",
+      "skirmish-units"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 166,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3464"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8DF8088A-A54A-5E06-8320-FEB672EE2E03",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Lone Wolf PCs",
+    "slug": "lone-wolf-pcs-rules-3467",
+    "type": "combat",
+    "descr": "So, you have a PC in your group who doesn’t play well with others. They might not be at all interested in leading a group because of their character’s personality or abilities. Usually, your best course of action as GM is to reduce the number of troops the PCs can command by one when building your encounter, which adjusts the [XP budget](/rule/xp-budget-rules-2717) accordingly.\n\nIf you find that all or most of your group feels the same way, skirmish encounters are probably a bad fit for your campaign or adventure. You might look at ways to turn warfare into background or set dressing rather than making it an active part of combat that needs to be played out using these rules.",
+    "data": {
+      "type": "combat",
+      "breadcrumbs": [
+        "Skirmish Units",
+        "Building Skirmish Encounters",
+        "Special Considerations"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3467"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "building-skirmish-encounters",
+      "combat",
+      "remaster",
+      "rule",
+      "skirmish-units",
+      "special-considerations"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 166,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3467"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "DE6CA268-1DA9-5A11-B193-4F529E78DAB0",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Loosing a Troop",
+    "slug": "loosing-a-troop-rules-3447",
+    "type": "other",
+    "descr": "When a leader’s troop is defeated, the leader remains on the battlefield and can place themself anywhere within the space their troop occupied. If the troop is forced to retreat in some way, such as after gaining the [fleeing](/condition/fleeing-player-core) condition, the leader can usually choose to stay behind, abandoning their troop. If they exercise this option, they can’t become the leader of that troop again in the same encounter.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Skirmish Units",
+        "Troops in Skirmishes"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3447"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "other",
+      "remaster",
+      "rule",
+      "skirmish-units",
+      "troops-in-skirmishes"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 161,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3447"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4DA5DA86-CD22-553F-BDEB-23D42BE51C1D",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Losing a Leader",
+    "slug": "losing-a-leader-rules-3448",
+    "type": "other",
+    "descr": "All the benefits a troop gets from having a leader are lost if the leader is knocked out, leaves the battlefield, can’t act, or is otherwise unable to command the troop. Their troop can still act, but not as effectively.\n\nA troop in a skirmish that has lost its leader regains 2 actions and 1 reaction each round, taking its turn at the same point in initiative as its former leader. If the troop had a skirmish bond, it loses those benefits since they’re closely tied to the leader. Also, remember that without a leader, the troop is also subject to the full effects of [rout](/rule/routing-troops-rules-3446) checks! If the leader was a PC who’s been knocked out, the GM can usually have that PC run and roleplay the troop while their character is [unconscious](/condition/unconscious-player-core). In other situations, the GM should run the troop.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Skirmish Units",
+        "Troops in Skirmishes"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3448"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "other",
+      "remaster",
+      "rule",
+      "skirmish-units",
+      "troops-in-skirmishes"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 161,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3448"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "90AB7480-4022-5284-B237-C178AB26968C",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Nature Versus Nature (Level 13)",
+    "slug": "nature-versus-nature-level-13-rules-3476",
+    "type": "other",
+    "descr": "**Threat** Moderate (90 XP)\n**PC Troops** dezullon thicket (60 XP), druid circle (30 XP), 2 first-class infantries (40 XP each);\n**Enemy Commanders** crag linnorm (60 XP), 2 dryad queens (40 XP each) **Enemy Troops** drake flight (40 XP), 2 xulgath dinosaur cavalries (40 XP each)",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Skirmish Units",
+        "Quick Skirmish Groups"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3476"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "other",
+      "quick-skirmish-groups",
+      "remaster",
+      "rule",
+      "skirmish-units"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 169,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3476"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "307AE7F0-C366-587E-ABF0-E112B37A5420",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Novice Followers",
+    "slug": "novice-followers-rules-3425",
+    "type": "other",
+    "descr": "Followers begin their journey as novices. The following are the base statistics of a novice follower. Followers calculate their modifiers and DCs just as you do with one difference: the only item bonuses they can benefit from are the ones listed in their statistics. You can take feats from the [captain](/archetype/captain-battlecry) archetype to advance your followers, making them stronger.\n\nA follower’s starting statistics are as follows.\n**Level:** Your follower’s level is equal to yours.\n**Proficiencies:** Your follower is trained in their listed attacks, the armor from their kit, Perception, all saving throws, and the skills listed in their stat block.\n**Attribute Modifiers:** A follower begins with base attribute modifiers listed in their stat block.\n**Hit Points:** Your follower has starting Hit Points from their type, plus a number of Hit Points equal to 6 plus their Constitution modifier for each level you have.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Followers"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3425"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "followers",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 77,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3425"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "FAFD7684-1697-525C-B1A2-B74D4746242F",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "On the Front Lines",
+    "slug": "on-the-front-lines-rules-3431",
+    "type": "other",
+    "descr": "Sometimes, though, there’s no substitute for the real thing. In these campaigns, the player characters are part of a large and reasonably organized army, marching across the land from battle to battle. Perhaps the heroes are mere grunts, footsloggers just trying to get through one more day. Perhaps they’re kings and generals, scheming and creating strategies and worrying about the big picture. Most likely they’re somewhere in the middle. This is the “real” war campaign.\n\nOne can tell stories about war in a lot of ways, but a few stand out. The following are some of the main frameworks for telling war stories, though it should be noted that they aren’t necessarily mutually exclusive— while one tone usually dominates, others can appear strategically (to keep the story from getting stale if nothing else).\n\n**War Is Hell:** A popular framework for telling stories about war is to emphasize the absolute horror and misery of it. In these sorts of stories, much is made of the constant death, the fear, the helplessness. You could die in war, and it doesn’t matter how brave or smart or strong you are; there won’t be a thing you can do about it. Your superiors are fools and madmen, your orders are nonsense, your strategic goals are a mystery, and your enemies are sadistically inventive in their efforts to kill you. The people on the home front have no conception of how bad things get, and your comrades in arms, the only people who do understand, are slowly whittled away by enemy fire or else lose themselves to the stress and trauma. War crimes are committed on all sides.\n\nDespite this narrative’s popularity, it’s an awkward fit for a Pathfinder campaign. This genre draws a lot of its grim horror from the helplessness of the typical soldier in the face of forces greater than them, but most player characters have far more options and far more agency than the doomed protagonists of those stories. It can also be draining and not terribly fun to play in for an extended period of time. Still, this can be used sparingly to good effect, reminding the protagonists that actions have consequences.\n\n**War Is Glorious:** Sometimes, it’s about fighting the good fight. In this kind of campaign, war can be ugly and brutal and messy, but there’s a point to it. Usually, there’s some kind of moral or ideological goal, something that the characters can point to when asked “was it all worth it?” That is not to say that there aren’t any doubts or setbacks, but there is a cause, and people can and will give their lives for that cause.\n\nThis is the default framing for a Pathfinder war story, which allows the protagonists to focus more on the practical challenges of victory rather than on moral quandaries. Often, these stories will further simplify matters by having all or most of the enemy force be composed of undead, demons, or similar entities. Because, really, it’s always fun to kill zombies.\n\n**War Is Farcical:** More often seen in older media, this approach focuses less on the fighting and more on the military itself. An army is an instrument of policy and a tool of violence, but it’s also a large, bureaucratic organization in a constant state of chaos. The opportunities for rather dark comedy are limitless. Orders are contradictory, the high command is out of touch, no one knows what they’re doing (including the enemy), and everyone is just trying to get through one more day. In practice, the differences between tragedy and comedy are mostly a matter of tone and perspective, the day-to-day fumbles of any large organization played for drama in the first case and humor in the second.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Genres of War"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3431"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "genres-of-war",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 198,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3431"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A8B98758-B95D-56A1-9BE1-E7BD6CED0FA2",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "One Tough Enemy",
+    "slug": "one-tough-enemy-rules-3468",
+    "type": "combat",
+    "descr": "You can add troops to the PCs’ side of a combat against a big monster to even the odds and turn what would be an extreme encounter into a moderate encounter. It’s still extremely challenging to go above party level + 4 for an adversary. For such an encounter, giving every PC a troop will likely make the encounter too easy, so it’s usually better to start with the intended enemy and add troops until you have your desired encounter budget balance. For example, you could add a boss of party level + 4, worth 160 XP, and add 80 XP worth of troops to the PCs’ side to make it effectively a moderate encounter. Note that if you have an enemy who can frequently dish out effects that deal damage in an area, the troops will likely be less effective because the enemy can easily exploit their weaknesses.",
+    "data": {
+      "type": "combat",
+      "breadcrumbs": [
+        "Skirmish Units",
+        "Building Skirmish Encounters",
+        "Special Considerations"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3468"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "building-skirmish-encounters",
+      "combat",
+      "remaster",
+      "rule",
+      "skirmish-units",
+      "special-considerations"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 167,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3468"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4FCE6C7B-8223-5DB0-B61F-B6E11D056EE6",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Onward to Victory (Points)!",
+    "slug": "onward-to-victory-points-rules-3437",
+    "type": "other",
+    "descr": "The [Victory Point](/rule/victory-points-rules-3028) subsystem is particularly well suited for war campaigns—it might not even need a change of name! Typically, you’ll want to use Victory Points when the characters have sufficient power or strategic pull to determine the outcome of the battle. Campaigns, especially about the futility or absurdity of war, should leave them out when the party can’t make the difference between victory and defeat.\n\nVictory Points let you concretely show the group’s impact on another layer of the war. This is most often a tactical group’s impact on the operations level, with their contributions changing the fate of a particular battle, holding a key location, or even evacuating a city in time. But a group focused on building supply lines, gathering intelligence, or making strategic decisions might see their efforts (and the associated skill rolls) play out through Victory Points deciding battles they aren’t even present for.\n\n**Victory Point Scale:** Wars can last for centuries or be over in a single day. So, it’s important to consider the speed at which you’re telling that story. An epic campaign can unfold in the bloody final days of a single siege, while months or years with shifting strategic goals can likewise pass in a few sessions.\n\nDecide whether to use Victory Points and set the [scale](/rule/setting-your-scale-rules-3037) based on the time you expect it to take at the table. A series of raids to meet a strategic objective might play out as a quick encounter for the rulers of a large nation, while a tactical group might approach each raid as an adventure with its own total of Victory Points. But a longer scale is appropriate for those rulers if the process of cajoling allies to join the raids takes most of a session or they decide to lead from the front lines.\n\nUsing this structure can be a powerful tool for pacing and tone. If you’re presenting this war as a glorious endeavor, a vicious fighting retreat might be a long encounter with the PCs holding the line while their allies withdraw, accumulating Victory Points to potentially save everyone. But when focusing on the darkness of war, that retreat might stretch over an entire adventure with the Diminishing Victory Points variant, where each failure represents deaths on their grueling march to safety.\n\nYou may find yourself having to adjust this scale on the fly as players show you where their interest is. After all, the barbarian staying up to watch over the army’s camp doesn’t mean their player wants to spend hours fending off the soul-sucking boredom of standing guard and chasing down individual enemy scouts. And teleport can bring strategic personnel to the battlefield at a moment’s notice. Even after you’ve laid out the Victory Points subsystem for the players, keep in mind the barbarian’s watch might be better resolved by Perception checks, and a ruler’s Warfare Lore check might represent a battle with the enemy lieutenant.\n\n**Objectives:** All sides of a battle are fighting for a reason. Even if one side’s strategic goal is complete destruction of their opponents, the fatalities of a given battle are typically in service of a more specific objective. Wanting to hold or take a location is common, as is stopping or delaying the movement of an opposing army. Even when death is a goal, it’s often an individual leader’s death rather than an entire army.\n\nThis is one of the reasons Victory Points can create a better representation of warfare than encounters alone. Just because the heroes hold a fortification or break the enemies’ morale doesn’t mean that the opposing army is wiped out to the last soldier. Although there are exceptions, most soldiers survive on both sides of the typical engagement.\n\nIt’s also worth considering these objectives on a tactical level. Even without Victory Points, this can help keep fights varied and interested, but it’s worth extra consideration when awarding points. Disrupting communications, incapacitating a general, or holding a bridge could all be worth Victory Points. Although all of them could be accomplished by wiping out swathes of enemy forces, keeping the focus on the objectives gives creative players a chance to reach them using fewer resources and ultimately contribute more to the final result.\n\n**Defeat:** In times of war, no plan survives contact with the enemy. While the player characters can turn the tide of a battle or a war with Victory Points (they are the protagonists, after all), war is something bigger than just the heroes. Depending on the tone of your campaign, defeat might be a dreadful certainty or completely off the table, but putting it in the party’s hands raises the stakes.\n\nStrategic or operational defeat can be tricky to present when the PCs are still able to fight. Focus on the actions of the NPCs around them, such as a commanding officer calling for a retreat or the common soldiers routing. It’s important to keep the players’ choices open, whether to retreat with their fellows, hold the line to assist the retreat, make one final valiant assault, or continue fighting in some other way.\n\nUnlike tactical defeats that so often result in the party dead, larger-scale defeats can just move the campaign into a new stage. Failing to defend a city under siege means that characters who remain are now behind enemy lines, fighting more as a resistance cell than an army. Meanwhile, retreating means a chance to regroup, resupply, and recruit new allies with more focus on operational questions.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "How to Have a War"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3437"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "how-to-have-a-war",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 202,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3437"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F82FDD17-7D52-5048-A6ED-33A89202950A",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Open the Gates of Hell (Level 9)",
+    "slug": "open-the-gates-of-hell-level-9-rules-3474",
+    "type": "other",
+    "descr": "**Threat** Severe (110 XP)\n **PC Troops** mercenary band (40 XP), watchmage squadron (60 XP), 2 woodland scouts (30 XP each)\n**Enemy Commanders** greater hell hound (40 XP), 2 phistophiluses (60 XP each)\n; **Enemy Troops** hell hound pack (30 XP), Hellknight cavalry brigade (30 XP), vordine legion (60 XP)",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Skirmish Units",
+        "Quick Skirmish Groups"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3474"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "other",
+      "quick-skirmish-groups",
+      "remaster",
+      "rule",
+      "skirmish-units"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 169,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3474"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C634A251-9D1E-58B2-A8B3-5E363DAAC24A",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Quick Skirmish Groups",
+    "slug": "quick-skirmish-groups-rules-3470",
+    "type": "other",
+    "descr": "If you want to have a skirmish encounter that’s ready to go, here are some skirmish encounters pre-built for certain levels. They include one troop per PC for a four-person party, but you can remove troops or add duplicate troops to each side to adjust. Creatures come from the [troop](/trait/troop) trait.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Skirmish Units"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3470"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "other",
+      "remaster",
+      "rule",
+      "skirmish-units"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 169,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3470"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0890B969-65FE-561C-B02F-6173591658BB",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Return of the Leader",
+    "slug": "return-of-the-leader-rules-3451",
+    "type": "other",
+    "descr": "If a leader is knocked out and then revived, they regain leadership of their troop. This includes all benefits they set up when they took leadership of the troop. If someone else has established command in the time between the leader being knocked out and coming back, they can voluntarily cede leadership to the original leader. If the original leader is revived but no longer within the troop’s space, they must enter the troop’s space before regaining leadership. If the original leader doesn’t wish to regain leadership of the troop when they’re revived despite being revived within the troop’s space, they’re moved to a space of their choosing adjacent to the troop.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Skirmish Units",
+        "Troops in Skirmishes"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3451"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "other",
+      "remaster",
+      "rule",
+      "skirmish-units",
+      "troops-in-skirmishes"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 161,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3451"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "BD187E6F-C02E-5B7B-ADB1-2AB810590772",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Roleplaying Followers",
+    "slug": "roleplaying-followers-rules-3424",
+    "type": "other",
+    "descr": "When your character gains a follower, work with your GM to decide who will roleplay the follower. It could be you, the GM, or even another player at the table. It could also be one of the players most of the time, with the GM taking over when they want the follower to convey information that the players haven’t yet discovered.\n\nWhen creating a follower, just as when creating a PC, it’s valuable to consider what their history is and how they have come to join the group. In a follower’s case, why they have chosen to accompany you is particularly important, as this reason helps define the nature of their relationship with you and the rest of the party. Consider working with your GM to establish what your follower’s short-, medium-, and long-term goals are, and how they like to spend their downtime. All these factors help determine what the follower does when they aren’t taking direct orders from you and can serve as seeds for the GM to use the follower to introduce new information or exciting adventure hooks to the party.\n\nIn general, followers respect you and get along decently with the rest of the PCs, but they may develop friendships or rivalries with other PCs based on events during the campaign. Followers have their own opinions and express them, but they should generally not take the spotlight from the PCs. This means that followers typically don’t take the lead in social encounters or participate heavily in decision-making.\n\nThough followers are committed to working with the PCs and will never betray them under ordinary circumstances, they are people with their own agency. A follower who is dissatisfied with their circumstances due to poor working conditions or mistreatment might eventually leave to find other employment. If a player repeatedly loses followers in this way, the GM should consider working with that player to retrain out of the [captain](/archetype/captain-battlecry) archetype.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Followers"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3424"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "followers",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 77,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3424"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0350F084-2906-5EF5-857F-F6CB7EB7C495",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Routing Troops",
+    "slug": "routing-troops-rules-3446",
+    "type": "other",
+    "descr": "A troop is held together by strong leadership and confidence in their battle skill. A troop must attempt a rout check each time something happens that could massively damage their morale. This happens in two situations:\n\n- The troop is reduced from one HP threshold to another.\n- The troop has a leader, and that leader is knocked unconscious.\nIf both happen at the same time, the troop rolls only one rout check. To attempt its rout check, the troop rolls a Will save against the standard DC for the level of the enemy that damaged it. This is an [emotion](/trait/emotion), [fear](/trait/fear), and [mental](/trait/mental) effect.\n**Critical Success** The troop is unaffected.\n**Success** The troop is [frightened](/condition/frightened-player-core) 1.\n**Failure** The troop is frightened 2.\n**Critical Failure** The members of the troop break formation and run away, removing the troop from the battle.\n\nThe result of a rout check applies only to the troop, not its leader. If the troop is led by a PC or NPC, the degree of success increases by one step, as noted in [Boosted Morale](/rule/boosted-morale-rules-3444).\n\n## Unroutable Troops\n\nBecause of the traits on a rout check, some troops are entirely immune to them, in particular [mindless](/trait/mindless) hordes like zombies or clockwork constructs. NPCs often use these kinds of troops due to this advantage, but PCs might also be able to raise skeleton infantry or build a similar fearless army.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Skirmish Units",
+        "Troops in Skirmishes"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3446"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "other",
+      "remaster",
+      "rule",
+      "skirmish-units",
+      "troops-in-skirmishes"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 160,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3446"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8CFE9E9C-6B4C-5AF4-A8EA-16B0E63EAB09",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Seize",
+    "slug": "seize-rules-3457",
+    "type": "combat",
+    "descr": "The PCs must claim a specific place or target. This is similar to an eliminate objective but has the aim of capturing rather than destroying. The most important factor for structuring this type of encounter is figuring out whether the PCs just need to seize the objective (essentially moving from one place to another) or also return it (moving from one place to another and then back again, or to a third location instead). In the first category, they’ll face all their opposition in one series before seizing the objective. In the second, it’s often best to stage part of the opposition far enough away from the objective that there might then be a second stage to the fight after the PCs seize it—otherwise, you can position some of the opposition directly on the objective so that they can try to keep the PCs from leaving with it. Examples of seize objectives are:\n\n- Enemy archers have an excellent position occupying high ground. There’s a narrow approach to this high ground, and the PCs must defeat the archers to claim the position for themselves, then signal their allies.\n- The army the PCs are aligned with is slowly starving, as their supplies have been cut off. The PCs must seize a wagon of food and escort it back to camp.\n- A team of allied spies with important information has been captured. The PCs must reach the prison where they’re being held, free them from their cells, and help them escape.",
+    "data": {
+      "type": "combat",
+      "breadcrumbs": [
+        "Skirmish Units",
+        "Building Skirmish Encounters",
+        "1. Set Objectives"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3457"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "1-set-objectives",
+      "battlecry",
+      "building-skirmish-encounters",
+      "combat",
+      "remaster",
+      "rule",
+      "skirmish-units"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 164,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3457"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1746FC2D-1D52-576A-BE16-D5E62DF55F84",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Shared Space",
+    "slug": "shared-space-rules-3441",
+    "type": "combat",
+    "descr": "A troop’s leader occupies every square of their troop’s space for the purpose of making attacks, determining range, and the like. A leader can attack a creature on one side of their troop, then attack on the far end. (Remember that a troop is only as tall as its component creatures, so determine vertical reach accordingly!) The leader has to choose which space they’re in each time they use an ability. For example, if a Medium leader uses an ability with a 5-foot emanation, they then need to choose one square to be in for that use of the ability.\n\nA creature who makes use of an effect that can target only a single creature, such as a weapon Strike, chooses whether to attack the leader or the troop when they make the attack. The leader is in the reach, range, or area of the effect if any square of the troop is within an appropriate reach, range, or area.\n\n**[Cover](/rule/cover-rules-2372):** A leader and troop use their full space for determining cover. Therefore, they don’t grant each other cover, nor do they block each other’s attacks when determining an enemy’s cover.\n\n[**Flanking**](/rule/flanking-rules-2375): Regardless of their positioning, a leader and their troop can’t flank with each other. However, if two allied troops are flanking an enemy (or a segment of an enemy troop), their leaders can benefit from this flanking.\n\n**[Minions](/trait/minion):** If the leader has a minion, such as an animal companion or summoned creature, that minion typically occupies the troop’s space the same way the leader does. This can be dangerous for a weaker companion like a familiar, but the Troop Mascot skirmish bond can help.\n\n**Mounts:** Sharing space with a mount or a troop works in a similar fashion, and you can ride a mount while sharing space with a troop. The mount’s movement is combined just like yours is, and it counts as being in any square of the troop’s space just like you do. You can use your mounted reach when attacking. You take the penalty to Reflex saves while mounted as normal, but you don’t gain lesser cover from your mount; this alteration falls under the cover rules for sharing space with a troop.",
+    "data": {
+      "type": "combat",
+      "breadcrumbs": [
+        "Skirmish Units",
+        "Shared Space and Movement"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3441"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "combat",
+      "remaster",
+      "rule",
+      "shared-space-and-movement",
+      "skirmish-units"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 159,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3441"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B08AB7A4-D16E-50E0-BFBC-A2BF28BACDC2",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Shared Space and Movement",
+    "slug": "shared-space-and-movement-rules-3440",
+    "type": "combat",
+    "descr": "A leader and their troop combine into one unit as they battle together. Movement and space are abstracted a bit more than in a typical combat encounter to make the battle flow more smoothly.",
+    "data": {
+      "type": "combat",
+      "breadcrumbs": [
+        "Skirmish Units"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3440"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "combat",
+      "remaster",
+      "rule",
+      "skirmish-units"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 159,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3440"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "7512A2DE-AADD-5F38-AD1D-5FD31C89B9B6",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Skirmish Bonds",
+    "slug": "skirmish-bonds-rules-3452",
+    "type": "other",
+    "descr": "If you bond more deeply with a troop, you can choose one special action or ongoing benefit. This comes from training with your troop during a day of downtime. You can change your selection with another day of downtime, but you can't have more than one special bond for your troop at a time. Skirmish bonds are between one leader and one troop. A leader can't normally transfer these tactics or bonds to a different troop. As noted above, if a leader has formed a skirmish bond with a troop once, that bond takes effect if they lead the troop again—they don't need to spend another day of downtime.\n\n**Offensive Abilities:** Many skirmish bonds refer to your troop's “offensive abilities.” This term refers to the activities troops have that represent the individual troops attacking together, such as the goblin rabble's Dogpile ability. Most of them thematically correspond to melee attacks and take a variable number of actions to use, dealing more damage if the troop has more actions to spend on them.\n\nClick here to see the list of Skirmish Bonds\n\n## Creating New Bonds\n\nSince the skirmish bonds can't cover every class and ability combination in the game, you might want to create your own skirmish bonds sometimes. For example, if you have a fire [kineticist](/class/kineticist-rage-of-elements) in your game, you might let them combine fire impulses with troop abilities that use the [fire](/trait/fire) trait, following the structure of the Coordinated Casting skirmish bond.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3452"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 161,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3452"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2F7BEE09-997D-5384-86A3-7B532F494B4A",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Skirmish Overview",
+    "slug": "skirmish-overview-rules-3478",
+    "type": "other",
+    "descr": "Skirmish encounters place the PCs as leaders of squads represented by troop stat blocks. Typically, each PC leads one troop of their own, and their side clashes with enemy troops, often led by NPCs or monstrous leaders. The PC is placed within the troop and moves along with it, similar to mounted combat.\n\nA troop led by a PC acts on that PC’s turn. The PC and troop get a total of [5 actions](/rule/five-actions-rules-3443) divided into one set of 2 actions and one set of 3 actions. The PC gets to choose whether they or their troop takes more actions. As troops get reduced in size (typically by losing HP), they become more likely to disperse and retreat—to be routed and chased from the battlefield. The PCs win a skirmish if they successfully complete their objectives, which could range from capturing specific locations to keeping enemies from passing through an area, or even to routing enough foes to make the enemy forces retreat.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3478"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 158,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3478"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "7F3F3B76-B306-54DC-91BE-C17CDC43DBBF",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Skirmish Units",
+    "slug": "skirmish-units-rules-3439",
+    "type": "other",
+    "descr": "A troop and a leader have some significant rules adjustments that enable them to work together efficiently as a unit. Skirmish warfare largely has creatures taking the same actions they can in normal encounters, but their actions, positioning, movement, and morale are all modified.\n\n## Choosing a Troop\n\nWhen a player is choosing a troop for their character to lead in battle, usually their best options are to choose a troop that shores up one of their shortcomings (such as a wizard choosing a defense-focused troop) or one that can work in tandem with them (such as a rogue picking a stealthy troop). Usually, the GM should pick a limited number of troops for the players to choose from. If two characters want to lead the same troop, they can determine who gets first pick in character by drawing lots, playing a game of chance, or the like.\n\n## The Purpose of this Subsystem\n\nThis system is designed to enable squad-scale combat where the individual PCs’ character options are still central to play. The intended purpose is to let your group play out battles that incorporate the PCs and troop creatures in a method that is somewhat different from a standard encounter but still fundamentally uses the normal combat rules with some adjustments made for special actions and the number of combatants in the fight. The reason for this is simple: players who show up to play Pathfinder get to play Pathfinder with some tweaks rather than a totally different game. They still get to use the tools they chose for their character.\n\nThese rules aren’t intended to simulate a traditional war game or full-sized army battle. Such a conflict might be better abstracted via a [Victory Point challenge](/rule/onward-to-victory-points-rules-3437). You can also use the results of a traditional war game and the battles you play out using that system to track progress in the war in your campaign.\n\n## When to use a Skirmish Encounter\n\nSince they include player characters, multiple troops, and possibly enemy leaders, skirmish encounters take longer and involve an additional layer of complexity. This makes them well suited for occasional special sessions. Avoid giving the PCs access to their troops on a regular basis, and carefully think out the structure of your skirmish encounters. It’s especially important to set [clear objectives](/rule/1-set-objectives-rules-3454) to avoid the battle bogging down and feeling overlong.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3439"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 159,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3439"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "856474BA-EA1C-558E-AE7E-576D06869009",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Special Considerations",
+    "slug": "special-considerations-rules-3466",
+    "type": "combat",
+    "descr": "The advice in this section addresses certain issues that might arise when planning or running skirmish warfare.",
+    "data": {
+      "type": "combat",
+      "breadcrumbs": [
+        "Skirmish Units",
+        "Building Skirmish Encounters"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3466"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "building-skirmish-encounters",
+      "combat",
+      "remaster",
+      "rule",
+      "skirmish-units"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 166,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3466"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D8385EC9-552A-5DA0-890F-405C92980ADF",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Taking the Lead",
+    "slug": "taking-the-lead-rules-3479",
+    "type": "other",
+    "descr": "Before a skirmish battle, each PC can become the leader of one troop of their choice. Usually, the GM provides a selection of troops for the PCs to choose from—these could be a variety of forces or very similar ones. The PC remains the leader of that unit until circumstances change. They lead the unit in battle whenever a skirmish begins, immediately moving into the troop’s space if they aren’t already in it (such as in the case of an ambush or other similar situation). In extreme circumstances, the troop might have to operate without a [leader](/rule/losing-a-leader-rules-3448).\n\nEstablishing leadership takes 10 minutes of instructing the troop. Each leader approaches this in their own way, relaying signals, procedures, or other battle plans to their troop. Generally speaking, an individual can lead only one troop at a time, though a GM might allow PCs to control more than one depending on the scale of the conflict without giving additional troops the full leadership benefits.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3479"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 158,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3479"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E4A846B6-B670-5555-A6D6-3D8426BADD13",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Terrain and Hazards",
+    "slug": "terrain-and-hazards-rules-3459",
+    "type": "combat",
+    "descr": "[Difficult terrain](/rule/difficult-terrain-rules-2586), [hazardous terrain](/rule/hazardous-terrain-rules-2587), and mechanical or magical [hazards](/rule/hazards-rules-2846) can add more considerations to the battle. This isn’t always a good thing! Skirmish encounters are already complex, with players and the GM already needing to run troops in addition to their normal characters. If you incorporate these features, look for ones that either add to creativity or that grant certain combat participants advantages. For instance, if one of the PCs has a flying troop, you might place some terrain that makes them the best troop to go take out a ranged enemy troop. Alternatively, you might put a fortification of spikes or flaming coals down along the most direct path to the enemy but provide a slightly longer side path, so the PCs need to decide whether to rush through and take damage or get fewer attacks in by taking the long way. Either way, use special terrain and hazards sparingly!",
+    "data": {
+      "type": "combat",
+      "breadcrumbs": [
+        "Skirmish Units",
+        "Building Skirmish Encounters",
+        "2. Pick the Battlefield"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3459"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "2-pick-the-battlefield",
+      "battlecry",
+      "building-skirmish-encounters",
+      "combat",
+      "remaster",
+      "rule",
+      "skirmish-units"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 165,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3459"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F5C05DCC-59F5-5568-A936-1694C210823A",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Troop Variety",
+    "slug": "troop-variety-rules-3463",
+    "type": "combat",
+    "descr": "A skirmish encounter is large enough that some variety between troops is essential for keeping the encounter interesting. Try to include mostly melee-focused troops with a few ranged or spellcasting ones. You can include multiples of the same troop, and often should, just like how you might use multiples of the same individual monster. This lets the players learn how best to battle those specific enemies.",
+    "data": {
+      "type": "combat",
+      "breadcrumbs": [
+        "Skirmish Units",
+        "Building Skirmish Encounters",
+        "4. Add the Right Enemies"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3463"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "4-add-the-right-enemies",
+      "battlecry",
+      "building-skirmish-encounters",
+      "combat",
+      "remaster",
+      "rule",
+      "skirmish-units"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 165,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3463"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "DD982179-038B-51E5-AC8A-CE2098B68C90",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Troops in Skirmishes",
+    "slug": "troops-in-skirmishes-rules-3445",
+    "type": "other",
+    "descr": "Skirmish encounters rely heavily on the special creature type called troops. You can find troop stat blocks [here.](/trait/troop) In skirmish encounters, a troop can be routed, making it flee from the battlefield. This applies to any troop in the encounter, even if it doesn’t have a leader. This section also includes rules for a troop that has a leader but loses them during the battle.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Skirmish Units"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3445"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "other",
+      "remaster",
+      "rule",
+      "skirmish-units"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 160,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3445"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1F8EDEA5-AA4A-52CE-92AC-EFB6354B8EC8",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Undead Soldiers (Level 4)",
+    "slug": "undead-soldiers-level-4-rules-3471",
+    "type": "other",
+    "descr": "**Threat** Low (60 XP)\n**PC Troops** apprentice magician clique (60 XP), 2 goblin rabbles (40 XP each), orc raiding party (60 XP)\n**Enemy Commanders** 2 wights (30 XP each)\n; **Enemy Troops** skeleton mob (80 XP), 3 shambler troops (40 XP each)",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Skirmish Units",
+        "Quick Skirmish Groups"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3471"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "other",
+      "quick-skirmish-groups",
+      "remaster",
+      "rule",
+      "skirmish-units"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 169,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3471"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "24F6B2CC-C237-5B4D-A748-31826012FEF7",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "War as a Backdrop",
+    "slug": "war-as-a-backdrop-rules-3429",
+    "type": "other",
+    "descr": "Sometimes, the protagonists don’t interact with the war directly in the story. Perhaps the war ended recently. The armistice was announced, the treaty was signed, and the armies returned home. The war remains a scar on society, the elephant in every room, but at least it’s over. Or perhaps the war is still raging, but it’s over there and the player characters are far from the battlefield. They’re on the home front, or even in a different country altogether, separate from all the fighting and violence.\n\nThis sort of war can still have an impact on the campaign, even if the player characters never see a battlefield. A war in the background can inspire character backstories and motivations, provide tone and atmosphere, and even define the core plot line for a campaign.\n\n**Characters:** To begin with, a war provides an excellent excuse to have many characters running about who are skilled in the arts of violence. The specifics will differ, but a large war means a lot of people will have served in arms. Antagonists will have a steady supply of capable minions, and any unassuming character (like the PCs) might possess deadly skills.\n\nWar can also serve for character motivation and drama. The trope of a character haunted by their actions during a war, by violence done and friends lost, is an ancient and powerful one. Some people might return from war swearing that it must never happen again, while others become determined not to render their comrades’ sacrifices in vain. Vivid memories, sometimes seeming more real than the present, can haunt or inspire. And a few people will find that they thrive in war, whether from a love for violence or a fierce commitment to their cause.\n\n**Tone:** In some stories, the war is ongoing but not shown directly. In those campaigns, the atmosphere is going to be one of tension. People will be afraid, angry, or grimly determined. Hatred of the enemy will be commonplace and tacitly or openly encouraged by the powers that be, possibly with grim consequences for citizens sharing a now-suspect origin. Fear will be equally widespread—fear for the country, but also fear for friends and family on the front lines. There will be dramatic displays of patriotism and conviction to hide the tense undercurrent.\n\nIn campaigns where the war has ended, the story takes on a more elegiac tone. The war is over, and victorious or defeated, there was suffering and loss. The dead are mourned. Farms lay fallow, businesses closed, and relationships were shattered. The living remain, but many are wounded in body or in spirit. If victorious, at least the winners can cling to what victory bought them—sometimes this is enough, for a noble cause. But the defeated can be bitter indeed, willing to believe anything to save their pride.\n\n**Plot:** War is important for narrative. In a big war, governments will do anything to win, and that anything is just the kind of situation that calls for player characters. A government might invest in some secret project—a radical new technology, some long forgotten magic, or perhaps recruiting a dangerous and uncertain ally. “Old military project” is a common horror story origin for good reason. The need to win, the need to justify the loss of friends and comrades, can justify all kinds of very bad ideas.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Genres of War"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3429"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "genres-of-war",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 197,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3429"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8863150C-BFD8-5CE0-85B4-6FC5FF50EE5B",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "War on the Horizon",
+    "slug": "war-on-the-horizon-rules-3430",
+    "type": "other",
+    "descr": "Things are a little different when the war has not yet begun. War, in this case, acts as a more realistic version of the apocalyptic disaster that often faces heroes who fail to stop the villains—the world might not end, but a great many will die all the same. To simplify a library’s worth of political theory, this kind of campaign can deal with two sorts of wars, the accidental and the intentional.\n\n**Accidental:** No war is strictly accidental, but the war the protagonists are facing in this kind of story isn’t anyone’s actual goal. Rather, it’s the result of dozens of interlocking rivalries, alliances, petty hatreds, past decisions, and geopolitical realities. The people involved might be doomed patriots doing their best, or they might be short-sighted blunderers unable to grasp the consequences of their actions, depending on how idealistic one is feeling, and rarely is one side any nobler than any other.\n\nTypically, the protagonists in this kind of story stumble across some kind of conspiracy or scheme that, if successful, would trigger the war. In some cases, the villains might intend to bring about a cataclysmic war, but just as plausible is that the antagonists are too stubborn to see the consequences of their own actions. Thus, it’s up to the heroes to unravel the plot, with a climax in which they hurry to avert the attack or incident that will be everyone’s doom.\n\n**Intentional:** When an intentional war is on the horizon, this usually means that one nation is gearing up for a big war, whether anyone likes it or not. Usually, the warmongers are a deeply unsympathetic, odious crew, with a whiff of fascism or imperialism about them. The other countries might be benevolent little kingdoms or might have their own issues, but they usually are at least a few shades of gray lighter than the villains.\n\nTypically, this kind of war can’t be entirely averted, but the heroes are nevertheless in a position to change the calculus. Perhaps they need to secure some secret weapon, steal it from a wizard’s lab, or recover it from an ancient ruin all while fighting with agents of the hostile power. Alternatively, they need to travel to a distant land and brave a decadent court to secure a vital treaty while the enemy’s ambassador schemes and plots. Perhaps it’s just time to gear up and kill a tyrant.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Genres of War"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3430"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "genres-of-war",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 197,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3430"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "FC7C1C10-62E5-5ADA-80AC-01D65FC40B21",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "What Do the Heroes Do?",
+    "slug": "what-do-the-heroes-do-rules-3436",
+    "type": "other",
+    "descr": "All this theory is well and good, but what does it look like in practice? Below are lists of possible situations that player characters might find themselves in, subdivided by the protagonists’ place in the war. They’re numbered so you can roll them for inspiration, but remember to always give yourself time to adapt it to the situation and tone.\n\nAlthough the tables are split, feel free to poach from other tables, with whatever adjustment seems appropriate. If the tactical-level problem is that the heroes are lost, then the operational-level problem is that some of the protagonists’ soldiers have gotten themselves lost. On the other hand, tactical heroes wouldn’t be asked to solve a strategic problem, hearing about it in rumors that underline the changing tides of war.\n\nSimilarly, the protagonists aren’t the only ones who run into difficulties. What on one side is a daring raid can be the other side’s cat and mouse game to hold off stealthy attackers.\n\n## Strategic\n\n| **d10** | **Situation** |\n| --- | --- |\n| 1 | The enemy has begun to tame new beasts of war, whether flying or simply more dangerous animals. |\n| 2 | You have news that your army is about to be pinched between two individually smaller forces. Can you reach them with news and reinforcements quickly enough to break the encirclement? |\n| 3 | The river is an important natural boundary during this fight, but also the home of naiads and other aquatic fey. What can you offer to win their assistance? |\n| 4 | The latest skirmish was a feint by the enemy command! But where's the real attack going to come from? |\n| 5 | Stories are spreading of atrocities committed by your troops. Although they might be exaggerated for political effect, there's likely some kernel of truth. |\n| 6 | The enemy general seems prepared for your every move. Is it luck, spies in your ranks, or some form of divination you must counteract? |\n| 7 | If your spies are correct, an enemy dignitary is moving through the area incognito. This is an opportunity you won't get again. |\n| 8 | An enemy soldier is spoken of in whispers, claiming that they're invincible. Can you put the lie to their claim before the morale of your forces is chipped away further? |\n| 9 | An enemy soldier surrendered, claiming they wish to provide information. Even if their desire is genuine, can we be certain they were not deceived themselves? |\n| 10 | The fighting, or locals tired of being caught in the middle of it, has awakened something moldering in an ancient barrow. Its power is beyond anything the soldiers on either side can handle. |\n\n \r\n\n## Operational\n\n| **d10** | **Situation** |\n| --- | --- |\n| 1 | Your mounts are deeply unhappy about something. You don't know why, and you don't have time to deal with this right now, but you might not have a choice. |\n| 2 | Defending against raids is bad enough. Defending against raiders on hippogriffs, wyverns, or other flying creatures? Far worse |\n| 3 | Turns out there's an old smuggler's tunnel near the front lines. The possibilities for sabotage are limitless, though there's the question of why the tunnel was abandoned in the first place. |\n| 4 | The prisoner transfer could be a trap. Everyone expects it to be a trap. But it might provide your only opportunity to get your people back. |\n| 5 | An old soothsayer claims that to fight tomorrow is to invite tragedy. Even if they have no special insight, their words are shaking the soldiers’ morale. |\n| 6 | Soldiers keep disappearing in the night, but it's up to you to determine if they're deserters or being dragged off. |\n| 7 | You have these lovingly prepared false documents to lead the enemy raiders into an ambush. Now how do you get it to them without them suspecting anything? |\n| 8 | You don’t know what was in the water, but half the army is out of the fight. Someone needs to fool or stall the enemy until your troops are back in fighting shape. |\n| 9 | The new engineer that the general hired knows his stuff, but the list of components he needs is positively morbid. What kind of siege engine needs corpse hair? |\n| 10 | The wizards can turn the tide of battle, provided your forces can hold this place of power until the ritual is complete. |\n\n \r\n\n## Tactical\n\n| **d10** | **Situation** |\n| --- | --- |\n| 1 | Speed is of the essence when sneaking through enemy lines. You have minutes or even less to bypass the guards before there’s an unpleasant reckoning. |\n| 2 | It's a good plan. One unit keeps the guards busy, the other nips around and hits the supply depot. Hammer and anvil. Only problem is, you're the anvil. |\n| 3 | Enemies have taken a strategic location, like a high point or the ford in a river. You don't have any orders, but waiting for them will give the enemy time to dig in. |\n| 4 | Your maps can’t change quickly enough to reflect the tides of war or they’d tell you that where you’ve been traveling is now behind enemy lines. |\n| 5 | Everything is on fire and it's not your fault this time. It's literally raining fire down upon you. You need to find out how the enemy is doing this and stop them, fast. |\n| 6 | Whether because of a spy in your ranks or sheer bad luck, your group is at the forefront of an ambush. |\n| 7 | Most raiders can be stymied by a stout palisade. The spirits lurking in the dark beyond your campfires, unfortunately, are not most raiders. |\n| 8 | The general has commanded you to hold the line, but the unit closest to yours has already broken. |\n| 9 | The first ones over the fortification’s wall stand to win great glory and even wealth. |\n| 10 | The general has a cunning plan. It actually seems more likely to lead you into the jaws of death, but you’re asked to make it seem cunning or die trying. |",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "How to Have a War"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3436"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "how-to-have-a-war",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 201,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3436"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "7BC3FF71-3876-58B5-A08C-44143F03F5B7",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "What Kind of War?",
+    "slug": "what-kind-of-war-rules-3434",
+    "type": "other",
+    "descr": "When making a war campaign, it helps to have a fairly good idea of how the war is going to operate—wars may appear to be chaotic and wild, but they usually have their own internal logic. The simplest way of doing this is to take an existing historical war and translate it to Golarion. Replace technology for magic, swap around some names, and call it good. This has the advantage of providing a wealth of existing material and inspiration, though it can occasionally leave some logical hiccups during the translation process. Additionally, when translating a historic war to Golarion, be aware that your players could have personal or historical ties to these wars. You should consult players before using this method.\n\nAlternatively, one can build a war from the ground up. Preindustrial wars generally fell into one of two very broad categories, depending on the goals and abilities of the participants.\n\n**Raiding warfare** is warfare about chasing people away. In this kind of warfare, relatively small groups of combatants make their approach by way of stealth and speed, aiming at some kind of lightly defended target (a supply depot, a herd of cattle, an unsuspecting village, and so on). They strike quickly, inflicting harm on the enemy, perhaps steal some resources or supplies, and then retreat before a serious defense can be mounted. In the long run, the goal is to make it too difficult or dangerous for the enemy to stay in an area so they leave you be.\n\nWhen all goes well, few raiders die, though if the attackers are discovered, an ambush can wipe out an entire raid. It also doesn’t need a lot of expensive or difficult-to-acquire weaponry or siege equipment. This style of warfare is thus commonly practiced by insurgents, guerrillas, or terrorists, but also by groups of bandits or raiders, and by various nomadic, pastoralist peoples.\n\nGolarion, of course, is a fantasy setting, and so one can imagine some innovations on the venerable raiding formula. For one, raids might come from odd or unexpected angles. Perhaps the raiders come bubbling up from [the Darklands](/rule/the-darklands-rules-2993), or step over from another plane, or arrive on the backs of hippogriffs before flying away. Discovering how a raid is done can make for an entertaining mystery for the heroes.\n\nMagic and native supernatural abilities can give raiders the kind of resources one usually needs a fully equipped national army for—imagine, say, the offensive abilities of a raid of giants. Raiding involves relatively small numbers, so one high-level character or monster can take on immense military significance, personalizing what is otherwise an impersonal genre of storytelling.\n\n**Siege warfare** is about taking and holding key locations. These are usually military, administrative, and supply centers, though in Golarion this could also be places of mystical significance. Such places are defended by walls and citadels and large numbers of soldiers that make raids impossible, and so the way to overcome it is to bring enough soldiers, usually escorting some manner of lumbering [siege](/rule/siege-weapons-rules-1622) equipment, to the enemy citadel. The enemy, in turn, will either wait in their fortress, or if they think they can win, will march their own army out to meet you in open battle before anyone reaches the fortress (and in so doing minimize the damage you deal to their territory).\n\nThis kind of warfare is expensive and can involve tens of thousands of soldiers, many of whom will inevitably die. A typical preindustrial army will usually be about twenty to thirty thousand soldiers, with big ones going as high as sixty thousand, though these are very rough numbers. As a result, this kind of warfare is almost entirely the realm of organized states, countries with generals and uniforms and so forth.\n\nEven then, siege-based wars rarely last long. Unlike raid-based warfare, which can last for decades of low intensity fighting, maintaining big armies in the field is just too expensive for anyone to do indefinitely. Thus, most wars like this last only a couple of years, ending either in victory for one side or in mutual exhaustion, in which case everyone takes a decade or so to rebuild their strength to try again.\n\nFantastic siege-based warfare will usually incorporate magic in a significant fashion. One way to do so is to replace the expensive and unwieldy siege equipment with an archmage or a cadre of sorcerers who will knock down the castle walls, usually with some dramatic ritual that is opposed by the defenders’ own wizards. The entire army, thus, is tasked with defending the ritualists and occupying the territory if they’re successful.\n\nAnother trope that comes up often in these kinds of stories is that of the keystone army—that is to say, a supernatural army, often undead, that’s held together by the magic of a single sorcerous power. Remove that key figure, kill the evil lich or banish the demon, and the army disintegrates. In terms of storytelling, this can have the advantage of personalizing the conflict further, and shifting the narrative to a place where the player characters can influence the course of the war. Now, they need not defeat tens of thousands of soldiers. They just need to kill one wizard, if a powerful one. That said, this shift can come with the loss of some more traditional military storytelling, so one should be cautious about using it.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "How to Have a War"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3434"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "how-to-have-a-war",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 199,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3434"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E57185BD-1EC4-5FA3-B084-59481BC444B9",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Where Are the Heroes?",
+    "slug": "where-are-the-heroes-rules-3435",
+    "type": "other",
+    "descr": "Having decided what kind of war you want, the next important step is figuring out what exactly the protagonists are doing and where they fit into the military hierarchy. Military theorists sometimes divide war into three layers: strategy, operations, and tactics.\n\nAll three levels of military practice are important, and it’s fairly common for success at one level to be undone by failure somewhere else. A brilliant victory in battle is meaningless if the underlying strategy is flawed or misguided, and a genius operation can still be undone if the troops lose the actual fight. Even if the heroes do their part flawlessly, things can still unravel due to others’ actions. Whether this will happen, and how often, is important for setting the tone and something to make clear to the players early on.\n\n**Strategy:** This is the upper level, where kings and generals decide whether to have a war in the first place, what they hope to gain, how, and what resources they can allocate to the job. For instance, suppose Her Infernal Majestrix, Queen Abrogail Thrune II, determines to reconquer Ravounel. In consultation with her advisors, she decides on a campaign of coastal raids followed by two armies entering the country from different angles before converging on Kintargo, and she decides that she can spare three legions and a detachment of the Chelaxian navy for the task.\n\nAlthough it’s unlikely for a low-level party to have strategic input into a large war, inherited positions or special means of influence make it possible. For smaller countries, a group of player characters could easily form its rulers and most powerful weapon. Even without formal rank, the strategic input of more powerful characters may become necessary as their group’s power approaches that of a general’s army.\n\n**Operations:** This is the middle level and is about getting your army to the target specified by your strategy, preferably without running out of food or ammunition, getting lost, or getting ambushed along the way. Operations is the unglamorous but necessary work that takes up most of military leadership’s time, and it requires making a hundred decisions that shape the actual battlefield—forge ahead and risk arriving at the battle exhausted, or take a slower pace and give the enemy time to prepare? Take a shortcut through the fey-haunted swamps, or try to secure boats from the potentially hostile locals? Camp on the site of the ancient massacre, or risk attack by marching through the night? Operations are intimately concerned with questions of time and distance, balancing the conditions of their troops against the map and the timetable.\n\nIf the player characters are given command, then this is where they will generally find themselves. They have some forces at their disposal and play as officers, either as colleagues or allowing players interested in the details of managing operations to do so while others play to their own strengths. Their job is then to navigate a series of decisions and encounters to try and secure their objectives as efficiently as possible. Successful protagonists will take full advantage of their abilities, both mundane and supernatural, to assist their forces.\n\n**Tactics:** The final level is about actually winning the battle. In Pathfinder, this is going to usually be the province of regular combat or the variants in this book. If the player characters exist mostly at the tactical level, then by virtue of having access to player character abilities (such as magic, animal companions, and so forth), they are probably the equivalent of commandos or special forces. They could be a designated military unit (likely called scouts or similar) or might simply be their commanding officer’s favorite troubleshooters. In either case, the campaign takes the form of a series of interconnected vignettes, where each session the heroes are given a new mission to accomplish—an advance must be scouted, a bridge sabotaged, a spy captured, a war crime investigated.\n\nOften, as the heroes accomplish task after task, they’re rewarded with commendations, medals, and promotions, and might find themselves sliding into ever more complex missions until they’re given command of their own forces. This model has the advantage of letting the earlier, vignette-style campaign act as an extended tutorial for independent command, introducing the players gradually to the setting, the story, and the challenges of military operations.\n\nGenerally speaking, player characters won’t be regular grunts, or at least not for very long. Past the first couple of levels, most protagonists have too many abilities for it to make sense to use them as cannon fodder—though an initial adventure or two as foot soldiers until they’re noticed by high command can do a lot to set the tone of a campaign.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "How to Have a War"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3435"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "how-to-have-a-war",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 200,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3435"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A01ADBB0-F664-57A3-AC62-4F180DC278F7",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Whetstones",
+    "slug": "whetstones-rules-3420",
+    "type": "other",
+    "descr": "Whetstones are magically enhanced items designed to increase a weapon’s effectiveness, sometimes taking the form of literal stones, but often instead constructed of materials with a metaphorical link to the whetstone’s effect. They’re similar to [talismans](/rule/talismans-rules-3203), though unlike talismans, they don’t need to be Affixed ahead of time. Whetstones have the [whetstone](/trait/whetstone) trait.\n\nWhile you need only one hand to hold a whetstone, you must be holding the weapon to which you’re applying the whetstone in another hand. Applying a whetstone to that weapon takes a single action, typically involving dragging or rubbing the whetstone across the weapon’s edge or striking surface, after which the whetstone crumbles to dust as its magic is expended. If the weapon is a two-handed weapon, you will need to spend an action to regrip the weapon after applying the whetstone. Once applied, a whetstone’s effect lasts for 1 minute unless otherwise noted. A weapon can be under the effect of only one whetstone at a time.\n\nMany whetstones alter a weapon’s physical properties, while others imbue it with magical effects or enhance a wielder’s skill with the weapon. Some whetstones even call fragments of spiritual energy from bygone warriors into a weapon; while this doesn’t affect the departed soul, it grants the wielder a portion of their knowledge and talents.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3420"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 134,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3420"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D3E15D5C-B2BB-53CA-AC57-C9C0FD9CE08B",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Wild Cards",
+    "slug": "wild-cards-rules-3465",
+    "type": "combat",
+    "descr": "Despite all the focus on [troops](/trait/troop) versus troops, non-troop monsters still work in skirmish encounters, so you might throw in a manticore, dragon, or other creature for more variety. They can add surprise tactics and shake up the expected style of the encounter, and they don’t have the same weaknesses to troops’ offensive abilities that other troops do. Creatures that can [Fly](/action/fly-player-core), [Burrow](/action/burrow-player-core), or use other movement modes are especially useful. Individual humanoids, especially Medium or smaller creatures, are usually a poor addition to the encounter unless they’re leading a troop.",
+    "data": {
+      "type": "combat",
+      "breadcrumbs": [
+        "Skirmish Units",
+        "Building Skirmish Encounters",
+        "4. Add the Right Enemies"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3465"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "4-add-the-right-enemies",
+      "battlecry",
+      "building-skirmish-encounters",
+      "combat",
+      "remaster",
+      "rule",
+      "skirmish-units"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 166,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3465"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

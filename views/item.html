@@ -2,7 +2,7 @@
 {% block content %}
 <main id="item" class="container-fluid">
 
-  <section class="stat-block" data-theme="light">
+  <section class="stat-block">
     <div class="header">
       <h1 class="title">{{name}}</h1>
       <div>
@@ -15,9 +15,15 @@
       <a class="trait trait-rarity-{{data.rarity}}" href="/trait/{{data.rarity}}">{{data.rarity|map: 'Rarity'}}</a>
       {% endif %}
 
-      {% for trait in data.traits %}
-      <a class="trait" href="/trait/{{trait}}">{{trait}}</a>
-      {% endfor %}
+      {% if data.traitLinks %}
+        {% for trait in data.traitLinks %}
+        {% if trait.slug %}<a class="trait" href="/trait/{{trait.slug}}">{{trait.label}}</a>{% else %}<span class="trait">{{trait.label}}</span>{% endif %}
+        {% endfor %}
+      {% else %}
+        {% for trait in data.traits %}
+        <a class="trait" href="/trait/{{trait}}">{{trait}}</a>
+        {% endfor %}
+      {% endif %}
     </div>
 
     <div class="stat-section">
@@ -35,7 +41,7 @@
     <div class="stat-section">
       {% for activation in data.activations %}
       {% markdown -%}
-      {% include "item-activation.md" activation %}
+      {% include "item-activation.md" %}
       {% endmarkdown %}
       {% endfor %}
     </div>

@@ -1,0 +1,18 @@
+{
+  "sections": [
+    {
+      "type": "group",
+      "fields": [
+        {
+          "title": "Common.Name",
+          "attribute": "name"
+        },
+        {
+          "title": "Modifier",
+          "type": "number",
+          "attribute": "value"
+        }
+      ]
+    }
+  ]
+}

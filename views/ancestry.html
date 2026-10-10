@@ -7,42 +7,100 @@
   <base href="{{env.baseURL|default: '/'}}" />
   <title>{{name}}</title>
   <link href="styles/pico.min.css" rel="stylesheet" type="text/css">
-  <link href="styles/default.css" rel="stylesheet" type="text/css">
+  <link href="styles/default.css?v=1.701.8" rel="stylesheet" type="text/css">
 </head>
 
 <body>
   <main id="ancestry" class="container-fluid">
+    <section class="core-page">
+      <header class="core-page-header">
+        <h1>{{name}}</h1>
+        <div>{{'Entity.Ancestry'|l}}</div>
+      </header>
 
-    <div class="header-paper">
-      <h1 class="title">{{name}}</h1>
-      <div class="quote">
-        {{data.summary}}
+      {% if data.rarity or data.traits %}
+      <div class="traits">
+        {% if data.rarity and data.rarity != 'common' %}
+        <a class="trait trait-rarity-{{data.rarity}}" href="/trait/{{data.rarity}}">{{data.rarity|map: 'Rarity'}}</a>
+        {% endif %}
+        {% if data.traitLinks %}
+          {% for trait in data.traitLinks %}
+          {% if trait.slug %}<a class="trait" href="/trait/{{trait.slug}}">{{trait.label}}</a>{% else %}<span class="trait">{{trait.label}}</span>{% endif %}
+          {% endfor %}
+        {% else %}
+          {% for trait in data.traits %}
+          <a class="trait" href="/trait/{{trait}}">{{trait}}</a>
+          {% endfor %}
+        {% endif %}
       </div>
-    </div>
-    
-    {% if descr %}
-    {{descr|md}}
-    {% endif %}
+      {% endif %}
 
-    <div class="box">
-      {% markdown -%}
-      {% include "ancestry-primary.md" %}
-      {% endmarkdown %}
-    </div>
+      {% if data.summary %}
+      <div class="core-page-summary">{{data.summary|md}}</div>
+      {% else %}
+      {% if descr %}
+      <div class="core-page-summary">{{descr|md}}</div>
+      {% endif %}
+      {% endif %}
 
-    {% if notes %}
-    <h3>{{'Common.Notes'|l}}</h3>
-    {{notes|md}}
-    {% endif %}
+      <section class="core-facts" aria-label="Ancestry essentials">
+        {% if data.hp %}
+        <div class="core-fact"><strong>{{'Common.HitPoints'|l}}</strong><span>{{data.hp}}</span></div>
+        {% endif %}
+        {% if data.size %}
+        <div class="core-fact"><strong>{{'Common.Size'|l}}</strong><span>{{data.size|map: 'Size'}}</span></div>
+        {% endif %}
+        {% if data.movement %}
+        <div class="core-fact"><strong>{{'Common.Speed'|l}}</strong><span>{% include "movement.md" data.movement %}</span></div>
+        {% endif %}
+      </section>
 
-    {% if image %}
-    <a href="{{env.dataURL}}{{image}}" target="_blank"><img style="width: 100%" src="{{env.dataURL}}{{image}}" /></a>
-    {% endif %}
+      <div class="core-columns">
+        {% if data.attributeBoosts or data.attributeFlaws %}
+        <section class="core-section">
+          <h2>{{'Common.Attributes'|l}}</h2>
+          {% if data.attributeBoosts %}
+          <p><strong>{{'Ancestry.AttributeBoosts'|l}}</strong><br>{{data.attributeBoosts|map: "Attribute", ", "}}</p>
+          {% endif %}
+          {% if data.attributeFlaws %}
+          <p><strong>{{'Ancestry.AttributeFlaws'|l}}</strong><br>{{data.attributeFlaws|map: "Attribute", ", "}}</p>
+          {% endif %}
+        </section>
+        {% endif %}
 
-    <hr>
+        {% if data.languages %}
+        <section class="core-section">
+          <h2>{{'Common.Languages'|l}}</h2>
+          <p>{{data.languages|map: 'Language', ", "}}</p>
+        </section>
+        {% endif %}
+      </div>
+
+      {% if data.abilities %}
+      <section class="core-section core-features">
+        <h2>{{'Ancestry.SpecialAbilities'|l}}</h2>
+        {% for ability in data.abilities %}
+        <article class="core-feature">
+          <h3>{{ability.name}}</h3>
+          {{ability.text|md}}
+        </article>
+        {% endfor %}
+      </section>
+      {% endif %}
+
+      {% if notes %}
+      <section class="core-section">
+        <h2>{{'Common.Notes'|l}}</h2>
+        {{notes|md}}
+      </section>
+      {% endif %}
+
+      {% if image %}
+      <a href="{{env.dataURL}}{{image}}" target="_blank"><img style="width: 100%" src="{{env.dataURL}}{{image}}" /></a>
+      {% endif %}
+    </section>
 
     {% include "footer.html" %}
-
   </main>
 </body>
 

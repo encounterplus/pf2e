@@ -1,0 +1,283 @@
+[
+  {
+    "id": "D5C489B2-FCB6-5036-AA4E-D83B5C7C23CC",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "500 Toads",
+    "slug": "500-toads-npc-core",
+    "descr": "You conjure hundreds of magical toads to fill the area and hop around. The vast quantity of hopping toads provides enough weight and height for the creatures to trigger any potential trap in the area that could be triggered by the weight, movement, or position of a Medium creature. The area is difficult terrain, and the magic reconstructs any toads destroyed by traps to keep the area full of toads for the duration of the spell.",
+    "data": {
+      "rank": 1,
+      "rarity": "rare",
+      "traits": [
+        "concentrate",
+        "manipulate"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "30 feet",
+      "targets": "",
+      "requirements": "",
+      "area": "15-foot burst",
+      "traditions": [
+        "arcane",
+        "primal"
+      ],
+      "traditionsText": "Arcane, Primal",
+      "type": "spell",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ],
+      "areaEffectShape": "sphere",
+      "areaEffectSize": 15,
+      "durationText": "1 round",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "manipulate",
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "329A05B3-90B5-5BAF-B330-BA52A253A783",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Burglar's Blind",
+    "slug": "burglar-s-blind-npc-core",
+    "descr": "The only thing thieves love more than being silent and stealthy is the piles of gold they win with that silence and stealth. You mask the target with multiple illusions combined in a perfect mix, affecting them with both the [Invisibility](/spell/invisibility-player-core) and [Silence](/spell/silence-player-core) spells. If the target takes a hostile action, *burglar's blind* and both the spells it grants end after the hostile action is completed.\n\n---\n\n**Heightened (5th)** You can target up to 5 willing creatures. The spells end for all targets if any one of them takes a hostile action.",
+    "data": {
+      "rank": 3,
+      "rarity": "rare",
+      "traits": [
+        "illusion",
+        "manipulate",
+        "subtle"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "60 feet",
+      "targets": "1 willing creature",
+      "requirements": "",
+      "traditions": [
+        "occult"
+      ],
+      "traditionsText": "Occult",
+      "type": "spell",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "illusion",
+          "slug": "illusion"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "subtle",
+          "slug": "subtle"
+        }
+      ],
+      "durationText": "10 minutes",
+      "duration": 10,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "illusion",
+      "manipulate",
+      "npc-core",
+      "remaster",
+      "subtle"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "20E6FFF6-48D3-59DF-A9EA-81A31267B3B6",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Far-Flung Fetch",
+    "slug": "far-flung-fetch-npc-core",
+    "descr": "You can pilfer an object even if it's outside the reach of your fingers. You teleport the target into one of your open hands. If you don't have a hand free, it falls to the ground at your feet.\n\n---\n\n**Heightened (3rd)** The range increases to 120 feet.\n\n**Heightened (5th)** The range increases to 120 feet, and you can target an unattended object with a Bulk of 1 or less.\n\n**Heightened (7th)** As 5th rank, and when you Cast the Spell you can spend 3 actions instead of 1 to increase the range to planetary. If you do, you don't need line of sight to the target, but you must be extremely familiar with the target.",
+    "data": {
+      "rank": 2,
+      "rarity": "rare",
+      "traits": [
+        "manipulate",
+        "subtle",
+        "teleportation"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "60 feet",
+      "targets": "1 unattended object of light Bulk or less",
+      "requirements": "",
+      "traditions": [
+        "arcane",
+        "divine",
+        "occult"
+      ],
+      "traditionsText": "Arcane, Divine, Occult",
+      "type": "spell",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "subtle",
+          "slug": "subtle"
+        },
+        {
+          "label": "teleportation",
+          "slug": "teleportation"
+        }
+      ],
+      "durationText": "",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "manipulate",
+      "npc-core",
+      "remaster",
+      "subtle",
+      "teleportation"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core",
+        "page": 27
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9227F846-023B-56A2-A48B-2A5338261F57",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Infiltrator's Tunnel",
+    "slug": "infiltrator-s-tunnel-npc-core",
+    "descr": "It's best to know the ingress and egress points for any location you plan to rob. But it's even better to make your own! You create two portals. One appears on a flat surface you can touch, and the other appears on a different flat surface in range that you can see.\n\nYou can move through the portals as though they were adjacent to each other. Any other creature attempting to move through the portals must succeed at a Will saving throw or be teleported up to 30 feet away from their starting point to a random safe space determined by the GM.\n\n---\n\n**Heightened (6th)** When you Cast the Spell, you can designate up to 5 other creatures to freely move between the portals.",
+    "data": {
+      "rank": 4,
+      "rarity": "rare",
+      "traits": [
+        "concentrate",
+        "manipulate",
+        "teleportation"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "60 feet (see text)",
+      "targets": "",
+      "requirements": "",
+      "defense": "will",
+      "traditions": [
+        "arcane",
+        "occult"
+      ],
+      "traditionsText": "Arcane, Occult",
+      "type": "spell",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "teleportation",
+          "slug": "teleportation"
+        }
+      ],
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "manipulate",
+      "npc-core",
+      "remaster",
+      "teleportation"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

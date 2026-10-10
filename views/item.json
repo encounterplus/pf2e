@@ -44,7 +44,25 @@
       "views": [
         {
           "type": "list",
+          "attribute": "data.traitLinks",
+          "visibleIf": "data.traitLinks != nil",
+          "views": [
+            {
+              "type": "label",
+              "value": "{{label}}",
+              "style": "trait",
+              "bgColor": "#58180D",
+              "padding": [4, 8],
+              "borderColor": "#d8c384",
+              "borderWidth": 2,
+              "link": "{% if slug %}/trait/{{slug}}{% endif %}"
+            },
+          ]
+        },
+        {
+          "type": "list",
           "attribute": "data.traits",
+          "visibleIf": "data.traitLinks == nil",
           "views": [
             {
               "type": "label",
@@ -80,7 +98,18 @@
     },
     {
       "type": "text",
-      "value": "{% for activation in data.activations %}**Activate** {% if activation.actions %}![Action](/icons/Action/{{activation.actions}}.png#height=18) {% endif %}{{activation.components|map: 'ItemActivationComponent'}} {% if activation.traits %}({{activation.traits|map: 'Trait'|lowercase}}); {% endif %}{{activation.text}}{% endfor %}", 
+      "value": "{% for activation in data.activations %}{% include 'item-activation.md' %}{% if not forloop.last %}\n\n{% endif %}{% endfor %}",
+      "style": "stats-body",
+    },
+    {
+      "type": "text",
+      "value": "{% for type in data.types %}{% include 'item-type.md' type %}{% if not forloop.last %}\n\n{% endif %}{% endfor %}",
+      "style": "stats-body",
+    },
+    {
+      "type": "text",
+      "visibleIf": "data.craftRequirements != nil",
+      "value": "{% if data.craftRequirements %}**{{'Item.CraftRequirements'|l}}** {{data.craftRequirements}}{% endif %}",
       "style": "stats-body",
     },
     {
@@ -95,7 +124,7 @@
     },
     {
       "type": "text",
-      "value": "{{footer}}"
+      "value": "{% if data.sourceName %}**{{'Common.Source'|l}}:** {{data.sourceName}}{% else %}{{footer}}{% endif %}"
     }, 
     {
       "type": "tags",

@@ -1,0 +1,272 @@
+[
+  {
+    "id": "C9A27B85-8034-5A82-B1FB-88CC9B6217CC",
+    "kind": "Class",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Animist",
+    "slug": "animist-war-of-immortals",
+    "descr": "",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "summary": "",
+      "attributes": [
+        "wisdom"
+      ],
+      "hp": 8,
+      "perception": "trained",
+      "fortitude": "trained",
+      "reflex": "trained",
+      "will": "expert",
+      "skills": "religion",
+      "attacks": "simple, unarmed",
+      "defenses": "light, medium, unarmored",
+      "classAdvancement": "| Your Level | Class Features |\n| --- | --- |\n| 1 | Ancestry and background, attribute boosts, initial proficiencies, apparition attunement, animist & apparition spellcasting, animistic practice |\n| 2 | Animist feat, skill feat |\n| 3 | 2nd-rank spells, fortitude expertise, general feat, skill increase |\n| 4 | Animist feat, skill feat |\n| 5 | 3rd-rank spells, attribute boosts, ancestry feat, skill increase |\n| 6 | Animist feat, skill feat |\n| 7 | 4th-rank spells, expert spellcaster, general feat, skill increase, third apparition |\n| 8 | Animist feat, skill feat |\n| 9 | 5th-rank spells, ancestry feat, perception expertise, skill increase |\n| 10 | Attribute boosts, animist feat, skill feat |\n| 11 | 6th-rank spells, expert protections, general feat, simple weapon expertise, skill increase |\n| 12 | Animist feat, skill feat |\n| 13 | 7th-rank spells, ancestry feat, master of mind and spirit, skill increase, weapon specialization |\n| 14 | Animist feat, skill feat |\n| 15 | 8th-rank spells, attribute boosts, fourth apparition, general feat, master spellcaster, skill increase |\n| 16 | Animist feat, skill feat |\n| 17 | 9th-rank spells, ancestry feat, skill increase |\n| 18 | Animist feat, skill feat |\n| 19 | General feat, legendary spellcaster, skill increase, supreme incarnation |\n| 20 | Attribute boosts, animist feat, skill feat |",
+      "classFeaturesText": "You gain these abilities as an animist. Abilities gained at higher levels list the level at which you gain them next to the features' names.",
+      "classFeatures": [
+        {
+          "name": "Animist & Apparition Spellcasting",
+          "level": 1,
+          "text": "Your role as a spiritual medium connecting the mortal Universe to the realms beyond lets you cast your magic in two distinct ways: you both learn and prepare spells from the divine tradition yourself, and you also channel the knowledge and power of your attuned apparitions, gaining spell slots and a repertoire of spells from them that you can cast spontaneously.\n\nRegardless of which source you're drawing on, you are a spellcaster and can cast spells of the divine tradition using the Cast a Spell activity. As an animist, your incantations might take the form of reciting relevant snippets of legends—stories passed down orally—or they might see you calling nearby spirits to honor ancient vows. Your gestures could be elegant dances or full-body convulsions as generations of memories and otherworldly energies inherited from your spiritual allies surge through you.\n\nSome of your spells require you to attempt a spell attack to see how effective they are, or have your enemies roll against your spell DC (typically by attempting a saving throw). Since your key attribute is Wisdom, your spell attack modifiers and spell DC use your Wisdom modifier.\n\nThe clearly delineated partnership between an animist and their apparitions means you can't cast your animist spells using your apparition spell slots or vice versa—your magics remain complementary and harmonious, yet as distinct as the two worlds from which they come.\n\n### Animist Spellcasting\n\nAs a keeper of knowledge, you are constantly learning new techniques and spells. Each day, you can prepare one 1st-rank spell and 2 cantrips from among the common spells on the divine spell list or from other divine spells you've gained access to and learned via Learn a Spell. Prepared spells remain available to you until you cast them or until you prepare your spells again. The number of spells you can prepare is called your spell slots. As you increase in level as an animist, the number of spells you can prepare each day increases, as does the highest rank of spell you can cast, as shown in Animist Spells Per Day.\n\nYou are a prepared spellcaster for the purposes of determining how you interact with staves and other items or effects that differentiate between prepared and spontaneous spellcasters.\n\n### Apparition Spellcasting\n\nYou can draw upon your attuned apparitions as a second source of magical knowledge and power. You gain additional spontaneous spell slots and a spell repertoire from your attuned apparitions. At first level, you can cast two apparition cantrips and one 1st-rank apparition spell per day. You must have the spell in your apparition spell repertoire to cast it; this is a collection of spells granted to you by all your attuned apparitions. You can cast any spell in your apparition spell repertoire by using an apparition spell slot of an appropriate spell rank. Any of these spells that aren't normally on the divine list are still divine spells if you cast them this way.\n\nAs you increase in level, you gain further apparition spell slots, and your apparitions grant you higher-rank apparition spells, as detailed in each apparition entry.\n\n### Heightening Spells\n\nWhen you gain spell slots of 2nd rank and higher, you can fill those slots with stronger versions of lower-rank spells. This increases the spell's rank, heightening it to match the spell slot. Many spells have specific improvements when they are heightened to certain ranks. All your apparition spells are signature spells. That means that you can heighten any apparition spell freely by casting it from a higher-rank apparition spell slot, up to the maximum rank of apparition spell you can cast.\n\n### Cantrips\n\nSome of your spells are cantrips. A cantrip is a special type of spell that doesn't use spell slots. You can cast a cantrip at will any number of times per day. A cantrip is automatically heightened to half your level rounded up—this is usually equal to the highest rank of animist spell slot you have. For example, as a 1st-level animist, your cantrips are 1st-rank spells, and as a 5th-level animist, your cantrips are 3rd-rank spells.\n\n### Vessel Spells\n\nYour primary attuned apparition can use your body as a conduit, allowing you to cast a unique vessel spell. Vessel spells are a type of focus spell. Because vessel spells are a manifestation of a specific apparition, an animist can't cast or Sustain a specific vessel spell in the same round they have already cast or Sustained it (for example, an animist who has cast earth's bile during their turn can't then cast or Sustain another instance of earth's bile during that same turn).\n\nIt costs 1 Focus Point to cast a focus spell, and you start with a focus pool of 1 Focus Point. You refill your focus pool during your daily preparations, and you can regain 1 Focus Point by spending 10 minutes using the Refocus activity to treat with nearby spirits, meditate on resolving an issue pertaining to the balance of spirits and mortals, or tell a story.\n\nFocus spells are automatically heightened to half your level rounded up, much like cantrips. Focus spells don't require spell slots, and you can't cast them using spell slots. The maximum Focus Points your focus pool can hold is equal to the number of focus spells you have, though certain feats or abilities adjust this number, but it can never be more than 3 points."
+        },
+        {
+          "name": "Animistic Practice",
+          "level": 1,
+          "text": "At 1st level, you choose an animistic practice that influences the way your power grows and develops, and you gain its first invocation. At 9th level, you gain its second invocation, and at 17th, you gain its third."
+        },
+        {
+          "name": "Apparition Attunement",
+          "level": 1,
+          "text": "Animists have a gift for divine magic that allows them to serve as conduits or bridges for otherworldly spiritual entities known collectively as apparitions; through them, these entities can commune and interact with the physical world in a process called attunement. Apparitions are myriad and diverse: they may be human spirits lingering on the border between becoming phantoms or ghosts, animal spirits with particularly strong connections to the physical world but lacking the malice that would spur a transition into true undeath, manifestations of natural locations that have grown thought and purpose over time, or they may be a different variation altogether.\n\nSome animists attune to one or more specific apparitions that accompany them in their travels, forming deep partnerships over time, while others adapt to their surroundings by befriending the local apparitions who dwell wherever the animist's journey takes them. Each day during your daily preparations, choose two apparitions from the list on page 17 to attune to. Of these, choose one to be your primary apparition. Your attuned apparitions each grant you knowledge in the form of Lore skills and a repertoire of additional spells you can cast using apparition spellcasting (see below), and your primary apparition grants you even further power in the form a unique vessel focus spell and, when you are higher level, a unique avatar form.\n\nWhen you Refocus, you can change which of your currently attuned apparitions is your primary apparition, selecting from any of the apparitions you attuned to during your daily preparations. All your apparitions typically remain attuned to you until your next daily preparations, but some animist abilities can temporarily disperse them, usually in exchange for a powerful boon. If an apparition is dispersed, you lose access to its gifts—you forget its apparition skills, its spells are removed from your apparition spell repertoire, and you can't use its vessel spell or avatar form—until you attune to it again. When you disperse your primary apparition, one of your remaining apparitions becomes your primary apparition, chosen by you at the time of dispersal."
+        },
+        {
+          "name": "Fortitude Expertise",
+          "level": 3,
+          "text": "Spiritual energy reinforces your body, making you more resilient. Your proficiency rank for Fortitude saves increases to expert."
+        },
+        {
+          "name": "Expert Spellcaster",
+          "level": 7,
+          "text": "The magic of the spirits flows freely through you. Your proficiency ranks for spell attack modifier and spell DC increase to expert."
+        },
+        {
+          "name": "Third Apparition",
+          "level": 7,
+          "text": "You've learned to shelter more spirits, gaining access to more magic. When you attune to apparitions during your daily preparations, you choose three apparitions to attune to, with one of them being your primary apparition. The number of Focus Points in your focus pool increases by 1 (maximum 3)."
+        },
+        {
+          "name": "Perception Expertise",
+          "level": 9,
+          "text": "You remain alert to threats around you. Your proficiency rank for Perception increases to expert."
+        },
+        {
+          "name": "Expert Protections",
+          "level": 11,
+          "text": "The spiritual entities that protect you warn you of harm before it would occur, giving you more time to react, and help bear the burden of your armor when it is necessary. Your proficiency rank for light armor, medium armor, unarmored defense, and Reflex saves increases to expert."
+        },
+        {
+          "name": "Simple Weapon Expertise",
+          "level": 11,
+          "text": "Training and magical assistance from your spiritual companions have improved your weapon technique. Your proficiency rank for simple weapons and unarmed attacks increases to expert."
+        },
+        {
+          "name": "Master of Mind and Spirit",
+          "level": 13,
+          "text": "Your apparitions gird your mind against hostile intrusion and shield you from the effects of entities seeking to control your mind. Your proficiency rank for Will saves increases to master. When you roll a success at a Will save, you get a critical success instead."
+        },
+        {
+          "name": "Weapon Specialization",
+          "level": 13,
+          "text": "You've learned how to inflict greater injuries with the weapons you know best. You deal an additional 2 damage with weapons and unarmed attacks in which you are an expert. This damage increases to 3 if you're a master, and 4 if you're legendary."
+        },
+        {
+          "name": "Fourth Apparition",
+          "level": 15,
+          "text": "You're truly loved by the spirits, with apparitions flocking to you from far and wide. When you attune to apparitions during your daily preparations, you choose four apparitions to attune to, with one of them being your primary apparition. The number of Focus Points in your focus pool increases by 1 (maximum 3)."
+        },
+        {
+          "name": "Master Spellcaster",
+          "level": 15,
+          "text": "Your affinity with the apparitions you bond to has further enhanced the potency of your magic. Your proficiency ranks for spell attack modifier and spell DC increase to master."
+        },
+        {
+          "name": "Legendary Spellcaster",
+          "level": 19,
+          "text": "You are a near-perfect channel for the magical energies of the realms beyond. Your proficiency ranks for spell attack modifier and spell DC increase to legendary."
+        },
+        {
+          "name": "Supreme Incarnation",
+          "level": 19,
+          "text": "You become a nexus between the mortal and spiritual realms through which your apparition can embody its full might. You gain a 10th-rank apparition spell slot. In addition to heightened versions of your apparition spells, you can use this slot to cast Avatar. When you cast *avatar* in this way, you do not become an avatar of a deity; rather, your primary attuned apparition incarnates itself using your body, transforming you into the avatar described in your primary attuned apparition's entry."
+        }
+      ],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "54E47A65-9500-5E84-BDFE-D034C1C645B6",
+    "kind": "Class",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Exemplar",
+    "slug": "exemplar-war-of-immortals",
+    "descr": "",
+    "data": {
+      "rarity": "rare",
+      "traits": [],
+      "summary": "",
+      "attributes": [
+        "dexterity",
+        "strength"
+      ],
+      "hp": 10,
+      "perception": "trained",
+      "fortitude": "expert",
+      "reflex": "trained",
+      "will": "expert",
+      "skills": "religion",
+      "attacks": "martial, simple, unarmed",
+      "defenses": "light, medium, unarmored",
+      "classAdvancement": "| Your Level | Class Features |\n| --- | --- |\n| 1 | Ancestry and background, attribute boosts, initial proficiencies, divine spark and ikons, exemplar feat, humble strikes, shield block |\n| 2 | Exemplar feat, skill feat |\n| 3 | General feat, root epithet, skill increase |\n| 4 | Exemplar feat, skill feat |\n| 5 | Attribute boosts, ancestry feat, skill increase, weapon expertise |\n| 6 | Exemplar feat, skill feat |\n| 7 | Dominion epithet, general feat, skill increase, spirit striking, unassailable soul |\n| 8 | Exemplar feat, skill feat |\n| 9 | Ancestry feat, divine premonition, godly expertise, perception expertise, skill increase |\n| 10 | Attribute boosts, exemplar feat, skill feat |\n| 11 | General feat, skill increase |\n| 12 | Exemplar feat, skill feat |\n| 13 | Ancestry feat, burnished armor expertise, divine weapon mastery, greater unassailable soul, skill increase |\n| 14 | Exemplar feat, skill feat |\n| 15 | Attribute boosts, general feat, greater spirit striking, mortality reforged, sovereignty epithet, skill increase |\n| 16 | Exemplar feat, skill feat |\n| 17 | Ancestry feat, deific mastery, perception mastery, skill increase |\n| 18 | Exemplar feat, skill feat |\n| 19 | Burnished armor mastery, general feat, skill increase |\n| 20 | Attribute boosts, exemplar feat, skill feat |",
+      "classFeaturesText": "You gain these abilities as an exemplar. Abilities gained at higher levels list the level at which you gain them next to the features' names.",
+      "classFeatures": [
+        {
+          "name": "Divine Spark and Ikons",
+          "level": 1,
+          "text": "Within your soul is a tiny spark of divine power that belongs not to a deity, but is something you've claimed all your own. You can focus this divine power through special items known as ikons. Ikons are items or bodily features intrinsically linked to you—sacred vessels forged from your divinity that are capable of conducting its power.\n\nBy placing your divine spark into one of your ikons, you empower that ikon to accomplish deeds beyond what it could in mortal hands. Each ikon has both a passive immanence effect and an active transcendence effect. Both of these effects require your divine spark to be in the item. You can place your spark into an ikon by using the [Shift Immanence](/action/shift-immanence-war-of-immortals) action.\n\n### Spark Transcendence\n\nWhile your spark dwells within an ikon, you get that ikon's immanence effect continually. However, you can also Spark Transcendence in a mighty deed, channeling your divinity through the ikon—though when you Spark Transcendence, the force of the act temporarily casts your divine spark out of the ikon. Each ikon's transcendence action appears in its stat block, and the [transcendence](/trait/transcendence) trait is described in the Key Terms sidebar.\n\n### Expanding **Immanence** And Transcendence\n\nEach ikon has one immanence and one transcendence ability when acquired, but you can imbue your ikons with additional abilities through higher-level exemplar class features and feats. These abilities have the [ikon](/trait/ikon) trait.\n\n## Ikons\n\nAs an exemplar, you select three ikons at first level. Typically, you will want to ensure at least one of your ikons is a weapon. Body ikons accentuate a physical trait of your body and so can't be stolen, disarmed, dispelled, or otherwise taken away. Weapon and worn ikons are tied to items of power. When you select one, you gain a non-magical, level-0 item of your choice that matches its usage entry. Providence ensures you come across these items; you might be traveling along a path to find a spear in a tree that only you can dislodge, or you might awaken holding a gleaming sash you saw in your dreams.\n\nYour ikons can be etched with runes, upgraded, or otherwise modified as normal for items of their type. A body or worn ikon can have runes etched on it to apply to your unarmed attacks as though it were handwraps of mighty blows, though only one of your ikons can have these runes and no ikon can have both these and armor or weapon runes.\n\nIf you acquire a new item the ikon's usage could apply to, you can switch your ikon to the new item by spending 1 day of downtime with the new ikon as you saturate the object with your divine energy. You can use this process to make an existing magic item, like a cloak of illusions or a searing blade, into your ikon. If the item wasn't already a divine item, it becomes one for as long as it is your ikon, removing the arcane, occult, primal, or [magical](/trait/magical) trait from the item and adding the [divine](/trait/divine) trait. Artifacts, intelligent items, and other similarly powerful objects might resist your attempts to exert your divinity over them, with unpredictable results determined by the GM."
+        },
+        {
+          "name": "Humble Strikes",
+          "level": 1,
+          "text": "Even the most unassuming weapons can accomplish great deeds. When you are wielding a simple weapon, increase the damage die size of that weapon by one step."
+        },
+        {
+          "name": "Shield Block",
+          "level": 1,
+          "text": "You gain the Shield Block general feat, a reaction that lets you reduce damage with your shield."
+        },
+        {
+          "name": "Root Epithet",
+          "level": 3,
+          "text": "As your story unfolds, your personality and deeds begin to shape the potential of your divine spark. You come to bear an epithet—a word or phrase that seems to always stick in the mind of those describing you. (You can find examples of acquiring epithets in the Earning your Name sidebar on page 35.) Your epithets grant you additional abilities, especially when your divine spark is brought to the surface.\n\nYou first gain a root epithet to describe an aspect of your personality. This grants you a skill, as well as a special effect that occurs when you Spark Transcendence. If you are already trained in the granted skill, you become trained in a different skill of your choice, as normal. An effect that occurs after you Spark Transcendence happens immediately after your transcendence action is completely resolved."
+        },
+        {
+          "name": "Weapon Expertise",
+          "level": 5,
+          "text": "You've dedicated yourself to learning the intricacies of your weapons. Your proficiency ranks for simple weapons, martial weapons, and unarmed attacks increase to expert."
+        },
+        {
+          "name": "Dominion Epithet",
+          "level": 7,
+          "text": "Your divinity has grown in power along with your deeds, allowing you to begin claiming dominion over aspects of creation. Choose one of the following epithets. Each one grants a critical specialization ability you can use instead of any others you might have access to, and an ability you can use when you Spark Transcendence. You can benefit from no more than one epithet ability each time you Spark Transcendence. Some epithets grant additional benefits, such as feats."
+        },
+        {
+          "name": "Spirit Striking",
+          "level": 7,
+          "text": "Your divine power can't be contained, escaping in flits and embers as you wreak violence. You deal 2 additional spirit damage with weapons and unarmed attacks in which you are an expert. This damage increases to 3 if you're a master, and 4 if you're legendary."
+        },
+        {
+          "name": "Unassailable Soul",
+          "level": 7,
+          "text": "A firm knowledge of (or foolish pride in) yourself and your ability girds your mind against doubt and intrusion. Your proficiency rank for Will saves increases to master. When you roll a success at a Will save, you get a critical success instead."
+        },
+        {
+          "name": "Divine Premonition",
+          "level": 9,
+          "text": "A sense of the flow of fate allows you to respond to danger with uncanny alacrity. Your proficiency rank for Reflex saves increases to expert."
+        },
+        {
+          "name": "Godly Expertise",
+          "level": 9,
+          "text": "Your divine power increases in might. Your proficiency rank for your exemplar class DC increases to expert."
+        },
+        {
+          "name": "Perception Expertise",
+          "level": 9,
+          "text": "You remain alert to threats around you. Your proficiency rank for Perception increases to expert."
+        },
+        {
+          "name": "Burnished Armor Expertise",
+          "level": 13,
+          "text": "Exposure to your divine spark has reinforced your armor. Your proficiency ranks for light armor, medium armor, and unarmored defense increase to expert."
+        },
+        {
+          "name": "Divine Weapon Mastery",
+          "level": 13,
+          "text": "Your skill with weapons is divinely inspired. Your proficiency ranks for simple weapons, martial weapons, and unarmed attacks increase to master."
+        },
+        {
+          "name": "Greater Unassailable Soul",
+          "level": 13,
+          "text": "A wall of confidence blunts every arrow seeking to pierce your mind. Your proficiency rank for Will saves increases to legendary. When you roll a success at a Will save, you get a critical success. When you roll a critical failure at a Will save, you get a failure instead. When you fail a Will save against a damaging effect, you take half damage."
+        },
+        {
+          "name": "Greater Spirit Striking",
+          "level": 15,
+          "text": "Your additional damage from spirit striking increases to 4 with weapons and unarmed attacks in which you're an expert, 6 if you're a master, and 8 if you're legendary."
+        },
+        {
+          "name": "Mortality Reforged",
+          "level": 15,
+          "text": "Inner fire has burned away the frailty of a mortal body. Your proficiency rank for Fortitude saves increases to master. When you roll a success on a Fortitude save, you get a critical success instead."
+        },
+        {
+          "name": "Sovereignty Epithet",
+          "level": 15,
+          "text": "The litany of heroic deeds left in your wake has caused your divine spark to blaze bright enough that it now illuminates your legacy. Choose one of the following epithets, which grants you an ability you can use when you Spark Transcendence. You can benefit from no more than one epithet ability each time you Spark Transcendence."
+        },
+        {
+          "name": "Deific Mastery",
+          "level": 17,
+          "text": "You have achieved full mastery over your divine spark as its power flows through your body and ikons. Your proficiency rank for your exemplar class DC increases to master."
+        },
+        {
+          "name": "Perception Mastery",
+          "level": 17,
+          "text": "Through your adventures, you've developed keen awareness and attention to detail, the better to watch over your wards and keep an eye out for monsters and other threats. Your proficiency rank for Perception increases to master."
+        },
+        {
+          "name": "Burnished Armor Mastery",
+          "level": 19,
+          "text": "Your armor shines with divine light, flawless and unyielding. Your proficiency ranks for light armor, medium armor, and unarmored defense increase to master."
+        }
+      ],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

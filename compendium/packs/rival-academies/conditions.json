@@ -1,0 +1,992 @@
+[
+  {
+    "id": "284BF5FD-F03C-5A51-B9B0-D0CD8C997702",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Cozy Campfire",
+    "slug": "effect-cozy-campfire-rival-academies",
+    "descr": "Granted by [Cozy Campfire](/feat/cozy-campfire-rival-academies)\n\nYou take a –2 status penalty to attack rolls.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0F106104-5016-551D-8E5F-60525844F526",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Drop of Convergent Waters",
+    "slug": "effect-drop-of-convergent-waters-rival-academies",
+    "descr": "Granted by [Drop Of Convergent Waters](/item/drop-of-convergent-waters-rival-academies)\n\nChoose an attack. It gains the magical, reach and [water](/trait/water) traits, and takes no penalties for being used underwater.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2D0A652C-E55B-5684-B329-9C3DFCD0451C",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: In Lightning, Life",
+    "slug": "effect-in-lightning-life-rival-academies",
+    "descr": "Granted by [In Lightning, Life](/feat/in-lightning-life-rival-academies)\n\nYou gain temporary Hit Points.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "71F431AD-3E9E-5B7F-8EC3-DBC8B9F901AE",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Lepidstadt Surgeon Dedication (Stop Bleeding)",
+    "slug": "effect-lepidstadt-surgeon-dedication-stop-bleeding-rival-academies",
+    "descr": "Granted by [Lepidstadt Surgeon Dedication](/feat/lepidstadt-surgeon-dedication-rival-academies)\n\nYou roll your flat check to recover from persistent bleed damage twice and take the better result.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "DF1E820F-0C69-53C0-8C24-B080FA584250",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Offer Story",
+    "slug": "effect-offer-story-rival-academies",
+    "descr": "Granted by [Offer Story](/action/offer-story-rival-academies)\n\nYou gain a +1 status bonus to AC and Will saves.\n\nIf the origin has [Illuminating Stories](/feat/illuminating-stories-rival-academies), then you can choose to gain a status bonus on skill checks to Recall Knowledge instead.\n\nIf the origin has [Raging Stories](/feat/raging-stories-rival-academies), you can choose to deal additional fire damage with your melee Strikes instead.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "FED6472D-A6CC-5D3B-B989-88C4C48B64A9",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Rod of Rule",
+    "slug": "effect-rod-of-rule-rival-academies",
+    "descr": "Granted by [Rod Of Rule](/feat/rod-of-rule-rival-academies)\n\nYou take –2 circumstance penalty to saves against any of the origin's curriculum or sin spells.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "60522758-2712-50CA-A78C-652DB09A3E18",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Ruthless Orator",
+    "slug": "effect-ruthless-orator-rival-academies",
+    "descr": "Granted by [Ruthless Orator](/feat/ruthless-orator-rival-academies)\n\nAny [hostile](/condition/hostile-player-core) creatures within 20 feet take a –2 circumstance penalty to attack rolls and spell attack rolls that target you.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "40D3373F-28D4-5780-B3C3-439965BDFA24",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Ruthless Orator (Enemy)",
+    "slug": "effect-ruthless-orator-enemy-rival-academies",
+    "descr": "Granted by [Ruthless Orator](/feat/ruthless-orator-rival-academies)\n\nYou take a -2 circumstance penalty to attack rolls and spell attack rolls against the origin.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8143EA41-78B2-5AB3-BCD0-6F995A2F23FD",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Static Muscular Relay",
+    "slug": "effect-static-muscular-relay-rival-academies",
+    "descr": "Granted by [Static Muscular Relay](/item/static-muscular-relay-rival-academies)\n\nYou gain a +2 circumstance bonus to Reflex saves and AC for 1 minute.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2DCC0FEB-F912-5C1B-9586-86A098C68733",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Talented Tap Shoes",
+    "slug": "effect-talented-tap-shoes-rival-academies",
+    "descr": "Granted by [Talented Tap Shoes](/item/talented-tap-shoes-rival-academies)\n\nWhen you succeed or critically succeed at a Reflex save to avoid a damaging effect, you can Stride half your Speed as a reaction. You take a –2 item penalty to Stealth checks to Sneak.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "813A2446-8EA8-5470-87AA-163D5B1D0367",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Tributary Circulation",
+    "slug": "effect-tributary-circulation-rival-academies",
+    "descr": "Granted by [Tributary Circulation](/feat/tributary-circulation-rival-academies)\n\nYou gain a +2 circumstance bonus to Will saves and saves against poison.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "60A2F5E2-B3A1-5160-8154-430A642D6D35",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Beseech the Sphinx",
+    "slug": "spell-effect-beseech-the-sphinx-rival-academies",
+    "descr": "Granted by [Beseech The Sphinx](/spell/beseech-the-sphinx-rival-academies)\n\nYou gain a status bonus to one skill and one type of saving throw.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 10,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1A54F347-B1C9-59CE-A4F7-04D25D43E15C",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Call the Ten",
+    "slug": "spell-effect-call-the-ten-rival-academies",
+    "descr": "Granted by [Call The Ten](/spell/call-the-ten-rival-academies)\n\nYou gain resistance to physical and spirit damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "CB8FEAA7-5117-5701-A7C9-AEC5CBE9D9B8",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Coiling Dance",
+    "slug": "spell-effect-coiling-dance-rival-academies",
+    "descr": "Granted by [Coiling Dance](/spell/coiling-dance-rival-academies)\n\nYour attacks and spells gain the [holy](/trait/holy) trait.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "6D478489-7309-5D17-AC06-08032AD725EF",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Cutting Eye",
+    "slug": "spell-effect-cutting-eye-rival-academies",
+    "descr": "Granted by [Cutting Eye](/spell/cutting-eye-rival-academies)\n\nYou gain a +2 circumstance bonus to AC or a saving throw.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1B07330D-7CAE-5E4F-8EC9-45054BE1AF6C",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Domora's Defense",
+    "slug": "spell-effect-domora-s-defense-rival-academies",
+    "descr": "Granted by [Domora'S Defense](/spell/domora-s-defense-rival-academies)\n\nYou gain a +1 circumstance bonus to AC and fire resistance 5.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5843C43A-A28A-5696-8849-665AF19E45CB",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Halcyon Mists",
+    "slug": "spell-effect-halcyon-mists-rival-academies",
+    "descr": "Granted by [Halcyon Mists](/spell/halcyon-mists-rival-academies)\n\nYou gain temporary Hit Points and become concealed.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "86B08BE8-F6D5-5BDD-BD3F-57245C3BDEBE",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Ibex's Harvests",
+    "slug": "spell-effect-ibex-s-harvests-rival-academies",
+    "descr": "Granted by [Ibex'S Harvest](/spell/ibex-s-harvest-rival-academies)\n\nYou gain temporary Hit Points.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "61106848-D9F1-56BA-9809-001237D0E3E6",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Kgalaserke's Axes",
+    "slug": "spell-effect-kgalaserke-s-axes-rival-academies",
+    "descr": "Granted by [Kgalaserke'S Axes](/spell/kgalaserke-s-axes-rival-academies)\n\nYou gain a +1 status bonus to attack rolls or a +2 circumstance bonus to damage against a creature that damaged you.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "6DA3A226-E650-5C4D-A9F2-BCE430BB17CA",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Mental Map",
+    "slug": "spell-effect-mental-map-rival-academies",
+    "descr": "Granted by [Mental Map](/spell/mental-map-rival-academies)\n\nYou gain a +2 circumstance bonus to Survival checks while in the location, and any skill checks to Recall Knowledge about the location.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3E3B9207-6EE0-552A-AD07-DAA73EA1A68F",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Personal Runewell",
+    "slug": "spell-effect-personal-runewell-rival-academies",
+    "descr": "Granted by [Personal Runewell](/spell/personal-runewell-rival-academies)\n\nYou gain a status bonus to spell damage equal to the spell's rank.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "58303398-950A-5146-AAFA-410CA9FACBC8",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Pocket Library",
+    "slug": "spell-effect-pocket-library-rival-academies",
+    "descr": "Granted by [Pocket Library](/spell/pocket-library-rival-academies)\n\nYou gain a status bonus on Recall Knowledge checks using your chosen skill. If you roll a critical failure on this check, you get a failure instead.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 24,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2B08EC4C-39F4-5D91-BE92-1E027DF8085E",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Precious Gleam",
+    "slug": "spell-effect-precious-gleam-rival-academies",
+    "descr": "Granted by [Precious Gleam](/spell/precious-gleam-rival-academies)\n\nYour next attack deals additional precision damage, and it gains the effects of cold iron, silver, or steel.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "AEC0D988-50AF-5A97-B313-5B4EA60B6266",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: The Four Hunters",
+    "slug": "spell-effect-the-four-hunters-rival-academies",
+    "descr": "Granted by [The Four Hunters](/spell/the-four-hunters-rival-academies)\n\n**East** You gain 5 temporary Hit Points and a +1 status bonus to Athletics.**North** You gain a +1 status bonus to Survival.**South** You become concealed and gain a +1 status bonus to Stealth.**West** You gain a +10-foot status bonus to their land Speed and a +1 status bonus to Acrobatics.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "32C06543-D56E-571A-BFD3-9E782294D934",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Threefold Limb (Ice)",
+    "slug": "spell-effect-threefold-limb-ice-rival-academies",
+    "descr": "Granted by [Threefold Limb](/spell/threefold-limb-rival-academies)\n\nYou take a –10-foot status penalty to your Speeds.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9E04BD9C-F81B-580B-BFCB-94BF69040056",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Unravel Knowledge",
+    "slug": "spell-effect-unravel-knowledge-rival-academies",
+    "descr": "Granted by [Unravel Knowledge](/spell/unravel-knowledge-rival-academies)\n\nYou take a –2 status penalty to any check or DC for the affected ability the first time you use it each round.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F9F89EDA-87C0-53C5-9224-0B999EB6A714",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Stance: Flood Stance",
+    "slug": "stance-flood-stance-rival-academies",
+    "descr": "Granted by [Flood Stance](/feat/flood-stance-rival-academies)\n\nThe only Strikes you can make are flooded river unarmed attacks. These deal 1d8 bludgeoning damage; are in the brawling group; have the nonlethal, trip, unarmed, and [water](/trait/water) traits; and don't take the normal penalty for being used underwater. They also gain the [forceful](/trait/forceful) trait while you're underwater.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4219E6CD-42FD-51C3-99DD-4DC1372DF4B3",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Stance: Reflective Ripple Stance",
+    "slug": "stance-reflective-ripple-stance-rival-academies",
+    "descr": "You can make flowing wave attacks that deal 1d6 bludgeoning damage. They are in the brawling group and have the agile, disarm, finesse, nonlethal, trip, unarmed, and [water](/trait/water) traits.\n\nWhile in Reflective Ripple Stance, you gain a +1 circumstance bonus to Athletics checks to [Disarm](/action/disarm-player-core), [Swim](/action/swim-player-core), or [Trip](/action/trip-player-core), and you gain a +2 circumstance bonus to your Reflex DC to avoid being Disarmed and Tripped.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "CA1431B6-2A34-59A1-BB7F-218373B27025",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Stance: Stunt Performer Stance",
+    "slug": "stance-stunt-performer-stance-rival-academies",
+    "descr": "Granted by [Stunt Performer Stance](/feat/stunt-performer-stance-rival-academies)\n\nYou gain a +2 circumstance bonus to Reflex saving throws and skill checks to Escape, as well as resistance 2 to all physical damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "82DDC8E3-7EC9-5E1E-BC54-9AF38091048D",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Stance: Waterfowl Stance",
+    "slug": "stance-waterfowl-stance-rival-academies",
+    "descr": "Granted by [Waterfowl Stance](/feat/waterfowl-stance-rival-academies)\n\nWhile in Waterfowl Stance, the dandpatta, scimitar, talwar, and zulfikar gain the [monk](/trait/monk) trait for you. When you Tumble Through a creature's space or Leap over a creature while wielding one of these weapons, you can deal that creature damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

@@ -1,0 +1,2254 @@
+[
+  {
+    "id": "A8EED4A5-797E-5629-A91C-0A4D2AA9320D",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Air Cycle",
+    "slug": "air-cycle-battlecry",
+    "descr": "",
+    "data": {
+      "level": 4,
+      "rarity": "uncommon",
+      "traits": [
+        "clockwork"
+      ],
+      "size": "large",
+      "price": "300 gp",
+      "space": {
+        "high": 5,
+        "long": 10,
+        "wide": 10
+      },
+      "crew": "1 pilot",
+      "passengers": "1",
+      "pilotingCheck": "Athletics (DC 21) or Piloting Lore (DC 19)",
+      "speed": "fly 25 feet (clockwork, wind)",
+      "ac": {
+        "value": 15,
+        "details": ""
+      },
+      "hp": {
+        "value": 50,
+        "details": "",
+        "bt": 25
+      },
+      "hardness": 5,
+      "fortitude": 11,
+      "collisionDC": 19,
+      "collisionDamage": "2d10",
+      "abilities": [
+        {
+          "name": "Aerial Launch",
+          "text": "Air cycles can be carried into battle beneath a larger airship and dropped from higher altitudes.",
+          "traits": []
+        },
+        {
+          "name": "Wind-Up",
+          "text": "10 minutes of wind-up, 1 hour of operational time, DC 19, standby.",
+          "traits": []
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "clockwork",
+          "slug": "clockwork"
+        }
+      ],
+      "description": "A small clockwork craft carried through the air by the wind."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "clockwork",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "EC69CD77-2A4E-5861-BB9D-3A5C1ECA3439",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Armored Sleigh",
+    "slug": "armored-sleigh-battlecry",
+    "descr": "",
+    "data": {
+      "level": 17,
+      "rarity": "uncommon",
+      "traits": [],
+      "size": "gargantuan",
+      "price": "45,000 gp",
+      "space": {
+        "high": 20,
+        "long": 50,
+        "wide": 30
+      },
+      "crew": "2 pilots, 8 crew",
+      "passengers": "20",
+      "pilotingCheck": "Driving Lore (DC 36) or Nature (DC 38 to DC 46, depending on pulling creatures)",
+      "speed": "the Speed of the slowest pulling creature (pulled by 4 Huge creatures)",
+      "ac": {
+        "value": 39,
+        "details": ""
+      },
+      "hp": {
+        "value": 280,
+        "details": "",
+        "bt": 140
+      },
+      "hardness": 20,
+      "fortitude": 30,
+      "collisionDC": 36,
+      "collisionDamage": "12d10",
+      "abilities": [
+        {
+          "name": "Space",
+          "text": "60 feet long, 30 feet wide, 20 feet high",
+          "traits": []
+        },
+        {
+          "name": "Ice Traverser",
+          "text": "The armored sleigh ignores difficult terrain caused by ice or snow.",
+          "traits": []
+        },
+        {
+          "name": "Insulated",
+          "text": "Protections from the icy landscape are built into the front of this vehicle, providing sanctuary from the cold. The pilot and crew are protected from severe and extreme cold. The pilot also gains resistance 10 to all cold damage.",
+          "traits": []
+        },
+        {
+          "name": "Sluggish",
+          "text": "This vehicle must move twice its length for each 90-degree turn it makes.",
+          "traits": []
+        }
+      ],
+      "traitLinks": [],
+      "description": "An armored sleigh pulled by large creatures."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "42B487DD-7E96-5F12-A14C-607AE7D16ADA",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Backpack Balloon",
+    "slug": "backpack-balloon-battlecry",
+    "descr": "",
+    "data": {
+      "level": 6,
+      "rarity": "uncommon",
+      "traits": [
+        "clockwork"
+      ],
+      "size": "medium",
+      "price": "750 gp",
+      "space": {
+        "high": 5,
+        "long": 5,
+        "wide": 5
+      },
+      "crew": "1 pilot",
+      "passengers": "",
+      "pilotingCheck": "Athletics (DC 24) or Piloting Lore (DC 22)",
+      "speed": "fly 20 feet (alchemical, clockwork, wind)",
+      "ac": {
+        "value": 18,
+        "details": ""
+      },
+      "hp": {
+        "value": 80,
+        "details": "",
+        "bt": 40
+      },
+      "hardness": 5,
+      "fortitude": 13,
+      "collisionDC": 22,
+      "collisionDamage": "3d10",
+      "abilities": [
+        {
+          "name": "Deploy Balloons",
+          "text": "The pilot engages a lever that activates the clockwork components to launch two large tethered balloons and fill them with lighter-than-air gas. On the outside of the backpack is a small clockwork propeller. This allows the wearer to wind up and pilot the vehicle.\n\nThis transformation lasts until the pilot disengages the balloons by using this activity again.",
+          "traits": [
+            "manipulate"
+          ],
+          "actions": "three"
+        },
+        {
+          "name": "Stowable",
+          "text": "By spending 10 minutes repacking, the backpack balloons can be stowed after the pilot has disengaged them.",
+          "traits": []
+        },
+        {
+          "name": "Wind-Up",
+          "text": "10 minutes of wind-up, 30 minutes of operational time, DC 22, standby\n\n---\n\nFor a clockwork to act, it must be wound with a unique key by another creature. This takes 1 minute. Once wound, it remains operational for the listed amount of time, usually 24 hours, after which time it becomes unaware of its surroundings and can't act until it's wound again. Some clockworks' abilities require them to spend some of their remaining operational time. They can't spend more than they have and shut down immediately once they have 0 time remaining. If it's unclear when a clockwork was last wound, most clockwork keepers wind all their clockworks at a set time, typically 8 a.m.\n\nA clockwork that lists standby in its wind-up entry can enter standby mode as a 3-action activity. Its operational time doesn't decrease in standby, but it can sense its surroundings (with a -2 penalty to Perception). It can't act, with one exception: when it perceives a creature, it can exit standby as a reaction (rolling initiative if appropriate).\n\nA creature can attempt to Disable a Device to wind a clockwork down (with a DC listed in the wind-up entry). For each success, the clockwork loses 1 hour of operational time. This can be done even if the clockwork is in standby mode.",
+          "traits": []
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "clockwork",
+          "slug": "clockwork"
+        }
+      ],
+      "weaknesses": "fire 5 until broken",
+      "description": "A compact alchemical balloon with clockwork components."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "clockwork",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "7FDEF16B-4C8E-5A82-97E5-B05AD90F6AF9",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Battle Dirigible",
+    "slug": "battle-dirigible-battlecry",
+    "descr": "",
+    "data": {
+      "level": 16,
+      "rarity": "rare",
+      "traits": [
+        "magical"
+      ],
+      "size": "gargantuan",
+      "price": "30,000 gp",
+      "space": {
+        "high": 100,
+        "long": 50,
+        "wide": 50
+      },
+      "crew": "1 pilot, 9 crew",
+      "passengers": "30",
+      "pilotingCheck": "Arcana (DC 37), Crafting (DC 37), or Piloting Lore (DC 35)",
+      "speed": "fly 50 feet (alchemical, magical)",
+      "ac": {
+        "value": 34,
+        "details": ""
+      },
+      "hp": {
+        "value": 240,
+        "details": "",
+        "bt": 120
+      },
+      "hardness": 20,
+      "fortitude": 28,
+      "collisionDC": 34,
+      "collisionDamage": "10d10",
+      "abilities": [
+        {
+          "name": "Sluggish",
+          "text": "This vehicle must move twice its length for each 90-degree turn it makes.",
+          "traits": []
+        },
+        {
+          "name": "Weapon Mounts",
+          "text": "This vehicle has four weapon mounts, one on each corner of the gondola. At purchase, these weapon mounts are initially empty. Installing or uninstalling a weapon into a mount requires 3 hours, a successful Crafting DC 35 check, and an appropriate weapon. Three of these weapon mounts can be equipped with Medium or smaller ranged siege weapons, and the fourth can be equipped with a Large or smaller ranged siege weapon.",
+          "traits": []
+        },
+        {
+          "name": "Space",
+          "text": "100 feet long, 50 feet wide, 50 feet high",
+          "traits": []
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ],
+      "weaknesses": "fire 15 until broken",
+      "description": "A flying vessel with alchemical and magical propulsion."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "magical",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8DC11518-4022-573E-A43A-3EFAD769D7C0",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Caisson",
+    "slug": "caisson-battlecry",
+    "descr": "",
+    "data": {
+      "level": 4,
+      "rarity": "uncommon",
+      "traits": [
+        "clockwork"
+      ],
+      "size": "large",
+      "price": "240 gp",
+      "space": {
+        "high": 10,
+        "long": 10,
+        "wide": 10
+      },
+      "crew": "1 pilot",
+      "passengers": "1",
+      "pilotingCheck": "Driving Lore (DC 19) or Crafting (DC 21)",
+      "speed": "15 feet (clockwork)",
+      "ac": {
+        "value": 16,
+        "details": ""
+      },
+      "hp": {
+        "value": 50,
+        "details": "",
+        "bt": 25
+      },
+      "hardness": 5,
+      "fortitude": 11,
+      "collisionDC": 19,
+      "collisionDamage": "3d8",
+      "abilities": [
+        {
+          "name": "Sluggish",
+          "text": "This vehicle must move twice its length for each 90-degree turn it makes.",
+          "traits": []
+        },
+        {
+          "name": "Wind-Up",
+          "text": "1 hour of wind-up, 6 hours of operational time, DC 19, standby\n\n---\n\nFor a clockwork to act, it must be wound with a unique key by another creature. This takes 1 minute. Once wound, it remains operational for the listed amount of time, usually 24 hours, after which time it becomes unaware of its surroundings and can't act until it's wound again. Some clockworks' abilities require them to spend some of their remaining operational time. They can't spend more than they have and shut down immediately once they have 0 time remaining. If it's unclear when a clockwork was last wound, most clockwork keepers wind all their clockworks at a set time, typically 8 a.m.\n\nA clockwork that lists standby in its wind-up entry can enter standby mode as a 3-action activity. Its operational time doesn't decrease in standby, but it can sense its surroundings (with a -2 penalty to Perception). It can't act, with one exception: when it perceives a creature, it can exit standby as a reaction (rolling initiative if appropriate).\n\nA creature can attempt to Disable a Device to wind a clockwork down (with a DC listed in the wind-up entry). For each success, the clockwork loses 1 hour of operational time. This can be done even if the clockwork is in standby mode.",
+          "traits": []
+        },
+        {
+          "name": "Space",
+          "text": "10 feet long, 10 feet wide, 8 feet high",
+          "traits": []
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "clockwork",
+          "slug": "clockwork"
+        }
+      ],
+      "description": "A clockwork vehicle for transporting equipment."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "clockwork",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5338950E-D24A-5205-9AAA-DD127B3BE370",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Cavern Crawler",
+    "slug": "cavern-crawler-battlecry",
+    "descr": "",
+    "data": {
+      "level": 20,
+      "rarity": "rare",
+      "traits": [
+        "clockwork",
+        "magical"
+      ],
+      "size": "gargantuan",
+      "price": "210,000 gp",
+      "space": {
+        "high": 30,
+        "long": 50,
+        "wide": 50
+      },
+      "crew": "1 pilot, 3 crew",
+      "passengers": "30",
+      "pilotingCheck": "Arcana (DC 42) or Driving Lore (DC 40)",
+      "speed": "30 feet, burrow 30 feet (clockwork, magical)",
+      "ac": {
+        "value": 43,
+        "details": ""
+      },
+      "hp": {
+        "value": 300,
+        "details": "",
+        "bt": 150
+      },
+      "hardness": 20,
+      "fortitude": 34,
+      "collisionDC": 40,
+      "collisionDamage": "14d10",
+      "abilities": [
+        {
+          "name": "Space",
+          "text": "100 feet long, 30 feet wide, 30 feet high",
+          "traits": []
+        },
+        {
+          "name": "Tunnel",
+          "text": "The cavern crawler can burrow through solid stone at a Speed of 15 feet. The pilot can choose to leave a tunnel.",
+          "traits": []
+        },
+        {
+          "name": "Swallow",
+          "text": "Two crew members each perform a 3-action activity on their turn to open the caravan crawler's mouth and eat a Huge or smaller creature adjacent to the vehicle, who must attempt a Fortitude DC 40 save. A creature can choose to fail. On a failure, the creature is swallowed by the cavern crawler, moved into the passenger bay, and knocked [Prone](/condition/prone-player-core). This action fails if the passenger bay is full.",
+          "traits": [
+            "manipulate"
+          ],
+          "actions": "three"
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "clockwork",
+          "slug": "clockwork"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ],
+      "immunities": [
+        "precision damage"
+      ],
+      "description": "A magical clockwork vehicle that can burrow through the ground."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "clockwork",
+      "magical",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3A6106F0-6018-5899-8090-A074B95DE22E",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Combat Catamaran",
+    "slug": "combat-catamaran-battlecry",
+    "descr": "",
+    "data": {
+      "level": 13,
+      "rarity": "common",
+      "traits": [],
+      "size": "gargantuan",
+      "price": "9,000 gp",
+      "space": {
+        "high": 80,
+        "long": 40,
+        "wide": 40
+      },
+      "crew": "2 pilot, 5 crew",
+      "passengers": "15",
+      "pilotingCheck": "Nature (DC 33) or Sailing Lore (DC 31)",
+      "speed": "swim 30 feet or 50 feet using spinnakers (wind)",
+      "ac": {
+        "value": 29,
+        "details": ""
+      },
+      "hp": {
+        "value": 230,
+        "details": "",
+        "bt": 115
+      },
+      "hardness": 20,
+      "fortitude": 23,
+      "collisionDC": 31,
+      "collisionDamage": "9d10",
+      "abilities": [
+        {
+          "name": "Space",
+          "text": "40 feet long, 40 feet wide, 80 feet high",
+          "traits": []
+        },
+        {
+          "name": "Deploy Spinnakers",
+          "text": "This vehicle has massive kite-like spinnakers. Deploying and retracting these spinnakers takes two crew members to each perform a 3-action activity on their turn. While the spinnakers are deployed, the weapons installed on the weapon mounts can't fire.",
+          "traits": [
+            "manipulate"
+          ],
+          "actions": "three"
+        },
+        {
+          "name": "Weapon Mounts",
+          "text": "This vehicle has 2 weapon mounts, with one on each of its hulls. At purchase, these weapon mounts are initially empty. Installing or uninstalling a weapon into a mount requires 1 day, a successful Crafting DC 31 check, and an appropriate weapon. The weapon mounts can be equipped with Huge or smaller ranged siege weapons.",
+          "traits": []
+        }
+      ],
+      "traitLinks": [],
+      "weaknesses": "fire 10 until broken",
+      "description": "A wind-driven catamaran that can move faster with its spinnakers."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C72567B7-302A-5E5E-A728-246799D55835",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Combat Kite",
+    "slug": "combat-kite-battlecry",
+    "descr": "",
+    "data": {
+      "level": 6,
+      "rarity": "common",
+      "traits": [
+        "magical"
+      ],
+      "size": "huge",
+      "price": "750 gp",
+      "space": {
+        "high": 10,
+        "long": 20,
+        "wide": 20
+      },
+      "crew": "1 pilot",
+      "passengers": "0",
+      "pilotingCheck": "Nature (DC 24) or Piloting Lore (DC 22)",
+      "speed": "fly 15 feet (magical, wind)",
+      "ac": {
+        "value": 19,
+        "details": ""
+      },
+      "hp": {
+        "value": 80,
+        "details": "",
+        "bt": 40
+      },
+      "hardness": 5,
+      "fortitude": 14,
+      "collisionDC": 22,
+      "collisionDamage": "4d8",
+      "abilities": [
+        {
+          "name": "Cargo Release",
+          "text": "The combat kite can carry a glider or up to 20 Bulk of materials. The glider or materials can be remotely released by Interacting with the magical tether.",
+          "traits": []
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ],
+      "weaknesses": "fire 5 until broken",
+      "description": "A windborne magical craft."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "magical",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E3440134-0CC8-5988-BFD7-F56B662E035F",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Combat Transport",
+    "slug": "combat-transport-battlecry",
+    "descr": "",
+    "data": {
+      "level": 15,
+      "rarity": "common",
+      "traits": [
+        "clockwork"
+      ],
+      "size": "gargantuan",
+      "price": "20,000 gp",
+      "space": {
+        "high": 30,
+        "long": 80,
+        "wide": 60
+      },
+      "crew": "1 pilot, 3 crew",
+      "passengers": "40",
+      "pilotingCheck": "Crafting (DC 36) or Piloting Lore (DC 34)",
+      "speed": "fly 40 feet (alchemical, clockwork, wind)",
+      "ac": {
+        "value": 34,
+        "details": ""
+      },
+      "hp": {
+        "value": 230,
+        "details": "",
+        "bt": 115
+      },
+      "hardness": 20,
+      "fortitude": 26,
+      "collisionDC": 34,
+      "collisionDamage": "9d12",
+      "abilities": [
+        {
+          "name": "Space",
+          "text": "80 feet long, 60 feet wide, 30 feet high",
+          "traits": []
+        },
+        {
+          "name": "Hover",
+          "text": "Combat transports have a series of six large clockwork fans built into their flat under body. These fans can be activated when Stopping the vehicle to allow it to hover within 5 feet of the surface so that troops can be quickly deployed via forward and aft ramps, regardless of the nature of the terrain.",
+          "traits": []
+        },
+        {
+          "name": "Sluggish",
+          "text": "This vehicle must move twice its length for each 90-degree turn it makes.",
+          "traits": []
+        },
+        {
+          "name": "Wind-Up",
+          "text": "30 minutes of wind-up, 3 hours of operational time, DC 34, standby\n\n---\n\nFor a clockwork to act, it must be wound with a unique key by another creature. This takes 1 minute. Once wound, it remains operational for the listed amount of time, usually 24 hours, after which time it becomes unaware of its surroundings and can't act until it's wound again. Some clockworks' abilities require them to spend some of their remaining operational time. They can't spend more than they have and shut down immediately once they have 0 time remaining. If it's unclear when a clockwork was last wound, most clockwork keepers wind all their clockworks at a set time, typically 8 a.m.\n\nA clockwork that lists standby in its wind-up entry can enter standby mode as a 3-action activity. Its operational time doesn't decrease in standby, but it can sense its surroundings (with a -2 penalty to Perception). It can't act, with one exception: when it perceives a creature, it can exit standby as a reaction (rolling initiative if appropriate).\n\nA creature can attempt to Disable a Device to wind a clockwork down (with a DC listed in the wind-up entry). For each success, the clockwork loses 1 hour of operational time. This can be done even if the clockwork is in standby mode.",
+          "traits": []
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "clockwork",
+          "slug": "clockwork"
+        }
+      ],
+      "immunities": [
+        "precision damage"
+      ],
+      "description": "A flying transport powered by alchemical and clockwork systems."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "clockwork",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "7B74F013-679A-5126-8A04-822684BEDAA5",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Cook's Caravan",
+    "slug": "cook-s-caravan-battlecry",
+    "descr": "",
+    "data": {
+      "level": 20,
+      "rarity": "rare",
+      "traits": [],
+      "size": "gargantuan",
+      "price": "270,000 gp",
+      "space": {
+        "high": 20,
+        "long": 100,
+        "wide": 30
+      },
+      "crew": "5 pilot, 25 crew",
+      "passengers": "50",
+      "pilotingCheck": "Driving Lore (DC 40) or Nature (DC 42 to DC 45 depending on the pulling creatures)",
+      "speed": "the Speed of the slowest pulling creature (pulled by 12 Large creatures)",
+      "ac": {
+        "value": 44,
+        "details": ""
+      },
+      "hp": {
+        "value": 350,
+        "details": "",
+        "bt": 175
+      },
+      "hardness": 20,
+      "fortitude": 35,
+      "collisionDC": 40,
+      "collisionDamage": "15d10",
+      "abilities": [
+        {
+          "name": "Space",
+          "text": "100 feet long, 30 feet wide, 20 feet high",
+          "traits": []
+        },
+        {
+          "name": "Sluggish",
+          "text": "This vehicle must move twice its length for each 90-degree turn it makes.",
+          "traits": []
+        }
+      ],
+      "traitLinks": [],
+      "description": "A large caravan vehicle pulled by many creatures."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3D5EFD44-DA7F-5D54-A7F7-8393BAD7B35D",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Floating Camouflage Blind",
+    "slug": "floating-camouflage-blind-battlecry",
+    "descr": "",
+    "data": {
+      "level": 4,
+      "rarity": "common",
+      "traits": [
+        "clockwork"
+      ],
+      "size": "large",
+      "price": "225 gp",
+      "space": {
+        "high": 10,
+        "long": 10,
+        "wide": 10
+      },
+      "crew": "1 pilot",
+      "passengers": "3",
+      "pilotingCheck": "Crafting (DC 21) or Sailing Lore (DC 19",
+      "speed": "swim 10 feet (clockwork)",
+      "ac": {
+        "value": 14,
+        "details": ""
+      },
+      "hp": {
+        "value": 50,
+        "details": "",
+        "bt": 25
+      },
+      "hardness": 5,
+      "fortitude": 10,
+      "collisionDC": 19,
+      "collisionDamage": "2d10",
+      "abilities": [
+        {
+          "name": "Wind-Up",
+          "text": "10 minutes of wind-up, 1 hour of operational time, DC 19, standby\n\n---\n\nFor a clockwork to act, it must be wound with a unique key by another creature. This takes 1 minute. Once wound, it remains operational for the listed amount of time, usually 24 hours, after which time it becomes unaware of its surroundings and can't act until it's wound again. Some clockworks' abilities require them to spend some of their remaining operational time. They can't spend more than they have and shut down immediately once they have 0 time remaining. If it's unclear when a clockwork was last wound, most clockwork keepers wind all their clockworks at a set time, typically 8 a.m.\n\nA clockwork that lists standby in its wind-up entry can enter standby mode as a 3-action activity. Its operational time doesn't decrease in standby, but it can sense its surroundings (with a -2 penalty to Perception). It can't act, with one exception: when it perceives a creature, it can exit standby as a reaction (rolling initiative if appropriate).\n\nA creature can attempt to Disable a Device to wind a clockwork down (with a DC listed in the wind-up entry). For each success, the clockwork loses 1 hour of operational time. This can be done even if the clockwork is in standby mode.",
+          "traits": []
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "clockwork",
+          "slug": "clockwork"
+        }
+      ],
+      "weaknesses": "fire 5 until broken",
+      "description": "A clockwork floating platform intended to conceal its occupants."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "clockwork",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "6D88684C-3CA2-593F-88D0-C8D8F6DA0662",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Flying Fortress",
+    "slug": "flying-fortress-battlecry",
+    "descr": "",
+    "data": {
+      "level": 20,
+      "rarity": "rare",
+      "traits": [
+        "clockwork"
+      ],
+      "size": "gargantuan",
+      "price": "",
+      "space": {
+        "high": 70,
+        "long": 70,
+        "wide": 80
+      },
+      "crew": "1 pilot, 25 crew",
+      "passengers": "100",
+      "pilotingCheck": "Arcana (DC 42) or Piloting Lore (DC 40)",
+      "speed": "fly 30 feet (clockwork, magical, wind)",
+      "ac": {
+        "value": 44,
+        "details": ""
+      },
+      "hp": {
+        "value": 330,
+        "details": "",
+        "bt": 165
+      },
+      "hardness": 20,
+      "fortitude": 35,
+      "collisionDC": 1510,
+      "collisionDamage": "40",
+      "abilities": [
+        {
+          "name": "Space",
+          "text": "70 feet long, 70 feet wide, 80 feet high",
+          "traits": []
+        },
+        {
+          "name": "Sluggish",
+          "text": "This vehicle must move twice its length for each 90-degree turn it makes.",
+          "traits": []
+        },
+        {
+          "name": "Weapon Mounts",
+          "text": "This vehicle has eight weapon mounts, with two on each side of the fortress. At purchase, these weapon mounts are initially empty. Installing or uninstalling a weapon into a mount requires 1 day, a successful Crafting DC 40 check, and an appropriate weapon. These weapon mounts can be equipped with Huge or smaller ranged siege weapons.",
+          "traits": []
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "clockwork",
+          "slug": "clockwork"
+        }
+      ],
+      "description": "A fortified flying vehicle driven by clockwork, magic, and wind."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "clockwork",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "463809D6-8A74-5248-8417-6EFE5F09F754",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Flying Submersible",
+    "slug": "flying-submersible-battlecry",
+    "descr": "",
+    "data": {
+      "level": 17,
+      "rarity": "rare",
+      "traits": [
+        "clockwork"
+      ],
+      "size": "gargantuan",
+      "price": "55,000 gp",
+      "space": {
+        "high": 40,
+        "long": 60,
+        "wide": 40
+      },
+      "crew": "1 pilot, 3 crew",
+      "passengers": "30",
+      "pilotingCheck": "Athletics (DC 38), Piloting Lore (DC 38), Sailing Lore (DC 36)",
+      "speed": "swim 30 (alchemical, clockwork)",
+      "ac": {
+        "value": 39,
+        "details": ""
+      },
+      "hp": {
+        "value": 280,
+        "details": "",
+        "bt": 140
+      },
+      "hardness": 20,
+      "fortitude": 30,
+      "collisionDC": 36,
+      "collisionDamage": "11d10",
+      "abilities": [
+        {
+          "name": "Space",
+          "text": "60 feet long, 40 feet wide, 40 feet high",
+          "traits": []
+        },
+        {
+          "name": "Amphibious",
+          "text": "This vehicle can land on water and then submerge up to a depth of 200 feet.",
+          "traits": []
+        },
+        {
+          "name": "Deploy Balloons",
+          "text": "The pilot engages a lever that activates the clockwork components to launch two massive tethered balloons and fill them with lighter-than-air gas. This grants the flying submersible a fly Speed of 30 but removes its swim Speed. This transformation lasts until the pilot disengages the balloons by performing this action again.",
+          "traits": [
+            "manipulate"
+          ],
+          "actions": "three"
+        },
+        {
+          "name": "Weapon Mounts",
+          "text": "This vehicle has two weapon mounts. At purchase, these weapon mounts are initially empty. Installing or uninstalling a weapon into a mount requires 1 day, a successful Crafting DC 36 check, and an appropriate weapon. The weapon mounts can be equipped with Huge or smaller ranged siege weapons.",
+          "traits": []
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "clockwork",
+          "slug": "clockwork"
+        }
+      ],
+      "weaknesses": "fire 10 until broken",
+      "description": "A vessel with alchemical and clockwork systems for underwater travel."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "clockwork",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "29A28925-51D1-5D8C-A908-E39D55082E49",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Ice Breaker",
+    "slug": "ice-breaker-battlecry",
+    "descr": "",
+    "data": {
+      "level": 20,
+      "rarity": "rare",
+      "traits": [
+        "clockwork",
+        "magical"
+      ],
+      "size": "gargantuan",
+      "price": "270,000 gp",
+      "space": {
+        "high": 50,
+        "long": 120,
+        "wide": 40
+      },
+      "crew": "1 pilot, 25 crew",
+      "passengers": "100",
+      "pilotingCheck": "Arcana (DC 42) or Sailing Lore (DC 40)",
+      "speed": "swim 40 feet or 20 feet in heavy ice (clockwork, magical)",
+      "ac": {
+        "value": 44,
+        "details": ""
+      },
+      "hp": {
+        "value": 360,
+        "details": "",
+        "bt": 180
+      },
+      "hardness": 20,
+      "fortitude": 35,
+      "collisionDC": 40,
+      "collisionDamage": "15d10",
+      "abilities": [
+        {
+          "name": "Space",
+          "text": "120 feet long, 40 feet wide, 50 feet high",
+          "traits": []
+        },
+        {
+          "name": "Ice Passage",
+          "text": "This vessel can move through sea ice up to 20 feet thick, leaving a path of open water behind it.",
+          "traits": []
+        },
+        {
+          "name": "Sluggish",
+          "text": "This vehicle must move twice its length for each 90-degree turn it makes.",
+          "traits": []
+        },
+        {
+          "name": "Weapon Mounts",
+          "text": "This vehicle has eight weapon mounts; one each on the bow and stern, and three mounted on each side. At purchase, these weapon mounts are initially empty. Installing or uninstalling a weapon into a mount requires 1 day, a successful Crafting DC 40 check, and an appropriate weapon. The weapon mounts can be equipped with Huge or smaller ranged siege weapons.",
+          "traits": []
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "clockwork",
+          "slug": "clockwork"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ],
+      "immunities": [
+        "precision damage"
+      ],
+      "description": "A magical clockwork vessel designed to move through icy water."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "clockwork",
+      "magical",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "91AD5DDC-BD34-59AC-8B8B-C83743DDC3E8",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Iceboat",
+    "slug": "iceboat-battlecry",
+    "descr": "",
+    "data": {
+      "level": 6,
+      "rarity": "common",
+      "traits": [],
+      "size": "large",
+      "price": "750 gp",
+      "space": {
+        "high": 20,
+        "long": 10,
+        "wide": 10
+      },
+      "crew": "1 pilot, 1 crew",
+      "passengers": "2",
+      "pilotingCheck": "Nature (DC 24) or Sailing Lore (DC 22)",
+      "speed": "50 feet on ice (wind), swim 30 feet (wind)",
+      "ac": {
+        "value": 18,
+        "details": ""
+      },
+      "hp": {
+        "value": 80,
+        "details": "",
+        "bt": 40
+      },
+      "hardness": 5,
+      "fortitude": 13,
+      "collisionDC": 22,
+      "collisionDamage": "4d10",
+      "abilities": [
+        {
+          "name": "Ice Traverser",
+          "text": "Ice is not difficult terrain for iceboats. However, they're unable to travel over land unless it's completely covered in ice.",
+          "traits": []
+        },
+        {
+          "name": "Steel Keel",
+          "text": "Iceboats have steel blades affixed to their keels and outriggers that enable them to travel over ice at tremendous speed.",
+          "traits": []
+        }
+      ],
+      "traitLinks": [],
+      "weaknesses": "fire 5",
+      "description": "A wind-driven craft that can travel over ice or water."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0EAAECF9-D147-561E-8A47-98C3C6EBD2E2",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Ironclad",
+    "slug": "ironclad-battlecry",
+    "descr": "",
+    "data": {
+      "level": 20,
+      "rarity": "uncommon",
+      "traits": [
+        "magical"
+      ],
+      "size": "gargantuan",
+      "price": "220,000 gp",
+      "space": {
+        "high": 20,
+        "long": 50,
+        "wide": 100
+      },
+      "crew": "1 pilot, 19 crew",
+      "passengers": "30",
+      "pilotingCheck": "Arcana (DC 42) or Sailing Lore (DC 40)",
+      "speed": "swim 40 feet (magical)",
+      "ac": {
+        "value": 44,
+        "details": ""
+      },
+      "hp": {
+        "value": 320,
+        "details": "",
+        "bt": 160
+      },
+      "hardness": 20,
+      "fortitude": 34,
+      "collisionDC": 40,
+      "collisionDamage": "14d10",
+      "abilities": [
+        {
+          "name": "Space",
+          "text": "100 feet long, 60 feet wide, 20 feet high",
+          "traits": []
+        },
+        {
+          "name": "Sluggish",
+          "text": "This vehicle must move twice its length for each 90-degree turn it makes.",
+          "traits": []
+        },
+        {
+          "name": "Weapon Mounts",
+          "text": "This vehicle has four weapon mounts, two on each side of the vehicle. At purchase, these weapon mounts are initially empty. Installing or uninstalling a weapon into a mount requires 1 day, a successful Crafting DC 40 check, and an appropriate weapon. The weapon mounts can be equipped with Huge or smaller ranged siege weapons.",
+          "traits": []
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ],
+      "immunities": [
+        "precision damage"
+      ],
+      "description": "A magically propelled armored vessel."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "magical",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E8EAC671-64CE-5EF1-AEC1-3DD3F1B365B8",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Medical Wagon",
+    "slug": "medical-wagon-battlecry",
+    "descr": "",
+    "data": {
+      "level": 7,
+      "rarity": "common",
+      "traits": [],
+      "size": "large",
+      "price": "1,000 gp",
+      "space": {
+        "high": 5,
+        "long": 10,
+        "wide": 10
+      },
+      "crew": "1 pilot, 1 crew",
+      "passengers": "1",
+      "pilotingCheck": "",
+      "speed": "the Speed of the slowest pulling creature (pulled by 1 Large creature)",
+      "ac": {
+        "value": 20,
+        "details": ""
+      },
+      "hp": {
+        "value": 90,
+        "details": "",
+        "bt": 45
+      },
+      "hardness": 5,
+      "fortitude": 14,
+      "collisionDC": 23,
+      "collisionDamage": "5d8",
+      "abilities": [
+        {
+          "name": "Enhanced Medicinal Tools",
+          "text": "When attempting a Medicine check inside a medical wagon, you gain a +2 item bonus.",
+          "traits": []
+        }
+      ],
+      "traitLinks": [],
+      "description": "A wagon equipped for medical use and drawn by a creature."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3D1DA1B8-5F4F-5263-89CB-8ACCE9CAC649",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Mobile Command Post",
+    "slug": "mobile-command-post-battlecry",
+    "descr": "",
+    "data": {
+      "level": 16,
+      "rarity": "rare",
+      "traits": [
+        "clockwork",
+        "magical"
+      ],
+      "size": "gargantuan",
+      "price": "30,000 gp",
+      "space": {
+        "high": 20,
+        "long": 90,
+        "wide": 50
+      },
+      "crew": "1 pilot, 9 crew",
+      "passengers": "40",
+      "pilotingCheck": "Arcana (DC 37), Crafting (DC 37), or Driving Lore (DC 35)",
+      "speed": "20 feet (clockwork, magical)",
+      "ac": {
+        "value": 36,
+        "details": ""
+      },
+      "hp": {
+        "value": 250,
+        "details": "",
+        "bt": 125
+      },
+      "hardness": 20,
+      "fortitude": 28,
+      "collisionDC": 35,
+      "collisionDamage": "11d10",
+      "abilities": [
+        {
+          "name": "Space",
+          "text": "90 feet long, 50 feet wide, 20 feet high",
+          "traits": []
+        },
+        {
+          "name": "Sluggish",
+          "text": "This vehicle must move twice its length for each 90-degree turn it makes.",
+          "traits": []
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "clockwork",
+          "slug": "clockwork"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ],
+      "description": "A clockwork vehicle built as a traveling command center."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "clockwork",
+      "magical",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C95FFEF2-65CE-573D-8398-22BBA2474A8B",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Necro Roamer",
+    "slug": "necro-roamer-battlecry",
+    "descr": "",
+    "data": {
+      "level": 15,
+      "rarity": "rare",
+      "traits": [
+        "magical"
+      ],
+      "size": "large",
+      "price": "19,900 gp",
+      "space": {
+        "high": 15,
+        "long": 15,
+        "wide": 15
+      },
+      "crew": "1 pilot, 2 crew",
+      "passengers": "3",
+      "pilotingCheck": "Arcana (DC 36) or Driving Lore (DC 34)",
+      "speed": "30 feet (magical)",
+      "ac": {
+        "value": 34,
+        "details": ""
+      },
+      "hp": {
+        "value": 220,
+        "details": "",
+        "bt": 110
+      },
+      "hardness": 20,
+      "fortitude": 26,
+      "collisionDC": 32,
+      "collisionDamage": "9d12",
+      "abilities": [
+        {
+          "name": "Weapon Mounts",
+          "text": "This vehicle has two rooftop weapon mounts. At purchase, these weapon mounts are initially empty. Installing or uninstalling a weapon into a mount requires 1 day, a successful Crafting DC 36 check, and an appropriate weapon. These weapon mounts can be equipped with Large or smaller ranged siege weapons.",
+          "traits": []
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ],
+      "description": "A magically propelled vehicle for ground travel."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "magical",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D596B533-56E3-5B7D-9D06-190B4407A093",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Nighthawk",
+    "slug": "nighthawk-battlecry",
+    "descr": "",
+    "data": {
+      "level": 10,
+      "rarity": "uncommon",
+      "traits": [],
+      "size": "huge",
+      "price": "3,000 gp",
+      "space": {
+        "high": 10,
+        "long": 15,
+        "wide": 15
+      },
+      "crew": "1 pilot",
+      "passengers": "6",
+      "pilotingCheck": "Athletics (DC 29) or Piloting Lore (DC 27)",
+      "speed": "fly 35 feet (wind)",
+      "ac": {
+        "value": 24,
+        "details": ""
+      },
+      "hp": {
+        "value": 130,
+        "details": "",
+        "bt": 65
+      },
+      "hardness": 10,
+      "fortitude": 18,
+      "collisionDC": 27,
+      "collisionDamage": "8d8",
+      "abilities": [
+        {
+          "name": "Aerial Launch",
+          "text": "Nighthawks can be carried into battle beneath a larger airship and dropped from higher altitudes.",
+          "traits": []
+        }
+      ],
+      "traitLinks": [],
+      "weaknesses": "fire 10 until broken",
+      "description": "A wind-driven flying craft."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "671475AB-E714-5DBA-8DD3-5A3F1CE428FB",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Siege Barge",
+    "slug": "siege-barge-battlecry",
+    "descr": "",
+    "data": {
+      "level": 19,
+      "rarity": "common",
+      "traits": [],
+      "size": "gargantuan",
+      "price": "120,000 gp",
+      "space": {
+        "high": 20,
+        "long": 60,
+        "wide": 30
+      },
+      "crew": "1 pilot, 4 crew",
+      "passengers": "20",
+      "pilotingCheck": "Nature (DC 41 to 46 depending on the pulling creatures) or Sailing Lore (DC 39)",
+      "speed": "the Speed of the slowest pulling creature (pulled by 4 Huge creatures)",
+      "ac": {
+        "value": 42,
+        "details": ""
+      },
+      "hp": {
+        "value": 300,
+        "details": "",
+        "bt": 150
+      },
+      "hardness": 20,
+      "fortitude": 33,
+      "collisionDC": 39,
+      "collisionDamage": "13d10",
+      "abilities": [
+        {
+          "name": "Space",
+          "text": "60 feet long, 30 feet wide, 20 feet high",
+          "traits": []
+        },
+        {
+          "name": "Sluggish",
+          "text": "This vehicle must move twice its length for each 90-degree turn it makes.",
+          "traits": []
+        },
+        {
+          "name": "Weapon Mounts",
+          "text": "This vehicle has two weapon mounts. At purchase, these weapon mounts are initially empty. Installing or uninstalling a weapon into a mount requires 1 day, a successful Crafting DC 39 check, and an appropriate weapon. The weapon mounts can be equipped with Huge or smaller ranged siege weapons.",
+          "traits": []
+        }
+      ],
+      "traitLinks": [],
+      "description": "A heavy barge drawn by large creatures."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9EC2ADB5-02FB-58DE-8E7D-29EC3989A100",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Siege Dragon",
+    "slug": "siege-dragon-battlecry",
+    "descr": "",
+    "data": {
+      "level": 19,
+      "rarity": "rare",
+      "traits": [
+        "clockwork"
+      ],
+      "size": "gargantuan",
+      "price": "120,000 gp",
+      "space": {
+        "high": 20,
+        "long": 30,
+        "wide": 30
+      },
+      "crew": "1 pilot, 3 crew",
+      "passengers": "6",
+      "pilotingCheck": "Arcana (DC 41), Crafting (DC 41), or Piloting Lore (DC 39)",
+      "speed": "40 fly 120 feet (clockwork, magical, wind)",
+      "ac": {
+        "value": 42,
+        "details": ""
+      },
+      "hp": {
+        "value": 300,
+        "details": "",
+        "bt": 150
+      },
+      "hardness": 20,
+      "fortitude": 34,
+      "collisionDC": 39,
+      "collisionDamage": "14d10",
+      "abilities": [
+        {
+          "name": "Frightful",
+          "text": "A creature who is within 100 feet of a siege dragon at the start of its turn must succeed a Will DC 39 save or become [Frightened 2](/condition/frightened-player-core). Regardless of the result of the saving throw, the creature is then temporarily immune to this effect for 24 hours.",
+          "traits": [
+            "emotion",
+            "fear",
+            "mental"
+          ]
+        },
+        {
+          "name": "Weapon Mounts",
+          "text": "This vehicle has a weapon mount. At purchase, this weapon mount is initially empty. Installing or uninstalling a weapon into the mount requires 3 hours, a successful Crafting DC 39 check, and an appropriate weapon. The mount can be equipped with a Large or smaller ranged siege weapon.",
+          "traits": []
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "clockwork",
+          "slug": "clockwork"
+        }
+      ],
+      "immunities": [
+        "precision damage"
+      ],
+      "description": "A clockwork flying vehicle aided by magic and wind."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "clockwork",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "BF5B76BE-FBF6-5B35-8FBF-609C828AA730",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Skimmer",
+    "slug": "skimmer-battlecry",
+    "descr": "",
+    "data": {
+      "level": 11,
+      "rarity": "common",
+      "traits": [],
+      "size": "huge",
+      "price": "4,000 gp",
+      "space": {
+        "high": 35,
+        "long": 20,
+        "wide": 15
+      },
+      "crew": "1 pilot, 3 crew",
+      "passengers": "2",
+      "pilotingCheck": "Nature (DC 30) or Sailing Lore (DC 28)",
+      "speed": "swim 30 feet or 60 feet using hydrofoil (wind)",
+      "ac": {
+        "value": 24,
+        "details": ""
+      },
+      "hp": {
+        "value": 150,
+        "details": "",
+        "bt": 75
+      },
+      "hardness": 15,
+      "fortitude": 19,
+      "collisionDC": 28,
+      "collisionDamage": "7d10",
+      "abilities": [
+        {
+          "name": "Deploy Hydrofoil",
+          "text": "The skimmer's hydrofoils are deployed by pulling a lever, doubling the vehicle's normal Speed. However, this makes the vehicle less maneuverable, and it must move twice its length for each 90-degree turn it makes while the hydrofoils are deployed. The pilot can take this action again to retract the hydrofoils and return the skimmer to its normal Speed and maneuverability.",
+          "traits": [
+            "manipulate"
+          ],
+          "actions": "two"
+        }
+      ],
+      "traitLinks": [],
+      "weaknesses": "fire 5 until broken",
+      "description": "A wind-driven boat that can travel faster on its hydrofoil."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "00644766-5558-564B-81EE-F95D96D3667F",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Sky Chariot, Armored",
+    "slug": "sky-chariot-armored-battlecry",
+    "descr": "",
+    "data": {
+      "level": 14,
+      "rarity": "common",
+      "traits": [],
+      "size": "huge",
+      "price": "",
+      "space": {
+        "high": 10,
+        "long": 20,
+        "wide": 20
+      },
+      "crew": "1 pilot, 2 crew",
+      "passengers": "4",
+      "pilotingCheck": "Arcana (DC 34), Nature (DC 34 to 42 depending on the pulling creature), or Piloting Lore (DC 32)",
+      "speed": "the fly Speed of the slowest pulling creature (pulled by 6 Large creatures, 2 Huge creatures, or 1 Gargantuan creature)",
+      "ac": {
+        "value": 33,
+        "details": ""
+      },
+      "hp": {
+        "value": 190,
+        "details": "",
+        "bt": 95
+      },
+      "hardness": 20,
+      "fortitude": 25,
+      "collisionDC": 32,
+      "collisionDamage": "10d10",
+      "abilities": [
+        {
+          "name": "Alchemical Launcher",
+          "text": "Two crew members each perform a 3-action activity on their turn to launch a massive alchemical concoction from the chariot. The concoction explodes on impact, dealing 10d6 fire damage to each creature in a 15-foot burst up to 50 feet away (basic Reflex DC 30 save).",
+          "traits": [
+            "fire",
+            "manipulate"
+          ],
+          "actions": "three"
+        }
+      ],
+      "traitLinks": [],
+      "description": "An armored airborne chariot drawn by flying creatures."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5FA84819-AA0F-5629-852E-A8D23A645A88",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Steam Turtle",
+    "slug": "steam-turtle-battlecry",
+    "descr": "",
+    "data": {
+      "level": 16,
+      "rarity": "rare",
+      "traits": [],
+      "size": "gargantuan",
+      "price": "30,000 gp",
+      "space": {
+        "high": 40,
+        "long": 80,
+        "wide": 50
+      },
+      "crew": "1 pilot, 3 crew",
+      "passengers": "40",
+      "pilotingCheck": "Crafting (DC 37) or Sailing Lore (DC 35)",
+      "speed": "swim 30 feet (alchemical)",
+      "ac": {
+        "value": 36,
+        "details": ""
+      },
+      "hp": {
+        "value": 250,
+        "details": "",
+        "bt": 125
+      },
+      "hardness": 20,
+      "fortitude": 29,
+      "collisionDC": 35,
+      "collisionDamage": "11d10",
+      "abilities": [
+        {
+          "name": "Space",
+          "text": "80 feet long, 50 feet wide, 40 feet high",
+          "traits": []
+        },
+        {
+          "name": "Sluggish",
+          "text": "This vehicle must move twice its length for each 90-degree turn it makes.",
+          "traits": []
+        },
+        {
+          "name": "Release Steam",
+          "text": "**Frequency** once per hour\n\n---\n\n**Effect** Two crew members each perform a 3-action activity on their turn to release a massive buildup of steam around the vehicle, dealing 11d6 fire damage to each creature in a 10-foot emanation (basic Reflex DC 35 save). The release mechanism stops working if the vehicle is broken.",
+          "traits": [
+            "fire",
+            "manipulate"
+          ],
+          "actions": "three"
+        }
+      ],
+      "traitLinks": [],
+      "immunities": [
+        "critical hits",
+        "precision damage"
+      ],
+      "description": "An alchemically driven vessel designed for travel through water."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "281175F7-6040-5294-BAAF-2607FEC0C387",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Steelstone Assault Engine",
+    "slug": "steelstone-assault-engine-battlecry",
+    "descr": "",
+    "data": {
+      "level": 19,
+      "rarity": "uncommon",
+      "traits": [
+        "clockwork"
+      ],
+      "size": "huge",
+      "price": "120,000 gp",
+      "space": {
+        "high": 20,
+        "long": 30,
+        "wide": 20
+      },
+      "crew": "1 pilot, 5 crew",
+      "passengers": "2",
+      "pilotingCheck": "Crafting (DC 41) or Driving Lore (DC 39)",
+      "speed": "25 feet (alchemical, clockwork)",
+      "ac": {
+        "value": 43,
+        "details": ""
+      },
+      "hp": {
+        "value": 320,
+        "details": "",
+        "bt": 160
+      },
+      "hardness": 25,
+      "fortitude": 33,
+      "collisionDC": 39,
+      "collisionDamage": "14d10",
+      "abilities": [],
+      "traitLinks": [
+        {
+          "label": "clockwork",
+          "slug": "clockwork"
+        }
+      ],
+      "immunities": [
+        "precision damage"
+      ],
+      "description": "An alchemical and clockwork vehicle built for assault."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "clockwork",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "6966BBD4-8B2B-57E3-B2CC-4846AE000F61",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Two-Person Submersible",
+    "slug": "two-person-submersible-battlecry",
+    "descr": "",
+    "data": {
+      "level": 2,
+      "rarity": "uncommon",
+      "traits": [
+        "clockwork"
+      ],
+      "size": "large",
+      "price": "120 gp",
+      "space": {
+        "high": 5,
+        "long": 10,
+        "wide": 5
+      },
+      "crew": "1 pilot",
+      "passengers": "1",
+      "pilotingCheck": "Crafting (DC 18) or Sailing Lore (DC 16)",
+      "speed": "swim 20 feet (clockwork)",
+      "ac": {
+        "value": 12,
+        "details": ""
+      },
+      "hp": {
+        "value": 30,
+        "details": "",
+        "bt": 15
+      },
+      "hardness": 5,
+      "fortitude": 8,
+      "collisionDC": 16,
+      "collisionDamage": "2d8",
+      "abilities": [
+        {
+          "name": "Wind-Up",
+          "text": "30 minutes of wind-up, 3 hour of operational time, DC 16, standby\n\n---\n\nFor a clockwork to act, it must be wound with a unique key by another creature. This takes 1 minute. Once wound, it remains operational for the listed amount of time, usually 24 hours, after which time it becomes unaware of its surroundings and can't act until it's wound again. Some clockworks' abilities require them to spend some of their remaining operational time. They can't spend more than they have and shut down immediately once they have 0 time remaining. If it's unclear when a clockwork was last wound, most clockwork keepers wind all their clockworks at a set time, typically 8 a.m.\n\nA clockwork that lists standby in its wind-up entry can enter standby mode as a 3-action activity. Its operational time doesn't decrease in standby, but it can sense its surroundings (with a -2 penalty to Perception). It can't act, with one exception: when it perceives a creature, it can exit standby as a reaction (rolling initiative if appropriate).\n\nA creature can attempt to Disable a Device to wind a clockwork down (with a DC listed in the wind-up entry). For each success, the clockwork loses 1 hour of operational time. This can be done even if the clockwork is in standby mode.",
+          "traits": []
+        },
+        {
+          "name": "Submersible",
+          "text": "This vehicle can travel just below the surface of the water.",
+          "traits": []
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "clockwork",
+          "slug": "clockwork"
+        }
+      ],
+      "description": "A small clockwork vessel built to carry two people underwater."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "clockwork",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "809AAC44-9835-565C-A131-4044FB9B785B",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "War Strider",
+    "slug": "war-strider-battlecry",
+    "descr": "",
+    "data": {
+      "level": 18,
+      "rarity": "uncommon",
+      "traits": [],
+      "size": "huge",
+      "price": "63,000 gp",
+      "space": {
+        "high": 40,
+        "long": 20,
+        "wide": 20
+      },
+      "crew": "1 pilot, 5 crew",
+      "passengers": "10",
+      "pilotingCheck": "Crafting (DC 40) or Driving Lore (DC 38)",
+      "speed": "30 feet (alchemical, clockwork), ignores difficult terrain",
+      "ac": {
+        "value": 40,
+        "details": ""
+      },
+      "hp": {
+        "value": 280,
+        "details": "",
+        "bt": 140
+      },
+      "hardness": 20,
+      "fortitude": 32,
+      "collisionDC": 38,
+      "collisionDamage": "",
+      "abilities": [
+        {
+          "name": "Weapon Mounts",
+          "text": "This vehicle has two forward-mounted weapon mounts. At purchase, these weapon mounts are initially empty. Installing or uninstalling a weapon into a mount requires 1 day, a successful Crafting DC 37 check, and an appropriate weapon. The weapon mounts can be equipped with Huge or smaller ranged siege weapons.",
+          "traits": []
+        },
+        {
+          "name": "Long Stride",
+          "text": "A war strider can bridge a gap as wide as 30 feet during a move action as long as it has sufficient movement remaining.",
+          "traits": []
+        }
+      ],
+      "traitLinks": [],
+      "description": "A clockwork land vehicle that crosses difficult terrain without slowing."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "FED9F48E-5650-5650-901F-9C0D8172FAC5",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "War Wagon",
+    "slug": "war-wagon-battlecry",
+    "descr": "",
+    "data": {
+      "level": 8,
+      "rarity": "common",
+      "traits": [],
+      "size": "huge",
+      "price": "1,500 gp",
+      "space": {
+        "high": 5,
+        "long": 15,
+        "wide": 15
+      },
+      "crew": "1 pilot, 1 crew",
+      "passengers": "6",
+      "pilotingCheck": "Driving Lore (DC 24) or Nature (DC 26 to DC 34 depending on the pulling creatures",
+      "speed": "the Speed of the slowest pulling creature (pulled by 6 Large creatures)",
+      "ac": {
+        "value": 21,
+        "details": ""
+      },
+      "hp": {
+        "value": 120,
+        "details": "",
+        "bt": 60
+      },
+      "hardness": 10,
+      "fortitude": 16,
+      "collisionDC": 24,
+      "collisionDamage": "6d10",
+      "abilities": [
+        {
+          "name": "Weapon Mounts",
+          "text": "This vehicle has one weapon mount. At purchase, the weapon mount is initially empty. Installing or uninstalling a weapon into a mount requires 1 day, a successful Crafting DC 24 check, and an appropriate weapon. This weapon mount can be equipped with a Large or smaller ranged siege weapon.",
+          "traits": []
+        },
+        {
+          "name": "Countermeasures",
+          "text": "A creature that Strikes a war wagon with a non-reach melee weapon or unarmed attack takes 3d8 piercing damage (basic Reflex DC 24 save).",
+          "traits": []
+        }
+      ],
+      "traitLinks": [],
+      "description": "A wagon drawn by large creatures."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

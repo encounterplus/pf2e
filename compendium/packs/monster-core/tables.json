@@ -1,0 +1,73 @@
+[
+  {
+    "id": "5730EDD7-2D96-51EF-8183-A4CA026A7E5F",
+    "kind": "Table",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Protean Warpwave Effect",
+    "slug": "protean-warpwave-effect-monster-core",
+    "descr": "Roll 1d8 and use the matching result range. [Open the source entry](/action/protean-warpwave-monster-core) for context.",
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "table",
+      "rollable",
+      "monster-core"
+    ],
+    "columns": [
+      {
+        "name": "1d8",
+        "size": 0.5,
+        "align": null
+      },
+      {
+        "name": "Warpwave Effect",
+        "size": 0.5,
+        "align": null
+      }
+    ],
+    "rows": [
+      [
+        "1",
+        "Clumsy 2 (Clumsy 3 on a critical failure)"
+      ],
+      [
+        "2",
+        "Confused and gains 4d6 temporary Hit Points"
+      ],
+      [
+        "3",
+        "Dazzled (permanent on a critical failure)"
+      ],
+      [
+        "4",
+        "Enfeebled 2 (Enfeebled 3 on a critical failure)"
+      ],
+      [
+        "5",
+        "Immobilized by filaments of energy"
+      ],
+      [
+        "6",
+        "Quickened (Stride, Strike, or Step only)"
+      ],
+      [
+        "7",
+        "Slowed 1"
+      ],
+      [
+        "8",
+        "Stupefied 2 (Stupefied 3 on a critical failure)"
+      ]
+    ],
+    "rollMode": "normal"
+  }
+]

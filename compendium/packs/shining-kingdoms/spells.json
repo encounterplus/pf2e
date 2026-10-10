@@ -1,0 +1,1880 @@
+[
+  {
+    "id": "8AFC9D11-9D87-5377-BCD3-319E097E5D84",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Attacked from Within",
+    "slug": "attacked-from-within-shining-kingdoms",
+    "descr": "You assert your power over the target's own spirit as you reach deep into its soul in order to discover a moment of excruciating anguish, debilitating humiliation, or abject despair. The target takes 12d8 spirit damage and must attempt a Will save.\n\n---\n\n**Critical Success** The target takes no damage, with a brief sensation of pain followed by a pleasant memory.\n\n**Success** The target takes half damage and is [Frightened 1](/condition/frightened-player-core).\n\n**Failure** The target takes full damage and is Frightened 2.\n\n**Critical Failure** The target takes double damage and is frightened 2 and [Off Guard](/condition/off-guard-player-core) for 1 round.\n\n---\n\n**Heightened (+1)** The damage increases by 2d8.",
+    "data": {
+      "rank": 7,
+      "rarity": "uncommon",
+      "traits": [
+        "concentrate",
+        "manipulate",
+        "spirit"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "30 feet",
+      "targets": "1 creature",
+      "requirements": "",
+      "defense": "will",
+      "traditions": [
+        "divine",
+        "occult"
+      ],
+      "traditionsText": "Divine, Occult",
+      "type": "spell",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "spirit",
+          "slug": "spirit"
+        }
+      ],
+      "durationText": "varies",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "manipulate",
+      "remaster",
+      "shining-kingdoms",
+      "spirit"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E9D0B6A5-3DC8-5E35-B66F-952E11FB4552",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Avenging Wildwood",
+    "slug": "avenging-wildwood-shining-kingdoms",
+    "descr": "A Medium tree sprouts in an unoccupied square within range, its branches capable of striking out at your foes. This animated tree uses your spell attack modifier for its attack rolls and your spell DC for its AC. Its saving throw modifiers are equal to your spell DC – 10, and it has 20 Hit Points. Other creatures can't occupy its space, but allies can pass through its space. When you Cast the Spell and each time you Sustain it, you can have the tree make a branches Strike against a creature within 15 feet of it, dealing 2d8 bludgeoning, piercing, or slashing damage. You choose the damage type each time.\n\nIf the tree is in soil and survives to the end of the spell's duration, it remains as an ordinary, non-magical tree and continues to grow and thrive. The GM might determine that the tree disappears immediately in certain inhospitable situations.\n\n---\n\n**Heightened (+2)** The animated tree has 10 additional Hit Points, and its branches Strike deals 1d8 additional damage.",
+    "data": {
+      "rank": 2,
+      "rarity": "uncommon",
+      "traits": [
+        "concentrate",
+        "manipulate",
+        "plant",
+        "wood"
+      ],
+      "cost": "",
+      "cast": "3",
+      "range": "60 feet",
+      "targets": "",
+      "requirements": "",
+      "traditions": [
+        "primal"
+      ],
+      "traditionsText": "Primal",
+      "type": "spell",
+      "castActions": [
+        "three"
+      ],
+      "actions": "three",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "plant",
+          "slug": "plant"
+        },
+        {
+          "label": "wood",
+          "slug": "wood"
+        }
+      ],
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "manipulate",
+      "plant",
+      "remaster",
+      "shining-kingdoms",
+      "wood"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "98E06B97-2C5F-5CDA-8DAB-2585EE05BBA9",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Capital Dividend",
+    "slug": "capital-dividend-shining-kingdoms",
+    "descr": "Through diet and other strict regimens, you've fortified your body as Kalistrade's teachings have fortified your mind. You remain at 1 Hit Point, and your skin takes on a slight warm glow.\n\nFor the next minute, any time you would regain Hit Points from a healing effect, this magic amplifies the effect, and you regain an additional 8 Hit Points.\n\n---\n\n**Heightened (+1)** The additional healing increases by 2 Hit Points.\n\nSpell Effect: Capital Dividend",
+    "data": {
+      "rank": 4,
+      "rarity": "uncommon",
+      "traits": [
+        "concentrate",
+        "focus",
+        "wizard"
+      ],
+      "cost": "",
+      "cast": "reaction",
+      "range": "",
+      "targets": "",
+      "requirements": "",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "focus",
+      "castActions": [
+        "reaction"
+      ],
+      "actions": "reaction",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "focus",
+          "slug": "focus"
+        },
+        {
+          "label": "wizard",
+          "slug": "wizard"
+        }
+      ],
+      "durationText": "",
+      "durationUnit": "round",
+      "trigger": "You would be reduced to 0 Hit Points but not immediately killed."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "focus",
+      "remaster",
+      "shining-kingdoms",
+      "wizard"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "352DEAAF-746C-5EC7-8DC1-AEBE186F126B",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Defended by Spirits",
+    "slug": "defended-by-spirits-shining-kingdoms",
+    "descr": "You entreat a spirit or the spiritual energies in your location to surround and protect an ally from an certain foe. Each time the enemy attacks and damages the ally, the enemy takes 1d6 spirit damage. The enemy is aware of these spirits and has a general sense that attacking the ally will draw the spirits' ire.\n\n---\n\n**Heightened (+2)** The damage increases by 1d6.",
+    "data": {
+      "rank": 1,
+      "rarity": "uncommon",
+      "traits": [
+        "concentrate",
+        "manipulate",
+        "spirit"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "30 feet",
+      "targets": "1 ally and 1 enemy",
+      "requirements": "",
+      "traditions": [
+        "divine",
+        "occult"
+      ],
+      "traditionsText": "Divine, Occult",
+      "type": "spell",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "spirit",
+          "slug": "spirit"
+        }
+      ],
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "manipulate",
+      "remaster",
+      "shining-kingdoms",
+      "spirit"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "25C29650-1C15-571F-B5E8-ACFF0BE11F65",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Eagle's Cry",
+    "slug": "eagle-s-cry-shining-kingdoms",
+    "descr": "You let out the mighty cry of a majestic eagle that pierces eardrums. This cry deals 4d8 sonic damage. Each creature in the area must attempt a Fortitude saving throw.\n\n---\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature takes half damage and is [Frightened 1](/condition/frightened-player-core).\n\n**Failure** The creature takes full damage and is Frightened 2.\n\n**Critical Failure** The creature takes double damage, is frightened 2, and is [Fleeing](/condition/fleeing-player-core) for 1 round.\n\n---\n\n**Heightened (+2)** The damage increases by 3d8.",
+    "data": {
+      "rank": 3,
+      "rarity": "uncommon",
+      "traits": [
+        "auditory",
+        "concentrate",
+        "manipulate",
+        "sonic"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "",
+      "targets": "",
+      "requirements": "",
+      "area": "30-foot cone",
+      "defense": "fortitude",
+      "traditions": [
+        "arcane",
+        "primal"
+      ],
+      "traditionsText": "Arcane, Primal",
+      "type": "spell",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "auditory",
+          "slug": "auditory"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "sonic",
+          "slug": "sonic"
+        }
+      ],
+      "areaEffectShape": "cone",
+      "areaEffectSize": 30,
+      "durationText": "",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "auditory",
+      "concentrate",
+      "manipulate",
+      "remaster",
+      "shining-kingdoms",
+      "sonic"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "EAFA81FA-25E9-5309-88EC-0A241776184D",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Echo Jump",
+    "slug": "echo-jump-shining-kingdoms",
+    "descr": "You teleport to an unoccupied space within range, leaving behind a faint echo of your form that explodes with magical force. Each creature within a 10-foot emanation from your previous location takes 4d8 force damage.\n\n---\n\n**Heightened (+2)** The range increases by 10 feet, and the damage increases by 3d8.",
+    "data": {
+      "rank": 3,
+      "rarity": "uncommon",
+      "traits": [
+        "concentrate",
+        "force",
+        "manipulate",
+        "teleportation"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "30 feet",
+      "targets": "",
+      "requirements": "",
+      "area": "10-foot emanation",
+      "defense": "basicreflex",
+      "traditions": [
+        "arcane",
+        "occult"
+      ],
+      "traditionsText": "Arcane, Occult",
+      "type": "spell",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "force",
+          "slug": "force"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "teleportation",
+          "slug": "teleportation"
+        }
+      ],
+      "areaEffectShape": "sphere",
+      "areaEffectSize": 10,
+      "durationText": "",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "force",
+      "manipulate",
+      "remaster",
+      "shining-kingdoms",
+      "teleportation"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1E93E28C-5E42-5BD3-BAB1-108C09340FCF",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Elemental Sheath",
+    "slug": "elemental-sheath-shining-kingdoms",
+    "descr": "You coat yourself in nature's power. Choose air, earth, fire, metal, water, or wood; the spell gains that trait. You become completely covered by armor formed from that element, gaining a +1 circumstance bonus to AC and resistance 5 to two types of damage based on the element you choose.\n\n**Air** bludgeoning and electricity\n\n**Earth** bludgeoning and poison\n\n**Fire** fire and slashing\n\n**Metal** acid and slashing\n\n**Water** cold and piercing\n\n**Wood** piercing and void.\n\n---\n\n**Heightened (+2)** The resistance increases by 5.\n\nSpell Effect: Elemental Sheath",
+    "data": {
+      "rank": 4,
+      "rarity": "uncommon",
+      "traits": [
+        "concentrate",
+        "focus",
+        "manipulate"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "",
+      "targets": "",
+      "requirements": "",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "focus",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "focus",
+          "slug": "focus"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ],
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "focus",
+      "manipulate",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3B0BB98C-2DD7-5815-86EC-FFB112C3E83A",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Equal Footing",
+    "slug": "equal-footing-shining-kingdoms",
+    "descr": "You level the field between yourself and another creature, hampering its movements if it's quicker than you. The target attempts a Will save.\n\n---\n\n**Critical Success** The target is unaffected.\n\n**Success** The target is [Clumsy 1](/condition/clumsy-player-core) and takes a –10-foot status penalty to all its Speeds until the end of your next turn.\n\nSpell Effect: Equal Footing (Success)\n\n**Failure** The target is clumsy 1 and takes a –15-foot status penalty to all its Speeds for 1 minute. During this time, it can't benefit from bonuses to its Speeds or take other penalties to its Speeds.\n\n**Critical Failure** The target is Clumsy 2 and takes a –15-foot status penalty to all its Speeds for 1 minute. During this time, it can't benefit from bonuses to its Speeds or take other penalties to its Speeds.\n\nSpell Effect: Equal Footing (Failure Or Critical Failure)",
+    "data": {
+      "rank": 1,
+      "rarity": "uncommon",
+      "traits": [
+        "concentrate",
+        "curse",
+        "manipulate"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "30 feet",
+      "targets": "1 creature with a land Speed greater than yours",
+      "requirements": "",
+      "defense": "will",
+      "traditions": [
+        "arcane",
+        "occult",
+        "primal"
+      ],
+      "traditionsText": "Arcane, Occult, Primal",
+      "type": "spell",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "curse",
+          "slug": "curse"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ],
+      "durationText": "varies",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "curse",
+      "manipulate",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "35A85AFD-A074-5CD1-9BA5-6AEACDD1AFDE",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Forest of Gates",
+    "slug": "forest-of-gates-shining-kingdoms",
+    "descr": "You transport yourself and your allies to a peaceful extraplanar realm of towering trees, each of which holds a misty gateway to another location. When you Cast this Spell, you choose a specific destination within 1,000 miles that you can identify by its position relative to your starting position and by its appearance (or other identifying features). Incorrect knowledge of the location causes the spell to fail. You and your allies walk for 1 hour through the forest, and each of you regains Hit Points and reduces the value of any doomed or [drained](/condition/drained-player-core) condition as if you'd taken a full night's rest. At the end of the journey, you attempt a Arcana DC 40 or Nature DC 40 check to find the correct gate to your desired location.\n\n---\n\n**Critical Success** You and your allies arrive within 1,000 feet of your desired location.\n\n**Success** You and your allies arrive within 1 mile of your desired location.\n\n**Failure** You and your allies arrive within 10 miles of your desired location.\n\n**Critical Failure** You and your allies exit the forest within 1 mile of your original location.",
+    "data": {
+      "rank": 9,
+      "rarity": "uncommon",
+      "traits": [
+        "concentrate",
+        "manipulate",
+        "teleportation"
+      ],
+      "cost": "",
+      "cast": "10 minutes",
+      "range": "1000 miles",
+      "targets": "you and up to 6 willing creatures",
+      "requirements": "",
+      "traditions": [
+        "arcane",
+        "primal"
+      ],
+      "traditionsText": "Arcane, Primal",
+      "type": "spell",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "teleportation",
+          "slug": "teleportation"
+        }
+      ],
+      "durationText": "1 hour",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "hour"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "manipulate",
+      "remaster",
+      "shining-kingdoms",
+      "teleportation"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4D6CED59-E289-5E92-9DC7-23677066704D",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Friendly Push",
+    "slug": "friendly-push-shining-kingdoms",
+    "descr": "You exert magical force to propel a willing creature up to 10 feet in a straight line, including upward, though if they aren't on solid ground or have another way to maintain their height (such as a fly Speed) when the movement ends, they fall. When you Sustain the spell, you can move them again or choose a new target within range and move them instead.\n\nYou can cast this spell on an [Unconscious](/condition/unconscious-player-core) ally, and if you do, the movement from this spell doesn't trigger reactions.\n\n---\n\n**Heightened (4th)** The distance increases to 20 feet.\n\n**Heightened (7th)** The distance increases to 30 feet.",
+    "data": {
+      "rank": 1,
+      "rarity": "uncommon",
+      "traits": [
+        "concentrate",
+        "focus",
+        "manipulate",
+        "wizard"
+      ],
+      "cost": "",
+      "cast": "1",
+      "range": "60 feet",
+      "targets": "1 willing creature",
+      "requirements": "",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "focus",
+      "castActions": [
+        "one"
+      ],
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "focus",
+          "slug": "focus"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "wizard",
+          "slug": "wizard"
+        }
+      ],
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "focus",
+      "manipulate",
+      "remaster",
+      "shining-kingdoms",
+      "wizard"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C8E70D77-9A34-5238-8844-7E4720E745CA",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "King's Castle",
+    "slug": "king-s-castle-shining-kingdoms",
+    "descr": "You and a willing creature swap places. You appear in the target's former space, and the target appears in your former space. You and your target must each be able to fit in the new spaces within range; otherwise, the spell fails.",
+    "data": {
+      "rank": 5,
+      "rarity": "uncommon",
+      "traits": [
+        "concentrate",
+        "manipulate",
+        "teleportation"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "60 feet",
+      "targets": "1 willing creature",
+      "requirements": "",
+      "traditions": [
+        "arcane",
+        "divine",
+        "occult"
+      ],
+      "traditionsText": "Arcane, Divine, Occult",
+      "type": "spell",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "teleportation",
+          "slug": "teleportation"
+        }
+      ],
+      "durationText": "",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "manipulate",
+      "remaster",
+      "shining-kingdoms",
+      "teleportation"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "30D25B3F-E410-51EE-B090-A6829E3AEE20",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Manifestation of Spirits",
+    "slug": "manifestation-of-spirits-shining-kingdoms",
+    "descr": "You open the target's eyes to the plethora of spirits surrounding it—and it sees all these spirits as menacing and powerful. The target must attempt a Will save.\n\n---\n\n**Critical Success** The target is unaffected.\n\n**Success** The target believes every spirit it sees is an imminent threat. It's [Stupefied 3](/condition/stupefied-player-core) for 1 round.\n\n**Failure** As success, but the effect lasts 1 minute.\n\n**Critical Failure** As failure, and the target becomes [Confused](/condition/confused-player-core) for 1 round.\n\n---\n\n**Heightened (6th)** You can target up to 5 creatures.",
+    "data": {
+      "rank": 2,
+      "rarity": "uncommon",
+      "traits": [
+        "concentrate",
+        "manipulate",
+        "mental"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "30 feet",
+      "targets": "1 creature",
+      "requirements": "",
+      "defense": "will",
+      "traditions": [
+        "divine",
+        "primal"
+      ],
+      "traditionsText": "Divine, Primal",
+      "type": "spell",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        }
+      ],
+      "durationText": "varies",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "manipulate",
+      "mental",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "06AAE512-56C2-542F-BFF8-59B12D0BD937",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Menacing Lament",
+    "slug": "menacing-lament-shining-kingdoms",
+    "descr": "You wail a dirge for your enemies. Enemies in the area are [Off Guard](/condition/off-guard-player-core) against your attacks and gain no benefits from flanking you for the duration.",
+    "data": {
+      "rank": 2,
+      "rarity": "uncommon",
+      "traits": [
+        "auditory",
+        "concentrate",
+        "emotion",
+        "focus",
+        "mental"
+      ],
+      "cost": "",
+      "cast": "1",
+      "range": "",
+      "targets": "",
+      "requirements": "",
+      "area": "30-foot emanation",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "focus",
+      "castActions": [
+        "one"
+      ],
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "auditory",
+          "slug": "auditory"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "emotion",
+          "slug": "emotion"
+        },
+        {
+          "label": "focus",
+          "slug": "focus"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        }
+      ],
+      "areaEffectShape": "sphere",
+      "areaEffectSize": 30,
+      "durationText": "1 round",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "auditory",
+      "concentrate",
+      "emotion",
+      "focus",
+      "mental",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B196D5FB-E52A-5BCF-88CD-DAD3F1CB4B54",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Pain of Ages",
+    "slug": "pain-of-ages-shining-kingdoms",
+    "descr": "You sense a spiritual resonance of deep anguish in the earth beneath your feet, the walls surrounding you, or the fragments of souls left behind in a place of calamity. You draw on this reservoir of pain and unleash its force against your enemies, dealing 8d8 spirit damage. On a critical failure, the creature is also [Stunned](/condition/stunned-player-core) for 1 round as it reels from the impact of so much anguish.\n\n---\n\n**Heightened (+1)** The damage increases by 2d8.",
+    "data": {
+      "rank": 6,
+      "rarity": "uncommon",
+      "traits": [
+        "concentrate",
+        "manipulate",
+        "spirit"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "120 feet",
+      "targets": "",
+      "requirements": "",
+      "area": "30-foot burst",
+      "defense": "basicwill",
+      "traditions": [
+        "divine"
+      ],
+      "traditionsText": "Divine",
+      "type": "spell",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "spirit",
+          "slug": "spirit"
+        }
+      ],
+      "areaEffectShape": "sphere",
+      "areaEffectSize": 30,
+      "durationText": "",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "manipulate",
+      "remaster",
+      "shining-kingdoms",
+      "spirit"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "15DC825A-5D43-53E7-8122-48223E42CA5B",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Radiant Globe",
+    "slug": "radiant-globe-shining-kingdoms",
+    "descr": "You create a dome of brilliant light that destroys projectiles attempting to pass through it. Ammunition from physical ranged attacks—such as arrows, bolts, sling bullets, and other objects of similar size—is destroyed in a flash of light when it passes into or out of the globe's area. Attackers targeting creatures or objects through the globe's surface with physical ranged attacks must succeed at a Fortitude save or become [Dazzled](/condition/dazzled-player-core) for 1 round ([Blinded](/condition/blinded-player-core) for 1 round on a critical failure).",
+    "data": {
+      "rank": 3,
+      "rarity": "uncommon",
+      "traits": [
+        "concentrate",
+        "light",
+        "manipulate"
+      ],
+      "cost": "",
+      "cast": "3",
+      "range": "120 feet",
+      "targets": "",
+      "requirements": "",
+      "area": "10-foot burst",
+      "defense": "fortitude",
+      "traditions": [
+        "arcane",
+        "divine"
+      ],
+      "traditionsText": "Arcane, Divine",
+      "type": "spell",
+      "castActions": [
+        "three"
+      ],
+      "actions": "three",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "light",
+          "slug": "light"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ],
+      "areaEffectShape": "sphere",
+      "areaEffectSize": 10,
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "light",
+      "manipulate",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "66B6B5E2-724F-543D-ABFD-53996FF7473F",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Rapid Retreat",
+    "slug": "rapid-retreat-shining-kingdoms",
+    "descr": "You know how to swiftly escape from harm. You instantly teleport out of danger into an unoccupied space within range, and you gain resistance to all damage against the triggering damage equal to your level. You can't Cast this Spell if there's no space to move into.\n\nSpell Effect: Rapid Retreat",
+    "data": {
+      "rank": 4,
+      "rarity": "uncommon",
+      "traits": [
+        "focus",
+        "teleportation",
+        "wizard"
+      ],
+      "cost": "",
+      "cast": "reaction",
+      "range": "20 feet",
+      "targets": "",
+      "requirements": "",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "focus",
+      "castActions": [
+        "reaction"
+      ],
+      "actions": "reaction",
+      "traitLinks": [
+        {
+          "label": "focus",
+          "slug": "focus"
+        },
+        {
+          "label": "teleportation",
+          "slug": "teleportation"
+        },
+        {
+          "label": "wizard",
+          "slug": "wizard"
+        }
+      ],
+      "durationText": "",
+      "durationUnit": "round",
+      "trigger": "You take damage from an attack or spell."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "focus",
+      "remaster",
+      "shining-kingdoms",
+      "teleportation",
+      "wizard"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B4F36063-BE71-543A-A047-9585129DE215",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spirit Ward",
+    "slug": "spirit-ward-shining-kingdoms",
+    "descr": "You draw on nearby spiritual energy or on echoes of the spirits you've invoked throughout your life to temporarily ward living flesh against dangerous spirits. You grant the target a +1 status bonus to saving throws against spells and effects caused by creatures that have the [spirit](/trait/spirit) trait and haunts. The number of actions you spend when Casting this Spell determines its targets, range, area, and other parameters.\n\n1 The spell has a range of touch.\n\n2 (concentrate) The spell has a range of 30 feet. If you target a living creature, the bonus increases to +2.\n\n3 (concentrate) You create a ward in a 30-foot emanation. This targets you and all your allies in the burst.\n\nSpell Effect: Spirit Ward",
+    "data": {
+      "rank": 1,
+      "rarity": "uncommon",
+      "traits": [
+        "manipulate"
+      ],
+      "cost": "",
+      "cast": "1 to 3",
+      "range": "varies",
+      "targets": "1 creature",
+      "requirements": "",
+      "traditions": [
+        "divine",
+        "occult"
+      ],
+      "traditionsText": "Divine, Occult",
+      "type": "spell",
+      "castActions": [
+        "one",
+        "two",
+        "three"
+      ],
+      "traitLinks": [
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ],
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "manipulate",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9AE96477-7A9E-5185-8831-610E9C75CB56",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spiritual Renewal",
+    "slug": "spiritual-renewal-shining-kingdoms",
+    "descr": "You draw upon the restorative power of the spirits around you. The target gains fast healing 8.\n\n---\n\n**Heightened (+1)** The fast healing increases by 2.\n\nSpell Effect: Spiritual Renewal",
+    "data": {
+      "rank": 4,
+      "rarity": "uncommon",
+      "traits": [
+        "concentrate",
+        "healing",
+        "manipulate",
+        "vitality"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "touch",
+      "targets": "1 living creature",
+      "requirements": "",
+      "traditions": [
+        "divine"
+      ],
+      "traditionsText": "Divine",
+      "type": "spell",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "healing",
+          "slug": "healing"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "vitality",
+          "slug": "vitality"
+        }
+      ],
+      "durationText": "4 rounds",
+      "duration": 4,
+      "durationType": "time",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "healing",
+      "manipulate",
+      "remaster",
+      "shining-kingdoms",
+      "vitality"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "7DA4CE34-E7FB-5B13-A5E1-AC00438859F3",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spiritual Transport",
+    "slug": "spiritual-transport-shining-kingdoms",
+    "descr": "You call upon the spiritual energies surrounding you to teleport you to an unoccupied space within range that you can see. Any items you're wearing and holding come with you. Your familiar or animal companion, if you have one that's sharing your space or adjacent to your space, is transported with you, but any other creature sharing your space remains in that space.\n\n---\n\n**Heightened (7th)** The range increases to 1 mile. You don't need to be able to see your destination, as long as you have been there in the past and know its relative direction from you.",
+    "data": {
+      "rank": 5,
+      "rarity": "uncommon",
+      "traits": [
+        "concentrate",
+        "manipulate",
+        "teleportation"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "240 feet",
+      "targets": "",
+      "requirements": "",
+      "traditions": [
+        "divine"
+      ],
+      "traditionsText": "Divine",
+      "type": "spell",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "teleportation",
+          "slug": "teleportation"
+        }
+      ],
+      "durationText": "",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "manipulate",
+      "remaster",
+      "shining-kingdoms",
+      "teleportation"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2E851297-4B0C-5D53-A9CF-F6E3F7060219",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Sudden Transposition",
+    "slug": "sudden-transposition-shining-kingdoms",
+    "descr": "You wrench the targets off their feet, forcefully teleporting them within the area. The creatures must each be able to fit in their new space, and their positions must be unoccupied, entirely within the area, and in your line of sight. Each target attempts a Fortitude save.\n\n---\n\n**Critical Success** The target can teleport if it wants, but it chooses the destination within the area.\n\n**Success** The target is unaffected.\n\n**Failure** You teleport the target and choose its destination; the target takes 10d10 bludgeoning damage.\n\n**Critical Failure** You teleport the target and choose its destination; the target takes 20d10 bludgeoning damage and is knocked [Prone](/condition/prone-player-core).",
+    "data": {
+      "rank": 8,
+      "rarity": "uncommon",
+      "traits": [
+        "concentrate",
+        "manipulate",
+        "teleportation"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "",
+      "targets": "up to 2 creatures",
+      "requirements": "",
+      "area": "60-foot emanation",
+      "defense": "fortitude",
+      "traditions": [
+        "arcane",
+        "occult"
+      ],
+      "traditionsText": "Arcane, Occult",
+      "type": "spell",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "teleportation",
+          "slug": "teleportation"
+        }
+      ],
+      "areaEffectShape": "sphere",
+      "areaEffectSize": 60,
+      "durationText": "",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "manipulate",
+      "remaster",
+      "shining-kingdoms",
+      "teleportation"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B8DF7356-D6C1-5B93-9A1D-8E967925E9F7",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Trade Items",
+    "slug": "trade-items-shining-kingdoms",
+    "descr": "You magically swap an item you're holding for another that someone else has. The second item appears in the hand you were holding the first item (or it falls to the ground in your square if you're unable to hold it), and the first item appears in the same place on the other creature's possession where the second item was (held in a hand or attached to a belt, for instance). If the second item is in the possession of a creature unwilling to relinquish it, they can prevent the transposition with a successful Reflex save.\n\n---\n\n**Heightened (5th)** Each object's maximum Bulk increases to 1. If one of the items is 1 Bulk and the other isn't, an unwilling creature gains a +2 circumstance bonus to their saving throw.",
+    "data": {
+      "rank": 3,
+      "rarity": "uncommon",
+      "traits": [
+        "concentrate",
+        "manipulate",
+        "teleportation"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "60 feet",
+      "targets": "1 item you're holding and 1 item in another creature's possession you can see, each no more than light Bulk",
+      "requirements": "",
+      "defense": "reflex",
+      "traditions": [
+        "arcane",
+        "divine",
+        "occult"
+      ],
+      "traditionsText": "Arcane, Divine, Occult",
+      "type": "spell",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "teleportation",
+          "slug": "teleportation"
+        }
+      ],
+      "durationText": "",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "manipulate",
+      "remaster",
+      "shining-kingdoms",
+      "teleportation"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "198F6CF4-8348-5649-88EE-AD7AE349BC63",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Unexpected Windfall",
+    "slug": "unexpected-windfall-shining-kingdoms",
+    "descr": "Coins, trinkets carved from heavy stone, and other cumbersome treasures rain down upon a foe. The target must attempt a Fortitude save.\n\n---\n\n**Critical Success** The target is unaffected.\n\n**Success** The target is [Encumbered](/condition/encumbered-player-core) for 1 round.\n\n**Failure** The target is encumbered for the duration of the spell.\n\n**Critical Failure** As failure, but the extra weight also knocks the target [Prone](/condition/prone-player-core).",
+    "data": {
+      "rank": 1,
+      "rarity": "uncommon",
+      "traits": [
+        "concentrate",
+        "focus",
+        "manipulate",
+        "metal",
+        "wizard"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "30 feet",
+      "targets": "1 creature",
+      "requirements": "",
+      "defense": "fortitude",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "focus",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "focus",
+          "slug": "focus"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "metal",
+          "slug": "metal"
+        },
+        {
+          "label": "wizard",
+          "slug": "wizard"
+        }
+      ],
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "focus",
+      "manipulate",
+      "metal",
+      "remaster",
+      "shining-kingdoms",
+      "wizard"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9CE4B023-8FE0-5819-90E2-588DF9233F4F",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Valiant Anthem",
+    "slug": "valiant-anthem-shining-kingdoms",
+    "descr": "You chant a rallying cry to bolster your allies. Your allies in the area gain a +10-foot status bonus to all Speeds and a +1 status bonus to attack rolls.\n\nSpell Effect: Valiant Anthem",
+    "data": {
+      "rank": 2,
+      "rarity": "uncommon",
+      "traits": [
+        "auditory",
+        "concentrate",
+        "emotion",
+        "focus",
+        "mental"
+      ],
+      "cost": "",
+      "cast": "1",
+      "range": "",
+      "targets": "",
+      "requirements": "",
+      "area": "30-foot emanation",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "focus",
+      "castActions": [
+        "one"
+      ],
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "auditory",
+          "slug": "auditory"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "emotion",
+          "slug": "emotion"
+        },
+        {
+          "label": "focus",
+          "slug": "focus"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        }
+      ],
+      "areaEffectShape": "sphere",
+      "areaEffectSize": 30,
+      "durationText": "1 round",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "auditory",
+      "concentrate",
+      "emotion",
+      "focus",
+      "mental",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A4413B66-B9AD-5578-80BF-08A2428AB316",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Veil of Spirits",
+    "slug": "veil-of-spirits-shining-kingdoms",
+    "descr": "You draw on the essence of spiritual energy surrounding you to manifest a misty veil. When a creature that isn't immune to spirit damage begins its turn within the area, it must attempt a Reflex save. You can Dismiss the veil.\n\n---\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature is [Dazzled](/condition/dazzled-player-core) until the beginning of its next turn.\n\n**Failure** The creature is dazzled and gains a weakness to spirit damage equal to half your level until the beginning of its next turn as spiritual energy clings to it. A creature with spiritsense can't use that imprecise sense while it's dazzled in this way.\n\n**Critical Failure** As failure, but the weakness is equal to your level.\n\nSpell Effect: Veil Of Spirits",
+    "data": {
+      "rank": 2,
+      "rarity": "uncommon",
+      "traits": [
+        "concentrate",
+        "manipulate",
+        "spirit"
+      ],
+      "cost": "",
+      "cast": "3",
+      "range": "120 feet",
+      "targets": "",
+      "requirements": "",
+      "area": "20-foot burst",
+      "defense": "reflex",
+      "traditions": [
+        "arcane",
+        "divine",
+        "occult"
+      ],
+      "traditionsText": "Arcane, Divine, Occult",
+      "type": "spell",
+      "castActions": [
+        "three"
+      ],
+      "actions": "three",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "spirit",
+          "slug": "spirit"
+        }
+      ],
+      "areaEffectShape": "sphere",
+      "areaEffectSize": 20,
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "manipulate",
+      "remaster",
+      "shining-kingdoms",
+      "spirit"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1B2591AA-1B60-595B-A00F-EF79E45CC240",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Vicious Howl",
+    "slug": "vicious-howl-shining-kingdoms",
+    "descr": "You howl with passion for your cause, empowering yourself to push beyond your limits. You gain a number of temporary Hit Points equal to your level and a +4 circumstance bonus to damage. If you reduce a fiend to 0 Hit Points during this duration, you regain a number of Hit Points equal to the creature's level.\n\nSpell Effect: Vicious Howl",
+    "data": {
+      "rank": 4,
+      "rarity": "uncommon",
+      "traits": [
+        "concentrate",
+        "focus"
+      ],
+      "cost": "",
+      "cast": "1",
+      "range": "",
+      "targets": "",
+      "requirements": "",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "focus",
+      "castActions": [
+        "one"
+      ],
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "focus",
+          "slug": "focus"
+        }
+      ],
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "focus",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "BCA28049-C9FC-57F6-B470-1E64F1192A68",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Warping Pull",
+    "slug": "warping-pull-shining-kingdoms",
+    "descr": "You get an ally out of danger with a teleporting pull. You teleport the target to an unoccupied square up to 10 feet closer to you. The target gains resistance 5 to all damage against the triggering effect.\n\n---\n\n**Heightened (+2)** The resistance increases by 5.\n\nSpell Effect: Warping Pull",
+    "data": {
+      "rank": 2,
+      "rarity": "uncommon",
+      "traits": [
+        "concentrate",
+        "manipulate",
+        "teleportation"
+      ],
+      "cost": "",
+      "cast": "reaction",
+      "range": "30 feet",
+      "targets": "1 willing creature that would take damage from the triggering effect",
+      "requirements": "",
+      "traditions": [
+        "arcane"
+      ],
+      "traditionsText": "Arcane",
+      "type": "spell",
+      "castActions": [
+        "reaction"
+      ],
+      "actions": "reaction",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "teleportation",
+          "slug": "teleportation"
+        }
+      ],
+      "durationText": "",
+      "durationUnit": "round",
+      "trigger": "An effect would deal damage to an ally within range."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "manipulate",
+      "remaster",
+      "shining-kingdoms",
+      "teleportation"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

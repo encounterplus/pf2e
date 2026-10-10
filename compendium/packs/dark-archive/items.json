@@ -1,0 +1,2793 @@
+[
+  {
+    "id": "0168A097-6FBB-5680-9493-F807E5A92207",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Amulet Implement",
+    "slug": "amulet-implement-dark-archive",
+    "descr": "",
+    "data": {
+      "level": 0,
+      "rarity": "common",
+      "traits": [],
+      "category": "held",
+      "price": "",
+      "usage": "held-in-one-hand",
+      "bulk": "—",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "dark-archive",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "37A71A7C-B541-5AA5-903F-86B7A6304CCA",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Baleblood Draft",
+    "slug": "baleblood-draft-dark-archive",
+    "descr": "---\n\nThis vial of murky, acrid-smelling liquid is derived from a blend of strange blood, typically coming from aberrations and cryptids. It has no special properties when used alone, but if you drink one shortly before drinking an alchemical elixir, you enhance the elixir's duration. Many tales of mysterious cryptids are actually based on encounters with people suffering the aftereffects of such concoctions.\n\nAfter drinking a baleblood draft, the next elixir you drink within 1 minute that has a duration of at least 1 minute and at most 1 hour has its duration extended by 50% (so a lesser cheetah's elixir lasts for a minute and a half instead of 1 minute).\n\nHowever, after pairing baleblood draft with another elixir, you suffer an eerie side effect for 1 week. This side effect never causes serious harm, although it might be inconvenient and is always ominous in appearance. All elixirs made in the same batch cause the same side effect. Drinking another draft with the same side effect extends the side effect's duration by another week, and drinking one with a different side effect causes you to suffer both effects simultaneously.",
+    "data": {
+      "level": 10,
+      "rarity": "rare",
+      "traits": [
+        "alchemical",
+        "consumable",
+        "elixir"
+      ],
+      "category": "consumable",
+      "price": "155 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "alchemical",
+          "slug": "alchemical"
+        },
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "elixir",
+          "slug": "elixir"
+        }
+      ],
+      "activation": {
+        "actions": "one",
+        "traits": [
+          "manipulate"
+        ],
+        "text": ""
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "alchemical",
+      "consumable",
+      "dark-archive",
+      "elixir",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 63
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "65F7CA9A-D9A3-5F5E-B51F-E08F751819F9",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Bell Implement",
+    "slug": "bell-implement-dark-archive",
+    "descr": "",
+    "data": {
+      "level": 0,
+      "rarity": "common",
+      "traits": [],
+      "category": "held",
+      "price": "",
+      "usage": "held-in-one-hand",
+      "bulk": "—",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "dark-archive",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "59B76E40-7884-52AF-A381-6205F80A8F2F",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Book of Lost Days",
+    "slug": "book-of-lost-days-dark-archive",
+    "descr": "This massive tome's yellowed pages curl at the edges, and the letters on its face and spine are too worn to be read. When you open the book, it always opens to a page that seems to perfectly answer the question you had in mind, but reading more than a few lines causes your head to swim alarmingly.\n\n---",
+    "data": {
+      "level": 15,
+      "rarity": "unique",
+      "traits": [
+        "cursed",
+        "magical"
+      ],
+      "category": "held",
+      "price": "",
+      "usage": "held-in-two-hands",
+      "bulk": "1",
+      "traitLinks": [
+        {
+          "label": "cursed",
+          "slug": "cursed"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ],
+      "activations": [
+        {
+          "name": "Study Memory",
+          "text": "1 hour (concentrate, manipulate)\n\n**Requirements** You aren't drained\n\n---\n\n**Effect** You open the book while trying to learn information about any topic. *The Book of Lost Days* permits you to view another's memory, which contains information about that subject commensurate to rolling a total of 40 to [Recall Knowledge](/action/recall-knowledge-player-core) about the topic, with additional context provided on a success or critical success.\n\nThe price for this knowledge is the memory of a day in your past, and the vitality of a day in your future. You lose the memory of that day completely, and the total of all the knowledge you learned on that date is added to the book's repository of information. The book, not you, chooses which memories are taken, preferring days with concentrated emotional resonance, and thus tends to steal significant life moments. This loss affects only your memories; it has no effect on your level, class, feats, or other character choices.\n\nYour natural lifespan is also shortened by 1 day. The loss of this life energy causes you to be [Drained 2](/condition/drained-player-core). You can't reduce the drained condition for 2 days, after which you can recover normally from the condition.\n\nCreatures have occasionally managed to use the *Book of Lost Days* not to gain others' knowledge but to wipe their minds clean of painful memories or deadly secrets. Their memories aren't destroyed but merely stored in the book, where someone else might later retrieve them.",
+          "effect": "You open the book while trying to learn information about any topic. *The Book of Lost Days* permits you to view another's memory, which contains information about that subject commensurate to rolling a total of 40 to [Recall Knowledge](/action/recall-knowledge-player-core) about the topic, with additional context provided on a success or critical success.\n\nThe price for this knowledge is the memory of a day in your past, and the vitality of a day in your future. You lose the memory of that day completely, and the total of all the knowledge you learned on that date is added to the book's repository of information. The book, not you, chooses which memories are taken, preferring days with concentrated emotional resonance, and thus tends to steal significant life moments. This loss affects only your memories; it has no effect on your level, class, feats, or other character choices.\n\nYour natural lifespan is also shortened by 1 day. The loss of this life energy causes you to be [Drained 2](/condition/drained-player-core). You can't reduce the drained condition for 2 days, after which you can recover normally from the condition.\n\nCreatures have occasionally managed to use the *Book of Lost Days* not to gain others' knowledge but to wipe their minds clean of painful memories or deadly secrets. Their memories aren't destroyed but merely stored in the book, where someone else might later retrieve them.",
+          "description": "1 hour (concentrate, manipulate)\n\n**Requirements** You aren't drained\n\n---"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "cursed",
+      "dark-archive",
+      "magical",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 161
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "7279B663-D41A-59DB-80D3-548B7BD01169",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Bottomless Purse",
+    "slug": "bottomless-purse-dark-archive",
+    "descr": "With a handshake, you traded future wealth for a *bottomless purse* of gems and other valuables. Using the purse, you can always sell items for their normal sell value during downtime, even if you aren't anywhere near a settlement. You just put them into the purse, and within a day, the proper sale price appears in coins and gems. Once per day, from any distance, the entity that holds your bargained contract automatically sells a common consumable item in your possession, giving you back only half the normal amount for a sold item.\n\n---",
+    "data": {
+      "level": 8,
+      "rarity": "rare",
+      "traits": [
+        "contract",
+        "invested",
+        "magical"
+      ],
+      "category": "other",
+      "price": "",
+      "usage": "other",
+      "bulk": "—",
+      "traitLinks": [
+        {
+          "label": "contract",
+          "slug": "contract"
+        },
+        {
+          "label": "invested",
+          "slug": "invested"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ],
+      "activations": [
+        {
+          "actions": "two",
+          "traits": [
+            "concentrate"
+          ],
+          "name": "Fair Trade",
+          "text": "**Frequency** once per day\n\n---\n\n**Effect** You deposit up to 30 gp of gems and coins in a separate pouch of the *bottomless purse* while thinking of a common consumable item costing that amount of money. You then upend the pouch. The item you imagined comes tumbling out into your hand.",
+          "effect": "You deposit up to 30 gp of gems and coins in a separate pouch of the *bottomless purse* while thinking of a common consumable item costing that amount of money. You then upend the pouch. The item you imagined comes tumbling out into your hand.",
+          "description": "**Frequency** once per day\n\n---"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "contract",
+      "dark-archive",
+      "invested",
+      "magical",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 165
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1D9BBCA2-082D-5EDC-8941-FCB0FACC8546",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Calamity Glass",
+    "slug": "calamity-glass-dark-archive",
+    "descr": "This mirror appears to give warnings about the future, but subtle and malevolent hands designed the silver-framed glass to lure heroes into bringing doom upon those they hope to save.",
+    "data": {
+      "level": 11,
+      "rarity": "rare",
+      "traits": [
+        "cursed",
+        "magical",
+        "scrying"
+      ],
+      "category": "held",
+      "price": "",
+      "usage": "held-in-one-hand",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "cursed",
+          "slug": "cursed"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "scrying",
+          "slug": "scrying"
+        }
+      ],
+      "activations": [
+        {
+          "name": "Mirror, Mirror",
+          "text": "1 minute (concentrate, manipulate)\n\n**Frequency** once per week\n\n---\n\n**Effect** You activate the *calamity glass* and obtain a vision related to a likely action or event within the next 48 hours. The *calamity glass* decides what vision to show, though if you think about a specific event, the vision is typically at least tangentially related.\n\nNo matter what, the mirror shows only tragedies. The mirror's visions are accurate but misleading, as they depict tragedies that could be averted but in so doing might lead to greater suffering.\n\nFor example, a *calamity glass* might show a family starving as the result of harbor officials turning away a boatload of improperly documented grain. Without intervention, this future will come to pass. What the mirror didn't show is the grain was improperly labeled and carelessly stored, resulting in its contamination with poisonous mold capable of killing hundreds. Purifying and then distributing the grain would avert both the *calamity glass'*s vision and the greater suffering its curse attempted to create.",
+          "effect": "You activate the *calamity glass* and obtain a vision related to a likely action or event within the next 48 hours. The *calamity glass* decides what vision to show, though if you think about a specific event, the vision is typically at least tangentially related.\n\nNo matter what, the mirror shows only tragedies. The mirror's visions are accurate but misleading, as they depict tragedies that could be averted but in so doing might lead to greater suffering.\n\nFor example, a *calamity glass* might show a family starving as the result of harbor officials turning away a boatload of improperly documented grain. Without intervention, this future will come to pass. What the mirror didn't show is the grain was improperly labeled and carelessly stored, resulting in its contamination with poisonous mold capable of killing hundreds. Purifying and then distributing the grain would avert both the *calamity glass'*s vision and the greater suffering its curse attempted to create.",
+          "description": "1 minute (concentrate, manipulate)\n\n**Frequency** once per week\n\n---"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "cursed",
+      "dark-archive",
+      "magical",
+      "remaster",
+      "scrying"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 161
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "33F60E36-CAEB-5189-99A9-0CA91C9B9F63",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Chaos Collar",
+    "slug": "chaos-collar-dark-archive",
+    "descr": "This unobtrusive collar is made to hide beneath an animal's fur or blend in against scaled skin. It's most often used by unscrupulous trophy hunters hoping to make a name for themselves by defeating threats they artificially created, using hapless animals as pawns.\n\nA *chaos collar* fuses to its animal bearer the first time it's clasped around the creature's neck. Three nights per month, it transforms the animal into the form of a terrifying monster. The appearance is the same size as the original animal and doesn't change the animal's statistics, but it's always something new, horrifying, and unique to that particular *chaos collar*. The transformation lasts from dusk until dawn, and it occurs with complete randomness throughout the month.\n\nAn animal slain while wearing a *chaos collar* remains in the form it had at the time of its death. Once its bearer dies, the collar transforms into a scrap of dirty string and falls off, where the unscrupulous hunter can collect and use it again.",
+    "data": {
+      "level": 5,
+      "rarity": "common",
+      "traits": [
+        "companion",
+        "invested",
+        "primal"
+      ],
+      "category": "worn",
+      "price": "125 gp",
+      "usage": "worncollar",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "companion",
+          "slug": "companion"
+        },
+        {
+          "label": "invested",
+          "slug": "invested"
+        },
+        {
+          "label": "primal",
+          "slug": "primal"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "companion",
+      "dark-archive",
+      "invested",
+      "primal",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 63
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5A95AEDF-C723-5BA7-A79B-F5F8CC82F5AD",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Chimera Thread",
+    "slug": "chimera-thread-dark-archive",
+    "descr": "---\n\nThis multicolored skein is twisted together from strands of many different materials. When used to stitch together pieces from the carcasses of two or more animals, it fuses them into a single intact carcass of an outlandish-looking monster with characteristics of the component species. The thread disappears, leaving no obvious seams and smoothing the transition between the parts of the creatures.",
+    "data": {
+      "level": 5,
+      "rarity": "common",
+      "traits": [
+        "consumable",
+        "magical"
+      ],
+      "category": "consumable",
+      "price": "15 gp",
+      "usage": "other",
+      "bulk": "—",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ],
+      "activation": {
+        "text": "10 minutes (manipulate)"
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "dark-archive",
+      "magical",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 63
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8F92C17E-6F22-5366-9E4A-6020B3D8C9C2",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Cloak of the False Foe",
+    "slug": "cloak-of-the-false-foe-dark-archive",
+    "descr": "Images of strange animals and distorted figures are woven into this coarse, fur-lined cloak.",
+    "data": {
+      "level": 12,
+      "rarity": "common",
+      "traits": [
+        "invested",
+        "primal"
+      ],
+      "category": "worn",
+      "price": "1850 gp",
+      "usage": "worncloak",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "invested",
+          "slug": "invested"
+        },
+        {
+          "label": "primal",
+          "slug": "primal"
+        }
+      ],
+      "activations": [
+        {
+          "actions": "one",
+          "traits": [
+            "manipulate",
+            "polymorph",
+            "primal"
+          ],
+          "name": "Cryptid Shape",
+          "text": "**Frequency** once per day\n\n**Effect** The cloak rises to envelop your head and body, reshaping your appearance into that of a locally feared cryptid. If there is no such figure in local lore, the *cloak of the false* foe instead alters your appearance into a form imagined by the crafter of the cloak. One choice that occurs with disturbing frequency is a gaunt figure with triple-jointed fingers; an eyeless, hairless head with a lamprey mouth in the center of its face; and stubby tentacles waving down its neck. The transformation also grants the effects of either a 3rd-rank [Humanoid Form](/spell/humanoid-form-player-core) spell that lasts for 1 hour if you turn into a Medium cryptid, or a 5th-rank *humanoid form* spell that lasts for 10 minutes if you turn into a Large cryptid.\n\nWhile you're in cryptid form, any wounds left by your spells and Strikes appear to be the result of the cryptid's unarmed attacks and special abilities to a casual inspection. This doesn't alter the actual damage type inflicted or the effects of such attack. Someone closely studying the wounds can, with a successful Medicine DC 30 check, realize that magic has altered the appearance of the injuries.",
+          "effect": "The cloak rises to envelop your head and body, reshaping your appearance into that of a locally feared cryptid. If there is no such figure in local lore, the *cloak of the false* foe instead alters your appearance into a form imagined by the crafter of the cloak. One choice that occurs with disturbing frequency is a gaunt figure with triple-jointed fingers; an eyeless, hairless head with a lamprey mouth in the center of its face; and stubby tentacles waving down its neck. The transformation also grants the effects of either a 3rd-rank [Humanoid Form](/spell/humanoid-form-player-core) spell that lasts for 1 hour if you turn into a Medium cryptid, or a 5th-rank *humanoid form* spell that lasts for 10 minutes if you turn into a Large cryptid.\n\nWhile you're in cryptid form, any wounds left by your spells and Strikes appear to be the result of the cryptid's unarmed attacks and special abilities to a casual inspection. This doesn't alter the actual damage type inflicted or the effects of such attack. Someone closely studying the wounds can, with a successful Medicine DC 30 check, realize that magic has altered the appearance of the injuries.",
+          "description": "**Frequency** once per day"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "dark-archive",
+      "invested",
+      "primal",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 62
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D68CF520-2B5D-506B-9A77-CCE8F72CDCCC",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Compass of Transpositional Awareness",
+    "slug": "compass-of-transpositional-awareness-dark-archive",
+    "descr": "The silver face of this glass-encased compass is etched with dozens of esoteric symbols, obscure icons, and inscrutable abbreviations.",
+    "data": {
+      "level": 10,
+      "rarity": "rare",
+      "traits": [
+        "invested",
+        "magical",
+        "teleportation"
+      ],
+      "category": "held",
+      "price": "950 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "invested",
+          "slug": "invested"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "teleportation",
+          "slug": "teleportation"
+        }
+      ],
+      "activations": [
+        {
+          "actions": "one",
+          "traits": [
+            "concentrate",
+            "manipulate"
+          ],
+          "name": "Track Teleportation",
+          "text": "**Frequency** once per minute\n\n---\n\n**Effect** You point the compass of transpositional awareness at an extant teleportation effect (such as a magical portal) or the site of a teleportation effect that existed within the last 1 minute (such as the space where a creature just cast [Translocate](/spell/translocate-player-core)). Attempt an Occultism check to determine to where the effect leads or led. The DC of this check is the effect's counteract DC. On a success, you know roughly the destination of the teleportation effect (for example \"the Plane of Fire,\" \"north,\" or \"Avistan\"). On a critical success, you ascertain the exact destination within mere feet for local effects (such as *translocate*) or within a few miles for long-range effects (such as [Teleport](/spell/teleport-player-core), [Interplanar Teleport](/spell/interplanar-teleport-player-core), or interdimensional portals).",
+          "effect": "You point the compass of transpositional awareness at an extant teleportation effect (such as a magical portal) or the site of a teleportation effect that existed within the last 1 minute (such as the space where a creature just cast [Translocate](/spell/translocate-player-core)). Attempt an Occultism check to determine to where the effect leads or led. The DC of this check is the effect's counteract DC. On a success, you know roughly the destination of the teleportation effect (for example \"the Plane of Fire,\" \"north,\" or \"Avistan\"). On a critical success, you ascertain the exact destination within mere feet for local effects (such as *translocate*) or within a few miles for long-range effects (such as [Teleport](/spell/teleport-player-core), [Interplanar Teleport](/spell/interplanar-teleport-player-core), or interdimensional portals).",
+          "description": "**Frequency** once per minute\n\n---"
+        },
+        {
+          "actions": "one",
+          "traits": [
+            "concentrate",
+            "manipulate"
+          ],
+          "name": "Triangulate",
+          "text": "**Frequency** once per day\n\n---\n\n**Effect** You use the compass of transpositional awareness to triangulate your current coordinates and those of your intended destination using teleportation magic. For 1 minute, whenever you cast a teleportation spell that has a range, increase that spell's range by 30 feet. If the spell normally has a range of touch, extend its range to 30 feet.",
+          "effect": "You use the compass of transpositional awareness to triangulate your current coordinates and those of your intended destination using teleportation magic. For 1 minute, whenever you cast a teleportation spell that has a range, increase that spell's range by 30 feet. If the spell normally has a range of touch, extend its range to 30 feet.",
+          "description": "**Frequency** once per day\n\n---"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "dark-archive",
+      "invested",
+      "magical",
+      "remaster",
+      "teleportation"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 155
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "BC722C29-5F9F-521F-81E0-28FD84CF64E3",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Conrasu Coin (Arbiter)",
+    "slug": "conrasu-coin-arbiter-dark-archive",
+    "descr": "---\n\nThese wooden discs sometimes form spontaneously at the Wood Pile, a secret conrasu location suffused with extraplanar energy. A conrasu coin can be activated to call upon the power of a specific type of aeon.\n\nThis coin has small wings like an arbiter, the messenger and diplomat aeon. When you activate the coin, you gain a +2 circumstance bonus on the Diplomacy check, which increases to a +3 circumstance bonus to Make An Impression on a creature with the [aeon](/trait/aeon) trait.",
+    "data": {
+      "level": 3,
+      "rarity": "uncommon",
+      "traits": [
+        "consumable",
+        "magical",
+        "talisman"
+      ],
+      "category": "talisman",
+      "price": "7 gp",
+      "usage": "affixed-to-armor",
+      "bulk": "—",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "talisman",
+          "slug": "talisman"
+        }
+      ],
+      "activation": {
+        "actions": "free",
+        "traits": [
+          "concentrate"
+        ],
+        "text": "**Trigger** You attempt a Diplomacy check to [Make An Impression](/action/make-an-impression-player-core)."
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "dark-archive",
+      "magical",
+      "remaster",
+      "talisman"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8C2CC67F-66B2-5FED-9830-93B941DF30B7",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Conrasu Coin (Bythos)",
+    "slug": "conrasu-coin-bythos-dark-archive",
+    "descr": "---\n\nThese wooden discs sometimes form spontaneously at the Wood Pile, a secret conrasu location suffused with extraplanar energy. A conrasu coin can be activated to call upon the power of a specific type of aeon.\n\nThis cog-like coin bears an hourglass on one side and the four-armed silhouette of a bythos—aeons that steward over time—on the other. When activated, you catch a glimpse of your body moving on one of its potential timelines in response to danger and you follow those movements to dodge. You gain a +2 circumstance bonus to AC against the attack, and after resolving the attack, you can Stride up to 10 feet without triggering reactions. If you have the [Nimble Roll](/feat/nimble-roll-player-core) feat and the attack misses, you can Stride up to 20 feet instead.",
+    "data": {
+      "level": 10,
+      "rarity": "uncommon",
+      "traits": [
+        "consumable",
+        "magical",
+        "talisman"
+      ],
+      "category": "talisman",
+      "price": "200 gp",
+      "usage": "affixed-to-armor",
+      "bulk": "—",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "talisman",
+          "slug": "talisman"
+        }
+      ],
+      "activation": {
+        "actions": "free",
+        "traits": [
+          "concentrate"
+        ],
+        "text": "**Trigger** You're targeted with an attack but the opponent hasn't rolled yet."
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "dark-archive",
+      "magical",
+      "remaster",
+      "talisman"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0F62E3AD-42BA-5587-AD10-1F0B8BB58E38",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Cryolite Eye",
+    "slug": "cryolite-eye-dark-archive",
+    "descr": "You tore your eye from the socket and offered it to whatever spirit would take it. In return, you received a glass eye in its place. This eye allows you to see as normal, and when you succeed at a Perception check against an illusion, you get a critical success instead. Once per day, from any distance, the entity that holds your *bargained contract* can overwhelm your cryolite eye with magical energy, causing images to float over your vision that inflict the [Dazzled](/condition/dazzled-player-core) condition on you for 1 minute.",
+    "data": {
+      "level": 6,
+      "rarity": "rare",
+      "traits": [
+        "contract",
+        "invested",
+        "magical"
+      ],
+      "category": "other",
+      "price": "",
+      "usage": "other",
+      "bulk": "—",
+      "traitLinks": [
+        {
+          "label": "contract",
+          "slug": "contract"
+        },
+        {
+          "label": "invested",
+          "slug": "invested"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ],
+      "activations": [
+        {
+          "actions": "two",
+          "traits": [
+            "concentrate"
+          ],
+          "name": "Look Beyond",
+          "text": "**Frequency** once per day\n\n---\n\n**Effect** You look through the glass eye sealing your *bargained contract*. The contract casts [See The Unseen](/spell/see-the-unseen-player-core) affecting you.",
+          "effect": "You look through the glass eye sealing your *bargained contract*. The contract casts [See The Unseen](/spell/see-the-unseen-player-core) affecting you.",
+          "description": "**Frequency** once per day\n\n---"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "contract",
+      "dark-archive",
+      "invested",
+      "magical",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 165
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5183A000-234E-5CF0-908A-37734B1A4D3B",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Dog-Bone Knife",
+    "slug": "dog-bone-knife-dark-archive",
+    "descr": "The blade of this *+1 striking dagger* is made from the thigh bone of a canine that died in the act of protecting its master. A werecreature or other creature willingly under the effects of a non-permanent polymorph effect damaged by a *dog-bone knife* must succeed at a Will DC 19 save or immediately revert to its natural form-this has no effect on a creature unwillingly polymorphed. On a successful save, the creature is temporarily immune to this effect for 1 minute. Kushtakas and other creatures vulnerable to canines take a -2 circumstance penalty to saves against this effect, and this weapon overcomes any resistance such creatures have to physical attacks.",
+    "data": {
+      "level": 5,
+      "rarity": "uncommon",
+      "traits": [
+        "agile",
+        "finesse",
+        "thrown-10",
+        "versatile-s"
+      ],
+      "category": "weapon",
+      "price": "150 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "1",
+      "damage": "1d4 piercing",
+      "hands": "one",
+      "weaponType": "melee",
+      "weaponCategory": "simple",
+      "weaponGroup": "knife",
+      "traitLinks": [
+        {
+          "label": "agile",
+          "slug": "agile"
+        },
+        {
+          "label": "finesse",
+          "slug": "finesse"
+        },
+        {
+          "label": "thrown-10",
+          "slug": "thrown"
+        },
+        {
+          "label": "versatile-s",
+          "slug": "versatile"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "agile",
+      "dark-archive",
+      "finesse",
+      "remaster",
+      "thrown-10",
+      "versatile-s"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 135
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2DC8D0D1-45C9-5EB1-B6D2-4FF70C45299C",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "False-Bottomed Mug",
+    "slug": "false-bottomed-mug-dark-archive",
+    "descr": "**Access** Member of the Bellflower Network\n\n---\n\nThis mug looks like any other; however, the bottom part unscrews to reveal a velvet-lined chamber. These are primarily used by members of the Bellflower Network to sneak messages and small objects to other possible members. The Perception DC to discover the false bottom is 15 if someone specifically examines the mug.",
+    "data": {
+      "level": 0,
+      "rarity": "uncommon",
+      "traits": [],
+      "category": "held",
+      "price": "5 sp",
+      "usage": "held-in-one-hand",
+      "bulk": "L",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "dark-archive",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 83
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "03A6AE44-693E-5B93-BE71-29E9DE890BE0",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Forgetful Drops",
+    "slug": "forgetful-drops-dark-archive",
+    "descr": "**Access** Member of a secret society\n\n---\n\nThese innocuous, colorless drops can be poured directly into a victim's mouth, or slipped into their food or drink. They initially haze a victim's mind slightly, making them easier to fool; in later stages, they can lead to the victim entering a murderous [Confused](/condition/confused-player-core) state. Secret societies use these drops to befuddle a target or to frame them for violence.\n\n**Saving Throw** Fortitude DC 18\n\n**Onset** 5 minutes\n\n**Maximum Duration** 1 hour\n\n**Stage 1** [Stupefied 1](/condition/stupefied-player-core) (10 minutes)\n\n**Stage 2** stupefied 1 and [Clumsy 1](/condition/clumsy-player-core) (20 minutes)\n\n**Stage 3** stupefied 1, clumsy 1, and Confused (30 minutes)",
+    "data": {
+      "level": 3,
+      "rarity": "uncommon",
+      "traits": [
+        "alchemical",
+        "consumable",
+        "ingested",
+        "poison"
+      ],
+      "category": "consumable",
+      "price": "10 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "1",
+      "traitLinks": [
+        {
+          "label": "alchemical",
+          "slug": "alchemical"
+        },
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "ingested",
+          "slug": "ingested"
+        },
+        {
+          "label": "poison",
+          "slug": "poison"
+        }
+      ],
+      "activation": {
+        "actions": "one",
+        "traits": [
+          "manipulate"
+        ],
+        "text": ""
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "alchemical",
+      "consumable",
+      "dark-archive",
+      "ingested",
+      "poison",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 83
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2AA70541-CCA0-57AE-B520-B37B698F47F0",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Gift of the Poisoned Heart",
+    "slug": "gift-of-the-poisoned-heart-dark-archive",
+    "descr": "---\n\nThose who fail to see the curse view this object as a priceless gift, capable of restoring life to the deceased, but deep in the heart of this diamond lies a single flaw: a fissured occlusion of sickly, tainted red. To activate the diamond, place it on the relatively intact body of a creature that died within the past year. The stone shatters, restoring the recipient to life with the effects of a successful [Resurrect](/ritual/resurrect-player-core) ritual, except there's no limit to the level of the creature that can be revived.\n\nThis gift of life comes with a terrible cost: the recipient believes you—and anyone else who aided in the resurrection—deliberately caused their death and revived them only in furtherance of some nefarious scheme. Having a proxy activate the *gift of the poisoned heart* is of no use, as the item's magic sniffs out all coconspirators and uses your attempt to avoid the drawback to feed the resurrected creature's paranoia.\n\nNo amount of information or persuasion can alleviate this mistrust, as the cursed creature twists the facts endlessly to fit their delusion. Only magic such as [Cleanse Affliction](/spell/cleanse-affliction-player-core) can neutralize this effect, and the subject resists any attempt to alter their beliefs by magic.",
+    "data": {
+      "level": 16,
+      "rarity": "rare",
+      "traits": [
+        "consumable",
+        "cursed",
+        "magical",
+        "unholy"
+      ],
+      "category": "consumable",
+      "price": "",
+      "usage": "held-in-one-hand",
+      "bulk": "—",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "cursed",
+          "slug": "cursed"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "unholy",
+          "slug": "unholy"
+        }
+      ],
+      "activation": {
+        "text": "1 minute (concentrate, manipulate)"
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "cursed",
+      "dark-archive",
+      "magical",
+      "remaster",
+      "unholy"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 161
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D28D9868-EBEF-5D13-B66C-109E0ED941B9",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Glittering Scarab",
+    "slug": "glittering-scarab-dark-archive",
+    "descr": "**Access** Member of the Esoteric Order of the Palatine Eye\n\n---\n\nThis pin is a valuable copy of a popular pin sold in markets throughout Osirion. The original pin is a solid piece, often purchased by tourists. The glittering scarab, though, can be squeezed gently, causing the wings to part and reveal an eye painted underneath them. This pin is used to gain entrance to most meetings of the Esoteric Order of the Palatine Eye. Someone who specifically examines the scarab can find the hidden eye with a successful Perception DC 20 check, though if they know about glittering scarabs, they can simply squeeze it to check for the eye.",
+    "data": {
+      "level": 1,
+      "rarity": "uncommon",
+      "traits": [],
+      "category": "worn",
+      "price": "10 gp",
+      "usage": "worn",
+      "bulk": "—",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "dark-archive",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 83
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "DDDF5BB1-481F-5E97-A71C-07772CC16E26",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Golden Goose",
+    "slug": "golden-goose-dark-archive",
+    "descr": "This life-sized, hollow, golden goose statuette has an open, fanged mouth and an unsettling aura of hunger. Fiends sometimes present it as a gift to mortals whose greed makes them susceptible to temptation. While the *golden goose* can be used without malice, those who possess such a thing often find its glittering lure erodes their morals over time.\n\n---",
+    "data": {
+      "level": 11,
+      "rarity": "rare",
+      "traits": [
+        "cursed",
+        "magical",
+        "unholy"
+      ],
+      "category": "held",
+      "price": "",
+      "usage": "held-in-two-hands",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "cursed",
+          "slug": "cursed"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "unholy",
+          "slug": "unholy"
+        }
+      ],
+      "activations": [
+        {
+          "traits": [
+            "manipulate"
+          ],
+          "name": "Golden Goose",
+          "text": "**Frequency** once per day\n\n---\n\n**Effect** You feed the goose the warm, still-bloody heart of any sapient, non-unholy creature who died within the past hour. The golden goose's eyes flare red as it chews the heart into pulp. Once the heart is destroyed, the goose lays a golden egg worth 50 gp, or 100 gp if you murdered the creature for no reason other than to feed the goose.\n\nAfter 12 such eggs are laid, the next time you activate the golden goose, it transmutes your heart to gold. This effect functions as [Petrify](/spell/petrify-player-core), with a Fortitude DC 30 save to resist. If you become [Petrified](/condition/petrified-player-core), you turn to solid, transparent stone. Your heart becomes a golden egg worth 100 gp, which can be retrieved only by shattering your body. Whether or not you turn to stone, the golden goose dissipates with a honk into sulfurous smoke.",
+          "effect": "You feed the goose the warm, still-bloody heart of any sapient, non-unholy creature who died within the past hour. The golden goose's eyes flare red as it chews the heart into pulp. Once the heart is destroyed, the goose lays a golden egg worth 50 gp, or 100 gp if you murdered the creature for no reason other than to feed the goose.\n\nAfter 12 such eggs are laid, the next time you activate the golden goose, it transmutes your heart to gold. This effect functions as [Petrify](/spell/petrify-player-core), with a Fortitude DC 30 save to resist. If you become [Petrified](/condition/petrified-player-core), you turn to solid, transparent stone. Your heart becomes a golden egg worth 100 gp, which can be retrieved only by shattering your body. Whether or not you turn to stone, the golden goose dissipates with a honk into sulfurous smoke.",
+          "description": "**Frequency** once per day\n\n---"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "cursed",
+      "dark-archive",
+      "magical",
+      "remaster",
+      "unholy"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 160
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5573CF6B-C720-5E8A-A56C-D1195E08C5E2",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Hand-Hewed Face",
+    "slug": "hand-hewed-face-dark-archive",
+    "descr": "At the crossroads under a new moon, you traded your face for one that you can mold as though it were clay, sealed with a ribbon worn around your neck to hide the seam. Your true appearance changes to that of a generic member of your ancestry. You can shape your facial features with your hands and thus don't need a disguise kit to Impersonate, and you don't take circumstance penalties to Impersonate someone due to the difference in your facial features. Once per day, from any distance, the entity that holds your *bargained contract* can change their appearance to match your appearance from before you sealed the contract, or the appearance you're currently using through Impersonate. When they do, your face transforms to your new true appearance—that of a generic member of your ancestry—and you become [Stunned 3](/condition/stunned-player-core) by the sudden backlash.",
+    "data": {
+      "level": 7,
+      "rarity": "rare",
+      "traits": [
+        "contract",
+        "invested",
+        "magical"
+      ],
+      "category": "other",
+      "price": "",
+      "usage": "other",
+      "bulk": "—",
+      "traitLinks": [
+        {
+          "label": "contract",
+          "slug": "contract"
+        },
+        {
+          "label": "invested",
+          "slug": "invested"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ],
+      "activations": [
+        {
+          "actions": "two",
+          "traits": [
+            "manipulate"
+          ],
+          "name": "Fresh Face",
+          "text": "**Requirements** You have used Impersonate and molded your face into a different face\n\n---\n\n**Effect** You peel your current face from your skin, revealing the true generic appearance from your *bargained contract*. This allows you to duck out of sight and remove the facial component of your disguise almost immediately, though clothing or other elements might still give you away.",
+          "effect": "You peel your current face from your skin, revealing the true generic appearance from your *bargained contract*. This allows you to duck out of sight and remove the facial component of your disguise almost immediately, though clothing or other elements might still give you away.",
+          "description": "**Requirements** You have used Impersonate and molded your face into a different face\n\n---"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "contract",
+      "dark-archive",
+      "invested",
+      "magical",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 164
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1E2ACAC2-4AD8-5269-8E1C-D9E0837D5978",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Hoax-Hunter's Kit",
+    "slug": "hoax-hunter-s-kit-dark-archive",
+    "descr": "This wooden box unfolds into a stack of hinged trays holding calipers, magnifying lenses, acids and reagents, comparison sketches of species commonly mistaken for one another, and glass slides for specimen testing. When you use this kit to study accounts of a creature or what it left behind (such as spoor, tracks, or fur samples), you gain a +1 item bonus to [Recall Knowledge](/action/recall-knowledge-player-core) about the creature or to Track the creature. In addition, if you fail to Recall Knowledge about the creature (but don't critically fail), you're able to eliminate at least one possibility of a common type of animal. For instance, you might be able to verify the creature isn't an ankhrav, even if you get no further information.",
+    "data": {
+      "level": 3,
+      "rarity": "uncommon",
+      "traits": [],
+      "category": "held",
+      "price": "50 gp",
+      "usage": "held-in-two-hands",
+      "bulk": "1",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "dark-archive",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9C6B68A1-7D6C-588A-BF44-A746FE394D37",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Horn of the Aoyin",
+    "slug": "horn-of-the-aoyin-dark-archive",
+    "descr": "This musical instrument is crafted from the horn of an aoyin—a large, cannibalistic beast whose form resembles an ox with a white body, four horns, and hair as coarse as straw—and carved with fell symbols. If the horn of the aoyin's owner doesn't use the instrument's activation on sapient creatures at least once a day, the horn of the aoyin activates at some point of its own choosing on the owner, and the owner critically fails with no saving throw.",
+    "data": {
+      "level": 13,
+      "rarity": "rare",
+      "traits": [
+        "cursed",
+        "magical"
+      ],
+      "category": "held",
+      "price": "",
+      "usage": "held-in-two-hands",
+      "bulk": "1",
+      "traitLinks": [
+        {
+          "label": "cursed",
+          "slug": "cursed"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ],
+      "activations": [
+        {
+          "actions": "two",
+          "traits": [
+            "auditory",
+            "emotion",
+            "incapacitation",
+            "magical",
+            "manipulate",
+            "mental"
+          ],
+          "name": "Cannibal Call",
+          "text": "**Frequency** once per hour\n\n**Requirements** You're trained in Performance\n\n---\n\n**Effect** You blow the horn, creating a low growling sound. Creatures other than you in a 60-foot emanation must attempt a Will DC 30 save. Those who fail become overwhelmed with an animalistic rage and the urge to consume flesh for 1 round, or 1 minute on a critical failure. They indiscriminately attack the nearest target unaffected by the magic of the horn unless there are no such targets, at which point they set on each other. While affected, they gain a jaws unarmed attack that deals 1d8 piercing damage, deal an additional 2 damage with unarmed attacks, and lose the ability to use any weaponry. They also gain a +2 status bonus to saving throws against mental effects, can detect bleeding creatures and open wounds as an imprecise sense with a range of 30 feet, and gain a +10-foot status bonus to their Speed. Lastly, they take a –1 penalty to AC and are unable to use concentrate actions other than Seeking. Creatures who critically succeed are temporarily immune for 24 hours.\n\n---",
+          "effect": "You blow the horn, creating a low growling sound. Creatures other than you in a 60-foot emanation must attempt a Will DC 30 save. Those who fail become overwhelmed with an animalistic rage and the urge to consume flesh for 1 round, or 1 minute on a critical failure. They indiscriminately attack the nearest target unaffected by the magic of the horn unless there are no such targets, at which point they set on each other. While affected, they gain a jaws unarmed attack that deals 1d8 piercing damage, deal an additional 2 damage with unarmed attacks, and lose the ability to use any weaponry. They also gain a +2 status bonus to saving throws against mental effects, can detect bleeding creatures and open wounds as an imprecise sense with a range of 30 feet, and gain a +10-foot status bonus to their Speed. Lastly, they take a –1 penalty to AC and are unable to use concentrate actions other than Seeking. Creatures who critically succeed are temporarily immune for 24 hours.\n\n---",
+          "description": "**Frequency** once per hour\n\n**Requirements** You're trained in Performance\n\n---"
+        }
+      ],
+      "craftRequirements": "A horn of the aoyin can be crafted only from a single aoyin horn. Crafting this object must be undertaken using tools soaked in the wielder's blood."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "cursed",
+      "dark-archive",
+      "magical",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 116
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "60DEBA25-453A-5339-8C59-21BF83F2B3F9",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Key to the Stomach",
+    "slug": "key-to-the-stomach-dark-archive",
+    "descr": "Whether due to the inconvenience of having a physical body or the desperation of impending starvation, you were drawn to a person offering relief from hunger. You swallowed a key, which remains in your stomach, that continuously satiates you. You no longer need to eat or drink. Once per day, from any distance, the entity that holds your *bargained contract* can have the key sealing your *bargained contract* absorb all items in your stomach, which prevents you from benefiting from items that require you to eat or drink them, such as potions and elixirs, for 10 minutes. During this time, the entity gains the benefits of these items instead.",
+    "data": {
+      "level": 9,
+      "rarity": "rare",
+      "traits": [
+        "contract",
+        "invested",
+        "magical"
+      ],
+      "category": "other",
+      "price": "",
+      "usage": "other",
+      "bulk": "—",
+      "traitLinks": [
+        {
+          "label": "contract",
+          "slug": "contract"
+        },
+        {
+          "label": "invested",
+          "slug": "invested"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ],
+      "activations": [
+        {
+          "actions": "two",
+          "traits": [
+            "concentrate"
+          ],
+          "name": "Iron Gut",
+          "text": "**Frequency** once per day\n\n---\n\n**Effect** You absorb any poisons with the key sealing your *bargained contract*. You're affected by a 5th-rank [Cleanse Affliction](/spell/cleanse-affliction-player-core) spell to remove a poison (counteract modifier +15).",
+          "effect": "You absorb any poisons with the key sealing your *bargained contract*. You're affected by a 5th-rank [Cleanse Affliction](/spell/cleanse-affliction-player-core) spell to remove a poison (counteract modifier +15).",
+          "description": "**Frequency** once per day\n\n---"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "contract",
+      "dark-archive",
+      "invested",
+      "magical",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 166
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "84D4D78F-0D4F-59FF-9C15-1631E6558647",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Lantern Implement",
+    "slug": "lantern-implement-dark-archive",
+    "descr": "",
+    "data": {
+      "level": 0,
+      "rarity": "common",
+      "traits": [],
+      "category": "held",
+      "price": "",
+      "usage": "held-in-one-hand",
+      "bulk": "—",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "dark-archive",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "723882B1-FC7A-5F5B-A847-066BF5625523",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Lost Ember",
+    "slug": "lost-ember-dark-archive",
+    "descr": "Sealed with a vial containing the ashes from your childhood home, you traded the memories of your early life to stay focused on the present, allowing you to avoid distractions during combat. Once per day, from any distance, the entity that holds your *bargained contract* can take one of your memories. This functions as a casting of [Rewrite Memory](/spell/rewrite-memory-player-core) that doesn't grant you a saving throw and can't be reversed by any means without stealing the memory back first.\n\n---",
+    "data": {
+      "level": 10,
+      "rarity": "rare",
+      "traits": [
+        "contract",
+        "invested",
+        "magical"
+      ],
+      "category": "other",
+      "price": "",
+      "usage": "other",
+      "bulk": "—",
+      "traitLinks": [
+        {
+          "label": "contract",
+          "slug": "contract"
+        },
+        {
+          "label": "invested",
+          "slug": "invested"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ],
+      "activations": [
+        {
+          "actions": "free",
+          "traits": [
+            "concentrate"
+          ],
+          "name": "Fix Focus",
+          "text": "**Frequency** once per day\n\n**Trigger** You start your turn [Off Guard](/condition/off-guard-player-core) or [Confused](/condition/confused-player-core)\n\n---\n\n**Effect** A speck of ash from the vial sealing your *bargained contract* appears out of nowhere on your tongue, bringing your senses into focus. You suppress the Off Guard or Confused condition until the start of your next turn. You can use this free action when you're confused, even though you normally can't take actions of your choice when confused.",
+          "effect": "A speck of ash from the vial sealing your *bargained contract* appears out of nowhere on your tongue, bringing your senses into focus. You suppress the Off Guard or Confused condition until the start of your next turn. You can use this free action when you're confused, even though you normally can't take actions of your choice when confused.",
+          "trigger": "You start your turn [Off Guard](/condition/off-guard-player-core) or [Confused](/condition/confused-player-core)",
+          "triggerBeforeDescription": false,
+          "triggerParagraphBreak": true,
+          "description": "**Frequency** once per day; ---"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "contract",
+      "dark-archive",
+      "invested",
+      "magical",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 166
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "6D1DAA3E-B91A-57CC-AC92-336ADAE77F2F",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Membership Cords",
+    "slug": "membership-cords-dark-archive",
+    "descr": "**Access** Member of a secret society\n\n---\n\nThese braided wool cords are threaded with reflective metal threads in patterns specified by the purchaser. No two society's patterns are the same, and purchasers tend to return to the same weaver each time to ensure new cords match previous ones. In a room lit only by dim candlelight, the reflective metal threads shimmer in a specific pattern. Many societies use these cords to prevent outsiders from infiltrating secret meetings and often have someone at the meeting area's entrance checking cords before allowing entry.",
+    "data": {
+      "level": 0,
+      "rarity": "uncommon",
+      "traits": [],
+      "category": "worn",
+      "price": "5 gp",
+      "usage": "worn",
+      "bulk": "L",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "dark-archive",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 83
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "38670F4C-4F5B-55AC-91F0-C9417BE1E3DB",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Mirror Implement",
+    "slug": "mirror-implement-dark-archive",
+    "descr": "",
+    "data": {
+      "level": 0,
+      "rarity": "common",
+      "traits": [],
+      "category": "held",
+      "price": "",
+      "usage": "held-in-one-hand",
+      "bulk": "—",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "dark-archive",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "04B7E92D-894E-560E-8445-A3EF277DA05C",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Mistranslator's Draft",
+    "slug": "mistranslator-s-draft-dark-archive",
+    "descr": "---\n\nA pickled lizard's tongue, tied into a knot, floats in this oily potion. When you drink it, you can speak and understand all spoken (but not written) languages for 1 hour. However, if you attempt to translate any spoken language, your translation is always erroneous in a way likely to cause substantial confusion or anger, typically reducing the listener's attitude toward you by one step. You aren't aware of your error, and any attempt to correct the mistake only compounds it.",
+    "data": {
+      "level": 9,
+      "rarity": "rare",
+      "traits": [
+        "consumable",
+        "cursed",
+        "magical",
+        "potion"
+      ],
+      "category": "potion",
+      "price": "",
+      "usage": "held-in-one-hand",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "cursed",
+          "slug": "cursed"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "potion",
+          "slug": "potion"
+        }
+      ],
+      "activation": {
+        "actions": "one",
+        "traits": [
+          "manipulate"
+        ],
+        "text": ""
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "cursed",
+      "dark-archive",
+      "magical",
+      "potion",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F1899860-E343-56D6-AD09-4EF7371FA0CE",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Moonlit Ink",
+    "slug": "moonlit-ink-dark-archive",
+    "descr": "**Access** Member of a secret society\n\n---\n\nThis alchemical ink is applied to a stamping device, typically a wooden seal or chop commissioned by the secret society and costing 1 sp. When the seal is pressed to paper, the ink briefly shows up before fading into invisibility. The stamp can be revealed by exposing the stamped item to direct moonlight for 1 minute. A character checking a good or document marked by a moonlit ink stamp must succeed at a Perception DC 25 check to spot the stamp without exposure to moonlight. In addition to its use by secret societies for their secret books, papers, and messages, some smugglers use moonlit ink to mark their goods.",
+    "data": {
+      "level": 2,
+      "rarity": "uncommon",
+      "traits": [
+        "alchemical",
+        "consumable"
+      ],
+      "category": "consumable",
+      "price": "5 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "—",
+      "traitLinks": [
+        {
+          "label": "alchemical",
+          "slug": "alchemical"
+        },
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        }
+      ],
+      "activation": {
+        "actions": "one",
+        "traits": [
+          "manipulate"
+        ],
+        "text": ""
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "alchemical",
+      "consumable",
+      "dark-archive",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 83
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "48EC40C8-0C33-5856-AB74-6CFACDFBA152",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Old Tillimaquin",
+    "slug": "old-tillimaquin-dark-archive",
+    "descr": "This beloved tavern mascot is a shabby old stuffed beast mounted on an immense slab of ironwood. The beast is roughly the size and shape of a wolverine but with a broader snout, blue stripes along its upper legs and bristled back, and a club of spiked bone at the end of its long tail. No one can recall where *Old Tillimaquin* originally came from, how the taxidermic beast came to stand in its tavern, or even whether it's a genuine article. The tradition of rubbing its bronzed claws for good luck has been observed for so long that the front claws are worn to stubs. Local belief holds that as long as Old Tillimaquin stands, neither fire nor flood will claim its town.",
+    "data": {
+      "level": 12,
+      "rarity": "unique",
+      "traits": [
+        "magical"
+      ],
+      "category": "other",
+      "price": "2000 gp",
+      "usage": "other",
+      "bulk": "3",
+      "traitLinks": [
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ],
+      "activations": [
+        {
+          "actions": "one",
+          "traits": [
+            "fortune",
+            "manipulate",
+            "occult"
+          ],
+          "name": "Luck of the Mascot",
+          "text": "**Frequency** once per month\n\n---\n\n**Effect** You rub *Old Tillimaquin*'s bronzed claws for good luck before setting out on a task that might benefit the town. You can reroll a single failed saving throw within the next 24 hours, but you must take the second result, even if it's worse than your original result. Each person who rubs the claws can benefit only once per month, but there's no limit to how many people can draw on *Old Tillimaquin*'s luck.",
+          "effect": "You rub *Old Tillimaquin*'s bronzed claws for good luck before setting out on a task that might benefit the town. You can reroll a single failed saving throw within the next 24 hours, but you must take the second result, even if it's worse than your original result. Each person who rubs the claws can benefit only once per month, but there's no limit to how many people can draw on *Old Tillimaquin*'s luck.",
+          "description": "**Frequency** once per month\n\n---"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "dark-archive",
+      "magical",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 64
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "80657717-BDB0-59B0-B304-C57D46D4019D",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Parchment of Secrets",
+    "slug": "parchment-of-secrets-dark-archive",
+    "descr": "**Access** Member of a secret society\n\n---\n\nThis parchment is crafted with illusion magic, allowing for the transfer of secret messages. You can fill the parchment with the usual amount of text, encoding your secret message within the innocuous message.",
+    "data": {
+      "level": 3,
+      "rarity": "uncommon",
+      "traits": [
+        "consumable",
+        "illusion",
+        "magical"
+      ],
+      "category": "consumable",
+      "price": "8 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "illusion",
+          "slug": "illusion"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ],
+      "activations": [
+        {
+          "name": "Hide Message",
+          "text": "1 minute (manipulate)\n\n---\n\n**Effect** You tap the letters of your secret message one at a time, causing the letters to glow momentarily before fading to their standard ink color, and a symbol of your choice appears at the corner of the page. The next time someone taps the symbol with a writing instrument, the chosen letters glow again, revealing the secret message, and then the power of the parchment is spent.",
+          "effect": "You tap the letters of your secret message one at a time, causing the letters to glow momentarily before fading to their standard ink color, and a symbol of your choice appears at the corner of the page. The next time someone taps the symbol with a writing instrument, the chosen letters glow again, revealing the secret message, and then the power of the parchment is spent.",
+          "description": "1 minute (manipulate)\n\n---"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "dark-archive",
+      "illusion",
+      "magical",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 82
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "17ADF30C-3F3A-55FD-8C6E-F4270A08F010",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Regalia Implement",
+    "slug": "regalia-implement-dark-archive",
+    "descr": "",
+    "data": {
+      "level": 0,
+      "rarity": "common",
+      "traits": [],
+      "category": "held",
+      "price": "",
+      "usage": "held-in-one-hand",
+      "bulk": "—",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "dark-archive",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D8454158-7AAE-5F98-BCBE-07737CCD077F",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Ring of Sneering Charity",
+    "slug": "ring-of-sneering-charity-dark-archive",
+    "descr": "This gold ring seems to offer good fortune to the wearer when they're charitable to those in need, but its curse was created to tear societies apart by inflaming class resentments and discrediting good works of true charity.\n\nUpon donning the ring, you must attempt a secret Will DC 25 save to avoid activating its magic. If you succeed, the ring's curse remains dormant, and it appears to be an exhausted item with no magic left. If you fail, the curse awakens, and the ring fuses to you.\n\nYou're compelled to spend 10% of your wealth—and 10% of any future wealth you obtain—on charity. However, your acts of charity are insensitive and so insulting that they earn the recipients' enmity. For example, upon learning someone lost a child, you might toss money at them \"to buy a new one.\" You can't understand why your gifts aren't met with gratitude and resent the unappreciative recipients, and you firmly believe you should be able to call upon them for favors. You consider yourself an ideal philanthropist, and you constantly try to ingratiate yourself with other charitable organizations and individuals by offering to guide their donations to be more like your own.",
+    "data": {
+      "level": 7,
+      "rarity": "rare",
+      "traits": [
+        "cursed",
+        "invested",
+        "magical"
+      ],
+      "category": "worn",
+      "price": "",
+      "usage": "wornring",
+      "bulk": "—",
+      "traitLinks": [
+        {
+          "label": "cursed",
+          "slug": "cursed"
+        },
+        {
+          "label": "invested",
+          "slug": "invested"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "cursed",
+      "dark-archive",
+      "invested",
+      "magical",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 162
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "BBE331F7-F00C-5073-B2C4-00C8EC44FAE2",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Rose of Loves Lost",
+    "slug": "rose-of-loves-lost-dark-archive",
+    "descr": "---\n\nNo thorns are visible on this ruby-red crystal rose, which seems to grant a boon to a loved one, but it draws three beads of blood when first bestowed upon an unwitting recipient. Hags delight in using the rose's curse to ruin young lovers, but it can be found anywhere—even buried innocently in a treasure hoard.\n\nYou activate the *rose of loves* lost by giving it to someone toward whom you feel romantic attraction. This item functions only if you feel genuine attraction and desire, and it doesn't function if you know the item's curse. If the target accepts the gift, they must succeed at a Will DC 27 save or be affected by [Charm](/spell/charm-player-core) with an unlimited duration. Every 24 hours, the victim attempts another Will save to break the spell. If they fail three consecutive Will saves, they become [Doomed 1](/condition/doomed-player-core), as the rose inflicts a lethal wasting disease. This value can't decrease while the curse continues. Instead, it worsens every 3 days the victim fails to break the rose's spell, until the victim either dies or shakes off the curse. A successful saving throw or [Cleanse Affliction](/spell/cleanse-affliction-player-core) (of 4th rank or higher) ends the charm and enables the victim to begin decreasing their doomed value.",
+    "data": {
+      "level": 10,
+      "rarity": "rare",
+      "traits": [
+        "consumable",
+        "cursed",
+        "magical",
+        "unholy"
+      ],
+      "category": "consumable",
+      "price": "",
+      "usage": "held-in-one-hand",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "cursed",
+          "slug": "cursed"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "unholy",
+          "slug": "unholy"
+        }
+      ],
+      "activation": {
+        "actions": "one",
+        "traits": [
+          "manipulate"
+        ],
+        "text": ""
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "cursed",
+      "dark-archive",
+      "magical",
+      "remaster",
+      "unholy"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 162
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "57070297-F95D-5E8B-A90C-8A0935CCC30B",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Sampling Ammunition",
+    "slug": "sampling-ammunition-dark-archive",
+    "descr": "**Ammunition** arrow, bolt\n\n---\n\nThe head of this arrow or bolt is a pointed glass cylinder with a hollow core. Upon hitting a corporeal creature, sampling ammunition captures a small portion of the target's skin, blood, and flesh. The sample falls to the ground below wherever the creature was hit. This sample is sealed and magically preserved inside its chamber, although it deteriorates normally once the cylinder is opened. Sampling ammunition can't collect samples from creatures made entirely of metal, stone, or other hard substances.",
+    "data": {
+      "level": 5,
+      "rarity": "common",
+      "traits": [
+        "consumable",
+        "magical"
+      ],
+      "category": "ammunition",
+      "price": "22 gp",
+      "usage": "",
+      "bulk": "—",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "dark-archive",
+      "magical",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 63
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "6F6C7B2C-56B8-578A-9CEF-B4E2B61382FA",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Self-Emptying Pocket",
+    "slug": "self-emptying-pocket-dark-archive",
+    "descr": "You never perform to an empty crowd after promising any profits to a phantom in a playhouse, sealed by holes that appear in your pockets. By meeting with the attendees at your events, you can use Performance instead of Diplomacy to Gather Information. When you would use Performance to [Earn Income](/action/earn-income-player-core), you don't earn any gold pieces, as the money disappears before you can even count it.\n\nThe entity that holds your *bargained contract* can influence your reception any time you perform for a crowd or Activate the pocket. If they influence your performance favorably, you gain a +2 item bonus to your Performance check. If they influence your performance unfavorably, you take a -2 item penalty to your Performance check. If you've failed to earn the entity money in quite a while, it often influences your performance unfavorably.\n\n---",
+    "data": {
+      "level": 9,
+      "rarity": "rare",
+      "traits": [
+        "contract",
+        "invested",
+        "magical"
+      ],
+      "category": "other",
+      "price": "",
+      "usage": "other",
+      "bulk": "—",
+      "traitLinks": [
+        {
+          "label": "contract",
+          "slug": "contract"
+        },
+        {
+          "label": "invested",
+          "slug": "invested"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ],
+      "activations": [
+        {
+          "actions": "two",
+          "traits": [
+            "concentrate"
+          ],
+          "name": "Beguiling Presence",
+          "text": "**Frequency** once per day\n\n---\n\n**Effect** You exercise all of your charm on a creature, turning a chance meeting into an impromptu performance that commands attention. Attempt a single Performance check against the Perception DC of the creature. On a success, the creature is affected as though by a successful Deception check to Create A Diversion. The entity that holds your contract can influence this performance as well.",
+          "effect": "You exercise all of your charm on a creature, turning a chance meeting into an impromptu performance that commands attention. Attempt a single Performance check against the Perception DC of the creature. On a success, the creature is affected as though by a successful Deception check to Create A Diversion. The entity that holds your contract can influence this performance as well.",
+          "description": "**Frequency** once per day\n\n---"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "contract",
+      "dark-archive",
+      "invested",
+      "magical",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 166
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3B555EC9-1C43-5F32-A199-232226A5059D",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Self-Immolating Note",
+    "slug": "self-immolating-note-dark-archive",
+    "descr": "**Access** Member of a secret society\n\n---\n\nThis paper is crafted with an unusual formula, causing it to catch fire and self-immolate 5 minutes after being exposed to the air. The item activates automatically when the envelope is opened, which typically takes an [Interact](/action/interact-player-core) action. Anyone holding the note when it catches fire takes 1 fire damage. Often, these notes are given as practical jokes or threats, but secret societies find them quite useful when sharing information about upcoming meetings or any other relevant news. These letters must be written in haste and require the use of their accompanying envelopes, which prevent air from interacting with the paper until the envelope's seal is broken.",
+    "data": {
+      "level": 1,
+      "rarity": "uncommon",
+      "traits": [
+        "alchemical",
+        "consumable",
+        "fire"
+      ],
+      "category": "consumable",
+      "price": "3 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "—",
+      "traitLinks": [
+        {
+          "label": "alchemical",
+          "slug": "alchemical"
+        },
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "fire",
+          "slug": "fire"
+        }
+      ],
+      "activation": {
+        "actions": "one",
+        "traits": [
+          "manipulate"
+        ],
+        "text": ""
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "alchemical",
+      "consumable",
+      "dark-archive",
+      "fire",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 84
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "45D19E44-08E0-5567-81E8-30B72C684695",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Sibling's Coin",
+    "slug": "sibling-s-coin-dark-archive",
+    "descr": "**Access** Member of a secret society\n\n---\n\nContrary to widespread belief, secret handshakes are not the preferred method of confirmation between secret society members, mostly because this would be obvious in the middle of a crowded street or busy tavern. Instead, societies tend to mark each other by carrying sibling's coins. The name was originally coined by a past secret society that has since fallen into obscurity, but its ingenious coins remain. The coins are innocuous, resembling common silver coins until the owner twists the outer edge clockwise. At this point, the face of the coin rotates to reveal the symbol of the secret society of the owner. Suspected compatriots often toy with their coins as a half-recognized fidget, before trying to subtly flash the inscription to their fellow conversationalist.\n\nWhile it's possible to notice the coin's mechanism if you specifically check the coin (Perception DC 20), few people individually inspect coins unless they have a reason to be suspicious of them.",
+    "data": {
+      "level": 1,
+      "rarity": "uncommon",
+      "traits": [],
+      "category": "held",
+      "price": "10 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "—",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "dark-archive",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "89B7D0EE-FDE9-5A6E-A516-779518E4FE8A",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Silent Bell",
+    "slug": "silent-bell-dark-archive",
+    "descr": "**Access** Member of a secret society\n\n---\n\nThis large handbell is made from cast bronze and has a wooden handle. The outside of the bell is covered in fine etchings, showing a group of varied people sitting around a table with clouds obscuring anyone in the background. The clapper is curiously absent from this bell and, when idly rung, it produces no audible sound.\n\n---",
+    "data": {
+      "level": 9,
+      "rarity": "uncommon",
+      "traits": [
+        "illusion",
+        "magical"
+      ],
+      "category": "held",
+      "price": "600 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "illusion",
+          "slug": "illusion"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ],
+      "activations": [
+        {
+          "actions": "three",
+          "traits": [
+            "concentrate",
+            "manipulate"
+          ],
+          "name": "Ring in the Quiet",
+          "text": "**Frequency** once per day\n\n---\n\n**Effect** The silent bell creates an invisible wall surrounding a cube, 20 feet to a side, that prevents sound from passing into or from the cube for 10 minutes. The wall isn't solid and doesn't prevent anything but sound from passing through. Since the cube is [invisible](/condition/invisible-player-core), creatures can still read lips and body language through the wall.",
+          "effect": "The silent bell creates an invisible wall surrounding a cube, 20 feet to a side, that prevents sound from passing into or from the cube for 10 minutes. The wall isn't solid and doesn't prevent anything but sound from passing through. Since the cube is [invisible](/condition/invisible-player-core), creatures can still read lips and body language through the wall.",
+          "description": "**Frequency** once per day\n\n---"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "dark-archive",
+      "illusion",
+      "magical",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 84
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "CA1CAD33-88B0-50AC-A54D-EBA0E66038C2",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Society Portrait",
+    "slug": "society-portrait-dark-archive",
+    "descr": "**Access** Member of a secret society\n\n---\n\nThese large portraits are commonly commissioned by secret societies to display their current member ranks, and to protect against members who would break their vows to keep their secrets. Each member being painted gives their consent to be traced by the portrait, and they agree to keep their vows for as long as their membership stands or until death, whichever comes first. This consent can be transferred to a new portrait if one is needed once the society expands, without needing another confirmation.\n\nShould a member betray the secrets of their society, their image in the society portrait changes within 10 minutes, altering the image of the member by spelling out \"TRAITOR\" across their form. It provides no details on the specifics of the betrayal. The traitor can attempt a Will DC 30 save or Deception DC 30 check at the time they betrayed a secret to avoid the portrait revealing their treachery. The traitorous scrawl can be counteracted by dispel magic targeted at the portrait (counteract DC 20, counteract rank of 3).",
+    "data": {
+      "level": 6,
+      "rarity": "uncommon",
+      "traits": [
+        "magical"
+      ],
+      "category": "held",
+      "price": "210 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "1",
+      "traitLinks": [
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "dark-archive",
+      "magical",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 84
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "17DD4FA8-259E-535F-891F-789D9A389440",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Stone of Unrivaled Skill",
+    "slug": "stone-of-unrivaled-skill-dark-archive",
+    "descr": "You traded your senses to a hag for unrivaled expertise stolen from various souls who were once the greatest in their field. Your *bargained contract* is sealed by sleeping with a pitch-black stone under your pillow every night. Choose one skill when you seal this *bargained contract*. You become an expert in that skill; if you were already an expert, you become a master, and if you were already a master, you become legendary. Once per day, from any distance, the hag that holds your contract can take over your senses for 10 minutes, during which time the hag hears, sees, smells, tastes, and feels everything you would typically experience. During this time, you're [Dazzled](/condition/dazzled-player-core) by your own disjointed senses.",
+    "data": {
+      "level": 17,
+      "rarity": "rare",
+      "traits": [
+        "contract",
+        "invested",
+        "magical"
+      ],
+      "category": "other",
+      "price": "",
+      "usage": "other",
+      "bulk": "—",
+      "traitLinks": [
+        {
+          "label": "contract",
+          "slug": "contract"
+        },
+        {
+          "label": "invested",
+          "slug": "invested"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ],
+      "activations": [
+        {
+          "actions": "two",
+          "traits": [
+            "concentrate"
+          ],
+          "name": "Taste Fluency",
+          "text": "**Frequency** once per day\n\n---\n\n**Effect** You place the stone sealing your *bargained contract* in your mouth. For the next 10 minutes, you gain a +3 status bonus to skill checks using the skill you chose for your contract.",
+          "effect": "You place the stone sealing your *bargained contract* in your mouth. For the next 10 minutes, you gain a +3 status bonus to skill checks using the skill you chose for your contract.",
+          "description": "**Frequency** once per day\n\n---"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "contract",
+      "dark-archive",
+      "invested",
+      "magical",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 166
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F426C873-3D14-538F-B7AD-7A766AE484E4",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Swirling Sand",
+    "slug": "swirling-sand-dark-archive",
+    "descr": "---\n\nSwirling sand carries a faint trace of strange compulsions from the helical sand spire near Beachcomber. Adding this catalyst to a [Suggestion](/spell/suggestion-player-core) spell implants a strange compulsion in one target of the spell. The target creature must spin counterclockwise at the end of its turn if it didn't take a move action that turn. This spin is a free action that has the [move](/trait/move) trait. This effect lasts for 3 rounds on a success, failure, or critical failure against *suggestion* (even if the target completes its *suggestion* in fewer rounds); a target that critically succeeds against *suggestion* is unaffected by the swirling sand.",
+    "data": {
+      "level": 7,
+      "rarity": "rare",
+      "traits": [
+        "catalyst",
+        "consumable",
+        "magical"
+      ],
+      "category": "consumable",
+      "price": "52 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "catalyst",
+          "slug": "catalyst"
+        },
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ],
+      "activation": {
+        "type": "Cast a Spell",
+        "text": ""
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "catalyst",
+      "consumable",
+      "dark-archive",
+      "magical",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 73
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4510A9C7-6499-5A26-95B3-B71AD8D7393E",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Tablet of Chained Souls",
+    "slug": "tablet-of-chained-souls-dark-archive",
+    "descr": "Half-formed, unreadable runes drift across this weathered stone tablet, which resembles a tombstone too eroded to be legible. Created by a long-dead order of scholars dedicated to Pharasma, the *tablet of chained souls* can be a powerful tool in laying uneasy spirits to rest, but its magic exacts a heavy cost.",
+    "data": {
+      "level": 8,
+      "rarity": "rare",
+      "traits": [
+        "cursed",
+        "magical"
+      ],
+      "category": "held",
+      "price": "",
+      "usage": "held-in-two-hands",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "cursed",
+          "slug": "cursed"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ],
+      "activations": [
+        {
+          "actions": "three",
+          "traits": [
+            "concentrate",
+            "manipulate"
+          ],
+          "name": "Spirit Carving",
+          "text": "---\n\n**Effect** You present the tablet to a ghost or lay it on a haunted site. The tablet's words resolve into a cryptic but accurate clue about the spirit's unfinished business. Upon reading the tablet's words, you're subject to a Geas that requires you to right that wrong and lay the ghost to rest. If you die without completing the task, you become a ghost, cursed to remain until another recovers the tablet and discharges your duty.",
+          "effect": "You present the tablet to a ghost or lay it on a haunted site. The tablet's words resolve into a cryptic but accurate clue about the spirit's unfinished business. Upon reading the tablet's words, you're subject to a Geas that requires you to right that wrong and lay the ghost to rest. If you die without completing the task, you become a ghost, cursed to remain until another recovers the tablet and discharges your duty.",
+          "description": "---"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "cursed",
+      "dark-archive",
+      "magical",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 162
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E13B7D8C-78F7-56B8-9EF7-D04BB7F4628F",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Taleteller's Ring",
+    "slug": "taleteller-s-ring-dark-archive",
+    "descr": "Smiling faces are inscribed about this silver band. You become a fluent weaver of fictions, gaining a +2 item bonus to Deception checks to [Lie](/action/lie-player-core), Deception DCs against Sense Motive, and Performance checks for storytelling. Whenever you're under suspicion or being questioned by an authority figure, you find yourself compulsively spinning absurd, tall tales that are so unconvincing that they make you look guilty even when you're innocent. The ring's bonuses vanish, and any listener can quickly determine you're lying. Nevertheless, you're completely unable to be honest in such situations.",
+    "data": {
+      "level": 9,
+      "rarity": "rare",
+      "traits": [
+        "cursed",
+        "invested",
+        "magical"
+      ],
+      "category": "worn",
+      "price": "",
+      "usage": "wornring",
+      "bulk": "—",
+      "traitLinks": [
+        {
+          "label": "cursed",
+          "slug": "cursed"
+        },
+        {
+          "label": "invested",
+          "slug": "invested"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "cursed",
+      "dark-archive",
+      "invested",
+      "magical",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9E8A54DB-9C64-579C-8355-AC6DE99A692F",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Tome Implement",
+    "slug": "tome-implement-dark-archive",
+    "descr": "",
+    "data": {
+      "level": 0,
+      "rarity": "common",
+      "traits": [],
+      "category": "held",
+      "price": "",
+      "usage": "held-in-one-hand",
+      "bulk": "—",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "dark-archive",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4C30690C-BD80-59B2-923E-0F0082FF51E2",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Traitor's Ring",
+    "slug": "traitor-s-ring-dark-archive",
+    "descr": "**Access** Member of a secret society\n\n---\n\nThis ring has a thick band supporting a square-cut gem that can be customized to the buyer's preference. The thickness of the band allows it to be taken to any jeweler or blacksmith to be adjusted to different hands or fingers from the original make. There is a tiny clasp at the side of the gem that, when pressed, opens the gem, revealing a small, hinged compartment. This compartment is designed to hold one dose of poison, allowing wearers to slip the contents of the ring into the food or drink of an intended target. The compartment can be closed again by gently pressing the gem back into place. Noticing the compartment requires a Perception DC 15 check for anyone inspecting the ring.",
+    "data": {
+      "level": 0,
+      "rarity": "uncommon",
+      "traits": [],
+      "category": "worn",
+      "price": "15 gp",
+      "usage": "worn",
+      "bulk": "—",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "dark-archive",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "EEF77AA3-5BEC-5279-87B6-7A206E94BB71",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Vial of the Immortal Wellspring",
+    "slug": "vial-of-the-immortal-wellspring-dark-archive",
+    "descr": "At a wellspring, you gave your blood to a force of nature and received a vial from the wellspring's heart in return. Once per 10 minutes, when your dying value would increase above 3, you instead become [Unconscious](/condition/unconscious-player-core) and are no longer dying; this doesn't prevent you from being killed by death effects or the [doomed](/condition/doomed-player-core) condition. Once per day, from any distance, the entity that holds your *bargained contract* can possess you and control your actions, leaving you unaware of what goes on. This possession automatically succeeds, regardless of any countermeasures you might take. Normally this lasts for only 1 round if during an encounter, or no longer than a few minutes during exploration. However, the more you rely on the power of the wellspring's heart to survive death, the longer it can possess you the next time it chooses to do so, doubling the amount of time with each use, to a maximum duration of 1 day. Once the entity possesses you, this duration resets.\n\n---",
+    "data": {
+      "level": 20,
+      "rarity": "rare",
+      "traits": [
+        "contract",
+        "invested",
+        "magical"
+      ],
+      "category": "other",
+      "price": "",
+      "usage": "other",
+      "bulk": "—",
+      "traitLinks": [
+        {
+          "label": "contract",
+          "slug": "contract"
+        },
+        {
+          "label": "invested",
+          "slug": "invested"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ],
+      "activations": [
+        {
+          "actions": "two",
+          "traits": [
+            "concentrate"
+          ],
+          "name": "Spring of Life",
+          "text": "**Frequency** once per day\n\n---\n\n**Effect** You drink from the vial of water that seals your *bargained contract*. You gain the effects of a 9th-rank, 2-action [Heal](/spell/heal-player-core) spell.",
+          "effect": "You drink from the vial of water that seals your *bargained contract*. You gain the effects of a 9th-rank, 2-action [Heal](/spell/heal-player-core) spell.",
+          "description": "**Frequency** once per day\n\n---"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "contract",
+      "dark-archive",
+      "invested",
+      "magical",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 165
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "93A6792C-88E5-5143-8A8B-61E8721E6526",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Wand Implement",
+    "slug": "wand-implement-dark-archive",
+    "descr": "",
+    "data": {
+      "level": 0,
+      "rarity": "common",
+      "traits": [],
+      "category": "held",
+      "price": "",
+      "usage": "held-in-one-hand",
+      "bulk": "—",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "dark-archive",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "80CF9906-EE19-544A-B52C-25D3AF368043",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Wine of the Blood",
+    "slug": "wine-of-the-blood-dark-archive",
+    "descr": "---\n\nThis wine, prepared using the blood of a creature with overwhelming vitality, soothes the body, mind, and spirit with a temporary sense of euphoria and rest. When you drink wine of the blood, you recover +9. Lastly, you gain a +1 status bonus to all Will saves and a +2 status bonus against emotion effects for 1 minute.\n\nEffect: Wine Of The Blood",
+    "data": {
+      "level": 5,
+      "rarity": "rare",
+      "traits": [
+        "consumable",
+        "healing",
+        "magical",
+        "potion"
+      ],
+      "category": "potion",
+      "price": "30 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "healing",
+          "slug": "healing"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "potion",
+          "slug": "potion"
+        }
+      ],
+      "activation": {
+        "actions": "one",
+        "traits": [
+          "manipulate"
+        ],
+        "text": ""
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "dark-archive",
+      "healing",
+      "magical",
+      "potion",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 115
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

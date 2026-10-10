@@ -1,0 +1,5149 @@
+[
+  {
+    "id": "997C20E7-7DE5-5982-A940-77F4AA72F508",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Astral Rain",
+    "slug": "astral-rain-dark-archive",
+    "descr": "You fling a mass of furious thoughts into the air, where they expand into numerous blades or other shapes that rain down. Any creature that's in the area or enters the area before the start of your next turn takes 4d4 bludgeoning or piercing damage (your choice), with a basic Reflex saving throw.\n\n---\n\n**Heightened (+1)** The damage increases by 1d4.",
+    "data": {
+      "rank": 3,
+      "rarity": "uncommon",
+      "traits": [
+        "cantrip",
+        "concentrate",
+        "force",
+        "manipulate",
+        "psychic"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "60 feet",
+      "targets": "",
+      "requirements": "",
+      "area": "5-foot cube",
+      "defense": "basicreflex",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "cantrip",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "cantrip",
+          "slug": "cantrip"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "force",
+          "slug": "force"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "psychic",
+          "slug": "psychic"
+        }
+      ],
+      "areaEffectShape": "cube",
+      "areaEffectSize": 5,
+      "durationText": "",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "cantrip",
+      "concentrate",
+      "dark-archive",
+      "force",
+      "manipulate",
+      "psychic",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 23
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "573255EE-4A39-5632-9D93-0D0A62E5EDD3",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Awaken Entropy",
+    "slug": "awaken-entropy-dark-archive",
+    "descr": "All things age, all things die, and at the end of days, even the universe will grow quiet and still. You awaken the cosmic principle of entropy, accelerating time in an area—flesh falters, plants shrivel, and even stone begins to crumble. Any creature that enters or begins its turn in the area takes 8d6 void damage with a basic Fortitude save, or 8d6 force damage if the creature normally doesn't take void damage, such as if the creature is a construct or undead. Even beings such as fiends with unlimited lifespans can be worn away by entropy.\n\nThe first time you Sustain the Spell on each subsequent turn, the entropic zone grows stronger in addition to having its duration increased. The radius of the burst increases by 10 feet (to a maximum of 40 feet), and the size of the damage dice increases by one step (from d6 to (2+spell rank)d8 void, then to (2+spell rank)d10 void, and finally to (2+spell rank)d12 void).\n\n---\n\n**Heightened (+1)** The damage increases by 1d6.",
+    "data": {
+      "rank": 6,
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "manipulate"
+      ],
+      "cost": "",
+      "cast": "3",
+      "range": "120 feet",
+      "targets": "",
+      "requirements": "",
+      "area": "10-foot burst",
+      "defense": "basicfortitude",
+      "traditions": [
+        "arcane",
+        "divine",
+        "occult"
+      ],
+      "traditionsText": "Arcane, Divine, Occult",
+      "type": "spell",
+      "castActions": [
+        "three"
+      ],
+      "actions": "three",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ],
+      "areaEffectShape": "sphere",
+      "areaEffectSize": 10,
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "dark-archive",
+      "manipulate",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 182
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "678EF124-046C-5463-B190-492288641D9C",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Behold the Weave",
+    "slug": "behold-the-weave-dark-archive",
+    "descr": "You behold the many timelines that weave around a creature, and in so doing, you make one more likely to occur. The target must attempt a Will save.\n\n---\n\n**Critical Success** You can make neither heads nor tails of the target's timeline, and the target is unaffected.\n\n**Success** The target must commit to a single action that it will take at some point during its next turn: \"Stride toward Valeros,\" \"Cast shield,\" \"Strike Amiri with your jaws.\" That action is now locked in, and the creature must attempt it, even if the situation has changed—if the creature stated that it would Strike at Amiri with its jaws, it must try to do so. If the creature is entirely unable to fulfill the action it committed to—for instance, if it had only 1 action left and Amiri was out of the range of its jaws Strike—it loses the last action of its turn as it reels in a temporal paradox. The creature can choose to lock in a 2- or 3-action activity if it prefers to do so, but if it does, it loses all the associated actions if it can't perform the activity on its turn. If the situation changes oddly (perhaps the creature is forcibly teleported away and has no idea which direction is \"toward Valeros\" any longer), the GM determines what happens.\n\n**Failure** As success, but the creature must commit at least two of its actions for the next turn—\"I will Stride toward Valeros and then Strike with my claws.\" All of these actions are similarly locked in and can't be changed, but the creature can take them in any order.\n\n**Critical Failure** As failure, but the creature must commit all of its actions for the next turn.\n\n---\n\n**Heightened (7th)** Instead of affecting a single target, the spell affects all enemies within a 30-foot emanation.",
+    "data": {
+      "rank": 3,
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "incapacitation",
+        "manipulate",
+        "prediction"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "30 feet",
+      "targets": "1 creature",
+      "requirements": "",
+      "defense": "will",
+      "traditions": [
+        "divine",
+        "occult"
+      ],
+      "traditionsText": "Divine, Occult",
+      "type": "spell",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "incapacitation",
+          "slug": "incapacitation"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "prediction",
+          "slug": "prediction"
+        }
+      ],
+      "durationText": "1 round",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "dark-archive",
+      "incapacitation",
+      "manipulate",
+      "prediction",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 181
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "CF0C44D9-805E-5EB8-A132-7CE6CEAFE7D6",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Bilocation",
+    "slug": "bilocation-dark-archive",
+    "descr": "You exist in two places at once. When you Cast the Spell, another copy of yourself appears in an adjacent square. During bilocation's duration, whenever you act, you can choose which of your selves does so, and whenever one of you uses a move action, you can both move. Your two selves share Hit Points, and any condition or effect on one affects both. If both of your selves are in the area of the same effect, or targeted by the same multitarget effect, you are only affected once. Even if you are reduced to 0 Hit Points or killed, both selves remain until the duration expires. Your link continues at any distance, even across planar boundaries. You can Dismiss the Spell, and if you do so, you choose which of the selves vanishes and which becomes you, allowing you to extricate one of your selves from a dangerous situation.",
+    "data": {
+      "rank": 9,
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "manipulate"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "",
+      "targets": "",
+      "requirements": "",
+      "traditions": [
+        "arcane",
+        "occult"
+      ],
+      "traditionsText": "Arcane, Occult",
+      "type": "spell",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ],
+      "durationText": "10 minutes",
+      "duration": 10,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "dark-archive",
+      "manipulate",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 105
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C4E9D541-C86B-5D23-A634-BC0B1E1BAAF4",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Bracing Tendrils",
+    "slug": "bracing-tendrils-dark-archive",
+    "descr": "Visible tendrils of force anchor your body to the ground, preventing unwanted movement. Whenever you're on the ground and a creature or effect attempts to forcibly move you from your space, you can use your spell DC in place of your Fortitude DC as the DC of the check to move you. If a creature wouldn't normally need a check to move you, it must succeed at an appropriate check (usually an Athletics check for physical movement) against your spell DC or you are unmoved; if an effect wouldn't normally need a check to move you, it must counteract *bracing tendrils* or you are unmoved. When a creature fails to move you in this way, you can choose to have the tendrils lash back and push them 5 feet away from you.\n\nWhile the tendrils anchor you in place when you come to a stop, they uproot easily to cooperate with your own voluntary movement, so you can still move freely while under the effect of the spell.",
+    "data": {
+      "rank": 3,
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "force",
+        "manipulate"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "",
+      "targets": "",
+      "requirements": "",
+      "traditions": [
+        "arcane",
+        "occult"
+      ],
+      "traditionsText": "Arcane, Occult",
+      "type": "spell",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "force",
+          "slug": "force"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ],
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "dark-archive",
+      "force",
+      "manipulate",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 104
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "BC9B3284-C270-5598-86D7-4D1115F8A17F",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Cinder Gaze",
+    "slug": "cinder-gaze-dark-archive",
+    "descr": "You've learned to read the future in the patterns of flames and smoke. Though inexact and often symbolic, these readings help prepare you for upcoming events. When Casting this Spell, you must be near a fire (of any size) for the duration. Upon completion, roll 1d4 for your prediction. The benefit lasts for 10 minutes or until expended, whichever comes first. After casting cinder gaze, you can't cast it again for 10 minutes.\n\n**Terrible Danger** You gain a +2 status bonus to your next initiative roll.**New Life** The next time you take damage, just before taking the damage, you gain 6 temporary Hit Points.**Vivid Insight** (fortune) The next time you attempt a check to Recall Knowledge, roll twice and take the higher result.**Good Fortune** (fortune) The next time you attempt a saving throw, roll twice and take the better result.\n\n---\n\n**Heightened (+1)** The number of temporary Hit Points from new life increases by 2.\n\nSpell Effect: Cinder Gaze",
+    "data": {
+      "rank": 1,
+      "rarity": "rare",
+      "traits": [
+        "cleric",
+        "concentrate",
+        "focus",
+        "manipulate",
+        "prediction"
+      ],
+      "cost": "",
+      "cast": "1 minute",
+      "range": "",
+      "targets": "",
+      "requirements": "",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "focus",
+      "traitLinks": [
+        {
+          "label": "cleric",
+          "slug": "cleric"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "focus",
+          "slug": "focus"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "prediction",
+          "slug": "prediction"
+        }
+      ],
+      "durationText": "",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "cleric",
+      "concentrate",
+      "dark-archive",
+      "focus",
+      "manipulate",
+      "prediction",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4C4A5B9B-B23E-5FEE-8519-DFBF49B02EFF",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Contagious Idea",
+    "slug": "contagious-idea-dark-archive",
+    "descr": "Nothing is so contagious as a thought. You place either a pleasant thought or a terrifying one in a creature's mind. You can then plant the same thought in a second creature's mind. You can't choose a creature that's already been a target of this casting of contagious idea, nor can you choose yourself. The second target can be beyond the range of the spell, but it must be within 30 feet of the first target.\n\n**Pleasant Thought** The target is soothed by a pleasant memory, gaining 5 temporary Hit Points that last for 1 minute. Spell Effect: Contagious Idea (Pleasant Thought)\n\n**Terrifying Thought** You plant a nameless unease in the target's mind. The target must attempt a Will save.\n\n**Critical Success** The target is unaffected and is temporarily immune for 1 minute.**Success** The target is [Frightened 1](/condition/frightened-player-core) and is then temporarily immune for 1 minute.**Failure** The target becomes Frightened 2.**Critical Failure** The target becomes Frightened 3.\n\n---\n\n**Heightened (+1)** The temporary Hit Points for a pleasant thought increase by 1.",
+    "data": {
+      "rank": 5,
+      "rarity": "uncommon",
+      "traits": [
+        "cantrip",
+        "concentrate",
+        "emotion",
+        "manipulate",
+        "mental",
+        "psychic"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "30 feet (see text)",
+      "targets": "1 or 2 creatures other than yourself (see text)",
+      "requirements": "",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "cantrip",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "cantrip",
+          "slug": "cantrip"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "emotion",
+          "slug": "emotion"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        },
+        {
+          "label": "psychic",
+          "slug": "psychic"
+        }
+      ],
+      "durationText": "",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "cantrip",
+      "concentrate",
+      "dark-archive",
+      "emotion",
+      "manipulate",
+      "mental",
+      "psychic",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 21
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "892DBC09-C523-5557-8913-54998325F20C",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Dancing Blade",
+    "slug": "dancing-blade-dark-archive",
+    "descr": "You telekinetically animate a weapon that's unattended or on your person. It brandishes itself at a foe of your choice as if wielded by an invisible duelist. When you first Cast the Spell, the weapon automatically flies to the target and Strikes. It moves along with its target, always remaining within reach. Each time you Sustain the Spell, the weapon either Changes Partners or Strikes. The weapon's attacks use and contribute to your multiple attack penalty.\n\n**Change Partners** Change the weapon's target to a different creature within 30 feet. The weapon flies to its new target.**Strike** (attack) The weapon attacks its target using your spell attack modifier. On a hit, the weapon deals 3d6 damage, of a type determined by the weapon (if the weapon has the [versatile](/trait/versatile) trait or can otherwise deal multiple types of damage, you choose each time you attack).\n\n---\n\n**Heightened (+2)** The damage increases by 1d6.",
+    "data": {
+      "rank": 5,
+      "rarity": "uncommon",
+      "traits": [
+        "cantrip",
+        "concentrate",
+        "manipulate",
+        "psychic"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "30 feet",
+      "targets": "1 creature",
+      "requirements": "",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "cantrip",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "cantrip",
+          "slug": "cantrip"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "psychic",
+          "slug": "psychic"
+        }
+      ],
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "cantrip",
+      "concentrate",
+      "dark-archive",
+      "manipulate",
+      "psychic",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 17
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "7740A3A8-F186-5376-BCCD-A310A849A2F5",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Distortion Lens",
+    "slug": "distortion-lens-dark-archive",
+    "descr": "You create a magical lens that distorts space as best suits you. You create the lens in an area in range, even suspended in midair. If your or an ally's ranged attack passes through the lens, the attack gains an additional 10 feet of range; if an enemy's ranged attack would pass through the lens, it requires an additional 10 feet of range to move through, though the enemy knows before using its ability whether the interference puts the target out of range. An ally whose space overlaps the lens can increase the range of its ranged attacks, but an enemy whose space overlaps the lens doesn't reduce the range of its ranged attacks.\n\nThe first time each round you Sustain the Spell, you can choose to relocate it to another area within range. The lens disappears if you cast *distortion lens* again.\n\n---\n\n**Heightened (+3)** The lens increases or decreases the range of abilities by an additional 5 feet.",
+    "data": {
+      "rank": 1,
+      "rarity": "uncommon",
+      "traits": [
+        "cantrip",
+        "concentrate",
+        "psychic"
+      ],
+      "cost": "",
+      "cast": "1",
+      "range": "30 feet",
+      "targets": "",
+      "requirements": "",
+      "area": "5-foot square",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "cantrip",
+      "castActions": [
+        "one"
+      ],
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "cantrip",
+          "slug": "cantrip"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "psychic",
+          "slug": "psychic"
+        }
+      ],
+      "areaEffectShape": "square",
+      "areaEffectSize": 5,
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "cantrip",
+      "concentrate",
+      "dark-archive",
+      "psychic",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 24
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F16AF6CA-A19D-57B1-A895-AE7013F72360",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Empty Pack",
+    "slug": "empty-pack-dark-archive",
+    "descr": "You render every item inside the container you touch [Invisible](/condition/invisible-player-core), although the container itself remains visible. The items within are [Undetected](/condition/undetected-player-core) to all creatures, though a creature can attempt to find an item by reaching into the bag, making an item hidden to them instead if they succeed. Additionally, the spell doesn't prevent the items from making protrusions in the bag, adding weight, making noise when jostling around, and so on. However, the spell prevents anything within the container from falling out if it's upended. Any object removed from the container becomes visible and remains visible even if returned to the container.\n\n---\n\n**Heightened (4th)** The duration is until the next time you make your daily preparations.",
+    "data": {
+      "rank": 2,
+      "rarity": "common",
+      "traits": [
+        "illusion",
+        "manipulate",
+        "subtle"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "touch",
+      "targets": "1 container of 2 Bulk or less",
+      "requirements": "",
+      "traditions": [
+        "arcane",
+        "occult"
+      ],
+      "traditionsText": "Arcane, Occult",
+      "type": "spell",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "illusion",
+          "slug": "illusion"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "subtle",
+          "slug": "subtle"
+        }
+      ],
+      "durationText": "1 hour",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "hour"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "dark-archive",
+      "illusion",
+      "manipulate",
+      "remaster",
+      "subtle"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 106
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "16C3D050-4447-51CC-B116-41BB41B91520",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Entropic Wheel",
+    "slug": "entropic-wheel-dark-archive",
+    "descr": "You stockpile thermal energy in a magical wheel-like construct that lets you burn opponents with cold or freeze their bodies with heat. When you Cast the Spell, the wheel has one mote of thermal energy, and when you use a cold or fire effect or deal cold or fire damage, the wheel spins, siphoning off a bit of energy and gaining another mote. The wheel can't gain motes more than once on a given turn, and the maximum number of motes is equal to *entropic wheel*'s rank.\n\nWhen you Cast a Spell that deals fire damage, the target also takes cold damage equal to the number of motes in the *entropic wheel*. When you Cast a Spell that deals cold damage, the target also takes fire damage equal to the number of motes in the *entropic wheel*. This applies only to the initial damage of the spell, not to any persistent damage or ongoing effects.\n\nSpell Effect: Entropic Wheel",
+    "data": {
+      "rank": 3,
+      "rarity": "uncommon",
+      "traits": [
+        "cantrip",
+        "cold",
+        "concentrate",
+        "fire",
+        "psychic"
+      ],
+      "cost": "",
+      "cast": "reaction",
+      "range": "",
+      "targets": "",
+      "requirements": "",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "cantrip",
+      "castActions": [
+        "reaction"
+      ],
+      "actions": "reaction",
+      "traitLinks": [
+        {
+          "label": "cantrip",
+          "slug": "cantrip"
+        },
+        {
+          "label": "cold",
+          "slug": "cold"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "fire",
+          "slug": "fire"
+        },
+        {
+          "label": "psychic",
+          "slug": "psychic"
+        }
+      ],
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute",
+      "trigger": "You deal cold or fire damage to an enemy."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "cantrip",
+      "cold",
+      "concentrate",
+      "dark-archive",
+      "fire",
+      "psychic",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 21
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9CDF93C9-4D0B-58E1-93B1-1116D293BF48",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Etheric Shards",
+    "slug": "etheric-shards-dark-archive",
+    "descr": "You reach out and sow glittering splinters of force throughout the area, otherworldly caltrops of will and ectoplasm. The area is difficult terrain, even to flying or incorporeal creatures. Any creature that moves through the area takes 1d4 piercing damage per square traversed, with a basic Reflex save made at the end of each move action they take through the area.\n\n---\n\n**Heightened (+2)** The spell's area increases by 5 feet, and the piercing damage increases by 1.",
+    "data": {
+      "rank": 5,
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "force",
+        "manipulate"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "60 feet",
+      "targets": "",
+      "requirements": "",
+      "area": "20-foot burst",
+      "defense": "basicreflex",
+      "traditions": [
+        "arcane",
+        "occult"
+      ],
+      "traditionsText": "Arcane, Occult",
+      "type": "spell",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "force",
+          "slug": "force"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ],
+      "areaEffectShape": "sphere",
+      "areaEffectSize": 20,
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "dark-archive",
+      "force",
+      "manipulate",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 106
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8FAB09F1-AF4E-592D-B75A-7B2D73A24178",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Euphoric Renewal",
+    "slug": "euphoric-renewal-dark-archive",
+    "descr": "You view death not as an ending but a beginning, and you delight in dancing on its edge. Each time you gain the [dying](/condition/dying-player-core) condition and then regain consciousness while under the effect of euphoric renewal, you gain three benefits.\n\nYou're [Quickened](/condition/quickened-player-core) on your next turn. You can use the extra action only to Stand.\nYou gain a +1 circumstance bonus to saves for 1 minute.\nYou gain 8 temporary Hit Points that last for 1 minute.\n\nSpell Effect: Euphoric Renewal\n\n---\n\n**Heightened (+1)** The number of temporary HP increases by 2.",
+    "data": {
+      "rank": 4,
+      "rarity": "rare",
+      "traits": [
+        "cleric",
+        "concentrate",
+        "focus",
+        "manipulate"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "",
+      "targets": "",
+      "requirements": "",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "focus",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "cleric",
+          "slug": "cleric"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "focus",
+          "slug": "focus"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ],
+      "durationText": "10 minutes",
+      "duration": 10,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "cleric",
+      "concentrate",
+      "dark-archive",
+      "focus",
+      "manipulate",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0EE64C42-0E2D-56C0-ABF1-E0DFEF82D27A",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Falling Sky",
+    "slug": "falling-sky-dark-archive",
+    "descr": "**Area** 60-foot tall, 30-foot radius cylinder\n\n---\n\nExtraordinary telekinetic pressure smashes down through the area, battering creatures within it to the ground. All flying creatures in the area descend to the bottom of the spell's area, taking twice as much bludgeoning damage as if they had fallen the distance moved, to a maximum of 60 falling damage if they fall 60 feet. They take this falling damage even if the spell's area is entirely in the air and they don't hit the ground, as they concuss against the bottom of the spell's area at great speed. Creatures on the ground and within the spell's area, including flying creatures forced to the ground, must attempt Fortitude saves.\n\n---\n\n**Critical Success** The creature is unaffected, and if it was flying, it isn't knocked [Prone](/condition/prone-player-core) even though it took falling damage.\n\n**Success** The creature is knocked prone.\n\n**Failure** The creature is knocked prone and [Stunned 2](/condition/stunned-player-core).\n\n**Critical Failure** The creature is knocked prone and stunned for 1 round.",
+    "data": {
+      "rank": 8,
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "incapacitation",
+        "manipulate"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "120 feet",
+      "targets": "",
+      "requirements": "",
+      "area": "30-foot cylinder",
+      "defense": "fortitude",
+      "traditions": [
+        "arcane",
+        "occult"
+      ],
+      "traditionsText": "Arcane, Occult",
+      "type": "spell",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "incapacitation",
+          "slug": "incapacitation"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ],
+      "areaEffectShape": "cylinder",
+      "areaEffectSize": 30,
+      "durationText": "",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "dark-archive",
+      "incapacitation",
+      "manipulate",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 106
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "89871CE3-D876-5FD6-8388-0AA9EEE279D5",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "False Nature",
+    "slug": "false-nature-dark-archive",
+    "descr": "You create an illusion that makes an object seem to be something entirely different. When you Cast this Spell, speak aloud a declarative statement that the target is a different, nonspecific object. Your statement can't presuppose any other facts. For instance, you could claim an object is \"a stone\" or \"an antidote,\" but not \"the Starstone\" or \"the antidote to the lethal poison you already drank.\" Creatures who previously observed the target receive an immediate Will save to disbelieve, but on a failure, the illusion temporarily rewrites their memory that the object was something different. A creature who failed their Will save, or didn't already see the item's original form, must Interact with the illusion as normal to receive a Perception check against the spell DC to disbelieve. When the spell ends, targets remember the object's true nature, even if they never disbelieved the spell.",
+    "data": {
+      "rank": 4,
+      "rarity": "uncommon",
+      "traits": [
+        "concentrate",
+        "illusion",
+        "manipulate"
+      ],
+      "cost": "",
+      "cast": "3",
+      "range": "touch",
+      "targets": "one unattended item or one item you're holding",
+      "requirements": "",
+      "traditions": [
+        "arcane",
+        "occult"
+      ],
+      "traditionsText": "Arcane, Occult",
+      "type": "spell",
+      "castActions": [
+        "three"
+      ],
+      "actions": "three",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "illusion",
+          "slug": "illusion"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ],
+      "durationText": "until your next daily preparations",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "dark-archive",
+      "illusion",
+      "manipulate",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 94
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "18FF9702-3507-57A3-A792-8D7F86B72DF4",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Focusing Hum",
+    "slug": "focusing-hum-dark-archive",
+    "descr": "You infuse the air around you with a sustained hum that allows creatures within it to resist distractions. The DC of any flat check to Cast a Spell while stupefied for creatures within the area is 2 lower. [Confused](/condition/confused-player-core) creatures in the area don't attack anyone, including themselves, and instead lose the ability to speak coherently. You take a -2 penalty to Stealth checks to [Hide](/action/hide-player-core) and [Sneak](/action/sneak-player-core).",
+    "data": {
+      "rank": 3,
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "manipulate"
+      ],
+      "cost": "",
+      "cast": "1",
+      "range": "",
+      "targets": "",
+      "requirements": "",
+      "area": "15-foot emanation",
+      "traditions": [
+        "divine",
+        "occult"
+      ],
+      "traditionsText": "Divine, Occult",
+      "type": "spell",
+      "castActions": [
+        "one"
+      ],
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ],
+      "areaEffectShape": "sphere",
+      "areaEffectSize": 15,
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "dark-archive",
+      "manipulate",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 106
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9D82E5FC-ADC6-5FE7-A485-813D8A959A08",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Forbidden Thought",
+    "slug": "forbidden-thought-dark-archive",
+    "descr": "You place a psychic lock in a foe's mind that prevents it from a specific action. Choose \"Strike,\" \"Stride,\" \"Cast a Spell,\" or a specific action you know the creature to have (such as a dragon's magic breath). If the creature attempts that action on its next turn, it must surmount your lock to do so, causing it to take 2d6 mental damage (with a basic Will save). The target is then temporarily immune for 1 minute.\n\n---\n\n**Heightened (+1)** The damage increases by 1d6.",
+    "data": {
+      "rank": 1,
+      "rarity": "uncommon",
+      "traits": [
+        "cantrip",
+        "concentrate",
+        "manipulate",
+        "mental",
+        "psychic"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "30 feet",
+      "targets": "1 creature",
+      "requirements": "",
+      "defense": "basicwill",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "cantrip",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "cantrip",
+          "slug": "cantrip"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        },
+        {
+          "label": "psychic",
+          "slug": "psychic"
+        }
+      ],
+      "durationText": "",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "cantrip",
+      "concentrate",
+      "dark-archive",
+      "manipulate",
+      "mental",
+      "psychic",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 22
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F344CE0C-495B-5A4D-A6E8-95B7D65C2B46",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Foresee the Path",
+    "slug": "foresee-the-path-dark-archive",
+    "descr": "You see just a split second into the future and glean how an enemy will move, making it easier for your allies to strike it mid-action. Make a Perception against the target enemy's Will DC or Deception DC, whichever is higher. The GM may judge a different DC is more appropriate if it's higher; for instance, using the Warfare Lore DC of a military captain. The target is then temporarily immune for 1 minute.\n\n---\n\n**Critical Success** The target ally gains a reaction that lets it make a melee Strike against the target enemy, triggered if the enemy leaves a square within the ally's reach. If the ally already has an ability that lets it make melee Strikes as a reaction, such as Reactive Strike, the ally can forgo gaining the temporary reaction to instead gain a +2 status bonus to melee Strikes it makes as reactions.\n\n**Success** As critical success, but the status bonus an ally gets if it forgoes the reaction is +1.\n\n**Failure** The spell has no effect.",
+    "data": {
+      "rank": 5,
+      "rarity": "uncommon",
+      "traits": [
+        "cantrip",
+        "concentrate",
+        "psychic"
+      ],
+      "cost": "",
+      "cast": "1",
+      "range": "60 feet",
+      "targets": "1 ally and 1 enemy",
+      "requirements": "",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "cantrip",
+      "castActions": [
+        "one"
+      ],
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "cantrip",
+          "slug": "cantrip"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "psychic",
+          "slug": "psychic"
+        }
+      ],
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "cantrip",
+      "concentrate",
+      "dark-archive",
+      "psychic",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 18
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "439B3978-BEEE-5D3B-B202-0C21F605B09A",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Frenzied Revelry",
+    "slug": "frenzied-revelry-dark-archive",
+    "descr": "You recall memories of hedonistic rites to send yourself into an infectious frenzy, dancing and howling wildly to encourage your companions to join in. You and your allies gain a +1 status bonus to saving throws against mental effects while in the area. Whenever someone benefiting from this bonus critically succeeds at a saving throw against an enemy's mental effect, its revelry increases, granting it a +1 status bonus to attack rolls and damage rolls for 1 round.\n\nSpell Effect: Frenzied Revelry\n\n---\n\n**Heightened (4th)** The emanation's radius is 10 feet, and the status bonus to saves is +2.\n\n**Heightened (7th)** The emanation's radius is 15 feet, and the status bonus to saves is +3.",
+    "data": {
+      "rank": 1,
+      "rarity": "rare",
+      "traits": [
+        "cleric",
+        "concentrate",
+        "emotion",
+        "focus",
+        "manipulate",
+        "mental"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "",
+      "targets": "you and allies in the area",
+      "requirements": "",
+      "area": "5-foot emanation",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "focus",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "cleric",
+          "slug": "cleric"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "emotion",
+          "slug": "emotion"
+        },
+        {
+          "label": "focus",
+          "slug": "focus"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        }
+      ],
+      "areaEffectShape": "sphere",
+      "areaEffectSize": 5,
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "cleric",
+      "concentrate",
+      "dark-archive",
+      "emotion",
+      "focus",
+      "manipulate",
+      "mental",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "EBD134EC-3FC2-565D-B61C-734C07BE1555",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Ghostly Shift",
+    "slug": "ghostly-shift-dark-archive",
+    "descr": "Your body becomes insubstantial as you partially phase out. You gain resistance 2 to all damage (except force).\n\nSpell Effect: Ghostly Shift\n\n---\n\n**Heightened (+2)** The resistance increases by 1.",
+    "data": {
+      "rank": 3,
+      "rarity": "uncommon",
+      "traits": [
+        "cantrip",
+        "concentrate",
+        "psychic"
+      ],
+      "cost": "",
+      "cast": "1",
+      "range": "30 feet",
+      "targets": "1 creature",
+      "requirements": "",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "cantrip",
+      "castActions": [
+        "one"
+      ],
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "cantrip",
+          "slug": "cantrip"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "psychic",
+          "slug": "psychic"
+        }
+      ],
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "cantrip",
+      "concentrate",
+      "dark-archive",
+      "psychic",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 24
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "77ED5257-202A-521B-A8E1-3A25A834013C",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Glimpse Weakness",
+    "slug": "glimpse-weakness-dark-archive",
+    "descr": "You glimpse a loose scale, a seam in a foe's armor, or a similar weakness, aiding your allies in landing a precise hit. The first ally that hits the target with a successful Strike deals additional precision damage equal to 1 + this spell's rank, and then the spell ends.\n\nSpell Effect: Glimpse Weakness",
+    "data": {
+      "rank": 1,
+      "rarity": "uncommon",
+      "traits": [
+        "cantrip",
+        "concentrate",
+        "psychic"
+      ],
+      "cost": "",
+      "cast": "1",
+      "range": "60 feet",
+      "targets": "1 creature",
+      "requirements": "",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "cantrip",
+      "castActions": [
+        "one"
+      ],
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "cantrip",
+          "slug": "cantrip"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "psychic",
+          "slug": "psychic"
+        }
+      ],
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "cantrip",
+      "concentrate",
+      "dark-archive",
+      "psychic",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 19
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8DFDDD74-F82E-5FA0-90EA-09A5D1DBB84B",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Hollow Heart",
+    "slug": "hollow-heart-dark-archive",
+    "descr": "You stoke the target's ambition beyond reason, until it believes no one is capable of helping it, or that others aren't to be trusted. The target attempts a Will saving throw.\n\n---\n\n**Critical Success** The target is unaffected.\n\n**Success** The target treats no other creature as an ally for 1 round.\n\n**Failure** The target treats no other creature as an ally for 3 rounds.\n\n**Critical Failure** As failure, and the target is [Frightened 1](/condition/frightened-player-core) as it realizes it can't rely on anyone but itself.",
+    "data": {
+      "rank": 1,
+      "rarity": "rare",
+      "traits": [
+        "cleric",
+        "concentrate",
+        "emotion",
+        "fear",
+        "focus",
+        "manipulate",
+        "mental"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "30 feet",
+      "targets": "1 creature",
+      "requirements": "",
+      "defense": "will",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "focus",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "cleric",
+          "slug": "cleric"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "emotion",
+          "slug": "emotion"
+        },
+        {
+          "label": "fear",
+          "slug": "fear"
+        },
+        {
+          "label": "focus",
+          "slug": "focus"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        }
+      ],
+      "durationText": "varies",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "cleric",
+      "concentrate",
+      "dark-archive",
+      "emotion",
+      "fear",
+      "focus",
+      "manipulate",
+      "mental",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "03771313-15EC-5412-9428-7D728A0338FA",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Hologram Cage",
+    "slug": "hologram-cage-dark-archive",
+    "descr": "**Area** 1 cube 20 feet on each side\n\n---\n\nYou weave light into a cube of vivid and fantastic patterns. The walls shed bright light for 10 feet (and dim light for the next 20 feet) and completely block line of sight; creatures within the cage can't be seen by creatures outside of it, though they can see each other, and creatures outside of it can't see into it. You can [Dismiss](/action/dismiss-player-core) the spell, and if you Cast the Spell again, your previous *hologram cage* ends.\n\n---\n\n**Heightened (7th)** The range of the spell increases to 80 feet, and you can expand the cube to be 25 feet on each side.",
+    "data": {
+      "rank": 5,
+      "rarity": "uncommon",
+      "traits": [
+        "cantrip",
+        "concentrate",
+        "illusion",
+        "light",
+        "manipulate",
+        "psychic"
+      ],
+      "cost": "",
+      "cast": "3",
+      "range": "60 feet",
+      "targets": "",
+      "requirements": "",
+      "area": "20-foot cube",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "cantrip",
+      "castActions": [
+        "three"
+      ],
+      "actions": "three",
+      "traitLinks": [
+        {
+          "label": "cantrip",
+          "slug": "cantrip"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "illusion",
+          "slug": "illusion"
+        },
+        {
+          "label": "light",
+          "slug": "light"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "psychic",
+          "slug": "psychic"
+        }
+      ],
+      "areaEffectShape": "cube",
+      "areaEffectSize": 20,
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "cantrip",
+      "concentrate",
+      "dark-archive",
+      "illusion",
+      "light",
+      "manipulate",
+      "psychic",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 22
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "95303FE5-CE0E-53C5-936F-3C4FD21E21C7",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Imaginary Weapon",
+    "slug": "imaginary-weapon-dark-archive",
+    "descr": "You create a simple weapon of force and lash out, its arc following your hand. Make a melee spell attack roll against your target's AC. If you hit, you deal 2d6 force damage. On a critical success, you deal double damage and can choose to detonate your weapon to push the target 10 feet away from you.\n\n---\n\n**Heightened (+1)** The damage increases by 1d6.",
+    "data": {
+      "rank": 1,
+      "rarity": "uncommon",
+      "traits": [
+        "attack",
+        "cantrip",
+        "concentrate",
+        "force",
+        "manipulate",
+        "psychic"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "touch",
+      "targets": "1 creature",
+      "requirements": "",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "cantrip",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "attack",
+          "slug": "attack"
+        },
+        {
+          "label": "cantrip",
+          "slug": "cantrip"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "force",
+          "slug": "force"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "psychic",
+          "slug": "psychic"
+        }
+      ],
+      "durationText": "",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "attack",
+      "cantrip",
+      "concentrate",
+      "dark-archive",
+      "force",
+      "manipulate",
+      "psychic",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 23
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A5B81D4D-5A7D-5B1D-AD1E-B6190C5213B6",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Implement of Destruction",
+    "slug": "implement-of-destruction-dark-archive",
+    "descr": "You solemnly declare that the target weapon will bring death to a foe, implanting an irrational fear of the weapon into the target enemy's mind. This link echoes at the forefront of the enemy's mind, forming a looming sense of omnipresent dread. The effect is based on the target enemy's Will save.\n\n---\n\n**Critical Success** The target enemy is unaffected.\n\n**Success** The target weapon deals an additional 2d6 mental damage the first time it hits the target enemy before the end of the spell's duration.\n\n**Failure** The target weapon deals an additional 2d6 persistent mental damage to the target enemy. If the enemy is critically hit by the weapon, the enemy is [Doomed 1](/condition/doomed-player-core) for as long as it takes this persistent mental damage.\n\n**Critical Failure** The target weapon deals an additional 4d6 persistent mental damage to the target enemy. If the enemy is critically hit by the weapon, the enemy is doomed 1.\n\n---\n\n**Heightened (+2)** Increase the mental damage by 1d6 on a success, and increase the persistent mental damage by 1d6 on a failure or by 2d6 on a critical failure.",
+    "data": {
+      "rank": 4,
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "emotion",
+        "fear",
+        "manipulate",
+        "mental"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "30 feet",
+      "targets": "1 enemy, and 1 weapon that is either unattended or wielded by you or a willing ally",
+      "requirements": "",
+      "defense": "will",
+      "traditions": [
+        "divine",
+        "occult"
+      ],
+      "traditionsText": "Divine, Occult",
+      "type": "spell",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "emotion",
+          "slug": "emotion"
+        },
+        {
+          "label": "fear",
+          "slug": "fear"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        }
+      ],
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "dark-archive",
+      "emotion",
+      "fear",
+      "manipulate",
+      "mental",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 105
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E3C91405-5538-58FB-B63D-35205013771A",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Inevitable Destination",
+    "slug": "inevitable-destination-dark-archive",
+    "descr": "You twist the paths of the target, ensuring that each one leads to you. The target attempts a Will saving throw.\n\n---\n\n**Critical Success** The spell has no effect.\n\n**Success** Your pull hampers the target's footsteps. It takes a –10-foot circumstance penalty to its Speeds until the end of its next turn.\n\n**Failure** The target can't move any farther from you than it was when you Cast the Spell, though it can move in such a way that it maintains an equal distance. If you move farther away from the target than the initial distance, the spell ends. The targeted foe can attempt to [Escape](/action/escape-player-core) against your spell DC. If it succeeds, the spell ends.\n\n**Critical Failure** As failure, plus the target is pulled 10 feet closer to you and falls [Prone](/condition/prone-player-core), tripping in its haste to move toward you.",
+    "data": {
+      "rank": 4,
+      "rarity": "rare",
+      "traits": [
+        "cleric",
+        "concentrate",
+        "focus",
+        "manipulate"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "30 feet",
+      "targets": "you and 1 enemy",
+      "requirements": "",
+      "defense": "will",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "focus",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "cleric",
+          "slug": "cleric"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "focus",
+          "slug": "focus"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ],
+      "durationText": "2 rounds",
+      "duration": 2,
+      "durationType": "time",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "cleric",
+      "concentrate",
+      "dark-archive",
+      "focus",
+      "manipulate",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4837AAA2-639A-54E4-9F5B-59381838177D",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Isolation",
+    "slug": "isolation-dark-archive",
+    "descr": "You summon a tangible manifestation of loneliness to cloak the target from view as surely as if it were wreathed in darkness. The target attempts a Will saving throw.\n\n---\n\n**Critical Success** The target is unaffected.\n\n**Success** The target becomes [Invisible](/condition/invisible-player-core), but only to its allies. Any creature not allied with the target can see it normally. Effects such as [See The Unseen](/spell/see-the-unseen-player-core) enable an ally to see the target. The target's allies still know the target is present and can still see all the effects of the target's actions.\n\n**Failure** As success, except the target also becomes inaudible to its allies and imperceptible to them through any other senses.",
+    "data": {
+      "rank": 4,
+      "rarity": "rare",
+      "traits": [
+        "cleric",
+        "concentrate",
+        "focus",
+        "illusion",
+        "manipulate"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "30 feet",
+      "targets": "1 creature",
+      "requirements": "",
+      "defense": "will",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "focus",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "cleric",
+          "slug": "cleric"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "focus",
+          "slug": "focus"
+        },
+        {
+          "label": "illusion",
+          "slug": "illusion"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ],
+      "durationText": "3 rounds",
+      "duration": 3,
+      "durationType": "time",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "cleric",
+      "concentrate",
+      "dark-archive",
+      "focus",
+      "illusion",
+      "manipulate",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E5164A83-4F28-56E9-AB06-18CD29681AEB",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Kinetic Ram",
+    "slug": "kinetic-ram-dark-archive",
+    "descr": "Gathering kinetic energy, you either focus it in a straight line or disperse it as an encircling ripple. Any creature targeted by this spell must succeed at a Fortitude saving throw or be pushed 10 feet away from you (or 20 feet on a critical failure).\n\nThe spell's area or range and how many creatures it affects is based on how many actions you spend when Casting the Spell.\n\n---\n\n1 The spell targets one creature within 15 feet.\n\n2 The spell targets one creature within 30 feet. The distance the target is pushed if it fails is doubled, and on a critical failure, the target is also knocked [Prone](/condition/prone-player-core) and takes 1d6 bludgeoning damage.\n\n3 The spell targets all creatures in a 5-foot emanation.",
+    "data": {
+      "rank": 1,
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "force"
+      ],
+      "cost": "",
+      "cast": "1 to 3",
+      "range": "varies",
+      "targets": "1 or more creatures",
+      "requirements": "",
+      "defense": "fortitude",
+      "traditions": [
+        "arcane",
+        "occult"
+      ],
+      "traditionsText": "Arcane, Occult",
+      "type": "spell",
+      "castActions": [
+        "one",
+        "two",
+        "three"
+      ],
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "force",
+          "slug": "force"
+        }
+      ],
+      "durationText": "",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "dark-archive",
+      "force",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "95EC53C4-C7EC-544F-A8A6-09369ADA8C11",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Loose Time's Arrow",
+    "slug": "loose-time-s-arrow-dark-archive",
+    "descr": "You pluck the time stream like a bow—pull one string back, release, and watch a creature fly. All affected targets are [Quickened](/condition/quickened-player-core). They can use the extra action only to Step or Stride.",
+    "data": {
+      "rank": 2,
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "manipulate"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "30 feet",
+      "targets": "up to 6 creatures",
+      "requirements": "",
+      "traditions": [
+        "arcane",
+        "occult",
+        "primal"
+      ],
+      "traditionsText": "Arcane, Occult, Primal",
+      "type": "spell",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ],
+      "durationText": "until the end of your next turn",
+      "duration": 1,
+      "durationType": "sourceEndNextTurn",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "dark-archive",
+      "manipulate",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9F8D6903-88C1-5FFE-A10C-22ADC3CDF796",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Manifold Lives",
+    "slug": "manifold-lives-dark-archive",
+    "descr": "You cast a creature's mind back through time, forcing them to take other paths and make other choices, experiencing countless alternate lives in an instant. The creature becomes overwhelmed with regret over paths untraveled, lives unlived, and times unrealized. The creature takes 6d6 mental damage and must attempt a Will save. After the effect is resolved, the target is then temporarily immune for 1 day.\n\n---\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature takes half damage and is [Stupefied 2](/condition/stupefied-player-core) for 1 round.\n\n**Failure** The creature takes full damage and is stupefied 2 for 1 minute. While affected, the creature must attempt another save at the start of its turn; on a failure, it's [Slowed 1](/condition/slowed-player-core) for that turn as it sobs uncontrollably.\n\n**Critical Failure** The creature takes double damage and for 1 minute, it's Stupefied 4 and slowed 1 as it sobs uncontrollably.\n\n---\n\n**Heightened (+1)** The mental damage increases by 1d6.",
+    "data": {
+      "rank": 6,
+      "rarity": "uncommon",
+      "traits": [
+        "concentrate",
+        "emotion",
+        "focus",
+        "manipulate",
+        "mental",
+        "oracle"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "30 feet",
+      "targets": "1 target",
+      "requirements": "",
+      "defense": "will",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "focus",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "emotion",
+          "slug": "emotion"
+        },
+        {
+          "label": "focus",
+          "slug": "focus"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        },
+        {
+          "label": "oracle",
+          "slug": "oracle"
+        }
+      ],
+      "durationText": "varies",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "dark-archive",
+      "emotion",
+      "focus",
+      "manipulate",
+      "mental",
+      "oracle",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4896E7BE-5315-5A50-9B9F-69C71FD17AB1",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Momentary Recovery",
+    "slug": "momentary-recovery-dark-archive",
+    "descr": "You instantly teleport yourself and any items you're wearing or holding from your current space to a clear space within range that you can see. If this teleportation would bring another creature with you—even if you're carrying it in an extradimensional container—the spell is lost. After you vanish but before you arrive, you can take up to 2 actions (or the number of actions you spent to cast *momentary recovery*, if it was fewer than 2 actions). You can't target any other creatures or objects with anything during these actions and any effect with a duration that you create during these actions ends immediately when you arrive. After you arrive, you are [Slowed 1](/condition/slowed-player-core) until the end of your next turn.",
+    "data": {
+      "rank": 7,
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "manipulate",
+        "teleportation"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "60 feet",
+      "targets": "",
+      "requirements": "",
+      "traditions": [
+        "arcane",
+        "occult"
+      ],
+      "traditionsText": "Arcane, Occult",
+      "type": "spell",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "teleportation",
+          "slug": "teleportation"
+        }
+      ],
+      "durationText": "",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "dark-archive",
+      "manipulate",
+      "remaster",
+      "teleportation"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 107
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4C3DEB32-3816-5967-B499-3EAE46021769",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Morass of Ages",
+    "slug": "morass-of-ages-dark-archive",
+    "descr": "You surround yourself in temporal eddies that draw out time for those around you, making every step feel like an eternity endured. A creature in the emanation, or that later enters the emanation, must attempt a Fortitude save. The creature attempts this save only once and uses the same effect for the duration of the spell. Each time you Sustain the Spell, you can choose to increase the emanation's radius by 5 feet, to a maximum of 60 feet.\n\n---\n\n**Critical Success** The creature is unaffected.\n\n**Success** Squares in the area are difficult terrain for the creature.\n\n**Failure** Squares in the area are difficult terrain for the creature, and the creature is [Slowed 1](/condition/slowed-player-core) when it starts its turn in the area.\n\n**Critical Failure** As failure, plus the creature also becomes [Restrained](/condition/restrained-player-core). The creature can attempt to Escape against your spell DC to remove the restrained condition.",
+    "data": {
+      "rank": 4,
+      "rarity": "common",
+      "traits": [
+        "aura",
+        "concentrate",
+        "manipulate"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "",
+      "targets": "",
+      "requirements": "",
+      "area": "5-foot emanation",
+      "defense": "fortitude",
+      "traditions": [
+        "arcane",
+        "occult"
+      ],
+      "traditionsText": "Arcane, Occult",
+      "type": "spell",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "aura",
+          "slug": "aura"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ],
+      "areaEffectShape": "sphere",
+      "areaEffectSize": 5,
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "aura",
+      "concentrate",
+      "dark-archive",
+      "manipulate",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 183
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E9C3FDCB-56B7-50E3-A6A6-08D6C202A9A8",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Moth's Supper",
+    "slug": "moth-s-supper-dark-archive",
+    "descr": "You sigh, and your breath transforms into delicate, black-winged butterflies and huge death's-head hawkmoths. They flutter about you briefly, and then range forth in search of sustenance—fresh-spilled blood, by preference, but rotting corpses, flowering plants, or even left-behind food will do in a pinch. They then return, perching on your hair or shoulders and whispering their secrets into your ears. This has three effects.\n\nYou heal 2d4 Hit Points every 10 minutes.The first time during the duration when someone successfully Treats your Wounds, you regain an additional 4d4 Hit Points.You gain an imprecise sense out to 30 feet that senses only freshly spilled blood and rotten flesh.\n\n---\n\n**Heightened (+1)** The amount of Hit Points healed every 10 minutes increases by 1d4 and the amount of Hit Points regained from the first [Treat Wounds](/action/treat-wounds-player-core) increases by 2d4.",
+    "data": {
+      "rank": 3,
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "manipulate"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "",
+      "targets": "",
+      "requirements": "",
+      "traditions": [
+        "occult",
+        "primal"
+      ],
+      "traditionsText": "Occult, Primal",
+      "type": "spell",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ],
+      "durationText": "1 hour",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "hour"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "dark-archive",
+      "manipulate",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1DAA874C-ABCC-5C9E-B3D2-B81A8E9BADD2",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Omnidirectional Scan",
+    "slug": "omnidirectional-scan-dark-archive",
+    "descr": "You quickly view your surroundings from a variety of angles, your senses constructing an overall mental picture. You can choose to Seek the entire emanation of the spell.\n\nRegardless of whether you seek, target one ally and one enemy in the area; if a target is [Concealed](/condition/concealed-player-core) or [Hidden](/condition/hidden-player-core) from you, you automatically succeed at the flat check to target it with this spell. You prepare to [Aid](/action/aid-player-core) the target ally on an attack roll against the target enemy. If you take this Aid reaction, you use your spell attack modifier and proficiency rank on your check to Aid. If you critically fail the roll to Aid, you get a failure instead.",
+    "data": {
+      "rank": 3,
+      "rarity": "uncommon",
+      "traits": [
+        "cantrip",
+        "concentrate",
+        "psychic",
+        "scrying"
+      ],
+      "cost": "",
+      "cast": "1",
+      "range": "",
+      "targets": "1 ally and 1 enemy",
+      "requirements": "",
+      "area": "30-foot emanation",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "cantrip",
+      "castActions": [
+        "one"
+      ],
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "cantrip",
+          "slug": "cantrip"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "psychic",
+          "slug": "psychic"
+        },
+        {
+          "label": "scrying",
+          "slug": "scrying"
+        }
+      ],
+      "areaEffectShape": "sphere",
+      "areaEffectSize": 30,
+      "durationText": "until the start of your next turn",
+      "duration": 1,
+      "durationType": "sourceStartNextTurn",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "cantrip",
+      "concentrate",
+      "dark-archive",
+      "psychic",
+      "remaster",
+      "scrying"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 19
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3B46954E-EB8B-5CB3-85CE-27820EA8B829",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Over the Coals",
+    "slug": "over-the-coals-dark-archive",
+    "descr": "You accuse the target of breaking its word to you and invoke the wrath of your patron to claim what's due, demanding the target pay you in currency, fulfill an order, or stand down. The demand can't be obviously self-destructive, or the spell fails. If the target resists, you take your payment from its life force. The target must attempt a Will save. Regardless of the result of its save, the target is temporarily immune for 1 day.\n\n---\n\n**Critical Success** The target is unaffected and is immune to your pact broker cantrips for 1 day.\n\n**Success** If the target doesn't comply with your request by the end of its next turn, it takes 3d8 persistent void damage. If it later complies, the spell automatically ends.\n\n**Failure** As success, but if the target doesn't comply, it is [Drained 1](/condition/drained-player-core) and takes 6d8 persistent void damage.\n\n**Critical Failure** As success, but if the target doesn't comply, it is Drained 2 and [Doomed 1](/condition/doomed-player-core), and takes 6d8 persistent void damage. Even if the target completes your commands later, the spell doesn't end until all the conditions end.\n\n---\n\n**Heightened (9th)** You can target up to two creatures.",
+    "data": {
+      "rank": 5,
+      "rarity": "uncommon",
+      "traits": [
+        "concentrate",
+        "focus",
+        "hex",
+        "manipulate",
+        "mental",
+        "witch"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "120 feet",
+      "targets": "1 creature",
+      "requirements": "",
+      "defense": "will",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "focus",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "focus",
+          "slug": "focus"
+        },
+        {
+          "label": "hex",
+          "slug": "hex"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        },
+        {
+          "label": "witch",
+          "slug": "witch"
+        }
+      ],
+      "durationText": "varies",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "dark-archive",
+      "focus",
+      "hex",
+      "manipulate",
+      "mental",
+      "remaster",
+      "witch"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1B0685FF-BB68-503B-8673-63344AE98D81",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Path of Least Resistance",
+    "slug": "path-of-least-resistance-dark-archive",
+    "descr": "You trace several possible routes, quickly resetting the timeline until you find the safest one. Choose three spaces you could reach with two [Stride](/action/stride-player-core) actions. Each must be at least 20 feet from the other two. You Stride twice to one of the spaces, determined randomly by the GM from among the paths you chose. If some of the paths contain a hidden danger, such as a trap that you would trigger by walking into the trap's affected area, the GM doesn't consider this path when randomly determining which one you take, but if all options have a hidden danger, the GM randomly chooses between all three paths. This movement doesn't trigger reactions.",
+    "data": {
+      "rank": 4,
+      "rarity": "uncommon",
+      "traits": [
+        "concentrate",
+        "focus"
+      ],
+      "cost": "",
+      "cast": "1",
+      "range": "",
+      "targets": "",
+      "requirements": "",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "focus",
+      "castActions": [
+        "one"
+      ],
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "focus",
+          "slug": "focus"
+        }
+      ],
+      "durationText": "",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "dark-archive",
+      "focus",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A07F5DAB-72CA-5BE3-B02D-D07708AE2CFE",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Phase Bolt",
+    "slug": "phase-bolt-dark-archive",
+    "descr": "You point your finger and project a bolt of magical energy that stutters in and out of phase until it reaches the target. Make a ranged spell attack roll against your target's AC; if the target has any circumstance bonuses to AC (such as from a shield or cover), reduce that bonus by 2 for this attack. On a success, you deal 3d4 piercing damage.\n\n---\n\n**Critical Success** The target takes double damage.\n\n**Success** The target takes full damage.\n\n---\n\n**Heightened (+1)** The bolt's damage increases by 1d4.",
+    "data": {
+      "rank": 1,
+      "rarity": "common",
+      "traits": [
+        "attack",
+        "cantrip",
+        "concentrate",
+        "manipulate"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "60 feet",
+      "targets": "1 creature",
+      "requirements": "",
+      "traditions": [
+        "arcane",
+        "occult"
+      ],
+      "traditionsText": "Arcane, Occult",
+      "type": "cantrip",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "attack",
+          "slug": "attack"
+        },
+        {
+          "label": "cantrip",
+          "slug": "cantrip"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ],
+      "durationText": "",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "attack",
+      "cantrip",
+      "concentrate",
+      "dark-archive",
+      "manipulate",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 107
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5131D0A7-4C12-5F02-8040-B7796A33FB2F",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Poltergeist's Fury",
+    "slug": "poltergeist-s-fury-dark-archive",
+    "descr": "Your fury spills over in a telekinetic storm of terrifying proportions. Any loose, unattended objects of 1 Bulk or less within range are picked up and begin to orbit you at breathtaking speeds. All creatures in the area take 6d4 piercing damage with a basic Reflex save. Each time you Sustain the spell, you can increase the radius of the storm by 10 feet, to a maximum of 100 feet. The storm moves with you and provides you with lesser cover, though you can't use this cover to hide or sneak. Allies within the storm who roll a success on their Reflex save against your poltergeist's fury get a critical success instead, as you attempt to avoid hitting them.\n\n---\n\n**Heightened (+1)** The damage increases by 1d4.",
+    "data": {
+      "rank": 6,
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "manipulate"
+      ],
+      "cost": "",
+      "cast": "3",
+      "range": "",
+      "targets": "",
+      "requirements": "",
+      "area": "20-foot emanation",
+      "defense": "basicreflex",
+      "traditions": [
+        "arcane",
+        "occult"
+      ],
+      "traditionsText": "Arcane, Occult",
+      "type": "spell",
+      "castActions": [
+        "three"
+      ],
+      "actions": "three",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ],
+      "areaEffectShape": "sphere",
+      "areaEffectSize": 20,
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "dark-archive",
+      "manipulate",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1C1120E0-5470-560E-ACBA-DDC621C553F7",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Purifying Veil",
+    "slug": "purifying-veil-dark-archive",
+    "descr": "Drawing on the purifying powers of water, you call forth a veil of fine water droplets suffused with holy energy. The veil surrounds the target. Everything on each side of the veil is [Concealed](/condition/concealed-player-core) from creatures on the opposite side, but the water doesn't impede attacks or movement across the veil. If the target moves through the veil, it takes 4d6 spirit damage with a basic Will save. If the target leaves the veil, the spell ends.\n\n---\n\n**Heightened (+1)** The damage increases by 1d6.",
+    "data": {
+      "rank": 4,
+      "rarity": "rare",
+      "traits": [
+        "cleric",
+        "concentrate",
+        "focus",
+        "holy",
+        "manipulate",
+        "spirit",
+        "water"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "60 feet",
+      "targets": "1 Large or smaller creature",
+      "requirements": "",
+      "defense": "basicwill",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "focus",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "cleric",
+          "slug": "cleric"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "focus",
+          "slug": "focus"
+        },
+        {
+          "label": "holy",
+          "slug": "holy"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "spirit",
+          "slug": "spirit"
+        },
+        {
+          "label": "water",
+          "slug": "water"
+        }
+      ],
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "cleric",
+      "concentrate",
+      "dark-archive",
+      "focus",
+      "holy",
+      "manipulate",
+      "remaster",
+      "spirit",
+      "water"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "636BA394-B637-5C6D-8AD3-E3A59BAADC0A",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Quicken Time",
+    "slug": "quicken-time-dark-archive",
+    "descr": "You speed up the time stream in an area, stretching and pulling it until time flows swift and wild. Any creature that begins its turn in the area is [Quickened](/condition/quickened-player-core) until the end of its turn and can use the extra action only to Stride or Strike. Unfortunately, speeding up time is much more difficult than slowing it down, and the effect is uneven and jittery, making accuracy between times painfully difficult; creatures inside the area are [Concealed](/condition/concealed-player-core) to those outside it, and vice versa.",
+    "data": {
+      "rank": 5,
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "manipulate"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "120 feet",
+      "targets": "",
+      "requirements": "",
+      "area": "20-foot burst",
+      "traditions": [
+        "arcane",
+        "occult"
+      ],
+      "traditionsText": "Arcane, Occult",
+      "type": "spell",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ],
+      "areaEffectShape": "sphere",
+      "areaEffectSize": 20,
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "dark-archive",
+      "manipulate",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 183
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3C546CBF-82A1-5B12-8693-B637231AAB9B",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Rally Point",
+    "slug": "rally-point-dark-archive",
+    "descr": "You mark the area touched as a rally point. During the spell's duration, you can take a single action, which has the [concentrate](/trait/concentrate) trait, to teleport to the rally point along with items you are wearing or holding. This teleportation fails if the area is occupied, if the rally point is more than 120 feet away, or if you try to bring along any other creature, even if it's in an extradimensional container. Once you teleport to the rally point, the spell's duration ends.\n\n---\n\n**Heightened (7th)** You can designate up to four other creatures within 30 feet, in addition to yourself. Each of these creatures can teleport to the rally point once during the spell's duration by taking a single action, which has the concentrate trait. The spell's duration no longer ends once you teleport to the rally point, though you still can't teleport to the rally point again.",
+    "data": {
+      "rank": 3,
+      "rarity": "uncommon",
+      "traits": [
+        "concentrate",
+        "manipulate",
+        "teleportation"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "touch",
+      "targets": "",
+      "requirements": "",
+      "area": "5-foot square",
+      "traditions": [
+        "arcane",
+        "occult"
+      ],
+      "traditionsText": "Arcane, Occult",
+      "type": "spell",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "teleportation",
+          "slug": "teleportation"
+        }
+      ],
+      "areaEffectShape": "square",
+      "areaEffectSize": 5,
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "dark-archive",
+      "manipulate",
+      "remaster",
+      "teleportation"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 107
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "AA0F6FC4-277A-5946-9268-7E2A65E987A2",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Redistribute Potential",
+    "slug": "redistribute-potential-dark-archive",
+    "descr": "**Area** two adjacent 5-foot squares\n\n---\n\nEnergy attempts to balance out, but with your magic, you can shunt all the energy in one area to another. Creatures in either area take 4d4 damage with a basic Fortitude save. Choose one of the squares to steal heat, dealing cold damage, and the other to concentrate the stolen heat, dealing fire damage. A creature that fails its save also becomes [Clumsy 1](/condition/clumsy-player-core) from numbness if it's in the area of stolen heat or [Enfeebled 1](/condition/enfeebled-player-core) from heat stroke if it's in the area of concentrated heat; these conditions last until the start of your next turn. If a creature is large enough to be in both squares, you choose only one of the areas for it to attempt its save against; it's unaffected by the other area.\n\n---\n\n**Heightened (+1)** The damage increases by 1d4.",
+    "data": {
+      "rank": 5,
+      "rarity": "uncommon",
+      "traits": [
+        "cantrip",
+        "cold",
+        "concentrate",
+        "fire",
+        "manipulate",
+        "psychic"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "60 feet",
+      "targets": "",
+      "requirements": "",
+      "area": "5-foot square",
+      "defense": "basicfortitude",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "cantrip",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "cantrip",
+          "slug": "cantrip"
+        },
+        {
+          "label": "cold",
+          "slug": "cold"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "fire",
+          "slug": "fire"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "psychic",
+          "slug": "psychic"
+        }
+      ],
+      "areaEffectShape": "square",
+      "areaEffectSize": 5,
+      "durationText": "",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "cantrip",
+      "cold",
+      "concentrate",
+      "dark-archive",
+      "fire",
+      "manipulate",
+      "psychic",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 20
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9584D9E9-4B7F-5425-95F1-966FB86F9CE8",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Return the Favor",
+    "slug": "return-the-favor-dark-archive",
+    "descr": "You're unable to leave any debts unpaid. When an ally supports you in a fight, you offer assistance in turn for the favor. The triggering ally gains 12 temporary Hit Points for 1 minute.\n\n---\n\n**Heightened (+1)** The temporary Hit Points increase by 4.\n\nSpell Effect: Return The Favor",
+    "data": {
+      "rank": 3,
+      "rarity": "uncommon",
+      "traits": [
+        "focus",
+        "hex",
+        "manipulate",
+        "witch"
+      ],
+      "cost": "",
+      "cast": "reaction",
+      "range": "30 feet",
+      "targets": "1 ally",
+      "requirements": "",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "focus",
+      "castActions": [
+        "reaction"
+      ],
+      "actions": "reaction",
+      "traitLinks": [
+        {
+          "label": "focus",
+          "slug": "focus"
+        },
+        {
+          "label": "hex",
+          "slug": "hex"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "witch",
+          "slug": "witch"
+        }
+      ],
+      "durationText": "",
+      "durationUnit": "round",
+      "trigger": "An ally uses a reaction to grant you a beneficial effect during a combat encounter."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "dark-archive",
+      "focus",
+      "hex",
+      "manipulate",
+      "remaster",
+      "witch"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "633B09F9-3B53-568E-8466-534870834992",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Sea of Thought",
+    "slug": "sea-of-thought-dark-archive",
+    "descr": "You cover the area in a sloshing torrent of semi-solidified thought, roughly ankle high. The area becomes difficult terrain, similarly to a shallow bog. Each round that a creature starts its turn in the area, it must attempt a Fortitude save against the shifting waves of thought. On a failure, it takes a –10-foot circumstance penalty to its Speeds until it leaves the area, and on a critical failure, it is also knocked [Prone](/condition/prone-player-core).\n\n---\n\n**Heightened (+1)** The radius of the spell's area increases by 5 feet.",
+    "data": {
+      "rank": 3,
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "manipulate"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "60 feet",
+      "targets": "",
+      "requirements": "",
+      "area": "15-foot burst",
+      "defense": "fortitude",
+      "traditions": [
+        "arcane",
+        "occult"
+      ],
+      "traditionsText": "Arcane, Occult",
+      "type": "spell",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ],
+      "areaEffectShape": "sphere",
+      "areaEffectSize": 15,
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "dark-archive",
+      "manipulate",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 106
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5FCC4311-F786-551D-B09B-194FBD58D74C",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Shadow Spy",
+    "slug": "shadow-spy-dark-archive",
+    "descr": "You mix blood, soil, and shadow together to form a half-real homunculus in the shape of a crow, sparrow, or other bird. You then command the bird to fly to a location within range and observe all around it. The bird has the statistics of a [Homunculus](/creature/homunculus-monster-core), save that it has all of your senses and shares your Perception modifier. Once the spell's duration elapses or upon a trigger you set (which must be fairly simple—\"at dusk\" or \"when the judge leaves\"), the bird flies to your location. If you wring its neck and drink its blood, you learn all that it saw since its creation.",
+    "data": {
+      "rank": 3,
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "manipulate"
+      ],
+      "cost": "",
+      "cast": "1 minute",
+      "range": "120 feet",
+      "targets": "",
+      "requirements": "",
+      "traditions": [
+        "occult",
+        "primal"
+      ],
+      "traditionsText": "Occult, Primal",
+      "type": "spell",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ],
+      "durationText": "until the next time you make your daily preparations",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "dark-archive",
+      "manipulate",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 108
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D37EB210-7686-57DB-8F7C-0F6D908CBDD6",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Shaken Confidence",
+    "slug": "shaken-confidence-dark-archive",
+    "descr": "You mock the target for all its failings, twisting its self-confidence into doubt. The enemy attempts a Will saving throw.\n\n---\n\n**Success** The target is unaffected.\n\n**Failure** The target is briefly shaken and unsure of its abilities. It must roll twice and take the worse result on the next roll of the same type as the critical failure that triggered the spell (such as the target's next Acrobatics check if the spell's trigger was a critical failure on an Acrobatics check). If the target doesn't attempt any qualifying checks, the spell ends at the end of the target's next turn.",
+    "data": {
+      "rank": 4,
+      "rarity": "rare",
+      "traits": [
+        "cleric",
+        "concentrate",
+        "emotion",
+        "focus",
+        "mental",
+        "misfortune"
+      ],
+      "cost": "",
+      "cast": "reaction",
+      "range": "30 feet",
+      "targets": "An enemy that critically failed an attack roll, Perception check, or skill check",
+      "requirements": "",
+      "defense": "will",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "focus",
+      "castActions": [
+        "reaction"
+      ],
+      "actions": "reaction",
+      "traitLinks": [
+        {
+          "label": "cleric",
+          "slug": "cleric"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "emotion",
+          "slug": "emotion"
+        },
+        {
+          "label": "focus",
+          "slug": "focus"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        },
+        {
+          "label": "misfortune",
+          "slug": "misfortune"
+        }
+      ],
+      "durationText": "varies",
+      "durationUnit": "round",
+      "trigger": "An enemy within 30 feet of you critically fails an attack roll, Perception check, or skill check."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "cleric",
+      "concentrate",
+      "dark-archive",
+      "emotion",
+      "focus",
+      "mental",
+      "misfortune",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "22ECD2F1-2A50-5297-B2A7-2BA48BBBB476",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Shatter Mind",
+    "slug": "shatter-mind-dark-archive",
+    "descr": "You telepathically assail the minds of your foes. You deal 3d4 mental damage to all enemies in the area, with a basic Will save.\n\n---\n\n**Heightened (+1)** The damage increases by 1d4.",
+    "data": {
+      "rank": 3,
+      "rarity": "uncommon",
+      "traits": [
+        "cantrip",
+        "concentrate",
+        "manipulate",
+        "mental",
+        "psychic"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "",
+      "targets": "",
+      "requirements": "",
+      "area": "15-foot cone",
+      "defense": "basicwill",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "cantrip",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "cantrip",
+          "slug": "cantrip"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        },
+        {
+          "label": "psychic",
+          "slug": "psychic"
+        }
+      ],
+      "areaEffectShape": "cone",
+      "areaEffectSize": 15,
+      "durationText": "",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "cantrip",
+      "concentrate",
+      "dark-archive",
+      "manipulate",
+      "mental",
+      "psychic",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D39A96E5-6911-5B05-B793-14C3E1EC6F4D",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Soft Landing",
+    "slug": "soft-landing-dark-archive",
+    "descr": "You create a magical field that buoys any creature or object falling into the area, providing a harmless landing from any height. As you generally fall 1,500 feet per round, you can cast this spell while you are falling to ensure a safe landing, provided you can see your landing point and it's within range.",
+    "data": {
+      "rank": 4,
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "manipulate"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "1 mile",
+      "targets": "",
+      "requirements": "",
+      "area": "60-foot emanation",
+      "traditions": [
+        "arcane",
+        "occult",
+        "primal"
+      ],
+      "traditionsText": "Arcane, Occult, Primal",
+      "type": "spell",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ],
+      "areaEffectShape": "sphere",
+      "areaEffectSize": 60,
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "dark-archive",
+      "manipulate",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 108
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2C3CA30A-23FD-5745-A053-5C771015C110",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Stagnate Time",
+    "slug": "stagnate-time-dark-archive",
+    "descr": "You examine the time stream in a particular area, then proceed to stick a few metaphorical pins into it, thickening and slowing down the flow of time until it rumbles along like a river of molasses. Any creature that begins its turn in the area must attempt a Will save.\n\n---\n\n**Success** The creature is unaffected.\n\n**Failure** The creature is [Slowed 1](/condition/slowed-player-core) this turn.\n\n**Critical Failure** The creature is Slowed 2 this turn.",
+    "data": {
+      "rank": 5,
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "manipulate"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "120 feet",
+      "targets": "",
+      "requirements": "",
+      "area": "20-foot burst",
+      "defense": "will",
+      "traditions": [
+        "arcane",
+        "occult"
+      ],
+      "traditionsText": "Arcane, Occult",
+      "type": "spell",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ],
+      "areaEffectShape": "sphere",
+      "areaEffectSize": 20,
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "dark-archive",
+      "manipulate",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 183
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "51B1D5B9-07C1-5623-8E77-E6BB49D6914A",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "String of Fate",
+    "slug": "string-of-fate-dark-archive",
+    "descr": "You bond yourself to a cherished friend, vowing to share their fate for good or for ill. Whenever an effect would require both you and the target to attempt a saving throw, if one of you succeeds at your saving throw and the other critically fails, you can choose to both fail instead. You and the ally must agree to fail; otherwise, use your normal save results instead.",
+    "data": {
+      "rank": 1,
+      "rarity": "rare",
+      "traits": [
+        "cleric",
+        "focus",
+        "fortune",
+        "manipulate"
+      ],
+      "cost": "",
+      "cast": "1",
+      "range": "60 feet",
+      "targets": "you and 1 ally",
+      "requirements": "",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "focus",
+      "castActions": [
+        "one"
+      ],
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "cleric",
+          "slug": "cleric"
+        },
+        {
+          "label": "focus",
+          "slug": "focus"
+        },
+        {
+          "label": "fortune",
+          "slug": "fortune"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ],
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "cleric",
+      "dark-archive",
+      "focus",
+      "fortune",
+      "manipulate",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "689EFF6C-174F-5604-BBE9-66541B06D2BE",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Summon Irii",
+    "slug": "summon-irii-dark-archive",
+    "descr": "You cast your spell, whisper your words of power, and find that an irii is already here—indeed, they've always been here, and always were, and always will be. The temporal being occupies the space of a Medium creature and has a Speed of 60 feet and a fly Speed of 60 feet. When you Cast this Spell, choose whether it summons a fate irii or a fortune irii.\n\n**Fate** The fate stands before you with its stained-glass wings and animal-headed gaze, floating eyes circling about it.\n\n**Arrive** (fortune, prediction) *Decree the Immutability of Time* While within 30 feet of the fate, you and your allies who roll below 10 on a d20 for an attack roll, Perception check, saving throw, or skill check get a 10 instead.**Depart** (misfortune, prediction) *Observe the Inevitability of Destiny* Each enemy within a 30-foot emanation must attempt a Will save. If a creature fails its save, until the end of its next turn, any time it rolls above 10 on a d20 for an attack roll, Perception check, saving throw, or skill check, it gets a 10 instead.\n\n**Fortune** The fortune stands before you with its golden horns and moth-scale wings, a sly smirk on its elfin face.\n\n**Arrive** (fortune, prediction) *Decree the Chaos of Infinity* While within 30 feet of the fortune, you and your allies roll twice and take the higher roll on all damage rolls, Perception checks, and saving throws.\n\n**Depart** (misfortune, prediction) *Sunder Eternity's Authority* Each enemy within a 30-foot emanation must attempt a Will save. A creature that fails its save must roll twice and take the lower result on all damage rolls, Perception checks, and saving throws until the end of its next turn.",
+    "data": {
+      "rank": 8,
+      "rarity": "rare",
+      "traits": [
+        "concentrate",
+        "incarnate",
+        "manipulate"
+      ],
+      "cost": "",
+      "cast": "3",
+      "range": "100 feet",
+      "targets": "",
+      "requirements": "",
+      "traditions": [
+        "arcane",
+        "occult"
+      ],
+      "traditionsText": "Arcane, Occult",
+      "type": "spell",
+      "castActions": [
+        "three"
+      ],
+      "actions": "three",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "incarnate",
+          "slug": "incarnate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ],
+      "durationText": "until the end of your next turn",
+      "duration": 1,
+      "durationType": "sourceEndNextTurn",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "dark-archive",
+      "incarnate",
+      "manipulate",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 182
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "57BA4A87-06A0-5061-9A53-78F87EB5175B",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Suspended Retribution",
+    "slug": "suspended-retribution-dark-archive",
+    "descr": "All life dances one step from the precipice, one heartbeat from disaster. You open your eyes wide and see doom waiting in the wings, then invite it to step forward. A spectral omen of disaster appears above the target's head—traditionally, this is a downward-pointing sword, but some spellcasters report seeing a hangman's noose or a grinning skull instead. When you Cast this Spell, pick one of the following triggers.\n\nThe target moves more than its Speed in a single round.The target makes more than one Strike in a single round.The target Casts a Spell.The target uses a specific skill you name.The target uses a specific ability you name.\n\nThe target uses a specific ability you name. If the target takes the triggering action, the portent of doom activates—the sword strikes down, the noose loops around the target's neck, the skull bares its fangs—and the target takes 70 mental damage with a basic Reflex save. The target instinctively knows which action will trigger the omen and can ward off the omen by spending a total of 3 actions, which have the [concentrate](/trait/concentrate) trait, to pray, make signs against doom, or similar apotropaic actions. These actions need not be consecutive. After the creature spends the actions, the spell ends.\n\n---\n\n**Heightened (+1)** The damage increases by 10.",
+    "data": {
+      "rank": 6,
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "curse",
+        "manipulate",
+        "mental",
+        "prediction"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "60 feet",
+      "targets": "1 creature",
+      "requirements": "",
+      "defense": "basicreflex",
+      "traditions": [
+        "divine",
+        "occult"
+      ],
+      "traditionsText": "Divine, Occult",
+      "type": "spell",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "curse",
+          "slug": "curse"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        },
+        {
+          "label": "prediction",
+          "slug": "prediction"
+        }
+      ],
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "curse",
+      "dark-archive",
+      "manipulate",
+      "mental",
+      "prediction",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 184
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "500D1BA8-BBDF-55B7-A79F-FE30C29CD9FA",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Telekinetic Bombardment",
+    "slug": "telekinetic-bombardment-dark-archive",
+    "descr": "You grasp a piece of the landscape—such as a tree, carriage, or piece of masonry—and lob it in your foe's direction. Your missile crashes down in either a 10-foot burst (for most missiles) or a 30-foot line (for something long and tall, like a tree or a ship's mast), dealing 14d6 bludgeoning damage and turning its area into difficult terrain as it breaks into rubble. All creatures in the area must attempt a Reflex save. If the area is a line, it doesn't have to start from your square but can instead start anywhere in range, as long as the entire area remains within range.\n\n---\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature takes half damage.\n\n**Failure** The creature takes full damage and is knocked [Prone](/condition/prone-player-core).\n\n**Critical Failure** The creature takes double damage, is knocked prone, and is [Stunned 1](/condition/stunned-player-core).\n\n---\n\n**Heightened (+1)** The damage increases by 2d6.",
+    "data": {
+      "rank": 7,
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "manipulate"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "500 feet",
+      "targets": "",
+      "requirements": "",
+      "area": "10-foot burst",
+      "defense": "reflex",
+      "traditions": [
+        "arcane",
+        "occult"
+      ],
+      "traditionsText": "Arcane, Occult",
+      "type": "spell",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ],
+      "areaEffectShape": "sphere",
+      "areaEffectSize": 10,
+      "durationText": "",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "dark-archive",
+      "manipulate",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 108
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "7AE6E882-EB4F-58AA-BD92-EE7142292448",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Telekinetic Rend",
+    "slug": "telekinetic-rend-dark-archive",
+    "descr": "Your mind creates a violent axis of motion in a nearby space that can smash or sever at your will. You deal your choice of 1d6 bludgeoning or 1d6 slashing damage to all creatures in the area, with a basic Fortitude save. A creature large enough to be in more than one of the bursts takes damage only once.\n\n---\n\n**Heightened (+2)** The damage increases by 1d6.",
+    "data": {
+      "rank": 1,
+      "rarity": "uncommon",
+      "traits": [
+        "cantrip",
+        "concentrate",
+        "manipulate",
+        "psychic"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "60 feet",
+      "targets": "2 non-overlapping 5-foot bursts",
+      "requirements": "",
+      "area": "5-foot burst",
+      "defense": "basicfortitude",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "cantrip",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "cantrip",
+          "slug": "cantrip"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "psychic",
+          "slug": "psychic"
+        }
+      ],
+      "areaEffectShape": "sphere",
+      "areaEffectSize": 5,
+      "durationText": "",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "cantrip",
+      "concentrate",
+      "dark-archive",
+      "manipulate",
+      "psychic",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 18
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4C84D82A-A3C4-5675-B4E2-A99F35B511BC",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Temporal Distortion",
+    "slug": "temporal-distortion-dark-archive",
+    "descr": "You share some of your own temporal distortions with a foe, altering their mind and body unpredictably as they're thrown backward or forward in time. Roll 1d4. On a 1, the foe becomes clumsy; on a 2, it becomes enfeebled; on a 3, it becomes stupefied; and on a 4, you choose which condition applies.\n\n---\n\n**Critical Success** The target is unaffected.\n\n**Success** The target is either Clumsy 1, Enfeebled 1, or Stupefied 1 for 1 round, depending on the result of the d4.\n\n**Failure** The target is either clumsy 1, enfeebled 1, or stupefied 1 for 4 rounds, depending on the result of the d4.\n\n**Critical Failure** As failure, but the time warp is stronger, increasing the condition's effects but making it run its course faster. The condition's value is 3, and the condition lasts for 2 rounds.",
+    "data": {
+      "rank": 1,
+      "rarity": "uncommon",
+      "traits": [
+        "concentrate",
+        "focus",
+        "oracle"
+      ],
+      "cost": "",
+      "cast": "1",
+      "range": "30 feet",
+      "targets": "1 creature",
+      "requirements": "",
+      "defense": "will",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "focus",
+      "castActions": [
+        "one"
+      ],
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "focus",
+          "slug": "focus"
+        },
+        {
+          "label": "oracle",
+          "slug": "oracle"
+        }
+      ],
+      "durationText": "",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "dark-archive",
+      "focus",
+      "oracle",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A504491D-5889-5AC0-8B91-50421443F6DE",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Temporal Twin",
+    "slug": "temporal-twin-dark-archive",
+    "descr": "You pull a fleeting duplicate of your ally from the recent past. The duplicate appears in an unoccupied space of your choice within 30 feet of you and repeats a basic single action the target took since the end of your last turn, such as making a Strike or Interacting to pull a lever. Because the other basic single actions don't produce much of a result on their own, this is typically used for Strike and Interact, though occasionally it could be useful to have a *temporal twin* Stride through a potentially dangerous area to expose a hazard. Immediately after you cast this spell, the target ally spends a reaction to create the duplicate, makes any decisions, and rolls for the repeated action, such as choosing a target for a Strike and making the attack roll. If the ally doesn't have a reaction to spend, *temporal twin* fails. Use the duplicate's location for determining flanking, cover, and the like. Using this spell requires remembering what your ally did, and if you don't remember the details, the GM might not allow you to cast *temporal twin*.\n\nThis action can't be used for anything but a basic single action, nor can it use limited resources. The action can have a different target than the original action but must be very similar in form. For example, if the original action were to Interact to pull a lever, the time duplicate could pull a different lever but couldn't turn a doorknob or pick up an item from a table. Being pulled through time to create a twin destabilizes the target's timeline. Once an ally has been the target of *temporal twin*, they're temporarily immune for 1 day.",
+    "data": {
+      "rank": 3,
+      "rarity": "uncommon",
+      "traits": [
+        "concentrate",
+        "manipulate"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "30 feet",
+      "targets": "one willing ally",
+      "requirements": "",
+      "traditions": [
+        "arcane",
+        "occult"
+      ],
+      "traditionsText": "Arcane, Occult",
+      "type": "spell",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ],
+      "durationText": "until the end of your next turn",
+      "duration": 1,
+      "durationType": "sourceEndNextTurn",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "dark-archive",
+      "manipulate",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 184
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "70E16456-D79A-5990-80A9-7C349B720B6C",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Tesseract Tunnel",
+    "slug": "tesseract-tunnel-dark-archive",
+    "descr": "You race from point to point, tearing open a tunnel in space. You create a portal in your current space and then Stride, creating another portal in the space you end your [Stride](/action/stride-player-core). Until the beginning of your next turn, any creature that enters the first portal can immediately transport itself to the exit portal as part of its move action, which adds the [teleportation](/trait/teleportation) trait to its movement.\n\nYou can have only one *tesseract tunnel* open at a time; creating another causes the first to immediately close. You can use *tesseract tunnel* while [Burrowing](/action/burrow-player-core), [Climbing](/action/climb-player-core), [Flying](/action/fly-player-core), or [Swimming](/action/swim-player-core) instead of Striding if you have the corresponding movement type.",
+    "data": {
+      "rank": 5,
+      "rarity": "uncommon",
+      "traits": [
+        "cantrip",
+        "concentrate",
+        "manipulate",
+        "psychic",
+        "teleportation"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "",
+      "targets": "",
+      "requirements": "",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "cantrip",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "cantrip",
+          "slug": "cantrip"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "psychic",
+          "slug": "psychic"
+        },
+        {
+          "label": "teleportation",
+          "slug": "teleportation"
+        }
+      ],
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "cantrip",
+      "concentrate",
+      "dark-archive",
+      "manipulate",
+      "psychic",
+      "remaster",
+      "teleportation"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 23
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E5875D1F-38DB-5FD1-B4A7-7458D6B58495",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Thermal Stasis",
+    "slug": "thermal-stasis-dark-archive",
+    "descr": "The same abilities that let you raise or lower thermal energy also let you keep it at a safe medium. The target gains resistance 2 against fire damage and resistance 2 against cold damage.\n\nSpell Effect: Thermal Stasis\n\n---\n\n**Heightened (+1)** Each resistance increases by 2.",
+    "data": {
+      "rank": 1,
+      "rarity": "uncommon",
+      "traits": [
+        "cantrip",
+        "concentrate",
+        "psychic"
+      ],
+      "cost": "",
+      "cast": "1",
+      "range": "60 feet",
+      "targets": "1 creature",
+      "requirements": "",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "cantrip",
+      "castActions": [
+        "one"
+      ],
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "cantrip",
+          "slug": "cantrip"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "psychic",
+          "slug": "psychic"
+        }
+      ],
+      "durationText": "until the start of your next turn",
+      "duration": 1,
+      "durationType": "sourceStartNextTurn",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "cantrip",
+      "concentrate",
+      "dark-archive",
+      "psychic",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 21
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "923292EF-246C-574D-BC0B-5DF435C7D472",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Time Beacon",
+    "slug": "time-beacon-dark-archive",
+    "descr": "You create a beacon in time to return to it if things go wrong. You can cast *time beacon* only on your turn. Keep careful track of everything that happens this turn after you cast *time beacon*. At the end of your turn, you can choose to rewind time back to just after you cast *time beacon*, removing all effects of your turn since then. Curses, traps, and other harmful effects that happen during your turn might prevent you from returning to the beacon if they're powerful enough. If you were affected by any harmful effects during your turn after casting *time beacon*, in order to return to your beacon, *time beacon* attempts a counteract check against each such effect. If it fails at any of these checks, you can't return. After returning to the time beacon, the spell ends.",
+    "data": {
+      "rank": 7,
+      "rarity": "common",
+      "traits": [
+        "manipulate"
+      ],
+      "cost": "",
+      "cast": "1",
+      "range": "",
+      "targets": "",
+      "requirements": "",
+      "traditions": [
+        "arcane",
+        "occult"
+      ],
+      "traditionsText": "Arcane, Occult",
+      "type": "spell",
+      "castActions": [
+        "one"
+      ],
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ],
+      "durationText": "until the end of your turn",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "dark-archive",
+      "manipulate",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 184
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "34EC4DF3-F14D-598C-881D-B5F9B3CDF87C",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Time Pocket",
+    "slug": "time-pocket-dark-archive",
+    "descr": "You fling the target item forward in time and link it to the future of the creature holding it. The item disappears. When the spell ends, the item reappears with the creature that was holding it when you Cast the Spell. If the creature has enough hands free to hold the item, it appears in their hands. Otherwise, it falls to the ground in the creature's space.\n\nYou can Dismiss the spell, and it automatically ends if you're reduced to 0 Hit Points or cast time pocket again.",
+    "data": {
+      "rank": 3,
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "manipulate"
+      ],
+      "cost": "",
+      "cast": "1 minute",
+      "range": "touch",
+      "targets": "one item of 1 Bulk or less that a willing creature is holding",
+      "requirements": "",
+      "traditions": [
+        "arcane",
+        "occult"
+      ],
+      "traditionsText": "Arcane, Occult",
+      "type": "spell",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ],
+      "durationText": "until your next daily preparations",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "dark-archive",
+      "manipulate",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 184
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "7A154510-A9CD-5FFE-8E17-DBB0D1E833CA",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Time Sense",
+    "slug": "time-sense-dark-archive",
+    "descr": "When you Cast the Spell, you gain a perfect sense of time. You can learn exactly what time it is, down to the second. You can instead choose to gain a perfect sense of the calendar if you have knowledge in that area—if you're trained in Nature, you can learn exactly how long it is until sunrise and how many days until the next solstice. If you're trained in Astronomy Lore, you can learn precisely when any known predictable astronomical conjunction will begin and end, and so on.\n\nYou can gain a +1 status bonus to one attack roll, Perception check, saving throw, or skill check you take on the same turn you cast time sense that requires extremely precise timing. If you choose to gain this bonus, you can't gain it again for 1 hour.",
+    "data": {
+      "rank": 1,
+      "rarity": "common",
+      "traits": [
+        "cantrip",
+        "concentrate"
+      ],
+      "cost": "",
+      "cast": "1",
+      "range": "",
+      "targets": "",
+      "requirements": "",
+      "traditions": [
+        "arcane",
+        "occult"
+      ],
+      "traditionsText": "Arcane, Occult",
+      "type": "cantrip",
+      "castActions": [
+        "one"
+      ],
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "cantrip",
+          "slug": "cantrip"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        }
+      ],
+      "durationText": "",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "cantrip",
+      "concentrate",
+      "dark-archive",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 183
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "173DE3C0-2F6C-5B53-98D6-F66E54E1ACE1",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Time Skip",
+    "slug": "time-skip-dark-archive",
+    "descr": "You manipulate time around your ally, pushing them forward a few moments in time. The target is [Quickened](/condition/quickened-player-core) on its next turn and can use the action only to Step, Stride, or Strike.\n\n---\n\n**Heightened (6th)** You can affect up to four willing creatures other than yourself within range.",
+    "data": {
+      "rank": 3,
+      "rarity": "uncommon",
+      "traits": [
+        "concentrate",
+        "focus",
+        "oracle"
+      ],
+      "cost": "",
+      "cast": "1",
+      "range": "30 feet",
+      "targets": "1 willing creature other than yourself",
+      "requirements": "",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "focus",
+      "castActions": [
+        "one"
+      ],
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "focus",
+          "slug": "focus"
+        },
+        {
+          "label": "oracle",
+          "slug": "oracle"
+        }
+      ],
+      "durationText": "1 round",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "dark-archive",
+      "focus",
+      "oracle",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "848FD366-61D0-56DC-B2E3-553A627EBAE2",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Vector Screen",
+    "slug": "vector-screen-dark-archive",
+    "descr": "You set up a transparent, rippling screen of telekinetic energy that seizes small, fast-moving projectiles. Creatures can pass through the screen, but ammunition from physical ranged attacks—such as arrows, bolts, sling bullets, and other objects of similar size—is automatically trapped in the screen, clattering to the ground once the spell ends. Attacks with bigger ranged weapons, such as javelins, take a –2 circumstance penalty to their attack rolls if their paths pass through the screen. Massive ranged weapons and spell effects that don't create physical objects pass through the screen with no penalty.\n\n---\n\n**Heightened (5th)** The screen is 20 feet long.\n\n**Heightened (6th)** The screen is 20 feet long and can interfere even with massless attacks, like magical blasts or gouts of flame. The screen imposes a –2 circumstance penalty to the attack rolls of spell effects even if they don't create physical objects. It also protects against area effects that pass through the screen, granting standard cover to creatures on the opposite side of the screen from the center or origin point of an area.",
+    "data": {
+      "rank": 3,
+      "rarity": "uncommon",
+      "traits": [
+        "cantrip",
+        "concentrate",
+        "manipulate",
+        "psychic"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "60 feet",
+      "targets": "",
+      "requirements": "",
+      "area": "10-foot line",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "cantrip",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "cantrip",
+          "slug": "cantrip"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "psychic",
+          "slug": "psychic"
+        }
+      ],
+      "areaEffectShape": "line",
+      "areaEffectSize": 10,
+      "durationText": "until the start of your next turn",
+      "duration": 1,
+      "durationType": "sourceStartNextTurn",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "cantrip",
+      "concentrate",
+      "dark-archive",
+      "manipulate",
+      "psychic",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 18
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "235C6DAF-7760-5B0C-84D7-134F973766F4",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Victory Cry",
+    "slug": "victory-cry-dark-archive",
+    "descr": "Your true might comes from your bonds with your allies, and you glory in their achievements. The weapon used to make the Strike deals an additional 1d6 sonic damage (not doubled due to the critical hit), and the ally can immediately attempt to [Shove](/action/shove-player-core) the creature struck, even if the ally's hands are full. Your ally can use its item bonus to the triggering attack roll on the Athletics check, if any, and it gains a +1 status bonus to the Athletics check if the triggering Strike was with a weapon that has the [trip](/trait/trip) trait or an unarmed attack that has the trip trait.\n\n---\n\n**Heightened (+2)** The sonic damage increases by 1d6.",
+    "data": {
+      "rank": 1,
+      "rarity": "rare",
+      "traits": [
+        "cleric",
+        "concentrate",
+        "focus",
+        "sonic"
+      ],
+      "cost": "",
+      "cast": "reaction",
+      "range": "30 feet",
+      "targets": "the triggering ally",
+      "requirements": "",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "focus",
+      "castActions": [
+        "reaction"
+      ],
+      "actions": "reaction",
+      "traitLinks": [
+        {
+          "label": "cleric",
+          "slug": "cleric"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "focus",
+          "slug": "focus"
+        },
+        {
+          "label": "sonic",
+          "slug": "sonic"
+        }
+      ],
+      "durationText": "",
+      "durationUnit": "round",
+      "trigger": "An ally within range critically succeeds at a melee Strike."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "cleric",
+      "concentrate",
+      "dark-archive",
+      "focus",
+      "remaster",
+      "sonic"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "90C7C060-85DD-5560-BD89-308073A18CC3",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Waking Dream",
+    "slug": "waking-dream-dark-archive",
+    "descr": "You cloud the target's mind with vivid, dreamlike imagery, so they have difficulty distinguishing real threats from imagined ones.\n\n---\n\n**Critical Success** The target is unaffected.\n\n**Success** The target is distracted by the visions and treats all other creatures as [Concealed](/condition/concealed-player-core) for 1 round, and you can't Sustain the Spell to increase the duration.\n\n**Failure** The target is [Confused](/condition/confused-player-core). In addition to the creatures present, the target might also attack wildly at thin air, attempting to fend off the dreams. It can attempt a new save at the end of each of its turns to end the confusion. Even if the confused effect ends early, the target treats all other creatures as concealed for 1 round.\n\n**Critical Failure** As failure, but the target gets no save to end the effect early.",
+    "data": {
+      "rank": 4,
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "focus",
+        "manipulate",
+        "mental"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "60 feet",
+      "targets": "1 creature",
+      "requirements": "",
+      "defense": "will",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "focus",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "focus",
+          "slug": "focus"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        }
+      ],
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "dark-archive",
+      "focus",
+      "manipulate",
+      "mental",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "ABCD03A5-DFE7-53E9-AF10-A2E0DCA82E25",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Warp Step",
+    "slug": "warp-step-dark-archive",
+    "descr": "When you walk, the earth warps beneath your feet—your steps extend, distance contracts, and everything is just a little bit closer. You gain a +5-foot status bonus to your Speed until the end of your turn. You then Stride twice. You can use warp step to Burrow, Climb, Fly, or Swim instead of Stride if you have the corresponding movement type.\n\nSpell Effect: Warp Step",
+    "data": {
+      "rank": 1,
+      "rarity": "common",
+      "traits": [
+        "cantrip",
+        "concentrate",
+        "manipulate"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "",
+      "targets": "",
+      "requirements": "",
+      "traditions": [
+        "arcane",
+        "occult"
+      ],
+      "traditionsText": "Arcane, Occult",
+      "type": "cantrip",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "cantrip",
+          "slug": "cantrip"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ],
+      "durationText": "",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "cantrip",
+      "concentrate",
+      "dark-archive",
+      "manipulate",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive",
+        "page": 107
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C07E5A4E-D365-5B2C-B006-047ECC8EDBE1",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Weaponize Secret",
+    "slug": "weaponize-secret-dark-archive",
+    "descr": "You understand that holding a secret is in itself a kind of power. Each target must attempt a Will save.\n\n---\n\n**Success** The target is unaffected.\n\n**Failure** A rune symbolizing a secret the target is keeping (at the GM's discretion) appears floating in front of you. If that creature attempts a Strike or spell attack against you while you hold their secret, you can discharge the rune as a reaction to deal 7d6 mental damage to the creature.\n\n**Critical Failure** As failure, but the target becomes convinced you know their secret and takes 1d6 persistent mental damage from worry. If the rune with the secret is discharged while the creature is still taking the persistent mental damage, the persistent mental damage immediately ends.\n\n---\n\n**Heightened (+1)** The mental damage increases by 2d6, and the persistent mental damage on a critical failure increases by 1.",
+    "data": {
+      "rank": 4,
+      "rarity": "rare",
+      "traits": [
+        "cleric",
+        "concentrate",
+        "focus",
+        "manipulate",
+        "mental"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "60 feet",
+      "targets": "up to 3 creatures",
+      "requirements": "",
+      "defense": "will",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "focus",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "cleric",
+          "slug": "cleric"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "focus",
+          "slug": "focus"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        }
+      ],
+      "durationText": "1 minute or until discharged",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "cleric",
+      "concentrate",
+      "dark-archive",
+      "focus",
+      "manipulate",
+      "mental",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "EC97D1F5-2A05-5A33-9F65-1214B4812EC0",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Wind Whispers",
+    "slug": "wind-whispers-dark-archive",
+    "descr": "You call forth numerous breezes in which you weave gossip, whispering subtly into the ears of those around. Choose a rumor or information you wish to spread, which may or may not be true, about a single subject. Those within range of the spell overhear the rumor at some point over the next hour, though they'll be unable to pin it down to a source. Attempt a check with a modifier equal to your spell DC - 10 against a hard DC for your level. The GM might modify the DC depending on how plausible the rumor is. Repeated castings to spread the same rumor or information have no effect unless circumstances have substantially changed, as determined by the GM.\n\n---\n\n**Critical Success** Your rumor spreads far and wide, and it's at the tip of people's tongues. For 1 week, anyone who succeeds at a check to Gather Information on the specific subject learns your rumor in preference to other rumors about the subject. Skill checks to convince people that the rumor is true get a +2 circumstance bonus.\n\n**Success** Enough people take note of the rumor that it begins to spread, though those who heard the rumor aren't necessarily convinced. For 1 week, anyone who succeeds at a check to Gather Information on the specific subject adds your rumor to the list of rumors they could learn about the subject, and skill checks to convince people that the rumor is true get a +1 circumstance bonus.\n\n**Failure** Most in the area dismiss the rumor as wild gossip and pay it little mind, granting no effect.\n\n**Critical Failure** The winds' gossip is misinterpreted and spreads information contradictory to the rumor you were attempting to spread. A contradictory rumor spreads, and skill checks to convince others that your original rumor is true take a -2 circumstance penalty.",
+    "data": {
+      "rank": 4,
+      "rarity": "rare",
+      "traits": [
+        "cleric",
+        "concentrate",
+        "focus",
+        "linguistic",
+        "manipulate",
+        "mental"
+      ],
+      "cost": "",
+      "cast": "1 hour",
+      "range": "1 mile",
+      "targets": "",
+      "requirements": "",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "focus",
+      "traitLinks": [
+        {
+          "label": "cleric",
+          "slug": "cleric"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "focus",
+          "slug": "focus"
+        },
+        {
+          "label": "linguistic",
+          "slug": "linguistic"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        }
+      ],
+      "durationText": "",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "cleric",
+      "concentrate",
+      "dark-archive",
+      "focus",
+      "linguistic",
+      "manipulate",
+      "mental",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "EF6D9FA2-1AD6-5B64-99C4-3B553A0CD7B8",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Wordsmith",
+    "slug": "wordsmith-dark-archive",
+    "descr": "You're a devotee of knowledge with an unmatched command of the language used to spread that knowledge, and you can reshape the written word into a form more understandable to your audience. The language of the target's written text shifts to a language you know. This shift doesn't change the text's contents beyond minor translation differences, nor does it grant the reader any understanding of the original language.",
+    "data": {
+      "rank": 4,
+      "rarity": "rare",
+      "traits": [
+        "cleric",
+        "concentrate",
+        "focus",
+        "manipulate"
+      ],
+      "cost": "",
+      "cast": "3",
+      "range": "touch",
+      "targets": "1 document written by a single author and comprised of written text in a single language",
+      "requirements": "",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "focus",
+      "castActions": [
+        "three"
+      ],
+      "actions": "three",
+      "traitLinks": [
+        {
+          "label": "cleric",
+          "slug": "cleric"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "focus",
+          "slug": "focus"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ],
+      "durationText": "until the next time you Refocus",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "cleric",
+      "concentrate",
+      "dark-archive",
+      "focus",
+      "manipulate",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

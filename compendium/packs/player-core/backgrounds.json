@@ -1,0 +1,1242 @@
+[
+  {
+    "id": "B055035A-BD41-5D9F-8DD3-B672176B0C09",
+    "kind": "Background",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Acolyte",
+    "slug": "acolyte-player-core",
+    "descr": "Choose two attribute boosts. One must be to **Intelligence** or **Wisdom**, and one is a free attribute boost.\n\nYou're trained in the Religion skill and the Scribing Lore skill. You gain the [Student Of The Canon](/feat/student-of-the-canon-player-core) skill feat.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0B61CA9F-B542-5FAB-B60D-130FBC3D7F2C",
+    "kind": "Background",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Acrobat",
+    "slug": "acrobat-player-core",
+    "descr": "Choose two attribute boosts. One must be to **Strength** or **Dexterity**, and one is a free attribute boost.\n\nYou're trained in the Acrobatics skill and the Circus Lore skill. You gain the [Steady Balance](/feat/steady-balance-player-core) skill feat.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9EDC41B6-13F2-53B0-BB8E-9EC5F96E117F",
+    "kind": "Background",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Animal Whisperer",
+    "slug": "animal-whisperer-player-core",
+    "descr": "Choose two attribute boosts. One must be to **Wisdom** or **Charisma**, and one is a free attribute boost.\n\nYou're trained in the Nature skill and a Lore skill related to one terrain inhabited by animals you like (such as Plains Lore or Swamp Lore). You gain the [Train Animal](/feat/train-animal-player-core) skill feat.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8A20C7EE-DDBE-514B-A56C-E2C4ABC4EA2D",
+    "kind": "Background",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Artisan",
+    "slug": "artisan-player-core",
+    "descr": "Choose two attribute boosts. One must be to **Strength** or **Intelligence**, and one is a free attribute boost.\n\nYou're trained in the Crafting skill and the Guild Lore skill. You gain the [Specialty Crafting](/feat/specialty-crafting-player-core) skill feat.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "BBE9B0DE-3D3F-5AF5-9694-9D725DE95B87",
+    "kind": "Background",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Artist",
+    "slug": "artist-player-core",
+    "descr": "Choose two attribute boosts. One must be to **Dexterity** or **Charisma**, and one is a free attribute boost.\n\nYou're trained in the Crafting skill and the Art Lore skill. You gain the [Specialty Crafting](/feat/specialty-crafting-player-core) skill feat.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "43D89338-F535-5EDA-BCEF-00DD8C2347FF",
+    "kind": "Background",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Bandit",
+    "slug": "bandit-player-core",
+    "descr": "Choose two attribute boosts. One must be to **Dexterity** or **Charisma**, and one is a free attribute boost.\n\nYou're trained in the Intimidation skill and a Lore skill related to the terrain you worked in (such as Desert Lore or Plains Lore). You gain the [Group Coercion](/feat/group-coercion-player-core) skill feat.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C7947889-00EA-5930-AD60-602E04C73308",
+    "kind": "Background",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Barkeep",
+    "slug": "barkeep-player-core",
+    "descr": "Choose two attribute boosts. One must be to **Constitution** or **Charisma**, and one is a free attribute boost.\n\nYou're trained in the Diplomacy skill and the Alcohol Lore skill. You gain the [Hobnobber](/feat/hobnobber-player-core) skill feat.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "26AF8DF8-1898-5D65-8DEE-496A98D7A443",
+    "kind": "Background",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Barrister",
+    "slug": "barrister-player-core",
+    "descr": "Choose two attribute boosts. One must be to **Intelligence** or **Charisma**, and one is a free attribute boost.\n\nYou're trained in the Diplomacy skill and the Legal Lore skill. You gain the [Group Impression](/feat/group-impression-player-core) skill feat.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3306D0E4-38CA-5677-ADB0-414FBD2EEC96",
+    "kind": "Background",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Bounty Hunter",
+    "slug": "bounty-hunter-player-core",
+    "descr": "Choose two attribute boosts. One must be to **Strength** or **Wisdom**, and one is a free attribute boost.\n\nYou're trained in the Survival skill and the Legal Lore skill. You gain the [Experienced Tracker](/feat/experienced-tracker-player-core) skill feat.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "655834EF-EDF9-52D9-9B82-AA11146CFD04",
+    "kind": "Background",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Charlatan",
+    "slug": "charlatan-player-core",
+    "descr": "Choose two attribute boosts. One must be to **Intelligence** or **Charisma**, and one is a free attribute boost.\n\nYou're trained in the Deception skill and the Underworld Lore skill. You gain the [Charming Liar](/feat/charming-liar-player-core) skill feat.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "44EFCF15-08B5-5050-AE69-7524F3880BDE",
+    "kind": "Background",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Cook",
+    "slug": "cook-player-core",
+    "descr": "Choose two attribute boosts. One must be to **Constitution** or **Intelligence**, and one is a free attribute boost.\n\nYou're trained in the Survival skill and the Cooking Lore skill. You gain the [Seasoned](/feat/seasoned-player-core) skill feat.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "DE2ED5B8-2031-5B09-9DF5-D96E1E10B029",
+    "kind": "Background",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Criminal",
+    "slug": "criminal-player-core",
+    "descr": "Choose two attribute boosts. One must be to **Dexterity** or **Intelligence**, and one is a free attribute boost.\n\nYou're trained in the Stealth skill and the Underworld Lore skill. You gain the [Experienced Smuggler](/feat/experienced-smuggler-player-core) skill feat.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "BB9227C9-EE28-5C9A-9168-E964A35B7F10",
+    "kind": "Background",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Cultist",
+    "slug": "cultist-player-core",
+    "descr": "Choose two attribute boosts. One must be to **Intelligence** or **Charisma**, and one is a free attribute boost.\n\nYou're trained in the Occultism skill and a Lore skill related to your deity or cult. You gain the [Schooled In Secrets](/feat/schooled-in-secrets-player-core) skill feat.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0A41193A-FA2A-5C5D-8B7B-20717205EC27",
+    "kind": "Background",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Detective",
+    "slug": "detective-player-core",
+    "descr": "Choose two attribute boosts. One must be to **Intelligence** or **Wisdom**, and one is a free attribute boost.\n\nYou're trained in the Society skill and the Underworld Lore skill. You gain the [Streetwise](/feat/streetwise-player-core) skill feat.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "653FDDC1-9DAB-5C8C-BA28-EB93D2EE77D9",
+    "kind": "Background",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Emissary",
+    "slug": "emissary-player-core",
+    "descr": "Choose two attribute boosts. One must be to **Intelligence** or **Charisma**, and one is a free attribute boost.\n\nYou're trained in the Society skill and a Lore skill related to one city you've visited often. You gain the [Multilingual](/feat/multilingual-player-core) skill feat.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "6909A387-647E-519E-8990-753224E3ABA7",
+    "kind": "Background",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Entertainer",
+    "slug": "entertainer-player-core",
+    "descr": "Choose two attribute boosts. One must be to **Dexterity** or **Charisma**, and one is a free attribute boost.\n\nYou're trained in the Performance skill and the Theater Lore skill. You gain the [Fascinating Performance](/feat/fascinating-performance-player-core) skill feat.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C36C9C06-AA12-511F-8B5E-D71B8BB92E57",
+    "kind": "Background",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Farmhand",
+    "slug": "farmhand-player-core",
+    "descr": "Choose two attribute boosts. One must be to **Constitution** or **Wisdom**, and one is a free attribute boost.\n\nYou're trained in the Athletics skill and the Farming Lore skill. You gain the [Assurance](/feat/assurance-player-core) skill feat with Athletics.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0933F7BB-799A-5492-B319-D8F49647C630",
+    "kind": "Background",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Field Medic",
+    "slug": "field-medic-player-core",
+    "descr": "Choose two attribute boosts. One must be to **Constitution** or **Wisdom**, and one is a free attribute boost.\n\nYou're trained in the Medicine skill and the Warfare Lore skill. You gain the [Battle Medicine](/feat/battle-medicine-player-core) skill feat.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0040AC36-D2A2-5DB1-B423-DC5725B550EF",
+    "kind": "Background",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Fortune Teller",
+    "slug": "fortune-teller-player-core",
+    "descr": "Choose two attribute boosts. One must be to **Intelligence** or **Charisma**, and one is a free attribute boost.\n\nYou're trained in the Occultism skill and the Fortune-Telling Lore skill. You gain the [Oddity Identification](/feat/oddity-identification-player-core) skill feat.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "FCB488DF-E932-5603-AE27-BA5CFDE390A4",
+    "kind": "Background",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Gambler",
+    "slug": "gambler-player-core",
+    "descr": "Choose two attribute boosts. One must be to **Dexterity** or **Charisma**, and one is a free attribute boost.\n\nYou're trained in the Deception skill and the Games Lore skill. You gain the [Lie To Me](/feat/lie-to-me-player-core) skill feat.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C48F924F-9B64-5D85-9CCF-2D12D0FBF6BB",
+    "kind": "Background",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Gladiator",
+    "slug": "gladiator-player-core",
+    "descr": "Choose two attribute boosts. One must be to **Strength** or **Charisma**, and one is a free attribute boost.\n\nYou're trained in the Performance skill and the Gladiatorial Lore skill. You gain the [Impressive Performance](/feat/impressive-performance-player-core) skill feat.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A0718D6B-1F2E-5288-8E55-ED786DC9876A",
+    "kind": "Background",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Guard",
+    "slug": "guard-player-core",
+    "descr": "Choose two attribute boosts. One must be to **Strength** or **Charisma**, and one is a free attribute boost.\n\nYou're trained in the Intimidation skill and the Legal Lore or Warfare Lore skill. You gain the [Quick Coercion](/feat/quick-coercion-player-core) skill feat.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E2DAF88A-1AF5-5288-8B91-AA2C5B79D3C9",
+    "kind": "Background",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Herbalist",
+    "slug": "herbalist-player-core",
+    "descr": "Choose two attribute boosts. One must be to **Constitution** or **Wisdom**, and one is a free attribute boost.\n\nYou're trained in the Nature skill and the Herbalism Lore skill. You gain the [Natural Medicine](/feat/natural-medicine-player-core) skill feat.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B964ACDD-F9B5-5A08-AB18-7CD8EA8072CD",
+    "kind": "Background",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Hermit",
+    "slug": "hermit-player-core",
+    "descr": "Choose two attribute boosts. One must be to **Constitution** or **Intelligence**, and one is a free attribute boost.\n\nYou're trained in the Nature or Occultism skill, plus a Lore skill related to the terrain you lived in as a hermit (such as Cave Lore or Desert Lore). You gain the [Dubious Knowledge](/feat/dubious-knowledge-player-core) skill feat.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8D77833D-FFE3-56BB-9239-21C6AA2B2598",
+    "kind": "Background",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Hunter",
+    "slug": "hunter-player-core",
+    "descr": "Choose two attribute boosts. One must be to **Dexterity** or **Wisdom**, and one is a free attribute boost.\n\nYou're trained in the Survival skill and the Tanning Lore skill. You gain the [Survey Wildlife](/feat/survey-wildlife-player-core) skill feat.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3EAB923C-8EE8-5D80-B507-C40C0A970E86",
+    "kind": "Background",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Laborer",
+    "slug": "laborer-player-core",
+    "descr": "Choose two attribute boosts. One must be to **Strength** or **Constitution**, and one is a free attribute boost.\n\nYou're trained in the Athletics skill and the Labor Lore skill. You gain the [Hefty Hauler](/feat/hefty-hauler-player-core) skill feat.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3DFE7365-12D5-54AB-AEA8-8E6D410287C9",
+    "kind": "Background",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Martial Disciple",
+    "slug": "martial-disciple-player-core",
+    "descr": "Choose two attribute boosts. One must be to **Strength** or **Dexterity**, and one is a free attribute boost.\n\nYou're trained in your choice of the Acrobatics or Athletics skill. You gain a skill feat: [Cat Fall](/feat/cat-fall-player-core) if you chose Acrobatics or [Quick Jump](/feat/quick-jump-player-core) if you chose Athletics. You're also trained in the Warfare Lore skill.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F50B0F74-6CA4-519F-B60B-425A9B31B2CD",
+    "kind": "Background",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Merchant",
+    "slug": "merchant-player-core",
+    "descr": "Choose two attribute boosts. One must be to **Intelligence** or **Charisma**, and one is a free attribute boost.\n\nYou're trained in the Diplomacy skill and the Mercantile Lore skill. You gain the [Bargain Hunter](/feat/bargain-hunter-player-core) skill feat.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9F31BDE9-1A0F-5A0D-B2DD-62B3A6660470",
+    "kind": "Background",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Miner",
+    "slug": "miner-player-core",
+    "descr": "Choose two attribute boosts. One must be to **Strength** or **Wisdom**, and one is a free attribute boost.\n\nYou're trained in the Survival skill and the Mining Lore skill. You gain the [Terrain Expertise](/feat/terrain-expertise-player-core) skill feat with underground terrain.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3D884858-4322-54B6-8801-C71841EC5EEC",
+    "kind": "Background",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Noble",
+    "slug": "noble-player-core",
+    "descr": "Choose two attribute boosts. One must be to **Intelligence** or **Charisma**, and one is a free attribute boost.\n\nYou're trained in the Society skill and the Genealogy Lore or Heraldry Lore skill. You gain the [Courtly Graces](/feat/courtly-graces-player-core) skill feat.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "17B7E3A2-38AF-5734-B53E-565A0112BA5A",
+    "kind": "Background",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Nomad",
+    "slug": "nomad-player-core",
+    "descr": "Choose two attribute boosts. One must be to **Constitution** or **Wisdom**, and one is a free attribute boost.\n\nYou're trained in the Survival skill and a Lore skill related to one terrain you traveled in (such as Desert Lore or Swamp Lore). You gain the [Assurance](/feat/assurance-player-core) skill feat with Survival.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "205C0852-3B95-58B5-9074-328BCBA046F7",
+    "kind": "Background",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Prisoner",
+    "slug": "prisoner-player-core",
+    "descr": "Choose two attribute boosts. One must be to **Strength** or **Constitution**, and one is a free attribute boost.\n\nYou're trained in the Stealth skill and the Underworld Lore skill. You gain the [Experienced Smuggler](/feat/experienced-smuggler-player-core) skill feat.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "40DF8E15-4A70-51D3-8EC6-736C00BE2955",
+    "kind": "Background",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Raised by Belief",
+    "slug": "raised-by-belief-player-core",
+    "descr": "Choose two attribute boosts. One must be to an attribute specified in your deity's **Divine Attribute**, and the other is a free attribute boost.\n\nYou're trained in the deity's listed Divine Skill and gain the [Assurance](/feat/assurance-player-core) feat with that skill. You gain a Lore skill related to your deity (Abadar Lore, for example).",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "DFFD5928-A8BC-545F-B8F4-CFBC3DC09D83",
+    "kind": "Background",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Sailor",
+    "slug": "sailor-player-core",
+    "descr": "Choose two attribute boosts. One must be to **Strength** or **Dexterity**, and one is a free attribute boost.\n\nYou're trained in the Athletics skill and the Sailing Lore skill. You gain the [Underwater Marauder](/feat/underwater-marauder-player-core) skill feat.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "394CC643-48BB-5A92-AC03-324C31B14EA1",
+    "kind": "Background",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Scholar",
+    "slug": "scholar-player-core",
+    "descr": "Choose two attribute boosts. One must be to **Intelligence** or **Wisdom**, and one is a free attribute boost.\n\nYou're trained in your choice of the Arcana, Nature, Occultism, or Religion skill, and gain the [Assurance](/feat/assurance-player-core) skill feat in your chosen skill. You're also trained in the Academia Lore skill.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0CD7C85C-3FA1-5845-B65E-4C4BAB441089",
+    "kind": "Background",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Scout",
+    "slug": "scout-player-core",
+    "descr": "Choose two attribute boosts. One must be to **Dexterity** or **Wisdom**, and one is a free attribute boost.\n\nYou're trained in the Survival skill and a Lore skill related to one terrain you scouted in (such as Forest Lore or Cavern Lore). You gain the [Forager](/feat/forager-player-core) skill feat.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "BCC5BCC0-91D5-5BEA-9FC2-FF9F0989202B",
+    "kind": "Background",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Street Urchin",
+    "slug": "street-urchin-player-core",
+    "descr": "Choose two attribute boosts. One must be to **Dexterity** or **Constitution**, and one is a free attribute boost.\n\nYou're trained in the Thievery skill and a Lore skill for the city you lived in as a street urchin (such as Absalom Lore or Magnimar Lore). You gain the [Pickpocket](/feat/pickpocket-player-core) skill feat.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "DB72BD8F-498E-57EA-B201-9E33CCC828EF",
+    "kind": "Background",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Teacher",
+    "slug": "teacher-player-core",
+    "descr": "Choose two attribute boosts. One must be to **Intelligence** or **Wisdom**, and one is a free attribute boost.\n\nYou're trained in your choice of either the Performance or Society skill, as well as the Academia Lore skill. You gain the [Experienced Professional](/feat/experienced-professional-player-core) skill feat.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C3507F81-AECF-5EF8-A35A-240E35B1B217",
+    "kind": "Background",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Tinker",
+    "slug": "tinker-player-core",
+    "descr": "Choose two attribute boosts. One must be to **Dexterity** or **Intelligence**, and one is a free attribute boost.\n\nYou're trained in the Crafting skill and the Engineering Lore skill. You gain the [Specialty Crafting](/feat/specialty-crafting-player-core) skill feat.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "6ABFAE49-C35F-5210-A43B-EE83888362FC",
+    "kind": "Background",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Warrior",
+    "slug": "warrior-player-core",
+    "descr": "Choose two attribute boosts. One must be to **Strength** or **Constitution**, and one is a free attribute boost.\n\nYou're trained in the Intimidation skill and the Warfare Lore skill. You gain the [Intimidating Glare](/feat/intimidating-glare-player-core) skill feat.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

@@ -1,0 +1,4490 @@
+[
+  {
+    "id": "6C7FE3E2-DE91-572E-8DAA-1A0AC0F48B48",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Aura: Elysian Dew",
+    "slug": "aura-elysian-dew-treasure-vault-remastered",
+    "descr": "Granted by [Elysian Dew](/item/elysian-dew-treasure-vault-remastered)\n\nYou gain a 10-foot aura. You and any ally that starts its turn in the emanation gain 5 temporary Hit Points, a +1 item bonus to saving throws, and a +1 item bonus to Acrobatics and Athletics checks until the start of your or the ally's next turn.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "146932CC-654B-5919-B892-C58D53F8ED4B",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Ancestral Geometry",
+    "slug": "effect-ancestral-geometry-treasure-vault-remastered",
+    "descr": "Granted by [Ancestral Geometry](/item/ancestral-geometry-treasure-vault-remastered)\n\nRoll 2d20 and record the highest result. Then roll 1d6 and note a type of saving throw: 1–2 Fortitude, 3–4 Reflex, and 5–6 Will.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F99B9992-704F-5B7A-899C-654EB5C54B0A",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Ancestral Geometry (Save Type)",
+    "slug": "effect-ancestral-geometry-save-type-treasure-vault-remastered",
+    "descr": "Granted by [Ancestral Geometry](/item/ancestral-geometry-treasure-vault-remastered)\n\nDetermines the save type.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "EE5B6580-676C-5F16-8B25-352857F9C363",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Arachnid Harness",
+    "slug": "effect-arachnid-harness-treasure-vault-remastered",
+    "descr": "Granted by [Arachnid Harness](/item/arachnid-harness-treasure-vault-remastered) and [Arachnid Harness (Greater)](/item/arachnid-harness-greater-treasure-vault-remastered)\n\nYou gain a climb Speed equal to half your land Speed and have your limbs free as you climb. If you use all your free limbs to help you Climb, your climb Speed equals your land Speed.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4981194E-C3A3-5DDC-8327-E90746419907",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Arbor Wine",
+    "slug": "effect-arbor-wine-treasure-vault-remastered",
+    "descr": "Granted by [Arbor Wine](/item/arbor-wine-treasure-vault-remastered), [Aged Arbor Wine](/item/aged-arbor-wine-treasure-vault-remastered)\n\nYou gain tremorsense at a range of 30 feet",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D307C123-8C23-51F1-9C7F-AE1F460F04CB",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Architect's Pattern Book",
+    "slug": "effect-architect-s-pattern-book-treasure-vault-remastered",
+    "descr": "Granted by [Architect'S Pattern Book](/item/architect-s-pattern-book-treasure-vault-remastered)\n\nYou gain a +1 circumstance bonus to Athletics checks and Will saves.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 12,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3322BE20-3739-5D4F-81CA-17531E054042",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Auric Noodles",
+    "slug": "effect-auric-noodles-treasure-vault-remastered",
+    "descr": "Granted by [Auric Noodles](/item/auric-noodles-treasure-vault-remastered)\n\nYou gain a +1 item bonus to checks to Identify Magic.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "7DA76E77-1848-533B-B887-E5BF84494BBF",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Batsbreath Cane",
+    "slug": "effect-batsbreath-cane-treasure-vault-remastered",
+    "descr": "Granted by [Batsbreath Cane](/item/batsbreath-cane-treasure-vault-remastered)\n\nAs long as you remain in the area and are holding the cane, you gain hearing as a precise sense.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3E313FE8-3D3B-51DD-B2D4-9B8B8D0F0487",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Beastmaster's Sigil - Armor",
+    "slug": "effect-beastmaster-s-sigil-armor-treasure-vault-remastered",
+    "descr": "Granted by [Beastmaster'S Sigil](/item/beastmaster-s-sigil-treasure-vault-remastered), [Beastmaster'S Sigil (Greater)](/item/beastmaster-s-sigil-greater-treasure-vault-remastered), [Beastmaster'S Sigil (Major)](/item/beastmaster-s-sigil-major-treasure-vault-remastered)\n\nYou gain an item bonus to saving throws against poison.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "78F38EF8-4447-58D7-AB7F-65635E54C0D9",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Beastmaster's Sigil - Melee Weapon",
+    "slug": "effect-beastmaster-s-sigil-melee-weapon-treasure-vault-remastered",
+    "descr": "Granted by [Beastmaster'S Sigil](/item/beastmaster-s-sigil-treasure-vault-remastered), [Beastmaster'S Sigil (Greater)](/item/beastmaster-s-sigil-greater-treasure-vault-remastered), [Beastmaster'S Sigil (Major)](/item/beastmaster-s-sigil-major-treasure-vault-remastered)\n\nYou gain an item bonus to Athletics checks to [Trip](/action/trip-player-core).",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "28B17F9D-1480-5FB0-B51A-92C78635413F",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Beastmaster's Sigil - Ranged Weapon",
+    "slug": "effect-beastmaster-s-sigil-ranged-weapon-treasure-vault-remastered",
+    "descr": "Granted by [Beastmaster'S Sigil](/item/beastmaster-s-sigil-treasure-vault-remastered), [Beastmaster'S Sigil (Greater)](/item/beastmaster-s-sigil-greater-treasure-vault-remastered), [Beastmaster'S Sigil (Major)](/item/beastmaster-s-sigil-major-treasure-vault-remastered)\n\nIf you critically hit with the affixed weapon, and the target is adjacent to a creature summoned with the *sigil*, the target takes 1d6 persistent bleed damage (or 2d6 persistent bleed damage with a *major sigil*).",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "200EE50C-0C1C-5524-9A66-A103CE1D1E38",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Bendy-Arm Mutagen (Greater)",
+    "slug": "effect-bendy-arm-mutagen-greater-treasure-vault-remastered",
+    "descr": "Granted by [Bendy Arm Mutagen (Greater)](/item/bendy-arm-mutagen-greater-treasure-vault-remastered)\n\n**Benefit** You gain a +3 item bonus to Acrobatics checks to Escape, Squeeze, and Tumble Through, and you increase your reach by 10 feet.\n\n**Drawback** You take a –1 penalty to Athletics checks, Stealth checks, Thievery checks, and attack rolls, and a –1 penalty per damage die to all weapon and unarmed attack damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4043F6D0-00EE-5C03-9C3A-D9BB62E28AC7",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Bendy-Arm Mutagen (Lesser)",
+    "slug": "effect-bendy-arm-mutagen-lesser-treasure-vault-remastered",
+    "descr": "Granted by [Bendy Arm Mutagen (Lesser)](/item/bendy-arm-mutagen-lesser-treasure-vault-remastered)\n\n**Benefit** You gain a +1 item bonus to Acrobatics checks to Escape, Squeeze, and Tumble Through, and you increase your reach by 5 feet.\n\n**Drawback** You take a –1 penalty to Athletics checks, Stealth checks, Thievery checks, and attack rolls, and a –1 penalty per damage die to all weapon and unarmed attack damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "CC81B1EA-7496-570B-94BA-65F6BC2455D5",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Bendy-Arm Mutagen (Major)",
+    "slug": "effect-bendy-arm-mutagen-major-treasure-vault-remastered",
+    "descr": "Granted by [Bendy Arm Mutagen (Major)](/item/bendy-arm-mutagen-major-treasure-vault-remastered)\n\n**Benefit** You gain a +4 item bonus to Acrobatics checks to Escape, Squeeze, and Tumble Through, and you increase your reach by 10 feet.\n\n**Drawback** You take a –1 penalty to Athletics checks, Stealth checks, Thievery checks, and attack rolls, and a –1 penalty per damage die to all weapon and unarmed attack damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "18653B54-42A7-5412-9F54-5F8055F9824F",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Bendy-Arm Mutagen (Moderate)",
+    "slug": "effect-bendy-arm-mutagen-moderate-treasure-vault-remastered",
+    "descr": "Granted by [Bendy Arm Mutagen (Moderate)](/item/bendy-arm-mutagen-moderate-treasure-vault-remastered)\n\n**Benefit** You gain a +2 item bonus to Acrobatics checks to Escape, Squeeze, and Tumble Through, and you increase your reach by 5 feet.\n\n**Drawback** You take a –1 penalty to Athletics checks, Stealth checks, Thievery checks, and attack rolls, and a –1 penalty per damage die to all weapon and unarmed attack damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 10,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "EC4C7C89-1CEC-5E8E-BD31-C41134BD7907",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Bewitching Bloom (Lotus)",
+    "slug": "effect-bewitching-bloom-lotus-treasure-vault-remastered",
+    "descr": "Grant by [Bewitching Bloom (Lotus)](/item/bewitching-bloom-lotus-treasure-vault-remastered)\n\nYou gain a +2 status bonus to Will saves against mental effects. This bonus increases to +3 against emotion effects.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "65272D2C-9BEE-530E-AC97-C2BD58B45BFF",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Bewitching Bloom (Magnolia)",
+    "slug": "effect-bewitching-bloom-magnolia-treasure-vault-remastered",
+    "descr": "Granted by [Bewitching Bloom (Magnolia)](/item/bewitching-bloom-magnolia-treasure-vault-remastered)\n\nYou gain a +1 status bonus to Diplomacy checks.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 10,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2E19F098-0CA0-50AE-B45E-2B065B76493D",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Blood Booster",
+    "slug": "effect-blood-booster-treasure-vault-remastered",
+    "descr": "Granted by [Blood Booster (Lesser)](/item/blood-booster-lesser-treasure-vault-remastered), [Blood Booster (Moderate)](/item/blood-booster-moderate-treasure-vault-remastered), [Blood Booster (Greater)](/item/blood-booster-greater-treasure-vault-remastered)\n\nYou receive resistance to persistent bleed and persistent poison damage, and you lower the DC for any flat checks to end persistent bleed or persistent poison damage as if you received particularly appropriate aid.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 10,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "197DCAF1-38C7-5F96-BA49-FCFA07AEE1A7",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Bloodhound Olfactory Stimulators",
+    "slug": "effect-bloodhound-olfactory-stimulators-treasure-vault-remastered",
+    "descr": "Granted by [Bloodhound Olfactory Stimulators](/item/bloodhound-olfactory-stimulators-treasure-vault-remastered)\n\nYou gain imprecise scent with a range of 30 feet.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "78844F8F-0FE2-504E-BDBE-88526A746FC3",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Book of Warding Prayers",
+    "slug": "effect-book-of-warding-prayers-treasure-vault-remastered",
+    "descr": "Granted by [Book Of Warding Prayers](/item/book-of-warding-prayers-treasure-vault-remastered)\n\nYou gain resistance 10 to spirit damage. If the spell cast had the holy or [unholy](/trait/unholy) trait, you can instead gain resistance to such effects.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "15D9FDA0-8E77-5D78-A8A1-9160E106F375",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Boozy Bottle",
+    "slug": "effect-boozy-bottle-treasure-vault-remastered",
+    "descr": "Granted by [Boozy Bottle](/item/boozy-bottle-treasure-vault-remastered)\n\nYou are off-guard and gain a +1 item bonus to saving throws against fear.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 10,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A7E7E376-8810-5196-9C25-E0DF46ECE1A3",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Bracers of Devotion",
+    "slug": "effect-bracers-of-devotion-treasure-vault-remastered",
+    "descr": "Granted by [Bracers Of Devotion](/item/bracers-of-devotion-treasure-vault-remastered)\n\nYou gain a benefit depending on your blessing of the devoted\n\n**Blessed Armamament** You gain a +2 item bonus against attempts to Disarm you of your blessed armament.**Blessed Shield** While raised, the shield grants you resistance 10 to unholy if you're holy, resistance 10 to holy if you're unholy, or resistance 5 to holy and unholy if you're neither.**Blessed Swiftness** Your bonus to Speed increases to +10 feet.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "25E1BC21-B274-5421-836F-1FE5683813AE",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Breastplate of the Mountain",
+    "slug": "effect-breastplate-of-the-mountain-treasure-vault-remastered",
+    "descr": "Granted by [Breastplate Of The Mountain](/item/breastplate-of-the-mountain-treasure-vault-remastered)\n\nYou gain immunity to poison for 1 minute.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F6BF71A0-8CDA-50E0-B218-88E153CA6ACA",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Cayden's Brew",
+    "slug": "effect-cayden-s-brew-treasure-vault-remastered",
+    "descr": "Granted by [Cayden'S Brew](/item/cayden-s-brew-treasure-vault-remastered), [Cayden'S Brew (Double)](/item/cayden-s-brew-double-treasure-vault-remastered), [Cayden'S Brew (Triple)](/item/cayden-s-brew-triple-treasure-vault-remastered)\n\nYou have a +1 item bonus to saving throws against fear effects.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4232D74C-3C0E-58DB-8DA1-EB600F2F88D9",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Chromatic Jellyfish Oil",
+    "slug": "effect-chromatic-jellyfish-oil-treasure-vault-remastered",
+    "descr": "Granted by [Chromatic Jellyfish Oil (Lesser)](/item/chromatic-jellyfish-oil-lesser-treasure-vault-remastered), [Chromatic Jellyfish Oil (Moderate)](/item/chromatic-jellyfish-oil-moderate-treasure-vault-remastered), [Chromatic Jellyfish Oil (Greater)](/item/chromatic-jellyfish-oil-greater-treasure-vault-remastered)\n\nYou gain resistance to precision damage and extra damage from critical hits.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 10,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0F871085-BFC4-54D8-9602-65B037A3CAE3",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Cinnamon Seers",
+    "slug": "effect-cinnamon-seers-treasure-vault-remastered",
+    "descr": "Granted by [Cinnamon Seers](/item/cinnamon-seers-treasure-vault-remastered)\n\nYou gain a +1 item bonus to checks to Recall Knowledge.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "365DFFC4-FCE3-5EC6-8B3C-B1F8BE77E4F0",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Clockwork Cloak",
+    "slug": "effect-clockwork-cloak-treasure-vault-remastered",
+    "descr": "Granted by [Clockwork Cloak](/item/clockwork-cloak-treasure-vault-remastered)\n\nYou take a -4 penalty to Perception checks while on standby mode. If you leave standby mode to initiate combat, you gain a +2 item bonus to your initiative roll.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "13248F1B-6852-52CC-9E55-82BC1FD83919",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Cloister Robe",
+    "slug": "effect-cloister-robe-treasure-vault-remastered",
+    "descr": "Granted by [Cloister Robe (Lesser)](/item/cloister-robe-lesser-treasure-vault-remastered), [Cloister Robe (Moderate)](/item/cloister-robe-moderate-treasure-vault-remastered), [Cloister Robe (Greater)](/item/cloister-robe-greater-treasure-vault-remastered), [Cloister Robe (Major)](/item/cloister-robe-major-treasure-vault-remastered)\n\nYou gain resistance to damage from divine spells.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "685A7C70-5EBC-5E1E-B058-14646C88B501",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Codex of Destruction and Renewal",
+    "slug": "effect-codex-of-destruction-and-renewal-treasure-vault-remastered",
+    "descr": "Granted by [Codex Of Destruction And Renewal](/item/codex-of-destruction-and-renewal-treasure-vault-remastered)\n\nYou gain regeneration 20.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 4,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4A83E2FC-16D1-5EC4-AA60-EDA7770AF2A2",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Crackling Bubble Gum",
+    "slug": "effect-crackling-bubble-gum-treasure-vault-remastered",
+    "descr": "Granted by [Crackling Bubble Gum (Lesser)](/item/crackling-bubble-gum-lesser-treasure-vault-remastered), [Crackling Bubble Gum (Moderate)](/item/crackling-bubble-gum-moderate-treasure-vault-remastered), [Crackling Bubble Gum (Greater)](/item/crackling-bubble-gum-greater-treasure-vault-remastered), [Crackling Bubble Gum (Major)](/item/crackling-bubble-gum-major-treasure-vault-remastered)\n\nYou have an item bonus to saving throws against auditory and sonic effects equal to the badge value.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 10,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "18086741-1C2A-5BEA-BD67-95F1D93948EB",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Crackling Bubble Gum (Failure)",
+    "slug": "effect-crackling-bubble-gum-failure-treasure-vault-remastered",
+    "descr": "Granted by [Crackling Bubble Gum (Lesser)](/item/crackling-bubble-gum-lesser-treasure-vault-remastered), [Crackling Bubble Gum (Moderate)](/item/crackling-bubble-gum-moderate-treasure-vault-remastered), [Crackling Bubble Gum (Greater)](/item/crackling-bubble-gum-greater-treasure-vault-remastered), [Crackling Bubble Gum (Major)](/item/crackling-bubble-gum-major-treasure-vault-remastered)\n\nThe creature takes a –10-foot item penalty to its Speed.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3FB249F1-EA38-5BF4-AC9C-30FE9A0E61EC",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Deadweight Mutagen (Greater)",
+    "slug": "effect-deadweight-mutagen-greater-treasure-vault-remastered",
+    "descr": "Granted by [Deadweight Mutagen (Greater)](/item/deadweight-mutagen-greater-treasure-vault-remastered)\n\n**Benefit** You gain a +3 item bonus to Athletics checks to [Shove](/action/shove-player-core) and [Trip](/action/trip-player-core), to your Fortitude and Reflex DCs against attempts to Shove or Trip you, and to saving throws against effects that attempt to force you to move or knock you [Prone](/condition/prone-player-core). You can attempt to Shove or Trip creatures up to two sizes larger than you.\n\n**Drawback** You gain the [Encumbered](/condition/encumbered-player-core) condition and can't remove it while under the effects of the mutagen.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C303E0C7-BB64-51C4-A92E-A51CAE7B51CB",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Deadweight Mutagen (Lesser)",
+    "slug": "effect-deadweight-mutagen-lesser-treasure-vault-remastered",
+    "descr": "Granted by [Deadweight Mutagen (Lesser)](/item/deadweight-mutagen-lesser-treasure-vault-remastered)\n\n**Benefit** You gain a +1 item bonus to Athletics checks to [Shove](/action/shove-player-core) and [Trip](/action/trip-player-core), to your Fortitude and Reflex DCs against attempts to Shove or Trip you, and to saving throws against effects that attempt to force you to move or knock you [Prone](/condition/prone-player-core).\n\n**Drawback** You gain the [Encumbered](/condition/encumbered-player-core) condition and can't remove it while under the effects of the mutagen.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "988C6A46-6CF6-51F2-A237-650B20A90AAE",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Deadweight Mutagen (Major)",
+    "slug": "effect-deadweight-mutagen-major-treasure-vault-remastered",
+    "descr": "Granted by [Deadweight Mutagen (Major)](/item/deadweight-mutagen-major-treasure-vault-remastered)\n\n**Benefit** You gain a +4 item bonus to Athletics checks to [Shove](/action/shove-player-core) and [Trip](/action/trip-player-core), to your Fortitude and Reflex DCs against attempts to Shove or Trip you, and to saving throws against effects that attempt to force you to move or knock you [Prone](/condition/prone-player-core). You can attempt to Shove or Trip creatures up to three sizes larger than you.\n\n**Drawback** You gain the [Encumbered](/condition/encumbered-player-core) condition and can't remove it while under the effects of the mutagen.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "41ED1F76-F7C7-5244-A19E-D709F8548833",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Deadweight Mutagen (Moderate)",
+    "slug": "effect-deadweight-mutagen-moderate-treasure-vault-remastered",
+    "descr": "Granted by [Deadweight Mutagen (Moderate)](/item/deadweight-mutagen-moderate-treasure-vault-remastered)\n\n**Benefit** You gain a +2 item bonus to Athletics checks to [Shove](/action/shove-player-core) and [Trip](/action/trip-player-core), to your Fortitude and Reflex DCs against attempts to Shove or Trip you, and to saving throws against effects that attempt to force you to move or knock you [Prone](/condition/prone-player-core).\n\n**Drawback** You gain the [Encumbered](/condition/encumbered-player-core) condition and can't remove it while under the effects of the mutagen.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 10,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0F98530B-9BC2-52A6-B71C-AF2E2E8691BF",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Delve Scale",
+    "slug": "effect-delve-scale-treasure-vault-remastered",
+    "descr": "Granted by [Delve Scale](/item/delve-scale-treasure-vault-remastered)\n\nYou gain a burrow Speed of 15 feet and a +2 item bonus to Athletics checks to [High Jump](/action/high-jump-player-core) or [Long Jump](/action/long-jump-player-core).",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8656DDB6-7D68-5C41-B183-EC359E610479",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Desolation Locket - Armor",
+    "slug": "effect-desolation-locket-armor-treasure-vault-remastered",
+    "descr": "Granted by [Desolation Locket](/item/desolation-locket-treasure-vault-remastered)\n\nYou gain an item bonus to saving throws against emotion effects.\n\nWhen you critically fail a saving throw against an emotion effect, you get a failure instead (*major*).",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "FFA425BA-FC49-5341-ADDE-A9E77943243F",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Desolation Locket - Weapon",
+    "slug": "effect-desolation-locket-weapon-treasure-vault-remastered",
+    "descr": "Granted by [Desolation Locket](/item/desolation-locket-treasure-vault-remastered), [Desolation Locket (Greater)](/item/desolation-locket-greater-treasure-vault-remastered), [Desolation Locket (Major)](/item/desolation-locket-major-treasure-vault-remastered)\n\nYou emanate a 5-foot aura.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8906C327-3530-5E17-9E40-26F69B9AD7D0",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Diplomat's Charcuterie",
+    "slug": "effect-diplomat-s-charcuterie-treasure-vault-remastered",
+    "descr": "Granted by [Diplomat'S Charcuterie](/item/diplomat-s-charcuterie-treasure-vault-remastered)\n\nYou gain a +1 item bonus to Diplomacy checks to Make an Impression and Perception checks to Sense Motive.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "BEF7FA21-063C-50A0-B57B-23A3CD7B69FD",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Discord Fulu",
+    "slug": "effect-discord-fulu-treasure-vault-remastered",
+    "descr": "Granted by [Discord Fulu](/item/discord-fulu-treasure-vault-remastered)\n\nYou take a –1 status penalty to Diplomacy checks. The first failure you roll on a Diplomacy check becomes a critical failure instead, and the effect ends.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4E90F1A5-42B9-5E6A-91DF-902083D51EF0",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Dragonfly Fulu",
+    "slug": "effect-dragonfly-fulu-treasure-vault-remastered",
+    "descr": "Granted by [Dragonfly Fulu](/item/dragonfly-fulu-treasure-vault-remastered)\n\nYou gain a +2 status bonus to Athletics checks to High Jump or Long Jump.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1D992894-62E3-5AA2-957A-988046014019",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Egg Cream Fizz",
+    "slug": "effect-egg-cream-fizz-treasure-vault-remastered",
+    "descr": "Granted by [Egg Cream Fizz](/item/egg-cream-fizz-treasure-vault-remastered)\n\nYou gain a +5-foot item bonus to your Speed. You also gain another effect determined by the drink's syrup:\n\n**Chocolate** You gain a +1 item bonus to Acrobatics checks to Balance, Maneuver in Flight, and Squeeze.**Strawberry** You gain a +1 item bonus to Athletics checks to Climb, Leap, and Swim.**Vanilla** You can Step into difficult terrain.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 10,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D9BC7D0D-418B-571D-910F-92CD232D4A29",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Elysian Dew",
+    "slug": "effect-elysian-dew-treasure-vault-remastered",
+    "descr": "Granted by [Elysian Dew](/item/elysian-dew-treasure-vault-remastered)\n\nYou gain 5 temporary Hit Points, a +1 item bonus to saving throws, and a +1 item bonus to Acrobatics and Athletics checks.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "86CE87FF-0D89-50C6-8209-929D6F9CD2E3",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Energizing Lattice",
+    "slug": "effect-energizing-lattice-treasure-vault-remastered",
+    "descr": "Granted by [Energizing Lattice](/item/energizing-lattice-treasure-vault-remastered)\n\nThe latticework glows for 1 minute, shedding bright light in a 20-foot radius (and dim light for the next 20 feet). You can Dismiss this light.\n\n**Activate** 2 envision (force)\n\n**Requirements** The *energizing lattice* is glowing because it negated an enemy's critical hit\n\n---\n\n**Effect** You release the lattice's energy and make a weapon or unarmed attack Strike that deals 6d6 additional force damage. If your Strike fails, but doesn't critically fail, the target still takes half the force damage. The latticework ceases glowing after the Strike.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "008CA537-8035-5168-AE51-7F315618037C",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Energy Adaptive",
+    "slug": "effect-energy-adaptive-treasure-vault-remastered",
+    "descr": "Granted by [Energy Adaptive](/item/energy-adaptive-treasure-vault-remastered)\n\nYou gain resistance 5 to acid, cold, electricity, or fire damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "979F4245-3012-51B8-B09F-058524769160",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Energy Mutagen (Greater)",
+    "slug": "effect-energy-mutagen-greater-treasure-vault-remastered",
+    "descr": "Granted by [Energy Mutagen (Greater)](/item/energy-mutagen-greater-treasure-vault-remastered)\n\n**Benefit** You gain resistance 15 to the attuned energy type. Whenever you score a hit with a melee weapon, add 1d6 damage of the attuned energy type.\n\n**Drawback** You gain weakness 5 to the other three energy types.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "17D23504-F8BC-54B9-A3EF-C4AB6DFA46D9",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Energy Mutagen (Lesser)",
+    "slug": "effect-energy-mutagen-lesser-treasure-vault-remastered",
+    "descr": "Granted by [Energy Mutagen (Lesser)](/item/energy-mutagen-lesser-treasure-vault-remastered)\n\n**Benefit** You gain resistance 5 to the attuned energy type. Whenever you score a hit with a melee weapon, add 1 damage of the attuned energy type.\n\n**Drawback** You gain weakness 5 to the other three energy types.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3449C245-B15A-580E-99D2-00B71268F2E1",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Energy Mutagen (Major)",
+    "slug": "effect-energy-mutagen-major-treasure-vault-remastered",
+    "descr": "Granted by [Energy Mutagen (Major)](/item/energy-mutagen-major-treasure-vault-remastered)\n\n**Benefit** You gain resistance 20 to the attuned energy type. Whenever you score a hit with a melee weapon, add 2d6 damage of the attuned energy type.\n\n**Drawback** You gain weakness 5 to the other three energy types.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D029825B-512E-5C19-AAAD-0129D991EDFE",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Energy Mutagen (Moderate)",
+    "slug": "effect-energy-mutagen-moderate-treasure-vault-remastered",
+    "descr": "Granted by [Energy Mutagen (Moderate)](/item/energy-mutagen-moderate-treasure-vault-remastered)\n\n**Benefit** You gain resistance 10 to the attuned energy type. Whenever you score a hit with a melee weapon, add 1d4 damage of the attuned energy type.\n\n**Drawback** You gain weakness 5 to the other three energy types.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 10,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9D06CACD-AF3E-56C5-8B6B-EA289382760F",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Escape Fulu",
+    "slug": "effect-escape-fulu-treasure-vault-remastered",
+    "descr": "Granted by [Escape Fulu](/item/escape-fulu-treasure-vault-remastered)\n\nYou gain a +2 status bonus to your attempts to Escape as well as to Stealth checks to Hide and Sneak.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "89EEDAA3-A5E3-5948-91BE-0F5F3E2B11E3",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Fury Cocktail (Greater)",
+    "slug": "effect-fury-cocktail-greater-treasure-vault-remastered",
+    "descr": "Granted by [Fury Cocktail (Greater)](/item/fury-cocktail-greater-treasure-vault-remastered)\n\n**Benefit** You gain a +4 item bonus to melee attack rolls and an additional effect depending on the additive chosen when the brew is created.\n\n**Animalistic** choice between a jaws attack that deals 1d6 piercing damage or a claw attack that has the [agile](/trait/agile) trait and deals 1d4 slashing damage.**Double** resistance 5 to physical damage**Mournful** resistance 10 to void or vitality depending on void healing**Skeptical** +3 item bonus to saves against magic**Titanic** size change to Large, Clumsy 1, and change of reach (+5 for Medium and Small, +10 for Tiny)**Wyrmhide** resistance 10 to acid, cold, electricity, fire, and poison.\n\n**Drawback** You take a –1 penalty to AC and a –2 penalty to Reflex saves.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3D7AFF65-3493-5A61-AE99-89E7363030FA",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Fury Cocktail (Lesser)",
+    "slug": "effect-fury-cocktail-lesser-treasure-vault-remastered",
+    "descr": "Granted by [Fury Cocktail (Lesser)](/item/fury-cocktail-lesser-treasure-vault-remastered)\n\n**Benefit** You gain a +2 item bonus to melee attack rolls and an additional effect depending on the additive chosen when the brew is created.\n\n**Animalistic** choice between a jaws attack that deals 1d6 piercing damage or a claw attack that has the [agile](/trait/agile) trait and deals 1d4 slashing damage.**Double** resistance 1 to physical damage**Mournful** resistance 1 to void or vitality depending on void healing**Skeptical** +1 item bonus to saves against magic**Titanic** size change to Large, Clumsy 1, and change of reach (+5 for Medium and Small, +10 for Tiny)**Wyrmhide** resistance 1 to acid, cold, electricity, fire, and poison.\n\n**Drawback** You take a –1 penalty to AC and a –2 penalty to Reflex saves.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 10,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9A28C2A3-41ED-5FA9-8A42-B87B42EF9B7A",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Fury Cocktail (Moderate)",
+    "slug": "effect-fury-cocktail-moderate-treasure-vault-remastered",
+    "descr": "Granted by [Fury Cocktail (Moderate)](/item/fury-cocktail-moderate-treasure-vault-remastered)\n\n**Benefit** You gain a +3 item bonus to melee attack rolls and an additional effect depending on the additive chosen when the brew is created.\n\n**Animalistic** choice between a jaws attack that deals 1d6 piercing damage or a claw attack that has the [agile](/trait/agile) trait and deals 1d4 slashing damage.**Double** resistance 2 to physical damage**Mournful** resistance 5 to void or vitality depending on void healing**Skeptical** +3 item bonus to saves against magic**Titanic** size change to Large, Clumsy 1, and change of reach (+5 for Medium and Small, +10 for Tiny)**Wyrmhide** resistance 5 to acid, cold, electricity, fire, and poison.\n\n**Drawback** You take a –1 penalty to AC and a –2 penalty to Reflex saves.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "13AA9FB3-E308-50A9-A5EE-6457D1C3148C",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Galvanic Chew",
+    "slug": "effect-galvanic-chew-treasure-vault-remastered",
+    "descr": "Granted by [Galvanic Chew](/item/galvanic-chew-treasure-vault-remastered)\n\nYou gain resistance 5 to electricity.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9659ED15-9DA2-5CB1-8740-C3907850214F",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Ghost Lantern",
+    "slug": "effect-ghost-lantern-treasure-vault-remastered",
+    "descr": "Granted by [Ghost Lantern](/item/ghost-lantern-treasure-vault-remastered)\n\nYou gain the effects of the *ghost touch* property rune on all your weapons and unarmed attacks.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 5,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D6577F0C-80C4-59BE-AFD0-F38D82B97BA8",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Ghostcaller's Planchette - Armor",
+    "slug": "effect-ghostcaller-s-planchette-armor-treasure-vault-remastered",
+    "descr": "Granted by [Ghostcaller'S Planchette](/item/ghostcaller-s-planchette-treasure-vault-remastered), [Ghostcaller'S Planchette (Greater)](/item/ghostcaller-s-planchette-greater-treasure-vault-remastered)\n\nYou gain resistance to all physical damage (except *ghost touch*). Attacks by incorporeal creatures (such as a ghost's ghostly hand) count as *ghost touch*.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "7C744224-F4DB-5AB2-8086-1D9A76F8D821",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Ghostcaller's Planchette - Weapon",
+    "slug": "effect-ghostcaller-s-planchette-weapon-treasure-vault-remastered",
+    "descr": "Granted by [Ghostcaller'S Planchette](/item/ghostcaller-s-planchette-treasure-vault-remastered), [Ghostcaller'S Planchette (Greater)](/item/ghostcaller-s-planchette-greater-treasure-vault-remastered)\n\nThe affixed weapon gains the effects of the *ghost touch* property rune and the *greater disrupting* property rune (*greater*).",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5079335A-459A-5E8F-9393-36081C3AB24D",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Ginger Chew",
+    "slug": "effect-ginger-chew-treasure-vault-remastered",
+    "descr": "Granted by [Ginger Chew](/item/ginger-chew-treasure-vault-remastered)\n\nYou gain a +1 item bonus to Fortitude saves against being sickened.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "04282E76-90BD-55B2-9927-90E469B135FC",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Golden Breath Fulu",
+    "slug": "effect-golden-breath-fulu-treasure-vault-remastered",
+    "descr": "Granted by [Golden Breath Fulu](/item/golden-breath-fulu-treasure-vault-remastered)\n\nYou gain particularly appropriate help for ending any persistent damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 0,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "69C97FD2-2E58-51E0-B952-C986316CC711",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Goz Mask (Major)",
+    "slug": "effect-goz-mask-major-treasure-vault-remastered",
+    "descr": "Granted by [Goz Mask (Major)](/item/goz-mask-major-treasure-vault-remastered)\n\nYou gain darkvision.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "6A2BB07A-D996-56FA-A17B-168D9E2E7288",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Great Bear",
+    "slug": "effect-great-bear-treasure-vault-remastered",
+    "descr": "Granted by [Great Bear](/feat/great-bear-treasure-vault-remastered)\n\nYou gain the effects of an *[enlarge](/spell/enlarge-player-core)* spell.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 5,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "71637ED6-4506-5EC4-A981-050609AB9743",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Grudgestone",
+    "slug": "effect-grudgestone-treasure-vault-remastered",
+    "descr": "Granted by [Grudgestone](/item/grudgestone-treasure-vault-remastered), [Grudgestone (Greater)](/item/grudgestone-greater-treasure-vault-remastered)\n\nYour Strikes with the affixed weapon against the triggering creature gain a status bonus to damage rolls.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0BE430D7-18AA-5172-AF0E-F3D947236D8D",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Guardian Staff",
+    "slug": "effect-guardian-staff-treasure-vault-remastered",
+    "descr": "Granted by [Guardian Staff](/item/guardian-staff-treasure-vault-remastered), [Guardian Staff (Greater)](/item/guardian-staff-greater-treasure-vault-remastered), [Guardian Staff (Major)](/item/guardian-staff-major-treasure-vault-remastered)\n\nA ruby-colored plane of force appears like a shield near the ally, granting them a +1 circumstance bonus to AC until the start of your next turn.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E9D3F1B1-4DAC-5086-990A-CD361694CAB3",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Hexing Jar",
+    "slug": "effect-hexing-jar-treasure-vault-remastered",
+    "descr": "Granted by [Hexing Jar](/item/hexing-jar-treasure-vault-remastered)\n\nYou and your familiar gain a +1 status bonus to AC and saving throws and a +2 status bonus against mental effects.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B95F707B-ABCC-533D-B174-49F573BBAD60",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Illuminated Folio",
+    "slug": "effect-illuminated-folio-treasure-vault-remastered",
+    "descr": "Granted by [Illuminated Folio](/item/illuminated-folio-treasure-vault-remastered)\n\nThese summoned creatures appear as living illustrations, granting them resistance to physical damage equal to half their level and weakness 5 to fire and to any ability with the [water](/trait/water) trait.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D08EB638-00E8-52AD-AFAF-8A4CE5FAE794",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Immortal Bastion",
+    "slug": "effect-immortal-bastion-treasure-vault-remastered",
+    "descr": "Granted by [Immortal Bastion](/item/immortal-bastion-treasure-vault-remastered)\n\nYou gain 100 temporary hit points.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "95020E45-4CC9-5018-AD50-28B0105B418E",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Imp Shot",
+    "slug": "effect-imp-shot-treasure-vault-remastered",
+    "descr": "Granted by [Imp Shot](/item/imp-shot-treasure-vault-remastered)\n\nYou are off-guard and take a –2 circumstance penalty to attack rolls and skill checks.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "AB20955E-21CB-5C97-95A3-848CFC0F8E27",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Insight Coffee",
+    "slug": "effect-insight-coffee-treasure-vault-remastered",
+    "descr": "Granted by [Insight Coffee (Lesser)](/item/insight-coffee-lesser-treasure-vault-remastered), [Insight Coffee (Moderate)](/item/insight-coffee-moderate-treasure-vault-remastered), [Insight Coffee (Greater)](/item/insight-coffee-greater-treasure-vault-remastered)\n\nYou use d8s instead of d6s for your extra damage from the [Strategic Strike](/feat/strategic-strike-player-core-2) class feature, if you have it. You also gain an item bonus to checks to Recall Knowledge with a skill determined by the blend chosen when the item is crafted.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "017E0C44-6EE3-556D-A799-0033DAFA291E",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Instinct Crown",
+    "slug": "effect-instinct-crown-treasure-vault-remastered",
+    "descr": "Granted by [Instinct Crown (Animal)](/item/instinct-crown-animal-treasure-vault-remastered), [Instinct Crown (Dragon)](/item/instinct-crown-dragon-treasure-vault-remastered), [Instinct Crown (Giant)](/item/instinct-crown-giant-treasure-vault-remastered), [Instinct Crown (Spirit)](/item/instinct-crown-spirit-treasure-vault-remastered), [Instinct Crown (Superstition)](/item/instinct-crown-superstition-treasure-vault-remastered)\n\nYou gain a benefit depending on the instinct the crown is tied to\n\n**Animal** You gain 10 additional temporary Hit Points. You deal 3 additional damage with your animal's unarmed attacks, and those unarmed attacks gain the [deadly d8](/trait/deadly) trait.**Fury** You become Quickened. You can use the extra action only to Stride or Strike.**Giant** You become Large and your equipment grows with you. Increase your reach by 5 feet (or by 10 feet if you were Tiny). You deal 2 additional damage when using your larger weapon.**Spirit** Your raging resistance applies to all physical damage and poison damage. This resistance is halved against magical attacks.**Superstition** When you attempt a saving throw against magic, roll twice and take the higher result. Also, your raging resistance applies to all magic traditions.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E51252CC-D2EB-5330-9A32-6F2CCD90441C",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Jolt Coil - Armor",
+    "slug": "effect-jolt-coil-armor-treasure-vault-remastered",
+    "descr": "Granted by [Jolt Coil](/item/jolt-coil-treasure-vault-remastered), [Jolt Coil (Greater)](/item/jolt-coil-greater-treasure-vault-remastered), [Jolt Coil (Major)](/item/jolt-coil-major-treasure-vault-remastered)\n\nYou gain resistance to electricity.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0945ED94-63BC-5275-91F1-3AA623BE121D",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Jolt Coil - Weapon",
+    "slug": "effect-jolt-coil-weapon-treasure-vault-remastered",
+    "descr": "Granted by [Jolt Coil](/item/jolt-coil-treasure-vault-remastered), [Jolt Coil (Greater)](/item/jolt-coil-greater-treasure-vault-remastered), [Jolt Coil (Major)](/item/jolt-coil-major-treasure-vault-remastered)\n\nStrikes with the weapon deal additional electricity damage until the end of your next turn.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E264755C-1220-5238-9D7E-921B6A4A6C79",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Journeybread (Power)",
+    "slug": "effect-journeybread-power-treasure-vault-remastered",
+    "descr": "Granted by [Journeybread (Power)](/item/journeybread-power-treasure-vault-remastered)\n\nYou gain a +1 item bonus to Athletics checks to Climb, Force Open, and Swim, and to Fortitude saving throws against being sickened.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 4,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "AFCC4420-A7DB-5B12-AA0C-B4E59EA14A2E",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Jyoti's Feather - Armor",
+    "slug": "effect-jyoti-s-feather-armor-treasure-vault-remastered",
+    "descr": "Granted by [Jyoti'S Feather](/item/jyoti-s-feather-treasure-vault-remastered), [Jyoti'S Feather (Greater)](/item/jyoti-s-feather-greater-treasure-vault-remastered), [Jyoti'S Feather (Major)](/item/jyoti-s-feather-major-treasure-vault-remastered)\n\nYou gain an item bonus to saving throws against death effects and void effects.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A1E2F2C1-2D22-5132-AF4E-F2957CE24FD2",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Jyoti's Feather - Weapon",
+    "slug": "effect-jyoti-s-feather-weapon-treasure-vault-remastered",
+    "descr": "Granted by [Jyoti'S Feather](/item/jyoti-s-feather-treasure-vault-remastered), [Jyoti'S Feather (Greater)](/item/jyoti-s-feather-greater-treasure-vault-remastered), [Jyoti'S Feather (Major)](/item/jyoti-s-feather-major-treasure-vault-remastered)\n\nThe weapon has the *[vitalizing](/item/vitalizing-gm-core) rune* or *greater vitalizing rune* (*major*).",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C9D5B206-E46D-5103-BF9A-C474D3E32E82",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Life Shot",
+    "slug": "effect-life-shot-treasure-vault-remastered",
+    "descr": "Granted by [Life Shot (Minor)](/item/life-shot-minor-treasure-vault-remastered), [Life Shot (Lesser)](/item/life-shot-lesser-treasure-vault-remastered), [Life Shot (Moderate)](/item/life-shot-moderate-treasure-vault-remastered), [Life Shot (Greater)](/item/life-shot-greater-treasure-vault-remastered), [Life Shot (Major)](/item/life-shot-major-treasure-vault-remastered), [Life Shot (True)](/item/life-shot-true-treasure-vault-remastered)\n\nYou gain an item bonus to saving throws against diseases and poisons.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "910C868B-A5A4-597D-BF12-100527EC682F",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Life-Boosting Oil",
+    "slug": "effect-life-boosting-oil-treasure-vault-remastered",
+    "descr": "Granted by [Life Boosting Oil (Lesser)](/item/life-boosting-oil-lesser-treasure-vault-remastered), [Life Boosting Oil (Moderate)](/item/life-boosting-oil-moderate-treasure-vault-remastered), [Life Boosting Oil (Greater)](/item/life-boosting-oil-greater-treasure-vault-remastered), [Life Boosting Oil (Major)](/item/life-boosting-oil-major-treasure-vault-remastered)\n\nYou gain fast healing.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 4,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "04776540-F0B2-5783-976E-728A8AAC3D99",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Lightweave Scarf (Armor)",
+    "slug": "effect-lightweave-scarf-armor-treasure-vault-remastered",
+    "descr": "Granted by [Lightweave Scarf](/item/lightweave-scarf-treasure-vault-remastered), [Lightweave Scarf (Greater)](/item/lightweave-scarf-greater-treasure-vault-remastered), [Lightweave Scarf (Major)](/item/lightweave-scarf-major-treasure-vault-remastered)\n\nYou gain an item bonus to saving throws against illusions and Deception checks to Create a Diversion.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E128A262-8121-55AA-8904-BFA668C8DD9C",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Merciful Balm",
+    "slug": "effect-merciful-balm-treasure-vault-remastered",
+    "descr": "Granted by [Merciful Balm](/item/merciful-balm-treasure-vault-remastered)\n\nThe weapon is granted the [nonlethal](/trait/nonlethal) trait for 1 hour.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3CC9EC81-AAF0-547E-9C5F-0BA34FA982D7",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Mind's Light Circlet",
+    "slug": "effect-mind-s-light-circlet-treasure-vault-remastered",
+    "descr": "Granted by [Mind'S Light Circlet](/item/mind-s-light-circlet-treasure-vault-remastered)\n\nYou shed bright light in a 20-foot radius and dim light in a 40-foot radius.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E076F635-C26C-5280-BC18-37C6B0B23028",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Mortalis Coin",
+    "slug": "effect-mortalis-coin-treasure-vault-remastered",
+    "descr": "Granted by [Mortalis Coin](/item/mortalis-coin-treasure-vault-remastered)\n\nYou die from the [dying](/condition/dying-player-core) condition at dying 5, rather than dying 4.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 10,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "FF0A31C3-13CF-546A-A06D-3163711434A3",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Numbing Tonic",
+    "slug": "effect-numbing-tonic-treasure-vault-remastered",
+    "descr": "Granted by [Numbing Tonic (Minor)](/item/numbing-tonic-minor-treasure-vault-remastered), [Numbing Tonic (Lesser)](/item/numbing-tonic-lesser-treasure-vault-remastered), [Numbing Tonic (Moderate)](/item/numbing-tonic-moderate-treasure-vault-remastered), [Numbing Tonic (Greater)](/item/numbing-tonic-greater-treasure-vault-remastered), [Numbing Tonic (Major)](/item/numbing-tonic-major-treasure-vault-remastered), [Numbing Tonic (True)](/item/numbing-tonic-true-treasure-vault-remastered)\n\nYou gain temporary Hit Points when you drink the elixir, and again at the start of each of your turns.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B2DE0D56-07D5-54BD-BB6E-B9941F570219",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Ooze Ammunition",
+    "slug": "effect-ooze-ammunition-treasure-vault-remastered",
+    "descr": "Granted by [Ooze Ammunition (Lesser)](/item/ooze-ammunition-lesser-treasure-vault-remastered), [Ooze Ammunition (Moderate)](/item/ooze-ammunition-moderate-treasure-vault-remastered), [Ooze Ammunition (Greater)](/item/ooze-ammunition-greater-treasure-vault-remastered), [Ooze Ammunition (Major)](/item/ooze-ammunition-major-treasure-vault-remastered)\n\nYou take a penalty to Speed and persistent acid damage until you end the effects.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B3305BE7-8A9E-5B64-AB50-C0034CB3771F",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Ouroboros Buckles",
+    "slug": "effect-ouroboros-buckles-treasure-vault-remastered",
+    "descr": "Granted by [Ouroboros Buckles](/item/ouroboros-buckles-treasure-vault-remastered)\n\nYou gain regeneration 15; fire damage deactivates this regeneration.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "111104E2-78A8-58AE-8770-74D410365E19",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Ouroboros Buckles (Swarm of Snakes)",
+    "slug": "effect-ouroboros-buckles-swarm-of-snakes-treasure-vault-remastered",
+    "descr": "Granted by [Ouroboros Buckles](/item/ouroboros-buckles-treasure-vault-remastered)\n\nYou gain low-light vision, imprecise scent (30 feet), a Speed of 20 feet, a climb Speed of 20 feet, and a swim Speed of 20 feet. You have an AC of 16 + your level and ignore your armor's check penalty and Speed reduction. Also, you gain resistance 5 to physical damage and weakness 5 to area damage and splash damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "11E6A21B-3C6E-5787-AA71-E9FA167EE056",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Phantasmal Doorknob - Armor",
+    "slug": "effect-phantasmal-doorknob-armor-treasure-vault-remastered",
+    "descr": "Granted by [Phantasmal Doorknob](/item/phantasmal-doorknob-treasure-vault-remastered)\n\nYou gain a +1 item bonus to Thievery checks to Pick a Lock.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F241C97F-D046-55F0-9944-E9693944EDEF",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Phantasmal Doorknob - Weapon",
+    "slug": "effect-phantasmal-doorknob-weapon-treasure-vault-remastered",
+    "descr": "Granted by [Phantasmal Doorknob](/item/phantasmal-doorknob-treasure-vault-remastered)\n\nIf you critically succeed at a Strike with the weapon, the target is dazzled until the end of its next turn.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "705F9381-ADF4-5602-90DB-D2CCA84E8022",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Poison Fizz",
+    "slug": "effect-poison-fizz-treasure-vault-remastered",
+    "descr": "Granted by [Poison Fizz (Lesser)](/item/poison-fizz-lesser-treasure-vault-remastered), [Poison Fizz (Moderate)](/item/poison-fizz-moderate-treasure-vault-remastered), [Poison Fizz (Greater)](/item/poison-fizz-greater-treasure-vault-remastered)\n\nYou gain an item bonus to saving throws against poison and being petrified.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9CDB0990-0D09-5B59-AA77-C6C7D41928F5",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Pucker Pickle",
+    "slug": "effect-pucker-pickle-treasure-vault-remastered",
+    "descr": "Granted by [Pucker Pickle](/item/pucker-pickle-treasure-vault-remastered)\n\nYou take a –2 circumstance penalty to further attacks against the target that allow you to taste it, including attacks like Grappling or Tripping it using your jaws or Swallowing it Whole.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9F555517-0B51-5017-84B6-F3723D6EFBD3",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Resonating Fork - Armor",
+    "slug": "effect-resonating-fork-armor-treasure-vault-remastered",
+    "descr": "Granted by [Resonating Fork](/item/resonating-fork-treasure-vault-remastered), [Resonating Fork (Greater)](/item/resonating-fork-greater-treasure-vault-remastered), [Resonating Fork (Major)](/item/resonating-fork-major-treasure-vault-remastered)\n\nYou gain resistance to sonic damage and an item bonus to saving throws against effects with the auditory or [sonic](/trait/sonic) trait.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1D00315F-5E7F-5F36-A443-C6266E06DC35",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Rime Crystal - Armor",
+    "slug": "effect-rime-crystal-armor-treasure-vault-remastered",
+    "descr": "Granted by [Rime Crystal](/item/rime-crystal-treasure-vault-remastered), [Rime Crystal (Greater)](/item/rime-crystal-greater-treasure-vault-remastered), [Rime Crystal (Major)](/item/rime-crystal-major-treasure-vault-remastered)\n\nYou gain resistance to cold.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C29E2BB7-DB0F-565A-B2DF-3B899F1D8425",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Rime Crystal - Weapon",
+    "slug": "effect-rime-crystal-weapon-treasure-vault-remastered",
+    "descr": "Granted by [Rime Crystal](/item/rime-crystal-treasure-vault-remastered), [Rime Crystal (Greater)](/item/rime-crystal-greater-treasure-vault-remastered), [Rime Crystal (Major)](/item/rime-crystal-major-treasure-vault-remastered)\n\nYour Strikes with the weapon deal additional cold damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "12DA0E89-A22F-5098-A08B-9635CB0E4719",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Rovagug's Mud",
+    "slug": "effect-rovagug-s-mud-treasure-vault-remastered",
+    "descr": "Granted by [Rovagug'S Mud](/item/rovagug-s-mud-treasure-vault-remastered), [Rovagug'S Mud (Greater)](/item/rovagug-s-mud-greater-treasure-vault-remastered)\n\nYou have a +2 item bonus to saving throws against incapacitation effects.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2D104BFD-575F-5C14-BD6A-913D38F7F449",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Sanguine Fang - Armor",
+    "slug": "effect-sanguine-fang-armor-treasure-vault-remastered",
+    "descr": "Granted by [Sanguine Fang](/item/sanguine-fang-treasure-vault-remastered), [Sanguine Fang (Greater)](/item/sanguine-fang-greater-treasure-vault-remastered), [Sanguine Fang (Major)](/item/sanguine-fang-major-treasure-vault-remastered)\n\nYou gain resistance to persistent bleed damage and an item bonus on saving throws against effects with the [void](/trait/void) trait.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "7B59DB3F-B808-5CC5-8F1F-800340C67356",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Sanguine Fang - Weapon",
+    "slug": "effect-sanguine-fang-weapon-treasure-vault-remastered",
+    "descr": "Granted by [Sanguine Fang](/item/sanguine-fang-treasure-vault-remastered), [Sanguine Fang (Greater)](/item/sanguine-fang-greater-treasure-vault-remastered), [Sanguine Fang (Major)](/item/sanguine-fang-major-treasure-vault-remastered)\n\nAfter you cast a necromancy spell by activating the *fang*, your Strikes with the weapon deal persistent bleed damage until the end of your next turn.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "6699EFAF-7669-5470-850B-6AD8A453E0CF",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Sanguine Mutagen (Greater)",
+    "slug": "effect-sanguine-mutagen-greater-treasure-vault-remastered",
+    "descr": "Granted by [Sanguine Mutagen (Greater)](/item/sanguine-mutagen-greater-treasure-vault-remastered)\n\n**Benefit** You gain a +3 item bonus to Fortitude and Reflex saves. This bonus improves to +4 when you attempt a save against an effect that has the [disease](/trait/disease) trait, [poison](/trait/poison) trait, or would give you the [Fatigued](/condition/fatigued-player-core) condition.\n\nWhen you roll a success on a save against a disease, poison, or effect that would give you the Fatigued condition, you get a critical success instead.\n\n**Drawback** Whenever you take piercing or slashing damage, you take 1d6 bleed.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "34EEE2B7-D9A6-5C2F-8DAA-38C0765FAF57",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Sanguine Mutagen (Lesser)",
+    "slug": "effect-sanguine-mutagen-lesser-treasure-vault-remastered",
+    "descr": "Granted by [Sanguine Mutagen (Lesser)](/item/sanguine-mutagen-lesser-treasure-vault-remastered)\n\n**Benefit** You gain a +1 item bonus to Fortitude and Reflex saves. This bonus improves to +2 when you attempt a save against an effect that has the [disease](/trait/disease) trait, [poison](/trait/poison) trait, or would give you the [Fatigued](/condition/fatigued-player-core) condition.\n\n**Drawback** Whenever you take piercing or slashing damage, you take 1d6 bleed.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "FABB5154-BF2F-520F-BE4E-18E7904B4779",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Sanguine Mutagen (Major)",
+    "slug": "effect-sanguine-mutagen-major-treasure-vault-remastered",
+    "descr": "Granted by [Sanguine Mutagen (Major)](/item/sanguine-mutagen-major-treasure-vault-remastered)\n\n**Benefit** You gain a +4 item bonus to Fortitude and Reflex saves. When you roll a success on a save against a disease, poison, or effect that would give you the [Fatigued](/condition/fatigued-player-core) condition, you get a critical success instead and your critical failures on such saves become failures instead.\n\n**Drawback** Whenever you take piercing or slashing damage, you take 1d6 bleed.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "6A3C6413-28EA-5581-B4D9-6848E50EC2CC",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Sanguine Mutagen (Moderate)",
+    "slug": "effect-sanguine-mutagen-moderate-treasure-vault-remastered",
+    "descr": "Granted by [Sanguine Mutagen (Moderate)](/item/sanguine-mutagen-moderate-treasure-vault-remastered)\n\n**Benefit** You gain a +2 item bonus to Fortitude and Reflex saves. This bonus improves to +3 when you attempt a save against an effect that has the [disease](/trait/disease) trait, [poison](/trait/poison) trait, or would give you the [Fatigued](/condition/fatigued-player-core) condition.\n\n**Drawback** Whenever you take piercing or slashing damage, you take 1d6 bleed.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 10,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E0ABEFCD-E555-5B67-BE92-372B5F5961BF",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Saurian Spike - Armor",
+    "slug": "effect-saurian-spike-armor-treasure-vault-remastered",
+    "descr": "Granted by [Saurian Spike](/item/saurian-spike-treasure-vault-remastered), [Saurian Spike (Greater)](/item/saurian-spike-greater-treasure-vault-remastered), [Saurian Spike (Major)](/item/saurian-spike-major-treasure-vault-remastered)\n\nYou gain an imprecise scent, or precise scent (*major*).",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "07FEA203-D63C-5350-802A-16CB5F70D1B9",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Sense-Dulling Hood (Greater)",
+    "slug": "effect-sense-dulling-hood-greater-treasure-vault-remastered",
+    "descr": "Granted by [Sense Dulling Hood (Greater)](/item/sense-dulling-hood-greater-treasure-vault-remastered)\n\nThe mask grants you a +4 item bonus to saving throws against auditory, olfactory, and visual effects. The mask also imposes a –1 penalty to rolls and checks using Perception.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "686BAB07-31CF-52FB-AF87-6FF8EBD2886A",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Sense-Dulling Hood (Lesser)",
+    "slug": "effect-sense-dulling-hood-lesser-treasure-vault-remastered",
+    "descr": "Granted by [Sense Dulling Hood (Lesser)](/item/sense-dulling-hood-lesser-treasure-vault-remastered)\n\nThe mask grants you a +2 item bonus to saving throws against auditory, olfactory, and visual effects. The mask also imposes a –1 penalty to rolls and checks using Perception.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 10,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "02BED1DF-5B18-5153-AE0C-51DF34D96436",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Seventh Prism (Pentagonal)",
+    "slug": "effect-seventh-prism-pentagonal-treasure-vault-remastered",
+    "descr": "Granted by [Seventh Prism (Pentagonal)](/item/seventh-prism-pentagonal-treasure-vault-remastered)\n\nThe area of [Dizzying Colors](/spell/dizzying-colors-player-core) increases to a 20-foot cone.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 0,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "752CC85F-B20C-5960-8E7C-E1EE572C0C52",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Silver Crescent",
+    "slug": "effect-silver-crescent-treasure-vault-remastered",
+    "descr": "Granted by [Silver Crescent (Lesser)](/item/silver-crescent-lesser-treasure-vault-remastered), [Silver Crescent (Moderate)](/item/silver-crescent-moderate-treasure-vault-remastered), [Silver Crescent (Greater)](/item/silver-crescent-greater-treasure-vault-remastered)\n\nYou shed cool, white light like a torch, and gain an item bonus to saving throws against olfactory effects.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "309FB100-0D5D-56DC-9037-BB58839EBF10",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Soaring Wings",
+    "slug": "effect-soaring-wings-treasure-vault-remastered",
+    "descr": "Granted by [Soaring Wings](/item/soaring-wings-treasure-vault-remastered), [Soaring Wings (Greater)](/item/soaring-wings-greater-treasure-vault-remastered)\n\nYou gain a fly Speed equal to either your land Speed or 20 feet, whichever is greater.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 10,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "50CED643-16E8-57DF-97BB-A56D97CC6941",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Soothing Toddy",
+    "slug": "effect-soothing-toddy-treasure-vault-remastered",
+    "descr": "Granted by [Soothing Toddy](/item/soothing-toddy-treasure-vault-remastered)\n\nYou gain a +1 item bonus to saving throws against emotion effects and against effects with a trait determined by the liquor mixed into the tea when it's created. Amaretto for Auditory, Limoncello for Olfactory, or Whiskey for Visual.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "77AE114A-A918-5D71-A55C-847432376B88",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Soothing Tonic",
+    "slug": "effect-soothing-tonic-treasure-vault-remastered",
+    "descr": "Granted by [Soothing Tonic (Lesser)](/item/soothing-tonic-lesser-treasure-vault-remastered), [Soothing Tonic (Moderate)](/item/soothing-tonic-moderate-treasure-vault-remastered), [Soothing Tonic (Greater)](/item/soothing-tonic-greater-treasure-vault-remastered), [Soothing Tonic (Major)](/item/soothing-tonic-major-treasure-vault-remastered)\n\nYou gain fast healing.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "63465801-78BC-5B41-B0E1-04B31272654B",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Sparkler",
+    "slug": "effect-sparkler-treasure-vault-remastered",
+    "descr": "Granted by [Sparkler](/item/sparkler-treasure-vault-remastered)\n\nThe sparkler emits bright light in a 10-foot radius (and dim light for the next 10 feet). While the sparkler burns, you can use it as an improvised weapon, dealing 1 fire damage on a hit. On a critical hit, you cause the target to become dazzled for 1 round.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "AE122B17-E891-52A5-AAA4-0449BBF75468",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Spiderfoot Brew (Greater)",
+    "slug": "effect-spiderfoot-brew-greater-treasure-vault-remastered",
+    "descr": "Granted by [Spiderfoot Brew (Greater)](/item/spiderfoot-brew-greater-treasure-vault-remastered)\n\nYou gain a climb Speed of 25 feet and a +3 item bonus to athletics checks made to Climb.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E9A2AC59-A48F-52E7-9BB0-8081ABB9DC87",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Spiderfoot Brew (Lesser)",
+    "slug": "effect-spiderfoot-brew-lesser-treasure-vault-remastered",
+    "descr": "Granted by [Spiderfoot Brew (Lesser)](/item/spiderfoot-brew-lesser-treasure-vault-remastered)\n\nYou gain a climb Speed of 15 feet and a +1 item bonus to athletics checks made to Climb.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "20B6DA01-1A75-5F42-9AC8-DE86BA4DEE04",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Spiderfoot Brew (Moderate)",
+    "slug": "effect-spiderfoot-brew-moderate-treasure-vault-remastered",
+    "descr": "Granted by [Spiderfoot Brew (Moderate)](/item/spiderfoot-brew-moderate-treasure-vault-remastered)\n\nYou gain a climb Speed of 20 feet and a +2 item bonus to athletics checks made to Climb.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 10,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "18E5D125-4F42-503A-B2D5-A57E87DDFFC3",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Standard of the Primeval Howl",
+    "slug": "effect-standard-of-the-primeval-howl-treasure-vault-remastered",
+    "descr": "Granted by [Standard Of The Primeval Howl](/item/standard-of-the-primeval-howl-treasure-vault-remastered)\n\nCreatures in a 20-foot emanation gain a +1 item bonus to initiative checks.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B524A781-0847-577F-A210-E77C617FD623",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Starsong Nectar",
+    "slug": "effect-starsong-nectar-treasure-vault-remastered",
+    "descr": "Granted by [Starsong Nectar](/item/starsong-nectar-treasure-vault-remastered)\n\nYou gain a +3 status bonus to attack rolls, initiative rolls, Perception checks, saving throws, and skill checks, and you aren't off-guard against [undetected](/condition/undetected-player-core) creatures or when flanked.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 10,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "BC6249F7-05A0-5D57-B316-DF049CA647BD",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Stone Body Mutagen (Greater)",
+    "slug": "effect-stone-body-mutagen-greater-treasure-vault-remastered",
+    "descr": "Granted by [Stone Body Mutagen (Greater)](/item/stone-body-mutagen-greater-treasure-vault-remastered)\n\n**Benefit** You gain resistance 10 to physical damage (except bludgeoning).\n\n**Drawback** Your speeds are reduced by 10 feet (minimum 5 feet) and you take a -2 penalty to Reflex saves.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A2B8AE41-FE25-5EF7-B99B-9D57F8D07F70",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Stone Body Mutagen (Lesser)",
+    "slug": "effect-stone-body-mutagen-lesser-treasure-vault-remastered",
+    "descr": "Granted by [Stone Body Mutagen (Lesser)](/item/stone-body-mutagen-lesser-treasure-vault-remastered)\n\n**Benefit** You gain resistance 5 to physical damage (except bludgeoning).\n\n**Drawback** Your speeds are reduced by 10 feet (minimum 5 feet) and you take a -2 penalty to Reflex saves.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 10,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "DDE8329B-410A-5ADD-A2D1-0003D4F50DCB",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Stone Body Mutagen (Moderate)",
+    "slug": "effect-stone-body-mutagen-moderate-treasure-vault-remastered",
+    "descr": "Granted by [Stone Body Mutagen (Moderate)](/item/stone-body-mutagen-moderate-treasure-vault-remastered)\n\n**Benefit** You gain resistance 5 to physical damage (except bludgeoning).\n\n**Drawback** Your speeds are reduced by 10 feet (minimum 5 feet) and you take a -2 penalty to Reflex saves.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4EBC6ED6-1BFF-5784-B005-92459CC4182B",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Tactician's Helm (Move It!)",
+    "slug": "effect-tactician-s-helm-move-it-treasure-vault-remastered",
+    "descr": "Granted by [Tactician'S Helm](/item/tactician-s-helm-treasure-vault-remastered)\n\nYou gain a +2 status bonus to Acrobatics and Athletics checks.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "48756853-DF59-5E11-8C0F-BA4098DC5FF1",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Theatrical Mutagen (Greater)",
+    "slug": "effect-theatrical-mutagen-greater-treasure-vault-remastered",
+    "descr": "Granted by [Theatrical Mutagen (Greater)](/item/theatrical-mutagen-greater-treasure-vault-remastered)\n\n**Benefit** You gain a +3 item bonus to Acrobatics checks, Crafting checks, and Performance checks. If you're untrained in any of these skills, your proficiency bonus is equal to your level instead of +0. You also gain a +10 feet status bonus to your Speed.\n\n**Drawback** You take a –1 penalty to Perception checks and Will saves. After any round where you don't spend at least 1 action to Interact with an object, Perform, Step, or Stride, you're [Off Guard](/condition/off-guard-player-core) until the start of your next turn.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 10,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B81F6550-8AF5-5A32-8502-521C75C7C77E",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Theatrical Mutagen (Lesser)",
+    "slug": "effect-theatrical-mutagen-lesser-treasure-vault-remastered",
+    "descr": "Granted by [Theatrical Mutagen (Lesser)](/item/theatrical-mutagen-lesser-treasure-vault-remastered)\n\n**Benefit** You gain a +1 item bonus to Acrobatics checks, Crafting checks, and Performance checks. If you're untrained in any of these skills, your proficiency bonus is equal to your level instead of +0. You also gain a +5 feet status bonus to your Speed.\n\n**Drawback** You take a –1 penalty to Perception checks and Will saves. After any round where you don't spend at least 1 action to Interact with an object, Perform, Step, or Stride, you're [Off Guard](/condition/off-guard-player-core) until the start of your next turn.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C7F1AAA9-18AB-527B-9708-A66230FC0ABD",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Theatrical Mutagen (Major)",
+    "slug": "effect-theatrical-mutagen-major-treasure-vault-remastered",
+    "descr": "Granted by [Theatrical Mutagen (Major)](/item/theatrical-mutagen-major-treasure-vault-remastered)\n\n**Benefit** You gain a +4 item bonus to Acrobatics checks, Crafting checks, and Performance checks. If you're untrained in any of these skills, your proficiency bonus is equal to your level instead of +0. You also gain a +10 feet status bonus to your Speed.\n\n**Drawback** You take a –1 penalty to Perception checks and Will saves. After any round where you don't spend at least 1 action to Interact with an object, Perform, Step, or Stride, you're [Off Guard](/condition/off-guard-player-core) until the start of your next turn.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9BA809FF-949F-54A4-B7BF-5937065FED8C",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Theatrical Mutagen (Moderate)",
+    "slug": "effect-theatrical-mutagen-moderate-treasure-vault-remastered",
+    "descr": "Granted by [Theatrical Mutagen (Moderate)](/item/theatrical-mutagen-moderate-treasure-vault-remastered)\n\n**Benefit** You gain a +2 item bonus to Acrobatics checks, Crafting checks, and Performance checks. If you're untrained in any of these skills, your proficiency bonus is equal to your level instead of +0. You also gain a +5 feet status bonus to your Speed.\n\n**Drawback** You take a –1 penalty to Perception checks and Will saves. After any round where you don't spend at least 1 action to Interact with an object, Perform, Step, or Stride, you're [Off Guard](/condition/off-guard-player-core) until the start of your next turn.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "13D2F332-847D-5BBF-9DB2-063E03C9F128",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Tome of Restorative Cleansing",
+    "slug": "effect-tome-of-restorative-cleansing-treasure-vault-remastered",
+    "descr": "Granted by [Tome Of Restorative Cleansing (Lesser)](/item/tome-of-restorative-cleansing-lesser-treasure-vault-remastered), [Tome Of Restorative Cleansing (Moderate)](/item/tome-of-restorative-cleansing-moderate-treasure-vault-remastered), [Tome Of Restorative Cleansing (Greater)](/item/tome-of-restorative-cleansing-greater-treasure-vault-remastered)\n\nYou gain temporary Hit Points.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "DCD4F736-6A89-5E8E-826A-717A5A9A2E3F",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Tracker's Stew",
+    "slug": "effect-tracker-s-stew-treasure-vault-remastered",
+    "descr": "Granted by [Tracker'S Stew](/item/tracker-s-stew-treasure-vault-remastered)\n\nYou gain a +1 item bonus to Survival checks to Cover Tracks and Track.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2EAF83E5-AFE4-519B-BD55-8B1394F32856",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Tremorsensors",
+    "slug": "effect-tremorsensors-treasure-vault-remastered",
+    "descr": "Granted by [Tremorsensors](/item/tremorsensors-treasure-vault-remastered)\n\nYou gain tremorsense as an imprecise sense with a range of 20 feet for the next 10 minutes.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 10,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "75791C04-F81B-5475-993E-B680EB5DF0B6",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Triangular Teeth",
+    "slug": "effect-triangular-teeth-treasure-vault-remastered",
+    "descr": "Granted by [Triangular Teeth](/item/triangular-teeth-treasure-vault-remastered)\n\nYou gain a +2 status bonus to damage with the next Strike you make against the marked creature.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "BFFDF4DB-DD16-5E02-B7C2-570D2C50E670",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Ursine Avenger Form",
+    "slug": "effect-ursine-avenger-form-treasure-vault-remastered",
+    "descr": "Granted by [Ursine Avenger Form](/feat/ursine-avenger-form-treasure-vault-remastered)\n\nYou gain a jaws unarmed attack that deals 1d8 piercing damage and a claws unarmed attack that deals 1d6 slashing damage and has the [agile](/trait/agile) trait.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "98894317-A7B2-5127-B9DB-138B10BE5F7C",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Viper Rapier",
+    "slug": "effect-viper-rapier-treasure-vault-remastered",
+    "descr": "Granted by [Viper Rapier](/item/viper-rapier-treasure-vault-remastered)\n\nYou are concealed and gain a +2 circumstance bonus to Reflex saving throws while concealed.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "EE32904E-97A3-58F3-9376-136168D5E9F2",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Warding Statuette - Armor",
+    "slug": "effect-warding-statuette-armor-treasure-vault-remastered",
+    "descr": "Granted by [Warding Statuette](/item/warding-statuette-treasure-vault-remastered), [Warding Statuette (Greater)](/item/warding-statuette-greater-treasure-vault-remastered)\n\nYou gain resistance against ranged weapon attacks.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A11CCAFC-725E-595E-9BDD-F8F94B8F87B1",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Warding Statuette - Weapon",
+    "slug": "effect-warding-statuette-weapon-treasure-vault-remastered",
+    "descr": "Granted by [Warding Statuette](/item/warding-statuette-treasure-vault-remastered), [Warding Statuette (Greater)](/item/warding-statuette-greater-treasure-vault-remastered)\n\nYou gain a +1 status bonus to AC.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D776E4C3-3B79-5772-8241-47085E920B65",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Weapon Siphon",
+    "slug": "effect-weapon-siphon-treasure-vault-remastered",
+    "descr": "Granted by [Weapon Siphon](/item/weapon-siphon-treasure-vault-remastered)\n\nThe multiple attack penalty with the weapon is one greater than usual.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8EB25AC7-BDD3-5B43-B6A1-5F8CF584FC22",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Weapon Siphon Bomb Fitted",
+    "slug": "effect-weapon-siphon-bomb-fitted-treasure-vault-remastered",
+    "descr": "Granted by [Weapon Siphon](/item/weapon-siphon-treasure-vault-remastered)\n\nThe next three attacks made with the weapon deal 1d4 damage of the bomb's damage type in addition to the weapon's normal damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "DC45B27E-7C18-5EB7-8725-6C10E079523F",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Whispering Staff (Ally)",
+    "slug": "effect-whispering-staff-ally-treasure-vault-remastered",
+    "descr": "Granted by [Whispering Staff](/item/whispering-staff-treasure-vault-remastered)\n\nWhenever you attempt to Recall Knowledge or attempt a saving throw against a mental effect, you roll twice and take the better result. This is a fortune effect.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8D82DA99-53DE-589C-86CC-B97025B8EE4B",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Whispering Staff (Enemy)",
+    "slug": "effect-whispering-staff-enemy-treasure-vault-remastered",
+    "descr": "Granted by [Whispering Staff](/item/whispering-staff-treasure-vault-remastered)\n\nYou take a –2 circumstance penalty to saving throws against the origin's spells.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C817D5F9-A8A0-5F22-8A75-83C30FB2F07B",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Witch's Finger",
+    "slug": "effect-witch-s-finger-treasure-vault-remastered",
+    "descr": "Granted by [Witch'S Finger](/item/witch-s-finger-treasure-vault-remastered)\n\nYou gain cold resistance 3.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "92F7DC5B-947E-5F42-9110-DCA2748CB23E",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Wolfjaw Armor",
+    "slug": "effect-wolfjaw-armor-treasure-vault-remastered",
+    "descr": "Granted by [Wolfjaw Armor](/item/wolfjaw-armor-treasure-vault-remastered)\n\nYou gain a jaws unarmed attack that you make using your hands. This attack deals 1d8 piecing damage plus 1 cold damage, is in the brawling group, and has the trip and [unarmed](/trait/unarmed) traits.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2B9DA1BE-5472-5E01-A4AE-EC11B5215B88",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Wounding Oil",
+    "slug": "effect-wounding-oil-treasure-vault-remastered",
+    "descr": "Granted by [Wounding Oil](/item/wounding-oil-treasure-vault-remastered)\n\nThe selected weapon gains the benefits of the *[wounding](/item/wounding-gm-core)* rune.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "259FABBE-A932-5513-81EC-7A79C42EA7FD",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Wyrm Spindle - Armor",
+    "slug": "effect-wyrm-spindle-armor-treasure-vault-remastered",
+    "descr": "Granted by [Wyrm Spindle](/item/wyrm-spindle-treasure-vault-remastered), [Wyrm Spindle (Greater)](/item/wyrm-spindle-greater-treasure-vault-remastered), [Wyrm Spindle (Major)](/item/wyrm-spindle-major-treasure-vault-remastered)\n\nYou gain resistance to fire, force, mental, and spirit.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

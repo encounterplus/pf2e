@@ -1,0 +1,311 @@
+[
+  {
+    "id": "2656FB99-2E3E-5C3C-B456-2A5069EAC716",
+    "kind": "Class",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Gunslinger",
+    "slug": "gunslinger-guns-and-gears-remastered",
+    "descr": "",
+    "data": {
+      "rarity": "uncommon",
+      "traits": [],
+      "summary": "",
+      "attributes": [
+        "dexterity"
+      ],
+      "hp": 8,
+      "perception": "expert",
+      "fortitude": "expert",
+      "reflex": "expert",
+      "will": "trained",
+      "skills": "",
+      "attacks": "martial, simple, unarmed",
+      "defenses": "light, medium, unarmored",
+      "classAdvancement": "| Your Level | Class Features |\n| --- | --- |\n| 1 | Ancestry and background, initial proficiencies, gunslinger's way, initial deed, gunslinger feat, slinger's precision |\n| 2 | Gunslinger feat, skill feat |\n| 3 | General feat, skill increase, stubborn |\n| 4 | Gunslinger feat, skill feat |\n| 5 | Attribute boosts, ancestry feat, gunslinger weapon mastery, skill increase |\n| 6 | Gunslinger feat, skill feat |\n| 7 | General feat, perception mastery, skill increase, weapon specialization |\n| 8 | Gunslinger feat, skill feat |\n| 9 | Advanced deed, ancestry feat, gunslinger expertise, skill increase |\n| 10 | Attribute boosts, gunslinger feat, skill feat |\n| 11 | Blast dodger, general feat, skill increase |\n| 12 | Gunslinger feat, skill feat |\n| 13 | Ancestry feat, gunslinging legend, medium armor expertise, skill increase |\n| 14 | Gunslinger feat, skill feat |\n| 15 | Attribute boosts, general feat, greater deed, greater weapon specialization, skill increase |\n| 16 | Gunslinger feat, skill feat |\n| 17 | Ancestry feat, lead constitution, shootist's edge, skill increase |\n| 18 | Gunslinger feat, skill feat |\n| 19 | General feat, perception legend, medium armor mastery, skill increase |\n| 20 | Attribute boosts, gunslinger feat, skill feat |",
+      "classFeaturesText": "You gain these features as a gunslinger. Abilities gained at higher levels list the levels at which you gain them next to the features' names.",
+      "classFeatures": [
+        {
+          "name": "Gunslinger's Way",
+          "level": 1,
+          "text": "All gunslingers have a particular way they follow, a combination of philosophy and combat style that defines both how they fight and the weapons they excel with. At 1st level, your way grants you an initial deed, a unique [reload](/action/reload-battlecry) action called a slinger's reload, and proficiency with a particular skill. You also gain advanced and greater deeds at later levels, as well as access to way-specific feats.\n\n**[Way Of The Drifter](/feat/way-of-the-drifter-guns-and-gears-remastered)** You wander across the battlefield, equally at home in and out of the fray.\n\n**Way Of The Pistolero** You carefully maintain your distance at a duelist's 10 paces with pistol in hand.\n\n**Way Of The Sniper** You practice a methodical style of shooting, striking from far cover.\n\n**Way Of The Vanguard** You rely on a brutal combat style that uses heavy weapons and explosive attacks.\n\n**Way Of The Triggerbrand** You prefer firearms that work well as weapons in both melee and ranged combat"
+        },
+        {
+          "name": "Slinger's Precision",
+          "level": 1,
+          "text": "You deal an extra +2 precision damage with Strikes made using non-repeating crossbows and you deal an extra 1d4 precision damage on Strikes using non-repeating firearms.\n\nIf you have gunslinging legend, you instead deal +3 additional precision damage with Strikes using non-repeating crossbows and an additional 1d6 precision damage with Strikes using non-repeating firearms.\n\nIf you are using a combination weapon whose ranged form is a firearm or crossbow, you use your proficiency with firearms and crossbows for attacks made with the melee configuration of that weapon."
+        },
+        {
+          "name": "Stubborn",
+          "level": 3,
+          "text": "You don't like being told what to do, and you don't give up. Your proficiency rank for Will saves increases to expert. When you fail, but don't critically fail, a Will save against an effect that would give you the [controlled](/condition/controlled-player-core) condition, you can attempt a second save against the effect at the start of your next turn. On a successful second save, the controlled condition ends, though any other effects remain. As normal, failing this second save doesn't allow you to attempt a third save on the subsequent turn."
+        },
+        {
+          "name": "Gunslinger Weapon Mastery",
+          "level": 5,
+          "text": "You fully understand the best way to utilize your unique weapons. Your proficiency rank increases to master with simple and martial firearms and crossbows. Your proficiency rank for advanced firearms and crossbows, simple weapons, martial weapons, and unarmed attacks increases to expert. You gain access to the critical specialization effects for firearms and crossbows."
+        },
+        {
+          "name": "Perception Mastery",
+          "level": 7,
+          "text": "You've developed keen awareness and attention to detail. Your proficiency rank for Perception increases to master."
+        },
+        {
+          "name": "Weapon Specialization",
+          "level": 7,
+          "text": "You've learned how to inflict greater injuries with the weapons you know best. You deal an additional 2 damage with weapons and unarmed attacks in which you are an expert. This damage increases to 3 if you're a master, and 4 if you're legendary."
+        },
+        {
+          "name": "Advanced Deed",
+          "level": 9,
+          "text": "You've learned a powerful new technique of your chosen way. You gain the advanced deed ability of the way you chose at 1st level."
+        },
+        {
+          "name": "Gunslinger Expertise",
+          "level": 9,
+          "text": "Your special shots become harder for opponents to predict or resist. Your proficiency rank for your gunslinger class DC increases to expert."
+        },
+        {
+          "name": "Blast Dodger",
+          "level": 11,
+          "text": "Your reflexes have a hair trigger. Your proficiency rank for Reflex saves increases to master. When you roll a success on a Reflex save, you get a critical success instead."
+        },
+        {
+          "name": "Gunslinging Legend",
+          "level": 13,
+          "text": "You've learned unique techniques for wielding firearms and crossbows that give you unmatched skill in their use. Your proficiency rank increases to legendary with simple and martial firearms and crossbows and to master with advanced firearms and crossbows. Your proficiency rank for simple weapons, martial weapons, and unarmed attacks increases to master."
+        },
+        {
+          "name": "Medium Armor Expertise",
+          "level": 13,
+          "text": "You've learned to defend yourself better against attacks. Your proficiency ranks for light armor, medium armor, and unarmored defense increase to expert."
+        },
+        {
+          "name": "Greater Deed",
+          "level": 15,
+          "text": "You've mastered the pinnacle technique of your chosen way. You gain the greater deed ability of the way you chose at 1st level."
+        },
+        {
+          "name": "Greater Weapon Specialization (Level 15)",
+          "level": 15,
+          "text": "Your damage from weapon specialization increases to 4 with weapons and unarmed attacks in which you're an expert, 6 if you're a master, and 8 if you're legendary."
+        },
+        {
+          "name": "Lead Constitution",
+          "level": 17,
+          "text": "You have gunpowder in your veins. Your proficiency rank for Fortitude saves increases to master. When you roll a success on a Fortitude save, you get a critical success instead."
+        },
+        {
+          "name": "Shootist's Edge",
+          "level": 17,
+          "text": "You make shots others find impossible. Your proficiency rank for your gunslinger class DC increases to master. When using a ranged weapon in which you have master or greater proficiency, you ignore the penalty for attacking within the weapon's second and third range increments."
+        },
+        {
+          "name": "Medium Armor Mastery",
+          "level": 19,
+          "text": "Your skill with light and medium armor improves, increasing your ability to avoid blows. Your proficiency ranks for light and medium armor, as well as for unarmored defense, increase to master."
+        },
+        {
+          "name": "Perception Legend",
+          "level": 19,
+          "text": "You notice the almost imperceptible. Your proficiency rank for Perception increases to legendary."
+        }
+      ],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "7DD00603-CDFA-519E-9EBD-81412B5007E3",
+    "kind": "Class",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Inventor",
+    "slug": "inventor-guns-and-gears-remastered",
+    "descr": "",
+    "data": {
+      "rarity": "uncommon",
+      "traits": [],
+      "summary": "",
+      "attributes": [
+        "intelligence"
+      ],
+      "hp": 8,
+      "perception": "trained",
+      "fortitude": "expert",
+      "reflex": "trained",
+      "will": "expert",
+      "skills": "crafting",
+      "attacks": "martial, simple, unarmed",
+      "defenses": "light, medium, unarmored",
+      "classAdvancement": "| Your Level | Class Features |\n| --- | --- |\n| 1 | Ancestry and background, initial proficiencies, overdrive, innovation, explode, peerless inventor, shield block, inventor feat |\n| 2 | Inventor feat, skill feat |\n| 3 | Expert overdrive, general feat, reconfigure, skill increase |\n| 4 | Inventor feat, skill feat |\n| 5 | Attribute boosts, ancestry feat, inventor weapon expertise, skill increase |\n| 6 | Inventor feat, skill feat |\n| 7 | Breakthrough innovation, general feat, master overdrive, reflex expertise, skill increase, weapon specialization |\n| 8 | Inventor feat, skill feat |\n| 9 | Ancestry feat, inventive expertise, offensive boost, skill increase |\n| 10 | Attribute boosts, inventor feat, skill feat |\n| 11 | Churning mind, general feat, medium armor expertise, skill increase |\n| 12 | Inventor feat, skill feat |\n| 13 | Ancestry feat, complete reconfiguration, inventor weapon mastery, perception expertise, skill increase |\n| 14 | Inventor feat, skill feat |\n| 15 | Attribute boosts, general feat, greater weapon specialization, legendary overdrive, revolutionary innovation, skill increase |\n| 16 | Inventor feat, skill feat |\n| 17 | Ancestry feat, anvil's hardness, inventive mastery, skill increase |\n| 18 | Inventor feat, skill feat |\n| 19 | General feat, infinite invention, medium armor mastery, skill increase |\n| 20 | Attribute boosts, inventor feat, skill feat |",
+      "classFeaturesText": "You gain these features as an Inventor. Abilities gained at higher levels list the levels at which you gain them next to the features' names.",
+      "classFeatures": [
+        {
+          "name": "Explode",
+          "level": 1,
+          "text": "Your innovation is a creation barely held together by your own engineering, always on the edge of completely falling apart. Though this adds risk, it also means you can coax it to perform far beyond its design specifications using special unstable actions. See the definition of the [unstable](/trait/unstable) trait and how it affects your innovation.\n\nWhile inventors can learn various unstable actions over their career, all at least know how to make their innovation Explode."
+        },
+        {
+          "name": "Innovation",
+          "level": 1,
+          "text": "While you're always creating inventions, there's one that represents your preeminent work, the one that you hope- with refinement-might change the world. Choose one of the below innovations. Your innovation's level is equal to your level. If your innovation is destroyed, you can spend 1 day of downtime and attempt a Crafting check with a high DC for your level; on a success, you rebuild it. An innovation only works due to your constant maintenance and tinkering, and therefore has no market Price."
+        },
+        {
+          "name": "Overdrive",
+          "level": 1,
+          "text": "You have a bevy of smaller devices of your own invention, from muscle stimulants to concussive pistons. When it's necessary, you can throw them into Overdrive."
+        },
+        {
+          "name": "Peerless Inventor",
+          "level": 1,
+          "text": "You are constantly inventing, and your skill at crafting is unimpeachable. You gain the Inventor skill feat, even if you don't meet its prerequisites."
+        },
+        {
+          "name": "Shield Block",
+          "level": 1,
+          "text": "You gain the Shield Block general feat, a reaction that lets you reduce damage with your shield."
+        },
+        {
+          "name": "Expert Overdrive",
+          "level": 3,
+          "text": "You've increased your skill in crafting, and you can put your devices into a more powerful state of overdrive. You become an expert in Crafting, and on a successful use of Overdrive, you increase the additional damage by 1."
+        },
+        {
+          "name": "Reconfigure",
+          "level": 3,
+          "text": "You've become an expert in all crafts and are always adjusting your inventions. You can attempt to change the modifications on your innovation by spending 1 day of downtime tinkering with it and attempting a Crafting check, with a high DC for your level. On a success, you can change one modification you've chosen for your innovation to a different modification of the same kind (initial, breakthrough, or revolutionary).\n\nIf you have any modification feats, on a successful check you can choose to instead retrain a modification feat to a different modification feat. The new feat has to meet the standard restrictions for retraining."
+        },
+        {
+          "name": "Inventor Weapon Expertise",
+          "level": 5,
+          "text": "You develop tricks for using your weapons more effectively. Your proficiency ranks for simple and martial weapons and unarmed attacks increase to expert.\n\nIf you have a Weapon Innovation, you gain access to the critical specialization effect with your innovation."
+        },
+        {
+          "name": "Breakthrough Innovation",
+          "level": 7,
+          "text": "You've made a breakthrough in your field of study and discovered a powerful new way to enhance your innovation. Choose a breakthrough modification of your innovation's type to apply to your innovation. You can choose an initial modification of your innovation's type instead if you prefer.\n\n### Breakthrough Armor Modifications\n\n- **Antimagic Plating** Whether you used some clever adaptation of the magic-negating skymetal known as noqual or created magical protections of your own design, you've strengthened your armor against magic. While wearing the armor, you gain a +1 circumstance bonus to all saving throws against spells and to AC against spells. Against spells that target the armor directly (like heat metal), you instead gain a +4 circumstance bonus to all saving throws and to AC.\n\n- **Camouflage Pigmentation (Subterfuge Suit Only)** You've modified your armor's exterior to let you blend into your surroundings with ease, as long as you stay still. While wearing your armor, you can Hide even without cover or concealment, as the pigmentation shifts to match your surroundings.\n\n- **Dense Plating** You have encased your armor in robust plating. While wearing your armor, you gain resistance to slashing damage equal to half your level.\n\n- **Enhanced Resistance** You've improved upon your initial modification's ability to resist damage. The resistance from your initial armor modification adds your full level, instead of half your level (for instance, phlogistonic regulator's resistance would increase to your level). If you have more than one initial modification that gives resistance, choose which one this applies to.\n\n- **Heavy Construction (Power Suit Only)** You've expanded your innovation into a heavy bulwark, and your groundbreaking design ensures you don't take any of the drawbacks for such heavy defenses. Your innovation becomes heavy armor, and your proficiency in your innovation armor (but no other heavy armor) advances to be equal to your proficiency in medium armor. If your Strength modifier is at least +3, you remove the Speed penalty entirely instead of reducing it to –5 feet. The armor's adjusted statistics are: *AC Bonus* +5; *Dex Cap* +1; *Check Penalty* –2; *Speed Penalty* –10 feet; *Strength* +3; *Bulk* 3; *Group* composite; *Armor Traits* [bulwark](/trait/bulwark), entrench.\n\n- **Hyper Boosters** You've improved your speed boosters' power through a breakthrough that significantly increases the energy flow without risking exploding. You gain a +10-foot status bonus to your Speed, which increases to a +20-foot status bonus when you're in Overdrive. If you're legendary in Crafting, it instead increases to a +30-foot status bonus when you're in Overdrive. You must have the speed boosters modification to select this modification.\n\n- **Layered Mesh** You've woven an incredibly powerful network of interlocking mesh around your armor, which catches piercing attacks and diffuses them. While wearing your armor, you gain resistance to piercing damage equal to half your level.\n\n- **Tensile Absorption** You've enhanced the tensile capabilities of your armor, enabling it to bend with bludgeoning attacks. While wearing your armor, you gain resistance to bludgeoning damage equal to half your level.\n\n### Breakthrough Construct Modifications\n\n- **Advanced Weaponry** You've powered up your construct's weaponry. Choose one of your construct's unarmed attacks to gain your choice of one initial weapon modification, chosen from the list on page 18 or from other initial weapon modifications to which you have access. The unarmed attack must meet any requirements for the chosen traits (such as being a melee attack for entangling form), and since it's an unarmed attack, it can never meet certain requirements, such as being a simple weapon for complex simplicity.\n\n- **Antimagic Construction** Whether you used some clever adaptation of the magic-negating skymetal known as noqual or created magical protections entirely of your own devising, you've made your innovation highly resilient to spells. Your construct innovation gains a +2 circumstance bonus to all saving throws and AC against spells.\n\n- **Climbing Limbs** With appendages that can claw or create suction, your construct becomes a capable climber. Your innovation gains a climb Speed equal to half its land Speed.\n\n- **Durable Construction** Your innovation is solidly built; it can take significant punishment before being destroyed. Increase its maximum HP by your level.\n\n- **Marvelous Gears** Your innovation gains expert proficiency in Intimidation, Stealth, and Survival. For any of these skills in which it was already an expert (because of being an advanced construct companion, for example), it gains master proficiency instead. If you have the revolutionary innovation class feature, these proficiencies improve to master, or legendary if your construct innovation was already an expert. You must have the wonder gears modification to select this modification.\n\n- **Turret Configuration** Your innovation can transform from a mobile construct to a stationary turret. Your construct companion can transform as a single action, which has the [manipulate](/trait/manipulate) trait, turning into a turret in its space (or transforming back from a turret into its normal configuration). While it's a turret, your innovation is Immobilized, but the damage die from its projectile launcher increases to 1d6 and the range increment increases to 60 feet. You must have the projectile launcher modification to select this modification.\n\n### Breakthrough Weapon Modifications\n\n- **Advanced Rangefinder (Ranged Only)** A carefully tuned scope or targeting device makes your weapon especially good at hitting weak points. Your innovation gains the [backstabber](/trait/backstabber) trait and increases its range increment by 20 feet.\n\n- **Aerodynamic Construction (Melee Only)** You carefully engineer the shape of your weapon to maintain its momentum in attacks against successive targets. Your innovation gains the [sweep](/trait/sweep) trait and the [versatile S](/trait/versatile) trait.\n\n- **Inconspicuous Appearance (Melee Only)** Your innovation is built for easy concealment and surprise attacks. It gains the backstabber and versatile P traits. If the weapon has light Bulk, it also gains the [concealable](/trait/concealable) trait.\n\n- **Integrated Gauntlet (One-Handed Weapon Only; Can't Have the [Two-Hand](/trait/two-hand) Trait)** Combining your weapon with a gauntlet, you make it so you can quickly switch between attacking with your weapon and tinkering using your hands. Your innovation gains the [free-hand](/trait/free-hand) trait.\n\n- **Manifold Alloy** You've devised several alloys that contain useful properties of various metals, and you replace a number of parts of your weapon or its ammunition with pieces from these alloys. Your weapon innovation is cold iron and silver. This means you deal more damage to a variety of supernatural creatures, such as demons, devils, and fey.\n\n- **Rope Shot (Ranged Only)** Your weapon can shoot projectiles that split into simple ropes or nets around your foes' legs to trip your targets, and you can climb using the grappling hooks built into the weapon. Your weapon innovation gains the climbing and [ranged trip](/trait/ranged-trip) traits, as well as the [tethered](/trait/tethered) trait if it is thrown.\n\n- **Tangle Line (Thrown Only)** Your weapon has an extensible line that you can use to knock your enemies over, recall the weapon to your hand and even parry attacks. Your innovation gains the parry, ranged trip and tethered traits."
+        },
+        {
+          "name": "Master Overdrive",
+          "level": 7,
+          "text": "Your mastery of invention and crafting enhances your Overdrive even further. You become a master in Crafting, and on a successful Overdrive, you increase the additional damage by a total of 2, replacing the increase from expert overdrive."
+        },
+        {
+          "name": "Reflex Expertise",
+          "level": 7,
+          "text": "You've developed a knack for dodging danger. Your proficiency rank for Reflex saves increases to expert."
+        },
+        {
+          "name": "Weapon Specialization",
+          "level": 7,
+          "text": "You've learned how to inflict greater injuries with the weapons you know best. You deal an additional 2 damage with weapons and unarmed attacks in which you are an expert. This damage increases to 3 if you're a master, and 4 if you're legendary."
+        },
+        {
+          "name": "Inventive Expertise",
+          "level": 9,
+          "text": "Through innovation and experimentation, you've made your inventions more effective and reliable. Your proficiency rank for your inventor class DC increases to expert."
+        },
+        {
+          "name": "Offensive Boost",
+          "level": 9,
+          "text": "You've made additions to your innovation to upgrade your offensive capabilities. Your improvements make any Strikes that rely on your innovation deal an additional 1d6 damage, with a type determined by the boost you choose. If your innovation is armor, the boost applies to your melee unarmed Strikes and to your melee Strikes with one weapon you choose during daily preparations; if your innovation is a construct, the boost applies to your construct companion's Strikes; and if your innovation is a weapon, the boost applies to your Strikes with your innovation. You can spend downtime to switch to a different boost in the same way as switching your modification. Choose one of the following boosts, with the damage type in parentheses.\n\n- **Chill (Cold)** Your innovation rapidly absorbs heat, creating an intense chill.\n\n- **Ignition (Fire)** Your innovation shoots out jets of searing flame.\n\n- **Jolt (Electricity)** Your innovation jolts foes with charges of electricity.\n\n- **Momentum (Bludgeoning)** Your innovation slams into foes with added momentum.\n\n- **Saws (Slashing)** Your innovation reveals spinning sawblades during your attacks.\n\n- **Spike (Piercing)** Your innovation reveals wicked spikes during your attacks.\n\n- **Vitriol (Acid)** Your innovation releases spurts of caustic acid.\n\n---\n\n*Note: The included effect is only needed for construct innovations and armor innovations for selecting their daily preparation weapon.*\n\nEffect: Offensive Boost"
+        },
+        {
+          "name": "Churning Mind",
+          "level": 11,
+          "text": "The gears of your mind keep turning, making you resistant to mental manipulation. Your proficiency rank for Will saves increases to master. When you roll a success on a Will save, you get a critical success instead."
+        },
+        {
+          "name": "Medium Armor Expertise",
+          "level": 11,
+          "text": "If you have a medium or heavy armor innovation, you gain access to the critical specialization effect with your armor innovation."
+        },
+        {
+          "name": "Complete Reconfiguration",
+          "level": 13,
+          "text": "When it comes to crafting and tinkering, you've become incredibly adept at changing your modifications to adjust your innovation's functionality. When you spend downtime to reconfigure your innovation and succeed at your Crafting check, you can swap any number of modifications, swap your offensive boost, or retrain any number of modification feats, rather than one. You still must swap a modification only with one of the same type (initial, breakthrough, or revolutionary)."
+        },
+        {
+          "name": "Inventor Weapon Mastery",
+          "level": 13,
+          "text": "You fully understand your weapons. Your proficiency ranks for simple and martial weapons and unarmed attacks increase to master."
+        },
+        {
+          "name": "Perception Expertise",
+          "level": 13,
+          "text": "You remain alert to threats around you. Your proficiency rank for Perception increases to expert."
+        },
+        {
+          "name": "Greater Weapon Specialization (Level 15)",
+          "level": 15,
+          "text": "Your damage from weapon specialization increases to 4 with weapons and unarmed attacks in which you're an expert, 6 if you're a master, and 8 if you're legendary."
+        },
+        {
+          "name": "Legendary Overdrive",
+          "level": 15,
+          "text": "Your peerless inventing and Crafting ability has supercharged your Overdrives. You become legendary in Crafting, and on a successful Overdrive, you increase the additional damage by a total of 3, replacing the increase from master overdrive."
+        },
+        {
+          "name": "Revolutionary Innovation",
+          "level": 15,
+          "text": "You are an unparalleled genius and have discovered a technique that will revolutionize your chosen field—or at least for the time being, your innovation! Choose a revolutionary modification to apply to your innovation. You can also choose an initial or breakthrough modification of the same type instead, if you prefer.\n\n### Revolutionary Armor Modifications\n\n- **Automated Impediments:** Your armor uses electromagnetic fields, subharmonic distortions, or other techniques to make it difficult for those close to you to move unless you allow it. While wearing your armor, all spaces adjacent to you are difficult terrain for your enemies.\n\n- **Energy Barrier:** Your armor's defenses ablate any kind of energy coming your way. While wearing your armor, you gain resistance to all energy damage (acid, cold, electricity, fire, force, sonic, vitality, and void damage) equal to 2 + half your level. You must have the harmonic oscillator, metallic reactance, or phlogistonic regulator modification to select this modification.\n\n- **Incredible Resistance:** You've improved upon your breakthrough modification's ability to resist damage. Choose one of the following breakthrough modifications your innovation has: dense plating, layered mesh, or tensile absorption. Increase the resistance you gain from that modification to be equal to your level, instead of half your level.\n\n- **Multisensory Mask (subterfuge suit only):** You've built a multisensory mask over your armor that protects you by distorting your figure from all senses, leaving behind only a hazy image, muffled sounds, and so forth. While wearing the armor, you gain concealment against all creatures, even if they are using a nonvisual precise sense, such as a bat's echolocation. As normal for effects that leave your location obvious, you can't use this concealment to Hide or Sneak. If you use a hostile action, the concealment ends until you restore the mask as a single action, which has the manipulate trait.\n\n- **Perfect Fortification (power suit only):** You've outfitted your armor with such heavy fortifications that deadly attacks often lose their edge. Each time you're critically hit while wearing the armor, attempt a DC 13 flat check. On a success, it becomes a normal hit. This isn't cumulative with *[fortification](/item/fortification-gm-core)* runes or other abilities that reduce critical hits with a flat check. Additionally, you gain resistance 2 + half your level against precision damage.\n\n- **Physical Protections:** Your armor has so many adjustments and precautions that it can guard against all physical damage. While wearing your armor, you gain resistance to all physical damage (bludgeoning, piercing, and slashing damage, as well as persistent bleed damage) equal to half your level. You must have the dense plating, layered mesh, or tensile absorption breakthrough modification to select this modification.\n\n- **Rune Capacity:** Whether you've done some dabbling in orichalcum alloys or found another engineering solution, you've built your innovation in such a way that it can hold an additional property rune. Your innovation can have one more property rune than a normal item of its kind (to a maximum of four property runes with a +3 *potency* armor).\n\n### Revolutionary Construct Modifications\n\n- **Flight Chassis:** You fit your construct with a means of flight, such as adding rotors or rebuilding it with wings and a lightweight construction. Your innovation gains a fly Speed of 25 feet.\n\n- **Miracle Gears:** As you perfect your innovation's cortex, it becomes much more intelligent. Its Intelligence modifier increases by 2, and it learns a language of your choice from among the languages you know. Your construct gains the ability to use actions that require greater Intelligence, like Coerce and Decipher Writing. Finally, your construct becomes legendary in two Intelligence- or Charisma-based skills of your choice. You must have the marvelous gears modification to select this modification.\n\n- **Resistant Coating:** Your innovation is hard to damage by any means. It gains resistance 5 to all damage (except adamantine).\n\n- **Runic Keystone:** You've incorporated a device similar to a *runestone* into your innovation, allowing it to hold a property rune, even though it isn't a weapon or suit of armor. An armor property rune affects your innovation itself if it would affect the wearer of the armor. A weapon property rune grants whatever properties it would normally grant to a weapon to your innovation's unarmed attacks, following all the requirements as normal (for instance, a *[vorpal](/item/vorpal-gm-core)* rune would only apply to slashing melee unarmed attacks); if the rune affects only ranged attacks, it has no effect unless your innovation has a built-in ranged attack (from the projectile launcher initial modification, for example). If the rune would affect the physical shape or appearance of the weapon or armor itself, like *raiment*, the rune has no effect when etched into your construct.\n\n- **Wall Configuration:** Your innovation can transform from a mobile construct to a stationary battlefield emplacement. It can unfold as a 2-action activity that has the manipulate trait, changing from its usual form into a thin, straight wall of metal and gears up to 10 feet tall and 30 feet long. The wall must extend through your innovation's original space. While your construct is a wall, it can't take any actions except to use the same activity to transform back, and it can't defend itself easily, making it Off Guard and giving it an additional –2 status penalty to its AC. The wall blocks line of sight and effect unless your innovation has half its maximum HP or fewer, at which point holes in the wall allow creatures to see through and attack with cover, and Tiny creatures to slip through.\n\n### Revolutionary Weapon Modifications\n\n- **Attack Refiner:** Your weapon makes minute recalibrations after every missed attack to ensure the next lands with vicious efficacy. Your innovation gains the backswing and [forceful](/trait/forceful) traits.\n\n- **[Deadly](/trait/deadly) Strike:** Through precise calculation, you've found the perfect way for your weapon to deal damage on a well-placed strike. Your innovation gains the deadly d8 trait. If your innovation was already deadly, increase the die by up to two die sizes (d6 to d10, d8 to d12), to a maximum of deadly d12.\n\n- **Enhanced Damage:** You've made your innovation more powerful than other weapons of its kind. Increase your innovation's weapon damage die by one step (d4 to d6, d6 to d8, d8 to d10, d10 to d12). As normal, you can't increase your die by more than one size, so this modification isn't cumulative with complex simplicity.\n\n- **Extensible Weapon (melee only):** You've found a way to construct your weapon so that it can extend while leaving its balance unchanged. Your innovation gains the [reach](/trait/reach) trait. If the weapon already had the reach trait, it increases your reach by an additional 10 feet, instead of the usual additional 5 feet.\n\n- **Impossible Alloy:** Other inventors claim it's not even technically possible, but you've managed to create several metal alloys that seem to work for only you. These alloys can damage opponents vulnerable to any one of the seven skymetals. Your innovation is treated as all seven skymetals (abysium, adamantine, djezet, inubrix, noqual, orichalcum, and siccatite). This means you deal more damage to a variety of creatures, though you don't apply any of the other special effects for weapons made of those skymetals.\n\n- **Momentum Enhancer:** A special device lets your weapon move with uncanny speed. Your innovation gains the [agile](/trait/agile) trait; if it had the reload ability, you can reload once per round as a free action.\n\n- **Omnirange Stabilizers (ranged only):** You've modified your innovation to be dangerous and effective at any range. If your innovation had the [volley](/trait/volley) trait, remove the volley trait. Otherwise, increase your innovation's range increment by 50 feet or an amount equal to the weapon's base range increment, whichever is more.\n\n- **Rune Capacity:** Whether you've dabbled with orichalcum or found another engineering solution, you've built your innovation in such a way that it can hold an additional property rune. Your innovation can have one more property rune than a normal item of its kind (to a maximum of four property runes with a +3 *potency* weapon)."
+        },
+        {
+          "name": "Anvil's Hardness",
+          "level": 17,
+          "text": "Your body is as durable as iron. Your proficiency rank for Fortitude saves increases to master. When you roll a success on a Fortitude save, you get a critical success instead."
+        },
+        {
+          "name": "Inventive Mastery",
+          "level": 17,
+          "text": "Your inventions are incredibly effective. Your proficiency rank for your inventor class DC increases to master."
+        },
+        {
+          "name": "Infinite Invention",
+          "level": 19,
+          "text": "Your ability to adjust your innovation has reached impossible heights, and you can use these skills to make major adjustments in your spare time. During your daily preparations, you automatically fix your innovation if it's destroyed or broken, and you can change to a different innovation (armor, construct, weapon, or other type you have access to) and change your modifications and offensive boost.\n\nIf you have any feats that had your previous innovation as a prerequisite, you can't use them until you retrain the feats as normal. However, it takes you only 1 day of downtime to retrain such a feat into a feat that has your new innovation as a prerequisite, instead of 1 week."
+        },
+        {
+          "name": "Medium Armor Mastery",
+          "level": 19,
+          "text": "Your skill with light and medium armor improves, increasing your ability to avoid blows. Your proficiency ranks for light and medium armor, as well as for unarmored defense, increase to master."
+        }
+      ],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

@@ -1,0 +1,245 @@
+[
+  {
+    "id": "07BEF81B-A2FF-59E8-AD21-D236CF0E01D7",
+    "kind": "Table",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Lucky Draw Bandolier Ammunition",
+    "slug": "lucky-draw-bandolier-ammunition-guns-and-gears-remastered",
+    "descr": "Roll 1d6 and use the matching result range. [Open the source entry](/item/lucky-draw-bandolier-guns-and-gears-remastered) for context.",
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)",
+        "page": 181
+      }
+    ],
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "table",
+      "rollable",
+      "guns-and-gears-remastered"
+    ],
+    "columns": [
+      {
+        "name": "1d6",
+        "size": 0.3333333333333333,
+        "align": null
+      },
+      {
+        "name": "Ability (Suit)",
+        "size": 0.3333333333333333,
+        "align": null
+      },
+      {
+        "name": "Ammunition",
+        "size": 0.3333333333333333,
+        "align": null
+      }
+    ],
+    "rows": [
+      [
+        "1",
+        "Strength (Hammer)",
+        "[Meteor Shot](/item/meteor-shot-guns-and-gears-remastered)"
+      ],
+      [
+        "2",
+        "Dexterity (Key)",
+        "[Storm Arrow](/item/storm-arrow-player-core-2)"
+      ],
+      [
+        "3",
+        "Constitution (Shield)",
+        "[Corrosive Ammunition](/item/corrosive-ammunition-player-core-2)"
+      ],
+      [
+        "4",
+        "Intelligence (Book)",
+        "[Explosive shot](/item/explosive-ammunition-gm-core)"
+      ],
+      [
+        "5",
+        "Wisdom (Star)",
+        "[Fate Shot](/item/fate-shot-treasure-vault-remastered)"
+      ],
+      [
+        "6",
+        "Charisma (Crown)",
+        "[Fairy Bullet](/item/fairy-bullet-guns-and-gears-remastered)"
+      ]
+    ],
+    "rollMode": "normal"
+  },
+  {
+    "id": "5A5CD47F-B6A8-5C35-8375-7626E7EFFF7B",
+    "kind": "Table",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Pistol of Wonder Effect",
+    "slug": "pistol-of-wonder-effect-guns-and-gears-remastered",
+    "descr": "Roll 1d100 and use the matching result range. [Open the source entry](/item/pistol-of-wonder-guns-and-gears-remastered) for context.",
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)",
+        "page": 167
+      }
+    ],
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "table",
+      "rollable",
+      "guns-and-gears-remastered"
+    ],
+    "columns": [
+      {
+        "name": "1d100",
+        "size": 0.5,
+        "align": null
+      },
+      {
+        "name": "Wondrous Effect",
+        "size": 0.5,
+        "align": null
+      }
+    ],
+    "rows": [
+      [
+        "1-2",
+        "The pistol casts Summon Animal (3rd rank) to produce a Hippogriff adjacent to you; only you can ride it."
+      ],
+      [
+        "3",
+        "The target becomes a shiny metal color (bronze, copper, or iron) and any sound or speech becomes tinny and robotic in nature; this effect lasts 1 month."
+      ],
+      [
+        "4-5",
+        "The pistol casts Planar Tether."
+      ],
+      [
+        "6",
+        "Rewrite Memory (6th rank) causes the target to forget you ever existed; you can't Sustain the Spell."
+      ],
+      [
+        "7-13",
+        "A short rod protrudes from the pistol and unfurls a small flag that reads \"Bang!\". The pistol can't be fired until the flag is removed, which requires a single [Interact](/action/interact-player-core) action."
+      ],
+      [
+        "14-16",
+        "You are pushed 30 feet directly away from the target; if you hit an object or creature, you stop, but take falling damage equal to the distance you moved (if you hit a creature, it takes the same amount of falling damage)."
+      ],
+      [
+        "17-19",
+        "The target is pushed 30 feet directly away from you; if it hits an object or creature, it stops, but takes falling damage equal to the distance it moved (if it hits another creature, the other creature takes the same amount of falling damage)."
+      ],
+      [
+        "20",
+        "You don't need to eat or drink for 1 week."
+      ],
+      [
+        "21-25",
+        "The pistol casts Toxic Cloud."
+      ],
+      [
+        "26-30",
+        "The pistol casts Heroism on you."
+      ],
+      [
+        "31",
+        "The pistol casts One With Plants on you, except you appear as a Medium wooden grave marker bearing your name and the current date; you can't Dismiss the spell for 1 round."
+      ],
+      [
+        "32",
+        "The pistol casts Mask Of Terror, except the target appears as a more fearsome and violent version of itself to all observers."
+      ],
+      [
+        "33-35",
+        "The target knows you have a bullet with its name on it; the first time you Strike the target with the pistol before the end of your next turn, roll the attack roll twice and take the highest result (this is a fortune effect)."
+      ],
+      [
+        "36-37",
+        "The pistol casts Cloak Of Colors on you with a duration of 1d10 rounds."
+      ],
+      [
+        "38-47",
+        "The pistol casts Hydraulic Push (4th rank) as water streams from the pistol."
+      ],
+      [
+        "48-50",
+        "The pistol casts Translocate on you, teleporting you to the space adjacent to the target opposite your current position; if that space isn't clear, you instead teleport to the nearest open space."
+      ],
+      [
+        "51",
+        "The pistol casts Disintegrate."
+      ],
+      [
+        "52",
+        "Dozens of tattered, nonmagical playing cards burst from the pistol's barrel."
+      ],
+      [
+        "53-54",
+        "Shadows crowd around the target, making all creatures [Concealed](/condition/concealed-player-core) to the target while not in bright light; this effect lasts for 1 hour."
+      ],
+      [
+        "55-57",
+        "Normal vegetation within 30 feet of the target immediately dies and turns to ash."
+      ],
+      [
+        "58",
+        "The pistol casts Dinosaur Form on you to transform you into a triceratops; the pistol protrudes from the base of your front horn, and you can fire (but not reload) the pistol while in this form."
+      ],
+      [
+        "59",
+        "All non-artifact ammunition in your possession crumbles to dust."
+      ],
+      [
+        "60-69",
+        "You are Quickened for 1 minute. You can use the extra action only to reload or fire the pistol."
+      ],
+      [
+        "70-71",
+        "The target is Quickened for 1 minute. It can use the extra action only to Step or Stride."
+      ],
+      [
+        "72-79",
+        "The pistol casts vision of death."
+      ],
+      [
+        "80-81",
+        "Dozens of bullet holes appear in the target's nonmagical clothing. The effect is purely cosmetic."
+      ],
+      [
+        "82-85",
+        "The pistol casts Outcast'S Curse."
+      ],
+      [
+        "86",
+        "The pistol vanishes, reappearing among your possessions once it can be activated again."
+      ],
+      [
+        "87-91",
+        "The pistol casts a 4th-rank mist, but with swirling dust and sand instead of fog."
+      ],
+      [
+        "92-96",
+        "The pistol casts Mountain Resilience on you, making your skin rough and leathery; the target ignores the resistance you gain from this spell, and the target's attacks don't reduce the spell's duration."
+      ],
+      [
+        "97-99",
+        "The pistol casts Uncontrollable Dance with a duration of 3 rounds, even on a failure or critical failure."
+      ],
+      [
+        "100",
+        "Reroll two results and apply both in the order rolled; further results of 100 on these rerolls have no effect."
+      ]
+    ],
+    "rollMode": "normal"
+  }
+]

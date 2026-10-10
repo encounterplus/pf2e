@@ -1,0 +1,70 @@
+[
+  {
+    "id": "3BD880ED-809B-5CF8-80EB-8541F6F64732",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Frost's Touch",
+    "slug": "frost-s-touch-treasure-vault-remastered",
+    "descr": "Your *gelid shard* drinks down nearby heat in a futile attempt to sate itself and achieve a level of frigid cold unheard of in the Universe. This allows you to cool a drink, make a hot pot safe to handle, or other, similar minor effects. Once cooled, the object's temperature is subject to its environment as usual. You can also solidify ambient moisture into a solid object; this temporary object is of negligible Bulk, made of non-magical ice. The object looks crude and artificial and is extremely fragile—it can't be used as a tool, weapon, or locus or cost for a spell. Once created, it melts as normal for ice for the ambient conditions.\n\n---\n\n**Heightened (3rd)** You can create simple objects of ice with up to 1 Bulk and of a level not exceeding 1. Such objects must be rigid. You can only have one such object created at a time; if you create another, the previous object melts instantly.\n\n**Heightened (5th)** Items you create can be up to 4 Bulk and 4th level.\n\n**Heightened (7th)** Items you create can be up to 8 Bulk and 8th level.\n\n**Heightened (9th)** Items you create can be up to 20 Bulk and 12th level.",
+    "data": {
+      "rank": 1,
+      "rarity": "rare",
+      "traits": [
+        "cantrip",
+        "cold",
+        "concentrate"
+      ],
+      "cost": "",
+      "cast": "1",
+      "range": "30 feet",
+      "targets": "1 object",
+      "requirements": "",
+      "traditions": [
+        "arcane"
+      ],
+      "traditionsText": "Arcane",
+      "type": "cantrip",
+      "castActions": [
+        "one"
+      ],
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "cantrip",
+          "slug": "cantrip"
+        },
+        {
+          "label": "cold",
+          "slug": "cold"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        }
+      ],
+      "durationText": "",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "treasure-vault-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "cantrip",
+      "cold",
+      "concentrate",
+      "remaster",
+      "treasure-vault-remastered"
+    ],
+    "sources": [
+      {
+        "name": "Treasure Vault (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

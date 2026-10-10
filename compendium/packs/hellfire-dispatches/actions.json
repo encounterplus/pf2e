@@ -1,0 +1,94 @@
+[
+  {
+    "id": "BC394B75-056B-5DCD-B0E7-0044D488A661",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Liberate Self",
+    "slug": "liberate-self-hellfire-dispatches-action-action-3759",
+    "descr": "**Frequency** once per day\n\n**Requirements** You're [grabbed](/condition/grabbed-player-core), [immobilized](/condition/immobilized-player-core), or [restrained](/condition/restrained-player-core)\n\nAttempt to [Escape](/action/escape-player-core), rolling the check twice and taking the better result.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "divine",
+        "fortune"
+      ],
+      "category": "action",
+      "frequency": "once per day",
+      "requirements": "You're grabbed, immobilized, or restrained",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "divine",
+          "slug": "divine"
+        },
+        {
+          "label": "fortune",
+          "slug": "fortune"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "hellfire-dispatches",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "action",
+      "divine",
+      "fortune",
+      "hellfire-dispatches",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Hellfire Dispatches",
+        "url": "https://2e.aonprd.com/Actions.aspx?ID=3759",
+        "page": 48
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "6DCBD27C-21BE-54F6-9634-360425AF403E",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Puncture Flesh",
+    "slug": "puncture-flesh-hellfire-dispatches-action-action-3758",
+    "descr": "**Trigger** Your last action was to deal piercing damage to an enemy within your reach\n\nAttempt an Athletics check to [Grapple](/action/grapple-player-core) the same enemy. The weapon that dealt the triggering damage gains the [grapple](/trait/grapple) trait for this check. On a success, the target also takes 1d8 [persistent piercing damage](/condition/persistent-damage-player-core) (or 2d8 persistent piercing damage on a critical success). When the target is no longer [grabbed](/condition/grabbed-player-core) or [restrained](/condition/restrained-player-core) by you, the persistent damage ends.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "action",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "Your last action was to deal piercing damage to an enemy within your reach",
+      "actions": "one",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "hellfire-dispatches",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "action",
+      "hellfire-dispatches",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Hellfire Dispatches",
+        "url": "https://2e.aonprd.com/Actions.aspx?ID=3758",
+        "page": 109
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  }
+]

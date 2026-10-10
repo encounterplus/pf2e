@@ -1,0 +1,257 @@
+[
+  {
+    "id": "033AE3A2-B86B-5C9D-B68A-B93369D2B421",
+    "kind": "Ritual",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Perfection of Essence",
+    "slug": "perfection-of-essence-tian-xia-world-guide-ritual-ritual-133",
+    "descr": "**Cast** 1 day\n\n**Cost** special foods, herbs, and minerals worth a total value of 45,000 gp\n\n**Secondary Casters** 1\n\n**Primary Check** Crafting (expert)\n\n**Secondary Checks** Medicine or Religion\n\n**Duration** see text\n\n---\n\nMany have pursued alchemical means to immortality, and most haven't survived the attempt. The most common manner of purifying one's essence requires ingesting the following poison, and surviving the effects unassisted for at least a day.\n\n **Saving Throw** DC 43 Fortitude; **Onset** 1 hour; **Maximum Duration** 5 days; Stage 1 7d12 spirit damage plus [doomed](/condition/doomed-player-core) 1 (1 hour); **Stage 2** 9d12 spirit damage and [confused](/condition/confused-player-core) for 1 minute once every 1d4 minutes, plus doomed 2 (1 hour); **Stage 3** 9d12 spirit damage and doomed 3 (1 day); **Stage 4** death\n\n Anathema for this ritual is determined at the time of the ritual. You choose 1 anathema, and the GM chooses 2 anathema. You're aware of all of your anathema. Appropriate anathema might include avoiding physical contact with a certain creature or substance (such as members of your bloodline or jade), eating certain foods (such as meat or grains), or wearing certain items or materials (such as silk or cotton). If the ritual is ended in this way, you must conduct an [atone](/ritual/atone-player-core) ritual before attempting this ritual again.\n\n**Critical Success** As success, except you choose 1 anathema and your GM chooses 1 anathema.\n\n**Success** You've purified your body enough to attempt to attain immortality. You're bound by the ritual's anathema and must ingest the final potion to complete your apotheosis. Once you've withstood the effects of the poison for 1 day or completely recovered from the poison's effects without outside assistance, you gain immortality as follows: you don't age unless you wish to. You can't die except due to old age; if your dying or doomed condition would increase to a high enough value to kill you, it doesn't increase, and any effect that would instantly kill you instead just reduces you to 0 Hit Points. If you ever truly die and aren't returned to life within 1 year, you descend from the Heavens as an adult into a new mortal body somewhere in the world.\n\n**Failure** Your actions don't achieve immortality, and you automatically fail the first save against the poison.\n\n**Critical Failure** As failure, except the poison is also virulent.",
+    "data": {
+      "rank": 10,
+      "rarity": "rare",
+      "traits": [
+        "trial"
+      ],
+      "cost": "special foods, herbs, and minerals worth a total value of 45,000 gp",
+      "cast": "1 day",
+      "secondaryCasters": "1",
+      "primaryChecks": "Crafting (expert)",
+      "secondaryChecks": "Medicine or Religion",
+      "range": "",
+      "targets": "",
+      "duration": "see text",
+      "traitLinks": [
+        {
+          "label": "trial",
+          "slug": "trial"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "tian-xia-world-guide",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "ritual",
+      "tian-xia-world-guide",
+      "trial"
+    ],
+    "sources": [
+      {
+        "name": "Tian Xia World Guide",
+        "url": "https://2e.aonprd.com/Rituals.aspx?ID=133",
+        "page": 50
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "7D09DC26-0C56-5A0F-B22D-5F7FC7E41317",
+    "kind": "Ritual",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Power of the Beasts",
+    "slug": "power-of-the-beasts-tian-xia-world-guide-ritual-ritual-134",
+    "descr": "**Cast** 1 day\n\n**Cost** bones, teeth, or claws of beasts worth 150 gp\n\n**Secondary Casters** 1\n\n**Primary Check** Athletics (expert)\n\n**Secondary Checks** Cooking Lore, Crafting, or Religion\n\n**Duration** see text\n\n---\n\nTo simply kill the magical beasts who populate Tian Xia is needless and wasteful. The gods reward a hunter who seeks to truly understand their prey, approaching the creatures on their own level and seeking to gain their strength. Powdering the bones of strong beasts, for use in a soup or wine, is often the first step in the process of capturing part of their power.\n\n Using weapons is anathema to this ritual and immediately ends its benefits. If the ritual is ended in this way, you must conduct an [_atone_](/ritual/atone-player-core) ritual before attempting this ritual again.\n\n**Critical Success** As success, except you can defeat three enemies that are only one size larger than you instead.\n\n**Success** The power begins to take root. Once you've defeated an enemy two or more sizes larger than you in single combat, you gain the [Titan Wrestler](/feat/titan-wrestler-player-core) feat.\n\n**Failure** You drink the soup or wine, but the understanding eludes you.\n\n**Critical Failure** The drink contains shards of bone you didn't grind down properly. You're [sickened](/condition/sickened-player-core) 2 for 1 week, during which the condition can't be reduced.",
+    "data": {
+      "rank": 2,
+      "rarity": "rare",
+      "traits": [
+        "trial"
+      ],
+      "cost": "bones, teeth, or claws of beasts worth 150 gp",
+      "cast": "1 day",
+      "secondaryCasters": "1",
+      "primaryChecks": "Athletics (expert)",
+      "secondaryChecks": "Cooking Lore, Crafting, or Religion",
+      "range": "",
+      "targets": "",
+      "duration": "see text",
+      "traitLinks": [
+        {
+          "label": "trial",
+          "slug": "trial"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "tian-xia-world-guide",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "ritual",
+      "tian-xia-world-guide",
+      "trial"
+    ],
+    "sources": [
+      {
+        "name": "Tian Xia World Guide",
+        "url": "https://2e.aonprd.com/Rituals.aspx?ID=134",
+        "page": 50
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "38601EE9-9E82-5B19-982B-DF8C6E0D75B0",
+    "kind": "Ritual",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Seed of Mercy",
+    "slug": "seed-of-mercy-tian-xia-world-guide-ritual-ritual-135",
+    "descr": "**Cast** 1 day\n\n**Cost** potent medicine valued at 200 gp\n\n**Secondary Casters** 1\n\n**Primary Check** Medicine (expert)\n\n**Secondary Checks** Nature or Religion\n\n**Duration** see text\n\n---\n\nThe gods who value benevolence and the caretaking of small and vulnerable beings also value those qualities in the mortal adventurers who journey through the lands of Tian Xia. You demonstrate your willingness to aid even the most helpless of life by nursing a small, injured bird to health and allowing it to fly away to freedom, earning in return the protection of the natural world. If you're able to nurse the bird to health, it will return to you with a seed, which will grow into a sprout bearing a single flower.\n\n The sprout withers if you don't personally water it with at least 1 Bulk of pure spring water a day or if it's left unattended in dangerous circumstances. It's anathema to this ritual to let the sprout wither, and doing so immediately ends its benefits. If the ritual is ended in this way, you must conduct an [atone](/ritual/atone-player-core) ritual before attempting this ritual again.\n\n**Critical Success** As success, except the sprout also grows a single fruit after you've cared for it for a week. Removing the fruit causes the sapling to wither, but the fruit can be eaten as a moderate healing potion\n\n**Success** You nurse the bird to health. It returns to you with a seed that, when planted and watered, grows into a sprout with a single flower. Once you've cared for it for a week, you gain the [Toughness](/feat/toughness-player-core) feat. If you lose Toughness due to violating the ritual's anathema, you lose a number of Hit Points equal to the decrease in your maximum Hit Points.\n\n**Failure** You aren't able to heal the bird, but you help its passing to be as painless as possible.\n\n**Critical Failure** Your attempt to heal the bird causes greater suffering. Another bird brings you a seed that, if planted, will grow into a gourd that releases a small demon to attack you.",
+    "data": {
+      "rank": 3,
+      "rarity": "rare",
+      "traits": [
+        "trial"
+      ],
+      "cost": "potent medicine valued at 200 gp",
+      "cast": "1 day",
+      "secondaryCasters": "1",
+      "primaryChecks": "Medicine (expert)",
+      "secondaryChecks": "Nature or Religion",
+      "range": "",
+      "targets": "",
+      "duration": "see text",
+      "traitLinks": [
+        {
+          "label": "trial",
+          "slug": "trial"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "tian-xia-world-guide",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "ritual",
+      "tian-xia-world-guide",
+      "trial"
+    ],
+    "sources": [
+      {
+        "name": "Tian Xia World Guide",
+        "url": "https://2e.aonprd.com/Rituals.aspx?ID=135",
+        "page": 50
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "EA3AFC50-9CD3-5523-9688-B1ED2772E9C8",
+    "kind": "Ritual",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "The Unseeing Blade Master",
+    "slug": "the-unseeing-blade-master-tian-xia-world-guide-ritual-ritual-136",
+    "descr": "**Cast** 1 day\n\n**Cost** rare incense worth 1,500 gp\n\n**Secondary Casters** 1\n\n**Primary Check** [Perception](/rule/perception-rules-2298) (master)\n\n**Secondary Checks** Religion or Warfare Lore\n\n**Duration** see text\n\n---\n\nThere are many legends of blade masters who, not wanting to rely on flawed mortal eyes, learned to fight through reliance on both their other keen senses and knowledge from the universe itself. Those who intentionally seek out the path often do so by running through forms in thick clouds of incense.\n\n Making a Strike against an enemy you can see is anathema to this ritual and immediately ends its benefits. If the ritual is ended in this way, you must conduct an [_atone_](/ritual/atone-player-core) ritual before attempting this ritual again.\n\n**Critical Success** As success, except you can instead defeat an enemy in single combat that both uses a sword and is higher level than you.\n\n**Success** You call a blessing into your sword to guide you on the path and are bound by the ritual's anathema. Once you've used that sword against 20 enemies, each significant enough to grant XP, you gain the [Blind-Fight](/feat/blind-fight-player-core) feat.\n\n**Failure** The incense is dispersed by a strange gust of wind and you learn nothing.\n\n**Critical Failure** The sword you're intending to use for the ritual becomes [broken](/condition/broken-player-core). If you aren't permanently blind, you're instead [blinded](/condition/blinded-player-core) for 1 month and can't repeat this ritual during that time.",
+    "data": {
+      "rank": 6,
+      "rarity": "rare",
+      "traits": [
+        "trial"
+      ],
+      "cost": "rare incense worth 1,500 gp",
+      "cast": "1 day",
+      "secondaryCasters": "1",
+      "primaryChecks": "Perception (master)",
+      "secondaryChecks": "Religion or Warfare Lore",
+      "range": "",
+      "targets": "",
+      "duration": "see text",
+      "traitLinks": [
+        {
+          "label": "trial",
+          "slug": "trial"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "tian-xia-world-guide",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "ritual",
+      "tian-xia-world-guide",
+      "trial"
+    ],
+    "sources": [
+      {
+        "name": "Tian Xia World Guide",
+        "url": "https://2e.aonprd.com/Rituals.aspx?ID=136",
+        "page": 51
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "048897AD-EF11-5BC0-A26A-3F489B608C50",
+    "kind": "Ritual",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Wild Allegiance",
+    "slug": "wild-allegiance-tian-xia-world-guide-ritual-ritual-137",
+    "descr": "**Cast** 1 day\n\n**Cost** animal food worth a total value of 150 gp\n\n**Secondary Casters** 1\n\n**Primary Check** Diplomacy (expert)\n\n**Secondary Checks** Nature or Religion\n\n**Duration** see text\n\n---\n\nTo many, the animals of Tian Xia are simply beasts to be conquered or harvested, but this isn't how all of the gods intended it. You approach, feed, and commune with the most notably hostile beasts in an effort to forge a true friendship and allegiance with the natural world.\n\n Wantonly attacking or killing animals is anathema to this ritual and immediately ends its benefits. If the ritual is ended in this way, you must conduct an [_atone_](/ritual/atone-player-core) ritual before attempting this ritual again.\n\n**Critical Success** As success, except you can instead resolve a conflict with one animal of level 15 or higher.\n\n**Success** You declare your allegiance to the wild and are bound by the ritual's anathema, but you still must prove yourself. Once you've nonviolently resolved conflicts with three different animals of a higher level than yours, you gain the [Animal Empathy](/feat/animal-empathy-player-core) feat.\n\n**Failure** Your actions don’t impress the gods of the wilds.\n\n**Critical Failure** You deeply offend the gods you were trying to impress, and they send a sign of displeasure, often an animal attack. You must conduct an atone ritual before attempting this ritual again.",
+    "data": {
+      "rank": 3,
+      "rarity": "rare",
+      "traits": [
+        "trial"
+      ],
+      "cost": "animal food worth a total value of 150 gp",
+      "cast": "1 day",
+      "secondaryCasters": "1",
+      "primaryChecks": "Diplomacy (expert)",
+      "secondaryChecks": "Nature or Religion",
+      "range": "",
+      "targets": "",
+      "duration": "see text",
+      "traitLinks": [
+        {
+          "label": "trial",
+          "slug": "trial"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "tian-xia-world-guide",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "ritual",
+      "tian-xia-world-guide",
+      "trial"
+    ],
+    "sources": [
+      {
+        "name": "Tian Xia World Guide",
+        "url": "https://2e.aonprd.com/Rituals.aspx?ID=137",
+        "page": 51
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  }
+]

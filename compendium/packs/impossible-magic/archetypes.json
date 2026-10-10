@@ -1,0 +1,398 @@
+[
+  {
+    "id": "F24EF989-B328-5082-AD21-9191DD5A74B3",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Captivator",
+    "slug": "captivator-impossible-magic-archetype-archetype-390",
+    "descr": "Others find you inherently fascinating. You possess a facility with words that draws others in, and you’ve always found it easy to sway others to your point of view. This ability has grown to the point where you’re capable of innate magic. You can bend others’ wills to your own by weaving enchantments and distracting with illusions. Perhaps this comes from a touch of [fey](/trait/fey) or draconic blood in your family’s distant past, or perhaps it’s the work of some special boon or curse placed on you. Your abilities might have grown over time or manifested more fully after some specific event, but they’ve likely always been a part of you. As a captivator, you’re a potent blend of insight and personal magnetism. This is nothing like mere physical beauty but instead a blend of traits that makes others want to listen to what you have to say.\n\nCaptivators come from all areas of the world and all walks of life. A farm boy with the right gifts who’s sent to the market every week to hawk his garden’s bounty might find himself on the path to becoming a captivator. An urchin, who must extract sympathy from others simply to survive, might become a captivator out of necessity, and a noble, born into a deadly game of luxury and influence, might find themself forced onto the path. Regardless of their background, most captivators use their abilities to advance their station in life, make things easier for themselves, and befriend those who can help them achieve their goals.\n\nVirtuous captivators use their gifts to bring people together. They might talk the would-be tavern brawler into sharing drinks and stories. They might offer encouragement to those facing depression or doubt. They excel in ending conflict as peacefully and efficiently as possible and leave almost everyone around them happier. When faced with violence, they use their magic to quickly subdue or enthrall enemies and minimize harm to their companions.\n\nWicked captivators manipulate others to achieve status, wealth, and power. They’ve no qualms about deceiving anyone or using their magic to cause harm, so long as they get what they want. These captivators are dangerous foes who often seem like friends, tricksters whose charms and illusions make sure they appear neither important nor dangerous. The slick politician, the devious con artist, the cunning courtier—these are all roles that an evil captivator can easily assume.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "level": 2,
+      "prerequisites": "Charisma +2; Trained in Deception or Trained in Diplomacy",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "impossible-magic",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Archetypes.aspx?ID=390",
+        "page": 92
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "BF35CFDD-9BBA-547D-868C-9BB0B8C731F3",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Hedge Mage",
+    "slug": "hedge-mage-impossible-magic-archetype-archetype-391",
+    "descr": "The study of magic isn’t solely the province of tenured faculty who extend propositions or refutations in stately halls of ivory; neither is its practice limited to the dominions of hierophants atop ancient duskwood edifices or wish-apported towers of basalt. Despite their claims to authority, the eminent and elite do not define magic’s purview or purpose. Within quiet, overlooked places, magical inquiry flourishes in countless ways. Provincial villages and remote countrysides are the bailiwicks of so-called “hedge mages.” Away from the stifling support of prelates or provosts, a hedge mage may experiment with old methods in new ways, working with the quotidian in the quest to further hone practical and pragmatic spells into mighty tools.\n\nHedge mages tend to be a rugged, individualistic lot, whose practicality might seem an odd fit with the idiosyncrasies and idealism so common to their number. Without comforts of station or stipend, hedge mages must make do with what’s readily accessible or easily available, mastering unremarkable materials and processes to achieve extraordinary magical effects. With practice, everyday cantrips and catalysts become reliable and versatile tools. Many hedge mages apply a mixture of simple spells, scholastic application, and hands-on knowledge to solve their communities’ problems, be it blighted crops and plagued cattle or hauntings and monster attacks. Those few who become adventurer find their self-sufficient and resourceful lifestyles to be ample training for that career’s challenges and uncertainties, bringing their unorthodox, yet undeniably effective, blend of magic and common sense to face the dangers of battlefield and dungeon.\n\nMost hedge mages come from the ranks of classes that don’t inherently grant spellcasting. Many of them begin their adventuring careers as fighters, rangers, and rogues, though a few investigators and swashbucklers round out the mix. Occasionally, a rural [alchemist](/class/alchemist-player-core-2) will add hedge mage spellcasting to their repertoire. Hedge mages who delve deep into the practice of momentary magic might also become scroll tricksters or talisman dabblers.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "level": 2,
+      "prerequisites": "Intelligence +2 or Wisdom +2",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "impossible-magic",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Archetypes.aspx?ID=391",
+        "page": 94
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "D0E35C3B-312F-5509-AECB-E2A24577A851",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Living Nexus",
+    "slug": "living-nexus-impossible-magic-archetype-archetype-392",
+    "descr": "There are places in the world where the essences of magic coalesce and build on each other, creating churning wells of power and streams of the energies. These forces can make up the fabric of the planes or produce entropic fields where magic is simply nullified, consumed before it can be brought into being. Your body is one such place for these powers. Whether by exposure to magical radiation, experimentation, happenstance of birth, or intense training, the essences of magic have warped themselves around you, creating in you a living nexus of power. You have trained yourself to sense with your very being the thrum and pulse of energy that permeates all things. As you absorb the magical energy around you, your soul filters it into pure potential. This power, however, cannot be held for long, as it urges to be released. For others, magic is a formula to be memorized or the will of a deity channeled through them. For you, magic is as easy as breathing.\n\nOn Golarion, the accidental transformation into a living nexus usually occurs in places where magic is wild and unpredictable, often suffusing the very air people breathe. Certain parts of the Mana Wastes fit this criteria as the ancient conflict between Geb and Nex scarred this once-beautiful land with stray bolts of energy and clouds of magical radiation. While not many settlements exist in the Mana Wastes outside of Alkenstar, adventurers undertaking explorations into the wastelands have been known to return with the uncanny ability to absorb any magic around them and control it as a living nexus.",
+    "data": {
+      "rarity": "uncommon",
+      "traits": [],
+      "level": 2,
+      "prerequisites": "trained in martial weapons; Trained in Arcana, Trained in Nature, Trained in Occultism, or Trained in Religion",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "impossible-magic",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Archetypes.aspx?ID=392",
+        "page": 96
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "2886DCA7-5DC5-5132-995B-680581258ED4",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Magus",
+    "slug": "magus-impossible-magic-archetype-archetype-386",
+    "descr": "You’ve learned to mix physical combat with spellcasting.\n\n## Multiclass Magus Characters\n\nThe magus archetype grants you the ability to cast a limited amount spells, though you can learn more. It’s a good choice for martial characters who want to add a little magic to their repertoire. After some study, a magus multiclass character can learn the ability to combine their magic and their weapon strikes into a single devastating blow.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "level": 2,
+      "prerequisites": "Strength +2 or Dexterity +2; Intelligence +2",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "impossible-magic",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Archetypes.aspx?ID=386",
+        "page": 88
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "D861285C-070C-55BA-960A-2906FF4D5A55",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Necromancer",
+    "slug": "necromancer-impossible-magic-archetype-archetype-387",
+    "descr": "Your fascination with death has allowed you to delve, however shallowly, into the magic of the dead.\n\n## Multiclass Necromancer Characters\n\nThe necromancer archetype allows you to conjure thralls to fight for you on the battlefield. It allows you to support multiple fronts of a battle and is most useful to those who like to fight in or near the front lines. Additionally, further necromantic power allows you to control large areas at a time and take advantage of your enemy’s weakest angle.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "level": 2,
+      "prerequisites": "Intelligence +2",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "impossible-magic",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Archetypes.aspx?ID=387",
+        "page": 89
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "6E0D91EA-8EDA-5B0F-AA20-FCE5D1646988",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Runesmith",
+    "slug": "runesmith-impossible-magic-archetype-archetype-388",
+    "descr": "You dabble in the fundamental magic of runes and explore the writing at the heart of the world.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "level": 2,
+      "prerequisites": "Intelligence +2",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "impossible-magic",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Archetypes.aspx?ID=388",
+        "page": 90
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "51081340-2F6A-59CE-8593-75C4CD262E21",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Soulforger",
+    "slug": "soulforger-impossible-magic-archetype-archetype-393",
+    "descr": "_**PFS Note** Corruption mechanics are not appropriate for PFS play._\n\nYour devotion to a cause grants you the power to summon and wield a soulforged armament tethered to the very essence of your spirit. You’re driven to fulfill your destiny. The unification of your soul with your weaponry ensures you remain dangerous at all times, even when seemingly unarmed. At any moment, you can unleash your wrath upon those who oppose your will, smiting your enemies with the manifested power of conviction.\n\nSoulforged armaments can be summoned only in the service of a higher purpose or calling, such as a blade called forth to avenge the wrongful death of a loved one. Even full suits of armor can manifest from the sheer power of a warrior’s dedication to a cause. Weaponry, shields, or armor created in this way often bear a visual resemblance to the purpose they’re summoned to fulfill.\n\n[Click here for more rules on using this archetype.](/rule/soulforger-impossible-magic-rules-rules-3688)\n\n## Essence Powers\n\nYour soulforged armament has an essence power you choose when you first bind it. It\ngains the power temporarily when you manifest its essence form. Each power has a\ncorruption flaw that affects you if you have _soulforged corruption_. Essence powers\nthat only apply to some types of armament indicate which.\n\n## Adaptable Persona\n\nTransmutation\n\nArmor only. When you manifest the essence form, gain your choice of a climb Speed or swim Speed equal to your land Speed. If you're 8th level or higher, you can choose a fly Speed instead.\n\n**Corruption Flaw** You take a –10-foot penalty to all your Speeds.\n\n## Bounding Spirit\n\nMelee weapon only. The weapon gains the thrown 30 feet trait and has the [_returning_](/item/returning-gm-core) rune (even if it already has its maximum number of property runes).\n\n**Corruption Flaw** When you make a Strike with a thrown or ranged weapon and miss, reroll the Strike, targeting your ally nearest to the target. This Strike uses the same multiple attack penalty as the missed Strike and doesn't count toward your multiple attack penalty.\n\n## Deep-Seeded Fear\n\nYou gain a +2 status bonus to your Intimidation checks and don't take any penalties for not sharing a language when [Demoralizing](/action/demoralize-player-core) foes who can perceive your armament's essence form. When you manifest the essence form, you can attempt to Demoralize an enemy who can perceive the manifestation.\n\n**Corruption Flaw** If you attempt to Demoralize an enemy, your Demoralize also targets the ally closest to you.\n\n## Determined Toughness\n\nAny status penalties you take from the following conditions are 1 less than their condition's value: [clumsy](/condition/clumsy-player-core), [drained](/condition/drained-player-core), [enfeebled](/condition/enfeebled-player-core), [frightened](/condition/frightened-player-core), [sickened](/condition/sickened-player-core), [stupefied](/condition/stupefied-player-core). This doesn't change the actual condition value, or any other effects of the condition (such as stupefied's disruption and its DC).\n\n**Corruption Flaw** Whenever you take a status penalty from the listed conditions, you also take a –1 penalty to the same statistics.\n\n## Harmful Malice\n\nNecromancy\nNegative\n\nYour Strikes deal an additional 1d4 negative damage. Once while the armament is manifested, you can cast [_harm_](/spell/harm-player-core) as an innate spell, with a level equal to half your level rounded up.\n\n**Corruption Flaw** Reduce any damage you would deal by half your level.\n\n## Heroic Heart\n\nEnchantment\nMental\n\nYou gain a +1 status bonus to attack rolls, Perception checks, skill checks, and saves.\n\n**Corruption Flaw** You take a –1 penalty to attack rolls.\n\n## Healing Grace\n\nHealing\nNecromancy\nPositive\n\nYou gain fast healing equal to half your level. You can cast [_heal_](/spell/heal-player-core) once as an innate spell with a level equal to half your level rounded up.\n\n**Corruption Flaw** Reduce all healing you would receive or grant with a spell by half your level.\n\n## Magical Resilience\n\nAbjuration\n\nArmor or shield only. You gain a +2 status bonus to saving throws and AC against spells. If you're 5th level or higher, you can cast [_dispel magic_](/spell/dispel-magic-player-core) once as an innate spell. The spell level is equal to 1 lower than half your level rounded up (2nd level if you're 5th or 6th level, and so on).\n\n**Corruption Flaw** You take a –1 penalty to saving throws and AC against spells.\n\n## Planar Bond\n\nAbjuration\n\nArmor or shield only. When you manifest the essence form, choose one damage type: acid, chaotic, cold, electricity, evil, fire, good, lawful, negative, positive, or sonic. You gain resistance equal to your level + 2 to damage of the selected type.\n\n**Corruption Flaw** You gain weakness 1 to all damage.\n\n## Planar Pain\n\nEvocation\n\nWeapon only. When you manifest the essence form, choose one damage type: acid, chaotic, cold, electricity, evil, fire, good, lawful, negative, positive, or sonic. Attacks with the weapon deal this type of damage instead of their physical damage with a +2 status bonus to the damage.\n\n**Corruption Flaw** When you deal damage with a weapon or unarmed attack, you take 2 damage of the last type you chose for planar pain, even if the damage type normally wouldn't harm you, such as good damage if you aren't evil.\n\n## Pull of Stasis\n\nTransmutation\n\nWeapon only. Any time you hit with the soulforged weapon, the target takes a –10-foot penalty to its Speeds for 1 round. On a critical hit, the creature is [immobilized](/condition/immobilized-player-core) for 1 round instead.\n\n**Corruption Flaw** You take a –10-foot penalty to all your Speeds.\n\n## Reflecting Spirit\n\nArmor or shield only. You gain a +2 status bonus to AC against physical ranged attacks. If an enemy's physical ranged attack misses you, you can use your reaction to immediately attempt a ranged Strike against the attacker using the projectile that missed.\n\n**Corruption Flaw** You have weakness 5 to physical ranged attacks.\n\n## Resolute Defiance\n\nShield only. The shield gains a +2 status bonus to its Hardness and gains temporary Hit Points equal to your level + 2 that last until the essence effect ends. If you don't have the [Shield Block](/feat/shield-block-player-core) reaction, you gain it while your shield is manifested.\n\n**Corruption Flaw** When you take damage while Raising a Shield or use Shield Block, attempt a DC 5 flat check. If you fail, the shield is Dismissed if it's your soulforged armament or Dropped if it's a different shield.",
+    "data": {
+      "rarity": "uncommon",
+      "traits": [],
+      "level": 2,
+      "prerequisites": "or ability to cast divine spells",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "impossible-magic",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Archetypes.aspx?ID=393",
+        "page": 98
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "4F6FA295-DE79-524D-8CC4-C83DDDB81389",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spellshifter",
+    "slug": "spellshifter-impossible-magic-archetype-archetype-394",
+    "descr": "You may or may not cast spells, but you’ve always possessed an uncanny knack for attuning yourself to the ebb and flow of the mystical currents that power them. Thanks to specialized training or natural aptitude, you’ve honed this gift into the ability to exert a modicum of control over magical spells cast nearby, allowing you to reshape and repurpose their energies to suit your own designs. You might use this talent for any number of purposes: to enhance the spells cast by you or your allies, to weaken and confound magic-wielding enemies, or even just to covertly humiliate rival spellcasters foolish enough to cross you.\n\nAs a spellshifter, you carry a special implement called a conduit, a seemingly mundane tool or object that you use to tap into the magical vibrations that suffuse the world around you. Only you can use this conduit, and every spellshifter’s conduit is unique. Yours might represent something distinctive about your personality, your relationship to magic, or the circumstances under which you first discovered your powers.\n\nSpellshifters aren’t widely known in many parts of the world, and individuals with the innate potential to become one are sometimes regarded by distrustful spellcasters as jinxes whose mere presence might cause magic to malfunction or behave unpredictably. Past experience with these sorts of superstitions might drive you to actively conceal your powers from those who might fear them, or it might motivate you to seek out any opportunity to flaunt them openly, refusing to be cowed by the prejudice of others.",
+    "data": {
+      "rarity": "uncommon",
+      "traits": [],
+      "level": 2,
+      "prerequisites": "Trained in Arcana",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "impossible-magic",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Archetypes.aspx?ID=394",
+        "page": 102
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "1D559B5A-BCFE-544D-A67F-2ADD9EB85AA7",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Summoner",
+    "slug": "summoner-impossible-magic-archetype-archetype-389",
+    "descr": "You have a tenuous connection to an eidolon.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "level": 2,
+      "prerequisites": "Charisma +2",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "impossible-magic",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Archetypes.aspx?ID=389",
+        "page": 91
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "A6103E8E-A7D3-5183-A1D9-9A47EF913695",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Veil Dancer",
+    "slug": "veil-dancer-impossible-magic-archetype-archetype-395",
+    "descr": "There are gaps in reality, minute interstices like the spaces between threads in a cloth. These hidden pockets of the Universe, though not extraplanar, are imperceptible and inaccessible to most, who go about their daily lives without realizing they’re metaphorically stepping over thousands of tiny cracks per day. Time and space act oddly in these gaps, providing hiding places, instantaneous transportation, and escape routes for those who know where to look.\n\nYou know where to look.\n\nYou’ve studied these small fissures, imbuing yourself with the power to make use of them. Though you may or may not be a formal spellcaster, you use this innate magic to conceal yourself or maneuver into advantageous positions. In a skirmish, you rely on the element of surprise, with your hit-and-run tactics keeping your foes uncertain where the next blow might come from. You’re skilled at sneaking about unseen, getting in and out of places before anyone even notices your infiltration. Thieves and assassins often learn the ways of the veil dancer, but anyone who wishes to rely on stealth and short-range teleportation in combat and exploration might make use of such techniques.\n\nThe art of veil dancing was first developed in Nex. Some sources say it was developed by the archmage Nex himself, while others claim it was honed at [Nethysian](/deity/nethys-the-all-seeing-eye-divine-mysteries-deity-deity-288) temples by sacred guardians of the faith. From there, the techniques rapidly spread throughout the Inner Sea and the rest of Golarion. Due to the tradition’s association with thievery and assassinations, some are wary of those who openly profess to be veil dancers, though most veil dancers would claim that the practice is merely a tool, one that can be put to either benevolent or malevolent ends.\n\nVeil dancers are more common in places where a large proportion of the population has magical training or exposure to magical energies, such as Nex, Jalmeray, New Thassilon, and the city-state of Nantambu in the Mwangi Expanse. You might have learned the magic formally or developed your abilities on your own. In either case, you pride yourself on your ability to vanish and reappear where people least expect you. For you, distances and heights are no barrier, merely a puzzle to be solved.\n\n## Additional Feats\n\nThis archetype has some feats at a level other than their original level.\nSuch feats are marked with a \\*.\n\n[Click here for the full rules on Additional Feats](/rule/additional-feats-rules-2130).",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "level": 2,
+      "prerequisites": "Trained in Stealth",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "impossible-magic",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Archetypes.aspx?ID=395",
+        "page": 104
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "9C75D632-DB92-56F3-8798-31FC63BBA70D",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "World Rouser",
+    "slug": "world-rouser-impossible-magic-archetype-archetype-396",
+    "descr": "Life abounds from the highest mountain peaks to the driest deserts to the deepest seas, worlds that nurture plants and shelter animals. But you know worlds are wonders beyond merely sustaining life. A world like Golarion can cage a god, can recover from 1,000 years of darkness, can destroy a civilization like Tar Khadurrm.\n\nYou know what worlds can truly do—and why they don’t. You know they sleep, as they have since almost the moment they were created. But more importantly, you know how to wake a world, if only for a few moments. You call to them, and they stir from their slumber. And during those brief moments where they wake, these worlds speak back to you, whispering in a language only you can hear. Alert, they take actions to sustain you, working their will via the animals, plants, and terrain that call it home.\n\nThose who share this secret are known as world rousers. On Golarion, they are most common among those who live in the wild—druids and rangers especially—where the voice of the world isn’t drowned out by the noise of civilization. Gnomes, with their roots in the restless First World, often learn to bestir the world, as do those who live along ley lines and where the barrier between the Universe and the First World is thin. In those places, the world seems to rest more fitfully.",
+    "data": {
+      "rarity": "uncommon",
+      "traits": [],
+      "level": 2,
+      "prerequisites": "Trained in Nature",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "impossible-magic",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Archetypes.aspx?ID=396",
+        "page": 106
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  }
+]

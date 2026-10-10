@@ -1,0 +1,864 @@
+[
+  {
+    "id": "C756A8B9-2C6E-517E-81B5-4AA430F49ADA",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Aloof Firmament",
+    "slug": "aloof-firmament-tian-xia-character-guide-hybrid-study-hybrid-study-7",
+    "descr": "You're a philosopher of the sword who codifies your study of qinggong along principles arcane and martial. Your blade teaches morality and immortality, and you illustrate its lessons with an academician's rigor. Through your training, you've learned to move about with grace and create opportunity to strike foes.\n\n You gain the [Cat Fall](/feat/cat-fall-player-core) general feat, though you benefit from it only as long as you aren't using a shield and are wearing light or no armor.\n\n While in Arcane Cascade stance, your steps become even lighter, giving you the benefits of the [Quick Jump](/feat/quick-jump-player-core) general feat. When you [Fly](/action/fly-player-core), [Leap](/action/leap-player-core), [High Jump](/action/high-jump-player-core), or [Long Jump](/action/long-jump-player-core) while in that stance, your movement doesn't trigger reactions. If you take one of these actions, the next Strike you make before the end of your turn with a one-handed weapon in the sword group has greater damage from Arcane Cascade. Increase the extra damage to 4; increase it to 6 if you have weapon specialization, or to 8 if you have greater weapon specialization. You must have your other hand completely free; the extra damage doesn't apply if you have a free-hand weapon or other item in that hand, even if you would normally be able to use the hand for other things.\n\n**Conflux Spell** [Sky Laughs at Waves](/spell/sky-laughs-at-waves-tian-xia-character-guide-spell-spell-2135)\n\n**Studious Spell (7th)** [Water Walk](/spell/water-walk-player-core)\n\n**Studious Spell (11th)** [Wall of Wind](/spell/wall-of-wind-player-core)\n\n**Studious Spell (13th)** Variable Gravity",
+    "data": {
+      "type": "other",
+      "category": "Magus Hybrid Study",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/HybridStudies.aspx?ID=7"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "tian-xia-character-guide",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "hybrid-study",
+      "magus-hybrid-study",
+      "remaster",
+      "tian-xia-character-guide"
+    ],
+    "sources": [
+      {
+        "name": "Tian Xia Character Guide",
+        "url": "https://2e.aonprd.com/HybridStudies.aspx?ID=7",
+        "page": 112
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "D22CC4F9-DC87-57C8-9CC8-55A09E96CAE2",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Dazzling Show",
+    "slug": "dazzling-show-tian-xia-character-guide-familiar-ability-familiar-ability-170",
+    "descr": "**Ability Type** Specific Familiar - Kinnars\n\nYour kinnara flashes his brilliant feathers. Each creature within a 30-foot [emanation](/rule/emanation-rules-2387) must attempt a Will save against your class DC or spell DC, whichever is higher, or be [dazzled](/condition/dazzled-player-core) for 2 rounds.",
+    "data": {
+      "type": "other",
+      "category": "Familiar Ability",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Familiars.aspx?ID=170"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "tian-xia-character-guide",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "familiar-ability",
+      "remaster",
+      "tian-xia-character-guide"
+    ],
+    "sources": [
+      {
+        "name": "Tian Xia Character Guide",
+        "url": "https://2e.aonprd.com/Familiars.aspx?ID=170",
+        "page": 124
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "F6BFCBD3-FAFE-5496-95B3-79498283D99B",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Durian Crab",
+    "slug": "durian-crab-tian-xia-character-guide-animal-companion-animal-companion-108",
+    "descr": "In the southern provinces of Nagajor, Xa Hoi, throughout the archipelago of Minata, and hidden within the thick overgrowth of the Valashmai Jungle are the notorious killer crustaceans known only as durian crabs. Using their large, powerful claws, they scale the trunks of tall trees, hiding their presence away from even the most observant of prey. When the time is right, they fall, plummeting onto their prey and letting the momentum and prickly thorns of their shells earn them their quarry.\n\n**Size** Small or Medium\n\n**Melee**\n**Single Action**\nclaw ([Agile](/trait/agile)),\n**Damage** 1d6 piercing\n\n**Str** +3\n\n**Dex** +2\n\n**Con** +1\n\n**Int** -4\n\n**Wis** +2\n\n**Cha** +0\n\n**Hit Points** 6\n\n**Skill** Stealth\n\n**Senses** Darkvision\n\n**Speed** 20 feet, climb 20 feet, swim 20 feet\n\n**Support Benefit** Your durian crab launches itself as part of your ranged attack to throw your enemies off balance. Until the start of your next turn, as long as your crab is within your reach, your ranged Strikes that deal damage to a creature within 30 feet make the target [off-guard](/condition/off-guard-player-core) until the end of your next turn. Your crab scuttles or launches itself back to the same space from which you threw it immediately after making a [Strike](/action/strike-player-core), allowing you to hurl it multiple times.\n\n**Advanced Maneuver** Crab Cannon",
+    "data": {
+      "type": "other",
+      "category": "Animal Companion",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/AnimalCompanions.aspx?ID=108"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "tian-xia-character-guide",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "animal",
+      "animal-companion",
+      "minion",
+      "remaster",
+      "tian-xia-character-guide"
+    ],
+    "sources": [
+      {
+        "name": "Tian Xia Character Guide",
+        "url": "https://2e.aonprd.com/AnimalCompanions.aspx?ID=108",
+        "page": 122
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "6FA3C19A-12D9-5A8C-BBDB-1956CB69AACF",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Flatten",
+    "slug": "flatten-tian-xia-character-guide-familiar-ability-familiar-ability-175",
+    "descr": "**Ability Type** Specific Familiar - Shikigami\n\nYour familiar can flatten itself to the width of a sheet of paper, easily fitting through the smallest of cracks and gaps. So long as a door or other obstacle has a gap that can fit a sheet of paper, your familiar can move through it without needing to [Squeeze](/action/squeeze-player-core).",
+    "data": {
+      "type": "other",
+      "category": "Familiar Ability",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Familiars.aspx?ID=175"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "tian-xia-character-guide",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "familiar-ability",
+      "remaster",
+      "tian-xia-character-guide"
+    ],
+    "sources": [
+      {
+        "name": "Tian Xia Character Guide",
+        "url": "https://2e.aonprd.com/Familiars.aspx?ID=175",
+        "page": 125
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "A8447BDA-7157-5CC4-84B9-FE7B0F8EC554",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Hermit Krait",
+    "slug": "hermit-krait-tian-xia-character-guide-animal-companion-animal-companion-109",
+    "descr": "There are countless tales of young children wallowing in the shallow waters, pressing the mouth of a seemingly empty shell to their ears, hoping to hear roaring waves, only to be met with a reptilian hiss and the bite of two fangs. There’s more than meets the eye when it comes to hermit kraits, in multiple ways. On the surface, the creature seems like a mundane shell taken over by a den of snakes, but any attempt to pry it from its home will only kill it, revealing a strange, reptilian creature with a multitude of heads.\n\n**Size** Small\n\n**Melee**\n**Single Action**\nfangs ([Agile](/trait/agile), [Finesse](/trait/finesse)),\n**Damage** 1d6 piercing\n\n**Str** +2\n\n**Dex** +3\n\n**Con** +2\n\n**Int** -4\n\n**Wis** +1\n\n**Cha** +0\n\n**Hit Points** 6\n\n**Skill** Stealth\n\n**Senses** [low-light vision](/rule/low-light-vision-rules-2411), [scent](/rule/scent-rules-2412) (imprecise, 30 feet)\n\n**Speed** 20 feet, burrow 15 feet, swim 20 feet\n\n**Support Benefit** Your hermit krait bites at your foes with venomous fangs. Until the start of your next turn, your Strikes that damage a creature in your hermit krait’s reach also deal 1d6 [persistent poison damage](/condition/persistent-damage-player-core). If your hermit krait is nimble or savage, the persistent poison damage increases to 2d6.\n\n**Advanced Maneuver** Defensive Curl",
+    "data": {
+      "type": "other",
+      "category": "Animal Companion",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/AnimalCompanions.aspx?ID=109"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "tian-xia-character-guide",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "animal",
+      "animal-companion",
+      "minion",
+      "remaster",
+      "tian-xia-character-guide"
+    ],
+    "sources": [
+      {
+        "name": "Tian Xia Character Guide",
+        "url": "https://2e.aonprd.com/AnimalCompanions.aspx?ID=109",
+        "page": 122
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "30342898-6E7D-533D-A93C-12F05B12CA08",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Kindling",
+    "slug": "kindling-tian-xia-character-guide-familiar-ability-familiar-ability-169",
+    "descr": "**Ability Type** Master\n\nYou can immolate your familiar’s body for a surge of power. Once per day as a free action, when you [Cast a Spell](/action/cast-a-spell-player-core) that has the [fire](/trait/fire) trait, deals damage, and doesn’t have a duration, you can sacrifice your familiar to empower the spell. Your familiar is immediately slain, and you gain a status bonus to that spell’s damage equal to twice the spell level.",
+    "data": {
+      "type": "other",
+      "category": "Familiar Ability",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Familiars.aspx?ID=169"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "tian-xia-character-guide",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "familiar-ability",
+      "remaster",
+      "tian-xia-character-guide"
+    ],
+    "sources": [
+      {
+        "name": "Tian Xia Character Guide",
+        "url": "https://2e.aonprd.com/Familiars.aspx?ID=169",
+        "page": 124
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "1286DDDC-A480-52E3-9E7F-5062A774A5BC",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Kinnars",
+    "slug": "kinnars-tian-xia-character-guide-familiar-specific-familiar-specific-46",
+    "descr": "**Required Number of Abilities** 6\n\n**Granted Abilities** Darkvision, Independent, Lifelink, Manual Dexterity, Speech\n\nThe kinnari seats herself, pressing an instrument of gourds and strings to her shoulder. The kinnara stands ready, with his tail upright, preparing for his beloved’s rhythm. Kinnars are half-human, half-songbird lovers who sing, dance, and perform for and with each other, forever accompanying each other in their arts. Severance creates suffering, and neither can stay apart from the other else they both become heartbroken and die. While most kinnar pairings serving as familiars include a female kinnari and male kinnara, kinnar pairings of different genders aren’t uncommon. Kinnar familiars have access to all of their familiar abilities regardless of the genders of the kinnars.",
+    "data": {
+      "type": "other",
+      "category": "Specific Familiar",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Familiars.aspx?ID=46&Specific=true"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "tian-xia-character-guide",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "celestial",
+      "familiar-specific",
+      "remaster",
+      "specific-familiar",
+      "tian-xia-character-guide"
+    ],
+    "sources": [
+      {
+        "name": "Tian Xia Character Guide",
+        "url": "https://2e.aonprd.com/Familiars.aspx?ID=46&Specific=true",
+        "page": 124
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "65963859-68DC-5ED4-A2C9-C79CDDC73705",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Lantern Wisp",
+    "slug": "lantern-wisp-tian-xia-character-guide-familiar-specific-familiar-specific-47",
+    "descr": "**Required Number of Abilities** 6\n\n**Granted Abilities** Construct, Flier, Kindling, Resistance (Fire and Cold), Tough\n\nLantern wisps appear as colorful, hand-made lanterns aimlessly floating around in the dark of the night, seemingly always with its flame lit in full. They house harmless, little wisps that have settled into forgotten children’s playthings.",
+    "data": {
+      "type": "other",
+      "category": "Specific Familiar",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Familiars.aspx?ID=47&Specific=true"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "tian-xia-character-guide",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "construct",
+      "familiar-specific",
+      "remaster",
+      "specific-familiar",
+      "tian-xia-character-guide"
+    ],
+    "sources": [
+      {
+        "name": "Tian Xia Character Guide",
+        "url": "https://2e.aonprd.com/Familiars.aspx?ID=47&Specific=true",
+        "page": 125
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "5E3B31C8-F8F6-5C4B-9560-9AB135BB6860",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Makhluk Wayang",
+    "slug": "makhluk-wayang-tian-xia-character-guide-familiar-specific-familiar-specific-48",
+    "descr": "**Required Number of Abilities** 8\n\n**Granted Abilities** Construct, Manual Dexterity, Play Dead, Speech, Tough, Versatile Form\n\nMakhluk wayangs are shadow puppets, pieces of show and tell made animate, carrying no more than the personalities they were crafted to inhabit. Unlike the wayang people, your familiar is a shadowy incorporeal being without a body of its own. A makhluk wayang possesses a simple puppet made of leather or, sometimes, from thick parchment.",
+    "data": {
+      "type": "other",
+      "category": "Specific Familiar",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Familiars.aspx?ID=48&Specific=true"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "tian-xia-character-guide",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "construct",
+      "familiar-specific",
+      "remaster",
+      "specific-familiar",
+      "tian-xia-character-guide"
+    ],
+    "sources": [
+      {
+        "name": "Tian Xia Character Guide",
+        "url": "https://2e.aonprd.com/Familiars.aspx?ID=48&Specific=true",
+        "page": 125
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "355777D6-1755-53A2-873B-0877BF9C14D7",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Mass-Produced",
+    "slug": "mass-produced-tian-xia-character-guide-familiar-ability-familiar-ability-176",
+    "descr": "**Ability Type** Specific Familiar - Shikigami\n\nIf your shikigami dies, you can rebind its spirit to another paper doll during your next daily preparations.",
+    "data": {
+      "type": "other",
+      "category": "Familiar Ability",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Familiars.aspx?ID=176"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "tian-xia-character-guide",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "familiar-ability",
+      "remaster",
+      "tian-xia-character-guide"
+    ],
+    "sources": [
+      {
+        "name": "Tian Xia Character Guide",
+        "url": "https://2e.aonprd.com/Familiars.aspx?ID=176",
+        "page": 125
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "0A831B64-DD2C-57E2-8333-D5EF48F851C0",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Play Dead",
+    "slug": "play-dead-tian-xia-character-guide-familiar-ability-familiar-ability-167",
+    "descr": "**Ability Type** Familiar\n\nYour familiar pretends to be inanimate, hiding its supernatural capabilities. It can [Hide](/action/hide-player-core) without any [cover](/rule/cover-rules-2372) or concealment from creatures that don’t realize it’s alive, so long as it’s in a location where it wouldn’t seem out of place. If the familiar succeeds, onlookers still see it, but they mistake it for an inanimate object. After being fooled once, they realize your familiar is alive, and it can’t Hide from them in that way again.",
+    "data": {
+      "type": "other",
+      "category": "Familiar Ability",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Familiars.aspx?ID=167"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "tian-xia-character-guide",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "familiar-ability",
+      "remaster",
+      "tian-xia-character-guide"
+    ],
+    "sources": [
+      {
+        "name": "Tian Xia Character Guide",
+        "url": "https://2e.aonprd.com/Familiars.aspx?ID=167",
+        "page": 124
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "7B5B98D9-9B79-5D5E-916B-BA45010D04EC",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Pot of Tea",
+    "slug": "pot-of-tea-tian-xia-character-guide-familiar-ability-familiar-ability-178",
+    "descr": "**Ability Type** Specific Familiar - Tapir Sage\n\nYour tapir sage is trained in the art of herbal medication and can prepare a pot of healing tea. Once per day, your familiar can spend 10 minutes to brew fine tea leaves and herbs. The tapir sage must focus on the tea during this time—if it performs any other action, the tea is ruined, though the tapir sage can start over again. Once the pot of tea is brewed, the tapir sage can serve two cups of tea with each of the below actions; each time, it gives 1 cup to an adjacent ally, and it drinks 1 cup itself. The three infusions must be poured and offered in order (for example, the tapir sage can’t serve the second infusion until it has served the first). The tea remains good for 1 hour after brewing; if not drunk by this point, the pot goes cold, and any remaining tea loses its power.\n\n- First Infusion **Two Actions** The infusion restores a number of Hit Points equal to 1d8 times half your level (minimum 1d8) and grants a +4 circumstance bonus to the next saving throw against [disease](/trait/disease) or [poison](/trait/poison) attempted within 24 hours.\n- Second Infusion **Two Actions** The infusion restores a number of Hit Points equal to 1d4 times half your level (minimum 1d4) and grants a +2 circumstance bonus to the next saving throw against disease or poison attempted within 24 hours.\n- Third Infusion **Two Actions** The infusion grants temporary Hit Points equal to your level for 1 hour.",
+    "data": {
+      "type": "other",
+      "category": "Familiar Ability",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Familiars.aspx?ID=178"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "tian-xia-character-guide",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "familiar-ability",
+      "remaster",
+      "tian-xia-character-guide"
+    ],
+    "sources": [
+      {
+        "name": "Tian Xia Character Guide",
+        "url": "https://2e.aonprd.com/Familiars.aspx?ID=178",
+        "page": 125
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "AE66E81D-F675-52F2-B4DE-4A74BEB4B9EA",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Seal-Bearer",
+    "slug": "seal-bearer-tian-xia-character-guide-familiar-ability-familiar-ability-177",
+    "descr": "**Ability Type** Specific Familiar - Shikigami\n\nDuring your daily preparations, you can inscribe a symbol or seal upon your shikigami that corresponds to the air, earth, fire, metal, water, or wood element. If you use the shikigami’s kindling ability that day, it applies to a spell that deals damage with the relevant trait to the chosen element, instead of only the [fire](/trait/fire) trait.",
+    "data": {
+      "type": "other",
+      "category": "Familiar Ability",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Familiars.aspx?ID=177"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "tian-xia-character-guide",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "familiar-ability",
+      "remaster",
+      "tian-xia-character-guide"
+    ],
+    "sources": [
+      {
+        "name": "Tian Xia Character Guide",
+        "url": "https://2e.aonprd.com/Familiars.aspx?ID=177",
+        "page": 125
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "1C5221A5-69C7-5E26-9E74-61C66774E7D3",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Shadow Projection",
+    "slug": "shadow-projection-tian-xia-character-guide-familiar-ability-familiar-ability-174",
+    "descr": "**Ability Type** Specific Familiar - Makhluk Wayang\n\nYour makhluk wayang projects its shadow into a larger silhouette of itself, allowing it to grasp things outside of its obvious reach. It increases its reach to 10 feet for the purposes of taking non-hostile [Interact](/action/interact-player-core) actions until the end of your turn.",
+    "data": {
+      "type": "other",
+      "category": "Familiar Ability",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Familiars.aspx?ID=174"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "tian-xia-character-guide",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "familiar-ability",
+      "remaster",
+      "tian-xia-character-guide"
+    ],
+    "sources": [
+      {
+        "name": "Tian Xia Character Guide",
+        "url": "https://2e.aonprd.com/Familiars.aspx?ID=174",
+        "page": 125
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "D2B8A9F5-D806-508C-8D87-02DE7AD3B961",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Shikigami",
+    "slug": "shikigami-tian-xia-character-guide-familiar-specific-familiar-specific-49",
+    "descr": "**Required Number of Abilities** 6\n\n**Granted Abilities** Construct, Flier, Kindling, Play Dead, Tough, Versatile Form\n\nShikigami are small spirits typically summoned and bound to a paper figure, so confined to carry out the deeds and embody the will of their masters. More often than not, the naivete of these amateur practitioners of esoteric magics means they’ll find themselves at the mercy of their own shikigami.",
+    "data": {
+      "type": "other",
+      "category": "Specific Familiar",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Familiars.aspx?ID=49&Specific=true"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "tian-xia-character-guide",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "construct",
+      "familiar-specific",
+      "remaster",
+      "specific-familiar",
+      "tian-xia-character-guide"
+    ],
+    "sources": [
+      {
+        "name": "Tian Xia Character Guide",
+        "url": "https://2e.aonprd.com/Familiars.aspx?ID=49&Specific=true",
+        "page": 125
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "2633AAFC-1105-50E9-8DCD-5771DB16F6B1",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Soul Bond",
+    "slug": "soul-bond-tian-xia-character-guide-familiar-ability-familiar-ability-171",
+    "descr": "**Ability Type** Specific Familiar - Kinnars\n\nYour kinnars’ spirits are intrinsically linked. While they’re two beings, they’re still considered a single creature, act as a single creature, use normal familiar statistics, and are subject to all of the normal effects that come with being a single creature. Their linked spirits allow them to stave off attacks against their mind. If your kinnars are subjected to a [mental](/trait/mental) effect that allows a saving throw, they roll twice and take the higher result; this is a [fortune](/trait/fortune) effect.",
+    "data": {
+      "type": "other",
+      "category": "Familiar Ability",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Familiars.aspx?ID=171"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "tian-xia-character-guide",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "familiar-ability",
+      "remaster",
+      "tian-xia-character-guide"
+    ],
+    "sources": [
+      {
+        "name": "Tian Xia Character Guide",
+        "url": "https://2e.aonprd.com/Familiars.aspx?ID=171",
+        "page": 124
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "339B3472-6367-5130-B827-C6C3F84D1A8A",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Stunning Flare",
+    "slug": "stunning-flare-tian-xia-character-guide-familiar-ability-familiar-ability-173",
+    "descr": "**Ability Type** Specific Familiar - Lantern Wisp\n\nYour lantern wisp unleashes a large burst of flame, casting an unnaturally bright light. Each creature within a 15-foot [emanation](/rule/emanation-rules-2387) must attempt a Fortitude save against your class DC or spell DC, whichever is higher, or be [blinded](/condition/blinded-player-core) for 1 round and then [dazzled](/condition/dazzled-player-core) for 2 rounds after.",
+    "data": {
+      "type": "other",
+      "category": "Familiar Ability",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Familiars.aspx?ID=173"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "tian-xia-character-guide",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "familiar-ability",
+      "remaster",
+      "tian-xia-character-guide"
+    ],
+    "sources": [
+      {
+        "name": "Tian Xia Character Guide",
+        "url": "https://2e.aonprd.com/Familiars.aspx?ID=173",
+        "page": 125
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "430EA480-A894-5EDE-9750-AFB00A45EFF4",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Sundaflora",
+    "slug": "sundaflora-tian-xia-character-guide-animal-companion-animal-companion-110",
+    "descr": "_**PFS Note** Characters from Tian Xia have access to the sundaflora animal companion._\n\nSundafloras are friendly, bipedal creatures with brightly colored, overlapping waves of petal-like scales covering most of their body. Though rare to find, they're most common in the artificial garden landscapes of Goka, usually seen waltzing around the grounds with their hands clasped together, giving off a pensive appearance.\n\n**Size** Small\n\n**Melee**\n**Single Action**\nclubbed tail,\n**Damage** 1d8 bludgeoning\n\n**Melee**\n**Single Action**\nclaws ([Agile](/trait/agile)),\n**Damage** 1d6 slashing\n\n**Str** +2\n\n**Dex** +3\n\n**Con** +1\n\n**Int** -4\n\n**Wis** +1\n\n**Cha** +1\n\n**Hit Points** 6\n\n**Skill** Performance\n\n**Senses** [low-light vision](/rule/low-light-vision-rules-2411), [scent](/rule/scent-rules-2412) (imprecise, 30 feet)\n\n**Speed** 20 feet, swim 15 feet\n\n**Support Benefit** Your sundaflora inspires your allies with its calm demeanor and agile steps. Choose one ally within 30 feet of your sundaflora. They gain a +1 circumstance bonus to their next attack roll to Strike a foe within your sundaflora’s reach. The bonus lasts until the first time your ally uses it or until the beginning of your next turn, whichever comes first.\n\n**Advanced Maneuver** Flower Dance",
+    "data": {
+      "type": "other",
+      "category": "Animal Companion",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/AnimalCompanions.aspx?ID=110"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "tian-xia-character-guide",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "animal",
+      "animal-companion",
+      "minion",
+      "remaster",
+      "tian-xia-character-guide"
+    ],
+    "sources": [
+      {
+        "name": "Tian Xia Character Guide",
+        "url": "https://2e.aonprd.com/AnimalCompanions.aspx?ID=110",
+        "page": 122
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "442815B0-2B1D-5D39-94DC-DE4004E8ECA3",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Tapir Sage",
+    "slug": "tapir-sage-tian-xia-character-guide-familiar-specific-familiar-specific-50",
+    "descr": "**Required Number of Abilities** 6\n\n**Granted Abilities** Darkvision, Kinspeech, Speech, Toolbearer, Valet\n\nTapir sages are intelligent creatures that desire to protect the natural world. They carry large rattan baskets on their backs.",
+    "data": {
+      "type": "other",
+      "category": "Specific Familiar",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Familiars.aspx?ID=50&Specific=true"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "tian-xia-character-guide",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "beast",
+      "familiar-specific",
+      "remaster",
+      "specific-familiar",
+      "tian-xia-character-guide"
+    ],
+    "sources": [
+      {
+        "name": "Tian Xia Character Guide",
+        "url": "https://2e.aonprd.com/Familiars.aspx?ID=50&Specific=true",
+        "page": 125
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "9A19847A-AE4B-5490-B862-4075189FD2A9",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Tikar Urchinpad",
+    "slug": "tikar-urchinpad-tian-xia-character-guide-animal-companion-animal-companion-111",
+    "descr": "Tikar urchinpads are curious creatures that look similar to jellyfish, have heads that resemble a floating plant or pad, and make use of their slimy tendrils to consume creatures that attempt to rest on the urchinpad’s head. Tikar urchinpads tend to float about in still water, soaking in the warmth of sunlight, not a care in the world. To the untrained eye, they appear only as a myriad of small, colorful squares sprawled out across a round pad, forming silhouettes of shapes that dazzle across the water’s surface.\n\n**Size** Small or Medium\n\n**Melee**\n**Single Action**\ntendril ([Agile](/trait/agile), [Finesse](/trait/finesse)),\n**Damage** 1d6 slashing\n\n**Str** +2\n\n**Dex** +3\n\n**Con** +2\n\n**Int** -4\n\n**Wis** +1\n\n**Cha** +0\n\n**Hit Points** 6\n\n**Skill** Stealth\n\n**Senses** [scent](/rule/scent-rules-2412)(precise, 10 feet)\n\n**Speed** 10 feet, swim 40 feet\n\n**Support Benefit** Your tikar urchinpad attempts to wrap its tendrils around your foe’s limbs, pulling it off balance. Until the end of your next turn, as long as you’re adjacent to your urchinpad, if you attempt to [Shove](/action/shove-player-core) or [Trip](/action/trip-player-core) an opponent and roll a critical failure, you get a failure instead.\n\n**Advanced Maneuver** Wrapping Tendrils",
+    "data": {
+      "type": "other",
+      "category": "Animal Companion",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/AnimalCompanions.aspx?ID=111"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "tian-xia-character-guide",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "animal",
+      "animal-companion",
+      "minion",
+      "remaster",
+      "tian-xia-character-guide"
+    ],
+    "sources": [
+      {
+        "name": "Tian Xia Character Guide",
+        "url": "https://2e.aonprd.com/AnimalCompanions.aspx?ID=111",
+        "page": 123
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "ECCAC7CD-08CE-5AFA-868F-34990CC1E5B9",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Unfurling Brocade",
+    "slug": "unfurling-brocade-tian-xia-character-guide-hybrid-study-hybrid-study-8",
+    "descr": "You disdain others’ reliance on crude contrivances of iron, instead favoring the elegance of fabric, with thread and brocade your panoply. Your mastery of qinggong allows qi-infused fabric to tear flesh, bind blades, and pierce steel.\n\n You can create a special weapon, qi-infused fabric, by Interacting to grip a length of cloth of 1 Bulk or less and filling it with your qi. If you Interact to draw the object, you can do this as part of that action. For most unfurling brocade magi, this item is a scarf, sash, ribbon, or a similarly voluminous article of worn clothing, such as long sleeves. You can use the fabric as a [bladed scarf](/item/bladed-scarf-tian-xia-character-guide-weapon-weapon-273). Unlike a normal bladed scarf, you have the option to wield the fabric in one hand instead of two. Its damage die is d4 if held in one hand. If you’re wearing handwraps of mighty blows, you can apply any of its runes to the fabric, provided those runes could be added to a bladed scarf. This begins when you wield the fabric and ends when you cease doing so.\n\n While in Arcane Cascade stance, the magical energy flowing through your fabric partially animates it to accomplish an even greater range of tricks.\n\n- If you critically succeed at an Athletics check to [Disarm](/action/disarm-player-core), you can spend a single action immediately afterward to flick your fabric, causing the disarmed object to fall to the ground in your space rather than in your opponent’s.\n- Your fabric gains the [grapple](/trait/grapple) trait. If you succeed at an Athletics check to [Grapple](/action/grapple-player-core) using your fabric, you can spend a single action immediately afterward to pull the creature 5 feet toward you.\n- When you attempt to [Trip](/action/trip-player-core) a foe using your fabric, the target can be two sizes larger than you instead of one.\n\n**Conflux Spell** [Home Among Mulberry Leaves](/spell/home-among-mulberry-leaves-tian-xia-character-guide-spell-spell-2134)\n\n**Studious Spell (7th)** [Web](/spell/web-player-core-2)\n\n**Studious Spell (11th)** [Whirling Scarves](/spell/whirling-scarves-divine-mysteries-spell-spell-2374)\n\n**Studious Spell (13th)** [Planar Tether](/spell/planar-tether-player-core)",
+    "data": {
+      "type": "other",
+      "category": "Magus Hybrid Study",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/HybridStudies.aspx?ID=8"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "tian-xia-character-guide",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "hybrid-study",
+      "magus-hybrid-study",
+      "remaster",
+      "tian-xia-character-guide"
+    ],
+    "sources": [
+      {
+        "name": "Tian Xia Character Guide",
+        "url": "https://2e.aonprd.com/HybridStudies.aspx?ID=8",
+        "page": 112
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "413A641E-CCA4-5B7A-BECE-4B1D1BC067A3",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Versatile Form",
+    "slug": "versatile-form-tian-xia-character-guide-familiar-ability-familiar-ability-168",
+    "descr": "**Ability Type** Familiar\n\nThe crafted body of your familiar allows you to make adjustments to it when required. Once per day, you can spend 10 minutes to change one [familiar](/rule/familiar-abilities-rules-2125) or [master ability](/rule/selecting-familiar-and-master-abilities-rules-2124) your familiar possesses. To select this ability, your familiar must be a construct, and you must be at least trained in Crafting.",
+    "data": {
+      "type": "other",
+      "category": "Familiar Ability",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Familiars.aspx?ID=168"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "tian-xia-character-guide",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "familiar-ability",
+      "remaster",
+      "tian-xia-character-guide"
+    ],
+    "sources": [
+      {
+        "name": "Tian Xia Character Guide",
+        "url": "https://2e.aonprd.com/Familiars.aspx?ID=168",
+        "page": 124
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "372FB5B1-F5C1-55A4-9CA0-E27FC4197B9B",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Vina Song",
+    "slug": "vina-song-tian-xia-character-guide-familiar-ability-familiar-ability-172",
+    "descr": "**Ability Type** Specific Familiar - Kinnars\n\nYour kinnari elegantly plays her instrument. Each creature within a 30-foot [emanation](/rule/emanation-rules-2387) must attempt a Will save against your class DC or spell DC, whichever is higher, or be [fascinated](/condition/fascinated-player-core) for 1 round. A kinnar can use this ability again on the next round to continue the song and force affected creatures to attempt another Will save; on a failure, a creature is fascinated for an additional round. Once the kinnar stops playing, they can’t use this ability again for 1 hour. A creature that succeeds at any save or has its fascination broken is temporarily immune to that kinnar’s Vina Song for 24 hours. Kinnars are immune to this ability.",
+    "data": {
+      "type": "other",
+      "category": "Familiar Ability",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Familiars.aspx?ID=172"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "tian-xia-character-guide",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "familiar-ability",
+      "remaster",
+      "tian-xia-character-guide"
+    ],
+    "sources": [
+      {
+        "name": "Tian Xia Character Guide",
+        "url": "https://2e.aonprd.com/Familiars.aspx?ID=172",
+        "page": 124
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "D34FC478-C0CA-5B43-8BB2-0F9B1A45155D",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Yzobu",
+    "slug": "yzobu-tian-xia-character-guide-animal-companion-animal-companion-112",
+    "descr": "Yzobusare large equines abundant through the northeastern regions of Tian Xia, from the provinces of Hongal down to middle Tian Xia in the regions of Quain and Po Li. Here, herds of hundreds, if not thousands, have established themselves as nomads who have trekked from one end of the continent to the other as an unchanging tide of nature. Naturally, this resilience has led to their incorporation into these regions’ steeds and livestock, despite their inherent foul stench.\n\n**Size** Large\n\n**Melee**\n**Single Action**\nhorn,\n**Damage** 1d8 piercing\n\n**Melee**\n**Single Action**\nhoof ([Agile](/trait/agile)),\n**Damage** 1d6 bludgeoning\n\n**Str** +3\n\n**Dex** +2\n\n**Con** +2\n\n**Int** -4\n\n**Wis** +1\n\n**Cha** +0\n\n**Hit Points** 8\n\n**Skill** Survival\n\n**Senses** [low-light vision](/rule/low-light-vision-rules-2411), [scent](/rule/scent-rules-2412) (imprecise, 30 feet)\n\n**Speed** 40 feet\n\n**Special** [mount](/action/mount-player-core)\n\n**Support Benefit** The next creature to make a melee attack against the yzobu or its rider before the start of your next turn is overwhelmed by the creature’s terrible stench and must attempt a Fortitude save. This DC is equal to your class DC or spell DC, whichever is higher. On a failure, the attacker takes a –2 circumstance penalty to its attack roll. This ability has the [olfactory](/trait/olfactory) trait.\n\n**Advanced Maneuver** Raging Stampede",
+    "data": {
+      "type": "other",
+      "category": "Animal Companion",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/AnimalCompanions.aspx?ID=112"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "tian-xia-character-guide",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "animal",
+      "animal-companion",
+      "minion",
+      "remaster",
+      "tian-xia-character-guide"
+    ],
+    "sources": [
+      {
+        "name": "Tian Xia Character Guide",
+        "url": "https://2e.aonprd.com/AnimalCompanions.aspx?ID=112",
+        "page": 123
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  }
+]

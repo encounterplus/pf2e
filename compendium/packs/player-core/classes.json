@@ -1,0 +1,1060 @@
+[
+  {
+    "id": "E25725E2-F1D8-5047-B36F-1CEA77342746",
+    "kind": "Class",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Bard",
+    "slug": "bard-player-core",
+    "descr": "",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "summary": "",
+      "attributes": [
+        "charisma"
+      ],
+      "hp": 8,
+      "perception": "expert",
+      "fortitude": "trained",
+      "reflex": "trained",
+      "will": "expert",
+      "skills": "occultism, performance",
+      "attacks": "martial, simple, unarmed",
+      "defenses": "light, unarmored",
+      "classAdvancement": "| Your Level | Class Features |\n| --- | --- |\n| 1 | Ancestry and background, attribute boosts, bard spellcasting, initial proficiencies, spell repertoire, composition spells, muse |\n| 2 | Bard feat, skill feat |\n| 3 | 2nd-rank spells, general feat, reflex expertise, signature spells, skill increase |\n| 4 | Bard feat, skill feat |\n| 5 | 3rd-rank spells, attribute boosts, ancestry feat, skill increase |\n| 6 | Bard feat, skill feat |\n| 7 | 4th-rank spells, expert spellcaster, general feat, skill increase |\n| 8 | Bard feat, skill feat |\n| 9 | 5th-rank spells, ancestry feat, fortitude expertise, performer's heart, skill increase |\n| 10 | Attribute boosts, bard feat, skill feat |\n| 11 | 6th-rank spells, bard weapon expertise, general feat, skill increase, perception mastery |\n| 12 | Bard feat, skill feat |\n| 13 | 7th-rank spells, ancestry feat, light armor expertise, skill increase, weapon specialization |\n| 14 | Bard feat, skill feat |\n| 15 | 8th-rank spells, attribute boosts, general feat, master spellcaster, skill increase |\n| 16 | Bard feat, skill feat |\n| 17 | 9th-rank spells, ancestry feat, greater performer's heart, skill increase |\n| 18 | Bard feat, skill feat |\n| 19 | General feat, legendary spellcaster, magnum opus, skill increase |\n| 20 | Attribute boosts, bard feat, skill feat |",
+      "classFeaturesText": "You gain these features as a Bard. Abilities gained at higher levels list the levels at which you gain them next to the features' names.",
+      "classFeatures": [
+        {
+          "name": "Bard Spellcasting",
+          "level": 1,
+          "text": "You draw upon magic from esoteric knowledge. You are a spellcaster and can cast spells of the occult tradition using the Cast a Spell activity.\n\nAs a bard, when you cast spells, your incantations might be musical riffs or clever limericks, your gestures might incorporate dance and dramatic pantomiming, and you might accompany your spellcasting by playing a musical instrument.\n\nEach day, you can cast up to two 1st-rank spells. You must know spells to cast them, and you learn them via the spell repertoire class feature. The number of spells you can cast each day is called your spell slots.\n\nAs you increase in level as a bard, your number of spells per day increases, as does the highest rank of spells you can cast.\n\nSome of your spells require you to attempt a spell attack to see how effective they are or have your enemies roll against your spell DC (typically by attempting a saving throw). Since your key attribute is Charisma, your spell attack modifiers and spell DCs use your Charisma modifier.\n\n### Heightening Spells\n\nWhen you get spell slots of 2nd rank and higher, you can fill those slots with stronger versions of lower-rank spells. This increases the spell's rank, heightening it to match the spell slot. You must have a spell in your spell repertoire at the rank you want to cast in order to heighten it to that rank. Many spells have specific improvements when they are heightened to certain ranks. The signature spells class feature lets you heighten certain spells freely.\n\n### Cantrips\n\nSome of your spells are cantrips. A cantrip is a special type of spell that doesn't use spell slots. You can cast a cantrip at will, any number of times per day. A cantrip is automatically heightened to half your level rounded up—this is usually equal to the highest rank of bard spell slot you have. For example, as a 1st-level bard, your cantrips are 1st-rank spells, and as a 5th-level bard, your cantrips are 3rd-rank spells."
+        },
+        {
+          "name": "Composition Spells",
+          "level": 1,
+          "text": "You can infuse your performances with magic to create unique effects called compositions. Compositions are a special type of spell that often require you to use the Performance skill when casting them. Composition spells are a type of focus spell. It costs 1 Focus Point to cast a focus spell, and you start with a focus pool of 1 Focus Point. You refill your focus pool during your daily preparations, and you can regain 1 Focus Point by spending 10 minutes using the Refocus activity to perform, write a new composition, or otherwise engage your muse.\n\nFocus spells are automatically heightened to half your level rounded up, much like cantrips. Focus spells don't require spell slots, and you can't cast them using spell slots. Taking feats can give you more focus spells and increase the size of your focus pool, though your focus pool can never hold more than 3 Focus Points. You learn the Counter Performance composition spell, protecting against auditory and visual effects.\n\n## Composition Cantrips\n\nComposition cantrips are special composition spells that don't cost Focus Points, so you can use them as often as you like. Composition cantrips are in addition to the cantrips you choose with bard spellcasting. Unlike other cantrips, you can't swap out composition cantrips gained from bard feats at a later level, unless you swap out the specific feat via retraining.\n\nYou learn the Courageous Anthem composition cantrip, which boosts your allies' attacks, damage, and defense against fear."
+        },
+        {
+          "name": "Muses",
+          "level": 1,
+          "text": "As a bard, you select one muse at 1st level. This muse leads you to great things and might be someone you know, a supernatural creature, location, deity, philosophy, or captivating mystery. Depending on the type of inspiration you receive, your 1st-level muse grants you a specific 1st-level bard feat and adds a spell to your repertoire.\n\nIn addition to this, each muse opens the door to many later bard feats. If one type of inspiration is not enough to represent your muse, consider the [Multifarious Muse](/feat/multifarious-muse-player-core) feat.\n\n- [Enigma](/feat/enigma-player-core)\n\n- Maestro\n\n- Polymath\n\n- Warrior\n\n- Zoophonia"
+        },
+        {
+          "name": "Spell Repertoire",
+          "level": 1,
+          "text": "The collection of spells you can cast is called your spell repertoire. At 1st level, you learn two 1st-rank occult spells of your choice and five occult cantrips of your choice. You choose these from the common spells from the occult list or from other occult spells to which you have access. You can cast any spell in your spell repertoire by using a spell slot of an appropriate spell rank.\n\nYou add to this spell repertoire as you increase in level. Each time you get a spell slot (see the Bard Spells per Day table), you add a spell to your spell repertoire of the same rank. At 2nd level, you select another 1st-rank spell; at 3rd level, you select two 2nd-rank spells, and so on. When you add spells, you might add a higher-rank version of a spell you already have, so you can cast a heightened version of that spell.\n\nThough you gain them at the same rate, your spell slots and the spells in your spell repertoire are separate. If a feat or other ability adds a spell to your spell repertoire, it wouldn't give you another spell slot, and vice versa.\n\n**Swapping Spells in Your Repertoire**\n\nAs you gain new spells in your repertoire, you might want to replace some of the spells you previously learned. Each time you gain a level and learn new spells, you can swap out one of your old spells for a different spell of the same rank. This spell can be a cantrip. You can also swap out spells by retraining during downtime."
+        },
+        {
+          "name": "Reflex Expertise",
+          "level": 3,
+          "text": "You've developed a knack for dodging danger. Your proficiency rank for Reflex saves increases to expert."
+        },
+        {
+          "name": "Signature Spells",
+          "level": 3,
+          "text": "You've learned to cast some of your spells more flexibly. For each spell rank you have access to, choose one spell of that rank to be a signature spell. You don't need to learn heightened versions of signature spells separately; instead, you can heighten these spells freely. If you've learned a signature spell at a higher rank than its minimum, you can also cast all its lower-rank versions without learning those separately. If you swap out a signature spell, you can choose a replacement signature spell of the same spell rank at which you learned the previous spell. You can also retrain specifically to change a signature spell to a different spell of that rank without swapping any spells; this takes as much time as retraining a spell normally does."
+        },
+        {
+          "name": "Expert Spellcaster",
+          "level": 7,
+          "text": "Your magical techniques grow stronger. Your proficiency ranks for spell attack modifiers and spell DCs increase to expert."
+        },
+        {
+          "name": "Fortitude Expertise",
+          "level": 9,
+          "text": "Your physique has grown hardy in your adventures. Your proficiency rank for Fortitude saves increases to expert."
+        },
+        {
+          "name": "Performer's Heart",
+          "level": 9,
+          "text": "The greatest performances require an understanding of your own mind and flawless concentration. Your proficiency rank for Will saves increases to master. When you roll a success on a Will save, you get a critical success instead."
+        },
+        {
+          "name": "Bard Weapon Expertise",
+          "level": 11,
+          "text": "You have become thoroughly adept with bardic weapons. Your proficiency rank for martial weapons, simple weapons, and unarmed attacks increases to expert. When you critically succeed at an attack roll using one of these weapons or an unarmed attack while one of your compositions is active, you apply the critical specialization effect for that weapon or unarmed attack."
+        },
+        {
+          "name": "Perception Mastery",
+          "level": 11,
+          "text": "You've developed keen awareness and attention to detail. Your proficiency rank for Perception increases to master."
+        },
+        {
+          "name": "Light Armor Expertise",
+          "level": 13,
+          "text": "You've learned how to dodge while wearing light or no armor. Your proficiency ranks for light armor and unarmored defense increase to expert."
+        },
+        {
+          "name": "Weapon Specialization",
+          "level": 13,
+          "text": "You've learned how to inflict greater injuries with the weapons you know best. You deal an additional 2 damage with weapons and unarmed attacks in which you are an expert. This damage increases to 3 if you're a master, and 4 if you're legendary."
+        },
+        {
+          "name": "Master Spellcaster",
+          "level": 15,
+          "text": "You pluck the threads of magic like the strings of a harp. Your proficiency ranks for spell attack modifiers and spell DCs increase to master."
+        },
+        {
+          "name": "Greater Performer's Heart",
+          "level": 17,
+          "text": "Your performances warp the mind and cause emotions to flower, and understanding how to do this also forges an incomparable understanding of your own mind. Your proficiency rank for Will saves increases to legendary. When you roll a critical failure on a Will save, you get a failure instead. When you fail a Will save against an effect that deals damage, you take half damage."
+        },
+        {
+          "name": "Legendary Spellcaster",
+          "level": 19,
+          "text": "Your command of magic is the stuff of legends. Your proficiency ranks for spell attack modifiers and spell DCs increase to legendary."
+        },
+        {
+          "name": "Magnum Opus",
+          "level": 19,
+          "text": "You have tuned your spellcasting to the highest caliber. Add two common 10th-rank occult spells to your repertoire. You gain a single 10th-rank spell slot you can use to cast these spells using bard spellcasting. Unlike other spell slots, you can't use 10th-rank slots with abilities that give you more spell slots or that let you cast spells without expending spell slots. You don't gain more 10th-rank spells as you level up, but you can take the [Perfect Encore](/feat/perfect-encore-player-core) feat to gain a second slot."
+        }
+      ],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C6722B8B-3AB7-53F6-9992-674D959D61A8",
+    "kind": "Class",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Cleric",
+    "slug": "cleric-player-core",
+    "descr": "",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "summary": "",
+      "attributes": [
+        "wisdom"
+      ],
+      "hp": 8,
+      "perception": "trained",
+      "fortitude": "trained",
+      "reflex": "trained",
+      "will": "expert",
+      "skills": "religion",
+      "attacks": "simple, unarmed",
+      "defenses": "unarmored",
+      "classAdvancement": "| Your Level | Class Features |\n| --- | --- |\n| 1 | Ancestry and background, attribute boosts, initial proficiencies, deity, cleric spellcasting, divine font, doctrine |\n| 2 | Cleric feat, skill feat |\n| 3 | 2nd-rank spells, general feat, second doctrine, skill increase |\n| 4 | Cleric feat, skill feat |\n| 5 | 3rd-rank spells, attribute boosts, ancestry feat, perception expertise, skill increase |\n| 6 | Cleric feat, skill feat |\n| 7 | 4th-rank spells, general feat, skill increase, third doctrine |\n| 8 | Cleric feat, skill feat |\n| 9 | 5th-rank spells, ancestry feat, resolute faith, skill increase |\n| 10 | Attribute boosts, cleric feat, skill feat |\n| 11 | 6th-rank spells, fourth doctrine, general feat, reflex expertise, skill increase |\n| 12 | Cleric feat, skill feat |\n| 13 | 7th-rank spells, ancestry feat, divine defense, skill increase, weapon specialization |\n| 14 | Cleric feat, skill feat |\n| 15 | 8th-rank spells, attribute boosts, fifth doctrine, general feat, skill increase |\n| 16 | Cleric feat, skill feat |\n| 17 | 9th-rank spells, ancestry feat, skill increase |\n| 18 | Cleric feat, skill feat |\n| 19 | Final doctrine, general feat, miraculous spell, skill increase |\n| 20 | Attribute boosts, cleric feat, skill feat |",
+      "classFeaturesText": "You gain these features as a Cleric. Abilities gained at higher levels list the levels at which you gain them next to the features' names.",
+      "classFeatures": [
+        {
+          "name": "Cleric Spellcasting",
+          "level": 1,
+          "text": "Your deity bestows on you the power to cast divine spells. You are a spellcaster, and you can cast spells of the divine tradition using the Cast a Spell activity. As a cleric, your chants generally invoke your deity and their powerful servants by name or title, while your gestures are followed by sacred symbols or other representations of your deity.\n\nAt 1st level, you can prepare two 1st-rank spells and five cantrips each morning from the common spells on the divine spell list or from other divine spells to which you gain access and learn via Learn a Spell. Prepared spells remain available to you until you cast them or until you prepare your spells again. The number of spells you can prepare each day is called your spell slots.\n\nAs you increase in level as a cleric, the number of spells you can prepare each day increases, as does the highest rank of spell you can cast, as shown in Cleric Spells per Day table above.\n\nSome of your spells require you to attempt a spell attack to see how effective they are or for your enemies to roll against your spell DC (typically by attempting a saving throw). Since your key attribute is Wisdom, your spell attack modifier and spell DC use your Wisdom modifier.\n\n## Heightening Spells\n\nWhen you get spell slots of 2nd rank and higher, you can fill those slots with stronger versions of lower-rank spells. This increases the spell's rank, heightening it to match the spell slot. Many spells have specific improvements when they are heightened to certain ranks.\n\n## Cantrips\n\nSome of your spells are cantrips. A cantrip is a special type of spell that doesn't use spell slots. You can cast a cantrip at will, any number of times per day. A cantrip is always automatically heightened to half your level rounded up—this is usually equal to the highest rank of cleric spell slot you have. For example, as a 1st-level cleric, your cantrips are 1st-rank spells, and as a 5th-level cleric, your cantrips are 3rd-rank spells."
+        },
+        {
+          "name": "Deity",
+          "level": 1,
+          "text": "As a cleric, you are a mortal servitor of a deity you revere above all others. Your deity grants you the trained proficiency rank in one skill and with the deity's favored weapon. If the favored weapon is uncommon, you also get access to that weapon.\n\nYour deity also adds spells to your spell list. You can prepare these just like you can any spell on the divine spell list once you can prepare spells of their rank as a cleric. Any of these spells that aren't normally on the divine list are still divine spells if you prepare them this way.\n\n## Sanctification\n\nDepending on your deity, their sanctification can make you holy or unholy. This gives you the holy or [unholy](/trait/unholy) trait, which commits you to one side of a struggle over the souls of the planes and may be referenced in other abilities. If you \"can be\" holy or unholy according to your deity, you make that choice, and if you \"must be\" holy or unholy you gain the trait automatically. If you gain the opposing trait in some way, you lose the previous trait until you complete an [atone](/ritual/atone-player-core) ritual.\n\n## Anathema\n\nActs fundamentally opposed to your deity's ideals are anathema to your faith. Learning or casting spells, committing acts, and using items that are anathema to your deity remove you from your deity's good graces.\n\nCasting spells with the unholy trait is almost always anathema to deities who don't allow unholy sanctification, and casting holy spells is likewise anathema to those who don't allow holy sanctification. Similarly, casting spells that are anathema to the tenets or goals of your faith could interfere with your connection to your deity. For example, casting a spell to create undead would be anathema to Pharasma, the goddess of death. Many actions that are anathema don't appear in any deity's formal list. For borderline cases, you and your GM determine which acts are anathema.\n\nIf you perform enough acts that are anathema to your deity, you lose the magical abilities that come from your connection to your deity. The class features that you lose are determined by the GM, but they likely include your divine font and all cleric spellcasting. These abilities can be regained only if you repent by conducting an atone ritual."
+        },
+        {
+          "name": "Divine Font",
+          "level": 1,
+          "text": "Through your deity's blessing, you gain additional spells that channel either the life force called vitality or its counterforce, the void. When you prepare your spells each day, you can prepare additional Heal or [Harm](/spell/harm-player-core) spells, depending on your deity. The divine font spell your deity provides is listed in the Divine Font entry for your deity; if both are listed, you can choose between *heal* or *harm*. Once you choose, you can't change your choice short of divine intervention.\n\n**Healing Font:** You gain 4 additional spell slots each day at your highest rank of cleric spell slots. You can prepare only *[heal](/spell/heal-player-core)* spells in these slots. At 5th level, the number of additional slots increases to 5, and at 15th level, the total number of additional slots increases to 6.\n\n**Harmful Font:** You gain 4 additional spell slots each day at your highest rank of cleric spell slots. You can prepare only *harm* spells in these slots. At 5th level, the number of additional slots increases to 5, and at 15th level, the total number of additional slots increases to 6."
+        },
+        {
+          "name": "Doctrine",
+          "level": 1,
+          "text": "Even among followers of the same deity, approaches vary. At 1st level, you select cloistered cleric or warpriest and gain the benefits of its first doctrine. At 3rd level and every four levels thereafter, you gain another benefit from your doctrine.\n\n- Cloistered Cleric\n\n- Warpriest"
+        },
+        {
+          "name": "First Doctrine",
+          "level": 1,
+          "text": "You gain the first benefit of your doctrine:\n\n- Cloistered Cleric\n\n- Warpriest"
+        },
+        {
+          "name": "Second Doctrine",
+          "level": 3,
+          "text": "You gain the second benefit of your doctrine:\n\n- Cloistered Cleric\n\n- Warpriest"
+        },
+        {
+          "name": "Perception Expertise",
+          "level": 5,
+          "text": "You remain alert to threats around you. Your proficiency rank for Perception increases to expert."
+        },
+        {
+          "name": "Third Doctrine",
+          "level": 7,
+          "text": "You gain the third benefit of your doctrine:\n\n- Cloistered Cleric\n\n- Warpriest"
+        },
+        {
+          "name": "Resolute Faith",
+          "level": 9,
+          "text": "Belief provides a bulwark against insidious thoughts. Your proficiency rank for Will saves increases to master. When you roll a success at a Will save, you get a critical success instead."
+        },
+        {
+          "name": "Fourth Doctrine",
+          "level": 11,
+          "text": "You gain the fourth benefit of your doctrine:\n\n- Cloistered Cleric\n\n- Warpriest"
+        },
+        {
+          "name": "Reflex Expertise",
+          "level": 11,
+          "text": "You've developed a knack for dodging danger. Your proficiency rank for Reflex saves increases to expert."
+        },
+        {
+          "name": "Divine Defense",
+          "level": 13,
+          "text": "Your training and your deity protect you from harm. Your proficiency rank in unarmored defense increases to expert."
+        },
+        {
+          "name": "Weapon Specialization",
+          "level": 13,
+          "text": "You've learned how to inflict greater injuries with the weapons you know best. You deal an additional 2 damage with weapons and unarmed attacks in which you are an expert. This damage increases to 3 if you're a master, and 4 if you're legendary."
+        },
+        {
+          "name": "Fifth Doctrine",
+          "level": 15,
+          "text": "You gain the fifth benefit of your doctrine:\n\n- Cloistered Cleric\n\n- Warpriest"
+        },
+        {
+          "name": "Final Doctrine",
+          "level": 19,
+          "text": "You gain the final benefit of your doctrine:\n\n- Cloistered Cleric\n\n- Warpriest"
+        },
+        {
+          "name": "Miraculous Spell",
+          "level": 19,
+          "text": "You're exalted by your deity and gain truly incredible spells. You gain a single 10th-rank spell slot and can prepare a spell in that slot using cleric spellcasting. Unlike with other spell slots, you can't use 10-rank slots with abilities that give you more spell slots or that let you cast spells without expending spell slots. You don't gain more 10th-rank spells as you level up, but you can take the [Maker Of Miracles](/feat/maker-of-miracles-player-core) feat to gain a second slot."
+        }
+      ],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B4658E7A-D8EF-5C3E-8D60-D070BB627EEE",
+    "kind": "Class",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Druid",
+    "slug": "druid-player-core",
+    "descr": "",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "summary": "",
+      "attributes": [
+        "wisdom"
+      ],
+      "hp": 8,
+      "perception": "trained",
+      "fortitude": "trained",
+      "reflex": "trained",
+      "will": "expert",
+      "skills": "nature",
+      "attacks": "simple, unarmed",
+      "defenses": "light, medium, unarmored",
+      "classAdvancement": "| Your Level | Class Features |\n| --- | --- |\n| 1 | Ancestry and background, attribute boosts, initial proficiencies, druid spellcasting, anathema, druidic order, shield block, voice of nature, Wildsong |\n| 2 | Druid feat, skill feat |\n| 3 | 2nd-rank spells, fortitude expertise, general feat, perception expertise, skill increase |\n| 4 | Druid feat, skill feat |\n| 5 | 3rd-rank spells, attribute boosts, ancestry feat, reflex expertise, skill increase |\n| 6 | Druid feat, skill feat |\n| 7 | 4th-rank spells, expert spellcaster, general feat, skill increase |\n| 8 | Druid feat, skill feat |\n| 9 | 5th-rank spells, ancestry feat, skill increase |\n| 10 | Attribute boosts, druid feat, skill feat |\n| 11 | 6th-rank spells, general feat, skill increase, weapon expertise, wild willpower |\n| 12 | Druid feat, skill feat |\n| 13 | 7th-rank spells, ancestry feat, medium armor expertise, skill increase, weapon specialization |\n| 14 | Druid feat, skill feat |\n| 15 | 8th-rank spells, attribute boosts, general feat, master spellcaster, skill increase |\n| 16 | Druid feat, skill feat |\n| 17 | 9th-rank spells, ancestry feat, skill increase |\n| 18 | Druid feat, skill feat |\n| 19 | General feat, legendary spellcaster, primal hierophant, skill increase |\n| 20 | Attribute boosts, druid feat, skill feat |",
+      "classFeaturesText": "You gain these features as a Druid. Abilities gained at higher levels list the levels at which you gain them next to the features' names.",
+      "classFeatures": [
+        {
+          "name": "Anathema (Druid)",
+          "level": 1,
+          "text": "As stewards of the natural order, druids find affronts to nature anathema. If you repeatedly perform these acts, you lose your magical abilities from the druid class, including your druid spellcasting and the benefits of your order. These abilities can be regained only if you demonstrate your repentance with an [Atone](/ritual/atone-player-core) ritual. The following acts are anathema to all druids.\n\n**Anathema** despoil natural places, consume more natural resources than you require to live comfortably, teach the Wildsong to non-druids.\n\nYour choice of druidic order adds further anathema, as detailed in the order's entry."
+        },
+        {
+          "name": "Druid Spellcasting",
+          "level": 1,
+          "text": "The power of the wild world flows through you. You are a spellcaster and can cast spells of the primal tradition using the Cast A Spell activity. As a druid, your spellcasting incantations might be pleas to the environment around you or the invocation of ancient vows; your hands might sway like willows or curl into clawlike shapes as your gestures direct your magic. At 1st level, you can prepare two 1st-rank spells and five cantrips each morning from the common spells on the primal spell list, or from other primal spells to which you gain access and learn via Learn a Spell. Prepared spells remain available to you until you cast them or until you prepare your spells again. The number of spells you can prepare each day is called your spell slots.\n\nAs you increase in level as a druid, the number of spells you can prepare each day increases, as does the highest rank of spell you can cast, as shown in the Druid Spells per Day table.\n\nSome of your spells require you to attempt a spell attack to see how effective they are, or have your enemies roll against your spell DC (typically by attempting a saving throw). Since your key attribute is Wisdom, your spell attack modifier and spell DC use your Wisdom modifier.\n\n## Heightening Spells\n\nWhen you get spell slots of 2nd rank and higher, you can fill those slots with stronger versions of lower-rank spells. This increases the spell's rank, heightening it to match the spell slot. Many spells have specific improvements when they are heightened to certain ranks.\n\n## Cantrips\n\nSome of your spells are cantrips. A cantrip is a special type of spell that doesn't use spell slots. You can cast a cantrip at will, any number of times per day. A cantrip is always automatically heightened to half your level rounded up—this is usually equal to the highest rank of druid spell slot you have. For example, as a 1st-level druid, your cantrips are 1st-rank spells, and a 5th-level druid's are 3rd rank."
+        },
+        {
+          "name": "Druidic Order",
+          "level": 1,
+          "text": "Upon becoming a druid, you align yourself with a druidic order, which grants you a class feat, an order spell (see below), and an additional trained skill tied to your order While you'll always be a member of your initial order, it's not unheard of for a druid to request to study with other orders in search of greater understanding of the natural world, and PC druids are among the most likely to blend the powers of different orders.\n\nOrder spells are a type of focus spell. It costs 1 Focus Point to cast a focus spell, and you start with a focus pool of 1 Focus Point. You refill your focus pool during your daily preparations, and you can regain 1 Focus Point by spending 10 minutes using the Refocus activity to commune with local nature spirits or otherwise tend to the wilderness in a way befitting your order.\n\nFocus spells are automatically heightened to half your level rounded up, much like cantrips. Focus spells don't require spell slots, and you can't cast them using spell slots. Certain feats give you more focus spells. The maximum Focus Points your focus pool can hold is equal to the number of focus spells you have, but can never be more than 3 points.\n\n**Order Skill** You become trained in the listed skill. If you're already trained in that skill, you become trained in a different skill of your choice.\n\n**Druid Feat** You gain this 1st-level druid feat.\n\n**[Order Spell](/feat/order-spell-player-core)** You automatically gain the listed order spell at 1st level.\n\n**Anathema** Add this anathema to those for all druids.\n\n---\n\nAnimal Order\n\nFlame Order\n\nLeaf Order\n\nStone Order\n\nStorm Order\n\nUntamed Order\n\nWave Order"
+        },
+        {
+          "name": "Shield Block",
+          "level": 1,
+          "text": "You gain the Shield Block general feat, a reaction that lets you reduce damage with your shield."
+        },
+        {
+          "name": "Voice of Nature",
+          "level": 1,
+          "text": "You gain your choice of the Animal Empathy or Plant Empathy druid feat."
+        },
+        {
+          "name": "Wildsong",
+          "level": 1,
+          "text": "You know the Wildsong, a secret language known only within druid orders, in addition to any languages you know through your ancestry. The Wildsong is a melodic and tonal language sounding more like animal calls than a spoken tongue, and its alphabet involves fractals and spirals, like the arrangement of a seashell's chambers, a snowflake's crystals, or a fern's fronds. Teaching the Wildsong to non-druids is anathema."
+        },
+        {
+          "name": "Fortitude Expertise",
+          "level": 3,
+          "text": "Adventures have made your physique more hardy. Your proficiency rank for Fortitude saves increases to expert."
+        },
+        {
+          "name": "Perception Expertise",
+          "level": 3,
+          "text": "You remain alert to threats around you. Your proficiency rank for Perception increases to expert."
+        },
+        {
+          "name": "Reflex Expertise",
+          "level": 5,
+          "text": "You've developed a knack for dodging danger. Your proficiency rank for Reflex saves increases to expert."
+        },
+        {
+          "name": "Expert Spellcaster",
+          "level": 7,
+          "text": "Your command of primal forces has deepened, empowering your spells. Your proficiency ranks for spell attack modifier and spell DC increase to expert."
+        },
+        {
+          "name": "Weapon Expertise",
+          "level": 11,
+          "text": "You've improved your combat skill. Your proficiency rank for simple weapons and unarmed attacks increases to expert."
+        },
+        {
+          "name": "Wild Willpower",
+          "level": 11,
+          "text": "Your primal will, like that of the greatest beast, can't be tamed. Your proficiency rank for Will saves increases to master. When you roll a success at a Will save, you get a critical success instead."
+        },
+        {
+          "name": "Medium Armor Expertise",
+          "level": 13,
+          "text": "You've learned to defend yourself better against attacks. Your proficiency ranks for light armor, medium armor, and unarmored defense increase to expert."
+        },
+        {
+          "name": "Weapon Specialization",
+          "level": 13,
+          "text": "You've learned how to inflict greater injuries with the weapons you know best. You deal an additional 2 damage with weapons and unarmed attacks in which you are an expert. This damage increases to 3 if you're a master, and 4 if you're legendary."
+        },
+        {
+          "name": "Master Spellcaster",
+          "level": 15,
+          "text": "Primal magic answers your command. Your proficiency ranks for spell attack modifier and spell DC increase to master."
+        },
+        {
+          "name": "Legendary Spellcaster",
+          "level": 19,
+          "text": "You have developed an unparalleled rapport with the magic of nature. Your proficiency ranks for spell attack modifier and spell DC increase to legendary."
+        },
+        {
+          "name": "Primal Hierophant",
+          "level": 19,
+          "text": "You command the most potent forces of primal magic and can cast a spell of truly incredible power. You gain a single 10th-rank spell slot and can prepare a spell in that slot using druid spellcasting. Unlike with other spell slots, you can't use 10-rank slots with abilities that give you more spell slots or that let you cast spells without expending spell slots. You don't gain more 10th-rank spells as you level up, but you can take the [Hierophant'S Power](/feat/hierophant-s-power-player-core) feat to gain a second slot."
+        }
+      ],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C4244CA5-3808-54F4-931A-395E3FE6F52F",
+    "kind": "Class",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Fighter",
+    "slug": "fighter-player-core",
+    "descr": "",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "summary": "",
+      "attributes": [
+        "dexterity",
+        "strength"
+      ],
+      "hp": 10,
+      "perception": "expert",
+      "fortitude": "expert",
+      "reflex": "expert",
+      "will": "trained",
+      "skills": "",
+      "attacks": "advanced, martial, simple, unarmed",
+      "defenses": "heavy, light, medium, unarmored",
+      "classAdvancement": "| Your Level | Class Features |\n| --- | --- |\n| 1 | Ancestry and background, attribute boosts, initial proficiencies, reactive strike, fighter feat, shield block |\n| 2 | Fighter feat, skill feat |\n| 3 | Bravery, general feat, skill increase |\n| 4 | Fighter feat, skill feat |\n| 5 | Ancestry feat, attribute boosts, fighter weapon mastery, skill increase |\n| 6 | Fighter feat, skill feat |\n| 7 | Battlefield surveyor, general feat, skill increase, weapon specialization |\n| 8 | Fighter feat, skill feat |\n| 9 | Ancestry feat, battle hardened, combat flexibility, skill increase |\n| 10 | Attribute boosts, fighter feat, skill feat |\n| 11 | Armor expertise, fighter expertise, general feat, skill increase |\n| 12 | Fighter feat, skill feat |\n| 13 | Ancestry feat, skill increase, weapon legend |\n| 14 | Fighter feat, skill feat |\n| 15 | Attribute boosts, general feat, greater weapon specialization, improved flexibility, skill increase, tempered reflexes |\n| 16 | Fighter feat, skill feat |\n| 17 | Ancestry feat, armor mastery, skill increase |\n| 18 | Fighter feat, skill feat |\n| 19 | General feat, skill increase, versatile legend |\n| 20 | Attribute boosts, fighter feat, skill feat |",
+      "classFeaturesText": "You gain these features as a Fighter. Abilities gained at higher levels list the levels at which you gain them next to the features' names.",
+      "classFeatures": [
+        {
+          "name": "Reactive Strike",
+          "level": 1,
+          "text": "Ever watchful for weaknesses, you can quickly attack foes that leave an opening in their defenses. You gain the Reactive Strike reaction."
+        },
+        {
+          "name": "Shield Block",
+          "level": 1,
+          "text": "You gain the Shield Block general feat, a reaction that lets you reduce damage with your shield."
+        },
+        {
+          "name": "Bravery",
+          "level": 3,
+          "text": "Having faced countless foes and the chaos of battle, you have learned how to stand strong in the face of fear. Your proficiency rank for Will saves increases to expert. When you roll a success at a Will save against a fear effect, you get a critical success instead. In addition, anytime you gain the [Frightened](/condition/frightened-player-core) condition, reduce its value by 1."
+        },
+        {
+          "name": "Fighter Weapon Mastery",
+          "level": 5,
+          "text": "Hours spent training with your preferred weapons, learning and developing new combat techniques, have made you particularly effective with your weapons of choice. Choose one weapon group. Your proficiency rank increases to master with the simple weapons, martial weapons, and unarmed attacks in that group, and to expert with the advanced weapons in that group. You gain access to the critical specialization effects of all weapons and unarmed attacks for which you have master proficiency."
+        },
+        {
+          "name": "Battlefield Surveyor",
+          "level": 7,
+          "text": "Whether taking stock of an enemy army or simply standing guard, you excel at observing your foes. Your proficiency rank for Perception increases to master. In addition, you gain a +2 circumstance bonus to Perception checks for initiative, making you faster to react during combat."
+        },
+        {
+          "name": "Weapon Specialization",
+          "level": 7,
+          "text": "You've learned how to inflict greater injuries with the weapons you know best. You deal an additional 2 damage with weapons and unarmed attacks in which you are an expert. This damage increases to 3 if you're a master, and 4 if you're legendary."
+        },
+        {
+          "name": "Battle Hardened",
+          "level": 9,
+          "text": "Your experience in battle helps protect you against magic and toxins alike. Your proficiency rank for Fortitude saves increases to master. When you roll a success on a Fortitude save, you get a critical success instead."
+        },
+        {
+          "name": "Combat Flexibility",
+          "level": 9,
+          "text": "You can prepare your tactics to suit different situations. When you make your daily preparations, you gain one fighter feat of 8th level or lower that you meet the prerequisites for and don't already have. You can use that feat until your next daily preparations."
+        },
+        {
+          "name": "Armor Expertise",
+          "level": 11,
+          "text": "You have spent so much time in armor that you know how to make the most of its protection. Your proficiency ranks for light, medium, and heavy armor, as well as for unarmored defense, increase to expert. You gain the armor specialization effects of medium and heavy armor."
+        },
+        {
+          "name": "Fighter Expertise",
+          "level": 11,
+          "text": "Your practiced techniques have made you even more formidable. Your proficiency rank for your fighter class DC increases to expert."
+        },
+        {
+          "name": "Weapon Legend",
+          "level": 13,
+          "text": "You've learned fighting techniques that apply to all armaments, and you've developed unparalleled skill with your favorite weapons. Your proficiency ranks for simple weapons, martial weapons, and unarmed attacks increase to master. Your proficiency rank for advanced weapons increases to expert.\n\nYou can select one weapon group and increase your proficiency ranks to legendary for all simple weapons, martial weapons, and unarmed attacks in that weapon group, and to master for all advanced weapons in that weapon group."
+        },
+        {
+          "name": "Greater Weapon Specialization",
+          "level": 15,
+          "text": "Your damage from weapon specialization increases to 4 with weapons and unarmed attacks in which you're an expert, 6 if you're a master, and 8 if you're legendary."
+        },
+        {
+          "name": "Improved Flexibility",
+          "level": 15,
+          "text": "Your extensive experience gives you even greater ability to adapt to each day's challenges. When you use combat flexibility, you can gain two fighter feats instead of one. While the first feat must still be 8th level or lower, the second feat can be up to 14th level, and you can use the first feat to meet the prerequisites of the second feat. You must meet all of the feats' prerequisites."
+        },
+        {
+          "name": "Tempered Reflexes",
+          "level": 15,
+          "text": "Practiced reflexes let you find safety even in the face of cataclysmic explosions. Your proficiency rank for Reflex saves increases to master. When you roll a success on a Reflex save, you get a critical success instead."
+        },
+        {
+          "name": "Armor Mastery",
+          "level": 17,
+          "text": "Your skill with armor improves further. Your proficiency ranks for light, medium, and heavy armor, as well as for unarmored defense, increase to master."
+        },
+        {
+          "name": "Versatile Legend",
+          "level": 19,
+          "text": "You are nigh-unmatched with any weapon. Your proficiency ranks for simple weapons, martial weapons, and unarmed attacks increase to legendary, and your proficiency rank for advanced weapons increases to master. Your proficiency rank for your fighter class DC increases to master."
+        }
+      ],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4D057EC9-4126-5032-BE4C-2543D1D3AB11",
+    "kind": "Class",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Ranger",
+    "slug": "ranger-player-core",
+    "descr": "",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "summary": "",
+      "attributes": [
+        "dexterity",
+        "strength"
+      ],
+      "hp": 10,
+      "perception": "expert",
+      "fortitude": "expert",
+      "reflex": "expert",
+      "will": "trained",
+      "skills": "survival",
+      "attacks": "martial, simple, unarmed",
+      "defenses": "light, medium, unarmored",
+      "classAdvancement": "| Your Level | Class Features |\n| --- | --- |\n| 1 | Ancestry and background, initial proficiencies, hunt prey, hunter's edge, ranger feat |\n| 2 | Ranger feat, skill feat |\n| 3 | General feat, will expertise, skill increase |\n| 4 | Ranger feat, skill feat |\n| 5 | Attribute boosts, ancestry feat, ranger weapon expertise, skill increase, trackless journey |\n| 6 | Ranger feat, skill feat |\n| 7 | general feat, natural reflexes, skill increase, perception mastery, weapon specialization |\n| 8 | Ranger feat, skill feat |\n| 9 | Ancestry feat, nature's edge, ranger expertise, skill increase |\n| 10 | Attribute boosts, ranger feat, skill feat |\n| 11 | General feat, warden's endurance, medium armor expertise, skill increase, unimpeded journey |\n| 12 | Ranger feat, skill feat |\n| 13 | Ancestry feat, skill increase, martial weapon mastery |\n| 14 | Ranger feat, skill feat |\n| 15 | Attribute boosts, general feat, greater weapon specialization, greater natural reflexes, perception legend, skill increase |\n| 16 | Ranger feat, skill feat |\n| 17 | Ancestry feat, masterful hunter, skill increase |\n| 18 | Ranger feat, skill feat |\n| 19 | General feat, medium armor mastery, skill increase, swift prey |\n| 20 | Attribute boosts, ranger feat, skill feat |",
+      "classFeaturesText": "You gain these features as a Ranger. Abilities gained at higher levels list the levels at which you gain them next to the features' names.",
+      "classFeatures": [
+        {
+          "name": "Hunt Prey",
+          "level": 1,
+          "text": "When you focus your attention on a single foe, you become unstoppable in your pursuit. You gain the [Hunt Prey](/action/hunt-prey-player-core) action."
+        },
+        {
+          "name": "Hunter's Edge",
+          "level": 1,
+          "text": "You have trained to become a skilled hunter and tracker, gaining an extra benefit when you Hunt Prey depending on the focus of your training. Choose a hunter's edge.\n\n- Flurry\n\n- Outwit\n\n- Precision"
+        },
+        {
+          "name": "Will Expertise",
+          "level": 3,
+          "text": "Your mental defenses grow stronger. Your proficiency rank for Will saves increases to expert."
+        },
+        {
+          "name": "Ranger Weapon Expertise",
+          "level": 5,
+          "text": "You gain every advantage from your weapons. Your proficiency rank for martial weapons, simple weapons, and unarmed attacks increases to expert. You gain access to the critical specialization effects of all such weapons and unarmed attacks when attacking your hunted prey."
+        },
+        {
+          "name": "Trackless Journey",
+          "level": 5,
+          "text": "When you move through natural terrains, you are hard to track. You always gain the benefits of the [Cover Tracks](/action/cover-tracks-player-core) action in such terrains, without moving at half your Speed."
+        },
+        {
+          "name": "Natural Reflexes",
+          "level": 7,
+          "text": "You've honed your reflexes dodging falling trees and pounding hail. Your proficiency rank for Reflex saves increases to master. When you roll a success on a Reflex save, you get a critical success instead."
+        },
+        {
+          "name": "Perception Mastery",
+          "level": 7,
+          "text": "You have highly developed acuity and attention to detail. Your proficiency rank for Perception increases to master."
+        },
+        {
+          "name": "Weapon Specialization",
+          "level": 7,
+          "text": "You've learned how to inflict greater injuries with the weapons you know best. You deal an additional 2 damage with weapons and unarmed attacks in which you are an expert. This damage increases to 3 if you're a master, and 4 if you're legendary."
+        },
+        {
+          "name": "Nature's Edge",
+          "level": 9,
+          "text": "You always find the weak points in your foes' defenses when they're on unfavorable terrain. Enemies are Off Guard to you if they're in difficult terrain."
+        },
+        {
+          "name": "Ranger Expertise",
+          "level": 9,
+          "text": "You've gained techniques that improve your cunning and skill. Your proficiency rank for your ranger DC increases to expert. If you have warden spells, your proficiency rank for spell attacks and spell DCs increases to expert."
+        },
+        {
+          "name": "Medium Armor Expertise",
+          "level": 11,
+          "text": "You've learned to defend yourself better against attacks. Your proficiency ranks for light armor, medium armor, and unarmored defense increase to expert."
+        },
+        {
+          "name": "Unimpeded Journey",
+          "level": 11,
+          "text": "You move quickly through obstacles, whether they're tumbled stone or tangled undergrowth. You can ignore the effects of difficult terrain. As normal for ignoring difficult terrain, this also lets you treat the hindrances of greater difficult terrain as those of difficult terrain."
+        },
+        {
+          "name": "Warden's Endurance",
+          "level": 11,
+          "text": "You shake off a grizzly's grab or a poison's ill effects with equal ease. Your proficiency rank for Fortitude saves increases to master. When you roll a success on a Fortitude save, you get a critical success instead."
+        },
+        {
+          "name": "Weapon Mastery",
+          "level": 13,
+          "text": "You fully understand your weapons. Your proficiency ranks for simple weapons, martial weapons, and unarmed attacks increase to master."
+        },
+        {
+          "name": "Greater Natural Reflexes",
+          "level": 15,
+          "text": "You avoid explosions with reflexes a cat would envy. Your proficiency rank for Reflex saves increases to legendary. When you roll a critical failure on a Reflex save, you get a failure instead. When you fail a Reflex save against an effect that deals damage, you halve the damage you take."
+        },
+        {
+          "name": "Greater Weapon Specialization",
+          "level": 15,
+          "text": "Your damage from weapon specialization increases to 4 with weapons and unarmed attacks in which you're an expert, 6 if you're a master, and 8 if you're legendary."
+        },
+        {
+          "name": "Perception Legend",
+          "level": 15,
+          "text": "You notice the almost imperceptible. Your proficiency rank for Perception increases to legendary."
+        },
+        {
+          "name": "Masterful Hunter",
+          "level": 17,
+          "text": "You have honed your abilities as a hunter to incredible levels. Your proficiency rank for your ranger class DC increases to master. If you have warden spells, your proficiency rank for spell attacks and spell DCs increases to master. When using a ranged weapon that you have master proficiency in, you can ignore the penalty if attacking your hunted prey within the weapon's second and third range increments.\n\nIf you have master proficiency in Perception, you gain a +4 circumstance bonus to Perception checks when you Seek your prey, and if you have master proficiency in Survival, you gain a +4 circumstance bonus to Survival checks when you Track your prey. You also gain an additional benefit depending on your hunter's edge.\n\n**Flurry:** You can blend your weapon mastery with skillful targeting to make a series of precise attacks. If you have master proficiency with your weapon, your multiple attack penalty for attacks against your hunted prey is –2 (–1 with an agile weapon) on your second attack of the turn, and –4 (–2 with an agile weapon) on your third and subsequent attacks of the turn.\n\n**Outwit:** Your mastery of skills allows you to overwhelm your prey. If you have master proficiency in Deception, Intimidation, Stealth, or the skill you use to Recall Knowledge about your prey, increase the circumstance bonus against the prey with that skill from +2 to +4. If you have master proficiency with your armor, increase the circumstance bonus to AC against the prey from +1 to +2.\n\n**Precision:** Your weapon mastery allows you to hit your prey's vital areas multiple times. The second time in a round you hit your hunted prey, you also deal 1d8 precision damage. At 19th level, your second hit in a round against your hunted prey deals 2d8 precision damage, and your third hit in a round against your hunted prey deals 1d8 precision damage."
+        },
+        {
+          "name": "Medium Armor Mastery",
+          "level": 19,
+          "text": "Your skill with light and medium armor improves, increasing your ability to avoid blows. Your proficiency ranks for light and medium armor, as well as for unarmored defense, increase to master."
+        },
+        {
+          "name": "Swift Prey",
+          "level": 19,
+          "text": "You size up your prey with a glance. You can use Hunt Prey as a free action if it's your first action of your turn."
+        }
+      ],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "FCA5B598-035B-508E-BC39-C1EB8F8F9DCF",
+    "kind": "Class",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Rogue",
+    "slug": "rogue-player-core",
+    "descr": "",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "summary": "",
+      "attributes": [
+        "dexterity"
+      ],
+      "hp": 8,
+      "perception": "expert",
+      "fortitude": "trained",
+      "reflex": "expert",
+      "will": "expert",
+      "skills": "stealth",
+      "attacks": "martial, simple, unarmed",
+      "defenses": "light, unarmored",
+      "classAdvancement": "| Your Level | Class Features |\n| --- | --- |\n| 1 | Ancestry and background, attribute boosts, initial proficiencies, rogue's racket, sneak attack 1d6, surprise attack, rogue feat, skill feat |\n| 2 | Rogue feat, skill feat, skill increase |\n| 3 | Deny advantage, general feat, skill feat, skill increase |\n| 4 | Rogue feat, skill feat, skill increase |\n| 5 | Attribute boosts, ancestry feat, skill feat, skill increase, sneak attack 2d6, weapon tricks |\n| 6 | Rogue feat, skill feat, skill increase |\n| 7 | Evasive reflexes, general feat, skill feat, skill increase, vigilant senses, weapon specialization |\n| 8 | Rogue feat, skill feat, skill increase |\n| 9 | Ancestry feat, debilitating strike, rogue resilience, skill feat, skill increase |\n| 10 | Attribute boosts, rogue feat, skill feat, skill increase |\n| 11 | General feat, rogue expertise, skill feat, skill increase, sneak attack 3d6 |\n| 12 | Rogue feat, skill feat, skill increase |\n| 13 | Ancestry feat, improved rogue reflexes, incredible senses, light armor expertise, master tricks, skill feat, skill increase |\n| 14 | Rogue feat, skill feat, skill increase |\n| 15 | Attribute boosts, double debilitation, general feat, greater weapon specialization, skill feat, skill increase |\n| 16 | Rogue feat, skill feat, skill increase |\n| 17 | Ancestry feat, skill feat, skill increase, slippery mind, sneak attack 4d6 |\n| 18 | Rogue feat, skill feat, skill increase |\n| 19 | General feat, light armor mastery, master strike, skill feat, skill increase |\n| 20 | Attribute boosts, rogue feat, skill feat, skill increase |",
+      "classFeaturesText": "You gain these features as a Rogue. Abilities gained at higher levels list the levels at which you gain them next to the features' names.",
+      "classFeatures": [
+        {
+          "name": "Rogue's Racket",
+          "level": 1,
+          "text": "You've begun to develop your techniques and approach to a job, while building your reputation in rogues' circles. Choose a rogue's racket from the list below.\n\nEldritch Trickster\n\nMastermind\n\nRuffian\n\nScoundrel\n\nThief"
+        },
+        {
+          "name": "Sneak Attack",
+          "level": 1,
+          "text": "When your enemy can't properly defend itself, you take advantage to deal extra damage. If you Strike a creature that has the [Off Guard](/condition/off-guard-player-core) condition with an agile or finesse melee weapon, an agile or finesse unarmed attack, a ranged weapon attack, or a ranged unarmed attack, you deal an extra 1d6 precision damage. For a ranged attack with a thrown melee weapon, that weapon must also be agile or finesse.\n\nAs your level increases, so does the number of damage dice for your sneak attack. Increase the number of dice by one at 5th, 11th, and 17th levels."
+        },
+        {
+          "name": "Surprise Attack",
+          "level": 1,
+          "text": "You spring into combat faster than foes can react. On the first round of combat, if you roll Deception or Stealth for initiative, creatures that haven't acted are Off Guard to you."
+        },
+        {
+          "name": "Deny Advantage",
+          "level": 3,
+          "text": "As someone who takes advantage of openings, you are careful not to leave such gaps yourself. You aren't Off Guard to Hidden, Undetected, or flanking creatures of your level or lower, or creatures of your level or lower using surprise attack. However, they can still help their allies flank."
+        },
+        {
+          "name": "Weapon Tricks",
+          "level": 5,
+          "text": "You gain expert proficiency in simple weapons, martial weapons, and unarmed attacks. When you critically succeed at an attack roll against an Off Guard creature while using an agile or finesse weapon or an agile or finesse unarmed attack, you apply the critical specialization effect for that weapon or unarmed attack."
+        },
+        {
+          "name": "Evasive Reflexes",
+          "level": 7,
+          "text": "You've learned to move quickly to avoid explosions, dragons' breath, and worse. Your proficiency rank for Reflex saves increases to master. When you roll a success on a Reflex save, you get a critical success instead."
+        },
+        {
+          "name": "Perception Mastery",
+          "level": 7,
+          "text": "You've developed keen awareness and attention to detail. Your proficiency rank for Perception increases to master."
+        },
+        {
+          "name": "Weapon Specialization",
+          "level": 7,
+          "text": "You've learned how to inflict greater injuries with the weapons you know best. You deal an additional 2 damage with weapons and unarmed attacks in which you are an expert. This damage increases to 3 if you're a master, and 4 if you're legendary."
+        },
+        {
+          "name": "Debilitating Strikes",
+          "level": 9,
+          "text": "When taking advantage of an opening, you both hinder and harm your foe. You gain the Debilitating Strike free action."
+        },
+        {
+          "name": "Rogue Resilience",
+          "level": 9,
+          "text": "Your physique is incredibly hardy. Your proficiency rank for Fortitude saves increases to expert. When you roll a success on a Fortitude save, you get a critical success instead."
+        },
+        {
+          "name": "Rogue Expertise",
+          "level": 11,
+          "text": "Your techniques are now harder to resist. Your proficiency rank for your rogue class DC increases to expert."
+        },
+        {
+          "name": "Greater Rogue Reflexes",
+          "level": 13,
+          "text": "You elude danger to a degree that few can match. Your proficiency rank for Reflex saves increases to legendary. When you roll a critical failure on a Reflex save, you get a failure instead. When you roll a failure on a Reflex save against a damaging effect, you take half damage."
+        },
+        {
+          "name": "Light Armor Expertise",
+          "level": 13,
+          "text": "You've learned how to dodge while wearing light or no armor. Your proficiency ranks for light armor and unarmored defense increase to expert."
+        },
+        {
+          "name": "Master Tricks",
+          "level": 13,
+          "text": "You've mastered a rogue's fighting moves. Your proficiency ranks increase to master for all simple weapons, martial weapons, and unarmed attacks."
+        },
+        {
+          "name": "Perception Legend",
+          "level": 13,
+          "text": "You notice the almost imperceptible. Your proficiency rank for Perception increases to legendary."
+        },
+        {
+          "name": "Double Debilitation",
+          "level": 15,
+          "text": "Your opportunistic attacks are particularly detrimental. When you use Debilitating Strike, you can apply two debilitations simultaneously; removing one removes both."
+        },
+        {
+          "name": "Greater Weapon Specialization",
+          "level": 15,
+          "text": "Your damage from weapon specialization increases to 4 with weapons and unarmed attacks in which you're an expert, 6 if you're a master, and 8 if you're legendary."
+        },
+        {
+          "name": "Agile Mind",
+          "level": 17,
+          "text": "You play mental games and employ cognitive tricks to throw off mind-altering effects. Your proficiency rank for Will saves increases to master. When you roll a success at a Will save, you get a critical success instead."
+        },
+        {
+          "name": "Light Armor Mastery",
+          "level": 19,
+          "text": "Your skill with light armor improves, increasing your ability to dodge blows. Your proficiency ranks for light armor and unarmored defense increase to master."
+        },
+        {
+          "name": "Master Strike",
+          "level": 19,
+          "text": "You can incapacitate an unwary foe with a single strike. Your proficiency rank for your rogue class DC increases to master. You gain the Master Strike free action."
+        }
+      ],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "AAB2F096-F9C3-5427-B906-2F1C4CE522F1",
+    "kind": "Class",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Witch",
+    "slug": "witch-player-core",
+    "descr": "",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "summary": "",
+      "attributes": [
+        "intelligence"
+      ],
+      "hp": 6,
+      "perception": "trained",
+      "fortitude": "trained",
+      "reflex": "trained",
+      "will": "expert",
+      "skills": "",
+      "attacks": "simple, unarmed",
+      "defenses": "unarmored",
+      "classAdvancement": "| Your Level | Class Features |\n| --- | --- |\n| 1 | Ancestry and background, initial proficiencies, patron, familiar, witch spellcasting, hexes |\n| 2 | Skill feat, witch feat |\n| 3 | 2nd-rank spells, general feat, skill increase |\n| 4 | Skill feat, witch feat |\n| 5 | 3rd-rank spells, attribute boosts, ancestry feat, magical fortitude, skill increase |\n| 6 | Familiar ability, skill feat, witch feat |\n| 7 | 4th-rank spells, expert spellcaster, general feat, skill increase |\n| 8 | Skill feat, witch feat |\n| 9 | 5th-rank spells, ancestry feat, reflex expertise, skill increase |\n| 10 | Attribute boosts, skill feat, witch feat |\n| 11 | 6th-rank spells, general feat, perception expertise, skill increase, weapon expertise |\n| 12 | Familiar ability, skill feat, witch feat |\n| 13 | 7th-rank spells, ancestry feat, defensive robes, skill increase, weapon specialization |\n| 14 | Skill feat, witch feat |\n| 15 | 8th-rank spells, attribute boosts, general feat, master spellcaster, skill increase |\n| 16 | Skill feat, witch feat |\n| 17 | 9th-rank spells, ancestry feat, skill increase, will of the pupil |\n| 18 | Familiar ability, skill feat, witch feat |\n| 19 | General feat, legendary spellcaster, patron's gift, skill increase |\n| 20 | Attribute boosts, skill feat, witch feat |",
+      "classFeaturesText": "You gain these features as a Witch. Abilities gained at higher levels list the levels at which you gain them next to the features' names.",
+      "classFeatures": [
+        {
+          "name": "Familiar (Witch)",
+          "level": 1,
+          "text": "Your patron has sent you a familiar, a mystical creature that teaches you magic and facilitates your spells. This familiar follows the rules for familiars, though as it's a direct conduit between you and your patron, it's more powerful than typical familiars. Your familiar gains two additional familiar abilities: one of these is a unique ability based on your patron and is always selected, and the other is an additional familiar ability that can be selected daily as normal. Your familiar gains another extra ability at 6th, 12th, and 18th levels.\n\n**Spells:** Your familiar is the source and repository of the spells your patron has bestowed upon you, and you must commune with your familiar to prepare your spells each day using your witch spellcasting. Your familiar starts off knowing 10 cantrips, five 1st-rank spells, and one additional spell determined by your patron's initial lesson. You choose these spells from the common spells of the tradition determined by your patron or from other spells of that tradition you gain access to. Each time you gain a level, your patron teaches your familiar two new spells of any rank for which you have spell slots, chosen from common spells of your tradition or others you gain access to. Feats can also grant your familiar additional spells.\n\n**Learning Spells:** Your familiar can learn new spells independently of your patron. It can learn any spell on your tradition's spell list by physically consuming a written version of that spell over the course of 1 hour. This can be a scroll of that spell, or you can prepare a written version using the Learn a Spell exploration activity. You and your familiar can use the Learn a Spell activity to teach your familiar a spell from another witch's familiar. Both familiars must be present for the entirety of the activity, the spell must be on your spellcasting tradition's spell list, and you must pay the usual cost for that activity, typically in the form of an offering to the other familiar's patron. You can't prepare spells from another witch's familiar.\n\n**Undying:** If your familiar dies, your patron replaces it during your next daily preparations. The new familiar might be a duplicate or reincarnation of your former familiar or a new entity altogether, but it knows the same spells your former familiar knew regardless. Your familiar's death doesn't affect any spells you have already prepared."
+        },
+        {
+          "name": "Hexes",
+          "level": 1,
+          "text": "As a favored agent of your patron, you can invoke their power for a more direct magical intervention. A hex is a spell shaped by your patron and sent to you through your familiar, rather than an ability you use directly. Your patron expects you to advance its interests and does not take kindly to repeated requests for aid; as such, you can use only one hex each turn, and any attempts to use a second hex on that turn fail and the actions are lost.\n\nHex spells are a type of focus spell. It costs 1 Focus Point to cast a focus spell, and you start with a focus pool of 1 Focus Point. You refill your focus pool during your daily preparations, and you can regain 1 Focus Point by spending 10 minutes using the Refocus activity to commune with your familiar.\n\nFocus spells are automatically heightened to half your level rounded up, much like cantrips. Focus spells don't require spell slots, and you can't cast them using spell slots. Certain feats give you more focus spells. The maximum Focus Points your focus pool can hold is equal to the number of focus spells you have, but it can never be more than 3 points.\n\nYou learn your choice of the Patron'S Puppet hex or Phase Familiar hex, which let you command your familiar or defend it from harm, respectively. You learn most other hexes from witch lessons.\n\n## Hex Cantrips\n\nHex cantrips are special hexes that don't cost Focus Points, so you can cast them as often as you like, though you can still use only one hex each turn. Hex cantrips are in addition to the cantrips you choose with witch spellcasting and aren't counted toward your prepared cantrips.\n\nYou gain a hex cantrip determined by your choice of patron."
+        },
+        {
+          "name": "Patron",
+          "level": 1,
+          "text": "You weren't born with the power to cast spells, nor have you spent years dedicated to worship, study, or uncovering mystical secrets. Your magic instead has been gifted to you by a potent being, one who knows that by empowering you so, you'll further the being's agenda in the world, whatever it may be. This entity is typically mysterious and distant, revealing little of their identity and motivations. They make their will known to you in abstract signs such as omens, dreams, or similar subtleties rather than words.\n\nRather than interacting with you directly, your patron works through a familiar—a mystical creature that teaches you, serves as the conduit for your patron's magic, and maybe even keeps an eye on you to ensure you're furthering your patron's nebulous ends.\n\nAt 1st level, choose your patron, which determines your spellcasting tradition and grants you the skill for that tradition of magic, your first witch's lesson and a unique familiar ability."
+        },
+        {
+          "name": "Witch Spellcasting",
+          "level": 1,
+          "text": "Using your familiar as a conduit, your patron provides you the power to cast spells. You are a spellcaster, and you can cast spells of your patron's tradition using the Cast a Spell activity. As a witch, when you cast spells, your incantations might rhyme, your gestures might be as simple as an ominous pointing finger or a complex folk sign, and your familiar might even echo your words or movements slightly as your patron's magic surges.\n\nAt 1st level, you can prepare up to two 1st-rank spells and five cantrips each morning from the spells your familiar knows. Prepared spells remain available to you until you cast them or until you prepare your spells again. The number of spells you can prepare each day is called your spell slots. As you increase in level as a witch, the number of spells you can prepare each day increases, as does the highest rank of spell you can cast, as shown in the Witch Spells per Day table.\n\nSome of your spells require you to attempt a spell attack to see how effective they are, or have your enemies roll against your spell DC (typically by attempting a saving throw). Since your key attribute is Intelligence, your spell attack modifier and spell DC use your Intelligence modifier.\n\n## Heightening Spells\n\nWhen you get spell slots of 2nd-rank and higher, you can fill those slots with stronger versions of lower-rank spells. This increases the spell's rank, heightening it to match the spell slot. Many spells have specific improvements when they are heightened to certain ranks.\n\n## Cantrips\n\nSome of your spells are cantrips. A cantrip is a special type of spell that doesn't use spell slots. You can cast a cantrip at will, any number of times per day. A cantrip is always automatically heightened to half your level rounded up—this is usually equal to the highest rank of witch spell slot you have. For example, as a 1st-level witch, your cantrips are 1st-rank spells, and as a 5th-level witch, your cantrips are 3rd-rank spells."
+        },
+        {
+          "name": "Magical Fortitude",
+          "level": 5,
+          "text": "Your patron's power boosts your physical resiliency. Your proficiency rank for Fortitude saves increases to expert."
+        },
+        {
+          "name": "Expert Spellcaster",
+          "level": 7,
+          "text": "You've learned to better control the power your patron has granted you. Your proficiency ranks for spell attack modifier and spell DC increase to expert."
+        },
+        {
+          "name": "Reflex Expertise",
+          "level": 9,
+          "text": "You've developed a knack for dodging danger. Your proficiency rank for Reflex saves increases to expert."
+        },
+        {
+          "name": "Perception Expertise",
+          "level": 11,
+          "text": "You remain alert to threats around you. Your proficiency rank for Perception increases to expert."
+        },
+        {
+          "name": "Weapon Expertise",
+          "level": 11,
+          "text": "Through sheer experience, you've improved your technique with your weapons. Your proficiency ranks for simple weapons and unarmed attacks increase to expert."
+        },
+        {
+          "name": "Defensive Robes",
+          "level": 13,
+          "text": "The flow of magic around you increases your ability to avoid attacks. Your proficiency rank in unarmored defense increases to expert."
+        },
+        {
+          "name": "Weapon Specialization",
+          "level": 13,
+          "text": "You've learned how to inflict greater injuries with the weapons you know best. You deal an additional 2 damage with weapons and unarmed attacks in which you are an expert. This damage increases to 3 if you're a master, and 4 if you're legendary."
+        },
+        {
+          "name": "Master Spellcaster",
+          "level": 15,
+          "text": "You've achieved mastery over your patron's magic. Your proficiency ranks for spell attack modifier and spell DC increase to master."
+        },
+        {
+          "name": "Will of the Pupil",
+          "level": 17,
+          "text": "Communion with your familiar has steeled your mental fortitude. Your proficiency rank for Will saves increases to master. When you roll a success on a Will save, you get a critical success instead."
+        },
+        {
+          "name": "Legendary Spellcaster",
+          "level": 19,
+          "text": "You've perfected your command of the magic your patron provides. Your proficiency ranks for spell attack modifier and spell DC increase to legendary."
+        },
+        {
+          "name": "Patron's Gift",
+          "level": 19,
+          "text": "Your patron grants you the power to command incredible works of magic. You gain a single 10th-rank spell slot and can prepare a spell in that slot using witch spellcasting. Unlike with other spell slots, you can't use 10th-rank slots with abilities that give you more spell slots or that let you cast spells without expending spell slots. You don't gain more 10th-rank spells as you level up, but you can take the [Patron's Truth](/feat/patron-s-truth-player-core) feat to gain a second slot."
+        }
+      ],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5F2F39DC-B0A1-597C-B81E-F211096075A1",
+    "kind": "Class",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Wizard",
+    "slug": "wizard-player-core",
+    "descr": "",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "summary": "",
+      "attributes": [
+        "intelligence"
+      ],
+      "hp": 6,
+      "perception": "trained",
+      "fortitude": "trained",
+      "reflex": "trained",
+      "will": "expert",
+      "skills": "arcana",
+      "attacks": "simple, unarmed",
+      "defenses": "unarmored",
+      "classAdvancement": "| Your Level | Class Features |\n| --- | --- |\n| 1 | Ancestry and background, initial proficiencies, arcane spellcasting, arcane school, arcane bond, arcane thesis |\n| 2 | Skill feat, wizard feat |\n| 3 | 2nd-rank spells, general feat, skill increase |\n| 4 | Skill feat, wizard feat |\n| 5 | 3rd-rank spells, attribute boosts, ancestry feat, reflex expertise, skill increase |\n| 6 | Skill feat, wizard feat |\n| 7 | 4th-rank spells, expert spellcaster, general feat, skill increase |\n| 8 | Skill feat, wizard feat |\n| 9 | 5th-rank spells, ancestry feat, magical fortitude, skill increase |\n| 10 | Attribute boosts, skill feat, wizard feat |\n| 11 | 6th-rank spells, general feat, perception expertise, skill increase, wizard weapon expertise |\n| 12 | Skill feat, wizard feat |\n| 13 | 7th-rank spells, ancestry feat, defensive robes, skill increase, weapon specialization |\n| 14 | Skill feat, wizard feat |\n| 15 | 8th-rank spells, attribute boosts, general feat, master spellcaster, skill increase |\n| 16 | Skill feat, wizard feat |\n| 17 | 9th-rank spells, ancestry feat, prodigious will, skill increase |\n| 18 | Skill feat, wizard feat |\n| 19 | Archwizard's spellcraft, general feat, legendary archwizard, skill increase |\n| 20 | Attribute boosts, skill feat, wizard feat |",
+      "classFeaturesText": "You gain these features as a Wizard. Abilities gained at higher levels list the levels at which you gain them next to the features' names.",
+      "classFeatures": [
+        {
+          "name": "Arcane Bond",
+          "level": 1,
+          "text": "You place some of your magical power in a bonded item. Each day when you prepare your spells, you can designate a single item you own as your bonded item. This is typically an item associated with spellcasting, such as a wand, ring, or staff, but you are free to designate a weapon or other item. You gain the Drain Bonded Item free action."
+        },
+        {
+          "name": "Arcane School",
+          "level": 1,
+          "text": "Most wizards acquire their knowledge of spells from a formal educational institution, such as the Arcanamirium or the Magaambya. At 1st level, you choose your arcane school, which grants you magical abilities.\n\nYou gain additional spells and spell slots from the curriculum taught at the school you attended. Some wizards follow the school of unified magical theory, which attempts to forge a new school by studying independently and drawing information from a multitude of texts and tutors. Though a wizard with this approach lacks the focus of formal training, they have greater flexibility."
+        },
+        {
+          "name": "Arcane Thesis",
+          "level": 1,
+          "text": "During your studies to become a full-fledged wizard, you produced a thesis of unique magical research. You gain a special benefit depending on the topic of your thesis research. The arcane thesis topics presented in this book are below; your specific thesis probably has a much longer and more technical title like *\"On the Methods of Spell Interpolation and the Genesis of a New Understanding of the Building Blocks of Magic.\"*\n\nExperimental Spellshaping\n\nImproved Familiar Attunement\n\nSpell Blending\n\nSpell Substitution\n\nStaff Nexus"
+        },
+        {
+          "name": "Wizard Spellcasting",
+          "level": 1,
+          "text": "Through dedicated study and practice, you can construct spells with academic rigor by shaping arcane magic. You are a spellcaster, and you can cast spells of the arcane tradition using the Cast a Spell activity. As a wizard, when you cast spells, your incantations likely specify exactly what forces you call on and how to shape them, and your gestures precisely shape and direct your magic while circles of arcane runes flare to life.\n\nAt 1st level, you can prepare up to two 1st-rank spells and five cantrips each morning from the spells in your spellbook (see below), as well as one extra curriculum cantrip and one extra curriculum spell of each rank you can cast from your arcane school. Prepared spells remain available to you until you cast them or until you prepare your spells again. The number of spells you can prepare is called your spell slots.\n\nAs you increase in level as a wizard, the number of spells you can prepare each day increases, as does the highest rank of spell you can cast, as shown in the Wizard Spells per Day table.\n\nSome of your spells require you to attempt a spell attack to see how effective they are, or have your enemies roll against your spell DC (typically by attempting a saving throw). Since your key attribute is Intelligence, your spell attack modifier and spell DC use your Intelligence modifier. Details on calculating these statistics appear on page 403.\n\n### Heightening Spells\n\nWhen you get spell slots of 2nd rank and higher, you can fill those slots with stronger versions of lower-rank spells. This increases the spell's rank, heightening it to match the spell slot. Many spells have specific improvements when they are heightened to certain ranks.\n\n### Cantrips\n\nSome of your spells are cantrips. A cantrip is a special type of spell that doesn't use spell slots. You can cast a cantrip at will, any number of times per day. A cantrip is always automatically heightened to half your level rounded up—this is usually equal to the highest rank of wizard spell slot you have. For example, as a 1st-level wizard, your cantrips are 1st-rank spells, and as a 5th-level wizard, your cantrips are 3rd-rank spells.\n\n### Spellbook\n\nEvery arcane spell has a written version, which you record in your personalized book of spells. You start with a spellbook worth 10 sp or less, which you receive for free and must study each day to prepare your spells. Your spellbook's form and name are up to you. It might be a musty, leather-bound tome or an assortment of thin metal disks connected to a brass ring; its name might be esoteric, like *The Tome of Silent Shadows* or something more academic, like *Advanced Pyromantic Applications of Jalmeri Elemental Theory*.\n\nThe spellbook contains your choice of 10 arcane cantrips and five 1st-rank arcane spells. You choose these from the common spells on the arcane spell list or from other arcane spells you gain access to. You also add two 1st-rank spells from the curriculum of your arcane school (except in the case of the school of unified magical theory, as described in that school).\n\nEach time you gain a level, you add two arcane spells to your spellbook, of any spell rank for which you have spell slots, chosen from common spells of your tradition or others you gain access to. You can also add spells to your spellbook with the Learn a Spell activity. When you gain spell slots of a new rank, you also add an additional spell from your school's curriculum (unless it's the school of unified magical theory)."
+        },
+        {
+          "name": "Reflex Expertise",
+          "level": 5,
+          "text": "You've developed a knack for dodging danger. Your proficiency rank for Reflex saves increases to expert."
+        },
+        {
+          "name": "Expert Spellcaster",
+          "level": 7,
+          "text": "Extended practice of the arcane has improved your capabilities. Your proficiency ranks for spell attack modifier and spell DC increase to expert."
+        },
+        {
+          "name": "Magical Fortitude",
+          "level": 9,
+          "text": "Magical power has improved your body's resiliency. Your proficiency rank for Fortitude saves increases to expert."
+        },
+        {
+          "name": "Perception Expertise",
+          "level": 11,
+          "text": "You remain alert to threats around you. Your proficiency rank for Perception increases to expert."
+        },
+        {
+          "name": "Weapon Expertise",
+          "level": 11,
+          "text": "Through sheer experience, you've improved your technique with your weapons. Your proficiency ranks for simple weapons and unarmed attacks increase to expert."
+        },
+        {
+          "name": "Defensive Robes",
+          "level": 13,
+          "text": "The flow of magic around you increases your ability to avoid attacks. Your proficiency rank in unarmored defense increases to expert."
+        },
+        {
+          "name": "Weapon Specialization",
+          "level": 13,
+          "text": "You've learned how to inflict greater injuries with the weapons you know best. You deal an additional 2 damage with weapons and unarmed attacks in which you are an expert. This damage increases to 3 if you're a master, and 4 if you're legendary."
+        },
+        {
+          "name": "Master Spellcaster",
+          "level": 15,
+          "text": "You command superlative spellcasting ability. Your proficiency ranks for spell attack modifier and spell DC increase to master."
+        },
+        {
+          "name": "Prodigious Will",
+          "level": 17,
+          "text": "Your mind is simply too complex and sophisticated to be tampered with. Your proficiency rank for Will saves increases to master. When you roll a success at a Will save, you get a critical success instead."
+        },
+        {
+          "name": "Archwizard's Spellcraft",
+          "level": 19,
+          "text": "You command the most potent arcane magic and can cast a spell of truly incredible power. You gain a single 10th-rank spell slot and can prepare a spell in that slot using wizard spellcasting. Unlike with other spell slots, you can't use 10th-rank slots with abilities that give you more spell slots or that let you cast spells without expending spell slots. You don't gain more 10th-rank spells as you level up, but you can take the [Archwizard'S Might](/feat/archwizard-s-might-player-core) feat to gain a second slot."
+        },
+        {
+          "name": "Legendary Spellcaster",
+          "level": 19,
+          "text": "You are a consummate spellcaster, blending both arcane theory and practical spellcraft. Your proficiency ranks for spell attack modifier and spell DC increase to legendary."
+        }
+      ],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

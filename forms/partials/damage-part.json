@@ -1,0 +1,21 @@
+{
+  "sections": [
+    {
+      "type": "group",
+      "fields": [
+        {
+          "title": "Creature.DamageFormula",
+          "type": "text",
+          "placeholder": "Common.Optional",
+          "attribute": "name"
+        },
+        {
+          "title": "Creature.DamageDescription",
+          "type": "text",
+          "placeholder": "Common.Optional",
+          "attribute": "details"
+        }
+      ]
+    }
+  ]
+}

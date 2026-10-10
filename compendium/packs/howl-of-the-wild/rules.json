@@ -1,0 +1,386 @@
+[
+  {
+    "id": "C44F58CB-B5D2-58F9-91BE-51500438D2E6",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Aquatic PCs",
+    "slug": "aquatic-pcs-rules-3273",
+    "type": "other",
+    "descr": "Athamarus, [merfolk](/ancestry/merfolk-howl-of-the-wild), and some awakened animals can be amphibious or aquatic. If your players are interested in playing an aquatic character in a primarily terrestrial campaign, consider starting them off with assistive devices such as the [atmospheric breathing suit](/item/atmospheric-breathing-suit-howl-of-the-wild), [pelagic helmet](/item/pelagic-helmet-howl-of-the-wild), or [supramarine chair](/item/supramarine-chair-howl-of-the-wild) at no additional cost. For a less technological option, you might consider granting a PC feats such as [Land Legs](/feat/land-legs-howl-of-the-wild) or [Shore Gift](/feat/shore-gift-howl-of-the-wild) as a bonus feat at level 1, possibly adding certain narrative limitations like “the merfolk PC gains Shore Gift as a bonus feat, but loses its benefits when the moon is full” if they suit your story.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Special Ancestry Rules"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3273"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "other",
+      "remaster",
+      "rule",
+      "special-ancestry-rules"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild",
+        "page": 9,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3273"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "233D4D73-5B4A-51D3-BE59-779B26000C85",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Damaging a Graft",
+    "slug": "damaging-a-graft-rules-3278",
+    "type": "other",
+    "descr": "Once a graft is accepted, it becomes part of the subject’s body and can’t take damage separately, just like any natural body part. If a graft is ever severed from the subject’s body, it can be reconnected by any method that allows a severed body part to be reattached (such as the [_regenerate_](/spell/regenerate-player-core) spell). If the graft is destroyed before it can be reattached, the subject typically can’t restore it.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Grafting Rules"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3278"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "grafting-rules",
+      "howl-of-the-wild",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild",
+        "page": 97,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3278"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "54E994E2-4024-52CC-9999-D7EDB7E97F4B",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Flying PCs",
+    "slug": "flying-pcs-rules-3274",
+    "type": "other",
+    "descr": "Certain ancestries, such as awakened birds or some surkis, have wings. The presented [ancestry](/rule/ancestry-rules-3286) rules intend to provide a good combination of story and game balance for most groups. However, some players might have character concepts that don't fit this assumption and might wish to have unbound flight from initial character creation. At the GM's discretion, the GM can grant these PCs a 15-foot fly Speed, replacing any other abilities that involve flying, such as the [Take Flight](/feat/take-flight-howl-of-the-wild) awakened animal feat. However, GMs who allow this option should be aware that a PC who can constantly fly can trivialize many common low- and mid-level challenges, or might consistently outshine or leave other characters behind. The GM should consider this option carefully before allowing it and adjust the game accordingly; for instance, ensuring that some enemies in each encounter have ranged options so they aren't left unable to respond to a PC raining spells or arrows from the safety of the sky.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Special Ancestry Rules"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3274"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "other",
+      "remaster",
+      "rule",
+      "special-ancestry-rules"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild",
+        "page": 9,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3274"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "20E8FB23-B387-597E-B425-A7CBFDF2A048",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Grafting Rules",
+    "slug": "grafting-rules-rules-3275",
+    "type": "other",
+    "descr": "Grafts are living tissues that are implanted into a host, where they integrate with the hosts’ native biology. To implant a graft, you must be an expert in Medicine and have the appropriate formula. Graft formulas can be purchased as outlined in the [formulas rules](/rule/formulas-rules-2214).\n\nYou can take the [Graft Technician](/feat/graft-technician-howl-of-the-wild) feat to implant grafts.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3275"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild",
+        "page": 97,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3275"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A0E0E67C-8E6A-5BF2-8046-87E0CCB8BF45",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Implanting a Graft",
+    "slug": "implanting-a-graft-rules-3277",
+    "type": "other",
+    "descr": "Implanting a graft is a downtime activity, using the same rules as Crafting an item except as follows. The grafter uses the Medicine skill to affix the foreign organ to the willing subject, who must be present throughout the process. The grafter can implant only one graft at a time. Once the grafting process is complete, the implanted subject can begin using the graft. Grafts can be created from scratch, though they typically require specialized storage conditions, such as a tank of alchemical fluid, to remain viable outside of a host.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Grafting Rules"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3277"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "grafting-rules",
+      "howl-of-the-wild",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild",
+        "page": 97,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3277"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A8E0A716-0F2C-57E8-BF47-0481BE6C187A",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Large PCs",
+    "slug": "large-pcs-rules-3270",
+    "type": "other",
+    "descr": "Most centaurs and minotaurs, as well as some athamarus and awakened animals, can be Large. Large PCs generally can adventure most places that Medium PCs can, but we've included some reminder text covering important information for playing or GMing for Large characters.\n\n Large PCs occupy a space that is 2 squares long by 2 squares wide by 2 squares high. This means that they can, for example, Strike a creature that is flying 10 feet above the ground (or 15 feet above the ground when using a [reach](/trait/reach) weapon). However, Large PCs do not automatically gain additional reach, though some Large ancestries (such as minotaurs) have ancestry feats that grant them additional reach. A Large PC is also big enough that they provide standard cover instead of lesser cover to Small or smaller creatures.\n\n When moving through an area that is only 5 feet wide, a Large PC can move through the space but treats each square as [difficult terrain](/rule/difficult-terrain-rules-2366). Moving through a narrower space that does not obstruct Small creatures requires Large PCs to [Squeeze](/action/squeeze-player-core). This is typically relevant only in encounter mode; when shopping in town, a centaur can typically enter a building intended for Medium-sized creatures even if it takes them a little more time to duck through the doorway. When a Large PC moves through [hazardous terrain](/rule/hazardous-terrain-rules-2368) or a similar obstacle that causes damage based on the number of squares the PC moves through, they take damage only once for each 5 feet of movement—a minotaur shouldn't take four times as much damage for crossing a burning field as a human! Large PCs should generally be able to acquire equipment sized for them without having to pay a cost increase; these characters come from cultures that regularly craft appropriately sized gear for them to use.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Special Ancestry Rules"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3270"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "other",
+      "remaster",
+      "rule",
+      "special-ancestry-rules"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild",
+        "page": 9,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3270"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "53F06E02-D8FB-59A4-A790-D24A50615FC6",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Riding PCs",
+    "slug": "riding-pcs-rules-3272",
+    "type": "other",
+    "descr": "A PC can ride on another PC as long as the second PC is at least two size categories larger than them; this might be a Tiny awakened ferret riding in their [elf](/ancestry/elf-player-core) teammate's backpack, or a [halfling](/ancestry/halfling-player-core) on a minotaur's shoulder. However, this requires a tremendous amount of coordination to ensure the smaller PC doesn't get in the way, or that the two PCs don't jostle each other into losing actions. As a result, for most parties, this tactic is less favorable than the smaller PC just using their own mount. If a PC who is at least two sizes smaller rides along with another PC or similar non-[minion](/trait/minion) intelligent creature, roll both their initiatives and use the lower of the two results. The two PCs act in either order on the same initiative count. While traveling in this way, the PCs each gain two actions at the start of their turns, instead of three, since the larger PC spends one action keeping the smaller one balanced on their back, and the smaller PC spends one action maintaining their grip.\n\n Some ancestries specialize in being able to carry smaller riders or have feats to enable this, such as centaurs.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Special Ancestry Rules"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3272"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "other",
+      "remaster",
+      "rule",
+      "special-ancestry-rules"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild",
+        "page": 9,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3272"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "37EB1AE8-F39E-5E2D-8838-51A81B86A4F9",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Special Ancestry Rules",
+    "slug": "special-ancestry-rules-rules-3269",
+    "type": "other",
+    "descr": "Some of the new ancestries presented in this book require unique rules to fully represent their capabilities. Most of these rules are described in the applicable ancestry sections, but are also collected here for reference.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3269"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild",
+        "page": 9,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3269"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "6075A22F-7ACE-5007-A36A-EFA460C2FC92",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "The Graft Trait",
+    "slug": "the-graft-trait-rules-3279",
+    "type": "other",
+    "descr": "A graft has the [graft](/trait/graft) trait. Items with this trait are permanently affixed to the subject’s body and reduce the number of items a creature can invest each day by 1. Each graft has the [invested](/trait/invested) trait to indicate this limitation; a graft is equivalent to a magical item that the subject has no choice but to invest.\n\nIf a creature gets a new graft when their limit on invested items has already been reduced to zero, the graft fails to provide benefits. The graft’s abilities will take effect the next time the creature’s limit on invested items is greater than zero. A grafter can replace an existing graft during the implantation process or upgrade a graft into its greater version just like when [Crafting](/action/craft-player-core) a greater version of an item.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Grafting Rules"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3279"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "grafting-rules",
+      "howl-of-the-wild",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild",
+        "page": 97,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3279"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D581E29D-30A6-55E8-9809-1F3D2CC64AB0",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Tiny PCs",
+    "slug": "tiny-pcs-rules-3271",
+    "type": "other",
+    "descr": "Some awakened animals, like an awakened mouse, can be Tiny.\n\n A Tiny PC can enter another creature's space, which is important because their melee Strikes typically have no reach, meaning the PC must enter a creature's space to attack it. Like other Tiny creatures, the PC doesn't automatically receive lesser cover from being in a larger creature's space, but circumstances might allow them to [Take Cover](/action/take-cover-player-core). They can purchase weapons, armor, and other items for their size with the same statistics as normal gear, except that melee weapons have a reach of 0 for them (or a reach 5 feet shorter than normal if they have the [reach](/trait/reach) trait). Remember to [adjust the Bulk](/rule/items-and-sizes-rules-2163) of items and the PC's Bulk limit for Tiny size._ Paizo ClarificationTiny creatures aren't singled out in the rules for cover from creatures, but the Tiny PC rules in Howl of the Wild and other books state, “Like other Tiny creatures, the PC doesn't automatically receive lesser cover from being in a larger creature's space, but circumstances might allow them to Take Cover.” To clarify, Tiny creatures can still grant cover if they're in the path of an attack or other effect that cover would apply against! The Tiny PC explanation is a reminder that sharing a space doesn't automatically give cover, since sharing a space in this way is a situation Tiny PCs might need to deal with.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Special Ancestry Rules"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3271"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "other",
+      "remaster",
+      "rule",
+      "special-ancestry-rules"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild",
+        "page": 9,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3271"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

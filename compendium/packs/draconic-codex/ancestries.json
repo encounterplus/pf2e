@@ -1,0 +1,81 @@
+[
+  {
+    "id": "4A18E4AF-976D-5D68-AA0F-52C0D22D5BF9",
+    "kind": "Ancestry",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Dragonet",
+    "slug": "dragonet-draconic-codex-ancestry-ancestry-96",
+    "descr": "",
+    "data": {
+      "rarity": "rare",
+      "traits": [
+        "dragon",
+        "dragonet"
+      ],
+      "hp": 8,
+      "size": "tiny",
+      "movement": {
+        "walk": 20
+      },
+      "attributeBoosts": [
+        "dexterity",
+        "charisma"
+      ],
+      "attributeFlaws": [
+        "constitution"
+      ],
+      "languages": [
+        "common",
+        "draconic"
+      ],
+      "abilities": [
+        {
+          "name": "Big Sharp Teeth",
+          "text": "Your mouth bristles with razor-sharp teeth. You gain a jaws unarmed attack that deals 1d4 piercing damage. Your jaws are in the brawling group and have the finesse and [unarmed](/trait/unarmed) traits."
+        },
+        {
+          "name": "Darkvision",
+          "text": "You can see in darkness and dim light just as well as you can see in bright light, though your vision in darkness is in black and white."
+        },
+        {
+          "name": "Wings",
+          "text": "Your wings might not be as strong as other dragonets’, but can still prevent you from uncontrolled falls. You take no damage from falling, regardless of the distance you fall."
+        }
+      ],
+      "summary": "",
+      "traitLinks": [
+        {
+          "label": "dragon",
+          "slug": "dragon"
+        },
+        {
+          "label": "dragonet",
+          "slug": "dragonet"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "draconic-codex",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "ancestry",
+      "draconic-codex",
+      "dragon",
+      "dragonet",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Draconic Codex",
+        "url": "https://2e.aonprd.com/Ancestries.aspx?ID=96",
+        "page": 208
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  }
+]

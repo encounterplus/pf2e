@@ -41,13 +41,33 @@
           "title": "Common.AttackModifier",
           "type": "number",
           "attribute": "attack",
-        },
-        {
-          "title": "Common.Damage",
-          "type": "text",
-          "attribute": "damage"
         }
       ]
+    },
+    {
+      "title": "Common.Damage",
+      "type": "list",
+      "attribute": "damageParts",
+      "custom": {
+        "itemTitle": "{% if name %}{{name}}{% else %}{% if formula %}{{formula}}{% else %}{{'Common.Damage'|l}}{% endif %}{% endif %}",
+        "itemDetail": "{{details}}"
+      },
+      "form": {
+        "title": "Creature.DamageComponent",
+        "partial": "damage-part"
+      }
+    },
+    {
+      "title": "Common.Effect",
+      "type": "list",
+      "attribute": "effects",
+      "custom": {
+        "itemTitle": "{{name}}"
+      },
+      "form": {
+        "title": "Common.Effect",
+        "partial": "attack-effect"
+      }
     }
   ]
 }

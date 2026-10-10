@@ -12,9 +12,9 @@
         "title": "Common.Rarity"
       },
       {
-        "attribute": "data.alignment",
-        "attributeType": "Alignment",
-        "title": "Common.Alignment"
+        "attribute": "data.sanctification",
+        "attributeType": "Sanctification",
+        "title": "Common.Sanctification"
       },
       {
         "attribute": "data.size",
@@ -56,6 +56,11 @@
         "attribute": "data.type",
         "attributeType": "SpellType",
         "title": "Common.Type"
+      },
+      {
+        "attribute": "data.castActions",
+        "attributeType": "Action",
+        "title": "Common.Actions"
       },
       {
         "attribute": "data.rank",
@@ -293,5 +298,149 @@
         "title": "Common.Type"
       }
     ]
-  }, 
+  },
+  "Ancestry": {
+    "params": [
+      { "attribute": "data.rarity", "attributeType": "Rarity", "title": "Common.Rarity" },
+      { "attribute": "data.size", "attributeType": "Size", "title": "Common.Size" },
+      { "attribute": "data.traits", "dynamic": true, "title": "Common.Trait" },
+      { "attribute": "sources.name", "dynamic": true, "title": "Common.Source" }
+    ],
+    "group": [
+      { "attribute": "data.rarity", "attributeType": "Rarity", "title": "Common.Rarity" },
+      { "attribute": "name", "title": "Common.Name" }
+    ],
+    "sort": [{ "attribute": "name", "title": "Common.Name" }]
+  },
+  "Heritage": {
+    "params": [
+      { "attribute": "data.rarity", "attributeType": "Rarity", "title": "Common.Rarity" },
+      { "attribute": "data.traits", "dynamic": true, "title": "Common.Trait" },
+      { "attribute": "sources.name", "dynamic": true, "title": "Common.Source" }
+    ],
+    "group": [{ "attribute": "name", "title": "Common.Name" }],
+    "sort": [{ "attribute": "name", "title": "Common.Name" }]
+  },
+  "Background": {
+    "params": [
+      { "attribute": "data.rarity", "attributeType": "Rarity", "title": "Common.Rarity" },
+      { "attribute": "data.traits", "dynamic": true, "title": "Common.Trait" },
+      { "attribute": "sources.name", "dynamic": true, "title": "Common.Source" }
+    ],
+    "group": [{ "attribute": "name", "title": "Common.Name" }],
+    "sort": [{ "attribute": "name", "title": "Common.Name" }]
+  },
+  "Class": {
+    "params": [
+      { "attribute": "data.traits", "dynamic": true, "title": "Common.Trait" },
+      { "attribute": "sources.name", "dynamic": true, "title": "Common.Source" }
+    ],
+    "group": [{ "attribute": "name", "title": "Common.Name" }],
+    "sort": [{ "attribute": "name", "title": "Common.Name" }]
+  },
+  "Archetype": {
+    "params": [
+      { "attribute": "data.level", "dynamic": true, "title": "Common.Level" },
+      { "attribute": "data.rarity", "attributeType": "Rarity", "title": "Common.Rarity" },
+      { "attribute": "data.traits", "dynamic": true, "title": "Common.Trait" },
+      { "attribute": "sources.name", "dynamic": true, "title": "Common.Source" }
+    ],
+    "group": [
+      { "attribute": "data.level", "text": "{{'Common.Level'|l}} {{value}}", "title": "Common.Level" },
+      { "attribute": "name", "title": "Common.Name" }
+    ],
+    "sort": [{ "attribute": "name", "title": "Common.Name" }]
+  },
+  "Character": {
+    "params": [
+      { "attribute": "data.level", "dynamic": true, "title": "Common.Level" },
+      { "attribute": "data.ancestry", "dynamic": true, "title": "Entity.Ancestry" },
+      { "attribute": "data.class", "dynamic": true, "title": "Entity.Class" },
+      { "attribute": "data.traits", "dynamic": true, "title": "Common.Trait" }
+    ],
+    "group": [
+      { "attribute": "data.level", "text": "{{'Common.Level'|l}} {{value}}", "title": "Common.Level" },
+      { "attribute": "name", "title": "Common.Name" }
+    ],
+    "sort": [
+      { "attribute": "name", "title": "Common.Name" },
+      { "attribute": "data.level", "title": "Common.Level" }
+    ]
+  },
+  "Action": {
+    "params": [
+      { "attribute": "data.actions", "attributeType": "Action", "title": "Common.Actions" },
+      { "attribute": "data.traits", "dynamic": true, "title": "Common.Trait" },
+      { "attribute": "sources.name", "dynamic": true, "title": "Common.Source" }
+    ],
+    "group": [
+      { "attribute": "data.actions", "attributeType": "Action", "title": "Common.Actions" },
+      { "attribute": "name", "title": "Common.Name" }
+    ],
+    "sort": [{ "attribute": "name", "title": "Common.Name" }]
+  },
+  "StatusEffect": {
+    "params": [
+      { "attribute": "data.traits", "dynamic": true, "title": "Common.Trait" },
+      { "attribute": "sources.name", "dynamic": true, "title": "Common.Source" }
+    ],
+    "group": [{ "attribute": "name", "title": "Common.Name" }],
+    "sort": [{ "attribute": "name", "title": "Common.Name" }]
+  },
+  "Hazard": {
+    "params": [
+      { "attribute": "data.level", "dynamic": true, "title": "Common.Level" },
+      { "attribute": "data.complexity", "dynamic": true, "title": "Common.Type" },
+      { "attribute": "data.traits", "dynamic": true, "title": "Common.Trait" },
+      { "attribute": "sources.name", "dynamic": true, "title": "Common.Source" }
+    ],
+    "group": [
+      { "attribute": "data.level", "text": "{{'Common.Level'|l}} {{value}}", "title": "Common.Level" },
+      { "attribute": "name", "title": "Common.Name" }
+    ],
+    "sort": [{ "attribute": "name", "title": "Common.Name" }]
+  },
+  "Vehicle": {
+    "params": [
+      { "attribute": "data.level", "dynamic": true, "title": "Common.Level" },
+      { "attribute": "data.size", "attributeType": "Size", "title": "Common.Size" },
+      { "attribute": "data.traits", "dynamic": true, "title": "Common.Trait" },
+      { "attribute": "sources.name", "dynamic": true, "title": "Common.Source" }
+    ],
+    "group": [
+      { "attribute": "data.level", "text": "{{'Common.Level'|l}} {{value}}", "title": "Common.Level" },
+      { "attribute": "name", "title": "Common.Name" }
+    ],
+    "sort": [{ "attribute": "name", "title": "Common.Name" }]
+  },
+  "Affliction": {
+    "params": [
+      { "attribute": "data.level", "dynamic": true, "title": "Common.Level" },
+      { "attribute": "data.traits", "dynamic": true, "title": "Common.Trait" },
+      { "attribute": "sources.name", "dynamic": true, "title": "Common.Source" }
+    ],
+    "group": [
+      { "attribute": "data.level", "text": "{{'Common.Level'|l}} {{value}}", "title": "Common.Level" },
+      { "attribute": "name", "title": "Common.Name" }
+    ],
+    "sort": [{ "attribute": "name", "title": "Common.Name" }]
+  },
+  "Deity": {
+    "params": [
+      { "attribute": "data.sanctification", "attributeType": "Sanctification", "title": "Common.Sanctification" },
+      { "attribute": "sources.name", "dynamic": true, "title": "Common.Source" }
+    ],
+    "group": [{ "attribute": "name", "title": "Common.Name" }],
+    "sort": [{ "attribute": "name", "title": "Common.Name" }]
+  },
+  "Domain": {
+    "params": [{ "attribute": "sources.name", "dynamic": true, "title": "Common.Source" }],
+    "group": [{ "attribute": "name", "title": "Common.Name" }],
+    "sort": [{ "attribute": "name", "title": "Common.Name" }]
+  },
+  "Language": {
+    "params": [{ "attribute": "sources.name", "dynamic": true, "title": "Common.Source" }],
+    "group": [{ "attribute": "name", "title": "Common.Name" }],
+    "sort": [{ "attribute": "name", "title": "Common.Name" }]
+  },
 }

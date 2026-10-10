@@ -1,0 +1,1800 @@
+[
+  {
+    "id": "280C1100-D477-536B-A91D-7066DCF7B17E",
+    "kind": "Deity",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Apsu (The Waybringer)",
+    "slug": "apsu-the-waybringer-draconic-codex-deity-deity-330",
+    "descr": "",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "Dragon Gods",
+      "areasOfConcern": "leadership, peace, virtuous dragons",
+      "edicts": [
+        "seek and destroy evil, travel the world, help others fend for themselves"
+      ],
+      "anathema": [
+        "fail to pursue a foe who has betrayed your mercy, attack a creature without certainty of wrongdoing"
+      ],
+      "clericFont": [
+        "heal"
+      ],
+      "divineAttribute": [
+        "wisdom",
+        "charisma"
+      ],
+      "divineSkill": "diplomacy",
+      "favoredWeapon": [
+        "jaws",
+        "Staff"
+      ],
+      "domains": [
+        "creation",
+        "dragon",
+        "protection",
+        "travel"
+      ],
+      "alternateDomains": [
+        "freedom",
+        "introspection"
+      ],
+      "spells": [
+        "Anticipate Peril",
+        "Creation",
+        "Summon Dragon",
+        "Falling Stars"
+      ],
+      "sanctification": "holy",
+      "sanctificationOptions": [
+        "holy"
+      ],
+      "rulesText": "**Areas of Concern** leadership, peace, virtuous dragons\n\n**Edicts** seek and destroy evil, travel the world, help others fend for themselves\n\n**Anathema** fail to pursue a foe who has betrayed your mercy, attack a creature without certainty of wrongdoing\n\n**Divine Attribute** Wisdom, Charisma\n\n**Divine Font** [Heal](/spell/heal-player-core)\n\n**Sanctification** Holy\n\n**Divine Skill** Diplomacy\n\n**Favored Weapon** jaws, [Staff](/item/staff-player-core)\n\n**Domains** [Creation](/domain/creation), [Dragon](/domain/dragon-divine-mysteries-domain-domain-106), [Protection](/domain/protection), [Travel](/domain/travel)\n\n**Alternate Domains** [Freedom](/domain/freedom), [Introspection](/domain/introspection-divine-mysteries-domain-domain-110)\n\n**Cleric Spells** [Anticipate Peril](/spell/anticipate-peril-divine-mysteries-spell-spell-2343), [Creation](/spell/creation-player-core), [Summon Dragon](/spell/summon-dragon-player-core), [Falling Stars](/spell/falling-stars-player-core)",
+      "traitLinks": [],
+      "deityReferences": {
+        "clericFont": [
+          {
+            "value": "heal",
+            "text": "[heal](</spell/heal-player-core>)"
+          }
+        ],
+        "favoredWeapon": [
+          {
+            "value": "Staff",
+            "text": "[Staff](</item/staff-player-core>)"
+          }
+        ],
+        "domains": [
+          {
+            "value": "creation",
+            "text": "[creation](</domain/creation>)"
+          },
+          {
+            "value": "dragon",
+            "text": "[dragon](</domain/dragon-divine-mysteries-domain-domain-106>)"
+          },
+          {
+            "value": "protection",
+            "text": "[protection](</domain/protection>)"
+          },
+          {
+            "value": "travel",
+            "text": "[travel](</domain/travel>)"
+          }
+        ],
+        "alternateDomains": [
+          {
+            "value": "freedom",
+            "text": "[freedom](</domain/freedom>)"
+          },
+          {
+            "value": "introspection",
+            "text": "[introspection](</domain/introspection-divine-mysteries-domain-domain-110>)"
+          }
+        ],
+        "spells": [
+          {
+            "value": "Anticipate Peril",
+            "text": "[Anticipate Peril](</spell/anticipate-peril-divine-mysteries-spell-spell-2343>)"
+          },
+          {
+            "value": "Creation",
+            "text": "[Creation](</spell/creation-player-core>)"
+          },
+          {
+            "value": "Summon Dragon",
+            "text": "[Summon Dragon](</spell/summon-dragon-player-core>)"
+          },
+          {
+            "value": "Falling Stars",
+            "text": "[Falling Stars](</spell/falling-stars-player-core>)"
+          }
+        ]
+      },
+      "deityReferenceKeys": {
+        "clericFont": [
+          "heal"
+        ],
+        "favoredWeapon": [
+          "Staff"
+        ],
+        "domains": [
+          "creation",
+          "dragon",
+          "protection",
+          "travel"
+        ],
+        "alternateDomains": [
+          "freedom",
+          "introspection"
+        ],
+        "spells": [
+          "Anticipate Peril",
+          "Creation",
+          "Summon Dragon",
+          "Falling Stars"
+        ]
+      },
+      "edictsText": "seek and destroy evil, travel the world, help others fend for themselves",
+      "anathemaText": "fail to pursue a foe who has betrayed your mercy, attack a creature without certainty of wrongdoing",
+      "sanctificationText": "holy",
+      "deitySanctificationFormat": "text",
+      "deityDirectiveFormat": "text"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "draconic-codex",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "deity",
+      "draconic-codex",
+      "dragon-gods",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Draconic Codex",
+        "url": "https://2e.aonprd.com/Deities.aspx?ID=330",
+        "page": 26
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "0CEA7C9D-6C82-519A-BCF8-C2985092AA44",
+    "kind": "Deity",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Brixori (The Wayward Sister)",
+    "slug": "brixori-the-wayward-sister-draconic-codex-deity-deity-715",
+    "descr": "",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "Dragon Gods",
+      "areasOfConcern": "libraries, the supernatural, underdogs",
+      "edicts": [
+        "pursue knowledge even in the most unusual places, seek to understand that which cannot be explained, show kindness to those who are weaker than the rest"
+      ],
+      "anathema": [
+        "underestimate an enemy or an ally, treat those weaker than you unkindly"
+      ],
+      "clericFont": [
+        "harm",
+        "heal"
+      ],
+      "divineAttribute": [
+        "intelligence",
+        "wisdom"
+      ],
+      "divineSkill": "arcana",
+      "favoredWeapon": [
+        "tail",
+        "Starknife"
+      ],
+      "domains": [
+        "glyph",
+        "introspection",
+        "knowledge",
+        "magic"
+      ],
+      "alternateDomains": [],
+      "spells": [
+        "Déjà Vu",
+        "Threefold Aspect",
+        "Summon Dragon",
+        "Quandary"
+      ],
+      "sanctification": "",
+      "sanctificationOptions": [],
+      "rulesText": "**Areas of Concern** libraries, the supernatural, underdogs\n\n**Edicts** pursue knowledge even in the most unusual places, seek to understand that which cannot be explained, show kindness to those who are weaker than the rest\n\n**Anathema** underestimate an enemy or an ally, treat those weaker than you unkindly\n\n**Divine Attribute** Intelligence, Wisdom\n\n**Divine Font** [Harm](/spell/harm-player-core), [Heal](/spell/heal-player-core)\n\n**Divine Skill** Arcana\n\n**Favored Weapon** tail, [Starknife](/item/starknife-player-core)\n\n**Domains** [Glyph](/domain/glyph-divine-mysteries-domain-domain-109), [Introspection](/domain/introspection-divine-mysteries-domain-domain-110), [Knowledge](/domain/knowledge), [Magic](/domain/magic)\n\n**Cleric Spells** [Déjà Vu](/spell/deja-vu-player-core-2), [Threefold Aspect](/spell/threefold-aspect-player-core-2), [Summon Dragon](/spell/summon-dragon-player-core), [Quandary](/spell/quandary-player-core)",
+      "traitLinks": [],
+      "deityReferences": {
+        "clericFont": [
+          {
+            "value": "harm",
+            "text": "[harm](</spell/harm-player-core>)"
+          },
+          {
+            "value": "heal",
+            "text": "[heal](</spell/heal-player-core>)"
+          }
+        ],
+        "favoredWeapon": [
+          {
+            "value": "Starknife",
+            "text": "[Starknife](</item/starknife-player-core>)"
+          }
+        ],
+        "domains": [
+          {
+            "value": "glyph",
+            "text": "[glyph](</domain/glyph-divine-mysteries-domain-domain-109>)"
+          },
+          {
+            "value": "introspection",
+            "text": "[introspection](</domain/introspection-divine-mysteries-domain-domain-110>)"
+          },
+          {
+            "value": "knowledge",
+            "text": "[knowledge](</domain/knowledge>)"
+          },
+          {
+            "value": "magic",
+            "text": "[magic](</domain/magic>)"
+          }
+        ],
+        "spells": [
+          {
+            "value": "Déjà Vu",
+            "text": "[Déjà Vu](</spell/deja-vu-player-core-2>)"
+          },
+          {
+            "value": "Threefold Aspect",
+            "text": "[Threefold Aspect](</spell/threefold-aspect-player-core-2>)"
+          },
+          {
+            "value": "Summon Dragon",
+            "text": "[Summon Dragon](</spell/summon-dragon-player-core>)"
+          },
+          {
+            "value": "Quandary",
+            "text": "[Quandary](</spell/quandary-player-core>)"
+          }
+        ]
+      },
+      "deityReferenceKeys": {
+        "clericFont": [
+          "harm",
+          "heal"
+        ],
+        "favoredWeapon": [
+          "Starknife"
+        ],
+        "domains": [
+          "glyph",
+          "introspection",
+          "knowledge",
+          "magic"
+        ],
+        "spells": [
+          "Déjà Vu",
+          "Threefold Aspect",
+          "Summon Dragon",
+          "Quandary"
+        ]
+      },
+      "edictsText": "pursue knowledge even in the most unusual places, seek to understand that which cannot be explained, show kindness to those who are weaker than the rest",
+      "anathemaText": "underestimate an enemy or an ally, treat those weaker than you unkindly",
+      "sanctificationText": "",
+      "deitySanctificationFormat": "text",
+      "deityDirectiveFormat": "text"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "draconic-codex",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "deity",
+      "draconic-codex",
+      "dragon-gods",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Draconic Codex",
+        "url": "https://2e.aonprd.com/Deities.aspx?ID=715",
+        "page": 27
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "1F6309AC-CC11-59E6-9314-7AA9AAA2022C",
+    "kind": "Deity",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Dahak (The Endless Destruction)",
+    "slug": "dahak-the-endless-destruction-draconic-codex-deity-deity-337",
+    "descr": "",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "Dragon Gods",
+      "areasOfConcern": "destruction, greed, wicked dragons",
+      "edicts": [
+        "kill dragons, destroy things at your whim, study past disasters"
+      ],
+      "anathema": [
+        "spare a foe after you have chosen to kill them, forgive a slight, prevent the destruction of things that cannot be saved"
+      ],
+      "clericFont": [
+        "harm"
+      ],
+      "divineAttribute": [
+        "strength",
+        "constitution"
+      ],
+      "divineSkill": "athletics",
+      "favoredWeapon": [
+        "jaws",
+        "Whip"
+      ],
+      "domains": [
+        "destruction",
+        "dragon",
+        "fire",
+        "zeal"
+      ],
+      "alternateDomains": [],
+      "spells": [
+        "Breathe Fire",
+        "Fireball",
+        "Summon Dragon",
+        "Implosion"
+      ],
+      "sanctification": "unholy",
+      "sanctificationOptions": [
+        "unholy"
+      ],
+      "rulesText": "**Areas of Concern** destruction, greed, wicked dragons\n\n**Edicts** kill dragons, destroy things at your whim, study past disasters\n\n**Anathema** spare a foe after you have chosen to kill them, forgive a slight, prevent the destruction of things that cannot be saved\n\n**Divine Attribute** Strength, Constitution\n\n**Divine Font** [Harm](/spell/harm-player-core)\n\n**Sanctification** Unholy\n\n**Divine Skill** Athletics\n\n**Favored Weapon** jaws, [Whip](/item/whip-player-core)\n\n**Domains** [Destruction](/domain/destruction), [Dragon](/domain/dragon-divine-mysteries-domain-domain-106), [Fire](/domain/fire), [Zeal](/domain/zeal)\n\n**Cleric Spells** [Breathe Fire](/spell/breathe-fire-player-core), [Fireball](/spell/fireball-player-core), [Summon Dragon](/spell/summon-dragon-player-core), [Implosion](/spell/implosion-player-core)",
+      "traitLinks": [],
+      "deityReferences": {
+        "clericFont": [
+          {
+            "value": "harm",
+            "text": "[harm](</spell/harm-player-core>)"
+          }
+        ],
+        "favoredWeapon": [
+          {
+            "value": "Whip",
+            "text": "[Whip](</item/whip-player-core>)"
+          }
+        ],
+        "domains": [
+          {
+            "value": "destruction",
+            "text": "[destruction](</domain/destruction>)"
+          },
+          {
+            "value": "dragon",
+            "text": "[dragon](</domain/dragon-divine-mysteries-domain-domain-106>)"
+          },
+          {
+            "value": "fire",
+            "text": "[fire](</domain/fire>)"
+          },
+          {
+            "value": "zeal",
+            "text": "[zeal](</domain/zeal>)"
+          }
+        ],
+        "spells": [
+          {
+            "value": "Breathe Fire",
+            "text": "[Breathe Fire](</spell/breathe-fire-player-core>)"
+          },
+          {
+            "value": "Fireball",
+            "text": "[Fireball](</spell/fireball-player-core>)"
+          },
+          {
+            "value": "Summon Dragon",
+            "text": "[Summon Dragon](</spell/summon-dragon-player-core>)"
+          },
+          {
+            "value": "Implosion",
+            "text": "[Implosion](</spell/implosion-player-core>)"
+          }
+        ]
+      },
+      "deityReferenceKeys": {
+        "clericFont": [
+          "harm"
+        ],
+        "favoredWeapon": [
+          "Whip"
+        ],
+        "domains": [
+          "destruction",
+          "dragon",
+          "fire",
+          "zeal"
+        ],
+        "spells": [
+          "Breathe Fire",
+          "Fireball",
+          "Summon Dragon",
+          "Implosion"
+        ]
+      },
+      "edictsText": "kill dragons, destroy things at your whim, study past disasters",
+      "anathemaText": "spare a foe after you have chosen to kill them, forgive a slight, prevent the destruction of things that cannot be saved",
+      "sanctificationText": "unholy",
+      "deitySanctificationFormat": "text",
+      "deityDirectiveFormat": "text"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "draconic-codex",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "deity",
+      "draconic-codex",
+      "dragon-gods",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Draconic Codex",
+        "url": "https://2e.aonprd.com/Deities.aspx?ID=337",
+        "page": 28
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "D079C329-01C6-5320-B635-4EDE05981F92",
+    "kind": "Deity",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Essence Dancers",
+    "slug": "essence-dancers-draconic-codex-deity-deity-723",
+    "descr": "",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "Pantheons",
+      "areasOfConcern": "the cosmos, ley lines, magic, synthesis",
+      "edicts": [
+        "pursue fundamental truths, compare your experience to that of others, investigate new solutions"
+      ],
+      "anathema": [
+        "become stagnant or passive in your thinking, abandon magic, sequester useful discoveries or valuable information"
+      ],
+      "clericFont": [
+        "harm",
+        "heal"
+      ],
+      "divineAttribute": [
+        "intelligence",
+        "wisdom"
+      ],
+      "divineSkill": "nature",
+      "favoredWeapon": [
+        "claws",
+        "Tekko-Kagi"
+      ],
+      "domains": [
+        "creation",
+        "dragon",
+        "knowledge",
+        "magic"
+      ],
+      "alternateDomains": [
+        "nature",
+        "secrecy"
+      ],
+      "spells": [
+        "Mindlink",
+        "Hypercognition",
+        "Summon Dragon",
+        "Quandary"
+      ],
+      "sanctification": "",
+      "sanctificationOptions": [],
+      "rulesText": "**Areas of Concern** the cosmos, ley lines, magic, synthesis\n\n**Edicts** pursue fundamental truths, compare your experience to that of others, investigate new solutions\n\n**Anathema** become stagnant or passive in your thinking, abandon magic, sequester useful discoveries or valuable information\n\n**Divine Attribute** Intelligence, Wisdom\n\n**Divine Font** [Harm](/spell/harm-player-core), [Heal](/spell/heal-player-core)\n\n**Divine Skill** Nature\n\n**Favored Weapon** claws, Tekko-Kagi\n\n**Domains** [Creation](/domain/creation), [Dragon](/domain/dragon-divine-mysteries-domain-domain-106), [Knowledge](/domain/knowledge), [Magic](/domain/magic)\n\n**Alternate Domains** [Nature](/domain/nature), [Secrecy](/domain/secrecy)\n\n**Cleric Spells** [Mindlink](/spell/mindlink-player-core), [Hypercognition](/spell/hypercognition-player-core), [Summon Dragon](/spell/summon-dragon-player-core), [Quandary](/spell/quandary-player-core)",
+      "traitLinks": [],
+      "deityReferences": {
+        "clericFont": [
+          {
+            "value": "harm",
+            "text": "[harm](</spell/harm-player-core>)"
+          },
+          {
+            "value": "heal",
+            "text": "[heal](</spell/heal-player-core>)"
+          }
+        ],
+        "favoredWeapon": [
+          {
+            "value": "Tekko-Kagi",
+            "text": "[Tekko-Kagi](</item/tekko-kagi-tian-xia-character-guide-weapon-weapon-304>)"
+          }
+        ],
+        "domains": [
+          {
+            "value": "creation",
+            "text": "[creation](</domain/creation>)"
+          },
+          {
+            "value": "dragon",
+            "text": "[dragon](</domain/dragon-divine-mysteries-domain-domain-106>)"
+          },
+          {
+            "value": "knowledge",
+            "text": "[knowledge](</domain/knowledge>)"
+          },
+          {
+            "value": "magic",
+            "text": "[magic](</domain/magic>)"
+          }
+        ],
+        "alternateDomains": [
+          {
+            "value": "nature",
+            "text": "[nature](</domain/nature>)"
+          },
+          {
+            "value": "secrecy",
+            "text": "[secrecy](</domain/secrecy>)"
+          }
+        ],
+        "spells": [
+          {
+            "value": "Mindlink",
+            "text": "[Mindlink](</spell/mindlink-player-core>)"
+          },
+          {
+            "value": "Hypercognition",
+            "text": "[Hypercognition](</spell/hypercognition-player-core>)"
+          },
+          {
+            "value": "Summon Dragon",
+            "text": "[Summon Dragon](</spell/summon-dragon-player-core>)"
+          },
+          {
+            "value": "Quandary",
+            "text": "[Quandary](</spell/quandary-player-core>)"
+          }
+        ]
+      },
+      "deityReferenceKeys": {
+        "clericFont": [
+          "harm",
+          "heal"
+        ],
+        "favoredWeapon": [
+          "Tekko-Kagi"
+        ],
+        "domains": [
+          "creation",
+          "dragon",
+          "knowledge",
+          "magic"
+        ],
+        "alternateDomains": [
+          "nature",
+          "secrecy"
+        ],
+        "spells": [
+          "Mindlink",
+          "Hypercognition",
+          "Summon Dragon",
+          "Quandary"
+        ]
+      },
+      "edictsText": "pursue fundamental truths, compare your experience to that of others, investigate new solutions",
+      "anathemaText": "become stagnant or passive in your thinking, abandon magic, sequester useful discoveries or valuable information",
+      "sanctificationText": "",
+      "deitySanctificationFormat": "text",
+      "deityDirectiveFormat": "text"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "draconic-codex",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "deity",
+      "draconic-codex",
+      "pantheons",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Draconic Codex",
+        "url": "https://2e.aonprd.com/Deities.aspx?ID=723",
+        "page": 35
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "76BDF06E-2BA3-50C8-9096-866319033CF1",
+    "kind": "Deity",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Gaasham (The Architect)",
+    "slug": "gaasham-the-architect-draconic-codex-deity-deity-716",
+    "descr": "",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "Dragon Gods",
+      "areasOfConcern": "construction, self- actualization, legacies",
+      "edicts": [
+        "build when it is asked of you, foster growth in others, meditate upon your actions"
+      ],
+      "anathema": [
+        "act without thinking, hesitate in the face of destructive forces, refuse to change your ways"
+      ],
+      "clericFont": [
+        "heal"
+      ],
+      "divineAttribute": [
+        "constitution",
+        "intelligence"
+      ],
+      "divineSkill": "crafting",
+      "favoredWeapon": [
+        "jaws",
+        "Light Hammer"
+      ],
+      "domains": [
+        "cities",
+        "creation",
+        "dragon",
+        "toil"
+      ],
+      "alternateDomains": [
+        "change",
+        "perfection"
+      ],
+      "spells": [
+        "Object Reading",
+        "Wave of Despair",
+        "Resplendent Mansion"
+      ],
+      "sanctification": "holy",
+      "sanctificationOptions": [
+        "holy"
+      ],
+      "rulesText": "**Areas of Concern** construction, self- actualization, legacies\n\n**Edicts** build when it is asked of you, foster growth in others, meditate upon your actions\n\n**Anathema** act without thinking, hesitate in the face of destructive forces, refuse to change your ways\n\n**Divine Attribute** Constitution, Intelligence\n\n**Divine Font** [Heal](/spell/heal-player-core)\n\n**Sanctification** Holy\n\n**Divine Skill** Crafting\n\n**Favored Weapon** jaws, [Light Hammer](/item/light-hammer-player-core)\n\n**Domains** [Cities](/domain/cities), [Creation](/domain/creation), [Dragon](/domain/dragon-divine-mysteries-domain-domain-106), [Toil](/domain/toil-divine-mysteries-domain-domain-122)\n\n**Alternate Domains** [Change](/domain/change-divine-mysteries-domain-domain-102), [Perfection](/domain/perfection)\n\n**Cleric Spells** [Object Reading](/spell/object-reading-player-core-2), [Wave of Despair](/spell/wave-of-despair-player-core), [Resplendent Mansion](/spell/resplendent-mansion-player-core-2)",
+      "traitLinks": [],
+      "deityReferences": {
+        "clericFont": [
+          {
+            "value": "heal",
+            "text": "[heal](</spell/heal-player-core>)"
+          }
+        ],
+        "favoredWeapon": [
+          {
+            "value": "Light Hammer",
+            "text": "[Light Hammer](</item/light-hammer-player-core>)"
+          }
+        ],
+        "domains": [
+          {
+            "value": "cities",
+            "text": "[cities](</domain/cities>)"
+          },
+          {
+            "value": "creation",
+            "text": "[creation](</domain/creation>)"
+          },
+          {
+            "value": "dragon",
+            "text": "[dragon](</domain/dragon-divine-mysteries-domain-domain-106>)"
+          },
+          {
+            "value": "toil",
+            "text": "[toil](</domain/toil-divine-mysteries-domain-domain-122>)"
+          }
+        ],
+        "alternateDomains": [
+          {
+            "value": "change",
+            "text": "[change](</domain/change-divine-mysteries-domain-domain-102>)"
+          },
+          {
+            "value": "perfection",
+            "text": "[perfection](</domain/perfection>)"
+          }
+        ],
+        "spells": [
+          {
+            "value": "Object Reading",
+            "text": "[Object Reading](</spell/object-reading-player-core-2>)"
+          },
+          {
+            "value": "Wave of Despair",
+            "text": "[Wave of Despair](</spell/wave-of-despair-player-core>)"
+          },
+          {
+            "value": "Resplendent Mansion",
+            "text": "[Resplendent Mansion](</spell/resplendent-mansion-player-core-2>)"
+          }
+        ]
+      },
+      "deityReferenceKeys": {
+        "clericFont": [
+          "heal"
+        ],
+        "favoredWeapon": [
+          "Light Hammer"
+        ],
+        "domains": [
+          "cities",
+          "creation",
+          "dragon",
+          "toil"
+        ],
+        "alternateDomains": [
+          "change",
+          "perfection"
+        ],
+        "spells": [
+          "Object Reading",
+          "Wave of Despair",
+          "Resplendent Mansion"
+        ]
+      },
+      "edictsText": "build when it is asked of you, foster growth in others, meditate upon your actions",
+      "anathemaText": "act without thinking, hesitate in the face of destructive forces, refuse to change your ways",
+      "sanctificationText": "holy",
+      "deitySanctificationFormat": "text",
+      "deityDirectiveFormat": "text"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "draconic-codex",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "deity",
+      "draconic-codex",
+      "dragon-gods",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Draconic Codex",
+        "url": "https://2e.aonprd.com/Deities.aspx?ID=716",
+        "page": 29
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "0CFB655E-77CC-54F5-9CDC-8F788A0CB668",
+    "kind": "Deity",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Garhaazh (The Primal King)",
+    "slug": "garhaazh-the-primal-king-draconic-codex-deity-deity-717",
+    "descr": "",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "Dragon Gods",
+      "areasOfConcern": "conflict, dominance, hunting",
+      "edicts": [
+        "act with mutual brutality, let might make right, always boast of your victories"
+      ],
+      "anathema": [
+        "act with humility, give mercy without supplication, die with grace"
+      ],
+      "clericFont": [
+        "harm"
+      ],
+      "divineAttribute": [
+        "strength",
+        "charisma"
+      ],
+      "divineSkill": "intimidation",
+      "favoredWeapon": [
+        "jaws",
+        "Spear"
+      ],
+      "domains": [
+        "ambition",
+        "confidence",
+        "dragon",
+        "might"
+      ],
+      "alternateDomains": [
+        "indulgence",
+        "nature",
+        "passion"
+      ],
+      "spells": [
+        "Noxious Vapors",
+        "Haste",
+        "Impaling Spike"
+      ],
+      "sanctification": "unholy",
+      "sanctificationOptions": [
+        "unholy"
+      ],
+      "rulesText": "**Areas of Concern** conflict, dominance, hunting\n\n**Edicts** act with mutual brutality, let might make right, always boast of your victories\n\n**Anathema** act with humility, give mercy without supplication, die with grace\n\n**Divine Attribute** Strength, Charisma\n\n**Divine Font** [Harm](/spell/harm-player-core)\n\n**Sanctification** Unholy\n\n**Divine Skill** Intimidation\n\n**Favored Weapon** jaws, [Spear](/item/spear-player-core)\n\n**Domains** [Ambition](/domain/ambition), [Confidence](/domain/confidence), [Dragon](/domain/dragon-divine-mysteries-domain-domain-106), [Might](/domain/might)\n\n**Alternate Domains** [Indulgence](/domain/indulgence), [Nature](/domain/nature), [Passion](/domain/passion)\n\n**Cleric Spells** [Noxious Vapors](/spell/noxious-vapors-player-core-2), [Haste](/spell/haste-player-core), [Impaling Spike](/spell/impaling-spike-player-core)",
+      "traitLinks": [],
+      "deityReferences": {
+        "clericFont": [
+          {
+            "value": "harm",
+            "text": "[harm](</spell/harm-player-core>)"
+          }
+        ],
+        "favoredWeapon": [
+          {
+            "value": "Spear",
+            "text": "[Spear](</item/spear-player-core>)"
+          }
+        ],
+        "domains": [
+          {
+            "value": "ambition",
+            "text": "[ambition](</domain/ambition>)"
+          },
+          {
+            "value": "confidence",
+            "text": "[confidence](</domain/confidence>)"
+          },
+          {
+            "value": "dragon",
+            "text": "[dragon](</domain/dragon-divine-mysteries-domain-domain-106>)"
+          },
+          {
+            "value": "might",
+            "text": "[might](</domain/might>)"
+          }
+        ],
+        "alternateDomains": [
+          {
+            "value": "indulgence",
+            "text": "[indulgence](</domain/indulgence>)"
+          },
+          {
+            "value": "nature",
+            "text": "[nature](</domain/nature>)"
+          },
+          {
+            "value": "passion",
+            "text": "[passion](</domain/passion>)"
+          }
+        ],
+        "spells": [
+          {
+            "value": "Noxious Vapors",
+            "text": "[Noxious Vapors](</spell/noxious-vapors-player-core-2>)"
+          },
+          {
+            "value": "Haste",
+            "text": "[Haste](</spell/haste-player-core>)"
+          },
+          {
+            "value": "Impaling Spike",
+            "text": "[Impaling Spike](</spell/impaling-spike-player-core>)"
+          }
+        ]
+      },
+      "deityReferenceKeys": {
+        "clericFont": [
+          "harm"
+        ],
+        "favoredWeapon": [
+          "Spear"
+        ],
+        "domains": [
+          "ambition",
+          "confidence",
+          "dragon",
+          "might"
+        ],
+        "alternateDomains": [
+          "indulgence",
+          "nature",
+          "passion"
+        ],
+        "spells": [
+          "Noxious Vapors",
+          "Haste",
+          "Impaling Spike"
+        ]
+      },
+      "edictsText": "act with mutual brutality, let might make right, always boast of your victories",
+      "anathemaText": "act with humility, give mercy without supplication, die with grace",
+      "sanctificationText": "unholy",
+      "deitySanctificationFormat": "text",
+      "deityDirectiveFormat": "text"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "draconic-codex",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "deity",
+      "draconic-codex",
+      "dragon-gods",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Draconic Codex",
+        "url": "https://2e.aonprd.com/Deities.aspx?ID=717",
+        "page": 30
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "B882EBB1-624F-59B6-B256-11E742C484ED",
+    "kind": "Deity",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Otilaz (The One of All)",
+    "slug": "otilaz-the-one-of-all-draconic-codex-deity-deity-718",
+    "descr": "",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "Dragon Gods",
+      "areasOfConcern": "alchemy, death, impermanence",
+      "edicts": [
+        "learn from observed mistakes, promote change and growth, accept the inevitable"
+      ],
+      "anathema": [
+        "seek immortality or enlightenment, become stagnant, believe yourself a learned master"
+      ],
+      "clericFont": [
+        "harm",
+        "heal"
+      ],
+      "divineAttribute": [
+        "intelligence",
+        "wisdom"
+      ],
+      "divineSkill": "occultism",
+      "favoredWeapon": [
+        "jaws",
+        "Mace"
+      ],
+      "domains": [
+        "change",
+        "death",
+        "introspection",
+        "soul"
+      ],
+      "alternateDomains": [
+        "abomination",
+        "dragon",
+        "sorrow"
+      ],
+      "spells": [
+        "Phantom Pain",
+        "Curse of Lost Time",
+        "Canticle of Everlasting Grief"
+      ],
+      "sanctification": "",
+      "sanctificationOptions": [
+        "holy",
+        "unholy"
+      ],
+      "rulesText": "**Areas of Concern** alchemy, death, impermanence\n\n**Edicts** learn from observed mistakes, promote change and growth, accept the inevitable\n\n**Anathema** seek immortality or enlightenment, become stagnant, believe yourself a learned master\n\n**Divine Attribute** Intelligence, Wisdom\n\n**Divine Font** [Harm](/spell/harm-player-core), [Heal](/spell/heal-player-core)\n\n**Sanctification** Holy, Unholy\n\n**Divine Skill** Occultism\n\n**Favored Weapon** jaws, [Mace](/item/mace-player-core)\n\n**Domains** [Change](/domain/change-divine-mysteries-domain-domain-102), [Death](/domain/death), [Introspection](/domain/introspection-divine-mysteries-domain-domain-110), [Soul](/domain/soul-divine-mysteries-domain-domain-118)\n\n**Alternate Domains** [Abomination](/domain/abomination-divine-mysteries-domain-domain-101), [Dragon](/domain/dragon-divine-mysteries-domain-domain-106), [Sorrow](/domain/sorrow-divine-mysteries-domain-domain-117)\n\n**Cleric Spells** [Phantom Pain](/spell/phantom-pain-player-core), [Curse of Lost Time](/spell/curse-of-lost-time-player-core-2), [Canticle of Everlasting Grief](/spell/canticle-of-everlasting-grief-player-core)",
+      "traitLinks": [],
+      "deityReferences": {
+        "clericFont": [
+          {
+            "value": "harm",
+            "text": "[harm](</spell/harm-player-core>)"
+          },
+          {
+            "value": "heal",
+            "text": "[heal](</spell/heal-player-core>)"
+          }
+        ],
+        "favoredWeapon": [
+          {
+            "value": "Mace",
+            "text": "[Mace](</item/mace-player-core>)"
+          }
+        ],
+        "domains": [
+          {
+            "value": "change",
+            "text": "[change](</domain/change-divine-mysteries-domain-domain-102>)"
+          },
+          {
+            "value": "death",
+            "text": "[death](</domain/death>)"
+          },
+          {
+            "value": "introspection",
+            "text": "[introspection](</domain/introspection-divine-mysteries-domain-domain-110>)"
+          },
+          {
+            "value": "soul",
+            "text": "[soul](</domain/soul-divine-mysteries-domain-domain-118>)"
+          }
+        ],
+        "alternateDomains": [
+          {
+            "value": "abomination",
+            "text": "[abomination](</domain/abomination-divine-mysteries-domain-domain-101>)"
+          },
+          {
+            "value": "dragon",
+            "text": "[dragon](</domain/dragon-divine-mysteries-domain-domain-106>)"
+          },
+          {
+            "value": "sorrow",
+            "text": "[sorrow](</domain/sorrow-divine-mysteries-domain-domain-117>)"
+          }
+        ],
+        "spells": [
+          {
+            "value": "Phantom Pain",
+            "text": "[Phantom Pain](</spell/phantom-pain-player-core>)"
+          },
+          {
+            "value": "Curse of Lost Time",
+            "text": "[Curse of Lost Time](</spell/curse-of-lost-time-player-core-2>)"
+          },
+          {
+            "value": "Canticle of Everlasting Grief",
+            "text": "[Canticle of Everlasting Grief](</spell/canticle-of-everlasting-grief-player-core>)"
+          }
+        ]
+      },
+      "deityReferenceKeys": {
+        "clericFont": [
+          "harm",
+          "heal"
+        ],
+        "favoredWeapon": [
+          "Mace"
+        ],
+        "domains": [
+          "change",
+          "death",
+          "introspection",
+          "soul"
+        ],
+        "alternateDomains": [
+          "abomination",
+          "dragon",
+          "sorrow"
+        ],
+        "spells": [
+          "Phantom Pain",
+          "Curse of Lost Time",
+          "Canticle of Everlasting Grief"
+        ]
+      },
+      "edictsText": "learn from observed mistakes, promote change and growth, accept the inevitable",
+      "anathemaText": "seek immortality or enlightenment, become stagnant, believe yourself a learned master",
+      "sanctificationText": "holy or unholy",
+      "deitySanctificationFormat": "text",
+      "deityDirectiveFormat": "text"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "draconic-codex",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "deity",
+      "draconic-codex",
+      "dragon-gods",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Draconic Codex",
+        "url": "https://2e.aonprd.com/Deities.aspx?ID=718",
+        "page": 31
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "6E52108A-645E-5B2E-88BE-DA12209478AE",
+    "kind": "Deity",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Sarshallatu (The Thundering Song)",
+    "slug": "sarshallatu-the-thundering-song-draconic-codex-deity-deity-719",
+    "descr": "",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "Dragon Gods",
+      "areasOfConcern": "dragons, potential, reality",
+      "edicts": [
+        "feel privileged to witness wonders of creation, find value in being, change to better know yourself"
+      ],
+      "anathema": [
+        "change yourself for another, be consumed by temporary things, let others define your soul"
+      ],
+      "clericFont": [
+        "harm",
+        "heal"
+      ],
+      "divineAttribute": [
+        "wisdom",
+        "charisma"
+      ],
+      "divineSkill": "arcana",
+      "favoredWeapon": [
+        "jaws",
+        "Sling"
+      ],
+      "domains": [
+        "creation",
+        "dragon",
+        "fate",
+        "time"
+      ],
+      "alternateDomains": [
+        "knowledge",
+        "magic",
+        "sorrow",
+        "star"
+      ],
+      "spells": [
+        "Mindlink",
+        "Enthrall",
+        "Summon Dragon",
+        "Unfathomable Song"
+      ],
+      "sanctification": "",
+      "sanctificationOptions": [
+        "holy",
+        "unholy"
+      ],
+      "rulesText": "**Areas of Concern** dragons, potential, reality\n\n**Edicts** feel privileged to witness wonders of creation, find value in being, change to better know yourself\n\n**Anathema** change yourself for another, be consumed by temporary things, let others define your soul\n\n**Divine Attribute** Wisdom, Charisma\n\n**Divine Font** [Harm](/spell/harm-player-core), [Heal](/spell/heal-player-core)\n\n**Sanctification** Holy, Unholy\n\n**Divine Skill** Arcana\n\n**Favored Weapon** jaws, [Sling](/item/sling-player-core)\n\n**Domains** [Creation](/domain/creation), [Dragon](/domain/dragon-divine-mysteries-domain-domain-106), [Fate](/domain/fate), [Time](/domain/time-divine-mysteries-domain-domain-121)\n\n**Alternate Domains** [Knowledge](/domain/knowledge), [Magic](/domain/magic), [Sorrow](/domain/sorrow-divine-mysteries-domain-domain-117), [Star](/domain/star-divine-mysteries-domain-domain-119)\n\n**Cleric Spells** [Mindlink](/spell/mindlink-player-core), [Enthrall](/spell/enthrall-player-core), [Summon Dragon](/spell/summon-dragon-player-core), [Unfathomable Song](/spell/unfathomable-song-player-core)",
+      "traitLinks": [],
+      "deityReferences": {
+        "clericFont": [
+          {
+            "value": "harm",
+            "text": "[harm](</spell/harm-player-core>)"
+          },
+          {
+            "value": "heal",
+            "text": "[heal](</spell/heal-player-core>)"
+          }
+        ],
+        "favoredWeapon": [
+          {
+            "value": "Sling",
+            "text": "[Sling](</item/sling-player-core>)"
+          }
+        ],
+        "domains": [
+          {
+            "value": "creation",
+            "text": "[creation](</domain/creation>)"
+          },
+          {
+            "value": "dragon",
+            "text": "[dragon](</domain/dragon-divine-mysteries-domain-domain-106>)"
+          },
+          {
+            "value": "fate",
+            "text": "[fate](</domain/fate>)"
+          },
+          {
+            "value": "time",
+            "text": "[time](</domain/time-divine-mysteries-domain-domain-121>)"
+          }
+        ],
+        "alternateDomains": [
+          {
+            "value": "knowledge",
+            "text": "[knowledge](</domain/knowledge>)"
+          },
+          {
+            "value": "magic",
+            "text": "[magic](</domain/magic>)"
+          },
+          {
+            "value": "sorrow",
+            "text": "[sorrow](</domain/sorrow-divine-mysteries-domain-domain-117>)"
+          },
+          {
+            "value": "star",
+            "text": "[star](</domain/star-divine-mysteries-domain-domain-119>)"
+          }
+        ],
+        "spells": [
+          {
+            "value": "Mindlink",
+            "text": "[Mindlink](</spell/mindlink-player-core>)"
+          },
+          {
+            "value": "Enthrall",
+            "text": "[Enthrall](</spell/enthrall-player-core>)"
+          },
+          {
+            "value": "Summon Dragon",
+            "text": "[Summon Dragon](</spell/summon-dragon-player-core>)"
+          },
+          {
+            "value": "Unfathomable Song",
+            "text": "[Unfathomable Song](</spell/unfathomable-song-player-core>)"
+          }
+        ]
+      },
+      "deityReferenceKeys": {
+        "clericFont": [
+          "harm",
+          "heal"
+        ],
+        "favoredWeapon": [
+          "Sling"
+        ],
+        "domains": [
+          "creation",
+          "dragon",
+          "fate",
+          "time"
+        ],
+        "alternateDomains": [
+          "knowledge",
+          "magic",
+          "sorrow",
+          "star"
+        ],
+        "spells": [
+          "Mindlink",
+          "Enthrall",
+          "Summon Dragon",
+          "Unfathomable Song"
+        ]
+      },
+      "edictsText": "feel privileged to witness wonders of creation, find value in being, change to better know yourself",
+      "anathemaText": "change yourself for another, be consumed by temporary things, let others define your soul",
+      "sanctificationText": "holy or unholy",
+      "deitySanctificationFormat": "text",
+      "deityDirectiveFormat": "text"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "draconic-codex",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "deity",
+      "draconic-codex",
+      "dragon-gods",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Draconic Codex",
+        "url": "https://2e.aonprd.com/Deities.aspx?ID=719",
+        "page": 32
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "E0F17A22-23C1-5FB4-AAAE-C409F22E7A73",
+    "kind": "Deity",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "The Anointing of Kings",
+    "slug": "the-anointing-of-kings-draconic-codex-deity-deity-722",
+    "descr": "",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "Pantheons",
+      "areasOfConcern": "rulership, judgment, lineage, fated authority",
+      "edicts": [
+        "pursue perfection in yourself and others, help others seize their destiny, search for lost rulers"
+      ],
+      "anathema": [
+        "refuse a promotion, work against the fulfillment of prophecy, kill the last member of a noble line"
+      ],
+      "clericFont": [
+        "heal"
+      ],
+      "divineAttribute": [
+        "strength",
+        "charisma"
+      ],
+      "divineSkill": "diplomacy",
+      "favoredWeapon": [
+        "Mace"
+      ],
+      "domains": [
+        "ambition",
+        "confidence",
+        "duty",
+        "fate"
+      ],
+      "alternateDomains": [
+        "dragon",
+        "tyranny"
+      ],
+      "spells": [
+        "Sure Strike",
+        "Enthrall",
+        "Dreaming Potential"
+      ],
+      "sanctification": "",
+      "sanctificationOptions": [
+        "holy",
+        "unholy"
+      ],
+      "rulesText": "**Areas of Concern** rulership, judgment, lineage, fated authority\n\n**Edicts** pursue perfection in yourself and others, help others seize their destiny, search for lost rulers\n\n**Anathema** refuse a promotion, work against the fulfillment of prophecy, kill the last member of a noble line\n\n**Divine Attribute** Strength, Charisma\n\n**Divine Font** [Heal](/spell/heal-player-core)\n\n**Sanctification** Holy, Unholy\n\n**Divine Skill** Diplomacy\n\n**Favored Weapon** [Mace](/item/mace-player-core)\n\n**Domains** [Ambition](/domain/ambition), [Confidence](/domain/confidence), [Duty](/domain/duty-divine-mysteries-domain-domain-108), [Fate](/domain/fate)\n\n**Alternate Domains** [Dragon](/domain/dragon-divine-mysteries-domain-domain-106), [Tyranny](/domain/tyranny)\n\n**Cleric Spells** [Sure Strike](/spell/sure-strike-player-core), [Enthrall](/spell/enthrall-player-core), [Dreaming Potential](/spell/dreaming-potential-player-core)",
+      "traitLinks": [],
+      "deityReferences": {
+        "clericFont": [
+          {
+            "value": "heal",
+            "text": "[heal](</spell/heal-player-core>)"
+          }
+        ],
+        "favoredWeapon": [
+          {
+            "value": "Mace",
+            "text": "[Mace](</item/mace-player-core>)"
+          }
+        ],
+        "domains": [
+          {
+            "value": "ambition",
+            "text": "[ambition](</domain/ambition>)"
+          },
+          {
+            "value": "confidence",
+            "text": "[confidence](</domain/confidence>)"
+          },
+          {
+            "value": "duty",
+            "text": "[duty](</domain/duty-divine-mysteries-domain-domain-108>)"
+          },
+          {
+            "value": "fate",
+            "text": "[fate](</domain/fate>)"
+          }
+        ],
+        "alternateDomains": [
+          {
+            "value": "dragon",
+            "text": "[dragon](</domain/dragon-divine-mysteries-domain-domain-106>)"
+          },
+          {
+            "value": "tyranny",
+            "text": "[tyranny](</domain/tyranny>)"
+          }
+        ],
+        "spells": [
+          {
+            "value": "Sure Strike",
+            "text": "[Sure Strike](</spell/sure-strike-player-core>)"
+          },
+          {
+            "value": "Enthrall",
+            "text": "[Enthrall](</spell/enthrall-player-core>)"
+          },
+          {
+            "value": "Dreaming Potential",
+            "text": "[Dreaming Potential](</spell/dreaming-potential-player-core>)"
+          }
+        ]
+      },
+      "deityReferenceKeys": {
+        "clericFont": [
+          "heal"
+        ],
+        "favoredWeapon": [
+          "Mace"
+        ],
+        "domains": [
+          "ambition",
+          "confidence",
+          "duty",
+          "fate"
+        ],
+        "alternateDomains": [
+          "dragon",
+          "tyranny"
+        ],
+        "spells": [
+          "Sure Strike",
+          "Enthrall",
+          "Dreaming Potential"
+        ]
+      },
+      "edictsText": "pursue perfection in yourself and others, help others seize their destiny, search for lost rulers",
+      "anathemaText": "refuse a promotion, work against the fulfillment of prophecy, kill the last member of a noble line",
+      "sanctificationText": "holy or unholy",
+      "deitySanctificationFormat": "text",
+      "deityDirectiveFormat": "text"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "draconic-codex",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "deity",
+      "draconic-codex",
+      "pantheons",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Draconic Codex",
+        "url": "https://2e.aonprd.com/Deities.aspx?ID=722",
+        "page": 35
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "1F9E1311-6DE4-5890-B0DF-EBF53F01F91F",
+    "kind": "Deity",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Turvu (The Shifting Plane)",
+    "slug": "turvu-the-shifting-plane-draconic-codex-deity-deity-720",
+    "descr": "",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "Dragon Gods",
+      "areasOfConcern": "death of ego, divinity, philosophy",
+      "edicts": [
+        "travel and explore the world and other planes, seek to understand all sides of a conflict"
+      ],
+      "anathema": [
+        "deem anything purely good or evil without first seeking context, remain stagnant in the pursuit of exploration or knowledge"
+      ],
+      "clericFont": [
+        "harm",
+        "heal"
+      ],
+      "divineAttribute": [
+        "intelligence",
+        "wisdom"
+      ],
+      "divineSkill": "religion",
+      "favoredWeapon": [
+        "claws",
+        "Staff"
+      ],
+      "domains": [
+        "freedom",
+        "introspection",
+        "knowledge",
+        "travel"
+      ],
+      "alternateDomains": [
+        "dragon",
+        "perfection"
+      ],
+      "spells": [
+        "Illusory Disguise",
+        "Translocate",
+        "Cloak of Colors"
+      ],
+      "sanctification": "",
+      "sanctificationOptions": [
+        "holy",
+        "unholy"
+      ],
+      "rulesText": "**Areas of Concern** death of ego, divinity, philosophy\n\n**Edicts** travel and explore the world and other planes, seek to understand all sides of a conflict\n\n**Anathema** deem anything purely good or evil without first seeking context, remain stagnant in the pursuit of exploration or knowledge\n\n**Divine Attribute** Intelligence, Wisdom\n\n**Divine Font** [Harm](/spell/harm-player-core), [Heal](/spell/heal-player-core)\n\n**Sanctification** Holy, Unholy\n\n**Divine Skill** Religion\n\n**Favored Weapon** claws, [Staff](/item/staff-player-core)\n\n**Domains** [Freedom](/domain/freedom), [Introspection](/domain/introspection-divine-mysteries-domain-domain-110), [Knowledge](/domain/knowledge), [Travel](/domain/travel)\n\n**Alternate Domains** [Dragon](/domain/dragon-divine-mysteries-domain-domain-106), [Perfection](/domain/perfection)\n\n**Cleric Spells** [Illusory Disguise](/spell/illusory-disguise-player-core), [Translocate](/spell/translocate-player-core), [Cloak of Colors](/spell/cloak-of-colors-player-core-2)",
+      "traitLinks": [],
+      "deityReferences": {
+        "clericFont": [
+          {
+            "value": "harm",
+            "text": "[harm](</spell/harm-player-core>)"
+          },
+          {
+            "value": "heal",
+            "text": "[heal](</spell/heal-player-core>)"
+          }
+        ],
+        "favoredWeapon": [
+          {
+            "value": "Staff",
+            "text": "[Staff](</item/staff-player-core>)"
+          }
+        ],
+        "domains": [
+          {
+            "value": "freedom",
+            "text": "[freedom](</domain/freedom>)"
+          },
+          {
+            "value": "introspection",
+            "text": "[introspection](</domain/introspection-divine-mysteries-domain-domain-110>)"
+          },
+          {
+            "value": "knowledge",
+            "text": "[knowledge](</domain/knowledge>)"
+          },
+          {
+            "value": "travel",
+            "text": "[travel](</domain/travel>)"
+          }
+        ],
+        "alternateDomains": [
+          {
+            "value": "dragon",
+            "text": "[dragon](</domain/dragon-divine-mysteries-domain-domain-106>)"
+          },
+          {
+            "value": "perfection",
+            "text": "[perfection](</domain/perfection>)"
+          }
+        ],
+        "spells": [
+          {
+            "value": "Illusory Disguise",
+            "text": "[Illusory Disguise](</spell/illusory-disguise-player-core>)"
+          },
+          {
+            "value": "Translocate",
+            "text": "[Translocate](</spell/translocate-player-core>)"
+          },
+          {
+            "value": "Cloak of Colors",
+            "text": "[Cloak of Colors](</spell/cloak-of-colors-player-core-2>)"
+          }
+        ]
+      },
+      "deityReferenceKeys": {
+        "clericFont": [
+          "harm",
+          "heal"
+        ],
+        "favoredWeapon": [
+          "Staff"
+        ],
+        "domains": [
+          "freedom",
+          "introspection",
+          "knowledge",
+          "travel"
+        ],
+        "alternateDomains": [
+          "dragon",
+          "perfection"
+        ],
+        "spells": [
+          "Illusory Disguise",
+          "Translocate",
+          "Cloak of Colors"
+        ]
+      },
+      "edictsText": "travel and explore the world and other planes, seek to understand all sides of a conflict",
+      "anathemaText": "deem anything purely good or evil without first seeking context, remain stagnant in the pursuit of exploration or knowledge",
+      "sanctificationText": "holy or unholy",
+      "deitySanctificationFormat": "text",
+      "deityDirectiveFormat": "text"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "draconic-codex",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "deity",
+      "draconic-codex",
+      "dragon-gods",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Draconic Codex",
+        "url": "https://2e.aonprd.com/Deities.aspx?ID=720",
+        "page": 33
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "E2CF2B8B-4F75-51F0-9CC7-83B1A1E32D0F",
+    "kind": "Deity",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Yluma (The Living Page)",
+    "slug": "yluma-the-living-page-draconic-codex-deity-deity-721",
+    "descr": "",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "Dragon Gods",
+      "areasOfConcern": "knowledge, magic, self-acceptance",
+      "edicts": [
+        "celebrate your victories and losses, embrace your unique strengths and innate gifts, nurture the flame of acceptance and knowledge in others."
+      ],
+      "anathema": [
+        "intentionally mislead people away from understanding themselves, repeatedly deny who you are, treat your gifts as a curse"
+      ],
+      "clericFont": [
+        "heal"
+      ],
+      "divineAttribute": [
+        "strength",
+        "charisma"
+      ],
+      "divineSkill": "arcana",
+      "favoredWeapon": [
+        "claws",
+        "Khakkhara"
+      ],
+      "domains": [
+        "confidence",
+        "glyph",
+        "magic",
+        "truth"
+      ],
+      "alternateDomains": [
+        "knowledge",
+        "perfection"
+      ],
+      "spells": [
+        "Telekinetic Maneuver",
+        "Retrocognition",
+        "Phantasmal Minion"
+      ],
+      "sanctification": "holy",
+      "sanctificationOptions": [
+        "holy"
+      ],
+      "rulesText": "**Areas of Concern** knowledge, magic, self-acceptance\n\n**Edicts** celebrate your victories and losses, embrace your unique strengths and innate gifts, nurture the flame of acceptance and knowledge in others.\n\n**Anathema** intentionally mislead people away from understanding themselves, repeatedly deny who you are, treat your gifts as a curse\n\n**Divine Attribute** Strength, Charisma\n\n**Divine Font** [Heal](/spell/heal-player-core)\n\n**Sanctification** Holy\n\n**Divine Skill** Arcana\n\n**Favored Weapon** claws, [Khakkhara](/item/khakkhara-player-core)\n\n**Domains** [Confidence](/domain/confidence), [Glyph](/domain/glyph-divine-mysteries-domain-domain-109), [Magic](/domain/magic), [Truth](/domain/truth)\n\n**Alternate Domains** [Knowledge](/domain/knowledge), [Perfection](/domain/perfection)\n\n**Cleric Spells** [Telekinetic Maneuver](/spell/telekinetic-maneuver-player-core), [Retrocognition](/spell/retrocognition-player-core), [Phantasmal Minion](/spell/phantasmal-minion-player-core)",
+      "traitLinks": [],
+      "deityReferences": {
+        "clericFont": [
+          {
+            "value": "heal",
+            "text": "[heal](</spell/heal-player-core>)"
+          }
+        ],
+        "favoredWeapon": [
+          {
+            "value": "Khakkhara",
+            "text": "[Khakkhara](</item/khakkhara-player-core>)"
+          }
+        ],
+        "domains": [
+          {
+            "value": "confidence",
+            "text": "[confidence](</domain/confidence>)"
+          },
+          {
+            "value": "glyph",
+            "text": "[glyph](</domain/glyph-divine-mysteries-domain-domain-109>)"
+          },
+          {
+            "value": "magic",
+            "text": "[magic](</domain/magic>)"
+          },
+          {
+            "value": "truth",
+            "text": "[truth](</domain/truth>)"
+          }
+        ],
+        "alternateDomains": [
+          {
+            "value": "knowledge",
+            "text": "[knowledge](</domain/knowledge>)"
+          },
+          {
+            "value": "perfection",
+            "text": "[perfection](</domain/perfection>)"
+          }
+        ],
+        "spells": [
+          {
+            "value": "Telekinetic Maneuver",
+            "text": "[Telekinetic Maneuver](</spell/telekinetic-maneuver-player-core>)"
+          },
+          {
+            "value": "Retrocognition",
+            "text": "[Retrocognition](</spell/retrocognition-player-core>)"
+          },
+          {
+            "value": "Phantasmal Minion",
+            "text": "[Phantasmal Minion](</spell/phantasmal-minion-player-core>)"
+          }
+        ]
+      },
+      "deityReferenceKeys": {
+        "clericFont": [
+          "heal"
+        ],
+        "favoredWeapon": [
+          "Khakkhara"
+        ],
+        "domains": [
+          "confidence",
+          "glyph",
+          "magic",
+          "truth"
+        ],
+        "alternateDomains": [
+          "knowledge",
+          "perfection"
+        ],
+        "spells": [
+          "Telekinetic Maneuver",
+          "Retrocognition",
+          "Phantasmal Minion"
+        ]
+      },
+      "edictsText": "celebrate your victories and losses, embrace your unique strengths and innate gifts, nurture the flame of acceptance and knowledge in others.",
+      "anathemaText": "intentionally mislead people away from understanding themselves, repeatedly deny who you are, treat your gifts as a curse",
+      "sanctificationText": "holy",
+      "deitySanctificationFormat": "text",
+      "deityDirectiveFormat": "text"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "draconic-codex",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "deity",
+      "draconic-codex",
+      "dragon-gods",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Draconic Codex",
+        "url": "https://2e.aonprd.com/Deities.aspx?ID=721",
+        "page": 34
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  }
+]

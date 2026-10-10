@@ -55,7 +55,7 @@
     },
     {
       "type": "text",
-      "value": "{{footer}}"
+      "value": "{% if data.sourceName %}**{{'Common.Source'|l}}:** {{data.sourceName}}{% else %}{{footer}}{% endif %}"
     }, 
     {
       "type": "tags",

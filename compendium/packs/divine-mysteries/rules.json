@@ -1,0 +1,549 @@
+[
+  {
+    "id": "66E8677F-32F5-5E2D-8CB8-0D4A8DD4C6B6",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Alternate Domains",
+    "slug": "alternate-domains-divine-mysteries-rules-rules-3351",
+    "descr": "Each deity grants four domains—these are their primary domains. Some deities, however, have such expansive jurisdiction that more than four domains are appropriate for them. Many of these alternate domains are available only to characters who specialize in these areas, as they often fall outside of their deity's main purposes or areas of focus. This book lists alternate domains a deity may have. Followers of a deity don't initially have access to these alternate domains, but a cleric can take the [Expanded Domain Initiate](/feat/expanded-domain-initiate-divine-mysteries-feat-feat-7595) feat to gain access to one of their deity's alternate domains, and either a cleric or a champion from an unusual branch of their faith can take the [Splinter Faith](/feat/splinter-faith-divine-mysteries-feat-feat-7596) feat to redefine the domains available to them.",
+    "data": {
+      "type": "other",
+      "category": "Rules",
+      "breadcrumbs": [
+        "Gods & Magic",
+        "Rules Elements"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3351"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "divine-mysteries",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "divine-mysteries",
+      "remaster",
+      "rules"
+    ],
+    "sources": [
+      {
+        "name": "Divine Mysteries",
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3351",
+        "page": 9
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "DE7927C6-49A3-5C34-B019-2E794C83C69F",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Ash",
+    "slug": "ash-divine-mysteries-mystery-mystery-20",
+    "descr": "You see all things in the world as fleeting and temporary, waiting to be purified into their base essence: the ash left behind after a burning fire. While you understand fire as a necessary part of this process, you see it mostly as a tool to achieve final purity, not the true goal. You have much in common with oracles with the flames mystery, but you may consider them to be shortsighted, or at best, simply lacking in understanding of the truths that their burning fires impart.\n\nYou might see ash as the only true representation of the impermanent nature of life and its pointless existence. Alternatively, you may see the benefit ash can have on soils and farmlands as part of a larger cycle of death and rebirth. Perhaps you see the phoenix, with its life cycle of being reduced to ash and reborn, as a sacred creature that has achieved a higher state of being and is worthy of imitation, or perhaps you see it as a tragic creature that can never reach the goal of perfection. If you follow a deity, you might follow gods of fire like [Sarenrae](/deity/sarenrae-the-dawnflower-divine-mysteries-deity-deity-292), those who burn impurities to ash such as Brigh or [Torag](/deity/torag-father-of-creation-divine-mysteries-deity-deity-294), or those who strive to burn all things to ash, such as the archdevil Moloch or the demon lord Flauros.\n\n**Mystery Skill**\nOccultism\n\n**Granted Spells**\n- **Cantrip** [Ignition](/spell/ignition-player-core)\n- **1st** [Breathe Fire](/spell/breathe-fire-player-core)\n- **2nd** [Mist](/spell/mist-player-core)\n- **6th** [Disintegrate](/spell/disintegrate-player-core)\n\n**Initial Revelation Spell** [Ashen Wind](/spell/ashen-wind-divine-mysteries-spell-spell-2423)\n\n**Advanced Revelation Spell** [Incendiary Ashes](/spell/incendiary-ashes-divine-mysteries-spell-spell-2424)\n\n**Greater Revelation Spell** [Ash Form](/spell/ash-form-divine-mysteries-spell-spell-2425)\n\n**Related Domains** [Destruction](/domain/destruction), [Dust](/domain/dust-divine-mysteries-domain-domain-107), [Fire](/domain/fire), [Nothingness](/domain/nothingness-divine-mysteries-domain-domain-114)\n\n**Oracle Feat** [Whispers of Weakness](/feat/whispers-of-weakness-player-core-2)\n\n## Curse Of Creeping Ashes\n\nYour body is slowly being consumed by the fires of your internal power, purifying you with each passing day. You are occasionally wracked with dry, wheezing coughs, and wherever you go you leave behind a fine trace of ash that falls from your body.\n\n**Cursebound 1** You gain [weakness](/rule/weakness-rules-2317) 2 to fire damage. Any [immunity or resistance](/rule/immunity-weakness-and-resistance-rules-2312) you have to [fire](/trait/fire) is suppressed.\n\n**Cursebound 2** Swirling ash imposes a -2 circumstance penalty to ranged attack rolls you make.\n\n**Cursebound 3** Your weakness to fire damage is equal to 5 + your level.\n\n**Cursebound 4** You take a –10-foot status penalty to all your Speeds as your limbs begin to crumble like ash.",
+    "data": {
+      "type": "other",
+      "category": "Oracle Mystery",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Mysteries.aspx?ID=20"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "divine-mysteries",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "divine-mysteries",
+      "mystery",
+      "oracle-mystery",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Divine Mysteries",
+        "url": "https://2e.aonprd.com/Mysteries.aspx?ID=20",
+        "page": 284
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "F77AC733-FC78-5B58-A94C-51D21B72021C",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Baba Yaga",
+    "slug": "baba-yaga-divine-mysteries-patron-patron-27",
+    "descr": "_**PFS Note** For Baba Yaga’s Familiar of Obscuring Snowfall ability, choose a corner of the familiar’s square for the center of the burst._\n\nYour patron is Baba Yaga, the Queen of Witches. You are most likely a young woman who has been thrown into events far above your head, though you might also be a young man or a brave knight who has sworn your loyalty to the old witch. You may have demanded Baba Yaga’s aid, and somehow escaped unscathed for your audacity. She may have reached out to you by sending a messenger in the form of an animated object, such as a mortar that had grown legs. She may have instead appeared before you herself, demanding you aid her with some nigh-impossible chore. While many fail these tasks and end up becoming a meal for Baba Yaga or meet even worse fates, you prevailed and earned her respect. Her gift to you is her patronage (and your life).\n\n**Spell List** Occult\n\n**Patron Skill** Occultism\n\n**Lesson of Baba’s Understanding** Baba Yaga teaches you to be more like her, allowing you to transfer spirits into objects and freeze your foes. You gain the [_spirit object_](/spell/spirit-object-divine-mysteries-spell-spell-2437) hex cantrip and your familiar learns [_chilling spray_](/spell/chilling-spray-player-core-2).\n\n**Familiar of Obscuring Snowfall** Your familiar is always covered in a thin layer of snow, which it sheds as needed. When you [Cast](/action/cast-a-spell-player-core) or [Sustain](/action/sustain-player-core) a hex, you can cause clinging snow to fall in a 5-foot burst centered on a square of your familiar’s space. This snowfall remains until the start of your next turn, and enemies that enter these squares during that period are [dazzled](/condition/dazzled-player-core) until the start of your next turn.",
+    "data": {
+      "type": "other",
+      "category": "Witch Patron Theme",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Patrons.aspx?ID=27"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "divine-mysteries",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "divine-mysteries",
+      "patron",
+      "remaster",
+      "witch-patron-theme"
+    ],
+    "sources": [
+      {
+        "name": "Divine Mysteries",
+        "url": "https://2e.aonprd.com/Patrons.aspx?ID=27",
+        "page": 298
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "39C2D876-4242-587E-9FB2-C50D9D3D25F9",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Battle Creed",
+    "slug": "battle-creed-divine-mysteries-doctrine-doctrine-6",
+    "descr": "The doctrine can be selected by [battle harbingers](/archetype/battle-harbinger-divine-mysteries-archetype-archetype-304).\n\nYou've undergone a special training to focus your body toward combat. While you still adhere to the teachings of your faith, you also know that you serve as an instrument of your church. More so than any warpriest, the physical rigors that come with battle are key to your training. You've dedicated yourself to the battle creed, a specific approach that puts combat prowess first, even at the expense of a cleric's typical spellcasting and restorative abilities. Defeating one's enemies is more important than healing an ally in the heat of battle; the time for healing comes after. As you abide by the battle creed, your physical and martial capabilities grow stronger. You must select [Battle Harbinger Dedication](/feat/battle-harbinger-dedication-divine-mysteries-feat-feat-7505) as your 2nd-level class feat.\n\n **Prerequisites**: You must be a [cleric](/class/cleric-player-core).\n\nYou don't gain the Resolute Faith class feature.\n\nYou don't gain the Miraculous Spell class feature.\n\n**Spellcasting Adjustment:** Your spellcasting capabilities are more restricted. At 1st level, you can prepare one 1st-rank spell and five cantrips. As you increase in level, your number of spell slots and the highest rank of spells you can cast from spell slots increases, shown in Battle Harbinger Spells per Day. Because of your focus on your physical training at the expense of magical aptitude, you have no more than two spell slots of your highest rank and, if you can cast 2nd-rank spells or higher, two spell slots of 1 rank lower than your highest spell rank. For anything that requires the ability to cast spells of a certain rank that's lower than the highest slots you have, you still qualify even if you no longer have spell slots at those ranks.\n\n **Divine Font Adjustment:** Instead of preparing heal or [harm](/spell/harm-player-core) spells with your divine font, you instead gain the battle font, which allows you to prepare battle aura spells. You gain 4 additional spell slots each day at your highest rank of cleric spell slots. You can prepare only [_bane_](/spell/bane-player-core) or [_bless_](/spell/bless-player-core) in these slots. Any feats and effects that refer to a battle aura refers to these spells, regardless of whether they were cast with your standard spell slots or your divine font spell slots. At 5th level, the number of additional slots increases to 5, and at 15th level, the total number of additional slots increases to 6. Your battle auras use your class DC instead of your spell DC.\n\n**Doctrine Adjustment:** Instead of choosing a doctrine, you follow the battle creed. At 1st level, you gain the benefits of the initial creed. You gain additional benefits from your creed at the listed levels.\n\n **Initial Creed (1st):**You're trained in light and medium armor, and you have expert proficiency in Fortitude saves. You're trained in martial weapons. If your deity's favored weapon is a simple weapon or an unarmed attack, you gain the [Deadly Simplicity](/feat/deadly-simplicity-player-core) cleric feat. At 13th level when you gain the Divine Defense class feature, you also gain expert proficiency in light and medium armor.\n**Lesser Creed (5th):** You gain expert proficiency with your deity's favored weapon, martial weapons, simple weapons, and unarmed attacks. When you critically succeed at an attack roll using your deity's favored weapon, you apply the weapon's [critical specialization](/rule/critical-specialization-rules-2203) effect. Your proficiency rank for your class DC increases to expert.\n**Moderate Creed (9th):** You gain [Reactive Strike](/feat/reactive-strike-player-core) as a cleric feat.\n**Greater Creed (11th):** Your proficiency ranks for the spell attack modifier and spell DC statistics increase to expert.\n**Major Creed (13th):**You gain master proficiency with your deity's favored weapon. Your proficiency rank for Fortitude saves increases to master. When you roll a success on a Fortitude save, you get a critical success instead.\n**True Creed (15th):**Your proficiency rank for your class DC increases to master. Your proficiency rank for Will saves increases to master.\n**Final Creed (19th):**Your proficiency ranks for light and medium armor, as well as for unarmed defense, increase to master. Your proficiency rank for your class DC increases to legendary.\n\n- **First Doctrine (1st)**\n- **Second Doctrine (3rd)**\n- **Third Doctrine (7th)**\n- **Fourth Doctrine (11th)**\n- **Fifth Doctrine (15th)**\n- **Final Doctrine (19th)**",
+    "data": {
+      "type": "other",
+      "category": "Cleric Doctrine",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Doctrines.aspx?ID=6"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "divine-mysteries",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "cleric-doctrine",
+      "divine-mysteries",
+      "doctrine",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Divine Mysteries",
+        "url": "https://2e.aonprd.com/Doctrines.aspx?ID=6",
+        "page": 272
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "6AB13E28-80B5-517B-B615-F029B2BCD810",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Blight",
+    "slug": "blight-divine-mysteries-mystery-mystery-21",
+    "descr": "A spring bud will wither, a mighty oak will crash to the forest floor, and a callow youth will grow into maturity, then decline into old age. You know none of these things are cause for alarm or sadness. Decay is an essential part of nature’s cycle, as the old pass away to make room for, or to nourish, the new. After all, the flower must fall for the seed to grow, and the toppled tree not only makes room for new saplings to flourish, but also forms a home for many types of flora, fauna, and fungi. Disease, poison, and rot—these are all tools to dispose of creatures that have come to the end of their usefulness that rest in your hands. You might wield them to bring an end to lingering suffering or to spread contagion over once-thriving lands. Well-meaning doctors, persistent healers, or zealous adventurers may try to stand in your way, but blight will spread in the end.\n\nIf you follow a deity, you might work toward the sinister ends of Rider of Disease Apollyon, the demon lord Cyth- V’sug, or the parasitic Ghlaunder. You might find allies among followers of Groetus or the cults of the Outer Gods. If you see your calling as part of the cycle of existence, you might venerate monitor demigods such as Mother Vulture or commune with nature.\n\n**Mystery Skill**\nNature\n\n**Granted Spells**\n- **Cantrip** [Caustic Blast](/spell/caustic-blast-player-core)\n- **1st** [Noxious Vapors](/spell/noxious-vapors-player-core-2)\n- **2nd** [Fungal Infestation](/spell/fungal-infestation-player-core-2)\n- **5th** [Toxic Cloud](/spell/toxic-cloud-player-core)\n\n**Initial Revelation Spell** [Ulcerous Canker](/spell/ulcerous-canker-divine-mysteries-spell-spell-2426)\n\n**Advanced Revelation Spell** [Purging Toxins](/spell/purging-toxins-divine-mysteries-spell-spell-2427)\n\n**Greater Revelation Spell** [Accelerated Decomposition](/spell/accelerated-decomposition-divine-mysteries-spell-spell-2428)\n\n**Related Domains** [Death](/domain/death), [Decay](/domain/decay-divine-mysteries-domain-domain-104), [Disorientation](/domain/disorientation-divine-mysteries-domain-domain-105), [Plague](/domain/plague-divine-mysteries-domain-domain-115)\n\n**Oracle Feat** [Whispers of Weakness](/feat/whispers-of-weakness-player-core-2)\n\n## Curse Of Inevitable Rot\n\nYour magic is a constant reminder that all creatures will eventually submit to the ravages of time and the environment. You are suffused with an aura of decay. Leaves wilt and insects fall out of the sky as you pass, silverware tarnishes in your hands, and the dregs of wine turn to vinegar in your goblet.\n\n**Cursebound 1** You gain [weakness](/rule/weakness-rules-2317) 2 to [acid](/trait/acid) and [poison](/trait/poison) damage.\n\n**Cursebound 2** You take a –1 status penalty to saving throws against [diseases](/rule/diseases-rules-2767) and poisons. In addition, anyone attempting to Treat your Disease, [Poison](/action/poison-monster-core), or Wounds takes a –1 status penalty to the associated skill check.\n\n**Cursebound 3** Your weakness to acid and poison damage increases to twice your level.\n\n**Cursebound 4** Your status penalty to saving throws against diseases and poisons and the status penalty for anyone attempting to Treat your Disease, Poison, or Wounds increases to –2.",
+    "data": {
+      "type": "other",
+      "category": "Oracle Mystery",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Mysteries.aspx?ID=21"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "divine-mysteries",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "divine-mysteries",
+      "mystery",
+      "oracle-mystery",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Divine Mysteries",
+        "url": "https://2e.aonprd.com/Mysteries.aspx?ID=21",
+        "page": 285
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "0C4EDF88-32C1-5A84-BC6C-D4D129A05FA4",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Changing Faith",
+    "slug": "changing-faith-divine-mysteries-rules-rules-3350",
+    "descr": "Whether dramatic or gradual, a character may have a crisis of faith or even a fall from grace. When this happens, the character is no longer able to use the spells, feats, and other class features tied to their now-lost faith. As reflects the genuine struggle within their soul, such characters may find themselves hobbled in their actions and interactions until they are restored to good standing via the [atone](/ritual/atone-player-core) ritual—or, in the case of a more complete break, until they retrain. Retraining requires substantial downtime—in most cases, at least a month. A character who wishes to retrain into a different faith with similar concerns and domains requires less time to convert than a character moving into a radically divergent faith. Thus, a cleric of [Grandmother Spider](/deity/grandmother-spider-the-weaver-divine-mysteries-deity-deity-344) might move to the worship of [Calistria](/deity/calistria-the-savored-sting-divine-mysteries-deity-deity-279) with a month's tutelage and service in one of her temples. However, that same cleric of Grandmother Spider could not so easily become a priest of [Asmodeus](/deity/asmodeus-the-prince-of-darkness-divine-mysteries-deity-deity-278), even though both deities share the [trickery](/domain/trickery) domain—their longstanding animosity is reflected in their diametrically opposed doctrines and cultures. Such a conversion is not impossible, but could take several months of downtime or happen piecemeal over months of in-game development. In some instances, particularly in the case of PCs or other high-profile targets of conversion, a new deity might send an emissary directly to a character struggling with a crisis of faith to tempt that character to righteousness or villainy. In these cases, the emissary might be able to offer a near-immediate transformation as an enticement, funneling vital and spiritual essence primed to the deity's philosophy into the converting character to remove the need for any downtime at all. Such a transformation is not without risks, however, and may come with complications down the line.\n\n At the GM's discretion, characters for whom divine patronage is essential but who lose faith completely can retrain into a new class. A champion might retrain as a fighter or a ranger, swapping out faith-based feats and class features for appropriate analogues. The length of downtime required in any of these cases is at the GM's discretion, though the player and GM are advised to work together to determine a suitable time frame that does not fully interrupt play and can help tell a satisfying story.",
+    "data": {
+      "type": "other",
+      "category": "Rules",
+      "breadcrumbs": [
+        "Gods & Magic",
+        "Rules Elements"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3350"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "divine-mysteries",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "divine-mysteries",
+      "remaster",
+      "rules"
+    ],
+    "sources": [
+      {
+        "name": "Divine Mysteries",
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3350",
+        "page": 9
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "5AB91C66-A66B-58DD-AB7A-55E6AD9D4781",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Choir Politic",
+    "slug": "choir-politic-divine-mysteries-patron-patron-24",
+    "descr": "When your patron speaks, it is a chorus of voices sounding as one. They first appeared to you in the faces of your neighbors in the middle of a town festival or council meeting, when the success of an endeavor hinged on everyone working together. With the strength of your patron behind you, you then rallied the community together for a common goal. Your patron might be a single entity gathering a coterie of subjects together for an unknown cause or a like-minded covenant of deities and spirits. Whatever the case, your patron— and by extension, you—understands that mortals are stronger together.\n\n**Spell List** Divine\n\n**Patron Skill** Society\n\n**Lesson of Community Knowledge** Your patron taught you the importance of pooling information to help a group with a common cause. You gain the [_share vision_](/spell/share-vision-divine-mysteries-spell-spell-2434) hex cantrip and your familiar learns [_share lore_](/spell/share-lore-divine-mysteries-spell-spell-2363).\n\n**Familiar of Bolstering Aid** Your familiar knows all manner of tricks that can help! When you [Cast](/action/cast-a-spell-player-core) or [Sustain](/action/sustain-player-core) a hex, and your familiar is adjacent to an ally, that ally gains a +2 status bonus to the next non-[attack](/trait/attack) skill check that ally attempts before the start of your next turn.",
+    "data": {
+      "type": "other",
+      "category": "Witch Patron Theme",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Patrons.aspx?ID=24"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "divine-mysteries",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "divine-mysteries",
+      "patron",
+      "remaster",
+      "witch-patron-theme"
+    ],
+    "sources": [
+      {
+        "name": "Divine Mysteries",
+        "url": "https://2e.aonprd.com/Patrons.aspx?ID=24",
+        "page": 296
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "91AC2F4A-D472-55F6-A1D6-8F5FFF3F8D9C",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Esoterica",
+    "slug": "esoterica-divine-mysteries-methodology-methodology-9",
+    "descr": "This methodology can be taken by [Palatine Detectives](/archetype/palatine-detective-divine-mysteries-archetype-archetype-306)\n\nYou become trained in Occultism or Religion, and you gain the [Quick Identification](/feat/quick-identification-player-core) skill feat. In addition, choose one common cantrip from the divine spell list and one common cantrip from the occult spell list. You can cast those spells as innate spells at will. You become trained in the spell attack modifier and spell DCs statistics. Intelligence is your spellcasting attribute.",
+    "data": {
+      "type": "other",
+      "category": "Investigator Methodology",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Methodologies.aspx?ID=9"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "divine-mysteries",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "divine-mysteries",
+      "investigator-methodology",
+      "methodology",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Divine Mysteries",
+        "url": "https://2e.aonprd.com/Methodologies.aspx?ID=9",
+        "page": 288
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "5B30C94C-28B8-51BE-AA07-58641E9B9AC2",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Favored Weapon",
+    "slug": "favored-weapon-divine-mysteries-rules-rules-3353",
+    "descr": "Each deity has a favored weapon. These weapons are not restricted for use by their clerics and champions alone; lay worshippers often train with and wield them in battle as another way to show their devotion. Each of the favored weapons detailed in this book is available to any character with access to it.",
+    "data": {
+      "type": "other",
+      "category": "Rules",
+      "breadcrumbs": [
+        "Gods & Magic",
+        "Rules Elements"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3353"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "divine-mysteries",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "divine-mysteries",
+      "remaster",
+      "rules"
+    ],
+    "sources": [
+      {
+        "name": "Divine Mysteries",
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3353",
+        "page": 9
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "CB1589A0-70CE-5C0A-BAE1-FD7FAF9837A2",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Mosquito Witch",
+    "slug": "mosquito-witch-divine-mysteries-patron-patron-28",
+    "descr": "Your patron is a mysterious being known as the Mosquito Witch. You do not know why you were chosen, and in many cases, you wish that you hadn’t been. She may have made herself known to you through terrifying prophetic visions and nightmares, or you might have instead received her patronage in the form of swarming insects, their buzzing opening your ears to magic and their bites filling your body with power. Frightening events plague your wake: strange accidents, dead animals, and glowing red eyes in the darkness. Whether or not you’re aware of the Mosquito Witch’s influence, you have an affinity with insects, and typically draw their attention wherever you go.\n\n**Spell List** Primal\n\n**Patron Skill** Nature\n\n**Lesson of the Unbridled Hive** The Mosquito Witch grants you control over insects. You gain the [_buzzing bites_](/spell/buzzing-bites-divine-mysteries-spell-spell-2438) hex cantrip and your familiar learns [_pest form_](/spell/pest-form-player-core).\n\n**Familiar of Swarm’s Heart** Your familiar is surrounded by a cloud of harmless insects. When you [Cast](/action/cast-a-spell-player-core) or [Sustain](/action/sustain-player-core) a hex, the insects swarm to protect you and your allies. Until the start of your next turn, your familiar grants concealment to you or any ally while sharing the same space.",
+    "data": {
+      "type": "other",
+      "category": "Witch Patron Theme",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Patrons.aspx?ID=28"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "divine-mysteries",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "divine-mysteries",
+      "patron",
+      "remaster",
+      "witch-patron-theme"
+    ],
+    "sources": [
+      {
+        "name": "Divine Mysteries",
+        "url": "https://2e.aonprd.com/Patrons.aspx?ID=28",
+        "page": 299
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "B7ED157A-D7C4-5259-A018-81A0F62155B8",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Paradox of Opposites",
+    "slug": "paradox-of-opposites-divine-mysteries-patron-patron-25",
+    "descr": "Life and death, good and evil, light and shadow, vitality and void energy—these diametrically opposed concepts exist everywhere, and your patron walks the line between them. You first encountered your patron in a place or situation of such duality, such as witnessing a baby being born in a cemetery or feeling the natural light of a sunbeam in an otherwise dark cavern. There is power to be derived from the interplay between seemingly antithetical ideas and striking a balance between the two. Your patron could be a monitor demigod interested in cultivating a cosmic balance or an entity that plays fast and loose with morality. They are the difference between the two sides of the same coin while also being the entirety of the coin.\n\n**Spell List** Divine\n\n**Patron Skill** Religion\n\n**Lesson of the Twilit Soul** For your patron, life and death and sleeping and waking have the same meaning. You gain the [_trade death for life_](/spell/trade-death-for-life-divine-mysteries-spell-spell-2435) hex cantrip and your familiar learns [_sleep_](/spell/sleep-player-core).\n\n**Familiar of Paired Perplexity** Your familiar has twice as many of a small feature than a normal creature would have, such a second tail or an extra pair of whiskers. When you [Cast](/action/cast-a-spell-player-core) or [Sustain](/action/sustain-player-core) a hex, your familiar seems to double and be in two places at once. One creature you choose within 20 feet of it is [stupefied](/condition/stupefied-player-core) 1 until the start of your next turn; this is a [visual](/trait/visual) effect.",
+    "data": {
+      "type": "other",
+      "category": "Witch Patron Theme",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Patrons.aspx?ID=25"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "divine-mysteries",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "divine-mysteries",
+      "patron",
+      "remaster",
+      "witch-patron-theme"
+    ],
+    "sources": [
+      {
+        "name": "Divine Mysteries",
+        "url": "https://2e.aonprd.com/Patrons.aspx?ID=25",
+        "page": 297
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "B3EB29CE-92EF-597B-8CAC-593F6264DE95",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Rules Elements",
+    "slug": "rules-elements-divine-mysteries-rules-rules-3352",
+    "descr": "This book presents the following new rules elements.",
+    "data": {
+      "type": "other",
+      "category": "Rules",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3352"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "divine-mysteries",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "divine-mysteries",
+      "remaster",
+      "rules"
+    ],
+    "sources": [
+      {
+        "name": "Divine Mysteries",
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3352",
+        "page": 9
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "A076A4C9-F508-550E-B6A0-319DF88C9D9A",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "The Unseen Broker",
+    "slug": "the-unseen-broker-divine-mysteries-patron-patron-26",
+    "descr": "Whether in a dream, answering a feeling in your heart, or enacting a mysterious ritual, you have agreed to act as a mediator between your patron and the rest of the world. Of course, you understand the power of deals and receive further knowledge in exchange for your service. Your patron might be a god, an enigmatic figure like a planar being, or even an alien entity. Regardless of their origin, it is clear that through the bargains you make with others, you advance your patron’s agenda.\n\n**Spell List** Occult\n\n**Patron Skill** Occultism\n\n**Lesson of the Bound Words** Your patron teaches you about bargains and how they can hold power over others. You gain the [_pact broker_](/spell/pact-broker-divine-mysteries-spell-spell-2436) hex cantrip and your familiar learns [_command_](/spell/command-player-core).\n\n**Familiar of Enticing Negotiation** Your familiar constantly whispers distracting offers of power, wealth, and other temptations to your enemies, even if your familiar normally doesn’t have the means of speaking. When you [Cast](/action/cast-a-spell-player-core) or [Sustain](/action/sustain-player-core) a hex and your familiar is within 10 feet of an enemy, the enemy becomes [off-guard](/condition/off-guard-player-core) until the start of your next turn. Your familiar can only distract a single enemy per round in this way.",
+    "data": {
+      "type": "other",
+      "category": "Witch Patron Theme",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Patrons.aspx?ID=26"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "divine-mysteries",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "divine-mysteries",
+      "patron",
+      "remaster",
+      "witch-patron-theme"
+    ],
+    "sources": [
+      {
+        "name": "Divine Mysteries",
+        "url": "https://2e.aonprd.com/Patrons.aspx?ID=26",
+        "page": 298
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "80700913-1DF7-5C31-9EA3-210668959F26",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Time",
+    "slug": "time-divine-mysteries-mystery-mystery-22",
+    "descr": "Whether by accident, fate, or purposeful meddling, you exist slightly outside of time. While initially unmoored by moments, the countless march of milliseconds builds up to drift you further and further out of sync with your natural timeline, often in contradictory directions. You might view this as a blessing, perhaps as a sign you’re somehow beyond mortality or you can’t be contained within reality’s limitations, or you might view it as a cruel curse that causes your life to slip by adrift even as you gain power over time. Many oracles of time are without faith and either come to rely upon their own instincts to survive or turn to strange rituals and forbidden magic in attempts to break free of time’s grasp. Those oracles who worship deities most often venerate [Pharasma](/deity/pharasma-the-lady-of-graves-divine-mysteries-deity-deity-290), goddess of fate who sees all possible futures for all who ever lived, or Alseta, goddess of transitions and the passage through time.\n\n**Mystery Skill**\nOccultism\n\n**Granted Spells**\n- **Cantrip** [Time Sense](/spell/time-sense-dark-archive)\n- **1st** [Déjà Vu](/spell/deja-vu-player-core-2)\n- **3rd** [Time Pocket](/spell/time-pocket-dark-archive)\n- **7th** [Time Beacon](/spell/time-beacon-divine-mysteries-spell-spell-2371)\n\n**Initial Revelation Spell** [Temporal Distortion](/spell/temporal-distortion-divine-mysteries-spell-spell-2429)\n\n**Advanced Revelation Spell** [Time Skip](/spell/time-skip-divine-mysteries-spell-spell-2430)\n\n**Greater Revelation Spell** [Manifold Lives](/spell/manifold-lives-divine-mysteries-spell-spell-2431)\n\n**Related Domains** [Change](/domain/change-divine-mysteries-domain-domain-102), [Fate](/domain/fate), [Nothingness](/domain/nothingness-divine-mysteries-domain-domain-114), [Time](/domain/time-divine-mysteries-domain-domain-121)\n\n**Oracle Feat** [Oracular Warning](/feat/oracular-warning-player-core-2)\n\n## Curse Of Turbulent Moments\n\nTime passes differently for you than for everyone else. You experience fluxes that might manifest as minor day-to-day changes in your apparent age, such as a gray lock of hair or a disappearing wrinkle, or as occasional ghostly temporal afterimages that slightly trail your movement. As you become more affected by your curse, time’s passage becomes more disjointed for you, making it difficult for you to react to the quick actions of others. You take a status penalty to your AC against attacks made against you from reactions or free actions and a status penalty to saving throws against effects that would make you [fatigued](/condition/fatigued-player-core) or [slowed](/condition/slowed-player-core) equal to your cursebound value.",
+    "data": {
+      "type": "other",
+      "category": "Oracle Mystery",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Mysteries.aspx?ID=22"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "divine-mysteries",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "divine-mysteries",
+      "mystery",
+      "oracle-mystery",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Divine Mysteries",
+        "url": "https://2e.aonprd.com/Mysteries.aspx?ID=22",
+        "page": 286
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "521149B6-3AF9-5EB5-AFDA-7B56E426E2AE",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Worshipping Dead Gods",
+    "slug": "worshipping-dead-gods-divine-mysteries-rules-rules-3354",
+    "descr": "While rare, deities have died before and more will likely die in the future. Such an event is disruptive in a number of ways, but for a follower of that god it can be particularly devastating. A dead god can't grant power at all, so their worshippers no longer receive spells or any of the other benefits and effects that come with following the god. Depending on when the death of a god occurs, this could affect a PC in an active adventure or campaign. In most cases, the best course of action is to find a new god to worship with similar values and philosophies as the dead god. Some players might not want to find a new god for their character and instead prefer to keep receiving power from this god. While this is normally not possible, a GM could decide to work with the player to create an interesting explanation and story for this event. It could be that the dead god unleashed a great amount of power into the universe at the time of death and this lingering power still fuels the divine abilities of very specific faithful. There could instead be a different god who is answering the PC's requests for power, but keeping their identity or motives hidden. Regardless of the explanation, it should be given lots of care, and the table should be open to the idea of adjusting the story as it plays out.",
+    "data": {
+      "type": "other",
+      "category": "Rules",
+      "breadcrumbs": [
+        "Gods & Magic",
+        "Rules Elements"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3354"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "divine-mysteries",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "divine-mysteries",
+      "remaster",
+      "rules"
+    ],
+    "sources": [
+      {
+        "name": "Divine Mysteries",
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3354",
+        "page": 9
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  }
+]

@@ -1,0 +1,2063 @@
+[
+  {
+    "id": "025ED726-5C04-595D-B23A-F5AB805889E2",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Bands of Imprisonment",
+    "slug": "bands-of-imprisonment-war-of-immortals",
+    "descr": "",
+    "data": {
+      "level": 0,
+      "rarity": "rare",
+      "traits": [
+        "divine"
+      ],
+      "category": "worn",
+      "price": "",
+      "usage": "wornanklets",
+      "bulk": "—",
+      "traitLinks": [
+        {
+          "label": "divine",
+          "slug": "divine"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "divine",
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0EB882F9-8D09-56DB-9FB1-DF9F5BE68399",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Combat Fishing Pole",
+    "slug": "combat-fishing-pole-war-of-immortals",
+    "descr": "The combat fishing pole is a sturdy and flexible pole that can be used as a weapon in melee. When a lure is attached to a combat fishing pole, it can be used to make thrown weapon attacks with a range increment of 20 feet, though the lure must then be reeled back in with an [Interact](/action/interact-player-core) action before the weapon can be used at range again (see the [tethered](/trait/tethered) trait). The ranged trip, tethered, thrown, and [versatile P](/trait/versatile) traits of the combat fishing pole only apply to thrown attacks made with a lure; throwing the pole itself leaves you with no practical way to retrieve it other than moving to its location and picking it up. A combat fishing pole can be used alongside fishing tackle to fish, and it adds its item bonus from weapon potency runes (if any) as an item bonus on checks to fish when used in this manner.",
+    "data": {
+      "level": 0,
+      "rarity": "uncommon",
+      "traits": [
+        "ranged-trip",
+        "tethered",
+        "thrown-20",
+        "versatile-p"
+      ],
+      "category": "weapon",
+      "price": "4 sp",
+      "usage": "held-in-two-hands",
+      "bulk": "L",
+      "damage": "1d8 bludgeoning",
+      "hands": "twos",
+      "weaponType": "melee",
+      "weaponCategory": "martial",
+      "weaponGroup": "flail",
+      "traitLinks": [
+        {
+          "label": "ranged-trip",
+          "slug": "ranged-trip"
+        },
+        {
+          "label": "tethered",
+          "slug": "tethered"
+        },
+        {
+          "label": "thrown-20",
+          "slug": "thrown"
+        },
+        {
+          "label": "versatile-p",
+          "slug": "versatile"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "ranged-trip",
+      "remaster",
+      "tethered",
+      "thrown-20",
+      "versatile-p",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "EA96EA12-BA5E-5A21-BBCE-FCBBC675BACA",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Cursed Immaculate Instrument",
+    "slug": "cursed-immaculate-instrument-war-of-immortals",
+    "descr": "This [Immaculate Instrument](/item/immaculate-instrument-war-of-immortals) has been cursed by the sublime breath it was taken from, causing it to warp, rust, or tarnish, though the holder of the instrument cannot perceive this and rationalizes away any attempt to explain the instrument's obviously cursed nature. Whenever the *cursed immaculate instrument* is used to produce a work, the holder must succeed on a Flat DC 16 or the work fails, leaving the holder frustrated and raising the DC of subsequent flat checks by 1. When the DC reaches 20, the work fails as normal, but the holder continues to attempt it fruitlessly to the exclusion of all other activities, including eating, drinking, and sleep, until they expire or the curse is broken.",
+    "data": {
+      "level": 12,
+      "rarity": "rare",
+      "traits": [
+        "artifact",
+        "cursed",
+        "divine",
+        "mythic"
+      ],
+      "category": "held",
+      "price": "",
+      "usage": "held-in-one-hand",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "artifact",
+          "slug": "artifact"
+        },
+        {
+          "label": "cursed",
+          "slug": "cursed"
+        },
+        {
+          "label": "divine",
+          "slug": "divine"
+        },
+        {
+          "label": "mythic",
+          "slug": "mythic"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "artifact",
+      "cursed",
+      "divine",
+      "mythic",
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals",
+        "page": 204
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1A47E078-7F74-5BC2-9164-886C68CD9D5F",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Dragon-Lotus Drum",
+    "slug": "dragon-lotus-drum-war-of-immortals",
+    "descr": "This traditional barrel drum has tacked heads in the old military style of Hwanggot and is painted with a many-colored imperial dragon twined around white and pink lotuses, a symbol of long memory. The dragon holds a scroll in its two front claws that bears the inscription \"So that the memory of war may be truthfully recalled.\"\n\nA creature who activates the drum is bound to join its army after death. Once their spirit has fought in a hundred and one battles, they are freed to face whatever fate their soul has earned. However, until this duty is discharged, the dead creature cannot be resurrected, nor can their soul be captured by any other means.\n\n---",
+    "data": {
+      "level": 24,
+      "rarity": "unique",
+      "traits": [
+        "artifact",
+        "magical",
+        "mythic"
+      ],
+      "category": "held",
+      "price": "",
+      "usage": "held-in-two-hands",
+      "bulk": "1",
+      "traitLinks": [
+        {
+          "label": "artifact",
+          "slug": "artifact"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "mythic",
+          "slug": "mythic"
+        }
+      ],
+      "activations": [
+        {
+          "actions": "three",
+          "traits": [
+            "concentrate",
+            "incarnate",
+            "manipulate"
+          ],
+          "name": "Summon Dragon-Lotus Army",
+          "text": "**Frequency** once every 20 years\n\n**Effect** Spend a Mythic Point; beating the drum summons a spectral army to an area you designate within 500 feet. The army takes its Arrive action when you finish playing. At the end of your next turn, the army Strides up to 60 feet and then takes its Depart action. The Dragon-Lotus Army follows your orders and attempts to not harm you and your allies when possible. The spectral force isn't fully a creature. It can't take any other actions, nor can it be targeted or harmed by Strikes, spells, or other effects unless they would be able to target or end a spell effect (such as Dispel Magic). The army is Gargantuan, but it doesn't block movement.\n\n**Arrive** (emotion, fear, mental, sonic) *The Sound of Thunder* The beating of the drum amplifies to become like the stomping of hundreds of booted feet. The Dragon- Lotus Army appears in perfect formation and gives a brief, staccato battle cry. All enemies in a 60-foot emanation around the army take 16d10 sonic damage (basic Fortitude DC 48 save); each creature who fails its save is also Frightened 3 (Frightened 4 on a critical failure).\n\n**Depart** *Devastating Charge* The army readies their motley collection of weapons and Strides forward up to 100 feet in a straight line. Each creature it moves through takes 20d8 bludgeoning, piercing, or slashing damage (whichever would be most harmful at the GM's discretion) with a basic Reflex DC 48 save. A creature who critically fails its save is also knocked Prone.\n\n---\n\n**Destruction** If the *Dragon-Lotus Drum* is captured by an enemy of Hwanggot (such as a warring rival nation) and then played continually for 1 week while singing anthems that disparage Hwanggot and its leaders, the drum falls to pieces and the souls bound to it are obliterated.",
+          "effect": "Spend a Mythic Point; beating the drum summons a spectral army to an area you designate within 500 feet. The army takes its Arrive action when you finish playing. At the end of your next turn, the army Strides up to 60 feet and then takes its Depart action. The Dragon-Lotus Army follows your orders and attempts to not harm you and your allies when possible. The spectral force isn't fully a creature. It can't take any other actions, nor can it be targeted or harmed by Strikes, spells, or other effects unless they would be able to target or end a spell effect (such as Dispel Magic). The army is Gargantuan, but it doesn't block movement.\n\n**Arrive** (emotion, fear, mental, sonic) *The Sound of Thunder* The beating of the drum amplifies to become like the stomping of hundreds of booted feet. The Dragon- Lotus Army appears in perfect formation and gives a brief, staccato battle cry. All enemies in a 60-foot emanation around the army take 16d10 sonic damage (basic Fortitude DC 48 save); each creature who fails its save is also Frightened 3 (Frightened 4 on a critical failure).\n\n**Depart** *Devastating Charge* The army readies their motley collection of weapons and Strides forward up to 100 feet in a straight line. Each creature it moves through takes 20d8 bludgeoning, piercing, or slashing damage (whichever would be most harmful at the GM's discretion) with a basic Reflex DC 48 save. A creature who critically fails its save is also knocked Prone.\n\n---\n\n**Destruction** If the *Dragon-Lotus Drum* is captured by an enemy of Hwanggot (such as a warring rival nation) and then played continually for 1 week while singing anthems that disparage Hwanggot and its leaders, the drum falls to pieces and the souls bound to it are obliterated.",
+          "description": "**Frequency** once every 20 years"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "artifact",
+      "magical",
+      "mythic",
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals",
+        "page": 150
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D199F255-4627-50AA-A15A-059FC5011132",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Fetching Bangles",
+    "slug": "fetching-bangles-war-of-immortals",
+    "descr": "",
+    "data": {
+      "level": 0,
+      "rarity": "rare",
+      "traits": [
+        "divine"
+      ],
+      "category": "worn",
+      "price": "",
+      "usage": "wornbracers",
+      "bulk": "—",
+      "traitLinks": [
+        {
+          "label": "divine",
+          "slug": "divine"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "divine",
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5D6BDBC1-B8B8-5725-B83C-74657400EA1F",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Fighting Oar",
+    "slug": "fighting-oar-war-of-immortals",
+    "descr": "A fighting oar is a sturdy boat oar, typically made of wood, whose haft and blades are reinforced for use in combat. A fighting oar adds its item bonus from weapon potency runes (if any) as an item bonus on Piloting Lore and Sailing Lore checks made to pilot a rowed vehicle.",
+    "data": {
+      "level": 0,
+      "rarity": "uncommon",
+      "traits": [
+        "sweep",
+        "versatile-s"
+      ],
+      "category": "weapon",
+      "price": "5 sp",
+      "usage": "held-in-two-hands",
+      "bulk": "2",
+      "damage": "1d8 bludgeoning",
+      "hands": "twos",
+      "weaponType": "melee",
+      "weaponCategory": "simple",
+      "weaponGroup": "polearm",
+      "traitLinks": [
+        {
+          "label": "sweep",
+          "slug": "sweep"
+        },
+        {
+          "label": "versatile-s",
+          "slug": "versatile"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "sweep",
+      "versatile-s",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0402163A-01C1-510A-86E1-3200C624035B",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Final Scalecloak",
+    "slug": "final-scalecloak-war-of-immortals",
+    "descr": "Fashioned from a swath of Mogaru's red-and-black hide and trimmed with Agyra's rough scales in green, blue, and white, this cloak draws upon the power of both kaiju, but at considerable cost. Any kaiju within a 5-mile radius of the *Final Scalecloak* can sense the presence and nature of the item, and can also determine whether it's being worn by a mortal. This sense grows stronger as the item and kaiju near one another, until the kaiju can pinpoint exactly where the cloak is and who currently possesses it.\n\nWhen worn, the *Final Scalecloak* grants you resistance 15 to physical and precision damage, immunity to electricity, and a Fly speed of 60 feet. You are unaffected by strong winds while flying.\n\n---",
+    "data": {
+      "level": 20,
+      "rarity": "unique",
+      "traits": [
+        "artifact",
+        "invested",
+        "magical",
+        "mythic"
+      ],
+      "category": "worn",
+      "price": "",
+      "usage": "worncloak",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "artifact",
+          "slug": "artifact"
+        },
+        {
+          "label": "invested",
+          "slug": "invested"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "mythic",
+          "slug": "mythic"
+        }
+      ],
+      "activations": [
+        {
+          "actions": "two",
+          "traits": [
+            "concentrate",
+            "manipulate",
+            "primal"
+          ],
+          "name": "Commune with Kaiju",
+          "text": "**Frequency** once per day\n\n**Effect** Spend a Mythic Point; you gain the effects of a 6th-rank [Telepathy](/spell/telepathy-player-core) spell but can use it only to communicate with Gargantuan animals and beasts. Most kaiju are hostile toward you for wearing the *Final Scalecloak*, however, requiring great effort to calm them enough to have a conversation.\n\n---",
+          "effect": "Spend a Mythic Point; you gain the effects of a 6th-rank [Telepathy](/spell/telepathy-player-core) spell but can use it only to communicate with Gargantuan animals and beasts. Most kaiju are hostile toward you for wearing the *Final Scalecloak*, however, requiring great effort to calm them enough to have a conversation.\n\n---",
+          "description": "**Frequency** once per day"
+        },
+        {
+          "actions": "two",
+          "traits": [
+            "concentrate",
+            "manipulate",
+            "primal"
+          ],
+          "name": "Embody the Storm",
+          "text": "**Frequency** once per hour\n\n**Effect** Spend a Mythic Point; a nimbus of crackling electricity surrounds you for 1 minute. You gain a +4 status bonus to AC against ranged projectiles that are at least partly made of metal. If a foe attempts to Strike you with an unarmed attack or melee attack with a weapon at least partly made of metal, that creature takes 3d10 electricity damage (basic Reflex DC 40 save).\n\nEffect: Embody The Storm\n\n---\n\n**Destruction** The *Final Scalecloak* is torn to shreds if the wearer is struck by an attack or effect from both Agyra and Mogaru within the same round.",
+          "effect": "Spend a Mythic Point; a nimbus of crackling electricity surrounds you for 1 minute. You gain a +4 status bonus to AC against ranged projectiles that are at least partly made of metal. If a foe attempts to Strike you with an unarmed attack or melee attack with a weapon at least partly made of metal, that creature takes 3d10 electricity damage (basic Reflex DC 40 save).\n\nEffect: Embody The Storm\n\n---\n\n**Destruction** The *Final Scalecloak* is torn to shreds if the wearer is struck by an attack or effect from both Agyra and Mogaru within the same round.",
+          "description": "**Frequency** once per hour"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "artifact",
+      "invested",
+      "magical",
+      "mythic",
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals",
+        "page": 152
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4A37CA62-680B-57CF-A526-E8B3A373ED47",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Fishing Lure",
+    "slug": "fishing-lure-war-of-immortals",
+    "descr": "When a lure is attached to a combat fishing pole, it can be used to make thrown weapon attacks with a range increment of 20 feet, though the lure must then be reeled back in with an [Interact](/action/interact-player-core) action before the weapon can be used at range again (see the [tethered](/trait/tethered) trait). The ranged trip, tethered, thrown, and [versatile P](/trait/versatile) traits of the combat fishing pole only apply to thrown attacks made with a lure.",
+    "data": {
+      "level": 0,
+      "rarity": "uncommon",
+      "traits": [
+        "consumable"
+      ],
+      "category": "ammunition",
+      "price": "2 sp",
+      "usage": "",
+      "bulk": "—",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A396BEEC-6723-58AD-845C-11CDF8DAFDD9",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Freedom's Flame",
+    "slug": "freedom-s-flame-war-of-immortals",
+    "descr": "This *+4 major striking holy morningstar* is made of wood and adorned with golden flames traced along its haft and head. It has the [razing](/trait/razing) trait, and it ignores the Hardness of structures used to hold those you feel are being unjustly imprisoned (subject to the GM's discretion).\n\n---",
+    "data": {
+      "level": 21,
+      "rarity": "unique",
+      "traits": [
+        "artifact",
+        "magical",
+        "mythic",
+        "razing",
+        "versatile-p"
+      ],
+      "category": "weapon",
+      "price": "",
+      "usage": "held-in-one-hand",
+      "bulk": "1",
+      "damage": "1d6 bludgeoning",
+      "hands": "one",
+      "weaponType": "melee",
+      "weaponCategory": "simple",
+      "weaponGroup": "club",
+      "traitLinks": [
+        {
+          "label": "artifact",
+          "slug": "artifact"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "mythic",
+          "slug": "mythic"
+        },
+        {
+          "label": "razing",
+          "slug": "razing"
+        },
+        {
+          "label": "versatile-p",
+          "slug": "versatile"
+        }
+      ],
+      "activations": [
+        {
+          "actions": "two",
+          "traits": [
+            "concentrate",
+            "manipulate"
+          ],
+          "name": "Break Free",
+          "text": "**Effect** Spend a Mythic Point; *Freedom's Flame* blazes with a rose-red light, creating a beacon of spiritual strength. Any creature within 120 feet that's currently under a compulsion or control effect can immediately attempt a new saving throw to break free of the effect, with a +3 status bonus.\n\n---",
+          "effect": "Spend a Mythic Point; *Freedom's Flame* blazes with a rose-red light, creating a beacon of spiritual strength. Any creature within 120 feet that's currently under a compulsion or control effect can immediately attempt a new saving throw to break free of the effect, with a +3 status bonus.\n\n---",
+          "description": ""
+        },
+        {
+          "actions": "free",
+          "traits": [
+            "concentrate",
+            "divine"
+          ],
+          "name": "Holy Retribution",
+          "text": "**Trigger** Your previous action was to use *Freedom's Flame* to Strike a foe you have witnessed use a compulsion or control effect on an ally within the past hour\n\n**Frequency** once per day\n\n**Effect** Spend a Mythic Point; your blow is empowered by the righteousness of Milani. The target's holy weakness is triggered again or, if the target doesn't have a holy weakness, it takes 15 spirit damage.\n\n---\n\n**Destruction** *Freedom's Flame* is sliced in two if struck by a Final Blade that has been anointed with [Unholy Water](/item/unholy-water-gm-core) created by a level 20 unholy creature.",
+          "effect": "Spend a Mythic Point; your blow is empowered by the righteousness of Milani. The target's holy weakness is triggered again or, if the target doesn't have a holy weakness, it takes 15 spirit damage.\n\n---\n\n**Destruction** *Freedom's Flame* is sliced in two if struck by a Final Blade that has been anointed with [Unholy Water](/item/unholy-water-gm-core) created by a level 20 unholy creature.",
+          "trigger": "Your previous action was to use *Freedom's Flame* to Strike a foe you have witnessed use a compulsion or control effect on an ally within the past hour",
+          "triggerBeforeDescription": true,
+          "triggerParagraphBreak": true,
+          "description": "**Frequency** once per day"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "artifact",
+      "magical",
+      "mythic",
+      "razing",
+      "remaster",
+      "versatile-p",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1329C510-0DAF-5BD3-822B-77CCC7325BCF",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Gladius",
+    "slug": "gladius-war-of-immortals",
+    "descr": "Similar to a shortsword, a gladius is designed to inflict deadly stabbing wounds while still being useful as a slashing weapon.",
+    "data": {
+      "level": 0,
+      "rarity": "uncommon",
+      "traits": [
+        "deadly-d10",
+        "versatile-s"
+      ],
+      "category": "weapon",
+      "price": "1 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "1",
+      "damage": "1d6 piercing",
+      "hands": "one",
+      "weaponType": "melee",
+      "weaponCategory": "martial",
+      "weaponGroup": "sword",
+      "traitLinks": [
+        {
+          "label": "deadly-d10",
+          "slug": "deadly"
+        },
+        {
+          "label": "versatile-s",
+          "slug": "versatile"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "deadly-d10",
+      "remaster",
+      "versatile-s",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2F7C5F2F-E9D3-5771-BE59-E2E8355445B9",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Gut-Ripper",
+    "slug": "gut-ripper-war-of-immortals",
+    "descr": "This *+1 striking ogre hook* causes its owner to dream of past murders conducted with the weapon. *Gut-Ripper*'s mythic magic is tied to the bloodlust of the ogre boss who was holding it upon becoming mythic. If *Gut-Ripper* doesn't kill a creature each day by midnight, it becomes a non-magical ogre hook.\n\n---",
+    "data": {
+      "level": 7,
+      "rarity": "unique",
+      "traits": [
+        "deadly-d10",
+        "magical",
+        "mythic",
+        "trip"
+      ],
+      "category": "weapon",
+      "price": "",
+      "usage": "held-in-two-hands",
+      "bulk": "2",
+      "damage": "1d10 slashing",
+      "hands": "twos",
+      "weaponType": "melee",
+      "weaponCategory": "martial",
+      "weaponGroup": "pick",
+      "traitLinks": [
+        {
+          "label": "deadly-d10",
+          "slug": "deadly"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "mythic",
+          "slug": "mythic"
+        },
+        {
+          "label": "trip",
+          "slug": "trip"
+        }
+      ],
+      "activations": [
+        {
+          "actions": "two",
+          "name": "Rip Guts! Rip Guts!",
+          "text": "**Cost** 1 Mythic Point\n\n**Effect** You throw *Gut-Ripper* in a line of any length up to 60 feet, then it returns to your hands. Each creature in the line takes 1d4 rounds.",
+          "effect": "You throw *Gut-Ripper* in a line of any length up to 60 feet, then it returns to your hands. Each creature in the line takes 1d4 rounds.",
+          "description": "**Cost** 1 Mythic Point"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "deadly-d10",
+      "magical",
+      "mythic",
+      "remaster",
+      "trip",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals",
+        "page": 172
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "26AEF700-4016-55EE-BA89-050B10050106",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Horn of Plenty",
+    "slug": "horn-of-plenty-war-of-immortals",
+    "descr": "",
+    "data": {
+      "level": 0,
+      "rarity": "rare",
+      "traits": [
+        "divine",
+        "extradimensional"
+      ],
+      "category": "adventuringGear",
+      "price": "",
+      "usage": "worn",
+      "bulk": "—",
+      "traitLinks": [
+        {
+          "label": "divine",
+          "slug": "divine"
+        },
+        {
+          "label": "extradimensional",
+          "slug": "extradimensional"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "divine",
+      "extradimensional",
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "447E72E6-19AC-5A24-949A-F6B8A842CC82",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Immaculate Instrument",
+    "slug": "immaculate-instrument-war-of-immortals",
+    "descr": "This object, made of silver light, takes the form of a small musical instrument, prop, or other tool associated with a specific art form. The holder of the *immaculate instrument* never suffers from creative blocks of any kind and their work is always insightful and skilled. A character who uses the *immaculate instrument* to [Perform](/action/perform-player-core) or [Craft](/action/craft-player-core) can attempt the check at mythic proficiency once per month, and as long as they possess their *immaculate instrument*, they treat any critical failures with these skills as failures.\n\n---\n\n**Destruction** If the holder uses the *immaculate instrument* to intentionally produce a work that is not just mediocre or crass, but one that devalues the public opinion of the art form itself in a showing of at least 100 spectators, the instrument fades away in shame.",
+    "data": {
+      "level": 12,
+      "rarity": "rare",
+      "traits": [
+        "artifact",
+        "divine",
+        "mythic"
+      ],
+      "category": "held",
+      "price": "",
+      "usage": "held-in-one-hand",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "artifact",
+          "slug": "artifact"
+        },
+        {
+          "label": "divine",
+          "slug": "divine"
+        },
+        {
+          "label": "mythic",
+          "slug": "mythic"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "artifact",
+      "divine",
+      "mythic",
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals",
+        "page": 204
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0B751047-AE02-588B-B14C-0458A7FC3253",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Kestros",
+    "slug": "kestros-war-of-immortals",
+    "descr": "The kestros is a type of sling that fires special ammunition with wing-shaped fins and a pointed end. The thongs of the sling are of uneven length, one shorter and one several inches longer, around an open loop to cradle the ammunition as the sling is spun.",
+    "data": {
+      "level": 0,
+      "rarity": "uncommon",
+      "traits": [
+        "concussive",
+        "propulsive"
+      ],
+      "category": "weapon",
+      "price": "2 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "L",
+      "damage": "1d6 piercing",
+      "range": 40,
+      "reload": "1",
+      "hands": "one",
+      "weaponType": "ranged",
+      "weaponCategory": "martial",
+      "weaponGroup": "sling",
+      "traitLinks": [
+        {
+          "label": "concussive",
+          "slug": "concussive"
+        },
+        {
+          "label": "propulsive",
+          "slug": "propulsive"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concussive",
+      "propulsive",
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B714EBF4-90FE-56A7-A2F5-1BC3B107FB97",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Kilted Breastplate",
+    "slug": "kilted-breastplate-war-of-immortals",
+    "descr": "This armor consists of a chest plate, typically made out of bronze or other water-resistant alloys, strapped to the body with a leather harness and featuring a skirt of leather pleats reinforced with metal studs to protect the upper legs.",
+    "data": {
+      "level": 0,
+      "rarity": "common",
+      "traits": [
+        "flexible"
+      ],
+      "category": "armor",
+      "price": "3 gp",
+      "usage": "",
+      "bulk": "1",
+      "ac": 2,
+      "dexCap": 3,
+      "checkPenalty": -1,
+      "speedPenalty": 0,
+      "str": 1,
+      "armorCategory": "light",
+      "armorGroup": "plate",
+      "traitLinks": [
+        {
+          "label": "flexible",
+          "slug": "flexible"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "flexible",
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "811ECE82-83E6-5155-920B-39666AB4042E",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Lattice Armor",
+    "slug": "lattice-armor-war-of-immortals",
+    "descr": "Also known as \"varman\" in some parts of the Impossible Lands, this armor is made from fine metal cables woven into latticework patterns with plated segments to protect the head, neck, and shoulders. This armor disperses blows much like rings of chain mail but is much tighter in construction, making it quieter.",
+    "data": {
+      "level": 0,
+      "rarity": "common",
+      "traits": [],
+      "category": "armor",
+      "price": "6 gp",
+      "usage": "",
+      "bulk": "2",
+      "ac": 4,
+      "dexCap": 1,
+      "checkPenalty": -2,
+      "speedPenalty": -5,
+      "str": 3,
+      "armorCategory": "medium",
+      "armorGroup": "chain",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3029EE0F-8FD7-50E0-B2DC-25B04A4AE7E6",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Macuahuitl",
+    "slug": "macuahuitl-war-of-immortals",
+    "descr": "This wooden club is embedded with razor-sharp blades, typically made of obsidian. The blades are inserted vertically around two sides of the weapon, leaving a central bludgeoning surface available for bashing.",
+    "data": {
+      "level": 0,
+      "rarity": "uncommon",
+      "traits": [
+        "backswing",
+        "tearing",
+        "versatile-b"
+      ],
+      "category": "weapon",
+      "price": "3 gp",
+      "usage": "held-in-two-hands",
+      "bulk": "1",
+      "damage": "1d8 slashing",
+      "hands": "twos",
+      "weaponType": "melee",
+      "weaponCategory": "martial",
+      "weaponGroup": "club",
+      "traitLinks": [
+        {
+          "label": "backswing",
+          "slug": "backswing"
+        },
+        {
+          "label": "tearing",
+          "slug": "tearing"
+        },
+        {
+          "label": "versatile-b",
+          "slug": "versatile"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "backswing",
+      "remaster",
+      "tearing",
+      "versatile-b",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "79579D3D-0B6D-56AE-8247-41C72412CD03",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Mythic Armor Potency",
+    "slug": "mythic-armor-potency-war-of-immortals",
+    "descr": "This armor is etched with a mythical ward providing unparalleled defense. Increase the armor's item bonus to AC by 4, and the armor can be etched with four property runes.\n\n---",
+    "data": {
+      "level": 20,
+      "rarity": "rare",
+      "traits": [
+        "magical",
+        "mythic"
+      ],
+      "category": "other",
+      "price": "70000 gp",
+      "usage": "etched-onto-armor",
+      "bulk": "—",
+      "traitLinks": [
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "mythic",
+          "slug": "mythic"
+        }
+      ],
+      "activations": [
+        {
+          "actions": "reaction",
+          "name": "Survive Devastation",
+          "text": "(concentration)\n\n**Trigger** An enemy critically succeeds against you with a weapon or unarmed Strike\n\n**Effect** Spend a Mythic Point; if the triggering Strike was made by a mythic creature, it's a normal success instead. If it was made by a non-mythic creature, it's a failure.\n\n---",
+          "effect": "Spend a Mythic Point; if the triggering Strike was made by a mythic creature, it's a normal success instead. If it was made by a non-mythic creature, it's a failure.\n\n---",
+          "trigger": "An enemy critically succeeds against you with a weapon or unarmed Strike",
+          "triggerBeforeDescription": false,
+          "description": "(concentration)"
+        }
+      ],
+      "craftRequirements": "*Mythic armor potency* runes can only be crafted, etched, or transferred by a mythic character capable of making a Crafting check at mythic proficiency (such as by having the Artisan's Calling)."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "magical",
+      "mythic",
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B74ED18F-1092-5FBC-A0A8-04945C67802C",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Mythic Resilient",
+    "slug": "mythic-resilient-war-of-immortals",
+    "descr": "*Mythic [resilient](/item/resilient-gm-core)* runes imbue armor with unrivaled protection from a wide array of effects. The armor grants a +4 item bonus to saving throws to the wearer.\n\n---",
+    "data": {
+      "level": 20,
+      "rarity": "rare",
+      "traits": [
+        "magical",
+        "mythic"
+      ],
+      "category": "other",
+      "price": "70000 gp",
+      "usage": "etched-onto-armor",
+      "bulk": "—",
+      "traitLinks": [
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "mythic",
+          "slug": "mythic"
+        }
+      ],
+      "activations": [
+        {
+          "actions": "reaction",
+          "name": "Defy Obliteration",
+          "text": "(concentration)\n\n**Trigger** You critically fail a saving throw\n\n**Effect** Spend a Mythic Point; if the triggering save was made due to an effect created by a mythic monster, hazard, or other effect, it's a normal failure instead. If the save was made due to an effect that wasn't mythic, it becomes a success.\n\n---",
+          "effect": "Spend a Mythic Point; if the triggering save was made due to an effect created by a mythic monster, hazard, or other effect, it's a normal failure instead. If the save was made due to an effect that wasn't mythic, it becomes a success.\n\n---",
+          "trigger": "You critically fail a saving throw",
+          "triggerBeforeDescription": false,
+          "description": "(concentration)"
+        }
+      ],
+      "craftRequirements": "*Mythic resilient* runes can only be crafted, etched, or transferred by a mythic character capable of making a Crafting check at mythic proficiency (such as by having the Artisan's Calling)."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "magical",
+      "mythic",
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E14CEF4C-5EF9-5E3F-A3F7-07DF1AEC4A18",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Mythic Striking",
+    "slug": "mythic-striking-war-of-immortals",
+    "descr": "This weapon is filled with unmatched destructive power. The weapon deals five weapon damage dice.\n\n---",
+    "data": {
+      "level": 20,
+      "rarity": "rare",
+      "traits": [
+        "magical",
+        "mythic"
+      ],
+      "category": "other",
+      "price": "70000 gp",
+      "usage": "etched-onto-a-weapon",
+      "bulk": "—",
+      "traitLinks": [
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "mythic",
+          "slug": "mythic"
+        }
+      ],
+      "activations": [
+        {
+          "actions": "reaction",
+          "name": "Unstoppable Devastation",
+          "text": "(concentration)\n\n**Trigger** You roll the weapon damage dice for a Strike with this weapon and do not like the result\n\n**Effect** Spend a Mythic Point and reroll your weapon damage dice, taking the higher of the two results.\n\n---",
+          "effect": "Spend a Mythic Point and reroll your weapon damage dice, taking the higher of the two results.\n\n---",
+          "trigger": "You roll the weapon damage dice for a Strike with this weapon and do not like the result",
+          "triggerBeforeDescription": false,
+          "description": "(concentration)"
+        }
+      ],
+      "craftRequirements": "*Mythic [striking](/item/striking-gm-core)* runes can only be crafted, etched, or transferred by a mythic character capable of making a Crafting check at mythic proficiency (such as by having the Artisan's Calling)."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "magical",
+      "mythic",
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "568DBB15-631E-5B2C-BBAD-080A6ACD16B5",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Mythic Weapon Potency",
+    "slug": "mythic-weapon-potency-war-of-immortals",
+    "descr": "This weapon strikes with peerless accuracy to pierce the defenses of the mightiest monstrosities. Attack rolls with this weapon gain a +4 item bonus, and the weapon can be etched with four property runes.\n\n---",
+    "data": {
+      "level": 20,
+      "rarity": "rare",
+      "traits": [
+        "magical",
+        "mythic"
+      ],
+      "category": "other",
+      "price": "70000 gp",
+      "usage": "etched-onto-a-weapon",
+      "bulk": "—",
+      "traitLinks": [
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "mythic",
+          "slug": "mythic"
+        }
+      ],
+      "activations": [
+        {
+          "actions": "reaction",
+          "name": "Unerring Blow",
+          "text": "(concentration)\n\n**Trigger** You roll an attack roll to Strike with this weapon and receive a critical failure\n\n**Effect** Spend a Mythic Point and reroll your attack roll with mythic proficiency, taking the higher of the two results.\n\n---",
+          "effect": "Spend a Mythic Point and reroll your attack roll with mythic proficiency, taking the higher of the two results.\n\n---",
+          "trigger": "You roll an attack roll to Strike with this weapon and receive a critical failure",
+          "triggerBeforeDescription": false,
+          "description": "(concentration)"
+        }
+      ],
+      "craftRequirements": "*Mythic weapon* potency runes can only be crafted, etched, or transferred by a mythic character capable of making a Crafting check at mythic proficiency (such as by having the Artisan's Calling)."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "magical",
+      "mythic",
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "EEF4DED7-B6F0-518A-AFC0-9F791FB0BCCB",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Palstave",
+    "slug": "palstave-war-of-immortals",
+    "descr": "This simple axe is created by inserting a weighted metal wedge into a curved wooden handle with a Y-shaped groove at the top, and then binding the splitting wedge in place with leather thongs.",
+    "data": {
+      "level": 0,
+      "rarity": "uncommon",
+      "traits": [
+        "sweep"
+      ],
+      "category": "weapon",
+      "price": "4 sp",
+      "usage": "held-in-one-hand",
+      "bulk": "1",
+      "damage": "1d6 slashing",
+      "hands": "one",
+      "weaponType": "melee",
+      "weaponCategory": "simple",
+      "weaponGroup": "axe",
+      "traitLinks": [
+        {
+          "label": "sweep",
+          "slug": "sweep"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "sweep",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C6257E39-218A-503D-B11D-B6B94F109208",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Pelt of the Beast",
+    "slug": "pelt-of-the-beast-war-of-immortals",
+    "descr": "",
+    "data": {
+      "level": 0,
+      "rarity": "rare",
+      "traits": [
+        "divine"
+      ],
+      "category": "worn",
+      "price": "",
+      "usage": "worncloak",
+      "bulk": "—",
+      "traitLinks": [
+        {
+          "label": "divine",
+          "slug": "divine"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "divine",
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8DE54E07-8A0F-5013-B045-59BCC1A7C730",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Rattan Armor",
+    "slug": "rattan-armor-war-of-immortals",
+    "descr": "This armor is made from rattan reeds which are bent and woven into shaped layers then treated with oil to harden them. Due to the materials and nature of its construction, rattan armor is naturally buoyant and doesn't hinder its wearer when moving through water.",
+    "data": {
+      "level": 0,
+      "rarity": "common",
+      "traits": [
+        "aquadynamic"
+      ],
+      "category": "armor",
+      "price": "2 gp",
+      "usage": "",
+      "bulk": "1",
+      "ac": 1,
+      "dexCap": 4,
+      "checkPenalty": -1,
+      "speedPenalty": 0,
+      "str": 0,
+      "armorCategory": "light",
+      "armorGroup": "wood",
+      "traitLinks": [
+        {
+          "label": "aquadynamic",
+          "slug": "aquadynamic"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "aquadynamic",
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4881BE91-24F4-5B58-B26D-155035782343",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Sankeit",
+    "slug": "sankeit-war-of-immortals",
+    "descr": "Sankeit is common armor among Varki in the northern Land of the Linnorm Kings, made of small wooden plates or longer slats, typically vertical, joined with sinew or cord and painted with decorations. Varki warriors traditionally wear sankeit with a fearsome wooden helm carved in the shape of a mighty creature.",
+    "data": {
+      "level": 0,
+      "rarity": "common",
+      "traits": [
+        "laminar"
+      ],
+      "category": "armor",
+      "price": "5 gp",
+      "usage": "",
+      "bulk": "1",
+      "ac": 2,
+      "dexCap": 3,
+      "checkPenalty": -1,
+      "speedPenalty": 0,
+      "str": 1,
+      "armorCategory": "light",
+      "armorGroup": "wood",
+      "traitLinks": [
+        {
+          "label": "laminar",
+          "slug": "laminar"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "laminar",
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "CABB0C86-B9F1-56C9-999F-1CD6FD15B8C4",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Shadowpiercer",
+    "slug": "shadowpiercer-war-of-immortals",
+    "descr": "Muted, silvery moonlight gleams along the curved blade of this *+4 major striking ghost touch spear*. Braided tassels of horsehair dangle from its sturdy haft, and archaic runes in Nidalese script shimmer along the weapon in the presence of shadow magic.\n\n*Shadowpiercer* ignores immunity and resistance to precision damage of creatures with the incorporeal or [shadow](/trait/shadow) trait, and deals an additional 2d6 precision damage to such creatures. While wielding *Shadowpiercer*, you gain a +2 status bonus to saving throws against darkness and shadow effects; this bonus also applies to allies within 60 feet of you while you wield the spear. If you are a worshipper of Zon Kuthon, you are Drained 4 and Enfeebled 4 while carrying or wielding *Shadowpiercer*. If you use a darkness or shadow effect while carrying or wielding *Shadowpiercer*, you become enfeebled 4; this condition's value reduces by 1 at the start of each day you do not have physical contact with *Shadowpiercer*.\n\n---",
+    "data": {
+      "level": 23,
+      "rarity": "unique",
+      "traits": [
+        "artifact",
+        "magical",
+        "monk",
+        "mythic",
+        "thrown-20"
+      ],
+      "category": "weapon",
+      "price": "",
+      "usage": "held-in-one-hand",
+      "bulk": "1",
+      "damage": "1d6 piercing",
+      "hands": "one",
+      "weaponType": "melee",
+      "weaponCategory": "simple",
+      "weaponGroup": "spear",
+      "traitLinks": [
+        {
+          "label": "artifact",
+          "slug": "artifact"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "monk",
+          "slug": "monk"
+        },
+        {
+          "label": "mythic",
+          "slug": "mythic"
+        },
+        {
+          "label": "thrown-20",
+          "slug": "thrown"
+        }
+      ],
+      "activations": [
+        {
+          "actions": "two",
+          "traits": [
+            "concentrate",
+            "healing",
+            "manipulate",
+            "occult"
+          ],
+          "name": "Absorb Shadows",
+          "text": "**Frequency** once per day\n\n**Effect** You touch *Shadowpiercer* to a darkness or shadow effect to siphon its energy and bolster yourself. You gain a number of temporary Hit Points equal to four times the effect's counteract rank. These temporary Hit Points last for 1 hour. In addition, if the effect is causing darkness, that darkness is automatically counteracted within 15 feet of you for as long as you have those temporary Hit Points. This doesn't provide light—it merely restores the area to its natural illumination level.\n\n---",
+          "effect": "You touch *Shadowpiercer* to a darkness or shadow effect to siphon its energy and bolster yourself. You gain a number of temporary Hit Points equal to four times the effect's counteract rank. These temporary Hit Points last for 1 hour. In addition, if the effect is causing darkness, that darkness is automatically counteracted within 15 feet of you for as long as you have those temporary Hit Points. This doesn't provide light—it merely restores the area to its natural illumination level.\n\n---",
+          "description": "**Frequency** once per day"
+        },
+        {
+          "actions": "reaction",
+          "traits": [
+            "concentrate",
+            "occult"
+          ],
+          "name": "Rebuff Gloom",
+          "text": "**Trigger** You or an ally within 60 feet is targeted by a darkness or shadow effect\n\n**Requirements** You don't currently have the [drained](/condition/drained-player-core) condition\n\n**Effect** Spend a Mythic Point; the spear drains your vitality to counteract the effect. You can attempt to counteract the effect (+46 modifier level, counteract rank 10). You can activate this effect without having a Mythic Point available but doing so makes you Drained 2.\n\n---\n\n**Destruction** *Shadowpiercer* simply disappears if a worshipper of Zon-Kuthon casts a 10th-rank [Darkness](/spell/darkness-player-core) spell on it once a day for an entire month while it is unattended.",
+          "effect": "Spend a Mythic Point; the spear drains your vitality to counteract the effect. You can attempt to counteract the effect (+46 modifier level, counteract rank 10). You can activate this effect without having a Mythic Point available but doing so makes you Drained 2.\n\n---\n\n**Destruction** *Shadowpiercer* simply disappears if a worshipper of Zon-Kuthon casts a 10th-rank [Darkness](/spell/darkness-player-core) spell on it once a day for an entire month while it is unattended.",
+          "trigger": "You or an ally within 60 feet is targeted by a darkness or shadow effect",
+          "triggerBeforeDescription": true,
+          "triggerParagraphBreak": true,
+          "description": "**Requirements** You don't currently have the [drained](/condition/drained-player-core) condition"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "artifact",
+      "magical",
+      "monk",
+      "mythic",
+      "remaster",
+      "thrown-20",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals",
+        "page": 152
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "55887A55-5019-5A3F-BCB5-1902429061DC",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Shard of Self-Destruction",
+    "slug": "shard-of-self-destruction-war-of-immortals",
+    "descr": "This jagged shard of bone appears to be and functions as a *+1 striking dagger* with a sharp edge that is perpetually stained with blood. Whenever you critically hit with the weapon, you deal an additional 1d6 persistent bleed damage, but you also take 1d6 persistent bleed damage. You take a –2 penalty to the flat check to remove this bleed damage, and when you succeed at this flat check, you are exposed to Verex's ruin (see below) as the site of the injury grows red and inflamed, your blood vessels discoloring and swelling as if serrated knives were trying to push their way out.\n\nOnce the curse has activated for the first time, the weapon fuses to you; while you can sheathe the dagger outside of combat, it appears in your hand when a fight begins and you can't sheathe it as long as there is an enemy you can perceive.\n\n---\n\n**Verex's Ruin** (disease, unholy)\n\n**Saving Throw** Fortitude DC 22\n\n**Onset** 1 hour\n\n**Stage 1** [Enfeebled 1](/condition/enfeebled-player-core) (1 day)\n\n**Stage 2** Enfeebled 2, [Fatigued](/condition/fatigued-player-core), and 1d6 spirit damage each time you would take persistent bleed damage (1 week)\n\n**Stage 3** as stage 2, but the spirit damage increases to 2d6 (1 week)\n\n**Stage 4** Enfeebled 3, fatigued, and 4d6 spirit damage each time you would take persistent bleed damage (1 week)\n\n**Stage 5** death",
+    "data": {
+      "level": 5,
+      "rarity": "rare",
+      "traits": [
+        "cursed",
+        "magical"
+      ],
+      "category": "weapon",
+      "price": "",
+      "usage": "held-in-one-hand",
+      "bulk": "L",
+      "damage": "1d6 slashing",
+      "hands": "one",
+      "weaponType": "melee",
+      "weaponCategory": "simple",
+      "weaponGroup": "knife",
+      "traitLinks": [
+        {
+          "label": "cursed",
+          "slug": "cursed"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "cursed",
+      "magical",
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "EE7A1BD0-3A44-510F-9CB7-EFB3CD851516",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Skybearer's Belt",
+    "slug": "skybearer-s-belt-war-of-immortals",
+    "descr": "",
+    "data": {
+      "level": 0,
+      "rarity": "rare",
+      "traits": [
+        "divine"
+      ],
+      "category": "worn",
+      "price": "",
+      "usage": "wornbelt",
+      "bulk": "—",
+      "traitLinks": [
+        {
+          "label": "divine",
+          "slug": "divine"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "divine",
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "143C8E93-B25D-5E33-81E4-AF6EF221C56D",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Sling Darts",
+    "slug": "sling-darts-war-of-immortals",
+    "descr": "These are special ammunition with wing-shaped fins and a pointed end.",
+    "data": {
+      "level": 0,
+      "rarity": "uncommon",
+      "traits": [
+        "consumable"
+      ],
+      "category": "consumable",
+      "price": "1 sp",
+      "usage": "held-in-one-hand",
+      "bulk": "—",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C1DBC3F8-5126-523D-AE3B-D7394B490BDC",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Thousand-League Sandals",
+    "slug": "thousand-league-sandals-war-of-immortals",
+    "descr": "",
+    "data": {
+      "level": 0,
+      "rarity": "rare",
+      "traits": [
+        "divine"
+      ],
+      "category": "worn",
+      "price": "",
+      "usage": "wornshoes",
+      "bulk": "—",
+      "traitLinks": [
+        {
+          "label": "divine",
+          "slug": "divine"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "divine",
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8BAA462F-315E-5961-B785-48F169695AC0",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Victor's Wreath",
+    "slug": "victor-s-wreath-war-of-immortals",
+    "descr": "",
+    "data": {
+      "level": 0,
+      "rarity": "rare",
+      "traits": [
+        "divine"
+      ],
+      "category": "worn",
+      "price": "",
+      "usage": "wornheadwear",
+      "bulk": "—",
+      "traitLinks": [
+        {
+          "label": "divine",
+          "slug": "divine"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "divine",
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "7E537A15-B641-56FF-A56B-834D21ADF426",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Wandering Pipe",
+    "slug": "wandering-pipe-war-of-immortals",
+    "descr": "This long-stemmed pipe always emits a thin plume of smoke, even when not lit or in active use. The exact material the pipe is made of varies in every accounting; sometimes made of polished oak, other times ebony, sometimes stone, and in one Erutaki legend the pipe is made of pure ice that somehow holds a flame. Though the *wandering pipe* is not intelligent, it is rumored to possess a certain capriciousness, leaving the possession of mortals whose lives are not exciting enough but inevitably finding its way back to its one true owner.\n\nWhen held in one hand, the pipe grants its holder a +2 circumstance bonus to Deception checks but imposes a -1 circumstance penalty to Stealth checks made to Hide or [Sneak](/action/sneak-player-core), as its telltale plume of smoke gives away the bearer's position.",
+    "data": {
+      "level": 11,
+      "rarity": "unique",
+      "traits": [
+        "artifact",
+        "invested",
+        "magical",
+        "mythic"
+      ],
+      "category": "held",
+      "price": "",
+      "usage": "held-in-one-hand",
+      "bulk": "—",
+      "traitLinks": [
+        {
+          "label": "artifact",
+          "slug": "artifact"
+        },
+        {
+          "label": "invested",
+          "slug": "invested"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "mythic",
+          "slug": "mythic"
+        }
+      ],
+      "activations": [
+        {
+          "actions": "two",
+          "traits": [
+            "concentrate",
+            "manipulate",
+            "primal"
+          ],
+          "name": "Smoky Protections",
+          "text": "**Frequency** once per hour; **Cost** 1 Mythic Point\n\n---\n\n**Effect** For the next 10 minutes, smoke gathers around you buoying your steps and protecting you. For the duration of this effect, you gain a fly Speed equal to your land Speed and automatically hover in place, and you have concealment from ranged attacks.\n\nEffect: Smoky Protections\n\n---\n\n**Destruction** The *wandering pipe* can be broken as easily as any other wooden pipe, but it always reforms afterward in the hands of the Immortal Trickster or one of his bonded mortals. It can only be broken by the hands of one of the Trickster's bonded mortals who is an honest person acting with good intent; it is said that if this occurs, the Trickster would also be significantly weakened as a result.",
+          "effect": "For the next 10 minutes, smoke gathers around you buoying your steps and protecting you. For the duration of this effect, you gain a fly Speed equal to your land Speed and automatically hover in place, and you have concealment from ranged attacks.\n\nEffect: Smoky Protections\n\n---\n\n**Destruction** The *wandering pipe* can be broken as easily as any other wooden pipe, but it always reforms afterward in the hands of the Immortal Trickster or one of his bonded mortals. It can only be broken by the hands of one of the Trickster's bonded mortals who is an honest person acting with good intent; it is said that if this occurs, the Trickster would also be significantly weakened as a result.",
+          "description": "**Frequency** once per hour; **Cost** 1 Mythic Point\n\n---"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "artifact",
+      "invested",
+      "magical",
+      "mythic",
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals",
+        "page": 184
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C80C913F-0723-5069-BD21-5E292736E35C",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "War Gavel",
+    "slug": "war-gavel-war-of-immortals",
+    "descr": "A war gavel is similar in construction to a palstave axe, but instead of inserting a metal wedge, it uses a heavier wooden head that is either carved into several points or inset with pointed objects like the teeth of large mammals.",
+    "data": {
+      "level": 0,
+      "rarity": "uncommon",
+      "traits": [
+        "versatile-p"
+      ],
+      "category": "weapon",
+      "price": "2 sp",
+      "usage": "held-in-one-hand",
+      "bulk": "1",
+      "damage": "1d6 bludgeoning",
+      "hands": "one",
+      "weaponType": "melee",
+      "weaponCategory": "simple",
+      "weaponGroup": "club",
+      "traitLinks": [
+        {
+          "label": "versatile-p",
+          "slug": "versatile"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "versatile-p",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A84A968C-8594-54D1-9AB3-F5F04F4C981D",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "War Javelin",
+    "slug": "war-javelin-war-of-immortals",
+    "descr": "A war javelin is similar to a standard javelin, but made of sturdier woods with additional leather grips to make it suitable as a melee weapon and a leather thong to retrieve it after it's thrown.",
+    "data": {
+      "level": 0,
+      "rarity": "uncommon",
+      "traits": [
+        "tethered",
+        "thrown-30"
+      ],
+      "category": "weapon",
+      "price": "1 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "1",
+      "damage": "1d6 piercing",
+      "hands": "one",
+      "weaponType": "melee",
+      "weaponCategory": "martial",
+      "weaponGroup": "dart",
+      "traitLinks": [
+        {
+          "label": "tethered",
+          "slug": "tethered"
+        },
+        {
+          "label": "thrown-30",
+          "slug": "thrown"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "tethered",
+      "thrown-30",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "6511F055-F6F3-5386-903F-45BCAD4CF5D1",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Worldforge",
+    "slug": "worldforge-war-of-immortals",
+    "descr": "Mounted upon a base of iron, inscribed with innumerable runes, this immense anvil can be used to forge nearly anything into reality. Stories claim that even metaphorical and abstract concepts, including \"a graveknight's mercy\" and \"the tears of a living wildfire\" have been hammered into solid shape upon *Worldforge*, though the tales disagree about what form those objects took.\n\nThe cost of using *Worldforge*, however, is prohibitive for mere mortals. In addition to the fuel and metal it consumes, *Worldforge* draws upon the user's physical and spiritual strength to sustain the act of creation. The demand of its magic is such that no one save gods, or those who are nearly gods, can use it and survive.\n\n---",
+    "data": {
+      "level": 25,
+      "rarity": "unique",
+      "traits": [
+        "artifact",
+        "invested",
+        "magical",
+        "mythic"
+      ],
+      "category": "held",
+      "price": "",
+      "usage": "held-in-one-hand",
+      "bulk": "15",
+      "traitLinks": [
+        {
+          "label": "artifact",
+          "slug": "artifact"
+        },
+        {
+          "label": "invested",
+          "slug": "invested"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "mythic",
+          "slug": "mythic"
+        }
+      ],
+      "activations": [
+        {
+          "traits": [
+            "downtime",
+            "manipulate"
+          ],
+          "name": "Wondrous Forge",
+          "text": "**Requirements** You have the ability to make a Crafting check at mythic proficiency (such as that granted by the Artisan's Calling)\n\n**Effect** After spending 2 days setting up the work (or 1 if you have the desired item's formula) and supplying *Worldforge* with adequate raw materials (as determined by the GM), you attempt to Craft something upon it. The DC and final cost of the item is also determined by the GM. For each day you spend Crafting, you must expend a Mythic Point or your [Drained](/condition/drained-player-core) condition increases by 1; this condition can't be reduced until you have finished Crafting the item or you abandon the project. Each day spent Crafting upon the *Worldforge* counts as 10 days of normal Crafting time. If the value of your drained condition reaches 4, you must attempt a Fortitude DC 46 save or die. If you fail this save or if you abandon the activity, what remains of your project shatters irrecoverably into a multitude of useless fragments.\n\n---\n\n**Destruction** *Worldforge* can't be destroyed as long as Torag maintains his divinity.",
+          "effect": "After spending 2 days setting up the work (or 1 if you have the desired item's formula) and supplying *Worldforge* with adequate raw materials (as determined by the GM), you attempt to Craft something upon it. The DC and final cost of the item is also determined by the GM. For each day you spend Crafting, you must expend a Mythic Point or your [Drained](/condition/drained-player-core) condition increases by 1; this condition can't be reduced until you have finished Crafting the item or you abandon the project. Each day spent Crafting upon the *Worldforge* counts as 10 days of normal Crafting time. If the value of your drained condition reaches 4, you must attempt a Fortitude DC 46 save or die. If you fail this save or if you abandon the activity, what remains of your project shatters irrecoverably into a multitude of useless fragments.\n\n---\n\n**Destruction** *Worldforge* can't be destroyed as long as Torag maintains his divinity.",
+          "description": "**Requirements** You have the ability to make a Crafting check at mythic proficiency (such as that granted by the Artisan's Calling)"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "artifact",
+      "invested",
+      "magical",
+      "mythic",
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals",
+        "page": 154
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

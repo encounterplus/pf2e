@@ -1,0 +1,3071 @@
+[
+  {
+    "id": "305F4133-0E56-5C73-ACEC-51FD7C6A208A",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Aura: Manifest Will",
+    "slug": "aura-manifest-will-war-of-immortals",
+    "descr": "Granted by [Manifest Will](/spell/manifest-will-war-of-immortals)\n\nYou emanate a 10-ft aura. If you have the [Multifaceted Will](/feat/multifaceted-will-war-of-immortals) feat, you can choose any tradition. You and your allies gain a +1 status bonus to saves against spells with that tradition trait.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "98AB4FEE-95A7-5848-9B1A-7FE5815029A0",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: A Challenge for Heroes (Ally)",
+    "slug": "effect-a-challenge-for-heroes-ally-war-of-immortals",
+    "descr": "Granted by [A Challenge For Heroes](/action/a-challenge-for-heroes-war-of-immortals)\n\nYou gain temporary Hit Points equal to the origin's level.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "59E6CDC8-0CDA-5FE1-A610-2AE5B49D2677",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: A Challenge for Heroes (Enemy)",
+    "slug": "effect-a-challenge-for-heroes-enemy-war-of-immortals",
+    "descr": "Granted by [A Challenge For Heroes](/action/a-challenge-for-heroes-war-of-immortals)\n\nYou deal an additional 10 spirit damage to the exemplar with each successful Strike.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "83BD03E5-358F-59EC-B70D-6C1FC594FED1",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Abjure Harm",
+    "slug": "effect-abjure-harm-war-of-immortals",
+    "descr": "Granted by [Abjure Harm](/feat/abjure-harm-war-of-immortals)\n\nYou gain resistance to physical damage equal to your level.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "158C4AFD-D350-542A-8BB8-152671B15E93",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Absolve Sins",
+    "slug": "effect-absolve-sins-war-of-immortals",
+    "descr": "Granted by [Absolve Sins](/feat/absolve-sins-war-of-immortals)\n\nYou use the outcome one degree of success worse than the result of your saving throw against Absolve Sins.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8A663BDE-2D66-5EA1-A087-D589087E31C6",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Aegis for the Innocent",
+    "slug": "effect-aegis-for-the-innocent-war-of-immortals",
+    "descr": "Granted by [Aegis For The Innocent](/feat/aegis-for-the-innocent-war-of-immortals)\n\nYou gain a +1 status bonus to AC.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1342549B-9686-55D6-B2FC-5D1B4BE94F1F",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Apparition's Enhancement",
+    "slug": "effect-apparition-s-enhancement-war-of-immortals",
+    "descr": "Granted by [Apparition'S Enhancement](/feat/apparition-s-enhancement-war-of-immortals)\n\nOne wielded weapon or unarmed attack you have deals an extra 1d6 spirit damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 0,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3A941A92-F6AD-5AE4-B600-8248CE3FB23B",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Ascend",
+    "slug": "effect-ascend-war-of-immortals",
+    "descr": "Granted by [Ascend](/feat/ascend-war-of-immortals)\n\nYour fly speed becomes equal to double your Speed.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 5,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9FF1312C-368F-54CD-8FDB-5082613FAAB8",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Ascended Celestial Nimbus",
+    "slug": "effect-ascended-celestial-nimbus-war-of-immortals",
+    "descr": "Granted by [Ascended Celestial Dedication](/feat/ascended-celestial-dedication-war-of-immortals)\n\nYou gain a +1 status bonus to saves against fear.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "67518027-24AE-56CC-9261-42CEE8652310",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Bless Ally",
+    "slug": "effect-bless-ally-war-of-immortals",
+    "descr": "Granted by [Bless Ally](/action/bless-ally-war-of-immortals)\n\nYou can roll twice and use the higher result for your next Will save.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0D4D25B3-6B98-58E0-A9DF-461C74435CAD",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Bloc Tactics",
+    "slug": "effect-bloc-tactics-war-of-immortals",
+    "descr": "Granted by [Bloc Tactics](/feat/bloc-tactics-war-of-immortals)\n\nYou gain a +4 status bonus to Deception checks to prevent others from seeing through your disguise, and you can add your level even if untrained. Additionally, you also gain a +3 status bonus to saving throws against smoke, fumes, and inhaled substances.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5377652B-8362-5BD1-BB4B-058C31A51A38",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Celestial Armaments",
+    "slug": "effect-celestial-armaments-war-of-immortals",
+    "descr": "Granted by [Celestial Armaments](/feat/celestial-armaments-war-of-immortals)\n\nYour weapon sheds light like a torch, deals an additional 1d8 spirit damage, and you gain the weapon's critical specialization.\n\nWhen you critically hit a target with the weapon, the target must succeed at a Fortitude save against your class DC or spell DC (whichever is higher) or be blinded for 1d4 rounds.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "964D39A4-76ED-5367-8010-146691D21898",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Celestial Armaments (Allies)",
+    "slug": "effect-celestial-armaments-allies-war-of-immortals",
+    "descr": "Granted by [Celestial Armaments](/feat/celestial-armaments-war-of-immortals)\n\nYour weapon sheds light like a torch, deals an additional 1d6 spirit damage, and you gain the weapon's critical specialization.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "51FD559C-143F-5F9D-92C5-8A85EBAEB8F4",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Channel Divine Spark",
+    "slug": "effect-channel-divine-spark-war-of-immortals",
+    "descr": "Granted by [Channel Divine Spark](/feat/channel-divine-spark-war-of-immortals)\n\nYou gain temporary Hit Points equal to your level, resistance to physical damage equal to half your level, and the [quickened](/condition/quickened-player-core) condition.\n\nEach time that you damage a creature with a melee Strike, you can attempt to Shove or Trip that creature as a free action.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "BE06F2FA-B65D-5225-8723-420AD2C3DF0B",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Channel the Godmind",
+    "slug": "effect-channel-the-godmind-war-of-immortals",
+    "descr": "Granted by [Channel The Godmind](/feat/channel-the-godmind-war-of-immortals)\n\nYou gain precise motion sense out to 60 feet.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "FFC47102-8917-5617-87DA-7CA6814819DA",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Channeled Protection",
+    "slug": "effect-channeled-protection-war-of-immortals",
+    "descr": "Granted by [Channeled Protection](/feat/channeled-protection-war-of-immortals)\n\nYou gain a status bonus to your AC and to your Reflex saving throws.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "33443727-74E9-5230-883C-A005F72FF320",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Channeler's Stance",
+    "slug": "effect-channeler-s-stance-war-of-immortals",
+    "descr": "Granted by [Channeler'S Stance](/feat/channeler-s-stance-war-of-immortals)\n\nWhenever you cast or Sustain an apparition spell or vessel spell that deals energy damage, you gain a status bonus to the spell's damage equal to the spell's rank.\n\nEach time you Cast a Spell that has the vitality or [void](/trait/void) traits and that restores Hit Points while in this stance, the spells' targets gain a status bonus to the initial amount of healing received equal to the spell's rank. This bonus healing does not apply to healing over time effects (such as fast healing or regeneration).",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "DE5964CC-6E2C-50E7-B68E-A5CA85E2E2C8",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Chosen Ward",
+    "slug": "effect-chosen-ward-war-of-immortals",
+    "descr": "Granted by [Chosen Ward](/feat/chosen-ward-war-of-immortals)\n\nWhile either the origin or their united companion are adjacent to you, you gain a +1 circumstance bonus to your AC and Reflex saves.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2029F7C3-9AA4-57CF-AADF-8446738A7F25",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Crash Against Me",
+    "slug": "effect-crash-against-me-war-of-immortals",
+    "descr": "Granted by [Crash Against Me](/action/crash-against-me-war-of-immortals)\n\nYou have resistance equal to your level to the chosen damage type.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4971874C-8203-5873-A797-3971522C8331",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Crash Against Me (Clang)",
+    "slug": "effect-crash-against-me-clang-war-of-immortals",
+    "descr": "Granted by [Crash Against Me](/action/crash-against-me-war-of-immortals)\n\nYou are off-guard and take a –2 circumstance penalty to attacks with the clanging weapon.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "57221950-44D2-5760-A685-612BC06BB54F",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Crash Against Me (Note)",
+    "slug": "effect-crash-against-me-note-war-of-immortals",
+    "descr": "Granted by [Crash Against Me](/action/crash-against-me-war-of-immortals) via Ephemeral Effect",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D34107B1-1280-5ECD-9803-52DFF60D1EA5",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Creature of Myth (Energy Aegis)",
+    "slug": "effect-creature-of-myth-energy-aegis-war-of-immortals",
+    "descr": "Granted by [Creature Of Myth](/feat/creature-of-myth-war-of-immortals)\n\nYou become immune to the chosen damage type, and you gain a +1 status bonus to AC and saves that originate from creatures with the chosen trait and to effects and spells with the chosen trait.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4E200C28-9404-5B1C-95CF-986827EE5F5E",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Cry of Rebellion",
+    "slug": "effect-cry-of-rebellion-war-of-immortals",
+    "descr": "Granted by [Cry Of Rebellion](/feat/cry-of-rebellion-war-of-immortals)\n\nYou gain a +2 status bonus to attack rolls, Perception checks, saving throws, and skill checks.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "AADC0411-2120-5FB5-8EE5-0800537E3254",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Dancer in the Seasons",
+    "slug": "effect-dancer-in-the-seasons-war-of-immortals",
+    "descr": "Granted by [Dancer In The Seasons](/feat/dancer-in-the-seasons-war-of-immortals)\n\nYou gain temporary Hit Points equal to half your level.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "337C7225-2F17-5BBA-9325-777B25FC56ED",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Destined Victory (Note)",
+    "slug": "effect-destined-victory-note-war-of-immortals",
+    "descr": "Granted by [Destined Victory](/feat/destined-victory-war-of-immortals) via Ephemeral Effect",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "DBEDC528-B3B3-58A5-96B4-D93D1903057A",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Divine Invulnerability",
+    "slug": "effect-divine-invulnerability-war-of-immortals",
+    "descr": "Granted by [Divine Invulnerability](/feat/divine-invulnerability-war-of-immortals)\n\nYou gain resistance to all damage equal to half your level.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C998B6A9-2EA1-5C28-A526-B483C7A20E49",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Divine Invulnerability (Domain Spell)",
+    "slug": "effect-divine-invulnerability-domain-spell-war-of-immortals",
+    "descr": "Granted by [Divine Invulnerability](/feat/divine-invulnerability-war-of-immortals)\n\nYou gain resistance to all damage equal to your level.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "88E1C4AA-0B5B-5528-B001-51488445CA21",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Don Thy Fervor",
+    "slug": "effect-don-thy-fervor-war-of-immortals",
+    "descr": "Granted by [Don Thy Fervor](/feat/don-thy-fervor-war-of-immortals)\n\nYou gain a circumstance bonus to Deception, Diplomacy, and Intimidation skill checks, and to counteract checks.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "FB5C21A5-AFA5-545C-9493-0831623D0630",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Drain Realm",
+    "slug": "effect-drain-realm-war-of-immortals",
+    "descr": "Granted by [Drain Realm](/action/drain-realm-war-of-immortals)\n\nYour Strikes deal an additional 1d8 damage of your realm's damage type.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 0,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "04C83882-8BAB-5A4A-ACCB-41B71738F328",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Embody the Storm",
+    "slug": "effect-embody-the-storm-war-of-immortals",
+    "descr": "Granted by [Final Scalecloak](/item/final-scalecloak-war-of-immortals)\n\nYou gain a +4 status bonus to AC against ranged projectiles that are at least partly made of metal.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4290EF86-8E3D-52B2-A4B2-1315A22AC91F",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Eye-Catching Spot",
+    "slug": "effect-eye-catching-spot-war-of-immortals",
+    "descr": "Granted by [Eye Catching Spot](/feat/eye-catching-spot-war-of-immortals)\n\nYou have a –1 circumstance penalty to melee attack rolls against the exemplar.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F02C74E7-A4B1-53F4-8F7D-78D57D8C546B",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Feral Swing",
+    "slug": "effect-feral-swing-war-of-immortals",
+    "descr": "Granted by [Feral Swing](/action/feral-swing-war-of-immortals)\n\nYou take a –2 circumstance penalty to your Reflex save.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 0,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "CA5F93FE-507F-5587-B32F-F48EA001320C",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Fish From the Falls' Edge",
+    "slug": "effect-fish-from-the-falls-edge-war-of-immortals",
+    "descr": "Granted by [Fish From The Falls' Edge](/feat/fish-from-the-falls-edge-war-of-immortals)\n\nYou gain a +1 status bonus to your saving throws and AC.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5B0DFB12-255E-5A55-B14C-0697C8F332F7",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Fly on Shadowed Wings",
+    "slug": "effect-fly-on-shadowed-wings-war-of-immortals",
+    "descr": "Granted by [Fly On Shadowed Wings](/feat/fly-on-shadowed-wings-war-of-immortals)\n\nYou gain a fly Speed equal to your land Speed and resistance to precision damage equal to your level.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 10,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "6BE8C5EE-B2EF-550D-8AEF-D4C91E221B6E",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Gird Champion (Hierophant)",
+    "slug": "effect-gird-champion-hierophant-war-of-immortals",
+    "descr": "Granted by [Gird Champion](/feat/gird-champion-war-of-immortals)\n\nYou treat the origin's favored weapon as a simple weapon for the purposes of proficiency, you gain the critical specialization effect of that weapon and deal 1d6 additional damage with Strikes made with it.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5C33FAA1-88F4-5823-8AB5-F94DCE1CDFF3",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Godspeed",
+    "slug": "effect-godspeed-war-of-immortals",
+    "descr": "Granted by [Godspeed](/feat/godspeed-war-of-immortals)\n\nYou gain a +10-foot status bonus to all your Speeds and are Quickened.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "69AED53E-7C51-577E-9C9A-CC1D8BF3ED89",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Harvest Blood",
+    "slug": "effect-harvest-blood-war-of-immortals",
+    "descr": "Granted by [Harvest Blood](/action/harvest-blood-war-of-immortals)\n\nYou gain temporary Hit Points equal to your Constitution modifier, and gain a +1 circumstance bonus to saving throws against that creature's spells.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8D2ECFD1-77A5-5014-B817-292F0C0AF469",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Healer of the World",
+    "slug": "effect-healer-of-the-world-war-of-immortals",
+    "descr": "Granted by [Healer Of The World](/feat/healer-of-the-world-war-of-immortals)\n\nYou gain 10 temporary Hit Points.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1DD3C1EE-1AA9-5AFD-AB5F-62EEBCEB9919",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Heroic Defiance",
+    "slug": "effect-heroic-defiance-war-of-immortals",
+    "descr": "Granted by [Heroic Defiance](/feat/heroic-defiance-war-of-immortals)\n\nYou gain temporary Hit Points equal to your level and a +1 status bonus to all saving throws.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C2AEE091-201C-5795-9DC8-71101A93F31C",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Invigorating Surge",
+    "slug": "effect-invigorating-surge-war-of-immortals",
+    "descr": "Granted by [Invigorating Surge](/feat/invigorating-surge-war-of-immortals)\n\nYou gain temporary Hit Points.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "FEEB4969-E4C6-55F0-AB7A-1C234A1F4B46",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Living Epic",
+    "slug": "effect-living-epic-war-of-immortals",
+    "descr": "Granted by [Living Epic](/feat/living-epic-war-of-immortals)\n\nYou gain a +1 status bonus to attack rolls, Perception, saving throws, and skill checks.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 7,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5FD3F18A-CB17-5AEA-AD03-94D5C0ED4414",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Lord of the Fiends",
+    "slug": "effect-lord-of-the-fiends-war-of-immortals",
+    "descr": "Granted by [Lord Of The Fiends](/feat/lord-of-the-fiends-war-of-immortals)\n\nWhenever you roll a success on a Deception, Diplomacy, or Intimidation check against a fiend, you get a critical success instead.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "FA1F99F0-39C1-5938-AE0C-23E04BA59F94",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Manifest Realm",
+    "slug": "effect-manifest-realm-war-of-immortals",
+    "descr": "Granted by [Manifest Realm](/action/manifest-realm-war-of-immortals)\n\nYou take a –1 penalty to Fortitude saving throws.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "73967EAB-8D2D-530D-BCAB-311FFF4CF77E",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Mirrored Aegis",
+    "slug": "effect-mirrored-aegis-war-of-immortals",
+    "descr": "Granted by [Mirrored Aegis](/feat/mirrored-aegis-war-of-immortals)\n\nYou gain a +1 status bonus to AC.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A4A81D74-4AAF-512D-A3AB-5B1A548FCE17",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Multifaceted Will",
+    "slug": "effect-multifaceted-will-war-of-immortals",
+    "descr": "Granted by [Multifaceted Will](/feat/multifaceted-will-war-of-immortals)\n\nYou gain a +1 status bonus to saves against spells with the chosen tradition trait.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9DC73814-7662-51F8-B911-837F03CC7247",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Mythic Allies",
+    "slug": "effect-mythic-allies-war-of-immortals",
+    "descr": "Granted by [Mythic Allies](/feat/mythic-allies-war-of-immortals)\n\nYou gain a +2 status bonus to your attack rolls, defenses, and a number of additional Hit Points equal to the origin's level. The next Strike you make gains a +4 circumstance bonus to the attack roll.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "532EC8C7-E9BB-56DA-B8D5-0E2E856BCEAA",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Mythic Allies (Circumstance Bonus)",
+    "slug": "effect-mythic-allies-circumstance-bonus-war-of-immortals",
+    "descr": "Granted by [Mythic Allies](/feat/mythic-allies-war-of-immortals)\n\nYou gain a +4 circumstance bonus to your next attack roll.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "AAA36E51-CA48-5EF8-B768-4679C4DCC3F7",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: One Moment till Glory",
+    "slug": "effect-one-moment-till-glory-war-of-immortals",
+    "descr": "Granted by [One Moment Till Glory](/action/one-moment-till-glory-war-of-immortals)\n\nYou gain a +2 status bonus to your saving throw.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E95DACDD-0011-5C45-90C4-1689C4677C99",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Only You and I",
+    "slug": "effect-only-you-and-i-war-of-immortals",
+    "descr": "Granted by [Only You And I](/action/only-you-and-i-war-of-immortals)\n\nYou gain a +2 circumstance bonus to attack rolls made against the exemplar. Whenever you miss the exemplar with a Strike, they heal 1d8+5 Hit Points.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4DAADFE1-2F0C-5C57-990C-CC25078DA2CA",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Pass Vengeful Judgment",
+    "slug": "effect-pass-vengeful-judgment-war-of-immortals",
+    "descr": "Granted by [Pass Vengeful Judgment](/feat/pass-vengeful-judgment-war-of-immortals)\n\nYou gain a +2 status bonus to Intimidation checks against creatures in the area within a 10-mile radius of where Pass Vengeful Judgment was used.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 30,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8DE018EA-6C08-5D55-9444-A28C9E92DD66",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Pierce the Eye",
+    "slug": "effect-pierce-the-eye-war-of-immortals",
+    "descr": "Granted by [Pierce The Eye](/feat/pierce-the-eye-war-of-immortals)\n\nYou take a –2 circumstance penalty to Medicine checks to Administer First Aid to stop the bleeding.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "6095A92B-EC33-5552-874C-64A2EC40BED4",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Prescience",
+    "slug": "effect-prescience-war-of-immortals",
+    "descr": "Granted by [Prescience](/feat/prescience-war-of-immortals)\n\nYou gain a +1 status bonus to AC and all saves.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "AFBD847E-EBB9-5011-9311-CBDFE105B340",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Race the Skies",
+    "slug": "effect-race-the-skies-war-of-immortals",
+    "descr": "Granted by [Race The Skies](/action/race-the-skies-war-of-immortals)\n\nYou gain a fly Speed equal to your Speed or 20 feet, whichever is greater.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "ADD11A45-1522-516A-8001-589BF5DB6A43",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Raise the Walls",
+    "slug": "effect-raise-the-walls-war-of-immortals",
+    "descr": "Granted by [Raise The Walls](/action/raise-the-walls-war-of-immortals)\n\nYou gain a +1 status bonus to AC, Reflex saves, and any save against force, spirit, vitality, or void effect.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "FB8B2ACF-1A18-574C-BCEE-BCA859D4E7E3",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Relinquish Control",
+    "slug": "effect-relinquish-control-war-of-immortals",
+    "descr": "Granted by [Relinquish Control](/feat/relinquish-control-war-of-immortals)\n\nYou gain a +4 status bonus on saves against spells and effects that give you the [controlled](/condition/controlled-player-core) condition or attempt to influence your actions.\n\nYou gain a +2 circumstance bonus on all Recall Knowledge checks made using Lore skills granted by your attuned apparitions.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2D588682-0D5C-5470-8BA6-96A940FB47AE",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Roaring Heart",
+    "slug": "effect-roaring-heart-war-of-immortals",
+    "descr": "Granted by [Roaring Heart](/feat/roaring-heart-war-of-immortals)\n\nYou gain temporary Hit Points.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8C75B55F-B589-5434-AB35-8C3A85F481A5",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Shadow Sheath Weapon",
+    "slug": "effect-shadow-sheath-weapon-war-of-immortals",
+    "descr": "Granted by [Shadow Sheath](/feat/shadow-sheath-war-of-immortals)\n\nYou load a weapon into the sheath.\n\n**Immanence** Your Strikes with the weapon deal 2 additional spirit damage per weapon damage die, which increases to 3 per die if the target is off-guard.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4B7CD307-4723-5BC1-8972-18B3842FF215",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Shadowpiercer",
+    "slug": "effect-shadowpiercer-war-of-immortals",
+    "descr": "Granted by [Shadowpiercer](/item/shadowpiercer-war-of-immortals)\n\nYou gain a +2 status bonus to saving throws against darkness and shadow effects.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "422F2C72-9FFD-5699-87CA-30093C77BCB3",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Share Hunter's Edge (Vindication)",
+    "slug": "effect-share-hunter-s-edge-vindication-war-of-immortals",
+    "descr": "Granted by [Animal Companion (Ranger)](/feat/animal-companion-ranger-player-core), [Shared Prey](/feat/shared-prey-player-core), [Triple Threat](/feat/triple-threat-player-core), [Warden'S Boon](/feat/warden-s-boon-player-core)\n\nYou gain a +1 status bonus to your spell attack rolls against the marked creature, and they take a –1 status penalty to their saving throws against divine spells you cast.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F1FD8E37-D798-5E41-B3E8-F89395BB6963",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Shining Glory",
+    "slug": "effect-shining-glory-war-of-immortals",
+    "descr": "Granted by [Shining Glory](/feat/shining-glory-war-of-immortals)\n\nYou gain a +3 status bonus to attack rolls and skill checks, and the status bonus you receive to saving throws against fear increases to +3.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "012F02B9-6C0F-5D05-AF5B-A695B7DEB647",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Smoky Protections",
+    "slug": "effect-smoky-protections-war-of-immortals",
+    "descr": "Granted by\n\nYou gain a fly Speed equal to your land Speed.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 10,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "444C1C1F-9BFC-59A8-B3BE-CCD63F1D2D90",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Soul Vessel Mount",
+    "slug": "effect-soul-vessel-mount-war-of-immortals",
+    "descr": "Granted by [Soul Vessel Mount](/feat/soul-vessel-mount-war-of-immortals)\n\nYou gain a +20-foot status bonus to your Speed.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1FCB5347-9963-5AC6-AA5F-5DBAFA65D32E",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Steal Death",
+    "slug": "effect-steal-death-war-of-immortals",
+    "descr": "Granted by [Steal Death](/feat/steal-death-war-of-immortals)\n\nYou gain fast healing as long as you and your apocalypse mount are within 10 feet of each other. If you use Steal Death again, your fast healing increases by 1.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "6C4DF3F9-5F14-5658-A48B-D7D4BC23148C",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Storied Companion",
+    "slug": "effect-storied-companion-war-of-immortals",
+    "descr": "Granted by [Storied Companion](/feat/storied-companion-war-of-immortals)\n\nYou gain temporary Hit Points equal to twice the origin's level.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D6199047-9727-5D51-BB2A-553A3D93BC40",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Stymie the Gods",
+    "slug": "effect-stymie-the-gods-war-of-immortals",
+    "descr": "Granted by [Stymie The Gods](/feat/stymie-the-gods-war-of-immortals)\n\nYou gain a status bonus to AC and to saving throws against divine spells, as well as the spells, Strikes, and abilities of extraplanar creatures.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 3,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "30BE8B2D-32E7-565E-8BA3-DEAF9CFCFA3E",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Survive the Wilds",
+    "slug": "effect-survive-the-wilds-war-of-immortals",
+    "descr": "Granted by [Survive The Wilds](/action/survive-the-wilds-war-of-immortals)\n\nYou and all allies in a 15-foot emanation gain a +2 circumstance bonus to AC and saving throws against effects with the trait the pelt is attuned to.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5DEB770E-9D81-589D-BFE9-9A15EF0A21BA",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Terrifying Mien",
+    "slug": "effect-terrifying-mien-war-of-immortals",
+    "descr": "Granted by [Terrifying Mien](/feat/terrifying-mien-war-of-immortals)\n\nYou gain resistance against bludgeoning, piercing, and slashing damage against Strikes made by creatures with the [frightened](/condition/frightened-player-core) condition. This resistance is equal to four times the value of that creature's frightened condition.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "243F1799-C80C-59BF-838C-29AD70BC86F9",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: The Proud",
+    "slug": "effect-the-proud-war-of-immortals",
+    "descr": "Granted by [The Proud](/feat/the-proud-war-of-immortals)\n\nYou take a –1 status penalty to attack rolls, damage rolls, and skill checks against creatures other than the exemplar, and a +1 status bonus to these rolls when targeting the exemplar.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E12D3F60-ED80-5889-891F-2856A50F986F",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: To War!",
+    "slug": "effect-to-war-war-of-immortals",
+    "descr": "Granted by [To War!](/feat/to-war-war-of-immortals)\n\nYou gain a number of temporary Hit Points equal to the origin's level and a +2 status bonus to damage against any foe damaged by the origin's apocalypse mount.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "247E47E5-7535-58B6-9A15-5AED2D7B7E99",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Towering Presence",
+    "slug": "effect-towering-presence-war-of-immortals",
+    "descr": "Granted by [Towering Presence](/feat/towering-presence-war-of-immortals)\n\nYou increase your size your size to Large. Your reach increases by 5 feet (or by 10 feet if you started out Tiny), and you gain a +2 status bonus to melee damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B0BABEF4-854A-527F-BE9A-F0253B9836C3",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Ultimatum of Liberation",
+    "slug": "effect-ultimatum-of-liberation-war-of-immortals",
+    "descr": "Granted by [Ultimatum Of Liberation](/action/ultimatum-of-liberation-war-of-immortals)\n\nYou gain a +2 status bonus to Will saving throws against effects produced by the oppressing creature and their allies, which increases to +3 if they are within 30 feet of the origin.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9E58FFD1-767C-52D1-9B74-A7267A793694",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Unbreaking Castle",
+    "slug": "effect-unbreaking-castle-war-of-immortals",
+    "descr": "Granted by [Unbreaking Castle](/feat/unbreaking-castle-war-of-immortals)\n\nYou gain a circumstance bonus to AC.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0C9E40C0-8691-5E3E-922B-695940EC5528",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Unending Subsistence",
+    "slug": "effect-unending-subsistence-war-of-immortals",
+    "descr": "Granted by [Unending Subsistence](/feat/unending-subsistence-war-of-immortals)\n\nYou gain a +2 circumstance bonus to Fortitude saving throws.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5D18E5C3-DF62-5C6A-A5F6-F1CA3F30013D",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Victor's Wreath",
+    "slug": "effect-victor-s-wreath-war-of-immortals",
+    "descr": "Granted by [Victor'S Wreath](/feat/victor-s-wreath-war-of-immortals)\n\nYou gain a +1 status bonus to attack rolls.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "14F11B0B-4548-578B-9DE0-BF596B64D7DC",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Vindication Edge",
+    "slug": "effect-vindication-edge-war-of-immortals",
+    "descr": "Granted by [Vindicator](/feat/vindicator-war-of-immortals)\n\nYou take a –1 status penalty to their saving throws against divine spells.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "BA3B7F26-A6C0-545D-9CD7-26C8D57899B9",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Virulent Strike",
+    "slug": "effect-virulent-strike-war-of-immortals",
+    "descr": "Granted by [Virulent Strike](/feat/virulent-strike-war-of-immortals)\n\nYou take a –4 circumstance penalty to the save against a disease or poison.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3DA2818B-1A9A-5CBF-B1BB-0C29680E8BD1",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Whose Cry is Thunder",
+    "slug": "effect-whose-cry-is-thunder-war-of-immortals",
+    "descr": "Granted by [Whose Cry Is Thunder](/feat/whose-cry-is-thunder-war-of-immortals)\n\nAny creature that touches you or damages you with an unarmed attack or non-reach melee weapon while you're charged takes 1d6 electricity damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C7C364CE-518A-5E96-A13F-E347B6D08537",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Wither Away",
+    "slug": "effect-wither-away-war-of-immortals",
+    "descr": "Granted by [Wither Away](/feat/wither-away-war-of-immortals)\n\nYou take the following penalties depending on the result\n\n**Arms** You become enfeebled 1.**Head** You become stupefied 1.**Legs** You take a –10-foot status penalty to your Speeds.**Torso** You gain weakness 10 to slashing damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A69829C1-9F4D-5C67-B091-505F46E6EF64",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: You Can't Kill an Idea",
+    "slug": "effect-you-can-t-kill-an-idea-war-of-immortals",
+    "descr": "Granted by [You Can'T Kill An Idea](/feat/you-can-t-kill-an-idea-war-of-immortals)\n\nYour Aid circumstance bonus increases by 1.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F237B8DF-B146-5284-846D-E66D19183B89",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Zealous Inevitability",
+    "slug": "effect-zealous-inevitability-war-of-immortals",
+    "descr": "Granted by [Zealous Inevitability](/feat/zealous-inevitability-war-of-immortals)\n\nYou take a status penalty to your saving throws against divine spells equal to your doomed value.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "71025FDC-3243-5E72-AD14-6FC4957837D7",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Arcane Explosion",
+    "slug": "spell-effect-arcane-explosion-war-of-immortals",
+    "descr": "Granted by [Arcane Explosion](/spell/arcane-explosion-war-of-immortals)\n\nYou gain the [incorporeal](/trait/incorporeal) trait, are immune to disease, poison, and precision damage, and gain resistance to all damage equal to your level (except force damage, spirit damage, and damage from Strikes with the *ghost touch* property rune), with double the resistance against non-magical damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "AF25A9AE-0236-57E5-98C5-51DF4716316C",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Devouring Dark Form",
+    "slug": "spell-effect-devouring-dark-form-war-of-immortals",
+    "descr": "Granted by [Devouring Dark Form](/spell/devouring-dark-form-war-of-immortals)\n\nYou gain a tentacle unarmed attack with 10-foot reach that deals 1d8 bludgeoning damage and has the [grapple](/trait/grapple) trait.\n\n---\n\n**Heightened (2nd)** You can choose to take on the shark battle form from *animal form* instead of gaining a tentacle unarmed attack.\n\n**Heightened (5th)** You can choose to take on the water elemental battle form from *elemental form* instead of gaining a tentacle unarmed attack.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "ADF61ED9-B202-578C-A48A-EB21C6811BF4",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Diadem of Divine Radiance",
+    "slug": "spell-effect-diadem-of-divine-radiance-war-of-immortals",
+    "descr": "Granted by [Diadem Of Divine Radiance](/spell/diadem-of-divine-radiance-war-of-immortals)\n\nYou shed bright light to a range of 60 feet and dim light to a further 60 feet.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "336EC20E-658C-5BF7-A506-90540E514861",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Discomfiting Whispers",
+    "slug": "spell-effect-discomfiting-whispers-war-of-immortals",
+    "descr": "Granted by [Discomfiting Whispers](/spell/discomfiting-whispers-war-of-immortals)\n\nYou must roll twice on your first attack roll and take the lower result.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 0,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "AF46FCD3-C055-5CD5-9326-A630B3B81B2F",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Embodiment of Battle",
+    "slug": "spell-effect-embodiment-of-battle-war-of-immortals",
+    "descr": "Granted by [Embodiment Of Battle](/spell/embodiment-of-battle-war-of-immortals)\n\nYou gain a status bonus to attack and damage rolls made with weapon or unarmed attacks, and you gain the Reactive Strike reaction; this reaction gains the [apparition](/trait/apparition) trait. You take a –2 status penalty to your spell attack modifiers and your spell DCs.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C66D9E74-A821-583A-AE1E-3B0D9FC4298A",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Garden of Healing",
+    "slug": "spell-effect-garden-of-healing-war-of-immortals",
+    "descr": "Granted by [Garden Of Healing](/spell/garden-of-healing-war-of-immortals)\n\nYou gain a +1 circumstance bonus to saves against emotion effects.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 10,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1C2FE122-605F-5FEB-A255-79CB2DD6BD8D",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Manifest Will",
+    "slug": "spell-effect-manifest-will-war-of-immortals",
+    "descr": "Granted by [Manifest Will](/spell/manifest-will-war-of-immortals)\n\nYou gain an effect depending on the spell's tradition, or the tradition selected with Multifaceted Will.\n\n**Arcane** You gain weakness to spell damage equal to the spell's rank.**Divine** You gain temporary Hit Points equal to twice the spell's rank.**Occult** You gain lesser cover.**Primal** You have a –10-foot status penalty to all your Speeds.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "EB1A6173-A12D-5947-A95D-F2FB77ED5DBA",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: River Carving Mountains",
+    "slug": "spell-effect-river-carving-mountains-war-of-immortals",
+    "descr": "Granted by [River Carving Mountains](/spell/river-carving-mountains-war-of-immortals)\n\nYou gain a +10-foot status bonus to each Speed you have.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2F37162C-3CEF-5872-A37A-77AF5F9D804A",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Traveling Workshop",
+    "slug": "spell-effect-traveling-workshop-war-of-immortals",
+    "descr": "Granted by [Traveling Workshop](/spell/traveling-workshop-war-of-immortals)\n\nYou are trained in Crafting and Thievery.\n\n---\n\n**Heightened (3rd)** Your proficiency in Crafting and Thievery is expert.\n\n**Heightened (5th)** Your proficiency in Crafting and Thievery is master.\n\n**Heightened (9th)** Your proficiency in Crafting and Thievery is legendary.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8C33C4EC-D3F9-516F-AB06-BE22A65EC8E5",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Vindicator's Mark",
+    "slug": "spell-effect-vindicator-s-mark-war-of-immortals",
+    "descr": "Granted by [Vindicator'S Mark](/spell/vindicator-s-mark-war-of-immortals)\n\nYour marked target takes additional damage from all your weapon or unarmed attacks.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4686AB81-2036-519C-8E6B-93FEA20EC16C",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Stance: Immovable Object",
+    "slug": "stance-immovable-object-war-of-immortals",
+    "descr": "Granted by [Immovable Object](/feat/immovable-object-war-of-immortals)\n\nWhile in this stance and on the ground, you are immune to forced movement and if an effect would knock you prone, you aren't knocked prone and can Step as a free action.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "26AC4486-63FB-537A-8A28-8B805C21D8C3",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Stance: Spear of Doom",
+    "slug": "stance-spear-of-doom-war-of-immortals",
+    "descr": "Granted by [Spear Of Doom](/feat/spear-of-doom-war-of-immortals)\n\nYour cursed weakness is equal to your level instead of half your level.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "CA354272-EEC4-5F29-8C84-D1106F1C0B9E",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Stance: Unified Stance",
+    "slug": "stance-unified-stance-war-of-immortals",
+    "descr": "Granted by [Unified Stance](/feat/unified-stance-war-of-immortals)\n\nWhen you enter this stance, your united companion gains the [quickened](/condition/quickened-player-core) condition and, when Commanded, can use the extra action to Stride or Strike.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

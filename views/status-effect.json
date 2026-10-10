@@ -89,10 +89,12 @@
     {
       "type": "divider",
       "padding": [ 0 ],
+      "visibleIf": "data.valued == true"
     },
     {
       "type": "hStack",
       "spacing": 2,
+      "visibleIf": "data.valued == true",
       "views": [
         {
           "style": "stats-body-bold",
@@ -114,6 +116,7 @@
     {
       "type": "divider",
       "padding": [ 0 ],
+      "visibleIf": "data.valued == true"
     },
     {
       "type": "text",

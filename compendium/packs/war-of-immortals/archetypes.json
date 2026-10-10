@@ -1,0 +1,401 @@
+[
+  {
+    "id": "B44D5060-420C-512B-BD98-E4D0BA4138C1",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Animist",
+    "slug": "animist-war-of-immortals",
+    "descr": "You have formed a bond with an apparition and can cast divine spells. Choose a single apparition from those available to the animist. You become bound to that apparition and can attune to it each day during your daily preparations to become trained in its apparition skills. If you are 8th level, you are expert in its apparition skills while attuned to it, and if you are 16th level, you are a master in its apparition skills while attuned to it. You can spend 1 day of downtime ending your relationship with this apparition and bonding to a new one.\n\nYou gain the Cast a Spell activity. You can prepare two common cantrips each day from the divine spell list or any other divine cantrips you have access to, including the cantrip listed in your apparition's apparition spells. You're trained in the spell attack modifier and spell DC statistics. Your key spellcasting attribute for animist archetype spells is Wisdom, and they are divine animist spells.\n\nAnimist",
+    "data": {
+      "level": 2,
+      "rarity": "common",
+      "traits": [
+        "archetype",
+        "dedication",
+        "multiclass"
+      ],
+      "prerequisites": "Wisdom +2",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "You have formed a bond with an apparition and can cast divine spells. Choose a single apparition from those available to the animist. You become bound to that apparition and can attune to it each day during your daily preparations to become trained in its apparition skills. If you are 8th level, you are expert in its apparition skills while attuned to it, and if you are 16th level, you are a master in its apparition skills while attuned to it. You can spend 1 day of downtime ending your relationship with this apparition and bonding to a new one.\n\nYou gain the Cast a Spell activity. You can prepare two common cantrips each day from the divine spell list or any other divine cantrips you have access to, including the cantrip listed in your apparition's apparition spells. You're trained in the spell attack modifier and spell DC statistics. Your key spellcasting attribute for animist archetype spells is Wisdom, and they are divine animist spells.\n\nAnimist",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "dedication",
+          "slug": "dedication"
+        },
+        {
+          "label": "multiclass",
+          "slug": "multiclass"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "dedication",
+      "multiclass",
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4C36FDF0-43B8-55A0-AE39-BCC0DF37F3D3",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Avenger",
+    "slug": "avenger-war-of-immortals",
+    "descr": "Your training regimen has given you particular advantages when it comes to enforcing the interests of your faith. You gain a +1 status bonus to saving throws against divine spells and effects that deal spirit damage. You can use Religion to Coerce, Gather Information, or Track as long as you are in a town or city with a church dedicated to your deity, extracting clues from the faithful with displays of your piety.\n\nAvenger",
+    "data": {
+      "level": 2,
+      "rarity": "common",
+      "traits": [
+        "archetype",
+        "class",
+        "dedication"
+      ],
+      "prerequisites": "Avenger",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "Your training regimen has given you particular advantages when it comes to enforcing the interests of your faith. You gain a +1 status bonus to saving throws against divine spells and effects that deal spirit damage. You can use Religion to Coerce, Gather Information, or Track as long as you are in a town or city with a church dedicated to your deity, extracting clues from the faithful with displays of your piety.\n\nAvenger",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "class",
+          "slug": "class"
+        },
+        {
+          "label": "dedication",
+          "slug": "dedication"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "class",
+      "dedication",
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "142108C1-9238-5110-8BB8-4DB8DC40A002",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Bloodrager",
+    "slug": "bloodrager-war-of-immortals",
+    "descr": "Drinking powerful blood has awakened magical potential within you. You gain a spell repertoire with two cantrips of your choice, from either the arcane or divine spell list. You choose these cantrips from the common spells for your tradition or from other spells you have access to on that tradition's spell list. At least one cantrip must require a spell attack roll. You're trained in spell attack modifier and spell DC. Your key spellcasting attribute for these spells is Charisma. Spells in your repertoire gain the [rage](/trait/rage) trait while you are raging, and when you Cast a Spell from your repertoire, you become [Drained 1](/condition/drained-player-core) (or increase the value of your drained condition by 1); you can reduce the value of this condition only by Harvesting Blood (see below). You become trained in Arcana if you chose arcane cantrips or Religion if you chose divine cantrips. If you were already trained in this skill, you become trained in a skill of your choice. You also gain the [Harvest Blood](/action/harvest-blood-war-of-immortals) action.\n\nBloodrager",
+    "data": {
+      "level": 2,
+      "rarity": "common",
+      "traits": [
+        "archetype",
+        "class",
+        "dedication"
+      ],
+      "prerequisites": "Bloodrager",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "Drinking powerful blood has awakened magical potential within you. You gain a spell repertoire with two cantrips of your choice, from either the arcane or divine spell list. You choose these cantrips from the common spells for your tradition or from other spells you have access to on that tradition's spell list. At least one cantrip must require a spell attack roll. You're trained in spell attack modifier and spell DC. Your key spellcasting attribute for these spells is Charisma. Spells in your repertoire gain the rage trait while you are raging, and when you Cast a Spell from your repertoire, you become Drained 1 (or increase the value of your drained condition by 1); you can reduce the value of this condition only by Harvesting Blood (see below). You become trained in Arcana if you chose arcane cantrips or Religion if you chose divine cantrips. If you were already trained in this skill, you become trained in a skill of your choice. You also gain the Harvest Blood action.\n\nBloodrager",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "class",
+          "slug": "class"
+        },
+        {
+          "label": "dedication",
+          "slug": "dedication"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "class",
+      "dedication",
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "CEC12415-9767-566A-8F02-8A4DF0DD0C09",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Exemplar",
+    "slug": "exemplar-war-of-immortals",
+    "descr": "A spark of inherent divine power has lit itself within you. You become trained in martial weapons. You gain one ikon, the ability to use the ikon's immanence and transcendence actions and effects, and the [Shift Immanence](/action/shift-immanence-war-of-immortals) action. Because you have only a single ikon, when you Spark Transcendence, your divine spark recedes back to the depths of your soul and must be recalled with Shift Immanence to re-empower your ikon. You become trained in [exemplar](/class/exemplar-war-of-immortals) class DC.\n\nExemplar",
+    "data": {
+      "level": 2,
+      "rarity": "rare",
+      "traits": [
+        "archetype",
+        "dedication",
+        "multiclass"
+      ],
+      "prerequisites": "Strength +2 or Dexterity +2",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "A spark of inherent divine power has lit itself within you. You become trained in martial weapons. You gain one ikon, the ability to use the ikon's immanence and transcendence actions and effects, and the Shift Immanence action. Because you have only a single ikon, when you Spark Transcendence, your divine spark recedes back to the depths of your soul and must be recalled with Shift Immanence to re-empower your ikon. You become trained in exemplar class DC.\n\nExemplar",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "dedication",
+          "slug": "dedication"
+        },
+        {
+          "label": "multiclass",
+          "slug": "multiclass"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "dedication",
+      "multiclass",
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2130F0DF-305D-5ECB-8619-7C15E0E1C7C2",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Seneschal Witch",
+    "slug": "seneschal-witch-war-of-immortals",
+    "descr": "As you work to understand the connection with your missing patron, it's increasingly easy to form bonds with those around you. Raw magical energy spills easily through the connection but, without a patron's control, it sometimes resists your demands for it to form proper spells.\n\nYou gain the [Witch's Charge](/feat/witch-s-charge-player-core) feat, but can't choose your familiar or another creature with the [minion](/trait/minion) trait as a charge. When you cast or Sustain manifest will, as long as your charge is within 30 feet, you can choose to center the spell's emanation on your charge instead of yourself.\n\nSeneschal",
+    "data": {
+      "level": 2,
+      "rarity": "rare",
+      "traits": [
+        "archetype",
+        "class",
+        "dedication"
+      ],
+      "prerequisites": "seneschal witch",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "As you work to understand the connection with your missing patron, it's increasingly easy to form bonds with those around you. Raw magical energy spills easily through the connection but, without a patron's control, it sometimes resists your demands for it to form proper spells.\n\nYou gain the Witch's Charge feat, but can't choose your familiar or another creature with the minion trait as a charge. When you cast or Sustain manifest will, as long as your charge is within 30 feet, you can choose to center the spell's emanation on your charge instead of yourself.\n\nSeneschal",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "class",
+          "slug": "class"
+        },
+        {
+          "label": "dedication",
+          "slug": "dedication"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "class",
+      "dedication",
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1442521F-2431-5850-B603-AB8229EB0C1F",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Vindicator",
+    "slug": "vindicator-war-of-immortals",
+    "descr": "Your church ensures that you are cared for. You can use Religion to Coerce, Gather Information, Make an Impression, or Request as long as you are in a town or city with a church dedicated to your deity. If the target of the check is also a worshipper of your deity or is your hunted prey, you gain a +2 circumstance bonus to the check.\n\nVindicator",
+    "data": {
+      "level": 2,
+      "rarity": "common",
+      "traits": [
+        "archetype",
+        "class",
+        "dedication"
+      ],
+      "prerequisites": "Vindicator",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "Your church ensures that you are cared for. You can use Religion to Coerce, Gather Information, Make an Impression, or Request as long as you are in a town or city with a church dedicated to your deity. If the target of the check is also a worshipper of your deity or is your hunted prey, you gain a +2 circumstance bonus to the check.\n\nVindicator",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "class",
+          "slug": "class"
+        },
+        {
+          "label": "dedication",
+          "slug": "dedication"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "class",
+      "dedication",
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "7D0F997F-F898-5CBC-8285-C42D4B423881",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Warrior of Legend",
+    "slug": "warrior-of-legend-war-of-immortals",
+    "descr": "You have been given a powerful blessing of battle that is also your cursed doom. As long as you aren't wearing heavy armor or wielding a shield, spears and polearms you wield gain the [parry](/trait/parry) trait. If the weapon already has the parry trait, increase the bonus when parrying to +2. In addition, you deal an additional amount of damage equal to your [Doomed](/condition/doomed-player-core) value with weapons in the spear and polearm groups. This damage is the same type as the required weapon.\n\nWarrior of Legend",
+    "data": {
+      "level": 2,
+      "rarity": "uncommon",
+      "traits": [
+        "archetype",
+        "class",
+        "dedication"
+      ],
+      "prerequisites": "warrior of legend",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "You have been given a powerful blessing of battle that is also your cursed doom. As long as you aren't wearing heavy armor or wielding a shield, spears and polearms you wield gain the parry trait. If the weapon already has the parry trait, increase the bonus when parrying to +2. In addition, you deal an additional amount of damage equal to your Doomed value with weapons in the spear and polearm groups. This damage is the same type as the required weapon.\n\nWarrior of Legend",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "class",
+          "slug": "class"
+        },
+        {
+          "label": "dedication",
+          "slug": "dedication"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "class",
+      "dedication",
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

@@ -24,6 +24,6 @@
 
 {% if data.armorCategory %}**{{'Common.Category'|l}}** {{data.armorCategory|map: 'ArmorCategory'}} {% endif %}{% if data.armorGroup %}**{{'Common.Group'|l}}** {{data.armorGroup|map: 'ArmorGroup'}} {% endif %}
 
-{% if data.activation %}**{{'Item.Activate'|l}}** {% if data.activation.actions %}![{{data.activation.actions}}](/icons/actions/{{data.activation.actions}}.png#height=18) {% endif %}{% if data.activation.type %}{{data.activation.type}} {% endif %}{% if data.activation.traits %}({{data.activation.traits|map: 'Trait'|lowercase}}); {% endif %}{% endif %} {% if data.activation.text %}{{data.activation.text}}{% endif %}
+{% if data.activation %}**{{'Item.Activate'|l}}** {% if data.activation.actions %}![{{data.activation.actions}}](/icons/actions/{{data.activation.actions}}.png#height=18) {% endif %}{% if data.activation.type %}{{data.activation.type}} {% endif %}{% if data.activation.traits %}({% for trait in data.activation.traits %}[{{trait|map: 'Trait'|lowercase}}](/trait/{{trait}}){% if not forloop.last %}, {% endif %}{% endfor %}); {% endif %}{% endif %} {% if data.activation.text %}{{data.activation.text}}{% endif %}
 
 {% if data.onset %}**{{'Item.Onset'|l}}** {{data.onset}}{% endif %}

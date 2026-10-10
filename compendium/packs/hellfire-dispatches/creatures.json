@@ -1,0 +1,3035 @@
+[
+  {
+    "id": "1696247A-2859-5AAB-BEAD-87B27CC48D61",
+    "kind": "Creature",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Brastlewark Sapper Squad",
+    "slug": "brastlewark-sapper-squad-hellfire-dispatches-creature-creature-4745",
+    "descr": "",
+    "data": {
+      "level": 4,
+      "rarity": "uncommon",
+      "size": "gargantuan",
+      "traits": [
+        "gnome",
+        "humanoid",
+        "troop"
+      ],
+      "attributes": {
+        "str": 1,
+        "dex": 4,
+        "con": 0,
+        "int": 2,
+        "wis": 2,
+        "cha": 2
+      },
+      "perception": 11,
+      "ac": {
+        "value": 20,
+        "details": ""
+      },
+      "hp": {
+        "value": 60,
+        "details": ""
+      },
+      "saves": {
+        "fortitude": 8,
+        "reflex": 14,
+        "will": 11,
+        "details": ""
+      },
+      "skills": {
+        "acrobatics": 12,
+        "crafting": 10,
+        "stealth": 12,
+        "survival": 10
+      },
+      "loreSkills": [],
+      "languages": [
+        "common",
+        "gnomish"
+      ],
+      "senses": "[low-light vision](/action/low-light-vision-monster-core)",
+      "immunities": [],
+      "weaknesses": {
+        "area": 4,
+        "splash": 4,
+        "area-damage": 4,
+        "splash-damage": 4
+      },
+      "resistances": {},
+      "movement": {
+        "burrow": 10,
+        "walk": 25
+      },
+      "attacks": [],
+      "abilities": {
+        "interaction": [],
+        "defensive": [
+          {
+            "name": "Demolition Expertise",
+            "text": "A sapper squad's offensive abilities ignore the first 5 points of Hardness when deployed against inanimate objects or structures.",
+            "traits": [],
+            "description": "A sapper squad's offensive abilities ignore the first 5 points of Hardness when deployed against inanimate objects or structures."
+          }
+        ],
+        "offensive": [
+          {
+            "name": "Excavation",
+            "text": "While Burrowing, the sapper squad can position its segments into a 20-foot-wide straight line and move at half Speed to leave a 20-foot-wide tunnel behind them that can be safely traversed by other creatures. Unless shored up by a crew of skilled laborers, the tunnel collapses after 10 minutes.",
+            "traits": [],
+            "description": "While Burrowing, the sapper squad can position its segments into a 20-foot-wide straight line and move at half Speed to leave a 20-foot-wide tunnel behind them that can be safely traversed by other creatures. Unless shored up by a crew of skilled laborers, the tunnel collapses after 10 minutes."
+          },
+          {
+            "name": "Fire in the Hole!",
+            "text": "The squad bombards a 10-foot burst within 30 feet with satchel charges, dealing 2d6 fire damage and 1d6 bludgeoning damage to all creatures in the area (DC 18 [basic Reflex save](/rule/basic-saving-throws-rules-2297)). On a critical failure, a creature is also deafened for 1 round. When the squad is reduced to 2 segments, this area decreases to a 5-foot burst.",
+            "traits": [],
+            "actions": "two",
+            "description": "The squad bombards a 10-foot burst within 30 feet with satchel charges, dealing 2d6 fire damage and 1d6 bludgeoning damage to all creatures in the area (DC 18 [basic Reflex save](/rule/basic-saving-throws-rules-2297)). On a critical failure, a creature is also deafened for 1 round. When the squad is reduced to 2 segments, this area decreases to a 5-foot burst."
+          },
+          {
+            "name": "Pick Assault",
+            "text": "**Frequency** once per round; **Effect** The sapper squad strikes with their picks against enemies in a 5-foot emanation with a DC 18 [basic Reflex save](/rule/basic-saving-throws-rules-2297). The damage depends on the number of actions.\n**Single Action** 1d6 piercing damage\n**Two Actions** 2d6+4 piercing damage\n**Three Actions** 2d6+7 piercing damage",
+            "traits": [],
+            "effect": "The sapper squad strikes with their picks against enemies in a 5-foot emanation with a DC 18 [basic Reflex save](/rule/basic-saving-throws-rules-2297). The damage depends on the number of actions.\n**Single Action** 1d6 piercing damage\n**Two Actions** 2d6+4 piercing damage\n**Three Actions** 2d6+7 piercing damage",
+            "description": "**Frequency** once per round"
+          },
+          {
+            "name": "Undermine",
+            "text": "**Requirements** The sapper squad is underground; **Effect** The sappers deploy explosive charges to displace the [earth](/trait/earth) above them. The surface area within 15 feet directly above the sappers' spaces becomes difficult terrain until the start of their next turn. Any creature already in the area takes 1d6 bludgeoning damage (DC 18 [basic Reflex save](/rule/basic-saving-throws-rules-2297)). On a critical failure, the creature also falls prone.",
+            "traits": [],
+            "actions": "three",
+            "effect": "The sappers deploy explosive charges to displace the [earth](/trait/earth) above them. The surface area within 15 feet directly above the sappers' spaces becomes difficult terrain until the start of their next turn. Any creature already in the area takes 1d6 bludgeoning damage (DC 18 [basic Reflex save](/rule/basic-saving-throws-rules-2297)). On a critical failure, the creature also falls prone.",
+            "description": "**Requirements** The sapper squad is underground"
+          }
+        ]
+      },
+      "recallKnowledge": {
+        "dc": 21,
+        "skills": [
+          "society"
+        ],
+        "subjects": [
+          "humanoid"
+        ],
+        "entries": [
+          {
+            "subject": "humanoid",
+            "skills": [
+              "society"
+            ]
+          }
+        ]
+      },
+      "recallKnowledgeText": "DC 21 (Society)",
+      "languagesText": "Common, Gnomish",
+      "traitLinks": [
+        {
+          "label": "gnome",
+          "slug": "gnome"
+        },
+        {
+          "label": "humanoid",
+          "slug": "humanoid"
+        },
+        {
+          "label": "troop",
+          "slug": "troop"
+        }
+      ],
+      "senseEntries": [
+        {
+          "name": "low-light vision",
+          "reference": "/action/low-light-vision-monster-core"
+        }
+      ],
+      "skillsEditor": {
+        "skills": {
+          "acrobatics": 12,
+          "crafting": 10,
+          "stealth": 12,
+          "survival": 10
+        },
+        "loreSkills": []
+      },
+      "weaknessEntries": [
+        {
+          "type": "area",
+          "value": 4
+        },
+        {
+          "type": "splash",
+          "value": 4
+        },
+        {
+          "type": "area-damage",
+          "value": 4
+        },
+        {
+          "type": "splash-damage",
+          "value": 4
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "hellfire-dispatches",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "creature",
+      "gnome",
+      "hellfire-dispatches",
+      "humanoid",
+      "remaster",
+      "troop"
+    ],
+    "sources": [
+      {
+        "name": "Hellfire Dispatches",
+        "url": "https://2e.aonprd.com/Monsters.aspx?ID=4745",
+        "page": 70
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "9726CAC8-FA67-5CF7-9D15-C9F5CBB4B78E",
+    "kind": "Creature",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Devastation Cavalry Brigade",
+    "slug": "devastation-cavalry-brigade-hellfire-dispatches-creature-creature-4749",
+    "descr": "",
+    "data": {
+      "level": 6,
+      "rarity": "uncommon",
+      "size": "gargantuan",
+      "traits": [
+        "animal",
+        "human",
+        "humanoid",
+        "troop",
+        "unholy"
+      ],
+      "attributes": {
+        "str": 5,
+        "dex": 1,
+        "con": 4,
+        "int": 1,
+        "wis": 0,
+        "cha": 2
+      },
+      "perception": 14,
+      "ac": {
+        "value": 23,
+        "details": ""
+      },
+      "hp": {
+        "value": 90,
+        "details": ""
+      },
+      "saves": {
+        "fortitude": 16,
+        "reflex": 13,
+        "will": 12,
+        "details": ""
+      },
+      "skills": {
+        "acrobatics": 11,
+        "athletics": 15,
+        "intimidation": 13,
+        "religion": 10
+      },
+      "loreSkills": [
+        {
+          "name": "Abaddon Lore",
+          "value": 11
+        }
+      ],
+      "languages": [
+        "common",
+        "daemonic",
+        "varisian"
+      ],
+      "senses": "[darkvision](/action/darkvision-monster-core)",
+      "immunities": [
+        "fear"
+      ],
+      "weaknesses": {},
+      "resistances": {},
+      "movement": {
+        "walk": 40
+      },
+      "attacks": [],
+      "abilities": {
+        "interaction": [],
+        "defensive": [
+          {
+            "name": "Crushing Despair",
+            "text": "10 feet, DC 24. Enemy creatures that enter or begin their turn in the area must attempt a Will save. Regardless of the result of the saving throw, the creature is then temporarily immune to the aura for 1 minute.\n **Critical Success** The creature is unaffected.\n **Success** The creature is frightened 1.\n **Failure** The creature is frightened 1 and can’t use reactions for 1 round.\n **Critical Failure** As failure, and the creature slowed 1 as it sobs uncontrollably.",
+            "traits": [
+              "aura",
+              "divine",
+              "emotion",
+              "fear",
+              "mental"
+            ],
+            "description": "10 feet, DC 24. Enemy creatures that enter or begin their turn in the area must attempt a Will save. Regardless of the result of the saving throw, the creature is then temporarily immune to the aura for 1 minute.\n **Critical Success** The creature is unaffected.\n **Success** The creature is frightened 1.\n **Failure** The creature is frightened 1 and can’t use reactions for 1 round.\n **Critical Failure** As failure, and the creature slowed 1 as it sobs uncontrollably."
+          }
+        ],
+        "offensive": [
+          {
+            "name": "Astride a Red Horse",
+            "text": "While moving on land, a devastation cavalry brigade ignores all difficult terrain.",
+            "traits": [],
+            "description": "While moving on land, a devastation cavalry brigade ignores all difficult terrain."
+          },
+          {
+            "name": "Mounted Troop",
+            "text": "Effects that target only animals, humans, or humanoids may not work on the brigade, subject to the GM's discretion.",
+            "traits": [],
+            "description": "Effects that target only animals, humans, or humanoids may not work on the brigade, subject to the GM's discretion."
+          },
+          {
+            "name": "Rain of Ruin",
+            "text": "The brigade draws or reloads their crossbows, then launches a ranged attack in the form of a volley. This volley is a 10-foot burst within 120 feet that deals 3d8 piercing damage (DC 21 [basic Reflex save](/rule/basic-saving-throws-rules-2297)). When the troop is reduced to 2 segments, this area decreases to a 5-foot burst.",
+            "traits": [],
+            "actions": "two",
+            "description": "The brigade draws or reloads their crossbows, then launches a ranged attack in the form of a volley. This volley is a 10-foot burst within 120 feet that deals 3d8 piercing damage (DC 21 [basic Reflex save](/rule/basic-saving-throws-rules-2297)). When the troop is reduced to 2 segments, this area decreases to a 5-foot burst."
+          },
+          {
+            "name": "Swords of Szuriel",
+            "text": "**Frequency** once per round; **Effect** The brigade slashes mercilessly at enemies in a 10-foot emanation (DC 21 [basic Reflex save](/rule/basic-saving-throws-rules-2297)). The damage depends on the number of actions.\n**Single Action** 1d8 piercing damage plus 1d4 spirit\n**Two Actions** 2d8 piercing damage plus 2d4 spirit\n**Three Actions** 2d8+4 piercing damage plus 2d4 spirit",
+            "traits": [
+              "magical",
+              "unholy"
+            ],
+            "effect": "The brigade slashes mercilessly at enemies in a 10-foot emanation (DC 21 [basic Reflex save](/rule/basic-saving-throws-rules-2297)). The damage depends on the number of actions.\n**Single Action** 1d8 piercing damage plus 1d4 spirit\n**Two Actions** 2d8 piercing damage plus 2d4 spirit\n**Three Actions** 2d8+4 piercing damage plus 2d4 spirit",
+            "description": "**Frequency** once per round"
+          },
+          {
+            "name": "Trample",
+            "text": "Medium or smaller, 4d8 bludgeoning, DC 21; a creature that critically fails the save is also knocked prone.",
+            "traits": [],
+            "actions": "three",
+            "reference": "/action/trample-monster-core",
+            "description": "Medium or smaller, 4d8 bludgeoning, DC 21; a creature that critically fails the save is also knocked prone."
+          }
+        ]
+      },
+      "recallKnowledge": {
+        "dc": 24,
+        "skills": [
+          "nature",
+          "society"
+        ],
+        "subjects": [
+          "animal",
+          "humanoid"
+        ],
+        "entries": [
+          {
+            "subject": "animal",
+            "skills": [
+              "nature"
+            ]
+          },
+          {
+            "subject": "humanoid",
+            "skills": [
+              "society"
+            ]
+          }
+        ]
+      },
+      "recallKnowledgeText": "DC 24 (Nature, Society)",
+      "languagesText": "Common, Daemonic, Varisian",
+      "traitLinks": [
+        {
+          "label": "animal",
+          "slug": "animal"
+        },
+        {
+          "label": "human",
+          "slug": "human"
+        },
+        {
+          "label": "humanoid",
+          "slug": "humanoid"
+        },
+        {
+          "label": "troop",
+          "slug": "troop"
+        },
+        {
+          "label": "unholy",
+          "slug": "unholy"
+        }
+      ],
+      "senseEntries": [
+        {
+          "name": "darkvision",
+          "reference": "/action/darkvision-monster-core"
+        }
+      ],
+      "immunityEditor": {
+        "entries": [
+          {
+            "name": "fear"
+          }
+        ]
+      },
+      "skillsEditor": {
+        "skills": {
+          "acrobatics": 11,
+          "athletics": 15,
+          "intimidation": 13,
+          "religion": 10
+        },
+        "loreSkills": [
+          {
+            "name": "Abaddon Lore",
+            "value": 11
+          }
+        ]
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "hellfire-dispatches",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "animal",
+      "creature",
+      "hellfire-dispatches",
+      "human",
+      "humanoid",
+      "remaster",
+      "troop",
+      "unholy"
+    ],
+    "sources": [
+      {
+        "name": "Hellfire Dispatches",
+        "url": "https://2e.aonprd.com/Monsters.aspx?ID=4749",
+        "page": 82
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "E11CBB6F-A4C6-5B53-89A2-C91459C919E0",
+    "kind": "Creature",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Fangwood Sentinel Corps",
+    "slug": "fangwood-sentinel-corps-hellfire-dispatches-creature-creature-4748",
+    "descr": "",
+    "data": {
+      "level": 4,
+      "rarity": "uncommon",
+      "size": "gargantuan",
+      "traits": [
+        "human",
+        "humanoid",
+        "troop"
+      ],
+      "attributes": {
+        "str": 1,
+        "dex": 6,
+        "con": 0,
+        "int": 1,
+        "wis": 2,
+        "cha": 1
+      },
+      "perception": 11,
+      "ac": {
+        "value": 20,
+        "details": ""
+      },
+      "hp": {
+        "value": 60,
+        "details": ""
+      },
+      "saves": {
+        "fortitude": 8,
+        "reflex": 14,
+        "will": 11,
+        "details": ""
+      },
+      "skills": {
+        "acrobatics": 12,
+        "athletics": 7,
+        "diplomacy": 7,
+        "stealth": 12,
+        "survival": 10
+      },
+      "loreSkills": [],
+      "languages": [
+        "common",
+        "elven",
+        "empyrean",
+        "varisian"
+      ],
+      "senses": "",
+      "immunities": [
+        "fear"
+      ],
+      "weaknesses": {
+        "area": 4,
+        "splash": 4,
+        "area-damage": 4,
+        "splash-damage": 4
+      },
+      "resistances": {},
+      "movement": {
+        "walk": 25
+      },
+      "attacks": [],
+      "abilities": {
+        "interaction": [],
+        "defensive": [],
+        "offensive": [
+          {
+            "name": "Hail of Thorns",
+            "text": "**Frequency** once per round; **Effect** The sentinels draw or reload their longbows, then let fly an arcing volley of arrows as a 10-foot burst within 100 feet that deals 4d4 piercing damage (DC 18 [basic Reflex save](/rule/basic-saving-throws-rules-2297)). When the troop is reduced to 2 segments, this area decreases to a 5-foot burst.",
+            "traits": [],
+            "actions": "two",
+            "effect": "The sentinels draw or reload their longbows, then let fly an arcing volley of arrows as a 10-foot burst within 100 feet that deals 4d4 piercing damage (DC 18 [basic Reflex save](/rule/basic-saving-throws-rules-2297)). When the troop is reduced to 2 segments, this area decreases to a 5-foot burst.",
+            "description": "**Frequency** once per round"
+          },
+          {
+            "name": "Strike from the Heart",
+            "text": "**Frequency** once per round; **Effect** The sentinels bring their morningstars to bear against enemies in a 5-foot emanation (DC 18 [basic Reflex save](/rule/basic-saving-throws-rules-2297)). Damage dealt depends on the number of actions.\n**Single Action** 1d6 bludgeoning damage\n**Two Actions** 2d6+4 bludgeoning damage\n**Three Actions** 3d6+4 bludgeoning damage",
+            "traits": [],
+            "effect": "The sentinels bring their morningstars to bear against enemies in a 5-foot emanation (DC 18 [basic Reflex save](/rule/basic-saving-throws-rules-2297)). Damage dealt depends on the number of actions.\n**Single Action** 1d6 bludgeoning damage\n**Two Actions** 2d6+4 bludgeoning damage\n**Three Actions** 3d6+4 bludgeoning damage",
+            "description": "**Frequency** once per round"
+          },
+          {
+            "name": "Thus Always to Tyrants",
+            "text": "**Frequency** once per hour; **Trigger** The sentinels reduce an enemy with a level equal to or greater than their own to 0 Hit Points; **Effect** The sentinels' victory inspires allies and demoralizes enemies. Each ally in a 15-foot emanation gains a +1 status bonus to attack rolls for 1 round. Each enemy in the same area must succeed at a DC 18 Will save or take a –1 penalty to attack rolls for 1 round.",
+            "traits": [
+              "aura",
+              "emotion",
+              "mental",
+              "visual"
+            ],
+            "actions": "free",
+            "effect": "The sentinels' victory inspires allies and demoralizes enemies. Each ally in a 15-foot emanation gains a +1 status bonus to attack rolls for 1 round. Each enemy in the same area must succeed at a DC 18 Will save or take a –1 penalty to attack rolls for 1 round.",
+            "trigger": "The sentinels reduce an enemy with a level equal to or greater than their own to 0 Hit Points",
+            "triggerBeforeDescription": false,
+            "description": "**Frequency** once per hour"
+          }
+        ]
+      },
+      "recallKnowledge": {
+        "dc": 21,
+        "skills": [
+          "society"
+        ],
+        "subjects": [
+          "humanoid"
+        ],
+        "entries": [
+          {
+            "subject": "humanoid",
+            "skills": [
+              "society"
+            ]
+          }
+        ]
+      },
+      "recallKnowledgeText": "DC 21 (Society)",
+      "languagesText": "Common, Elven, Empyrean, Varisian",
+      "traitLinks": [
+        {
+          "label": "human",
+          "slug": "human"
+        },
+        {
+          "label": "humanoid",
+          "slug": "humanoid"
+        },
+        {
+          "label": "troop",
+          "slug": "troop"
+        }
+      ],
+      "immunityEditor": {
+        "entries": [
+          {
+            "name": "fear"
+          }
+        ]
+      },
+      "skillsEditor": {
+        "skills": {
+          "acrobatics": 12,
+          "athletics": 7,
+          "diplomacy": 7,
+          "stealth": 12,
+          "survival": 10
+        },
+        "loreSkills": []
+      },
+      "weaknessEntries": [
+        {
+          "type": "area",
+          "value": 4
+        },
+        {
+          "type": "splash",
+          "value": 4
+        },
+        {
+          "type": "area-damage",
+          "value": 4
+        },
+        {
+          "type": "splash-damage",
+          "value": 4
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "hellfire-dispatches",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "creature",
+      "hellfire-dispatches",
+      "human",
+      "humanoid",
+      "remaster",
+      "troop"
+    ],
+    "sources": [
+      {
+        "name": "Hellfire Dispatches",
+        "url": "https://2e.aonprd.com/Monsters.aspx?ID=4748",
+        "page": 82
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "E59B1991-1579-5967-B0F6-F889D3829EA1",
+    "kind": "Creature",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Golden Erinys Novitiate Circle",
+    "slug": "golden-erinys-novitiate-circle-hellfire-dispatches-creature-creature-4751",
+    "descr": "",
+    "data": {
+      "level": 5,
+      "rarity": "uncommon",
+      "size": "gargantuan",
+      "traits": [
+        "human",
+        "humanoid",
+        "troop",
+        "unholy"
+      ],
+      "attributes": {
+        "str": 2,
+        "dex": 5,
+        "con": 3,
+        "int": 0,
+        "wis": 2,
+        "cha": 2
+      },
+      "perception": 12,
+      "ac": {
+        "value": 21,
+        "details": ""
+      },
+      "hp": {
+        "value": 75,
+        "details": ""
+      },
+      "saves": {
+        "fortitude": 9,
+        "reflex": 14,
+        "will": 11,
+        "details": ""
+      },
+      "skills": {
+        "acrobatics": 13,
+        "athletics": 12,
+        "intimidation": 11,
+        "religion": 12,
+        "stealth": 13
+      },
+      "loreSkills": [],
+      "languages": [
+        "common",
+        "diabolic"
+      ],
+      "senses": "",
+      "immunities": [],
+      "weaknesses": {
+        "area": 5,
+        "splash": 5,
+        "area-damage": 5,
+        "splash-damage": 5
+      },
+      "resistances": {},
+      "movement": {
+        "walk": 35
+      },
+      "attacks": [],
+      "abilities": {
+        "interaction": [],
+        "defensive": [
+          {
+            "name": "Opportunistic Halt",
+            "text": "**Trigger** A creature within 5 feet uses a [move](/trait/move) action or leaves a square during a move action it's using; **Effect** The novitiates strike at the triggering creature, dealing 2d8+3 bludgeoning damage (DC 19 [basic Reflex save](/rule/basic-saving-throws-rules-2297)). If the save is a critical failure and the trigger was a move action, that action is disrupted.",
+            "traits": [],
+            "actions": "reaction",
+            "effect": "The novitiates strike at the triggering creature, dealing 2d8+3 bludgeoning damage (DC 19 [basic Reflex save](/rule/basic-saving-throws-rules-2297)). If the save is a critical failure and the trigger was a move action, that action is disrupted.",
+            "trigger": "A creature within 5 feet uses a [move](/trait/move) action or leaves a square during a move action it's using",
+            "triggerBeforeDescription": true,
+            "description": ""
+          },
+          {
+            "name": "Unholy Quickness",
+            "text": "Sisters of the Golden Erinys are renowned for their uncanny reflexes, which grant them a +2 circumstance bonus to AC against ranged attacks.",
+            "traits": [],
+            "description": "Sisters of the Golden Erinys are renowned for their uncanny reflexes, which grant them a +2 circumstance bonus to AC against ranged attacks."
+          }
+        ],
+        "offensive": [
+          {
+            "name": "Flurry of Vengeance",
+            "text": "**Frequency** once per round; **Effect** The novitiates unleash a barrage of painful unarmed blows against enemies in a 5-foot emanation (DC 19 [basic Reflex save](/rule/basic-saving-throws-rules-2297)). The damage dependson the number of actions.\n**Single Action** 1d8 piercing damage\n**Two Actions** 2d8+3 piercing damage\n**Three Actions** 2d8+7 piercing damage",
+            "traits": [
+              "magical",
+              "unholy"
+            ],
+            "effect": "The novitiates unleash a barrage of painful unarmed blows against enemies in a 5-foot emanation (DC 19 [basic Reflex save](/rule/basic-saving-throws-rules-2297)). The damage dependson the number of actions.\n**Single Action** 1d8 piercing damage\n**Two Actions** 2d8+3 piercing damage\n**Three Actions** 2d8+7 piercing damage",
+            "description": "**Frequency** once per round"
+          },
+          {
+            "name": "Pain Points",
+            "text": "**Frequency** once per round; **Effect** The novitiates are taught how best to cause pain with their strikes. The novitiates use a 1-action Flurry of Vengeance. Each creature that fails its Reflex save is also clumsy 1 for 1 round as its body is wracked with excruciating agony.",
+            "traits": [],
+            "actions": "two",
+            "effect": "The novitiates are taught how best to cause pain with their strikes. The novitiates use a 1-action Flurry of Vengeance. Each creature that fails its Reflex save is also clumsy 1 for 1 round as its body is wracked with excruciating agony.",
+            "description": "**Frequency** once per round"
+          },
+          {
+            "name": "Storm of Blades",
+            "text": "The novitiates unleash a hail of thrown blades, dealing 3d8 slashing damage in a 10-foot burst within 20 feet (DC 19 [basic Reflex save](/rule/basic-saving-throws-rules-2297)). When the novitiates are reduced to 2 segments, this area decreases to a 5-foot burst.",
+            "traits": [],
+            "description": "The novitiates unleash a hail of thrown blades, dealing 3d8 slashing damage in a 10-foot burst within 20 feet (DC 19 [basic Reflex save](/rule/basic-saving-throws-rules-2297)). When the novitiates are reduced to 2 segments, this area decreases to a 5-foot burst."
+          }
+        ]
+      },
+      "recallKnowledge": {
+        "dc": 22,
+        "skills": [
+          "society"
+        ],
+        "subjects": [
+          "humanoid"
+        ],
+        "entries": [
+          {
+            "subject": "humanoid",
+            "skills": [
+              "society"
+            ]
+          }
+        ]
+      },
+      "recallKnowledgeText": "DC 22 (Society)",
+      "languagesText": "Common, Diabolic",
+      "traitLinks": [
+        {
+          "label": "human",
+          "slug": "human"
+        },
+        {
+          "label": "humanoid",
+          "slug": "humanoid"
+        },
+        {
+          "label": "troop",
+          "slug": "troop"
+        },
+        {
+          "label": "unholy",
+          "slug": "unholy"
+        }
+      ],
+      "skillsEditor": {
+        "skills": {
+          "acrobatics": 13,
+          "athletics": 12,
+          "intimidation": 11,
+          "religion": 12,
+          "stealth": 13
+        },
+        "loreSkills": []
+      },
+      "weaknessEntries": [
+        {
+          "type": "area",
+          "value": 5
+        },
+        {
+          "type": "splash",
+          "value": 5
+        },
+        {
+          "type": "area-damage",
+          "value": 5
+        },
+        {
+          "type": "splash-damage",
+          "value": 5
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "hellfire-dispatches",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "creature",
+      "hellfire-dispatches",
+      "human",
+      "humanoid",
+      "remaster",
+      "troop",
+      "unholy"
+    ],
+    "sources": [
+      {
+        "name": "Hellfire Dispatches",
+        "url": "https://2e.aonprd.com/Monsters.aspx?ID=4751",
+        "page": 106
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "AFBD4AC3-ADC8-51F7-98CE-C25FCCB990D5",
+    "kind": "Creature",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Hellbound Honor Guard",
+    "slug": "hellbound-honor-guard-hellfire-dispatches-creature-creature-4746",
+    "descr": "",
+    "data": {
+      "level": 12,
+      "rarity": "uncommon",
+      "size": "gargantuan",
+      "traits": [
+        "human",
+        "humanoid",
+        "troop"
+      ],
+      "attributes": {
+        "str": 7,
+        "dex": 2,
+        "con": 5,
+        "int": 3,
+        "wis": 3,
+        "cha": 4
+      },
+      "perception": 22,
+      "ac": {
+        "value": 33,
+        "details": ""
+      },
+      "hp": {
+        "value": 210,
+        "details": ""
+      },
+      "saves": {
+        "fortitude": 24,
+        "reflex": 18,
+        "will": 21,
+        "details": ""
+      },
+      "skills": {
+        "acrobatics": 20,
+        "athletics": 23,
+        "intimidation": 22,
+        "religion": 21,
+        "society": 21
+      },
+      "loreSkills": [
+        {
+          "name": "Hell Lore",
+          "value": 21
+        }
+      ],
+      "languages": [
+        "common",
+        "diabolic"
+      ],
+      "senses": "",
+      "immunities": [],
+      "weaknesses": {
+        "area": 10,
+        "holy": 10,
+        "splash": 10,
+        "area-damage": 10,
+        "splash-damage": 10
+      },
+      "resistances": {
+        "bludgeoning": 5,
+        "fire": 8,
+        "mental": 5,
+        "physical": 5,
+        "piercing": 5,
+        "slashing": 5
+      },
+      "movement": {
+        "walk": 25
+      },
+      "attacks": [],
+      "abilities": {
+        "interaction": [],
+        "defensive": [
+          {
+            "name": "Frightful Presence",
+            "text": "30 feet, DC 29",
+            "traits": [
+              "aura",
+              "divine",
+              "emotion",
+              "fear",
+              "mental"
+            ],
+            "reference": "/action/frightful-presence-monster-core",
+            "description": "30 feet, DC 29"
+          },
+          {
+            "name": "Final Reward",
+            "text": "When the hellbound honor guard is reduced to 0 Hit Points, a fiery fissure forms beneath their feet and a host of screeching devils pours forth to drag their souls to Hell. All creatures within a 5-foot emanation take 3d8 fire and 3d8 spirit damage (DC 29 [basic Reflex save](/rule/basic-saving-throws-rules-2297)), and all creatures within a 10-foot emanation must attempt a DC 29 Will save or be frightened 1 (frightened 2 on a critical failure). The rift then immediately closes.",
+            "traits": [
+              "divine",
+              "unholy"
+            ],
+            "description": "When the hellbound honor guard is reduced to 0 Hit Points, a fiery fissure forms beneath their feet and a host of screeching devils pours forth to drag their souls to Hell. All creatures within a 5-foot emanation take 3d8 fire and 3d8 spirit damage (DC 29 [basic Reflex save](/rule/basic-saving-throws-rules-2297)), and all creatures within a 10-foot emanation must attempt a DC 29 Will save or be frightened 1 (frightened 2 on a critical failure). The rift then immediately closes."
+          },
+          {
+            "name": "Opportunistic Strikes",
+            "text": "**Trigger** A creature within 5 feet uses a manipulate action or a [move](/trait/move) action, makes a ranged attack, or leaves a square during a move action it's using; **Effect** The honor guard mobs the triggering creature, inflicting 2d6+9 bludgeoning plus 2d6 spirit damage (DC 29 [basic Reflex save](/rule/basic-saving-throws-rules-2297)).",
+            "traits": [],
+            "actions": "reaction",
+            "effect": "The honor guard mobs the triggering creature, inflicting 2d6+9 bludgeoning plus 2d6 spirit damage (DC 29 [basic Reflex save](/rule/basic-saving-throws-rules-2297)).",
+            "trigger": "A creature within 5 feet uses a manipulate action or a [move](/trait/move) action, makes a ranged attack, or leaves a square during a move action it's using",
+            "triggerBeforeDescription": true,
+            "description": ""
+          }
+        ],
+        "offensive": [
+          {
+            "name": "Crush the Spirit",
+            "text": "**Frequency** once per round; **Effect** The honor guard strikes with their maces against enemies in a 5-foot emanation, battering souls as well as bodies (DC 29 [basic Reflex save](/rule/basic-saving-throws-rules-2297)). The damage depends on the number of actions.\n**Single Action** 1d6+1 bludgeoning damage plus 1d6 spirit damage\n**Two Actions** 2d6+9 bludgeoning damage plus 2d6 spirit damage\n**Three Actions** 3d6+12 bludgeoning damage plus 2d6 spirit damage.",
+            "traits": [
+              "magical",
+              "unholy"
+            ],
+            "effect": "The honor guard strikes with their maces against enemies in a 5-foot emanation, battering souls as well as bodies (DC 29 [basic Reflex save](/rule/basic-saving-throws-rules-2297)). The damage depends on the number of actions.\n**Single Action** 1d6+1 bludgeoning damage plus 1d6 spirit damage\n**Two Actions** 2d6+9 bludgeoning damage plus 2d6 spirit damage\n**Three Actions** 3d6+12 bludgeoning damage plus 2d6 spirit damage.",
+            "description": "**Frequency** once per round"
+          },
+          {
+            "name": "Vigor of the Damned",
+            "text": "**Frequency** once per round; **Requirements** The hellbound honor guard has only 2 segments; **Effect** On the edge of defeat, the honor guard calls a paean to Asmodeus for aid. The honor guard regains 3d8 Hit Points. As standard for troops reduced to 2 segments, they can't regain Hit Points above the lowest listed threshold.",
+            "traits": [
+              "concentrate",
+              "divine",
+              "healing",
+              "vitality"
+            ],
+            "actions": "one",
+            "effect": "On the edge of defeat, the honor guard calls a paean to Asmodeus for aid. The honor guard regains 3d8 Hit Points. As standard for troops reduced to 2 segments, they can't regain Hit Points above the lowest listed threshold.",
+            "description": "**Frequency** once per round; **Requirements** The hellbound honor guard has only 2 segments"
+          }
+        ]
+      },
+      "recallKnowledge": {
+        "dc": 32,
+        "skills": [
+          "society"
+        ],
+        "subjects": [
+          "humanoid"
+        ],
+        "entries": [
+          {
+            "subject": "humanoid",
+            "skills": [
+              "society"
+            ]
+          }
+        ]
+      },
+      "recallKnowledgeText": "DC 32 (Society)",
+      "languagesText": "Common, Diabolic",
+      "traitLinks": [
+        {
+          "label": "human",
+          "slug": "human"
+        },
+        {
+          "label": "humanoid",
+          "slug": "humanoid"
+        },
+        {
+          "label": "troop",
+          "slug": "troop"
+        }
+      ],
+      "skillsEditor": {
+        "skills": {
+          "acrobatics": 20,
+          "athletics": 23,
+          "intimidation": 22,
+          "religion": 21,
+          "society": 21
+        },
+        "loreSkills": [
+          {
+            "name": "Hell Lore",
+            "value": 21
+          }
+        ]
+      },
+      "weaknessEntries": [
+        {
+          "type": "area",
+          "value": 10
+        },
+        {
+          "type": "holy",
+          "value": 10
+        },
+        {
+          "type": "splash",
+          "value": 10
+        },
+        {
+          "type": "area-damage",
+          "value": 10
+        },
+        {
+          "type": "splash-damage",
+          "value": 10
+        }
+      ],
+      "resistanceEntries": [
+        {
+          "type": "bludgeoning",
+          "value": 5
+        },
+        {
+          "type": "fire",
+          "value": 8
+        },
+        {
+          "type": "mental",
+          "value": 5
+        },
+        {
+          "type": "physical",
+          "value": 5
+        },
+        {
+          "type": "piercing",
+          "value": 5
+        },
+        {
+          "type": "slashing",
+          "value": 5
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "hellfire-dispatches",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "creature",
+      "hellfire-dispatches",
+      "human",
+      "humanoid",
+      "remaster",
+      "troop"
+    ],
+    "sources": [
+      {
+        "name": "Hellfire Dispatches",
+        "url": "https://2e.aonprd.com/Monsters.aspx?ID=4746",
+        "page": 70
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "942EC205-6C86-5055-A4B1-D517DA9BECE0",
+    "kind": "Creature",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Hellknight Retrieval Unit",
+    "slug": "hellknight-retrieval-unit-hellfire-dispatches-creature-creature-4742",
+    "descr": "",
+    "data": {
+      "level": 6,
+      "rarity": "uncommon",
+      "size": "gargantuan",
+      "traits": [
+        "human",
+        "humanoid",
+        "troop"
+      ],
+      "attributes": {
+        "str": 5,
+        "dex": 0,
+        "con": 4,
+        "int": 1,
+        "wis": 1,
+        "cha": 2
+      },
+      "perception": 15,
+      "ac": {
+        "value": 24,
+        "details": ""
+      },
+      "hp": {
+        "value": 90,
+        "details": ""
+      },
+      "saves": {
+        "fortitude": 16,
+        "reflex": 11,
+        "will": 14,
+        "details": ""
+      },
+      "skills": {
+        "acrobatics": 10,
+        "athletics": 15,
+        "intimidation": 14,
+        "religion": 9,
+        "society": 9,
+        "survival": 9
+      },
+      "loreSkills": [
+        {
+          "name": "Hell Lore",
+          "value": 12
+        }
+      ],
+      "languages": [
+        "common",
+        "diabolic"
+      ],
+      "senses": "",
+      "immunities": [],
+      "weaknesses": {
+        "area": 5,
+        "splash": 5,
+        "area-damage": 5,
+        "splash-damage": 5
+      },
+      "resistances": {
+        "mental": "5"
+      },
+      "movement": {
+        "walk": 25
+      },
+      "attacks": [],
+      "abilities": {
+        "interaction": [],
+        "defensive": [],
+        "offensive": [
+          {
+            "name": "Bola Barrage",
+            "text": "The unit draws bolas and hurls them in a 15-foot [cone](/rule/cone-rules-2386), inflicting 3d6 nonlethal bludgeoning damage to creatures in the area (DC 21 [basic Reflex save](/rule/basic-saving-throws-rules-2297)). Any creature who critically fails its save is also knocked prone and takes an additional 1d4 nonlethal bludgeoning damage.",
+            "traits": [],
+            "actions": "two",
+            "description": "The unit draws bolas and hurls them in a 15-foot [cone](/rule/cone-rules-2386), inflicting 3d6 nonlethal bludgeoning damage to creatures in the area (DC 21 [basic Reflex save](/rule/basic-saving-throws-rules-2297)). Any creature who critically fails its save is also knocked prone and takes an additional 1d4 nonlethal bludgeoning damage."
+          },
+          {
+            "name": "Coordinated Subdual",
+            "text": "**Requirements** The retrieval unit's last action was a Whirling Onslaught that dealt damage to at least one creature of Medium size or smaller; **Effect** The unit attempts a single Athletics check to [Grapple](/action/grapple-player-core), comparing the result to the Fortitude DC of each creature that they currently have grabbed or restrained or was damaged by the required Whirling Onslaught. It can target up to a maximum number of creatures equal to double the troop's current number of segments.",
+            "traits": [],
+            "actions": "two",
+            "effect": "The unit attempts a single Athletics check to [Grapple](/action/grapple-player-core), comparing the result to the Fortitude DC of each creature that they currently have grabbed or restrained or was damaged by the required Whirling Onslaught. It can target up to a maximum number of creatures equal to double the troop's current number of segments.",
+            "description": "**Requirements** The retrieval unit's last action was a Whirling Onslaught that dealt damage to at least one creature of Medium size or smaller"
+          },
+          {
+            "name": "Identify Targets",
+            "text": "The unit Seeks in a 30-foot burst within line of sight and Points Out up to three creatures in that area.",
+            "traits": [],
+            "actions": "one",
+            "description": "The unit Seeks in a 30-foot burst within line of sight and Points Out up to three creatures in that area."
+          },
+          {
+            "name": "Pacify",
+            "text": "The unit's Whirling Onslaught gains the nonlethal trait until the end of their next turn.",
+            "traits": [],
+            "actions": "one",
+            "description": "The unit's Whirling Onslaught gains the nonlethal trait until the end of their next turn."
+          },
+          {
+            "name": "Whirling Onslaught",
+            "text": "**Frequency** once per round; **Effect** The unit brutally pummels all enemies in a 5-foot emanation with their flails (DC 21 [basic Reflex save](/rule/basic-saving-throws-rules-2297)). The damage depends on the number of actions.\n**Single Action** 1d8 bludgeoning damage\n**Two Actions** 2d8+5 bludgeoning damage\n**Three Actions** 2d8+10 bludgeoning damage",
+            "traits": [],
+            "effect": "The unit brutally pummels all enemies in a 5-foot emanation with their flails (DC 21 [basic Reflex save](/rule/basic-saving-throws-rules-2297)). The damage depends on the number of actions.\n**Single Action** 1d8 bludgeoning damage\n**Two Actions** 2d8+5 bludgeoning damage\n**Three Actions** 2d8+10 bludgeoning damage",
+            "description": "**Frequency** once per round"
+          },
+          {
+            "name": "You're Coming with Us",
+            "text": "**Trigger** The unit Strides; **Requirements** The unit has one or more creatures grabbed or restrained; **Effect** Before moving any of its segments, the unit attempts a single Athletics check against the Fortitude DC of all creatures it has grabbed or restrained. On a success, the creature is moved alongside the unit, moving the same distance and direction until the end of the unit's current turn. The unit can't move a total number of creatures greater than double its current number of segments.",
+            "traits": [],
+            "actions": "free",
+            "effect": "Before moving any of its segments, the unit attempts a single Athletics check against the Fortitude DC of all creatures it has grabbed or restrained. On a success, the creature is moved alongside the unit, moving the same distance and direction until the end of the unit's current turn. The unit can't move a total number of creatures greater than double its current number of segments.",
+            "trigger": "The unit Strides",
+            "triggerBeforeDescription": true,
+            "description": "**Requirements** The unit has one or more creatures grabbed or restrained"
+          }
+        ]
+      },
+      "recallKnowledge": {
+        "dc": 24,
+        "skills": [
+          "society"
+        ],
+        "subjects": [
+          "humanoid"
+        ],
+        "entries": [
+          {
+            "subject": "humanoid",
+            "skills": [
+              "society"
+            ]
+          }
+        ]
+      },
+      "recallKnowledgeText": "DC 24 (Society)",
+      "languagesText": "Common, Diabolic",
+      "traitLinks": [
+        {
+          "label": "human",
+          "slug": "human"
+        },
+        {
+          "label": "humanoid",
+          "slug": "humanoid"
+        },
+        {
+          "label": "troop",
+          "slug": "troop"
+        }
+      ],
+      "skillsEditor": {
+        "skills": {
+          "acrobatics": 10,
+          "athletics": 15,
+          "intimidation": 14,
+          "religion": 9,
+          "society": 9,
+          "survival": 9
+        },
+        "loreSkills": [
+          {
+            "name": "Hell Lore",
+            "value": 12
+          }
+        ]
+      },
+      "weaknessEntries": [
+        {
+          "type": "area",
+          "value": 5
+        },
+        {
+          "type": "splash",
+          "value": 5
+        },
+        {
+          "type": "area-damage",
+          "value": 5
+        },
+        {
+          "type": "splash-damage",
+          "value": 5
+        }
+      ],
+      "resistanceEntries": [
+        {
+          "type": "mental",
+          "value": "5"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "hellfire-dispatches",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "creature",
+      "hellfire-dispatches",
+      "human",
+      "humanoid",
+      "remaster",
+      "troop"
+    ],
+    "sources": [
+      {
+        "name": "Hellfire Dispatches",
+        "url": "https://2e.aonprd.com/Monsters.aspx?ID=4742",
+        "page": 58
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "12F109EF-BCA8-59E3-91B7-0A505223FFA4",
+    "kind": "Creature",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Iriatykian Outrider Band",
+    "slug": "iriatykian-outrider-band-hellfire-dispatches-creature-creature-4754",
+    "descr": "",
+    "data": {
+      "level": 7,
+      "rarity": "uncommon",
+      "size": "gargantuan",
+      "traits": [
+        "animal",
+        "human",
+        "humanoid",
+        "troop"
+      ],
+      "attributes": {
+        "str": 4,
+        "dex": 6,
+        "con": 2,
+        "int": 0,
+        "wis": 1,
+        "cha": 3
+      },
+      "perception": 14,
+      "ac": {
+        "value": 24,
+        "details": ""
+      },
+      "hp": {
+        "value": 120,
+        "details": ""
+      },
+      "saves": {
+        "fortitude": 13,
+        "reflex": 17,
+        "will": 14,
+        "details": "+2 status bonus to all saves vs. darkness and shadow"
+      },
+      "skills": {
+        "acrobatics": 17,
+        "athletics": 15,
+        "intimidation": 14,
+        "occultism": 12,
+        "survival": 15
+      },
+      "loreSkills": [],
+      "languages": [
+        "common",
+        "shadowtongue",
+        "varisian"
+      ],
+      "senses": "[low-light vision](/action/low-light-vision-monster-core)",
+      "immunities": [],
+      "weaknesses": {
+        "area": 7,
+        "splash": 7,
+        "area-damage": 7,
+        "splash-damage": 7
+      },
+      "resistances": {},
+      "movement": {
+        "walk": 40
+      },
+      "attacks": [],
+      "abilities": {
+        "interaction": [],
+        "defensive": [
+          {
+            "name": "Elusive Target",
+            "text": "The Iriatykian outriders gain a +1 circumstance bonus to AC and a +1 circumstance bonus to Reflex saving throws against attacks and effects from unmounted enemies.",
+            "traits": [],
+            "description": "The Iriatykian outriders gain a +1 circumstance bonus to AC and a +1 circumstance bonus to Reflex saving throws against attacks and effects from unmounted enemies."
+          }
+        ],
+        "offensive": [
+          {
+            "name": "Mounted Charge",
+            "text": "The outriders [Stride](/action/stride-player-core) twice with a +10-foot circumstance bonus to their Speed. If they move at least 10 feet, they deal 2d8+6 piercing damage (DC 22 [basic Reflex save](/rule/basic-saving-throws-rules-2297)) to enemies in a 10-foot emanation at the end of their movement. If at least one enemy damaged by the charge is the source of a magical darkness effect, the outriders can immediately use their Shatter Shadows ability as a free action, gaining a +1 circumstance bonus to the counteract check.",
+            "traits": [],
+            "actions": "three",
+            "description": "The outriders [Stride](/action/stride-player-core) twice with a +10-foot circumstance bonus to their Speed. If they move at least 10 feet, they deal 2d8+6 piercing damage (DC 22 [basic Reflex save](/rule/basic-saving-throws-rules-2297)) to enemies in a 10-foot emanation at the end of their movement. If at least one enemy damaged by the charge is the source of a magical darkness effect, the outriders can immediately use their Shatter Shadows ability as a free action, gaining a +1 circumstance bonus to the counteract check."
+          },
+          {
+            "name": "Mounted Troop",
+            "text": "Effects that target only animals, humans, or humanoids might not work on the outriders, subject to the GM's discretion.",
+            "traits": [],
+            "description": "Effects that target only animals, humans, or humanoids might not work on the outriders, subject to the GM's discretion."
+          },
+          {
+            "name": "Mounted Volley",
+            "text": "The outriders draw or reload their longbows, then launch a volley of arrows at creatures in a 10-foot burst within 100 feet, dealing 3d8 piercing damage (DC 22 [basic Reflex save](/rule/basic-saving-throws-rules-2297)). When the squadron is reduced to 2 segments, this area decreases to a 5-foot burst.",
+            "traits": [],
+            "actions": "two",
+            "description": "The outriders draw or reload their longbows, then launch a volley of arrows at creatures in a 10-foot burst within 100 feet, dealing 3d8 piercing damage (DC 22 [basic Reflex save](/rule/basic-saving-throws-rules-2297)). When the squadron is reduced to 2 segments, this area decreases to a 5-foot burst."
+          },
+          {
+            "name": "Shatter Shadows",
+            "text": "**Requirements** The outriders are within an area of magical darkness; **Frequency** once per day; **Effect** The outriders call on the power wielded by Iriatykis, attempting to dispel any darkness effects in a 20-foot emanation with a +14 counteract modifier and a counteract rank of 4th. Each successfully counteracted effect explodes in a storm of tenebrous fragments, inflicting 2d6 spirit damage to enemies in a 20-foot burst centered on the effect (DC 22 Reflex save). Velstracs and worshippers of Zon-Kuthon get an outcome one degree worse than the result of their rolls on this saving throw.",
+            "traits": [
+              "concentrate",
+              "manipulate",
+              "occult"
+            ],
+            "actions": "two",
+            "effect": "The outriders call on the power wielded by Iriatykis, attempting to dispel any darkness effects in a 20-foot emanation with a +14 counteract modifier and a counteract rank of 4th. Each successfully counteracted effect explodes in a storm of tenebrous fragments, inflicting 2d6 spirit damage to enemies in a 20-foot burst centered on the effect (DC 22 Reflex save). Velstracs and worshippers of Zon-Kuthon get an outcome one degree worse than the result of their rolls on this saving throw.",
+            "description": "**Requirements** The outriders are within an area of magical darkness; **Frequency** once per day"
+          },
+          {
+            "name": "Skewering Strikes",
+            "text": "**Frequency** once per round; **Effect** The outriders plunge their longspears at enemies in a 10-foot emanation (DC 22 [basic Reflex save](/rule/basic-saving-throws-rules-2297)). The damage depends on the number of actions.\n**Single Action** 1d8 piercing damage\n[two-actions] 2d8+6 piercing damage\n[three-actions] 2d8+11 piercing damage",
+            "traits": [],
+            "effect": "The outriders plunge their longspears at enemies in a 10-foot emanation (DC 22 [basic Reflex save](/rule/basic-saving-throws-rules-2297)). The damage depends on the number of actions.\n**Single Action** 1d8 piercing damage\n[two-actions] 2d8+6 piercing damage\n[three-actions] 2d8+11 piercing damage",
+            "description": "**Frequency** once per round"
+          }
+        ]
+      },
+      "recallKnowledge": {
+        "dc": 25,
+        "skills": [
+          "nature",
+          "society"
+        ],
+        "subjects": [
+          "animal",
+          "humanoid"
+        ],
+        "entries": [
+          {
+            "subject": "animal",
+            "skills": [
+              "nature"
+            ]
+          },
+          {
+            "subject": "humanoid",
+            "skills": [
+              "society"
+            ]
+          }
+        ]
+      },
+      "recallKnowledgeText": "DC 25 (Nature, Society)",
+      "languagesText": "Common, Shadowtongue, Varisian",
+      "traitLinks": [
+        {
+          "label": "animal",
+          "slug": "animal"
+        },
+        {
+          "label": "human",
+          "slug": "human"
+        },
+        {
+          "label": "humanoid",
+          "slug": "humanoid"
+        },
+        {
+          "label": "troop",
+          "slug": "troop"
+        }
+      ],
+      "senseEntries": [
+        {
+          "name": "low-light vision",
+          "reference": "/action/low-light-vision-monster-core"
+        }
+      ],
+      "skillsEditor": {
+        "skills": {
+          "acrobatics": 17,
+          "athletics": 15,
+          "intimidation": 14,
+          "occultism": 12,
+          "survival": 15
+        },
+        "loreSkills": []
+      },
+      "weaknessEntries": [
+        {
+          "type": "area",
+          "value": 7
+        },
+        {
+          "type": "splash",
+          "value": 7
+        },
+        {
+          "type": "area-damage",
+          "value": 7
+        },
+        {
+          "type": "splash-damage",
+          "value": 7
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "hellfire-dispatches",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "animal",
+      "creature",
+      "hellfire-dispatches",
+      "human",
+      "humanoid",
+      "remaster",
+      "troop"
+    ],
+    "sources": [
+      {
+        "name": "Hellfire Dispatches",
+        "url": "https://2e.aonprd.com/Monsters.aspx?ID=4754",
+        "page": 118
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "9917A1B5-5C3C-5D6F-82E1-99BC596EDCE2",
+    "kind": "Creature",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Oprak Firestorm Battalion",
+    "slug": "oprak-firestorm-battalion-hellfire-dispatches-creature-creature-4750",
+    "descr": "",
+    "data": {
+      "level": 7,
+      "rarity": "uncommon",
+      "size": "gargantuan",
+      "traits": [
+        "hobgoblin",
+        "humanoid",
+        "troop"
+      ],
+      "attributes": {
+        "str": 2,
+        "dex": 4,
+        "con": 2,
+        "int": 6,
+        "wis": 2,
+        "cha": 1
+      },
+      "perception": 15,
+      "ac": {
+        "value": 24,
+        "details": ""
+      },
+      "hp": {
+        "value": 120,
+        "details": ""
+      },
+      "saves": {
+        "fortitude": 18,
+        "reflex": 15,
+        "will": 12,
+        "details": ""
+      },
+      "skills": {
+        "acrobatics": 15,
+        "athletics": 13,
+        "crafting": 17,
+        "intimidation": 12
+      },
+      "loreSkills": [],
+      "languages": [
+        "common",
+        "goblin"
+      ],
+      "senses": "[darkvision](/action/darkvision-monster-core)",
+      "immunities": [],
+      "weaknesses": {
+        "area": 5,
+        "splash": 5,
+        "area-damage": 5,
+        "splash-damage": 5
+      },
+      "resistances": {
+        "fire": "10"
+      },
+      "movement": {
+        "walk": 25
+      },
+      "attacks": [],
+      "abilities": {
+        "interaction": [],
+        "defensive": [],
+        "offensive": [
+          {
+            "name": "Blaze of Glory",
+            "text": "**Requirements** The firestorm battalion has been reduced to 2 segments; **Effect** In the face of imminent defeat, the battalion detonates its remaining explosives to take its enemies with it. All creatures within a 10-foot emanation, including the battalion itself, takes 5d8 fire damage with a DC 22 [basic Reflex save](/rule/basic-saving-throws-rules-2297); a creature that fails the save also takes 1d8 persistent fire damage. The battalion automatically critically fails this save and, should any members survive, can't use its Rain of Fire ability until it spend 8 hours crafting a new batch of incendiary devices.",
+            "traits": [],
+            "actions": "three",
+            "effect": "In the face of imminent defeat, the battalion detonates its remaining explosives to take its enemies with it. All creatures within a 10-foot emanation, including the battalion itself, takes 5d8 fire damage with a DC 22 [basic Reflex save](/rule/basic-saving-throws-rules-2297); a creature that fails the save also takes 1d8 persistent fire damage. The battalion automatically critically fails this save and, should any members survive, can't use its Rain of Fire ability until it spend 8 hours crafting a new batch of incendiary devices.",
+            "description": "**Requirements** The firestorm battalion has been reduced to 2 segments"
+          },
+          {
+            "name": "Close Ranks",
+            "text": "The battalion raises a perfect guard against explosions and enemy attacks. It gains a +2 circumstance bonus to AC and Reflex saves until the start of its next turn.",
+            "traits": [],
+            "actions": "one",
+            "description": "The battalion raises a perfect guard against explosions and enemy attacks. It gains a +2 circumstance bonus to AC and Reflex saves until the start of its next turn."
+          },
+          {
+            "name": "Rain of Fire",
+            "text": "The battalion draws and hurls alchemical bombs with practiced precision. The bombs rain down in a 10-foot burst within 30 feet that deals 3d8 fire damage and 1d4 persistent fire damage (DC 22 [basic Reflex save](/rule/basic-saving-throws-rules-2297)). When the troop is reduced to 2 segments, this area decreases to a 5-foot burst. Creatures adjacent to the burst take 1d4 splash fire damage.",
+            "traits": [],
+            "actions": "two",
+            "description": "The battalion draws and hurls alchemical bombs with practiced precision. The bombs rain down in a 10-foot burst within 30 feet that deals 3d8 fire damage and 1d4 persistent fire damage (DC 22 [basic Reflex save](/rule/basic-saving-throws-rules-2297)). When the troop is reduced to 2 segments, this area decreases to a 5-foot burst. Creatures adjacent to the burst take 1d4 splash fire damage."
+          },
+          {
+            "name": "Surgical Strikes",
+            "text": "**Frequency** once per round; **Effect** The battalion stabs with their pikes at enemies in a 5-foot emanation (DC 22 [basic Reflex save](/rule/basic-saving-throws-rules-2297)). The damage depends on the number of actions.\n**Single Action** 1d6+1 piercing damage\n**Two Actions** 2d6+8 piercing damage\n**Three Actions** 3d6+10 piercing damage",
+            "traits": [],
+            "effect": "The battalion stabs with their pikes at enemies in a 5-foot emanation (DC 22 [basic Reflex save](/rule/basic-saving-throws-rules-2297)). The damage depends on the number of actions.\n**Single Action** 1d6+1 piercing damage\n**Two Actions** 2d6+8 piercing damage\n**Three Actions** 3d6+10 piercing damage",
+            "description": "**Frequency** once per round"
+          }
+        ]
+      },
+      "recallKnowledge": {
+        "dc": 25,
+        "skills": [
+          "society"
+        ],
+        "subjects": [
+          "humanoid"
+        ],
+        "entries": [
+          {
+            "subject": "humanoid",
+            "skills": [
+              "society"
+            ]
+          }
+        ]
+      },
+      "recallKnowledgeText": "DC 25 (Society)",
+      "languagesText": "Common, Goblin",
+      "traitLinks": [
+        {
+          "label": "hobgoblin",
+          "slug": "hobgoblin"
+        },
+        {
+          "label": "humanoid",
+          "slug": "humanoid"
+        },
+        {
+          "label": "troop",
+          "slug": "troop"
+        }
+      ],
+      "senseEntries": [
+        {
+          "name": "darkvision",
+          "reference": "/action/darkvision-monster-core"
+        }
+      ],
+      "skillsEditor": {
+        "skills": {
+          "acrobatics": 15,
+          "athletics": 13,
+          "crafting": 17,
+          "intimidation": 12
+        },
+        "loreSkills": []
+      },
+      "weaknessEntries": [
+        {
+          "type": "area",
+          "value": 5
+        },
+        {
+          "type": "splash",
+          "value": 5
+        },
+        {
+          "type": "area-damage",
+          "value": 5
+        },
+        {
+          "type": "splash-damage",
+          "value": 5
+        }
+      ],
+      "resistanceEntries": [
+        {
+          "type": "fire",
+          "value": "10"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "hellfire-dispatches",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "creature",
+      "hellfire-dispatches",
+      "hobgoblin",
+      "humanoid",
+      "remaster",
+      "troop"
+    ],
+    "sources": [
+      {
+        "name": "Hellfire Dispatches",
+        "url": "https://2e.aonprd.com/Monsters.aspx?ID=4750",
+        "page": 83
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "E72C176E-125F-5348-A30F-7727AA30A1CA",
+    "kind": "Creature",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Ort Mob",
+    "slug": "ort-mob-hellfire-dispatches-creature-creature-4747",
+    "descr": "",
+    "data": {
+      "level": 5,
+      "rarity": "uncommon",
+      "size": "gargantuan",
+      "traits": [
+        "devil",
+        "fiend",
+        "mindless",
+        "troop",
+        "unholy"
+      ],
+      "attributes": {
+        "str": 5,
+        "dex": 0,
+        "con": 3,
+        "int": -5,
+        "wis": 2,
+        "cha": -3
+      },
+      "perception": 9,
+      "ac": {
+        "value": 21,
+        "details": ""
+      },
+      "hp": {
+        "value": 75,
+        "details": ""
+      },
+      "saves": {
+        "fortitude": 14,
+        "reflex": 9,
+        "will": 11,
+        "details": ""
+      },
+      "skills": {
+        "athletics": 14
+      },
+      "loreSkills": [],
+      "languages": [],
+      "senses": "[greater darkvision](/action/greater-darkvision-monster-core)",
+      "immunities": [
+        "[fire](/trait/fire)",
+        "[mental](/trait/mental)"
+      ],
+      "weaknesses": {
+        "area": 5,
+        "holy": 5,
+        "splash": 5,
+        "area-damage": 5,
+        "splash-damage": 5
+      },
+      "resistances": {
+        "bludgeoning": 5,
+        "physical": 5,
+        "piercing": 5,
+        "poison": 5,
+        "slashing": 5
+      },
+      "movement": {
+        "walk": 20
+      },
+      "attacks": [],
+      "abilities": {
+        "interaction": [],
+        "defensive": [],
+        "offensive": [
+          {
+            "name": "Subservience",
+            "text": "An ort mob can be commandeered by any non-ort devil within 60 feet of it with a single action, which has the [auditory](/trait/auditory) and concentrate traits. The devil picks one of the following commands, and the ort mob follows it to the best of their ability. The command and its effects end once the commander is out of the mob's sight or when a new command is issued by the same or another devil.\n\n- **Hustle** The mob gains a +10-foot circumstance bonus to its Speed until the command ends.\n- **Kill** The mob moves adjacent to one target singled out by its commander and spends all its available actions to use Grasping Claws until the target is dead or the command ends. The targeted creature takes a –1 circumstance penalty to its Reflex save against Grasping Claws and it takes an additional 1d6 slashing damage from the attack.\n- **Rally** The mob moves so that it shares a space with its commander. The commander doesn't treat the mob's spaces as difficult terrain and gains lesser cover while it's in the mob's spaces until the command ends.\n- **Work** The mob performs drudge work dictated by its commander. Faceless Horde An ort mob is less organized than most troops. It can move into other creatures' spaces, and other creatures can move into its spaces. Its spaces are difficult terrain to other creatures.",
+            "traits": [],
+            "description": "An ort mob can be commandeered by any non-ort devil within 60 feet of it with a single action, which has the [auditory](/trait/auditory) and concentrate traits. The devil picks one of the following commands, and the ort mob follows it to the best of their ability. The command and its effects end once the commander is out of the mob's sight or when a new command is issued by the same or another devil.\n\n- **Hustle** The mob gains a +10-foot circumstance bonus to its Speed until the command ends.\n- **Kill** The mob moves adjacent to one target singled out by its commander and spends all its available actions to use Grasping Claws until the target is dead or the command ends. The targeted creature takes a –1 circumstance penalty to its Reflex save against Grasping Claws and it takes an additional 1d6 slashing damage from the attack.\n- **Rally** The mob moves so that it shares a space with its commander. The commander doesn't treat the mob's spaces as difficult terrain and gains lesser cover while it's in the mob's spaces until the command ends.\n- **Work** The mob performs drudge work dictated by its commander. Faceless Horde An ort mob is less organized than most troops. It can move into other creatures' spaces, and other creatures can move into its spaces. Its spaces are difficult terrain to other creatures."
+          },
+          {
+            "name": "Grasping Claws",
+            "text": "**Frequency** once per round; **Effect** The ort mob claws at all enemies in a 5-foot emanation (DC 19 [basic Reflex save](/rule/basic-saving-throws-rules-2297)). The damage depends on the number of actions.\n**Single Action** 1d6+1 slashing damage\n**Two Actions** 2d6+5 slashing damage\n**Three Actions** 3d6+6 slashing damage",
+            "traits": [
+              "magical",
+              "unholy"
+            ],
+            "effect": "The ort mob claws at all enemies in a 5-foot emanation (DC 19 [basic Reflex save](/rule/basic-saving-throws-rules-2297)). The damage depends on the number of actions.\n**Single Action** 1d6+1 slashing damage\n**Two Actions** 2d6+5 slashing damage\n**Three Actions** 3d6+6 slashing damage",
+            "description": "**Frequency** once per round"
+          }
+        ]
+      },
+      "recallKnowledge": {
+        "dc": 22,
+        "skills": [
+          "religion"
+        ],
+        "subjects": [
+          "fiend"
+        ],
+        "entries": [
+          {
+            "subject": "fiend",
+            "skills": [
+              "religion"
+            ]
+          }
+        ]
+      },
+      "recallKnowledgeText": "DC 22 (Religion)",
+      "languagesText": "",
+      "traitLinks": [
+        {
+          "label": "devil",
+          "slug": "devil"
+        },
+        {
+          "label": "fiend",
+          "slug": "fiend"
+        },
+        {
+          "label": "mindless",
+          "slug": "mindless"
+        },
+        {
+          "label": "troop",
+          "slug": "troop"
+        },
+        {
+          "label": "unholy",
+          "slug": "unholy"
+        }
+      ],
+      "senseEntries": [
+        {
+          "name": "greater darkvision",
+          "reference": "/action/greater-darkvision-monster-core"
+        }
+      ],
+      "immunityEditor": {
+        "entries": [
+          {
+            "name": "fire",
+            "reference": "/trait/fire"
+          },
+          {
+            "name": "mental",
+            "reference": "/trait/mental"
+          }
+        ]
+      },
+      "skillsEditor": {
+        "skills": {
+          "athletics": 14
+        },
+        "loreSkills": []
+      },
+      "weaknessEntries": [
+        {
+          "type": "area",
+          "value": 5
+        },
+        {
+          "type": "holy",
+          "value": 5
+        },
+        {
+          "type": "splash",
+          "value": 5
+        },
+        {
+          "type": "area-damage",
+          "value": 5
+        },
+        {
+          "type": "splash-damage",
+          "value": 5
+        }
+      ],
+      "resistanceEntries": [
+        {
+          "type": "bludgeoning",
+          "value": 5
+        },
+        {
+          "type": "physical",
+          "value": 5
+        },
+        {
+          "type": "piercing",
+          "value": 5
+        },
+        {
+          "type": "poison",
+          "value": 5
+        },
+        {
+          "type": "slashing",
+          "value": 5
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "hellfire-dispatches",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "creature",
+      "devil",
+      "fiend",
+      "hellfire-dispatches",
+      "mindless",
+      "remaster",
+      "troop",
+      "unholy"
+    ],
+    "sources": [
+      {
+        "name": "Hellfire Dispatches",
+        "url": "https://2e.aonprd.com/Monsters.aspx?ID=4747",
+        "page": 71
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "A49D49F3-BC99-52CA-AAE9-FACAAD2F9E80",
+    "kind": "Creature",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Pure Legion Regiment",
+    "slug": "pure-legion-regiment-hellfire-dispatches-creature-creature-4743",
+    "descr": "",
+    "data": {
+      "level": 10,
+      "rarity": "uncommon",
+      "size": "gargantuan",
+      "traits": [
+        "human",
+        "humanoid",
+        "troop"
+      ],
+      "attributes": {
+        "str": 5,
+        "dex": 3,
+        "con": 2,
+        "int": 2,
+        "wis": 7,
+        "cha": 2
+      },
+      "perception": 19,
+      "ac": {
+        "value": 29,
+        "details": ""
+      },
+      "hp": {
+        "value": 180,
+        "details": ""
+      },
+      "saves": {
+        "fortitude": 16,
+        "reflex": 19,
+        "will": 22,
+        "details": ""
+      },
+      "skills": {
+        "acrobatics": 20,
+        "athletics": 22,
+        "intimidation": 22,
+        "religion": 21
+      },
+      "loreSkills": [],
+      "languages": [
+        "common",
+        "osiriani"
+      ],
+      "senses": "detect magic (divine magic only)",
+      "immunities": [],
+      "weaknesses": {
+        "area": 10,
+        "splash": 10,
+        "area-damage": 10,
+        "splash-damage": 10
+      },
+      "resistances": {},
+      "movement": {
+        "walk": 25
+      },
+      "attacks": [],
+      "abilities": {
+        "interaction": [],
+        "defensive": [
+          {
+            "name": "Nonbelievers",
+            "text": "When attempting a saving throw against a spell or effect with the [divine](/trait/divine) trait, a Pure Legion regiment gets an outcome one degree better than the result of their roll. However, the regiment can't ever be a willing target for helpful divine spells.",
+            "traits": [],
+            "description": "When attempting a saving throw against a spell or effect with the [divine](/trait/divine) trait, a Pure Legion regiment gets an outcome one degree better than the result of their roll. However, the regiment can't ever be a willing target for helpful divine spells."
+          }
+        ],
+        "offensive": [
+          {
+            "name": "Crossbow Volley",
+            "text": "The regiment draws or reloads their crossbows and concentrates fire on creatures in a 10-foot burst within 60 feet that deals 4d8 piercing damage (DC 26 [basic Reflex save](/rule/basic-saving-throws-rules-2297)). When the regiment is reduced to 2 segments, this area decreases to a 5-foot burst.",
+            "traits": [],
+            "actions": "two",
+            "description": "The regiment draws or reloads their crossbows and concentrates fire on creatures in a 10-foot burst within 60 feet that deals 4d8 piercing damage (DC 26 [basic Reflex save](/rule/basic-saving-throws-rules-2297)). When the regiment is reduced to 2 segments, this area decreases to a 5-foot burst."
+          },
+          {
+            "name": "Denounce Divinity",
+            "text": "**Frequency** once per day; **Effect** With one voice, the Pure Legion regiment decries the authority of a single deity of their choice, forcing all worshippers of that deity within a 30-foot emanation to attempt a DC 28 Will save. Regardless of the result of the saving throw, a creature is temporarily immune to Denounce Divinity for 24 hours.\n **Critical Success** The creature is unaffected.\n **Success** The creature becomes stupefied 1 for 1 hour, with the flat check from stupefied for Casting a Spell applying exclusively to spells from the [divine](/trait/divine) tradition.\n **Failure** As success, but the creature is stupefied 2.\n **Critical Failure** As success, but the creature is stupefied 3 and frightened 1 as their faith is shaken to its core.",
+            "traits": [
+              "auditory",
+              "linguistic",
+              "mental"
+            ],
+            "actions": "two",
+            "effect": "With one voice, the Pure Legion regiment decries the authority of a single deity of their choice, forcing all worshippers of that deity within a 30-foot emanation to attempt a DC 28 Will save. Regardless of the result of the saving throw, a creature is temporarily immune to Denounce Divinity for 24 hours.\n **Critical Success** The creature is unaffected.\n **Success** The creature becomes stupefied 1 for 1 hour, with the flat check from stupefied for Casting a Spell applying exclusively to spells from the [divine](/trait/divine) tradition.\n **Failure** As success, but the creature is stupefied 2.\n **Critical Failure** As success, but the creature is stupefied 3 and frightened 1 as their faith is shaken to its core.",
+            "description": "**Frequency** once per day"
+          },
+          {
+            "name": "Rebuking Strike",
+            "text": "**Frequency** once per round; **Effect** The regiment strikes with their longswords against enemies in a 5-foot emanation (DC 26 [basic Reflex save](/rule/basic-saving-throws-rules-2297)). Damage dealt depends on the number of actions. If a creature critically fails the Reflex save while affected by the regiment's Denounce Divinity, it is unable to reduce its stupefied or frightened condition by any means for 1 round.\n**Single Action** 1d8+2 slashing damage\n **Two Actions** 2d8+11 slashing damage\n **Three Actions** 3d8+13 slashing damage.",
+            "traits": [],
+            "effect": "The regiment strikes with their longswords against enemies in a 5-foot emanation (DC 26 [basic Reflex save](/rule/basic-saving-throws-rules-2297)). Damage dealt depends on the number of actions. If a creature critically fails the Reflex save while affected by the regiment's Denounce Divinity, it is unable to reduce its stupefied or frightened condition by any means for 1 round.\n**Single Action** 1d8+2 slashing damage\n **Two Actions** 2d8+11 slashing damage\n **Three Actions** 3d8+13 slashing damage.",
+            "description": "**Frequency** once per round"
+          }
+        ]
+      },
+      "recallKnowledge": {
+        "dc": 29,
+        "skills": [
+          "society"
+        ],
+        "subjects": [
+          "humanoid"
+        ],
+        "entries": [
+          {
+            "subject": "humanoid",
+            "skills": [
+              "society"
+            ]
+          }
+        ]
+      },
+      "recallKnowledgeText": "DC 29 (Society)",
+      "languagesText": "Common, Osiriani",
+      "traitLinks": [
+        {
+          "label": "human",
+          "slug": "human"
+        },
+        {
+          "label": "humanoid",
+          "slug": "humanoid"
+        },
+        {
+          "label": "troop",
+          "slug": "troop"
+        }
+      ],
+      "spellcasting": [
+        {
+          "name": "Occult Innate Spells",
+          "spellGroups": [
+            {
+              "label": "3rd",
+              "spells": [
+                {
+                  "name": "Ring of Truth",
+                  "rank": 3,
+                  "reference": "/spell/ring-of-truth-player-core",
+                  "atWill": true
+                }
+              ]
+            },
+            {
+              "label": "Constant (5th)",
+              "spells": [
+                {
+                  "name": "Detect Magic",
+                  "rank": 5,
+                  "reference": "/spell/detect-magic-player-core"
+                }
+              ]
+            }
+          ],
+          "spellDC": 26
+        }
+      ],
+      "senseEntries": [
+        {
+          "name": "detect magic (divine magic only)"
+        }
+      ],
+      "skillsEditor": {
+        "skills": {
+          "acrobatics": 20,
+          "athletics": 22,
+          "intimidation": 22,
+          "religion": 21
+        },
+        "loreSkills": []
+      },
+      "weaknessEntries": [
+        {
+          "type": "area",
+          "value": 10
+        },
+        {
+          "type": "splash",
+          "value": 10
+        },
+        {
+          "type": "area-damage",
+          "value": 10
+        },
+        {
+          "type": "splash-damage",
+          "value": 10
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "hellfire-dispatches",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "creature",
+      "hellfire-dispatches",
+      "human",
+      "humanoid",
+      "remaster",
+      "troop"
+    ],
+    "sources": [
+      {
+        "name": "Hellfire Dispatches",
+        "url": "https://2e.aonprd.com/Monsters.aspx?ID=4743",
+        "page": 58
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "EEF527D3-1DF8-5320-80DD-940DDD6338E9",
+    "kind": "Creature",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Sacristan Scourge",
+    "slug": "sacristan-scourge-hellfire-dispatches-creature-creature-4755",
+    "descr": "",
+    "data": {
+      "level": 15,
+      "rarity": "uncommon",
+      "size": "gargantuan",
+      "traits": [
+        "fiend",
+        "troop",
+        "unholy",
+        "velstrac"
+      ],
+      "attributes": {
+        "str": 7,
+        "dex": 5,
+        "con": 6,
+        "int": 0,
+        "wis": 3,
+        "cha": 2
+      },
+      "perception": 26,
+      "ac": {
+        "value": 36,
+        "details": ""
+      },
+      "hp": {
+        "value": 270,
+        "details": ""
+      },
+      "saves": {
+        "fortitude": 29,
+        "reflex": 25,
+        "will": 24,
+        "details": "+1 status to all saves vs. magic"
+      },
+      "skills": {
+        "acrobatics": 28,
+        "athletics": 30,
+        "intimidation": 25,
+        "stealth": 28
+      },
+      "loreSkills": [
+        {
+          "name": "Torture Lore",
+          "value": 21
+        }
+      ],
+      "languages": [
+        "common",
+        "diabolic",
+        "shadowtongue"
+      ],
+      "senses": "[greater darkvision](/action/greater-darkvision-monster-core), painsight",
+      "immunities": [],
+      "weaknesses": {
+        "area": 15,
+        "holy": 15,
+        "silver": 15,
+        "splash": 15,
+        "area-damage": 15,
+        "splash-damage": 15
+      },
+      "resistances": {},
+      "movement": {
+        "walk": 25
+      },
+      "attacks": [],
+      "abilities": {
+        "interaction": [
+          {
+            "name": "Painsight",
+            "text": "Each member of a sacristan scourge automatically knows whether a creature they can see has any of the doomed, dying, and wounded conditions, as well as the value of those conditions.",
+            "traits": [
+              "divine"
+            ],
+            "description": "Each member of a sacristan scourge automatically knows whether a creature they can see has any of the doomed, dying, and wounded conditions, as well as the value of those conditions."
+          }
+        ],
+        "defensive": [
+          {
+            "name": "Staggering Servitude",
+            "text": "30 feet. When a creature ends its turn in the sacristan scourge's aura, it is subjected to an overwhelming vision of the entire scourge groveling piteously before it. The creature must succeed at a DC 33 Will save or become stunned 1.",
+            "traits": [
+              "aura",
+              "divine",
+              "fear",
+              "mental",
+              "visual"
+            ],
+            "description": "30 feet. When a creature ends its turn in the sacristan scourge's aura, it is subjected to an overwhelming vision of the entire scourge groveling piteously before it. The creature must succeed at a DC 33 Will save or become stunned 1."
+          }
+        ],
+        "offensive": [
+          {
+            "name": "Focus Gaze",
+            "text": "The sacristans stare at a creature they can see within 30 feet. The creature must immediately attempt a Will save against staggering servitude. In addition, if the creature was already stunned, on a failed save its revulsion toward the sacristans' presence causes it to be stupefied 2 for 1 minute. After attempting this save, the creature is then temporarily immune to staggering servitude until the start of the scourge's next turn.",
+            "traits": [
+              "concentrate",
+              "divine",
+              "fear",
+              "mental",
+              "visual"
+            ],
+            "actions": "one",
+            "description": "The sacristans stare at a creature they can see within 30 feet. The creature must immediately attempt a Will save against staggering servitude. In addition, if the creature was already stunned, on a failed save its revulsion toward the sacristans' presence causes it to be stupefied 2 for 1 minute. After attempting this save, the creature is then temporarily immune to staggering servitude until the start of the scourge's next turn."
+          },
+          {
+            "name": "Shadow Scream",
+            "text": "**Frequency** once per hour; **Effect** The sacristans open their mouths in unison to unleash a chorus of ghastly wailing infused with the mind-shattering darkness of the Netherworld. This creates a 30-foot emanation of darkness and pandemonium around it that's impenetrable even to creatures with darkvision (but not greater darkvision). They can Sustain Shadow Scream for up to 1 minute. Non-velstrac creatures in the area when the ability is used, as well as those that enter or start their turn in the area, must attempt a DC 33 Will save.\n **Critical Success** The creature is unaffected and is temporarily immune for 24 hours.\n **Success** The creature is deafened for 1 round.\n **Failure** The creature is confused and deafened for 1 round.\n **Critical Failure** The creature takes 60 mental damage and is confused and deafened for 1 round.",
+            "traits": [
+              "aura",
+              "concentrate",
+              "darkness",
+              "divine",
+              "mental",
+              "sonic"
+            ],
+            "actions": "three",
+            "effect": "The sacristans open their mouths in unison to unleash a chorus of ghastly wailing infused with the mind-shattering darkness of the Netherworld. This creates a 30-foot emanation of darkness and pandemonium around it that's impenetrable even to creatures with darkvision (but not greater darkvision). They can Sustain Shadow Scream for up to 1 minute. Non-velstrac creatures in the area when the ability is used, as well as those that enter or start their turn in the area, must attempt a DC 33 Will save.\n **Critical Success** The creature is unaffected and is temporarily immune for 24 hours.\n **Success** The creature is deafened for 1 round.\n **Failure** The creature is confused and deafened for 1 round.\n **Critical Failure** The creature takes 60 mental damage and is confused and deafened for 1 round.",
+            "description": "**Frequency** once per hour"
+          },
+          {
+            "name": "Storm of Agony",
+            "text": "**Frequency** once per round; **Effect** The scourge lashes with barbed chains against enemies in a 10-foot emanation (DC 33 [basic Reflex save](/rule/basic-saving-throws-rules-2297)). The damage depends on the number of actions. A creature that critically fails is also knocked prone.\n**Single Action** 1d8 piercing plus 1d6 spirit and 1d4 persistent bleed\n[two-actions] 3d8+6 piercing plus 1d6 spirit and 1d6 persistent bleed\n[three-actions] 4d8+9 piercing plus 1d6 spirit and 1d8 persistent bleed",
+            "traits": [
+              "divine",
+              "unholy"
+            ],
+            "effect": "The scourge lashes with barbed chains against enemies in a 10-foot emanation (DC 33 [basic Reflex save](/rule/basic-saving-throws-rules-2297)). The damage depends on the number of actions. A creature that critically fails is also knocked prone.\n**Single Action** 1d8 piercing plus 1d6 spirit and 1d4 persistent bleed\n[two-actions] 3d8+6 piercing plus 1d6 spirit and 1d6 persistent bleed\n[three-actions] 4d8+9 piercing plus 1d6 spirit and 1d8 persistent bleed",
+            "description": "**Frequency** once per round"
+          }
+        ]
+      },
+      "recallKnowledge": {
+        "dc": 36,
+        "skills": [
+          "religion"
+        ],
+        "subjects": [
+          "fiend"
+        ],
+        "entries": [
+          {
+            "subject": "fiend",
+            "skills": [
+              "religion"
+            ]
+          }
+        ]
+      },
+      "recallKnowledgeText": "DC 36 (Religion)",
+      "languagesText": "Common, Diabolic, Shadowtongue",
+      "traitLinks": [
+        {
+          "label": "fiend",
+          "slug": "fiend"
+        },
+        {
+          "label": "troop",
+          "slug": "troop"
+        },
+        {
+          "label": "unholy",
+          "slug": "unholy"
+        },
+        {
+          "label": "velstrac",
+          "slug": "velstrac"
+        }
+      ],
+      "spellcasting": [
+        {
+          "name": "Divine Innate Spells",
+          "spellGroups": [
+            {
+              "label": "3rd",
+              "spells": [
+                {
+                  "name": "Fear",
+                  "rank": 3,
+                  "reference": "/spell/fear-player-core",
+                  "details": "×2"
+                }
+              ]
+            },
+            {
+              "label": "5th",
+              "spells": [
+                {
+                  "name": "Chilling Darkness",
+                  "rank": 5,
+                  "reference": "/spell/chilling-darkness-player-core",
+                  "details": "×2"
+                }
+              ]
+            }
+          ],
+          "spellDC": 35
+        }
+      ],
+      "senseEntries": [
+        {
+          "name": "greater darkvision",
+          "reference": "/action/greater-darkvision-monster-core"
+        },
+        {
+          "name": "painsight"
+        }
+      ],
+      "skillsEditor": {
+        "skills": {
+          "acrobatics": 28,
+          "athletics": 30,
+          "intimidation": 25,
+          "stealth": 28
+        },
+        "loreSkills": [
+          {
+            "name": "Torture Lore",
+            "value": 21
+          }
+        ]
+      },
+      "weaknessEntries": [
+        {
+          "type": "area",
+          "value": 15
+        },
+        {
+          "type": "holy",
+          "value": 15
+        },
+        {
+          "type": "silver",
+          "value": 15
+        },
+        {
+          "type": "splash",
+          "value": 15
+        },
+        {
+          "type": "area-damage",
+          "value": 15
+        },
+        {
+          "type": "splash-damage",
+          "value": 15
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "hellfire-dispatches",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "creature",
+      "fiend",
+      "hellfire-dispatches",
+      "remaster",
+      "troop",
+      "unholy",
+      "velstrac"
+    ],
+    "sources": [
+      {
+        "name": "Hellfire Dispatches",
+        "url": "https://2e.aonprd.com/Monsters.aspx?ID=4755",
+        "page": 118
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "64387037-6FF8-5AEC-B0AE-6BDFEE4D0C0B",
+    "kind": "Creature",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Shackles Pirate Crew",
+    "slug": "shackles-pirate-crew-hellfire-dispatches-creature-creature-4744",
+    "descr": "",
+    "data": {
+      "level": 5,
+      "rarity": "uncommon",
+      "size": "gargantuan",
+      "traits": [
+        "human",
+        "humanoid",
+        "troop"
+      ],
+      "attributes": {
+        "str": 5,
+        "dex": 4,
+        "con": 2,
+        "int": 0,
+        "wis": 1,
+        "cha": 1
+      },
+      "perception": 12,
+      "ac": {
+        "value": 21,
+        "details": ""
+      },
+      "hp": {
+        "value": 75,
+        "details": ""
+      },
+      "saves": {
+        "fortitude": 10,
+        "reflex": 15,
+        "will": 12,
+        "details": ""
+      },
+      "skills": {
+        "acrobatics": 12,
+        "athletics": 13,
+        "intimidation": 12
+      },
+      "loreSkills": [],
+      "languages": [
+        "common",
+        "mwangi"
+      ],
+      "senses": "",
+      "immunities": [],
+      "weaknesses": {
+        "area": 4,
+        "splash": 4,
+        "area-damage": 4,
+        "splash-damage": 4
+      },
+      "resistances": {},
+      "movement": {
+        "walk": 25
+      },
+      "attacks": [],
+      "abilities": {
+        "interaction": [],
+        "defensive": [],
+        "offensive": [
+          {
+            "name": "Disarming Twist",
+            "text": "**Requirements** The crew's previous action was a Scurvy [Strike](/action/strike-player-core) that dealt damage to at least one enemy; **Effect** The crew uses their weapons to knock the weapons out of their enemies' hands. The crew attempts a single Athletics check to Disarm, comparing the result to the Reflex DC of each creature that was damaged by the required Scurvy Strike. If the result is a critical failure, the crew gets a failure instead.",
+            "traits": [],
+            "actions": "one",
+            "effect": "The crew uses their weapons to knock the weapons out of their enemies' hands. The crew attempts a single Athletics check to Disarm, comparing the result to the Reflex DC of each creature that was damaged by the required Scurvy Strike. If the result is a critical failure, the crew gets a failure instead.",
+            "description": "**Requirements** The crew's previous action was a Scurvy [Strike](/action/strike-player-core) that dealt damage to at least one enemy"
+          },
+          {
+            "name": "Scurvy Strike",
+            "text": "**Frequency** once per round; **Effect** The crew strikes with belaying pins, hooks, and cutlasses at enemies in a 5-foot emanation (DC 19 [basic Reflex save](/rule/basic-saving-throws-rules-2297)). The damage depends on the number of actions.\n**Single Action** 1d6 bludgeoning, piercing, or slashing damage\n**Two Actions** 2d6+4 bludgeoning, piercing, or slashing damage\n**Three Actions** 3d6+6 bludgeoning, piercing, or slashing damage",
+            "traits": [],
+            "effect": "The crew strikes with belaying pins, hooks, and cutlasses at enemies in a 5-foot emanation (DC 19 [basic Reflex save](/rule/basic-saving-throws-rules-2297)). The damage depends on the number of actions.\n**Single Action** 1d6 bludgeoning, piercing, or slashing damage\n**Two Actions** 2d6+4 bludgeoning, piercing, or slashing damage\n**Three Actions** 3d6+6 bludgeoning, piercing, or slashing damage",
+            "description": "**Frequency** once per round"
+          }
+        ]
+      },
+      "recallKnowledge": {
+        "dc": 22,
+        "skills": [
+          "society"
+        ],
+        "subjects": [
+          "humanoid"
+        ],
+        "entries": [
+          {
+            "subject": "humanoid",
+            "skills": [
+              "society"
+            ]
+          }
+        ]
+      },
+      "recallKnowledgeText": "DC 22 (Society)",
+      "languagesText": "Common, Mwangi",
+      "traitLinks": [
+        {
+          "label": "human",
+          "slug": "human"
+        },
+        {
+          "label": "humanoid",
+          "slug": "humanoid"
+        },
+        {
+          "label": "troop",
+          "slug": "troop"
+        }
+      ],
+      "skillsEditor": {
+        "skills": {
+          "acrobatics": 12,
+          "athletics": 13,
+          "intimidation": 12
+        },
+        "loreSkills": []
+      },
+      "weaknessEntries": [
+        {
+          "type": "area",
+          "value": 4
+        },
+        {
+          "type": "splash",
+          "value": 4
+        },
+        {
+          "type": "area-damage",
+          "value": 4
+        },
+        {
+          "type": "splash-damage",
+          "value": 4
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "hellfire-dispatches",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "creature",
+      "hellfire-dispatches",
+      "human",
+      "humanoid",
+      "remaster",
+      "troop"
+    ],
+    "sources": [
+      {
+        "name": "Hellfire Dispatches",
+        "url": "https://2e.aonprd.com/Monsters.aspx?ID=4744",
+        "page": 59
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "780482D0-72AB-5335-8AB4-6D2CA6B70B0C",
+    "kind": "Creature",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Thrune Champion Army",
+    "slug": "thrune-champion-army-hellfire-dispatches-creature-creature-4752",
+    "descr": "",
+    "data": {
+      "level": 11,
+      "rarity": "uncommon",
+      "size": "gargantuan",
+      "traits": [
+        "human",
+        "humanoid",
+        "troop",
+        "unholy"
+      ],
+      "attributes": {
+        "str": 6,
+        "dex": 2,
+        "con": 5,
+        "int": 1,
+        "wis": 2,
+        "cha": 1
+      },
+      "perception": 21,
+      "ac": {
+        "value": 30,
+        "details": ""
+      },
+      "hp": {
+        "value": 195,
+        "details": ""
+      },
+      "saves": {
+        "fortitude": 24,
+        "reflex": 18,
+        "will": 21,
+        "details": ""
+      },
+      "skills": {
+        "acrobatics": 19,
+        "athletics": 23,
+        "intimidation": 18,
+        "religion": 19,
+        "society": 19
+      },
+      "loreSkills": [
+        {
+          "name": "Hell Lore",
+          "value": 18
+        }
+      ],
+      "languages": [
+        "common",
+        "diabolic"
+      ],
+      "senses": "",
+      "immunities": [],
+      "weaknesses": {
+        "area": 10,
+        "holy": 10,
+        "splash": 10,
+        "area-damage": 10,
+        "splash-damage": 10
+      },
+      "resistances": {},
+      "movement": {
+        "walk": 25
+      },
+      "attacks": [],
+      "abilities": {
+        "interaction": [],
+        "defensive": [],
+        "offensive": [
+          {
+            "name": "Massacre",
+            "text": "**Frequency** once per round; **Effect** The champions slash mercilessly with their broadswords against enemies in a 5-foot emanation (DC 27 [basic Reflex save](/rule/basic-saving-throws-rules-2297)). The damage depends on the number of actions.\n**Single Action** 1d8+3 slashing damage\n**Two Actions** 2d8+12 slashing damage\n**Three Actions** 3d8+14 slashing damage",
+            "traits": [],
+            "effect": "The champions slash mercilessly with their broadswords against enemies in a 5-foot emanation (DC 27 [basic Reflex save](/rule/basic-saving-throws-rules-2297)). The damage depends on the number of actions.\n**Single Action** 1d8+3 slashing damage\n**Two Actions** 2d8+12 slashing damage\n**Three Actions** 3d8+14 slashing damage",
+            "description": "**Frequency** once per round"
+          },
+          {
+            "name": "Unleash Hell",
+            "text": "The champions draw or reload their longbows, then launch a ranged attack in the form of a volley. This volley is a 10-foot burst within 100 feet that deals 5d8 piercing damage (DC 27 [basic Reflex save](/rule/basic-saving-throws-rules-2297)). When the troop is reduced to 2 segments, this area decreases to a 5-foot burst.",
+            "traits": [],
+            "actions": "two",
+            "description": "The champions draw or reload their longbows, then launch a ranged attack in the form of a volley. This volley is a 10-foot burst within 100 feet that deals 5d8 piercing damage (DC 27 [basic Reflex save](/rule/basic-saving-throws-rules-2297)). When the troop is reduced to 2 segments, this area decreases to a 5-foot burst."
+          },
+          {
+            "name": "Wrath of Asmodeus",
+            "text": "The champions channel the infernal power of Hell itself into their strikes. If their next action is a Massacre that deals damage to at least one creature, all creatures that take damage from Massacre must also attempt a DC 27 Will save.\n **Critical Success** The creature is unaffected.\n **Success** The creature is frightened 1.\n **Failure** The creature is frightened 2.\n **Critical Failure** The creature is frightened 2, becomes stupefied 2 for 1 round, and takes 1d6 persistent fire damage.",
+            "traits": [
+              "divine",
+              "emotion",
+              "fear",
+              "mental",
+              "unholy"
+            ],
+            "actions": "one",
+            "description": "The champions channel the infernal power of Hell itself into their strikes. If their next action is a Massacre that deals damage to at least one creature, all creatures that take damage from Massacre must also attempt a DC 27 Will save.\n **Critical Success** The creature is unaffected.\n **Success** The creature is frightened 1.\n **Failure** The creature is frightened 2.\n **Critical Failure** The creature is frightened 2, becomes stupefied 2 for 1 round, and takes 1d6 persistent fire damage."
+          }
+        ]
+      },
+      "recallKnowledge": {
+        "dc": 30,
+        "skills": [
+          "society"
+        ],
+        "subjects": [
+          "humanoid"
+        ],
+        "entries": [
+          {
+            "subject": "humanoid",
+            "skills": [
+              "society"
+            ]
+          }
+        ]
+      },
+      "recallKnowledgeText": "DC 30 (Society)",
+      "languagesText": "Common, Diabolic",
+      "traitLinks": [
+        {
+          "label": "human",
+          "slug": "human"
+        },
+        {
+          "label": "humanoid",
+          "slug": "humanoid"
+        },
+        {
+          "label": "troop",
+          "slug": "troop"
+        },
+        {
+          "label": "unholy",
+          "slug": "unholy"
+        }
+      ],
+      "skillsEditor": {
+        "skills": {
+          "acrobatics": 19,
+          "athletics": 23,
+          "intimidation": 18,
+          "religion": 19,
+          "society": 19
+        },
+        "loreSkills": [
+          {
+            "name": "Hell Lore",
+            "value": 18
+          }
+        ]
+      },
+      "weaknessEntries": [
+        {
+          "type": "area",
+          "value": 10
+        },
+        {
+          "type": "holy",
+          "value": 10
+        },
+        {
+          "type": "splash",
+          "value": 10
+        },
+        {
+          "type": "area-damage",
+          "value": 10
+        },
+        {
+          "type": "splash-damage",
+          "value": 10
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "hellfire-dispatches",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "creature",
+      "hellfire-dispatches",
+      "human",
+      "humanoid",
+      "remaster",
+      "troop",
+      "unholy"
+    ],
+    "sources": [
+      {
+        "name": "Hellfire Dispatches",
+        "url": "https://2e.aonprd.com/Monsters.aspx?ID=4752",
+        "page": 106
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "DB30B2BD-87E2-5983-B365-52D217924480",
+    "kind": "Creature",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Twilight Talon Infiltrator Team",
+    "slug": "twilight-talon-infiltrator-team-hellfire-dispatches-creature-creature-4753",
+    "descr": "",
+    "data": {
+      "level": 8,
+      "rarity": "uncommon",
+      "size": "gargantuan",
+      "traits": [
+        "human",
+        "humanoid",
+        "troop"
+      ],
+      "attributes": {
+        "str": 2,
+        "dex": 4,
+        "con": 0,
+        "int": 1,
+        "wis": 2,
+        "cha": 4
+      },
+      "perception": 16,
+      "ac": {
+        "value": 27,
+        "details": ""
+      },
+      "hp": {
+        "value": 135,
+        "details": ""
+      },
+      "saves": {
+        "fortitude": 12,
+        "reflex": 18,
+        "will": 16,
+        "details": ""
+      },
+      "skills": {
+        "acrobatics": 16,
+        "athletics": 14,
+        "deception": 18,
+        "stealth": 18
+      },
+      "loreSkills": [],
+      "languages": [
+        "common"
+      ],
+      "senses": "",
+      "immunities": [],
+      "weaknesses": {
+        "area": 8,
+        "splash": 8,
+        "area-damage": 8,
+        "splash-damage": 8
+      },
+      "resistances": {},
+      "movement": {
+        "walk": 25
+      },
+      "attacks": [],
+      "abilities": {
+        "interaction": [],
+        "defensive": [
+          {
+            "name": "Now!!",
+            "text": "**Trigger** A creature moves adjacent to the infiltrators or takes a hostile action against them; **Requirements** The infiltrators are disguised; **Effect** The infiltrators cast aside their disguises and unleash a 2-action Blindside against all enemies in a 5-foot emanation. A creature that critically fails the save takes an additional 1d6 precision damage.\nTroop Defenses",
+            "traits": [],
+            "actions": "reaction",
+            "effect": "The infiltrators cast aside their disguises and unleash a 2-action Blindside against all enemies in a 5-foot emanation. A creature that critically fails the save takes an additional 1d6 precision damage.\nTroop Defenses",
+            "trigger": "A creature moves adjacent to the infiltrators or takes a hostile action against them",
+            "triggerBeforeDescription": true,
+            "description": "**Requirements** The infiltrators are disguised"
+          },
+          {
+            "name": "Undercover",
+            "text": "By spending 2 hours preparing disguises, performing reconnaissance, and the like, the infiltrators can convincingly impersonate any troop unit of their level or lower that has the humanoid trait. Alternatively, they can disguise themselves as a mixed assortment of humanoid noncombatants who don't obviously form a cohesive unit. This functions as the Impersonate action with the infiltrators gaining a +2 circumstance bonus to their Deception DC. Infiltrators can't use Undercover to appear as specific individuals, nor can they impersonate groups that require resources unavailable to them, at the GM's discretion (impersonating a cavalry unit without access to mounts, for example).",
+            "traits": [
+              "concentrate",
+              "exploration",
+              "manipulate",
+              "secret"
+            ],
+            "description": "By spending 2 hours preparing disguises, performing reconnaissance, and the like, the infiltrators can convincingly impersonate any troop unit of their level or lower that has the humanoid trait. Alternatively, they can disguise themselves as a mixed assortment of humanoid noncombatants who don't obviously form a cohesive unit. This functions as the Impersonate action with the infiltrators gaining a +2 circumstance bonus to their Deception DC. Infiltrators can't use Undercover to appear as specific individuals, nor can they impersonate groups that require resources unavailable to them, at the GM's discretion (impersonating a cavalry unit without access to mounts, for example)."
+          },
+          {
+            "name": "Blindside",
+            "text": "**Frequency** once per round; **Effect** The infiltrators strike against enemies in a 5-foot emanation, dealing damage of a type appropriate to any weapons or implements incorporated into their disguise, with a DC 23 [basic Reflex save](/rule/basic-saving-throws-rules-2297). The damage depends on the number of actions.\n**Single Action** 1d8+1 bludgeoning, piercing, or slashing damage\n**Two Actions** 2d8+8 bludgeoning, piercing, or slashing damage\n**Three Actions** 3d8+9 bludgeoning, piercing, or slashing damage",
+            "traits": [],
+            "effect": "The infiltrators strike against enemies in a 5-foot emanation, dealing damage of a type appropriate to any weapons or implements incorporated into their disguise, with a DC 23 [basic Reflex save](/rule/basic-saving-throws-rules-2297). The damage depends on the number of actions.\n**Single Action** 1d8+1 bludgeoning, piercing, or slashing damage\n**Two Actions** 2d8+8 bludgeoning, piercing, or slashing damage\n**Three Actions** 3d8+9 bludgeoning, piercing, or slashing damage",
+            "description": "**Frequency** once per round"
+          }
+        ],
+        "offensive": [
+          {
+            "name": "Faces in the Crowd",
+            "text": "Twilight Talon infiltrators are masters of blending into and dispersing seamlessly among large groups. While disguised as noncombatants, they can move into other creatures' spaces, and other creatures can move into the team's spaces.",
+            "traits": [],
+            "description": "Twilight Talon infiltrators are masters of blending into and dispersing seamlessly among large groups. While disguised as noncombatants, they can move into other creatures' spaces, and other creatures can move into the team's spaces."
+          },
+          {
+            "name": "Snap Shot",
+            "text": "The infiltrators draw or reload concealed hand crossbows and launch a hail of bolts in a 10-foot burst within 60 feet that deals 5d6 piercing damage (DC 23 [basic Reflex save](/rule/basic-saving-throws-rules-2297)). When the unit is reduced to 2 segments, this area decreases to a 5-foot burst.",
+            "traits": [],
+            "actions": "two",
+            "description": "The infiltrators draw or reload concealed hand crossbows and launch a hail of bolts in a 10-foot burst within 60 feet that deals 5d6 piercing damage (DC 23 [basic Reflex save](/rule/basic-saving-throws-rules-2297)). When the unit is reduced to 2 segments, this area decreases to a 5-foot burst."
+          }
+        ]
+      },
+      "recallKnowledge": {
+        "dc": 26,
+        "skills": [
+          "society"
+        ],
+        "subjects": [
+          "humanoid"
+        ],
+        "entries": [
+          {
+            "subject": "humanoid",
+            "skills": [
+              "society"
+            ]
+          }
+        ]
+      },
+      "recallKnowledgeText": "DC 26 (Society)",
+      "languagesText": "Common",
+      "traitLinks": [
+        {
+          "label": "human",
+          "slug": "human"
+        },
+        {
+          "label": "humanoid",
+          "slug": "humanoid"
+        },
+        {
+          "label": "troop",
+          "slug": "troop"
+        }
+      ],
+      "skillsEditor": {
+        "skills": {
+          "acrobatics": 16,
+          "athletics": 14,
+          "deception": 18,
+          "stealth": 18
+        },
+        "loreSkills": []
+      },
+      "weaknessEntries": [
+        {
+          "type": "area",
+          "value": 8
+        },
+        {
+          "type": "splash",
+          "value": 8
+        },
+        {
+          "type": "area-damage",
+          "value": 8
+        },
+        {
+          "type": "splash-damage",
+          "value": 8
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "hellfire-dispatches",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "creature",
+      "hellfire-dispatches",
+      "human",
+      "humanoid",
+      "remaster",
+      "troop"
+    ],
+    "sources": [
+      {
+        "name": "Hellfire Dispatches",
+        "url": "https://2e.aonprd.com/Monsters.aspx?ID=4753",
+        "page": 107
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  }
+]

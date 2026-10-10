@@ -1,0 +1,167 @@
+[
+  {
+    "id": "76CFDF00-FB5B-5D97-866D-6DDCA96DE286",
+    "kind": "Creature",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Phantasmal Minion",
+    "slug": "phantasmal-minion-player-core",
+    "descr": "",
+    "data": {
+      "level": -1,
+      "rarity": "common",
+      "size": "medium",
+      "traits": [
+        "force",
+        "mindless"
+      ],
+      "attributes": {
+        "str": -4,
+        "dex": 2,
+        "con": 0,
+        "int": -5,
+        "wis": 0,
+        "cha": 0
+      },
+      "perception": 0,
+      "ac": {
+        "value": 13,
+        "details": ""
+      },
+      "hp": {
+        "value": 4,
+        "details": ""
+      },
+      "saves": {
+        "fortitude": 0,
+        "reflex": 4,
+        "will": 0
+      },
+      "skills": {
+        "stealth": 8
+      },
+      "languages": [],
+      "senses": "[Darkvision](/action/darkvision-monster-core)",
+      "immunities": [
+        "[Disease](/trait/disease)",
+        "[Mental](/trait/mental)",
+        "[Paralyzed](/condition/paralyzed-player-core)",
+        "[Poison](/trait/poison)",
+        "Precision",
+        "[Spirit](/trait/spirit)",
+        "[Unconscious](/condition/unconscious-player-core)"
+      ],
+      "weaknesses": {},
+      "resistances": {
+        "all-damage": "5 (except Force, Ghost Touch)"
+      },
+      "movement": {
+        "fly": 30
+      },
+      "attacks": [],
+      "abilities": {
+        "interaction": [
+          {
+            "name": "Force Body",
+            "text": "A phantasmal minion's body is made of magical force. It can't use attack actions. Though it has no physical weight, it can move and use [Interact](/action/interact-player-core) actions to do things such as fetch objects, open unstuck or unlocked doors, hold chairs, and clean. It can't pass through solid objects.",
+            "traits": [],
+            "description": "A phantasmal minion's body is made of magical force. It can't use attack actions. Though it has no physical weight, it can move and use [Interact](/action/interact-player-core) actions to do things such as fetch objects, open unstuck or unlocked doors, hold chairs, and clean. It can't pass through solid objects."
+          },
+          {
+            "name": "Invisible",
+            "text": "An phantasmal minion can be summoned [Invisible](/condition/invisible-player-core), though it normally doesn't [Sneak](/action/sneak-player-core), so it is usually only [Hidden](/condition/hidden-player-core).",
+            "traits": [],
+            "description": "An phantasmal minion can be summoned [Invisible](/condition/invisible-player-core), though it normally doesn't [Sneak](/action/sneak-player-core), so it is usually only [Hidden](/condition/hidden-player-core)."
+          }
+        ],
+        "defensive": [],
+        "offensive": []
+      },
+      "recallKnowledge": {
+        "dc": 13,
+        "skills": []
+      },
+      "languagesText": "",
+      "recallKnowledgeText": "DC 13",
+      "traitLinks": [
+        {
+          "label": "force",
+          "slug": "force"
+        },
+        {
+          "label": "mindless",
+          "slug": "mindless"
+        }
+      ],
+      "languagesDetails": "understands its creator",
+      "senseEntries": [
+        {
+          "name": "Darkvision",
+          "reference": "/action/darkvision-monster-core"
+        }
+      ],
+      "immunityEditor": {
+        "entries": [
+          {
+            "name": "Disease",
+            "reference": "/trait/disease"
+          },
+          {
+            "name": "Mental",
+            "reference": "/trait/mental"
+          },
+          {
+            "name": "Paralyzed",
+            "reference": "/condition/paralyzed-player-core"
+          },
+          {
+            "name": "Poison",
+            "reference": "/trait/poison"
+          },
+          {
+            "name": "Precision"
+          },
+          {
+            "name": "Spirit",
+            "reference": "/trait/spirit"
+          },
+          {
+            "name": "Unconscious",
+            "reference": "/condition/unconscious-player-core"
+          }
+        ]
+      },
+      "skillsEditor": {
+        "skills": {
+          "stealth": 8
+        },
+        "loreSkills": []
+      },
+      "resistanceEntries": [
+        {
+          "type": "all-damage",
+          "value": "5 (except Force, Ghost Touch)"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "force",
+      "mindless",
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

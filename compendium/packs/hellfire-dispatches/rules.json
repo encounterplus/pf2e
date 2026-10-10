@@ -1,0 +1,247 @@
+[
+  {
+    "id": "6C9E7220-183F-565A-9174-D67E75C477E3",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Order of the Chain",
+    "slug": "order-of-the-chain-hellfire-dispatches-hellknight-order-hellknight-order-8",
+    "descr": "**Favored Weapons**\n[Flail](/item/flail-player-core), [Spiked Chain](/item/spiked-chain-player-core)\n\nThe creed of the Order of the Chain is “All men lift themselves up upon the backs of others.” These Hellknights seek to punish those who actively impede what they believe to be civilization’s progress.\n\n## Shackles of Law\n**Two Actions**\n\n([flourish](/trait/flourish)) You attempt to subdue a target with an attack and a follow-up grab. Make a melee Strike. If it hits and deals damage, you can attempt an Athletics check to [Grapple](/action/grapple-player-core) the creature you hit. If you're wielding a flail or spiked chain, you can ignore Grapple's requirement that you have a hand free, and if you succeed at the Athletics check, you get a critical success instead. Both attacks count toward your multiple attack penalty, but the penalty doesn't increase until after you've made both of them.\n\n## Sturdy Bindings\n****\n\nYour grapples are incredibly reliable. When you roll a critical failure on a check to Grapple a target, you get a failure instead. In addition, when a creature you have [grabbed](/condition/grabbed-player-core) rolls a failure on its check to [Escape](/action/escape-player-core), it gets a critical failure instead, and if it rolls a critical success, it gets a success instead.",
+    "data": {
+      "type": "other",
+      "category": "Hellknight Order",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/HellknightOrders.aspx?ID=8"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "hellfire-dispatches",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "hellfire-dispatches",
+      "hellknight-order",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Hellfire Dispatches",
+        "url": "https://2e.aonprd.com/HellknightOrders.aspx?ID=8",
+        "page": 28
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "2848C270-B6C2-5819-9897-88B15A8FA6A1",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Order of the Gate",
+    "slug": "order-of-the-gate-hellfire-dispatches-hellknight-order-hellknight-order-9",
+    "descr": "**Favored Weapon**\n[Dagger](/item/dagger-player-core)\n\nThe creed of the Order of the Gate is “Judgment in the face of depravity.” These Hellknights seek to prevent crime through magic and extraplanar knowledge.\n\n## Locate Lawbreakers\n****\n\nYour pursuit is relentless, and you can magically locate stolen objects and outlaws. You gain [_locate_](/spell/locate-player-core) as an innate spell of a tradition of your choice, which you can cast once per day. If you're a member of the Order of the Gate, when you reach 14th level, the spell is heightened to 5th rank.\n\n## Devil Allies\n****\n\nYou can call forth devils to assist your efforts in preventing criminal acts. You gain [_summon fiend_](/spell/summon-fiend-player-core) as a 6th-rank innate spell of a tradition of your choice, which you can cast once per day. When you cast this spell, you can summon only creatures that have the [devil](/trait/devil) trait. At 14th level and every 2 levels thereafter, the spell is heightened by one rank (to a maximum of 10th rank when you reach 20th level).",
+    "data": {
+      "type": "other",
+      "category": "Hellknight Order",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/HellknightOrders.aspx?ID=9"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "hellfire-dispatches",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "hellfire-dispatches",
+      "hellknight-order",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Hellfire Dispatches",
+        "url": "https://2e.aonprd.com/HellknightOrders.aspx?ID=9",
+        "page": 28
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "AD4893D3-D08B-59B4-BC89-1CAACD98A627",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Order of the Godclaw",
+    "slug": "order-of-the-godclaw-hellfire-dispatches-hellknight-order-hellknight-order-10",
+    "descr": "**Favored Weapon**\n[Morningstar](/item/morningstar-player-core)\n\nThe creed of the Order of the Godclaw is “Righteousness by obedience.” These Hellknights extol the virtues of a pantheon of imposing deities.\n\n## Dedication to the Five\n****\n\nYour dedication to the Godclaw borders on a cleric's. You gain the cleric's [Domain Initiate](/feat/domain-initiate-player-core) feat but must select [duty](/domain/duty-divine-mysteries-domain-domain-108), [might](/domain/might), [perfection](/domain/perfection), or [protection](/domain/protection) as your domain. Whenever you cast the focus spell gained from this feat, you gain temporary Hit Points equal to twice the spell's rank that last for 1 round. In addition, you can use any religious symbol of [Abadar](/deity/abadar-master-of-the-first-vault-divine-mysteries-deity-deity-277), [Asmodeus](/deity/asmodeus-the-prince-of-darkness-divine-mysteries-deity-deity-278), [Iomedae](/deity/iomedae-the-inheritor-divine-mysteries-deity-deity-285), [Irori](/deity/irori-master-of-masters-divine-mysteries-deity-deity-286), or [Uirch](/deity/uirch-the-bulwark-divine-mysteries-deity-deity-560) as your divine focus.\n\n## Blessing of the Five\n**Three Actions**\n\n**Frequency**\nonce per day\n\nYou call out to the Godclaw to heal your allies. You cast the 3-action version of [_heal_](/spell/heal-player-core), heightened to a rank one lower than half your level rounded up. You can select up to five creatures in the area to remain unaffected by the spell. You can instead use this ability to bring a creature within 30 feet that has died within the last round back from the dead. If you do, the creature is restored to 1 Hit Point and is [doomed](/condition/doomed-player-core) 1.",
+    "data": {
+      "type": "other",
+      "category": "Hellknight Order",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/HellknightOrders.aspx?ID=10"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "hellfire-dispatches",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "hellfire-dispatches",
+      "hellknight-order",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Hellfire Dispatches",
+        "url": "https://2e.aonprd.com/HellknightOrders.aspx?ID=10",
+        "page": 28
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "B1DD93F0-5CEA-5510-BC49-01E1F2D89E71",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Order of the Nail",
+    "slug": "order-of-the-nail-hellfire-dispatches-hellknight-order-hellknight-order-11",
+    "descr": "**Favored Weapons**\n[Halberd](/item/halberd-player-core), [Lance](/item/lance-player-core)\n\nOrder of the Nail The creed of the Order of the Nail is “Savagery must bequelled, in the land, home, and mind.” These Hellknights work to tame wild frontier regions.\n\n## Trailblazing Stride\n****\n\nWhile moving on land, you ignore any [difficult terrain](/rule/difficult-terrain-rules-2366) caused by plants, fungi, or uneven ground. When you succeed at a skill check to [Recall Knowledge](/action/recall-knowledge-player-core) about a creature with the [animal](/trait/animal), [beast](/trait/beast), [fungus](/trait/fungus), or [plant](/trait/plant) trait, you gain a +10-foot circumstance bonus to your Speeds for the rest of your turn.\n\n## Reveal Beasts\n****\n\nYou're adept at revealing—or creating—fear among those who threaten civilization. If you succeed at a check to Recall Knowledge to identify an animal, beast, fungus, or plant, you get a critical success instead. Additionally, whenever you critically succeed at a check to Recall Knowledge against an animal, beast, fungus, or plant, that creature becomes [frightened](/condition/frightened-player-core) 1.",
+    "data": {
+      "type": "other",
+      "category": "Hellknight Order",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/HellknightOrders.aspx?ID=11"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "hellfire-dispatches",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "hellfire-dispatches",
+      "hellknight-order",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Hellfire Dispatches",
+        "url": "https://2e.aonprd.com/HellknightOrders.aspx?ID=11",
+        "page": 28
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "31684349-EB13-5182-98A7-3A9EBFC721D5",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Order of the Pyre",
+    "slug": "order-of-the-pyre-hellfire-dispatches-hellknight-order-hellknight-order-12",
+    "descr": "**Favored Weapon**\n[Glaive](/item/glaive-player-core)\n\nThe creed of the Order of the Pyre is “Reason’s flame consumes the shadow of corruption.” These Hellknights seek to purge what they call blasphemous ideologies from the world.\n\n## Righteous Resistance\n****\n\nYou can cast [_resist energy_](/spell/resist-energy-player-core) as a divine innate spell twice per day, except you can target only yourself. If you grant yourself resistance to fire damage, the resistance is equal to either the spell's normal value or to your level, whichever is higher.\n\n## Spiritual Disruption\n**Two Actions**\n\nYou channel disruptive power that severs a foe's spiritual connection to their magic. Make a melee Strike. This counts as two attacks when calculating your multiple attack penalty. If the attack hits, the target takes 1d6 [persistent spirit damage](/condition/persistent-damage-player-core). The target is [stupefied](/condition/stupefied-player-core) 1 until it stops taking the persistent spirit damage.",
+    "data": {
+      "type": "other",
+      "category": "Hellknight Order",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/HellknightOrders.aspx?ID=12"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "hellfire-dispatches",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "hellfire-dispatches",
+      "hellknight-order",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Hellfire Dispatches",
+        "url": "https://2e.aonprd.com/HellknightOrders.aspx?ID=12",
+        "page": 28
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "33478394-CFA5-5F51-B4ED-8A2205FD7DB0",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Order of the Rack",
+    "slug": "order-of-the-rack-hellfire-dispatches-hellknight-order-hellknight-order-13",
+    "descr": "**Favored Weapons**\n[Longsword](/item/longsword-player-core), [Whip](/item/whip-player-core)\n\nThe creed of the Order of the Rack is “The venoms of the mind poison the body.” These Hellknights suppress rebellions, usually within Cheliax.\n\n## Disillusionment\n****\n\nDreams are pointless illusions you seek to quash. If you roll a success on a saving throw against an [illusion](/trait/illusion) or [dream](/trait/dream) effect or a Perception check to disbelieve an illusion, you get a critical success instead. If you roll a critical failure on any of those checks, you get a failure instead.\n\n## Silence Heresy\n**Two Actions**\n\nYou channel a power to stifle dangerous words. Make a melee Strike. If the attack hits, the target is unable to speak in a voice louder than a whisper for 1 round. This prevents the target from using most [auditory](/trait/auditory) effects involving its voice, and it must succeed at a DC 5 flat check to Cast a Spell or the spell is disrupted. If your Strike is a critical hit, the target is entirely unable to speak for 1 round and is limited to a whisper for 1 minute thereafter. Once a creature has been affected by this ability, it's temporarily immune for 1 minute.",
+    "data": {
+      "type": "other",
+      "category": "Hellknight Order",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/HellknightOrders.aspx?ID=13"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "hellfire-dispatches",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "hellfire-dispatches",
+      "hellknight-order",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Hellfire Dispatches",
+        "url": "https://2e.aonprd.com/HellknightOrders.aspx?ID=13",
+        "page": 28
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "B927F3FA-A77B-5187-9532-42697C8DC2B6",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Order of the Scourge",
+    "slug": "order-of-the-scourge-hellfire-dispatches-hellknight-order-hellknight-order-14",
+    "descr": "**Favored Weapons**\n[Mace](/item/mace-player-core), [Whip](/item/whip-player-core), [Scourge](/item/scourge-battlecry)\n\nThe creed of the Order of the Scourge is “Without culpability, chaos reigns.” These Hellknights root out corruption in all its forms.\n\n## Fear No Law, Fear No One\n**Single Action**\n\nWhen your allies see you stand up to fear, they become similarly emboldened. Make a Strike. If you hit and deal damage, each ally within a 20-foot emanation around you who can see you reduces the value of their [frightened](/condition/frightened-player-core) condition by 1. If the target of your Strike was the source of their frightened condition, they reduce the value by 2 instead.\n\n## Seek Injustice\n**Three Actions**\n\n**Frequency**\nonce per day\n\nWith a moment spent focusing, you can locate the telltale signs of corruption no matter what means it might use to hide from your sight. For 1 minute, you can see through up to 5 feet of stone, wood, or similar barriers as if they didn't exist (though any amount of metal or denser barriers blocks this effect).",
+    "data": {
+      "type": "other",
+      "category": "Hellknight Order",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/HellknightOrders.aspx?ID=14"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "hellfire-dispatches",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "hellfire-dispatches",
+      "hellknight-order",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Hellfire Dispatches",
+        "url": "https://2e.aonprd.com/HellknightOrders.aspx?ID=14",
+        "page": 28
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  }
+]

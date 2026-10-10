@@ -1,0 +1,31 @@
+{
+  "title": "Spell.Duration",
+  "sections": [
+    {
+      "title": "Common.Type",
+      "type": "picker",
+      "attribute": "data.durationType",
+      "attributeType": "DurationType",
+      "placeholder": "Common.None"
+    },
+    {
+      "type": "group",
+      "visibleIf": "{% if data.durationType == 'time' %}true{% endif %}",
+      "fields": [
+        {
+          "title": "Spell.Duration",
+          "type": "number",
+          "attribute": "data.duration"
+        }
+      ]
+    },
+    {
+      "title": "Common.Unit",
+      "type": "picker",
+      "visibleIf": "{% if data.durationType == 'time' %}true{% endif %}",
+      "attribute": "data.durationUnit",
+      "attributeType": "DurationUnit",
+      "defaultValue": "round"
+    }
+  ]
+}

@@ -1,0 +1,1553 @@
+[
+  {
+    "id": "08FCE93D-BCAA-579A-BAFB-0E416D4973BD",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Aiuvarin",
+    "slug": "aiuvarin-player-core",
+    "descr": "You have elves, or possibly other aiuvarins, in your family tree. You have pointed ears and other telltale signs of elf heritage. You gain the [elf](/trait/elf) trait, the [aiuvarin](/trait/aiuvarin) trait, and low-light vision. In addition, when you gain an ancestry feat, you can choose from aiuvarin and elf feats in addition to those from your ancestry.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "aiuvarin"
+      ],
+      "traitLinks": [
+        {
+          "label": "aiuvarin",
+          "slug": "aiuvarin"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "aiuvarin",
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B189BB4C-D688-5809-A14A-C52B2A9CFF44",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Ancient Elf",
+    "slug": "ancient-elf-player-core",
+    "descr": "In your long life, you've dabbled in many paths and many styles. A typical ancient elf is at least 100 years old, though you might be younger at the GM's discretion. Choose a class other than your own. You gain the multiclass dedication feat for that class, even though you don't meet its level prerequisite. You must still meet its other prerequisites to gain the feat.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "41203ED1-D8C1-5FAD-8DD0-AC490B63C252",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Ancient-Blooded Dwarf",
+    "slug": "ancient-blooded-dwarf-player-core",
+    "descr": "Dwarven heroes of old could shrug off their enemies' magic, and some of that resistance manifests in you. You gain the [Call On Ancient Blood](/action/call-on-ancient-blood-player-core) reaction.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1BD17F0E-BECF-5E45-BA84-3EC20D1AE525",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Arctic Elf",
+    "slug": "arctic-elf-player-core",
+    "descr": "You dwell deep in the frozen north and have gained incredible resilience against cold environments, granting you cold resistance equal to half your level (minimum 1). You treat environmental cold effects as if they were one step less extreme (incredible cold becomes extreme, extreme cold becomes severe, and so on).",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "24A4DF2C-6236-583F-9510-68B1CFFB2779",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Badlands Orc",
+    "slug": "badlands-orc-player-core",
+    "descr": "You come from sun-scorched badlands, where long legs and an ability to withstand the elements helped you thrive. You can [Hustle](/action/hustle-player-core) twice as long while exploring before you have to stop, and you treat environmental heat effects as if they were one step less extreme (incredible heat becomes extreme, extreme heat becomes severe, and so on).",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B7A5748C-B2B9-5451-83EC-CADA84FB1664",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Battle-Ready Orc",
+    "slug": "battle-ready-orc-player-core",
+    "descr": "You descend from a line of terrifying battlefield commanders. You become trained in Intimidation, and you gain the [Intimidating Glare](/feat/intimidating-glare-player-core) skill feat.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A2B5D49D-78A8-56F4-87D2-3EEE45E47501",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Cactus Leshy",
+    "slug": "cactus-leshy-player-core",
+    "descr": "Spines cover your body. You gain a spine unarmed attack that deals 1d6 piercing damage. Your spines are in the brawling group and have the finesse and [unarmed](/trait/unarmed) traits.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8C71F2E6-5529-5375-8AB3-CFF67C87CFF0",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Cavern Elf",
+    "slug": "cavern-elf-player-core",
+    "descr": "You were born or spent many years in underground tunnels or caverns where light is scarce. You gain darkvision.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B0E593FC-FAAA-5FF4-97E8-061471E87250",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Chameleon Gnome",
+    "slug": "chameleon-gnome-player-core",
+    "descr": "The color of your hair and skin is mutable, possibly due to latent magic from First World influences or lingering illusion effects. You can slowly change the vibrancy and the exact color, and the coloration can be different across your body, allowing you to create patterns or other colorful designs. It takes a single action for minor localized shifts and up to an hour for dramatic shifts throughout your body. While you're asleep, the colors shift on their own in tune with your dreams, giving you an unusual coloration each morning. When you're in an area where your coloration is roughly similar to the environment (for instance, forest green in a forest), you can use the single action to make minor localized shifts designed to help you blend into your surroundings. This grants you a +2 circumstance bonus to Stealth checks until your surroundings shift in coloration or pattern.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "CCF27109-242F-5A3B-A26E-0115B36B6B2D",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Changeling",
+    "slug": "changeling-player-core",
+    "descr": "Your mother was a hag. Your eyes' heterochromia is the most obvious signifier of this parentage, but you likely also have a slighter build, paler skin, and darker hair than most members of your other parent's ancestry. You gain the [changeling](/trait/changeling) trait. You also gain low-light vision, or you gain darkvision if your ancestry already has low-light vision. You can select from changeling feats and feats from your other parent's ancestry whenever you gain an ancestry feat.",
+    "data": {
+      "rarity": "uncommon",
+      "traits": [
+        "changeling"
+      ],
+      "traitLinks": [
+        {
+          "label": "changeling",
+          "slug": "changeling"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "changeling",
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3C930528-DF9B-544F-9EF0-80FCF203EF8F",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Charhide Goblin",
+    "slug": "charhide-goblin-player-core",
+    "descr": "Your ancestors have always had a connection to fire and a thicker skin, which allows you to resist burning. You gain fire resistance equal to half your level (minimum 1). You can also recover from being on fire more easily. Your flat check to remove persistent fire damage is DC 10 instead of DC 15, which is reduced to Flat DC 5 if another creature uses a particularly appropriate action to help.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "DE9A1632-66CC-5985-AA0E-B73FD920DD5D",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Death Warden Dwarf",
+    "slug": "death-warden-dwarf-player-core",
+    "descr": "Your ancestors were tomb guardians, and their power to ward off death passed on to you. If you roll a success on a saving throw against an effect that has the [void](/trait/void) trait or was created by an undead creature, you get a critical success instead.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "08A424DA-167E-5A2F-8C63-0D93A658B9EC",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Deep Orc",
+    "slug": "deep-orc-player-core",
+    "descr": "Your calloused hands and red eyes speak to a life spent in the deep darkness of mountain caverns, where you learned to battle on rocky cliffs and survive with minimal resources. You gain the [Terrain Expertise](/feat/terrain-expertise-player-core) skill feat for underground terrain and the [Combat Climber](/feat/combat-climber-player-core) skill feat.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "66667F9E-1A58-5184-B6D7-18639DA87B09",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Dromaar",
+    "slug": "dromaar-player-core",
+    "descr": "Orcish strength emboldens your bloodline. You have a green tinge to your skin and other indicators of orc heritage. You gain the [orc](/trait/orc) trait, the [dromaar](/trait/dromaar) trait, and low-light vision. When you gain an ancestry feat, you can choose from dromaar and orc feats in addition to those from your ancestry.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "dromaar"
+      ],
+      "traitLinks": [
+        {
+          "label": "dromaar",
+          "slug": "dromaar"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "dromaar",
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "37511441-3703-51A0-99EB-9186EAE688B0",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Fey-Touched Gnome",
+    "slug": "fey-touched-gnome-player-core",
+    "descr": "The blood of the fey flows through your veins, saturating you with their magic and making you truly one of them. You gain the [fey](/trait/fey) trait, in addition to the gnome and [humanoid](/trait/humanoid) traits. Choose one cantrip from the primal spell list. You can cast this spell as a primal innate spell at will. A cantrip is heightened to a spell rank equal to half your level rounded up. You can change this cantrip to a different one from the same list once per day by meditating to realign yourself with the First World; this is a 10-minute activity that has the [concentrate](/trait/concentrate) trait.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8CE4DD8A-17EF-5716-B30E-B92FACCE3CF4",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Forge Dwarf",
+    "slug": "forge-dwarf-player-core",
+    "descr": "You have a remarkable adaptation to hot environments. This grants you fire resistance equal to half your level (minimum 1), and you treat environmental heat effects as if they were one step less extreme (incredible heat becomes extreme, extreme heat becomes severe, and so on).",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "BB11E834-DA41-5056-B0BB-E930A64B9CB6",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Fruit Leshy",
+    "slug": "fruit-leshy-player-core",
+    "descr": "Your body continually produces small fruits imbued with primal magic. At dawn each day, a new fruit ripens. You or an ally can remove this fruit as an [Interact](/action/interact-player-core) action. If a living creature that can derive sustenance from fruit consumes it as an Interact action within the next hour, they regain 0d8 vitality healing Hit Points, plus an additional 1d8 Hit Points for every 2 of your levels beyond 1st. This effect has the healing and [vitality](/trait/vitality) traits.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B48667A1-8A36-517A-BE92-9A15BA569637",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Fungus Leshy",
+    "slug": "fungus-leshy-player-core",
+    "descr": "Your body was made from fungi that grows in the shade of caves and trees, and you are at home in dark caverns and warrens. You gain darkvision. You lose the [plant](/trait/plant) trait and gain the [fungus](/trait/fungus) trait.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C0BF0E6E-E119-5FC9-B0F1-CBD9F234A553",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Gourd Leshy",
+    "slug": "gourd-leshy-player-core",
+    "descr": "You have a large gourd for a skull, and since you don't have a physical brain, you can use the space inside your head. You can store a collection of up to 1 Bulk of objects within your head. The DC of checks to [Steal](/action/steal-player-core) objects from inside your head increases by 4. Additionally, if you store only one object within your head, you can draw it effortlessly into your hand as part of another action to use the object. Drawing the item grants this other action the [manipulate](/trait/manipulate) trait.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "94D59984-6886-576E-A7CA-3B789CCDA9A5",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Grave Orc",
+    "slug": "grave-orc-player-core",
+    "descr": "You were exposed to powerful necromantic energies that should have killed you—but you survived. Your skin is cold, clammy, and gray. You gain resistance to void damage equal to half your level (minimum 1). You also gain a +1 circumstance bonus to saving throws against effects with the death or [void](/trait/void) trait.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "FE4FAAC5-433B-5E1D-8E47-ED04E9B0F888",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Gutsy Halfling",
+    "slug": "gutsy-halfling-player-core",
+    "descr": "Your family line is known for keeping a level head and staving off fear when the chips were down. When you roll a success on a saving throw against an emotion effect, you get a critical success instead.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "59A8B276-11D2-5034-BF09-138FA6C6801C",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Hillock Halfling",
+    "slug": "hillock-halfling-player-core",
+    "descr": "Accustomed to a calm life in the hills, your people find rest and relaxation especially replenishing, particularly when indulging in creature comforts. When you regain Hit Points overnight, add your level to the Hit Points regained. When anyone uses the Medicine skill to [Treat your Wounds](/action/treat-wounds-player-core), you can eat a snack to add your level to the Hit Points you regain from their treatment.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "99F4860C-A0BE-5392-B7E2-87D2784C91CD",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Hold-Scarred Orc",
+    "slug": "hold-scarred-orc-player-core",
+    "descr": "You are part of an orc community that participates in ritual scarification or tattooing. The marks on your skin show your exceptional hardiness and vitality. You gain 12 Hit Points from your ancestry instead of 10. You also gain the [Diehard](/feat/diehard-player-core) feat.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "81DAA35D-3990-5349-BCD0-B38A927DF36C",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Irongut Goblin",
+    "slug": "irongut-goblin-player-core",
+    "descr": "You can subsist on food that most folks would consider spoiled. You can keep yourself fed with poor meals in a settlement as long as garbage is readily available, without using the [Subsist](/action/subsist-player-core) downtime activity. You can eat and drink things when you are [Sickened](/condition/sickened-player-core).\n\nYou gain a +2 circumstance bonus to saving throws against afflictions, against gaining the sickened condition, and to remove the sickened condition. When you roll a success on a Fortitude save affected by this bonus, you get a critical success instead. All these benefits apply only when the affliction or condition resulted from something you ingested.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "79457FB9-1DCB-54D1-A690-21B6CA7288C3",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Jinxed Halfling",
+    "slug": "jinxed-halfling-player-core",
+    "descr": "You were born with a strange blessing: bereft of the typical halfling luck, you can instead manipulate the fortunes of others. You can never take the [Halfling Luck](/feat/halfling-luck-player-core) feat, and you gain the [Jinx](/action/jinx-player-core) action.",
+    "data": {
+      "rarity": "uncommon",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "99965D53-7281-51E7-A197-A1A8F7559E7C",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Leaf Leshy",
+    "slug": "leaf-leshy-player-core",
+    "descr": "Your body is made mostly from natural foliage, and like a leaf tumbling from a tree, you land from falls with particular grace. You take no damage from falling, regardless of the distance you fall.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "398E5379-1878-5EC6-8297-96816361DD13",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Lotus Leshy",
+    "slug": "lotus-leshy-player-core",
+    "descr": "You effortlessly float on the surface of water. You can walk on the surface of still water and other non-damaging liquids, moving at half your normal Speed. You can also attempt to [Balance](/action/balance-player-core) to move across the surface of flowing water, using the DC of a Swim check to move through the water. When you do this, you can't move faster than half your Speed, and if you fail or critically fail, you fall into the water rather than the normal effects.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0D123F51-CB12-5E0F-B683-474611A01D5D",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Nephilim",
+    "slug": "nephilim-player-core",
+    "descr": "Your nature is influenced by celestials, fiends, or monitors. This manifests as a combination of features that belie your heritage, such as golden eyes, a halo, horns, or a tail. You gain the [nephilim](/trait/nephilim) trait, in addition to the traits from your ancestry. You gain low-light vision, or you gain darkvision if your ancestry already has low-light vision. You can choose from nephilim feats and feats from your ancestry whenever you gain an ancestry feat.",
+    "data": {
+      "rarity": "uncommon",
+      "traits": [
+        "nephilim"
+      ],
+      "traitLinks": [
+        {
+          "label": "nephilim",
+          "slug": "nephilim"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "nephilim",
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "AFDD2BD6-5D3F-5050-937A-09470074BEA7",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Nomadic Halfling",
+    "slug": "nomadic-halfling-player-core",
+    "descr": "Your ancestors have traveled from place to place for generations, never content to settle down. You gain two additional languages of your choice, chosen from among the common and uncommon languages available to you, and every time you take the [Multilingual](/feat/multilingual-player-core) feat, you gain another new language.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0B46EDB3-CECE-55E1-9C2F-1D449D07D149",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Rainfall Orc",
+    "slug": "rainfall-orc-player-core",
+    "descr": "You were born in a rain forest with only tangles of trees providing protection from torrential rainstorms and flash floods. You've learned to move adeptly through jungle terrain and resist the various ailments common in humid environs. You gain a +2 circumstance bonus to Athletics checks to [Climb](/action/climb-player-core) or [Swim](/action/swim-player-core) and a +1 circumstance bonus to saving throws against diseases.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "EE2127F9-93BA-5001-A2D9-2160B6257E0D",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Razortooth Goblin",
+    "slug": "razortooth-goblin-player-core",
+    "descr": "Your family's teeth are formidable weapons. You gain a jaws unarmed attack that deals 1d6 piercing damage. Your jaws are in the brawling group and have the finesse and [unarmed](/trait/unarmed) traits.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C89D18E5-F812-5DFE-B782-C24ED77251EA",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Rock Dwarf",
+    "slug": "rock-dwarf-player-core",
+    "descr": "Your ancestors lived and worked among the ancient stones of the mountains or the depths of the earth. This makes you solid as a rock when you plant your feet. You gain a +2 circumstance bonus to your Fortitude or Reflex DC against attempts to [Reposition](/action/reposition-player-core), [Shove](/action/shove-player-core), or [Trip](/action/trip-player-core) you. This bonus also applies to saving throws against spells or effects that attempt to force you to move or knock you [Prone](/condition/prone-player-core).\n\nIn addition, if any effect would force you to move 10 feet or more, you are moved only half the distance.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5642975E-D8D6-571E-BB05-1B359C06FC1C",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Root Leshy",
+    "slug": "root-leshy-player-core",
+    "descr": "Your body is made from hardy roots that attach you firmly to the ground. You gain 10 Hit Points from your ancestry instead of 8. You can go without sunlight for 2 weeks before you begin to starve. You gain a +2 circumstance bonus to your Fortitude or Reflex DC against attempts to [Reposition](/action/reposition-player-core), [Shove](/action/shove-player-core), or [Trip](/action/trip-player-core) you. This bonus also applies to saving throws against spells or effects that attempt to move you or knock you [Prone](/condition/prone-player-core).",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9C5BEABF-01C1-5296-8D3E-A4F80159796C",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Seaweed Leshy",
+    "slug": "seaweed-leshy-player-core",
+    "descr": "Your body is made from woven seaweed, and you're just as comfortable underwater as on land. You gain a swim Speed of 20 feet, and you can always breathe underwater. However, your land Speed is reduced by 5 feet (to 20 feet for most seaweed leshies).",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A7188DF5-CDB4-548D-944E-28E6A1CDBC0C",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Seer Elf",
+    "slug": "seer-elf-player-core",
+    "descr": "You have an inborn ability to detect and understand magical phenomena. You can cast the [Detect Magic](/spell/detect-magic-player-core) cantrip as an arcane innate spell at will. A cantrip is heightened to a spell rank equal to half your level rounded up.\n\nIn addition, you gain a +1 circumstance bonus to checks to [Identify Magic](/action/identify-magic-player-core) and to [Decipher Writing](/action/decipher-writing-player-core) of a magical nature. These skill actions typically use the Arcana, Nature, Occultism, or Religion skill.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "15AE6423-8D1C-5E4B-9F6F-3656D7583120",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Sensate Gnome",
+    "slug": "sensate-gnome-player-core",
+    "descr": "You see all colors as brighter, hear all sounds as richer, and especially smell all scents with incredible detail. You gain a special sense: imprecise scent with a range of 30 feet. This means you can use your sense of smell to determine the exact location of a creature. The GM will usually double the range if you're downwind from the creature or halve the range if you're upwind.\n\nIn addition, you gain a +2 circumstance bonus to Perception checks whenever you're trying to locate an [undetected](/condition/undetected-player-core) creature that is within the range of your scent.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9C6E8112-66E8-59BA-AB6D-278D19B79917",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Skilled Human",
+    "slug": "skilled-human-player-core",
+    "descr": "Your ingenuity allows you to train in a wide variety of skills. You become trained in one skill of your choice. At 5th level, you become an expert in the chosen skill.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "6503B026-7DFB-5271-9E6F-62D4364323D4",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Snow Goblin",
+    "slug": "snow-goblin-player-core",
+    "descr": "You are acclimated to living in frigid lands and have skin ranging from sky blue to navy in color, as well as blue fur. You gain cold resistance equal to half your level (minimum 1). You treat environmental cold effects as if they were one step less extreme (incredible cold becomes extreme, extreme cold becomes severe, and so on).",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B9713E57-3B32-5C2C-94A5-B5A624B01196",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Strong-Blooded Dwarf",
+    "slug": "strong-blooded-dwarf-player-core",
+    "descr": "Your blood runs hearty and strong, and you can shake off toxins. You gain poison resistance equal to half your level (minimum 1), and each of your successful saving throws against a poison affliction reduces its stage by 2, or by 1 for a virulent poison. Each critical success against an ongoing poison reduces its stage by 3, or by 2 for a virulent poison.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "6C838B7F-835A-5AD0-8BD6-9D6417E79096",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Twilight Halfling",
+    "slug": "twilight-halfling-player-core",
+    "descr": "Your ancestors performed many secret acts under the concealing cover of dusk, whether for good or ill, and over time they developed the ability to see in twilight beyond even the usual keen sight of halflings. You gain low-light vision.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8EB58094-D15E-5EB9-85AA-79056A70B661",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Umbral Gnome",
+    "slug": "umbral-gnome-player-core",
+    "descr": "Whether from a connection to dark or shadowy fey, from the underground gnomes known as drathnelar, or from another source, you can see in complete darkness. You gain darkvision.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3E39F6D4-EE8F-5D4C-8167-AA8FC759924F",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Unbreakable Goblin",
+    "slug": "unbreakable-goblin-player-core",
+    "descr": "You're able to bounce back from injuries easily due to an exceptionally thick skull, cartilaginous bones, or some other mixed blessing. You gain 10 Hit Points from your ancestry instead of 6. When you fall, reduce the falling damage you take as though you had fallen half the distance.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C9345D0B-B950-5955-9F45-0B18E1097960",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Versatile Human",
+    "slug": "versatile-human-player-core",
+    "descr": "Humanity's versatility and ambition have fueled its ascendance to be the most common ancestry in most nations throughout the world. Select a general feat of your choice for which you meet the prerequisites (as with your ancestry feat, you can select this general feat at any point during character creation).",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "583F6008-8BF7-50CA-BC0A-D93867FCB6F3",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Vine Leshy",
+    "slug": "vine-leshy-player-core",
+    "descr": "Your prehensile vines grant you unmatched skill at climbing. You do not need to have any hands free to [Climb](/action/climb-player-core). Additionally, if you roll a success on an Athletics check to Climb, you get a critical success instead.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "41667996-DF4D-5641-AF58-A47E4796C5BB",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Wellspring Gnome",
+    "slug": "wellspring-gnome-player-core",
+    "descr": "Some other source of magic has a greater hold on you than the primal magic of your fey lineage does. This connection might come from an occult plane or an ancient occult song; a deity, celestial, or fiend; magical effluent left behind by a mage war; or ancient rune magic.\n\nChoose arcane, divine, or occult. You gain one cantrip from that magical tradition's spell list. You can cast this spell as an innate spell at will, as a spell of your chosen tradition. A cantrip is heightened to a spell rank equal to half your level rounded up. Whenever you gain a primal innate spell from a [gnome](/ancestry/gnome-player-core) ancestry feat, change its tradition from primal to your chosen tradition.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9D39F2FB-0053-5F98-AFE7-9C9908AA6D2B",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Whisper Elf",
+    "slug": "whisper-elf-player-core",
+    "descr": "Your ears are finely tuned, able to detect even the slightest whispers of sound. You gain a +2 circumstance bonus when using the [Seek](/action/seek-player-core) action to find [Hidden](/condition/hidden-player-core) or [Undetected](/condition/undetected-player-core) creatures within 30 feet of you. When you target an opponent that is [Concealed](/condition/concealed-player-core) from you or hidden from you, reduce the DC of the flat check to 3 for a concealed target or 9 for a hidden one. This benefit doesn't apply if you can't hear or if the creature is incapable of making sound (for example, if it's affected by a [Silence](/spell/silence-player-core) spell).",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F87ADAA8-6C61-5E37-BF0C-F90AE3052A55",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Wildwood Halfling",
+    "slug": "wildwood-halfling-player-core",
+    "descr": "You hail from deep within a jungle or forest, and you've learned how to use your small size to wriggle through undergrowth and other obstacles. You ignore any difficult terrain caused by plants and fungi, such as bushes, vines, and undergrowth.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9BAEE634-0472-5A6E-AC8A-BE8F0742A8F3",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Winter Orc",
+    "slug": "winter-orc-player-core",
+    "descr": "Your ancestors survived in cold climates. You become trained in Survival, and you treat environmental cold effects as if they were one step less extreme (incredible cold becomes extreme, extreme cold becomes severe, and so on).",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "712E753E-98E8-5517-ADE7-812CBDFE5731",
+    "kind": "Heritage",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Woodland Elf",
+    "slug": "woodland-elf-player-core",
+    "descr": "You're adapted to life in the forest, the deep jungle, or a similar environment, and you know how to climb trees and use foliage to your advantage. When [Climbing](/action/climb-player-core) trees, vines, and other foliage, you move at half your Speed on a success and at full Speed on a critical success (and you move at full Speed on a success if you have [Quick Climb](/feat/quick-climb-player-core)). This doesn't affect you if you're using a climb Speed.\n\nYou can always use the [Take Cover](/action/take-cover-player-core) action when you are within forest terrain to gain cover, even if you're not next to an obstacle you can Take Cover behind.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

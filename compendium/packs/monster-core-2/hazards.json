@@ -1,0 +1,86 @@
+[
+  {
+    "id": "BDA98926-7780-5EB2-A547-4734322EAF2F",
+    "kind": "Hazard",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Sportlebore",
+    "slug": "sportlebore-monster-core-2",
+    "descr": "",
+    "data": {
+      "level": 7,
+      "rarity": "common",
+      "traits": [
+        "animal",
+        "environmental"
+      ],
+      "complexity": "simple",
+      "stealth": 16,
+      "ac": {
+        "value": 0,
+        "details": ""
+      },
+      "hp": {
+        "value": 10,
+        "details": "",
+        "bt": 5
+      },
+      "hardness": 0,
+      "saves": {
+        "fortitude": 0,
+        "reflex": 0,
+        "will": 0
+      },
+      "disable": "A creature that notices the sportlebore can remove it from the food it is hidden within automatically as an Interact action.",
+      "routine": "",
+      "reset": "",
+      "abilities": [
+        {
+          "name": "Mimic Food",
+          "text": "**Trigger** A creature eats food the sportlebore is hidden within\n\n**Effect** The sportlebore rapidly multiplies in the host's stomach, exposing the host to sportlebore infestation",
+          "traits": [],
+          "actions": "reaction"
+        },
+        {
+          "name": "Sportlebore Infestation",
+          "text": "**Saving Throw** basic Fortitude DC 22\n\n**Stage 1** carrier with no ill effect (1 day)\n\n**Stage 2** [Enfeebled 1](/condition/enfeebled-player-core) (1 hour)\n\n**Stage 3** [Enfeebled 2](/condition/enfeebled-player-core) (1 hour)\n\n**Stage 4** 4d6 bludgeoning damage (basic Fortitude DC 25 save) as the host painfully vomits out a sportlebore swarm and returns to stage 1",
+          "traits": [
+            "disease"
+          ]
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "animal",
+          "slug": "animal"
+        },
+        {
+          "label": "environmental",
+          "slug": "environmental"
+        }
+      ],
+      "stealthDetails": "(expert)",
+      "description": "A parasitic creature hides in food or travel rations until disturbed.",
+      "stealthDC": 26
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "animal",
+      "environmental",
+      "monster-core-2",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

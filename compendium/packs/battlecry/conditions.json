@@ -1,0 +1,4325 @@
+[
+  {
+    "id": "1BCDF201-8449-5E5A-A2B8-B485276357EA",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Aesir Blood Magic",
+    "slug": "effect-aesir-blood-magic-battlecry",
+    "descr": "Granted by [Bloodline: Aesir](/feat/bloodline-aesir-battlecry)\n\nYou gain a +2 status bonus to Reflex saving throws.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "FA252857-F570-5818-926D-B814F4E39D07",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Aldori Swordlord (Temporary Hit Points)",
+    "slug": "effect-aldori-swordlord-temporary-hit-points-battlecry",
+    "descr": "Granted by [Aldori Swordlord](/feat/aldori-swordlord-battlecry)\n\nYou gain temporary Hit Points.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "18542326-1C76-552E-BF09-88B98F6AEA6E",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Ankhrav Carapace",
+    "slug": "effect-ankhrav-carapace-battlecry",
+    "descr": "Granted by [Ankhrav Carapace](/item/ankhrav-carapace-battlecry)\n\nYou gain a burrow Speed equal to half your Speed.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "56372756-B434-5EFA-8920-DCE994179ADA",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Arcane Standard",
+    "slug": "effect-arcane-standard-battlecry",
+    "descr": "Granted by [Arcane Standard](/item/arcane-standard-battlecry), [Arcane Standard (Greater)](/item/arcane-standard-greater-battlecry)\n\nYou gain weakness to acid, cold, electricity, fire, or sonic damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F3FE2BA6-6CD8-5BFC-B29C-52F2C3CFF777",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Archon's Aegis",
+    "slug": "effect-archon-s-aegis-battlecry",
+    "descr": "You gain resistance 20 to all damage against the triggering damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D7014935-998B-5AC4-BEEA-BD960B2F59C6",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Area Armor",
+    "slug": "effect-area-armor-battlecry",
+    "descr": "Granted by [Area Armor](/feat/area-armor-battlecry)\n\nYou gain a +1 circumstance bonus to Reflex saves against area effects. If the origin is a master in their armor, the bonus is +2 instead.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "844EB3D1-2E9D-5CF9-B409-18C109329E4D",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Armored Courage",
+    "slug": "effect-armored-courage-battlecry",
+    "descr": "Granted by [Armored Courage](/feat/armored-courage-battlecry)\n\nYou gain a number of temporary Hit Points equal to your level.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1CB7A76A-25F5-5714-8AFF-3B83FD4F3346",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Bad Deal",
+    "slug": "effect-bad-deal-battlecry",
+    "descr": "You must roll your next attack roll, saving throw, or skill check twice and use the worse result.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "FBC05ACF-C19D-58D6-8C51-F8094DD3952E",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Banner of the Restful",
+    "slug": "effect-banner-of-the-restful-battlecry",
+    "descr": "Granted by [Banner Of The Restful](/item/banner-of-the-restful-battlecry), [Banner Of The Restful (Greater)](/item/banner-of-the-restful-greater-battlecry), [Banner Of The Restful (Major)](/item/banner-of-the-restful-major-battlecry)\n\nYou gain an item bonus to Perception DCs.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "AD0422AD-A576-5F0C-ACE0-F4968B92D64A",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Be the Band",
+    "slug": "effect-be-the-band-battlecry",
+    "descr": "Granted by [Blakenshipper](/item/blakenshipper-battlecry)\n\nYou gain 15 temporary Hit Points.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8BDDD458-9B00-54A5-AED8-EE8679CA8B01",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Be the Band (Sustain)",
+    "slug": "effect-be-the-band-sustain-battlecry",
+    "descr": "Granted by [Blakenshipper](/item/blakenshipper-battlecry)\n\nYou gain 5 temporary Hit Points.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A28480B2-2D9B-514D-B3AB-98D4C1E9BFA1",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Bedroll of Deep Slumber",
+    "slug": "effect-bedroll-of-deep-slumber-battlecry",
+    "descr": "Granted by [Bedroll Of Deep Slumber](/item/bedroll-of-deep-slumber-battlecry)\n\nYou gain 5 temporary hit points.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B862F7D5-202C-52F7-839B-166845246BDD",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Bismuth Armor",
+    "slug": "effect-bismuth-armor-battlecry",
+    "descr": "Granted by [Bismuth Armor](/item/bismuth-armor-battlecry) via Ephemeral Effect\n\nIf your attack against the origin misses, you become dazzled for 1 round.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2BC6DB5E-52F9-5A90-A67E-9D5FABBB0574",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Blanket Defense",
+    "slug": "effect-blanket-defense-battlecry",
+    "descr": "Granted by [Blanket Defense](/feat/blanket-defense-battlecry)\n\nYou gain the origin's shield circumstance bonus to AC.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "6AD4542D-1091-5D9B-9577-A9DC4203E0A6",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Blazing Banner",
+    "slug": "effect-blazing-banner-battlecry",
+    "descr": "Granted by [Blazing Banner](/item/blazing-banner-battlecry), [Blazing Banner (Greater)](/item/blazing-banner-greater-battlecry), [Blazing Banner (Major)](/item/blazing-banner-major-battlecry)\n\nWhenever you critically succeeds with a Strike, the Strike deals additional persistent fire damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "66C8BEE5-889C-5F61-8DBE-443ADD55C56A",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Blood Soak (Redcap Brigade)",
+    "slug": "effect-blood-soak-redcap-brigade-battlecry",
+    "descr": "The redcap brigade gains a status bonus to damage rolls for 1 minute. The bonus is +2 if they spend one action on Bloody Reaping, +6 if they spend two actions, or +8 if they spend 3 actions. They gain a +4 status bonus to damage rolls with Bowl Over and Stomp.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "67319C54-4F68-5D2D-BCF6-BBE650DD8981",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Bodyguard",
+    "slug": "effect-bodyguard-battlecry",
+    "descr": "Granted by [Bodyguard](/feat/bodyguard-battlecry)\n\nWhen the target of the origin's Taunt makes an attack roll against you, or you attempt a saving throw against an action from that target, their circumstance penalty increases to –2.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3F892FC1-8CA5-5E87-81B1-6BC399D2C812",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Bodyguard (Penalty)",
+    "slug": "effect-bodyguard-penalty-battlecry",
+    "descr": "Granted by [Bodyguard](/feat/bodyguard-battlecry) via Ephemeral Effect\n\nYour attack roll penalty from Taunt against the target increases to –2.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9C5343C3-6324-512A-85C5-AB40C9484D76",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Bragging Rights (Failure or Worse)",
+    "slug": "effect-bragging-rights-failure-or-worse-battlecry",
+    "descr": "Granted by [Doom Switch](/item/doom-switch-battlecry) on Failure or Critical Failure\n\nYou and allies take status penalty to attack rolls against the target.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8D559FE5-0BAF-5AB6-BAB9-DC22536B524D",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Bragging Rights (Status Bonus)",
+    "slug": "effect-bragging-rights-status-bonus-battlecry",
+    "descr": "Granted by [Doom Switch](/item/doom-switch-battlecry)\n\nYou gain a +1 status bonus to attack rolls against the target.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1AF9F63A-F250-5ABC-86D5-7995EBF36C38",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Bragging Rights (Status Penalty Critical Failure)",
+    "slug": "effect-bragging-rights-status-penalty-critical-failure-battlecry",
+    "descr": "Granted by [Doom Switch](/item/doom-switch-battlecry)\n\nYou take a -2 status penalty to attack rolls against the target.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D9199A78-5BFE-5121-A394-771CF8A30B21",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Bragging Rights (Status Penalty Failure)",
+    "slug": "effect-bragging-rights-status-penalty-failure-battlecry",
+    "descr": "Granted by [Doom Switch](/item/doom-switch-battlecry)\n\nYou take a -1 status penalty to attack rolls against the target.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "125A0597-7FA0-5094-8E3F-A0366B690DC8",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Bragging Rights (Success or Better)",
+    "slug": "effect-bragging-rights-success-or-better-battlecry",
+    "descr": "Granted by [Doom Switch](/item/doom-switch-battlecry) on a Success or a Critical Success\n\nYou and allies gain a +1 status bonus to attack rolls against the target.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8291CE9C-3B17-5324-BF20-D30B4BCE7BE6",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Call to Arms",
+    "slug": "effect-call-to-arms-battlecry",
+    "descr": "Granted by [Fife Of The Faithful](/item/fife-of-the-faithful-battlecry)\n\nYou gain a +1 status bonus to saving throws.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "7A25F276-605C-530A-92E9-D82C387EA4D0",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Chivalric Emblem",
+    "slug": "effect-chivalric-emblem-battlecry",
+    "descr": "Granted by [Chivalric Emblem](/item/chivalric-emblem-battlecry)\n\nYou gain a +1 circumstance bonus to attack rolls and damage with the selected weapon.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9F5FBB14-7D0C-5B88-AE62-FD78C77E4188",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Command Cuirass",
+    "slug": "effect-command-cuirass-battlecry",
+    "descr": "Granted by [Command Cuirass](/item/command-cuirass-battlecry)\n\nYou gain a +1 status bonus to Diplomacy and Intimidation checks.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "72F78DAF-297C-5043-91DB-2AA850E92C3C",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Commandant's Scabbard",
+    "slug": "effect-commandant-s-scabbard-battlecry",
+    "descr": "Granted by [Commandant'S Scabbard](/item/commandant-s-scabbard-battlecry)\n\nYou gain a +4 status bonus to damage with the selected weapon.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F3D463C9-573C-5F1D-B014-C6D15D3787B3",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Commander's Banner",
+    "slug": "effect-commander-s-banner-battlecry",
+    "descr": "Granted by [Commander'S Banner](/feat/commander-s-banner-battlecry)\n\nYou gain a +1 status bonus to Will saves and DCs against fear effects. If the origin has the [Glorious Banner](/feat/glorious-banner-battlecry) feat, this bonus increases to +2, and you gain a +1 status bonus to AC, Fortitude saves, and Reflex saves.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "586FFCF7-F8B6-5B92-BE3F-59E5976CE72F",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Commanding Draw",
+    "slug": "effect-commanding-draw-battlecry",
+    "descr": "Granted by [Commandant'S Scabbard](/item/commandant-s-scabbard-battlecry)\n\nYou roll twice and take the better result with the selected weapon.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "29E4B192-3A37-5651-93E7-2EB9406F1DD0",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Convert Arrows",
+    "slug": "effect-convert-arrows-battlecry",
+    "descr": "Granted by [Endless Quiver](/item/endless-quiver-battlecry), [Endless Quiver (Greater)](/item/endless-quiver-greater-battlecry)\n\nYour Strikes using arrows are considered adamantine, cold iron, dawnsilver, or silver.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1B649C79-B21C-58CA-937B-C9E641E759B5",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Cornucopia of Plenty",
+    "slug": "effect-cornucopia-of-plenty-battlecry",
+    "descr": "Granted by [Cornucopia Of Plenty](/item/cornucopia-of-plenty-battlecry)\n\nYou gain 5 temporary Hit Points",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "43A38139-38DA-5830-AF57-56DBF6813AC2",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Dagger Defense",
+    "slug": "effect-dagger-defense-battlecry",
+    "descr": "The archer regiment gains a +1 circumstance bonus to AC until the beginning of their next turn.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "60B4DF81-9AC1-567E-8772-9F02525E2A25",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Dawnfire Beacon (Major)",
+    "slug": "effect-dawnfire-beacon-major-battlecry",
+    "descr": "Granted by [Dawnfire Beacon (Major)](/item/dawnfire-beacon-major-battlecry)\n\nYou gain a +1 status bonus to saving throws against unholy effects.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "29C2001E-4D56-5EFA-BC99-767BFA7DE14A",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Deep Sea Plate",
+    "slug": "effect-deep-sea-plate-battlecry",
+    "descr": "Granted by [Deep Sea Plate](/item/deep-sea-plate-battlecry)\n\nYou gain a swim Speed equal to half your Speed while in depths of 500 feet or less.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9FCFB099-7B8E-5D4C-AA62-DE9945A6E3AD",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Defense of Liberty",
+    "slug": "effect-defense-of-liberty-battlecry",
+    "descr": "Granted by [Talonstrike Blade](/item/talonstrike-blade-battlecry), [Talonstrike Blade (Greater)](/item/talonstrike-blade-greater-battlecry)\n\nYou gain a +2 circumstance bonus to AC against the triggering attack.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "CA1DAC1F-F759-5805-929F-A4EE9CE490FE",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Defiant Banner",
+    "slug": "effect-defiant-banner-battlecry",
+    "descr": "Granted by [Defiant Banner](/feat/defiant-banner-battlecry)\n\nYou gain resistance to bludgeoning, piercing, and slashing damage equal to the origin's Intelligence modifier.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "35361FE6-CEBC-53F9-AEE6-EDB77E27E3EF",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Demoralizing Charge",
+    "slug": "effect-demoralizing-charge-battlecry",
+    "descr": "Granted by [Demoralizing Charge](/action/demoralizing-charge-battlecry)\n\nYou take a circumstance penalty to your Will save.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "CE9D2D24-64A3-5ED5-9836-130BC54E527E",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Dismal Harvest",
+    "slug": "effect-dismal-harvest-battlecry",
+    "descr": "Granted by [Dismal Harvest](/feat/dismal-harvest-battlecry)\n\nYou gain temporary Hit Points.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F997CDD0-F196-551E-9385-A2B1C928BBA7",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Do No Harm",
+    "slug": "effect-do-no-harm-battlecry",
+    "descr": "Granted by [Medic'S Armband](/item/medic-s-armband-battlecry), [Medic'S Armband (Greater)](/item/medic-s-armband-greater-battlecry)\n\nYou take a status penalty to damage rolls.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "662A1378-3031-5F03-94C8-836A0FE34582",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Ethereal Crescent",
+    "slug": "effect-ethereal-crescent-battlecry",
+    "descr": "Granted by [Ethereal Crescent](/item/ethereal-crescent-battlecry), [Ethereal Crescent (Greater)](/item/ethereal-crescent-greater-battlecry)\n\nYour weapon gains the effects of a *[ghost touch](/item/ghost-touch-gm-core)* rune, or *[astral](/item/astral-gm-core)* rune if granted by a *greater ethereal crescent.*",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0FF9004C-DFFC-5C0A-8691-92F832166845",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Extra Warming",
+    "slug": "effect-extra-warming-battlecry",
+    "descr": "Granted by [Warming Parka](/item/warming-parka-battlecry)\n\nYou gain resistance 3 to cold damage and take a –2 item penalty to Perception checks.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4E9CDDD9-C807-5B38-A7FF-9C7245FA9F84",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Featherlight Fletching",
+    "slug": "effect-featherlight-fletching-battlecry",
+    "descr": "Granted by [Featherlight Fletching](/item/featherlight-fletching-battlecry)\n\nYour selected ranged weapon doubles its range increment.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "43D772C5-83CD-5EEA-A889-27B5F92E7039",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Fight On",
+    "slug": "effect-fight-on-battlecry",
+    "descr": "Granted by [Admiral'S Bicorne](/item/admiral-s-bicorne-battlecry)\n\nYou gain a +2 status bonus to saving throws against fear effects.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "96B3ADA4-63F8-5C26-9967-E3D3BDA79BF8",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Flutter Net",
+    "slug": "effect-flutter-net-battlecry",
+    "descr": "Granted by [Protective Netting](/item/protective-netting-battlecry)\n\nYou gain a +1 item bonus to saving throws against effects originating from swarms.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D9674381-419A-5374-86B1-304B86D0AAFE",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Fortunate Blow",
+    "slug": "effect-fortunate-blow-battlecry",
+    "descr": "Granted by [Fortunate Blow](/feat/fortunate-blow-battlecry)\n\nYou roll twice on your next attack roll against the marked target and take the higher result.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1A0B1C46-8670-556D-AC60-B50AF1AA2CDB",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Forward March!",
+    "slug": "effect-forward-march-battlecry",
+    "descr": "Granted by [Vine Baton](/item/vine-baton-battlecry)\n\nYou gain a +2 status bonus to your initiative rolls.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "61158022-9811-5223-A8F8-D9D20813A67B",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Fueled by Spite",
+    "slug": "effect-fueled-by-spite-battlecry",
+    "descr": "The battalion gains 6 temporary Hit Points.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2FED65E4-0690-5C9F-B8F9-B526D569FC5B",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Gasp for Air",
+    "slug": "effect-gasp-for-air-battlecry",
+    "descr": "Granted by [Sailor'S Collar (Greater)](/item/sailor-s-collar-greater-battlecry)\n\nYou gain a 10-foot swim Speed.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "018A7D05-5F82-58ED-88F7-CCC01020275C",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Glorious Banner",
+    "slug": "effect-glorious-banner-battlecry",
+    "descr": "Granted by [Glorious Banner](/feat/glorious-banner-battlecry)\n\nYou take a –2 status penalty to Will saves as long as you can see the origin's banner.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "6DFE1477-4BA6-50B0-9F82-A951911D6534",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Guard Charge",
+    "slug": "effect-guard-charge-battlecry",
+    "descr": "You gains a +2 circumstance bonus to you AC, Reflex saves, and saves against fear when you are adjacent to the viking guard.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E20AE637-4B1F-597D-86AD-FBD5D7EF50D6",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Guiding Shot",
+    "slug": "effect-guiding-shot-battlecry",
+    "descr": "Granted by [Guiding Shot](/feat/guiding-shot-battlecry)\n\nYou gain a +1 circumstance bonus against the marked target, or a +2 circumstance bonus if the origin's Strike was a critical hit.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4A7A5B67-4A1E-5716-9C88-E6E9C52B131A",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Halt Death",
+    "slug": "effect-halt-death-battlecry",
+    "descr": "Granted by Halt Death\n\nYou are guarded against death, gaining a status bonus to saving throws against death effects. If the result of the ritual was a critical success, when you succeed at a recovery check, you get a critical success instead.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "91D9AA6F-1442-5512-B64B-DA203E0E442D",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Hampering Fusillade",
+    "slug": "effect-hampering-fusillade-battlecry",
+    "descr": "You take a –10-foot circumstance penalty to your Speed.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8F5EC0C4-6B4E-51EE-8B87-8F689C5F0EDB",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Hand Chords",
+    "slug": "effect-hand-chords-battlecry",
+    "descr": "Granted by [Bellows Pipes](/item/bellows-pipes-battlecry)\n\nYou gain a +1 status bonus to the next attack roll, Perception check, saving throw, or skill check you attempt.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "519E0454-D7CB-57B9-BE32-7F66F3744BE9",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Hand of Mercy",
+    "slug": "effect-hand-of-mercy-battlecry",
+    "descr": "Granted by [Hand Of Mercy](/item/hand-of-mercy-battlecry)\n\nYour weapon gains the [nonlethal](/trait/nonlethal) trait.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9B2A7A2E-9631-5E7A-B317-4C2EB09D5FD1",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Harden Chitin",
+    "slug": "effect-harden-chitin-battlecry",
+    "descr": "The horde gains resistance 10 to all damage (except mental and spirit).",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0C81477B-F41C-5CF4-B991-9928C8FB55FE",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Hasty Traps",
+    "slug": "effect-hasty-traps-battlecry",
+    "descr": "You take a –5-foot status penalty to your Speeds as long you take persistent bleed damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3C147519-040B-5262-80E7-C0272D3EFA33",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Heads Up!",
+    "slug": "effect-heads-up-battlecry",
+    "descr": "Granted by [Lieutenant'S Sash](/item/lieutenant-s-sash-battlecry)\n\nYou gain a +1 circumstance bonus to saving throws and AC.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E37C6F15-8402-5001-AD98-E38B32D0570B",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Hexwise Banner",
+    "slug": "effect-hexwise-banner-battlecry",
+    "descr": "You gain resistance 5 to damage from spells; for spells that apply multiple instances of damage, such as [Force Barrage](/spell/force-barrage-player-core), this applies only to the first instance of damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "7CB38D96-9870-52B8-BCC1-ED1B45FCB12C",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Hexwise Banner (Major)",
+    "slug": "effect-hexwise-banner-major-battlecry",
+    "descr": "You gain resistance 10 to damage from spells; for spells that apply multiple instances of damage, such as [Force Barrage](/spell/force-barrage-player-core), this applies only to the first instance of damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "CE2B5E68-8230-5E00-AFD1-2BDD47D58C38",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Hobble Pursuit",
+    "slug": "effect-hobble-pursuit-battlecry",
+    "descr": "You take a circumstance penalty to your Speeds. On a Failure or Critical Failure, you are Slowed 1",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "ADC1085D-DA6C-5FBD-AF46-09448F62DCD4",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Hobgoblin Phalanx",
+    "slug": "effect-hobgoblin-phalanx-battlecry",
+    "descr": "The regiment gains a +2 circumstance bonus to AC.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E291A45B-6016-588E-8131-B5C06E71CB47",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Inspirational Salute",
+    "slug": "effect-inspirational-salute-battlecry",
+    "descr": "Granted by [Warpipes](/item/warpipes-battlecry)\n\nYou gain a +1 status bonus to damage rolls and saves against fear effects.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B44BDA2B-F59C-5A4F-B462-2BD3DB3B57B5",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Invented Vulnerability",
+    "slug": "effect-invented-vulnerability-battlecry",
+    "descr": "Granted by [Invented Vulnerability](/feat/invented-vulnerability-battlecry)\n\nYou gain weakness to the selected damage type.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5978A916-51CE-5580-AD9C-2421671A1B16",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Invincible Army",
+    "slug": "effect-invincible-army-battlecry",
+    "descr": "Granted by [Invincible Army](/feat/invincible-army-battlecry)\n\nYou gain resistance 5 to bludgeoning, piercing, or slashing damage if the check was against the hard DC. if the check is against a very hard DC, then you gain resistance to two damage types, adding acid, fire, cold, electricity, and sonic to the damage types.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8684E74C-6752-522C-860F-036022E9E0AF",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: It Can't Hurt You",
+    "slug": "effect-it-can-t-hurt-you-battlecry",
+    "descr": "Granted by [Abidance Blinders](/item/abidance-blinders-battlecry)\n\nYou gain a +1 status bonus to your saving throw against a fear effect.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F026E920-A8F6-5B84-B8B6-1A3E7C0ECD38",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Keep Up the Good Fight",
+    "slug": "effect-keep-up-the-good-fight-battlecry",
+    "descr": "Granted by [Keep Up The Good Fight](/feat/keep-up-the-good-fight-battlecry)\n\nYou gain temporary Hit Points equal to your level.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A2730FA6-E978-5A85-BBCD-26101EE77D89",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Knave's Standard",
+    "slug": "effect-knave-s-standard-battlecry",
+    "descr": "Granted by [Knave'S Standard](/item/knave-s-standard-battlecry), [Knave'S Standard (Greater)](/item/knave-s-standard-greater-battlecry), [Knave'S Standard (Major)](/item/knave-s-standard-major-battlecry)\n\nWhenever you critically succeed with a Strike against an off-guard target, the Strike deals additional precision damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "162F17CE-274A-5D3A-857A-E37A58567BB3",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Lesson of the Broken Wing",
+    "slug": "effect-lesson-of-the-broken-wing-battlecry",
+    "descr": "Granted by [Lesson Of The Broken Wing](/feat/lesson-of-the-broken-wing-battlecry)\n\nIf you're the origin, you take a –1 penalty to your AC against the marked creature's Strikes. Otherwise, you gain a +1 circumstance bonus to your Strikes against the creature.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "EB3E216F-3786-54F5-AA3E-53A8301D10BA",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Lesson of the Splintered Aegis",
+    "slug": "effect-lesson-of-the-splintered-aegis-battlecry",
+    "descr": "Granted by [Lesson Of The Splintered Aegis](/feat/lesson-of-the-splintered-aegis-battlecry)\n\nYou can roll your next Strike or spell attack roll against the target twice and take the better result.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "DDEC157C-F6F6-547F-9FC0-DE79F9CC452F",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Lifting Leather",
+    "slug": "effect-lifting-leather-battlecry",
+    "descr": "Granted by [Lifting Leather](/item/lifting-leather-battlecry)\n\nYou gain a +1 status bonus to Athletics checks to Disarm, Reposition, Shove, and Trip.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 10,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0D19C52E-AE06-532B-AD19-5A5DB5B53DFE",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Living Shields",
+    "slug": "effect-living-shields-battlecry",
+    "descr": "You gain a +2 circumstance bonus to AC.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B034C143-BAC5-5CF9-9FD1-A08EC2389797",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Mighty Counterweight",
+    "slug": "effect-mighty-counterweight-battlecry",
+    "descr": "Granted by [Mighty Counterweight](/item/mighty-counterweight-battlecry)\n\nYour weapon deals an amount of additional bludgeoning damage equal to the number of weapon damage dice.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1901D21A-750E-5B72-A751-6E0063516D90",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Mirrored Wall",
+    "slug": "effect-mirrored-wall-battlecry",
+    "descr": "Granted by [Mirrored Wall](/action/mirrored-wall-battlecry)\n\nYou take a circumstance penalty to your Fortitude save.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A6539CD5-8328-5A7D-AE3D-350C20799BB3",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Morph Jewel",
+    "slug": "effect-morph-jewel-battlecry",
+    "descr": "Granted by [Morph Jewel](/item/morph-jewel-battlecry)\n\nChoose bludgeoning, piercing, or slashing. Your weapon's damage becomes that type for 1 minute.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C1E28096-585A-5AD7-B5AC-DB88C39A7F4C",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Mountaineering Training",
+    "slug": "effect-mountaineering-training-battlecry",
+    "descr": "Granted by [Mountaineering Training](/action/mountaineering-training-battlecry)\n\nYou gain a climb Speed of 20 feet.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C28E72F4-98B4-58D0-BDF0-DA136750D0F9",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Naval Training",
+    "slug": "effect-naval-training-battlecry",
+    "descr": "Granted by [Naval Training](/action/naval-training-battlecry)\n\nYou gain a swim Speed of 20 feet.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0D7BA4EC-BA80-50E8-9C7A-AA7742A000D6",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Overconfident Facade",
+    "slug": "effect-overconfident-facade-battlecry",
+    "descr": "Granted by [Feather Of Unfounded Bravado](/item/feather-of-unfounded-bravado-battlecry)\n\nyou gain a +1 item bonus to Intimidation checks to Demoralize and Diplomacy checks to Make an Impression, but a –1 item penalty on Acrobatics and Athletics checks",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B20F0A36-EB5C-59A0-8423-C40C30647ED4",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Pennant of Victory",
+    "slug": "effect-pennant-of-victory-battlecry",
+    "descr": "Granted by [Pennant Of Victory](/feat/pennant-of-victory-battlecry)\n\nYou gain a +4 status bonus to attack and damage rolls, a +10-foot status bonus to all your Speeds, and 40 temporary Hit Points.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "FC9FF205-482F-5D06-A5CE-478E44EE850A",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Perfect Protection",
+    "slug": "effect-perfect-protection-battlecry",
+    "descr": "Granted by [Perfect Protection](/feat/perfect-protection-battlecry)\n\nWhen you critically hit the origin, they roll a DC 14 flat check. On a success, it becomes a normal hit. If the origin's armor has a [fortification](/item/fortification-gm-core) rune, they roll only one flat check, but the DC is 12 (or 10 if it's a greater fortification rune).",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A8DA3A90-3F07-57C5-BEF2-A4170F62FFFE",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Phasing Trine",
+    "slug": "effect-phasing-trine-battlecry",
+    "descr": "Granted by [Phasing Trine](/item/phasing-trine-battlecry)\n\nYour Strikes with the selected weapon ignore all cover and circumstance bonuses to AC from shields.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "99DC50CC-7ED9-50BA-AA29-961D66456EFC",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Phasing Trine (Reduce AC)",
+    "slug": "effect-phasing-trine-reduce-ac-battlecry",
+    "descr": "Granted by [Phasing Trine](/item/phasing-trine-battlecry) via Ephemeral Effect\n\nThe origin's Strikes against you ignore all cover and circumstance bonuses to AC from shields.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "856C6E09-EEC3-5C57-8423-CE45309E0529",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Plane-Stepping Dash",
+    "slug": "effect-plane-stepping-dash-battlecry",
+    "descr": "Granted by [Plane Stepping Dash](/feat/plane-stepping-dash-battlecry)\n\nYou gain a +5-foot status bonus to your Speed.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "75BF227F-0563-5359-9E61-192B0A232560",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Plant Banner",
+    "slug": "effect-plant-banner-battlecry",
+    "descr": "Granted by [Plant Banner](/feat/plant-banner-battlecry)\n\nYou gain 4 temporary Hit Points, plus an additional 4 temporary Hit Points if the origin is 4th level and every 4 levels thereafter.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "92D3B9E5-EE35-5B06-9035-A42914842274",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Predator's Advantage",
+    "slug": "effect-predator-s-advantage-battlecry",
+    "descr": "You take a –2 circumstance penalty to Reflex saves against a deinonychus pack's Jaws and Claws.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "82BD827D-10D6-50D2-9EE5-C3E902646A2E",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Raise Defenses",
+    "slug": "effect-raise-defenses-battlecry",
+    "descr": "You gain a +2 circumstances bonus to AC.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F5F55C71-6B29-51DF-86F1-055558087D5D",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Rally the Troops",
+    "slug": "effect-rally-the-troops-battlecry",
+    "descr": "Granted by [Radiant Victory](/item/radiant-victory-battlecry)\n\nYou gain a +1 status bonus to attack rolls.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "CF1FC495-E20F-5EAA-8ABA-97F48ACC792F",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Reflective Arrows (Penalty)",
+    "slug": "effect-reflective-arrows-penalty-battlecry",
+    "descr": "You take a –1 circumstance penalty to the Reflective Arrows save.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "68B9F7F4-EAC1-5C0E-BC93-2B8F667AEA15",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Ride Them Down!",
+    "slug": "effect-ride-them-down-battlecry",
+    "descr": "Granted by [Cavalry Commander'S Lance](/item/cavalry-commander-s-lance-battlecry)\n\nYou gain a +1 circumstance bonus to your next attack roll.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C7B8CF85-9731-5BD3-AE1F-DAD5586A3546",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Sanguine Revitalization",
+    "slug": "effect-sanguine-revitalization-battlecry",
+    "descr": "Granted by [Sanguine Revitalization](/action/sanguine-revitalization-battlecry)\n\nYou take a circumstance penalty to your Fortitude save.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "6B9F85B5-010A-530B-8B5F-F218F95DCF56",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Season of Grit",
+    "slug": "effect-season-of-grit-battlecry",
+    "descr": "Granted by [Constant Crosier](/item/constant-crosier-battlecry)\n\nYou gain a +1 status bonus to Fortitude saves and resistance 5 to persistent damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "DEB99CE5-5E4C-593B-9D89-E7BAE06E4D04",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Shield from Arrows",
+    "slug": "effect-shield-from-arrows-battlecry",
+    "descr": "Granted by [Shield From Arrows](/feat/shield-from-arrows-battlecry)\n\nYou gain a +4 circumstance bonus to AC.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "57E1E1DD-8F35-5019-ABCB-732EF4812E7B",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Shield Paragon Benefit",
+    "slug": "effect-shield-paragon-benefit-battlecry",
+    "descr": "Granted by [Paragon Benefit (Shield)](/feat/paragon-benefit-shield-battlecry)\n\nYou gain the origin's shield circumstance bonus to AC.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F6F89391-A814-523A-B560-88DC55AB4CAB",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Shield Your Eyes",
+    "slug": "effect-shield-your-eyes-battlecry",
+    "descr": "Granted by [Shield Your Eyes](/feat/shield-your-eyes-battlecry)\n\nIf you critically succeed against the origin's DC with a light or [visual](/trait/visual) trait, it's a success instead.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3BD650CC-E15E-51F0-A5A3-1352D8E907EE",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Shielded Recovery",
+    "slug": "effect-shielded-recovery-battlecry",
+    "descr": "Granted by [Shielded Recovery](/feat/shielded-recovery-battlecry)\n\nYou gain a +1 circumstance bonus to AC and Reflex saves.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F92D1433-2F0A-5D46-862F-65C0D2B29794",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Siphoning Grip",
+    "slug": "effect-siphoning-grip-battlecry",
+    "descr": "You gain temporary hit points.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E1264D2D-D9D5-5181-8D20-1F56B7274B4F",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Slayer's Stone",
+    "slug": "effect-slayer-s-stone-battlecry",
+    "descr": "Granted by [Slayer'S Stone](/item/slayer-s-stone-battlecry)\n\nChoose aberration, animal, beast, celestial, construct, dragon, elemental, fey, fiend, giant, monitor, ooze, or both fungus and plant. Your selected weapon deals an additional 1d6 precision damage to creatures with the chosen trait or traits.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B91E4519-AB1C-5C24-80B0-BCE53AA9F131",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Sooth Serpents (Speed Penalty)",
+    "slug": "effect-sooth-serpents-speed-penalty-battlecry",
+    "descr": "Granted by [Sinuous Recorder](/item/sinuous-recorder-battlecry)\n\nYou take a –5-foot penalty to your Speeds.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "37781044-850F-50AE-9CCF-0940E66889DA",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Stalwart's Banner",
+    "slug": "effect-stalwart-s-banner-battlecry",
+    "descr": "Granted by [Stalwart'S Banner](/item/stalwart-s-banner-battlecry), [Stalwart'S Banner (Greater)](/item/stalwart-s-banner-greater-battlecry), [Stalwart'S Banner (Major)](/item/stalwart-s-banner-major-battlecry)\n\nYou gain temporary Hit Points and a status bonus to your Fortitude DC and Reflex DC against any effect that would move you or knock you prone.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C3FF727A-A1ED-537D-9022-02BD88AB2AF0",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Swagger",
+    "slug": "effect-swagger-battlecry",
+    "descr": "Granted by [Swagger Stick](/item/swagger-stick-battlecry)\n\nYou gain a +1 status bonus to attack rolls, Fortitude saves, and Will saves against mental effects.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "917B41D8-F10A-5268-BDE9-20C00A49D3D3",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Swift Standard",
+    "slug": "effect-swift-standard-battlecry",
+    "descr": "Granted by [Swift Standard](/item/swift-standard-battlecry), [Swift Standard (Greater)](/item/swift-standard-greater-battlecry), [Swift Standard (Major)](/item/swift-standard-major-battlecry)\n\nYou gain a status bonus to your Speed.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B2D98A02-D9C3-56B9-AF1C-7E9E4360289D",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Targeting Strike",
+    "slug": "effect-targeting-strike-battlecry",
+    "descr": "Granted by [Targeting Strike](/feat/targeting-strike-battlecry)\n\nYour attack against the marked target deals an amount of additional precision damage equal to the origin's Intelligence modifier.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0F795401-7335-5223-9B46-6C40B6155BDD",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Taunt",
+    "slug": "effect-taunt-battlecry",
+    "descr": "Granted by [Taunt](/action/taunt-battlecry)\n\nYou take a –1 circumstance penalty to attack rolls and DCs that don't target the origin. If you take a hostile action that doesn't target the origin, you also become [Off Guard](/condition/off-guard-player-core) until the start of your next turn.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5B37FA42-7FD3-5845-8A69-7054DCF57813",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: The Bigger They Are (Commander)",
+    "slug": "effect-the-bigger-they-are-commander-battlecry",
+    "descr": "Granted by [The Bigger They Are](/action/the-bigger-they-are-battlecry)\n\nYou gain a circumstance bonus to your check to Reposition, Shove, or Trip.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "CCDF834E-2D30-5B9D-BEB2-AF059CFC8537",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: The Hammer of Hooves",
+    "slug": "effect-the-hammer-of-hooves-battlecry",
+    "descr": "Granted by [Guangu Of The Steppe](/item/guangu-of-the-steppe-battlecry)\n\nYou gain a +1 status bonus to Nature checks to Command an Animal.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B5829650-9CFD-57EC-B946-3A65E0B2527A",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: The Hammer of Hooves (Mount Speed)",
+    "slug": "effect-the-hammer-of-hooves-mount-speed-battlecry",
+    "descr": "Granted by [Guangu Of The Steppe](/item/guangu-of-the-steppe-battlecry)\n\nYou gain a +10-status bonus to your Speeds.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 10,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "83EDDCA2-F3B6-5D02-9877-376EE4E7E44C",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: The Truth As I See It",
+    "slug": "effect-the-truth-as-i-see-it-battlecry",
+    "descr": "Granted by [The Truth As I See It](/feat/the-truth-as-i-see-it-battlecry)\n\nWhen using Deception to Lie, you can roll twice and take the better result.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "98962EA1-063E-500B-8DB0-8D2DCA36AE42",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Timepiece Standard",
+    "slug": "effect-timepiece-standard-battlecry",
+    "descr": "Granted by [Timepiece Standard](/item/timepiece-standard-battlecry), [Timepiece Standard (Major)](/item/timepiece-standard-major-battlecry)\n\nYou gain temporary Hit Points.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "67345B71-28FE-5413-A229-8309673CF667",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Timepiece Standard (Major)",
+    "slug": "effect-timepiece-standard-major-battlecry",
+    "descr": "You gain 10 temporary Hit Points that last for 1 minute and then become immune to this effect for 10 minutes.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2C9C0020-F5D5-52B7-B0DB-00ED6753A712",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Titan's Standard",
+    "slug": "effect-titan-s-standard-battlecry",
+    "descr": "Granted by [Titan'S Standard](/item/titan-s-standard-battlecry)\n\nYou become Large and your equipment grows with you. While Large, you are clumsy 1, and your reach increases by 5 feet (or by 10 feet if you started out Tiny).",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4161C88F-0D7F-575D-814C-161FEB7E73B6",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Toothy Knife",
+    "slug": "effect-toothy-knife-battlecry",
+    "descr": "Granted by [Toothy Knife](/item/toothy-knife-battlecry), [Toothy Knife (Greater)](/item/toothy-knife-greater-battlecry)\n\nThe DC of your flat check to end persistent bleed damage is 17.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "380C6EBF-DCF8-51DF-BA06-0B1D18A6F7E3",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Tough Cookie",
+    "slug": "effect-tough-cookie-battlecry",
+    "descr": "Granted by [Tough Cookie](/feat/tough-cookie-battlecry)\n\nYou gain a number of temporary Hit Points equal to half your maximum Hit Points that last for 1 minute.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A4DED125-BEFE-5C6C-AB1E-3EFD875D74FD",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Transmuting Ingot",
+    "slug": "effect-transmuting-ingot-battlecry",
+    "descr": "Granted by [Transmuting Ingot (Cold Iron)](/item/transmuting-ingot-cold-iron-battlecry), [Transmuting Ingot (Silver)](/item/transmuting-ingot-silver-battlecry), [Transmuting Ingot (Adamantine)](/item/transmuting-ingot-adamantine-battlecry)\n\nYour selected weapon counts as adamantine, cold iron, and silver.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4ED6E95D-1235-5469-BBBB-496E748B6FB4",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Troop Harrowing",
+    "slug": "effect-troop-harrowing-battlecry",
+    "descr": "You take a status penalty to your saving throw or AC against a spell.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 0,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E36E1F5B-B4C0-525E-8A2C-83E9BEA1DC98",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Unsteadying Strike",
+    "slug": "effect-unsteadying-strike-battlecry",
+    "descr": "Granted by [Unsteadying Strike](/feat/unsteadying-strike-battlecry)\n\nYou take a –2 circumstance penalty to your Fortitude DC to resist being Grappled, Repositioned, or Shoved and a –2 circumstance penalty to your Reflex DC to resist being Disarmed.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5321165B-3FAF-515C-A71A-20000ECB675F",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Valorous Coin",
+    "slug": "effect-valorous-coin-battlecry",
+    "descr": "Granted by [Valorous Coin](/item/valorous-coin-battlecry)\n\nYou gain temporary Hit Points equal to your level, and you gain a +1 circumstance bonus to Strikes and damage rolls with the selected weapon.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "826E0FB7-4024-5E2F-8C12-063372C577B1",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Vanguard's Shield",
+    "slug": "effect-vanguard-s-shield-battlecry",
+    "descr": "Granted by [Vanguard'S Shield](/item/vanguard-s-shield-battlecry)\n\nYou gain a +2 circumstance bonus to the saving throw against the triggering effect.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0BB024D4-0126-5704-B3A7-53730F3AF08B",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Conquering Soldiers (Depart)",
+    "slug": "spell-effect-conquering-soldiers-depart-battlecry",
+    "descr": "Granted by [Conquering Soldiers](/spell/conquering-soldiers-battlecry)\n\nYou gain a +2 status bonus to all attacks, saving throws, skill checks, and DCs.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 3,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9FCB4831-8C24-529B-BC09-F0680A2F6C0D",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Curse of Recoil (Critical Failure)",
+    "slug": "spell-effect-curse-of-recoil-critical-failure-battlecry",
+    "descr": "Granted by [Curse Of Recoil](/spell/curse-of-recoil-battlecry)\n\nYou take a –2 status penalty to your ranged attacks and you're off-guard.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "EE2D31F5-1ED3-5CF0-B46C-2B9CFA6D1781",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Curse of Recoil (Failure)",
+    "slug": "spell-effect-curse-of-recoil-failure-battlecry",
+    "descr": "Granted by [Curse Of Recoil](/spell/curse-of-recoil-battlecry)\n\nYou take a –1 status penalty to your ranged attack.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1688B030-27C5-5A7F-AEB9-508710442F96",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Dancing Shield",
+    "slug": "spell-effect-dancing-shield-battlecry",
+    "descr": "Granted by [Dancing Shield](/spell/dancing-shield-battlecry)\n\nThe touched shield uses the [Raise a Shield](/action/raise-a-shield-player-core) action to protect the target creature.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2824E4EE-7229-5674-B069-E350C0BB2DA8",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Filter Air",
+    "slug": "spell-effect-filter-air-battlecry",
+    "descr": "Granted by [Filter Air](/spell/filter-air-battlecry)\n\nYou get the outcome one degree of success higher on your saving throws against inhaled poisons and diseases.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2FF4CDEE-27B0-51BC-83CD-C728157663D0",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Frozen Fog",
+    "slug": "spell-effect-frozen-fog-battlecry",
+    "descr": "Granted by [Frozen Fog](/spell/frozen-fog-battlecry)\n\nYou are clumsy 1 (clumsy 2 on a critical failure) and take a –10-foot status penalty to Speeds.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3F4493F5-8734-595C-896C-EAAB41A5DF88",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Helpful Reload",
+    "slug": "spell-effect-helpful-reload-battlecry",
+    "descr": "Granted by [Helpful Reload](/spell/helpful-reload-battlecry)\n\nYou gain a +1 status bonus to your next Strike with the chosen weapon.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F5FD77A0-7450-5980-93B4-15C65CAD0AF0",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Holy Host (Azata)",
+    "slug": "spell-effect-holy-host-azata-battlecry",
+    "descr": "Granted by [Holy Host](/spell/holy-host-battlecry)\n\nYou gain a +2 status bonus to attack rolls and saving throws, as well as a +4 status bonus to damage rolls.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "CEE95E53-AD88-5CB7-B47F-BFEE6469DBE4",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Holy Host (Garuda)",
+    "slug": "spell-effect-holy-host-garuda-battlecry",
+    "descr": "Granted by [Holy Host](/spell/holy-host-battlecry)\n\nYou gain a +1 circumstance bonus to all skill checks and DCs.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "ECEA35F1-7271-5090-B7F9-759B7DFDD2F0",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Shielding Formation",
+    "slug": "spell-effect-shielding-formation-battlecry",
+    "descr": "Granted by [Shielding Formation](/spell/shielding-formation-battlecry)\n\nYou gain a +1 circumstance bonus to AC. You can end this bonus to gain resistance 10 to all damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E89A91C2-1061-57D6-8F8D-156611CC00E7",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Wings of the Valkyrie",
+    "slug": "spell-effect-wings-of-the-valkyrie-battlecry",
+    "descr": "Granted by [Wings Of The Valkyrie](/spell/wings-of-the-valkyrie-battlecry)\n\nYou gain a fly Speed equal to your Speed.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 3,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "399EA6C8-7BE0-55FB-9938-95C1AF6CB359",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Wings of the Valkyrie (Heightened)",
+    "slug": "spell-effect-wings-of-the-valkyrie-heightened-battlecry",
+    "descr": "Granted by [Wings Of The Valkyrie](/spell/wings-of-the-valkyrie-battlecry)\n\nYou gain a fly Speed equal to your Speed.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9804DCE6-1FE0-54E4-9E08-F25A3ABBE388",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Stance: Duelist's Form",
+    "slug": "stance-duelist-s-form-battlecry",
+    "descr": "Granted by [Duelist'S Form](/feat/duelist-s-form-battlecry)\n\nYou are Quickened while in this stance.You can use this extra action only to Step or use a single-action activity gained from the [Aldori duelist](/archetype/aldori-duelist-battlecry) archetype. If you use your free hand for anything, this stance ends. When this stance ends, you become fatigued until you rest for at least 10 minutes.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "869D6194-1B8B-5AD1-8D78-E4B22E63B66A",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Stance: Jotun's Battle Stance",
+    "slug": "stance-jotun-s-battle-stance-battlecry",
+    "descr": "Granted by [Jotun'S Battle Stance](/feat/jotun-s-battle-stance-battlecry)\n\nWhen you wield a melee weapon that requires two hands and doesn't have reach, the weapon gains a reach of 10 feet.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

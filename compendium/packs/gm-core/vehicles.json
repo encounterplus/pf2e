@@ -1,0 +1,1540 @@
+[
+  {
+    "id": "5287042C-CEE5-54E2-A608-D126DC7BA62D",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Airship",
+    "slug": "airship-gm-core",
+    "descr": "",
+    "data": {
+      "level": 12,
+      "rarity": "rare",
+      "traits": [],
+      "size": "gargantuan",
+      "price": "6,000 gp",
+      "space": {
+        "high": 60,
+        "long": 90,
+        "wide": 30
+      },
+      "crew": "1 pilot, 5 other crew",
+      "passengers": "15",
+      "pilotingCheck": "Arcana (DC 32), Crafting (DC 32), Nature (DC 32), or Piloting Lore (DC 30)",
+      "speed": "fly 50 feet (alchemical, magical)",
+      "ac": {
+        "value": 28,
+        "details": ""
+      },
+      "hp": {
+        "value": 210,
+        "details": "",
+        "bt": 105
+      },
+      "hardness": 20,
+      "fortitude": 22,
+      "collisionDC": 30,
+      "collisionDamage": "9d10",
+      "abilities": [
+        {
+          "name": "Sluggish",
+          "text": "This vehicle must move twice its length for each 90-degree turn it makes.",
+          "traits": []
+        }
+      ],
+      "traitLinks": [],
+      "immunities": [
+        "critical hits",
+        "object immunities",
+        "precision damage"
+      ],
+      "weaknesses": "fire 15 until broken",
+      "description": "An alchemically assisted flying vessel built to carry a crew and passengers through the air."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core",
+        "page": 213
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B628ACD9-9FCD-5B3F-A1DD-5F44D964A2B1",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Bathysphere",
+    "slug": "bathysphere-gm-core",
+    "descr": "",
+    "data": {
+      "level": 5,
+      "rarity": "uncommon",
+      "traits": [],
+      "size": "large",
+      "price": "480 gp",
+      "space": {
+        "high": 15,
+        "long": 15,
+        "wide": 15
+      },
+      "crew": "1 pilot",
+      "passengers": "4",
+      "pilotingCheck": "Crafting (DC 22), Engineering Lore (DC 20), or Piloting Lore (DC 20)",
+      "speed": "swim 20 feet (alchemical; underwater only)",
+      "ac": {
+        "value": 18,
+        "details": ""
+      },
+      "hp": {
+        "value": 80,
+        "details": "",
+        "bt": 40
+      },
+      "hardness": 10,
+      "fortitude": 12,
+      "collisionDC": 20,
+      "collisionDamage": "2d10",
+      "abilities": [
+        {
+          "name": "Cable",
+          "text": "The bathysphere is raised and lowered from a cable at the surface and can move only vertically.",
+          "traits": []
+        },
+        {
+          "name": "Tether Buoy",
+          "text": "Crew and passengers can breathe while the vehicle is underwater to a depth of 500 feet or less.",
+          "traits": []
+        },
+        {
+          "name": "Ballast Release",
+          "text": "The pilot releases the bathysphere's ballast. The bathysphere moves 3 times its Speed toward the surface at the end of the pilot's turn.",
+          "traits": [],
+          "actions": "two"
+        }
+      ],
+      "traitLinks": [],
+      "immunities": [
+        "object immunities"
+      ],
+      "description": "An enclosed alchemical vessel built for travel underwater."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E4C03338-5309-573A-B9C9-8F2D37DA0AF8",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Carriage",
+    "slug": "carriage-gm-core",
+    "descr": "",
+    "data": {
+      "level": 2,
+      "rarity": "common",
+      "traits": [],
+      "size": "large",
+      "price": "100 gp",
+      "space": {
+        "high": 7,
+        "long": 10,
+        "wide": 10
+      },
+      "crew": "1 pilot",
+      "passengers": "4",
+      "pilotingCheck": "Driving Lore (DC 16) or Nature (DC 18 to DC 26, depending on pulling creature)",
+      "speed": "the Speed of the slowest pulling creature (pulled by 2 Large creatures)",
+      "ac": {
+        "value": 13,
+        "details": ""
+      },
+      "hp": {
+        "value": 40,
+        "details": "",
+        "bt": 20
+      },
+      "hardness": 5,
+      "fortitude": 8,
+      "collisionDC": 16,
+      "collisionDamage": "2d8",
+      "abilities": [],
+      "traitLinks": [],
+      "immunities": [
+        "object immunities"
+      ],
+      "description": "A passenger carriage drawn by a pair of large creatures."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "6565FB3E-CA67-56DA-A2AF-961776E8D85D",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Cart",
+    "slug": "cart-gm-core",
+    "descr": "",
+    "data": {
+      "level": 0,
+      "rarity": "common",
+      "traits": [],
+      "size": "large",
+      "price": "3 gp",
+      "space": {
+        "high": 4,
+        "long": 10,
+        "wide": 5
+      },
+      "crew": "1 pilot",
+      "passengers": "1",
+      "pilotingCheck": "Driving Lore (DC 14) or Nature (DC 16 to DC 24, depending on pulling creature)",
+      "speed": "the Speed of the slowest pulling creature (pulled by 1 Large creature)",
+      "ac": {
+        "value": 10,
+        "details": ""
+      },
+      "hp": {
+        "value": 14,
+        "details": "",
+        "bt": 7
+      },
+      "hardness": 5,
+      "fortitude": 6,
+      "collisionDC": 14,
+      "collisionDamage": "1d10",
+      "abilities": [],
+      "traitLinks": [],
+      "immunities": [
+        "object immunities"
+      ],
+      "description": "A small load-bearing cart drawn by one large creature."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "37015CA6-8E61-5A37-8001-26A2D5E0DC42",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Chariot (Heavy)",
+    "slug": "chariot-heavy-gm-core",
+    "descr": "",
+    "data": {
+      "level": 3,
+      "rarity": "common",
+      "traits": [],
+      "size": "large",
+      "price": "150 gp",
+      "space": {
+        "high": 4,
+        "long": 10,
+        "wide": 10
+      },
+      "crew": "1 pilot",
+      "passengers": "3",
+      "pilotingCheck": "Driving Lore (DC 18) or Nature (DC 20 to DC 28, depending on pulling creature)",
+      "speed": "the Speed of the slowest pulling creature (pulled by 2 Large creatures)",
+      "ac": {
+        "value": 14,
+        "details": ""
+      },
+      "hp": {
+        "value": 40,
+        "details": "",
+        "bt": 20
+      },
+      "hardness": 5,
+      "fortitude": 9,
+      "collisionDC": 18,
+      "collisionDamage": "2d10",
+      "abilities": [],
+      "traitLinks": [],
+      "immunities": [
+        "object immunities"
+      ],
+      "description": "A heavy chariot drawn by two large creatures."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1363D63B-36C4-56CA-BE43-ED3228952D47",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Chariot (Light)",
+    "slug": "chariot-light-gm-core",
+    "descr": "",
+    "data": {
+      "level": 0,
+      "rarity": "common",
+      "traits": [],
+      "size": "large",
+      "price": "10 gp",
+      "space": {
+        "high": 4,
+        "long": 5,
+        "wide": 5
+      },
+      "crew": "1 pilot",
+      "passengers": "",
+      "pilotingCheck": "Driving Lore (DC 14) or Nature (DC 16 to DC 24, depending on pulling creature)",
+      "speed": "the Speed of the pulling creature (pulled by 1 Large creature)",
+      "ac": {
+        "value": 10,
+        "details": ""
+      },
+      "hp": {
+        "value": 14,
+        "details": "",
+        "bt": 7
+      },
+      "hardness": 5,
+      "fortitude": 6,
+      "collisionDC": 14,
+      "collisionDamage": "1d12",
+      "abilities": [],
+      "traitLinks": [],
+      "immunities": [
+        "object immunities"
+      ],
+      "description": "A light chariot drawn by a single creature."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5A31FAB2-1F6C-5F83-ADA1-2AA1B13A17E9",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Cutter",
+    "slug": "cutter-gm-core",
+    "descr": "",
+    "data": {
+      "level": 6,
+      "rarity": "common",
+      "traits": [],
+      "size": "huge",
+      "price": "750 gp",
+      "space": {
+        "high": 20,
+        "long": 30,
+        "wide": 15
+      },
+      "crew": "1 pilot, 3 crew",
+      "passengers": "6",
+      "pilotingCheck": "Nature (DC 24), Sailing Lore (DC 22)",
+      "speed": "swim 30 feet (wind)",
+      "ac": {
+        "value": 19,
+        "details": ""
+      },
+      "hp": {
+        "value": 100,
+        "details": "",
+        "bt": 50
+      },
+      "hardness": 10,
+      "fortitude": 14,
+      "collisionDC": 22,
+      "collisionDamage": "4d10",
+      "abilities": [
+        {
+          "name": "Sluggish",
+          "text": "This vehicle must move twice its length for each 90-degree turn it makes.",
+          "traits": []
+        }
+      ],
+      "traitLinks": [],
+      "immunities": [
+        "object immunities"
+      ],
+      "weaknesses": "fire 10 until broken",
+      "description": "A wind-driven boat for travel on the water."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "305DF46C-5722-53B6-B0D3-7B9A86EBD736",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Galley",
+    "slug": "galley-gm-core",
+    "descr": "",
+    "data": {
+      "level": 10,
+      "rarity": "common",
+      "traits": [],
+      "size": "gargantuan",
+      "price": "3,000 gp",
+      "space": {
+        "high": 25,
+        "long": 130,
+        "wide": 20
+      },
+      "crew": "1 pilot, 20 rowers",
+      "passengers": "6",
+      "pilotingCheck": "Sailing Lore (DC 27), Diplomacy (DC 29), Or Intimidation (DC 29)",
+      "speed": "swim 30 feet (rowed, wind)",
+      "ac": {
+        "value": 25,
+        "details": ""
+      },
+      "hp": {
+        "value": 170,
+        "details": "",
+        "bt": 85
+      },
+      "hardness": 15,
+      "fortitude": 19,
+      "collisionDC": 27,
+      "collisionDamage": "7d10",
+      "abilities": [
+        {
+          "name": "Maneuverable",
+          "text": "With a full complement of skilled rowers, a rowed galley can turn swiftly, turn in place, and even row backwards. Each 90-degree turn made in less than a vehicle length costs 5 extra feet of movement. It can row backwards no faster than half its speed, and it can't turn while rowing backwards.",
+          "traits": []
+        }
+      ],
+      "traitLinks": [],
+      "immunities": [
+        "object immunities"
+      ],
+      "weaknesses": "fire 15 until broken",
+      "description": "A vessel propelled by rowers or wind."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "BA837218-F7F2-5D60-B5A5-621F1FDBD4C0",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Glider",
+    "slug": "glider-gm-core",
+    "descr": "",
+    "data": {
+      "level": 0,
+      "rarity": "uncommon",
+      "traits": [],
+      "size": "large",
+      "price": "15 gp",
+      "space": {
+        "high": 2,
+        "long": 5,
+        "wide": 10
+      },
+      "crew": "1 pilot",
+      "passengers": "",
+      "pilotingCheck": "Piloting Lore (DC 14) or Nature (DC 16)",
+      "speed": "fly 25 feet (wind)",
+      "ac": {
+        "value": 10,
+        "details": ""
+      },
+      "hp": {
+        "value": 16,
+        "details": "",
+        "bt": 8
+      },
+      "hardness": 0,
+      "fortitude": 6,
+      "collisionDC": 14,
+      "collisionDamage": "2d4",
+      "abilities": [
+        {
+          "name": "Starting Drop",
+          "text": "The only way to launch a glider is to jump off a steep incline with favorable wind conditions. The glider is uncontrolled and falls 60 feet each round until the pilot successfully [Takes Control](/action/take-control-gm-core). If the glider hits the ground before the pilot successfully Takes Control, the pilot and the glider each take falling damage.",
+          "traits": []
+        }
+      ],
+      "traitLinks": [],
+      "immunities": [
+        "object immunities"
+      ],
+      "weaknesses": "fire 5",
+      "description": "An unpowered craft carried through the air by the wind."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1FC09978-0B7D-5092-8F12-FBA170E43965",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Hot Air Balloon",
+    "slug": "hot-air-balloon-gm-core",
+    "descr": "",
+    "data": {
+      "level": 2,
+      "rarity": "uncommon",
+      "traits": [],
+      "size": "huge",
+      "price": "100 gp",
+      "space": {
+        "high": 50,
+        "long": 15,
+        "wide": 15
+      },
+      "crew": "1 pilot",
+      "passengers": "5",
+      "pilotingCheck": "Piloting Lore (DC 16) or Nature (DC 18)",
+      "speed": "fly 20 feet (wind)",
+      "ac": {
+        "value": 13,
+        "details": ""
+      },
+      "hp": {
+        "value": 40,
+        "details": "",
+        "bt": 20
+      },
+      "hardness": 0,
+      "fortitude": 8,
+      "collisionDC": 16,
+      "collisionDamage": "2d8",
+      "abilities": [
+        {
+          "name": "Drifter",
+          "text": "The hot air balloon lacks steering and relies on favorable wind currents to carry it in the right direction. If the pilot fails to maintain control of the hot air balloon, the balloon drifts whichever way the wind carries it, moving up to four times its Speed each round as determined by the GM.",
+          "traits": []
+        }
+      ],
+      "traitLinks": [],
+      "immunities": [
+        "object immunities"
+      ],
+      "weaknesses": "fire 10",
+      "description": "A balloon-borne vessel that travels with the wind."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "454D8F1C-4F08-533F-9AC3-114B829E9CC2",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Longship",
+    "slug": "longship-gm-core",
+    "descr": "",
+    "data": {
+      "level": 8,
+      "rarity": "common",
+      "traits": [],
+      "size": "gargantuan",
+      "price": "1,500 gp",
+      "space": {
+        "high": 25,
+        "long": 65,
+        "wide": 15
+      },
+      "crew": "1 pilot, 10 rowers",
+      "passengers": "4",
+      "pilotingCheck": "Sailing Lore (DC 26), Diplomacy (DC 28), or Intimidation (DC 28)",
+      "speed": "swim 40 feet (rowed, wind)",
+      "ac": {
+        "value": 21,
+        "details": ""
+      },
+      "hp": {
+        "value": 140,
+        "details": "",
+        "bt": 70
+      },
+      "hardness": 15,
+      "fortitude": 16,
+      "collisionDC": 24,
+      "collisionDamage": "6d10",
+      "abilities": [
+        {
+          "name": "Maneuverable",
+          "text": "With a full complement of skilled rowers, a rowed longship can turn swiftly, turn in place, and even row backwards. Each 90-degree turn made in less than a vehicle length costs 5 extra feet of movement. It can row backwards no faster than half its speed, and it can't turn while rowing backwards.",
+          "traits": []
+        }
+      ],
+      "traitLinks": [],
+      "immunities": [
+        "object immunities"
+      ],
+      "weaknesses": "fire 15 until broken",
+      "description": "A ship that can be propelled by rowing or sail."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "42249825-E862-5274-BFC4-306BA03B24E4",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Raft",
+    "slug": "raft-gm-core",
+    "descr": "",
+    "data": {
+      "level": -1,
+      "rarity": "common",
+      "traits": [],
+      "size": "large",
+      "price": "3 gp",
+      "space": {
+        "high": 2,
+        "long": 10,
+        "wide": 10
+      },
+      "crew": "1 pilot",
+      "passengers": "4",
+      "pilotingCheck": "Athletics (DC 14) or Sailing Lore (DC 12)",
+      "speed": "swim 10 feet (rowed)",
+      "ac": {
+        "value": 10,
+        "details": ""
+      },
+      "hp": {
+        "value": 16,
+        "details": "",
+        "bt": 8
+      },
+      "hardness": 1,
+      "fortitude": 5,
+      "collisionDC": 14,
+      "collisionDamage": "1d4",
+      "abilities": [
+        {
+          "name": "Portaged",
+          "text": "The raft can be carried overland by 2 Medium creatures or 1 Large creature. Those creatures are encumbered.",
+          "traits": []
+        }
+      ],
+      "traitLinks": [],
+      "immunities": [
+        "object immunities"
+      ],
+      "description": "A simple floating platform propelled by rowing."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A2AF6540-3697-5D25-B0C9-D70CB10A4AEF",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Rowboat",
+    "slug": "rowboat-gm-core",
+    "descr": "",
+    "data": {
+      "level": 0,
+      "rarity": "common",
+      "traits": [],
+      "size": "large",
+      "price": "15 gp",
+      "space": {
+        "high": 3,
+        "long": 10,
+        "wide": 5
+      },
+      "crew": "1 pilot",
+      "passengers": "2",
+      "pilotingCheck": "Athletics (DC 16) or Sailing Lore (DC 14)",
+      "speed": "swim 20 feet (rowed)",
+      "ac": {
+        "value": 10,
+        "details": ""
+      },
+      "hp": {
+        "value": 16,
+        "details": "",
+        "bt": 8
+      },
+      "hardness": 5,
+      "fortitude": 6,
+      "collisionDC": 14,
+      "collisionDamage": "2d4",
+      "abilities": [
+        {
+          "name": "Portaged",
+          "text": "The rowboat can be carried overland by 2 Medium creatures or 1 Large creature. Those creatures are encumbered when doing so.",
+          "traits": []
+        }
+      ],
+      "traitLinks": [],
+      "immunities": [
+        "object immunities"
+      ],
+      "description": "A small boat propelled by oars."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F822C739-3839-54AC-8C0E-C70FF13B1989",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Sailing Ship",
+    "slug": "sailing-ship-gm-core",
+    "descr": "",
+    "data": {
+      "level": 9,
+      "rarity": "common",
+      "traits": [],
+      "size": "gargantuan",
+      "price": "2,000 gp",
+      "space": {
+        "high": 25,
+        "long": 75,
+        "wide": 20
+      },
+      "crew": "1 pilot, 8 crew",
+      "passengers": "10",
+      "pilotingCheck": "Sailing Lore (DC 26), Diplomacy (DC 28), or Intimidation (DC 28)",
+      "speed": "swim 40 feet (wind)",
+      "ac": {
+        "value": 23,
+        "details": ""
+      },
+      "hp": {
+        "value": 150,
+        "details": "",
+        "bt": 75
+      },
+      "hardness": 15,
+      "fortitude": 18,
+      "collisionDC": 26,
+      "collisionDamage": "6d10",
+      "abilities": [
+        {
+          "name": "Sluggish",
+          "text": "This vehicle must move twice its length for each 90-degree turn it makes.",
+          "traits": []
+        }
+      ],
+      "traitLinks": [],
+      "immunities": [
+        "object immunities"
+      ],
+      "weaknesses": "fire 15 until broken",
+      "description": "A wind-driven vessel built for extended travel on water."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "7C71303B-636C-5D32-AEC4-0BCD88CA9BFE",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Sky Chariot (Heavy)",
+    "slug": "sky-chariot-heavy-gm-core",
+    "descr": "",
+    "data": {
+      "level": 13,
+      "rarity": "uncommon",
+      "traits": [],
+      "size": "large",
+      "price": "9,000 gp",
+      "space": {
+        "high": 8,
+        "long": 20,
+        "wide": 20
+      },
+      "crew": "1 pilot",
+      "passengers": "7",
+      "pilotingCheck": "Arcana (DC 33), Nature (DC 33 to 41, depending on pulling creature), or Piloting Lore (DC 31)",
+      "speed": "the fly Speed of the slowest pulling creature (pulled by 6 Large creatures, 2 Huge creatures, or 1 Gargantuan creature)",
+      "ac": {
+        "value": 29,
+        "details": ""
+      },
+      "hp": {
+        "value": 230,
+        "details": "",
+        "bt": 115
+      },
+      "hardness": 20,
+      "fortitude": 23,
+      "collisionDC": 31,
+      "collisionDamage": "9d10",
+      "abilities": [],
+      "traitLinks": [],
+      "immunities": [
+        "critical hits",
+        "object immunities",
+        "precision damage"
+      ],
+      "description": "A heavy airborne chariot drawn by flying creatures."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D6306520-198B-53DF-814E-638700F2F821",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Sky Chariot (Light)",
+    "slug": "sky-chariot-light-gm-core",
+    "descr": "",
+    "data": {
+      "level": 7,
+      "rarity": "uncommon",
+      "traits": [],
+      "size": "large",
+      "price": "1,000 gp",
+      "space": {
+        "high": 8,
+        "long": 10,
+        "wide": 15
+      },
+      "crew": "1 pilot",
+      "passengers": "1",
+      "pilotingCheck": "Arcana (DC 25), Nature (DC 25 to 33, depending on pulling creature), or Piloting Lore (DC 23)",
+      "speed": "the fly Speed of the slowest pulling creature (pulled by 2 Large creatures or 1 Huge creature)",
+      "ac": {
+        "value": 20,
+        "details": ""
+      },
+      "hp": {
+        "value": 80,
+        "details": "",
+        "bt": 40
+      },
+      "hardness": 15,
+      "fortitude": 14,
+      "collisionDC": 23,
+      "collisionDamage": "5d10",
+      "abilities": [],
+      "traitLinks": [],
+      "immunities": [
+        "critical hits",
+        "object immunities",
+        "precision damage"
+      ],
+      "description": "A light airborne chariot drawn by flying creatures."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E359287F-D654-568A-80DB-4F90352C9D77",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Sky Chariot (Medium)",
+    "slug": "sky-chariot-medium-gm-core",
+    "descr": "",
+    "data": {
+      "level": 10,
+      "rarity": "uncommon",
+      "traits": [],
+      "size": "large",
+      "price": "3,000 gp",
+      "space": {
+        "high": 8,
+        "long": 10,
+        "wide": 20
+      },
+      "crew": "1 pilot",
+      "passengers": "3",
+      "pilotingCheck": "Arcana (DC 29), Nature (DC 29 to 37, depending on pulling creature), or Piloting Lore (DC 27)",
+      "speed": "the fly Speed of the slowest pulling creature (pulled by 4 Large creatures, 2 Huge creatures, or 1 Gargantuan creature)",
+      "ac": {
+        "value": 25,
+        "details": ""
+      },
+      "hp": {
+        "value": 160,
+        "details": "",
+        "bt": 80
+      },
+      "hardness": 15,
+      "fortitude": 19,
+      "collisionDC": 27,
+      "collisionDamage": "7d10",
+      "abilities": [],
+      "traitLinks": [],
+      "immunities": [
+        "critical hits",
+        "object immunities",
+        "precision damage"
+      ],
+      "description": "An airborne chariot drawn by multiple flying creatures."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "BF41462A-3340-5E4D-9644-EA11D6CD18C9",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Sled",
+    "slug": "sled-gm-core",
+    "descr": "",
+    "data": {
+      "level": 0,
+      "rarity": "common",
+      "traits": [],
+      "size": "medium",
+      "price": "3 gp",
+      "space": {
+        "high": 3,
+        "long": 5,
+        "wide": 1
+      },
+      "crew": "1 pilot",
+      "passengers": "",
+      "pilotingCheck": "Driving Lore (DC 14) or Nature (DC 16 to DC 24, depending on pulling creature)",
+      "speed": "the Speed of the slowest pulling creature (pulled by 2 Medium creatures or 4 Small creatures)",
+      "ac": {
+        "value": 10,
+        "details": ""
+      },
+      "hp": {
+        "value": 14,
+        "details": "",
+        "bt": 7
+      },
+      "hardness": 5,
+      "fortitude": 6,
+      "collisionDC": 14,
+      "collisionDamage": "1d12",
+      "abilities": [
+        {
+          "name": "Ice Traverser",
+          "text": "Ice and snow are not difficult terrain to a sled, but all other terrains are difficult terrain for it.",
+          "traits": []
+        },
+        {
+          "name": "Sluggish",
+          "text": "This vehicle must move twice its length for each 90-degree turn it makes.",
+          "traits": []
+        }
+      ],
+      "traitLinks": [],
+      "immunities": [
+        "object immunities"
+      ],
+      "description": "A small sled pulled by several creatures."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E40F2A32-C7E8-5D2D-BFFB-EE4B6456A730",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Sleigh",
+    "slug": "sleigh-gm-core",
+    "descr": "",
+    "data": {
+      "level": 1,
+      "rarity": "common",
+      "traits": [],
+      "size": "large",
+      "price": "50 gp",
+      "space": {
+        "high": 4,
+        "long": 10,
+        "wide": 5
+      },
+      "crew": "1 pilot",
+      "passengers": "1",
+      "pilotingCheck": "Driving Lore (DC 15) or Nature (DC 17 to DC 25, depending on pulling creature)",
+      "speed": "the Speed of the slowest pulling creature (pulled by 2 Large creatures or 6 Medium creatures)",
+      "ac": {
+        "value": 11,
+        "details": ""
+      },
+      "hp": {
+        "value": 18,
+        "details": "",
+        "bt": 9
+      },
+      "hardness": 5,
+      "fortitude": 7,
+      "collisionDC": 15,
+      "collisionDamage": "2d6",
+      "abilities": [
+        {
+          "name": "Ice Traverser",
+          "text": "Ice and snow are not difficult terrain to a sleigh, but all other terrains are difficult terrain for it.",
+          "traits": []
+        },
+        {
+          "name": "Sluggish",
+          "text": "This vehicle must move twice its length for each 90-degree turn it makes.",
+          "traits": []
+        }
+      ],
+      "traitLinks": [],
+      "immunities": [
+        "object immunities"
+      ],
+      "description": "A large sleigh pulled by creatures."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "38D5064A-4A1C-5C91-951C-B9BC9A50AC66",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Steam Giant",
+    "slug": "steam-giant-gm-core",
+    "descr": "",
+    "data": {
+      "level": 14,
+      "rarity": "rare",
+      "traits": [],
+      "size": "huge",
+      "price": "12,500 gp",
+      "space": {
+        "high": 25,
+        "long": 20,
+        "wide": 20
+      },
+      "crew": "1 pilot, 3 crew",
+      "passengers": "4",
+      "pilotingCheck": "Driving Lore (DC 32) or Crafting (DC 34)",
+      "speed": "20 feet (alchemical)",
+      "ac": {
+        "value": 33,
+        "details": ""
+      },
+      "hp": {
+        "value": 200,
+        "details": "",
+        "bt": 100
+      },
+      "hardness": 20,
+      "fortitude": 28,
+      "collisionDC": 29,
+      "collisionDamage": "10d10",
+      "abilities": [
+        {
+          "name": "Flame Jet",
+          "text": "Two crew members each perform a 3-action activity on their turn to produce a gout of flames that erupts at the end of the second character's turn from any corner of any space the steam giant occupies. The flames deal 6d8 fire damage to each creature in a 30-foot cone (basic Reflex DC 32 save). The flame jet stops working if the steam giant is broken.",
+          "traits": [
+            "fire"
+          ],
+          "actions": "three"
+        }
+      ],
+      "traitLinks": [],
+      "immunities": [
+        "object immunities"
+      ],
+      "description": "An alchemical walking vehicle powered by steam."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "64D798E2-58E9-500E-8211-1464A80987BE",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Strider",
+    "slug": "strider-gm-core",
+    "descr": "",
+    "data": {
+      "level": 7,
+      "rarity": "uncommon",
+      "traits": [],
+      "size": "large",
+      "price": "1,200 gp",
+      "space": {
+        "high": 25,
+        "long": 10,
+        "wide": 10
+      },
+      "crew": "1 pilot",
+      "passengers": "2",
+      "pilotingCheck": "Arcana (DC 25), Crafting (DC 25), Engineering Lore (DC 23), or Piloting Lore (DC 23)",
+      "speed": "30 feet (alchemical, magical)",
+      "ac": {
+        "value": 24,
+        "details": ""
+      },
+      "hp": {
+        "value": 120,
+        "details": "",
+        "bt": 60
+      },
+      "hardness": 10,
+      "fortitude": 13,
+      "collisionDC": 24,
+      "collisionDamage": "3d10",
+      "abilities": [
+        {
+          "name": "Long Reach",
+          "text": "The strider can bridge a gap as wide as 30 feet by Striding over it.",
+          "traits": []
+        }
+      ],
+      "traitLinks": [],
+      "immunities": [
+        "object immunities"
+      ],
+      "description": "A magically assisted alchemical land vehicle."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "CA651EB3-403C-571D-945D-5AD6C6C375DC",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Velocipede",
+    "slug": "velocipede-gm-core",
+    "descr": "",
+    "data": {
+      "level": 1,
+      "rarity": "uncommon",
+      "traits": [],
+      "size": "medium",
+      "price": "60 gp",
+      "space": {
+        "high": 4,
+        "long": 5,
+        "wide": 2
+      },
+      "crew": "1 pilot",
+      "passengers": "",
+      "pilotingCheck": "Athletics (DC 15), Piloting Lore (DC 17)",
+      "speed": "The Speed of the pilot (pedaled [as rowed])",
+      "ac": {
+        "value": 11,
+        "details": ""
+      },
+      "hp": {
+        "value": 15,
+        "details": "",
+        "bt": 7
+      },
+      "hardness": 5,
+      "fortitude": 6,
+      "collisionDC": 15,
+      "collisionDamage": "1d8",
+      "abilities": [
+        {
+          "name": "Fragile",
+          "text": "Driving the velocipede over difficult terrain increases the DC by an additional 2 and gains the [reckless](/trait/reckless) trait.",
+          "traits": []
+        },
+        {
+          "name": "Portable",
+          "text": "The velocipede can be pulled along the ground on its wheel by a Medium creature. The creature is encumbered.",
+          "traits": []
+        }
+      ],
+      "traitLinks": [],
+      "immunities": [
+        "object immunities"
+      ],
+      "description": "A vehicle propelled by its pilot's pedaling."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "7A781C57-7DEC-529C-BA2F-E3E40592EFD3",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Wagon",
+    "slug": "wagon-gm-core",
+    "descr": "",
+    "data": {
+      "level": 1,
+      "rarity": "common",
+      "traits": [],
+      "size": "large",
+      "price": "25 gp",
+      "space": {
+        "high": 7,
+        "long": 10,
+        "wide": 10
+      },
+      "crew": "1 pilot",
+      "passengers": "4",
+      "pilotingCheck": "Driving Lore (DC 15) or Nature (DC 17 to DC 25, depending on the pulling creature)",
+      "speed": "the Speed of the slowest pulling creature (pulled by 2 Large creatures)",
+      "ac": {
+        "value": 11,
+        "details": ""
+      },
+      "hp": {
+        "value": 18,
+        "details": "",
+        "bt": 9
+      },
+      "hardness": 5,
+      "fortitude": 7,
+      "collisionDC": 15,
+      "collisionDamage": "2d6",
+      "abilities": [],
+      "traitLinks": [],
+      "immunities": [
+        "object immunities"
+      ],
+      "description": "A cargo vehicle pulled by large creatures."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

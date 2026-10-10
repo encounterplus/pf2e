@@ -1,0 +1,497 @@
+[
+  {
+    "id": "7035E605-B370-5408-84E8-78C72EEF02A8",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Asp Coil",
+    "slug": "asp-coil-hellfire-dispatches-weapon-weapon-233",
+    "descr": "**Access** You’re from Isger or an agent of the Aspis Consortium.\n\n**Price** 10 gp\n\n**Damage** 1d6 S\n\n**Bulk** 1\n\n**Hands** 1\n\n**Type** Melee\n\n**Category** Martial\n\n**Group** Sword\n\n---\n\nThe asp coil, named both for its slithering striking style and its usage among Aspis Consortium agents, has two forms. In sword form, it resembles an elegant, oddly balanced sword. However, with a twist of the pommel, the blade splits into a series of segments connected by elaborate metal cables.\n\n## Critical Specialization Effects\n\nCertain feats, class features, weapon runes, and other effects can grant you additional benefits when you make a Strike with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon.\n\n[Click here for the full rules on Critical Specialization Effects](/rule/critical-specialization-rules-2203).\n\n## Specific Magic Weapons\n\nCrimson Thorn",
+    "data": {
+      "level": 0,
+      "rarity": "uncommon",
+      "traits": [
+        "reach",
+        "versatile"
+      ],
+      "category": "weapon",
+      "price": "10 gp",
+      "bulk": "1",
+      "damage": "1d6 S ['Piercing', 'Slashing']",
+      "hands": "1",
+      "weaponType": "melee",
+      "weaponCategory": "martial",
+      "weaponGroup": "sword",
+      "traitLinks": [
+        {
+          "label": "reach",
+          "slug": "reach"
+        },
+        {
+          "label": "versatile",
+          "slug": "versatile"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "hellfire-dispatches",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "hellfire-dispatches",
+      "reach",
+      "remaster",
+      "versatile",
+      "weapon"
+    ],
+    "sources": [
+      {
+        "name": "Hellfire Dispatches",
+        "url": "https://2e.aonprd.com/Weapons.aspx?ID=233",
+        "page": 109
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "57B3C8BB-97E5-52CF-8B85-648F7B00FD46",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Freezing Embrace Snare",
+    "slug": "freezing-embrace-snare-hellfire-dispatches-equipment-equipment-4340",
+    "descr": "**Price** 75 gp\n\n---\n\nThis snare hides a tiny humanoid figurine made of enchanted ice among leaves or just beneath a thin layer of dirt in the square. The first creature to enter the snare's square crushes the statuette, releasing an incorporeal figure of chilly mist that grabs at the triggering creature, dealing 8d8 cold damage. The creature must attempt a DC 26 Fortitude save.\n\n**Critical Success** The creature takes no damage.\n\n**Success** The creature takes half damage and is [clumsy](/condition/clumsy-player-core) 1 for 1 round as the icy figure clings to its legs.\n\n**Failure** The creature takes full damage and 1d6 persistent cold damage from the icy figure's embrace. It is clumsy 1 for as long as it takes this persistent damage.\n\n**Critical Failure** The creature takes double damage and 2d6 persistent cold damage from the icy figure’s embrace. It IS clumsy 2 for as long as it takes this persistent damage.",
+    "data": {
+      "level": 8,
+      "rarity": "uncommon",
+      "traits": [
+        "cold",
+        "consumable",
+        "magical",
+        "snare",
+        "trap"
+      ],
+      "category": "other",
+      "price": "75 gp",
+      "traitLinks": [
+        {
+          "label": "cold",
+          "slug": "cold"
+        },
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "snare",
+          "slug": "snare"
+        },
+        {
+          "label": "trap",
+          "slug": "trap"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "hellfire-dispatches",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "cold",
+      "consumable",
+      "equipment",
+      "hellfire-dispatches",
+      "magical",
+      "other",
+      "remaster",
+      "snare",
+      "trap"
+    ],
+    "sources": [
+      {
+        "name": "Hellfire Dispatches",
+        "url": "https://2e.aonprd.com/Equipment.aspx?ID=4340",
+        "page": 73
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "8C90797C-C264-596B-91FC-42B7D282DC10",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Glittering Lights Snare",
+    "slug": "glittering-lights-snare-hellfire-dispatches-equipment-equipment-4341",
+    "descr": "**Price** 25 gp\n\n---\n\nSome of Brastlewark's youth craft lesser versions of this snare to prank their friends. A creature that enters the square's square is subjected to a rapid series of flashing lights that overstimulate the senses. They must attempt a DC 22 Reflex save.\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature is [dazzled](/condition/dazzled-player-core) for 2 rounds.\n\n**Failure** The creature is dazzled for 1 minute.\n\n**Critical Failure** The creature is [blinded](/condition/blinded-player-core) for 1 round and then dazzled for 1 minute.",
+    "data": {
+      "level": 5,
+      "rarity": "uncommon",
+      "traits": [
+        "consumable",
+        "light",
+        "magical",
+        "snare",
+        "trap",
+        "visual"
+      ],
+      "category": "other",
+      "price": "25 gp",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "light",
+          "slug": "light"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "snare",
+          "slug": "snare"
+        },
+        {
+          "label": "trap",
+          "slug": "trap"
+        },
+        {
+          "label": "visual",
+          "slug": "visual"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "hellfire-dispatches",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "equipment",
+      "hellfire-dispatches",
+      "light",
+      "magical",
+      "other",
+      "remaster",
+      "snare",
+      "trap",
+      "visual"
+    ],
+    "sources": [
+      {
+        "name": "Hellfire Dispatches",
+        "url": "https://2e.aonprd.com/Equipment.aspx?ID=4341",
+        "page": 73
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "AD88E005-DED9-5241-B06F-506A91479166",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Mocking Mirror Snare",
+    "slug": "mocking-mirror-snare-hellfire-dispatches-equipment-equipment-4342",
+    "descr": "**Price** 60 gp\n\n---\n\nA reflective rune is hidden in the snare's square. A creature that enters this square suddenly sees a twisted reflection of themself appear nearby and perform some action that they would never do. The creature takes 8d6 mental damage with a DC 25 basic Will save. On a critical failure, the creature is also [confused](/condition/confused-player-core) until the end of their next turn.",
+    "data": {
+      "level": 7,
+      "rarity": "uncommon",
+      "traits": [
+        "consumable",
+        "illusion",
+        "magical",
+        "mental",
+        "snare",
+        "trap"
+      ],
+      "category": "other",
+      "price": "60 gp",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "illusion",
+          "slug": "illusion"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        },
+        {
+          "label": "snare",
+          "slug": "snare"
+        },
+        {
+          "label": "trap",
+          "slug": "trap"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "hellfire-dispatches",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "equipment",
+      "hellfire-dispatches",
+      "illusion",
+      "magical",
+      "mental",
+      "other",
+      "remaster",
+      "snare",
+      "trap"
+    ],
+    "sources": [
+      {
+        "name": "Hellfire Dispatches",
+        "url": "https://2e.aonprd.com/Equipment.aspx?ID=4342",
+        "page": 73
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "1612C1FF-6C72-57CF-B2AF-EF3AAB27B92F",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Pit Illusion Snare",
+    "slug": "pit-illusion-snare-hellfire-dispatches-equipment-equipment-4343",
+    "descr": "**Price** 9 gp\n\n---\n\nYou add a touch of illusion magic to a magical sensor that makes the target believe a bottomless pit opens below it when the snare is triggered. A Medium or smaller creature that enters the snare's square must attempt a DC 20 Will save.\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature is cautious moving forward, treating the snare's square and all adjacent squares as [difficult terrain](/rule/difficult-terrain-rules-2366) until the end of its turn.\n\n**Failure** The creature falls [prone](/condition/prone-player-core).\n\n**Critical Failure** The creature falls prone and takes 1d4 mental damage.",
+    "data": {
+      "level": 3,
+      "rarity": "uncommon",
+      "traits": [
+        "consumable",
+        "illusion",
+        "magical",
+        "mental",
+        "snare",
+        "trap"
+      ],
+      "category": "other",
+      "price": "9 gp",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "illusion",
+          "slug": "illusion"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        },
+        {
+          "label": "snare",
+          "slug": "snare"
+        },
+        {
+          "label": "trap",
+          "slug": "trap"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "hellfire-dispatches",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "equipment",
+      "hellfire-dispatches",
+      "illusion",
+      "magical",
+      "mental",
+      "other",
+      "remaster",
+      "snare",
+      "trap"
+    ],
+    "sources": [
+      {
+        "name": "Hellfire Dispatches",
+        "url": "https://2e.aonprd.com/Equipment.aspx?ID=4343",
+        "page": 73
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "A257E1FD-0F93-565E-B65B-FAA7312D85E1",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Puddle Shove Snare",
+    "slug": "puddle-shove-snare-hellfire-dispatches-equipment-equipment-4344",
+    "descr": "**Price** 40 gp\n\n---\n\nThis snare magically contains a pressurized jet of water activated by an invisible sensor. When a creature enters the snare's square, a powerful blast of water deals 4d10 bludgeoning damage to the creature and potentially pushes them. You determine the direction of the blast of water when crafting the snare. The triggering creature must attempt a DC 24 Fortitude save.\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature takes half damage.\n\n**Failure** The creature takes full damage and is pushed 10 feet in the determined direction.\n\n**Critical Failure** The creature takes double damage, is pushed 15 feet in the determined direction, and is drenched with water, taking a –1 circumstance penalty to saving throws against [electricity](/trait/electricity) effects for 1 minute.",
+    "data": {
+      "level": 6,
+      "rarity": "uncommon",
+      "traits": [
+        "consumable",
+        "magical",
+        "snare",
+        "trap",
+        "water"
+      ],
+      "category": "other",
+      "price": "40 gp",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "snare",
+          "slug": "snare"
+        },
+        {
+          "label": "trap",
+          "slug": "trap"
+        },
+        {
+          "label": "water",
+          "slug": "water"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "hellfire-dispatches",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "equipment",
+      "hellfire-dispatches",
+      "magical",
+      "other",
+      "remaster",
+      "snare",
+      "trap",
+      "water"
+    ],
+    "sources": [
+      {
+        "name": "Hellfire Dispatches",
+        "url": "https://2e.aonprd.com/Equipment.aspx?ID=4344",
+        "page": 73
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "E81B6A1B-8E5B-518E-A545-B6AC470A11AB",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Shadow Cloak Snare",
+    "slug": "shadow-cloak-snare-hellfire-dispatches-equipment-equipment-4345",
+    "descr": "**Price** 15 gp\n\n---\n\nWhen a creature enters the snare's square, it is plunged into an unnatural darkness for 1 minute. Light can't enter the square, any non-magical light sources within the square do not emanate any light, and magical [light](/trait/light) emanating from a spell of rank 2 or below is suppressed. Those outside the area can't see directly into or through the [darkness](/rule/light-rules-2401), and all adjacent squares are reduced to dim light.",
+    "data": {
+      "level": 4,
+      "rarity": "uncommon",
+      "traits": [
+        "consumable",
+        "darkness",
+        "magical",
+        "snare",
+        "trap"
+      ],
+      "category": "other",
+      "price": "15 gp",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "darkness",
+          "slug": "darkness"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "snare",
+          "slug": "snare"
+        },
+        {
+          "label": "trap",
+          "slug": "trap"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "hellfire-dispatches",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "darkness",
+      "equipment",
+      "hellfire-dispatches",
+      "magical",
+      "other",
+      "remaster",
+      "snare",
+      "trap"
+    ],
+    "sources": [
+      {
+        "name": "Hellfire Dispatches",
+        "url": "https://2e.aonprd.com/Equipment.aspx?ID=4345",
+        "page": 73
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  }
+]

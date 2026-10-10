@@ -1,0 +1,2667 @@
+[
+  {
+    "id": "83FC7925-9CD2-53A1-A0D9-D9F635633260",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Albatross Curse",
+    "slug": "albatross-curse-howl-of-the-wild",
+    "descr": "You create a spectral albatross, a guiding bird for sailors, to hover around the target. You and allies within 30 feet of the target gain a +1 circumstance bonus to attacks against the target. The target creature can spend an action to Strike the albatross, which automatically succeeds and kills it. The target must then attempt a Will save against your spell DC.\n\nSpell Effect: Albatross Curse\n\n---\n\n**Critical Success** The target is unaffected.\n\n**Success** The guilt of slaughtering a bird of good fortune weighs on the target's mind. The target is [Stupefied 1](/condition/stupefied-player-core) for 1 round.\n\n**Failure** The albatross hangs around a cord from the target's neck (or closest equivalent) for 1 minute, cursing them for their transgression. During this time, the target must roll twice and take the worse result on their next Will save, after which the albatross disappears.\n\nSpell Effect: Albatross Curse (Failure)\n\n**Critical Failure** As failure, but the duration is 1 hour.\n\nSpell Effect: Albatross Curse (Critical Failure)",
+    "data": {
+      "rank": 2,
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "manipulate",
+        "misfortune"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "30 feet",
+      "targets": "1 creature",
+      "requirements": "",
+      "defense": "will",
+      "traditions": [
+        "occult",
+        "primal"
+      ],
+      "traditionsText": "Occult, Primal",
+      "type": "spell",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "misfortune",
+          "slug": "misfortune"
+        }
+      ],
+      "durationText": "1 minute (see text)",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "howl-of-the-wild",
+      "manipulate",
+      "misfortune",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild",
+        "page": 85
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "BC3D8C0D-F771-5FDF-8006-5F24101BAD15",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Antlion Trap",
+    "slug": "antlion-trap-howl-of-the-wild",
+    "descr": "You transmute the ground into a conical pit trap of loose sand that becomes difficult terrain for the duration. A creature or unsecured object that enters the sand or starts its turn in the sand is moved toward the center, depending on the result of its Reflex save. This is forced movement. If there isn't enough space near the center of the pit, affected creatures and objects move as far as they can without being blocked, up to the amount set by their saving throw outcomes.\n\n---\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature moves 5 feet toward the center.\n\n**Failure** The creature moves 10 feet toward the center.\n\n**Critical Failure** As failure, and the creature becomes [Immobilized](/condition/immobilized-player-core) in the pit. It can attempt to [Escape](/action/escape-player-core) against your spell DC.\n\n---\n\n**Heightened (+2)** Increase the area of the spell and the amount a creature moves on a failure by 5 feet.",
+    "data": {
+      "rank": 3,
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "earth",
+        "manipulate"
+      ],
+      "cost": "",
+      "cast": "3",
+      "range": "120 feet",
+      "targets": "",
+      "requirements": "",
+      "area": "15-foot burst",
+      "defense": "reflex",
+      "traditions": [
+        "primal"
+      ],
+      "traditionsText": "Primal",
+      "type": "spell",
+      "castActions": [
+        "three"
+      ],
+      "actions": "three",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "earth",
+          "slug": "earth"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ],
+      "areaEffectShape": "sphere",
+      "areaEffectSize": 15,
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "earth",
+      "howl-of-the-wild",
+      "manipulate",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild",
+        "page": 85
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "EE46DB12-C180-54E5-9134-79BF711BA2AD",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Blood in the Water",
+    "slug": "blood-in-the-water-howl-of-the-wild",
+    "descr": "Predators are drawn to the scent of blood, and blood can disperse shockingly far in the water. You summon the spirits of aquatic predators to appear as a spectral swarm around the target. When you Cast or Sustain this Spell, the target takes 2d6 spirit damage (basic Reflex save). If the target takes any damage from the spell, it treats all water as difficult terrain for 1 round as the predators try to drag them down. The spectral predators don't take up space, grant flanking, or have any other attributes a creature would. If you deal slashing damage to the target while the spell is active, you automatically Sustain this Spell. If you cast blood in the water while a previous casting of this hex is still in effect, the previous effect ends.\n\n---\n\n**Heightened (+2)** The damage dealt increases by 2d6.",
+    "data": {
+      "rank": 3,
+      "rarity": "uncommon",
+      "traits": [
+        "concentrate",
+        "focus",
+        "hex",
+        "manipulate",
+        "spirit",
+        "witch"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "30 feet",
+      "targets": "1 creature that can bleed",
+      "requirements": "The target is taking persistent bleed damage or your last action dealt slashing damage to the target.",
+      "defense": "basicreflex",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "focus",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "focus",
+          "slug": "focus"
+        },
+        {
+          "label": "hex",
+          "slug": "hex"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "spirit",
+          "slug": "spirit"
+        },
+        {
+          "label": "witch",
+          "slug": "witch"
+        }
+      ],
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "focus",
+      "hex",
+      "howl-of-the-wild",
+      "manipulate",
+      "remaster",
+      "spirit",
+      "witch"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "267F9EFC-90C0-5632-B8CC-CD55F7DC057F",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Camel Spit",
+    "slug": "camel-spit-howl-of-the-wild",
+    "descr": "You alter your stomach, esophagus, and tongue to be able to spit partially digested food with force. You can spit at a foe once you finish Casting the Spell and can repeat the attack once on each of your subsequent turns by taking a single action, which has the acid, attack, and [concentrate](/trait/concentrate) traits. After your third spit attack, the spell ends. When you attack with camel spit, make a ranged spell attack roll against a creature within 15 feet, dealing 1d6 acid damage and causing the target to be Dazzled for 1 round if you hit. On a critical hit, you deal double damage and the target takes item level persistent acid damage.\n\n---\n\n**Heightened (+1)** The damage increases by 1d6, and the persistent damage on a critical hit is increased by 1.",
+    "data": {
+      "rank": 1,
+      "rarity": "common",
+      "traits": [
+        "acid",
+        "attack",
+        "concentrate",
+        "manipulate",
+        "morph"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "",
+      "targets": "",
+      "requirements": "",
+      "traditions": [
+        "arcane",
+        "primal"
+      ],
+      "traditionsText": "Arcane, Primal",
+      "type": "spell",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "acid",
+          "slug": "acid"
+        },
+        {
+          "label": "attack",
+          "slug": "attack"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "morph",
+          "slug": "morph"
+        }
+      ],
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "acid",
+      "attack",
+      "concentrate",
+      "howl-of-the-wild",
+      "manipulate",
+      "morph",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild",
+        "page": 85
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "6B347ABC-F89C-5160-B3F6-276D982EF355",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Canopy Crawler",
+    "slug": "canopy-crawler-howl-of-the-wild",
+    "descr": "The target grows a prehensile tail, or gains prehensile qualities in their existing tail, to help them climb with ease. For the duration of the spell, they gain a climb Speed equal to their highest Speed. The target can Climb with a hand occupied (or two hands occupied if they have the [Combat Climber](/feat/combat-climber-player-core) feat).\n\nSpell Effect: Canopy Crawler\n\n---\n\n**Heightened (5th)** The spell's duration increases to 1 hour, and you can target both yourself and your animal companion with a single casting.",
+    "data": {
+      "rank": 2,
+      "rarity": "uncommon",
+      "traits": [
+        "concentrate",
+        "focus",
+        "manipulate",
+        "morph",
+        "ranger"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "touch",
+      "targets": "yourself or your animal companion",
+      "requirements": "",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "focus",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "focus",
+          "slug": "focus"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "morph",
+          "slug": "morph"
+        },
+        {
+          "label": "ranger",
+          "slug": "ranger"
+        }
+      ],
+      "durationText": "10 minutes",
+      "duration": 10,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "focus",
+      "howl-of-the-wild",
+      "manipulate",
+      "morph",
+      "ranger",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A613D9EF-5227-50DA-98CF-048FCE0169FF",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Claws of the Otter",
+    "slug": "claws-of-the-otter-howl-of-the-wild",
+    "descr": "Webbing grows between your fingers and your nails extend into vicious claws. For the spell's duration, you gain a +1 status bonus to Athletics checks to Swim and you gain a claws unarmed attack. They're an agile, finesse, unarmed attack that deals 1d4 slashing damage and an additional 1d6 cold damage.\n\nSpell Effect: Claws Of The Otter\n\n---\n\n**Heightened (+3)** The additional cold damage increases by 1d6.",
+    "data": {
+      "rank": 2,
+      "rarity": "common",
+      "traits": [
+        "cold",
+        "concentrate",
+        "manipulate"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "",
+      "targets": "",
+      "requirements": "",
+      "traditions": [
+        "divine",
+        "primal"
+      ],
+      "traditionsText": "Divine, Primal",
+      "type": "spell",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "cold",
+          "slug": "cold"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ],
+      "durationText": "1 hour",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "hour"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "cold",
+      "concentrate",
+      "howl-of-the-wild",
+      "manipulate",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild",
+        "page": 85
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "98987968-594D-5AB2-A7FE-C7AF946067E6",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Confusing Cry",
+    "slug": "confusing-cry-howl-of-the-wild",
+    "descr": "You give an unsettling, warbling cry that causes nearby creatures to lash out without control. Each creature in the area that can hear must attempt a Will save.\n\n---\n\n**Critical Success** The target is unaffected and immune to this spell for 1 minute.\n\n**Success** The target is [Stunned 1](/condition/stunned-player-core).\n\n**Failure** The target is [Confused](/condition/confused-player-core) for 1 minute. It can attempt a new save at the end of each of its turns to end the confusion.\n\n**Critical Failure** As failure, and the creature immediately attacks itself. This Strike doesn't give the creature a flat check to recover from the confusion.",
+    "data": {
+      "rank": 5,
+      "rarity": "common",
+      "traits": [
+        "auditory",
+        "concentrate",
+        "emotion",
+        "incapacitation",
+        "manipulate",
+        "mental"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "",
+      "targets": "",
+      "requirements": "",
+      "area": "20-foot emanation",
+      "defense": "will",
+      "traditions": [
+        "divine",
+        "primal"
+      ],
+      "traditionsText": "Divine, Primal",
+      "type": "spell",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "auditory",
+          "slug": "auditory"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "emotion",
+          "slug": "emotion"
+        },
+        {
+          "label": "incapacitation",
+          "slug": "incapacitation"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        }
+      ],
+      "areaEffectShape": "sphere",
+      "areaEffectSize": 20,
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "auditory",
+      "concentrate",
+      "emotion",
+      "howl-of-the-wild",
+      "incapacitation",
+      "manipulate",
+      "mental",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild",
+        "page": 85
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B2DF4A71-C4EC-56A0-BF70-3F119B6667A2",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Croak Voice",
+    "slug": "croak-voice-howl-of-the-wild",
+    "descr": "You cause the target creature's vocal chords to swell like those of a frog. The target must attempt a Fortitude save.\n\n---\n\n**Critical Success** The target is unaffected.\n\n**Success** The target's voice becomes hoarse, and speaking becomes painful. Whenever it uses an action that has the [auditory](/trait/auditory) trait or attempts to Cast a Spell that doesn't have the [subtle](/trait/subtle) trait, it must succeed at a Flat DC 5 or the action is lost. Once per round, the target can spend an [Interact](/action/interact-player-core) action to massage its throat, attempting a Fortitude save against your spell DC. On a success, the spell ends.\n\n**Failure** As success, but using an action with the auditory trait also deals 2d10 mental damage to the target as the sound of its distorted voice grates on its ears.\n\n**Critical Failure** As failure, but the damage for using an action with the auditory trait is doubled, and the target can't use an Interact action to attempt a Fortitude save to end the effect early.\n\n---\n\n**Heightened (+1)** The damage for using an action with the auditory trait increases by 1d10.",
+    "data": {
+      "rank": 3,
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "curse",
+        "manipulate",
+        "morph"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "30 feet",
+      "targets": "1 creature",
+      "requirements": "",
+      "defense": "fortitude",
+      "traditions": [
+        "arcane",
+        "primal"
+      ],
+      "traditionsText": "Arcane, Primal",
+      "type": "spell",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "curse",
+          "slug": "curse"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "morph",
+          "slug": "morph"
+        }
+      ],
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "curse",
+      "howl-of-the-wild",
+      "manipulate",
+      "morph",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild",
+        "page": 84
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1EF2E6F3-FDFA-56FE-AC49-089068847D9A",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Distracting Decoy",
+    "slug": "distracting-decoy-howl-of-the-wild",
+    "descr": "You conjure a colorful, fast-moving shape, such as a small bird or other animal that draws your target's eye. They must attempt a Will save.\n\n---\n\n**Success** The creature is unaffected.\n\n**Failure** The creature is [Off Guard](/condition/off-guard-player-core) until the start of your next turn.\n\n**Critical Failure** As failure, but the creature also takes a –2 circumstance penalty to attacks while it's off-guard.\n\nSpell Effect: Distracting Decoy",
+    "data": {
+      "rank": 1,
+      "rarity": "uncommon",
+      "traits": [
+        "concentrate",
+        "focus",
+        "ranger",
+        "visual"
+      ],
+      "cost": "",
+      "cast": "1",
+      "range": "10 feet",
+      "targets": "1 creature",
+      "requirements": "",
+      "defense": "will",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "focus",
+      "castActions": [
+        "one"
+      ],
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "focus",
+          "slug": "focus"
+        },
+        {
+          "label": "ranger",
+          "slug": "ranger"
+        },
+        {
+          "label": "visual",
+          "slug": "visual"
+        }
+      ],
+      "durationText": "",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "focus",
+      "howl-of-the-wild",
+      "ranger",
+      "remaster",
+      "visual"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "BCFCB16A-6A80-50CE-AFEA-2D7F7ACAC2D3",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Foraging Friends",
+    "slug": "foraging-friends-howl-of-the-wild",
+    "descr": "Giving a cheerful whistle, you call forth a handful of small animals, such as birds or mice, to collect food for you and your allies. The animals return 1 hour later with enough foraged goods to feed four Medium creatures for 1 day, then return to their normal behavior. If you're in a particularly strange environment, as determined by your GM, you might need a minimum proficiency with primal spell DCs, equivalent to the minimum proficiency required to Subsist in strange environments.\n\n---\n\n**Heightened (3rd)** The animals bring back enough food for eight Medium creatures for 1 day.\n\n**Heightened (5th)** The animals bring back enough food for 30 Medium creatures for 1 day.",
+    "data": {
+      "rank": 1,
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "manipulate"
+      ],
+      "cost": "",
+      "cast": "10 minutes",
+      "range": "",
+      "targets": "",
+      "requirements": "",
+      "traditions": [
+        "primal"
+      ],
+      "traditionsText": "Primal",
+      "type": "spell",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ],
+      "durationText": "",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "howl-of-the-wild",
+      "manipulate",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild",
+        "page": 86
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0EDAD39C-781F-5B75-8BB9-901AC04159DB",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Frog Tongue",
+    "slug": "frog-tongue-howl-of-the-wild",
+    "descr": "Your tongue extends unnaturally, flicking out toward a creature within range and dealing 2d8 bludgeoning damage (basic Reflex save). On a failure, the creature is also stuck to the end of the tongue. It is [Off Guard](/condition/off-guard-player-core) and can't move beyond the reach of your tongue. A creature can sever the tongue with a Strike that deals at least 10 slashing damage or attempt to [Escape](/action/escape-player-core) against your spell DC. The AC of the tongue is equal to your spell DC. Severing the tongue in this way deals no damage to you but ends the spell. While a creature is stuck to the end of your tongue, actions you take with the [auditory](/trait/auditory) trait take a –2 circumstance penalty. If you move so that the affected creature is outside of the tongue's reach, the spell ends.\n\n---\n\n**Heightened (+1)** The damage increases by 2d8.",
+    "data": {
+      "rank": 2,
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "manipulate"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "30 feet",
+      "targets": "1 creature",
+      "requirements": "",
+      "defense": "basicreflex",
+      "traditions": [
+        "primal"
+      ],
+      "traditionsText": "Primal",
+      "type": "spell",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ],
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "howl-of-the-wild",
+      "manipulate",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild",
+        "page": 86
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3A061A15-C50B-56B4-9741-1979A795AF5E",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Gluttonous Growth",
+    "slug": "gluttonous-growth-howl-of-the-wild",
+    "descr": "Plants in the area grow rapidly, taking on carnivorous characteristics as they seek to consume prey. All affected squares are difficult terrain, both on the ground and for flying creatures. Each creature that begins its turn in the area must attempt a Reflex save unless it's already [Grabbed](/condition/grabbed-player-core) or [Restrained](/condition/restrained-player-core).\n\nWhen you Sustain this spell, each creature grabbed or restrained by the plants takes 4d6 piercing damage.\n\n---\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature is grabbed until the beginning of its next turn or it Escapes.\n\n**Failure** The creature is grabbed until the spell ends or it Escapes.\n\n**Critical Failure** The creature is restrained until the spell ends or it Escapes.\n\n---\n\n**Heightened (+1)** The damage dealt by the plants when you Sustain the spell increases by 2d6.",
+    "data": {
+      "rank": 5,
+      "rarity": "uncommon",
+      "traits": [
+        "concentrate",
+        "focus",
+        "manipulate",
+        "plant",
+        "ranger"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "120 feet",
+      "targets": "",
+      "requirements": "squares contain plants",
+      "area": "20-foot burst",
+      "defense": "reflex",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "focus",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "focus",
+          "slug": "focus"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "plant",
+          "slug": "plant"
+        },
+        {
+          "label": "ranger",
+          "slug": "ranger"
+        }
+      ],
+      "areaEffectShape": "sphere",
+      "areaEffectSize": 20,
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "focus",
+      "howl-of-the-wild",
+      "manipulate",
+      "plant",
+      "ranger",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "77D466AB-AF08-52C9-AFBD-1F928B53DF3B",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Hidebound",
+    "slug": "hidebound-howl-of-the-wild",
+    "descr": "The target's skin erupts in thick hide or dense scales. It gains resistance 5 to physical damage, except adamantine, until the beginning of its next turn.\n\nSpell Effect: Hidebound\n\n---\n\n**Heightened (+2)** The resistance increases by 3.",
+    "data": {
+      "rank": 2,
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "manipulate"
+      ],
+      "cost": "",
+      "cast": "reaction",
+      "range": "60 feet",
+      "targets": "1 creature",
+      "requirements": "A creature within range is hit with a Strike that deals physical damage.",
+      "traditions": [
+        "arcane",
+        "primal"
+      ],
+      "traditionsText": "Arcane, Primal",
+      "type": "spell",
+      "castActions": [
+        "reaction"
+      ],
+      "actions": "reaction",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ],
+      "durationText": "1 round",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "round",
+      "trigger": "A creature within range is hit with a Strike that deals physical damage."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "howl-of-the-wild",
+      "manipulate",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild",
+        "page": 86
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "7CEE07A6-EDAC-5CD5-B68D-748203622380",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Hippocampus Retreat",
+    "slug": "hippocampus-retreat-howl-of-the-wild",
+    "descr": "You temporarily shape your lower limbs into the tail of a hippocampus in order to swim away from a nearby foe after dealing a parting blow. Attempt a melee spell attack roll against the target's AC, dealing 2d6 bludgeoning damage on a hit (or double damage on a critical hit). Then, Swim up to 30 feet; if you already have a swim Speed, you can Swim up to your Speed with a +10-foot circumstance bonus. You gain a +2 circumstance bonus to your AC against reactions triggered by this movement. At the end of the movement, your lower limbs return to normal.\n\nSpell Effect: Hippocampus Retreat\n\n---\n\n**Heightened (+1)** The damage increases by 1d6.",
+    "data": {
+      "rank": 1,
+      "rarity": "common",
+      "traits": [
+        "attack",
+        "concentrate",
+        "manipulate",
+        "morph"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "10 feet",
+      "targets": "1 creature",
+      "requirements": "You're mostly or totally submerged in water.",
+      "traditions": [
+        "arcane",
+        "primal"
+      ],
+      "traditionsText": "Arcane, Primal",
+      "type": "spell",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "attack",
+          "slug": "attack"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "morph",
+          "slug": "morph"
+        }
+      ],
+      "durationText": "",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "attack",
+      "concentrate",
+      "howl-of-the-wild",
+      "manipulate",
+      "morph",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild",
+        "page": 87
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "80C83058-0B8F-552E-B22D-F5D59302F7D1",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Imitate Fauna",
+    "slug": "imitate-fauna-howl-of-the-wild",
+    "descr": "You use your knowledge of nature to pass the target off as a common animal of the same size, representing a species chosen when the spell is cast. This covers the target's visual appearance, scent, and voice. The target can communicate with other members of the species as though they shared a language but can't speak other languages while the spell persists.\n\nCasting *imitate fauna* counts as setting up a disguise for the purpose of the [Impersonate](/action/impersonate-player-core) action. It allows the target to ignore any circumstance penalties they might take for being disguised as dissimilar creatures, and it gives the target a +4 status bonus to Deception checks to prevent other animals from seeing through their disguise. You can Dismiss this spell.\n\nSpell Effect: Imitate Fauna\n\n---\n\n**Heightened (5th)** You can target up to six willing animals.",
+    "data": {
+      "rank": 2,
+      "rarity": "uncommon",
+      "traits": [
+        "concentrate",
+        "focus",
+        "illusion",
+        "manipulate",
+        "ranger"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "30 feet",
+      "targets": "1 willing animal",
+      "requirements": "",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "focus",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "focus",
+          "slug": "focus"
+        },
+        {
+          "label": "illusion",
+          "slug": "illusion"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "ranger",
+          "slug": "ranger"
+        }
+      ],
+      "durationText": "1 hour",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "hour"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "focus",
+      "howl-of-the-wild",
+      "illusion",
+      "manipulate",
+      "ranger",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "EAB384BB-13DA-5038-942A-C00CEB246922",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Keen Smell",
+    "slug": "keen-smell-howl-of-the-wild",
+    "descr": "Your nose becomes more sensitive to the scents of the wild, the better for you to track your quarry. For the spell's duration, you gain scent as an imprecise sense with a range of 30 feet. Your hunted prey can't be undetected by you as long as it's within your scent range.\n\nSpell Effect: Keen Smell\n\n---\n\n**Heightened (3rd)** Your scent range increases to 60 feet.",
+    "data": {
+      "rank": 1,
+      "rarity": "uncommon",
+      "traits": [
+        "concentrate",
+        "focus",
+        "manipulate",
+        "morph",
+        "ranger"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "",
+      "targets": "",
+      "requirements": "",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "focus",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "focus",
+          "slug": "focus"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "morph",
+          "slug": "morph"
+        },
+        {
+          "label": "ranger",
+          "slug": "ranger"
+        }
+      ],
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "focus",
+      "howl-of-the-wild",
+      "manipulate",
+      "morph",
+      "ranger",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "972A22DE-D123-50AC-B197-0FB4934F79D1",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Luring Wail",
+    "slug": "luring-wail-howl-of-the-wild",
+    "descr": "You emit a plaintive cry to lure your enemies closer. Each creature in the emanation that can hear you must attempt a Will save. If you speak a creature's name as part of the casting of the spell, that creature takes a –2 circumstance penalty to its saving throw. Each creature that enters the area on its turn must attempt a save. If you attack or take a hostile action, the [Fascinated](/condition/fascinated-player-core) condition ends only for the creature that's attacked.\n\n---\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature is [Slowed 1](/condition/slowed-player-core) for 1 round.\n\n**Failure** The creature becomes fascinated and compelled to move toward the sound of your cry on its turn. As long as it is in the emanation and can hear, it must spend at least one of its actions on each of its turns to move closer to you.\n\n**Critical Failure** As failure, but the creature must spend all its actions moving toward the sound. Additionally, the creature is [Off Guard](/condition/off-guard-player-core).",
+    "data": {
+      "rank": 4,
+      "rarity": "common",
+      "traits": [
+        "auditory",
+        "concentrate",
+        "incapacitation",
+        "manipulate",
+        "mental"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "",
+      "targets": "",
+      "requirements": "",
+      "area": "60-foot emanation",
+      "defense": "will",
+      "traditions": [
+        "occult",
+        "primal"
+      ],
+      "traditionsText": "Occult, Primal",
+      "type": "spell",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "auditory",
+          "slug": "auditory"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "incapacitation",
+          "slug": "incapacitation"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        }
+      ],
+      "areaEffectShape": "sphere",
+      "areaEffectSize": 60,
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "auditory",
+      "concentrate",
+      "howl-of-the-wild",
+      "incapacitation",
+      "manipulate",
+      "mental",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild",
+        "page": 87
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "DE342739-38AD-5C35-9D24-87324CDC0EC7",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Murmuration",
+    "slug": "murmuration-howl-of-the-wild",
+    "descr": "The target feels the brush of feathers against its skin and hears screeches in its ears, warning it to keep away from a creature you designate that's within 30 feet of you when you Cast this Spell (which can include yourself). Once per round, if the target moves closer to the designated creature, it must attempt a Will save or take (spell rank)d4 piercing or (spell rank)d4 sonic damage.\n\n---\n\n**Critical Success** The target is unaffected.\n\n**Success** The target takes half damage.\n\n**Failure** The target takes full damage.\n\n**Critical Failure** The target takes (spell rank)d4 sonic,(spell rank)d4 piercing damage, and if it attempts an attack roll or hostile skill check this round, it takes a –2 status penalty to the roll.\n\nSpell Effect: Murmuration\n\n---\n\n**Heightened (+1)** The damage increases by 1d4, or by 2d4 on a critical failure (1d4 of which is sonic and 1d4 of which is piercing).",
+    "data": {
+      "rank": 1,
+      "rarity": "uncommon",
+      "traits": [
+        "cantrip",
+        "concentrate",
+        "hex",
+        "sonic",
+        "witch"
+      ],
+      "cost": "",
+      "cast": "1",
+      "range": "30 feet",
+      "targets": "1 creature",
+      "requirements": "",
+      "defense": "will",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "cantrip",
+      "castActions": [
+        "one"
+      ],
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "cantrip",
+          "slug": "cantrip"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "hex",
+          "slug": "hex"
+        },
+        {
+          "label": "sonic",
+          "slug": "sonic"
+        },
+        {
+          "label": "witch",
+          "slug": "witch"
+        }
+      ],
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "cantrip",
+      "concentrate",
+      "hex",
+      "howl-of-the-wild",
+      "remaster",
+      "sonic",
+      "witch"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild",
+        "page": 62
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "CAB6FE34-900D-5B45-B03D-F34F18CED7D2",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Mycological Malady",
+    "slug": "mycological-malady-howl-of-the-wild",
+    "descr": "You infect your target with fungal spores to hasten the cycle of decay. The target must attempt a Fortitude saving throw. Undead that aren't incorporeal, such as skeletons and zombies, don't have their normal immunity to this disease, as the spores can still colonize their remaining flesh and bone. This might also apply to other non-living creatures made of organic material at the GM's discretion.\n\n---\n\n**Critical Success** The target is unaffected.\n\n**Success** The target sprouts mushrooms and is [Enfeebled 2](/condition/enfeebled-player-core) for 1 round.\n\n**Failure** The target is afflicted with voidcap spores at stage 1.\n\n**Critical Failure** The target is afflicted with voidcap spores at stage 2.\n\n---\n\n**Voidcap Spores (disease)** This disease ends when the spell ends;\n\n**Stage 1** enfeebled 2 (1 round)\n\n**Stage 2** enfeebled 2 and [Slowed 1](/condition/slowed-player-core) (1 round)\n\n**Stage 3** enfeebled 2, slowed 1, and [Stupefied 2](/condition/stupefied-player-core) (1 round)",
+    "data": {
+      "rank": 3,
+      "rarity": "uncommon",
+      "traits": [
+        "concentrate",
+        "disease",
+        "focus",
+        "hex",
+        "manipulate",
+        "witch"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "touch",
+      "targets": "1 creature",
+      "requirements": "",
+      "defense": "fortitude",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "focus",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "disease",
+          "slug": "disease"
+        },
+        {
+          "label": "focus",
+          "slug": "focus"
+        },
+        {
+          "label": "hex",
+          "slug": "hex"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "witch",
+          "slug": "witch"
+        }
+      ],
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "disease",
+      "focus",
+      "hex",
+      "howl-of-the-wild",
+      "manipulate",
+      "remaster",
+      "witch"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F2A7DA08-5435-5BD9-BB12-C489D41851B5",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Pack Breaker",
+    "slug": "pack-breaker-howl-of-the-wild",
+    "descr": "You can deceive creatures by changing their perception of their allies' behavior. Each affected creature suspects their allies have changed allegiance, depending on the outcome of their Will save. Regardless of the effects of the saving throw, the creature is then temporarily immune to pack breaker for 1 hour.\n\n---\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature becomes [Unfriendly](/condition/unfriendly-player-core) to all creatures to which it wasn't already hostile, even those that were previously allies. It treats no one as an ally for 1 minute. Each of its former allies within its reach must attempt a save against pack breaker.\n\n**Failure** As success, but the creature is also [Confused](/condition/confused-player-core) for 1 round.\n\n**Critical Failure** As success, but the creature is confused for 1 minute.",
+    "data": {
+      "rank": 5,
+      "rarity": "uncommon",
+      "traits": [
+        "concentrate",
+        "focus",
+        "manipulate",
+        "mental",
+        "ranger"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "30 feet",
+      "targets": "1 creature",
+      "requirements": "",
+      "defense": "will",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "focus",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "focus",
+          "slug": "focus"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        },
+        {
+          "label": "ranger",
+          "slug": "ranger"
+        }
+      ],
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "focus",
+      "howl-of-the-wild",
+      "manipulate",
+      "mental",
+      "ranger",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "01CB11BE-94E4-5557-9FF6-67CE6D8A23E3",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Primal Chorus",
+    "slug": "primal-chorus-howl-of-the-wild",
+    "descr": "You let loose a primal howl that incites animals and beasts to join in the chorus. Doing so gives you a general idea of how many creatures with the animal or [beast](/trait/beast) trait are within the range of the spell, but significant creatures can attempt a Will save against your spell DC to resist responding to your call. You gain a +1 status bonus to your next Initiative roll in an encounter with an enemy creature that replies to your call. For purposes of using [Coerce](/action/coerce-player-core) during exploration mode, you can communicate with a creature that responds to your call for the duration of the spell. You can only make simple commands, such as approach or hide, and only understand simple ideas, such as compliance with the order or the presence of natural hazards.\n\n---\n\n**Heightened (+2)** The status bonus increases by 1.",
+    "data": {
+      "rank": 3,
+      "rarity": "common",
+      "traits": [
+        "auditory",
+        "concentrate",
+        "manipulate",
+        "mental"
+      ],
+      "cost": "",
+      "cast": "3",
+      "range": "1-mile burst",
+      "targets": "",
+      "requirements": "",
+      "defense": "will",
+      "traditions": [
+        "primal"
+      ],
+      "traditionsText": "Primal",
+      "type": "spell",
+      "castActions": [
+        "three"
+      ],
+      "actions": "three",
+      "traitLinks": [
+        {
+          "label": "auditory",
+          "slug": "auditory"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        }
+      ],
+      "durationText": "until your next daily preparations",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "auditory",
+      "concentrate",
+      "howl-of-the-wild",
+      "manipulate",
+      "mental",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild",
+        "page": 87
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "37BDB318-8A43-5990-BEED-DA216B6BCF90",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Pulverizing Wake",
+    "slug": "pulverizing-wake-howl-of-the-wild",
+    "descr": "Imitating raptorial creatures, you attack with such speed it drives a sonic shockwave. Make a melee Strike against a creature in your reach; if you hit, you deal an additional 3d8 sonic damage. Regardless of the result of your Strike, that creature becomes the point of origin of a 15-foot cone, aimed directly away from you. All creatures in that cone take 6d8 sonic damage (basic Fortitude save).\n\n---\n\n**Heightened (+1)** The damage of the cone increases by 1d8.",
+    "data": {
+      "rank": 5,
+      "rarity": "uncommon",
+      "traits": [
+        "attack",
+        "concentrate",
+        "focus",
+        "manipulate",
+        "ranger",
+        "sonic"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "",
+      "targets": "1 creature within reach",
+      "requirements": "",
+      "area": "15-foot cone",
+      "defense": "basicfortitude",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "focus",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "attack",
+          "slug": "attack"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "focus",
+          "slug": "focus"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "ranger",
+          "slug": "ranger"
+        },
+        {
+          "label": "sonic",
+          "slug": "sonic"
+        }
+      ],
+      "areaEffectShape": "cone",
+      "areaEffectSize": 15,
+      "durationText": "",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "attack",
+      "concentrate",
+      "focus",
+      "howl-of-the-wild",
+      "manipulate",
+      "ranger",
+      "remaster",
+      "sonic"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A3F051BF-7B37-5DBF-9FED-0341204BC6C1",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Sacred Beasts",
+    "slug": "sacred-beasts-howl-of-the-wild",
+    "descr": "You call out to the creatures of the wild favored by your deity. You quickly summon your deity's sacred animal (or a small swarm of them if the animal is usually Tiny). For example, you would call forth a lion if you worship Iomedae or a swarm of spiders if you worship Norgorber. If your deity doesn't have a known sacred animal, work with the GM to find a thematic one. The animal or swarm assaults all creatures in the area, dealing 2d6 damage. The damage is either bludgeoning, piercing, or slashing based on the animal that was conjured, as determined by the GM. After their attacks, the animals return to your deity's plane.\n\n---\n\n**Heightened (+1)** The damage increases by 2d6.",
+    "data": {
+      "rank": 1,
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "manipulate"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "30 feet",
+      "targets": "",
+      "requirements": "You worship a deity.",
+      "area": "5-foot burst",
+      "defense": "basicreflex",
+      "traditions": [
+        "divine",
+        "primal"
+      ],
+      "traditionsText": "Divine, Primal",
+      "type": "spell",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ],
+      "areaEffectShape": "sphere",
+      "areaEffectSize": 5,
+      "durationText": "",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "howl-of-the-wild",
+      "manipulate",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild",
+        "page": 87
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "94362CC5-37C4-527D-B3C1-C823EFA996D0",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Scrounger's Glee",
+    "slug": "scrounger-s-glee-howl-of-the-wild",
+    "descr": "With a cruel laugh and a flash of your canines, you make a target understand that death is coming to claim it and that its demise will serve to strengthen another. The target becomes Frightened 1 if it fails a Will save (or Frightened 2 on a critical failure). This condition can't be reduced below 1 while the spell is active and the target can hear you. You can Dismiss the spell as a reaction when an ally critically succeeds at a Strike against the target, restoring 0d4 healing Hit Points to that ally.\n\n---\n\n**Heightened (+2)** The number of Hit Points restored when you Dismiss the spell increases by 1d4.",
+    "data": {
+      "rank": 1,
+      "rarity": "uncommon",
+      "traits": [
+        "auditory",
+        "cantrip",
+        "concentrate",
+        "fear",
+        "hex",
+        "mental",
+        "witch"
+      ],
+      "cost": "",
+      "cast": "1",
+      "range": "30 feet",
+      "targets": "1 creature",
+      "requirements": "",
+      "defense": "will",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "cantrip",
+      "castActions": [
+        "one"
+      ],
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "auditory",
+          "slug": "auditory"
+        },
+        {
+          "label": "cantrip",
+          "slug": "cantrip"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "fear",
+          "slug": "fear"
+        },
+        {
+          "label": "hex",
+          "slug": "hex"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        },
+        {
+          "label": "witch",
+          "slug": "witch"
+        }
+      ],
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "auditory",
+      "cantrip",
+      "concentrate",
+      "fear",
+      "hex",
+      "howl-of-the-wild",
+      "mental",
+      "remaster",
+      "witch"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "223BD2AB-EDB7-5C1C-8357-3A0AF8D4C748",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Sheltering Wings",
+    "slug": "sheltering-wings-howl-of-the-wild",
+    "descr": "Like migratory birds, you know everyone flies farther together. You cause immense wings to sprout from your familiar. Your familiar Flies up to 30 feet, though it must move toward the triggering ally. If your familiar ends this movement adjacent to the triggering ally, it lands on their back; until the beginning of your next turn, the familiar automatically is carried by the ally, and its wings provide them cover. When the spell ends, the familiar hops off your ally into an adjacent square.",
+    "data": {
+      "rank": 3,
+      "rarity": "uncommon",
+      "traits": [
+        "focus",
+        "hex",
+        "manipulate",
+        "witch"
+      ],
+      "cost": "",
+      "cast": "reaction",
+      "range": "15 feet",
+      "targets": "1 ally",
+      "requirements": "An ally moves through a square within 15 feet of you or uses an action that has the move trait.",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "focus",
+      "castActions": [
+        "reaction"
+      ],
+      "actions": "reaction",
+      "traitLinks": [
+        {
+          "label": "focus",
+          "slug": "focus"
+        },
+        {
+          "label": "hex",
+          "slug": "hex"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "witch",
+          "slug": "witch"
+        }
+      ],
+      "durationText": "",
+      "durationUnit": "round",
+      "trigger": "An ally moves through a square within 15 feet of you or uses an action that has the [move](/trait/move) trait."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "focus",
+      "hex",
+      "howl-of-the-wild",
+      "manipulate",
+      "remaster",
+      "witch"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B25A71A3-1CEA-5A64-9464-1AF7B7082902",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Slime Spit",
+    "slug": "slime-spit-howl-of-the-wild",
+    "descr": "You spit toxic goo that coats your target's face and eyes, dealing 2d6 poison damage. It must attempt a Reflex save.\n\n---\n\n**Critical Success** The target takes no damage.\n\n**Success** The target takes half damage and is [Dazzled](/condition/dazzled-player-core) for 1 round, though it can Interact to wipe its eyes and remove the condition.\n\n**Failure** The target takes full damage and is dazzled until the end of your next turn.\n\n**Critical Failure** The target takes double damage, is [Blinded](/condition/blinded-player-core) for 1 round, and is dazzled until it uses an [Interact](/action/interact-player-core) action to wipe its eyes.\n\n---\n\n**Heightened (+1)** The damage increases by 2d6.",
+    "data": {
+      "rank": 1,
+      "rarity": "uncommon",
+      "traits": [
+        "concentrate",
+        "focus",
+        "manipulate",
+        "poison",
+        "ranger"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "30 feet",
+      "targets": "1 creature",
+      "requirements": "",
+      "defense": "reflex",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "focus",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "focus",
+          "slug": "focus"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "poison",
+          "slug": "poison"
+        },
+        {
+          "label": "ranger",
+          "slug": "ranger"
+        }
+      ],
+      "durationText": "",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "focus",
+      "howl-of-the-wild",
+      "manipulate",
+      "poison",
+      "ranger",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "CE45C667-2D57-53FE-AE41-FB1B43D1E8FC",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Snake Fangs",
+    "slug": "snake-fangs-howl-of-the-wild",
+    "descr": "Your jaw unhinges as your teeth extend into wicked fangs. For the spell's duration, you gain a fangs unarmed attack. They're a finesse, grapple, unarmed attack that deals 1d8 piercing damage and an extra 2d10 poison damage. If you have a creature at least one size smaller than you [Grabbed](/condition/grabbed-player-core) with your fangs, you can use the Swallow Whole ability that deals 4d6 bludgeoning damage and has a Rupture value of 17. A swallowed creature is transported to an extraplanar space that resembles the inside of a snake's stomach, so when it gets free, it appears in a space adjacent to you. If you're killed or the spell ends, the swallowed creature is immediately freed.\n\nSpell Effect: Snake Fangs\n\n---\n\n**Heightened (+3)** The extra poison damage of your fangs unarmed attack increases by 1d10, the damage dealt by the Swallow Whole ability increases by 6d6, and the Rupture value increases by 9.",
+    "data": {
+      "rank": 4,
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "manipulate",
+        "morph"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "",
+      "targets": "",
+      "requirements": "",
+      "traditions": [
+        "primal"
+      ],
+      "traditionsText": "Primal",
+      "type": "spell",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "morph",
+          "slug": "morph"
+        }
+      ],
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "howl-of-the-wild",
+      "manipulate",
+      "morph",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F82DB773-E8F8-5BAF-B489-D5F64FCE734B",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Songbird's Call",
+    "slug": "songbird-s-call-howl-of-the-wild",
+    "descr": "Your voice calls a storm of songbirds that whirl around you and peck at your enemies. All creatures within the area of whirling birds become [Concealed](/condition/concealed-player-core), and all creatures outside the area become concealed to creatures within it. A creature other than you that enters or ends its turn in the area takes 1d6 piercing damage as the birds peck at it.\n\n---\n\n**Heightened (+2)** The damage increases by 1d6.",
+    "data": {
+      "rank": 4,
+      "rarity": "uncommon",
+      "traits": [
+        "aura",
+        "bard",
+        "composition",
+        "concentrate",
+        "focus"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "",
+      "targets": "",
+      "requirements": "",
+      "area": "15-foot emanation",
+      "defense": "basicreflex",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "focus",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "aura",
+          "slug": "aura"
+        },
+        {
+          "label": "bard",
+          "slug": "bard"
+        },
+        {
+          "label": "composition",
+          "slug": "composition"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "focus",
+          "slug": "focus"
+        }
+      ],
+      "areaEffectShape": "sphere",
+      "areaEffectSize": 15,
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "aura",
+      "bard",
+      "composition",
+      "concentrate",
+      "focus",
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0EC654A0-1EA1-52CF-80DE-1E82D0D1993D",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spirit of the Beast",
+    "slug": "spirit-of-the-beast-howl-of-the-wild",
+    "descr": "You bring out the spirit of another animal that lives within your companion. Its body morphs slightly to take on an aspect of the animal you choose to have it emulate—for example, it might grow a pair of horns if the spirit is a bull or a tail if the spirit is a monkey. When you Cast this Spell, select from one of the following aspects.\n\nSpell Effect: Spirit Of The Beast\n\n**Aspect of Might:** Your companion gains a +1 status bonus to Athletics checks, Intimidation checks to [Demoralize](/action/demoralize-player-core), and Fortitude saves.\n**Aspect of Swiftness:** Your companion gains a +1 status bonus to Acrobatics checks, Stealth checks to Hide or [Sneak](/action/sneak-player-core), and Reflex saves.\n**Aspect of Insight:** Your companion gains a +1 status bonus to Perception checks to [Seek](/action/seek-player-core), Survival checks to Sense Direction or [Track](/action/track-player-core), and Will saves.\n\n---\n\n**Heightened (5th)** The status bonuses increase to +2.\n\n**Heightened (8th)** The status bonuses increase to +3.",
+    "data": {
+      "rank": 2,
+      "rarity": "uncommon",
+      "traits": [
+        "concentrate",
+        "focus",
+        "morph"
+      ],
+      "cost": "",
+      "cast": "1",
+      "range": "30 feet",
+      "targets": "your animal companion",
+      "requirements": "",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "focus",
+      "castActions": [
+        "one"
+      ],
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "focus",
+          "slug": "focus"
+        },
+        {
+          "label": "morph",
+          "slug": "morph"
+        }
+      ],
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "focus",
+      "howl-of-the-wild",
+      "morph",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C075471E-5E29-538D-9243-FB82FA6F9E73",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Sting of the Sea",
+    "slug": "sting-of-the-sea-howl-of-the-wild",
+    "descr": "A long tentacle like that belonging to an octopus, anemone, or man-of-war, dripping with briny water, appears from a glowing blue portal to wrap around the target's face, blocking its vision. For the duration of the spell, the target must attempt a Fortitude save at the beginning of its turn. The portal follows the target around, and the tentacle can't be targeted or harmed.\n\n---\n\n**Critical Success** The target is unaffected.\n\n**Success** The target takes a –2 penalty to Perception checks involving vision until the end of its turn. Spell Effect: Sting Of The Sea\n\n**Failure** The target is [Dazzled](/condition/dazzled-player-core) until the end of its turn.\n\n**Critical Failure** The target is [Blinded](/condition/blinded-player-core) until the end of its turn.",
+    "data": {
+      "rank": 1,
+      "rarity": "uncommon",
+      "traits": [
+        "cantrip",
+        "concentrate",
+        "hex",
+        "witch"
+      ],
+      "cost": "",
+      "cast": "1",
+      "range": "30 feet",
+      "targets": "1 creature",
+      "requirements": "",
+      "defense": "fortitude",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "cantrip",
+      "castActions": [
+        "one"
+      ],
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "cantrip",
+          "slug": "cantrip"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "hex",
+          "slug": "hex"
+        },
+        {
+          "label": "witch",
+          "slug": "witch"
+        }
+      ],
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "cantrip",
+      "concentrate",
+      "hex",
+      "howl-of-the-wild",
+      "remaster",
+      "witch"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild",
+        "page": 62
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1B96652F-CE28-550F-B34A-349ED3D1E098",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Summon Stampede",
+    "slug": "summon-stampede-howl-of-the-wild",
+    "descr": "You summon an unstoppable stampede of panicking beasts. Whether you conjure wild beasts or tamed cattle, the stampede is a force of nature that leaves behind nothing in its wake. The stampede occupies the space of a Gargantuan creature and has a Speed of 60 feet.\n\n**Arrive**(emotion, fear, mental) *Foreboding Tremors* The sheer energy of a stampede can cause even apex predators to panic. Each creature within a 60-foot emanation must attempt a Will save with the following effects.\n\n---\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature is Frightened 1.\n\n**Failure** The creature is Frightened 2.\n\n**Critical Failure** The creature is Frightened 3 and Fleeing for 1 round.\n\n---\n\n**Depart***Flatten the Earth* The stampede Strides up to double its Speed, trampling each Large or smaller creature, hazard, and structure whose space it enters, dealing (8d8) bludgeoning damage (basic Reflex save). The stampede ignores and attempts to counteract all difficult terrain it enters caused by debris, overgrowth, rubble, or thick ground cover.",
+    "data": {
+      "rank": 7,
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "incarnate",
+        "manipulate"
+      ],
+      "cost": "",
+      "cast": "3",
+      "range": "120 feet",
+      "targets": "",
+      "requirements": "",
+      "defense": "will",
+      "traditions": [
+        "primal"
+      ],
+      "traditionsText": "Primal",
+      "type": "spell",
+      "castActions": [
+        "three"
+      ],
+      "actions": "three",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "incarnate",
+          "slug": "incarnate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ],
+      "durationText": "until the end of your next turn",
+      "duration": 1,
+      "durationType": "sourceEndNextTurn",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "howl-of-the-wild",
+      "incarnate",
+      "manipulate",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild",
+        "page": 88
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "54FD8D95-BD5C-5B6F-8EA1-96CBD7B2F069",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Summon Warden of the Wild",
+    "slug": "summon-warden-of-the-wild-howl-of-the-wild",
+    "descr": "You briefly call forth the spirit of one of the Wardens of the Wild, the legendary guardians of nature. The warden occupies the space of a Gargantuan creature. When you Cast this Spell, you summon a warden depending on the biome in which the spell is cast (for instance, summoning the Warden of Caverns and Burrows if summoned in a cave, canyon, or other underground environment). In an unnatural environment, the warden summoned depends on the region's most recent or similar natural biome, as decided by the GM.\n\n**[Warden Of Caverns And Burrows](/creature/warden-of-caverns-and-burrows-howl-of-the-wild):** Speed 60 feet, burrow 100 feet; **Arrive** (earth) *Obsidian Cage* Obsidian stalagmites burst from the earth as the warden surfaces, impaling enemies and trapping them in stalagmites. Enemies on the ground within 40 feet take 6d6 piercing damage (basic Reflex save). Creatures that fail their save become [Immobilized](/condition/immobilized-player-core) until they [Escape](/action/escape-player-core) (the DC is your spell DC); **Depart** (earth) *Blessing of the Depths* The squares occupied by the warden remain disheveled and broken, becoming difficult terrain. The warden affects you and all your allies within 60 feet with a [Mountain Resilience](/spell/mountain-resilience-player-core) and [Unfettered Pack](/spell/unfettered-pack-player-core). The duration for both spells is reduced to 3 rounds, but the duration of *mountain resilience* isn't reduced when an affected target is hit by a bludgeoning, piercing, or slashing attack.**[Warden Of Forests And Meadows](/creature/warden-of-forests-and-meadows-howl-of-the-wild):** Speed 120 feet; **Arrive** (illusion, mental) *Idyllic Panorama* The warden's presence unpredictably warps the appearances and perceived distances of creatures and obstacles around it. Each time an enemy within 40 feet of the warden attempts a Strike or [Stride](/action/stride-player-core) action, it takes 4d6 mental damage (basic Will save). On a critical failure, the creature Strikes a random target within reach or Strides in a random direction. On a critical success, the creature becomes temporarily immune for 1 round; **Depart** *Fox's Insightful Trickery* The warden affects you and all your allies within 60 feet with [Blur](/spell/blur-player-core) and [Truesight](/spell/truesight-player-core). The duration for both spells is reduced to 3 rounds.**[Warden Of Oceans And Rivers](/creature/warden-of-oceans-and-rivers-howl-of-the-wild):** Speed 60 feet, swim 120 feet; **Arrive** *I Am the Tide* If the warden is summoned in a body of water, it creates a churning whirlpool that deals 10d6 bludgeoning damage to all creatures within 30 feet (basic Reflex save). A creature that fails this save is pulled 15 feet closer to the warden (30 feet on a critical failure). If the warden is summoned outside of a body of water, it creates a wave of water that deals 8d6 bludgeoning damage to all creatures within 30 feet (basic Reflex save). A creature that fails this save is pushed 10 feet away from the warden; **Depart** *Acclimation to the Deep* The warden affects you and your allies within 60 feet with [Feet To Fins](/spell/feet-to-fins-player-core) and [Water Breathing](/spell/water-breathing-player-core). The duration for both spells is reduced to 3 rounds, but a creature affected by *feet to fins* retains its normal land Speed.**[Warden Of Peaks And Skies](/creature/warden-of-peaks-and-skies-howl-of-the-wild):** Speed 60 feet, fly 240 feet; **Arrive** *Precipice Plummet* The warden appears, flying downward from the sky and sends a shockwave where she lands. Creatures within 20 feet take 10d6 sonic damage (basic Fortitude save). Creatures that critically fail their saves are [Sickened 1](/condition/sickened-player-core); **Depart** (auditory) *Song of the Skies* The warden affects you and all your allies within 60 feet with [Fly](/spell/fly-player-core) and [Unfettered Movement](/spell/unfettered-movement-player-core). The duration for both spells is reduced to 3 rounds.",
+    "data": {
+      "rank": 8,
+      "rarity": "rare",
+      "traits": [
+        "concentrate",
+        "incarnate",
+        "manipulate"
+      ],
+      "cost": "",
+      "cast": "3",
+      "range": "100 feet",
+      "targets": "",
+      "requirements": "",
+      "traditions": [
+        "primal"
+      ],
+      "traditionsText": "Primal",
+      "type": "spell",
+      "castActions": [
+        "three"
+      ],
+      "actions": "three",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "incarnate",
+          "slug": "incarnate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ],
+      "durationText": "until the end of your next turn",
+      "duration": 1,
+      "durationType": "sourceEndNextTurn",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "howl-of-the-wild",
+      "incarnate",
+      "manipulate",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild",
+        "page": 88
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "6B416AB0-7779-5739-AF69-3D21A0953915",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Threatening Mimicry",
+    "slug": "threatening-mimicry-howl-of-the-wild",
+    "descr": "You appear larger and stronger to nearby creatures, appearing to possess threatening features like antlers, claws, or poison to their senses. Each non-allied creature in the area must attempt a Will save.\n\n---\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature is [Frightened 1](/condition/frightened-player-core). This condition doesn't decrease at the end of its turn if it damaged you during that turn.\n\n**Failure** As success, but Frightened 2.\n\n**Critical Failure** As success, but Frightened 3.",
+    "data": {
+      "rank": 3,
+      "rarity": "uncommon",
+      "traits": [
+        "concentrate",
+        "emotion",
+        "fear",
+        "focus",
+        "illusion",
+        "manipulate",
+        "mental",
+        "ranger"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "",
+      "targets": "",
+      "requirements": "",
+      "area": "10-foot emanation",
+      "defense": "will",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "focus",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "emotion",
+          "slug": "emotion"
+        },
+        {
+          "label": "fear",
+          "slug": "fear"
+        },
+        {
+          "label": "focus",
+          "slug": "focus"
+        },
+        {
+          "label": "illusion",
+          "slug": "illusion"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        },
+        {
+          "label": "ranger",
+          "slug": "ranger"
+        }
+      ],
+      "areaEffectShape": "sphere",
+      "areaEffectSize": 10,
+      "durationText": "",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "emotion",
+      "fear",
+      "focus",
+      "howl-of-the-wild",
+      "illusion",
+      "manipulate",
+      "mental",
+      "ranger",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "7BF4EBBB-2D11-5EC1-88F3-6415B0C5A715",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Warning Stripes",
+    "slug": "warning-stripes-howl-of-the-wild",
+    "descr": "Your skin becomes painted with vivid stripes or bright aposematic swirls, warning other creatures of its toxic qualities. Any creature that touches you or hits you with an unarmed melee attack takes 2d8 poison damage. If you have an animal companion, you can cast this spell on them instead, with a range of 30 feet.\n\n---\n\n**Heightened (+2)** The poison damage increases by 1d8.",
+    "data": {
+      "rank": 3,
+      "rarity": "uncommon",
+      "traits": [
+        "concentrate",
+        "focus",
+        "morph",
+        "poison",
+        "ranger"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "",
+      "targets": "",
+      "requirements": "",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "focus",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "focus",
+          "slug": "focus"
+        },
+        {
+          "label": "morph",
+          "slug": "morph"
+        },
+        {
+          "label": "poison",
+          "slug": "poison"
+        },
+        {
+          "label": "ranger",
+          "slug": "ranger"
+        }
+      ],
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "focus",
+      "howl-of-the-wild",
+      "morph",
+      "poison",
+      "ranger",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

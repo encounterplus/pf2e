@@ -1,0 +1,38 @@
+{
+  "title": "Vehicle",
+  "sections": [
+    { "type": "group", "fields": [
+      { "title": "Common.Level", "type": "number", "attribute": "data.level" },
+      { "title": "Common.Size", "type": "picker", "attribute": "data.size", "attributeType": "Size" },
+      { "title": "Common.Rarity", "type": "picker", "attribute": "data.rarity", "attributeType": "Rarity" },
+      { "title": "Common.Traits", "type": "tags", "attribute": "data.traits", "attributeType": "Trait" },
+      { "title": "Common.Price", "attribute": "data.price" },
+      { "title": "Description (statblock)", "type": "textArea", "attribute": "data.description" },
+      { "title": "Space Length (feet)", "type": "number", "attribute": "data.space.long" },
+      { "title": "Space Width (feet)", "type": "number", "attribute": "data.space.wide" },
+      { "title": "Space Height (feet)", "type": "number", "attribute": "data.space.high" },
+      { "title": "Crew", "attribute": "data.crew" },
+      { "title": "Passengers", "attribute": "data.passengers" },
+      { "title": "Piloting Check", "attribute": "data.pilotingCheck" },
+      { "title": "Common.Speed", "attribute": "data.speed" }
+    ] },
+    { "title": "Common.Defenses", "type": "group", "fields": [
+      { "title": "Common.AC", "type": "number", "attribute": "data.ac.value" },
+      { "title": "Common.HP", "type": "number", "attribute": "data.hp.value" },
+      { "title": "Break Threshold (BT)", "type": "number", "attribute": "data.hp.bt" },
+      { "title": "Item.Hardness", "type": "number", "attribute": "data.hardness" },
+      { "title": "SavingThrow.Fortitude", "type": "number", "attribute": "data.fortitude" },
+      { "title": "Immunities", "type": "list", "attribute": "data.immunities" },
+      { "title": "Weaknesses", "attribute": "data.weaknesses" },
+      { "title": "Resistances", "attribute": "data.resistances" },
+      { "title": "Collision DC", "type": "number", "attribute": "data.collisionDC" },
+      { "title": "Collision Damage", "attribute": "data.collisionDamage" }
+    ] },
+    { "title": "Vehicle Abilities", "type": "list", "attribute": "data.abilities", "form": {
+      "title": "Creature.Ability", "partial": "ability"
+    } },
+    { "title": "Additional Text (below statblock)", "type": "group", "fields": [
+      { "type": "textArea", "attribute": "descr", "custom": { "lines": 10 } }
+    ] }
+  ]
+}

@@ -1,10 +1,22 @@
 {
-  "id": "pf2e",
-  "name": "Pathfinder 2E",
+  "id": "pf2e-remaster",
+  "name": "Pathfinder 2E Remaster",
   "type": "system",
-  "version": "0.8.5",
-  "description": "Easier to learn and faster to play, with deep character customization options that let you build the perfect character.",
-  "download": "https://github.com/encounterplus/pf2e/releases/download/0.8.5/pf2e.system",
+  "version": "0.9.02",
+  "description": "A Remaster-focused Pathfinder Second Edition system for Encounter+, with complete character, rules-reference, a bookmarkable GM Operations Center, and encounter-planning support.",
+  "content": "Encounter+ system definitions, project-authored GM tools, 22 reviewed ORC rules packs, and separately marked Rage of Elements OGL 1.0a records in one installer.",
+  "download": "https://github.com/Saharory/pf2e_remasterd/releases/download/v0.9.02/pf2e-remaster.system",
+  "repository": "https://github.com/Saharory/pf2e_remasterd",
+  "website": "https://github.com/Saharory/pf2e_remasterd",
+  "authors": [
+    {
+      "name": "Encounter+ community"
+    },
+    {
+      "name": "Saharory and contributors",
+      "url": "https://github.com/Saharory"
+    }
+  ],
   "compatibility": {
     "minimum": "5.0.4"
   }

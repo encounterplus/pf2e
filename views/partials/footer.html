@@ -1,6 +1,7 @@
 <footer>
   {% markdown -%}
-  {% if sourceFormatted %}**{{'Common.Source'|l}}:** {{sourceFormatted}}{% endif %}
+  {% if data.sourceName %}**{{'Common.Source'|l}}:** {{data.sourceName}}
+  {% else %}{% if sourceFormatted %}**{{'Common.Source'|l}}:** {{sourceFormatted}}{% endif %}{% endif %}
   {% if locationFormatted %}**{{'Common.Location'|l}}:** {{locationFormatted}}{% endif %}
   {% endmarkdown %}
 

@@ -1,0 +1,2974 @@
+[
+  {
+    "id": "1AE8D5B3-DA56-5778-9D24-12C244368A94",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Appraiser's Eye",
+    "slug": "appraiser-s-eye-high-seas-feat-feat-8996",
+    "descr": "---\n\nYou have experience handling and evaluating magical items, which are common in merfolk society. You can cast the [_read aura_](/spell/read-aura-player-core) cantrip as a primal [innate spell](/rule/innate-spells-rules-2232) at will. A cantrip is heightened to a spell rank equal to half your level rounded up. You also gain the [Quick Identification](/feat/quick-identification-player-core) skill feat, even if you don’t meet the prerequisites.",
+    "data": {
+      "level": 1,
+      "rarity": "common",
+      "traits": [
+        "merfolk"
+      ],
+      "prerequisites": "",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "---\n\nYou have experience handling and evaluating magical items, which are common in merfolk society. You can cast the _read aura_ cantrip as a primal innate spell at will. A cantrip is heightened to a spell rank equal to half your level rounded up. You also gain the Quick Identification skill feat, even if you don’t meet the prerequisites.",
+      "traitLinks": [
+        {
+          "label": "merfolk",
+          "slug": "merfolk"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "feat",
+      "high-seas",
+      "merfolk",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Feats.aspx?ID=8996",
+        "page": 20
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "032991AF-F4C0-5542-8171-91C7216686DF",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Aquatic Elf Warrior",
+    "slug": "aquatic-elf-warrior-high-seas-feat-feat-8991",
+    "descr": "---\n\nYou have trained in the use of weapons both above and below water. You have familiarity with crossbows, heavy crossbows, daggers, longspears, spears, and tridents—for the purposes of proficiency, you treat any of these that are martial weapons as simple weapons and any that are advanced weapons as martial weapons. You don’t take a –2 circumstance penalty to melee slashing or bludgeoning attacks while underwater.",
+    "data": {
+      "level": 1,
+      "rarity": "common",
+      "traits": [
+        "elf"
+      ],
+      "prerequisites": "",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "---\n\nYou have trained in the use of weapons both above and below water. You have familiarity with crossbows, heavy crossbows, daggers, longspears, spears, and tridents—for the purposes of proficiency, you treat any of these that are martial weapons as simple weapons and any that are advanced weapons as martial weapons. You don’t take a –2 circumstance penalty to melee slashing or bludgeoning attacks while underwater.",
+      "traitLinks": [
+        {
+          "label": "elf",
+          "slug": "elf"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "elf",
+      "feat",
+      "high-seas",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Feats.aspx?ID=8991",
+        "page": 19
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "9A3F2A32-5D4C-5E6F-AC74-EFCD2DA44FFB",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Aquatic Passage",
+    "slug": "aquatic-passage-high-seas-feat-feat-9036",
+    "descr": "**Archetype** [Marine Marauder](/archetype/marine-marauder-high-seas-archetype-archetype-385)\n\n**Prerequisites**\n[Marine Marauder Dedication](/feat/marine-marauder-dedication-high-seas-feat-feat-9030)\n\n---\n\nYou can move through water as easily as you walk on land. You [ignore non-magical difficult terrain](/rule/ignore-difficult-terrain-rules-2367) while underwater and from water-like terrain like swamps or slippery liquids. Moving up or down while underwater is still difficult terrain for you.",
+    "data": {
+      "level": 6,
+      "rarity": "common",
+      "traits": [
+        "archetype"
+      ],
+      "prerequisites": "Marine Marauder Dedication",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "**Archetype** Marine Marauder\n\n**Prerequisites**\nMarine Marauder Dedication\n\n---\n\nYou can move through water as easily as you walk on land. You ignore non-magical difficult terrain while underwater and from water-like terrain like swamps or slippery liquids. Moving up or down while underwater is still difficult terrain for you.",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "feat",
+      "high-seas",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Feats.aspx?ID=9036",
+        "page": 106
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "ABCF84A2-4FE3-5883-B408-22B18948985C",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Aquatic Pirouette",
+    "slug": "aquatic-pirouette-high-seas-feat-feat-9031",
+    "descr": "**Archetype** [Marine Marauder](/archetype/marine-marauder-high-seas-archetype-archetype-385)\n\n**Prerequisites**\n[Marine Marauder Dedication](/feat/marine-marauder-dedication-high-seas-feat-feat-9030)\n\n**Trigger**\nA creature targets you with a ranged attack and you can see the attacker.\n\n**Requirements**\nYou’re underwater.\n\n---\n\nYou spin in the water to avoid the attack. You move 5 feet in any direction, including up or down, and gain a +2 circumstance bonus to AC against the triggering attack.",
+    "data": {
+      "level": 4,
+      "rarity": "common",
+      "traits": [
+        "archetype"
+      ],
+      "prerequisites": "Marine Marauder Dedication",
+      "frequency": "",
+      "requirements": "You’re underwater.",
+      "trigger": "A creature targets you with a ranged attack and you can see the attacker.",
+      "benefits": "**Archetype** Marine Marauder\n\n**Prerequisites**\nMarine Marauder Dedication\n\n**Trigger**\nA creature targets you with a ranged attack and you can see the attacker.\n\n**Requirements**\nYou’re underwater.\n\n---\n\nYou spin in the water to avoid the attack. You move 5 feet in any direction, including up or down, and gain a +2 circumstance bonus to AC against the triggering attack.",
+      "actions": "reaction",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "feat",
+      "high-seas",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Feats.aspx?ID=9031",
+        "page": 106
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "C74FB74C-517A-5FD8-9DA8-E68A117D3D36",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Bitter Taste of Betrayal",
+    "slug": "bitter-taste-of-betrayal-high-seas-feat-feat-9016",
+    "descr": "**Archetype** [Pirate](/archetype/pirate-player-core-2)\n\n**Prerequisites**\n[Pirate Dedication](/feat/pirate-dedication-player-core-2)\n\n**Access**\nYou're from the Shackles\n\n---\n\nSpend enough time in Hell Harbor, and you pick up the paranoia encouraged by Arronax Endymion. Maybe you served under him on the _Tyrannous_, escaped his executioners, or had a friend who wasn’t so lucky; whatever the reason, you have some of his wariness. Unless you’re a willing target, you gain a +2 circumstance bonus to AC and saves against creatures you consider an ally and creatures who are [undetected](/condition/undetected-player-core) by you. If a creature you thought was an ally reveals itself as an enemy, you get the same bonus against them until the end of your next turn.",
+    "data": {
+      "level": 4,
+      "rarity": "uncommon",
+      "traits": [
+        "archetype"
+      ],
+      "prerequisites": "Pirate Dedication",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "**Archetype** Pirate\n\n**Prerequisites**\nPirate Dedication\n\n**Access**\nYou're from the Shackles\n\n---\n\nSpend enough time in Hell Harbor, and you pick up the paranoia encouraged by Arronax Endymion. Maybe you served under him on the _Tyrannous_, escaped his executioners, or had a friend who wasn’t so lucky; whatever the reason, you have some of his wariness. Unless you’re a willing target, you gain a +2 circumstance bonus to AC and saves against creatures you consider an ally and creatures who are undetected by you. If a creature you thought was an ally reveals itself as an enemy, you get the same bonus against them until the end of your next turn.",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "feat",
+      "high-seas",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Feats.aspx?ID=9016",
+        "page": 92
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "F82AEEEF-7DCA-5185-88B7-001762E16F2E",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Bounce Boost",
+    "slug": "bounce-boost-high-seas-feat-feat-9001",
+    "descr": "**Prerequisites**\nTrained in Athletics\n\n**Trigger**\nAn adjacent ally attempts to [High Jump](/action/high-jump-player-core) or [Long Jump](/action/long-jump-player-core).\n\n---\n\nYou’ve learned to use your own athletic abilities and springy legs to help others who need a boost with their leaps. The triggering ally gains a +1 circumstance bonus to their Athletics check to High Jump or Long Jump. This bonus increases to +2 if you’re an expert in Athletics, +3 if you’re a master, and +4 if you’re legendary. Additionally, the triggering ally’s [Leap](/action/leap-player-core) distance on a successful check increases by 2 feet for a High Jump or 5 feet for a Long Jump, even if it would allow the ally to Leap further than their land Speed.",
+    "data": {
+      "level": 1,
+      "rarity": "common",
+      "traits": [
+        "tripkee"
+      ],
+      "prerequisites": "Trained in Athletics",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "An adjacent ally attempts to High Jump or Long Jump.",
+      "benefits": "**Prerequisites**\nTrained in Athletics\n\n**Trigger**\nAn adjacent ally attempts to High Jump or Long Jump.\n\n---\n\nYou’ve learned to use your own athletic abilities and springy legs to help others who need a boost with their leaps. The triggering ally gains a +1 circumstance bonus to their Athletics check to High Jump or Long Jump. This bonus increases to +2 if you’re an expert in Athletics, +3 if you’re a master, and +4 if you’re legendary. Additionally, the triggering ally’s Leap distance on a successful check increases by 2 feet for a High Jump or 5 feet for a Long Jump, even if it would allow the ally to Leap further than their land Speed.",
+      "actions": "reaction",
+      "traitLinks": [
+        {
+          "label": "tripkee",
+          "slug": "tripkee"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "feat",
+      "high-seas",
+      "remaster",
+      "tripkee"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Feats.aspx?ID=9001",
+        "page": 21
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "B4372588-81FE-5B9D-AF19-A295B4BC9142",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Bullet and a Broadside",
+    "slug": "bullet-and-a-broadside-high-seas-feat-feat-9021",
+    "descr": "_**PFS Note** Pathfinder Society does not use siege weaponry._\n\n**Access**\nYou're from the Shackles\n\n**Requirements**\nYou’re wielding a firearm or crossbow and are adjacent to a [siege weapon](/rule/siege-weapons-rules-1622).\n\n---\n\nYou’re familiar with ranged weapons of all sizes, and can efficiently move to use them in tandem. If you spent one action, you [Launch](/rule/launching-rules-1626) the siege weapon and [Strike](/action/strike-player-core) with your firearm or crossbow in any order, using the same multiple attack penalty for both attacks. If you spent two actions, you [Load](/rule/loading-rules-1625) the siege engine and [Interact](/action/interact-player-core) to reload your firearm or crossbow in any order, and don’t need a free hand to do so.",
+    "data": {
+      "level": 2,
+      "rarity": "common",
+      "traits": [
+        "gunslinger"
+      ],
+      "prerequisites": "",
+      "frequency": "",
+      "requirements": "You’re wielding a firearm or crossbow and are adjacent to a siege weapon.",
+      "trigger": "",
+      "benefits": "_**PFS Note** Pathfinder Society does not use siege weaponry._\n\n**Access**\nYou're from the Shackles\n\n**Requirements**\nYou’re wielding a firearm or crossbow and are adjacent to a siege weapon.\n\n---\n\nYou’re familiar with ranged weapons of all sizes, and can efficiently move to use them in tandem. If you spent one action, you Launch the siege weapon and Strike with your firearm or crossbow in any order, using the same multiple attack penalty for both attacks. If you spent two actions, you Load the siege engine and Interact to reload your firearm or crossbow in any order, and don’t need a free hand to do so.",
+      "traitLinks": [
+        {
+          "label": "gunslinger",
+          "slug": "gunslinger"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "feat",
+      "gunslinger",
+      "high-seas",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Feats.aspx?ID=9021",
+        "page": 92
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "ACB3C49A-B58F-53EB-A917-EB73F606039A",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Burrowing Tripkee",
+    "slug": "burrowing-tripkee-high-seas-feat-feat-9004",
+    "descr": "---\n\nYou’ve gotten the knack of using your oversized, webbed hands to rapidly shovel earth. You gain a [burrow Speed](/rule/burrow-speed-rules-2348) of 15 feet.",
+    "data": {
+      "level": 13,
+      "rarity": "common",
+      "traits": [
+        "tripkee"
+      ],
+      "prerequisites": "",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "---\n\nYou’ve gotten the knack of using your oversized, webbed hands to rapidly shovel earth. You gain a burrow Speed of 15 feet.",
+      "traitLinks": [
+        {
+          "label": "tripkee",
+          "slug": "tripkee"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "feat",
+      "high-seas",
+      "remaster",
+      "tripkee"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Feats.aspx?ID=9004",
+        "page": 21
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "639A5EE0-064F-5736-A547-8B3028B20C05",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Cannonball Fall",
+    "slug": "cannonball-fall-high-seas-feat-feat-9026",
+    "descr": "**Prerequisites**\nTrained in Acrobatics or Trained in Athletics\n\n**Access**\nYou're from the Shackles\n\n**Requirements**\nYou are above an enemy.\n\n---\n\nYou’ve learned how to make a quick descent with a sudden stop—directly on an enemy. You intentionally fall onto an enemy within 10 feet of you horizontally and can accurately target them from up to a height equal to 5 feet times your level. You take damage as [normal](/rule/falling-rules-2352); the enemy must attempt a Reflex save against your class DC with the following results, instead of the usual rules for [falling on a creature](/rule/falling-on-a-creature-rules-2353). If an ability reduces the amount of damage you take from falling, the enemy’s damage is based on the damage you would have taken before that reduction. In addition, if you have a means of controlling your descent, such as holding onto a rope or sliding down an adjacent wall, you do not land [prone](/condition/prone-player-core) even if you take damage from the fall.\n\n**Critical Success** The enemy takes no damage.\n\n**Success** The enemy takes bludgeoning damage equal to one quarter the falling damage you took.\n\n**Failure** The creature takes bludgeoning damage equal to half the falling damage you took and is knocked prone.\n\n**Critical Failure** The creature takes the same amount of bludgeoning damage you took from the fall, is knocked prone, and is [stunned](/condition/stunned-player-core) 1.",
+    "data": {
+      "level": 8,
+      "rarity": "common",
+      "traits": [
+        "fighter",
+        "gunslinger",
+        "swashbuckler"
+      ],
+      "prerequisites": "Trained in Acrobatics or Trained in Athletics",
+      "frequency": "",
+      "requirements": "You are above an enemy.",
+      "trigger": "",
+      "benefits": "**Prerequisites**\nTrained in Acrobatics or Trained in Athletics\n\n**Access**\nYou're from the Shackles\n\n**Requirements**\nYou are above an enemy.\n\n---\n\nYou’ve learned how to make a quick descent with a sudden stop—directly on an enemy. You intentionally fall onto an enemy within 10 feet of you horizontally and can accurately target them from up to a height equal to 5 feet times your level. You take damage as normal; the enemy must attempt a Reflex save against your class DC with the following results, instead of the usual rules for falling on a creature. If an ability reduces the amount of damage you take from falling, the enemy’s damage is based on the damage you would have taken before that reduction. In addition, if you have a means of controlling your descent, such as holding onto a rope or sliding down an adjacent wall, you do not land prone even if you take damage from the fall.\n\n**Critical Success** The enemy takes no damage.\n\n**Success** The enemy takes bludgeoning damage equal to one quarter the falling damage you took.\n\n**Failure** The creature takes bludgeoning damage equal to half the falling damage you took and is knocked prone.\n\n**Critical Failure** The creature takes the same amount of bludgeoning damage you took from the fall, is knocked prone, and is stunned 1.",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "fighter",
+          "slug": "fighter"
+        },
+        {
+          "label": "gunslinger",
+          "slug": "gunslinger"
+        },
+        {
+          "label": "swashbuckler",
+          "slug": "swashbuckler"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "feat",
+      "fighter",
+      "gunslinger",
+      "high-seas",
+      "remaster",
+      "swashbuckler"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Feats.aspx?ID=9026",
+        "page": 93
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "56824369-EFC7-5111-8E93-527D32722A6F",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Cheaters Always Prosper",
+    "slug": "cheaters-always-prosper-high-seas-feat-feat-9023",
+    "descr": "**Prerequisites**\n[Dirty Trick](/feat/dirty-trick-player-core-2)\n\n**Access**\nYou're from the Shackles\n\n---\n\nYou’re no champion of justice and are perfectly willing to fight dirty if it helps you survive. You can attempt a check to perform a Dirty Trick using your melee weapon even if you don’t have a free hand. If you critically fail a check to Dirty Trick using a weapon, you can drop the weapon to take the effects of a failure instead of a critical failure.",
+    "data": {
+      "level": 4,
+      "rarity": "common",
+      "traits": [
+        "fighter"
+      ],
+      "prerequisites": "Dirty Trick",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "**Prerequisites**\nDirty Trick\n\n**Access**\nYou're from the Shackles\n\n---\n\nYou’re no champion of justice and are perfectly willing to fight dirty if it helps you survive. You can attempt a check to perform a Dirty Trick using your melee weapon even if you don’t have a free hand. If you critically fail a check to Dirty Trick using a weapon, you can drop the weapon to take the effects of a failure instead of a critical failure.",
+      "traitLinks": [
+        {
+          "label": "fighter",
+          "slug": "fighter"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "feat",
+      "fighter",
+      "high-seas",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Feats.aspx?ID=9023",
+        "page": 92
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "0E8B09A5-7C17-53BF-919F-166CBA8A5EF2",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Coerce the Current",
+    "slug": "coerce-the-current-high-seas-feat-feat-8988",
+    "descr": "_**PFS Note** Can be used in less than 20 feet of water, ending its effect at the water line._\n\n**Requirements**\nYou are swimming in water.\n\n---\n\nWith a flick of your tail, you direct the water around you to move creatures. You move water in a 20-foot [line](/rule/line-rules-2388); this line must be entirely in water. Each creature in this line must attempt a Fortitude save against your class DC or spell DC, whichever is higher. A creature can choose to fail the save.\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature is [pushed](/rule/forced-movement-rules-2364) or pulled 5 feet in the direction of your choice. All creatures must be moved in the same direction.\n\n**Failure** As success, but the creature is pushed or pulled 10 feet.\n\n**Critical Failure** As success, but the creature is pushed or pulled 10 feet, and the creature is [off-guard](/condition/off-guard-player-core) until the end of your next turn.",
+    "data": {
+      "level": 9,
+      "rarity": "common",
+      "traits": [
+        "athamaru",
+        "primal"
+      ],
+      "prerequisites": "",
+      "frequency": "",
+      "requirements": "You are swimming in water.",
+      "trigger": "",
+      "benefits": "_**PFS Note** Can be used in less than 20 feet of water, ending its effect at the water line._\n\n**Requirements**\nYou are swimming in water.\n\n---\n\nWith a flick of your tail, you direct the water around you to move creatures. You move water in a 20-foot line; this line must be entirely in water. Each creature in this line must attempt a Fortitude save against your class DC or spell DC, whichever is higher. A creature can choose to fail the save.\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature is pushed or pulled 5 feet in the direction of your choice. All creatures must be moved in the same direction.\n\n**Failure** As success, but the creature is pushed or pulled 10 feet.\n\n**Critical Failure** As success, but the creature is pushed or pulled 10 feet, and the creature is off-guard until the end of your next turn.",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "athamaru",
+          "slug": "athamaru"
+        },
+        {
+          "label": "primal",
+          "slug": "primal"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "athamaru",
+      "feat",
+      "high-seas",
+      "primal",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Feats.aspx?ID=8988",
+        "page": 18
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "16AF710C-3DF2-57E0-B400-888AC50C0AFB",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Concealing Currents",
+    "slug": "concealing-currents-high-seas-feat-feat-9037",
+    "descr": "**Archetype** [Marine Marauder](/archetype/marine-marauder-high-seas-archetype-archetype-385)\n\n**Prerequisites**\n[Marine Marauder Dedication](/feat/marine-marauder-dedication-high-seas-feat-feat-9030)\n\n---\n\nYou use currents of water to conceal a projectile, preventing your enemy from predicting its trajectory. If you’re in water, creatures that are above you or on land are [off-guard](/condition/off-guard-player-core) against your ranged attacks.",
+    "data": {
+      "level": 6,
+      "rarity": "common",
+      "traits": [
+        "archetype"
+      ],
+      "prerequisites": "Marine Marauder Dedication",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "**Archetype** Marine Marauder\n\n**Prerequisites**\nMarine Marauder Dedication\n\n---\n\nYou use currents of water to conceal a projectile, preventing your enemy from predicting its trajectory. If you’re in water, creatures that are above you or on land are off-guard against your ranged attacks.",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "feat",
+      "high-seas",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Feats.aspx?ID=9037",
+        "page": 106
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "AD39842E-30DF-59B8-AECE-3BF377D46E0F",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Cutthroat Grapple",
+    "slug": "cutthroat-grapple-high-seas-feat-feat-9013",
+    "descr": "**Prerequisites**\n[Sawtooth Grapple](/feat/sawtooth-grapple-high-seas-feat-feat-9010)\n\n**Access**\nmember of the Red Mantis assassins\n\n**Trigger**\nA creature attempts to [Escape](/action/escape-player-core) from your Sawtooth Grapple.\n\n---\n\nYou can punish a creature that tries to escape your blades. Make a melee [Strike](/action/strike-player-core) against the triggering creature. On a hit, the creature takes a –4 circumstance penalty to its Escape attempt and 1d6 [bleed](/condition/persistent-damage-player-core) damage.",
+    "data": {
+      "level": 16,
+      "rarity": "uncommon",
+      "traits": [
+        "rogue"
+      ],
+      "prerequisites": "Sawtooth Grapple",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "A creature attempts to Escape from your Sawtooth Grapple.",
+      "benefits": "**Prerequisites**\nSawtooth Grapple\n\n**Access**\nmember of the Red Mantis assassins\n\n**Trigger**\nA creature attempts to Escape from your Sawtooth Grapple.\n\n---\n\nYou can punish a creature that tries to escape your blades. Make a melee Strike against the triggering creature. On a hit, the creature takes a –4 circumstance penalty to its Escape attempt and 1d6 bleed damage.",
+      "actions": "reaction",
+      "traitLinks": [
+        {
+          "label": "rogue",
+          "slug": "rogue"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "feat",
+      "high-seas",
+      "remaster",
+      "rogue"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Feats.aspx?ID=9013",
+        "page": 65
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "10B635AC-AB7F-5A1A-9AAE-5E598E9321DC",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Deadly Casework",
+    "slug": "deadly-casework-high-seas-feat-feat-9008",
+    "descr": "_**PFS Note** Planning assassinations is anathema to the Pathfinder Society._\n\n**Prerequisites**\nmember of the Red Mantis assassins\n\n**Access**\nmember of the Red Mantis assassins\n\n---\n\nYou treat a well-planned assassination with the diligence that you would bring to any investigation. You can [Pursue a Lead](/action/pursue-a-lead-player-core-2) and open an [investigation](/rule/investigations-rules-2578) regarding a target you want to assassinate. This investigation doesn’t count against the number of active investigations you can have at a time, but you can only have one assassination investigation.\n\nYour Skill Stratagem bonus increases by 1 when investigating details about your assassination target.",
+    "data": {
+      "level": 6,
+      "rarity": "uncommon",
+      "traits": [
+        "investigator"
+      ],
+      "prerequisites": "member of the Red Mantis assassins",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "_**PFS Note** Planning assassinations is anathema to the Pathfinder Society._\n\n**Prerequisites**\nmember of the Red Mantis assassins\n\n**Access**\nmember of the Red Mantis assassins\n\n---\n\nYou treat a well-planned assassination with the diligence that you would bring to any investigation. You can Pursue a Lead and open an investigation regarding a target you want to assassinate. This investigation doesn’t count against the number of active investigations you can have at a time, but you can only have one assassination investigation.\n\nYour Skill Stratagem bonus increases by 1 when investigating details about your assassination target.",
+      "traitLinks": [
+        {
+          "label": "investigator",
+          "slug": "investigator"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "feat",
+      "high-seas",
+      "investigator",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Feats.aspx?ID=9008",
+        "page": 65
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "48D13B99-A5BB-5FEF-B187-35657F309E6D",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Decisive Swimmer",
+    "slug": "decisive-swimmer-high-seas-feat-feat-8985",
+    "descr": "**Prerequisites**\nTrained in Athletics\n\n---\n\nYou are a talented athlete trained to compete in swimming competitions, and would sometimes be asked to help your community settle disputes with others by participating in swimming races. When settling disputes with other [aquatic](/trait/aquatic) or [amphibious](/trait/amphibious) people, you can use Athletics instead of Diplomacy to [Request](/action/request-player-core).",
+    "data": {
+      "level": 1,
+      "rarity": "common",
+      "traits": [
+        "athamaru"
+      ],
+      "prerequisites": "Trained in Athletics",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "**Prerequisites**\nTrained in Athletics\n\n---\n\nYou are a talented athlete trained to compete in swimming competitions, and would sometimes be asked to help your community settle disputes with others by participating in swimming races. When settling disputes with other aquatic or amphibious people, you can use Athletics instead of Diplomacy to Request.",
+      "traitLinks": [
+        {
+          "label": "athamaru",
+          "slug": "athamaru"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "athamaru",
+      "feat",
+      "high-seas",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Feats.aspx?ID=8985",
+        "page": 18
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "0DB63710-57AE-5D5E-A043-D56339B67D4C",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Deduce Habits",
+    "slug": "deduce-habits-high-seas-feat-feat-9014",
+    "descr": "**Prerequisites**\n[Plot the Future](/feat/plot-the-future-player-core-2)\n\n**Access**\nmember of the Red Mantis assassins\n\n---\n\nWhen you use Plot the Future, you can instead contemplate a person that you’ve gotten to observe within 30 feet for at least 1 minute. You deduce places they will habitually be in the next week and what time of day they’ll be there. For each location, you deduce the likelihood that they will be two of the following: alone, unarmed, or unaware. You also gain a piece of advice for each location suggesting a course of action you or your allies could take that might make it more or less likely for them to be in the chosen states. The GM determines the locations the person will visit and when, as well as the likelihood they’ll be alone, unarmed, or unaware.",
+    "data": {
+      "level": 18,
+      "rarity": "uncommon",
+      "traits": [
+        "concentrate",
+        "investigator",
+        "prediction"
+      ],
+      "prerequisites": "Plot the Future",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "**Prerequisites**\nPlot the Future\n\n**Access**\nmember of the Red Mantis assassins\n\n---\n\nWhen you use Plot the Future, you can instead contemplate a person that you’ve gotten to observe within 30 feet for at least 1 minute. You deduce places they will habitually be in the next week and what time of day they’ll be there. For each location, you deduce the likelihood that they will be two of the following: alone, unarmed, or unaware. You also gain a piece of advice for each location suggesting a course of action you or your allies could take that might make it more or less likely for them to be in the chosen states. The GM determines the locations the person will visit and when, as well as the likelihood they’ll be alone, unarmed, or unaware.",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "investigator",
+          "slug": "investigator"
+        },
+        {
+          "label": "prediction",
+          "slug": "prediction"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "feat",
+      "high-seas",
+      "investigator",
+      "prediction",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Feats.aspx?ID=9014",
+        "page": 65
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "B34327B9-1F9B-5889-A70C-814EA3BA9D66",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Eyes of the Sea",
+    "slug": "eyes-of-the-sea-high-seas-feat-feat-8995",
+    "descr": "**Prerequisites**\n[Aquatic Elf](/heritage/aquatic-elf-high-seas-heritage-heritage-435) heritage\n\n---\n\nYour eyes have adapted to the rigors of the sea. If you didn’t already have [darkvision](/rule/darkvision-and-greater-darkvision-rules-2410), you gain darkvision. Additionally, you can see through natural phenomena that would obscure your vision underwater, such as cloudy waters, ink, smoke, and so forth, and don’t need to succeed at a [flat check](/rule/checks-rules-2278) to target creature within these phenomena. Finally, you can cast [_truesight_](/spell/truesight-player-core) as a primal [innate spell](/rule/innate-spells-rules-2232) once per day.",
+    "data": {
+      "level": 17,
+      "rarity": "common",
+      "traits": [
+        "elf"
+      ],
+      "prerequisites": "Aquatic Elf heritage",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "**Prerequisites**\nAquatic Elf heritage\n\n---\n\nYour eyes have adapted to the rigors of the sea. If you didn’t already have darkvision, you gain darkvision. Additionally, you can see through natural phenomena that would obscure your vision underwater, such as cloudy waters, ink, smoke, and so forth, and don’t need to succeed at a flat check to target creature within these phenomena. Finally, you can cast _truesight_ as a primal innate spell once per day.",
+      "traitLinks": [
+        {
+          "label": "elf",
+          "slug": "elf"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "elf",
+      "feat",
+      "high-seas",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Feats.aspx?ID=8995",
+        "page": 19
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "7C7155BC-8CAB-5516-B424-00E4EB50B4B6",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Fight or Flight",
+    "slug": "fight-or-flight-high-seas-feat-feat-9024",
+    "descr": "**Access**\nYou're from the Shackles\n\n**Trigger**\nYou gain the [frightened](/condition/frightened-player-core) condition.\n\n---\n\nYou’ve learned to make use of the surge of adrenaline that comes with fear. You can make a melee [Strike](/action/strike-player-core) against a creature that gave you the frightened condition if it’s within range, or you can [Stride](/action/stride-player-core) up to your speed away from the effect or creature that gave you the frightened condition.",
+    "data": {
+      "level": 6,
+      "rarity": "common",
+      "traits": [
+        "gunslinger",
+        "swashbuckler"
+      ],
+      "prerequisites": "",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "You gain the frightened condition.",
+      "benefits": "**Access**\nYou're from the Shackles\n\n**Trigger**\nYou gain the frightened condition.\n\n---\n\nYou’ve learned to make use of the surge of adrenaline that comes with fear. You can make a melee Strike against a creature that gave you the frightened condition if it’s within range, or you can Stride up to your speed away from the effect or creature that gave you the frightened condition.",
+      "actions": "reaction",
+      "traitLinks": [
+        {
+          "label": "gunslinger",
+          "slug": "gunslinger"
+        },
+        {
+          "label": "swashbuckler",
+          "slug": "swashbuckler"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "feat",
+      "gunslinger",
+      "high-seas",
+      "remaster",
+      "swashbuckler"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Feats.aspx?ID=9024",
+        "page": 93
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "116BBFE3-86C6-5C5B-B7AC-321AE0704FBB",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Fog Cloak",
+    "slug": "fog-cloak-high-seas-feat-feat-9009",
+    "descr": "**Access**\nmember of the Red Mantis assassins\n\n---\n\nWhen you are [concealed](/condition/concealed-player-core) by mist or [fog](/rule/fog-rules-2815), you’re [hidden](/condition/hidden-player-core) until a creature successfully [Seeks](/action/seek-player-core) to find you.",
+    "data": {
+      "level": 6,
+      "rarity": "uncommon",
+      "traits": [
+        "rogue"
+      ],
+      "prerequisites": "",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "**Access**\nmember of the Red Mantis assassins\n\n---\n\nWhen you are concealed by mist or fog, you’re hidden until a creature successfully Seeks to find you.",
+      "traitLinks": [
+        {
+          "label": "rogue",
+          "slug": "rogue"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "feat",
+      "high-seas",
+      "remaster",
+      "rogue"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Feats.aspx?ID=9009",
+        "page": 65
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "F8100BB4-8F5A-5EE6-AFF6-96AE43E5FE18",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Forensic Countermeasures",
+    "slug": "forensic-countermeasures-high-seas-feat-feat-9012",
+    "descr": "**Prerequisites**\nempiricism methodology\n\n**Access**\nmember of the Red Mantis assassins\n\n---\n\nYour knowledge of deductive reasoning allows you to derail fellow investigators. Over the course of a minute, you can tamper with a single location (such as a small room) to either obscure evidence or add misleading evidence. If you add misleading evidence, you choose what incorrect details it implies. A creature can see through these countermeasures with a successful [Recall Knowledge](/action/recall-knowledge-player-core) check against your Deception DC, and only if they actively look for tampering.",
+    "data": {
+      "level": 14,
+      "rarity": "uncommon",
+      "traits": [
+        "investigator"
+      ],
+      "prerequisites": "empiricism methodology",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "**Prerequisites**\nempiricism methodology\n\n**Access**\nmember of the Red Mantis assassins\n\n---\n\nYour knowledge of deductive reasoning allows you to derail fellow investigators. Over the course of a minute, you can tamper with a single location (such as a small room) to either obscure evidence or add misleading evidence. If you add misleading evidence, you choose what incorrect details it implies. A creature can see through these countermeasures with a successful Recall Knowledge check against your Deception DC, and only if they actively look for tampering.",
+      "traitLinks": [
+        {
+          "label": "investigator",
+          "slug": "investigator"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "feat",
+      "high-seas",
+      "investigator",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Feats.aspx?ID=9012",
+        "page": 65
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "98E59E92-4A58-5A2C-9DC6-093EAFA156AA",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Form of the Sea",
+    "slug": "form-of-the-sea-high-seas-feat-feat-8990",
+    "descr": "---\n\nYou can call upon sea waters to empower you. Once per day, you can cast 7th-rank [_elemental form_](/spell/elemental-form-player-core) as an [innate](/rule/innate-spells-rules-2232) primal spell, but you can only choose the water elemental form.",
+    "data": {
+      "level": 17,
+      "rarity": "common",
+      "traits": [
+        "athamaru"
+      ],
+      "prerequisites": "",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "---\n\nYou can call upon sea waters to empower you. Once per day, you can cast 7th-rank _elemental form_ as an innate primal spell, but you can only choose the water elemental form.",
+      "traitLinks": [
+        {
+          "label": "athamaru",
+          "slug": "athamaru"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "athamaru",
+      "feat",
+      "high-seas",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Feats.aspx?ID=8990",
+        "page": 18
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "BCB22992-7795-52A8-A9AD-D6A0FC76492E",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Friend of the Sea",
+    "slug": "friend-of-the-sea-high-seas-feat-feat-8992",
+    "descr": "---\n\nYou have established a companionship with a sea creature, often carrying them in a small, waterfilled globe when you are on land. You gain the [Pet](/feat/pet-player-core) general feat. Your pet must be [aquatic](/trait/aquatic), and it gains the darkvision and tough abilities in addition to the two abilities you normally choose for a pet.",
+    "data": {
+      "level": 1,
+      "rarity": "common",
+      "traits": [
+        "elf"
+      ],
+      "prerequisites": "",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "---\n\nYou have established a companionship with a sea creature, often carrying them in a small, waterfilled globe when you are on land. You gain the Pet general feat. Your pet must be aquatic, and it gains the darkvision and tough abilities in addition to the two abilities you normally choose for a pet.",
+      "traitLinks": [
+        {
+          "label": "elf",
+          "slug": "elf"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "elf",
+      "feat",
+      "high-seas",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Feats.aspx?ID=8992",
+        "page": 19
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "22CD1C1B-F9CF-546B-A7E2-75995467347C",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Frog Geyser",
+    "slug": "frog-geyser-high-seas-feat-feat-9003",
+    "descr": "**Requirements**\nYour mouth is full of water.\n\n---\n\nYou can spray a powerful steam of water from your mouth to push your foes around. Filling your mouth with water for your stream requires using an [Interact](/action/interact-player-core) action while next to a source of at least 1 gallon of water. You can hold water in your mouth indefinitely, but while you do, you’re unable to speak. When you use Frog Geyser, you shoot water in a 20-foot [line](/rule/line-rules-2388). All creatures in the line must attempt a Fortitude save against your class DC or spell DC, whichever is higher.\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature is [pushed](/rule/forced-movement-rules-2364) back 5 feet.\n\n**Failure** The creature is pushed back 10 feet.\n\n**Critical Failure** The creature is pushed back 10 feet and knocked [prone](/condition/prone-player-core).",
+    "data": {
+      "level": 5,
+      "rarity": "common",
+      "traits": [
+        "tripkee"
+      ],
+      "prerequisites": "",
+      "frequency": "",
+      "requirements": "Your mouth is full of water.",
+      "trigger": "",
+      "benefits": "**Requirements**\nYour mouth is full of water.\n\n---\n\nYou can spray a powerful steam of water from your mouth to push your foes around. Filling your mouth with water for your stream requires using an Interact action while next to a source of at least 1 gallon of water. You can hold water in your mouth indefinitely, but while you do, you’re unable to speak. When you use Frog Geyser, you shoot water in a 20-foot line. All creatures in the line must attempt a Fortitude save against your class DC or spell DC, whichever is higher.\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature is pushed back 5 feet.\n\n**Failure** The creature is pushed back 10 feet.\n\n**Critical Failure** The creature is pushed back 10 feet and knocked prone.",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "tripkee",
+          "slug": "tripkee"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "feat",
+      "high-seas",
+      "remaster",
+      "tripkee"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Feats.aspx?ID=9003",
+        "page": 21
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "2FE628D3-C3F1-5155-9AF1-D20DF2BA1C2A",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Frog Tide",
+    "slug": "frog-tide-high-seas-feat-feat-9006",
+    "descr": "**Frequency**\nonce per day\n\n---\n\nYou have a connection to water and are able to call upon it to batter your foes and carry them away. You create a massive wave of water that crashes in a 20-foot [burst](/rule/burst-rules-2385) within 120 feet that moves in the direction of your choice. All creatures in the area take 14d6 bludgeoning damage and could be swept away. At the beginning of subsequent turns for 3 rounds, the wave moves 30 feet in the direction you chose; creatures in the area who aren’t already swept away by the wave take the bludgeoning damage. Creatures being swept away are trapped within the wave and can attempt to Escape against your class DC or spell DC, whichever is higher, to end the effect. Otherwise, the creature remains swept away until the wave stops moving. The wave also extinguishes all non-magical fires in its path automatically.\n\nCreatures are affected based on the result of their Reflex saves with a DC equal to your class DC or spell DC, whichever is higher.\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature takes half damage and is [moved](/rule/forced-movement-rules-2364) 10 feet in the direction of the wave, but not swept away.\n\n**Failure** The creature takes full damage and is fully swept away by the wave. The creature moves along with the wave until it [Escapes](/action/escape-player-core).\n\n**Critical Failure** As failure, except the creature takes double damage and must hold its breath or begin [suffocating](/rule/drowning-and-suffocating-rules-2439) (unless it can breathe in water).",
+    "data": {
+      "level": 17,
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "manipulate",
+        "primal",
+        "tripkee"
+      ],
+      "prerequisites": "",
+      "frequency": "once per day",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "**Frequency**\nonce per day\n\n---\n\nYou have a connection to water and are able to call upon it to batter your foes and carry them away. You create a massive wave of water that crashes in a 20-foot burst within 120 feet that moves in the direction of your choice. All creatures in the area take 14d6 bludgeoning damage and could be swept away. At the beginning of subsequent turns for 3 rounds, the wave moves 30 feet in the direction you chose; creatures in the area who aren’t already swept away by the wave take the bludgeoning damage. Creatures being swept away are trapped within the wave and can attempt to Escape against your class DC or spell DC, whichever is higher, to end the effect. Otherwise, the creature remains swept away until the wave stops moving. The wave also extinguishes all non-magical fires in its path automatically.\n\nCreatures are affected based on the result of their Reflex saves with a DC equal to your class DC or spell DC, whichever is higher.\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature takes half damage and is moved 10 feet in the direction of the wave, but not swept away.\n\n**Failure** The creature takes full damage and is fully swept away by the wave. The creature moves along with the wave until it Escapes.\n\n**Critical Failure** As failure, except the creature takes double damage and must hold its breath or begin suffocating (unless it can breathe in water).",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "primal",
+          "slug": "primal"
+        },
+        {
+          "label": "tripkee",
+          "slug": "tripkee"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "feat",
+      "high-seas",
+      "manipulate",
+      "primal",
+      "remaster",
+      "tripkee"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Feats.aspx?ID=9006",
+        "page": 21
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "85EF2B7C-021F-58D7-8DA3-BCE7A496A5CF",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Hallucinogenic Ink",
+    "slug": "hallucinogenic-ink-high-seas-feat-feat-8999",
+    "descr": "**Prerequisites**\n[Spray Ink](/feat/spray-ink-high-seas-feat-feat-8997); [Cecaelia Merfolk](/heritage/cecaelia-merfolk-high-seas-heritage-heritage-436) heritage\n\n---\n\nYour defensive ink spray has developed the capacity to cause haunting hallucinations. A creature sprayed with your ink must attempt a Will saving throw against either your class DC or spell DC, whichever is higher. On a failure, the creature also becomes [frightened](/condition/frightened-player-core) 1 (frightened 2 on a critical failure).",
+    "data": {
+      "level": 9,
+      "rarity": "common",
+      "traits": [
+        "merfolk"
+      ],
+      "prerequisites": "Spray Ink; Cecaelia Merfolk heritage",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "**Prerequisites**\nSpray Ink; Cecaelia Merfolk heritage\n\n---\n\nYour defensive ink spray has developed the capacity to cause haunting hallucinations. A creature sprayed with your ink must attempt a Will saving throw against either your class DC or spell DC, whichever is higher. On a failure, the creature also becomes frightened 1 (frightened 2 on a critical failure).",
+      "traitLinks": [
+        {
+          "label": "merfolk",
+          "slug": "merfolk"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "feat",
+      "high-seas",
+      "merfolk",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Feats.aspx?ID=8999",
+        "page": 20
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "2303BF00-7D98-5E8D-BDC6-C840A1497E3C",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Halyard Strike",
+    "slug": "halyard-strike-high-seas-feat-feat-9028",
+    "descr": "**Access**\nYou're from the Shackles\n\n**Requirements**\nA rope is within your reach, or you have a [rope](/item/rope-player-core) or [grappling](/trait/grapple) weapon in your hand.\n\n---\n\nYou’ve learned to fight confidently while swinging from a line. You take hold of a nearby rope, throw a rope from your hand, or fire a grappling weapon at a solid surface, and then swing up to twice your Speed. You can make a [Strike](/action/strike-player-core) using a one-handed weapon or unarmed attack at any point during this movement. If you critically fail on this Strike, your movement ends at the point you attempted the Strike.\n\n**Special** If you have [Pirate Dedication](/feat/pirate-dedication-player-core-2) and you boarded or disembarked from a boat or similar vehicle during this movement, the Strike deals one additional weapon damage die.",
+    "data": {
+      "level": 10,
+      "rarity": "common",
+      "traits": [
+        "fighter",
+        "flourish",
+        "gunslinger",
+        "swashbuckler"
+      ],
+      "prerequisites": "",
+      "frequency": "",
+      "requirements": "A rope is within your reach, or you have a rope or grappling weapon in your hand.",
+      "trigger": "",
+      "benefits": "**Access**\nYou're from the Shackles\n\n**Requirements**\nA rope is within your reach, or you have a rope or grappling weapon in your hand.\n\n---\n\nYou’ve learned to fight confidently while swinging from a line. You take hold of a nearby rope, throw a rope from your hand, or fire a grappling weapon at a solid surface, and then swing up to twice your Speed. You can make a Strike using a one-handed weapon or unarmed attack at any point during this movement. If you critically fail on this Strike, your movement ends at the point you attempted the Strike.\n\n**Special** If you have Pirate Dedication and you boarded or disembarked from a boat or similar vehicle during this movement, the Strike deals one additional weapon damage die.",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "fighter",
+          "slug": "fighter"
+        },
+        {
+          "label": "flourish",
+          "slug": "flourish"
+        },
+        {
+          "label": "gunslinger",
+          "slug": "gunslinger"
+        },
+        {
+          "label": "swashbuckler",
+          "slug": "swashbuckler"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "feat",
+      "fighter",
+      "flourish",
+      "gunslinger",
+      "high-seas",
+      "remaster",
+      "swashbuckler"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Feats.aspx?ID=9028",
+        "page": 93
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "1E5AFF74-EC09-580F-897F-F12C7159CBD8",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Heartless Debilitations",
+    "slug": "heartless-debilitations-high-seas-feat-feat-9011",
+    "descr": "**Access**\nmember of the Red Mantis assassins\n\n---\n\nYou debilitate your enemies with ruthless and terrifying efficiency. Add the following debilitations to the list you can choose from when you use [Debilitating Strike](/action/debilitating-strike-player-core).\n\n- **Debilitation** The target gains [weakness](/rule/weakness-rules-2317) 5 to [bleed](/condition/persistent-damage-player-core) and [poison](/trait/poison) damage.\n- **Debilitation** The target becomes [frightened](/condition/frightened-player-core) 1.",
+    "data": {
+      "level": 10,
+      "rarity": "uncommon",
+      "traits": [
+        "rogue"
+      ],
+      "prerequisites": "",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "**Access**\nmember of the Red Mantis assassins\n\n---\n\nYou debilitate your enemies with ruthless and terrifying efficiency. Add the following debilitations to the list you can choose from when you use Debilitating Strike.\n\n- **Debilitation** The target gains weakness 5 to bleed and poison damage.\n- **Debilitation** The target becomes frightened 1.",
+      "traitLinks": [
+        {
+          "label": "rogue",
+          "slug": "rogue"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "feat",
+      "high-seas",
+      "remaster",
+      "rogue"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Feats.aspx?ID=9011",
+        "page": 65
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "070E8F30-512A-52C2-8CA0-375C404DF269",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Inner Sea Privateer",
+    "slug": "inner-sea-privateer-high-seas-feat-feat-9017",
+    "descr": "**Archetype** [Pirate](/archetype/pirate-player-core-2)\n\n**Prerequisites**\n[Pirate Dedication](/feat/pirate-dedication-player-core-2); Expert in Sailing Lore\n\n**Access**\nYou're from the Shackles\n\n---\n\nYou make your living as a pirate, as well as a little extra by hiring out your services to Andoran, Cheliax, or Mbe’ke. You need to recognize which ships are legitimate targets and which you need to play nice with. You can use Sailing Lore to [Recall Knowledge](/action/recall-knowledge-player-core) about creatures native to the High Seas and flags, ships, and sailors in the region. If a ship is using a false flag or other disguise to hide its true allegiances, the GM will roll a secret Sailing Lore check for you to recognize it, typically against a standard DC for the level of the ship’s captain.",
+    "data": {
+      "level": 4,
+      "rarity": "common",
+      "traits": [
+        "archetype",
+        "skill"
+      ],
+      "prerequisites": "Pirate Dedication; Expert in Sailing Lore",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "**Archetype** Pirate\n\n**Prerequisites**\nPirate Dedication; Expert in Sailing Lore\n\n**Access**\nYou're from the Shackles\n\n---\n\nYou make your living as a pirate, as well as a little extra by hiring out your services to Andoran, Cheliax, or Mbe’ke. You need to recognize which ships are legitimate targets and which you need to play nice with. You can use Sailing Lore to Recall Knowledge about creatures native to the High Seas and flags, ships, and sailors in the region. If a ship is using a false flag or other disguise to hide its true allegiances, the GM will roll a secret Sailing Lore check for you to recognize it, typically against a standard DC for the level of the ship’s captain.",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "skill",
+          "slug": "skill"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "feat",
+      "high-seas",
+      "remaster",
+      "skill"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Feats.aspx?ID=9017",
+        "page": 92
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "A320809B-3F24-5EC8-A330-A521BF9FEC08",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Into the Storm",
+    "slug": "into-the-storm-high-seas-feat-feat-9018",
+    "descr": "**Archetype** [Pirate](/archetype/pirate-player-core-2)\n\n**Prerequisites**\n[Pirate Dedication](/feat/pirate-dedication-player-core-2)\n\n**Access**\nYou're from the Shackles\n\n---\n\nMany Shackles pirates use the Eye of Abendego to great effect, but none have more familiarity with the storm than the Master of the Gales, ruler of Drenchport and five-time winner of the Free Captains’ Regatta. You’ve learned his crew’s techniques for fighting in severe weather. You reduce circumstance penalties to ranged weapon attacks due to wind or precipitation by 2. You can also use weapons you’re a master in with a –4 circumstance penalty (–2 if you’re legendary) even if wind or precipitation would normally prevent it, such as the effects of [_wall of wind_](/spell/wall-of-wind-player-core).",
+    "data": {
+      "level": 4,
+      "rarity": "uncommon",
+      "traits": [
+        "archetype"
+      ],
+      "prerequisites": "Pirate Dedication",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "**Archetype** Pirate\n\n**Prerequisites**\nPirate Dedication\n\n**Access**\nYou're from the Shackles\n\n---\n\nMany Shackles pirates use the Eye of Abendego to great effect, but none have more familiarity with the storm than the Master of the Gales, ruler of Drenchport and five-time winner of the Free Captains’ Regatta. You’ve learned his crew’s techniques for fighting in severe weather. You reduce circumstance penalties to ranged weapon attacks due to wind or precipitation by 2. You can also use weapons you’re a master in with a –4 circumstance penalty (–2 if you’re legendary) even if wind or precipitation would normally prevent it, such as the effects of _wall of wind_.",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "feat",
+      "high-seas",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Feats.aspx?ID=9018",
+        "page": 92
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "C233C877-2880-5F2C-B45C-2DA2A3084A4C",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Like a Fish in Water",
+    "slug": "like-a-fish-in-water-high-seas-feat-feat-9032",
+    "descr": "**Archetype** [Marine Marauder](/archetype/marine-marauder-high-seas-archetype-archetype-385)\n\n**Prerequisites**\n[Marine Marauder Dedication](/feat/marine-marauder-dedication-high-seas-feat-feat-9030)\n\n---\n\nWater feels like a second skin to you, and you glide through it as quickly as a fish. You gain a [swim Speed](/rule/swim-speed-rules-2351) of 15 feet, and you can [hold your breath](/rule/drowning-and-suffocating-rules-2439) for twice as long. If you already have a swim Speed, it increases by 5 feet.",
+    "data": {
+      "level": 4,
+      "rarity": "common",
+      "traits": [
+        "archetype"
+      ],
+      "prerequisites": "Marine Marauder Dedication",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "**Archetype** Marine Marauder\n\n**Prerequisites**\nMarine Marauder Dedication\n\n---\n\nWater feels like a second skin to you, and you glide through it as quickly as a fish. You gain a swim Speed of 15 feet, and you can hold your breath for twice as long. If you already have a swim Speed, it increases by 5 feet.",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "feat",
+      "high-seas",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Feats.aspx?ID=9032",
+        "page": 106
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "2D85F63B-07B0-5F53-8AF9-14CA9F8CB564",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Marine Combat Training",
+    "slug": "marine-combat-training-high-seas-feat-feat-9033",
+    "descr": "**Archetype** [Marine Marauder](/archetype/marine-marauder-high-seas-archetype-archetype-385)\n\n**Prerequisites**\n[Marine Marauder Dedication](/feat/marine-marauder-dedication-high-seas-feat-feat-9030)\n\n---\n\nYou’re skilled with weapons that can be easily handled underwater. You have familiarity with harpoons and tridents, treating them as simple weapons for the purposes of proficiency. Additionally, you don’t halve the range increment of harpoons and [spear](/item/spear-player-core) weapons when throwing them underwater.\n\nAt 5th level, whenever you get a critical hit with one of these weapons, you get its [critical specialization](/rule/critical-specialization-rules-2203) effect.",
+    "data": {
+      "level": 4,
+      "rarity": "common",
+      "traits": [
+        "archetype"
+      ],
+      "prerequisites": "Marine Marauder Dedication",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "**Archetype** Marine Marauder\n\n**Prerequisites**\nMarine Marauder Dedication\n\n---\n\nYou’re skilled with weapons that can be easily handled underwater. You have familiarity with harpoons and tridents, treating them as simple weapons for the purposes of proficiency. Additionally, you don’t halve the range increment of harpoons and spear weapons when throwing them underwater.\n\nAt 5th level, whenever you get a critical hit with one of these weapons, you get its critical specialization effect.",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "feat",
+      "high-seas",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Feats.aspx?ID=9033",
+        "page": 106
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "6BBD0841-DC29-5B21-867A-8F8F7FCAD4B9",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Marine Jet",
+    "slug": "marine-jet-high-seas-feat-feat-9041",
+    "descr": "**Archetype** [Marine Marauder](/archetype/marine-marauder-high-seas-archetype-archetype-385)\n\n**Prerequisites**\n[Marine Marauder Dedication](/feat/marine-marauder-dedication-high-seas-feat-feat-9030); you have a [swim Speed](/rule/swim-speed-rules-2351)\n\n---\n\nYou shoot through the water at a great speed. [Swim](/action/swim-player-core) up to five times, or up to eight times if you used 3 actions. All this movement must be in a straight [line](/rule/line-rules-2388) (though the GM might allow reasonable variance). If you are moving up or down in this way, you aren’t considered to be moving through [difficult terrain](/rule/difficult-terrain-rules-2366) while doing so.",
+    "data": {
+      "level": 10,
+      "rarity": "common",
+      "traits": [
+        "archetype"
+      ],
+      "prerequisites": "Marine Marauder Dedication; you have a swim Speed",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "**Archetype** Marine Marauder\n\n**Prerequisites**\nMarine Marauder Dedication; you have a swim Speed\n\n---\n\nYou shoot through the water at a great speed. Swim up to five times, or up to eight times if you used 3 actions. All this movement must be in a straight line (though the GM might allow reasonable variance). If you are moving up or down in this way, you aren’t considered to be moving through difficult terrain while doing so.",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "feat",
+      "high-seas",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Feats.aspx?ID=9041",
+        "page": 107
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "DF157A5C-D7B1-57AE-BEE3-55DCF83A7960",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Marine Marauder Dedication",
+    "slug": "marine-marauder-dedication-high-seas-feat-feat-9030",
+    "descr": "**Archetype** [Marine Marauder](/archetype/marine-marauder-high-seas-archetype-archetype-385)\n\n**Prerequisites**\nTrained in Athletics\n\n---\n\nYou’re as skilled in combat underwater as on land. You gain the [Underwater Marauder](/feat/underwater-marauder-player-core) skill feat, and when you roll a success on an Athletics check to [Swim](/action/swim-player-core), you get a critical success instead. In addition, checks to [Escape](/action/escape-player-core) or [Force Open](/action/force-open-player-core) nets you use are attempted against your class DC instead of the listed DC, and you can keep hold of a target you’ve grappled with a net with one hand.\n\n## Marine Marauder Dedication leads to...\n\n[Aquatic Passage](/feat/aquatic-passage-high-seas-feat-feat-9036), [Aquatic Pirouette](/feat/aquatic-pirouette-high-seas-feat-feat-9031), [Concealing Currents](/feat/concealing-currents-high-seas-feat-feat-9037), [Like a Fish in Water](/feat/like-a-fish-in-water-high-seas-feat-feat-9032), [Marine Combat Training](/feat/marine-combat-training-high-seas-feat-feat-9033), [Marine Jet](/feat/marine-jet-high-seas-feat-feat-9041), [Pressure Change](/feat/pressure-change-high-seas-feat-feat-9039), [Reactive Tangle](/feat/reactive-tangle-high-seas-feat-feat-9034), [Reel 'Em In](/feat/reel-em-in-high-seas-feat-feat-9042), [Shark Attack](/feat/shark-attack-high-seas-feat-feat-9038), [Stay Here!](/feat/stay-here-high-seas-feat-feat-9040), [Surface Rush](/feat/surface-rush-high-seas-feat-feat-9035), [Take in the Catch](/feat/take-in-the-catch-high-seas-feat-feat-9043)",
+    "data": {
+      "level": 2,
+      "rarity": "common",
+      "traits": [
+        "archetype",
+        "dedication"
+      ],
+      "prerequisites": "Trained in Athletics",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "**Archetype** Marine Marauder\n\n**Prerequisites**\nTrained in Athletics\n\n---\n\nYou’re as skilled in combat underwater as on land. You gain the Underwater Marauder skill feat, and when you roll a success on an Athletics check to Swim, you get a critical success instead. In addition, checks to Escape or Force Open nets you use are attempted against your class DC instead of the listed DC, and you can keep hold of a target you’ve grappled with a net with one hand.\n\n## Marine Marauder Dedication leads to...\n\nAquatic Passage, Aquatic Pirouette, Concealing Currents, Like a Fish in Water, Marine Combat Training, Marine Jet, Pressure Change, Reactive Tangle, Reel 'Em In, Shark Attack, Stay Here!, Surface Rush, Take in the Catch",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "dedication",
+          "slug": "dedication"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "dedication",
+      "feat",
+      "high-seas",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Feats.aspx?ID=9030",
+        "page": 106
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "6B5374B6-DFEE-5524-B189-07B408DC8285",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Personalized Poisoning",
+    "slug": "personalized-poisoning-high-seas-feat-feat-9007",
+    "descr": "_**PFS Note** Requires cross-scenario tracking._\n\n**Prerequisites**\nalchemical sciences methodology\n\n**Access**\nmember of the Red Mantis assassins\n\n---\n\nYou developed techniques for discovering a target’s weaknesses to poisons using your forensic knowledge. When you study a location that a creature spends a lot of time in, such as a bedroom or office, you learn medical conditions, reactions, or sensitivities that make them susceptible to poisons. Subsequently, whenever you craft an [alchemical poison](/rule/alchemical-poisons-rules-3185), you can tailor it to a creature you have studied in this way, giving that creature a –2 circumstance penalty to Fortitude saves against the poison and giving other creatures a +2 circumstance bonus to Fortitude saves against it.",
+    "data": {
+      "level": 2,
+      "rarity": "uncommon",
+      "traits": [
+        "investigator"
+      ],
+      "prerequisites": "alchemical sciences methodology",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "_**PFS Note** Requires cross-scenario tracking._\n\n**Prerequisites**\nalchemical sciences methodology\n\n**Access**\nmember of the Red Mantis assassins\n\n---\n\nYou developed techniques for discovering a target’s weaknesses to poisons using your forensic knowledge. When you study a location that a creature spends a lot of time in, such as a bedroom or office, you learn medical conditions, reactions, or sensitivities that make them susceptible to poisons. Subsequently, whenever you craft an alchemical poison, you can tailor it to a creature you have studied in this way, giving that creature a –2 circumstance penalty to Fortitude saves against the poison and giving other creatures a +2 circumstance bonus to Fortitude saves against it.",
+      "traitLinks": [
+        {
+          "label": "investigator",
+          "slug": "investigator"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "feat",
+      "high-seas",
+      "investigator",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Feats.aspx?ID=9007",
+        "page": 65
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "52619C10-C677-5A98-8F7D-3AB7B395D849",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Pirate's Pet",
+    "slug": "pirate-s-pet-high-seas-feat-feat-9019",
+    "descr": "**Archetype** [Pirate](/archetype/pirate-player-core-2)\n\n**Prerequisites**\n[Pirate Dedication](/feat/pirate-dedication-player-core-2)\n\n**Access**\nYou're from the Shackles\n\n---\n\nAn animal has become your loyal ally, perhaps after you liberated it from another ship or found it on a remote island. You gain the [Pet](/feat/pet-player-core) general feat. Your pet gains an additional pet Shackles Options ability, which you can choose from the standard pet abilities or the following familiar abilities: accompanist, damage avoidance, independent, partner in crime, speech, and valet.\n\nIn addition, you learn a common 1st- or 2nd-rank spell that targets your familiar, and can cast it once per day as a primal [innate spell](/rule/innate-spells-rules-2232). You can instead learn [_phase familiar_](/spell/phase-familiar-player-core) and can cast it once per hour as a primal innate spell; it’s not a focus spell for you. When you cast the chosen spell, you target your pirate’s pet instead of a familiar.",
+    "data": {
+      "level": 4,
+      "rarity": "common",
+      "traits": [
+        "archetype"
+      ],
+      "prerequisites": "Pirate Dedication",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "**Archetype** Pirate\n\n**Prerequisites**\nPirate Dedication\n\n**Access**\nYou're from the Shackles\n\n---\n\nAn animal has become your loyal ally, perhaps after you liberated it from another ship or found it on a remote island. You gain the Pet general feat. Your pet gains an additional pet Shackles Options ability, which you can choose from the standard pet abilities or the following familiar abilities: accompanist, damage avoidance, independent, partner in crime, speech, and valet.\n\nIn addition, you learn a common 1st- or 2nd-rank spell that targets your familiar, and can cast it once per day as a primal innate spell. You can instead learn _phase familiar_ and can cast it once per hour as a primal innate spell; it’s not a focus spell for you. When you cast the chosen spell, you target your pirate’s pet instead of a familiar.",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "feat",
+      "high-seas",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Feats.aspx?ID=9019",
+        "page": 92
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "A65D42A8-5C97-5F32-9174-2DADCA7AE0DD",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Pressure Change",
+    "slug": "pressure-change-high-seas-feat-feat-9039",
+    "descr": "_**PFS Note** Unclear if this ability frees a Grabbed creature._\n\n**Archetype** [Marine Marauder](/archetype/marine-marauder-high-seas-archetype-archetype-385)\n\n**Prerequisites**\n[Marine Marauder Dedication](/feat/marine-marauder-dedication-high-seas-feat-feat-9030)\n\n**Requirements**\nYou have a [swim Speed](/rule/swim-speed-rules-2351), are underwater, and have a creature [grabbed](/condition/grabbed-player-core) or [restrained](/condition/restrained-player-core).\n\n---\n\nYou sink or rise rapidly alongside your target, altering their internal pressure. You [Swim](/action/swim-player-core) up to your swim Speed either up or down, and the required creature moves with you and must attempt a Fortitude save. For this movement, swimming up or down isn’t [difficult terrain](/rule/difficult-terrain-rules-2366).\n\n**Success** The target is unaffected\n\n**Failure** The target is [sickened](/condition/sickened-player-core) 1.\n\n**Critical Failure** The target is sickened 2.",
+    "data": {
+      "level": 8,
+      "rarity": "common",
+      "traits": [
+        "archetype"
+      ],
+      "prerequisites": "Marine Marauder Dedication",
+      "frequency": "",
+      "requirements": "You have a swim Speed, are underwater, and have a creature grabbed or restrained.",
+      "trigger": "",
+      "benefits": "_**PFS Note** Unclear if this ability frees a Grabbed creature._\n\n**Archetype** Marine Marauder\n\n**Prerequisites**\nMarine Marauder Dedication\n\n**Requirements**\nYou have a swim Speed, are underwater, and have a creature grabbed or restrained.\n\n---\n\nYou sink or rise rapidly alongside your target, altering their internal pressure. You Swim up to your swim Speed either up or down, and the required creature moves with you and must attempt a Fortitude save. For this movement, swimming up or down isn’t difficult terrain.\n\n**Success** The target is unaffected\n\n**Failure** The target is sickened 1.\n\n**Critical Failure** The target is sickened 2.",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "feat",
+      "high-seas",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Feats.aspx?ID=9039",
+        "page": 107
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "6D7413DD-30FF-5DC9-A8AA-BB6F1349F002",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Razorsharp Bite",
+    "slug": "razorsharp-bite-high-seas-feat-feat-8986",
+    "descr": "---\n\nYou have long, sharp teeth designed to shred flesh. You gain a jaws unarmed attack that deals 1d8 piercing damage. Your jaws are in the brawling group and have the [unarmed](/trait/unarmed) trait.",
+    "data": {
+      "level": 1,
+      "rarity": "common",
+      "traits": [
+        "athamaru"
+      ],
+      "prerequisites": "",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "---\n\nYou have long, sharp teeth designed to shred flesh. You gain a jaws unarmed attack that deals 1d8 piercing damage. Your jaws are in the brawling group and have the unarmed trait.",
+      "traitLinks": [
+        {
+          "label": "athamaru",
+          "slug": "athamaru"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "athamaru",
+      "feat",
+      "high-seas",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Feats.aspx?ID=8986",
+        "page": 18
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "6B4E8760-C834-5D0A-9704-38A0A4362D67",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Reactive Tangle",
+    "slug": "reactive-tangle-high-seas-feat-feat-9034",
+    "descr": "**Archetype** [Marine Marauder](/archetype/marine-marauder-high-seas-archetype-archetype-385)\n\n**Prerequisites**\n[Marine Marauder Dedication](/feat/marine-marauder-dedication-high-seas-feat-feat-9030)\n\n**Trigger**\nA Medium or smaller creature within your reach uses a [move](/trait/move) action or leaves a square during a move action it’s using.\n\n**Requirements**\nYou’re holding a [net](/item/net-player-core).\n\n---\n\nYou wrap the net around the creature’s feet to prevent it from escaping. Use the net to [Grapple](/action/grapple-player-core) the triggering creature. This has the effects of using a net that’s attached to a [rope](/item/rope-player-core) to Grapple, except that the creature must remain within your reach instead of within 10 feet for you to continue to Grapple it.",
+    "data": {
+      "level": 4,
+      "rarity": "common",
+      "traits": [
+        "archetype"
+      ],
+      "prerequisites": "Marine Marauder Dedication",
+      "frequency": "",
+      "requirements": "You’re holding a net.",
+      "trigger": "A Medium or smaller creature within your reach uses a move action or leaves a square during a move action it’s using.",
+      "benefits": "**Archetype** Marine Marauder\n\n**Prerequisites**\nMarine Marauder Dedication\n\n**Trigger**\nA Medium or smaller creature within your reach uses a move action or leaves a square during a move action it’s using.\n\n**Requirements**\nYou’re holding a net.\n\n---\n\nYou wrap the net around the creature’s feet to prevent it from escaping. Use the net to Grapple the triggering creature. This has the effects of using a net that’s attached to a rope to Grapple, except that the creature must remain within your reach instead of within 10 feet for you to continue to Grapple it.",
+      "actions": "reaction",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "feat",
+      "high-seas",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Feats.aspx?ID=9034",
+        "page": 106
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "FB9A9386-9BD8-5FCB-A16C-F6F1FF6C1A2B",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Reel 'Em In",
+    "slug": "reel-em-in-high-seas-feat-feat-9042",
+    "descr": "**Archetype** [Marine Marauder](/archetype/marine-marauder-high-seas-archetype-archetype-385)\n\n**Prerequisites**\n[Marine Marauder Dedication](/feat/marine-marauder-dedication-high-seas-feat-feat-9030)\n\n**Requirements**\nYou’re wielding a [harpoon](/item/harpoon-treasure-vault-remastered), a [spear](/item/spear-player-core) weapon, or a [net](/item/net-player-core) attached to a [rope](/item/rope-player-core).\n\n---\n\nYou’ve developed combat techniques inspired by the methods fishermen use to catch large fish. Make a [Strike](/action/strike-player-core) with a required weapon or [Grapple](/action/grapple-player-core) with a net. If the attack hits, you can attempt an Athletics check against the target’s Fortitude DC. On a success, you pull the target 10 feet closer to you.",
+    "data": {
+      "level": 10,
+      "rarity": "common",
+      "traits": [
+        "archetype"
+      ],
+      "prerequisites": "Marine Marauder Dedication",
+      "frequency": "",
+      "requirements": "You’re wielding a harpoon, a spear weapon, or a net attached to a rope.",
+      "trigger": "",
+      "benefits": "**Archetype** Marine Marauder\n\n**Prerequisites**\nMarine Marauder Dedication\n\n**Requirements**\nYou’re wielding a harpoon, a spear weapon, or a net attached to a rope.\n\n---\n\nYou’ve developed combat techniques inspired by the methods fishermen use to catch large fish. Make a Strike with a required weapon or Grapple with a net. If the attack hits, you can attempt an Athletics check against the target’s Fortitude DC. On a success, you pull the target 10 feet closer to you.",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "feat",
+      "high-seas",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Feats.aspx?ID=9042",
+        "page": 107
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "4F608303-783E-5133-86D6-7C79F7DBF503",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Rock the Boat",
+    "slug": "rock-the-boat-high-seas-feat-feat-9027",
+    "descr": "**Access**\nYou're from the Shackles\n\n**Trigger**\nA creature within your reach causes you to [fall](/rule/falling-rules-2352) or knocks you [prone](/condition/prone-player-core).\n\n---\n\nYou know how easy it is for a falling person to cause another to lose their footing at the same time, and how to use that to your advantage. As you fall, you grab onto an enemy using your hands or legs, and pull them down with you. Attempt an Athletics check against the triggering creature’s Reflex DC. On a success, the creature falls with you (though it can still attempt to [Grab an Edge](/action/grab-an-edge-player-core)) or is also knocked prone.",
+    "data": {
+      "level": 8,
+      "rarity": "common",
+      "traits": [
+        "fighter"
+      ],
+      "prerequisites": "",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "A creature within your reach causes you to fall or knocks you prone.",
+      "benefits": "**Access**\nYou're from the Shackles\n\n**Trigger**\nA creature within your reach causes you to fall or knocks you prone.\n\n---\n\nYou know how easy it is for a falling person to cause another to lose their footing at the same time, and how to use that to your advantage. As you fall, you grab onto an enemy using your hands or legs, and pull them down with you. Attempt an Athletics check against the triggering creature’s Reflex DC. On a success, the creature falls with you (though it can still attempt to Grab an Edge) or is also knocked prone.",
+      "actions": "reaction",
+      "traitLinks": [
+        {
+          "label": "fighter",
+          "slug": "fighter"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "feat",
+      "fighter",
+      "high-seas",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Feats.aspx?ID=9027",
+        "page": 93
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "D1446075-B6D1-5370-B387-E5E464E3AF94",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Sanguine Evasion",
+    "slug": "sanguine-evasion-high-seas-feat-feat-9015",
+    "descr": "**Access**\nmember of the Red Mantis assassins\n\n**Trigger**\nYou’re reduced to 0 Hit Points and are not already [wounded](/condition/wounded-player-core).\n\n---\n\nYou avoid death by turning into a spray of red mist. You remain at 1 Hit Point and transform into a vaporous state with the effects of [_vapor form_](/spell/vapor-form-player-core), except your [fly Speed](/rule/fly-speed-rules-2350) is equal to your land Speed and you can occupy the same space as another creature. Creatures in the same space as you in this form are [concealed](/condition/concealed-player-core).\n\nYou can [Dismiss](/action/dismiss-player-core) this form, returning to your normal form with 1 Hit Point and becoming wounded 1. If you don’t Dismiss this form within 1 minute, you return to your normal form with 0 Hit Points and become [dying](/condition/dying-player-core) 1.",
+    "data": {
+      "level": 18,
+      "rarity": "uncommon",
+      "traits": [
+        "occult",
+        "rogue"
+      ],
+      "prerequisites": "",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "You’re reduced to 0 Hit Points and are not already wounded.",
+      "benefits": "**Access**\nmember of the Red Mantis assassins\n\n**Trigger**\nYou’re reduced to 0 Hit Points and are not already wounded.\n\n---\n\nYou avoid death by turning into a spray of red mist. You remain at 1 Hit Point and transform into a vaporous state with the effects of _vapor form_, except your fly Speed is equal to your land Speed and you can occupy the same space as another creature. Creatures in the same space as you in this form are concealed.\n\nYou can Dismiss this form, returning to your normal form with 1 Hit Point and becoming wounded 1. If you don’t Dismiss this form within 1 minute, you return to your normal form with 0 Hit Points and become dying 1.",
+      "actions": "reaction",
+      "traitLinks": [
+        {
+          "label": "occult",
+          "slug": "occult"
+        },
+        {
+          "label": "rogue",
+          "slug": "rogue"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "feat",
+      "high-seas",
+      "occult",
+      "remaster",
+      "rogue"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Feats.aspx?ID=9015",
+        "page": 65
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "8E243F91-C35C-51C0-9ECD-9B328BAD0406",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Sawtooth Grapple",
+    "slug": "sawtooth-grapple-high-seas-feat-feat-9010",
+    "descr": "**Prerequisites**\ntrained in sawtooth sabers\n\n**Access**\nmember of the Red Mantis assassins\n\n---\n\nYour sawtooth saber training enables you to pin down an enemy using your twin blades. Make a [Strike](/action/strike-player-core) with each weapon against the same creature. If you deal sneak attack damage, you can immediately attempt to [Grapple](/action/grapple-player-core) the creature, even if you don’t have a hand free. If you dealt damage with both Strikes, your multiple attack penalty is not applied to the Grapple attempt.\n\n**Special** You’re wielding two weapons, at least one of which is a sawtooth saber.\n\n## Sawtooth Grapple leads to...\n\n[Cutthroat Grapple](/feat/cutthroat-grapple-high-seas-feat-feat-9013)",
+    "data": {
+      "level": 8,
+      "rarity": "uncommon",
+      "traits": [
+        "rogue"
+      ],
+      "prerequisites": "trained in sawtooth sabers",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "**Prerequisites**\ntrained in sawtooth sabers\n\n**Access**\nmember of the Red Mantis assassins\n\n---\n\nYour sawtooth saber training enables you to pin down an enemy using your twin blades. Make a Strike with each weapon against the same creature. If you deal sneak attack damage, you can immediately attempt to Grapple the creature, even if you don’t have a hand free. If you dealt damage with both Strikes, your multiple attack penalty is not applied to the Grapple attempt.\n\n**Special** You’re wielding two weapons, at least one of which is a sawtooth saber.\n\n## Sawtooth Grapple leads to...\n\nCutthroat Grapple",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "rogue",
+          "slug": "rogue"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "feat",
+      "high-seas",
+      "remaster",
+      "rogue"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Feats.aspx?ID=9010",
+        "page": 65
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "7FFD0ACA-4186-5FA4-B131-6DFD3D940937",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Sea Swarmer",
+    "slug": "sea-swarmer-high-seas-feat-feat-8989",
+    "descr": "---\n\nYou’ve learned how to hunt with others, whether above or below the surface. If an enemy is within reach of you and at least two of your allies, that enemy is [off-guard](/condition/off-guard-player-core) against you.",
+    "data": {
+      "level": 9,
+      "rarity": "common",
+      "traits": [
+        "athamaru"
+      ],
+      "prerequisites": "",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "---\n\nYou’ve learned how to hunt with others, whether above or below the surface. If an enemy is within reach of you and at least two of your allies, that enemy is off-guard against you.",
+      "traitLinks": [
+        {
+          "label": "athamaru",
+          "slug": "athamaru"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "athamaru",
+      "feat",
+      "high-seas",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Feats.aspx?ID=8989",
+        "page": 18
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "8A5401AA-268B-5D23-BE0E-A7379347A342",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Seize an Advantage",
+    "slug": "seize-an-advantage-high-seas-feat-feat-9025",
+    "descr": "**Prerequisites**\n[Dirty Trick](/feat/dirty-trick-player-core-2)\n\n**Access**\nYou're from the Shackles\n\n**Requirements**\nYour last action this turn was to attempt a Dirty Trick against a foe.\n\n---\n\nYou take any momentary advantage you can when fighting dirty. You make a ranged [Strike](/action/strike-player-core) or [Interact](/action/interact-player-core) to [Reload](/rule/reload-rules-2196); doing so does not trigger any reactions from the required foe. If you succeeded or critically succeeded on your Dirty Trick, making ranged attacks and Interacting to Reload do not trigger reactions from that foe for as long as they remain [clumsy](/condition/clumsy-player-core) because of your Dirty Trick.",
+    "data": {
+      "level": 6,
+      "rarity": "common",
+      "traits": [
+        "gunslinger",
+        "press"
+      ],
+      "prerequisites": "Dirty Trick",
+      "frequency": "",
+      "requirements": "Your last action this turn was to attempt a Dirty Trick against a foe.",
+      "trigger": "",
+      "benefits": "**Prerequisites**\nDirty Trick\n\n**Access**\nYou're from the Shackles\n\n**Requirements**\nYour last action this turn was to attempt a Dirty Trick against a foe.\n\n---\n\nYou take any momentary advantage you can when fighting dirty. You make a ranged Strike or Interact to Reload; doing so does not trigger any reactions from the required foe. If you succeeded or critically succeeded on your Dirty Trick, making ranged attacks and Interacting to Reload do not trigger reactions from that foe for as long as they remain clumsy because of your Dirty Trick.",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "gunslinger",
+          "slug": "gunslinger"
+        },
+        {
+          "label": "press",
+          "slug": "press"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "feat",
+      "gunslinger",
+      "high-seas",
+      "press",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Feats.aspx?ID=9025",
+        "page": 93
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "9A1FB878-4AFF-5718-84D1-84A46277E42E",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Shark Attack",
+    "slug": "shark-attack-high-seas-feat-feat-9038",
+    "descr": "**Archetype** [Marine Marauder](/archetype/marine-marauder-high-seas-archetype-archetype-385)\n\n**Prerequisites**\n[Marine Marauder Dedication](/feat/marine-marauder-dedication-high-seas-feat-feat-9030)\n\n---\n\nYour swimming skills enable you to lunge through the water in a sudden attack. You [Swim](/action/swim-player-core) twice. At any point during this movement, you [Strike](/action/strike-player-core).",
+    "data": {
+      "level": 6,
+      "rarity": "common",
+      "traits": [
+        "archetype",
+        "flourish"
+      ],
+      "prerequisites": "Marine Marauder Dedication",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "**Archetype** Marine Marauder\n\n**Prerequisites**\nMarine Marauder Dedication\n\n---\n\nYour swimming skills enable you to lunge through the water in a sudden attack. You Swim twice. At any point during this movement, you Strike.",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "flourish",
+          "slug": "flourish"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "feat",
+      "flourish",
+      "high-seas",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Feats.aspx?ID=9038",
+        "page": 107
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "3D33E183-2BB5-551A-A9D9-47B781977A94",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Sharkskin Grip",
+    "slug": "sharkskin-grip-high-seas-feat-feat-9020",
+    "descr": "**Archetype** [Pirate](/archetype/pirate-player-core-2)\n\n**Prerequisites**\n[Pirate Dedication](/feat/pirate-dedication-player-core-2)\n\n**Access**\nYou're from the Shackles\n\n---\n\nYou served on nephilim pirate Ila “Sharkskin” Clare’s ship, the _Scorched Shark_, and have adopted xir practice of embellishing clothing and armor with sharkskin. As long as you’re wearing your clothing, you gain a +1 item bonus to unarmed attack rolls, Acrobatics checks, and Reflex saves and DCs to [Escape](/action/escape-player-core), [Grab an Edge](/action/grab-an-edge-player-core), or avoid falling [prone](/condition/prone-player-core). In addition, when you successfully [Grapple](/action/grapple-player-core) a creature, you deal slashing damage equal to your fist damage dice to that creature as you abrade their skin.",
+    "data": {
+      "level": 4,
+      "rarity": "uncommon",
+      "traits": [
+        "archetype"
+      ],
+      "prerequisites": "Pirate Dedication",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "**Archetype** Pirate\n\n**Prerequisites**\nPirate Dedication\n\n**Access**\nYou're from the Shackles\n\n---\n\nYou served on nephilim pirate Ila “Sharkskin” Clare’s ship, the _Scorched Shark_, and have adopted xir practice of embellishing clothing and armor with sharkskin. As long as you’re wearing your clothing, you gain a +1 item bonus to unarmed attack rolls, Acrobatics checks, and Reflex saves and DCs to Escape, Grab an Edge, or avoid falling prone. In addition, when you successfully Grapple a creature, you deal slashing damage equal to your fist damage dice to that creature as you abrade their skin.",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "feat",
+      "high-seas",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Feats.aspx?ID=9020",
+        "page": 92
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "683C9A83-2710-5DDD-89B7-2AD535C15CC3",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Songs of the Sea's Wrath",
+    "slug": "songs-of-the-sea-s-wrath-high-seas-feat-feat-9000",
+    "descr": "---\n\nYou have learned songs that overwhelm and curse your foes. You can cast [_repulsion_](/spell/repulsion-player-core) and [_spellwrack_](/spell/spellwrack-player-core) as occult [innate spells](/rule/innate-spells-rules-2232) once per day each. When you cast these spells, you do so by performing haunting songs; each spell gains the [auditory](/trait/auditory) trait.",
+    "data": {
+      "level": 17,
+      "rarity": "common",
+      "traits": [
+        "merfolk"
+      ],
+      "prerequisites": "",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "---\n\nYou have learned songs that overwhelm and curse your foes. You can cast _repulsion_ and _spellwrack_ as occult innate spells once per day each. When you cast these spells, you do so by performing haunting songs; each spell gains the auditory trait.",
+      "traitLinks": [
+        {
+          "label": "merfolk",
+          "slug": "merfolk"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "feat",
+      "high-seas",
+      "merfolk",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Feats.aspx?ID=9000",
+        "page": 20
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "BF5AD567-1923-5BBD-A9C5-3F5B003E7D24",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spray Ink",
+    "slug": "spray-ink-high-seas-feat-feat-8997",
+    "descr": "**Frequency**\nonce per hour\n\n**Prerequisites**\n[Cecaelia Merfolk](/heritage/cecaelia-merfolk-high-seas-heritage-heritage-436) heritage\n\n**Trigger**\nA creature hits you with a melee [Strike](/action/strike-player-core).\n\n---\n\nYour body provides you with natural defenses common to other creatures of the sea. You spray ink against the triggering creature. The creature becomes [dazzled](/condition/dazzled-player-core) while the ink remains. The creature can use an [Interact](/action/interact-player-core) action to remove the ink.\n\n## Spray Ink leads to...\n\n[Hallucinogenic Ink](/feat/hallucinogenic-ink-high-seas-feat-feat-8999)",
+    "data": {
+      "level": 1,
+      "rarity": "common",
+      "traits": [
+        "merfolk"
+      ],
+      "prerequisites": "Cecaelia Merfolk heritage",
+      "frequency": "once per hour",
+      "requirements": "",
+      "trigger": "A creature hits you with a melee Strike.",
+      "benefits": "**Frequency**\nonce per hour\n\n**Prerequisites**\nCecaelia Merfolk heritage\n\n**Trigger**\nA creature hits you with a melee Strike.\n\n---\n\nYour body provides you with natural defenses common to other creatures of the sea. You spray ink against the triggering creature. The creature becomes dazzled while the ink remains. The creature can use an Interact action to remove the ink.\n\n## Spray Ink leads to...\n\nHallucinogenic Ink",
+      "actions": "reaction",
+      "traitLinks": [
+        {
+          "label": "merfolk",
+          "slug": "merfolk"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "feat",
+      "high-seas",
+      "merfolk",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Feats.aspx?ID=8997",
+        "page": 20
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "F91F6DA4-2717-5DD0-ACFF-344FE8C798A0",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Stay Here!",
+    "slug": "stay-here-high-seas-feat-feat-9040",
+    "descr": "**Archetype** [Marine Marauder](/archetype/marine-marauder-high-seas-archetype-archetype-385)\n\n**Prerequisites**\n[Marine Marauder Dedication](/feat/marine-marauder-dedication-high-seas-feat-feat-9030)\n\n---\n\nYou topple your foes with your legs and attack them while they’re down. You [Trip](/action/trip-player-core) a creature within reach without needing a free hand. If you succeed, you can make a melee [Strike](/action/strike-player-core) against that creature. Your multiple attack penalty doesn’t increase until after you’ve made both the Trip and Strike.",
+    "data": {
+      "level": 8,
+      "rarity": "common",
+      "traits": [
+        "archetype",
+        "flourish"
+      ],
+      "prerequisites": "Marine Marauder Dedication",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "**Archetype** Marine Marauder\n\n**Prerequisites**\nMarine Marauder Dedication\n\n---\n\nYou topple your foes with your legs and attack them while they’re down. You Trip a creature within reach without needing a free hand. If you succeed, you can make a melee Strike against that creature. Your multiple attack penalty doesn’t increase until after you’ve made both the Trip and Strike.",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "flourish",
+          "slug": "flourish"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "feat",
+      "flourish",
+      "high-seas",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Feats.aspx?ID=9040",
+        "page": 107
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "1E877540-D9F8-53BC-A259-23B8A9627BD9",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Steal for the Depths",
+    "slug": "steal-for-the-depths-high-seas-feat-feat-8998",
+    "descr": "**Requirements**\nYou are swimming in water at least 10 feet deep.\n\n---\n\nYou reach out and grab an adjacent creature (on nearby land or in the water) and pull it below the surface. Attempt an Athletics check to [Grapple](/action/grapple-player-core) the creature. On a success, if the creature is on land, in addition to the normal effects of Grapple, you pull the creature into the water in a space adjacent to you. If the creature is already in the water, on a success, in addition the normal effects of Grapple, you drag the creature 10 feet deeper into the water, moving 10 feet with the creature. Moving a creature into water or deeper into water using Steal for the Depths is [forced movement](/rule/forced-movement-rules-2364) for the creature but not for you.",
+    "data": {
+      "level": 5,
+      "rarity": "common",
+      "traits": [
+        "merfolk"
+      ],
+      "prerequisites": "",
+      "frequency": "",
+      "requirements": "You are swimming in water at least 10 feet deep.",
+      "trigger": "",
+      "benefits": "**Requirements**\nYou are swimming in water at least 10 feet deep.\n\n---\n\nYou reach out and grab an adjacent creature (on nearby land or in the water) and pull it below the surface. Attempt an Athletics check to Grapple the creature. On a success, if the creature is on land, in addition to the normal effects of Grapple, you pull the creature into the water in a space adjacent to you. If the creature is already in the water, on a success, in addition the normal effects of Grapple, you drag the creature 10 feet deeper into the water, moving 10 feet with the creature. Moving a creature into water or deeper into water using Steal for the Depths is forced movement for the creature but not for you.",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "merfolk",
+          "slug": "merfolk"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "feat",
+      "high-seas",
+      "merfolk",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Feats.aspx?ID=8998",
+        "page": 20
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "3A8E9CBD-D4D7-54BA-8F3C-AC91020D4FE3",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Submerged Stillness",
+    "slug": "submerged-stillness-high-seas-feat-feat-8994",
+    "descr": "**Frequency**\nonce per day\n\n---\n\nWith a mix of magic and physical training, you have learned to render yourself [invisible](/condition/invisible-player-core) while hiding underwater. You mimic the subtle movement of water so as not to disturb its surface, and you change your skin color to blend in with your surroundings. You gain the effects of [_invisibility_](/spell/invisibility-player-core) for up to 1 hour, as long as you remain submerged.",
+    "data": {
+      "level": 9,
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "elf",
+        "primal"
+      ],
+      "prerequisites": "",
+      "frequency": "once per day",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "**Frequency**\nonce per day\n\n---\n\nWith a mix of magic and physical training, you have learned to render yourself invisible while hiding underwater. You mimic the subtle movement of water so as not to disturb its surface, and you change your skin color to blend in with your surroundings. You gain the effects of _invisibility_ for up to 1 hour, as long as you remain submerged.",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "elf",
+          "slug": "elf"
+        },
+        {
+          "label": "primal",
+          "slug": "primal"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "elf",
+      "feat",
+      "high-seas",
+      "primal",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Feats.aspx?ID=8994",
+        "page": 19
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "0F2DC105-6A89-5D0A-A711-45C1BB610046",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Surface Rush",
+    "slug": "surface-rush-high-seas-feat-feat-9035",
+    "descr": "**Archetype** [Marine Marauder](/archetype/marine-marauder-high-seas-archetype-archetype-385)\n\n**Prerequisites**\n[Marine Marauder Dedication](/feat/marine-marauder-dedication-high-seas-feat-feat-9030)\n\n---\n\nYou make a dedicated dash to enter the water or emerge onto land. If you begin on land when using this ability, you [Stride](/action/stride-player-core), then [Swim](/action/swim-player-core) twice if you are in water. If you begin in water when using this ability, you Swim, then Stride twice if you are on land.",
+    "data": {
+      "level": 4,
+      "rarity": "common",
+      "traits": [
+        "archetype"
+      ],
+      "prerequisites": "Marine Marauder Dedication",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "**Archetype** Marine Marauder\n\n**Prerequisites**\nMarine Marauder Dedication\n\n---\n\nYou make a dedicated dash to enter the water or emerge onto land. If you begin on land when using this ability, you Stride, then Swim twice if you are in water. If you begin in water when using this ability, you Swim, then Stride twice if you are on land.",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "feat",
+      "high-seas",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Feats.aspx?ID=9035",
+        "page": 106
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "C01716CB-2FED-52AD-98B9-A709914B3345",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Swan Dive",
+    "slug": "swan-dive-high-seas-feat-feat-9022",
+    "descr": "**Access**\nYou're from the Shackles\n\n---\n\nYou soar through the air and into the water, using your momentum to propel yourself forward. You intentionally [Leap](/action/leap-player-core) or otherwise fall into a body of water, taking no falling damage regardless of the distance, and then [Swim](/action/swim-player-core) up to your Speed. Until the end of your turn, when you roll a success on an Athletics check to Swim you get a critical success instead, and when you roll a critical failure you get a failure instead.",
+    "data": {
+      "level": 2,
+      "rarity": "common",
+      "traits": [
+        "bravado",
+        "swashbuckler"
+      ],
+      "prerequisites": "",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "**Access**\nYou're from the Shackles\n\n---\n\nYou soar through the air and into the water, using your momentum to propel yourself forward. You intentionally Leap or otherwise fall into a body of water, taking no falling damage regardless of the distance, and then Swim up to your Speed. Until the end of your turn, when you roll a success on an Athletics check to Swim you get a critical success instead, and when you roll a critical failure you get a failure instead.",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "bravado",
+          "slug": "bravado"
+        },
+        {
+          "label": "swashbuckler",
+          "slug": "swashbuckler"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "bravado",
+      "feat",
+      "high-seas",
+      "remaster",
+      "swashbuckler"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Feats.aspx?ID=9022",
+        "page": 92
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "93929F42-508B-5442-A8DB-296EB1D68592",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Swimming Charge",
+    "slug": "swimming-charge-high-seas-feat-feat-8987",
+    "descr": "_**PFS Note** Add the [Attack](/trait/attack) trait to Swimming Charge._\n\n**Requirements**\nYou are swimming in water.\n\n---\n\nYou swim directly into a foe, attempting to push them out of the way. [Swim](/action/swim-player-core) up to your Speed, attempting to enter the space of a foe that’s your size or smaller. Roll an Athletics check and compare the result of the Fortitude DC of the target creature. If the foe can’t move into an empty space (if it is surrounded by solid objects or other creatures, for example), you automatically critically fail this check.\n\n**Critical Success** The target takes bludgeoning damage equal to your level plus twice your Strength modifier and must move into the empty space directly behind it; you move into the space it vacated. The target must move even if doing so places it in harm’s way.\n\n**Success** As critical success, but the damage is equal to your level plus your Strength modifier.\n\n**Failure** The target takes bludgeoning damage equal to your Strength modifier and you end your movement before entering its space.\n\n**Critical Failure** The target is unaffected and you end your movement before entering its space.",
+    "data": {
+      "level": 5,
+      "rarity": "common",
+      "traits": [
+        "athamaru"
+      ],
+      "prerequisites": "",
+      "frequency": "",
+      "requirements": "You are swimming in water.",
+      "trigger": "",
+      "benefits": "_**PFS Note** Add the Attack trait to Swimming Charge._\n\n**Requirements**\nYou are swimming in water.\n\n---\n\nYou swim directly into a foe, attempting to push them out of the way. Swim up to your Speed, attempting to enter the space of a foe that’s your size or smaller. Roll an Athletics check and compare the result of the Fortitude DC of the target creature. If the foe can’t move into an empty space (if it is surrounded by solid objects or other creatures, for example), you automatically critically fail this check.\n\n**Critical Success** The target takes bludgeoning damage equal to your level plus twice your Strength modifier and must move into the empty space directly behind it; you move into the space it vacated. The target must move even if doing so places it in harm’s way.\n\n**Success** As critical success, but the damage is equal to your level plus your Strength modifier.\n\n**Failure** The target takes bludgeoning damage equal to your Strength modifier and you end your movement before entering its space.\n\n**Critical Failure** The target is unaffected and you end your movement before entering its space.",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "athamaru",
+          "slug": "athamaru"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "athamaru",
+      "feat",
+      "high-seas",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Feats.aspx?ID=8987",
+        "page": 18
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "CA891614-5870-57E5-8B1C-D3CD3595BD6B",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Take in the Catch",
+    "slug": "take-in-the-catch-high-seas-feat-feat-9043",
+    "descr": "**Archetype** [Marine Marauder](/archetype/marine-marauder-high-seas-archetype-archetype-385)\n\n**Prerequisites**\n[Marine Marauder Dedication](/feat/marine-marauder-dedication-high-seas-feat-feat-9030)\n\n**Requirements**\nYou’re holding a [net](/item/net-player-core).\n\n---\n\nYour skills in marine fishing can also be applied to combat. Attempt to [Grapple](/action/grapple-player-core) a creature with your net, with the normal results. Then you [Step](/action/step-player-core), [Interact](/action/interact-player-core) to draw a weapon, and [Strike](/action/strike-player-core) the creature you attempted to grapple. If you succeeded on your check to Grapple, the creature remains [grabbed](/condition/grabbed-player-core) after your Step.",
+    "data": {
+      "level": 12,
+      "rarity": "common",
+      "traits": [
+        "archetype"
+      ],
+      "prerequisites": "Marine Marauder Dedication",
+      "frequency": "",
+      "requirements": "You’re holding a net.",
+      "trigger": "",
+      "benefits": "**Archetype** Marine Marauder\n\n**Prerequisites**\nMarine Marauder Dedication\n\n**Requirements**\nYou’re holding a net.\n\n---\n\nYour skills in marine fishing can also be applied to combat. Attempt to Grapple a creature with your net, with the normal results. Then you Step, Interact to draw a weapon, and Strike the creature you attempted to grapple. If you succeeded on your check to Grapple, the creature remains grabbed after your Step.",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "feat",
+      "high-seas",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Feats.aspx?ID=9043",
+        "page": 107
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "2F111425-582C-576B-ABD9-E43D705884F4",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Think Twice",
+    "slug": "think-twice-high-seas-feat-feat-9029",
+    "descr": "**Prerequisites**\nExpert in Intimidation\n\n**Access**\nYou're from the Shackles\n\n**Trigger**\nA creature that’s [frightened](/condition/frightened-player-core) targets you with an attack.\n\n---\n\nYou make a sudden threat toward a creature about to attack you that makes them flinch, throwing off their aim. You gain a +4 circumstance bonus to AC against the triggering attack. This reaction can’t be triggered by the same creature again for 1 day.\n\n**Special** If you have [Intimidating Glare](/feat/intimidating-glare-player-core), when you use this feat, you can have it lose the [auditory](/trait/auditory) trait and gain the [visual](/trait/visual) trait.",
+    "data": {
+      "level": 14,
+      "rarity": "common",
+      "traits": [
+        "auditory",
+        "concentrate",
+        "emotion",
+        "fear",
+        "fighter",
+        "gunslinger",
+        "mental"
+      ],
+      "prerequisites": "Expert in Intimidation",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "A creature that’s frightened targets you with an attack.",
+      "benefits": "**Prerequisites**\nExpert in Intimidation\n\n**Access**\nYou're from the Shackles\n\n**Trigger**\nA creature that’s frightened targets you with an attack.\n\n---\n\nYou make a sudden threat toward a creature about to attack you that makes them flinch, throwing off their aim. You gain a +4 circumstance bonus to AC against the triggering attack. This reaction can’t be triggered by the same creature again for 1 day.\n\n**Special** If you have Intimidating Glare, when you use this feat, you can have it lose the auditory trait and gain the visual trait.",
+      "actions": "reaction",
+      "traitLinks": [
+        {
+          "label": "auditory",
+          "slug": "auditory"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "emotion",
+          "slug": "emotion"
+        },
+        {
+          "label": "fear",
+          "slug": "fear"
+        },
+        {
+          "label": "fighter",
+          "slug": "fighter"
+        },
+        {
+          "label": "gunslinger",
+          "slug": "gunslinger"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "auditory",
+      "concentrate",
+      "emotion",
+      "fear",
+      "feat",
+      "fighter",
+      "gunslinger",
+      "high-seas",
+      "mental",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Feats.aspx?ID=9029",
+        "page": 93
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "6AB4C111-E35D-5C56-A916-06B4D23FBE19",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Touch of the Sea",
+    "slug": "touch-of-the-sea-high-seas-feat-feat-8993",
+    "descr": "---\n\nThe power of the sea flows through you, allowing you to manifest a portion of its strength. Choose either the [_gale blast_](/spell/gale-blast-player-core-2) or [_spout_](/spell/spout-player-core-2) cantrip. You can cast the chosen spell as a primal [innate spell](/rule/innate-spells-rules-2232) at will. A cantrip is heightened to a spell rank equal to half your level rounded up.",
+    "data": {
+      "level": 1,
+      "rarity": "common",
+      "traits": [
+        "elf"
+      ],
+      "prerequisites": "",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "---\n\nThe power of the sea flows through you, allowing you to manifest a portion of its strength. Choose either the _gale blast_ or _spout_ cantrip. You can cast the chosen spell as a primal innate spell at will. A cantrip is heightened to a spell rank equal to half your level rounded up.",
+      "traitLinks": [
+        {
+          "label": "elf",
+          "slug": "elf"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "elf",
+      "feat",
+      "high-seas",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Feats.aspx?ID=8993",
+        "page": 19
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "2C95A32D-6F8C-5B89-9D2A-1DE99F9755C8",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Waterweave Tripkee",
+    "slug": "waterweave-tripkee-high-seas-feat-feat-9002",
+    "descr": "---\n\nYour body has adapted to remain underwater indefinitely. You can breathe in water just as easily as you can breathe air. You gain the [amphibious](/trait/amphibious) trait.\n\n**Special** If you have the [riverside tripkee](/heritage/riverside-tripkee-player-core-2) heritage, your [swim Speed](/rule/swim-speed-rules-2351) increases to 20 feet.",
+    "data": {
+      "level": 1,
+      "rarity": "common",
+      "traits": [
+        "tripkee"
+      ],
+      "prerequisites": "",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "---\n\nYour body has adapted to remain underwater indefinitely. You can breathe in water just as easily as you can breathe air. You gain the amphibious trait.\n\n**Special** If you have the riverside tripkee heritage, your swim Speed increases to 20 feet.",
+      "traitLinks": [
+        {
+          "label": "tripkee",
+          "slug": "tripkee"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "feat",
+      "high-seas",
+      "remaster",
+      "tripkee"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Feats.aspx?ID=9002",
+        "page": 21
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  }
+]

@@ -1,0 +1,1555 @@
+[
+  {
+    "id": "D97A240E-C85C-5174-9A1A-7BE5C6A0EF42",
+    "kind": "Hazard",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Call of the Void",
+    "slug": "call-of-the-void-dark-archive",
+    "descr": "",
+    "data": {
+      "level": 12,
+      "rarity": "unique",
+      "traits": [
+        "environmental",
+        "magical"
+      ],
+      "complexity": "complex",
+      "stealth": 15,
+      "ac": {
+        "value": 0,
+        "details": ""
+      },
+      "hp": {
+        "value": 0,
+        "details": ""
+      },
+      "hardness": 0,
+      "saves": {
+        "fortitude": 0,
+        "reflex": 0,
+        "will": 0
+      },
+      "disable": "Occultism DC 34 or Arcana DC 36 to expel the magical compulsion from the current island and from any of the red ropes directly attached to it, darkening the rope in color. The Echo also automatically disables the hazard from any island he's standing on, and any of the red ropes directly attached to it, when he Reconstitutes from Thought on that island.",
+      "routine": "(1 action) The call targets all creatures adjacent to a ledge or on one of the red ropes and tugs at their minds. A creature who has already fallen this round is immune.",
+      "reset": "The call of the void persists as long as the Echo exists, though it doesn't activate until the Echo has rolled initiative. The hazard resets each day.",
+      "abilities": [
+        {
+          "name": "Leap into the Unknown",
+          "text": "**Trigger** A creature enters a square adjacent to the ledge of an island or steps onto one of the red ropes\n\n**Effect** The call of the void tugs at the mind of intruders, compelling them to leap off the ledge. The creature must succeed at a Will DC 34 save or Acrobatics DC 32 check to [Balance](/action/balance-player-core) or else drop off the ledge. If the creature falls off, it drops 100 feet, loops through the closed space of the mindscape, and lands in the square it fell from, taking falling damage as normal (usually 50 bludgeoning damage). The call of the void then rolls initiative.",
+          "traits": [
+            "mental"
+          ],
+          "actions": "reaction"
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "environmental",
+          "slug": "environmental"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ],
+      "stealthDetails": "(expert) to notice a slight tugging feeling",
+      "description": "A ledge exerts a supernatural urge to leap into the drop below."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "dark-archive",
+      "environmental",
+      "magical",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9E93E491-1DC0-56CC-BAF2-9EDDD80D6582",
+    "kind": "Hazard",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Clone Mirrors",
+    "slug": "clone-mirrors-dark-archive",
+    "descr": "",
+    "data": {
+      "level": 6,
+      "rarity": "common",
+      "traits": [
+        "magical",
+        "trap"
+      ],
+      "complexity": "complex",
+      "stealth": 11,
+      "ac": {
+        "value": 21,
+        "details": ""
+      },
+      "hp": {
+        "value": 54,
+        "details": "per mirror",
+        "bt": 27
+      },
+      "hardness": 13,
+      "saves": {
+        "fortitude": 17,
+        "reflex": 11,
+        "will": 0
+      },
+      "disable": "Thievery DC 28 (expert) to reposition each mirror, or Dispel Magic (3rd rank; counteract DC 25) to counteract each mirror",
+      "routine": "(2 actions) This trap loses 1 action for each mirror disabled. Each mirror uses 1 action to Spawn a Reflection of a creature reflected in the mirror. The hazard can have a maximum of four reflections spawned at once.",
+      "reset": "The trap resets after 1 day.",
+      "abilities": [
+        {
+          "name": "Spawn Reflection",
+          "text": "**Trigger** A creature is reflected in the mirror\n\n**Effect** The mirror creates a [Reflection](/trait/reflection) of the triggering creature, which Steps out of the mirror and into the hall. The trap then rolls initiative.",
+          "traits": [
+            "illusion"
+          ],
+          "actions": "reaction"
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "trap",
+          "slug": "trap"
+        }
+      ],
+      "description": "Opposing mirrors create illusory copies of creatures between them."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "dark-archive",
+      "magical",
+      "remaster",
+      "trap"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F8E80F98-47B3-5E05-AF0A-5F7DC170DDC4",
+    "kind": "Hazard",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Confounding Portal",
+    "slug": "confounding-portal-dark-archive",
+    "descr": "",
+    "data": {
+      "level": 0,
+      "rarity": "common",
+      "traits": [
+        "illusion",
+        "magical",
+        "mental",
+        "trap"
+      ],
+      "complexity": "simple",
+      "stealth": 6,
+      "ac": {
+        "value": 0,
+        "details": ""
+      },
+      "hp": {
+        "value": 0,
+        "details": ""
+      },
+      "hardness": 0,
+      "saves": {
+        "fortitude": 0,
+        "reflex": 0,
+        "will": 0
+      },
+      "disable": "Thievery DC 17 to scratch out the runes, or Arcana DC 16 to destroy the runes",
+      "routine": "",
+      "reset": "The trap resets after 1 round.",
+      "abilities": [
+        {
+          "name": "Confounding Misdirection",
+          "text": "**Trigger** A creature passes through the rune-carved doorway or hallway\n\n**Effect** The creature is [Confused](/condition/confused-player-core) by the illusions and directed back into the room they attempted to exit through another doorway or back to the hallway's beginning. This feels no different to the triggering creature than walking through the doorway or hallway, and onlookers are similarly befuddled. A creature who succeeds at a Will DC 19 save resists this illusion and exits the room or proceeds down the hall without being misdirected.",
+          "traits": [
+            "arcane",
+            "illusion",
+            "mental"
+          ],
+          "actions": "reaction"
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "illusion",
+          "slug": "illusion"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        },
+        {
+          "label": "trap",
+          "slug": "trap"
+        }
+      ],
+      "description": "Runes around a passage make travelers circle back instead of leaving.",
+      "stealthDC": 16
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "dark-archive",
+      "illusion",
+      "magical",
+      "mental",
+      "remaster",
+      "trap"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3ECFAF6A-054C-560A-ADFD-845912D75F1B",
+    "kind": "Hazard",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Constricting Hall",
+    "slug": "constricting-hall-dark-archive",
+    "descr": "",
+    "data": {
+      "level": 8,
+      "rarity": "common",
+      "traits": [
+        "magical",
+        "trap"
+      ],
+      "complexity": "complex",
+      "stealth": 21,
+      "ac": {
+        "value": 0,
+        "details": ""
+      },
+      "hp": {
+        "value": 0,
+        "details": ""
+      },
+      "hardness": 0,
+      "saves": {
+        "fortitude": 0,
+        "reflex": 0,
+        "will": 0
+      },
+      "disable": "Thievery DC 28 (trained) to stabilize each wall, or Dispel Magic (4th rank; counteract DC 26) to counteract each wall",
+      "routine": "(4 actions) This trap loses 1 action each round for each wall that has been disabled. Each wall uses 1 action to slam back and forth rapidly, pummeling one creature in the hall with a wall Strike. On a hit, the target is additionally knocked [Prone](/condition/prone-player-core). The walls distribute the attacks as evenly as possible among creatures in the hall, and the Strikes don't apply the trap's multiple attack penalty.",
+      "reset": "The trap resets after 1 hour.",
+      "abilities": [
+        {
+          "name": "Lose Form",
+          "text": "**Trigger** A creature reaches the hall's midpoint\n\n**Effect** The hall's walls lose their rigidity, becoming fluid and elastic. The hall becomes difficult terrain, and each creature in the hall is knocked [Prone](/condition/prone-player-core) unless they succeed at a Reflex DC 26 save. The trap then rolls initiative.",
+          "traits": [
+            "occult"
+          ],
+          "actions": "reaction"
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "trap",
+          "slug": "trap"
+        }
+      ],
+      "description": "The walls of a passage flex inward when someone reaches its midpoint.",
+      "attacks": [
+        {
+          "name": "Wall",
+          "type": "melee",
+          "attack": 20,
+          "damageParts": [
+            {
+              "name": "2d10+11",
+              "details": "bludgeoning"
+            }
+          ]
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "dark-archive",
+      "magical",
+      "remaster",
+      "trap"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "58CD5CFE-E727-5055-A1F5-4802EA0C29B3",
+    "kind": "Hazard",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Darkside Mirror",
+    "slug": "darkside-mirror-dark-archive",
+    "descr": "",
+    "data": {
+      "level": 14,
+      "rarity": "common",
+      "traits": [
+        "magical",
+        "mechanical",
+        "trap"
+      ],
+      "complexity": "complex",
+      "stealth": 24,
+      "ac": {
+        "value": 34,
+        "details": ""
+      },
+      "hp": {
+        "value": 4,
+        "details": "The mirror can't be damaged while any mirror duplicate is alive",
+        "bt": 2
+      },
+      "hardness": 1,
+      "saves": {
+        "fortitude": 25,
+        "reflex": 20,
+        "will": 0
+      },
+      "disable": "Thievery DC 34 (legendary) to retrieve a creature from the other dimension within 10 minutes of the switch (possible only if their mirror duplicate is dead), Thievery DC 39 (master) to permanently disable the mirror once all mirror duplicates are dead, or Dispel Magic (7th rank; counteract DC 32) to counteract the mirror for 1 minute and prevent additional replacements during that time.",
+      "routine": "(1 action) The mirror absorbs another reflected creature and replaces it with a mirror duplicate. A mirror duplicate attacks on their own initiative, using the same statistics as the original creature, but they hate all other non-duplicate creatures. A mirror duplicate can spend 3 actions in contact with the mirror to return to their original dimension and release the duplicated creature.",
+      "reset": "The mirror is always ready to absorb creatures into the other dimension. Ten minutes after a creature is sucked into the mirror, if an ally doesn't rescue the creature, it reaches the other dimension. In the mirror dimension, it counts as a mirror duplicate. These dimensions are alternate realities, not planes, so even spells like Interplanar Teleport* *can't reach them.",
+      "abilities": [
+        {
+          "name": "Reflection of Malice",
+          "text": "**Trigger** A creature is reflected in the mirror\n\n**Effect** The mirror absorbs the creature, replacing it with a malicious mirror duplicate (Reflex DC 34 to avoid being absorbed into the mirror), and rolls initiative.",
+          "traits": [
+            "arcane",
+            "teleportation"
+          ],
+          "actions": "reaction"
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "mechanical",
+          "slug": "mechanical"
+        },
+        {
+          "label": "trap",
+          "slug": "trap"
+        }
+      ],
+      "stealthDetails": "(master) to notice it isn't a regular mirror",
+      "description": "A magical mirror replaces viewers with hostile doubles."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "dark-archive",
+      "magical",
+      "mechanical",
+      "remaster",
+      "trap"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "38DF4B6A-8CD3-5608-8B23-5339411C397E",
+    "kind": "Hazard",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Disorienting Illusions",
+    "slug": "disorienting-illusions-dark-archive",
+    "descr": "",
+    "data": {
+      "level": 1,
+      "rarity": "common",
+      "traits": [
+        "illusion",
+        "magical",
+        "trap",
+        "visual"
+      ],
+      "complexity": "simple",
+      "stealth": 10,
+      "ac": {
+        "value": 0,
+        "details": ""
+      },
+      "hp": {
+        "value": 0,
+        "details": ""
+      },
+      "hardness": 0,
+      "saves": {
+        "fortitude": 0,
+        "reflex": 0,
+        "will": 0
+      },
+      "disable": "Crafting DC 17 (trained) to calculate the room's dimensions despite the illusions, or Dispel Magic (1st rank; counteract DC 17) to counteract the illusions",
+      "routine": "",
+      "reset": "The trap resets after 1 minute.",
+      "abilities": [
+        {
+          "name": "Disorient",
+          "text": "**Trigger** A creature enters the room\n\n**Effect** Illusions cause the appearance of the room and the objects inside it to constantly warp, shift, bend, and distort for 1 minute. Each creature in the room while it's distorting must attempt a Perception DC 17 check.\n\n**Critical Success** The creature disbelieves the illusions and is unaffected.\n\n**Success** The creature disbelieves the illusions but still sees them. It treats the room as difficult terrain.\n\n**Failure** The creature is fooled by the illusions. It treats the room as difficult terrain and becomes [Sickened 1](/condition/sickened-player-core). As long as it remains in the room, it can't reduce its [sickened](/condition/sickened-player-core) value below 1.\n\n**Critical Failure** As failure, but each time the creature Archive attempts a move action, it must succeed at a Flat DC 5 or they lose the action, and on a critical failure, it also falls [Prone](/condition/prone-player-core).",
+          "traits": [
+            "arcane",
+            "illusion",
+            "mental",
+            "visual"
+          ],
+          "actions": "reaction"
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "illusion",
+          "slug": "illusion"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "trap",
+          "slug": "trap"
+        },
+        {
+          "label": "visual",
+          "slug": "visual"
+        }
+      ],
+      "description": "Illusions make a chamber appear tilted and constantly moving.",
+      "stealthDC": 20
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "dark-archive",
+      "illusion",
+      "magical",
+      "remaster",
+      "trap",
+      "visual"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "99817CBE-478A-5549-99A1-DC2AA7CAF4AB",
+    "kind": "Hazard",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Distortion Mirror",
+    "slug": "distortion-mirror-dark-archive",
+    "descr": "",
+    "data": {
+      "level": 14,
+      "rarity": "common",
+      "traits": [
+        "magical",
+        "trap"
+      ],
+      "complexity": "simple",
+      "stealth": 28,
+      "ac": {
+        "value": 33,
+        "details": ""
+      },
+      "hp": {
+        "value": 90,
+        "details": "",
+        "bt": 45
+      },
+      "hardness": 24,
+      "saves": {
+        "fortitude": 28,
+        "reflex": 22,
+        "will": 0
+      },
+      "disable": "Thievery DC 38 (master) to deface the mirror's pane, or Dispel Magic (7th rank; counteract DC 36) to dispel the mirror or counteract the transformation",
+      "routine": "",
+      "reset": "The trap resets after 1 day.",
+      "abilities": [
+        {
+          "name": "Painful Transformation",
+          "text": "**Trigger** A creature is reflected in the mirror\n\n**Effect** The triggering creature's body is painfully squished, stretched, and distorted to match their reflection. The creature takes 6d10 + 30 force damage and must attempt a Fortitude DC 39 save.\n\n**Critical Success** The target is unaffected.\n\n**Success** The target takes half damage and is [Clumsy 1](/condition/clumsy-player-core) and [Enfeebled 1](/condition/enfeebled-player-core) for 1 round.\n\n**Failure** The target takes full damage and is [Clumsy 2](/condition/clumsy-player-core) and [Enfeebled 2](/condition/enfeebled-player-core) for 4 rounds.\n\n**Critical Failure** The target takes double damage and is [clumsy 2](/condition/clumsy-player-core) and [enfeebled 2](/condition/enfeebled-player-core) for 1 minute. As long as the creature is [clumsy](/condition/clumsy-player-core) or [enfeebled](/condition/enfeebled-player-core), it additionally takes a –10-foot status penalty to its Speeds.\n\nWhen the effects of this trap end, the triggering creature's transformation ends, and its body reverts to its natural form.",
+          "traits": [
+            "attack"
+          ],
+          "actions": "reaction"
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "trap",
+          "slug": "trap"
+        }
+      ],
+      "stealthDetails": "0 to notice the mirror",
+      "description": "A mirror warps a viewer's body to resemble its distorted image.",
+      "stealthDC": 38
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "dark-archive",
+      "magical",
+      "remaster",
+      "trap"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "61863272-5468-56F4-825A-A6E1F797DE1A",
+    "kind": "Hazard",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Entrapping Chair",
+    "slug": "entrapping-chair-dark-archive",
+    "descr": "",
+    "data": {
+      "level": 5,
+      "rarity": "common",
+      "traits": [
+        "mechanical",
+        "trap"
+      ],
+      "complexity": "simple",
+      "stealth": 16,
+      "ac": {
+        "value": 22,
+        "details": ""
+      },
+      "hp": {
+        "value": 54,
+        "details": "",
+        "bt": 27
+      },
+      "hardness": 14,
+      "saves": {
+        "fortitude": 15,
+        "reflex": 9,
+        "will": 0
+      },
+      "disable": "Thievery DC 23 (expert) to disrupt the tracks",
+      "routine": "",
+      "reset": "The trap resets automatically over 2 rounds if the chair is unoccupied.",
+      "abilities": [
+        {
+          "name": "Take a Seat!",
+          "text": "**Trigger** A creature steps on the track\n\n**Effect** The chair rockets forward along the track and slams into the triggering creature, dealing 3d8 + 15 bludgeoning damage. A creature who succeeds at a Reflex DC 22 save takes no damage and moves out of the chair's path into a random adjacent square not containing the track. A creature who fails this saving throw is knocked into the chair's seat and captured by the armrests, becoming [Grabbed](/condition/grabbed-player-core) ([Restrained](/condition/restrained-player-core) on a critical failure; Escape).",
+          "traits": [],
+          "actions": "reaction"
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "mechanical",
+          "slug": "mechanical"
+        },
+        {
+          "label": "trap",
+          "slug": "trap"
+        }
+      ],
+      "stealthDetails": "(0 to notice the chair)",
+      "description": "A concealed mechanism thrusts a chair forward and locks a creature into it.",
+      "stealthDC": 26
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "dark-archive",
+      "mechanical",
+      "remaster",
+      "trap"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4F55B0CE-9F3B-581A-BB62-AA6D42F47A5C",
+    "kind": "Hazard",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Exhaling Portal",
+    "slug": "exhaling-portal-dark-archive",
+    "descr": "",
+    "data": {
+      "level": 9,
+      "rarity": "common",
+      "traits": [
+        "magical",
+        "trap"
+      ],
+      "complexity": "complex",
+      "stealth": 23,
+      "ac": {
+        "value": 0,
+        "details": ""
+      },
+      "hp": {
+        "value": 0,
+        "details": ""
+      },
+      "hardness": 0,
+      "saves": {
+        "fortitude": 0,
+        "reflex": 0,
+        "will": 0
+      },
+      "disable": "Thievery DC 30 (expert) twice to scratch out the runes, or Dispel Magic (5th rank; counteract DC 30) to counteract the planar runes; Athletics DC 32 to shut the door if it's open (using Athletics only stops the trap, it doesn't fully disable it)",
+      "routine": "(1 action) The trap uses 1 action to blow powerful winds down the hall. Each creature in the hall must attempt a Fortitude DC 32 save with the same results as Gust. If this forced movement would cause a creature to collide with a solid object or fall downstairs or out a window, that creature takes an additional (2d10 + 11) bludgeoning damage (or 20 bludgeoning damage due to a fall).",
+      "reset": "The trap resets when the door is shut.",
+      "abilities": [
+        {
+          "name": "Gust",
+          "text": "**Trigger** A creature opens the door\n\n**Effect** The hall is buffeted by powerful winds for as long as the door remains open. A creature must succeed at a Athletics DC 32 check to move toward the door. A creature who fails at this check is pushed back 5 feet and falls [Prone](/condition/prone-player-core).\n\nAdditionally, the triggering creature is blasted by a powerful gust of wind and must attempt a Fortitude DC 32 save. The trap then rolls initiative.\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature is pushed back 5 feet.\n\n**Failure** The creature is pushed back 10 feet.\n\n**Critical Failure** The creature is pushed back 10 feet and knocked [Prone](/condition/prone-player-core).",
+          "traits": [
+            "air"
+          ],
+          "actions": "reaction"
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "trap",
+          "slug": "trap"
+        }
+      ],
+      "description": "A runed doorway opens onto powerful winds from another plane."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "dark-archive",
+      "magical",
+      "remaster",
+      "trap"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "104E28D5-B914-546D-A6DE-C960FA12468E",
+    "kind": "Hazard",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "False Floor",
+    "slug": "false-floor-dark-archive",
+    "descr": "",
+    "data": {
+      "level": 3,
+      "rarity": "common",
+      "traits": [
+        "illusion",
+        "magical",
+        "trap"
+      ],
+      "complexity": "simple",
+      "stealth": 13,
+      "ac": {
+        "value": 0,
+        "details": ""
+      },
+      "hp": {
+        "value": 0,
+        "details": ""
+      },
+      "hardness": 0,
+      "saves": {
+        "fortitude": 0,
+        "reflex": 0,
+        "will": 0
+      },
+      "disable": "Succeeding on a Perception DC 21 check against the Stealth DC of 21 (including the check to find the trap) disbelieves the illusory floor, or Dispel Magic (2nd rank; counteract DC 18) to dispel the illusory floor; *dispel magic* (2nd rank; counteract DC 20) to dispel the magical silence",
+      "routine": "",
+      "reset": "The trap resets after 1 round.",
+      "abilities": [
+        {
+          "name": "Drop",
+          "text": "**Trigger** A creature walks onto the illusory floor\n\n**Effect** The triggering creature falls through the illusory floor and takes falling damage (typically 20 bludgeoning damage). That creature can use the [Grab An Edge](/action/grab-an-edge-player-core) reaction to avoid falling. The DC to Climb the walls or Grab An Edge is 20.",
+          "traits": [],
+          "actions": "reaction"
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "illusion",
+          "slug": "illusion"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "trap",
+          "slug": "trap"
+        }
+      ],
+      "stealthDetails": "(trained; or 0 if the illusory floor is dispelled)",
+      "description": "An illusory floor hides a long fall into a silenced chamber.",
+      "stealthDC": 23
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "dark-archive",
+      "illusion",
+      "magical",
+      "remaster",
+      "trap"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3D3B63CB-4359-5D94-96DD-FC6F82E06EAF",
+    "kind": "Hazard",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "False Step Floor",
+    "slug": "false-step-floor-dark-archive",
+    "descr": "",
+    "data": {
+      "level": 6,
+      "rarity": "common",
+      "traits": [
+        "magical",
+        "teleportation",
+        "trap"
+      ],
+      "complexity": "simple",
+      "stealth": 15,
+      "ac": {
+        "value": 0,
+        "details": ""
+      },
+      "hp": {
+        "value": 0,
+        "details": ""
+      },
+      "hardness": 0,
+      "saves": {
+        "fortitude": 0,
+        "reflex": 0,
+        "will": 0
+      },
+      "disable": "Thievery DC 28 (trained) to disrupt the magical energy, or Arcana DC 27 or Occultism DC 27 (trained) to realign the magical energy",
+      "routine": "",
+      "reset": "The trap resets after 1 round.",
+      "abilities": [
+        {
+          "name": "False Step",
+          "text": "**Trigger** A creature enters the room and steps onto the floor\n\n**Effect** The creature slips through the floor; it tumbles through an interdimensional void before falling back into the room through the ceiling and landing on the floor. The triggering creature takes 40 bludgeoning damage from the fall. That creature can try to Grab An Edge to avoid falling.",
+          "traits": [
+            "arcane",
+            "teleportation"
+          ],
+          "actions": "reaction"
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "teleportation",
+          "slug": "teleportation"
+        },
+        {
+          "label": "trap",
+          "slug": "trap"
+        }
+      ],
+      "description": "An interdimensional gap drops entrants through the ceiling back into the room.",
+      "stealthDC": 25
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "dark-archive",
+      "magical",
+      "remaster",
+      "teleportation",
+      "trap"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8356F6DB-A88D-5DDA-A088-7AE2AD909C54",
+    "kind": "Hazard",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Mirror Door",
+    "slug": "mirror-door-dark-archive",
+    "descr": "",
+    "data": {
+      "level": -1,
+      "rarity": "common",
+      "traits": [
+        "magical",
+        "trap",
+        "visual"
+      ],
+      "complexity": "simple",
+      "stealth": 5,
+      "ac": {
+        "value": 0,
+        "details": ""
+      },
+      "hp": {
+        "value": 0,
+        "details": ""
+      },
+      "hardness": 0,
+      "saves": {
+        "fortitude": 0,
+        "reflex": 0,
+        "will": 0
+      },
+      "disable": "Thievery DC 18 to open the door while viewing the reflection",
+      "routine": "",
+      "reset": "The trap resets when the door is shut.",
+      "abilities": [
+        {
+          "name": "Appear",
+          "text": "**Trigger** A creature views the wall through a mirror's reflection\n\n**Effect** A door appears in the mirror's reflection of the wall. The triggering creature can open and manipulate this door only as long as they view it through the mirror and only by succeeding at a Thievery DC 18 check to disable the trap.",
+          "traits": [
+            "arcane",
+            "illusion"
+          ],
+          "actions": "reaction"
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "trap",
+          "slug": "trap"
+        },
+        {
+          "label": "visual",
+          "slug": "visual"
+        }
+      ],
+      "description": "A door visible only in a mirror can be manipulated through its reflection.",
+      "stealthDC": 15
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "dark-archive",
+      "magical",
+      "remaster",
+      "trap",
+      "visual"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9E7F7112-A707-5BA5-BBF5-F9D09D17F0D9",
+    "kind": "Hazard",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Reflected Desires",
+    "slug": "reflected-desires-dark-archive",
+    "descr": "",
+    "data": {
+      "level": 1,
+      "rarity": "common",
+      "traits": [
+        "magical",
+        "mental",
+        "trap",
+        "visual"
+      ],
+      "complexity": "simple",
+      "stealth": 7,
+      "ac": {
+        "value": 13,
+        "details": ""
+      },
+      "hp": {
+        "value": 24,
+        "details": "",
+        "bt": 12
+      },
+      "hardness": 6,
+      "saves": {
+        "fortitude": 10,
+        "reflex": 4,
+        "will": 0
+      },
+      "disable": "Thievery DC 18 (trained) to shroud the mirror without looking at it, or Occultism DC 17 (trained) to erect mental barriers",
+      "routine": "",
+      "reset": "The trap resets after 1 round.",
+      "abilities": [
+        {
+          "name": "Tempt",
+          "text": "**Trigger** A creature looks into the mirror\n\n**Effect** The triggering creature sees themselves enjoying their deepest desires in the mirror's reflection, becoming [Fascinated](/condition/fascinated-player-core) (Will DC 20 negates). This fascination ends automatically when the mirror is broken or covered up.",
+          "traits": [
+            "mental",
+            "occult",
+            "visual"
+          ],
+          "actions": "reaction"
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        },
+        {
+          "label": "trap",
+          "slug": "trap"
+        },
+        {
+          "label": "visual",
+          "slug": "visual"
+        }
+      ],
+      "stealthDetails": "(0 to notice the mirror)",
+      "description": "A mirror shows each viewer a tempting vision of what they desire.",
+      "stealthDC": 17
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "dark-archive",
+      "magical",
+      "mental",
+      "remaster",
+      "trap",
+      "visual"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1F23F673-6C90-596B-923D-AC7B99AB448B",
+    "kind": "Hazard",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Shrinking Hall",
+    "slug": "shrinking-hall-dark-archive",
+    "descr": "",
+    "data": {
+      "level": 2,
+      "rarity": "common",
+      "traits": [
+        "mechanical",
+        "trap"
+      ],
+      "complexity": "simple",
+      "stealth": 8,
+      "ac": {
+        "value": 0,
+        "details": ""
+      },
+      "hp": {
+        "value": 0,
+        "details": ""
+      },
+      "hardness": 0,
+      "saves": {
+        "fortitude": 0,
+        "reflex": 0,
+        "will": 0
+      },
+      "disable": "Thievery DC 21 (trained) to jam the scales built into the floor",
+      "routine": "",
+      "reset": "After 10 minutes without weight being placed on this hall's floor, this trap resets, returning the hall to its original size.",
+      "abilities": [
+        {
+          "name": "Shrink",
+          "text": "**Trigger** 100 pounds of weight or more is placed on the hallway's floor\n\n**Effect** The hall's last 40 feet of walls angle inward, causing the hall to shrink and contract down, reaching 6 inches in height and width at the hall's far end and completely blocking access to the hall's exit door for anything but a Tiny creature Squeezing.",
+          "traits": [],
+          "actions": "reaction"
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "mechanical",
+          "slug": "mechanical"
+        },
+        {
+          "label": "trap",
+          "slug": "trap"
+        }
+      ],
+      "description": "A passage narrows as creatures move toward its far door.",
+      "stealthDC": 18
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "dark-archive",
+      "mechanical",
+      "remaster",
+      "trap"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "DE0BFFED-339C-522D-9768-2262A0B06459",
+    "kind": "Hazard",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Shrouded Assailant",
+    "slug": "shrouded-assailant-dark-archive",
+    "descr": "",
+    "data": {
+      "level": 17,
+      "rarity": "common",
+      "traits": [
+        "haunt"
+      ],
+      "complexity": "complex",
+      "stealth": 33,
+      "ac": {
+        "value": 40,
+        "details": ""
+      },
+      "hp": {
+        "value": 230,
+        "details": "spirit",
+        "bt": 115
+      },
+      "hardness": null,
+      "saves": {
+        "fortitude": 26,
+        "reflex": 32,
+        "will": 35
+      },
+      "disable": "Thievery DC 43 (master) to steal the cloth before the spirit manifests, or Athletics DC 47 to pull the cloth off the spirit after it manifests",
+      "routine": "(3 actions) The spirit uses 3 actions to Step, fly 60 feet, or Strike, in any order. On a successful Strike the spirit's target is [Frightened 1](/condition/frightened-player-core), and on a critical success, the target is [Frightened 2](/condition/frightened-player-core).",
+      "reset": "The haunt is reset when the mirror is covered again.",
+      "abilities": [
+        {
+          "name": "Don Shroud",
+          "text": "**Trigger** A creature enters the area\n\n**Effect** The spirit steps out of the mirror, wearing the cloth as a shroud and revealing the mirror. The triggering creature is [Frightened 3](/condition/frightened-player-core) unless they succeed at a Will DC 38 save. The haunt then rolls initiative.",
+          "traits": [
+            "occult"
+          ],
+          "actions": "reaction"
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "haunt",
+          "slug": "haunt"
+        }
+      ],
+      "resistances": "all damage 20",
+      "description": "A veiled spirit emerges from a mirror to attack nearby creatures.",
+      "attacks": [
+        {
+          "name": "Shrouded Touch",
+          "type": "melee",
+          "attack": 33,
+          "damageParts": [
+            {
+              "name": "3d12+19",
+              "details": "force"
+            }
+          ]
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "dark-archive",
+      "haunt",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D9E2B6D1-E9D4-5718-A635-ACFF86D6448B",
+    "kind": "Hazard",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Shuffling Hall",
+    "slug": "shuffling-hall-dark-archive",
+    "descr": "",
+    "data": {
+      "level": -1,
+      "rarity": "common",
+      "traits": [
+        "mechanical",
+        "trap"
+      ],
+      "complexity": "simple",
+      "stealth": 5,
+      "ac": {
+        "value": 18,
+        "details": ""
+      },
+      "hp": {
+        "value": 12,
+        "details": "",
+        "bt": 6
+      },
+      "hardness": 4,
+      "saves": {
+        "fortitude": 2,
+        "reflex": 5,
+        "will": 0
+      },
+      "disable": "Thievery DC 12 to deactivate one pressure plate",
+      "routine": "",
+      "reset": "The trap resets after 1 round.",
+      "abilities": [
+        {
+          "name": "Flip",
+          "text": "**Trigger** A creature steps on a pressure plate\n\n**Effect** The floor and adjoining wall rotate up and over on a central axle, tipping the triggering creature into an adjacent featureless room and simultaneously replacing the pressure plate and wall with another set on the same axle. The triggering creature is pushed into an adjoining room, takes 1d8 bludgeoning damage, and lands [Prone](/condition/prone-player-core). A creature who succeeds at a Reflex DC 19 save takes no damage and rolls out of the way of the trap, returning to the space they were in before stepping on the pressure plate.",
+          "traits": [],
+          "actions": "reaction"
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "mechanical",
+          "slug": "mechanical"
+        },
+        {
+          "label": "trap",
+          "slug": "trap"
+        }
+      ],
+      "description": "Pressure plates rotate sections of a mirrored hall into adjoining rooms.",
+      "stealthDC": 15
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "dark-archive",
+      "mechanical",
+      "remaster",
+      "trap"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "31DA03B2-8758-5515-BDAE-A6442FD33818",
+    "kind": "Hazard",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Sigil of Deepest Fears",
+    "slug": "sigil-of-deepest-fears-dark-archive",
+    "descr": "",
+    "data": {
+      "level": 17,
+      "rarity": "common",
+      "traits": [
+        "magical",
+        "trap"
+      ],
+      "complexity": "simple",
+      "stealth": 33,
+      "ac": {
+        "value": 0,
+        "details": ""
+      },
+      "hp": {
+        "value": 0,
+        "details": ""
+      },
+      "hardness": 0,
+      "saves": {
+        "fortitude": 0,
+        "reflex": 0,
+        "will": 0
+      },
+      "disable": "Thievery DC 43 (master) to drain the sigil's power harmlessly, or Dispel Magic (9th rank; counteract DC 42) to counteract the sigil",
+      "routine": "",
+      "reset": "The trap resets after 1 day.",
+      "abilities": [
+        {
+          "name": "Face Your Fear",
+          "text": "**Trigger** A creature moves within 10 feet of the sigil\n\n**Effect** All creatures within 120 feet of the sigil are affected by a [Phantasmagoria](/spell/phantasmagoria-player-core) spell (Will DC 40 save).",
+          "traits": [
+            "arcane",
+            "death",
+            "emotion",
+            "fear",
+            "illusion",
+            "mental"
+          ],
+          "actions": "reaction"
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "trap",
+          "slug": "trap"
+        }
+      ],
+      "stealthDetails": "(master)",
+      "description": "An arcane mark confronts creatures with their strongest fears.",
+      "stealthDC": 43
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "dark-archive",
+      "magical",
+      "remaster",
+      "trap"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F50D48B9-347C-51B4-B3CE-09ED138177CE",
+    "kind": "Hazard",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spirit Window",
+    "slug": "spirit-window-dark-archive",
+    "descr": "",
+    "data": {
+      "level": 20,
+      "rarity": "common",
+      "traits": [
+        "haunt"
+      ],
+      "complexity": "simple",
+      "stealth": 41,
+      "ac": {
+        "value": 45,
+        "details": ""
+      },
+      "hp": {
+        "value": 132,
+        "details": "Hardness 35 (window)",
+        "bt": 66
+      },
+      "hardness": 35,
+      "saves": {
+        "fortitude": 36,
+        "reflex": 30,
+        "will": 0
+      },
+      "disable": "Occultism DC 48 (legendary) to free the spirits from the mirror, or Religion DC 48 (legendary) to banish the spirits",
+      "routine": "",
+      "reset": "The trap resets after 1 round.",
+      "abilities": [
+        {
+          "name": "Siphon Soul",
+          "text": "**Trigger** A creature touches the window\n\n**Effect** The triggering creature takes 8d10+44 void damage with a basic Will DC 42 save as the window attempts to steal their soul. If this damage would kill the target, the target's soul is trapped inside the window with the effects of [Seize Soul](/spell/seize-soul-player-core).",
+          "traits": [
+            "occult",
+            "void"
+          ],
+          "actions": "reaction"
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "haunt",
+          "slug": "haunt"
+        }
+      ],
+      "description": "Spirits imprisoned in a window lash out at those who touch it.",
+      "stealthDC": 51
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "dark-archive",
+      "haunt",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8CB6670F-B026-594C-A043-0D1CAAC217B8",
+    "kind": "Hazard",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Thalassophobia Pool",
+    "slug": "thalassophobia-pool-dark-archive",
+    "descr": "",
+    "data": {
+      "level": 12,
+      "rarity": "common",
+      "traits": [
+        "magical",
+        "trap"
+      ],
+      "complexity": "complex",
+      "stealth": 15,
+      "ac": {
+        "value": 0,
+        "details": ""
+      },
+      "hp": {
+        "value": 0,
+        "details": ""
+      },
+      "hardness": 0,
+      "saves": {
+        "fortitude": 0,
+        "reflex": 0,
+        "will": 0
+      },
+      "disable": "Diplomacy DC 32 (master) to quell the fear and calm the pool or Intimidation DC 35 to give the pool something worse to fear; three successes required.",
+      "routine": "(3 actions) Water from the chalice increases the depth of the water by 10 feet for each action. Each time this happens, creatures in the pool are pushed 10 feet down and take 1d6 bludgeoning damage. As the pool has no bottom, creatures in it can fall down indefinitely; they must [Swim](/action/swim-player-core) up to avoid drowning, but the water is especially choppy, so the Athletics DC is Athletics DC 25. The pool never overflows. Each successful check to Disable reduces the pool's actions by 1, and once the pool is completely Disabled, the water becomes still and the Athletics DC to Swim becomes Athletics DC 10.",
+      "reset": "The trap resets once there are no moving creatures in it.",
+      "abilities": [
+        {
+          "name": "Downpour",
+          "text": "**Trigger** A creature falls into the pool\n\n**Effect** More water pours forth from the chalice. Creatures in the pool become [Clumsy 1](/condition/clumsy-player-core), and they can't decrease their [clumsy](/condition/clumsy-player-core) condition so long as they remain in the pool. The trap then rolls initiative.",
+          "traits": [],
+          "actions": "reaction"
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "trap",
+          "slug": "trap"
+        }
+      ],
+      "stealthDetails": "(trained)",
+      "description": "An apparently ordinary pool pulls those who fall in toward impossible depths."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "dark-archive",
+      "magical",
+      "remaster",
+      "trap"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

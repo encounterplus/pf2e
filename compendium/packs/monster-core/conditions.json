@@ -1,0 +1,2378 @@
+[
+  {
+    "id": "80223040-7C25-5F5F-A5FF-823AD0F5F90D",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Aura of Corruption",
+    "slug": "effect-aura-of-corruption-monster-core",
+    "descr": "The creature is treated as if it was a plant for the purposes of any effect that particularly harms or inconveniences plant creatures more than other creatures, but does not gain any benefits of being a plant creature.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C4C64577-546A-55AD-BCCD-1C3754332378",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Aura of Disquietude",
+    "slug": "effect-aura-of-disquietude-monster-core",
+    "descr": "A creature [frightened](/condition/frightened-player-core) by the aura can't flank.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "DBA9679C-FEB0-500A-B86B-DECCB9328C86",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Aura of Misfortune",
+    "slug": "effect-aura-of-misfortune-monster-core",
+    "descr": "Living creatures must roll twice on all d20 rolls and use the lower result.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9030EAC5-3FA8-5D61-A8A0-483914E75C2F",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Battle Cry",
+    "slug": "effect-battle-cry-monster-core",
+    "descr": "The creature gains a +1 status bonus to attack and damage rolls.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "31917AF1-C490-5D82-8A00-35CA76304CE0",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Blasphemous Utterances",
+    "slug": "effect-blasphemous-utterances-monster-core",
+    "descr": "The creature takes a -2 circumstance penalty to saves against mental effects.\n\nIt can't take actions that have the [concentrate](/trait/concentrate) trait unless it succeeds at a Flat DC 10 check. Failing this check wastes the action.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8C3EE1CB-67D2-5CB7-997A-A4B5D018CB68",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Blood Soak",
+    "slug": "effect-blood-soak-monster-core",
+    "descr": "The creature gains a +4 status bonus to damage rolls.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C4FC9F0F-A959-5D72-A2EB-8355E68D234F",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Bogwid Fever",
+    "slug": "effect-bogwid-fever-monster-core",
+    "descr": "You are enfeebled, and the DC to recover from persistent bleed damage increases based on the stage of disease.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3B53F8C9-5D18-5295-896D-1113E7843BBE",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Brand of the Impenitent",
+    "slug": "effect-brand-of-the-impenitent-monster-core",
+    "descr": "The creature takes a -1 status penalty to AC and saves, reduces its resistances by 2, and gains weakness 2 to holy.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "843DA61C-CF39-51CA-B7AC-8507B7DE0226",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Calming Bioluminescence",
+    "slug": "effect-calming-bioluminescence-monster-core",
+    "descr": "The creature gains a +2 circumstance bonus to saving throws against emotion effects.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "77B1A30E-A20E-569B-87BB-875187764D08",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Caustic Mucus",
+    "slug": "effect-caustic-mucus-monster-core",
+    "descr": "The creature takes a –5-foot status penalty to its Speed. This Speed reduction ends with the persistent acid damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E3492F74-65A9-56EB-9DC3-71D5B72B0F5B",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Chaotic Spawning",
+    "slug": "effect-chaotic-spawning-monster-core",
+    "descr": "The vescavor swarm becomes Huge and quickened. It can only use the extra action each round for the Ravenous Bites action.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B2489F20-64FA-5C5C-938D-643521B21D03",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Clinging Suckers",
+    "slug": "effect-clinging-suckers-monster-core",
+    "descr": "If you are Medium or smaller, you take a –5-foot status penalty to your Speeds.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "473334D7-ECDC-5D35-9AA7-765A647DFBD0",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Conductive Downpour",
+    "slug": "effect-conductive-downpour-monster-core",
+    "descr": "Creatures in the aura gain weakness 10 to electricity.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A68A41BD-2494-5879-9EC5-25B77A027EC4",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Crystalline Dust Form",
+    "slug": "effect-crystalline-dust-form-monster-core",
+    "descr": "The creature gains a fly Speed of 40 feet.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "008B5997-2339-5D4A-A30A-4707493BD401",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Curse of Boiling Blood",
+    "slug": "effect-curse-of-boiling-blood-monster-core",
+    "descr": "You gain weakness to fire 20 and are slowed 1.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C9018CB1-ACC4-5597-9AEB-E9ABA804F752",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Curse of Fire",
+    "slug": "effect-curse-of-fire-monster-core",
+    "descr": "You gain weakness to fire 15.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3A4933B1-70FE-524C-8702-7D2E15830417",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Curse of Frost",
+    "slug": "effect-curse-of-frost-monster-core",
+    "descr": "You gain weakness to cold 15.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C1C87D9A-B6E5-56D5-A97C-DF4B4FB181CC",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Dero Medicine",
+    "slug": "effect-dero-medicine-monster-core",
+    "descr": "You gain weakness 2 to slashing.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "52B8EFF0-C093-5232-9127-EDCFE766A814",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Devour Soul",
+    "slug": "effect-devour-soul-monster-core",
+    "descr": "The creature gains 10 temporary Hit Points and a +2 status bonus to attack and damage rolls.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "70827500-9FCB-55E4-AC01-51106E4EE2B6",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Devour Soul (Victim Level 15 or Higher)",
+    "slug": "effect-devour-soul-victim-level-15-or-higher-monster-core",
+    "descr": "The creature gains 10 temporary Hit Points and a +2 status bonus to attack and damage rolls.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B1EA5983-0489-52D1-8DCF-22A322CCAF30",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Distracting Frolic",
+    "slug": "effect-distracting-frolic-monster-core",
+    "descr": "The target ally can roll the save twice and take the better result.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "91BAC564-1447-50DF-83D4-EDA78C7A0AD6",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Elemental Field",
+    "slug": "effect-elemental-field-monster-core",
+    "descr": "You take a –1 status penalty to saves against electricity spells.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "6C9421DE-18FB-5E52-94BC-256C7DC94C1C",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Engulf and Swallow Whole",
+    "slug": "effect-engulf-and-swallow-whole-monster-core",
+    "descr": "Granted by Engulf or Swallow Whole\n\nYou are grabbed, slowed 1, and you have to hold your breath or start suffocating. You can only attack the origin with unarmed attacks or with weapons of light Bulk or less, and the origin is off-guard against the attack. If the origin takes piercing or slashing damage equaling or exceeding the listed Rupture value from a single attack or spell, you cut yourself free.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A5D0DA61-7588-5E8D-A126-03DB0DBCDB85",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Ensnare",
+    "slug": "effect-ensnare-monster-core",
+    "descr": "The creature takes a –10-foot status penalty to its Speed.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F1454C80-A51F-54EF-B64E-503A71A40B23",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Entangling Slime",
+    "slug": "effect-entangling-slime-monster-core",
+    "descr": "You are clumsy 1 and take a –5-foot penalty to Speed.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "96F858C5-FB3D-5044-91E8-0497EE748346",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Fan Bolt",
+    "slug": "effect-fan-bolt-monster-core",
+    "descr": "The creature takes a –10-foot status penalty to its swim Speed.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "CD6FC969-B4AA-53EC-BE6F-C1C5BDCB1DA3",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Fetid Fumes",
+    "slug": "effect-fetid-fumes-monster-core",
+    "descr": "Everything within the aura is concealed by smoke.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8B7BEE35-59BA-5194-9FB2-D73C316273F2",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Filth Wave",
+    "slug": "effect-filth-wave-monster-core",
+    "descr": "You take a penalty to your Speeds.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "71628FD3-5753-522F-9839-26E0A6EAA944",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Frill Defense",
+    "slug": "effect-frill-defense-monster-core",
+    "descr": "You gain a +2 circumstance bonus to AC.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 0,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1D87F76C-BB5A-5BC9-8EFD-E4ADC40B15A8",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Glutton's Feast",
+    "slug": "effect-glutton-s-feast-monster-core",
+    "descr": "The ogre glutton gains 1d4 temporary hit points, or 2d4 following glutton's rush.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3D45908A-8F25-5303-BE7D-DC366483296B",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Goblin Song",
+    "slug": "effect-goblin-song-monster-core",
+    "descr": "The creature takes a -1 status penalty to Perception checks and Will saves.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "DA69B1E5-887E-582E-AB53-98F03BD66583",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Graveknight's Curse",
+    "slug": "effect-graveknight-s-curse-monster-core",
+    "descr": "The creature's Speed is reduced by 10.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1C8B7FC7-D78B-5EFD-8632-5FC398495FC7",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Harmonizing Aura (Allies)",
+    "slug": "effect-harmonizing-aura-allies-monster-core",
+    "descr": "The creature gains a +2 status bonus to sonic damage rolls and a +1 status bonus to AC and all saves against sonic and auditory effects",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4B0BE6A9-35A5-5B5D-97AD-792F92BF622F",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Harmonizing Aura (Enemies)",
+    "slug": "effect-harmonizing-aura-enemies-monster-core",
+    "descr": "The creature gains a -2 status bonus to sonic damage rolls and a -1 status bonus to AC and all saves against sonic and auditory effects",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0E7E6533-B08A-51E4-A803-F44BD9EE7D08",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Hunted Fear",
+    "slug": "effect-hunted-fear-monster-core",
+    "descr": "The creature takes a -2 circumstance penalty to Survival checks to avoid getting lost.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0BF2377C-0AF9-5148-B865-9D31D6BE10E6",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Hydra Heads",
+    "slug": "effect-hydra-heads-monster-core",
+    "descr": "The number of heads the hydra currently has.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8D202C56-47A4-5305-ACD6-77DA33BB143F",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Infectious Aura",
+    "slug": "effect-infectious-aura-monster-core",
+    "descr": "You take a –2 status penalty to saves against disease.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "AF99DC87-C67F-5A80-81C3-7BEDAD03F419",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Inspiring Display",
+    "slug": "effect-inspiring-display-monster-core",
+    "descr": "That target gains 4 temporary Hit Points that last until the start of the cavern mage's next turn.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "10264BCC-1C87-576C-8672-0AC9DDD2931C",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Inspiring Presence (Empyreal Dragon)",
+    "slug": "effect-inspiring-presence-empyreal-dragon-monster-core",
+    "descr": "Creatures within the aura gain a +1 status bonus to saving throws and skill checks.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F406896C-D6D4-5E7B-86E5-CF3C7D969425",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Interpose",
+    "slug": "effect-interpose-monster-core",
+    "descr": "The creature gains a +2 circumstance bonus to AC.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "05E3E67F-F1E4-5F54-B9C0-1DA7F412CF5C",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Invigorating Passion",
+    "slug": "effect-invigorating-passion-monster-core",
+    "descr": "The creature gains a +1 status bonus to attack rolls and 10 temporary Hit Points.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 10,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2E23604D-A573-5364-A942-1498E1E0904E",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Invoke Rune",
+    "slug": "effect-invoke-rune-monster-core",
+    "descr": "A glowing copy of the invoked rune appears on a single weapon the giant holds, granting the weapon one effect of the giant's choice.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "AC6E05CE-12A0-5739-B76D-D3E363E60DA8",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Light of Truth",
+    "slug": "effect-light-of-truth-monster-core",
+    "descr": "Against creatures affected by this light, the zoaem and their allies gain a +1 status bonus to damage rolls and Recall Knowledge checks.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B9EC304F-3378-5600-B959-CAD188AE58D0",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Living Shield",
+    "slug": "effect-living-shield-monster-core",
+    "descr": "The rekhep grants an adjacent ally a +2 circumstance bonus to AC until they're no longer adjacent or until the start of the archon's next turn, whichever comes first.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "EF20025C-0697-534C-A475-066165ED2150",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Lost Red Cap",
+    "slug": "effect-lost-red-cap-monster-core",
+    "descr": "The creature takes a -4 status penalty to its damage rolls.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A9AFDB51-F2D4-585E-BF45-942964F70241",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Mangling Rend",
+    "slug": "effect-mangling-rend-monster-core",
+    "descr": "The target takes a –20-foot status penalty to all Speeds until the end of its next turn.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4DD47744-1C7C-5212-A3E1-9CB493CC1E2C",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Miasma",
+    "slug": "effect-miasma-monster-core",
+    "descr": "Any creature in the miasma is concealed and treats other creatures as concealed.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "BCD09E9D-8832-50B7-B56C-EF1C48B9264D",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Moon Frenzy",
+    "slug": "effect-moon-frenzy-monster-core",
+    "descr": "The creature becomes one size larger, increases its reach by 5 feet, and increases the damage of its jaws Strike (or a similar Strike) by 2.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "48220898-7970-5C8A-B9AE-60A17110BF00",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Pain Frenzy",
+    "slug": "effect-pain-frenzy-monster-core",
+    "descr": "The creature gains a +2 status bonus to attack and damage rolls.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9111A31F-4F44-52EE-BEF3-C1C274761D13",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Phytohydra Heads",
+    "slug": "effect-phytohydra-heads-monster-core",
+    "descr": "The number of heads the hydra currently has.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "62A36565-CFF1-5F0D-9A73-0770D1378862",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Profane Gift",
+    "slug": "effect-profane-gift-monster-core",
+    "descr": "The creature gains a +1 status bonus to attack rolls, skill checks, and saving throws.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "FFCE5309-A75F-5C9B-B67D-C83D1281CCC5",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Protean Anatomy",
+    "slug": "effect-protean-anatomy-monster-core",
+    "descr": "The creature gains resistance to either acid, electricity, or sonic according to its Protean Anatomy.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C155DE4B-07A3-56D1-8C08-189020DD8A62",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Ravenous Young",
+    "slug": "effect-ravenous-young-monster-core",
+    "descr": "Once a larva is attached, the target becomes [Drained 1](/condition/drained-player-core). While the larva remains attached, the target cannot recover from persistent bleed.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "62B088AF-48A5-5852-99AA-27E69972767F",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Revert Form",
+    "slug": "effect-revert-form-monster-core",
+    "descr": "The creature gains a +2 status bonus to attack rolls, damage rolls, saving throws, and skill checks.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "185130BB-FA94-5701-B258-649483FFFD50",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Sinful Bite",
+    "slug": "effect-sinful-bite-monster-core",
+    "descr": "You take a –10-foot status penalty to your Speeds.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1766FB10-C36F-5F5C-8C17-2B721CE2FFA0",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Slime Trap",
+    "slug": "effect-slime-trap-monster-core",
+    "descr": "The creature takes a –10-foot circumstance penalty to its Speeds.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9D6152B4-C231-5C3D-86C8-F6FF4948D458",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Soul Lock (Healing)",
+    "slug": "effect-soul-lock-healing-monster-core",
+    "descr": "The cacodaemon gains fast healing 5 for 1 minute.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "7EE0489D-A69B-5FDB-8DE4-BFC76B2CEED9",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Soul Siphon",
+    "slug": "effect-soul-siphon-monster-core",
+    "descr": "The creature gains 5 temporary Hit Points and a +1 status bonus to attack and damage rolls.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "92495F0F-B3A4-560B-996F-F2E66DD1BC90",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Splintered Ground",
+    "slug": "effect-splintered-ground-monster-core",
+    "descr": "The creature takes a –10-foot circumstance penalty to all Speeds.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 10,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "7274C1A6-3072-5B03-90A0-30DCF5FF0621",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Splintered Ground (Critical Failure)",
+    "slug": "effect-splintered-ground-critical-failure-monster-core",
+    "descr": "The creature takes a –15-foot circumstance penalty to all Speeds.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 24,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B3088110-DBA4-5210-B8D9-4D4D62BB7D6A",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Sticky Spores",
+    "slug": "effect-sticky-spores-monster-core",
+    "descr": "The creature takes a –10-foot status penalty to all its Speeds.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "CD53558D-9C3D-5ABB-84C8-11278BFBB0DA",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Swarming Bites",
+    "slug": "effect-swarming-bites-monster-core",
+    "descr": "You become clumsy 1. If you attempt a concentrate or manipulate action while affected, you must succeed at a Flat DC 5 or the action is lost; roll the check after spending the action, but before any effects are applied.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "710DBD99-5218-5CB8-A081-93B343D2B126",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Sylvan Wine",
+    "slug": "effect-sylvan-wine-monster-core",
+    "descr": "The creature gains a +1 item bonus to Will saves and a +3 item bonus to Will saves against fear effects.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "98DAD83E-A971-58B2-852D-E00B11ABF7CE",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Tail Lash",
+    "slug": "effect-tail-lash-monster-core",
+    "descr": "You take a –2 circumstance penalty to the triggering roll.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "02C9DC23-223B-52E7-BBEE-70EEC6D72088",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Take Them Down!",
+    "slug": "effect-take-them-down-monster-core",
+    "descr": "The creature gains a +1 status bonus to attack rolls and damage rolls.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "854A37A1-1B01-5DAD-B16A-44AF04CCB240",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Tooth Tug",
+    "slug": "effect-tooth-tug-monster-core",
+    "descr": "You take a –1 status penalty to Charisma-based skill checks and must succeed at a DC 5 flat check to Cast a Spell unless that spell has the [subtle](/trait/subtle) trait.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1949CD03-51CA-5076-A7EA-9BE3A8472DB7",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Transfer Protection",
+    "slug": "effect-transfer-protection-monster-core",
+    "descr": "A creature can wear a willing cassisian as a helmet. While it does, the cassisian can't act, but the cassisian extends their +1 status bonus to AC and saves against unholy creatures to their wearer. At any time, the cassisian can detach themself from their wearer as a single action.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0BA83DA9-A0F8-555A-8EA2-EA8D32B43BF3",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Undead Mastery",
+    "slug": "effect-undead-mastery-monster-core",
+    "descr": "The creature gains a +1 circumstance bonus to attack rolls, damage rolls, AC, saves, and skill checks.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "414871E5-C25C-5A2E-B850-BAAAF47998D8",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Unluck Aura",
+    "slug": "effect-unluck-aura-monster-core",
+    "descr": "The creature must roll twice and take the worse result on all checks.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D50B948F-8322-573F-8C77-A37279FC726A",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Unsettled Aura",
+    "slug": "effect-unsettled-aura-monster-core",
+    "descr": "Gosregs project a field of discordant energy that unsettles the minds of thinking creatures. Any non-mindless creature within 30 feet of a gosreg takes a -1 status penalty to Will saves.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9AD3B24F-9412-506E-A01C-D4939AEBD66A",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Void Shroud",
+    "slug": "effect-void-shroud-monster-core",
+    "descr": "Living creatures in the emanation take a -2 status penalty to saves against fear and death effects.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "CA4B6165-38B7-51C7-A1C2-E5179C96DE00",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Courageous Anthem (Kanya)",
+    "slug": "spell-effect-courageous-anthem-kanya-monster-core",
+    "descr": "Granted by a Kanya's [Courageous Anthem](/spell/courageous-anthem-player-core)\n\nYou gain a +2 status bonus to attack rolls, damage rolls, and saves against fear effects.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

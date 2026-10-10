@@ -1,0 +1,169 @@
+[
+  {
+    "id": "233FD976-7F0F-5A94-AB7C-B1CCFDF5B1BF",
+    "kind": "Table",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Signature Crafting Quirk",
+    "slug": "signature-crafting-quirk-player-core-2",
+    "descr": "Roll 1d10 and use the matching result range. [Open the source entry](/feat/signature-crafting-player-core-2) for context.",
+    "sources": [
+      {
+        "name": "Player Core 2"
+      }
+    ],
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "table",
+      "rollable",
+      "player-core-2"
+    ],
+    "columns": [
+      {
+        "name": "1d10",
+        "size": 0.3333333333333333,
+        "align": null
+      },
+      {
+        "name": "Quirk",
+        "size": 0.3333333333333333,
+        "align": null
+      },
+      {
+        "name": "Description",
+        "size": 0.3333333333333333,
+        "align": null
+      }
+    ],
+    "rows": [
+      [
+        "1",
+        "Cavorting",
+        "Dances in place when not in use."
+      ],
+      [
+        "2",
+        "Clean",
+        "Remains pristine despite filth."
+      ],
+      [
+        "3",
+        "Environmental",
+        "Appearance changes to match its environment."
+      ],
+      [
+        "4",
+        "Filthy",
+        "A layer of filth always remains."
+      ],
+      [
+        "5",
+        "Floating",
+        "Slowly descends when dropped."
+      ],
+      [
+        "6",
+        "Glittering",
+        "Shimmers and glows with light bright as a torch."
+      ],
+      [
+        "7",
+        "Invisible",
+        "The item is invisible, but becomes visible for 1 round after being used."
+      ],
+      [
+        "8",
+        "Loyal",
+        "Floats within 5 feet of its owner, as if on a tether (but can still be seized by someone else)."
+      ],
+      [
+        "9",
+        "Mood coloration",
+        "User's mood affects the item's color."
+      ],
+      [
+        "10",
+        "Skillful",
+        "The item grants a +1 item bonus to one type of skill checks."
+      ]
+    ],
+    "rollMode": "normal"
+  },
+  {
+    "id": "543782AB-EC1D-5E34-B27F-0A3AD1F0D282",
+    "kind": "Table",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Chthonian Wrath Realm",
+    "slug": "chthonian-wrath-realm-player-core-2",
+    "descr": "Roll 1d4 and use the matching result range. [Open the source entry](/spell/chthonian-wrath-player-core-2) for context.",
+    "sources": [
+      {
+        "name": "Player Core 2"
+      }
+    ],
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "table",
+      "rollable",
+      "player-core-2"
+    ],
+    "columns": [
+      {
+        "name": "1d4",
+        "size": 0.25,
+        "align": null
+      },
+      {
+        "name": "Realm",
+        "size": 0.25,
+        "align": null
+      },
+      {
+        "name": "Manifestation",
+        "size": 0.25,
+        "align": null
+      },
+      {
+        "name": "Damage and type",
+        "size": 0.25,
+        "align": null
+      }
+    ],
+    "rows": [
+      [
+        "1",
+        "Skies",
+        "Bolts and lightning and flying debris",
+        "Bludgeoning and electricity"
+      ],
+      [
+        "2",
+        "Depths",
+        "Acid and demonic shells",
+        "Acid and slashing"
+      ],
+      [
+        "3",
+        "Frozen",
+        "Frigid air and ice",
+        "Bludgeoning and cold"
+      ],
+      [
+        "4",
+        "Volcanic",
+        "Jagged volcanic rocks and magma",
+        "Fire and piercing"
+      ]
+    ],
+    "rollMode": "normal"
+  }
+]

@@ -1,0 +1,684 @@
+[
+  {
+    "id": "99136982-B52F-5819-8B1F-9CB091FD5A29",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Digly's Oil of Sympathy (Greater)",
+    "slug": "digly-s-oil-of-sympathy-greater-npc-core",
+    "descr": "---\n\nThis thick, red liquid has a pungent—but not unpleasant—smell. You pour the oil onto a weapon when activating it. If the weapon has damaged a creature within the last 10 minutes, the most recent creature damaged by the weapon regains (6d10+20) healing Hit Points. The creature is then temporarily immune to *Digly's oil of sympathy* for 10 minutes.\n\nThe magic relies on the malice behind the attack, so the weapon must have been used against an enemy of the attacker. In other words, someone can't voluntarily take damage from a friend's weapon, then heal from it—a fact that made it very difficult for Sir Kenelm Digly to test the oil during its development.",
+    "data": {
+      "level": 12,
+      "rarity": "rare",
+      "traits": [
+        "consumable",
+        "healing",
+        "magical",
+        "oil"
+      ],
+      "category": "oil",
+      "price": "400 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "healing",
+          "slug": "healing"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "oil",
+          "slug": "oil"
+        }
+      ],
+      "activation": {
+        "actions": "one",
+        "traits": [
+          "manipulate"
+        ],
+        "text": ""
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "healing",
+      "magical",
+      "npc-core",
+      "oil",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F648EC4B-C55A-5268-840F-E479A41B65FC",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Digly's Oil of Sympathy (Lesser)",
+    "slug": "digly-s-oil-of-sympathy-lesser-npc-core",
+    "descr": "---\n\nThis thick, red liquid has a pungent—but not unpleasant—smell. You pour the oil onto a weapon when activating it. If the weapon has damaged a creature within the last 10 minutes, the most recent creature damaged by the weapon regains (2d10+5) healing Hit Points. The creature is then temporarily immune to *Digly's oil of sympathy* for 10 minutes.\n\nThe magic relies on the malice behind the attack, so the weapon must have been used against an enemy of the attacker. In other words, someone can't voluntarily take damage from a friend's weapon, then heal from it—a fact that made it very difficult for Sir Kenelm Digly to test the oil during its development.",
+    "data": {
+      "level": 3,
+      "rarity": "rare",
+      "traits": [
+        "consumable",
+        "healing",
+        "magical",
+        "oil"
+      ],
+      "category": "oil",
+      "price": "12 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "healing",
+          "slug": "healing"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "oil",
+          "slug": "oil"
+        }
+      ],
+      "activation": {
+        "actions": "one",
+        "traits": [
+          "manipulate"
+        ],
+        "text": ""
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "healing",
+      "magical",
+      "npc-core",
+      "oil",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F1834D20-ECB7-5B8B-9DF2-0C44EA3E23FD",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Digly's Oil of Sympathy (Major)",
+    "slug": "digly-s-oil-of-sympathy-major-npc-core",
+    "descr": "---\n\nThis thick, red liquid has a pungent—but not unpleasant—smell. You pour the oil onto a weapon when activating it. If the weapon has damaged a creature within the last 10 minutes, the most recent creature damaged by the weapon regains (8d10+30) healing Hit Points. The creature is then temporarily immune to *Digly's oil of sympathy* for 10 minutes.\n\nThe magic relies on the malice behind the attack, so the weapon must have been used against an enemy of the attacker. In other words, someone can't voluntarily take damage from a friend's weapon, then heal from it—a fact that made it very difficult for Sir Kenelm Digly to test the oil during its development.",
+    "data": {
+      "level": 18,
+      "rarity": "rare",
+      "traits": [
+        "consumable",
+        "healing",
+        "magical",
+        "oil"
+      ],
+      "category": "oil",
+      "price": "5000 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "healing",
+          "slug": "healing"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "oil",
+          "slug": "oil"
+        }
+      ],
+      "activation": {
+        "actions": "one",
+        "traits": [
+          "manipulate"
+        ],
+        "text": ""
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "healing",
+      "magical",
+      "npc-core",
+      "oil",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "CB5CA877-CDC6-55B2-ABD8-B360A13C727A",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Digly's Oil of Sympathy (Minor)",
+    "slug": "digly-s-oil-of-sympathy-minor-npc-core",
+    "descr": "---\n\nThis thick, red liquid has a pungent—but not unpleasant—smell. You pour the oil onto a weapon when activating it. If the weapon has damaged a creature within the last 10 minutes, the most recent creature damaged by the weapon regains 1d10 healing Hit Points. The creature is then temporarily immune to *Digly's oil of sympathy* for 10 minutes.\n\nThe magic relies on the malice behind the attack, so the weapon must have been used against an enemy of the attacker. In other words, someone can't voluntarily take damage from a friend's weapon, then heal from it—a fact that made it very difficult for Sir Kenelm Digly to test the oil during its development.",
+    "data": {
+      "level": 1,
+      "rarity": "rare",
+      "traits": [
+        "consumable",
+        "healing",
+        "magical",
+        "oil"
+      ],
+      "category": "oil",
+      "price": "4 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "healing",
+          "slug": "healing"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "oil",
+          "slug": "oil"
+        }
+      ],
+      "activation": {
+        "actions": "one",
+        "traits": [
+          "manipulate"
+        ],
+        "text": ""
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "healing",
+      "magical",
+      "npc-core",
+      "oil",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B52F63AB-43DB-5AA2-ADE2-3FEEE2F15770",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Digly's Oil of Sympathy (Moderate)",
+    "slug": "digly-s-oil-of-sympathy-moderate-npc-core",
+    "descr": "---\n\nThis thick, red liquid has a pungent—but not unpleasant—smell. You pour the oil onto a weapon when activating it. If the weapon has damaged a creature within the last 10 minutes, the most recent creature damaged by the weapon regains (3d10+10) healing Hit Points. The creature is then temporarily immune to *Digly's oil of sympathy* for 10 minutes.\n\nThe magic relies on the malice behind the attack, so the weapon must have been used against an enemy of the attacker. In other words, someone can't voluntarily take damage from a friend's weapon, then heal from it—a fact that made it very difficult for Sir Kenelm Digly to test the oil during its development.",
+    "data": {
+      "level": 6,
+      "rarity": "rare",
+      "traits": [
+        "consumable",
+        "healing",
+        "magical",
+        "oil"
+      ],
+      "category": "oil",
+      "price": "50 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "healing",
+          "slug": "healing"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "oil",
+          "slug": "oil"
+        }
+      ],
+      "activation": {
+        "actions": "one",
+        "traits": [
+          "manipulate"
+        ],
+        "text": ""
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "healing",
+      "magical",
+      "npc-core",
+      "oil",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "817FF507-90B6-52CC-BF14-BF0737BA081F",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Doll (Exquisite surprise)",
+    "slug": "doll-exquisite-surprise-npc-core",
+    "descr": "This doll contains a hidden compartment or pouch capable of holding a single object of up to light Bulk—typically a bell, rattle, or dried flowers.\n\nHiding an object inside this beautifully crafted surprise doll grants you a +1 item bonus to Stealth checks made to Conceal an Item, as the compartment is particularly well-hidden and weighted to ensure the doll doesn't feel off-balance with an item inside.",
+    "data": {
+      "level": 2,
+      "rarity": "common",
+      "traits": [],
+      "category": "held",
+      "price": "10 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "L",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3509AB32-4F77-5426-92F6-23112181026F",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Doll (Surprise)",
+    "slug": "doll-surprise-npc-core",
+    "descr": "This doll contains a hidden compartment or pouch capable of holding a single object of up to light Bulk—typically a bell, rattle, or dried flowers.",
+    "data": {
+      "level": 1,
+      "rarity": "common",
+      "traits": [],
+      "category": "held",
+      "price": "1 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "L",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "71933781-6CC6-5543-99A8-5704EA75996F",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Malefic Mirror",
+    "slug": "malefic-mirror-npc-core",
+    "descr": "This magic mirror is the conduit between the mirror seer and the source of their power. Any creature who looks in this silver mirror can speak with the entity the mirror is linked to, but only a creature who has made a pact with the entity can activate the *malefic mirror*. If the mirror is shattered, any spells created by the mirror end (it has AC 5, object immunities, Hardness 5, HP 20, and BT 10).\n\n---",
+    "data": {
+      "level": 11,
+      "rarity": "rare",
+      "traits": [
+        "invested",
+        "occult",
+        "scrying",
+        "unholy"
+      ],
+      "category": "other",
+      "price": "",
+      "usage": "other",
+      "bulk": "2",
+      "traitLinks": [
+        {
+          "label": "invested",
+          "slug": "invested"
+        },
+        {
+          "label": "occult",
+          "slug": "occult"
+        },
+        {
+          "label": "scrying",
+          "slug": "scrying"
+        },
+        {
+          "label": "unholy",
+          "slug": "unholy"
+        }
+      ],
+      "activations": [
+        {
+          "name": "Peer Beyond",
+          "text": "10 minutes (concentrate, occult)\n\n**Effect** The mirror casts a DC 28 [Scrying](/spell/scrying-player-core) spell for the benefit of the creature activating it. The target must be within the owner's domain (typically within 20 miles of the mirror). The viewer's familiarity with the target doesn't affect the spell's DC.\n\n---",
+          "effect": "The mirror casts a DC 28 [Scrying](/spell/scrying-player-core) spell for the benefit of the creature activating it. The target must be within the owner's domain (typically within 20 miles of the mirror). The viewer's familiarity with the target doesn't affect the spell's DC.\n\n---",
+          "description": "10 minutes (concentrate, occult)"
+        },
+        {
+          "name": "Mirror Mimicry",
+          "text": "10 minutes (concentrate, manipulate, occult)\n\n**Effect** The mirror transforms its owner's appearance into an exact copy of any humanoid the owner desires, with a pale mimicry of that creature's abilities. This has the effects of a 3rd-rank [Illusory Disguise](/spell/illusory-disguise-player-core) spell with a duration of 4 hours. The activation can also be Dismissed.\n\nIn addition, the disguised creature can automatically create illusions to mimic the abilities of the subject, with the appearance of spells, abilities, or even impressive physical deeds. These deeds are entirely illusory and can be disbelieved with a successful Perception DC 28 check. If an illusion makes it appear as though the creature moved farther or differently than they actually can (such as making them fly or teleport), the actual creature turns [Invisible](/condition/invisible-player-core), and their illusory image persists until the end of the creature's next turn. If the creature and their illusory self aren't in the same space at that point, the activation ends, revealing the deception.",
+          "effect": "The mirror transforms its owner's appearance into an exact copy of any humanoid the owner desires, with a pale mimicry of that creature's abilities. This has the effects of a 3rd-rank [Illusory Disguise](/spell/illusory-disguise-player-core) spell with a duration of 4 hours. The activation can also be Dismissed.\n\nIn addition, the disguised creature can automatically create illusions to mimic the abilities of the subject, with the appearance of spells, abilities, or even impressive physical deeds. These deeds are entirely illusory and can be disbelieved with a successful Perception DC 28 check. If an illusion makes it appear as though the creature moved farther or differently than they actually can (such as making them fly or teleport), the actual creature turns [Invisible](/condition/invisible-player-core), and their illusory image persists until the end of the creature's next turn. If the creature and their illusory self aren't in the same space at that point, the activation ends, revealing the deception.",
+          "description": "10 minutes (concentrate, manipulate, occult)"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "invested",
+      "npc-core",
+      "occult",
+      "remaster",
+      "scrying",
+      "unholy"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core",
+        "page": 108
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "65E2B3DD-77E8-5C5A-A79A-05784FFF69E0",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Musket Staff of Force",
+    "slug": "musket-staff-of-force-npc-core",
+    "descr": "A stock carved of enchanted wood forms the base for a *musket staff*, a magic weapon used by a gunwitch as both a powerful firearm and magical staff. Many other variants exist with different spells. This *+1 flintlock musket* has a [Reinforced Stock](/item/reinforced-stock-guns-and-gears-remastered) permanently attached to it, and the musket's *weapon potency* rune (and any other runes) applies to Strikes with the stock as well. The *musket staff* also contains spells and can be prepared following the same rules as a staff.\n\n**Cantrip** [Shield](/spell/shield-player-core)\n\n**1st** [Force Barrage](/spell/force-barrage-player-core)",
+    "data": {
+      "level": 4,
+      "rarity": "rare",
+      "traits": [
+        "concussive",
+        "fatal-d10",
+        "force",
+        "magical",
+        "staff"
+      ],
+      "category": "weapon",
+      "price": "100 gp",
+      "usage": "held-in-two-hands",
+      "bulk": "1",
+      "damage": "1d6 piercing",
+      "range": 70,
+      "reload": "1",
+      "hands": "twos",
+      "weaponType": "ranged",
+      "weaponCategory": "simple",
+      "weaponGroup": "firearm",
+      "traitLinks": [
+        {
+          "label": "concussive",
+          "slug": "concussive"
+        },
+        {
+          "label": "fatal-d10",
+          "slug": "fatal"
+        },
+        {
+          "label": "force",
+          "slug": "force"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "staff",
+          "slug": "staff"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concussive",
+      "fatal-d10",
+      "force",
+      "magical",
+      "npc-core",
+      "remaster",
+      "staff"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core",
+        "page": 82
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1419F356-A57D-59EB-B04F-E8A36B42DD87",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Musket Staff of Void",
+    "slug": "musket-staff-of-void-npc-core",
+    "descr": "A stock carved of enchanted wood forms the base for a *musket staff*, a magic weapon used by a gunwitch as both a powerful firearm and magical staff. Many other variants exist with different spells. This *+1 flintlock musket* has a [Reinforced Stock](/item/reinforced-stock-guns-and-gears-remastered) permanently attached to it, and the musket's *weapon potency* rune (and any other runes) applies to Strikes with the stock as well. The *musket staff* also contains spells and can be prepared following the same rules as a staff.\n\n**Cantrip** [Void Warp](/spell/void-warp-player-core)\n\n**1st** [Grim Tendrils](/spell/grim-tendrils-player-core)",
+    "data": {
+      "level": 4,
+      "rarity": "rare",
+      "traits": [
+        "concussive",
+        "fatal-d10",
+        "magical",
+        "staff",
+        "void"
+      ],
+      "category": "weapon",
+      "price": "100 gp",
+      "usage": "held-in-two-hands",
+      "bulk": "1",
+      "damage": "1d6 piercing",
+      "range": 70,
+      "reload": "1",
+      "hands": "twos",
+      "weaponType": "ranged",
+      "weaponCategory": "simple",
+      "weaponGroup": "firearm",
+      "traitLinks": [
+        {
+          "label": "concussive",
+          "slug": "concussive"
+        },
+        {
+          "label": "fatal-d10",
+          "slug": "fatal"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "staff",
+          "slug": "staff"
+        },
+        {
+          "label": "void",
+          "slug": "void"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concussive",
+      "fatal-d10",
+      "magical",
+      "npc-core",
+      "remaster",
+      "staff",
+      "void"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "CC333F5D-1229-56EB-8EE3-B5798208F068",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Sun Goggles",
+    "slug": "sun-goggles-npc-core",
+    "descr": "These goggles are usually fitted with a polished piece of yellowtoned crystal, allowing the wearer some protection against the brightness of the sun. Near the Crown of the World, a version of these goggles exists where the crystal is replaced by thin slits, mitigating the effects of the sun's reflection on snow.\n\nWhen wearing these goggles, you gain a +1 item bonus to saving throws against effects that could inflict the [Dazzled](/condition/dazzled-player-core) condition.",
+    "data": {
+      "level": 3,
+      "rarity": "common",
+      "traits": [],
+      "category": "worn",
+      "price": "20 gp",
+      "usage": "worneyepiece",
+      "bulk": "—",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core",
+        "page": 60
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

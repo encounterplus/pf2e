@@ -1,0 +1,3910 @@
+[
+  {
+    "id": "CDADE6EF-7C70-5B3C-8B70-DEC6D44CF64A",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Aura of Confidence",
+    "slug": "aura-of-confidence-shining-kingdoms",
+    "descr": "Your will and your faith in your nation is unassailable, and the feeling is contagious. You gain resistance to mental damage equal to half your level. You and all allies within 15 feet gain a +2 status bonus to saving throws against mental effects.",
+    "data": {
+      "level": 12,
+      "rarity": "common",
+      "traits": [
+        "archetype",
+        "emotion",
+        "mental"
+      ],
+      "prerequisites": "Eagle Knight Dedication",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "Your will and your faith in your nation is unassailable, and the feeling is contagious. You gain resistance to mental damage equal to half your level. You and all allies within 15 feet gain a +2 status bonus to saving throws against mental effects.",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "emotion",
+          "slug": "emotion"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "emotion",
+      "mental",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "6C702598-6B55-51B1-A714-CDCC23080DF3",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Basic Prophet Spellcasting",
+    "slug": "basic-prophet-spellcasting-shining-kingdoms",
+    "descr": "You gain the Basic Spellcasting Benefits. Each time you gain a spell slot of a new rank from the [prophet of Kalistrade](/archetype/prophet-of-kalistrade-shining-kingdoms) archetype, add a common occult spell of the appropriate rank, or another appropriate occult spell you've learned or discovered, to your repertoire.",
+    "data": {
+      "level": 4,
+      "rarity": "common",
+      "traits": [
+        "archetype"
+      ],
+      "prerequisites": "Prophet of Kalistrade Dedication",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "You gain the Basic Spellcasting Benefits. Each time you gain a spell slot of a new rank from the prophet of Kalistrade archetype, add a common occult spell of the appropriate rank, or another appropriate occult spell you've learned or discovered, to your repertoire.",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A755934F-8C29-5882-9141-093BA9DA4C37",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Battlefield Agility",
+    "slug": "battlefield-agility-shining-kingdoms",
+    "descr": "**Requirements** You're flanked by at least two enemies.\n\n---\n\nYour enemies might think they have you surrounded, but you know just how to extricate yourself. Make a melee Strike against one of the enemies flanking you and Step, in any order.",
+    "data": {
+      "level": 6,
+      "rarity": "common",
+      "traits": [
+        "archetype",
+        "flourish"
+      ],
+      "prerequisites": "Blackjacket Dedication",
+      "frequency": "",
+      "requirements": "You're flanked by at least two enemies",
+      "trigger": "",
+      "benefits": "**Requirements** You're flanked by at least two enemies.\n\n---\n\nYour enemies might think they have you surrounded, but you know just how to extricate yourself. Make a melee Strike against one of the enemies flanking you and Step, in any order.",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "flourish",
+          "slug": "flourish"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "flourish",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0760CCBA-E1B2-5382-A99C-F08AD5C27B05",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Belay That!",
+    "slug": "belay-that-shining-kingdoms",
+    "descr": "**Trigger** An ally within 30 feet of you critically fails a Strike.\n\n---\n\nYou can recognize when a strategy isn't working and advise your ally to change course. The next Strike the triggering ally makes before the end of their turn has the same multiple attack penalty as the critically failed Strike, but it counts toward their multiple attack penalty as normal.",
+    "data": {
+      "level": 4,
+      "rarity": "common",
+      "traits": [
+        "archetype",
+        "auditory"
+      ],
+      "prerequisites": "Blackjacket Dedication",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "An ally within 30 feet of you critically fails a Strike",
+      "benefits": "**Trigger** An ally within 30 feet of you critically fails a Strike.\n\n---\n\nYou can recognize when a strategy isn't working and advise your ally to change course. The next Strike the triggering ally makes before the end of their turn has the same multiple attack penalty as the critically failed Strike, but it counts toward their multiple attack penalty as normal.",
+      "actions": "reaction",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "auditory",
+          "slug": "auditory"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "auditory",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1F3E6A31-8ACE-53F5-BFCC-E4419B233C64",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Blackjacket Dedication",
+    "slug": "blackjacket-dedication-shining-kingdoms",
+    "descr": "**Access** You're from Druma.\n\n---\n\nYou have entered the ranks of the Mercenary League and now wear the black uniform that's the source of the organization's popular epithet. You become trained in Intimidation; if you were already trained, you become an expert instead. You gain the [Additional Lore](/feat/additional-lore-player-core) skill feat for Warfare Lore; if you were already trained in Warfare Lore, you also become trained in a Lore skill of your choice. While wearing medium or heavy armor, you gain a +1 circumstance bonus to Intimidation checks.\n\nBlackjacket",
+    "data": {
+      "level": 2,
+      "rarity": "uncommon",
+      "traits": [
+        "archetype",
+        "dedication"
+      ],
+      "prerequisites": "trained in medium armor and martial weapons",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "**Access** You're from Druma.\n\n---\n\nYou have entered the ranks of the Mercenary League and now wear the black uniform that's the source of the organization's popular epithet. You become trained in Intimidation; if you were already trained, you become an expert instead. You gain the Additional Lore skill feat for Warfare Lore; if you were already trained in Warfare Lore, you also become trained in a Lore skill of your choice. While wearing medium or heavy armor, you gain a +1 circumstance bonus to Intimidation checks.\n\nBlackjacket",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "dedication",
+          "slug": "dedication"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "dedication",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "957EF1CD-BC09-5E23-A2F8-7D82A6E3E785",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Blessed Sentinel",
+    "slug": "blessed-sentinel-shining-kingdoms",
+    "descr": "You infuse a weapon with the blessing of Ketephys and attack. Make a Strike. This Strike gains the [holy](/trait/holy) trait and deals an additional 1d4 spirit damage, or 2d4 spirit damage against fiends. This counts as two attacks for your multiple attack penalty.",
+    "data": {
+      "level": 6,
+      "rarity": "common",
+      "traits": [
+        "archetype",
+        "flourish"
+      ],
+      "prerequisites": "Wylderheart Dedication",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "You infuse a weapon with the blessing of Ketephys and attack. Make a Strike. This Strike gains the holy trait and deals an additional 1d4 spirit damage, or 2d4 spirit damage against fiends. This counts as two attacks for your multiple attack penalty.",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "flourish",
+          "slug": "flourish"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "flourish",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "957ACEE1-4857-55A1-B62B-AAC9D090EE17",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Bolster Ally",
+    "slug": "bolster-ally-shining-kingdoms",
+    "descr": "**Frequency** once per 10 minutes\n\n**Trigger** One of your allies within 30 feet is targeted by a spell or ability that allows a saving throw.\n\n---\n\nYou shout encouragement to your embattled ally. The ally can use your saving throw modifier instead of their own against the triggering spell.",
+    "data": {
+      "level": 8,
+      "rarity": "common",
+      "traits": [
+        "archetype",
+        "auditory"
+      ],
+      "prerequisites": "Eagle Knight Dedication",
+      "frequency": "once per 10 minutes",
+      "requirements": "",
+      "trigger": "One of your allies within 30 feet is targeted by a spell or ability that allows a saving throw",
+      "benefits": "**Frequency** once per 10 minutes\n\n**Trigger** One of your allies within 30 feet is targeted by a spell or ability that allows a saving throw.\n\n---\n\nYou shout encouragement to your embattled ally. The ally can use your saving throw modifier instead of their own against the triggering spell.",
+      "actions": "reaction",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "auditory",
+          "slug": "auditory"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "auditory",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "6E8715E5-5379-5B1C-96F3-13526A3DAF5F",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Close Contract",
+    "slug": "close-contract-shining-kingdoms",
+    "descr": "**Requirements** You have completed your active course of action but haven't Dismissed it or chosen a new one.\n\n---\n\nYou're bolstered when a plan comes together. You Dismiss your current course of action and gain 15 temporary Hit Points that last for 1 hour. The number of temporary Hit Points increases by 5 at 12th level and every 2 levels thereafter.",
+    "data": {
+      "level": 10,
+      "rarity": "common",
+      "traits": [
+        "archetype",
+        "concentrate"
+      ],
+      "prerequisites": "Mercenary Motivation",
+      "frequency": "",
+      "requirements": "You have completed your active course of action but haven't Dismissed it or chosen a new one",
+      "trigger": "",
+      "benefits": "**Requirements** You have completed your active course of action but haven't Dismissed it or chosen a new one.\n\n---\n\nYou're bolstered when a plan comes together. You Dismiss your current course of action and gain 15 temporary Hit Points that last for 1 hour. The number of temporary Hit Points increases by 5 at 12th level and every 2 levels thereafter.",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "concentrate",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4260B0F8-4415-5BB3-967E-8AD9A7059133",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Commitment to Equality",
+    "slug": "commitment-to-equality-shining-kingdoms",
+    "descr": "You help an ally shake off any impediment that would give an enemy an unfair advantage. You rally a creature within 30 feet in an attempt to reduce its [Frightened](/condition/frightened-player-core) or [Stupefied](/condition/stupefied-player-core) condition. If a creature has multiple conditions from this list, choose one. When you're a master in Diplomacy, add [Clumsy](/condition/clumsy-player-core) and [Enfeebled](/condition/enfeebled-player-core) to the list of conditions. When you're legendary in Diplomacy, add [Stunned](/condition/stunned-player-core) to the list of conditions; if the stunned condition has a duration instead of a value, you can't use Commitment to Equality to reduce it.\n\nAttempt a Diplomacy check against the saving throw DC of the effect that caused the condition; if there was no saving throw DC, use the hard DC for the level of the creature, hazard, or item that caused the effect. You can't treat a condition that came from an artifact or effect above 20th level unless you're legendary in Diplomacy; even if you can, the counteract DC increases by 10. You can't treat a condition that is part of a curse or disease or is a natural state of the target. Once you attempt to treat a target's condition, that target is immune to further attempts for 1 hour, regardless of the result.\n\n---\n\n**Critical Success** Reduce the condition's value by 2.\n\n**Success** Reduce the condition's value by 1.\n\n**Critical Failure** Increase the condition's value by 1.",
+    "data": {
+      "level": 4,
+      "rarity": "common",
+      "traits": [
+        "archetype",
+        "auditory",
+        "mental",
+        "skill"
+      ],
+      "prerequisites": "Eagle Knight Dedication; expert in Diplomacy",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "You help an ally shake off any impediment that would give an enemy an unfair advantage. You rally a creature within 30 feet in an attempt to reduce its Frightened or Stupefied condition. If a creature has multiple conditions from this list, choose one. When you're a master in Diplomacy, add Clumsy and Enfeebled to the list of conditions. When you're legendary in Diplomacy, add Stunned to the list of conditions; if the stunned condition has a duration instead of a value, you can't use Commitment to Equality to reduce it.\n\nAttempt a Diplomacy check against the saving throw DC of the effect that caused the condition; if there was no saving throw DC, use the hard DC for the level of the creature, hazard, or item that caused the effect. You can't treat a condition that came from an artifact or effect above 20th level unless you're legendary in Diplomacy; even if you can, the counteract DC increases by 10. You can't treat a condition that is part of a curse or disease or is a natural state of the target. Once you attempt to treat a target's condition, that target is immune to further attempts for 1 hour, regardless of the result.\n\n---\n\n**Critical Success** Reduce the condition's value by 2.\n\n**Success** Reduce the condition's value by 1.\n\n**Critical Failure** Increase the condition's value by 1.",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "auditory",
+          "slug": "auditory"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        },
+        {
+          "label": "skill",
+          "slug": "skill"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "auditory",
+      "mental",
+      "remaster",
+      "shining-kingdoms",
+      "skill"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1496BE59-5630-590C-86A2-6289F09D4647",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Commitment to Justice",
+    "slug": "commitment-to-justice-shining-kingdoms",
+    "descr": "**Requirements** You witnessed a creature kill or reduce an ally to 0 Hit Points since your last turn.\n\n---\n\nWhen your allies are harmed, you deliver retribution. Make a Strike against the required creature. If this Strike hits, you gain a circumstance bonus to damage equal to three times the number of weapon damage dice.",
+    "data": {
+      "level": 6,
+      "rarity": "common",
+      "traits": [
+        "archetype",
+        "flourish"
+      ],
+      "prerequisites": "Eagle Knight Dedication",
+      "frequency": "",
+      "requirements": "You witnessed a creature kill or reduce an ally to 0 Hit Points since your last turn",
+      "trigger": "",
+      "benefits": "**Requirements** You witnessed a creature kill or reduce an ally to 0 Hit Points since your last turn.\n\n---\n\nWhen your allies are harmed, you deliver retribution. Make a Strike against the required creature. If this Strike hits, you gain a circumstance bonus to damage equal to three times the number of weapon damage dice.",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "flourish",
+          "slug": "flourish"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "flourish",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "61166739-3FA6-5456-9C84-FC509C37AF2E",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Commitment to Liberty",
+    "slug": "commitment-to-liberty-shining-kingdoms",
+    "descr": "**Requirements** A creature has an ally [Grabbed](/condition/grabbed-player-core) or [Restrained](/condition/restrained-player-core).\n\n---\n\nYou can't abide when a foe has one of your allies in its grip. Make a Strike against the required creature. If this Strike hits, the grabbed or restrained ally can immediately attempt to [Escape](/action/escape-player-core) as a free action. If the Strike was a critical hit, that ally gains a +2 circumstance bonus to their Escape attempt.",
+    "data": {
+      "level": 6,
+      "rarity": "common",
+      "traits": [
+        "archetype",
+        "flourish"
+      ],
+      "prerequisites": "Eagle Knight Dedication",
+      "frequency": "",
+      "requirements": "A creature has an ally Grabbed or Restrained",
+      "trigger": "",
+      "benefits": "**Requirements** A creature has an ally Grabbed or Restrained.\n\n---\n\nYou can't abide when a foe has one of your allies in its grip. Make a Strike against the required creature. If this Strike hits, the grabbed or restrained ally can immediately attempt to Escape as a free action. If the Strike was a critical hit, that ally gains a +2 circumstance bonus to their Escape attempt.",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "flourish",
+          "slug": "flourish"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "flourish",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5AB3FAD9-6DE9-5B7C-ABD7-CEA3137C2A91",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Crowd Mastery",
+    "slug": "crowd-mastery-shining-kingdoms",
+    "descr": "You use the crowd to your advantage, diverting your foes' attention to potential hidden dangers in the crowd. When determining if your foe is flanked, treat all squares occupied by a crowd as if they were occupied by an ally with a melee reach of 5 feet.",
+    "data": {
+      "level": 6,
+      "rarity": "common",
+      "traits": [
+        "archetype"
+      ],
+      "prerequisites": "Lost in the Crowd",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "You use the crowd to your advantage, diverting your foes' attention to potential hidden dangers in the crowd. When determining if your foe is flanked, treat all squares occupied by a crowd as if they were occupied by an ally with a melee reach of 5 feet.",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "50F0A004-A4D0-552A-BAB5-3A0B3ADF20CF",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Defender's Grit",
+    "slug": "defender-s-grit-shining-kingdoms",
+    "descr": "You can't protect anyone if you're dead. You gain the [Diehard](/feat/diehard-player-core) general feat. If you start your turn adjacent to your designated ally, you gain a number of temporary Hit Points equal to half your level that lasts until the beginning of your next turn.\n\nEffect: Defender'S Grit",
+    "data": {
+      "level": 4,
+      "rarity": "common",
+      "traits": [
+        "archetype"
+      ],
+      "prerequisites": "Ulfen Guard Dedication",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "You can't protect anyone if you're dead. You gain the Diehard general feat. If you start your turn adjacent to your designated ally, you gain a number of temporary Hit Points equal to half your level that lasts until the beginning of your next turn.\n\nEffect: Defender'S Grit",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "40ACDDD1-C732-5E0A-9E4C-056E650E8446",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Demon-Hunting Companion",
+    "slug": "demon-hunting-companion-shining-kingdoms",
+    "descr": "You gain a young animal companion that has been specially trained to help you fight demons. You can choose any common animal companion, which gains scent as an imprecise sense with a range of 30 feet that can be used only to smell fiends. If the animal companion already has scent, it gains a +2 circumstance bonus to Perception when using scent against fiends.",
+    "data": {
+      "level": 4,
+      "rarity": "common",
+      "traits": [
+        "archetype"
+      ],
+      "prerequisites": "Wylderheart Dedication",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "You gain a young animal companion that has been specially trained to help you fight demons. You can choose any common animal companion, which gains scent as an imprecise sense with a range of 30 feet that can be used only to smell fiends. If the animal companion already has scent, it gains a +2 circumstance bonus to Perception when using scent against fiends.",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "CADC3339-B0FE-5483-B627-A3D6FF253765",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Dread Blade",
+    "slug": "dread-blade-shining-kingdoms",
+    "descr": "Your strikes with your conjured dagger impart the chill of the grave. When you successfully Strike with your *spectral dagger* and damage a foe with the [Frightened](/condition/frightened-player-core) condition, they can't reduce their frightened condition below 1 before the end of your next turn.",
+    "data": {
+      "level": 4,
+      "rarity": "common",
+      "traits": [
+        "archetype"
+      ],
+      "prerequisites": "Spectral Dagger",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "Your strikes with your conjured dagger impart the chill of the grave. When you successfully Strike with your *spectral dagger* and damage a foe with the Frightened condition, they can't reduce their frightened condition below 1 before the end of your next turn.",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1276D02F-BF2B-55FD-8886-87987E141887",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Eagle Knight Dedication",
+    "slug": "eagle-knight-dedication-shining-kingdoms",
+    "descr": "**Access** You're invited by a current member of the Eagle Knights or the People's Council.\n\n---\n\nEagle Knights are the marshals and envoys of Andoran and are committed to keeping the peace. On the first round of combat, if you roll Diplomacy for initiative, creatures that haven't acted are [Off Guard](/condition/off-guard-player-core) to you. You gain the [Additional Lore](/feat/additional-lore-player-core) skill feat for Politics Lore. If you were already trained in Politics Lore, you also become trained in a Lore skill of your choice. You can use Politics Lore to Make An Impression on or make a Request of government officials (or similar figures) or to Gather Information about them. If you critically succeed at a check to [Gather Information](/action/gather-information-player-core) with Politics Lore, you know the information without having to spend any time gathering it.\n\nEagle Knight",
+    "data": {
+      "level": 2,
+      "rarity": "uncommon",
+      "traits": [
+        "archetype",
+        "dedication"
+      ],
+      "prerequisites": "trained in Diplomacy and Society",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "**Access** You're invited by a current member of the Eagle Knights or the People's Council.\n\n---\n\nEagle Knights are the marshals and envoys of Andoran and are committed to keeping the peace. On the first round of combat, if you roll Diplomacy for initiative, creatures that haven't acted are Off Guard to you. You gain the Additional Lore skill feat for Politics Lore. If you were already trained in Politics Lore, you also become trained in a Lore skill of your choice. You can use Politics Lore to Make An Impression on or make a Request of government officials (or similar figures) or to Gather Information about them. If you critically succeed at a check to Gather Information with Politics Lore, you know the information without having to spend any time gathering it.\n\nEagle Knight",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "dedication",
+          "slug": "dedication"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "dedication",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D0575E91-6730-5342-BB76-C02F599C8710",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Elven Persistence",
+    "slug": "elven-persistence-shining-kingdoms",
+    "descr": "**Frequency** once per day\n\n**Trigger** You fail a skill check you're at least trained in.\n\n---\n\nElves don't give up easily on their pursuits. Instead of the result you received for the triggering skill check, you receive a result of 12 + your proficiency bonus (don't apply any other bonuses, penalties, or modifiers).",
+    "data": {
+      "level": 5,
+      "rarity": "common",
+      "traits": [
+        "elf",
+        "fortune"
+      ],
+      "prerequisites": "",
+      "frequency": "once per day",
+      "requirements": "",
+      "trigger": "You fail a skill check you're at least trained in",
+      "benefits": "**Frequency** once per day\n\n**Trigger** You fail a skill check you're at least trained in.\n\n---\n\nElves don't give up easily on their pursuits. Instead of the result you received for the triggering skill check, you receive a result of 12 + your proficiency bonus (don't apply any other bonuses, penalties, or modifiers).",
+      "actions": "free",
+      "traitLinks": [
+        {
+          "label": "elf",
+          "slug": "elf"
+        },
+        {
+          "label": "fortune",
+          "slug": "fortune"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "elf",
+      "fortune",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "ED359975-B998-50FC-9201-329D405E75CE",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Even the Odds (Eagle Knight)",
+    "slug": "even-the-odds-eagle-knight-shining-kingdoms",
+    "descr": "**Frequency** once per day\n\n---\n\nEven when overpowered, Eagle Knights hold out hope. If your next action is to use [Commitment To Equality](/feat/commitment-to-equality-shining-kingdoms), you roll the Diplomacy check twice and take the higher result. If you succeed, the target also gains 25 temporary Hit Points that last for 1 minute.\n\nEffect: Even The Odds (Eagle Knight)",
+    "data": {
+      "level": 14,
+      "rarity": "common",
+      "traits": [
+        "archetype",
+        "fortune"
+      ],
+      "prerequisites": "Commitment to Equality",
+      "frequency": "once per day",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "**Frequency** once per day\n\n---\n\nEven when overpowered, Eagle Knights hold out hope. If your next action is to use Commitment To Equality, you roll the Diplomacy check twice and take the higher result. If you succeed, the target also gains 25 temporary Hit Points that last for 1 minute.\n\nEffect: Even The Odds (Eagle Knight)",
+      "actions": "free",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "fortune",
+          "slug": "fortune"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "fortune",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3186A7E4-CBF1-5F49-8591-3256C6388785",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Expeditious Advance",
+    "slug": "expeditious-advance-shining-kingdoms",
+    "descr": "**Requirements** You are unarmored or wearing light armor.\n\n---\n\nYou advance and retreat quickly. You gain a +10-foot status bonus to your speed.",
+    "data": {
+      "level": 6,
+      "rarity": "common",
+      "traits": [
+        "archetype"
+      ],
+      "prerequisites": "Lion Blade Dedication",
+      "frequency": "",
+      "requirements": "You are unarmored or wearing light armor",
+      "trigger": "",
+      "benefits": "**Requirements** You are unarmored or wearing light armor.\n\n---\n\nYou advance and retreat quickly. You gain a +10-foot status bonus to your speed.",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "DC8C3513-B776-5A1B-A0FF-AF6B706626A9",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Expert Prophet Spellcasting",
+    "slug": "expert-prophet-spellcasting-shining-kingdoms",
+    "descr": "You gain the Expert Spellcasting Benefits.",
+    "data": {
+      "level": 12,
+      "rarity": "common",
+      "traits": [
+        "archetype"
+      ],
+      "prerequisites": "Basic Prophet Spellcasting; master in Society",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "You gain the Expert Spellcasting Benefits.",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0C16096C-4447-59BC-9DDA-88BF667EA9A9",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Fiend Slayer",
+    "slug": "fiend-slayer-shining-kingdoms",
+    "descr": "**Requirements** Your last action was a successful Strike against a fiend that dealt damage.\n\n---\n\nYour attack tears through a fiend, possibly sending it back to where it came from. The fiend you just struck takes 80 void damage with a basic Fortitude save against your class DC or spell DC, whichever is higher. On a critical failure, the target is also [Stunned 1](/condition/stunned-player-core). Regardless of the results of the saving throw, the target is then temporarily immune to Fiend Slayer for 24 hours.",
+    "data": {
+      "level": 16,
+      "rarity": "common",
+      "traits": [
+        "archetype",
+        "death",
+        "void"
+      ],
+      "prerequisites": "Wylderheart Dedication",
+      "frequency": "",
+      "requirements": "Your last action was a successful Strike against a fiend that dealt damage",
+      "trigger": "",
+      "benefits": "**Requirements** Your last action was a successful Strike against a fiend that dealt damage.\n\n---\n\nYour attack tears through a fiend, possibly sending it back to where it came from. The fiend you just struck takes 80 void damage with a basic Fortitude save against your class DC or spell DC, whichever is higher. On a critical failure, the target is also [Stunned 1](/condition/stunned-player-core). Regardless of the results of the saving throw, the target is then temporarily immune to Fiend Slayer for 24 hours.",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "death",
+          "slug": "death"
+        },
+        {
+          "label": "void",
+          "slug": "void"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "death",
+      "remaster",
+      "shining-kingdoms",
+      "void"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D68327C5-266E-5184-A99B-D368DD9DCBFB",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Flickering Twirl",
+    "slug": "flickering-twirl-shining-kingdoms",
+    "descr": "You use your movements and disguises to make yourself a flickering blur. You gain [Concealment](/condition/concealed-player-core) until your next turn. As usual for concealment involving an obvious visual manifestation, you can't use this concealment to [Hide](/action/hide-player-core).",
+    "data": {
+      "level": 12,
+      "rarity": "common",
+      "traits": [
+        "archetype"
+      ],
+      "prerequisites": "Lion Blade Dedication",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "You use your movements and disguises to make yourself a flickering blur. You gain Concealment until your next turn. As usual for concealment involving an obvious visual manifestation, you can't use this concealment to Hide.",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D5616F3C-2CB4-5027-8BBA-042DC9C2F42A",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Fling Head",
+    "slug": "fling-head-shining-kingdoms",
+    "descr": "You Interact to remove your head, if it isn't already detached, and fling it at an enemy within 30 feet, where it emits a bone-chilling wail before dematerializing and returning to your body. Your target must attempt a Will save against your class DC or spell DC, whichever is higher. You can affect one additional creature within 20 feet of your original target for each additional action you spend.\n\n---\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature is [Frightened 1](/condition/frightened-player-core).\n\n**Failure** The creature is Frightened 2 and can't reduce their frightened value below 1 while they remain within 30 feet of you.\n\n**Critical Failure** As failure, but the creature is Frightened 3.",
+    "data": {
+      "level": 6,
+      "rarity": "common",
+      "traits": [
+        "archetype",
+        "auditory",
+        "manipulate"
+      ],
+      "prerequisites": "Headless Haunt",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "You Interact to remove your head, if it isn't already detached, and fling it at an enemy within 30 feet, where it emits a bone-chilling wail before dematerializing and returning to your body. Your target must attempt a Will save against your class DC or spell DC, whichever is higher. You can affect one additional creature within 20 feet of your original target for each additional action you spend.\n\n---\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature is Frightened 1.\n\n**Failure** The creature is Frightened 2 and can't reduce their frightened value below 1 while they remain within 30 feet of you.\n\n**Critical Failure** As failure, but the creature is Frightened 3.",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "auditory",
+          "slug": "auditory"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "auditory",
+      "manipulate",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "EFA62153-37F2-57AC-B630-B490B48EE8D2",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Fortune's Favor",
+    "slug": "fortune-s-favor-shining-kingdoms",
+    "descr": "**Frequency** once per day\n\n**Trigger** You're about to reroll a failed skill check or saving throw due to a fortune effect.\n\n---\n\nYou understand when an investment in you has the chance to pay off. You gain a +2 circumstance bonus to the triggering roll.",
+    "data": {
+      "level": 6,
+      "rarity": "common",
+      "traits": [
+        "archetype"
+      ],
+      "prerequisites": "Prophet of Kalistrade Dedication",
+      "frequency": "once per day",
+      "requirements": "",
+      "trigger": "You're about to reroll a failed skill check or saving throw due to a fortune effect",
+      "benefits": "**Frequency** once per day\n\n**Trigger** You're about to reroll a failed skill check or saving throw due to a fortune effect.\n\n---\n\nYou understand when an investment in you has the chance to pay off. You gain a +2 circumstance bonus to the triggering roll.",
+      "actions": "free",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B83EFF47-0DCA-5FB2-B5F8-D0A0B733A9F3",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Free Heart",
+    "slug": "free-heart-shining-kingdoms",
+    "descr": "You follow all your passions, unlimited in creativity and zeal. Choose a common background that relates to a passion you've pursued; you're trained in the skills and gain the skill feat associated with that background in addition to those in your normal background. As usual for backgrounds, if you would gain the trained proficiency rank for one of these skill from your class at 1st level, you instead become trained in another skill of your choice.",
+    "data": {
+      "level": 1,
+      "rarity": "common",
+      "traits": [
+        "elf"
+      ],
+      "prerequisites": "",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "You follow all your passions, unlimited in creativity and zeal. Choose a common background that relates to a passion you've pursued; you're trained in the skills and gain the skill feat associated with that background in addition to those in your normal background. As usual for backgrounds, if you would gain the trained proficiency rank for one of these skill from your class at 1st level, you instead become trained in another skill of your choice.",
+      "traitLinks": [
+        {
+          "label": "elf",
+          "slug": "elf"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "elf",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "AD131BB8-3C21-5B51-9AD4-FA697C8D3FAA",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Ghostly Condemnation",
+    "slug": "ghostly-condemnation-shining-kingdoms",
+    "descr": "You shriek a death sentence upon a single target within 120 feet, forcing it to experience the final moments of your mortal life as you were dragged through a howling mob and forced to kneel before the final blade that took your life and head. The target is subject to the effects of a 5th-rank [Vision Of Death](/spell/vision-of-death-player-core) with a DC equal to your class DC or spell DC, whichever is higher. If you slay a significant foe with this ability, its physical body is gruesomely decapitated, forcing its allies within 15 feet to attempt a Will save against the same DC or be [Frightened 1](/condition/frightened-player-core) (Frightened 2 on a critical failure).",
+    "data": {
+      "level": 12,
+      "rarity": "common",
+      "traits": [
+        "archetype",
+        "divine",
+        "emotion",
+        "fear",
+        "mental"
+      ],
+      "prerequisites": "Headless Haunt",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "You shriek a death sentence upon a single target within 120 feet, forcing it to experience the final moments of your mortal life as you were dragged through a howling mob and forced to kneel before the final blade that took your life and head. The target is subject to the effects of a 5th-rank Vision Of Death with a DC equal to your class DC or spell DC, whichever is higher. If you slay a significant foe with this ability, its physical body is gruesomely decapitated, forcing its allies within 15 feet to attempt a Will save against the same DC or be Frightened 1 (Frightened 2 on a critical failure).",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "divine",
+          "slug": "divine"
+        },
+        {
+          "label": "emotion",
+          "slug": "emotion"
+        },
+        {
+          "label": "fear",
+          "slug": "fear"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "divine",
+      "emotion",
+      "fear",
+      "mental",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "21849264-ED6E-5702-B69E-754896516486",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Guard's Fury",
+    "slug": "guard-s-fury-shining-kingdoms",
+    "descr": "Some Ulfen Guards tap into a well of fury to protect their charges. You can use the [Rage](/action/rage-player-core-2) action. While raging, you take a –1 penalty to AC. If you're adjacent to your designated ally while raging, increase the additional damage from Rage from 2 to 4.",
+    "data": {
+      "level": 4,
+      "rarity": "common",
+      "traits": [
+        "archetype"
+      ],
+      "prerequisites": "Ulfen Guard Dedication; you can't already use the Rage action",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "Some Ulfen Guards tap into a well of fury to protect their charges. You can use the Rage action. While raging, you take a –1 penalty to AC. If you're adjacent to your designated ally while raging, increase the additional damage from Rage from 2 to 4.",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E361A99A-C5FB-57FA-8406-AD60B7F15911",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Guarded Mind",
+    "slug": "guarded-mind-shining-kingdoms",
+    "descr": "**Frequency** once per 10 minutes\n\n**Trigger** You fail a saving throw against an effect that has the [mental](/trait/mental) trait.\n\n---\n\nWhen your enemies try to turn your mind against you, thoughts of your anathema bolster you. You can reroll the triggering saving throw with a +2 circumstance bonus, but you must use the new result, even if it's worse.",
+    "data": {
+      "level": 6,
+      "rarity": "common",
+      "traits": [
+        "archetype",
+        "fortune"
+      ],
+      "prerequisites": "Ulfen Guard Dedication",
+      "frequency": "once per 10 minutes",
+      "requirements": "",
+      "trigger": "You fail a saving throw against an effect that has the mental trait",
+      "benefits": "**Frequency** once per 10 minutes\n\n**Trigger** You fail a saving throw against an effect that has the mental trait.\n\n---\n\nWhen your enemies try to turn your mind against you, thoughts of your anathema bolster you. You can reroll the triggering saving throw with a +2 circumstance bonus, but you must use the new result, even if it's worse.",
+      "actions": "free",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "fortune",
+          "slug": "fortune"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "fortune",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "EBF3D40F-8EE4-5E78-A854-77EAC43484D5",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Guillotine Blade",
+    "slug": "guillotine-blade-shining-kingdoms",
+    "descr": "**Frequency** once per day\n\n---\n\nThe echoes of the splinter of finality's original purpose resonate through the artifact. For the next minute, your [Spectral Dagger](/item/spectral-dagger-shining-kingdoms) gains the benefits of a [Vorpal](/item/vorpal-gm-core) rune. When you use Snicker-Snack with your *spectral dagger*, the DC of the Fortitude DC 37 or your class/spell DC, whichever is higher save is 37, your class DC, or your spell DC, whichever is higher.",
+    "data": {
+      "level": 18,
+      "rarity": "common",
+      "traits": [
+        "archetype",
+        "concentrate",
+        "occult"
+      ],
+      "prerequisites": "Spectral Dagger",
+      "frequency": "once per day",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "**Frequency** once per day\n\n---\n\nThe echoes of the splinter of finality's original purpose resonate through the artifact. For the next minute, your [Spectral Dagger](/item/spectral-dagger-shining-kingdoms) gains the benefits of a [Vorpal](/item/vorpal-gm-core) rune. When you use Snicker-Snack with your *spectral dagger*, the DC of the Fortitude DC 37 or your class/spell DC, whichever is higher save is 37, your class DC, or your spell DC, whichever is higher.",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "occult",
+          "slug": "occult"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "concentrate",
+      "occult",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "CE424F81-E2B1-50AF-B401-C234ABB5CBA5",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Haunting Memories",
+    "slug": "haunting-memories-shining-kingdoms",
+    "descr": "Your soul bears metaphysical impressions of the innumerable other spirits imprisoned with you in the Final Blade from which you escaped, allowing you to draw upon their memories. When you make your daily preparations, you can either gain the expert proficiency rank in one skill in which you're untrained or raise your proficiency rank to master in one skill in which you're trained or better. You also gain one skill feat with a minimum requirement of your new rank in the chosen skill. For the purpose of meeting level prerequisites for this feat, your level is equal to half your level.\n\nThis proficiency and feat last until you make your daily preparations again. Since the proficiency is temporary, you can't use it as a prerequisite for any permanent character option.",
+    "data": {
+      "level": 8,
+      "rarity": "common",
+      "traits": [
+        "archetype"
+      ],
+      "prerequisites": "Headless Haunt",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "Your soul bears metaphysical impressions of the innumerable other spirits imprisoned with you in the Final Blade from which you escaped, allowing you to draw upon their memories. When you make your daily preparations, you can either gain the expert proficiency rank in one skill in which you're untrained or raise your proficiency rank to master in one skill in which you're trained or better. You also gain one skill feat with a minimum requirement of your new rank in the chosen skill. For the purpose of meeting level prerequisites for this feat, your level is equal to half your level.\n\nThis proficiency and feat last until you make your daily preparations again. Since the proficiency is temporary, you can't use it as a prerequisite for any permanent character option.",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C6F38961-5B8A-5499-A4C0-D87B8F12E5C9",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Headless Haunt",
+    "slug": "headless-haunt-shining-kingdoms",
+    "descr": "**Access** You were executed with a Final Blade.\n\n---\n\nYou were condemned to death and executed with one of Galt's infamous *final blades*, where your soul was trapped for years or even decades. You might have been released alongside a host of other spirits when your prison was destroyed after the Night of the Gray Death, or powerful magic or other unique circumstances might have facilitated your escape. Whatever the method, you have unfinished business preventing you from passing on to the afterlife. You gain the [Remove Head](/action/remove-head-shining-kingdoms) action.",
+    "data": {
+      "level": 4,
+      "rarity": "rare",
+      "traits": [
+        "archetype"
+      ],
+      "prerequisites": "Ghost Dedication",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "**Access** You were executed with a Final Blade.\n\n---\n\nYou were condemned to death and executed with one of Galt's infamous *final blades*, where your soul was trapped for years or even decades. You might have been released alongside a host of other spirits when your prison was destroyed after the Night of the Gray Death, or powerful magic or other unique circumstances might have facilitated your escape. Whatever the method, you have unfinished business preventing you from passing on to the afterlife. You gain the Remove Head action.",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D0295C2F-C218-5A30-8C12-A53D26A992EA",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Hungry Blade",
+    "slug": "hungry-blade-shining-kingdoms",
+    "descr": "**Frequency** once per day\n\n**Requirements** Your previous action was a Strike with your spectral dagger that dealt spirit damage.\n\n---\n\nOnce your spectral dagger has tasted an enemy's soul, your splinter of finality becomes increasingly relentless in its attempts to claim the soul. Your *spectral dagger* gains the effects of a [Keen](/item/keen-gm-core) property rune that applies only to Strikes against the target of the required Strike. This effect lasts for 10 minutes or until that target dies, whichever comes first.",
+    "data": {
+      "level": 12,
+      "rarity": "common",
+      "traits": [
+        "archetype",
+        "concentrate"
+      ],
+      "prerequisites": "Spectral Dagger",
+      "frequency": "once per day",
+      "requirements": "Your previous action was a Strike with your spectral dagger that dealt spirit damage",
+      "trigger": "",
+      "benefits": "**Frequency** once per day\n\n**Requirements** Your previous action was a Strike with your spectral dagger that dealt spirit damage.\n\n---\n\nOnce your spectral dagger has tasted an enemy's soul, your splinter of finality becomes increasingly relentless in its attempts to claim the soul. Your *spectral dagger* gains the effects of a Keen property rune that applies only to Strikes against the target of the required Strike. This effect lasts for 10 minutes or until that target dies, whichever comes first.",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "concentrate",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "18B378B6-5417-5CCB-AD27-8991B0C08D52",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Immediate Rebuke",
+    "slug": "immediate-rebuke-shining-kingdoms",
+    "descr": "You can use [Reactive Strike](/action/reactive-strike-player-core) when a creature within your reach Strikes one of your allies.",
+    "data": {
+      "level": 14,
+      "rarity": "common",
+      "traits": [
+        "archetype"
+      ],
+      "prerequisites": "Commitment to Justice; Reactive Strike",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "You can use Reactive Strike when a creature within your reach Strikes one of your allies.",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A211F824-D517-5568-9630-6664C392CA26",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Inflame Crowd",
+    "slug": "inflame-crowd-shining-kingdoms",
+    "descr": "Your performances are a call to action for the crowds who listen to you. For 1 hour after you successfully [Make An Impression](/action/make-an-impression-player-core) using Performance, you can make a Request of a member of the affected audience using Performance instead of Diplomacy.",
+    "data": {
+      "level": 7,
+      "rarity": "uncommon",
+      "traits": [
+        "general",
+        "skill"
+      ],
+      "prerequisites": "master in Performance; Impressive Performance",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "Your performances are a call to action for the crowds who listen to you. For 1 hour after you successfully Make An Impression using Performance, you can make a Request of a member of the affected audience using Performance instead of Diplomacy.",
+      "traitLinks": [
+        {
+          "label": "general",
+          "slug": "general"
+        },
+        {
+          "label": "skill",
+          "slug": "skill"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "general",
+      "remaster",
+      "shining-kingdoms",
+      "skill"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "323040DF-1207-5099-A44D-FED930792F05",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Inspiring Recitation",
+    "slug": "inspiring-recitation-shining-kingdoms",
+    "descr": "**Frequency** once per hour\n\n---\n\nYou quietly speak or recall coded phrases and metaphors whose meanings inspire you to complete your mission. You gain a +1 status bonus to one skill of your choice until the beginning of your next turn. You can Sustain this effect for up to 1 minute. If you're an expert in Performance, the bonus increases to +2. If you're a master in Performance, the bonus is +3, and if you're legendary, the bonus is +4.",
+    "data": {
+      "level": 4,
+      "rarity": "common",
+      "traits": [
+        "archetype",
+        "concentrate",
+        "emotion",
+        "mental"
+      ],
+      "prerequisites": "Lion Blade Dedication",
+      "frequency": "once per hour",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "**Frequency** once per hour\n\n---\n\nYou quietly speak or recall coded phrases and metaphors whose meanings inspire you to complete your mission. You gain a +1 status bonus to one skill of your choice until the beginning of your next turn. You can Sustain this effect for up to 1 minute. If you're an expert in Performance, the bonus increases to +2. If you're a master in Performance, the bonus is +3, and if you're legendary, the bonus is +4.",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "emotion",
+          "slug": "emotion"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "concentrate",
+      "emotion",
+      "mental",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "BE7EE98E-FBA8-5C90-B07C-7BDAEE21BBCE",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Instrument of Death",
+    "slug": "instrument-of-death-shining-kingdoms",
+    "descr": "Your splinter of finality has reached the apex of its death-dealing potential. Whenever you critically succeed at an attack roll against an enemy and use [Lethal Edge](/feat/lethal-edge-shining-kingdoms), add the following effects to the list you can choose from.\n\nThe target is cursed and can't benefit from circumstance or status bonuses. This is a curse effect.The target gains weakness 10 to spirit damage.\n\nEffect: Instrument Of Death",
+    "data": {
+      "level": 16,
+      "rarity": "common",
+      "traits": [
+        "archetype"
+      ],
+      "prerequisites": "Lethal Edge",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "Your splinter of finality has reached the apex of its death-dealing potential. Whenever you critically succeed at an attack roll against an enemy and use Lethal Edge, add the following effects to the list you can choose from.\n\nThe target is cursed and can't benefit from circumstance or status bonuses. This is a curse effect.The target gains weakness 10 to spirit damage.\n\nEffect: Instrument Of Death",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D86B41A2-6904-532F-89A9-6A7203F5CFB1",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Interpose",
+    "slug": "interpose-shining-kingdoms",
+    "descr": "You put yourself between an ally and danger. Stride up to your Speed. You must end your movement adjacent to an ally. You and your ally then swap positions with each other. After changing positions, you can make a melee Strike against an enemy within your reach.",
+    "data": {
+      "level": 4,
+      "rarity": "common",
+      "traits": [
+        "archetype",
+        "flourish"
+      ],
+      "prerequisites": "Eagle Knight Dedication",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "You put yourself between an ally and danger. Stride up to your Speed. You must end your movement adjacent to an ally. You and your ally then swap positions with each other. After changing positions, you can make a melee Strike against an enemy within your reach.",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "flourish",
+          "slug": "flourish"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "flourish",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "61EEF0A5-C0F2-5265-A25A-C6E76FBA5B3E",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Interposing Crowd",
+    "slug": "interposing-crowd-shining-kingdoms",
+    "descr": "Your enemies can't stop you when there's a host of people between you. Your movement actions don't trigger reactions as long as you remain in a crowd for the entire duration of the action.",
+    "data": {
+      "level": 8,
+      "rarity": "common",
+      "traits": [
+        "archetype"
+      ],
+      "prerequisites": "Lost in the Crowd",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "Your enemies can't stop you when there's a host of people between you. Your movement actions don't trigger reactions as long as you remain in a crowd for the entire duration of the action.",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "156A2F67-107D-564C-B222-8F5B648D5F22",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Klingegeist",
+    "slug": "klingegeist-shining-kingdoms",
+    "descr": "Your imprisonment inside a Final Blade used to perform countless executions has instilled in you an aptitude for entering and possessing similar sharp implements of murder. You project your mind and incorporeal body into an unattended weapon of 2 Bulk or less that deals slashing damage.\n\nWhile possessing a blade, you have a space of 5 feet, but you don't block or impede enemies attempting to move through your space, nor do you benefit from or provide flanking. You're trained in the use of the weapon, unless your proficiency was already better, and you can make [Strike](/action/strike-player-core) actions with the weapon as if you were wielding it.\n\nYou gain a Fly speed of 30 feet and can only take Strike and [Fly](/action/fly-player-core) actions, which don't trigger reactions. You have an AC of 18 + your level and the Hardness and Hit Points of the weapon you're possessing, which for most one-handed slashing weapons is Hardness 5 and HP 20. You can't be Disarmed, nor can your true body be directly injured except by spirit damage, which bypasses both the weapon's Hardness and Hit Points to damage you directly.\n\nIf you're reduced to 0 Hit Points or the weapon you're inhabiting is broken or destroyed, you're immediately ejected from it and [Paralyzed](/condition/paralyzed-player-core) for 1 round. Otherwise, the effect lasts for 10 minutes or until you Dismiss it.",
+    "data": {
+      "level": 10,
+      "rarity": "common",
+      "traits": [
+        "archetype",
+        "concentrate",
+        "possession"
+      ],
+      "prerequisites": "Headless Haunt",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "Your imprisonment inside a Final Blade used to perform countless executions has instilled in you an aptitude for entering and possessing similar sharp implements of murder. You project your mind and incorporeal body into an unattended weapon of 2 Bulk or less that deals slashing damage.\n\nWhile possessing a blade, you have a space of 5 feet, but you don't block or impede enemies attempting to move through your space, nor do you benefit from or provide flanking. You're trained in the use of the weapon, unless your proficiency was already better, and you can make Strike actions with the weapon as if you were wielding it.\n\nYou gain a Fly speed of 30 feet and can only take Strike and Fly actions, which don't trigger reactions. You have an AC of 18 + your level and the Hardness and Hit Points of the weapon you're possessing, which for most one-handed slashing weapons is Hardness 5 and HP 20. You can't be Disarmed, nor can your true body be directly injured except by spirit damage, which bypasses both the weapon's Hardness and Hit Points to damage you directly.\n\nIf you're reduced to 0 Hit Points or the weapon you're inhabiting is broken or destroyed, you're immediately ejected from it and Paralyzed for 1 round. Otherwise, the effect lasts for 10 minutes or until you Dismiss it.",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "possession",
+          "slug": "possession"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "concentrate",
+      "possession",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "EDD3ADC6-8679-5D42-83C2-495E5EE2760E",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Lead by Example",
+    "slug": "lead-by-example-shining-kingdoms",
+    "descr": "You telegraph your next attack to let your allies in on your strategy. Make a melee or ranged Strike with a –2 circumstance penalty. On a hit, the next ally to target the same creature with a Strike gains a +2 circumstance bonus to their attack roll. On a critical hit, the bonus applies to any allies who act before the start of your next turn.\n\nEffect: Lead By Example",
+    "data": {
+      "level": 8,
+      "rarity": "common",
+      "traits": [
+        "archetype",
+        "flourish"
+      ],
+      "prerequisites": "Blackjacket Dedication",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "You telegraph your next attack to let your allies in on your strategy. Make a melee or ranged Strike with a –2 circumstance penalty. On a hit, the next ally to target the same creature with a Strike gains a +2 circumstance bonus to their attack roll. On a critical hit, the bonus applies to any allies who act before the start of your next turn.\n\nEffect: Lead By Example",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "flourish",
+          "slug": "flourish"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "flourish",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "567916B4-63D8-5A94-B03A-686EBF0DFBDD",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Lethal Edge",
+    "slug": "lethal-edge-shining-kingdoms",
+    "descr": "**Trigger** Your Strike with your spectral dagger hits a [frightened](/condition/frightened-player-core) creature and deals spirit damage.\n\n---\n\nWhen the terrified are struck by your spectral weapon, they feel the anguish of every life taken by Silent Lenore. You apply one of the following effects, which lasts until the end of your next turn.\n\nThe target can't use reactions.The target is [Enfeebled 1](/condition/enfeebled-player-core).",
+    "data": {
+      "level": 10,
+      "rarity": "common",
+      "traits": [
+        "archetype"
+      ],
+      "prerequisites": "Spectral Dagger",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "Your Strike with your spectral dagger hits a frightened creature and deals spirit damage",
+      "benefits": "**Trigger** Your Strike with your spectral dagger hits a frightened creature and deals spirit damage.\n\n---\n\nWhen the terrified are struck by your spectral weapon, they feel the anguish of every life taken by Silent Lenore. You apply one of the following effects, which lasts until the end of your next turn.\n\nThe target can't use reactions.The target is Enfeebled 1.",
+      "actions": "free",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "764AF3DD-5AC5-5BE8-80E3-064DA917C228",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Lion Blade Dedication",
+    "slug": "lion-blade-dedication-shining-kingdoms",
+    "descr": "**Access** You're from Taldor.\n\n---\n\nYour Lion Blade spy training helps you conceal yourself and your identity. You become trained in your choice of Deception or Stealth; if you were already trained in that skill, you become an expert instead. You also gain the [Additional Lore](/feat/additional-lore-player-core) skill feat for Espionage Lore. If you were already trained in Espionage Lore, you also become trained in a Lore skill of your choice.\n\nYou never take circumstance penalties for attempting to take a disguise of a different ancestry, age, and so on, as long as the disguised form is appropriate for your size.\n\nLion Blade",
+    "data": {
+      "level": 2,
+      "rarity": "uncommon",
+      "traits": [
+        "archetype",
+        "dedication"
+      ],
+      "prerequisites": "member of the Lion Blades; trained in Performance",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "**Access** You're from Taldor.\n\n---\n\nYour Lion Blade spy training helps you conceal yourself and your identity. You become trained in your choice of Deception or Stealth; if you were already trained in that skill, you become an expert instead. You also gain the Additional Lore skill feat for Espionage Lore. If you were already trained in Espionage Lore, you also become trained in a Lore skill of your choice.\n\nYou never take circumstance penalties for attempting to take a disguise of a different ancestry, age, and so on, as long as the disguised form is appropriate for your size.\n\nLion Blade",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "dedication",
+          "slug": "dedication"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "dedication",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "DFA23375-1CA5-57CA-9285-82771035A51B",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Lion's Magic",
+    "slug": "lion-s-magic-shining-kingdoms",
+    "descr": "Many Lion Blades enhance their words with a bit of magic. You can cast a 4th-rank [Suggestion](/spell/suggestion-player-core) as an occult innate spell once per day. At 12th level, you can also cast a 5th-rank [Subconscious Suggestion](/spell/subconscious-suggestion-player-core) once per day.",
+    "data": {
+      "level": 8,
+      "rarity": "common",
+      "traits": [
+        "archetype"
+      ],
+      "prerequisites": "Lion Blade Dedication",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "Many Lion Blades enhance their words with a bit of magic. You can cast a 4th-rank Suggestion as an occult innate spell once per day. At 12th level, you can also cast a 5th-rank Subconscious Suggestion once per day.",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F1BF101B-1C1E-53E1-8D2C-6EC2568FD73C",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Lost in the Crowd",
+    "slug": "lost-in-the-crowd-shining-kingdoms",
+    "descr": "You've learned how to move as one with crowds and hide among them, vanishing into a busy street in the flicker of an eye. You move at full Speed in crowds and can use cover from crowds to [Hide](/action/hide-player-core) and [Sneak](/action/sneak-player-core), gaining a +2 circumstance bonus to your Stealth checks when in a crowd of at least 10 creatures and a +4 circumstance bonus to your Stealth checks when in a crowd of at least 100 creatures.\n\n[Effect: Lost In The Crowd](/condition/effect-lost-in-the-crowd-shining-kingdoms)",
+    "data": {
+      "level": 4,
+      "rarity": "common",
+      "traits": [
+        "archetype"
+      ],
+      "prerequisites": "Lion Blade Dedication",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "You've learned how to move as one with crowds and hide among them, vanishing into a busy street in the flicker of an eye. You move at full Speed in crowds and can use cover from crowds to Hide and Sneak, gaining a +2 circumstance bonus to your Stealth checks when in a crowd of at least 10 creatures and a +4 circumstance bonus to your Stealth checks when in a crowd of at least 100 creatures.\n\nEffect: Lost In The Crowd",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5E6D6355-58AC-5C92-B1A2-69D8D523EC4A",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Master Merchant",
+    "slug": "master-merchant-shining-kingdoms",
+    "descr": "Kalistrade teaches that setbacks are only temporary and that perseverance is a treasured virtue. When you fail, but not critically fail, at a Society or Mercantile Lore check to [Earn Income](/action/earn-income-player-core) at a specific task and are allowed to continue working at that task on subsequent days, you can choose to attempt the skill check again the next day. If you succeed, you get a critical success and continue to earn that amount on further days spent working at the task, if the task lasts that long.",
+    "data": {
+      "level": 14,
+      "rarity": "common",
+      "traits": [
+        "archetype",
+        "skill"
+      ],
+      "prerequisites": "Prophet of Kalistrade Dedication",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "Kalistrade teaches that setbacks are only temporary and that perseverance is a treasured virtue. When you fail, but not critically fail, at a Society or Mercantile Lore check to Earn Income at a specific task and are allowed to continue working at that task on subsequent days, you can choose to attempt the skill check again the next day. If you succeed, you get a critical success and continue to earn that amount on further days spent working at the task, if the task lasts that long.",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "skill",
+          "slug": "skill"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "remaster",
+      "shining-kingdoms",
+      "skill"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "CE47EF2A-89DA-50DB-AA5E-E4890702D40E",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Master Prophet Spellcasting",
+    "slug": "master-prophet-spellcasting-shining-kingdoms",
+    "descr": "You gain the Master Spellcasting Benefits.",
+    "data": {
+      "level": 18,
+      "rarity": "common",
+      "traits": [
+        "archetype"
+      ],
+      "prerequisites": "Expert Prophet Spellcasting; legendary in Society",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "You gain the Master Spellcasting Benefits.",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "50E0CA32-7837-5E71-83A2-E19C6131835F",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Mercenary Motivation",
+    "slug": "mercenary-motivation-shining-kingdoms",
+    "descr": "A large part of being in the Mercenary League entails doing mercenary work. You spend 1 minute planning a course of action that will allow you to complete a task you've been hired or requested to do. Work with your GM to determine the circumstances of any job or task if need be, but typically, they can involve protecting a place or person, defeating a foe or enemy force, or retrieving an item. The course of action you plan must be something you believe you can accomplish.\n\n**Active Plan** You can have only one course of action planned at a time. If you use Mercenary Motivation to plan a second course of action, you no longer receive the bonus to checks related to the first course of action.\n\n**On the Job** Whenever you attempt a Perception check or skill check that will advance your course of action, you gain a +1 circumstance bonus to the check. The exact checks this bonus applies to depend on your current job and are determined by the GM.\n\n**Finishing a Plan** When you complete the course of action you planned to do, you don't lose the bonus or other benefits until you make a different plan with Mercenary Motivation or voluntarily Dismiss the current plan.",
+    "data": {
+      "level": 4,
+      "rarity": "common",
+      "traits": [
+        "archetype",
+        "concentrate",
+        "exploration"
+      ],
+      "prerequisites": "Blackjacket Dedication",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "A large part of being in the Mercenary League entails doing mercenary work. You spend 1 minute planning a course of action that will allow you to complete a task you've been hired or requested to do. Work with your GM to determine the circumstances of any job or task if need be, but typically, they can involve protecting a place or person, defeating a foe or enemy force, or retrieving an item. The course of action you plan must be something you believe you can accomplish.\n\n**Active Plan** You can have only one course of action planned at a time. If you use Mercenary Motivation to plan a second course of action, you no longer receive the bonus to checks related to the first course of action.\n\n**On the Job** Whenever you attempt a Perception check or skill check that will advance your course of action, you gain a +1 circumstance bonus to the check. The exact checks this bonus applies to depend on your current job and are determined by the GM.\n\n**Finishing a Plan** When you complete the course of action you planned to do, you don't lose the bonus or other benefits until you make a different plan with Mercenary Motivation or voluntarily Dismiss the current plan.",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "exploration",
+          "slug": "exploration"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "concentrate",
+      "exploration",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9EA95F6A-0DA6-552E-8120-75C5D6E4D828",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Nothing Personal",
+    "slug": "nothing-personal-shining-kingdoms",
+    "descr": "**Requirements** You have an active course of action planned.\n\n---\n\nWhen you're on a job, you can't allow anyone to stop you. Designate a single creature you can see as being an impediment to your active course of action. The first time you Strike your impediment in a round, you deal an extra die of weapon damage. At 14th level, this increases to two extra dice, and at 20th level, this increases to three extra dice.\n\nYou can have only one creature designated as an impediment at a time. If you use Nothing Personal against a creature when you already have a creature designated, the prior creature loses the designation, and the new impediment gains the designation. Otherwise, your designation lasts for 1 hour.",
+    "data": {
+      "level": 8,
+      "rarity": "common",
+      "traits": [
+        "archetype",
+        "concentrate"
+      ],
+      "prerequisites": "Mercenary Motivation",
+      "frequency": "",
+      "requirements": "You have an active course of action planned",
+      "trigger": "",
+      "benefits": "**Requirements** You have an active course of action planned.\n\n---\n\nWhen you're on a job, you can't allow anyone to stop you. Designate a single creature you can see as being an impediment to your active course of action. The first time you Strike your impediment in a round, you deal an extra die of weapon damage. At 14th level, this increases to two extra dice, and at 20th level, this increases to three extra dice.\n\nYou can have only one creature designated as an impediment at a time. If you use Nothing Personal against a creature when you already have a creature designated, the prior creature loses the designation, and the new impediment gains the designation. Otherwise, your designation lasts for 1 hour.",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "concentrate",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "036D12A6-D6A4-5E58-B983-BC7247824068",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Opportune Opening",
+    "slug": "opportune-opening-shining-kingdoms",
+    "descr": "**Trigger** An ally lands a critical hit on a creature within your melee reach.\n\n---\n\nYour combat training taught you to capitalize on any moment of weakness from your foe. You make a melee Strike against the same creature your ally just hit. The creature is [Off Guard](/condition/off-guard-player-core) against this Strike",
+    "data": {
+      "level": 10,
+      "rarity": "common",
+      "traits": [
+        "archetype"
+      ],
+      "prerequisites": "Blackjacket Dedication",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "An ally lands a critical hit on a creature within your melee reach",
+      "benefits": "**Trigger** An ally lands a critical hit on a creature within your melee reach.\n\n---\n\nYour combat training taught you to capitalize on any moment of weakness from your foe. You make a melee Strike against the same creature your ally just hit. The creature is Off Guard against this Strike",
+      "actions": "reaction",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4EA73662-57F7-519B-9D7F-88BE42E9F4B0",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Primal Guardian",
+    "slug": "primal-guardian-shining-kingdoms",
+    "descr": "You grow in power as a guardian of nature. You learn either the [Elemental Sheath](/spell/elemental-sheath-shining-kingdoms) or [Vicious Howl](/spell/vicious-howl-shining-kingdoms) focus spell.\n\n---\n\n**Special** You can take this feat a second time, gaining the focus spell you didn't gain the first time.",
+    "data": {
+      "level": 8,
+      "rarity": "common",
+      "traits": [
+        "archetype"
+      ],
+      "prerequisites": "Wyldsinger",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "You grow in power as a guardian of nature. You learn either the Elemental Sheath or Vicious Howl focus spell.\n\n---\n\n**Special** You can take this feat a second time, gaining the focus spell you didn't gain the first time.",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "77C45B8D-A557-5769-A956-E967CDA5BE84",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Prolific Prophet Spellcasting",
+    "slug": "prolific-prophet-spellcasting-shining-kingdoms",
+    "descr": "Increase the number of spells in your repertoire and the number of spell slots you gain from [prophet of Kalistrade](/archetype/prophet-of-kalistrade-shining-kingdoms) archetype feats by 1 for each spell rank other than your two highest prophet of Kalistrade spell slots.",
+    "data": {
+      "level": 8,
+      "rarity": "common",
+      "traits": [
+        "archetype"
+      ],
+      "prerequisites": "Basic Prophet Spellcasting",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "Increase the number of spells in your repertoire and the number of spell slots you gain from prophet of Kalistrade archetype feats by 1 for each spell rank other than your two highest prophet of Kalistrade spell slots.",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "BADF6EFF-8CF6-5CC0-B4CE-08F1D836EB54",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Prophet of Kalistrade Dedication",
+    "slug": "prophet-of-kalistrade-dedication-shining-kingdoms",
+    "descr": "**Access** You're from Druma\n\n---\n\nAfter induction into the ranks of the Kalistocrats, you learned the skills necessary to succeed in business and rise above others by following a set of detailed strictures. Unless you take measures to hide your affiliation, anyone who has heard of the Prophets of Kalistrade will know you're one of them when they see you. You become an expert in Society and can use Society instead of Diplomacy to [Make An Impression](/action/make-an-impression-player-core) on merchants and traders.\n\nAdditionally, if you don't already cast spells from spell slots, you learn to cast spontaneous spells and gain the Cast a Spell activity. You gain a spell repertoire with two common occult cantrips, plus either [Prestidigitation](/spell/prestidigitation-player-core) or [Read Aura](/spell/read-aura-player-core). You're trained in the spell attack modifier and spell DC statistics. Your key spellcasting attribute for these spells is Charisma, and they're occult spells.\n\nProphet of Kalistrade",
+    "data": {
+      "level": 2,
+      "rarity": "uncommon",
+      "traits": [
+        "archetype",
+        "dedication"
+      ],
+      "prerequisites": "trained in Mercantile Lore and Society; Charisma +2",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "**Access** You're from Druma\n\n---\n\nAfter induction into the ranks of the Kalistocrats, you learned the skills necessary to succeed in business and rise above others by following a set of detailed strictures. Unless you take measures to hide your affiliation, anyone who has heard of the Prophets of Kalistrade will know you're one of them when they see you. You become an expert in Society and can use Society instead of Diplomacy to Make An Impression on merchants and traders.\n\nAdditionally, if you don't already cast spells from spell slots, you learn to cast spontaneous spells and gain the Cast a Spell activity. You gain a spell repertoire with two common occult cantrips, plus either Prestidigitation or Read Aura. You're trained in the spell attack modifier and spell DC statistics. Your key spellcasting attribute for these spells is Charisma, and they're occult spells.\n\nProphet of Kalistrade",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "dedication",
+          "slug": "dedication"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "dedication",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "082F2258-297D-5B5D-B9A0-B4A552CA069E",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Prophet's Lockbox",
+    "slug": "prophet-s-lockbox-shining-kingdoms",
+    "descr": "You've learned secret methods that allow you to store your valuables where no one else can reach them. You can cast [Imaginary Lockbox](/spell/imaginary-lockbox-player-core-2) as a 5th-rank innate occult spell once per day. At 12th level and every 2 levels thereafter, the maximum amount you can target with this spell increases by 1 Bulk.",
+    "data": {
+      "level": 10,
+      "rarity": "common",
+      "traits": [
+        "archetype"
+      ],
+      "prerequisites": "Prophet of Kalistrade Dedication",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "You've learned secret methods that allow you to store your valuables where no one else can reach them. You can cast Imaginary Lockbox as a 5th-rank innate occult spell once per day. At 12th level and every 2 levels thereafter, the maximum amount you can target with this spell increases by 1 Bulk.",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1ED36E53-2590-5D3F-9E1D-4425E7B62603",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Protective Strike",
+    "slug": "protective-strike-shining-kingdoms",
+    "descr": "**Trigger** A creature moves adjacent to or attempts a melee Strike against your designated ally.\n\n---\n\nYou keep harm at bay. Make a melee Strike against the triggering creature. On a critical success, you interrupt the triggering action.",
+    "data": {
+      "level": 10,
+      "rarity": "common",
+      "traits": [
+        "archetype"
+      ],
+      "prerequisites": "Ulfen Guard Dedication",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "A creature moves adjacent to or attempts a melee Strike against your designated ally",
+      "benefits": "**Trigger** A creature moves adjacent to or attempts a melee Strike against your designated ally.\n\n---\n\nYou keep harm at bay. Make a melee Strike against the triggering creature. On a critical success, you interrupt the triggering action.",
+      "actions": "reaction",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "379A7B4B-9557-5D55-ACEF-C4DC0029AB3A",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Sacred Weapon",
+    "slug": "sacred-weapon-shining-kingdoms",
+    "descr": "You're a living weapon honed to destroy fiends. Whenever you critically Strike a fiend, your attack deals an extra weapon damage die, and the fiend is [Enfeebled 2](/condition/enfeebled-player-core) and [Clumsy 2](/condition/clumsy-player-core) until the beginning of your next turn.",
+    "data": {
+      "level": 18,
+      "rarity": "common",
+      "traits": [
+        "archetype"
+      ],
+      "prerequisites": "Wylderheart Dedication",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "You're a living weapon honed to destroy fiends. Whenever you critically Strike a fiend, your attack deals an extra weapon damage die, and the fiend is Enfeebled 2 and Clumsy 2 until the beginning of your next turn.",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "712572FB-B073-573A-871C-5FEC005F115F",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "School of Gates",
+    "slug": "school-of-gates-shining-kingdoms",
+    "descr": "Some are content to stay in place and let the world shape them, but you prefer to move at your own pace. You've studied the ancient *aiudara* and other structures to learn the magic of transposition, using your knowledge to move across great distances and even planes. With knowledge as your path and magic as your key, there's no door you can't open, and no world you won't explore.\n\n**Curriculum**\n\n**cantrips:** [Message](/spell/message-player-core), [Telekinetic Hand](/spell/telekinetic-hand-player-core)**1st:** [Fleet Step](/spell/fleet-step-player-core), [Lock](/spell/lock-player-core), [Thoughtful Gift](/spell/thoughtful-gift-player-core-2)**2nd:** [Knock](/spell/knock-player-core), [Warping Pull](/spell/warping-pull-shining-kingdoms)**3rd:** [Echo Jump](/spell/echo-jump-shining-kingdoms), [Trade Items](/spell/trade-items-shining-kingdoms)**4th:** [Flicker](/spell/flicker-player-core), [Translocate](/spell/translocate-player-core)**5th:** [King'S Castle](/spell/king-s-castle-shining-kingdoms), [Magic Passage](/spell/magic-passage-player-core)**6th:** [Collective Transposition](/spell/collective-transposition-player-core-2), [Teleport](/spell/teleport-player-core)**7th:** [Interplanar Teleport](/spell/interplanar-teleport-player-core), [Planar Seal](/spell/planar-seal-player-core)**8th:** [Quandary](/spell/quandary-player-core), [Sudden Transposition](/spell/sudden-transposition-shining-kingdoms)**9th:** [Forest Of Gates](/spell/forest-of-gates-shining-kingdoms)\n\n**School Spells** initial: [Friendly Push](/spell/friendly-push-shining-kingdoms); advanced: [Rapid Retreat](/spell/rapid-retreat-shining-kingdoms)",
+    "data": {
+      "level": 1,
+      "rarity": "uncommon",
+      "traits": [
+        "wizard"
+      ],
+      "prerequisites": "",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "Some are content to stay in place and let the world shape them, but you prefer to move at your own pace. You've studied the ancient *aiudara* and other structures to learn the magic of transposition, using your knowledge to move across great distances and even planes. With knowledge as your path and magic as your key, there's no door you can't open, and no world you won't explore.\n\n**Curriculum**\n\n**cantrips:** Message, Telekinetic Hand**1st:** Fleet Step, Lock, Thoughtful Gift**2nd:** Knock, Warping Pull**3rd:** Echo Jump, Trade Items**4th:** Flicker, Translocate**5th:** King'S Castle, Magic Passage**6th:** Collective Transposition, Teleport**7th:** Interplanar Teleport, Planar Seal**8th:** Quandary, Sudden Transposition**9th:** Forest Of Gates\n\n**School Spells** initial: Friendly Push; advanced: Rapid Retreat",
+      "traitLinks": [
+        {
+          "label": "wizard",
+          "slug": "wizard"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "shining-kingdoms",
+      "wizard"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "CDB14E4C-CEB1-5724-A834-3B682F544E19",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "School of Kalistrade",
+    "slug": "school-of-kalistrade-shining-kingdoms",
+    "descr": "Power and money are closely intertwined, and you recognize the potential for magic to assist in your pursuit of wealth and influence. Though you might study this school without joining the Prophets of Kalistrade, most who do so are either a part of the organization or local to Kerse and therefore used to the customs and culture of the Kalistocrats. You deploy magic to help you see through the illusions and trickery of others. At the same time, you push boundaries and exploit loopholes to get ahead of your competitors.\n\n**Curriculum**\n\n**cantrips:** [Prestidigitation](/spell/prestidigitation-player-core), [Read Aura](/spell/read-aura-player-core)**1st:** [Alarm](/spell/alarm-player-core), [Charm](/spell/charm-player-core), [Item Facade](/spell/item-facade-player-core)**2nd:** [Ghostly Carrier](/spell/ghostly-carrier-player-core), [Invisibility](/spell/invisibility-player-core)**3rd:** [Clairaudience](/spell/clairaudience-player-core), [Veil Of Privacy](/spell/veil-of-privacy-player-core)**4th:** [Outcast'S Curse](/spell/outcast-s-curse-player-core), [Suggestion](/spell/suggestion-player-core)**5th:** [Imaginary Lockbox](/spell/imaginary-lockbox-player-core-2), [Subconscious Suggestion](/spell/subconscious-suggestion-player-core)**6th:** [Repulsion](/spell/repulsion-player-core), [Scrying](/spell/scrying-player-core)**7th:** [Project Image](/spell/project-image-player-core), [Retrocognition](/spell/retrocognition-player-core)**8th:** [Disappearance](/spell/disappearance-player-core), [Hidden Mind](/spell/hidden-mind-gm-core)**9th:** [Resplendent Mansion](/spell/resplendent-mansion-player-core-2)\n\n**School Spells** initial: [Unexpected Windfall](/spell/unexpected-windfall-shining-kingdoms); advanced: [Capital Dividend](/spell/capital-dividend-shining-kingdoms)",
+    "data": {
+      "level": 1,
+      "rarity": "uncommon",
+      "traits": [
+        "wizard"
+      ],
+      "prerequisites": "",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "Power and money are closely intertwined, and you recognize the potential for magic to assist in your pursuit of wealth and influence. Though you might study this school without joining the Prophets of Kalistrade, most who do so are either a part of the organization or local to Kerse and therefore used to the customs and culture of the Kalistocrats. You deploy magic to help you see through the illusions and trickery of others. At the same time, you push boundaries and exploit loopholes to get ahead of your competitors.\n\n**Curriculum**\n\n**cantrips:** Prestidigitation, Read Aura**1st:** Alarm, Charm, Item Facade**2nd:** Ghostly Carrier, Invisibility**3rd:** Clairaudience, Veil Of Privacy**4th:** Outcast'S Curse, Suggestion**5th:** Imaginary Lockbox, Subconscious Suggestion**6th:** Repulsion, Scrying**7th:** Project Image, Retrocognition**8th:** Disappearance, Hidden Mind**9th:** Resplendent Mansion\n\n**School Spells** initial: Unexpected Windfall; advanced: Capital Dividend",
+      "traitLinks": [
+        {
+          "label": "wizard",
+          "slug": "wizard"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "shining-kingdoms",
+      "wizard"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "156F4E56-C209-55FB-82B9-D1E3B6955061",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Slowing Strike",
+    "slug": "slowing-strike-shining-kingdoms",
+    "descr": "**Frequency** once per round\n\n**Trigger** Your Strike hits an [Off Guard](/condition/off-guard-player-core) creature and deals damage.\n\n---\n\nYou wound your enemy so they can't move nimbly. The target must attempt a Fortitude save against your class DC or spell DC, whichever is higher.\n\n---\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature takes a –10-foot status penalty to its Speeds until the beginning of your next turn.\n\n**Failure** As success, but the penalty lasts for 1 minute.",
+    "data": {
+      "level": 12,
+      "rarity": "common",
+      "traits": [
+        "archetype"
+      ],
+      "prerequisites": "Lion Blade Dedication",
+      "frequency": "once per round",
+      "requirements": "",
+      "trigger": "Your Strike hits an Off Guard creature and deals damage",
+      "benefits": "**Frequency** once per round\n\n**Trigger** Your Strike hits an Off Guard creature and deals damage.\n\n---\n\nYou wound your enemy so they can't move nimbly. The target must attempt a Fortitude save against your class DC or spell DC, whichever is higher.\n\n---\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature takes a –10-foot status penalty to its Speeds until the beginning of your next turn.\n\n**Failure** As success, but the penalty lasts for 1 minute.",
+      "actions": "free",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "DCD9C6D8-C47F-5669-85BF-DDFFC0C876AF",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Smile at Failure",
+    "slug": "smile-at-failure-shining-kingdoms",
+    "descr": "You know staying cool is key to prevailing in social situations, as anger leads to mistakes. When a creature you're interacting with decreases its attitude from indifferent to unfriendly or from unfriendly to hostile, you gain a +2 circumstance bonus to any attempts to [Make An Impression](/action/make-an-impression-player-core) on the creature for the next hour. If this decrease in attitude leads to combat, you gain a +1 circumstance bonus to the subsequent initiative roll instead.",
+    "data": {
+      "level": 4,
+      "rarity": "common",
+      "traits": [
+        "archetype"
+      ],
+      "prerequisites": "Prophet of Kalistrade Dedication",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "You know staying cool is key to prevailing in social situations, as anger leads to mistakes. When a creature you're interacting with decreases its attitude from indifferent to unfriendly or from unfriendly to hostile, you gain a +2 circumstance bonus to any attempts to Make An Impression on the creature for the next hour. If this decrease in attitude leads to combat, you gain a +1 circumstance bonus to the subsequent initiative roll instead.",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "400E3FD4-5BFC-5932-9C65-66EA1C4106AE",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Soul Bleed",
+    "slug": "soul-bleed-shining-kingdoms",
+    "descr": "Your blade can rupture an enemy's very soul, draining away its essence to empower you. When you score a critical hit with your [Spectral Dagger](/item/spectral-dagger-shining-kingdoms), you deal 1d6 persistent spirit damage. If the target wasn't already taking persistent spirit damage when you scored the critical hit, you gain temporary Hit Points equal to the spirit damage dealt by the attack that last until the beginning of your next turn.",
+    "data": {
+      "level": 6,
+      "rarity": "common",
+      "traits": [
+        "archetype"
+      ],
+      "prerequisites": "Spectral Dagger",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "Your blade can rupture an enemy's very soul, draining away its essence to empower you. When you score a critical hit with your Spectral Dagger, you deal 1d6 persistent spirit damage. If the target wasn't already taking persistent spirit damage when you scored the critical hit, you gain temporary Hit Points equal to the spirit damage dealt by the attack that last until the beginning of your next turn.",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "59AC2D8B-B371-5583-BC41-ABE83E991213",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Soul Oubliette",
+    "slug": "soul-oubliette-shining-kingdoms",
+    "descr": "**Trigger** You reduce a creature to 0 Hit Points with an attack from your spectral dagger.\n\n**Requirements** Your splinter of finality doesn't contain a trapped soul.\n\n---\n\nYour mortal strike wrenches the soul from your victim's body and imprisons it in your splinter of finality, with the effects of seize soul. The splinter of finality can only hold one soul at a time, but you can release a trapped soul as a free action. If you don't free a soul willingly, it escapes automatically after 24 hours. However, if you touch the splinter of finality to an unbroken final blade while a soul is trapped within, the soul is transferred to the final blade and imprisoned indefinitely.\n\nWhile your splinter of finality contains a trapped soul, you gain fast healing 15.\n\nEffect: Soul Oubliette",
+    "data": {
+      "level": 20,
+      "rarity": "common",
+      "traits": [
+        "archetype",
+        "concentrate",
+        "occult",
+        "unholy"
+      ],
+      "prerequisites": "Spectral Dagger",
+      "frequency": "",
+      "requirements": "Your splinter of finality doesn't contain a trapped soul",
+      "trigger": "You reduce a creature to 0 Hit Points with an attack from your spectral dagger",
+      "benefits": "**Trigger** You reduce a creature to 0 Hit Points with an attack from your spectral dagger.\n\n**Requirements** Your splinter of finality doesn't contain a trapped soul.\n\n---\n\nYour mortal strike wrenches the soul from your victim's body and imprisons it in your splinter of finality, with the effects of seize soul. The splinter of finality can only hold one soul at a time, but you can release a trapped soul as a free action. If you don't free a soul willingly, it escapes automatically after 24 hours. However, if you touch the splinter of finality to an unbroken final blade while a soul is trapped within, the soul is transferred to the final blade and imprisoned indefinitely.\n\nWhile your splinter of finality contains a trapped soul, you gain fast healing 15.\n\nEffect: Soul Oubliette",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "occult",
+          "slug": "occult"
+        },
+        {
+          "label": "unholy",
+          "slug": "unholy"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "concentrate",
+      "occult",
+      "remaster",
+      "shining-kingdoms",
+      "unholy"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5F40CD4C-DA71-5923-95BD-53AEA7DBC8FA",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Soul Well",
+    "slug": "soul-well-shining-kingdoms",
+    "descr": "Your brush your fingers across your splinter of finality, momentarily creating a metaphysical vortex from which mortal spirits struggle to escape. For the next minute, incorporeal undead treat all squares within 30 feet of you as difficult terrain and living creatures within the same area die from the [dying](/condition/dying-player-core) condition at dying 5 rather than dying 4.\n\nAs it comes close to tasting a living soul, the splinter of finality is empowered. If a living creature's dying value increases while within your Soul Well, your spectral dagger deals one additional weapon die of damage until the end of your next turn.\n\nEffect: Soul Well (Additional Damage)",
+    "data": {
+      "level": 8,
+      "rarity": "common",
+      "traits": [
+        "archetype",
+        "concentrate",
+        "manipulate",
+        "occult"
+      ],
+      "prerequisites": "",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "Your brush your fingers across your splinter of finality, momentarily creating a metaphysical vortex from which mortal spirits struggle to escape. For the next minute, incorporeal undead treat all squares within 30 feet of you as difficult terrain and living creatures within the same area die from the dying condition at dying 5 rather than dying 4.\n\nAs it comes close to tasting a living soul, the splinter of finality is empowered. If a living creature's dying value increases while within your Soul Well, your spectral dagger deals one additional weapon die of damage until the end of your next turn.\n\nEffect: Soul Well (Additional Damage)",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "occult",
+          "slug": "occult"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "concentrate",
+      "manipulate",
+      "occult",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5CA218B8-678C-5569-ACF3-A7B6B2996548",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spectral Dagger",
+    "slug": "spectral-dagger-shining-kingdoms",
+    "descr": "By touching the splinter of finality in your neck, you conjure a [Spectral Dagger](/item/spectral-dagger-shining-kingdoms) into your hand that resembles the splinter wrapped in a crude hilt. This weapon acts like a *+1 ghost touch dagger*, and each successful Strike with it deals 1 additional spirit damage. If the attack is a critical hit, this damage increases to 1d6.\n\nIf the *spectral dagger* ever leaves your hand, it vanishes and you must spend an action to conjure it again. If this occurs as the result of you making a ranged thrown Strike with the dagger, you resolve the attack before the weapon vanishes.\n\nYou can increase the power of your *spectral dagger* with runes like you can other weapons, transferring the rune from a *runestone* or other weapon by meditating over the rune as a downtime activity that takes 1 day.",
+    "data": {
+      "level": 2,
+      "rarity": "common",
+      "traits": [
+        "archetype",
+        "manipulate"
+      ],
+      "prerequisites": "You have a hand free and aren't already wielding a spectral dagger.",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "By touching the splinter of finality in your neck, you conjure a Spectral Dagger into your hand that resembles the splinter wrapped in a crude hilt. This weapon acts like a *+1 ghost touch dagger*, and each successful Strike with it deals 1 additional spirit damage. If the attack is a critical hit, this damage increases to 1d6.\n\nIf the *spectral dagger* ever leaves your hand, it vanishes and you must spend an action to conjure it again. If this occurs as the result of you making a ranged thrown Strike with the dagger, you resolve the attack before the weapon vanishes.\n\nYou can increase the power of your *spectral dagger* with runes like you can other weapons, transferring the rune from a *runestone* or other weapon by meditating over the rune as a downtime activity that takes 1 day.",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "manipulate",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3328F359-310D-565C-83C3-2AB9D4DBDA50",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spy's Countermeasures",
+    "slug": "spy-s-countermeasures-shining-kingdoms",
+    "descr": "**Trigger** You succeed at a save against a detection, mental, or scrying effect.\n\n---\n\nYou've learned how to analyze and fake your responses to the most common magic used against spies. You can attempt to identify the effect via [Identify Magic](/action/identify-magic-player-core) using the magical tradition skill of the effect or Espionage Lore, even if you didn't notice the spell being cast.\n\nIf you successfully identify the triggering effect, and it would normally fail or have no effect, you can make the caster of the triggering effect think the effect or spell succeeded. If they would obtain a result, such as receive a piece of information, you decide what that result is. If the effect would influence you to take certain actions, you can make it appear as if you were affected and attempt to play along; if the effect normally establishes a mental link, it functions normally, but you can disregard any commands you receive through the link.",
+    "data": {
+      "level": 10,
+      "rarity": "common",
+      "traits": [
+        "archetype"
+      ],
+      "prerequisites": "Lion Blade Dedication",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "You succeed at a save against a detection, mental, or scrying effect",
+      "benefits": "**Trigger** You succeed at a save against a detection, mental, or scrying effect.\n\n---\n\nYou've learned how to analyze and fake your responses to the most common magic used against spies. You can attempt to identify the effect via Identify Magic using the magical tradition skill of the effect or Espionage Lore, even if you didn't notice the spell being cast.\n\nIf you successfully identify the triggering effect, and it would normally fail or have no effect, you can make the caster of the triggering effect think the effect or spell succeeded. If they would obtain a result, such as receive a piece of information, you decide what that result is. If the effect would influence you to take certain actions, you can make it appear as if you were affected and attempt to play along; if the effect normally establishes a mental link, it functions normally, but you can disregard any commands you receive through the link.",
+      "actions": "free",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "42FD92CD-1F94-5F31-B4F9-4156F88E2372",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Stalwart Chant",
+    "slug": "stalwart-chant-shining-kingdoms",
+    "descr": "You know story after story of unyielding, valiant dwarven heroes whose minds were bulwarks against fear and confusion. You can use [Stalwart Song](/feat/stalwart-song-shining-kingdoms) when attempting a saving throw against any mental effect, and if you fail the saving throw, you gain resistance to mental damage against any resulting effect equal to half your level.",
+    "data": {
+      "level": 8,
+      "rarity": "common",
+      "traits": [
+        "archetype"
+      ],
+      "prerequisites": "Stalwart Song",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "You know story after story of unyielding, valiant dwarven heroes whose minds were bulwarks against fear and confusion. You can use Stalwart Song when attempting a saving throw against any mental effect, and if you fail the saving throw, you gain resistance to mental damage against any resulting effect equal to half your level.",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "18FC4A88-F69F-5F98-945A-CD0D56D562A2",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Stalwart Song",
+    "slug": "stalwart-song-shining-kingdoms",
+    "descr": "**Trigger** You're about to attempt a saving throw against a fear effect.\n\n**Requirements** You're in Tenacious Stance.\n\n---\n\nAs a stalwart defender, you rely on your martial training and your tried-and-true armor to face any danger without flinching. Your mountain-like resilience and courage draw strength from the centuries-old traditions of dwarven song. You bring to mind—and possibly give voice to—a cherished dwarven song of inspiring heroism, granting you a +2 circumstance bonus to the saving throw.",
+    "data": {
+      "level": 4,
+      "rarity": "common",
+      "traits": [
+        "archetype"
+      ],
+      "prerequisites": "Stalwart Defender Dedication",
+      "frequency": "",
+      "requirements": "You're in Tenacious Stance",
+      "trigger": "You're about to attempt a saving throw against a fear effect",
+      "benefits": "**Trigger** You're about to attempt a saving throw against a fear effect.\n\n**Requirements** You're in Tenacious Stance.\n\n---\n\nAs a stalwart defender, you rely on your martial training and your tried-and-true armor to face any danger without flinching. Your mountain-like resilience and courage draw strength from the centuries-old traditions of dwarven song. You bring to mind—and possibly give voice to—a cherished dwarven song of inspiring heroism, granting you a +2 circumstance bonus to the saving throw.",
+      "actions": "reaction",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D2D169FD-0C3F-5B5A-93AA-30DD3E410244",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Stifle Flames",
+    "slug": "stifle-flames-shining-kingdoms",
+    "descr": "Your forestry experience helped you develop techniques for fighting wildfires. Any time you attempt a skill check to extinguish a non-magical fire, you gain a +2 circumstance bonus to the check. Your DC on flat checks to end persistent fire damage is reduced from 15 to 10, or from 10 to 5 after receiving especially appropriate assistance.",
+    "data": {
+      "level": 1,
+      "rarity": "uncommon",
+      "traits": [
+        "general",
+        "skill"
+      ],
+      "prerequisites": "trained in Nature or Survival",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "Your forestry experience helped you develop techniques for fighting wildfires. Any time you attempt a skill check to extinguish a non-magical fire, you gain a +2 circumstance bonus to the check. Your DC on flat checks to end persistent fire damage is reduced from 15 to 10, or from 10 to 5 after receiving especially appropriate assistance.",
+      "traitLinks": [
+        {
+          "label": "general",
+          "slug": "general"
+        },
+        {
+          "label": "skill",
+          "slug": "skill"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "general",
+      "remaster",
+      "shining-kingdoms",
+      "skill"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2EB11BDB-29E5-5EE6-B23D-060F2B13AAA7",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Stir Allies",
+    "slug": "stir-allies-shining-kingdoms",
+    "descr": "You shout a command for your allies to scramble. Allies within 30 feet can use a reaction to Step. If you're legendary in Diplomacy, they can instead Stride.",
+    "data": {
+      "level": 10,
+      "rarity": "common",
+      "traits": [
+        "archetype",
+        "auditory",
+        "flourish"
+      ],
+      "prerequisites": "Eagle Knight Dedication",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "You shout a command for your allies to scramble. Allies within 30 feet can use a reaction to Step. If you're legendary in Diplomacy, they can instead Stride.",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "auditory",
+          "slug": "auditory"
+        },
+        {
+          "label": "flourish",
+          "slug": "flourish"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "auditory",
+      "flourish",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "17348FC1-FF49-58D3-A93F-C619D944653A",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Stunning Surprise",
+    "slug": "stunning-surprise-shining-kingdoms",
+    "descr": "**Requirements** You must be undetected by the target creature.\n\n---\n\nYou quickly move in to bring your foe down with a single blow. You move up to your Speed then make a melee Strike. If you hit and deal damage, your foe must attempt a Fortitude save against your class DC or spell DC, whichever is higher. Regardless of the save outcome, the creature then becomes immune to your Stunning Surprise for 24 hours.\n\n---\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature is [Stunned 1](/condition/stunned-player-core) and can't use reactions until its next turn.\n\n**Failure** The creature is Stunned 3 and can't use reactions until its next turn.\n\n**Critical Failure** The creature falls [Unconscious](/condition/unconscious-player-core) for 1 minute.",
+    "data": {
+      "level": 14,
+      "rarity": "common",
+      "traits": [
+        "archetype",
+        "incapacitation"
+      ],
+      "prerequisites": "Lion Blade Dedication",
+      "frequency": "",
+      "requirements": "You must be undetected by the target creature",
+      "trigger": "",
+      "benefits": "**Requirements** You must be undetected by the target creature.\n\n---\n\nYou quickly move in to bring your foe down with a single blow. You move up to your Speed then make a melee Strike. If you hit and deal damage, your foe must attempt a Fortitude save against your class DC or spell DC, whichever is higher. Regardless of the save outcome, the creature then becomes immune to your Stunning Surprise for 24 hours.\n\n---\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature is Stunned 1 and can't use reactions until its next turn.\n\n**Failure** The creature is Stunned 3 and can't use reactions until its next turn.\n\n**Critical Failure** The creature falls Unconscious for 1 minute.",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "incapacitation",
+          "slug": "incapacitation"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "incapacitation",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "026913A9-E6EC-5FD2-95CB-BE76EC99FCEB",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Talmandor's Shout",
+    "slug": "talmandor-s-shout-shining-kingdoms",
+    "descr": "**Frequency** once per day\n\n**Requirements** You witnessed a creature deal damage to an ally within 30 feet since your last turn.\n\n---\n\nAfter seeing an enemy harm one of your allies, you deliver a righteous shout in the name of the celestial Talmandor. Attempt an Intimidation check to [Demoralize](/action/demoralize-player-core), comparing the result to the Will DC of each enemy within a 60-foot emanation; this Demoralize attempt doesn't take any penalty for not sharing a language. It's possible to get a different degree of success for each target.",
+    "data": {
+      "level": 12,
+      "rarity": "common",
+      "traits": [
+        "archetype"
+      ],
+      "prerequisites": "Eagle Knight Dedication; master in Intimidation",
+      "frequency": "once per day",
+      "requirements": "You witnessed a creature deal damage to an ally within 30 feet since your last turn",
+      "trigger": "",
+      "benefits": "**Frequency** once per day\n\n**Requirements** You witnessed a creature deal damage to an ally within 30 feet since your last turn.\n\n---\n\nAfter seeing an enemy harm one of your allies, you deliver a righteous shout in the name of the celestial Talmandor. Attempt an Intimidation check to [Demoralize](/action/demoralize-player-core), comparing the result to the Will DC of each enemy within a 60-foot emanation; this Demoralize attempt doesn't take any penalty for not sharing a language. It's possible to get a different degree of success for each target.",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "CBA96C41-FD10-5483-8A9F-D36C9AB18F74",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Tight Follower",
+    "slug": "tight-follower-shining-kingdoms",
+    "descr": "**Trigger** Your designated ally moves and ends that movement more than 10 feet from you.\n\n---\n\nYou keep up as a protector. Stride up to your Speed closer to your designated ally. Your movement must end within 10 feet of your designated ally.",
+    "data": {
+      "level": 8,
+      "rarity": "common",
+      "traits": [
+        "archetype"
+      ],
+      "prerequisites": "Ulfen Guard Dedication",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "Your designated ally moves and ends that movement more than 10 feet from you",
+      "benefits": "**Trigger** Your designated ally moves and ends that movement more than 10 feet from you.\n\n---\n\nYou keep up as a protector. Stride up to your Speed closer to your designated ally. Your movement must end within 10 feet of your designated ally.",
+      "actions": "reaction",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2618AC87-5EEA-56F5-9E0D-45C507718C27",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Ulfen Guard Dedication",
+    "slug": "ulfen-guard-dedication-shining-kingdoms",
+    "descr": "**Access** At least one of your parents is Ulfen.\n\n---\n\nCentral to your Ulfen Guard training is the ability to protect an ally. You gain the [Additional Lore](/feat/additional-lore-player-core) skill feat for Warfare Lore. If you were already trained in Warfare Lore, you also become trained in a Lore skill of your choice. You gain the [Designate Ally](/action/designate-ally-shining-kingdoms) action.\n\nIt's anathema for you to abandon your designated ally or allow your designated ally to die when you can prevent it. If you violate this anathema, you lose the ability to Designate Ally and any feats that use this ability until you spend 1 day of downtime reaffirming your dedication to your allies.\n\nUlfen Guard",
+    "data": {
+      "level": 2,
+      "rarity": "uncommon",
+      "traits": [
+        "archetype",
+        "dedication"
+      ],
+      "prerequisites": "member of the Ulfen Guard, trained in Athletics and Intimidation",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "**Access** At least one of your parents is Ulfen.\n\n---\n\nCentral to your Ulfen Guard training is the ability to protect an ally. You gain the Additional Lore skill feat for Warfare Lore. If you were already trained in Warfare Lore, you also become trained in a Lore skill of your choice. You gain the Designate Ally action.\n\nIt's anathema for you to abandon your designated ally or allow your designated ally to die when you can prevent it. If you violate this anathema, you lose the ability to Designate Ally and any feats that use this ability until you spend 1 day of downtime reaffirming your dedication to your allies.\n\nUlfen Guard",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "dedication",
+          "slug": "dedication"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "dedication",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "ECE5FBC6-7717-5CCC-82E4-3BAABA7CDD07",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Vanish Into the Land",
+    "slug": "vanish-into-the-land-shining-kingdoms",
+    "descr": "You're adept at using the land's natural features to find places to hide. When in the difficult terrain you've selected for the [Terrain Stalker](/feat/terrain-stalker-player-core) feat, you can [Hide](/action/hide-player-core) and [Sneak](/action/sneak-player-core) even without cover or being [Concealed](/condition/concealed-player-core).",
+    "data": {
+      "level": 7,
+      "rarity": "uncommon",
+      "traits": [
+        "general",
+        "skill"
+      ],
+      "prerequisites": "master in Stealth; trained in Survival; Terrain Stalker",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "You're adept at using the land's natural features to find places to hide. When in the difficult terrain you've selected for the Terrain Stalker feat, you can Hide and Sneak even without cover or being Concealed.",
+      "traitLinks": [
+        {
+          "label": "general",
+          "slug": "general"
+        },
+        {
+          "label": "skill",
+          "slug": "skill"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "general",
+      "remaster",
+      "shining-kingdoms",
+      "skill"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "DF78A483-0B5A-5E87-8B55-DE3D62F7B2E7",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Vengeful Remnant",
+    "slug": "vengeful-remnant-shining-kingdoms",
+    "descr": "**Frequency** once per day\n\n---\n\nYou wreathe yourself in the tatters of all the souls claimed by your blade. Until the start of your next turn, you gain resistance 10 to all damage except force, ghost touch, spirit, and vitality, doubled if the source of the damage is non-magical. If you slay a significant foe not immune to spirit damage with your [Spectral Dagger](/item/spectral-dagger-shining-kingdoms) while under this effect, its duration increases until the end of your next turn.",
+    "data": {
+      "level": 14,
+      "rarity": "common",
+      "traits": [
+        "archetype",
+        "concentrate",
+        "manipulate",
+        "occult"
+      ],
+      "prerequisites": "",
+      "frequency": "once per day",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "**Frequency** once per day\n\n---\n\nYou wreathe yourself in the tatters of all the souls claimed by your blade. Until the start of your next turn, you gain resistance 10 to all damage except force, ghost touch, spirit, and vitality, doubled if the source of the damage is non-magical. If you slay a significant foe not immune to spirit damage with your Spectral Dagger while under this effect, its duration increases until the end of your next turn.",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "occult",
+          "slug": "occult"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "concentrate",
+      "manipulate",
+      "occult",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "7235BE0A-016D-5F57-A6E3-B564FF8F2C4E",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Wild Dance",
+    "slug": "wild-dance-shining-kingdoms",
+    "descr": "The combination of your passion for both life and the battle against evil makes you graceful and unpredictable. Stride up to your Speed. A creature that attempts a reaction triggered by this movement must first attempt a Will save against your class DC or spell DC, whichever is higher.\n\n---\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature is [Fascinated](/condition/fascinated-player-core) by you until the end of your next turn.\n\n**Failure** The creature is fascinated by you until the end of your next turn, but your movements might be too hard to follow; if the reaction requires an attack roll, you gain a +2 circumstance bonus to AC against that attack roll.\n\n**Critical Failure** The creature is fascinated by you until the end of your next turn, and it loses its reaction.",
+    "data": {
+      "level": 12,
+      "rarity": "common",
+      "traits": [
+        "archetype",
+        "flourish"
+      ],
+      "prerequisites": "Wylderheart Dedication",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "The combination of your passion for both life and the battle against evil makes you graceful and unpredictable. Stride up to your Speed. A creature that attempts a reaction triggered by this movement must first attempt a Will save against your class DC or spell DC, whichever is higher.\n\n---\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature is Fascinated by you until the end of your next turn.\n\n**Failure** The creature is fascinated by you until the end of your next turn, but your movements might be too hard to follow; if the reaction requires an attack roll, you gain a +2 circumstance bonus to AC against that attack roll.\n\n**Critical Failure** The creature is fascinated by you until the end of your next turn, and it loses its reaction.",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "flourish",
+          "slug": "flourish"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "flourish",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4B76F6DA-49AD-5144-B983-D16B63FD4898",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Wounded Party",
+    "slug": "wounded-party-shining-kingdoms",
+    "descr": "**Trigger** You or your designated ally takes damage, and you're capable of entering a Rage.\n\n---\n\nHarm to either you or your allies awakens your fury. You [Rage](/action/rage-player-core-2).",
+    "data": {
+      "level": 6,
+      "rarity": "common",
+      "traits": [
+        "archetype"
+      ],
+      "prerequisites": "Ulfen Guard Dedication",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "You or your designated ally takes damage, and you're capable of entering a Rage",
+      "benefits": "**Trigger** You or your designated ally takes damage, and you're capable of entering a Rage.\n\n---\n\nHarm to either you or your allies awakens your fury. You Rage.",
+      "actions": "reaction",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "48091354-CB04-539F-8C22-ACD5F1625A51",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Wylderheart Dedication",
+    "slug": "wylderheart-dedication-shining-kingdoms",
+    "descr": "**Access** You're from Kyonin.\n\n---\n\nYou're primed to face off against threats from the Outer Rifts. You gain the [Additional Lore](/feat/additional-lore-player-core) skill feat for Demon Lore. If you were already trained in Demon Lore, you also become trained in a Lore skill of your choice. You gain a +1 circumstance bonus to initiative rolls in encounters against fiends, and if you tie with a fiend's initiative roll, you go first.\n\nCertain wylderheart feats give you focus spells. When you gain your first wylderheart focus spell, you become trained in the spell attack modifier and spell DC statistics. Your key spellcasting attribute for the [wylderheart](/archetype/wylderheart-shining-kingdoms) archetype spells is Wisdom, and they're primal spells. You can Refocus by celebrating life or spending time in nature.\n\nWylderheart",
+    "data": {
+      "level": 2,
+      "rarity": "uncommon",
+      "traits": [
+        "archetype",
+        "dedication"
+      ],
+      "prerequisites": "member of the Wylderhearts; you're from Kyonin",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "**Access** You're from Kyonin.\n\n---\n\nYou're primed to face off against threats from the Outer Rifts. You gain the Additional Lore skill feat for Demon Lore. If you were already trained in Demon Lore, you also become trained in a Lore skill of your choice. You gain a +1 circumstance bonus to initiative rolls in encounters against fiends, and if you tie with a fiend's initiative roll, you go first.\n\nCertain wylderheart feats give you focus spells. When you gain your first wylderheart focus spell, you become trained in the spell attack modifier and spell DC statistics. Your key spellcasting attribute for the wylderheart archetype spells is Wisdom, and they're primal spells. You can Refocus by celebrating life or spending time in nature.\n\nWylderheart",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "dedication",
+          "slug": "dedication"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "dedication",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "073FD6A6-9E07-5600-936D-25E5F61E1FBC",
+    "kind": "Feat",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Wyldsinger",
+    "slug": "wyldsinger-shining-kingdoms",
+    "descr": "Passion and song are your weapons of choice. You learn either the [Menacing Lament](/spell/menacing-lament-shining-kingdoms) or [Valiant Anthem](/spell/valiant-anthem-shining-kingdoms) focus spell. If you don't already have one, you gain a focus pool of 1 Focus Point.\n\n---\n\n**Special** You can take this feat a second time, gaining the focus spell you didn't gain the first time.",
+    "data": {
+      "level": 4,
+      "rarity": "common",
+      "traits": [
+        "archetype"
+      ],
+      "prerequisites": "Wylderheart Dedication",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "Passion and song are your weapons of choice. You learn either the Menacing Lament or Valiant Anthem focus spell. If you don't already have one, you gain a focus pool of 1 Focus Point.\n\n---\n\n**Special** You can take this feat a second time, gaining the focus spell you didn't gain the first time.",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

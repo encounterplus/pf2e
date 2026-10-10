@@ -1,0 +1,14 @@
+{
+  "hammer-of-forbiddance-gm-core": [{"name":"Hammer","type":"melee","attack":28,"damageParts":[{"name":"6d8+20","details":"bludgeoning"}]}],
+  "poisoned-dart-gallery-gm-core": [{"name":"Poisoned Dart","type":"ranged","attack":21,"damageParts":[{"name":"3d4","details":"piercing"}]}],
+  "poisoned-lock-gm-core": [{"name":"Spine","type":"melee","attack":13,"damageParts":[{"name":"1","details":"piercing"}]}],
+  "scythe-blades-gm-core": [{"name":"Scythe","type":"melee","attack":17,"traits":["deadly-d12"],"damageParts":[{"name":"2d12+4","details":"slashing"}]}],
+  "spear-launcher-gm-core": [{"name":"Spear","type":"ranged","attack":14,"damageParts":[{"name":"2d6+6","details":"piercing"}]}],
+  "spectral-reflection-gm-core": [{"name":"Shadow Barbs","type":"melee","attack":19,"damageParts":[{"name":"4d8+9","details":"void"}]}],
+  "spinning-blade-pillar-gm-core": [{"name":"Spinning Blade","type":"melee","attack":12,"damageParts":[{"name":"2d10+5","details":"slashing"}]}],
+  "titanic-flytrap-gm-core": [{"name":"Jaws","type":"melee","attack":17,"damage":"see ability"}],
+  "vorpal-executioner-gm-core": [{"name":"Saw Blade","type":"melee","attack":40,"traits":["deadly-d12","death"],"damageParts":[{"name":"6d12+25","details":"slashing"}]}],
+  "malevolent-mannequins-guns-and-gears-remastered": [{"name":"Clockwork Fist","type":"melee","attack":29,"damageParts":[{"name":"2d10+18","details":"bludgeoning"}]}],
+  "constricting-hall-dark-archive": [{"name":"Wall","type":"melee","attack":20,"damageParts":[{"name":"2d10+11","details":"bludgeoning"}]}],
+  "shrouded-assailant-dark-archive": [{"name":"Shrouded Touch","type":"melee","attack":33,"damageParts":[{"name":"3d12+19","details":"force"}]}]
+}

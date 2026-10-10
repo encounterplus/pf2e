@@ -28,7 +28,6 @@
         {
           "title": "Common.Speed",
           "type": "form",
-          "attribute": "data.movement",
           "text": "{% include \"movement.md\" data.movement %}",
           "form": {
             "partial": "movement",

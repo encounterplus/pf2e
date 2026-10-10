@@ -1,0 +1,299 @@
+[
+  {
+    "id": "CBE3EDC5-B8E4-5DA1-89B7-C85AE1A7CE1F",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Home Among Mulberry Leaves",
+    "slug": "home-among-mulberry-leaves-tian-xia-character-guide-spell-spell-2134",
+    "descr": "Qi-formed threads unravel from your fabric on conjured needles as your attack makes contact with an enemy and wraps it in place like an insect in its cocoon. Make a melee Strike with your qi-infused fabric. On a success, the target is [immobilized](/condition/immobilized-player-core) until the start of your next turn, though it can attempt to [Escape](/action/escape-player-core) against your spell DC. On a critical success, your needles anchor in the target’s nerve centers after the threads bind it, making it your choice of [clumsy](/condition/clumsy-player-core) 1 or [enfeebled](/condition/enfeebled-player-core) 1 until the start of your next turn, in addition to immobilizing it.",
+    "data": {
+      "rank": 1,
+      "rarity": "uncommon",
+      "traits": [
+        "focus",
+        "magus",
+        "manipulate"
+      ],
+      "cost": "",
+      "cast": "Single Action",
+      "range": "",
+      "targets": "",
+      "requirements": "You're wielding qi-infused fabric",
+      "trigger": "",
+      "defense": "",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "focus",
+      "castActions": [
+        "one"
+      ],
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "focus",
+          "slug": "focus"
+        },
+        {
+          "label": "magus",
+          "slug": "magus"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ],
+      "durationText": "",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "tian-xia-character-guide",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "focus",
+      "magus",
+      "manipulate",
+      "remaster",
+      "spell",
+      "tian-xia-character-guide"
+    ],
+    "sources": [
+      {
+        "name": "Tian Xia Character Guide",
+        "url": "https://2e.aonprd.com/Spells.aspx?ID=2134",
+        "page": 112
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "314074DB-A1CC-5131-A375-F387A851C5D5",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Luminous Stardust Healing",
+    "slug": "luminous-stardust-healing-tian-xia-character-guide-spell-spell-2132",
+    "descr": "You scatter twinkling sparks from your sentinel weapon, replenishing your allies’ fighting spirit and driving out evil. The target regains 16 Hit Points. If they were affected by a [possession](/trait/possession) effect, you attempt to counteract the effect, casting out the possessing entity on a success and preventing them from possessing the target again for 1 week. If you fail, the entity is immune to being cast out by this spell for 1 week, though you can still heal the target as normal.\n\n---\n**Heightened (+1)** The amount of healing increases by 8.",
+    "data": {
+      "rank": 2,
+      "rarity": "rare",
+      "traits": [
+        "concentrate",
+        "focus",
+        "healing",
+        "manipulate",
+        "spirit"
+      ],
+      "cost": "",
+      "cast": "Two Actions",
+      "range": "30 feet",
+      "targets": "1 creature",
+      "requirements": "",
+      "trigger": "",
+      "defense": "",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "focus",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "focus",
+          "slug": "focus"
+        },
+        {
+          "label": "healing",
+          "slug": "healing"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "spirit",
+          "slug": "spirit"
+        }
+      ],
+      "durationText": "",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "tian-xia-character-guide",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "focus",
+      "healing",
+      "manipulate",
+      "remaster",
+      "spell",
+      "spirit",
+      "tian-xia-character-guide"
+    ],
+    "sources": [
+      {
+        "name": "Tian Xia Character Guide",
+        "url": "https://2e.aonprd.com/Spells.aspx?ID=2132",
+        "page": 95
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "D1FF2FB5-639B-5ED0-A46A-52372A073A61",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Shining Starlight Attack",
+    "slug": "shining-starlight-attack-tian-xia-character-guide-spell-spell-2133",
+    "descr": "You brandish your sentinel weapon, summoning the image of your constellation above your head. The constellation then releases a powerful blast that deals 2d10 damage to all enemies in either a 30-foot line or 15-foot cone, with a basic save against your arcane spell DC. Enemies that critically fail are [dazzled](/condition/dazzled-player-core) until the start of your next turn. The damage type, traits, area, and saving throw are determined by your zodiac constellation (see below).\n\n##\n\n| Constellation | Attack (Area, Save, Damage Type; Traits) | | |\n| --- | --- | --- | --- |\n| Underworld Dragon | Volcanic Vents (line, Reflex, fire) | | |\n| Ogre | Wild club swing (cone, Fortitude, bludgeoning) | Swordswoman | Falling blades of light (line, Reflex,\r piercing) |\n| Forest Dragon | Swarm of Insects (cone, Fortitude, poison) | | |\n| Sea Dragon | Pressurized seawater (line, Reflex, piercing; [water](/trait/water) trait) | | |\n| Blossom | Storming petals and pollen (line, Fortitude; poison, plant, wood) | | |\n| Swallow | Wind gust (cone, Reflex, slashing; air) | | |\n| Dog | A biting dog (line, Reflex, slashing) | | |\n| Ox | A trampling ox (line, Reflex, bludgeoning) | | |\n| Sky Dragon | Draconic lightning (line, Reflex, electricity) | | |\n| Sovereign Dragon | Psychic roar (cone, Will, mental) | | |\n| Archer | Hail of silver Arrows (piercing, cone, Reflex) | | |\n\n---\n**Heightened (+1)** The damage increases by 1d10.",
+    "data": {
+      "rank": 2,
+      "rarity": "rare",
+      "traits": [
+        "concentrate",
+        "focus",
+        "manipulate"
+      ],
+      "cost": "",
+      "cast": "Two Actions",
+      "range": "",
+      "targets": "",
+      "requirements": "",
+      "trigger": "",
+      "defense": "",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "focus",
+      "area": "varies (see below)",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "focus",
+          "slug": "focus"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ],
+      "durationText": "",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "tian-xia-character-guide",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "focus",
+      "manipulate",
+      "remaster",
+      "spell",
+      "tian-xia-character-guide"
+    ],
+    "sources": [
+      {
+        "name": "Tian Xia Character Guide",
+        "url": "https://2e.aonprd.com/Spells.aspx?ID=2133",
+        "page": 95
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "4EEBFF32-445B-54FB-AA27-99B0B602141C",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Sky Laughs at Waves",
+    "slug": "sky-laughs-at-waves-tian-xia-character-guide-spell-spell-2135",
+    "descr": "You soar and leave the world’s squabbles behind before your violent intentions ground you once more. Fly up to your Speed, then make a Strike with your sword against an adjacent creature at the end of your movement. If you don’t have any other means of flying, you fall after the Strike. If you can’t end your movement adjacent to an enemy, this spell is disrupted.",
+    "data": {
+      "rank": 1,
+      "rarity": "uncommon",
+      "traits": [
+        "focus",
+        "magus",
+        "manipulate"
+      ],
+      "cost": "",
+      "cast": "Single Action",
+      "range": "",
+      "targets": "",
+      "requirements": "You’re wielding a one-handed weapon in the sword group.",
+      "trigger": "",
+      "defense": "",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "focus",
+      "castActions": [
+        "one"
+      ],
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "focus",
+          "slug": "focus"
+        },
+        {
+          "label": "magus",
+          "slug": "magus"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ],
+      "durationText": "",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "tian-xia-character-guide",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "focus",
+      "magus",
+      "manipulate",
+      "remaster",
+      "spell",
+      "tian-xia-character-guide"
+    ],
+    "sources": [
+      {
+        "name": "Tian Xia Character Guide",
+        "url": "https://2e.aonprd.com/Spells.aspx?ID=2135",
+        "page": 112
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  }
+]

@@ -1,0 +1,1374 @@
+[
+  {
+    "id": "7707C9E7-8198-55E5-9624-FC52C020C4A0",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Stargut Hydra) Skymetal Metamorphosis (Abysium)",
+    "slug": "stargut-hydra-skymetal-metamorphosis-abysium-howl-of-the-wild",
+    "descr": "Each stargut hydra has at least one metamorphosis resulting from consuming a specific skymetal and internalizing its properties.\n\n**Abysium** (aura, poison) The stargut hydra emits an aura of nauseating radiation from the abysium in its body. Any creature that begins its turn within 30 feet of the stargut hydra is [Sickened 1](/condition/sickened-player-core).",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "aura",
+        "poison"
+      ],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": [
+        {
+          "label": "aura",
+          "slug": "aura"
+        },
+        {
+          "label": "poison",
+          "slug": "poison"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "aura",
+      "howl-of-the-wild",
+      "poison",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5D97F5AF-BA3B-5947-9745-AE26EF874143",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Stargut Hydra) Skymetal Metamorphosis (Adamantine)",
+    "slug": "stargut-hydra-skymetal-metamorphosis-adamantine-howl-of-the-wild",
+    "descr": "Each stargut hydra has at least one metamorphosis resulting from consuming a specific skymetal and internalizing its properties.\n\n**Adamantine** The stargut hydra's Strikes bypass Hardness and are treated as adamantine. The stargut hydra gains resistance 10 to physical damage (except adamantine).",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "307F15F0-671F-5137-95D8-7B9260E0A7E8",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Stargut Hydra) Skymetal Metamorphosis (Djezet)",
+    "slug": "stargut-hydra-skymetal-metamorphosis-djezet-howl-of-the-wild",
+    "descr": "Each stargut hydra has at least one metamorphosis resulting from consuming a specific skymetal and internalizing its properties.\n\n**Djezet** (magical) The stargut hydra gains a +2 status bonus to saves against magic.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "magical"
+      ],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": [
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "magical",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "531885BE-F505-5CF5-ADAC-9F67C80CDDD0",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Stargut Hydra) Skymetal Metamorphosis (Inubrix)",
+    "slug": "stargut-hydra-skymetal-metamorphosis-inubrix-howl-of-the-wild",
+    "descr": "Each stargut hydra has at least one metamorphosis resulting from consuming a specific skymetal and internalizing its properties.\n\n**Inubrix** The stargut hydra's Strikes ignore resistance to damage from metal armor's armor specialization effects and do not trigger the Shield Block reaction or reactions from armor property runes.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1022D96C-B987-5058-BE07-315435FC210D",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Stargut Hydra) Skymetal Metamorphosis (Noqual)",
+    "slug": "stargut-hydra-skymetal-metamorphosis-noqual-howl-of-the-wild",
+    "descr": "Each stargut hydra has at least one metamorphosis resulting from consuming a specific skymetal and internalizing its properties.\n\n**Noqual** The stargut hydra's Strikes and abilities gain a +2 status bonus to damage against creatures with the ability to Cast a Spell.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A80B5CB9-7F51-5F17-8E7A-027C5431C127",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Stargut Hydra) Skymetal Metamorphosis (Orichalcum)",
+    "slug": "stargut-hydra-skymetal-metamorphosis-orichalcum-howl-of-the-wild",
+    "descr": "Each stargut hydra has at least one metamorphosis resulting from consuming a specific skymetal and internalizing its properties.\n\n**Orichalcum** When the stargut hydra has only two heads remaining, it is [Quickened](/condition/quickened-player-core). It can use the extra action only to Stride or Strike.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B917C307-DDA3-5B14-979C-B8399D15BF7A",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Stargut Hydra) Skymetal Metamorphosis (Siccatite)",
+    "slug": "stargut-hydra-skymetal-metamorphosis-siccatite-howl-of-the-wild",
+    "descr": "Each stargut hydra has at least one metamorphosis resulting from consuming a specific skymetal and internalizing its properties.\n\n**Siccatite** After the stargut hydra takes fire damage, it becomes superheated, gaining immunity to fire and weakness 10 to cold. While superheated, cold damage can be used to cauterize a stump. After the stargut hydra takes cold damage, it becomes chilled, gaining immunity to cold and weakness 10 to fire.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "6468385E-B867-54BA-A1BF-35E0B69EADF6",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Warden of the Wild) Voice of Nature",
+    "slug": "warden-of-the-wild-voice-of-nature-howl-of-the-wild",
+    "descr": "Though the Wardens of the Wild do not speak in words, they can communicate complex concepts flawlessly and wordlessly with any animal, beast, plant, or other creature of the natural world through prolonged eye contact. Sapient creatures with strong ties to the natural world, such as animal instinct barbarians or druids who speak the Wildsong, can somewhat understand a Warden of the Wild, though the meaning can be vague.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "interaction",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2D1ECC12-3A94-5ABF-8BA6-26BFB633B67A",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Warden of the Wild) Warden's Crown",
+    "slug": "warden-of-the-wild-warden-s-crown-howl-of-the-wild",
+    "descr": "A Warden of the Wild's horned crown commands respect from wild creatures. Wild creatures native to a warden's biome automatically improve their attitude toward it by one step (up to friendly) and typically do not take hostile actions towards each other while in the warden's presence.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "interaction",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "6AAF0E5C-A5C2-515A-872A-D992859E85A0",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Administer Ambient Magic",
+    "slug": "administer-ambient-magic-howl-of-the-wild",
+    "descr": "**Frequency** once per hour\n\n**Effect** Your ostilli pulses a calm lavender color as it converts stored magic into a curative balm. You regain 0d4 healing Hit Points, and you can immediately attempt a flat check to recover from persistent bleed damage with the DC reduced to 10. This healing increases by 2d4 at 8th level and every 4 levels thereafter.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "healing"
+      ],
+      "category": "defensive",
+      "frequency": "once per hour",
+      "requirements": "",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "healing",
+          "slug": "healing"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "healing",
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "78F0A76A-0C33-5BC1-BE19-8F57016B187C",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Bite and Sting",
+    "slug": "bite-and-sting-howl-of-the-wild",
+    "descr": "**Requirements** Your swarm is outside your body\n\n**Effect** Each creature in your swarm's space takes 0d4 piercing damage with a basic Reflex save against your class DC or spell DC, whichever is higher. At 4th level and every 2 levels thereafter, the damage increases by 1d4.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "",
+      "frequency": "",
+      "requirements": "Your swarm is outside your body",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8010EA85-C2C7-5360-B306-324C3A668D0B",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Claw Stance",
+    "slug": "claw-stance-howl-of-the-wild",
+    "descr": "**Effect** You extend the claws in your hands and focus your attention to take down single targets. The only Strikes you can make are frenzied claw unarmed attacks. These deal 1d6 slashing damage, are in the brawling group, and have the agile, finesse, grapple, unarmed, and versatile piercing traits.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "stance"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "stance",
+          "slug": "stance"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster",
+      "stance"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B19FBAED-3FAF-51A2-8C7B-E0635060DD7D",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Dampening Harmonics",
+    "slug": "dampening-harmonics-howl-of-the-wild",
+    "descr": "**Frequency** once per hour\n\n**Effect** You establish a force field that grants you resistance 10 to damage dealt by spells and magical abilities with the trait of your magiphage ability, except for force damage. The force field lasts for 10 minutes. Each time the field prevents damage, the duration decreases by 1 minute.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "magical"
+      ],
+      "category": "offensive",
+      "frequency": "once per hour",
+      "requirements": "",
+      "trigger": "",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "magical",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "DE3AE774-5A20-5116-B4F7-F045540155B2",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Dazzle Seeker",
+    "slug": "dazzle-seeker-howl-of-the-wild",
+    "descr": "**Trigger** A creature attempts a flat check to target you due to you being [Concealed](/condition/concealed-player-core) from it\n\n**Effect** You flash your bright scales in the creature's eyes, making it hard for them to pinpoint your exact location. The creature must roll the flat check twice and take the worse result.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "misfortune"
+      ],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "A creature attempts a flat check to target you due to you being Concealed from it",
+      "actions": "reaction",
+      "traitLinks": [
+        {
+          "label": "misfortune",
+          "slug": "misfortune"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "misfortune",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "6C03C55D-514E-54DE-AC88-D7DE6E3A37B1",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Death Drone",
+    "slug": "death-drone-howl-of-the-wild",
+    "descr": "The cicadas in your swarm make a droning sound that stimulates a fear response. Each creature within your swarm's space takes 6d4 mental damage and must attempt a Will save against your class DC or spell DC, whichever is higher.\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creatures takes half damage.\n\n**Failure** The creature takes full damage, is [Frightened 1](/condition/frightened-player-core), and takes a –2 circumstance penalty to Perception checks that require hearing.\n\n**Critical Failure** The creature takes double damage, is Frightened 2, and is [Deafened](/condition/deafened-player-core) until the start of your next turn.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "auditory",
+        "flourish",
+        "mental"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "auditory",
+          "slug": "auditory"
+        },
+        {
+          "label": "flourish",
+          "slug": "flourish"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "auditory",
+      "flourish",
+      "howl-of-the-wild",
+      "mental",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "291A8CD5-EF66-59D3-883D-EF44FDEEC51F",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Devour Ambient Magic",
+    "slug": "devour-ambient-magic-howl-of-the-wild",
+    "descr": "**Frequency** once per day\n\n**Trigger** A creature Casts a Spell with you as the only target\n\n**Effect** Your ostilli radiates cyan light as its tentacle-like filters attempt to consume the magical effect. You can attempt to counteract the triggering spell with an Arcana or Nature check and a counteract rank equal to half your level.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "concentrate"
+      ],
+      "category": "defensive",
+      "frequency": "once per day",
+      "requirements": "",
+      "trigger": "A creature Casts a Spell with you as the only target",
+      "actions": "reaction",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C647B71B-4A06-55DF-ABEA-061391621303",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Drape Ambient Magic",
+    "slug": "drape-ambient-magic-howl-of-the-wild",
+    "descr": "**Frequency** once per round\n\n**Effect** Your ostilli turns clear as it converts its stored magic into a bubble of refracting light around you. You become [Hidden](/condition/hidden-player-core) to all creatures until the end of your turn. If you Strike a creature, that creature is [Off Guard](/condition/off-guard-player-core) against that attack, and you then become observed.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "illusion"
+      ],
+      "category": "defensive",
+      "frequency": "once per round",
+      "requirements": "",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "illusion",
+          "slug": "illusion"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "illusion",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A07FEFE6-28D6-5A34-A857-200062DB9125",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Familiar of Nimble Flight",
+    "slug": "familiar-of-nimble-flight-howl-of-the-wild",
+    "descr": "Even if your familiar doesn't have wings, it can sometimes move as if carried aloft by the wind. When you Cast or Sustain a hex, your familiar can Fly up to 15 feet; this movement doesn't trigger reactions.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "familiar",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F165FDC9-6E0F-56EA-A22E-10028CB4B1D6",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Familiar of Overwhelming Tides",
+    "slug": "familiar-of-overwhelming-tides-howl-of-the-wild",
+    "descr": "Your familiar constantly drips with ocean water. When you Cast or Sustain a hex, you can cause a small wave to surge forth from your familiar. One creature within 10 feet of your familiar is pushed 5 feet away from your familiar.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "familiar",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9CE65D87-32E4-55FC-9E60-C61A654C7294",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Familiar of Parasitic Might",
+    "slug": "familiar-of-parasitic-might-howl-of-the-wild",
+    "descr": "Your familiar appears gaunt and malnourished or otherwise on the brink of death, even though it's quite healthy. When you Cast or Sustain a hex, your familiar can draw on the waning strength of another to sustain itself. One creature within 15 feet of your familiar with less than half of its maximum Hit Points becomes [Sickened 1](/condition/sickened-player-core) unless it succeeds at a Fortitude saving throw against your spell DC.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "familiar",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A098831A-D065-5AC1-9E65-8D500A283AF2",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "I Defy You!",
+    "slug": "i-defy-you-howl-of-the-wild",
+    "descr": "**Trigger** You fail a save against a mental effect\n\n**Frequency** once per hour\n\n**Effect** You reroll the triggering save and must take the second result.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "fortune",
+        "mental"
+      ],
+      "category": "defensive",
+      "frequency": "once per hour",
+      "requirements": "",
+      "trigger": "You fail a save against a mental effect",
+      "actions": "reaction",
+      "traitLinks": [
+        {
+          "label": "fortune",
+          "slug": "fortune"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "fortune",
+      "howl-of-the-wild",
+      "mental",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "ED8E4B94-6E16-5BC6-ABA3-22E7FEB7944A",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Lantern Beam",
+    "slug": "lantern-beam-howl-of-the-wild",
+    "descr": "**Requirements** Your lantern light is shining\n\n**Effect** Your lenses focus your light into a searing beam. You deal 1d4 rounds. At 11th level and every two levels thereafter, the damage increases by 1d4.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "fire",
+        "light",
+        "magical"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "Your lantern light is shining",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "fire",
+          "slug": "fire"
+        },
+        {
+          "label": "light",
+          "slug": "light"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "fire",
+      "howl-of-the-wild",
+      "light",
+      "magical",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B77DB9F2-13CD-5C6F-AF97-72D981765AC5",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Lantern Strobe",
+    "slug": "lantern-strobe-howl-of-the-wild",
+    "descr": "**Frequency** once per hour\n\n**Effect** As you pulse your lantern, your emitters flash erratically, disorienting your opponents that see it. Each opponent in a 15-foot cone must attempt a Fortitude save against your class DC or spell DC (whichever is higher). On a failure, the creature is [Dazzled](/condition/dazzled-player-core) for 1 round. On a critical failure, the creature is [Blinded](/condition/blinded-player-core) for 1 round and dazzled for the following round.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "light",
+        "magical",
+        "visual"
+      ],
+      "category": "offensive",
+      "frequency": "once per hour",
+      "requirements": "",
+      "trigger": "",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "light",
+          "slug": "light"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "visual",
+          "slug": "visual"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "light",
+      "magical",
+      "remaster",
+      "visual"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8DA2F5B3-B895-52BB-A8AD-C331C0115799",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Raise Slabs",
+    "slug": "raise-slabs-howl-of-the-wild",
+    "descr": "**Frequency** once per day\n\n**Effect** Thick slabs of stone rise around you before tilting over. You deal 0d6 bludgeoning damage to all adjacent creatures (basic Reflex against your class DC or spell DC, whichever is higher). On a critical failure, the creature is also knocked [Prone](/condition/prone-player-core). At 3rd level, and every 2 levels thereafter, this damage increases by 1d6.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "divine",
+        "earth"
+      ],
+      "category": "offensive",
+      "frequency": "once per day",
+      "requirements": "",
+      "trigger": "",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "divine",
+          "slug": "divine"
+        },
+        {
+          "label": "earth",
+          "slug": "earth"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "divine",
+      "earth",
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "05EFBEBB-E690-5335-AE92-3543EE8B5A7C",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Repel Ambient Magic",
+    "slug": "repel-ambient-magic-howl-of-the-wild",
+    "descr": "Your ostilli glows green as it absorbs magic. Until the start of your next turn, you gain a +1 circumstance bonus to AC and saving throws against the next magical attack, cantrip, or spell that targets you. This bonus increases to +2 at 12th level.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "concentrate"
+      ],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C78A3F64-C886-58FC-8C40-17733DCF3DE9",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Shielding Wave",
+    "slug": "shielding-wave-howl-of-the-wild",
+    "descr": "You raise a magical barrier of twisting currents. Until the start of your next turn, the first time you take acid or fire damage, you gain resistance to that damage equal to half your level (minimum 1). The resistance is equal to your level instead if you're submerged in water, if you already Cast a Spell with the [water](/trait/water) trait, or if you used another ability with the water trait this turn.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "primal",
+        "water"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "primal",
+          "slug": "primal"
+        },
+        {
+          "label": "water",
+          "slug": "water"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "primal",
+      "remaster",
+      "water"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8F5FDE15-C807-5327-A133-8EAC1BD50935",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spit Ambient Magic",
+    "slug": "spit-ambient-magic-howl-of-the-wild",
+    "descr": "**Frequency** once per round\n\n**Effect** Your ostilli flashes red as it regurgitates a dart of magic at a target within 30 feet. This magical dart deals 0d6 piercing damage (basic Reflex save against the higher of your class DC or spell DC). This damage increases by 1d6 at 6th level and every 4 levels thereafter.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "magical"
+      ],
+      "category": "offensive",
+      "frequency": "once per round",
+      "requirements": "",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "howl-of-the-wild",
+      "magical",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0A7C8F24-E6F6-58D6-AD92-0961208D340A",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Stridulating Song",
+    "slug": "stridulating-song-howl-of-the-wild",
+    "descr": "**Frequency** once per day\n\n**Effect** You circulate magic through your wings, causing them to vibrate at high speeds such that their scraping produces disruptive sounds. You focus the sound at one creature within 30 feet who must succeed at a Fortitude save against your class DC or spell DC (whichever is higher) or become [Sickened 1](/condition/sickened-player-core), or Sickened 2 on a critical failure, as the vibrations disrupt its inner equilibrium. You can Sustain the effect for up to 1 minute; the creature can't recover from the sickened condition as long as you continue your song and it can hear you.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "auditory",
+        "magical"
+      ],
+      "category": "offensive",
+      "frequency": "once per day",
+      "requirements": "",
+      "trigger": "",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "auditory",
+          "slug": "auditory"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "auditory",
+      "howl-of-the-wild",
+      "magical",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "15291034-9C23-5186-B31F-A91912E0C4F7",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Swarm Forth",
+    "slug": "swarm-forth-howl-of-the-wild",
+    "descr": "**Requirements** Your swarm is within your body\n\n**Effect** Your swarm boils forth from your body into a space adjacent to yours. (Its space can overlap yours.) It remains separate from you until the end of your next turn, but you can Sustain the effect up to 1 minute. The effect also ends if you end your turn more than 60 feet away from the swarm. When you use Swarm Forth and each time you Sustain the effect, you can have the swarm Stride.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "concentrate"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "Your swarm is within your body",
+      "trigger": "",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "252F1894-0533-5095-BB1B-E877D98428C6",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Talon Stance",
+    "slug": "talon-stance-howl-of-the-wild",
+    "descr": "**Effect** You sway in a loose stance that lets you sweep in wide arcs with the claws on your feet. The only Strikes you can make are spinning talon unarmed attacks. These deal 1d8 slashing damage, are in the brawling group, and have the finesse, sweep, and [unarmed](/trait/unarmed) traits. You don't need a free hand to use spinning talon strikes.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "stance"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "stance",
+          "slug": "stance"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster",
+      "stance"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A21E0014-DD2A-5E48-83CF-F4A514CB0F0D",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Trench Digging",
+    "slug": "trench-digging-howl-of-the-wild",
+    "descr": "**Trigger** You're subjected to forced movement\n\n**Effect** You deploy your claw spikes to churn the earth asunder, creating difficult terrain in each square of ground you're moved through.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "You're subjected to forced movement",
+      "actions": "reaction",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4B96CA53-8D4E-58A9-BE95-F0323B645302",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Turn Aside Ambient Magic",
+    "slug": "turn-aside-ambient-magic-howl-of-the-wild",
+    "descr": "Your ostilli glows a faint yellow as it establishes a barrier. Choose acid, cold, electricity, fire, or sonic damage. Until the beginning of your next turn, you gain resistance against the chosen damage type equal to half your level.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "concentrate"
+      ],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

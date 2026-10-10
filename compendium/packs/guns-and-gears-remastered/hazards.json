@@ -1,0 +1,268 @@
+[
+  {
+    "id": "06662064-6640-521F-9541-34F639F62F77",
+    "kind": "Hazard",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Insistent Privacy Fence",
+    "slug": "insistent-privacy-fence-guns-and-gears-remastered",
+    "descr": "",
+    "data": {
+      "level": 8,
+      "rarity": "rare",
+      "traits": [
+        "electricity",
+        "mechanical",
+        "trap"
+      ],
+      "complexity": "simple",
+      "stealth": 30,
+      "ac": {
+        "value": 25,
+        "details": ""
+      },
+      "hp": {
+        "value": 60,
+        "details": "",
+        "bt": 30
+      },
+      "hardness": 15,
+      "saves": {
+        "fortitude": 20,
+        "reflex": 14,
+        "will": 0
+      },
+      "disable": "Thievery DC 28 (expert) to carefully disconnect the coil from the fence or Crafting DC 30 (master) to jury-rig a grounding device to nullify the shock",
+      "routine": "",
+      "reset": "The trap deactivates and resets after 1 minute.",
+      "abilities": [
+        {
+          "name": "Shock",
+          "text": "**Trigger** A creature touches the fence directly or with a tool or weapon\n\n**Effect** The fence deals 7d12 electricity damage to the triggering creature (basic Reflex DC 26 save).",
+          "traits": [],
+          "actions": "reaction"
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "electricity",
+          "slug": "electricity"
+        },
+        {
+          "label": "mechanical",
+          "slug": "mechanical"
+        },
+        {
+          "label": "trap",
+          "slug": "trap"
+        }
+      ],
+      "stealthDetails": "(expert)",
+      "description": "A concealed coil electrifies a section of fence.",
+      "stealthDC": 40
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "electricity",
+      "guns-and-gears-remastered",
+      "mechanical",
+      "remaster",
+      "trap"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C32C70BD-301D-56BB-BE73-61545B291727",
+    "kind": "Hazard",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Malevolent Mannequins",
+    "slug": "malevolent-mannequins-guns-and-gears-remastered",
+    "descr": "",
+    "data": {
+      "level": 14,
+      "rarity": "uncommon",
+      "traits": [
+        "clockwork",
+        "haunt",
+        "mechanical"
+      ],
+      "complexity": "complex",
+      "stealth": 27,
+      "ac": {
+        "value": 35,
+        "details": ""
+      },
+      "hp": {
+        "value": 70,
+        "details": "",
+        "bt": 35
+      },
+      "hardness": 10,
+      "saves": {
+        "fortitude": 26,
+        "reflex": 28,
+        "will": 0
+      },
+      "disable": "Thievery DC 37 to jam a mannequin's clockwork mechanisms or a Religion DC 35 twice to exorcise a spirit from a mannequin.",
+      "routine": "(9 actions) Each of the mannequins uses three of the haunt's actions on each turn, and the haunt loses three actions each turn for every disabled or destroyed mannequin. Each mannequin uses its first action to Stride up to 50 feet and its remaining two actions to make clockwork fist Strikes. Each has its own separate multiple attack penalty.",
+      "reset": "The haunt deactivates after it has no target creatures and resets, usually over the course of 1 round, as the mannequins move to their original positions. If a mannequin is more than 150 feet from its original position, the haunt takes longer to reset, as the mannequin moves back 150 feet each round.",
+      "abilities": [
+        {
+          "name": "Awaken",
+          "text": "**Trigger** A creature comes within 30 feet of a mannequin\n\n**Effect** The mannequins all lurch towards the triggering creature, Striding up to 50 feet, then roll initiative.",
+          "traits": [],
+          "actions": "reaction"
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "clockwork",
+          "slug": "clockwork"
+        },
+        {
+          "label": "haunt",
+          "slug": "haunt"
+        },
+        {
+          "label": "mechanical",
+          "slug": "mechanical"
+        }
+      ],
+      "immunities": [
+        "object immunities",
+        "critical hits",
+        "precision damage"
+      ],
+      "weaknesses": "electricity 20",
+      "description": "Spirits animate clockwork figures that attack creatures approaching them.",
+      "attacks": [
+        {
+          "name": "Clockwork Fist",
+          "type": "melee",
+          "attack": 29,
+          "damageParts": [
+            {
+              "name": "2d10+18",
+              "details": "bludgeoning"
+            }
+          ]
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "clockwork",
+      "guns-and-gears-remastered",
+      "haunt",
+      "mechanical",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0BD38000-5078-5C63-84EC-1F7371210537",
+    "kind": "Hazard",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Steam Vents",
+    "slug": "steam-vents-guns-and-gears-remastered",
+    "descr": "",
+    "data": {
+      "level": 4,
+      "rarity": "uncommon",
+      "traits": [
+        "mechanical",
+        "trap",
+        "steam"
+      ],
+      "complexity": "simple",
+      "stealth": 12,
+      "ac": {
+        "value": 20,
+        "details": ""
+      },
+      "hp": {
+        "value": 48,
+        "details": "",
+        "bt": 24
+      },
+      "hardness": 12,
+      "saves": {
+        "fortitude": 12,
+        "reflex": 12,
+        "will": 0
+      },
+      "disable": "Thievery DC 22 to disconnect the trip wire or a Crafting DC 24 to carefully reduce the pressure and prevent the blast",
+      "routine": "",
+      "reset": "",
+      "abilities": [
+        {
+          "name": "Steam Blast",
+          "text": "**Trigger** The trip wire is pulled or severed, typically because a creature walked through the square with the trip wire\n\n**Effect** Steam erupts from the pipes, dealing 3d6 bludgeoning damage and 3d6 fire damage (basic Reflex DC 24) to all creatures within 15 feet. Creatures that critically fail their save are knocked [Prone](/condition/prone-player-core).",
+          "traits": [],
+          "actions": "reaction"
+        }
+      ],
+      "traitLinks": [
+        {
+          "label": "mechanical",
+          "slug": "mechanical"
+        },
+        {
+          "label": "trap",
+          "slug": "trap"
+        },
+        {
+          "label": "steam",
+          "slug": "steam"
+        }
+      ],
+      "stealthDetails": "(trained)",
+      "description": "A trip wire releases pressurized steam from large pipes.",
+      "stealthDC": 22
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "mechanical",
+      "remaster",
+      "steam",
+      "trap"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

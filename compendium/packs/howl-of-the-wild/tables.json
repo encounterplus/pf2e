@@ -1,0 +1,78 @@
+[
+  {
+    "id": "722281D1-892D-5AF1-95CB-369C51A9ABC0",
+    "kind": "Table",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Portents of the Haruspex Damage",
+    "slug": "portents-of-the-haruspex-damage-howl-of-the-wild",
+    "descr": "Roll 1d12 and use the matching result range. [Open the source entry](/feat/portents-of-the-haruspex-howl-of-the-wild) for context.",
+    "sources": [
+      {
+        "name": "Howl of the Wild",
+        "page": 64
+      }
+    ],
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "table",
+      "rollable",
+      "howl-of-the-wild"
+    ],
+    "columns": [
+      {
+        "name": "1d12",
+        "size": 0.5,
+        "align": null
+      },
+      {
+        "name": "Damage Type",
+        "size": 0.5,
+        "align": null
+      }
+    ],
+    "rows": [
+      [
+        "1",
+        "acid"
+      ],
+      [
+        "2-3",
+        "bludgeoning"
+      ],
+      [
+        "4",
+        "cold"
+      ],
+      [
+        "5",
+        "electricity"
+      ],
+      [
+        "6",
+        "fire"
+      ],
+      [
+        "7",
+        "mental"
+      ],
+      [
+        "8-9",
+        "piercing"
+      ],
+      [
+        "10",
+        "poison"
+      ],
+      [
+        "11-12",
+        "slashing"
+      ]
+    ],
+    "rollMode": "normal"
+  }
+]

@@ -1,0 +1,156 @@
+[
+  {
+    "id": "8C1C0910-EE96-50CD-8E59-0AF666C09156",
+    "kind": "Deity",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "The Tides of Chaos",
+    "slug": "the-tides-of-chaos-shining-kingdoms",
+    "descr": "",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "covenant",
+      "areasOfConcern": "chaos, disruption, mischief, secrets",
+      "edicts": [
+        "keep all secrets entrusted to you, sow mistrust, doubt, and conspiracy at every opportunity, take risks"
+      ],
+      "anathema": [
+        "aid in the establishment of a government or ruling power, embrace complacency, reveal secrets entrusted to you"
+      ],
+      "clericFont": [
+        "harm"
+      ],
+      "divineAttribute": [
+        "dexterity",
+        "intelligence"
+      ],
+      "divineSkill": "stealth",
+      "favoredWeapon": [
+        "dagger"
+      ],
+      "domains": [
+        "cities",
+        "darkness",
+        "destruction",
+        "secrecy"
+      ],
+      "alternateDomains": [
+        "decay",
+        "nightmares"
+      ],
+      "spells": [
+        "1st: Ill Omen",
+        "2nd: Invisibility",
+        "5th: Subconscious Suggestion"
+      ],
+      "sanctification": "unholy",
+      "sanctificationOptions": [
+        "unholy"
+      ],
+      "sanctificationText": "Can choose unholy",
+      "rulesText": "**Areas of Concern** chaos, disruption, mischief, secrets\n\n**Edicts** keep all secrets entrusted to you, sow mistrust, doubt, and conspiracy at every opportunity, take risks\n\n**Anathema** aid in the establishment of a government or ruling power, embrace complacency, reveal secrets entrusted to you\n\n**Divine Attribute** dexterity; intelligence\n\n**Divine Font** [harm](/spell/harm-player-core)\n\n**Sanctification** Can choose unholy\n\n**Divine Skill** stealth\n\n**Favored Weapon** [dagger](/item/dagger-player-core)\n\n**Domains** [cities](/domain/cities); [darkness](/domain/darkness); [destruction](/domain/destruction); [secrecy](/domain/secrecy)\n\n**Alternate Domains** [decay](/domain/decay-divine-mysteries-domain-domain-104); [nightmares](/domain/nightmares)\n\n**Cleric Spells** Ill Omen, [Invisibility](/item/invisibility-gm-core), Subconscious Suggestion",
+      "traitLinks": [],
+      "deityReferences": {
+        "clericFont": [
+          {
+            "value": "harm",
+            "text": "[harm](</spell/harm-player-core>)"
+          }
+        ],
+        "favoredWeapon": [
+          {
+            "value": "dagger",
+            "text": "[dagger](</item/dagger-player-core>)"
+          }
+        ],
+        "domains": [
+          {
+            "value": "cities",
+            "text": "[cities](</domain/cities>)"
+          },
+          {
+            "value": "darkness",
+            "text": "[darkness](</domain/darkness>)"
+          },
+          {
+            "value": "destruction",
+            "text": "[destruction](</domain/destruction>)"
+          },
+          {
+            "value": "secrecy",
+            "text": "[secrecy](</domain/secrecy>)"
+          }
+        ],
+        "alternateDomains": [
+          {
+            "value": "decay",
+            "text": "[decay](</domain/decay-divine-mysteries-domain-domain-104>)"
+          },
+          {
+            "value": "nightmares",
+            "text": "[nightmares](</domain/nightmares>)"
+          }
+        ],
+        "spells": [
+          {
+            "value": "1st: Ill Omen",
+            "text": "1st: [Ill Omen](</spell/ill-omen-player-core>)"
+          },
+          {
+            "value": "2nd: Invisibility",
+            "text": "2nd: [Invisibility](</item/invisibility-gm-core>)"
+          },
+          {
+            "value": "5th: Subconscious Suggestion",
+            "text": "5th: [Subconscious Suggestion](</spell/subconscious-suggestion-player-core>)"
+          }
+        ]
+      },
+      "deityReferenceKeys": {
+        "clericFont": [
+          "harm"
+        ],
+        "favoredWeapon": [
+          "dagger"
+        ],
+        "domains": [
+          "cities",
+          "darkness",
+          "destruction",
+          "secrecy"
+        ],
+        "alternateDomains": [
+          "decay",
+          "nightmares"
+        ],
+        "spells": [
+          "1st: Ill Omen",
+          "2nd: Invisibility",
+          "5th: Subconscious Suggestion"
+        ]
+      },
+      "edictsText": "keep all secrets entrusted to you, sow mistrust, doubt, and conspiracy at every opportunity, take risks",
+      "anathemaText": "aid in the establishment of a government or ruling power, embrace complacency, reveal secrets entrusted to you",
+      "deitySanctificationFormat": "text",
+      "deityDirectiveFormat": "text"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

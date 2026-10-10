@@ -1,0 +1,31 @@
+{
+  "sections": [
+    {
+      "type": "group",
+      "fields": [
+        {
+          "title": "Common.Name",
+          "attribute": "name"
+        },
+        {
+          "title": "Common.Quantity",
+          "placeholder": "1",
+          "type": "number",
+          "attribute": "quantity"
+        }
+      ]
+    },
+    {
+      "title": "Reference",
+      "type": "group",
+      "fields": [
+        {
+          "title": "Reference",
+          "type": "reference",
+          "attribute": "reference",
+          "attributeType": "Item"
+        }
+      ]
+    }
+  ]
+}

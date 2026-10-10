@@ -1,0 +1,3841 @@
+[
+  {
+    "id": "02926F63-EB25-5907-A48F-F325C7CD825C",
+    "kind": "Creature",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Agyra",
+    "slug": "agyra-war-of-immortals",
+    "descr": "",
+    "data": {
+      "level": 23,
+      "rarity": "unique",
+      "size": "gargantuan",
+      "traits": [
+        "beast",
+        "kaiju",
+        "mythic"
+      ],
+      "attributes": {
+        "str": 10,
+        "dex": 11,
+        "con": 9,
+        "int": -2,
+        "wis": 6,
+        "cha": 6
+      },
+      "perception": 38,
+      "ac": {
+        "value": 49,
+        "details": ""
+      },
+      "hp": {
+        "value": 475,
+        "details": ""
+      },
+      "saves": {
+        "fortitude": 37,
+        "reflex": 40,
+        "will": 34,
+        "details": "mythic resilience (Fort and Ref)"
+      },
+      "skills": {
+        "acrobatics": 43,
+        "athletics": 41
+      },
+      "languages": [
+        "tien"
+      ],
+      "senses": "[Darkvision](/action/darkvision-monster-core), stormsight",
+      "immunities": [
+        "[Death Effects](/rule/death-effects-rules-2331)",
+        "[Disease](/trait/disease)",
+        "[Drained](/condition/drained-player-core)",
+        "Electricity",
+        "Fear Effects",
+        "[Paralyzed](/condition/paralyzed-player-core)"
+      ],
+      "weaknesses": {},
+      "resistances": {
+        "acid": 20,
+        "fire": 20,
+        "sonic": 20
+      },
+      "movement": {
+        "walk": 40,
+        "fly": 60
+      },
+      "attacks": [
+        {
+          "name": "Talon",
+          "type": "melee",
+          "actions": "one",
+          "attack": 40,
+          "traits": [
+            "agile",
+            "magical",
+            "reach-15"
+          ],
+          "damage": "4d10+14 slashing; 2d8 electricity"
+        },
+        {
+          "name": "Jaws",
+          "type": "melee",
+          "actions": "one",
+          "attack": 40,
+          "traits": [
+            "magical",
+            "reach-10"
+          ],
+          "damage": "3d12+14 piercing; 2d8 electricity"
+        },
+        {
+          "name": "Tail",
+          "type": "melee",
+          "actions": "one",
+          "attack": 40,
+          "traits": [
+            "deadly-d10",
+            "magical",
+            "reach-20"
+          ],
+          "damage": "4d8+14 bludgeoning; 2d6 bleed"
+        },
+        {
+          "name": "Spike",
+          "type": "ranged",
+          "actions": "one",
+          "attack": 42,
+          "traits": [
+            "magical"
+          ],
+          "damage": "7d6+10 piercing"
+        }
+      ],
+      "abilities": {
+        "interaction": [
+          {
+            "name": "Remove a Condition",
+            "text": "**Cost** 1 Mythic Point; **Effect** Agyra removes any one condition currently affecting her.",
+            "traits": [
+              "concentrate"
+            ],
+            "actions": "one",
+            "effect": "Agyra removes any one condition currently affecting her.",
+            "description": "**Cost** 1 Mythic Point"
+          },
+          {
+            "name": "Stormsight",
+            "text": "Wind, precipitation, and clouds don't impair Agyra's vision; she ignores the [Concealed](/condition/concealed-player-core) condition from storms, mist, precipitation, and the like.",
+            "traits": [],
+            "description": "Wind, precipitation, and clouds don't impair Agyra's vision; she ignores the [Concealed](/condition/concealed-player-core) condition from storms, mist, precipitation, and the like."
+          }
+        ],
+        "defensive": [
+          {
+            "name": "Regeneration",
+            "text": "",
+            "traits": [],
+            "reference": "/action/regeneration-monster-core",
+            "description": ""
+          },
+          {
+            "name": "Electrified Rebirth",
+            "text": "**Frequency** once per year; **Effect** When Agyra dies, her corpse crackles and sparks with electrical energy. Any creature that touches Agyra's body within 1 hour of her death takes 11d6 electricity damage (basic Reflex DC 43 save). After being dead for 1 minute, Agyra is immediately resurrected in the same place, at full health, with all abilities fully restored. She normally takes advantage of this rebirth to flee to safety, using Thunderous Departure to retreat. If Agyra has already died and been reborn in the same year, she remains permanently dead upon being slain a second time.",
+            "traits": [
+              "electricity",
+              "primal"
+            ],
+            "effect": "When Agyra dies, her corpse crackles and sparks with electrical energy. Any creature that touches Agyra's body within 1 hour of her death takes 11d6 electricity damage (basic Reflex DC 43 save). After being dead for 1 minute, Agyra is immediately resurrected in the same place, at full health, with all abilities fully restored. She normally takes advantage of this rebirth to flee to safety, using Thunderous Departure to retreat. If Agyra has already died and been reborn in the same year, she remains permanently dead upon being slain a second time.",
+            "description": "**Frequency** once per year"
+          },
+          {
+            "name": "Mythic Immunity",
+            "text": "Strikes\n\nThe creature is immune to either harmful spells cast by non-mythic creatures, or Strikes made with non-mythic weapons and unarmed Strikes from non-mythic characters. Only the most powerful creatures (typically level 25) should be immune to both.",
+            "traits": [],
+            "description": "Strikes\n\nThe creature is immune to either harmful spells cast by non-mythic creatures, or Strikes made with non-mythic weapons and unarmed Strikes from non-mythic characters. Only the most powerful creatures (typically level 25) should be immune to both."
+          },
+          {
+            "name": "Mythic Resilience",
+            "text": "Agyra treats her saving throws with Fortitude and Reflex saves as one step better than they actually are (so a critical failure is a failure, a failure is a success, and a success is a critical success). Whenever a character rolls a critical hit against Agyra, they must reroll the attack roll and take the new result.",
+            "traits": [],
+            "description": "Agyra treats her saving throws with Fortitude and Reflex saves as one step better than they actually are (so a critical failure is a failure, a failure is a success, and a success is a critical success). Whenever a character rolls a critical hit against Agyra, they must reroll the attack roll and take the new result."
+          }
+        ],
+        "offensive": [
+          {
+            "name": "Blinding Flash",
+            "text": "**Cost** 1 Mythic Point; **Effect** By spreading her wings while she stands upon the ground, Agyra can create a blinding flash of light that targets all creatures within 100 feet. Affected creatures must succeed at a Fortitude DC 43 check.\n **Critical Success** The target is unaffected.\n **Success** The target is Dazzled and Stupefied 1 for 1d4 rounds.\n **Failure** The target is Blinded and Stupefied 2 for 1 minute.\n **Critical Failure** The target is blinded and stupefied 2 for 10 minutes.",
+            "traits": [
+              "light",
+              "manipulate",
+              "primal",
+              "visual"
+            ],
+            "actions": "three",
+            "effect": "By spreading her wings while she stands upon the ground, Agyra can create a blinding flash of light that targets all creatures within 100 feet. Affected creatures must succeed at a Fortitude DC 43 check.\n **Critical Success** The target is unaffected.\n **Success** The target is Dazzled and Stupefied 1 for 1d4 rounds.\n **Failure** The target is Blinded and Stupefied 2 for 1 minute.\n **Critical Failure** The target is blinded and stupefied 2 for 10 minutes.",
+            "description": "**Cost** 1 Mythic Point"
+          },
+          {
+            "name": "Conjure Hurricane",
+            "text": "**Frequency** once per day; **Cost** 1 Mythic Point; **Effect** Agyra generates a hurricane that spreads across a 4-mile radius and lasts 24 hours, with a 500-foot calm eye of the storm at its center. Agyra is at the center of this hurricane when it is formed, but it moves normally (according to surrounding weather conditions and the GM's discretion) afterward.",
+            "traits": [
+              "air",
+              "manipulate",
+              "primal"
+            ],
+            "actions": "three",
+            "effect": "Agyra generates a hurricane that spreads across a 4-mile radius and lasts 24 hours, with a 500-foot calm eye of the storm at its center. Agyra is at the center of this hurricane when it is formed, but it moves normally (according to surrounding weather conditions and the GM's discretion) afterward.",
+            "description": "**Frequency** once per day; **Cost** 1 Mythic Point"
+          },
+          {
+            "name": "Lightning Breath",
+            "text": "Agyra exhales a line of electricity from each of her two heads. Each line is 120 feet long and 10 feet wide, and the two lines may be pointed in different directions. A creature in a line takes 1d4 rounds. A creature can be affected only once by a line, even if they are in an overlapping area. A character slain by Agyra's Lightning Breath remains electrified for 2d4 rounds after death. A creature touching such a corpse takes 1d4 rounds.",
+            "traits": [
+              "electricity",
+              "primal"
+            ],
+            "actions": "two",
+            "description": "Agyra exhales a line of electricity from each of her two heads. Each line is 120 feet long and 10 feet wide, and the two lines may be pointed in different directions. A creature in a line takes 1d4 rounds. A creature can be affected only once by a line, even if they are in an overlapping area. A character slain by Agyra's Lightning Breath remains electrified for 2d4 rounds after death. A creature touching such a corpse takes 1d4 rounds."
+          },
+          {
+            "name": "Mythic Power",
+            "text": "The creature has a pool of 3 Mythic Points, and can spend those Mythic Points for any of the actions it has.",
+            "traits": [],
+            "description": "The creature has a pool of 3 Mythic Points, and can spend those Mythic Points for any of the actions it has."
+          },
+          {
+            "name": "Recharge Ability",
+            "text": "**Cost** 1 Mythic Point; **Effect** Agyra gains an additional use of lightning breath.",
+            "traits": [
+              "concentrate"
+            ],
+            "actions": "one",
+            "effect": "Agyra gains an additional use of lightning breath.",
+            "description": "**Cost** 1 Mythic Point"
+          },
+          {
+            "name": "Stormflight",
+            "text": "Agyra can move in strong winds with ease. She doesn't treat wind as difficult terrain or need to Maneuver in Flight in high winds.",
+            "traits": [],
+            "description": "Agyra can move in strong winds with ease. She doesn't treat wind as difficult terrain or need to Maneuver in Flight in high winds."
+          },
+          {
+            "name": "Thunderous Departure",
+            "text": "**Frequency** once per day; **Effect** Agyra Flies in a straight line at incredible speed, moving at least 120 feet but up to 1 mile. This movement doesn't provoke reactions. Her departure leaves behind a thunderous sonic boom, creating a 100-foot burst centered on her point of departure. All creatures in the area take 15d10 sonic damage (basic Fortitude DC 46 save). A creature who fails is also knocked [Prone](/condition/prone-player-core), and a creature who critically fails is knocked prone and [Deafened](/condition/deafened-player-core) permanently.",
+            "traits": [
+              "primal",
+              "sonic"
+            ],
+            "effect": "Agyra Flies in a straight line at incredible speed, moving at least 120 feet but up to 1 mile. This movement doesn't provoke reactions. Her departure leaves behind a thunderous sonic boom, creating a 100-foot burst centered on her point of departure. All creatures in the area take 15d10 sonic damage (basic Fortitude DC 46 save). A creature who fails is also knocked [Prone](/condition/prone-player-core), and a creature who critically fails is knocked prone and [Deafened](/condition/deafened-player-core) permanently.",
+            "description": "**Frequency** once per day"
+          }
+        ]
+      },
+      "recallKnowledge": {
+        "dc": 56,
+        "skills": [
+          "nature",
+          "arcana"
+        ],
+        "subjects": [
+          "beast"
+        ],
+        "entries": [
+          {
+            "subject": "beast",
+            "skills": [
+              "arcana",
+              "nature"
+            ]
+          }
+        ]
+      },
+      "languagesText": "Tien",
+      "recallKnowledgeText": "DC 56 (Nature)",
+      "traitLinks": [
+        {
+          "label": "beast",
+          "slug": "beast"
+        },
+        {
+          "label": "kaiju",
+          "slug": "kaiju"
+        },
+        {
+          "label": "mythic",
+          "slug": "mythic"
+        }
+      ],
+      "languagesDetails": "(can't speak any language)",
+      "senseEntries": [
+        {
+          "name": "Darkvision",
+          "reference": "/action/darkvision-monster-core"
+        },
+        {
+          "name": "stormsight"
+        }
+      ],
+      "immunityEditor": {
+        "entries": [
+          {
+            "name": "Death Effects",
+            "reference": "/rule/death-effects-rules-2331"
+          },
+          {
+            "name": "Disease",
+            "reference": "/trait/disease"
+          },
+          {
+            "name": "Drained",
+            "reference": "/condition/drained-player-core"
+          },
+          {
+            "name": "Electricity"
+          },
+          {
+            "name": "Fear Effects"
+          },
+          {
+            "name": "Paralyzed",
+            "reference": "/condition/paralyzed-player-core"
+          }
+        ]
+      },
+      "skillsEditor": {
+        "skills": {
+          "acrobatics": 43,
+          "athletics": 41
+        },
+        "loreSkills": []
+      },
+      "resistanceEntries": [
+        {
+          "type": "acid",
+          "value": 20
+        },
+        {
+          "type": "fire",
+          "value": 20
+        },
+        {
+          "type": "sonic",
+          "value": 20
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "beast",
+      "kaiju",
+      "mythic",
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals",
+        "page": 190
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "132CC709-867B-59DF-ABA1-F6C544F33D25",
+    "kind": "Creature",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Immortal Trickster",
+    "slug": "immortal-trickster-war-of-immortals",
+    "descr": "",
+    "data": {
+      "level": 11,
+      "rarity": "unique",
+      "size": "medium",
+      "traits": [
+        "beast",
+        "humanoid",
+        "mythic",
+        "spirit"
+      ],
+      "attributes": {
+        "str": 4,
+        "dex": 7,
+        "con": 4,
+        "int": 3,
+        "wis": 3,
+        "cha": 7
+      },
+      "perception": 24,
+      "ac": {
+        "value": 31,
+        "details": "mythic resistance 11"
+      },
+      "hp": {
+        "value": 198,
+        "details": ""
+      },
+      "saves": {
+        "fortitude": 21,
+        "reflex": 26,
+        "will": 23
+      },
+      "skills": {
+        "deception": 26,
+        "diplomacy": 23,
+        "nature": 21,
+        "society": 21,
+        "stealth": 23,
+        "thievery": 26
+      },
+      "languages": [
+        "common"
+      ],
+      "senses": "",
+      "immunities": [
+        "[Disease](/trait/disease)",
+        "[Paralyzed](/condition/paralyzed-player-core)"
+      ],
+      "weaknesses": {},
+      "resistances": {
+        "mythic": 11
+      },
+      "movement": {
+        "walk": 30
+      },
+      "attacks": [],
+      "abilities": {
+        "interaction": [
+          {
+            "name": "Recklessly Overconfident",
+            "text": "The Immortal Trickster knows he is immortal and takes risks that cause his failures to be particularly spectacular. Whenever the Immortal Trickster would fail at a Deception, Stealth, or Thievery check, he critically fails instead.",
+            "traits": [],
+            "description": "The Immortal Trickster knows he is immortal and takes risks that cause his failures to be particularly spectacular. Whenever the Immortal Trickster would fail at a Deception, Stealth, or Thievery check, he critically fails instead."
+          },
+          {
+            "name": "Remove a Condition",
+            "text": "**Cost** 1 Mythic Point; **Effect** The creature ends one condition affecting it.",
+            "traits": [
+              "concentrate"
+            ],
+            "actions": "one",
+            "effect": "The creature ends one condition affecting it.",
+            "description": "**Cost** 1 Mythic Point"
+          },
+          {
+            "name": "Trickster's Network",
+            "text": "The Immortal Trickster can extend his senses through any coyote, fox, or raven in the Universe, making it his sensory animal. He cannot maintain his attention through more than three sensory animals at one time. He can speak through his sensory animals, but only in a single short phrase per animal of no more than two words. He has little control over his sensory animals' actions, though they usually act in a way that is consistent with his desires unless they have a specific reason not to. When extending his senses through a sensory animal, he can use that animal to determine line of effect for any of his spells or abilities.",
+            "traits": [],
+            "description": "The Immortal Trickster can extend his senses through any coyote, fox, or raven in the Universe, making it his sensory animal. He cannot maintain his attention through more than three sensory animals at one time. He can speak through his sensory animals, but only in a single short phrase per animal of no more than two words. He has little control over his sensory animals' actions, though they usually act in a way that is consistent with his desires unless they have a specific reason not to. When extending his senses through a sensory animal, he can use that animal to determine line of effect for any of his spells or abilities."
+          }
+        ],
+        "defensive": [
+          {
+            "name": "Immortal Tricks",
+            "text": "When the Immortal Trickster is reduced to 0 Hit Points, he returns to life at full health and with all his powers and Mythic Points recharged after 24 hours. He usually, but not always, returns at the site of his death, though he can appear anywhere on the same world where there are coyotes, foxes, or ravens.",
+            "traits": [],
+            "description": "When the Immortal Trickster is reduced to 0 Hit Points, he returns to life at full health and with all his powers and Mythic Points recharged after 24 hours. He usually, but not always, returns at the site of his death, though he can appear anywhere on the same world where there are coyotes, foxes, or ravens."
+          },
+          {
+            "name": "Mythic Resistance",
+            "text": "The Immortal Trickster has resistance 11 to all damage from attacks and spells from non-mythic creatures.",
+            "traits": [],
+            "description": "The Immortal Trickster has resistance 11 to all damage from attacks and spells from non-mythic creatures."
+          }
+        ],
+        "offensive": [
+          {
+            "name": "Bond with Mortals",
+            "text": "**Frequency** once per day; **Effect** The Immortal Trickster forms a bond with a mortal creature. While the bond exists, the mortals bonded to the Immortal Trickster increase their current and maximum Hit Points by 10 and gain a +2 status bonus to their attack and damage rolls, as well as to skill checks they make using Deception, Stealth, or Thievery. The Immortal Trickster can communicate telepathically with any of his bonded mortals as long as both beings are on the same plane. Each week that they are bonded to the Trickster, the bonded mortals increase their doomed value by 1; their doomed value cannot be increased above 3 by this ability and their doomed value cannot decrease while they remain bonded to the Trickster. The Immortal Trickster can be bonded with up to six mortals at a time, and they can take this action again to end the bond or to form a new bond. The bond also ends if the mortal dies. Whenever one of his bonded mortals dies, the Immortal Trickster becomes [Drained 1](/condition/drained-player-core) or increases the value of his drained condition by 1, and the Trickster gains a +2 status bonus on the next attack roll or skill check he attempts.",
+            "traits": [
+              "mental",
+              "primal"
+            ],
+            "actions": "two",
+            "effect": "The Immortal Trickster forms a bond with a mortal creature. While the bond exists, the mortals bonded to the Immortal Trickster increase their current and maximum Hit Points by 10 and gain a +2 status bonus to their attack and damage rolls, as well as to skill checks they make using Deception, Stealth, or Thievery. The Immortal Trickster can communicate telepathically with any of his bonded mortals as long as both beings are on the same plane. Each week that they are bonded to the Trickster, the bonded mortals increase their doomed value by 1; their doomed value cannot be increased above 3 by this ability and their doomed value cannot decrease while they remain bonded to the Trickster. The Immortal Trickster can be bonded with up to six mortals at a time, and they can take this action again to end the bond or to form a new bond. The bond also ends if the mortal dies. Whenever one of his bonded mortals dies, the Immortal Trickster becomes [Drained 1](/condition/drained-player-core) or increases the value of his drained condition by 1, and the Trickster gains a +2 status bonus on the next attack roll or skill check he attempts.",
+            "description": "**Frequency** once per day"
+          },
+          {
+            "name": "Change Shape",
+            "text": "The Immortal Trickster takes on the appearance of a coyote, fox, or raven. In areas where another Tiny or Small animal is known for wiliness and trickery, the Immortal Trickster can assume that animal's shape instead. While transformed, the Immortal Trickster loses his innate spells, attacks, and special actions, but doesn't otherwise change his statistics and can still speak. In fox or coyote form, the Immortal Trickster's size changes to Tiny (for a fox) or Small (for a coyote), his Speed increases to 35 feet, and he gains a bite (+23 to hit for 2d6+4 piercing damage). In raven form, he is Tiny, gains a [fly Speed](/rule/fly-speed-rules-2350) of 25 feet, and gains a beak (agile, +23 to-hit for 2d4+4 piercing damage).",
+            "traits": [
+              "concentrate",
+              "polymorph"
+            ],
+            "actions": "one",
+            "reference": "/action/change-shape-monster-core",
+            "description": "The Immortal Trickster takes on the appearance of a coyote, fox, or raven. In areas where another Tiny or Small animal is known for wiliness and trickery, the Immortal Trickster can assume that animal's shape instead. While transformed, the Immortal Trickster loses his innate spells, attacks, and special actions, but doesn't otherwise change his statistics and can still speak. In fox or coyote form, the Immortal Trickster's size changes to Tiny (for a fox) or Small (for a coyote), his Speed increases to 35 feet, and he gains a bite (+23 to hit for 2d6+4 piercing damage). In raven form, he is Tiny, gains a [fly Speed](/rule/fly-speed-rules-2350) of 25 feet, and gains a beak (agile, +23 to-hit for 2d4+4 piercing damage)."
+          },
+          {
+            "name": "Confounding Theft",
+            "text": "**Cost** 1 Mythic Point; **Effect** The Immortal Trickster makes a Thievery check against the Perception DC of one creature he can see within 60 feet. On a success, the Trickster gains possession of any one item he chooses of up to 2 Bulk that the target is currently holding, wearing, wielding, or has stowed on their person. This must be a single item and does not include full sets of clothing like worn armor or garments.",
+            "traits": [
+              "manipulate"
+            ],
+            "actions": "two",
+            "effect": "The Immortal Trickster makes a Thievery check against the Perception DC of one creature he can see within 60 feet. On a success, the Trickster gains possession of any one item he chooses of up to 2 Bulk that the target is currently holding, wearing, wielding, or has stowed on their person. This must be a single item and does not include full sets of clothing like worn armor or garments.",
+            "description": "**Cost** 1 Mythic Point"
+          },
+          {
+            "name": "Cunning Escape",
+            "text": "**Frequency** once per day; **Effect** The Immortal Trickster trades places with one of his sensory animals (see trickster's network, above). The animal appears in the square the Trickster is currently occupying and the Trickster teleports to the animal's original location with all of his possessions. If a creature has witnessed the Trickster's Change Shape, they must succeed at a Perception DC 38 check to [Sense Motive](/action/sense-motive-player-core) or be fooled into thinking that the Trickster has simply changed shape into an animal instead of teleported.",
+            "traits": [
+              "concentrate",
+              "teleportation"
+            ],
+            "actions": "one",
+            "effect": "The Immortal Trickster trades places with one of his sensory animals (see trickster's network, above). The animal appears in the square the Trickster is currently occupying and the Trickster teleports to the animal's original location with all of his possessions. If a creature has witnessed the Trickster's Change Shape, they must succeed at a Perception DC 38 check to [Sense Motive](/action/sense-motive-player-core) or be fooled into thinking that the Trickster has simply changed shape into an animal instead of teleported.",
+            "description": "**Frequency** once per day"
+          },
+          {
+            "name": "Mythic Power",
+            "text": "The creature has a pool of 3 Mythic Points, and can spend those Mythic Points for any of the actions it has.",
+            "traits": [],
+            "description": "The creature has a pool of 3 Mythic Points, and can spend those Mythic Points for any of the actions it has."
+          },
+          {
+            "name": "Mythic Skill",
+            "text": "**Cost** 1 Mythic Point; **Effect** The Immortal Trickster can spend a Mythic Point whenever he makes a check using Deception or Thievery to make the check at mythic proficiency.",
+            "traits": [],
+            "actions": "free",
+            "effect": "The Immortal Trickster can spend a Mythic Point whenever he makes a check using Deception or Thievery to make the check at mythic proficiency.",
+            "description": "**Cost** 1 Mythic Point"
+          },
+          {
+            "name": "Pull",
+            "text": "",
+            "traits": [],
+            "actions": "one",
+            "reference": "/action/pull-monster-core",
+            "description": ""
+          },
+          {
+            "name": "Recharge Spell",
+            "text": "**Cost** 1 Mythic Point; **Effect** The Immortal Trickster gains an additional casting of any of his innate primal spells that he has already cast.",
+            "traits": [],
+            "actions": "one",
+            "effect": "The Immortal Trickster gains an additional casting of any of his innate primal spells that he has already cast.",
+            "description": "**Cost** 1 Mythic Point"
+          },
+          {
+            "name": "Push",
+            "text": "",
+            "traits": [],
+            "actions": "one",
+            "reference": "/action/push-monster-core",
+            "description": ""
+          }
+        ]
+      },
+      "recallKnowledge": {
+        "dc": 38,
+        "skills": [
+          "nature",
+          "occultism",
+          "society",
+          "arcana"
+        ],
+        "subjects": [
+          "beast",
+          "humanoid",
+          "spirit"
+        ],
+        "entries": [
+          {
+            "subject": "beast",
+            "skills": [
+              "arcana",
+              "nature"
+            ]
+          },
+          {
+            "subject": "humanoid",
+            "skills": [
+              "society"
+            ]
+          },
+          {
+            "subject": "spirit",
+            "skills": [
+              "occultism"
+            ]
+          }
+        ]
+      },
+      "languagesText": "Common",
+      "recallKnowledgeText": "DC 38 (Nature, Occultism, Society)",
+      "items": "[Wandering Pipe](/item/wandering-pipe-war-of-immortals)",
+      "traitLinks": [
+        {
+          "label": "beast",
+          "slug": "beast"
+        },
+        {
+          "label": "humanoid",
+          "slug": "humanoid"
+        },
+        {
+          "label": "mythic",
+          "slug": "mythic"
+        },
+        {
+          "label": "spirit",
+          "slug": "spirit"
+        }
+      ],
+      "languagesDetails": "truespeech",
+      "spellcasting": [
+        {
+          "name": "Primal Innate Spells",
+          "spellGroups": [
+            {
+              "label": "6th",
+              "spells": [
+                {
+                  "name": "Cursed Metamorphosis",
+                  "rank": 6,
+                  "reference": "/spell/cursed-metamorphosis-player-core"
+                }
+              ]
+            },
+            {
+              "label": "5th",
+              "spells": [
+                {
+                  "name": "Magic Passage",
+                  "rank": 5,
+                  "reference": "/spell/magic-passage-player-core"
+                },
+                {
+                  "name": "Wall of Stone",
+                  "rank": 5,
+                  "reference": "/spell/wall-of-stone-player-core"
+                }
+              ]
+            },
+            {
+              "label": "4th",
+              "spells": [
+                {
+                  "name": "Creation",
+                  "rank": 4,
+                  "reference": "/spell/creation-player-core",
+                  "details": "×2"
+                }
+              ]
+            },
+            {
+              "label": "Cantrips (6th)",
+              "spells": [
+                {
+                  "name": "Detect Magic",
+                  "rank": 6,
+                  "reference": "/spell/detect-magic-player-core"
+                },
+                {
+                  "name": "Prestidigitation",
+                  "rank": 6,
+                  "reference": "/spell/prestidigitation-player-core"
+                },
+                {
+                  "name": "Tangle Vine",
+                  "rank": 6,
+                  "reference": "/spell/tangle-vine-player-core"
+                }
+              ]
+            },
+            {
+              "label": "Constant (5th)",
+              "spells": [
+                {
+                  "name": "Truespeech",
+                  "rank": 5,
+                  "reference": "/spell/truespeech-player-core"
+                }
+              ]
+            }
+          ],
+          "spellDC": 31,
+          "spellAttack": 0
+        }
+      ],
+      "itemEntries": [
+        {
+          "name": "Wandering Pipe",
+          "reference": "/item/wandering-pipe-war-of-immortals"
+        }
+      ],
+      "immunityEditor": {
+        "entries": [
+          {
+            "name": "Disease",
+            "reference": "/trait/disease"
+          },
+          {
+            "name": "Paralyzed",
+            "reference": "/condition/paralyzed-player-core"
+          }
+        ]
+      },
+      "skillsEditor": {
+        "skills": {
+          "deception": 26,
+          "diplomacy": 23,
+          "nature": 21,
+          "society": 21,
+          "stealth": 23,
+          "thievery": 26
+        },
+        "loreSkills": []
+      },
+      "resistanceEntries": [
+        {
+          "type": "mythic",
+          "value": 11
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "beast",
+      "humanoid",
+      "mythic",
+      "remaster",
+      "spirit",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals",
+        "page": 184
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1BDFB5B2-0A1F-5DCA-B961-812B78EF5B15",
+    "kind": "Creature",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Mythic Gogiteth",
+    "slug": "mythic-gogiteth-war-of-immortals",
+    "descr": "",
+    "data": {
+      "level": 12,
+      "rarity": "rare",
+      "size": "large",
+      "traits": [
+        "aberration",
+        "mythic"
+      ],
+      "attributes": {
+        "str": 6,
+        "dex": 3,
+        "con": 4,
+        "int": -2,
+        "wis": 1,
+        "cha": 0
+      },
+      "perception": 21,
+      "ac": {
+        "value": 31,
+        "details": "all-around vision"
+      },
+      "hp": {
+        "value": 250,
+        "details": ""
+      },
+      "saves": {
+        "fortitude": 25,
+        "reflex": 22,
+        "will": 20
+      },
+      "skills": {
+        "acrobatics": 19,
+        "athletics": 24,
+        "stealth": 28,
+        "survival": 17
+      },
+      "languages": [
+        "sakvroth"
+      ],
+      "senses": "[Darkvision](/action/darkvision-monster-core)",
+      "immunities": [],
+      "weaknesses": {},
+      "resistances": {
+        "poison": 10
+      },
+      "movement": {
+        "walk": 40,
+        "climb": 30
+      },
+      "attacks": [
+        {
+          "name": "Jaws",
+          "type": "melee",
+          "actions": "one",
+          "attack": 26,
+          "traits": [],
+          "damage": "3d10+12 piercing",
+          "effects": [
+            {
+              "name": "Improved Grab",
+              "reference": "/action/improved-grab-monster-core"
+            }
+          ]
+        },
+        {
+          "name": "Leg",
+          "type": "melee",
+          "actions": "one",
+          "attack": 26,
+          "traits": [
+            "agile",
+            "reach-10"
+          ],
+          "damage": "3d6+12 piercing"
+        }
+      ],
+      "abilities": {
+        "interaction": [
+          {
+            "name": "Remove a Condition",
+            "text": "**Cost** 1 Mythic Point; **Effect** The creature ends one condition affecting it.",
+            "traits": [
+              "concentrate"
+            ],
+            "actions": "one",
+            "effect": "The creature ends one condition affecting it.",
+            "description": "**Cost** 1 Mythic Point"
+          }
+        ],
+        "defensive": [
+          {
+            "name": "All-Around Vision",
+            "text": "",
+            "traits": [],
+            "reference": "/action/all-around-vision-monster-core",
+            "description": ""
+          },
+          {
+            "name": "Hazard Immunity",
+            "text": "A mythic ambusher never triggers the reactions of hazards in its own lair and is immune to the negative consequences of damaging area effects created by hazards in its lair.",
+            "traits": [],
+            "description": "A mythic ambusher never triggers the reactions of hazards in its own lair and is immune to the negative consequences of damaging area effects created by hazards in its lair."
+          },
+          {
+            "name": "Mythic Resilience (Reflex and Will)",
+            "text": "The creature treats its saving throws with the associated save as one degree of success better than it rolled. This is not cumulative with other effects that change their degree of success, like the [incapacitation](/trait/incapacitation) trait (except for rolling a natural 1 or 20). Each time the monster gains mythic resilience, choose one save. The ability should apply to the creature's highest saves first.",
+            "traits": [],
+            "description": "The creature treats its saving throws with the associated save as one degree of success better than it rolled. This is not cumulative with other effects that change their degree of success, like the [incapacitation](/trait/incapacitation) trait (except for rolling a natural 1 or 20). Each time the monster gains mythic resilience, choose one save. The ability should apply to the creature's highest saves first."
+          },
+          {
+            "name": "Skittering Reposition",
+            "text": "**Trigger** A creature that starts its move outside the gogiteth's reach moves into its reach.; **Effect** The gogiteth moves 10 feet. This does not trigger reactions.",
+            "traits": [
+              "move"
+            ],
+            "actions": "reaction",
+            "effect": "The gogiteth moves 10 feet. This does not trigger reactions.",
+            "trigger": "A creature that starts its move outside the gogiteth's reach moves into its reach.",
+            "triggerBeforeDescription": true,
+            "description": ""
+          }
+        ],
+        "offensive": [
+          {
+            "name": "Carry Off Prey",
+            "text": "The gogiteth can move at its full Speed while it has a creature [Grabbed](/condition/grabbed-player-core) in its jaws, bringing the grabbed creature along.",
+            "traits": [],
+            "description": "The gogiteth can move at its full Speed while it has a creature [Grabbed](/condition/grabbed-player-core) in its jaws, bringing the grabbed creature along."
+          },
+          {
+            "name": "Constrict",
+            "text": "3d6+12 bludgeoning, basic Fortitude DC 32",
+            "traits": [],
+            "actions": "one",
+            "reference": "/action/constrict-monster-core",
+            "description": "3d6+12 bludgeoning, basic Fortitude DC 32"
+          },
+          {
+            "name": "Mythic Power",
+            "text": "The creature has a pool of 3 Mythic Points, and can spend those Mythic Points for any of the actions it has.",
+            "traits": [],
+            "description": "The creature has a pool of 3 Mythic Points, and can spend those Mythic Points for any of the actions it has."
+          },
+          {
+            "name": "Mythic Skill",
+            "text": "**Cost** 1 Mythic Point; **Effect** The Mythic Gogiteth attempts its next Athletics or Stealth skill check with a +4 bonus and is considered to have mythic proficiency for that check.",
+            "traits": [],
+            "actions": "free",
+            "effect": "The Mythic Gogiteth attempts its next Athletics or Stealth skill check with a +4 bonus and is considered to have mythic proficiency for that check.",
+            "description": "**Cost** 1 Mythic Point"
+          },
+          {
+            "name": "Skittering Assault",
+            "text": "The gogiteth Strides three times. Once per [Stride](/action/stride-player-core), it can attempt a leg [Strike](/action/strike-player-core) against a creature in its reach at any point during the Stride; it must make each attack against a different creature, but it doesn't apply its multiple attack penalty until after making all its Strikes. If any of the Strikes result in a critical failure, Skittering Assault ends.",
+            "traits": [],
+            "actions": "two",
+            "description": "The gogiteth Strides three times. Once per [Stride](/action/stride-player-core), it can attempt a leg [Strike](/action/strike-player-core) against a creature in its reach at any point during the Stride; it must make each attack against a different creature, but it doesn't apply its multiple attack penalty until after making all its Strikes. If any of the Strikes result in a critical failure, Skittering Assault ends."
+          }
+        ]
+      },
+      "recallKnowledge": {
+        "dc": 35,
+        "skills": [
+          "occultism"
+        ],
+        "subjects": [
+          "aberration"
+        ],
+        "entries": [
+          {
+            "subject": "aberration",
+            "skills": [
+              "occultism"
+            ]
+          }
+        ]
+      },
+      "languagesText": "Sakvroth",
+      "recallKnowledgeText": "DC 35 (Occultism)",
+      "traitLinks": [
+        {
+          "label": "aberration",
+          "slug": "aberration"
+        },
+        {
+          "label": "mythic",
+          "slug": "mythic"
+        }
+      ],
+      "languagesDetails": "(Can't Speak)",
+      "senseEntries": [
+        {
+          "name": "Darkvision",
+          "reference": "/action/darkvision-monster-core"
+        }
+      ],
+      "skillsEditor": {
+        "skills": {
+          "acrobatics": 19,
+          "athletics": 24,
+          "stealth": 28,
+          "survival": 17
+        },
+        "loreSkills": []
+      },
+      "resistanceEntries": [
+        {
+          "type": "poison",
+          "value": 10
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "aberration",
+      "mythic",
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals",
+        "page": 170
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "EC66C1B1-615A-50EF-8308-BFE3017BAA1D",
+    "kind": "Creature",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Mythic Griffon",
+    "slug": "mythic-griffon-war-of-immortals",
+    "descr": "",
+    "data": {
+      "level": 4,
+      "rarity": "rare",
+      "size": "large",
+      "traits": [
+        "animal",
+        "mythic"
+      ],
+      "attributes": {
+        "str": 4,
+        "dex": 3,
+        "con": 3,
+        "int": -4,
+        "wis": 1,
+        "cha": 2
+      },
+      "perception": 13,
+      "ac": {
+        "value": 21,
+        "details": ""
+      },
+      "hp": {
+        "value": 60,
+        "details": ""
+      },
+      "saves": {
+        "fortitude": 13,
+        "reflex": 13,
+        "will": 7
+      },
+      "skills": {
+        "acrobatics": 15,
+        "athletics": 12,
+        "intimidation": 10,
+        "stealth": 11,
+        "survival": 9
+      },
+      "languages": [],
+      "senses": "[Darkvision](/action/darkvision-monster-core), [Scent](/action/scent-monster-core) ([imprecise](/rule/imprecise-senses-rules-2407)) 60 feet",
+      "immunities": [],
+      "weaknesses": {},
+      "resistances": {},
+      "movement": {
+        "walk": 25,
+        "fly": 60
+      },
+      "attacks": [
+        {
+          "name": "Beak",
+          "type": "melee",
+          "actions": "one",
+          "attack": 14,
+          "traits": [
+            "deadly-d10"
+          ],
+          "damage": "2d8+4 piercing"
+        },
+        {
+          "name": "Talon",
+          "type": "melee",
+          "actions": "one",
+          "attack": 14,
+          "traits": [
+            "agile"
+          ],
+          "damage": "2d6+4 piercing"
+        },
+        {
+          "name": "Wing",
+          "type": "melee",
+          "actions": "one",
+          "attack": 14,
+          "traits": [
+            "reach-10"
+          ],
+          "damage": "2d6+4 bludgeoning"
+        }
+      ],
+      "abilities": {
+        "interaction": [],
+        "defensive": [],
+        "offensive": [
+          {
+            "name": "Deadly Striker",
+            "text": "A mythic striker deals an additional 1d6 precision damage on its next [Strike](/action/strike-player-core) whenever it uses an action to [Stride](/action/stride-player-core) 10 or more feet (or to [Burrow](/action/burrow-player-core), [Climb](/action/climb-player-core), or [Fly](/action/fly-player-core) 10 or more feet).",
+            "traits": [],
+            "description": "A mythic striker deals an additional 1d6 precision damage on its next [Strike](/action/strike-player-core) whenever it uses an action to [Stride](/action/stride-player-core) 10 or more feet (or to [Burrow](/action/burrow-player-core), [Climb](/action/climb-player-core), or [Fly](/action/fly-player-core) 10 or more feet)."
+          },
+          {
+            "name": "Flying Strafe",
+            "text": "The griffon Flies up to its [fly Speed](/rule/fly-speed-rules-2350) and makes two talon Strikes at any point during that movement. Each [Strike](/action/strike-player-core) must target a different creature. The attacks take the normal multiple attack penalty.",
+            "traits": [],
+            "actions": "two",
+            "description": "The griffon Flies up to its [fly Speed](/rule/fly-speed-rules-2350) and makes two talon Strikes at any point during that movement. Each [Strike](/action/strike-player-core) must target a different creature. The attacks take the normal multiple attack penalty."
+          },
+          {
+            "name": "Mythic Power",
+            "text": "The Mythic Griffon has a pool of 3 Mythic Points, and can spend those Mythic Points for any of the actions it has.",
+            "traits": [],
+            "description": "The Mythic Griffon has a pool of 3 Mythic Points, and can spend those Mythic Points for any of the actions it has."
+          },
+          {
+            "name": "Mythic Skill",
+            "text": "**Cost** 1 Mythic Point; **Effect** The Mythic Griffon attempts its next Acrobatics skill check with a +4 bonus and is considered to have mythic proficiency for that check.",
+            "traits": [],
+            "actions": "free",
+            "effect": "The Mythic Griffon attempts its next Acrobatics skill check with a +4 bonus and is considered to have mythic proficiency for that check.",
+            "description": "**Cost** 1 Mythic Point"
+          },
+          {
+            "name": "Pounce",
+            "text": "The griffon Strides and makes a talon [Strike](/action/strike-player-core) at the end of that movement. If the griffon began this action [Hidden](/condition/hidden-player-core), it remains hidden until after the attack.",
+            "traits": [],
+            "actions": "one",
+            "description": "The griffon Strides and makes a talon [Strike](/action/strike-player-core) at the end of that movement. If the griffon began this action [Hidden](/condition/hidden-player-core), it remains hidden until after the attack."
+          },
+          {
+            "name": "Regal Shriek",
+            "text": "The griffon unleashes a shriek that transitions into a terrifying roar. Each creature in a 60-foot emanation must attempt a Will DC 20 save. Regardless of the result, creatures are temporarily immune to all griffons' Regal Shrieks for 10 minutes.\n **Critical Success** The creature is unaffected.\n **Success** The creature is [Frightened 1](/condition/frightened-player-core).\n **Failure** The creature is Frightened 2. Animals are [Slowed 1](/condition/slowed-player-core) for as long as they're frightened.\n **Critical Failure** The creature is Frightened 3. Animals are [Paralyzed](/condition/paralyzed-player-core) as long as they're frightened.",
+            "traits": [
+              "auditory",
+              "emotion",
+              "fear",
+              "mental"
+            ],
+            "actions": "one",
+            "description": "The griffon unleashes a shriek that transitions into a terrifying roar. Each creature in a 60-foot emanation must attempt a Will DC 20 save. Regardless of the result, creatures are temporarily immune to all griffons' Regal Shrieks for 10 minutes.\n **Critical Success** The creature is unaffected.\n **Success** The creature is [Frightened 1](/condition/frightened-player-core).\n **Failure** The creature is Frightened 2. Animals are [Slowed 1](/condition/slowed-player-core) for as long as they're frightened.\n **Critical Failure** The creature is Frightened 3. Animals are [Paralyzed](/condition/paralyzed-player-core) as long as they're frightened."
+          },
+          {
+            "name": "Unimpeded",
+            "text": "**Cost** 1 Mythic Point; **Effect** The Mythic Griffon automatically ends one effect that would give it a circumstance penalty to Speed. When it attempts to [Escape](/action/escape-player-core) an effect that has it [Immobilized](/condition/immobilized-player-core), [Grabbed](/condition/grabbed-player-core), or [Restrained](/condition/restrained-player-core), it automatically succeeds.",
+            "traits": [],
+            "actions": "one",
+            "effect": "The Mythic Griffon automatically ends one effect that would give it a circumstance penalty to Speed. When it attempts to [Escape](/action/escape-player-core) an effect that has it [Immobilized](/condition/immobilized-player-core), [Grabbed](/condition/grabbed-player-core), or [Restrained](/condition/restrained-player-core), it automatically succeeds.",
+            "description": "**Cost** 1 Mythic Point"
+          }
+        ]
+      },
+      "recallKnowledge": {
+        "dc": 24,
+        "skills": [
+          "nature"
+        ],
+        "subjects": [
+          "animal"
+        ],
+        "entries": [
+          {
+            "subject": "animal",
+            "skills": [
+              "nature"
+            ]
+          }
+        ]
+      },
+      "languagesText": "",
+      "recallKnowledgeText": "DC 24 (Nature)",
+      "traitLinks": [
+        {
+          "label": "animal",
+          "slug": "animal"
+        },
+        {
+          "label": "mythic",
+          "slug": "mythic"
+        }
+      ],
+      "senseEntries": [
+        {
+          "name": "Darkvision",
+          "reference": "/action/darkvision-monster-core"
+        },
+        {
+          "name": "Scent",
+          "reference": "/action/scent-monster-core",
+          "acuity": "imprecise",
+          "acuityReference": "/rule/imprecise-senses-rules-2407",
+          "details": "60 feet"
+        }
+      ],
+      "skillsEditor": {
+        "skills": {
+          "acrobatics": 15,
+          "athletics": 12,
+          "intimidation": 10,
+          "stealth": 11,
+          "survival": 9
+        },
+        "loreSkills": []
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "animal",
+      "mythic",
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals",
+        "page": 174
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D14E62F3-A8DD-5318-AE1D-E1AF00922AC9",
+    "kind": "Creature",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Mythic Lich",
+    "slug": "mythic-lich-war-of-immortals",
+    "descr": "",
+    "data": {
+      "level": 12,
+      "rarity": "rare",
+      "size": "medium",
+      "traits": [
+        "mythic",
+        "undead",
+        "unholy"
+      ],
+      "attributes": {
+        "str": 0,
+        "dex": 4,
+        "con": 0,
+        "int": 6,
+        "wis": 4,
+        "cha": 3
+      },
+      "perception": 20,
+      "ac": {
+        "value": 31,
+        "details": ""
+      },
+      "hp": {
+        "value": 190,
+        "details": "void healing, rejuvenation"
+      },
+      "saves": {
+        "fortitude": 17,
+        "reflex": 21,
+        "will": 23,
+        "details": "+1 status to all saves vs. vitality; mythic resilience (Ref and Will)"
+      },
+      "skills": {
+        "arcana": 28,
+        "crafting": 24,
+        "deception": 17,
+        "diplomacy": 19,
+        "religion": 22,
+        "stealth": 20
+      },
+      "languages": [
+        "aklo",
+        "chthonian",
+        "common",
+        "diabolic",
+        "draconic",
+        "elven",
+        "necril",
+        "sakvroth"
+      ],
+      "senses": "[Darkvision](/action/darkvision-monster-core)",
+      "immunities": [
+        "Bleed",
+        "[Death Effects](/rule/death-effects-rules-2331)",
+        "[Disease](/trait/disease)",
+        "[Paralyzed](/condition/paralyzed-player-core)",
+        "[Poison](/trait/poison)",
+        "[Unconscious](/condition/unconscious-player-core)"
+      ],
+      "weaknesses": {},
+      "resistances": {
+        "cold": 10
+      },
+      "movement": {
+        "walk": 25
+      },
+      "attacks": [
+        {
+          "name": "Hand",
+          "type": "melee",
+          "actions": "one",
+          "attack": 24,
+          "traits": [
+            "finesse",
+            "magical"
+          ],
+          "damage": "4d8 void",
+          "effects": [
+            {
+              "name": "Lich Siphon Life"
+            }
+          ]
+        }
+      ],
+      "abilities": {
+        "interaction": [
+          {
+            "name": "Recharge Spell",
+            "text": "**Cost** 1 Mythic Point\n\nThe mythic lich regains one spell.",
+            "traits": [
+              "concentrate"
+            ],
+            "actions": "one",
+            "description": "**Cost** 1 Mythic Point\n\nThe mythic lich regains one spell."
+          },
+          {
+            "name": "Remove a Condition",
+            "text": "**Cost** 1 Mythic Point; **Effect** The mythic lich ends one condition affecting it.",
+            "traits": [
+              "concentrate"
+            ],
+            "actions": "one",
+            "effect": "The mythic lich ends one condition affecting it.",
+            "description": "**Cost** 1 Mythic Point"
+          }
+        ],
+        "defensive": [
+          {
+            "name": "Counterspell",
+            "text": "**Trigger** A creature casts a spell the lich has prepared.; **Effect** The lich expends a prepared spell to counter the triggering creature's casting of that same spell. The lich loses its spell slot as if it had cast the triggering spell. The lich then attempts to counteract the triggering spell.",
+            "traits": [],
+            "actions": "reaction",
+            "effect": "The lich expends a prepared spell to counter the triggering creature's casting of that same spell. The lich loses its spell slot as if it had cast the triggering spell. The lich then attempts to counteract the triggering spell.",
+            "trigger": "A creature casts a spell the lich has prepared.",
+            "triggerBeforeDescription": true,
+            "description": ""
+          },
+          {
+            "name": "Frightful Presence",
+            "text": "60 feet. Will DC 29",
+            "traits": [
+              "aura",
+              "emotion",
+              "fear",
+              "mental"
+            ],
+            "reference": "/action/frightful-presence-monster-core",
+            "description": "60 feet. Will DC 29"
+          },
+          {
+            "name": "Mythic Resilience (Reflex and Will)",
+            "text": "The creature treats its saving throws with the associated save as one degree of success better than it rolled. This is not cumulative with other effects that change their degree of success, like the [incapacitation](/trait/incapacitation) trait (except for rolling a natural 1 or 20). Each time the monster gains mythic resilience, choose one save. The ability should apply to the creature's highest saves first.",
+            "traits": [],
+            "description": "The creature treats its saving throws with the associated save as one degree of success better than it rolled. This is not cumulative with other effects that change their degree of success, like the [incapacitation](/trait/incapacitation) trait (except for rolling a natural 1 or 20). Each time the monster gains mythic resilience, choose one save. The ability should apply to the creature's highest saves first."
+          },
+          {
+            "name": "Rejuvenation",
+            "text": "When a lich is destroyed, its soul immediately transfers to their *Lich Soul Cage*. A lich can be permanently destroyed only if their *soul cage* is found and destroyed.",
+            "traits": [
+              "arcane"
+            ],
+            "description": "When a lich is destroyed, its soul immediately transfers to their *Lich Soul Cage*. A lich can be permanently destroyed only if their *soul cage* is found and destroyed."
+          },
+          {
+            "name": "Void Healing",
+            "text": "",
+            "traits": [],
+            "reference": "/action/void-healing-monster-core",
+            "description": ""
+          }
+        ],
+        "offensive": [
+          {
+            "name": "Drain Soul Cage",
+            "text": "6th rank\n\n**Frequency** once per day; **Effect** The lich taps into their *Soul Cage*'s power to cast any arcane spell up to the highest rank the lich can cast, even if the spell being cast is not one of the lich's prepared spells. The lich's soul cage doesn't need to be present for the lich to use this ability.",
+            "traits": [],
+            "actions": "free",
+            "effect": "The lich taps into their *Soul Cage*'s power to cast any arcane spell up to the highest rank the lich can cast, even if the spell being cast is not one of the lich's prepared spells. The lich's soul cage doesn't need to be present for the lich to use this ability.",
+            "description": "6th rank\n\n**Frequency** once per day"
+          },
+          {
+            "name": "Mythic Power",
+            "text": "The creature has a pool of 3 Mythic Points, and can spend those Mythic Points for any of the actions it has.",
+            "traits": [],
+            "description": "The creature has a pool of 3 Mythic Points, and can spend those Mythic Points for any of the actions it has."
+          },
+          {
+            "name": "Siphon Life",
+            "text": "A lich's form draws forth life from those who come into contact with it. When the lich damages a living creature with an unarmed attack, the lich gains 5 temporary Hit Points and the creature must succeed at a Fortitude DC 34 save or become [Drained 1](/condition/drained-player-core).\n\nIf the lich is [Grabbed](/condition/grabbed-player-core) or [Restrained](/condition/restrained-player-core) at the start of its turn, each creature grabbing or restraining it must succeed at a Fortitude save or become drained 1. If the lich siphons a creature's life again, the drained value increase by 1, to a maximum of Drained 4.",
+            "traits": [],
+            "description": "A lich's form draws forth life from those who come into contact with it. When the lich damages a living creature with an unarmed attack, the lich gains 5 temporary Hit Points and the creature must succeed at a Fortitude DC 34 save or become [Drained 1](/condition/drained-player-core).\n\nIf the lich is [Grabbed](/condition/grabbed-player-core) or [Restrained](/condition/restrained-player-core) at the start of its turn, each creature grabbing or restraining it must succeed at a Fortitude save or become drained 1. If the lich siphons a creature's life again, the drained value increase by 1, to a maximum of Drained 4."
+          },
+          {
+            "name": "Steady Spellcasting",
+            "text": "If a reaction would disrupt the lich's [spellcasting](/action/spellcasting-player-core) action, the lich attempts a Flat DC 15 check. On a success, the action isn't disrupted.",
+            "traits": [],
+            "description": "If a reaction would disrupt the lich's [spellcasting](/action/spellcasting-player-core) action, the lich attempts a Flat DC 15 check. On a success, the action isn't disrupted."
+          }
+        ]
+      },
+      "recallKnowledge": {
+        "dc": 35,
+        "skills": [
+          "religion"
+        ],
+        "subjects": [
+          "undead"
+        ],
+        "entries": [
+          {
+            "subject": "undead",
+            "skills": [
+              "religion"
+            ]
+          }
+        ]
+      },
+      "languagesText": "Aklo, Chthonian, Common, Diabolic, Draconic, Elven, Necril, Sakvroth",
+      "recallKnowledgeText": "DC 35 (Religion)",
+      "sanctification": "unholy",
+      "items": "[Staff of Fire (Greater)](/item/staff-of-fire-greater-gm-core), [Invisibility Potion](/item/invisibility-potion-gm-core), Scroll of Teleport (Rank 6)",
+      "traitLinks": [
+        {
+          "label": "mythic",
+          "slug": "mythic"
+        },
+        {
+          "label": "undead",
+          "slug": "undead"
+        },
+        {
+          "label": "unholy",
+          "slug": "unholy"
+        }
+      ],
+      "spellcasting": [
+        {
+          "name": "Arcane Prepared Spells",
+          "spellGroups": [
+            {
+              "label": "6th (3 slots)",
+              "spells": [
+                {
+                  "name": "Chain Lightning",
+                  "rank": 6,
+                  "reference": "/spell/chain-lightning-player-core"
+                },
+                {
+                  "name": "Dominate",
+                  "rank": 6,
+                  "reference": "/spell/dominate-player-core"
+                },
+                {
+                  "name": "Vampiric Exsanguination",
+                  "rank": 6,
+                  "reference": "/spell/vampiric-exsanguination-player-core"
+                }
+              ]
+            },
+            {
+              "label": "5th (4 slots)",
+              "spells": [
+                {
+                  "name": "Howling Blizzard",
+                  "rank": 5,
+                  "reference": "/spell/howling-blizzard-player-core",
+                  "details": "×2"
+                },
+                {
+                  "name": "Toxic Cloud",
+                  "rank": 5,
+                  "reference": "/spell/toxic-cloud-player-core"
+                },
+                {
+                  "name": "Wall of Ice",
+                  "rank": 5,
+                  "reference": "/spell/wall-of-ice-player-core"
+                }
+              ]
+            },
+            {
+              "label": "4th (4 slots)",
+              "spells": [
+                {
+                  "name": "Dispel Magic",
+                  "rank": 4,
+                  "reference": "/spell/dispel-magic-player-core"
+                },
+                {
+                  "name": "Fire Shield",
+                  "rank": 4,
+                  "reference": "/spell/fire-shield-player-core"
+                },
+                {
+                  "name": "Fly",
+                  "rank": 4,
+                  "reference": "/spell/fly-player-core"
+                },
+                {
+                  "name": "Translocate",
+                  "rank": 4,
+                  "reference": "/spell/translocate-player-core"
+                }
+              ]
+            },
+            {
+              "label": "3rd (4 slots)",
+              "spells": [
+                {
+                  "name": "Blindness",
+                  "rank": 3,
+                  "reference": "/spell/blindness-player-core"
+                },
+                {
+                  "name": "Force Barrage",
+                  "rank": 3,
+                  "reference": "/spell/force-barrage-player-core"
+                },
+                {
+                  "name": "Locate",
+                  "rank": 3,
+                  "reference": "/spell/locate-player-core"
+                },
+                {
+                  "name": "Vampiric Feast",
+                  "rank": 3,
+                  "reference": "/spell/vampiric-feast-player-core"
+                }
+              ]
+            },
+            {
+              "label": "2nd (4 slots)",
+              "spells": [
+                {
+                  "name": "Blur",
+                  "rank": 2,
+                  "reference": "/spell/blur-player-core"
+                },
+                {
+                  "name": "False Vitality",
+                  "rank": 2,
+                  "reference": "/spell/false-vitality-player-core"
+                },
+                {
+                  "name": "Resist Energy",
+                  "rank": 2,
+                  "reference": "/spell/resist-energy-player-core"
+                },
+                {
+                  "name": "See the Unseen",
+                  "rank": 2,
+                  "reference": "/spell/see-the-unseen-player-core"
+                }
+              ]
+            },
+            {
+              "label": "1st (4 slots)",
+              "spells": [
+                {
+                  "name": "Enfeeble",
+                  "rank": 1,
+                  "reference": "/spell/enfeeble-player-core",
+                  "details": "×2"
+                },
+                {
+                  "name": "Fleet Step",
+                  "rank": 1,
+                  "reference": "/spell/fleet-step-player-core"
+                },
+                {
+                  "name": "Sure Strike",
+                  "rank": 1,
+                  "reference": "/spell/sure-strike-player-core"
+                }
+              ]
+            },
+            {
+              "label": "Cantrips (6th)",
+              "spells": [
+                {
+                  "name": "Detect Magic",
+                  "rank": 6,
+                  "reference": "/spell/detect-magic-player-core"
+                },
+                {
+                  "name": "Frostbite",
+                  "rank": 6,
+                  "reference": "/spell/frostbite-player-core"
+                },
+                {
+                  "name": "Message",
+                  "rank": 6,
+                  "reference": "/spell/message-player-core"
+                },
+                {
+                  "name": "Shield",
+                  "rank": 6,
+                  "reference": "/spell/shield-player-core"
+                },
+                {
+                  "name": "Telekinetic Hand",
+                  "rank": 6,
+                  "reference": "/spell/telekinetic-hand-player-core"
+                }
+              ]
+            }
+          ],
+          "spellDC": 36,
+          "spellAttack": 26
+        }
+      ],
+      "senseEntries": [
+        {
+          "name": "Darkvision",
+          "reference": "/action/darkvision-monster-core"
+        }
+      ],
+      "itemEntries": [
+        {
+          "name": "Staff of Fire (Greater)",
+          "reference": "/item/staff-of-fire-greater-gm-core"
+        },
+        {
+          "name": "Invisibility Potion",
+          "reference": "/item/invisibility-potion-gm-core"
+        },
+        {
+          "name": "Scroll of Teleport (Rank 6)"
+        }
+      ],
+      "immunityEditor": {
+        "entries": [
+          {
+            "name": "Bleed"
+          },
+          {
+            "name": "Death Effects",
+            "reference": "/rule/death-effects-rules-2331"
+          },
+          {
+            "name": "Disease",
+            "reference": "/trait/disease"
+          },
+          {
+            "name": "Paralyzed",
+            "reference": "/condition/paralyzed-player-core"
+          },
+          {
+            "name": "Poison",
+            "reference": "/trait/poison"
+          },
+          {
+            "name": "Unconscious",
+            "reference": "/condition/unconscious-player-core"
+          }
+        ]
+      },
+      "skillsEditor": {
+        "skills": {
+          "arcana": 28,
+          "crafting": 24,
+          "deception": 17,
+          "diplomacy": 19,
+          "religion": 22,
+          "stealth": 20
+        },
+        "loreSkills": []
+      },
+      "resistanceEntries": [
+        {
+          "type": "cold",
+          "value": 10
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "mythic",
+      "remaster",
+      "undead",
+      "unholy",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals",
+        "page": 172
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "230C64CE-AE4E-5E3F-A381-8FF6E89522E6",
+    "kind": "Creature",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Mythic Ogre Boss",
+    "slug": "mythic-ogre-boss-war-of-immortals",
+    "descr": "",
+    "data": {
+      "level": 7,
+      "rarity": "rare",
+      "size": "large",
+      "traits": [
+        "giant",
+        "humanoid"
+      ],
+      "attributes": {
+        "str": 7,
+        "dex": 0,
+        "con": 4,
+        "int": 0,
+        "wis": 1,
+        "cha": 1
+      },
+      "perception": 12,
+      "ac": {
+        "value": 25,
+        "details": ""
+      },
+      "hp": {
+        "value": 130,
+        "details": ""
+      },
+      "saves": {
+        "fortitude": 17,
+        "reflex": 12,
+        "will": 15
+      },
+      "skills": {
+        "athletics": 20,
+        "intimidation": 16,
+        "stealth": 11
+      },
+      "languages": [
+        "common",
+        "jotun"
+      ],
+      "senses": "[Darkvision](/action/darkvision-monster-core)",
+      "immunities": [],
+      "weaknesses": {},
+      "resistances": {
+        "mythic": 7
+      },
+      "movement": {
+        "walk": 25
+      },
+      "attacks": [
+        {
+          "name": "Ogre Hook",
+          "type": "melee",
+          "actions": "one",
+          "attack": 19,
+          "traits": [
+            "deadly-d10",
+            "reach-10",
+            "trip"
+          ],
+          "damage": "1d10+11 piercing"
+        },
+        {
+          "name": "Javelin",
+          "type": "ranged",
+          "actions": "one",
+          "attack": 12,
+          "traits": [
+            "thrown-30"
+          ],
+          "damage": "1d6+11 piercing"
+        }
+      ],
+      "abilities": {
+        "interaction": [
+          {
+            "name": "Titanic Might",
+            "text": "A mythic brute ignores size limitations when performing actions like [Grapple](/action/grapple-player-core) or [Trip](/action/trip-player-core).",
+            "traits": [],
+            "description": "A mythic brute ignores size limitations when performing actions like [Grapple](/action/grapple-player-core) or [Trip](/action/trip-player-core)."
+          }
+        ],
+        "defensive": [
+          {
+            "name": "Mythic Ferocity",
+            "text": "**Cost** 1 Mythic Point; **Trigger** The monster is reduced to 0 HP; **Effect** The monster avoids being knocked out and remains at half its maximum HP, but its wounded value increases by 1. When it is [Wounded 3](/condition/wounded-player-core), it can no longer use this ability.",
+            "traits": [],
+            "actions": "reaction",
+            "effect": "The monster avoids being knocked out and remains at half its maximum HP, but its wounded value increases by 1. When it is [Wounded 3](/condition/wounded-player-core), it can no longer use this ability.",
+            "trigger": "The monster is reduced to 0 HP",
+            "triggerBeforeDescription": false,
+            "description": "**Cost** 1 Mythic Point"
+          },
+          {
+            "name": "Reactive Strike",
+            "text": "",
+            "traits": [],
+            "actions": "reaction",
+            "reference": "/action/reactive-strike-monster-core",
+            "description": ""
+          }
+        ],
+        "offensive": [
+          {
+            "name": "Bellowing Command",
+            "text": "The ogre boss issues a command to hasten their fellows. Each ogre ally who hears and understands this command becomes [Quickened](/condition/quickened-player-core) until the end of that ally's next turn but can use the extra action only to [Step](/action/step-player-core) or [Stride](/action/stride-player-core).",
+            "traits": [
+              "auditory",
+              "emotion",
+              "fear",
+              "linguistic",
+              "mental"
+            ],
+            "actions": "one",
+            "description": "The ogre boss issues a command to hasten their fellows. Each ogre ally who hears and understands this command becomes [Quickened](/condition/quickened-player-core) until the end of that ally's next turn but can use the extra action only to [Step](/action/step-player-core) or [Stride](/action/stride-player-core)."
+          },
+          {
+            "name": "Mythic Power",
+            "text": "The creature has a pool of 3 Mythic Points, and can spend those Mythic Points for any of the actions it has.",
+            "traits": [],
+            "description": "The creature has a pool of 3 Mythic Points, and can spend those Mythic Points for any of the actions it has."
+          },
+          {
+            "name": "Mythic Skill",
+            "text": "**Cost** 1 Mythic Point; **Effect** The Mythic Ogre Boss attempts its next Athletics skill check with a +4 bonus and is considered to have mythic proficiency for that check. This applies to one skill when this ability is gained and a second skill if the creature is 12th level or higher.",
+            "traits": [],
+            "actions": "free",
+            "effect": "The Mythic Ogre Boss attempts its next Athletics skill check with a +4 bonus and is considered to have mythic proficiency for that check. This applies to one skill when this ability is gained and a second skill if the creature is 12th level or higher.",
+            "description": "**Cost** 1 Mythic Point"
+          },
+          {
+            "name": "Sweeping Hook",
+            "text": "**Trigger** The ogre boss successfully [Trips](/action/trip-player-core) a creature using an ogre hook; **Effect** The ogre boss makes an ogre hook [Strike](/action/strike-player-core) against the creature they tripped.",
+            "traits": [],
+            "actions": "reaction",
+            "effect": "The ogre boss makes an ogre hook [Strike](/action/strike-player-core) against the creature they tripped.",
+            "trigger": "The ogre boss successfully [Trips](/action/trip-player-core) a creature using an ogre hook",
+            "triggerBeforeDescription": true,
+            "description": ""
+          }
+        ]
+      },
+      "recallKnowledge": {
+        "dc": 28,
+        "skills": [
+          "society"
+        ],
+        "subjects": [
+          "humanoid"
+        ],
+        "entries": [
+          {
+            "subject": "humanoid",
+            "skills": [
+              "society"
+            ]
+          }
+        ]
+      },
+      "languagesText": "Common, Jotun",
+      "recallKnowledgeText": "DC 28 (Society)",
+      "items": "[Javelin](/item/javelin-player-core) (6), [Gut-Ripper](/item/gut-ripper-war-of-immortals), [Breastplate](/item/breastplate-player-core)",
+      "traitLinks": [
+        {
+          "label": "giant",
+          "slug": "giant"
+        },
+        {
+          "label": "humanoid",
+          "slug": "humanoid"
+        }
+      ],
+      "senseEntries": [
+        {
+          "name": "Darkvision",
+          "reference": "/action/darkvision-monster-core"
+        }
+      ],
+      "itemEntries": [
+        {
+          "name": "Javelin",
+          "reference": "/item/javelin-player-core",
+          "quantity": 6
+        },
+        {
+          "name": "Gut-Ripper",
+          "reference": "/item/gut-ripper-war-of-immortals"
+        },
+        {
+          "name": "Breastplate",
+          "reference": "/item/breastplate-player-core"
+        }
+      ],
+      "skillsEditor": {
+        "skills": {
+          "athletics": 20,
+          "intimidation": 16,
+          "stealth": 11
+        },
+        "loreSkills": []
+      },
+      "resistanceEntries": [
+        {
+          "type": "mythic",
+          "value": 7
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "giant",
+      "humanoid",
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals",
+        "page": 172
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D10E26CD-D146-5BDD-96BD-4D22CAC009C1",
+    "kind": "Creature",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Oliphaunt of Jandelay",
+    "slug": "oliphaunt-of-jandelay-war-of-immortals",
+    "descr": "",
+    "data": {
+      "level": 25,
+      "rarity": "unique",
+      "size": "gargantuan",
+      "traits": [
+        "monitor",
+        "mythic"
+      ],
+      "attributes": {
+        "str": 12,
+        "dex": 5,
+        "con": 10,
+        "int": -1,
+        "wis": 7,
+        "cha": 7
+      },
+      "perception": 39,
+      "ac": {
+        "value": 48,
+        "details": ""
+      },
+      "hp": {
+        "value": 680,
+        "details": ""
+      },
+      "saves": {
+        "fortitude": 48,
+        "reflex": 37,
+        "will": 39,
+        "details": "mythic resilience (all saves)"
+      },
+      "skills": {
+        "athletics": 50
+      },
+      "languages": [
+        "aklo"
+      ],
+      "senses": "[Scent](/action/scent-monster-core) ([imprecise](/rule/imprecise-senses-rules-2407)) 120 feet",
+      "immunities": [
+        "Clumsy",
+        "Cold",
+        "[Disease](/trait/disease)",
+        "[Drained](/condition/drained-player-core)",
+        "Enfeebled",
+        "[Mental](/trait/mental)",
+        "[Paralyzed](/condition/paralyzed-player-core)",
+        "Persistent Damage",
+        "Petrified",
+        "[Poison](/trait/poison)",
+        "Polymorph",
+        "[Prone](/condition/prone-player-core)",
+        "Slowed",
+        "Stunned",
+        "Stupefied"
+      ],
+      "weaknesses": {},
+      "resistances": {
+        "acid": 20,
+        "fire": 20,
+        "physical": 15
+      },
+      "movement": {
+        "walk": 60,
+        "fly": 40,
+        "other": "legendary vigor, unfettered movement"
+      },
+      "attacks": [
+        {
+          "name": "Tusk",
+          "type": "melee",
+          "actions": "one",
+          "attack": 45,
+          "traits": [
+            "magical",
+            "reach-20"
+          ],
+          "damage": "4d10+22 piercing",
+          "effects": [
+            {
+              "name": "Improved Grab",
+              "reference": "/action/improved-grab-monster-core"
+            }
+          ]
+        },
+        {
+          "name": "Foot",
+          "type": "melee",
+          "actions": "one",
+          "attack": 45,
+          "traits": [
+            "agile",
+            "magical",
+            "reach-15"
+          ],
+          "damage": "4d6+22 bludgeoning",
+          "effects": [
+            {
+              "name": "Improved Knockdown",
+              "reference": "/action/improved-knockdown-monster-core"
+            }
+          ]
+        },
+        {
+          "name": "Trunk",
+          "type": "melee",
+          "actions": "one",
+          "attack": 45,
+          "traits": [
+            "magical",
+            "reach-30"
+          ],
+          "damage": "2d12+22 bludgeoning"
+        },
+        {
+          "name": "Debris Toss",
+          "type": "ranged",
+          "actions": "one",
+          "attack": 43,
+          "traits": [
+            "deadly-2d8",
+            "propulsive",
+            "range-increment-150"
+          ],
+          "damage": "4d8+16 bludgeoning"
+        }
+      ],
+      "abilities": {
+        "interaction": [
+          {
+            "name": "Remove a Condition",
+            "text": "**Cost** 1 Mythic Point; **Effect** The Oliphaunt of Jandelay removes any one condition currently affecting it.",
+            "traits": [
+              "concentrate"
+            ],
+            "actions": "one",
+            "effect": "The Oliphaunt of Jandelay removes any one condition currently affecting it.",
+            "description": "**Cost** 1 Mythic Point"
+          }
+        ],
+        "defensive": [
+          {
+            "name": "Regeneration",
+            "text": "",
+            "traits": [],
+            "reference": "/action/regeneration-monster-core",
+            "description": ""
+          },
+          {
+            "name": "Frightful Presence",
+            "text": "300 feet. Will DC 46",
+            "traits": [
+              "aura",
+              "emotion",
+              "fear",
+              "mental"
+            ],
+            "reference": "/action/frightful-presence-monster-core",
+            "description": "300 feet. Will DC 46"
+          },
+          {
+            "name": "Mythic Immunity",
+            "text": "The Oliphaunt of Jandelay is immune to harmful spells cast by non-mythic creatures, Strikes made with non-mythic weapons, and unarmed Strikes from nonmythic characters.",
+            "traits": [],
+            "description": "The Oliphaunt of Jandelay is immune to harmful spells cast by non-mythic creatures, Strikes made with non-mythic weapons, and unarmed Strikes from nonmythic characters."
+          },
+          {
+            "name": "Mythic Resilience",
+            "text": "The Oliphaunt treats its saving throws with the associated save as one step better than they actually are (so a critical failure is a failure, a failure is a success, and a success is a critical success). The first time each round that a character rolls a critical hit against the Oliphaunt, they must reroll the attack roll and take the new result.",
+            "traits": [],
+            "description": "The Oliphaunt treats its saving throws with the associated save as one step better than they actually are (so a critical failure is a failure, a failure is a success, and a success is a critical success). The first time each round that a character rolls a critical hit against the Oliphaunt, they must reroll the attack roll and take the new result."
+          },
+          {
+            "name": "Reactive",
+            "text": "The Oliphaunt of Jandelay gains 3 reactions each round. It can still use only one reaction per trigger.",
+            "traits": [],
+            "description": "The Oliphaunt of Jandelay gains 3 reactions each round. It can still use only one reaction per trigger."
+          },
+          {
+            "name": "Reactive Strike",
+            "text": "",
+            "traits": [],
+            "actions": "reaction",
+            "reference": "/action/reactive-strike-monster-core",
+            "description": ""
+          },
+          {
+            "name": "Undying Myth",
+            "text": "**Cost** all the creature's Mythic Points; **Trigger** The creature would die and has at least 1 Mythic Point; **Effect** When the Oliphaunt of Jandelay would die, as long as it has at least 1 Mythic Point, it immediately expends all remaining Mythic Points it has, remains standing and conscious, and recovers 50% of its maximum Hit Points.",
+            "traits": [],
+            "actions": "free",
+            "effect": "When the Oliphaunt of Jandelay would die, as long as it has at least 1 Mythic Point, it immediately expends all remaining Mythic Points it has, remains standing and conscious, and recovers 50% of its maximum Hit Points.",
+            "trigger": "The creature would die and has at least 1 Mythic Point",
+            "triggerBeforeDescription": false,
+            "description": "**Cost** all the creature's Mythic Points"
+          }
+        ],
+        "offensive": [
+          {
+            "name": "Brutal Drag",
+            "text": "When the Oliphaunt takes a [Stride](/action/stride-player-core) action, any creature [Grabbed](/condition/grabbed-player-core) by the Oliphaunt of Jandelay's tusk is moved along with it to a location within 20 feet of the Oliphaunt's ending location. They remain grabbed and the GM determines which square they end up in.",
+            "traits": [],
+            "description": "When the Oliphaunt takes a [Stride](/action/stride-player-core) action, any creature [Grabbed](/condition/grabbed-player-core) by the Oliphaunt of Jandelay's tusk is moved along with it to a location within 20 feet of the Oliphaunt's ending location. They remain grabbed and the GM determines which square they end up in."
+          },
+          {
+            "name": "Destructive Frenzy",
+            "text": "The Oliphaunt of Jandelay makes two tusk Strikes, two foot Strikes, and one trunk [Strike](/action/strike-player-core) in any order.",
+            "traits": [],
+            "actions": "three",
+            "description": "The Oliphaunt of Jandelay makes two tusk Strikes, two foot Strikes, and one trunk [Strike](/action/strike-player-core) in any order."
+          },
+          {
+            "name": "Devastating Launch",
+            "text": "**Cost** 1 Mythic Point; **Effect** The Oliphaunt of Jandelay buries its tusks into the ground in a 15-foot burst centered within 20 feet of it, collecting everything in that area, including any creature currently [Grabbed](/condition/grabbed-player-core) by its tusk attack, and flinging it all up to 120 feet away. Everything lands in a 30-foot burst, dealing 12d6 bludgeoning damage to each creature in the area (basic Reflex DC 51 save). This damage also applies to any creatures, vehicles, or objects the Oliphaunt flung as well. A creature in the area being flung that succeeds or critically succeeds on their Reflex save remains in the square they started in. Anything launched by the Oliphaunt lands in a square in the burst as determined by the GM.",
+            "traits": [],
+            "actions": "two",
+            "effect": "The Oliphaunt of Jandelay buries its tusks into the ground in a 15-foot burst centered within 20 feet of it, collecting everything in that area, including any creature currently [Grabbed](/condition/grabbed-player-core) by its tusk attack, and flinging it all up to 120 feet away. Everything lands in a 30-foot burst, dealing 12d6 bludgeoning damage to each creature in the area (basic Reflex DC 51 save). This damage also applies to any creatures, vehicles, or objects the Oliphaunt flung as well. A creature in the area being flung that succeeds or critically succeeds on their Reflex save remains in the square they started in. Anything launched by the Oliphaunt lands in a square in the burst as determined by the GM.",
+            "description": "**Cost** 1 Mythic Point"
+          },
+          {
+            "name": "Mythic Power",
+            "text": "The creature has a pool of 3 Mythic Points, and can spend those Mythic Points for any of the actions it has.",
+            "traits": [],
+            "description": "The creature has a pool of 3 Mythic Points, and can spend those Mythic Points for any of the actions it has."
+          },
+          {
+            "name": "Trample",
+            "text": "Huge or smaller, foot, basic Reflex DC 46\n\nWhen the Oliphaunt of Jandelay Tramples, it can [Stride](/action/stride-player-core) up to triple its Speed, and any creature that fails or critically fails the Reflex save is knocked [Prone](/condition/prone-player-core).",
+            "traits": [],
+            "actions": "three",
+            "reference": "/action/trample-monster-core",
+            "description": "Huge or smaller, foot, basic Reflex DC 46\n\nWhen the Oliphaunt of Jandelay Tramples, it can [Stride](/action/stride-player-core) up to triple its Speed, and any creature that fails or critically fails the Reflex save is knocked [Prone](/condition/prone-player-core)."
+          },
+          {
+            "name": "Trumpeting Blast",
+            "text": "The Oliphaunt of Jandelay emits a cacophonous blast from its trunk in a 120-foot [cone](/rule/cone-rules-2386). Each creature in the area must attempt a Fortitude DC 49 save. If the Oliphaunt spends 1 Mythic Point as part of the activity, the DC becomes 51 and the damage dice are increased to d12s. The Oliphaunt of Jandelay can't use Trumpeting Blast again for 1d4 rounds.\n **Critical Success** The creature is unaffected.\n **Success** The creature takes 7d10 sonic damage and is [Deafened](/condition/deafened-player-core) for 1 round.\n **Failure** The creature takes 14d10 sonic damage, is [Slowed 1](/condition/slowed-player-core) for 2 rounds, and is deafened for 2 rounds.\n **Critical Failure** The creature takes 28d10 sonic damage, is Slowed 2 for 2 rounds, and is deafened for 4 rounds.",
+            "traits": [
+              "sonic"
+            ],
+            "actions": "two",
+            "description": "The Oliphaunt of Jandelay emits a cacophonous blast from its trunk in a 120-foot [cone](/rule/cone-rules-2386). Each creature in the area must attempt a Fortitude DC 49 save. If the Oliphaunt spends 1 Mythic Point as part of the activity, the DC becomes 51 and the damage dice are increased to d12s. The Oliphaunt of Jandelay can't use Trumpeting Blast again for 1d4 rounds.\n **Critical Success** The creature is unaffected.\n **Success** The creature takes 7d10 sonic damage and is [Deafened](/condition/deafened-player-core) for 1 round.\n **Failure** The creature takes 14d10 sonic damage, is [Slowed 1](/condition/slowed-player-core) for 2 rounds, and is deafened for 2 rounds.\n **Critical Failure** The creature takes 28d10 sonic damage, is Slowed 2 for 2 rounds, and is deafened for 4 rounds."
+          },
+          {
+            "name": "Legendary Vigor",
+            "text": "The Oliphaunt of Jandelay is immune to penalties to its Speeds, and it ignores difficult terrain and greater difficult terrain.",
+            "traits": [],
+            "description": "The Oliphaunt of Jandelay is immune to penalties to its Speeds, and it ignores difficult terrain and greater difficult terrain."
+          }
+        ]
+      },
+      "recallKnowledge": {
+        "dc": 60,
+        "skills": [
+          "religion"
+        ],
+        "subjects": [
+          "monitor"
+        ],
+        "entries": [
+          {
+            "subject": "monitor",
+            "skills": [
+              "religion"
+            ]
+          }
+        ]
+      },
+      "languagesText": "Aklo",
+      "recallKnowledgeText": "DC 60 (Religion)",
+      "traitLinks": [
+        {
+          "label": "monitor",
+          "slug": "monitor"
+        },
+        {
+          "label": "mythic",
+          "slug": "mythic"
+        }
+      ],
+      "languagesDetails": "(can't speak any language)",
+      "spellcasting": [
+        {
+          "name": "Divine Innate Spells",
+          "spellGroups": [
+            {
+              "label": "10th",
+              "spells": [
+                {
+                  "name": "Cataclysm",
+                  "rank": 10,
+                  "reference": "/spell/cataclysm-player-core"
+                }
+              ]
+            },
+            {
+              "label": "Constant (4th)",
+              "spells": [
+                {
+                  "name": "Unfettered Movement",
+                  "rank": 4,
+                  "reference": "/spell/unfettered-movement-player-core"
+                }
+              ]
+            }
+          ],
+          "spellDC": 46,
+          "spellAttack": 0
+        }
+      ],
+      "senseEntries": [
+        {
+          "name": "Scent",
+          "reference": "/action/scent-monster-core",
+          "acuity": "imprecise",
+          "acuityReference": "/rule/imprecise-senses-rules-2407",
+          "details": "120 feet"
+        }
+      ],
+      "immunityEditor": {
+        "entries": [
+          {
+            "name": "Clumsy"
+          },
+          {
+            "name": "Cold"
+          },
+          {
+            "name": "Disease",
+            "reference": "/trait/disease"
+          },
+          {
+            "name": "Drained",
+            "reference": "/condition/drained-player-core"
+          },
+          {
+            "name": "Enfeebled"
+          },
+          {
+            "name": "Mental",
+            "reference": "/trait/mental"
+          },
+          {
+            "name": "Paralyzed",
+            "reference": "/condition/paralyzed-player-core"
+          },
+          {
+            "name": "Persistent Damage"
+          },
+          {
+            "name": "Petrified"
+          },
+          {
+            "name": "Poison",
+            "reference": "/trait/poison"
+          },
+          {
+            "name": "Polymorph"
+          },
+          {
+            "name": "Prone",
+            "reference": "/condition/prone-player-core"
+          },
+          {
+            "name": "Slowed"
+          },
+          {
+            "name": "Stunned"
+          },
+          {
+            "name": "Stupefied"
+          }
+        ]
+      },
+      "skillsEditor": {
+        "skills": {
+          "athletics": 50
+        },
+        "loreSkills": []
+      },
+      "resistanceEntries": [
+        {
+          "type": "acid",
+          "value": 20
+        },
+        {
+          "type": "fire",
+          "value": 20
+        },
+        {
+          "type": "physical",
+          "value": 15
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monitor",
+      "mythic",
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals",
+        "page": 196
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "DA19401E-4F2B-581C-BC23-84987A091411",
+    "kind": "Creature",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Sublime Breath",
+    "slug": "sublime-breath-war-of-immortals",
+    "descr": "",
+    "data": {
+      "level": 6,
+      "rarity": "rare",
+      "size": "medium",
+      "traits": [
+        "fey",
+        "mythic"
+      ],
+      "attributes": {
+        "str": 2,
+        "dex": 4,
+        "con": 2,
+        "int": 4,
+        "wis": 2,
+        "cha": 5
+      },
+      "perception": 16,
+      "ac": {
+        "value": 24,
+        "details": ""
+      },
+      "hp": {
+        "value": 111,
+        "details": ""
+      },
+      "saves": {
+        "fortitude": 11,
+        "reflex": 14,
+        "will": 17,
+        "details": "+2 status to all saves vs. emotion; mythic resilience (Will)"
+      },
+      "skills": {
+        "acrobatics": 14,
+        "athletics": 12,
+        "crafting": 26,
+        "deception": 18,
+        "diplomacy": 16,
+        "nature": 15,
+        "performance": 26
+      },
+      "languages": [
+        "common",
+        "fey"
+      ],
+      "senses": "",
+      "immunities": [],
+      "weaknesses": {},
+      "resistances": {},
+      "movement": {
+        "walk": 25
+      },
+      "attacks": [
+        {
+          "name": "Soft Touch",
+          "type": "melee",
+          "actions": "one",
+          "attack": 16,
+          "traits": [
+            "mental",
+            "spirit"
+          ],
+          "damage": "1d6 spirit; 1d6 mental; 2d4+8 bludgeoning"
+        },
+        {
+          "name": "Feigned Strike",
+          "type": "ranged",
+          "actions": "one",
+          "attack": 16,
+          "traits": [
+            "mental",
+            "range-60-feet",
+            "spirit"
+          ],
+          "damage": "2d6 spirit; 2d6 mental"
+        }
+      ],
+      "abilities": {
+        "interaction": [
+          {
+            "name": "Artistic Specialist",
+            "text": "In a recital, competition, or other measure of artistic skill, a sublime breath is a 12th-level challenge.",
+            "traits": [],
+            "description": "In a recital, competition, or other measure of artistic skill, a sublime breath is a 12th-level challenge."
+          },
+          {
+            "name": "Immaculate Instrument",
+            "text": "A sublime breath carries a single tool, prop, or instrument related to its chosen craft, such as a mask, sash, or paintbrush. As long as they possess their immaculate instrument, they treat any critical failures on Crafting or Performance checks as failures.",
+            "traits": [],
+            "description": "A sublime breath carries a single tool, prop, or instrument related to its chosen craft, such as a mask, sash, or paintbrush. As long as they possess their immaculate instrument, they treat any critical failures on Crafting or Performance checks as failures."
+          },
+          {
+            "name": "Remove a Condition",
+            "text": "**Cost** 1 Mythic Point; **Effect** The sublime breath removes any one condition currently affecting them.",
+            "traits": [
+              "concentrate"
+            ],
+            "actions": "one",
+            "effect": "The sublime breath removes any one condition currently affecting them.",
+            "description": "**Cost** 1 Mythic Point"
+          },
+          {
+            "name": "Thought Slips Away",
+            "text": "The sublime breath's ephemeral lightness makes them impossible to grasp. They use their Performance modifier to [Escape](/action/escape-player-core), [Tumble Through](/action/tumble-through-player-core), [High Jump](/action/high-jump-player-core), or [Long Jump](/action/long-jump-player-core). When they [Leap](/action/leap-player-core), High Jump, or Long Jump, the movement does not provoke reactions.",
+            "traits": [],
+            "description": "The sublime breath's ephemeral lightness makes them impossible to grasp. They use their Performance modifier to [Escape](/action/escape-player-core), [Tumble Through](/action/tumble-through-player-core), [High Jump](/action/high-jump-player-core), or [Long Jump](/action/long-jump-player-core). When they [Leap](/action/leap-player-core), High Jump, or Long Jump, the movement does not provoke reactions."
+          }
+        ],
+        "defensive": [
+          {
+            "name": "Mythic Resilience",
+            "text": "The sublime breath treats their Will saving throws as one step better than it actually is (so a critical failure is a failure, a failure is a success, and a success is a critical success).",
+            "traits": [],
+            "description": "The sublime breath treats their Will saving throws as one step better than it actually is (so a critical failure is a failure, a failure is a success, and a success is a critical success)."
+          }
+        ],
+        "offensive": [
+          {
+            "name": "Artistic Creation",
+            "text": "**Frequency** once per round; **Effect** The sublime breath's art is so real that it takes shape in the hearts of those who witness it. The sublime breath crafts, acts, recites a tale or song, or otherwise uses their art to create a work of art in a 10-foot burst within 60 feet. The creation is perceptible and tangible to creatures that don't disbelieve it and it affects them accordingly; for instance a ladder could be climbed, and a campfire would provide heat and even be able to cook food for an affected creature. A hazardous creation deals 4d6 untyped damage to creatures that enter or begin their turn in the area (basic Will DC 24 save), of a type matching the creation, usually a physical damage type or a common energy type such as fire, acid, or cold. The creation lasts until the end of the sublime breath's next turn, though the sublime breath can Sustain it to prolong the effect for up to 1 minute. The sublime breath can Sustain any number of Artistic Creations with a single action.",
+            "traits": [
+              "illusion",
+              "mental"
+            ],
+            "actions": "one",
+            "effect": "The sublime breath's art is so real that it takes shape in the hearts of those who witness it. The sublime breath crafts, acts, recites a tale or song, or otherwise uses their art to create a work of art in a 10-foot burst within 60 feet. The creation is perceptible and tangible to creatures that don't disbelieve it and it affects them accordingly; for instance a ladder could be climbed, and a campfire would provide heat and even be able to cook food for an affected creature. A hazardous creation deals 4d6 untyped damage to creatures that enter or begin their turn in the area (basic Will DC 24 save), of a type matching the creation, usually a physical damage type or a common energy type such as fire, acid, or cold. The creation lasts until the end of the sublime breath's next turn, though the sublime breath can Sustain it to prolong the effect for up to 1 minute. The sublime breath can Sustain any number of Artistic Creations with a single action.",
+            "description": "**Frequency** once per round"
+          },
+          {
+            "name": "Artistic Destruction",
+            "text": "**Requirements** The sublime breath has either used Artistic Creation this turn or Sustained an Artistic Creation this turn; **Effect** The sublime breath destroys their creations to make way for new growth. All of their currently sustained Artistic Creations detonate, dealing 8d6 untyped damage to all enemy creatures either within a creation or within a 10-foot burst of it (basic Will DC 24 save). The damage type matches the creation. Creatures in multiple overlapping bursts take damage only once, of the type of their choice. The sublime breath then cannot use Artistic Creation for 1d4 turns.",
+            "traits": [
+              "illusion",
+              "mental"
+            ],
+            "actions": "one",
+            "effect": "The sublime breath destroys their creations to make way for new growth. All of their currently sustained Artistic Creations detonate, dealing 8d6 untyped damage to all enemy creatures either within a creation or within a 10-foot burst of it (basic Will DC 24 save). The damage type matches the creation. Creatures in multiple overlapping bursts take damage only once, of the type of their choice. The sublime breath then cannot use Artistic Creation for 1d4 turns.",
+            "description": "**Requirements** The sublime breath has either used Artistic Creation this turn or Sustained an Artistic Creation this turn"
+          },
+          {
+            "name": "Change Shape",
+            "text": "The sublime breath can take on the appearance of any Medium or Large humanoid creature. This doesn't change their Speed or their attack and damage bonuses with their Strikes, but might change the damage type their Strikes deal.\n\nThe sublime breath instinctively takes on the appearance an observer finds most inspiring. The first time they become observed, they use Change Shape as a free action, even if they were unaware they were being observed, they take on a specific appearance reflecting the [Hidden](/condition/hidden-player-core) desires, hopes, artistic inclinations, or similar deep-seated emotions of a single observer. As long as the sublime breath can be observed by this creature and maintains this shape, the observer gains a +1 circumstance bonus to Crafting and Performance checks and takes a –1 circumstance penalty to Will saves against the sublime breath or to any check or DC that would attempt to capture or restrain them, such as attempts to [Grapple](/action/grapple-player-core) or the DC of a [Paralyze](/spell/paralyze-player-core) spell.",
+            "traits": [
+              "concentrate",
+              "divine",
+              "polymorph"
+            ],
+            "actions": "one",
+            "reference": "/action/change-shape-monster-core",
+            "description": "The sublime breath can take on the appearance of any Medium or Large humanoid creature. This doesn't change their Speed or their attack and damage bonuses with their Strikes, but might change the damage type their Strikes deal.\n\nThe sublime breath instinctively takes on the appearance an observer finds most inspiring. The first time they become observed, they use Change Shape as a free action, even if they were unaware they were being observed, they take on a specific appearance reflecting the [Hidden](/condition/hidden-player-core) desires, hopes, artistic inclinations, or similar deep-seated emotions of a single observer. As long as the sublime breath can be observed by this creature and maintains this shape, the observer gains a +1 circumstance bonus to Crafting and Performance checks and takes a –1 circumstance penalty to Will saves against the sublime breath or to any check or DC that would attempt to capture or restrain them, such as attempts to [Grapple](/action/grapple-player-core) or the DC of a [Paralyze](/spell/paralyze-player-core) spell."
+          },
+          {
+            "name": "Hours Go By",
+            "text": "A sublime breath's presence can allow artists and artisans to work almost effortlessly in a state of perfect flow. The sublime breath encourages a single creature within 60 feet, who becomes [Quickened](/condition/quickened-player-core). They can spend the extra action only to Sustain a spell or other ability.",
+            "traits": [
+              "emotion",
+              "mental"
+            ],
+            "actions": "one",
+            "description": "A sublime breath's presence can allow artists and artisans to work almost effortlessly in a state of perfect flow. The sublime breath encourages a single creature within 60 feet, who becomes [Quickened](/condition/quickened-player-core). They can spend the extra action only to Sustain a spell or other ability."
+          },
+          {
+            "name": "Mythic Power",
+            "text": "The creature has a pool of 3 Mythic Points, and can spend those Mythic Points for any of the actions it has.",
+            "traits": [],
+            "description": "The creature has a pool of 3 Mythic Points, and can spend those Mythic Points for any of the actions it has."
+          }
+        ]
+      },
+      "recallKnowledge": {
+        "dc": 27,
+        "skills": [
+          "nature"
+        ],
+        "subjects": [
+          "fey"
+        ],
+        "entries": [
+          {
+            "subject": "fey",
+            "skills": [
+              "nature"
+            ]
+          }
+        ]
+      },
+      "languagesText": "Common, Fey",
+      "recallKnowledgeText": "DC 27 (Nature)",
+      "items": "[Immaculate Instrument](/item/immaculate-instrument-war-of-immortals)",
+      "traitLinks": [
+        {
+          "label": "fey",
+          "slug": "fey"
+        },
+        {
+          "label": "mythic",
+          "slug": "mythic"
+        }
+      ],
+      "languagesDetails": "truespeech",
+      "itemEntries": [
+        {
+          "name": "Immaculate Instrument",
+          "reference": "/item/immaculate-instrument-war-of-immortals"
+        }
+      ],
+      "skillsEditor": {
+        "skills": {
+          "acrobatics": 14,
+          "athletics": 12,
+          "crafting": 26,
+          "deception": 18,
+          "diplomacy": 16,
+          "nature": 15,
+          "performance": 26
+        },
+        "loreSkills": []
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "fey",
+      "mythic",
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals",
+        "page": 202
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2E8CAD63-674F-5C96-9E6B-E5241272BFAC",
+    "kind": "Creature",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Verex-That-Was",
+    "slug": "verex-that-was-war-of-immortals",
+    "descr": "",
+    "data": {
+      "level": 24,
+      "rarity": "unique",
+      "size": "gargantuan",
+      "traits": [
+        "aberration",
+        "mythic"
+      ],
+      "attributes": {
+        "str": 12,
+        "dex": 9,
+        "con": 11,
+        "int": 7,
+        "wis": 7,
+        "cha": 4
+      },
+      "perception": 42,
+      "ac": {
+        "value": 51,
+        "details": ""
+      },
+      "hp": {
+        "value": 550,
+        "details": "regeneration 30 (deactivated by sloughstone weapons)"
+      },
+      "saves": {
+        "fortitude": 42,
+        "reflex": 38,
+        "will": 36,
+        "details": "mythic resilience (all saves)"
+      },
+      "skills": {
+        "athletics": 45,
+        "intimidation": 45
+      },
+      "languages": [
+        "aklo",
+        "common",
+        "orcish"
+      ],
+      "senses": "[Darkvision](/action/darkvision-monster-core), Truesight ([precise](/rule/precise-senses-rules-2406)) 60 feet",
+      "immunities": [
+        "Acid",
+        "[Death Effects](/rule/death-effects-rules-2331)",
+        "[Disease](/trait/disease)",
+        "[Mental](/trait/mental)",
+        "[Poison](/trait/poison)"
+      ],
+      "weaknesses": {
+        "holy": 20
+      },
+      "resistances": {
+        "cold": 25,
+        "fire": 25,
+        "physical": "20 (except Holy)"
+      },
+      "movement": {
+        "walk": 50,
+        "burrow": 30
+      },
+      "attacks": [
+        {
+          "name": "Claw",
+          "type": "melee",
+          "actions": "one",
+          "attack": 44,
+          "traits": [
+            "magical",
+            "reach-15",
+            "unholy"
+          ],
+          "damage": "5d10+22 slashing",
+          "effects": [
+            {
+              "name": "Bloodboils"
+            }
+          ]
+        },
+        {
+          "name": "Jaws",
+          "type": "melee",
+          "actions": "one",
+          "attack": 44,
+          "traits": [
+            "magical",
+            "reach-10",
+            "unholy"
+          ],
+          "damage": "4d12+22 piercing",
+          "effects": [
+            {
+              "name": "Bloodboils"
+            },
+            {
+              "name": "Improved Grab",
+              "reference": "/action/improved-grab-monster-core"
+            }
+          ]
+        },
+        {
+          "name": "Tail",
+          "type": "melee",
+          "actions": "one",
+          "attack": 44,
+          "traits": [
+            "agile",
+            "magical",
+            "reach-20",
+            "unholy"
+          ],
+          "damage": "3d8+22 bludgeoning",
+          "effects": [
+            {
+              "name": "Bloodboils"
+            }
+          ]
+        },
+        {
+          "name": "Teeth",
+          "type": "melee",
+          "actions": "one",
+          "attack": 42,
+          "traits": [
+            "magical",
+            "unholy"
+          ],
+          "damage": "5d6+16 piercing"
+        }
+      ],
+      "abilities": {
+        "interaction": [],
+        "defensive": [
+          {
+            "name": "Regeneration (Deactivated by Sloughstone Weapons)",
+            "text": "",
+            "traits": [],
+            "reference": "/action/regeneration-monster-core",
+            "description": ""
+          },
+          {
+            "name": "Frightful Presence",
+            "text": "150 feet. Will DC 45",
+            "traits": [
+              "aura",
+              "emotion",
+              "fear",
+              "mental"
+            ],
+            "reference": "/action/frightful-presence-monster-core",
+            "description": "150 feet. Will DC 45"
+          },
+          {
+            "name": "Mythic Immunity",
+            "text": "Verex-That-Was is immune to harmful spells cast by non-mythic creatures, Strikes made with non-mythic weapons, and unarmed Strikes from non-mythic characters.",
+            "traits": [],
+            "description": "Verex-That-Was is immune to harmful spells cast by non-mythic creatures, Strikes made with non-mythic weapons, and unarmed Strikes from non-mythic characters."
+          },
+          {
+            "name": "Mythic Resilience",
+            "text": "Verex-That-Was treats his saving throws with the associated save as one step better than they actually are (so a critical failure is a failure, a failure is a success, and a success is a critical success).",
+            "traits": [],
+            "description": "Verex-That-Was treats his saving throws with the associated save as one step better than they actually are (so a critical failure is a failure, a failure is a success, and a success is a critical success)."
+          },
+          {
+            "name": "Undying Myth",
+            "text": "**Cost** all the creature's Mythic Points; **Trigger** Verex-That-Was would die and has at least 1 Mythic Point; **Effect** Verex remains standing and conscious, and 50% of its maximum Hit Points.",
+            "traits": [],
+            "actions": "free",
+            "effect": "Verex remains standing and conscious, and 50% of its maximum Hit Points.",
+            "trigger": "Verex-That-Was would die and has at least 1 Mythic Point",
+            "triggerBeforeDescription": false,
+            "description": "**Cost** all the creature's Mythic Points"
+          }
+        ],
+        "offensive": [
+          {
+            "name": "Battlefield Eruption",
+            "text": "**Cost** 1 Mythic Point; **Effect** Verex-That-Was burrows into the ground, reemerging anywhere on the same plane where either he or his worshippers have previously killed at least 10 sapient creatures in battle. A fountain of gore and shattered bone erupts from the ground when Verex arrives, dealing 16d10 piercing damage in a 30-foot emanation (basic Reflex DC 48 save).",
+            "traits": [
+              "mythic",
+              "teleportation"
+            ],
+            "actions": "three",
+            "effect": "Verex-That-Was burrows into the ground, reemerging anywhere on the same plane where either he or his worshippers have previously killed at least 10 sapient creatures in battle. A fountain of gore and shattered bone erupts from the ground when Verex arrives, dealing 16d10 piercing damage in a 30-foot emanation (basic Reflex DC 48 save).",
+            "description": "**Cost** 1 Mythic Point"
+          },
+          {
+            "name": "Bloodboils",
+            "text": "Wounds caused by direct contact with Verex-That-Was erupt into painful, blood-filled boils. A creature struck by Verex-That-Was's jaws or tail must succeed at a Fortitude DC 45 or gain weakness 10 to physical damage for 1 day as the boils explode messily each time the creature sustains another wound. The bloodboils can be counteracted with a 3rd-rank (or higher) [Cleanse Affliction](/spell/cleanse-affliction-player-core) spell, but the disease also ends if the victim receives magical healing that brings them to their Hit Point maximum.",
+            "traits": [
+              "disease"
+            ],
+            "description": "Wounds caused by direct contact with Verex-That-Was erupt into painful, blood-filled boils. A creature struck by Verex-That-Was's jaws or tail must succeed at a Fortitude DC 45 or gain weakness 10 to physical damage for 1 day as the boils explode messily each time the creature sustains another wound. The bloodboils can be counteracted with a 3rd-rank (or higher) [Cleanse Affliction](/spell/cleanse-affliction-player-core) spell, but the disease also ends if the victim receives magical healing that brings them to their Hit Point maximum."
+          },
+          {
+            "name": "Leap into the Fray",
+            "text": "Verex-That-Was Leaps up to 20 feet horizontally and up to 10 feet vertically and then makes one claw [Strike](/action/strike-player-core), one jaws Strike, and one tail Strike in any order. If Verex-That-Was spends 1 Mythic Point as part of this action, he doubles the distances he can [Leap](/action/leap-player-core) and each creature he lands adjacent to is [Off Guard](/condition/off-guard-player-core) until the end of his turn.",
+            "traits": [],
+            "actions": "three",
+            "description": "Verex-That-Was Leaps up to 20 feet horizontally and up to 10 feet vertically and then makes one claw [Strike](/action/strike-player-core), one jaws Strike, and one tail Strike in any order. If Verex-That-Was spends 1 Mythic Point as part of this action, he doubles the distances he can [Leap](/action/leap-player-core) and each creature he lands adjacent to is [Off Guard](/condition/off-guard-player-core) until the end of his turn."
+          },
+          {
+            "name": "Mythic Power",
+            "text": "The creature has a pool of 3 Mythic Points, and can spend those Mythic Points for any of the actions it has.",
+            "traits": [],
+            "description": "The creature has a pool of 3 Mythic Points, and can spend those Mythic Points for any of the actions it has."
+          },
+          {
+            "name": "Swallow Whole",
+            "text": "Huge, 4d10+10 bludgeoning, Rupture 50",
+            "traits": [
+              "attack"
+            ],
+            "actions": "one",
+            "reference": "/action/swallow-whole-monster-core",
+            "description": "Huge, 4d10+10 bludgeoning, Rupture 50"
+          },
+          {
+            "name": "Symphony of Pain",
+            "text": "**Trigger** A creature within Verex-That-Was's frightful presence damages Verex-That-Was; **Effect** Verex unleashes an echo of psychic pain throughout his vicinity, inflicting mental damage equal to half of the damage he sustained on all creatures, friend or foe, within 150 feet (basic Fortitude DC 45 save).",
+            "traits": [],
+            "actions": "reaction",
+            "effect": "Verex unleashes an echo of psychic pain throughout his vicinity, inflicting mental damage equal to half of the damage he sustained on all creatures, friend or foe, within 150 feet (basic Fortitude DC 45 save).",
+            "trigger": "A creature within Verex-That-Was's frightful presence damages Verex-That-Was",
+            "triggerBeforeDescription": true,
+            "description": ""
+          }
+        ]
+      },
+      "recallKnowledge": {
+        "dc": 58,
+        "skills": [
+          "occultism"
+        ],
+        "subjects": [
+          "aberration"
+        ],
+        "entries": [
+          {
+            "subject": "aberration",
+            "skills": [
+              "occultism"
+            ]
+          }
+        ]
+      },
+      "languagesText": "Aklo, Common, Orcish",
+      "recallKnowledgeText": "DC 58 (Occultism)",
+      "traitLinks": [
+        {
+          "label": "aberration",
+          "slug": "aberration"
+        },
+        {
+          "label": "mythic",
+          "slug": "mythic"
+        }
+      ],
+      "senseEntries": [
+        {
+          "name": "Darkvision",
+          "reference": "/action/darkvision-monster-core"
+        },
+        {
+          "name": "Truesight",
+          "acuity": "precise",
+          "acuityReference": "/rule/precise-senses-rules-2406",
+          "details": "60 feet"
+        }
+      ],
+      "immunityEditor": {
+        "entries": [
+          {
+            "name": "Acid"
+          },
+          {
+            "name": "Death Effects",
+            "reference": "/rule/death-effects-rules-2331"
+          },
+          {
+            "name": "Disease",
+            "reference": "/trait/disease"
+          },
+          {
+            "name": "Mental",
+            "reference": "/trait/mental"
+          },
+          {
+            "name": "Poison",
+            "reference": "/trait/poison"
+          }
+        ]
+      },
+      "skillsEditor": {
+        "skills": {
+          "athletics": 45,
+          "intimidation": 45
+        },
+        "loreSkills": []
+      },
+      "weaknessEntries": [
+        {
+          "type": "holy",
+          "value": 20
+        }
+      ],
+      "resistanceEntries": [
+        {
+          "type": "cold",
+          "value": 25
+        },
+        {
+          "type": "fire",
+          "value": 25
+        },
+        {
+          "type": "physical",
+          "value": "20 (except Holy)"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "aberration",
+      "mythic",
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals",
+        "page": 208
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5198FB1B-1F8A-5220-892A-D524EF1292D3",
+    "kind": "Creature",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Vulot",
+    "slug": "vulot-war-of-immortals",
+    "descr": "",
+    "data": {
+      "level": 21,
+      "rarity": "unique",
+      "size": "large",
+      "traits": [
+        "demon",
+        "fiend",
+        "mythic",
+        "unholy"
+      ],
+      "attributes": {
+        "str": 4,
+        "dex": 6,
+        "con": 4,
+        "int": 7,
+        "wis": 7,
+        "cha": 10
+      },
+      "perception": 38,
+      "ac": {
+        "value": 46,
+        "details": "mythic immunity"
+      },
+      "hp": {
+        "value": 425,
+        "details": ""
+      },
+      "saves": {
+        "fortitude": 32,
+        "reflex": 35,
+        "will": 38
+      },
+      "skills": {
+        "deception": 43,
+        "diplomacy": 40,
+        "society": 40,
+        "thievery": 40
+      },
+      "languages": [
+        "chthonian",
+        "common",
+        "draconic",
+        "empyrean"
+      ],
+      "senses": "[Darkvision](/action/darkvision-monster-core), many eyes in many places, truesight",
+      "immunities": [
+        "[Mental](/trait/mental)"
+      ],
+      "weaknesses": {
+        "cold-iron": 10,
+        "holy": 15
+      },
+      "resistances": {},
+      "movement": {
+        "walk": 30
+      },
+      "attacks": [
+        {
+          "name": "Claw",
+          "type": "melee",
+          "actions": "one",
+          "attack": 37,
+          "traits": [
+            "agile",
+            "finesse",
+            "magical",
+            "unholy"
+          ],
+          "damage": "4d8+14 slashing; 2d6 bleed"
+        },
+        {
+          "name": "Thought Spike",
+          "type": "ranged",
+          "actions": "one",
+          "attack": 37,
+          "traits": [
+            "magical",
+            "mental",
+            "unholy",
+            "range-increment-120"
+          ],
+          "damage": "4d6+14 mental",
+          "effects": [
+            {
+              "name": "Steal Thoughts"
+            }
+          ]
+        }
+      ],
+      "abilities": {
+        "interaction": [
+          {
+            "name": "Absolute Surety",
+            "text": "Vulot is dependent on deception and charm to achieve their goals. If Vulot fails to deceive someone, for example failing the Deception check associated with a [mislead](/spell/mislead-player-core) spell to convince an observer that an action came from the duplicate, Vulot takes 4d6 mental damage. This damage ignores Vulot's usual immunity.",
+            "traits": [],
+            "description": "Vulot is dependent on deception and charm to achieve their goals. If Vulot fails to deceive someone, for example failing the Deception check associated with a [mislead](/spell/mislead-player-core) spell to convince an observer that an action came from the duplicate, Vulot takes 4d6 mental damage. This damage ignores Vulot's usual immunity."
+          },
+          {
+            "name": "Many Eyes in Many Places",
+            "text": "Vulot can extend their senses through any cultist wearing one of their stolen identities as long as the cultist is in the Universe or the Outer Rifts. Vulot can't maintain their attention through more than three cultists at one time. Vulot can't speak through these cultists.",
+            "traits": [],
+            "description": "Vulot can extend their senses through any cultist wearing one of their stolen identities as long as the cultist is in the Universe or the Outer Rifts. Vulot can't maintain their attention through more than three cultists at one time. Vulot can't speak through these cultists."
+          },
+          {
+            "name": "Recharge Spell",
+            "text": "**Cost** 1 Mythic Point\n\nVulot gains an additional use of any of their innate spells.",
+            "traits": [
+              "concentrate"
+            ],
+            "actions": "one",
+            "description": "**Cost** 1 Mythic Point\n\nVulot gains an additional use of any of their innate spells."
+          },
+          {
+            "name": "Remove a Condition",
+            "text": "**Cost** 1 Mythic Point; **Effect** Vulot removes any one condition currently affecting them.",
+            "traits": [
+              "concentrate"
+            ],
+            "actions": "one",
+            "effect": "Vulot removes any one condition currently affecting them.",
+            "description": "**Cost** 1 Mythic Point"
+          }
+        ],
+        "defensive": [
+          {
+            "name": "Another Face",
+            "text": "When Vulot is reduced to 0 Hit Points, they regenerate themself from a stolen identity of their choice in 24 hours. If Vulot has no stolen identities remaining or is otherwise unable to reach them, they are killed permanently.",
+            "traits": [],
+            "description": "When Vulot is reduced to 0 Hit Points, they regenerate themself from a stolen identity of their choice in 24 hours. If Vulot has no stolen identities remaining or is otherwise unable to reach them, they are killed permanently."
+          },
+          {
+            "name": "Mythic Immunity",
+            "text": "Vulot is immune to harmful spells cast by non-mythic creatures, Strikes made with non-mythic weapons, and unarmed Strikes from non-mythic characters.",
+            "traits": [],
+            "description": "Vulot is immune to harmful spells cast by non-mythic creatures, Strikes made with non-mythic weapons, and unarmed Strikes from non-mythic characters."
+          },
+          {
+            "name": "Perfect Mimicry",
+            "text": "**Trigger** A spell is cast within 60 feet of Vulot; **Effect** Vulot copies the spell and may cast it once by spending a Mythic Point within the next 24 hours. Vulot can't hold more than two copied spells at one time.",
+            "traits": [
+              "magical",
+              "visual"
+            ],
+            "actions": "reaction",
+            "effect": "Vulot copies the spell and may cast it once by spending a Mythic Point within the next 24 hours. Vulot can't hold more than two copied spells at one time.",
+            "trigger": "A spell is cast within 60 feet of Vulot",
+            "triggerBeforeDescription": true,
+            "description": ""
+          },
+          {
+            "name": "Suffocated by a Thousand Breaths",
+            "text": "30 feet. Vulot's breath-stealing influence radiates out from their body, causing victims to feel like they are being smothered. Any creature that starts its turn within the aura must attempt a Fortitude DC 41 save.\n **Critical Success** The creature is unaffected.\n **Success** The creature becomes short of breath and is [Off Guard](/condition/off-guard-player-core) until the beginning of its next turn.\n **Failure** The creature finds it very difficult to catch its breath. It can't speak or use [auditory](/trait/auditory) actions until the beginning of its next turn; this prevents it from casting spells that don't have the [subtle](/trait/subtle) trait.\n **Critical Failure** All the air immediately leaves the creature's lungs and it begins to suffocate. When it succeeds at the saving throw to regain consciousness at the end of its turn, it becomes [Fatigued](/condition/fatigued-player-core) until it gets a full night's rest.",
+            "traits": [
+              "aura",
+              "incapacitation"
+            ],
+            "description": "30 feet. Vulot's breath-stealing influence radiates out from their body, causing victims to feel like they are being smothered. Any creature that starts its turn within the aura must attempt a Fortitude DC 41 save.\n **Critical Success** The creature is unaffected.\n **Success** The creature becomes short of breath and is [Off Guard](/condition/off-guard-player-core) until the beginning of its next turn.\n **Failure** The creature finds it very difficult to catch its breath. It can't speak or use [auditory](/trait/auditory) actions until the beginning of its next turn; this prevents it from casting spells that don't have the [subtle](/trait/subtle) trait.\n **Critical Failure** All the air immediately leaves the creature's lungs and it begins to suffocate. When it succeeds at the saving throw to regain consciousness at the end of its turn, it becomes [Fatigued](/condition/fatigued-player-core) until it gets a full night's rest."
+          }
+        ],
+        "offensive": [
+          {
+            "name": "Mythic Power",
+            "text": "The creature has a pool of 3 Mythic Points, and can spend those Mythic Points for any of the actions it has.",
+            "traits": [],
+            "description": "The creature has a pool of 3 Mythic Points, and can spend those Mythic Points for any of the actions it has."
+          },
+          {
+            "name": "Steal Face",
+            "text": "**Cost** 1 Mythic Point; **Effect** Vulot makes a claw [Strike](/action/strike-player-core). On a hit, Vulot attempts a Deception check against the target's Will DC to steal that creature's face; on a critical hit, Vulot treats the result of their Deception check as one degree of success higher. On a success, Vulot steals the target's face for 1d4 rounds (1 minute on a critical success); a creature whose face has been stolen isn't considered an ally by any creature.",
+            "traits": [],
+            "actions": "two",
+            "effect": "Vulot makes a claw [Strike](/action/strike-player-core). On a hit, Vulot attempts a Deception check against the target's Will DC to steal that creature's face; on a critical hit, Vulot treats the result of their Deception check as one degree of success higher. On a success, Vulot steals the target's face for 1d4 rounds (1 minute on a critical success); a creature whose face has been stolen isn't considered an ally by any creature.",
+            "description": "**Cost** 1 Mythic Point"
+          },
+          {
+            "name": "Steal Thoughts",
+            "text": "Vulot's mental attacks can confuse and disorient. A creature struck by Vulot's thought spike must attempt a Will DC 44 save. A creature stupefied by this effect is [Off Guard](/condition/off-guard-player-core) to Vulot's Steal Face ability.\n **Critical Success** The creature is unaffected.\n **Success** The creature becomes [Stupefied 1](/condition/stupefied-player-core) for 1 round.\n **Failure** The creature becomes stupefied 1 for 1 minute. If it's already stupefied, its stupefied value increases by 1 instead (to a maximum of stupefied 4).\n **Critical Failure** As failure, plus the creature is [Confused](/condition/confused-player-core) for 1 minute.",
+            "traits": [
+              "emotion",
+              "mental"
+            ],
+            "description": "Vulot's mental attacks can confuse and disorient. A creature struck by Vulot's thought spike must attempt a Will DC 44 save. A creature stupefied by this effect is [Off Guard](/condition/off-guard-player-core) to Vulot's Steal Face ability.\n **Critical Success** The creature is unaffected.\n **Success** The creature becomes [Stupefied 1](/condition/stupefied-player-core) for 1 round.\n **Failure** The creature becomes stupefied 1 for 1 minute. If it's already stupefied, its stupefied value increases by 1 instead (to a maximum of stupefied 4).\n **Critical Failure** As failure, plus the creature is [Confused](/condition/confused-player-core) for 1 minute."
+          }
+        ]
+      },
+      "recallKnowledge": {
+        "dc": 52,
+        "skills": [
+          "religion"
+        ],
+        "subjects": [
+          "fiend"
+        ],
+        "entries": [
+          {
+            "subject": "fiend",
+            "skills": [
+              "religion"
+            ]
+          }
+        ]
+      },
+      "languagesText": "Chthonian, Common, Draconic, Empyrean",
+      "recallKnowledgeText": "DC 52 (Religion)",
+      "sanctification": "unholy",
+      "traitLinks": [
+        {
+          "label": "demon",
+          "slug": "demon"
+        },
+        {
+          "label": "fiend",
+          "slug": "fiend"
+        },
+        {
+          "label": "mythic",
+          "slug": "mythic"
+        },
+        {
+          "label": "unholy",
+          "slug": "unholy"
+        }
+      ],
+      "languagesDetails": "all languages spoken by their collective identities; [Telepathy](/action/telepathy-monster-core) 200 feet (unlimited range to other stolen identities worn by cultists of Vulot)",
+      "spellcasting": [
+        {
+          "name": "Divine Innate Spells",
+          "spellGroups": [
+            {
+              "label": "10th",
+              "spells": [
+                {
+                  "name": "Manifestation",
+                  "rank": 10,
+                  "reference": "/spell/manifestation-player-core"
+                },
+                {
+                  "name": "Dominate",
+                  "rank": 10,
+                  "reference": "/spell/dominate-player-core"
+                },
+                {
+                  "name": "Shadow Blast",
+                  "rank": 10,
+                  "reference": "/spell/shadow-blast-player-core",
+                  "details": "×2"
+                }
+              ]
+            },
+            {
+              "label": "9th",
+              "spells": [
+                {
+                  "name": "Overwhelming Presence",
+                  "rank": 9,
+                  "reference": "/spell/overwhelming-presence-player-core"
+                }
+              ]
+            },
+            {
+              "label": "7th",
+              "spells": [
+                {
+                  "name": "Divine Decree",
+                  "rank": 7,
+                  "reference": "/spell/divine-decree-player-core",
+                  "details": "×2"
+                }
+              ]
+            },
+            {
+              "label": "6th",
+              "spells": [
+                {
+                  "name": "Mislead",
+                  "rank": 6,
+                  "reference": "/spell/mislead-player-core",
+                  "details": "×3"
+                },
+                {
+                  "name": "Repulsion",
+                  "rank": 6,
+                  "reference": "/spell/repulsion-player-core"
+                }
+              ]
+            },
+            {
+              "label": "5th",
+              "spells": [
+                {
+                  "name": "Translocate",
+                  "rank": 5,
+                  "reference": "/spell/translocate-player-core",
+                  "atWill": true
+                }
+              ]
+            },
+            {
+              "label": "Cantrips (10th)",
+              "spells": [
+                {
+                  "name": "Daze",
+                  "rank": 10,
+                  "reference": "/spell/daze-player-core"
+                },
+                {
+                  "name": "Figment",
+                  "rank": 10,
+                  "reference": "/spell/figment-player-core"
+                }
+              ]
+            },
+            {
+              "label": "Constant (6th)",
+              "spells": [
+                {
+                  "name": "Truesight",
+                  "rank": 6,
+                  "reference": "/spell/truesight-player-core"
+                }
+              ]
+            }
+          ],
+          "spellDC": 44,
+          "spellAttack": 0
+        }
+      ],
+      "rituals": {
+        "type": "Rituals",
+        "ritualGroups": [
+          {
+            "label": "1st",
+            "rituals": [
+              {
+                "name": "Demonic Pact",
+                "rank": 1,
+                "reference": "/ritual/demonic-pact-monster-core"
+              }
+            ]
+          }
+        ]
+      },
+      "senseEntries": [
+        {
+          "name": "Darkvision",
+          "reference": "/action/darkvision-monster-core"
+        },
+        {
+          "name": "many eyes in many places"
+        },
+        {
+          "name": "truesight"
+        }
+      ],
+      "immunityEditor": {
+        "entries": [
+          {
+            "name": "Mental",
+            "reference": "/trait/mental"
+          }
+        ]
+      },
+      "skillsEditor": {
+        "skills": {
+          "deception": 43,
+          "diplomacy": 40,
+          "society": 40,
+          "thievery": 40
+        },
+        "loreSkills": []
+      },
+      "weaknessEntries": [
+        {
+          "type": "cold-iron",
+          "value": 10
+        },
+        {
+          "type": "holy",
+          "value": 15
+        }
+      ],
+      "ritualcasting": [
+        {
+          "type": "Rituals",
+          "ritualGroups": [
+            {
+              "label": "1st",
+              "rituals": [
+                {
+                  "name": "Demonic Pact",
+                  "rank": 1,
+                  "reference": "/ritual/demonic-pact-monster-core"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "demon",
+      "fiend",
+      "mythic",
+      "remaster",
+      "unholy",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D3DBC05A-B2EE-5422-894E-A06D66033C22",
+    "kind": "Creature",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Weaver of Webs",
+    "slug": "weaver-of-webs-war-of-immortals",
+    "descr": "",
+    "data": {
+      "level": 15,
+      "rarity": "unique",
+      "size": "gargantuan",
+      "traits": [
+        "beast",
+        "mythic"
+      ],
+      "attributes": {
+        "str": 6,
+        "dex": 4,
+        "con": 6,
+        "int": 8,
+        "wis": 6,
+        "cha": 6
+      },
+      "perception": 32,
+      "ac": {
+        "value": 36,
+        "details": ""
+      },
+      "hp": {
+        "value": 335,
+        "details": "regeneration 10 (deactivated by bright light)"
+      },
+      "saves": {
+        "fortitude": 26,
+        "reflex": 23,
+        "will": 29,
+        "details": "+1 status to all saves vs. magic"
+      },
+      "skills": {
+        "acrobatics": 25,
+        "athletics": 30,
+        "crafting": 21,
+        "deception": 30,
+        "diplomacy": 27,
+        "intimidation": 30,
+        "nature": 25,
+        "occultism": 27,
+        "religion": 27,
+        "society": 27,
+        "stealth": 30
+      },
+      "languages": [
+        "aklo",
+        "chthonian",
+        "common",
+        "diabolic",
+        "draconic",
+        "dwarven",
+        "empyrean",
+        "jotun",
+        "sakvroth"
+      ],
+      "senses": "[Greater Darkvision](/action/greater-darkvision-monster-core), [Tremorsense](/action/tremorsense-monster-core) ([imprecise](/rule/imprecise-senses-rules-2407)) 120 feet, [all-around vision](/action/all-around-vision-monster-core), greater web sense",
+      "immunities": [
+        "[Mental](/trait/mental)",
+        "[Poison](/trait/poison)"
+      ],
+      "weaknesses": {},
+      "resistances": {
+        "cold": 10,
+        "void": 10,
+        "mythic": 15
+      },
+      "movement": {
+        "walk": 60,
+        "climb": 60
+      },
+      "attacks": [
+        {
+          "name": "Fangs",
+          "type": "melee",
+          "actions": "one",
+          "attack": 28,
+          "traits": [
+            "magical",
+            "reach-10"
+          ],
+          "damage": "2d8+16 piercing",
+          "effects": [
+            {
+              "name": "Weaver Venom"
+            }
+          ]
+        },
+        {
+          "name": "Tarsal Claw",
+          "type": "melee",
+          "actions": "one",
+          "attack": 28,
+          "traits": [
+            "magical",
+            "reach-15"
+          ],
+          "damage": "2d6+16 slashing",
+          "effects": [
+            {
+              "name": "Improved Grab",
+              "reference": "/action/improved-grab-monster-core"
+            }
+          ]
+        },
+        {
+          "name": "Web",
+          "type": "melee",
+          "actions": "one",
+          "attack": 24,
+          "traits": [
+            "magical",
+            "nonlethal"
+          ],
+          "damage": "4d4+10 bludgeoning",
+          "effects": [
+            {
+              "name": "Nightmare Cocoon"
+            }
+          ]
+        }
+      ],
+      "abilities": {
+        "interaction": [
+          {
+            "name": "Countless Eyes",
+            "text": "The Weaver of Webs can see through the eyes of any spider, living or dead, in one of her many lairs. When the Weaver casts her [Scrying](/spell/scrying-player-core) spell and targets a spider in her lair, the spell is not expended, and the spider automatically critically fails its saving throw.",
+            "traits": [
+              "scrying"
+            ],
+            "description": "The Weaver of Webs can see through the eyes of any spider, living or dead, in one of her many lairs. When the Weaver casts her [Scrying](/spell/scrying-player-core) spell and targets a spider in her lair, the spell is not expended, and the spider automatically critically fails its saving throw."
+          },
+          {
+            "name": "Greater Web Sense",
+            "text": "The Weaver of Webs' tremorsense also extends to any of her webs, regardless of distance or area, and her tremorsense is a precise sense against any creature in contact with one of her webs.",
+            "traits": [],
+            "description": "The Weaver of Webs' tremorsense also extends to any of her webs, regardless of distance or area, and her tremorsense is a precise sense against any creature in contact with one of her webs."
+          },
+          {
+            "name": "Remove a Condition",
+            "text": "**Cost** 1 Mythic Point; **Effect** The Weaver removes any one condition currently affecting her.",
+            "traits": [
+              "concentrate"
+            ],
+            "actions": "one",
+            "effect": "The Weaver removes any one condition currently affecting her.",
+            "description": "**Cost** 1 Mythic Point"
+          },
+          {
+            "name": "Webbed Conveyance",
+            "text": "**Requirements** The Weaver is within 15 feet of a creature [Paralyzed](/condition/paralyzed-player-core) in her nightmare cocoon; **Effect** The Weaver grabs the paralyzed target, webs them to her back or one of her legs, and then Strides. As long as the creature is Immobilized by the Weaver's nightmare cocoon, it shares the Weaver's space and moves with her. The DC to [Escape](/action/escape-player-core) (DC 36) the nightmare cocoon increases to 36.",
+            "traits": [
+              "manipulate"
+            ],
+            "effect": "The Weaver grabs the paralyzed target, webs them to her back or one of her legs, and then Strides. As long as the creature is Immobilized by the Weaver's nightmare cocoon, it shares the Weaver's space and moves with her. The DC to [Escape](/action/escape-player-core) (DC 36) the nightmare cocoon increases to 36.",
+            "description": "**Requirements** The Weaver is within 15 feet of a creature [Paralyzed](/condition/paralyzed-player-core) in her nightmare cocoon"
+          }
+        ],
+        "defensive": [
+          {
+            "name": "Regeneration (Deactivated by Bright Light)",
+            "text": "",
+            "traits": [],
+            "reference": "/action/regeneration-monster-core",
+            "description": ""
+          },
+          {
+            "name": "Adopted Brood",
+            "text": "**Trigger** A creature deals precision damage to the Weaver; **Effect** A spray of smaller spiders pours out of the open wound. These spiders deal 3d6 piercing damage to a single creature within 15 feet of the Weaver and expose that creature to Weaver venom before skittering away.",
+            "traits": [],
+            "actions": "reaction",
+            "effect": "A spray of smaller spiders pours out of the open wound. These spiders deal 3d6 piercing damage to a single creature within 15 feet of the Weaver and expose that creature to Weaver venom before skittering away.",
+            "trigger": "A creature deals precision damage to the Weaver",
+            "triggerBeforeDescription": true,
+            "description": ""
+          },
+          {
+            "name": "Mythic Resistance",
+            "text": "The Weaver of Webs has resistance 15 to all attacks made with non-mythic weapons and unarmed attacks made by nonmythic creatures.",
+            "traits": [],
+            "description": "The Weaver of Webs has resistance 15 to all attacks made with non-mythic weapons and unarmed attacks made by nonmythic creatures."
+          },
+          {
+            "name": "Spilled Secrets",
+            "text": "Any creature that speaks within this aura must succeed at a Will DC 34 save or divulge some kind of secret instead of whatever speech they intended. Linguistic spells and effects gain the [concentrate](/trait/concentrate) trait if they didn't have it already and are wasted if the creature fails this save.\n\nOn a critical failure, the character betrays a secret they least want to reveal to the Weaver or those present.",
+            "traits": [
+              "aura",
+              "mental"
+            ],
+            "description": "Any creature that speaks within this aura must succeed at a Will DC 34 save or divulge some kind of secret instead of whatever speech they intended. Linguistic spells and effects gain the [concentrate](/trait/concentrate) trait if they didn't have it already and are wasted if the creature fails this save.\n\nOn a critical failure, the character betrays a secret they least want to reveal to the Weaver or those present."
+          }
+        ],
+        "offensive": [
+          {
+            "name": "Mythic Power",
+            "text": "The creature has a pool of 3 Mythic Points, and can spend those Mythic Points for any of the actions it has.",
+            "traits": [],
+            "description": "The creature has a pool of 3 Mythic Points, and can spend those Mythic Points for any of the actions it has."
+          },
+          {
+            "name": "Nightmare Cocoon",
+            "text": "A creature struck by the Weaver's web [Strike](/action/strike-player-core) must succeed at a Reflex DC 34 save or become Immobilized ([Escape](/action/escape-player-core) DC 34). If the Weaver spends 1 Mythic Point as a free action when a creature fails this save, the creature is also Paralyzed, experiencing terrible nightmares of their deepest-held anxieties. The Weaver can view these dreams using a [Sustain](/action/sustain-player-core) action, which imparts a –2 circumstance penalty to any Will saves the target attempts against the Weaver's spells until the beginning of the Weaver's next turn. At the end of a paralyzed victim's turn, they can attempt a Will DC 34 save to end the paralyzed condition (though they are still immobilized until they Escape).",
+            "traits": [
+              "incapacitation",
+              "mental"
+            ],
+            "description": "A creature struck by the Weaver's web [Strike](/action/strike-player-core) must succeed at a Reflex DC 34 save or become Immobilized ([Escape](/action/escape-player-core) DC 34). If the Weaver spends 1 Mythic Point as a free action when a creature fails this save, the creature is also Paralyzed, experiencing terrible nightmares of their deepest-held anxieties. The Weaver can view these dreams using a [Sustain](/action/sustain-player-core) action, which imparts a –2 circumstance penalty to any Will saves the target attempts against the Weaver's spells until the beginning of the Weaver's next turn. At the end of a paralyzed victim's turn, they can attempt a Will DC 34 save to end the paralyzed condition (though they are still immobilized until they Escape)."
+          },
+          {
+            "name": "Weaver Venom",
+            "text": "**Saving Throw** DC 34\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 2d10 poison (1 round)\n\n**Stage 2** 2d10 poison and [Slowed 1](/condition/slowed-player-core) (2 rounds)\n\n**Stage 3** 3d10 poison and Slowed 2 (1 round)\n\n**Stage 4** 4d10 poison (1 round) and the target permanently forgets the Weaver exists, including any previous mention of her.",
+            "traits": [
+              "poison"
+            ],
+            "description": "**Saving Throw** DC 34\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 2d10 poison (1 round)\n\n**Stage 2** 2d10 poison and [Slowed 1](/condition/slowed-player-core) (2 rounds)\n\n**Stage 3** 3d10 poison and Slowed 2 (1 round)\n\n**Stage 4** 4d10 poison (1 round) and the target permanently forgets the Weaver exists, including any previous mention of her."
+          }
+        ]
+      },
+      "recallKnowledge": {
+        "dc": 44,
+        "skills": [
+          "nature",
+          "arcana"
+        ],
+        "subjects": [
+          "beast"
+        ],
+        "entries": [
+          {
+            "subject": "beast",
+            "skills": [
+              "arcana",
+              "nature"
+            ]
+          }
+        ]
+      },
+      "languagesText": "Aklo, Chthonian, Common, Diabolic, Draconic, Dwarven, Empyrean, Jotun, Sakvroth",
+      "recallKnowledgeText": "DC 44 (Nature)",
+      "traitLinks": [
+        {
+          "label": "beast",
+          "slug": "beast"
+        },
+        {
+          "label": "mythic",
+          "slug": "mythic"
+        }
+      ],
+      "languagesDetails": "truespeech",
+      "spellcasting": [
+        {
+          "name": "Occult Innate Spells",
+          "spellGroups": [
+            {
+              "label": "8th",
+              "spells": [
+                {
+                  "name": "Dream Council",
+                  "rank": 8,
+                  "reference": "/spell/dream-council-player-core-2"
+                }
+              ]
+            },
+            {
+              "label": "7th",
+              "spells": [
+                {
+                  "name": "Retrocognition",
+                  "rank": 7,
+                  "reference": "/spell/retrocognition-player-core"
+                },
+                {
+                  "name": "Warp Mind",
+                  "rank": 7,
+                  "reference": "/spell/warp-mind-player-core"
+                }
+              ]
+            },
+            {
+              "label": "6th",
+              "spells": [
+                {
+                  "name": "Phantasmal Calamity",
+                  "rank": 6,
+                  "reference": "/spell/phantasmal-calamity-player-core"
+                },
+                {
+                  "name": "Repulsion",
+                  "rank": 6,
+                  "reference": "/spell/repulsion-player-core"
+                },
+                {
+                  "name": "Scrying",
+                  "rank": 6,
+                  "reference": "/spell/scrying-player-core"
+                },
+                {
+                  "name": "Teleport",
+                  "rank": 6,
+                  "reference": "/spell/teleport-player-core"
+                }
+              ]
+            },
+            {
+              "label": "5th",
+              "spells": [
+                {
+                  "name": "Sending",
+                  "rank": 5,
+                  "reference": "/spell/sending-player-core",
+                  "atWill": true
+                }
+              ]
+            },
+            {
+              "label": "4th",
+              "spells": [
+                {
+                  "name": "Nightmare",
+                  "rank": 4,
+                  "reference": "/spell/nightmare-player-core"
+                },
+                {
+                  "name": "Read Omens",
+                  "rank": 4,
+                  "reference": "/spell/read-omens-player-core"
+                },
+                {
+                  "name": "Darkness",
+                  "rank": 4,
+                  "reference": "/spell/darkness-player-core",
+                  "atWill": true
+                },
+                {
+                  "name": "Invisibility",
+                  "rank": 4,
+                  "reference": "/spell/invisibility-player-core"
+                },
+                {
+                  "name": "Web",
+                  "rank": 4,
+                  "reference": "/spell/web-player-core-2",
+                  "atWill": true
+                }
+              ]
+            },
+            {
+              "label": "3rd",
+              "spells": [
+                {
+                  "name": "Dream Message",
+                  "rank": 3,
+                  "reference": "/spell/dream-message-player-core"
+                },
+                {
+                  "name": "Mind Reading",
+                  "rank": 3,
+                  "reference": "/spell/mind-reading-player-core"
+                },
+                {
+                  "name": "Fear",
+                  "rank": 3,
+                  "reference": "/spell/fear-player-core"
+                }
+              ]
+            },
+            {
+              "label": "2nd",
+              "spells": [
+                {
+                  "name": "See the Unseen",
+                  "rank": 2,
+                  "reference": "/spell/see-the-unseen-player-core",
+                  "atWill": true
+                }
+              ]
+            },
+            {
+              "label": "Constant (7th)",
+              "spells": [
+                {
+                  "name": "Truespeech",
+                  "rank": 7,
+                  "reference": "/spell/truespeech-player-core"
+                }
+              ]
+            }
+          ],
+          "spellDC": 36,
+          "spellAttack": 28
+        }
+      ],
+      "senseEntries": [
+        {
+          "name": "Greater Darkvision",
+          "reference": "/action/greater-darkvision-monster-core"
+        },
+        {
+          "name": "Tremorsense",
+          "reference": "/action/tremorsense-monster-core",
+          "acuity": "imprecise",
+          "acuityReference": "/rule/imprecise-senses-rules-2407",
+          "details": "120 feet"
+        },
+        {
+          "name": "all-around vision",
+          "reference": "/action/all-around-vision-monster-core"
+        },
+        {
+          "name": "greater web sense"
+        }
+      ],
+      "immunityEditor": {
+        "entries": [
+          {
+            "name": "Mental",
+            "reference": "/trait/mental"
+          },
+          {
+            "name": "Poison",
+            "reference": "/trait/poison"
+          }
+        ]
+      },
+      "skillsEditor": {
+        "skills": {
+          "acrobatics": 25,
+          "athletics": 30,
+          "crafting": 21,
+          "deception": 30,
+          "diplomacy": 27,
+          "intimidation": 30,
+          "nature": 25,
+          "occultism": 27,
+          "religion": 27,
+          "society": 27,
+          "stealth": 30
+        },
+        "loreSkills": []
+      },
+      "resistanceEntries": [
+        {
+          "type": "cold",
+          "value": 10
+        },
+        {
+          "type": "void",
+          "value": 10
+        },
+        {
+          "type": "mythic",
+          "value": 15
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "beast",
+      "mythic",
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

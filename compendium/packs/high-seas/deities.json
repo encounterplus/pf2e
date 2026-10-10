@@ -1,0 +1,158 @@
+[
+  {
+    "id": "D7D34379-858B-5466-AAAB-087B86518D7C",
+    "kind": "Deity",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Surveyors of the Deep",
+    "slug": "surveyors-of-the-deep-high-seas-deity-deity-731",
+    "descr": "",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "Pantheons",
+      "areasOfConcern": "Exploration of the oceans, mapping and documenting marine lore, and reverence for bioluminescence and underwater wonders",
+      "edicts": [
+        "Seek out undiscovered marvels on and beneath the sea, preserve historical knowledge and artifacts, protect oceanic sites from exploitation"
+      ],
+      "anathema": [
+        "Avoid deep explorations, create false maps and records, disrespect sacred sites, and mislead navigators."
+      ],
+      "clericFont": [
+        "heal"
+      ],
+      "divineAttribute": [
+        "constitution",
+        "intelligence"
+      ],
+      "divineSkill": "athletics",
+      "favoredWeapon": [
+        "Trident"
+      ],
+      "domains": [
+        "knowledge",
+        "might",
+        "travel",
+        "truth"
+      ],
+      "alternateDomains": [
+        "air",
+        "water"
+      ],
+      "spells": [
+        "Tailwind",
+        "Feet to Fins",
+        "Retrocognition"
+      ],
+      "sanctification": "",
+      "sanctificationOptions": [],
+      "rulesText": "**Areas of Concern** Exploration of the oceans, mapping and documenting marine lore, and reverence for bioluminescence and underwater wonders\n\n**Edicts** Seek out undiscovered marvels on and beneath the sea, preserve historical knowledge and artifacts, protect oceanic sites from exploitation\n\n**Anathema** Avoid deep explorations, create false maps and records, disrespect sacred sites, and mislead navigators.\n\n**Divine Attribute** Constitution, Intelligence\n\n**Divine Font** [Heal](/spell/heal-player-core)\n\n**Divine Skill** Athletics\n\n**Favored Weapon** [Trident](/item/trident-player-core)\n\n**Domains** [Knowledge](/domain/knowledge), [Might](/domain/might), [Travel](/domain/travel), [Truth](/domain/truth)\n\n**Alternate Domains** [Air](/domain/air), [Water](/domain/water)\n\n**Cleric Spells** [Tailwind](/spell/tailwind-player-core), [Feet to Fins](/spell/feet-to-fins-player-core), [Retrocognition](/spell/retrocognition-player-core)",
+      "traitLinks": [],
+      "deityReferences": {
+        "clericFont": [
+          {
+            "value": "heal",
+            "text": "[heal](</spell/heal-player-core>)"
+          }
+        ],
+        "favoredWeapon": [
+          {
+            "value": "Trident",
+            "text": "[Trident](</item/trident-player-core>)"
+          }
+        ],
+        "domains": [
+          {
+            "value": "knowledge",
+            "text": "[knowledge](</domain/knowledge>)"
+          },
+          {
+            "value": "might",
+            "text": "[might](</domain/might>)"
+          },
+          {
+            "value": "travel",
+            "text": "[travel](</domain/travel>)"
+          },
+          {
+            "value": "truth",
+            "text": "[truth](</domain/truth>)"
+          }
+        ],
+        "alternateDomains": [
+          {
+            "value": "air",
+            "text": "[air](</domain/air>)"
+          },
+          {
+            "value": "water",
+            "text": "[water](</domain/water>)"
+          }
+        ],
+        "spells": [
+          {
+            "value": "Tailwind",
+            "text": "[Tailwind](</spell/tailwind-player-core>)"
+          },
+          {
+            "value": "Feet to Fins",
+            "text": "[Feet to Fins](</spell/feet-to-fins-player-core>)"
+          },
+          {
+            "value": "Retrocognition",
+            "text": "[Retrocognition](</spell/retrocognition-player-core>)"
+          }
+        ]
+      },
+      "deityReferenceKeys": {
+        "clericFont": [
+          "heal"
+        ],
+        "favoredWeapon": [
+          "Trident"
+        ],
+        "domains": [
+          "knowledge",
+          "might",
+          "travel",
+          "truth"
+        ],
+        "alternateDomains": [
+          "air",
+          "water"
+        ],
+        "spells": [
+          "Tailwind",
+          "Feet to Fins",
+          "Retrocognition"
+        ]
+      },
+      "edictsText": "Seek out undiscovered marvels on and beneath the sea, preserve historical knowledge and artifacts, protect oceanic sites from exploitation",
+      "anathemaText": "Avoid deep explorations, create false maps and records, disrespect sacred sites, and mislead navigators.",
+      "sanctificationText": "",
+      "deitySanctificationFormat": "text",
+      "deityDirectiveFormat": "text"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "deity",
+      "high-seas",
+      "pantheons",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Deities.aspx?ID=731",
+        "page": 25
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  }
+]

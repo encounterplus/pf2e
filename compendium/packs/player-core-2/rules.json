@@ -1,0 +1,276 @@
+[
+  {
+    "id": "219CF47E-C18E-5632-8E09-D1576879D729",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Alchemical Archetypes",
+    "slug": "alchemical-archetypes-rules-3282",
+    "type": "other",
+    "descr": "Some archetypes give you the ability to use alchemy in a similar manner to an alchemist and say that you get the advanced alchemy benefits or Quick Alchemy benefits.\n\n**Advanced Alchemy Benefits:** You gain the [Alchemical Crafting](/feat/alchemical-crafting-player-core) feat if you don’t already have it. In addition, you gain advanced alchemy, which allows you to create a certain number of infused alchemical consumables each day during your daily preparations without the normal cost or time expenditure, as described on the [Alchemist](/class/alchemist-player-core-2) page. If you gain advanced alchemy from more than one source, use the highest number of alchemical consumables per day rather than adding them together, but you can make items of any type allowed by any of your advanced alchemy abilities. For instance, [Herbalist Dedication](/feat/herbalist-dedication-player-core-2) lets you create 4 alchemical consumables with the [healing](/trait/healing) trait, and [Poisoner Dedication](/feat/poisoner-dedication-player-core-2) lets you create four alchemical [poison](/trait/poison) consumables. If you had both feats, you could create 4 total consumables, but they could be any combination of healing and poison items.\n\n**Quick Alchemy Benefits:** You gain the Alchemical Crafting feat if you don’t already have it. In addition, you gain the [Quick Alchemy](/action/quick-alchemy-player-core-2) action, which lets you create short-lived alchemical consumables with a special action, and you can create a certain number of versatile vials during your daily preparations to fuel Quick Alchemy. Unless otherwise noted, you can’t regain versatile vials throughout the day the way alchemists can. The individual archetype tells you how many versatile vials you can create each day, and might impose special restrictions or benefits for how you can use them. If you gain versatile vials from more than one source, you use the highest number of vials to determine your maximum rather than adding them together, but you can use the vials for any Quick Alchemy option or other use of versatile vials you possess.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Chapter 3: Classes",
+        "Archetypes"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3282"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetypes",
+      "chapter-3-classes",
+      "other",
+      "player-core-2",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Player Core 2",
+        "page": 173,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3282"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "DEABE1F7-1CE6-560D-B950-2BC42C43B908",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Crafting Snares",
+    "slug": "crafting-snares-rules-3316",
+    "type": "other",
+    "descr": "A snare is built within a single 5-foot square. Only one snare can occupy a single 5-foot square at a time. Once constructed, it can't be moved without destroying (and often triggering) the snare. Snares usually last until they're triggered, though at the GM's discretion, certain snares might become inert after extended periods of time (such as months or years). Snares made for quick deployment, such as those from the [Snarecrafter](/archetype/snarecrafter-player-core-2) archetype, are less durable and become inert after 24 hours.\n\n You must have the [Snare Crafting](/feat/snare-crafting-player-core-2) feat as well as be wielding or wearing a snare toolkit to create snares. You can spend 1 minute to [Craft](/action/craft-player-core) a snare by expending an amount of money equal to the snare's listed Price. This expenditure represents the use of raw materials that are included in your snare toolkit. If you want to Craft a snare at a discount, you must spend downtime as described in the Craft activity. Some snares have additional requirements beyond those stated in the Craft activity; these snares list their requirements in a Craft Requirements entry. Despite having the [consumable](/trait/consumable) trait, you make only one snare when you spend the minute to Craft a snare.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Snares"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3316"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "other",
+      "player-core-2",
+      "remaster",
+      "rule",
+      "snares"
+    ],
+    "sources": [
+      {
+        "name": "Player Core 2",
+        "page": 297,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3316"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E6E9575F-52F9-565D-8630-B0EAECFE0F68",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Detecting Snares",
+    "slug": "detecting-snares-rules-3317",
+    "type": "other",
+    "descr": "Creatures can detect snares they aren't already aware of as they would any [trap or hazard](/rule/hazards-rules-2846), using the creator's Crafting DC as the snare's Stealth DC. If your proficiency rank is expert or better in Crafting, only creatures actively searching can find your snares",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Snares"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3317"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "other",
+      "player-core-2",
+      "remaster",
+      "rule",
+      "snares"
+    ],
+    "sources": [
+      {
+        "name": "Player Core 2",
+        "page": 297,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3317"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "FA8E9505-FAD2-5FC3-A83B-336D365708DB",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Disabling Snares",
+    "slug": "disabling-snares-rules-3319",
+    "type": "other",
+    "descr": "Once a creature discovers a snare, it can disable it much like it can other physical traps, using the [Disable a Device](/action/disable-a-device-player-core) action of the Thievery skill and using the Crafting DC of the snare's creator as the DC. You can automatically disarm a snare that you personally Crafted without triggering it by taking an [Interact](/action/interact-player-core) action while adjacent to the snare.\n\n Snares can't be targeted by Strikes or other attacks unless otherwise noted. At the GM's discretion, a snare might be triggered or destroyed by a particularly large effect, such as a boulder rolling through the snare's square, or an area effect that specifically mentions unattended objects, such as [_hydraulic torrent_](/spell/hydraulic-torrent-player-core).",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Snares"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3319"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "other",
+      "player-core-2",
+      "remaster",
+      "rule",
+      "snares"
+    ],
+    "sources": [
+      {
+        "name": "Player Core 2",
+        "page": 297,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3319"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "51256CE0-78C5-5D08-93EF-B201B0E7BF77",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Snares",
+    "slug": "snares-rules-3315",
+    "type": "other",
+    "descr": "Snares are simple traps that can be created quickly with the [Snare Crafting](/feat/snare-crafting-player-core-2) feat to injure or bedevil intruders. Unlike other items, found snares can't be collected or sold in\ntheir complete form. Snares have the [snare](/trait/snare) trait.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3315"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "other",
+      "player-core-2",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Player Core 2",
+        "page": 297,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3315"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E3958708-3A82-5B41-AB4F-F904AB3441BC",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Temporary Items",
+    "slug": "temporary-items-rules-3283",
+    "type": "other",
+    "descr": "Several archetypes allow you to prepare temporary items. Much like the [infused](/trait/infused) items created by alchemists, these temporary items last only a short time before becoming useless. Examples include temporary scrolls created by the [scroll trickster](/archetype/scroll-trickster-player-core-2) and temporary weapons, armor, or adventuring gear created by the [scrounger](/archetype/scrounger-player-core-2).\n\nTemporary items are clearly not up to the same quality as other items, so they typically can’t be sold. If an ability doesn’t list how long a temporary item lasts, the item lasts until the next time you make your [daily preparations](/rule/daily-preparations-rules-2575). Any effect created by a temporary item also ends at that time if it hasn’t already (unless it’s a permanent effect).",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Chapter 3: Classes",
+        "Archetypes"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3283"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetypes",
+      "chapter-3-classes",
+      "other",
+      "player-core-2",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Player Core 2",
+        "page": 174,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3283"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "7A6EF4FA-846C-5963-B619-3CA157A9651D",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Triggering Snares",
+    "slug": "triggering-snares-rules-3318",
+    "type": "other",
+    "descr": "Unless stated otherwise in a snare's description, when a Small or larger creature enters a snare's square, the snare's effect occurs, and then the snare is destroyed.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Snares"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3318"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "other",
+      "player-core-2",
+      "remaster",
+      "rule",
+      "snares"
+    ],
+    "sources": [
+      {
+        "name": "Player Core 2",
+        "page": 297,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3318"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

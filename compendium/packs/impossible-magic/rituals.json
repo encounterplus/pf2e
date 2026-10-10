@@ -1,0 +1,1543 @@
+[
+  {
+    "id": "A755264F-45A6-5C12-A737-047D46A59508",
+    "kind": "Ritual",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Asmodean Wager",
+    "slug": "asmodean-wager-impossible-magic-ritual-ritual-244",
+    "descr": "**Cast** 1 hour\n\n**Cost** parchment, ink, and an item of value from each bettor worth at least 50 gp\n\n**Secondary Casters** 1 to 9\n\n**Primary Check** Occultism (expert)\n\n**Secondary Checks** Society\n\n**Duration** until the wager’s completion\n\n---\n\nYou facilitate a magically binding agreement between yourself and one or more secondary casters, wherein each participant (hereafter referred to as the bettors) stakes something of value on the outcome of an event that has yet to be determined. The nature of the event is up to the bettors: a test of skill, a game of chance, or even something occurring in the distant future. While named for Asmodeus and invented by those with a diabolical bent, the ritual has no particular connection to Hell and instead relies on the occult connections between the bettors. The stakes can be either of the following:\n\n- A promise or possession. The losers of the bet are placed under the effects of a 9th-rank [_geas_](/ritual/geas-player-core) ritual to uphold the promise or turn over a single item they own, as stated at the time of the ritual's casting. Once ownership has been transferred or the promise fulfilled, nothing prevents the bettors from trying to reclaim a former possession.\n- The bettors' life. As soon as the outcome has been decided, the losers die instantly with no saving throw; this is a death effect. The next time the winner would die, they instead remain alive and unconscious at 0 Hit Points with a [dying](/condition/dying-player-core) condition 1 lower than would kill them. Until this protection has been exhausted, the loser of the bet can't be returned to life through any means, even powerful magic such as wish. A creature already in possession of an additional life as a result of winning an _Asmodean wager_ can't enter into a new wager with a life as collateral.\nIf any participant knowingly and willingly makes any attempt to cheat at or avoid fulfilling the terms of the wager, the spell automatically determines them the loser and resolves accordingly. The spell doesn't function if any participant is acting against their will or being mentally controlled or coerced by any means, or if any participant is immune to or otherwise unaffected by their wager (such as if a construct, undead, or other creature immune to death effects tried to bet its life). At the GM's discretion, if it ever becomes permanently impossible for the bet's outcome to be determined, the spell ends without any further result.\n\n**Success** The ritual is successful.\n\n**Failure** The ritual has no effect.\n\n**Critical Failure** The wording of the ritual is imperfect and subverts the bet, causing all bettors to be considered losers regardless of the actual result of the wager.",
+    "data": {
+      "rank": 6,
+      "rarity": "rare",
+      "traits": [
+        "linguistic"
+      ],
+      "cost": "parchment, ink, and an item of value from each bettor worth at least 50 gp",
+      "cast": "1 hour",
+      "secondaryCasters": "1 to 9",
+      "primaryChecks": "Occultism (expert)",
+      "secondaryChecks": "Society",
+      "range": "",
+      "targets": "",
+      "duration": "until the wager’s completion",
+      "traitLinks": [
+        {
+          "label": "linguistic",
+          "slug": "linguistic"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "impossible-magic",
+      "linguistic",
+      "remaster",
+      "ritual"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Rituals.aspx?ID=244",
+        "page": 188
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "0C6CBCAB-785F-54B0-8966-37125295221D",
+    "kind": "Ritual",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Awaken Object",
+    "slug": "awaken-object-impossible-magic-ritual-ritual-245",
+    "descr": "**Cast** 1 day\n\n**Cost** crushed gems and spices worth 250 gp\n\n**Secondary Casters** 2\n\n**Primary Check** Arcana (expert) or Occultism (expert)\n\n**Secondary Checks** Crafting, Arcana or Occultism (whichever isn't used for the primary check)\n\n**Target(s)** 1 non-magical inanimate object\n\n**Duration** unlimited\n\n---\n\nYou imbue a single Small or smaller object with rudimentary awareness and consciousness, and it gains mental attribute modifiers depending on the results of the ritual. It gains the ability to see and hear, and the ability to understand (but not speak) a single language that you know. It's indifferent to you and all living creatures. In all other respects, it's an ordinary object of its type. An awakened object that gains the [broken](/condition/broken-player-core) condition is rendered insensate until Repaired above its Broken Threshold.\n\n Magical objects and constructs can't be awakened, nor can most spell or magic item abilities be added to an awakened object later (the process to do so is much more complicated than a ritual and essentially creates an intelligent magic item). However, an object that has already been awakened can have the _[animate object](/ritual/animate-object-player-core)_ ritual cast on it by doubling the cost of _animate object_.\n\n**Critical Success** The target's Intelligence, Wisdom, and Charisma modifiers each increase to +2 if they were lower, and it becomes friendly to you for awakening it.\n\n**Success** The target's Intelligence, Wisdom, and Charisma modifiers increase to +0.\n\n**Failure** The target is unaffected and the ritual fails.\n\n**Critical Failure** The target is unaffected, and the primary caster's intellect is trapped in the object for 24 hours. During this time, their original body is unconscious and inert and can't be awakened by any means.",
+    "data": {
+      "rank": 6,
+      "rarity": "uncommon",
+      "traits": [
+        "mental"
+      ],
+      "cost": "crushed gems and spices worth 250 gp",
+      "cast": "1 day",
+      "secondaryCasters": "2",
+      "primaryChecks": "Arcana (expert) or Occultism (expert)",
+      "secondaryChecks": "Crafting, Arcana or Occultism (whichever isn't used for the primary check)",
+      "range": "",
+      "targets": "1 non-magical inanimate object",
+      "duration": "unlimited",
+      "traitLinks": [
+        {
+          "label": "mental",
+          "slug": "mental"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "impossible-magic",
+      "mental",
+      "remaster",
+      "ritual"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Rituals.aspx?ID=245",
+        "page": 188
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "A6779388-0546-53D2-A23F-9A5EC202BD76",
+    "kind": "Ritual",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Bathe In Blood",
+    "slug": "bathe-in-blood-impossible-magic-ritual-ritual-246",
+    "descr": "**Cast** 1 day\n\n**Cost** alchemical herbs and components worth a total of 1,000 gp × the target’s level\n\n**Secondary Casters** 2\n\n**Primary Check** Occultism (expert)\n\n**Secondary Checks** Religion, Society\n\n**Range** 20 feet\n\n**Target(s)** 1 living creature of a level no greater than double the bathe in blood ritual's rank\n\n---\n\nThis old ritual is illegal in nearly every corner of Golarion and requires that you submerge yourself in a bath of alchemically treated blood, attended by silent servants. The blood must have been spilled within the last 6 hours; a spell such as _peaceful rest_ can extend this time, but using such preserved blood applies a –4 circumstance penalty to the primary and secondary checks. If you're Medium, you require 30 gallons of blood to immerse yourself, and a typical Medium creature holds about 1-1/2 gallons of blood in its body. This ritual doesn't strictly require that the blood donors be killed and drained dry, but the logistical challenges of gathering enough blood without murder are beyond all but the most well-resourced casters.\n\n Each time you enact this ritual, regardless of its success or failure, you take a penalty to the primary check for all subsequent castings. This penalty starts at –1 and increases by –1 during each casting (so if you were casting this ritual on yourself for the fifth time, you would take a –4 penalty on your Occultism check).\n\n**Critical Success** You emerge rejuvenated and revived. You become up to 40 years younger, returning to the prime of youth and life. If you're already at your desired age, your aging instead stops for the next 40 years. While remaining recognizably yourself, you also become preternaturally charismatic, gaining a +1 circumstance bonus to [Make an Impression](/action/make-an-impression-player-core).\n\n**Success** You become 20 years younger or pause your aging for 20 years.\n\n**Failure** The ritual has no effect.\n\n**Critical Failure** You die. Casters killed this way frequently return as undead, often as ghosts or vampires.",
+    "data": {
+      "rank": 8,
+      "rarity": "rare",
+      "traits": [],
+      "cost": "alchemical herbs and components worth a total of 1,000 gp × the target’s level",
+      "cast": "1 day",
+      "secondaryCasters": "2",
+      "primaryChecks": "Occultism (expert)",
+      "secondaryChecks": "Religion, Society",
+      "range": "20 feet",
+      "targets": "1 living creature of a level no greater than double the bathe in blood ritual's rank",
+      "duration": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "impossible-magic",
+      "remaster",
+      "ritual"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Rituals.aspx?ID=246",
+        "page": 189
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "FF68841C-3F9E-5CD0-94FE-F56206FEDDF8",
+    "kind": "Ritual",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Borrow Time",
+    "slug": "borrow-time-impossible-magic-ritual-ritual-247",
+    "descr": "**Cast** 1 hour\n\n**Cost** bells, hourglasses, and water clocks worth a total of 1,000 gp\n\n**Secondary Casters** 1 or more\n\n**Primary Check** Arcana (legendary) or Occultism (legendary)\n\n**Secondary Checks** Arcana or Occultism\n\n**Area** 30-foot burst centered on you\n\n**Target(s)** you and all secondary casters\n\n**Duration** varies\n\n---\n\nThis spell suspends time around you and the secondary casters, creating an opaque bubble where you can continue your work. Time only passes within the area of the ritual. If you or any of the secondary casters leave this bubble, the ritual ends. Objects that leave the ritual's area (or outside of it after the ritual's casting) cannot be brought back into it. When casting this ritual, you can have up to 10 secondary casters assist you. You can perform any activities that you have the necessary supplies on hand for, such as [Crafting](/action/craft-player-core) items or Learning a Spell.\n\n After you leave the bubble of borrowed time, you and the result of your work blink into existence for those outside the bubble. The time is only borrowed, not created. At some point after the ritual's casting, all primary and secondary casters lose the same amount of time as they borrowed. When they do so, they jump forward in time. This occurs at a time and place the GM deems appropriate. The casters can experience this at different times, as they do not all need to borrow time from the same point in their lives. Any caster who has not paid back their previously borrowed time can't participate in this ritual again.\n\n**Critical Success** You borrow 1 week of time.\n\n**Success** You borrow 1 day of time.\n\n**Failure** The time stream is stable and refuses you.\n\n**Critical Failure** The borrowing of time goes awry, instead sapping away at your time. You immediately age 1 month.",
+    "data": {
+      "rank": 9,
+      "rarity": "rare",
+      "traits": [],
+      "cost": "bells, hourglasses, and water clocks worth a total of 1,000 gp",
+      "cast": "1 hour",
+      "secondaryCasters": "1 or more",
+      "primaryChecks": "Arcana (legendary) or Occultism (legendary)",
+      "secondaryChecks": "Arcana or Occultism",
+      "range": "",
+      "targets": "you and all secondary casters",
+      "duration": "varies",
+      "area": "30-foot burst centered on you",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "impossible-magic",
+      "remaster",
+      "ritual"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Rituals.aspx?ID=247",
+        "page": 190
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "25A0E395-9931-580C-840A-07A724D7D346",
+    "kind": "Ritual",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Cloudborne Haven",
+    "slug": "cloudborne-haven-impossible-magic-ritual-ritual-248",
+    "descr": "**Cast** 1 week\n\n**Cost** a replica keystone of the target building crafted from quartz worth 4,500 gp\n\n**Secondary Casters** 3\n\n**Primary Check** Arcana (legendary) or Nature (legendary)\n\n**Secondary Checks** Arcana or Nature, Athletics\n\n**Target(s)** 1 building up to 500 feet by 500 feet\n\n**Duration** varies\n\n---\n\nThe land beneath the building breaks away, lifting the structure up to half a mile off the ground.\n\n You can repeat this ritual on an existing _cloudborne haven_ to maneuver it. When you maneuver it, the structure floats at the rate of 10 miles per hour in a straight line in the direction you specify (including up, down, any cardinal directions, and angled combinations). You can also direct it to land. When performing the ritual this way, you can end the ritual early. When the ritual ends, the cloudborne haven is anchored in place.\n\n This ritual does not impart protection against the weather, altitude, or vacuum of space (if you command it to rise too high).\n\n**Critical Success** The duration is unlimited.\n\n**Success** The duration lasts for 1 year.\n\n**Failure** The structure fails to float upward as the ritual fails.\n\n**Critical Failure** The building rises a dozen feet before falling to the ground, damaging the structure and injuring its inhabitants.\n\n---\n**Heightened (9th)** You target an area containing multiple buildings up to 1 mile by 1 mile. The cost of the required keystone increases to 22,000 gp.\n\n**Heightened (10th)** You target an area up to 5 miles by 5 miles. The cost of the required keystone increases to 100,000 gp.",
+    "data": {
+      "rank": 8,
+      "rarity": "rare",
+      "traits": [
+        "air"
+      ],
+      "cost": "a replica keystone of the target building crafted from quartz worth 4,500 gp",
+      "cast": "1 week",
+      "secondaryCasters": "3",
+      "primaryChecks": "Arcana (legendary) or Nature (legendary)",
+      "secondaryChecks": "Arcana or Nature, Athletics",
+      "range": "",
+      "targets": "1 building up to 500 feet by 500 feet",
+      "duration": "varies",
+      "traitLinks": [
+        {
+          "label": "air",
+          "slug": "air"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "air",
+      "impossible-magic",
+      "remaster",
+      "ritual"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Rituals.aspx?ID=248",
+        "page": 190
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "6620CE81-6E37-53EE-9BDD-52FD7A9A7987",
+    "kind": "Ritual",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Concealments's Curtain",
+    "slug": "concealments-s-curtain-impossible-magic-ritual-ritual-249",
+    "descr": "**Cast** 6 days\n\n**Cost** an ornate mirror worth at least 100 gp, naturally occurring round fruit the size and number of the target’s eyes, and the same amount of flawless silver needles worth at least 1 gp each\n\n**Secondary Casters** 3\n\n**Primary Check** Occultism\n\n**Secondary Checks** Arcana, Deception, Stealth\n\n**Range** planetary\n\n**Target(s)** 1 living creature\n\n**Duration** 1 week\n\n---\n\nFor 5 days, you line the fruit up in front of the mirror, chanting the name of the target. At exactly midnight on the last day, you drive the pins through the fruits, miming the action of methodically blinding the target to you and your companions. The target is immediately affected and can't visually detect any of the casters involved in the ritual—provided that the ritual was successful, the target is unaware of the effects. Since the ritual affects the target's ability to see the casters, rather than making the casters invisible, effects like [_truesight_](/spell/truesight-player-core) are ineffective against _concealment's curtain_; instead, the target would need to remove the curse with effects like a 4th-rank [_cleanse affliction_](/spell/cleanse-affliction-player-core). To perform this ritual, you must have been within 5 feet of the target at least once, close enough to get a good look at their eyes. The target is temporarily immune to further castings of _concealment's curtain_ for 1 year.\n\n**Critical Success** The target is unable to visually detect the casters for the duration, and the target's [detection](/trait/detection) spells don't detect the casters.\n\n**Success** The target is unable to visually detect the casters for the duration, but their detection spells function normally.\n\n**Failure** The ritual has no effect.\n\n**Critical Failure** The ritual backfires and all casters participating in it are blinded for the next 24 hours.\n\n---\n**Heightened (8th)** You aren't satisfied with simply concealing yourself from the target. The cost of the ritual mirror increases to 1,000 gp, and a personal effect of the target is required. After completing the ritual, the target takes 6d6 mental damage and is [blinded](/condition/blinded-player-core) for 1 week, requiring both a sound body and 4th-rank _cleanse affliction_ to end the effect early. The target is aware that the ritual was cast on them; however, it doesn't have any additional information.",
+    "data": {
+      "rank": 4,
+      "rarity": "uncommon",
+      "traits": [
+        "curse",
+        "mental"
+      ],
+      "cost": "an ornate mirror worth at least 100 gp, naturally occurring round fruit the size and number of the target’s eyes, and the same amount of flawless silver needles worth at least 1 gp each",
+      "cast": "6 days",
+      "secondaryCasters": "3",
+      "primaryChecks": "Occultism",
+      "secondaryChecks": "Arcana, Deception, Stealth",
+      "range": "planetary",
+      "targets": "1 living creature",
+      "duration": "1 week",
+      "traitLinks": [
+        {
+          "label": "curse",
+          "slug": "curse"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "curse",
+      "impossible-magic",
+      "mental",
+      "remaster",
+      "ritual"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Rituals.aspx?ID=249",
+        "page": 191
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "0F14C415-80C7-5795-BA71-03155D2BF8B5",
+    "kind": "Ritual",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Confound the Eye and Confuse the Mind",
+    "slug": "confound-the-eye-and-confuse-the-mind-impossible-magic-ritual-ritual-250",
+    "descr": "**Cast** 1 hour\n\n**Cost** costumes, props, and reagents, plus cloth worth a total value of 10 gp × the target’s level\n\n**Secondary Casters** 1\n\n**Primary Check** Occultism (trained)\n\n**Secondary Checks** Deception, Performance, Occultism or Thievery\n\n**Range** 10 feet\n\n**Target(s)** 1 creature of a level no greater than double the ritual’s rank who can cast spells\n\n---\n\nWith a flash, you obscure spellcasting to confound observers. The sleight of hand disguises one spell as another, augmented by costumes and props that lean into the viewer's assumption. A crooked hat and wand might make a druid appear to be a wizard, while a crown of leaves lets a wizard to slide into the druid's role.\n\n**Critical Success** For the duration, all spells the target casts appears as another spell of their choice that is the same rank but of any tradition. This does not change the spells' effects. Creatures that attempt to [Recognize Spell](/feat/recognize-spell-player-core) must attempt a Will save (against the target's spell DC), even if they would automatically identify the spell normally. On a failure, they do not Recognize the Spell.\n\n**Success** As critical success, but it only affects the next spell the target casts of the chosen magical tradition.\n\n**Failure** Despite your chicanery, the target's magic remains recognizable.\n\n**Critical Failure** The ritual fails and transforms the target's spellcasting to a louder, brighter, and more attention-grabbing version for 1 week.",
+    "data": {
+      "rank": 1,
+      "rarity": "uncommon",
+      "traits": [
+        "illusion"
+      ],
+      "cost": "costumes, props, and reagents, plus cloth worth a total value of 10 gp × the target’s level",
+      "cast": "1 hour",
+      "secondaryCasters": "1",
+      "primaryChecks": "Occultism (trained)",
+      "secondaryChecks": "Deception, Performance, Occultism or Thievery",
+      "range": "10 feet",
+      "targets": "1 creature of a level no greater than double the ritual’s rank who can cast spells",
+      "duration": "",
+      "traitLinks": [
+        {
+          "label": "illusion",
+          "slug": "illusion"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "illusion",
+      "impossible-magic",
+      "remaster",
+      "ritual"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Rituals.aspx?ID=250",
+        "page": 191
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "6B8F7BD3-0F8E-5561-A028-C3F9B45AA311",
+    "kind": "Ritual",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Dread Ambience",
+    "slug": "dread-ambience-impossible-magic-ritual-ritual-251",
+    "descr": "**Cast** 2 days\n\n**Cost** candles, specialty salts, and rare herbs worth 80 gp total\n\n**Secondary Casters** 1\n\n**Primary Check** Arcana or Occultism (expert)\n\n**Secondary Checks** Deception\n\n**Area** 1 square mile\n\n**Duration** 1 year\n\n---\n\nIn some places, it feels as if the very land doesn't want you there. [Hostile](/condition/hostile-player-core) creatures skitter about in the underbrush. Tendrils of mist try to lead you astray. Even the scent of the place is unwelcoming. Sometimes, this eerie atmosphere is a natural occurrence. Other times, it's the result of the _dread ambience_ ritual.\n\n To create this unwelcoming, intimidating aura, you must prepare the area with salts and herbs, traveling the entire edge of the area throughout the casting.\n\n After you complete your ritual, anyone who enters the area receives a status penalty to saving throws against fear effects within the _dread ambience_.\n\n**Critical Success** The sense of dread is particularly powerful. Every creature in an area takes a –2 status penalty to saving throws against [fear](/trait/fear) effects.\n\n**Success** The ritual succeeds. Every creature in the area takes a –1 status penalty to saving throws against fear effects.\n\n**Failure** The ritual fails.\n\n**Critical Failure** The ritual fails, and the casters take a –1 status penalty to all Will saves for the next week.\n\n---\n**Heightened (7th)** The ritual costs 750 gp and remains in place for 10 years.\n\n**Heightened (9th)** The ritual costs 5,000 gp and remains in place for an unlimited duration.",
+    "data": {
+      "rank": 5,
+      "rarity": "uncommon",
+      "traits": [
+        "consecration",
+        "emotion",
+        "fear",
+        "mental"
+      ],
+      "cost": "candles, specialty salts, and rare herbs worth 80 gp total",
+      "cast": "2 days",
+      "secondaryCasters": "1",
+      "primaryChecks": "Arcana or Occultism (expert)",
+      "secondaryChecks": "Deception",
+      "range": "",
+      "targets": "",
+      "duration": "1 year",
+      "area": "1 square mile",
+      "traitLinks": [
+        {
+          "label": "consecration",
+          "slug": "consecration"
+        },
+        {
+          "label": "emotion",
+          "slug": "emotion"
+        },
+        {
+          "label": "fear",
+          "slug": "fear"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consecration",
+      "emotion",
+      "fear",
+      "impossible-magic",
+      "mental",
+      "remaster",
+      "ritual"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Rituals.aspx?ID=251",
+        "page": 191
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "E4F764F1-8C53-5DE7-BAD2-4FC067BAE9AB",
+    "kind": "Ritual",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Elemental Sentinel",
+    "slug": "elemental-sentinel-impossible-magic-ritual-ritual-252",
+    "descr": "**Cast** 1 day\n\n**Cost** precious metals, rare incense, and herbs worth a total value of 15 gp per spell rank\n\n**Primary Check** Arcana (expert) or Occultism (expert)\n\n**Target(s)** 1 object\n\n**Duration** unlimited\n\n---\n\nYou place a tiny elemental wisp within an object—usually a mirror, statue, or other mundane-looking item—to serve as an alarm. Shattering or otherwise destroying the object frees the wisp and ends the ritual’s effect even if the object is magically restored.\n\n**Critical Success** The elemental wisp inhabits the object and willingly serves you to the best of its ability. The wisp becomes aware of the target object's surroundings and can telepathically contact you with a range of 500 feet. It reports to you about intruders or other changes to the room in which it's located. You must tell the wisp what the criteria for the reports will be—for instance, when anyone not openly wearing a certain symbol enters the room or when an item is removed. The wisp has a +5 Perception modifier and observes the room using normal vision, normal hearing, and touch.\n\n**Success** As critical success, but the range of the telepathy is 100 feet and the wisp's Perception modifier is +3.\n\n**Failure** You're unable to harness the spirit. The ritual fails.\n\n**Critical Failure** The elemental wisp is trapped in the object as with a success, but it refuses or is somehow unable to help you. The elemental might have extremely low Intelligence or simply be spiteful. Regardless, the object's reports are always misleading.\n\n---\n**Heightened (4th)** The range of the telepathic link increases, allowing the wisp to contact you anywhere on the same planet. Its Perception modifier increases to +10, or +12 on a critical success.\n\n**Heightened (6th)** As 4th rank, except the wisp can see [invisible](/condition/invisible-player-core) creatures as though they weren’t invisible, and its Perception modifier increases to +15, or +17 on a critical success.",
+    "data": {
+      "rank": 1,
+      "rarity": "uncommon",
+      "traits": [],
+      "cost": "precious metals, rare incense, and herbs worth a total value of 15 gp per spell rank",
+      "cast": "1 day",
+      "secondaryCasters": "",
+      "primaryChecks": "Arcana (expert) or Occultism (expert)",
+      "secondaryChecks": "",
+      "range": "",
+      "targets": "1 object",
+      "duration": "unlimited",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "impossible-magic",
+      "remaster",
+      "ritual"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Rituals.aspx?ID=252",
+        "page": 192
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "F7B410DD-D68C-5415-8692-D4B0C08017DE",
+    "kind": "Ritual",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Garden of Death",
+    "slug": "garden-of-death-impossible-magic-ritual-ritual-253",
+    "descr": "**Cast** 1 day\n\n**Cost** water infused with drops of the primary caster’s blood and a dozen deadly toxins worth a total of 50 gp\n\n**Secondary Casters** 2\n\n**Primary Check** Nature (expert)\n\n**Secondary Checks** Crafting or Medicine\n\n**Area** 40-foot burst centered on you\n\n**Duration** 1 year\n\n---\n\nTypically associated with the less friendly fey or druids, this ritual calls all the poisonous, toxic, and venomous plants and animals of an area to congregate in a certain place, creating a beautiful but extravagantly deadly garden.\n\n You and the secondary casters sprinkle the ground of the garden with water infused with various poisons and a few drops of your blood. A successful ritual draws every possible poisonous plant or animal native to the surrounding environment into its area, forming a stable ecosystem, with nonpoisonous plants or animals growing only if there's no toxic counterpart. This deadly ecosystem flourishes, if at all possible (plants still need light and water, for instance), for 1 year and gradually disperses after this period. If this ritual is successfully cast on the grounds of an existing _garden of death_, it resets the duration and expands the garden's radius by 20 feet instead.\n\n The maximum level of plants or animals called by the ritual is equal to its rank, and the called plants and animals can use the ritual's spell DC instead of their own poison DC, whichever is higher. The garden's residents don't willingly use their poison on you or the secondary casters, but you don't otherwise control or command them.\n\n**Critical Success** A poisonous garden forms, and you and the secondary casters gain a +2 circumstance bonus to Nature or Crafting checks to deal with the plants or animals, such as feeding them or harvesting poison from them.\n\n**Success** As critical success, but without the circumstance bonus when interacting with the garden.\n\n**Failure** The ritual has no effect.\n\n**Critical Failure** You and the secondary casters are each bitten by the most poisonous creature found in the environment.",
+    "data": {
+      "rank": 4,
+      "rarity": "uncommon",
+      "traits": [
+        "consecration",
+        "plant",
+        "poison"
+      ],
+      "cost": "water infused with drops of the primary caster’s blood and a dozen deadly toxins worth a total of 50 gp",
+      "cast": "1 day",
+      "secondaryCasters": "2",
+      "primaryChecks": "Nature (expert)",
+      "secondaryChecks": "Crafting or Medicine",
+      "range": "",
+      "targets": "",
+      "duration": "1 year",
+      "area": "40-foot burst centered on you",
+      "traitLinks": [
+        {
+          "label": "consecration",
+          "slug": "consecration"
+        },
+        {
+          "label": "plant",
+          "slug": "plant"
+        },
+        {
+          "label": "poison",
+          "slug": "poison"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consecration",
+      "impossible-magic",
+      "plant",
+      "poison",
+      "remaster",
+      "ritual"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Rituals.aspx?ID=253",
+        "page": 192
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "05C314E2-2DA4-5BE1-839A-12FE01954DE9",
+    "kind": "Ritual",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Glance of the Divine",
+    "slug": "glance-of-the-divine-impossible-magic-ritual-ritual-254",
+    "descr": "**Cast** 1 day\n\n**Cost** an offering of great personal value from each caster\n\n**Secondary Casters** 1 or more\n\n**Primary Check** Religion (trained)\n\n**Secondary Checks** Diplomacy or Religion\n\n**Range** 20 feet\n\n**Target(s)** you and all secondary casters\n\n**Duration** varies\n\n---\n\nYou ask that a divine being look upon you, calling their attention through offerings and supplication. While you ask for aid, you also appeal to divinity based on your goal (such as killing the wizard threatening your country or discovering the location of an artifact). You can beseech any deity or other being that grants spells for their aid.\n\n Capturing the eye of the divine results in a transformation. The change reflects the experience, such as flaming hair for those that Sarenrae smiles upon or newly grown horns for Gozreh's favored. The GM decides on the appropriate change for the targets.\n\n**Critical Success** Each target becomes sanctified until the goal is fulfilled, choosing a sanctification offered by the beseeched deity. Any spirit damage a target deals gains the holy or [unholy](/trait/unholy) trait as appropriate, not just spirit damage from actions and spells with the [sanctified](/trait/sanctified) trait. During the ritual's duration, all targets are bound by the edicts and anathema of the beseeched deity. If a target was already sanctified by that deity or the beseeched deity offers no sanctification, a target gains the [Domain Initiate](/feat/domain-initiate-player-core) feat for the ritual's duration, choosing a domain of the beseeched deity; this feat can't be used as a prerequisite.\n\n**Success** As success, but the duration is 1 week.\n\n**Failure** You fail to catch the glance of the divine, leaving your prayers unanswered.\n\n**Critical Failure** Your request for help captures the interest of a different deity than the one that you intended, as decided by the GM.",
+    "data": {
+      "rank": 2,
+      "rarity": "uncommon",
+      "traits": [],
+      "cost": "an offering of great personal value from each caster",
+      "cast": "1 day",
+      "secondaryCasters": "1 or more",
+      "primaryChecks": "Religion (trained)",
+      "secondaryChecks": "Diplomacy or Religion",
+      "range": "20 feet",
+      "targets": "you and all secondary casters",
+      "duration": "varies",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "impossible-magic",
+      "remaster",
+      "ritual"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Rituals.aspx?ID=254",
+        "page": 192
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "6364AECA-CD6D-5909-AD68-099EA50D1565",
+    "kind": "Ritual",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Guardian's Aegis",
+    "slug": "guardian-s-aegis-impossible-magic-ritual-ritual-255",
+    "descr": "**Cast** 1 day\n\n**Cost** rare oils worth 10 gp × the primary caster’s level\n\n**Secondary Casters** 1\n\n**Primary Check** Occultism or Religion\n\n**Secondary Checks** Athletics, Diplomacy, or Society\n\n**Duration** 1 week\n\n---\n\n_Guardian's aegis_ is a ritual used across numerous cultures to bind a chosen guardian and ward together so that they can complete a quest of great import. When the ritual is completed, designate one of the casters as the guardian, while the other is the ward. As long as you're on the same plane of existence, both of you are always aware of each other's relative directions and state of being, including any conditions the other is affected by. As long as you're within 30 feet of each other, whenever the ward takes damage, the damage is reduced by the amount equal to half the guardian's level, and the guardian loses an equal number of Hit Points; the target still takes additional effects like poison even if _guardian's aegis_ reduces the damage to 0.\n\n**Critical Success** The ritual is successful, and the duration is 1 month.\n\n**Success** The ritual is successful.\n\n**Failure** The ritual has no effect.\n\n**Critical Failure** The ritual backfires. You and the secondary caster become magically isolated from each other for 1 week, unable to provide each other any beneficial effect.",
+    "data": {
+      "rank": 3,
+      "rarity": "uncommon",
+      "traits": [],
+      "cost": "rare oils worth 10 gp × the primary caster’s level",
+      "cast": "1 day",
+      "secondaryCasters": "1",
+      "primaryChecks": "Occultism or Religion",
+      "secondaryChecks": "Athletics, Diplomacy, or Society",
+      "range": "",
+      "targets": "",
+      "duration": "1 week",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "impossible-magic",
+      "remaster",
+      "ritual"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Rituals.aspx?ID=255",
+        "page": 193
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "6A22746A-325C-58AC-BB8A-39444968BF71",
+    "kind": "Ritual",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Haven in the Ether",
+    "slug": "haven-in-the-ether-impossible-magic-ritual-ritual-256",
+    "descr": "**Cast** 1 week\n\n**Cost** building materials worth 25,000 gp\n\n**Secondary Casters** 3\n\n**Primary Check** Arcana (legendary) or Occultism (legendary)\n\n**Secondary Checks** Arcana or Occultism, or Crafting or Survival\n\n**Area** 20-foot burst\n\n**Range** 120 feet\n\n**Duration** varies\n\n---\n\nYou create an extradimensional haven that pierces through the overlapping planes (Creation's Forge, the Ethereal Plane, First World, the Universe, the Netherworld, and the Void). The haven's entrance is accessible on all the overlapping planes, in the same location on each. Your haven takes on the appearance that you choose, such as a cottage, a tree, a tower, or a cave. You and any attuned creature (see below) can enter the haven from any of the above planes; the haven is invisible and inaccessible to all other creatures. A creature inside the haven can select which overlapping plane they appear in when they exit it. If a creature is in the haven when the ritual's duration ends, they appear in an overlapping plane of their choice.\n\n You and the secondary casters become attuned to the haven at the successful conclusion of the ritual. You can attune additional creatures to your haven as a 10-minute activity while within 15 feet of an entrance. Once attuned, a creature constantly senses the haven's location, including its direction and distance, while they share a plane with one of its entrances. You can [Dismiss](/action/dismiss-player-core) this attunement for any number of creatures while you are within the haven.\n\n**Critical Success** The duration is 1 month.\n\n**Success** The duration is 1 week.\n\n**Failure** The haven fails to pierce through planes.\n\n**Critical Failure** Your haven attracts pests from the Ethereal Plane, which sap its resonant energy. These creatures swarm it until they've fully consumed the ritual's magic, likely attacking the casters in the process.",
+    "data": {
+      "rank": 9,
+      "rarity": "rare",
+      "traits": [
+        "extradimensional",
+        "teleportation"
+      ],
+      "cost": "building materials worth 25,000 gp",
+      "cast": "1 week",
+      "secondaryCasters": "3",
+      "primaryChecks": "Arcana (legendary) or Occultism (legendary)",
+      "secondaryChecks": "Arcana or Occultism, or Crafting or Survival",
+      "range": "120 feet",
+      "targets": "",
+      "duration": "varies",
+      "area": "20-foot burst",
+      "traitLinks": [
+        {
+          "label": "extradimensional",
+          "slug": "extradimensional"
+        },
+        {
+          "label": "teleportation",
+          "slug": "teleportation"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "extradimensional",
+      "impossible-magic",
+      "remaster",
+      "ritual",
+      "teleportation"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Rituals.aspx?ID=256",
+        "page": 193
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "077A3858-667F-500C-BFF0-593796977687",
+    "kind": "Ritual",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Ideal Mimicry",
+    "slug": "ideal-mimicry-impossible-magic-ritual-ritual-257",
+    "descr": "**Cast** 6 days\n\n**Cost** crafting materials worth at least 50 gp × the target’s level; a lock of hair, nail clippings, or a vial of blood from the target\n\n**Secondary Casters** 1\n\n**Primary Check** Occultism (expert)\n\n**Secondary Checks** Crafting\n\n**Range** see text\n\n**Target(s)** 1 sentient living creature\n\n**Duration** until used 10 times or the target’s body parts are removed from the doll\n\n---\n\nYou craft a doll with care and quiet meditation on the target, inserting the fingernails into the body, tying the lock of hair around the neck of the doll, or emptying the vial of blood into the stuffing and allowing it to be absorbed. You then form the doll to mimic the shape of the target, including creating clothing and accessories that are similar to commonly worn items. You must have been within 5 feet of the target at least once and gotten a good look at them to perform this ritual. You can cast the ritual and create the doll at any range from the target.\n\n Once the doll is complete, you can Interact with the doll violently once per round to cause pain to the target as long as they're within 200 feet. This pain manifests as mental damage inflicted on the target, and it depends on how many of the three body part components (hair, nails, or blood) you included in the creation of the doll. After the first time you manipulate the doll, you can continue to do so until either the target moves beyond 200 feet or until you Interact with the doll to cause pain 10 times, whichever comes first. After either of those conditions is met, the doll falls apart into stuffing and dust.\n\n**Critical Success** The doll becomes connected to the target. Each [Interact](/action/interact-player-core) action causes 3d6 mental damage to the target for each of the three body part components (maximum 9d6 for all three components). The connection is more powerful than normal, increasing the number of times you can Interact to cause pain from 10 to 20.\n\n**Success** As critical success, except you can Interact only the normal 10 times.\n\n**Failure** The doll is just an ordinary doll.\n\n**Critical Failure** Any Interact actions you take to cause pain to target instead cause 9d6 mental damage to the casters. The target is alerted to the attempt nonetheless, through a feeling of the connection being subverted.\n\n---\n**Heightened (+2)** Increase the damage to the target by 1d6 per body part component, and the damage to the casters on a critical failure by 3d6.",
+    "data": {
+      "rank": 6,
+      "rarity": "uncommon",
+      "traits": [
+        "mental"
+      ],
+      "cost": "crafting materials worth at least 50 gp × the target’s level; a lock of hair, nail clippings, or a vial of blood from the target",
+      "cast": "6 days",
+      "secondaryCasters": "1",
+      "primaryChecks": "Occultism (expert)",
+      "secondaryChecks": "Crafting",
+      "range": "see text",
+      "targets": "1 sentient living creature",
+      "duration": "until used 10 times or the target’s body parts are removed from the doll",
+      "traitLinks": [
+        {
+          "label": "mental",
+          "slug": "mental"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "impossible-magic",
+      "mental",
+      "remaster",
+      "ritual"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Rituals.aspx?ID=257",
+        "page": 193
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "A0AE6E28-B1A7-523A-950F-867BD0D81714",
+    "kind": "Ritual",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Loyalty's Ward",
+    "slug": "loyalty-s-ward-impossible-magic-ritual-ritual-258",
+    "descr": "**Cast** 1 day\n\n**Cost** talismans written with rare inks worth 500 gp\n\n**Secondary Casters** 1\n\n**Primary Check** Religion (master)\n\n**Secondary Checks** Intimidation or Religion\n\n**Area** a single room no larger than 25 feet by 25 feet\n\n**Duration** 1 week\n\n---\n\nYou place wards on a structure, creating a trap for those who would work against you. You set an invisible talisman above each door, window, or other opening. When you set these wards, select one of the following criteria.\n\n- Those that mean you harm\n- Those that are unholy\n- Those that are holy\n- Those that are members of a specified faction\nCreatures that meet your selected criteria can enter the warded area but are prevented from exiting it. As they enter the area, those that are trapped feel the magic settle on them.\n\n**Critical Success** Your wards hold, and those that meet the criteria must attempt a Will save against the higher of your class DC or spell DC when they try to leave the area by any means. On a success, they can leave freely. On a failure, they cannot move out of the warded area and cannot attempt to leave the area again for 24 hours.\n\n**Success** As critical success, but on a failure, they can attempt to leave again after 1 hour.\n\n**Failure** Your wards are merely decorative and do not holdany creatures.\n\n**Critical Failure** The wards turn against your intentions, instead holding those that do not meet the selected criteria (which likely includes all casters).",
+    "data": {
+      "rank": 5,
+      "rarity": "uncommon",
+      "traits": [],
+      "cost": "talismans written with rare inks worth 500 gp",
+      "cast": "1 day",
+      "secondaryCasters": "1",
+      "primaryChecks": "Religion (master)",
+      "secondaryChecks": "Intimidation or Religion",
+      "range": "",
+      "targets": "",
+      "duration": "1 week",
+      "area": "a single room no larger than 25 feet by 25 feet",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "impossible-magic",
+      "remaster",
+      "ritual"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Rituals.aspx?ID=258",
+        "page": 194
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "6ABA98A4-BA67-5B61-8F05-40F2FE414D11",
+    "kind": "Ritual",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Mind Swap",
+    "slug": "mind-swap-impossible-magic-ritual-ritual-259",
+    "descr": "**Cast** 1 day\n\n**Cost** a pair of jeweled mirrors worth a total value of 50 gp × the level of the highest-level target\n\n**Secondary Casters** 1\n\n**Primary Check** Occultism (expert)\n\n**Secondary Checks** Medicine or Occultism\n\n**Range** 10 feet\n\n**Target(s)** 2 creatures of the same ancestry, whose respective levels are no more than twice the rank of the ritual\n\n**Duration** 1 week\n\n---\n\nTo walk in another's shoes is to truly understand someone. This ritual allows two subjects to exchange minds, fully inhabiting one another's bodies. The two targets can be chosen from you, the secondary caster, or unrelated third parties present throughout the ritual. Normally, both targets must be of the same ancestry for the minds to be fully compatible, but at the GM's discretion, for a much higher cost, the targets can be from different ancestries; this requires much more adjudication of ancestry feats and abilities. When both targets are of the same ancestry, muscle memory and the influence of their soul allow them to carry over all their mechanical abilities into each new body, except they use the other body's heritage (and lineage, if any). The GM might rule that similar physiological changes can't be overridden with a mind swap.\n\n If a body dies, the mind and spirit controlling it die instantly. When the effect ends, the minds and souls snap back to their original bodies. At this time, if the original body is dead, the mind and soul attempting to return to that body die as well.\n\n**Critical Success** Each target's mind and spirit possess the other's body and can control it normally. The mind swap is unusually smooth, and the targets gain a +4 circumstance bonus to Deception checks to [Impersonate](/action/impersonate-player-core) each other.\n\n**Success** Each target's mind and spirit possess the other's body and can control it normally.\n\n**Failure** The ritual has no effect.\n\n**Critical Failure** The ritual is scrambled, sending a welter of confused memories into the target's minds. You and the secondary casters are [stupefied](/condition/stupefied-player-core) 2 for the next week.\n\n---\n**Heightened (9th)** You can cast the ritual without a duration, leaving no magic to [counteract](/rule/counteracting-rules-3280). The effects are reversible only by another mind swap ritual or other powerful magic like a [wish](/ritual/wish-player-core) ritual. This increases the cost of the ritual to 10,000 gp and likely violates many deity's anathema unless both targets are willing.",
+    "data": {
+      "rank": 5,
+      "rarity": "rare",
+      "traits": [
+        "mental",
+        "possession"
+      ],
+      "cost": "a pair of jeweled mirrors worth a total value of 50 gp × the level of the highest-level target",
+      "cast": "1 day",
+      "secondaryCasters": "1",
+      "primaryChecks": "Occultism (expert)",
+      "secondaryChecks": "Medicine or Occultism",
+      "range": "10 feet",
+      "targets": "2 creatures of the same ancestry, whose respective levels are no more than twice the rank of the ritual",
+      "duration": "1 week",
+      "traitLinks": [
+        {
+          "label": "mental",
+          "slug": "mental"
+        },
+        {
+          "label": "possession",
+          "slug": "possession"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "impossible-magic",
+      "mental",
+      "possession",
+      "remaster",
+      "ritual"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Rituals.aspx?ID=259",
+        "page": 194
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "E1D99DD1-26B3-5F36-B1CE-0EAD0317235A",
+    "kind": "Ritual",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Mystic Carriage",
+    "slug": "mystic-carriage-impossible-magic-ritual-ritual-260",
+    "descr": "**Cast** 1 hour\n\n**Cost** toy carriage, horse statues, rare incense, and feathers worth at least 50 gp total\n\n**Secondary Casters** 1\n\n**Primary Check** Arcana (expert) or Occultism (expert)\n\n**Secondary Checks** Crafting or Driving Lore\n\n**Duration** 1 week or until the named destination is reached, whichever comes first\n\n---\n\nMagic is often the ideal method of transportation. This ritual allows you and the other casters to conjure a magical carriage that transports you to a destination of your choice. To summon the _mystic carriage_, you must be within 250 miles of your destination and spend 1 hour burning incense and feathers while chanting the name of the location you wish the carriage to take you to. When it arrives, the carriage is a Large vehicle that can fit 6 Medium or smaller passengers, as well as 100 Bulk of cargo. It has a Speed of 60 feet, AC 14, Fortitude saving throw modifier of +8, Hardness 5, 100 Hit Points (BT 50), object immunities, and immunity to critical hits and precision damage.\n\n Once loaded and boarded, the _mystic carriage_ sets out at a Speed of 60 feet, heading unerringly towards its destination using whatever roads and trails are available. If it's attacked, it continues going as long as nothing blocks its passage. If something blocks its way, living or otherwise, it will stop until the way is cleared, waiting to continue until all its passengers are aboard once more.\n\n**Success** You create a _mystic carriage_ as described above, save that it lasts only 1 week.\n\n**Failure** You don't create a mystic carriage.\n\n**Critical Failure** You don't create a _mystic carriage_, and you're attacked by a herd of four riding horses.\n\n---\n**Heightened (+1)** The carriage’s AC, Fortitude save, and Hardness increase by 2, its Hit Points increase by 20, and its Broken Threshold increases by 10.",
+    "data": {
+      "rank": 3,
+      "rarity": "uncommon",
+      "traits": [],
+      "cost": "toy carriage, horse statues, rare incense, and feathers worth at least 50 gp total",
+      "cast": "1 hour",
+      "secondaryCasters": "1",
+      "primaryChecks": "Arcana (expert) or Occultism (expert)",
+      "secondaryChecks": "Crafting or Driving Lore",
+      "range": "",
+      "targets": "",
+      "duration": "1 week or until the named destination is reached, whichever comes first",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "impossible-magic",
+      "remaster",
+      "ritual"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Rituals.aspx?ID=260",
+        "page": 195
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "29E68A75-9E9E-5984-B8F7-9CD16493AFF4",
+    "kind": "Ritual",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Peer into the Past",
+    "slug": "peer-into-the-past-impossible-magic-ritual-ritual-261",
+    "descr": "**Cast** 1 day\n\n**Cost** objects collected from the site worth 50 gp × spell’s rank × the primary caster’s level\n\n**Secondary Casters** 2\n\n**Primary Check** Arcana (expert) or Religion (expert)\n\n**Secondary Checks** Arcana or Religion, or Society or Survival\n\n**Area** 100 feet × 100 feet, up to 20 feet high\n\n**Duration** varies\n\n---\n\nWith magic, not even time can truly hide a crime. You recreate a moment in time that occurred within the past year, complete with all creatures present at the time. The scene is an image frozen in time, such as the precise second of a queen's assassination or the deciding vote in a council. Any damage to the recreation causes it to dissipate and immediately ends the ritual.\n\n You must know both the location and moment that you want to recreate, or the ritual's DCs increase by 10 for each piece of missing information. If you know the location and moment but aren't aware of all creatures that were present at the time, the ritual's DCs increase by 2. If you complete the ritual at the physical location you wish to examine, the ritual's DCs decrease by 2. These adjustments are cumulative.\n\n**Critical Success** As success, but the scene lasts for 10 minutes.\n\n**Success** The suspended scene lasts for 1 minute. While it is present, you can interact with the scene, though any creatures present do not respond to stimuli. This allows you to observe any creatures or objects, [Steal](/action/steal-player-core) items to conceal them from other observers, and otherwise investigate the scene.\n\n**Failure** You create a glimpse of the scene, but it disappears a moment later. You do not have time available to investigate it.\n\n**Critical Failure** The scene you create is not suspended, and any creatures within it are hostile to you.\n\n---\n**Heightened (7th)** You recreate a scene from the past 100 years.\n\n**Heightened (9th)** You recreate a scene from the past 1,000 years.\n\n**Heightened (10th)** You recreate a scene from any time, including the future. Looking into the future only provides a snapshot of the most probable future. When peering into the future this way, the cost is instead momentous objects collected from the past worth 250 gp × spell's rank × the primary caster's level.",
+    "data": {
+      "rank": 5,
+      "rarity": "uncommon",
+      "traits": [
+        "illusion"
+      ],
+      "cost": "objects collected from the site worth 50 gp × spell’s rank × the primary caster’s level",
+      "cast": "1 day",
+      "secondaryCasters": "2",
+      "primaryChecks": "Arcana (expert) or Religion (expert)",
+      "secondaryChecks": "Arcana or Religion, or Society or Survival",
+      "range": "",
+      "targets": "",
+      "duration": "varies",
+      "area": "100 feet × 100 feet, up to 20 feet high",
+      "traitLinks": [
+        {
+          "label": "illusion",
+          "slug": "illusion"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "illusion",
+      "impossible-magic",
+      "remaster",
+      "ritual"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Rituals.aspx?ID=261",
+        "page": 195
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "7522C588-32ED-5293-96F5-4F88CBD81B07",
+    "kind": "Ritual",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Portrait of Spite",
+    "slug": "portrait-of-spite-impossible-magic-ritual-ritual-262",
+    "descr": "**Cast** 7 days\n\n**Cost** art supplies worth at least 100 gp × the target’s level and at least one pint of blood from the target\n\n**Secondary Casters** 3\n\n**Primary Check** Occultism or Religion (master)\n\n**Secondary Checks** Crafting, Occultism or Religion (whichever isn't used for the primary check)\n\n**Target(s)** 1 living creature\n\n**Duration** 1 year\n\n---\n\nUsing the blood, you compose a portrait of the target in perfect health. Once the portrait is complete, you recite your grievances against the target and enact on the portrait the punishments you wish to see them face, choosing from the [clumsy](/condition/clumsy-player-core), [enfeebled](/condition/enfeebled-player-core), [drained](/condition/drained-player-core), or [stupefied](/condition/stupefied-player-core) condition. The target must attempt a Will saving throw. The DC is a hard DC for a level that's twice the ritual's spell rank. You're only able to perform this ritual if you know the target's name and are able to see their face clearly in your mind's eye, and the secondary caster who performs the Crafting check must be able to paint or draw the target from memory.\n\n The target suffers the effects over the course of 1d6 hours, during which time the portrait transforms to reveal a caricature of the punishment you chose—muscles atrophied into nothing for enfeebled, pallid and sickly for drained, and so on. The target is immediately aware that they're under the effects of a magical ailment. If the duration expires or the target removes the curse with a 4th-rank [_cleanse affliction_](/spell/cleanse-affliction-player-core) or similar effect, their portrait slowly returns to its original form. Destroying the portrait also ends the effect immediately.\n\n**Critical Success** The target becomes either clumsy 4, drained 4, enfeebled 4, or stupefied 4, depending on the punishment you chose. On a successful Will save, the condition value is 2, and the target is unaffected on a critical success.\n\n**Success** The target becomes either clumsy 2, drained 2, enfeebled 2, or stupefied 2, depending on the punishment you chose. On a successful Will save, the condition value is 1, and the target is unaffected on a critical success.\n\n**Failure** The portrait doesn't change, and the ritual has no effect on the target.\n\n**Critical Failure** The portrait turns into a sickening mimicry of your form and the forms of the secondary casters, and the blood of your target extracts itself from the canvas, dripping down and drying immediately to prevent you from reattempting the ritual. Over the course of the next 1d6 hours, you and the secondary casters experience the curse you had intended to place upon the target with the effects of a critical success.",
+    "data": {
+      "rank": 5,
+      "rarity": "uncommon",
+      "traits": [
+        "curse"
+      ],
+      "cost": "art supplies worth at least 100 gp × the target’s level and at least one pint of blood from the target",
+      "cast": "7 days",
+      "secondaryCasters": "3",
+      "primaryChecks": "Occultism or Religion (master)",
+      "secondaryChecks": "Crafting, Occultism or Religion (whichever isn't used for the primary check)",
+      "range": "",
+      "targets": "1 living creature",
+      "duration": "1 year",
+      "traitLinks": [
+        {
+          "label": "curse",
+          "slug": "curse"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "curse",
+      "impossible-magic",
+      "remaster",
+      "ritual"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Rituals.aspx?ID=262",
+        "page": 196
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "2EB9B4A3-9DCD-5529-9104-03084A612A9D",
+    "kind": "Ritual",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Purify Soul Path",
+    "slug": "purify-soul-path-impossible-magic-ritual-ritual-243",
+    "descr": "**Cast** 1 day\n\n**Cost** rare incense and offerings worth a total value of 10 gp × your level\n\n**Primary Check** Religion (trained)\n\n---\n\nYou delve inward, spending extensive time contemplating the purity of your own soul and your past actions. If you aren’t truly penitent, the outcome is always a critical failure\n\n**Critical Success** You reconcile your misdeeds with your soul path, removing your [_soulforged corruption_](/rule/soulforger-impossible-magic-rules-rules-3688), so the corruption flaw from your armament stops affecting you. Before your reconciliation is complete, you must perform a special quest or other task in accord with your soul path. If completed during downtime, this task should take no less than 1 week. For 1 month, you receive divine insight just before performing an act that would be anathema to your soul path.\n\n**Success** As critical success, but you gain no special insight.\n\n**Failure** You don't reconcile and must continue to meditate and redress your misdeeds. Any future purify soul path rituals for the same misdeeds cost half as much and gain a +4 circumstance bonus to the primary check.\n\n**Critical Failure** As failure, except you do not gain a circumstance bonus to the primary check to future purify soul path rituals for the same misdeed.",
+    "data": {
+      "rank": 2,
+      "rarity": "uncommon",
+      "traits": [],
+      "cost": "rare incense and offerings worth a total value of 10 gp × your level",
+      "cast": "1 day",
+      "secondaryCasters": "",
+      "primaryChecks": "Religion (trained)",
+      "secondaryChecks": "",
+      "range": "",
+      "targets": "",
+      "duration": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "impossible-magic",
+      "remaster",
+      "ritual"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Rituals.aspx?ID=243",
+        "page": 101
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "60FDEEE3-4836-5312-A52E-A0E19D83CEC3",
+    "kind": "Ritual",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Release the Ego to Restore the Soul",
+    "slug": "release-the-ego-to-restore-the-soul-impossible-magic-ritual-ritual-263",
+    "descr": "**Cast** 1 hour\n\n**Cost** incense and perfumes worth 20 gp × the spell’s rank\n\n**Secondary Casters** 1\n\n**Primary Check** Nature (trained) or Occultism (trained)\n\n**Secondary Checks** Nature, Occultism, or Performance\n\n**Area** 30-foot emanation\n\n**Duration** 4 hours\n\n---\n\nYou create abundant music and rally a crowd into a dance. You and every creature in the area move together in laughter and connection. The dancers lose themselves and their minds within it, as their bodies and spirits are overtaken with jubilation.\n\n**Critical Success** The joy of movement cleanses those who participate. Whenever a creature within the emanation [Performs](/action/perform-player-core), they can also attempt to [counteract](/rule/counteracting-rules-3280) their highest-rank detrimental [mental](/trait/mental) effect using the rank of this ritual as the counteract rank. If they do, they gain a +4 status bonus to their check. They can only attempt to counteract an effect once every hour.\n\n**Success** As critical success, except creatures do not gain a status bonus to their checks.\n\n**Failure** The dance fails to release the participants from their worries.\n\n**Critical Failure** You lose control of the dance and become swept along in its energy. After 4 hours of dancing, you finally return to your senses and gain the [fatigued](/condition/fatigued-player-core) condition. Other creatures in the area are unaffected.\n\n---\n**Heightened (4th)** Add curses to the effect that you attempt to counteract on a success.",
+    "data": {
+      "rank": 2,
+      "rarity": "uncommon",
+      "traits": [
+        "aura",
+        "emotion",
+        "healing",
+        "mental",
+        "vitality"
+      ],
+      "cost": "incense and perfumes worth 20 gp × the spell’s rank",
+      "cast": "1 hour",
+      "secondaryCasters": "1",
+      "primaryChecks": "Nature (trained) or Occultism (trained)",
+      "secondaryChecks": "Nature, Occultism, or Performance",
+      "range": "",
+      "targets": "",
+      "duration": "4 hours",
+      "area": "30-foot emanation",
+      "traitLinks": [
+        {
+          "label": "aura",
+          "slug": "aura"
+        },
+        {
+          "label": "emotion",
+          "slug": "emotion"
+        },
+        {
+          "label": "healing",
+          "slug": "healing"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        },
+        {
+          "label": "vitality",
+          "slug": "vitality"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "aura",
+      "emotion",
+      "healing",
+      "impossible-magic",
+      "mental",
+      "vitality",
+      "remaster",
+      "ritual"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Rituals.aspx?ID=263",
+        "page": 196
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "CA8C84CF-2DF8-5226-82A4-CDE54A248961",
+    "kind": "Ritual",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Resolute Obliteration",
+    "slug": "resolute-obliteration-impossible-magic-ritual-ritual-264",
+    "descr": "**Cast** 1 day\n\n**Cost** precious metals to create a ritual circle worth 10 gp × the ritual’s rank\n\n**Primary Check** Arcana (trained)\n\n**Range** touch\n\n**Target(s)** up to 25 Bulk of non-magical items\n\n---\n\nDisposing of unwanted or dangerous objects can be more difficult than simply keeping them in a vault. Cases where something needs to be truly destroyed often require a specialist. Whether it's due to the risks of keeping rusty weapons around or a desire to destroy the treasury before opponents steal it, the best way to handle it is through obliteration.\n\n You gather non-magical objects into your ritual circle and expose them to the forces of the Void. They lose color and turn brittle as they age in moments. With this magical acceleration, even items that typically last for centuries, such as gold or statues, can fall to time. Any item reduced to 0 HP turns to dust.\n\n**Critical Success** The rapid aging deals 10 damage to all targets, which bypasses any Hardness.\n\n**Success** As critical success, but 5 damage.\n\n**Failure** The items are undamaged.\n\n**Critical Failure** The harsh nature of the Void rebounds onto you, dealing 1d6 void damage to you per rank of the ritual.\n\n---\n**Heightened (+1)** Increase the damage dealt to items by 5 (or 10 on a critical success).",
+    "data": {
+      "rank": 1,
+      "rarity": "uncommon",
+      "traits": [],
+      "cost": "precious metals to create a ritual circle worth 10 gp × the ritual’s rank",
+      "cast": "1 day",
+      "secondaryCasters": "",
+      "primaryChecks": "Arcana (trained)",
+      "secondaryChecks": "",
+      "range": "touch",
+      "targets": "up to 25 Bulk of non-magical items",
+      "duration": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "impossible-magic",
+      "remaster",
+      "ritual"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Rituals.aspx?ID=264",
+        "page": 197
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "439BDF78-C3A9-54C0-BAD1-00428A704CD7",
+    "kind": "Ritual",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Rolling Boulders",
+    "slug": "rolling-boulders-impossible-magic-ritual-ritual-265",
+    "descr": "**Cast** 1 hour\n\n**Cost** a precious gemstone worth 50 gp\n\n**Primary Check** Nature (expert)\n\n**Area** 10-foot emanation\n\n---\n\nYou compel the very earth beneath your feet to rise and follow you. When you cast this ritual, you must be on solid ground in an area without much vegetation. If you are not, the ritual automatically fails. When you successfully cast this ritual, boulders rise up within the emanation and constantly roll alongside you. They can move across most terrain, though if you ever don't have your feet on solid ground (such as by climbing a tree, swimming across a deep river, or flying through the air), the effect of the ritual is suppressed until you return to solid ground.\n\n The area is difficult terrain for all other creatures as the boulders hinder their movement. In addition, the boulders grant you [lesser cover](/rule/cover-rules-2372).\n\n When the ritual's duration has ended, the boulders remain in their last location. They are affected normally by anything in their current environment at the usual rate.\n\n**Critical Success** The boulders follow you for 8 hours.\n\n**Success** The boulders follow you for 1 hour.\n\n**Failure** You fail to rouse the stones from their slumber.\n\n**Critical Failure** You anger the earth with your request for it to follow you. You are immediately pelted with loose stones from the area, taking 4d8 bludgeoning damage. For the next year, each time you venture underground, you take the damage again and once every hour you remain underground.",
+    "data": {
+      "rank": 3,
+      "rarity": "uncommon",
+      "traits": [
+        "aura",
+        "earth"
+      ],
+      "cost": "a precious gemstone worth 50 gp",
+      "cast": "1 hour",
+      "secondaryCasters": "",
+      "primaryChecks": "Nature (expert)",
+      "secondaryChecks": "",
+      "range": "",
+      "targets": "",
+      "duration": "",
+      "area": "10-foot emanation",
+      "traitLinks": [
+        {
+          "label": "aura",
+          "slug": "aura"
+        },
+        {
+          "label": "earth",
+          "slug": "earth"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "aura",
+      "earth",
+      "impossible-magic",
+      "remaster",
+      "ritual"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Rituals.aspx?ID=265",
+        "page": 197
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "F4884BFC-1DA8-598D-8555-B646C8298C37",
+    "kind": "Ritual",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Scuplt Appearance",
+    "slug": "scuplt-appearance-impossible-magic-ritual-ritual-266",
+    "descr": "**Cast** 1 week\n\n**Cost** rare clay and pigments worth 20 gp × the rank of the ritual\n\n**Primary Check** Arcana (expert) or Nature (expert)\n\n**Range** touch\n\n**Target(s)** 1 willing creature\n\n**Duration** unlimited\n\n---\n\nYou permanently alter a creature's appearance, typically by sculpting new features by applying clay and coloring it with appropriate pigments. These transform the target once they see their new face and accept it as their own.\n\n The target keeps their same size, ancestry, heritage, statistics, and traits, but you can adjust any other aspect of their appearance, including hair color, facial features, gender, and height (while remaining within the same size category).\n\n You can't attempt to change the target's appearance to that of another specific creature; any attempt to do so results in unexpected but obvious differences.\n\n**Critical Success** You change the target's appearance as desired. Until this appearance is changed, any future attempt to sculpt appearance on the target gains a +2 status bonus to the primary check.\n\n**Success** You change the target's appearance as desired.\n\n**Failure** You fail to create a new appearance for your target.\n\n**Critical Failure** The ritual's magic turns on you, and for the next month, the features of your face change and sometimes even disappear at random intervals when you try to speak with someone or hide these unprompted alterations. During this time, you take a –4 status penalty to Deception, Diplomacy, Intimidation, and Performance checks.\n\n---\n**Heightened (5th)** You can adjust the appearance of your target’s ancestry and heritage. This does not change their traits, size, or statistics.",
+    "data": {
+      "rank": 3,
+      "rarity": "uncommon",
+      "traits": [],
+      "cost": "rare clay and pigments worth 20 gp × the rank of the ritual",
+      "cast": "1 week",
+      "secondaryCasters": "",
+      "primaryChecks": "Arcana (expert) or Nature (expert)",
+      "secondaryChecks": "",
+      "range": "touch",
+      "targets": "1 willing creature",
+      "duration": "unlimited",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "impossible-magic",
+      "remaster",
+      "ritual"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Rituals.aspx?ID=266",
+        "page": 197
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "5E23015E-ED90-53FF-BDC8-91C59813A048",
+    "kind": "Ritual",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Separation",
+    "slug": "separation-impossible-magic-ritual-ritual-267",
+    "descr": "**Cast** 1 week\n\n**Cost** protective emblems worth a total value of 5,000 gp\n\n**Secondary Casters** 3\n\n**Primary Check** Religion (master) or Occultism (master)\n\n**Secondary Checks** Society\n\n**Target(s)** 2 creatures who you know\n\n**Duration** varies\n\n---\n\nYou permanently separate two creatures from each other, splitting them as a lightning bolt severs a tree's trunk. Their paths bend around your meddling so that the powers of the universe and fate keep them apart. The two targets feel this as a constant subtle, magnetic push, though it's only once they approach the other closely that the feeling can't be overcome.\n\n When you cast this ritual, select two creatures who you know. Each target can attempt a Will save against the higher of your class DC or spell DC if they are not willing. If either target succeeds at their save, the ritual fails. For the duration of this ritual, the targets cannot approach within 100 feet of each other. If an effect would attempt to force them together, the ritual attempts to counteract that effect. If it fails to counteract it, the ritual ends.\n\n Creatures separated from each other must attempt a DC 5 flat check when they target the other creature with an attack or spell, even if it is a ranged attack. On a failure, their action is lost.\n\n**Critical Success** As success, but the ritual lasts for 1 year.\n\n**Success** You ward the affected creatures from each other. This ritual lasts for 1 month.\n\n**Failure** You fail to bend the fates of the targets away from each other.\n\n**Critical Failure** You accidentally intertwine your fate with those of the targets. For the next year, whenever you start your turn within 100 feet of one of the targets, you must spend at least one action per turn moving closer to them. If you are adjacent to one of the targets at the start of your turn, you must spend an action that turn doing nothing but looking at them. If you start your turn within 100 feet of both targets, these effects are cumulative, so you must spend one action moving toward one target and then another action moving toward the other.",
+    "data": {
+      "rank": 9,
+      "rarity": "uncommon",
+      "traits": [
+        "emotion",
+        "incapacitation",
+        "mental"
+      ],
+      "cost": "protective emblems worth a total value of 5,000 gp",
+      "cast": "1 week",
+      "secondaryCasters": "3",
+      "primaryChecks": "Religion (master) or Occultism (master)",
+      "secondaryChecks": "Society",
+      "range": "",
+      "targets": "2 creatures who you know",
+      "duration": "varies",
+      "traitLinks": [
+        {
+          "label": "emotion",
+          "slug": "emotion"
+        },
+        {
+          "label": "incapacitation",
+          "slug": "incapacitation"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "emotion",
+      "impossible-magic",
+      "incapacitation",
+      "mental",
+      "remaster",
+      "ritual"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Rituals.aspx?ID=267",
+        "page": 198
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "960FDA85-C665-5102-B1B2-873663A3FCD9",
+    "kind": "Ritual",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Shround of Provinces",
+    "slug": "shround-of-provinces-impossible-magic-ritual-ritual-268",
+    "descr": "**Cast** 1 day\n\n**Secondary Casters** 1\n\n**Primary Check** Nature (proficiency)\n\n**Secondary Checks** Nature or Society\n\n**Area** 1-mile emanation\n\n**Duration** 1 week\n\n---\n\nBy gathering dewdrops collected on a foggy morning, you can distill the essence of that fog and release it over a settlement. While this is generally used to protect a settlement from the attention of nearby battles, raiders targeting the port city of Ridonport once used it to disorient the town before their attack. While the shroud hangs, a fine mist coats that area. It dampens uncovered surfaces and pools into thick drops of condensation.\n\n The shroud shades the settlement. The [light level](/rule/light-rules-2401) is one level darker than normal (bright light becomes dim light, and dim light becomes darkness). Creatures within the shroud are [concealed](/condition/concealed-player-core) from those outside. Within the shroud, sound does not travel farther than 30 feet, and creatures are concealed to all creatures further than 30 feet away.\n\n**Critical Success** The foggy shroud emanates from you, and creatures within the area aren't concealed from you.\n\n**Success** The foggy shroud emanates from you.\n\n**Failure** The foggy shroud fails to appear.\n\n**Critical Failure** The shroud's area is a 1-mile burst centered on you instead of an aura. The shadows lash out at creatures in the mist and seek to push them away. Everyone within the shroud feels the urge to leave it.\n\n---\n**Heightened (8th)** Additionally, creatures become [invisible](/condition/invisible-player-core) while they are inside the shroud to creatures outside of the shroud.",
+    "data": {
+      "rank": 6,
+      "rarity": "uncommon",
+      "traits": [],
+      "cost": "",
+      "cast": "1 day",
+      "secondaryCasters": "1",
+      "primaryChecks": "Nature (proficiency)",
+      "secondaryChecks": "Nature or Society",
+      "range": "",
+      "targets": "",
+      "duration": "1 week",
+      "area": "1-mile emanation",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "impossible-magic",
+      "remaster",
+      "ritual"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Rituals.aspx?ID=268",
+        "page": 198
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "BF549A13-D5D7-58AD-9CC0-4741F41A8815",
+    "kind": "Ritual",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Still Life Storage",
+    "slug": "still-life-storage-impossible-magic-ritual-ritual-269",
+    "descr": "**Cast** 1 hour\n\n**Cost** a primed canvas and paints worth the highest target’s level × 10 gp\n\n**Primary Check** Occultism (trained)\n\n**Range** touch\n\n**Target(s)** up to 15 Bulk of non-magical objects that can fit in a 20-foot cube\n\n**Duration** unlimited\n\n---\n\nAs you paint, you transform objects into a still life painting. The items disappear from the world around you as the canvas fills. You can reach into this painting and retrieve objects stored within it with an [Interact](/action/interact-player-core) action, though you cannot return objects that are removed or add additional objects to the scene. Other creatures can retrieve objects as well, though it requires a successful Crafting, Occultism or Perception check against the higher of your class DC or spell DC to Identify the _still life storage_. If a creature is already aware of the properties of the _still life storage_, they can Interact to take objects.\n\n**Critical Success** You create the still life scene as described, and you can designate up to 3 Bulk of objects that only you can Interact with.\n\n**Success** You create the still life scene as described.\n\n**Failure** You fail to capture the objects within the canvas. They are otherwise unchanged by the attempt.\n\n**Critical Failure** The still life twists the objects you store in it, altering their appearance and inflicting each with the [broken](/condition/broken-player-core) condition.\n\n---\n**Heightened (3rd)** You can target magical objects with a level that does not exceed twice the _still life storage's_ rank.",
+    "data": {
+      "rank": 2,
+      "rarity": "uncommon",
+      "traits": [
+        "extradimensional"
+      ],
+      "cost": "a primed canvas and paints worth the highest target’s level × 10 gp",
+      "cast": "1 hour",
+      "secondaryCasters": "",
+      "primaryChecks": "Occultism (trained)",
+      "secondaryChecks": "",
+      "range": "touch",
+      "targets": "up to 15 Bulk of non-magical objects that can fit in a 20-foot cube",
+      "duration": "unlimited",
+      "traitLinks": [
+        {
+          "label": "extradimensional",
+          "slug": "extradimensional"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "extradimensional",
+      "impossible-magic",
+      "remaster",
+      "ritual"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Rituals.aspx?ID=269",
+        "page": 198
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "B3D513FE-151F-5E6F-A6DE-51B6F35D59A4",
+    "kind": "Ritual",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "The World's a stage",
+    "slug": "the-world-s-a-stage-impossible-magic-ritual-ritual-272",
+    "descr": "**Cast** 1 day\n\n**Cost** costumes and a stage large enough to fit all casters\n\n**Secondary Casters** 2 to 12\n\n**Primary Check** Occultism (expert)\n\n**Secondary Checks** Crafting, Performance\n\n**Duration** 1 month\n\n---\n\nThis famous ritual is a sophisticated example of symbolic magic, binding fate and fortune to follow a prepared script. To conduct the ritual, you and the secondary casters must put on a long-form, multi-person, plot-based performance that's usually a play or opera, though more unusual performances have been known. You take the role of the director, while the secondary casters are either actors (Performance) or significant backstage figures, such as set or costume designers (Crafting). The casting time of the ritual includes both preparations and rehearsals of various sorts and the actual performance, which must be at least an hour long.\n\n The performance presents current events and offers a particular vision on how they resolve, often in metaphorical or allegorical format (proposing the overthrow of a tyrant by referring to a different, legendary tyrant who was overthrown, or suggesting that a murderous secret might be uncovered by presenting an allegory of truth defeating murder). This performance must be presented to an audience of at least a hundred people, a majority of whom must both be connected, at least peripherally, to the events in question (the people of the tyrant's city or the residents of the village where the murder occurred) and who must understand what the metaphor or allegory refers to. For the magic to spark, the performance must declare its purpose loudly and clearly to the parties most concerned. If a major antagonist featured in the performance is in the audience and the ritual is a success, you get a critical success instead.\n\n**Critical Success** Something sparks between performance and audience, and destiny conspires to push events in the right direction. You and each secondary caster can reroll up to three skill checks at any point during the duration of the ritual after determining the results, as long as the skill check is connected to ensuring the topic of the performance comes true (to sneak past the tyrant's guards or find the murder weapon, for instance).\n\n**Success** As critical success, except the sparks of destiny are weaker, so each caster can reroll only a single skill check.\n\n**Failure** The ritual has no effect.\n\n**Critical Failure** The performance is a dramatic and horrendous botch, and fate strikes out at the casters. You and each secondary caster are [doomed](/condition/doomed-player-core) 1 for the next month, and this condition can't be removed by anything less than a [_wish_](/ritual/wish-player-core) ritual or similarly powerful magic.",
+    "data": {
+      "rank": 5,
+      "rarity": "uncommon",
+      "traits": [
+        "fortune"
+      ],
+      "cost": "costumes and a stage large enough to fit all casters",
+      "cast": "1 day",
+      "secondaryCasters": "2 to 12",
+      "primaryChecks": "Occultism (expert)",
+      "secondaryChecks": "Crafting, Performance",
+      "range": "",
+      "targets": "",
+      "duration": "1 month",
+      "traitLinks": [
+        {
+          "label": "fortune",
+          "slug": "fortune"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "fortune",
+      "impossible-magic",
+      "remaster",
+      "ritual"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Rituals.aspx?ID=272",
+        "page": 199
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "44131510-84F8-5560-A888-CEBE4F873778",
+    "kind": "Ritual",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Uncouple Memory",
+    "slug": "uncouple-memory-impossible-magic-ritual-ritual-270",
+    "descr": "**Cast** 1 day\n\n**Cost** surgical supplies worth 400 gp\n\n**Primary Check** Arcana (master), Nature (master), Occultism (master), or Religion (master)\n\n**Duration** unlimited\n\n---\n\nSome knowledge cannot persist in the world and haunts those who possess it. Unfortunately, some of that knowledge belongs to you. With the assistance of your secondary casters, you split your mind into uneven sections. Your primary mind contains your personality, goals, general knowledge, and abilities. Your uncoupled mind exists to hold the knowledge that you have decided to hide within your own consciousness, plus a personality that oversees it. You can select the personality that appears, such as making it a copy of your own or a version of yourself tailored to protect that knowledge. While your primary mind is active, your uncoupled mind is not accessible. Accessing it requires subduing your primary mind, such as by falling asleep or entering a trance.\n\n This does not remove all traces of the knowledge you've sequestered from the world. If you shared it with others (or if someone else also discovered that knowledge), they can still spread it. However, if you hear, see, or otherwise encounter the uncoupled knowledge while your primary mind is active, you become [stunned](/condition/stunned-player-core) 3 and your uncoupled mind becomes active instead. Your uncoupled mind can [Dismiss](/action/dismiss-player-core) themself based on a set condition when performing this ritual or based on their own judgment, reactivating your primary mind.\n\n**Critical Success** The ritual succeeds. When your uncoupled mind would become active, you can attempt a DC 5 flat check. On a success, your primary mind stays active.\n\n**Success** As critical success, by the flat check is DC 10.\n\n**Failure** You fail to uncouple your memory from your mind, leaving your memory and personality unaltered.\n\n**Critical Failure** You uncouple the wrong memories, creating an uncoupled mind with unintended knowledge that your primary mind cannot access (as determined by the GM).",
+    "data": {
+      "rank": 6,
+      "rarity": "uncommon",
+      "traits": [
+        "mental"
+      ],
+      "cost": "surgical supplies worth 400 gp",
+      "cast": "1 day",
+      "secondaryCasters": "",
+      "primaryChecks": "Arcana (master), Nature (master), Occultism (master), or Religion (master)",
+      "secondaryChecks": "",
+      "range": "",
+      "targets": "",
+      "duration": "unlimited",
+      "traitLinks": [
+        {
+          "label": "mental",
+          "slug": "mental"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "impossible-magic",
+      "mental",
+      "remaster",
+      "ritual"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Rituals.aspx?ID=270",
+        "page": 198
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "E8F10E1F-8197-5526-8BAF-B28FDF3AA9CD",
+    "kind": "Ritual",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Unsealing of Secrets",
+    "slug": "unsealing-of-secrets-impossible-magic-ritual-ritual-271",
+    "descr": "**Cast** 1 day\n\n**Cost** fine inks, pens, and papers worth 150 gp\n\n**Secondary Casters** 1\n\n**Primary Check** Occultism (master)\n\n**Secondary Checks** Occultism, or Society\n\n**Target(s)** 1 blank sheet of parchment\n\n---\n\nYou place the writing instruments on the parchment while you call upon a spirit to answer your questions. The called spirit is from the area that you are in, has been dead for at least 100 years, and writes in the language that they spoke in life. They have access to all secrets ever spoken aloud or written down in their language within 5 miles of the location where you perform the ritual. This knowledge is fleeting, and the spirit has limited ability to write.\n\n When you cast this ritual, you can ask a question of the spirit. It answers to the best of its ability, with the GM determining if a secret was ever spoken aloud or written down.\n\n**Critical Success** The spirit answers your question with 25 words or fewer.\n\n**Success** The spirit answers your question with 10 words or fewer.\n\n**Failure** The spirit’s writing is garbled and unintelligible.\n\n**Critical Failure** The spirit’s answer is 10 words or fewer and contains false information.",
+    "data": {
+      "rank": 4,
+      "rarity": "rare",
+      "traits": [
+        "secret"
+      ],
+      "cost": "fine inks, pens, and papers worth 150 gp",
+      "cast": "1 day",
+      "secondaryCasters": "1",
+      "primaryChecks": "Occultism (master)",
+      "secondaryChecks": "Occultism, or Society",
+      "range": "",
+      "targets": "1 blank sheet of parchment",
+      "duration": "",
+      "traitLinks": [
+        {
+          "label": "secret",
+          "slug": "secret"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "impossible-magic",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "impossible-magic",
+      "remaster",
+      "ritual",
+      "secret"
+    ],
+    "sources": [
+      {
+        "name": "Impossible Magic",
+        "url": "https://2e.aonprd.com/Rituals.aspx?ID=271",
+        "page": 199
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  }
+]

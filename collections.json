@@ -6,16 +6,9 @@
     "reaction",
     "free"
   ],
-  "Alignment": [
-    "LG",
-    "NG",
-    "CG",
-    "LN",
-    "NN",
-    "CN",
-    "LE",
-    "NE",
-    "CE"
+  "Sanctification": [
+    "holy",
+    "unholy"
   ],
   "Attribute": [
     "strength",
@@ -50,5 +43,20 @@
     "spell",
     "focus",
     "ritual"
+  ],
+  "DurationType": [
+    "savingThrow",
+    "sourceEndNextTurn",
+    "sourceStartNextTurn",
+    "targetEndNextTurn",
+    "targetStartNextTurn",
+    "time",
+    "untilDispelled"
+  ],
+  "DurationUnit": [
+    "round",
+    "minute",
+    "hour",
+    "day"
   ],
 }

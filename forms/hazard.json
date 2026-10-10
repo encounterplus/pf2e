@@ -1,0 +1,41 @@
+{
+  "title": "Hazard",
+  "sections": [
+    { "type": "group", "fields": [
+      { "title": "Common.Level", "type": "number", "attribute": "data.level" },
+      { "title": "Common.Type", "attribute": "data.complexity" },
+      { "title": "Common.Rarity", "type": "picker", "attribute": "data.rarity", "attributeType": "Rarity" },
+      { "title": "Common.Traits", "type": "tags", "attribute": "data.traits", "attributeType": "Trait" }
+    ] },
+    { "title": "Common.Defenses", "type": "group", "fields": [
+      { "title": "Stealth DC (simple hazard detection)", "type": "number", "attribute": "data.stealthDC" },
+      { "title": "Stealth Modifier (complex hazard initiative)", "type": "number", "attribute": "data.stealth" },
+      { "title": "Stealth Requirements", "attribute": "data.stealthDetails" },
+      { "title": "Common.AC", "type": "number", "attribute": "data.ac.value" },
+      { "title": "Common.HP", "type": "number", "attribute": "data.hp.value" },
+      { "title": "Break Threshold (BT)", "type": "number", "attribute": "data.hp.bt" },
+      { "title": "Item.Hardness", "type": "number", "attribute": "data.hardness" },
+      { "title": "Immunities", "type": "list", "attribute": "data.immunities" },
+      { "title": "Weaknesses", "attribute": "data.weaknesses" },
+      { "title": "Resistances", "attribute": "data.resistances" },
+      { "title": "SavingThrow.Fortitude", "type": "number", "attribute": "data.saves.fortitude" },
+      { "title": "SavingThrow.Reflex", "type": "number", "attribute": "data.saves.reflex" },
+      { "title": "SavingThrow.Will", "type": "number", "attribute": "data.saves.will" }
+    ] },
+    { "type": "group", "fields": [
+      { "title": "Description (statblock)", "type": "textArea", "attribute": "data.description" },
+      { "title": "Disable", "type": "textArea", "attribute": "data.disable" },
+      { "title": "Routine", "type": "textArea", "attribute": "data.routine" },
+      { "title": "Reset", "type": "textArea", "attribute": "data.reset" }
+    ] },
+    { "title": "Hazard Strikes", "type": "list", "attribute": "data.attacks", "form": {
+      "title": "Creature.Attack", "partial": "attack"
+    } },
+    { "title": "Hazard Abilities", "type": "list", "attribute": "data.abilities", "form": {
+      "title": "Creature.Ability", "partial": "ability"
+    } },
+    { "title": "Additional Text (below statblock)", "type": "group", "fields": [
+      { "type": "textArea", "attribute": "descr", "custom": { "lines": 10 } }
+    ] }
+  ]
+}

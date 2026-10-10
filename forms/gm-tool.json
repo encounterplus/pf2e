@@ -1,0 +1,19 @@
+{
+  "title": "GM Tool",
+  "sections": [
+    {
+      "title": "Common.Description",
+      "type": "group",
+      "fields": [
+        { "type": "textArea", "attribute": "descr", "custom": { "lines": 6 } }
+      ]
+    },
+    {
+      "title": "Common.Notes",
+      "type": "group",
+      "fields": [
+        { "type": "textArea", "attribute": "notes", "custom": { "lines": 6 } }
+      ]
+    }
+  ]
+}

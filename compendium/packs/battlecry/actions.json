@@ -1,0 +1,2907 @@
+[
+  {
+    "id": "A425B5C2-A3C2-5891-9D85-7E262B8A7136",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Special Forces Bond) Ambush Troop",
+    "slug": "special-forces-bond-ambush-troop-battlecry",
+    "descr": "**Prerequisites** expert in Stealth\n\nYou've trained your troop in several techniques that allows your group to remain stealthy despite your numbers. Any time you and your troop need to attempt a Stealth check, you roll only once and use the higher Stealth modifer. This benefit applies when you explore with your troop—such as when using the Avoid Notice exploration activity—not only in a skirmish encounter.\n\nIn addition, you let your troop take full advantage of creatures that are [Off Guard](/condition/off-guard-player-core) to them, even though most troops can't coordinate their attacks precisely enough to do so. Creatures that are off-guard to your troop take a –2 circumstance penalty to saving throws and save DCs against your troop's ofensive abilities.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "FFF84809-C5E3-50D0-A464-68B29A4035A1",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Special Forces Bond) Combo Attack",
+    "slug": "special-forces-bond-combo-attack-battlecry",
+    "descr": "**Prerequisite** expert proficiency with one or more weapons or unarmed attacks\n\nYou can attack in tandem with your troop, using your attacks to make openings for your troop to finish the job. When you make a Strike on your turn, any creature you hit takes a –1 status penalty to saving throws against any offensive ability your troop uses this turn.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "auditory",
+        "concentrate",
+        "skirmish"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": [
+        {
+          "label": "auditory",
+          "slug": "auditory"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "skirmish",
+          "slug": "skirmish"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "auditory",
+      "battlecry",
+      "concentrate",
+      "remaster",
+      "skirmish"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4CC87C3B-4977-5AE5-AFB4-C8903ECB46D2",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Special Forces Bond) Coordinated Casting",
+    "slug": "special-forces-bond-coordinated-casting-battlecry",
+    "descr": "**Prerequisites** You're a spellcaster, and your troop has spells or an offensive ability with the arcane, divine, magical, occult, or [primal](/trait/primal) trait.\n\nYou can cast spells in tandem with your troop. When you Cast a Spell on your turn, any creature that you hit with a spell attack for the spell or that fails its save against your spell takes a –1 status penalty to AC, save DCs, and saving throws against any spell your troop Casts this turn or magical ability your troop uses this turn.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C4E2B5F3-938B-5AD2-AE69-7E65CE264E1C",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Special Forces Bond) Desperate Fervor",
+    "slug": "special-forces-bond-desperate-fervor-battlecry",
+    "descr": "**Prerequisites** expert in Diplomacy, Intimidation, or Performance\n\nWhen the chips are down, your troop becomes more dangerous. While your troop has 3 or fewer segments, it gains a +1 status bonus to AC, save DCs, and saving throws, and a status bonus to damage rolls equal to half your level. The damage bonus increases to your full level if the troop has only 2 segments.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "38BBA2CE-E2E3-5C4D-9647-00CD71A0B5DF",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Special Forces Bond) Discipline",
+    "slug": "special-forces-bond-discipline-battlecry",
+    "descr": "**Prerequisites** expert in Will saves\n\nYour troop automatically critically succeeds at rout checks. If you're knocked [Unconscious](/condition/unconscious-player-core), your troop still improves its degree of success on rout checks by one step until the end of the encounter, as a troop with a leader does.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0F230F3B-AF73-5FD7-AF0C-05FD1F327F2D",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Special Forces Bond) Inescapable Troop",
+    "slug": "special-forces-bond-inescapable-troop-battlecry",
+    "descr": "**Prerequisites** Reactive Strike\n\nYour troop locks down opposing forces, keeping them from repositioning on the battlefield. Your troop gains the Inescapable Onslaught reaction.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1327D678-FF90-56C3-AC39-8E5020984F69",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Special Forces Bond) Magical Defenses",
+    "slug": "special-forces-bond-magical-defenses-battlecry",
+    "descr": "**Prerequisites** You're a spellcaster.\n\nYou develop magical wards for your troops. Your troop gains a +1 status bonus to all defenses against magic.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B33B0FAF-B23B-517E-AD79-8A41A1AAD859",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Special Forces Bond) Mobile Troop",
+    "slug": "special-forces-bond-mobile-troop-battlecry",
+    "descr": "**Prerequisites** expert in Acrobatics\n\nYour troop can move across the battlefield nimbly. When you and your troop are moving, the combined unit gains a +5-foot status bonus to all movement Speeds. In addition, if you or your troop uses a special action, spell, or other ability that allows a special type of movement, such as Wall Jump, translocate, or a fly Speed, you can move together even if that normally wouldn't be possible.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "CCE6A231-3ACA-5E99-8370-F01F13115C6E",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Special Forces Bond) Rage and Rule",
+    "slug": "special-forces-bond-rage-and-rule-battlecry",
+    "descr": "**Prerequisites** You have the [Rage](/action/rage-player-core-2) action.\n\nYour troop learns the incredible rush of raging in battle. When you Rage, your troop gains half the number of temporary Hit Points you do. These temporary Hit Points last for 1 minute, and the troop can't gain temporary HP from this ability again for 1 minute.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "763CFE3F-8CE1-5971-9F06-B8E9258DF5BF",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Special Forces Bond) Shield Wall",
+    "slug": "special-forces-bond-shield-wall-battlecry",
+    "descr": "**Prerequisites** Shield Block\n\n**Requirements** You're wielding a shield.\n\nYou've equipped your troop with shields, and they raise them at your command. You Raise your Shield, and both you and your troop gain a +2 circumstance bonus to AC and Reflex saves until the start of your next turn.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "auditory",
+        "concentrate",
+        "skirmish"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "You're wielding a shield",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "auditory",
+          "slug": "auditory"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "skirmish",
+          "slug": "skirmish"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "auditory",
+      "battlecry",
+      "concentrate",
+      "remaster",
+      "skirmish"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5C8AF8E9-4252-5AC4-9F96-E2071B6342B1",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Special Forces Bond) Troop Mascot",
+    "slug": "special-forces-bond-troop-mascot-battlecry",
+    "descr": "**Prerequisites** You have a companion (such as an animal companion, eidolon, familiar, or pet).\n\nYour troop finds your companion creature charming, and the members of your troop have bonded with your pet. Your companion gains resistance equal to your troop's level to all damage. If you have an eidolon, when an effect damages both of you, this resistance applies after you determine the higher amount of damage.\n\nIf you have an animal companion, its Support benefit applies to your troop as well as you.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "CFDBCC52-0B5D-5234-AD0C-F0A3F9B9E868",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Special Forces Bond) Under Command",
+    "slug": "special-forces-bond-under-command-battlecry",
+    "descr": "**Prerequisites** You have the tactics class feature.\n\nLeading troops is second nature to you, and the lessons of your tactics apply to entire groups of allies. Your troop counts as one of your squadmates and doesn't count against your maximum number of squadmates.\n\nIn addition, troops who are your squadmates can use an offensive ability instead of a Strike whenever you use a tactic that would allow them to Strike. If you specifically grant a melee Strike, they have to use an emanation ability; if you specifically grant a ranged Strike, they have to use a burst ability. They must use the 1-action or 2-action version of the offensive ability. These offensive abilities count against the number of Strikes you can grant with your tactic. This works with any troop squadmates, whether you're leading them or an ally is.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8FA423B5-1541-5722-B9A0-05889B94D775",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Special Forces) Inescapable Onslaught",
+    "slug": "special-forces-inescapable-onslaught-battlecry",
+    "descr": "**Trigger** A creature adjacent to the troop uses a move action that would cause it to no longer be adjacent\n\n**Effect** The troop uses the 2-action version of one of its offensive abilities that has an emanation, but only the triggering creature is affected. In addition, if the creature critically fails its saving throw, the move action is disrupted. If the offensive ability could be used only once per round, this reaction ignores that limit.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "A creature adjacent to the troop uses a move action that would cause it to no longer be adjacent",
+      "actions": "reaction",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "DCECD495-A6A5-5EE2-A1A4-29CBBB3C2B58",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Alley-Oop",
+    "slug": "alley-oop-battlecry",
+    "descr": "Your team excels at sharing resources and delivering them exactly where they need to be. Signal a squadmate within the aura of your banner who is holding or wearing a consumable that can be activated as a single action. That squadmate can toss their consumable to any other squadmate within the aura of your banner as a free action, and the receiving squadmate can catch and activate the consumable as a reaction. If the receiving squadmate chooses not to catch the consumable or if they don't have a free hand to catch it with, it lands on the ground in their space.\n\n**Special** If the consumable is a piece of activated ammunition and the receiving squadmate is wielding a compatible weapon that takes 1 or fewer actions to reload, they can load the ammunition into their weapon as part of the reaction used to catch and activate it. The ammunition remains activated until the end of their next turn.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "commander",
+        "tactic"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "commander",
+          "slug": "commander"
+        },
+        {
+          "label": "tactic",
+          "slug": "tactic"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "commander",
+      "remaster",
+      "tactic"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "526447D8-6919-5859-97D0-95BC3F6BB30F",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Bloody Guillotine",
+    "slug": "bloody-guillotine-battlecry",
+    "descr": "**Frequency** once per day\n\nYour squad performs a brutal combination attack that levels an enemy and attempts to put them down permanently. Choose and signal up to three squadmates within the aura of your commander's banner. Each squadmate can Stride up to half their Speed directly toward a single enemy you designate as a free action. Any who end their movement adjacent to the designated target can attempt to [Trip](/action/trip-player-core) or Strike it as a reaction.\n\nThe first time a [Prone](/condition/prone-player-core) enemy is successfully dealt damage by a Strike from this tactic, they must immediately attempt a Fortitude save against your class DC or die; this is a death and incapacitation effect. All enemies who witness a creature slain by Bloody Guillotine must succeed at a Will save against your class DC or become [Sickened 1](/condition/sickened-player-core) for 1 round (Sickened 2 for 1 round on a critical failure); this is an emotion and mental effect.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "commander",
+        "tactic"
+      ],
+      "category": "offensive",
+      "frequency": "once per day",
+      "requirements": "",
+      "trigger": "",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "commander",
+          "slug": "commander"
+        },
+        {
+          "label": "tactic",
+          "slug": "tactic"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "commander",
+      "remaster",
+      "tactic"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0B954AF0-67F1-54E5-940E-E502C573342B",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Buckle-Cut Blitz",
+    "slug": "buckle-cut-blitz-battlecry",
+    "descr": "Your squad dashes past enemies, slicing their boot laces and breaking their belt buckles. Signal up to two squadmates within the aura of your commander's banner; these squadmates can Stride up to their Speed as a reaction. Each enemy they are adjacent to at any point during this movement must attempt a Reflex save against your class DC or become [Clumsy 1](/condition/clumsy-player-core) for 1 round (Clumsy 2 on a critical failure).",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "brandish",
+        "commander",
+        "tactic"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "brandish",
+          "slug": "brandish"
+        },
+        {
+          "label": "commander",
+          "slug": "commander"
+        },
+        {
+          "label": "tactic",
+          "slug": "tactic"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "brandish",
+      "commander",
+      "remaster",
+      "tactic"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "457EC979-F465-577F-A8EB-00939A7DC988",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Call Follower",
+    "slug": "call-follower-battlecry",
+    "descr": "You spend 1 minute calling for a different follower, switching your active follower for another of your followers.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "exploration"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": [
+        {
+          "label": "exploration",
+          "slug": "exploration"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "exploration",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E0C042BC-CF6D-5B46-A820-6B36FB78BB7C",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Coordinating Maneuvers",
+    "slug": "coordinating-maneuvers-battlecry",
+    "descr": "Your team works to slip enemies into a disadvantageous position. Signal one squadmate within the aura of your banner; that squadmate can immediately Step as a free action. If they end this movement next to an opponent, they can attempt to [Reposition](/action/reposition-player-core) that target as a reaction.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "brandish",
+        "commander",
+        "tactic"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "brandish",
+          "slug": "brandish"
+        },
+        {
+          "label": "commander",
+          "slug": "commander"
+        },
+        {
+          "label": "tactic",
+          "slug": "tactic"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "brandish",
+      "commander",
+      "remaster",
+      "tactic"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D971D85E-BAED-5183-990A-79BF5B275A3C",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Crescent Spray",
+    "slug": "crescent-spray-battlecry",
+    "descr": "**Requirements** You are wielding a crescent cross\n\n**Effects** You Strike up to three times with the ranged version of your crescent cross. If it is currently in its melee configuration, you can swap it to its ranged configuration as a free action before attempting these Strikes. You must have a bolt already chambered for each Strike and can Interact to swap to a different capacity chamber as a free action between each Strike. Each attack counts toward your multiple attack penalty, but you do not increase your penalty until you have made all your attacks.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "flourish"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "You are wielding a crescent cross",
+      "trigger": "",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "flourish",
+          "slug": "flourish"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "flourish",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F2782282-B503-5B1E-A5FC-BABBEA488D1F",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Cry Havoc!",
+    "slug": "cry-havoc-battlecry",
+    "descr": "**Frequency** once per day\n\nYour squad rallies with a resounding clangor that drowns out all other sounds of war. Choose an enemy you are observing and signal all squadmates within the aura of your commander's banner. All squadmates can Stride up to twice their Speed directly toward the target as a reaction, yelling and trampling. When any squadmate enters a square adjacent to any enemy, that enemy must attempt a basic Fortitude save against your class DC or take 2d6 bludgeoning damage and 2d6 sonic damage damage, plus an additional 2d6 bludgeoning and 2d6 sonic damage for every squadmate participating in Cry Havoc! (enemies who critically fail are [Deafened](/condition/deafened-player-core) for 1 round). Regardless of the outcome, the enemy is then temporarily immune to any further damage from Cry Havoc! for 24 hours.\n\nSquadmates can use Cry Havoc! while Burrowing, Climbing, Flying, or Swimming instead of Striding if they have the corresponding movement type.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "brandish",
+        "commander",
+        "tactic"
+      ],
+      "category": "offensive",
+      "frequency": "once per day",
+      "requirements": "",
+      "trigger": "",
+      "actions": "three",
+      "traitLinks": [
+        {
+          "label": "brandish",
+          "slug": "brandish"
+        },
+        {
+          "label": "commander",
+          "slug": "commander"
+        },
+        {
+          "label": "tactic",
+          "slug": "tactic"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "brandish",
+      "commander",
+      "remaster",
+      "tactic"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "7A59A348-295D-58DE-86F6-A45A79111928",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Defensive Retreat",
+    "slug": "defensive-retreat-battlecry",
+    "descr": "You call for a careful retreat. Signal all squadmates within the aura of your banner; each can immediately Step up to three times as a free action. Each Step must take them farther away from at least one [hostile](/condition/hostile-player-core) creature they are observing and can only take them closer to a hostile creature if doing so is the only way for them to move toward safety (such as if they're surrounded).",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "brandish",
+        "commander",
+        "tactic"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "brandish",
+          "slug": "brandish"
+        },
+        {
+          "label": "commander",
+          "slug": "commander"
+        },
+        {
+          "label": "tactic",
+          "slug": "tactic"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "brandish",
+      "commander",
+      "remaster",
+      "tactic"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "7A26FC1F-B44D-5787-9114-3F1201592A5B",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Demoralizing Charge",
+    "slug": "demoralizing-charge-battlecry",
+    "descr": "Your team's coordinated assault strikes fear into your enemies' hearts. Signal up to two squadmates within the aura of your commander's banner; as a free action, those squadmates can immediately Stride toward an enemy they are observing.\n\nIf they end this movement adjacent to an enemy, they can attempt to Strike that enemy as a reaction. For each of these Strikes that are successful, the target enemy must succeed at a Will save against your class DC or become [Frightened 1](/condition/frightened-player-core) (Frightened 2 on a critical failure); this is an emotion, fear, and mental effect.\n\nIf both Strikes target the same enemy, that enemy attempts the save only once after the final attack and takes a –1 circumstance penalty to their Will save to resist this effect (this penalty increases to –2 if both Strikes are successful or to –3 if both Strikes are successful and either is a critical hit.)",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "brandish",
+        "commander",
+        "tactic"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "brandish",
+          "slug": "brandish"
+        },
+        {
+          "label": "commander",
+          "slug": "commander"
+        },
+        {
+          "label": "tactic",
+          "slug": "tactic"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "brandish",
+      "commander",
+      "remaster",
+      "tactic"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "066A6A17-AE1B-5CA7-A2BB-F3217D9D5618",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Direct Follower",
+    "slug": "direct-follower-battlecry",
+    "descr": "You issue an order to your follower, granting them 2 actions. This action has the auditory or [visual](/trait/visual) trait depending on the method of communication used, but it must have one or the other. You can Direct your Follower to perform any of the following basic actions: [Crawl](/action/crawl-player-core), Drop Prone, [Escape](/action/escape-player-core), Interact, [Leap](/action/leap-player-core), Release, [Seek](/action/seek-player-core), [Sense Motive](/action/sense-motive-player-core), Stand, Step, Stride, and Strike. They can only use the Strikes listed in their stat blocks. Followers that gain a burrow Speed or fly Speed can use Burrow or Fly, respectively. You can also direct your follower to use skill actions for which they meet the prerequisites. Finally, you can direct the follower to perform any actions listed in their stat block. Unlike an animal companion's support actions, these special actions don't impose restrictions on the other actions a follower can use on this turn.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "concentrate"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "concentrate",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "94CFF9DA-C6F4-5BB5-80C2-E81E277BB6AA",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Double Team",
+    "slug": "double-team-battlecry",
+    "descr": "Your team works together to set an enemy up for a vicious attack. Signal one squadmate who has an opponent within their reach. That ally can [Shove](/action/shove-player-core) or [Reposition](/action/reposition-player-core) an opponent as a free action. If their maneuver is successful and the target ends their movement adjacent to a different squadmate, the second squadmate can attempt a melee Strike against that target as a reaction.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "commander",
+        "tactic"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "commander",
+          "slug": "commander"
+        },
+        {
+          "label": "tactic",
+          "slug": "tactic"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "commander",
+      "remaster",
+      "tactic"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "29DD726E-E685-5295-AD74-2292D47CA205",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "End It!",
+    "slug": "end-it-battlecry",
+    "descr": "**Requirements** You and your allies currently outnumber enemies on the battlefield, and you or a squadmate have reduced an enemy to 0 Hit Points since the start of your last turn.\n\nAt your proclamation that victory is already at hand, your allies march forward with an authoritative stomp, scattering your enemies in terror. Signal all squadmates within the aura of your banner; you and each ally can Step as a free action directly toward a [hostile](/condition/hostile-player-core) creature. Any hostile creatures within 10 feet of a squadmate after this movement must attempt a Will save against your class DC; on a failure they become [Fleeing](/condition/fleeing-player-core) for 1 round, and on a critical failure they become fleeing for 1 round and [Frightened 2](/condition/frightened-player-core). This is an emotion, fear, and mental effect.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "brandish",
+        "commander",
+        "incapacitation",
+        "tactic"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "You and your allies currently outnumber enemies on the battlefield, and you or a squadmate have reduced an enemy to 0 Hit Points since the start of your last turn",
+      "trigger": "",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "brandish",
+          "slug": "brandish"
+        },
+        {
+          "label": "commander",
+          "slug": "commander"
+        },
+        {
+          "label": "incapacitation",
+          "slug": "incapacitation"
+        },
+        {
+          "label": "tactic",
+          "slug": "tactic"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "brandish",
+      "commander",
+      "incapacitation",
+      "remaster",
+      "tactic"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2022FE87-95D7-5832-9817-F1CC73B80D02",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Engineer's Efficiency",
+    "slug": "engineer-s-efficiency-battlecry",
+    "descr": "**Frequency** once per turn\n\n**Requirements** You are adjacent to your light mortar\n\n**Effect** You Aim your light mortar and then either Load or Launch it.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "offensive",
+      "frequency": "once per turn",
+      "requirements": "You are adjacent to your light mortar",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "123EE2F2-DB58-58EA-A38D-0614453DC73C",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Executioner's Volley",
+    "slug": "executioner-s-volley-battlecry",
+    "descr": "**Frequency** once per day\n\nYou command your squadmates to act as a lethal firing squad. You and each squadmate within the aura of your commander's banner can attempt a ranged Strike as a reaction against a single target you choose; combine the damage from all attacks for the purpose of resistances and weaknesses. If the designated target is a living creature, these attacks gain the [death](/trait/death) trait. If the designated target dies as a result of this tactic, all other enemies within the affected area of your commander's banner must succeed at a Will save against your class DC or be [Frightened 2](/condition/frightened-player-core); this is an emotion, fear, and mental effect.\n\n**Special** If one of your squadmates knows or has prepared a cantrip with a range of 30 feet or more that deals damage and requires 2 or fewer actions to cast, they can cast it targeting the designated enemy instead of taking the other actions normally granted by this tactic, gaining all other listed benefits.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "commander",
+        "tactic"
+      ],
+      "category": "offensive",
+      "frequency": "once per day",
+      "requirements": "",
+      "trigger": "",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "commander",
+          "slug": "commander"
+        },
+        {
+          "label": "tactic",
+          "slug": "tactic"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "commander",
+      "remaster",
+      "tactic"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E6A91A5C-B11B-5162-9AE2-1F4405D2AD86",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Gather to Me!",
+    "slug": "gather-to-me-battlecry",
+    "descr": "You signal your team to move into position together. Signal all squadmates; each can immediately Stride as a reaction, though each must end their movement inside your banner's aura, or as close to your banner's aura as their movement Speed allows.\n\nSquadmates can use Gather to Me! while Burrowing, Climbing, Flying, or Swimming instead of Striding if they have the corresponding movement type.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "commander",
+        "tactic"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "commander",
+          "slug": "commander"
+        },
+        {
+          "label": "tactic",
+          "slug": "tactic"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "commander",
+      "remaster",
+      "tactic"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "73D0C636-A52A-53FA-AF60-28FBF0179316",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Guerrilla Assault",
+    "slug": "guerrilla-assault-battlecry",
+    "descr": "**Frequency** once per round\n\n**Effect** You Interact to reload a sling or blowgun and then Strike. If the Strike is successful and you were undetected or unnoticed by the target when you made the attack, you are now [Hidden](/condition/hidden-player-core) from the target after the attack, as they cannot tell where the attack came from.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "offensive",
+      "frequency": "once per round",
+      "requirements": "",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "37BABC9B-4F11-5647-AE9A-6971BFE5648F",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Haunting Visage",
+    "slug": "haunting-visage-battlecry",
+    "descr": "**Requirements** Your eidolon is condensed.\n\nYour eidolon suddenly shifts itself into a terrifying shape of its choosing, rather than a simple mound, by closely controlling the positioning of its component bodies. The eidolon attempts to Demoralize a creature within 15 feet; this Demoralize attempt loses the [auditory](/trait/auditory) trait, gains the [visual](/trait/visual) trait, and the eidolon doesn't take a –4 circumstance penalty to the check if they don't share a language with their target. On a success or critical success, the target is additionally [Off Guard](/condition/off-guard-player-core) for 1 round.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "eidolon",
+        "manipulate",
+        "visual"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "Your eidolon is condensed",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "eidolon",
+          "slug": "eidolon"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "visual",
+          "slug": "visual"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "concentrate",
+      "eidolon",
+      "manipulate",
+      "remaster",
+      "visual"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0D9861F2-1114-5BBC-886B-523679677027",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Infiltrator's Draw",
+    "slug": "infiltrator-s-draw-battlecry",
+    "descr": "**Frequency** once per round\n\n**Effect** You Interact to draw a gauntlet bow, hand crossbow, or repeating hand crossbow, then Strike with it. Alternatively, you can Strike with a loaded hand crossbow or repeating hand crossbow you're already holding and then Interact to stow it.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "offensive",
+      "frequency": "once per round",
+      "requirements": "",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A5171E19-7D1F-5175-BB31-9DC9B25D1782",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Insta-Ballista",
+    "slug": "insta-ballista-battlecry",
+    "descr": "**Frequency** once per day\n\nYour squad quickly assembles a special impromptu ballista and fires it to lethal effect. Signal all squadmates you previously chose to participate in this tactic (see Special); these squadmates must be within the aura of your commander's banner. They can all Stride as a free action to assemble into a close formation; as long as all the chosen squadmates end their movement no more than 10 feet away from any of the other chosen squadmates. They quickly assemble an impromptu ballista and fire it at an enemy of your choice within 200 feet.\n\nThis is a ranged Strike using your proficiency bonus with martial weapons and gets an item bonus to the attack roll you make with it equal to the number of assisting squadmates (maximum +4). It deals 10d12 piercing damage. Once the attack is completed, the pieces of the impromptu ballista fall apart.\n\n**Special** You must choose all squadmates who will participate in this tactic at the time you prepare it. Those squadmates must carry the pieces of your impromptu ballista, which can be made out of easily scavenged materials; these pieces are 8 Bulk in total and can be divided in 1 Bulk increments among any number of the chosen squadmates.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "brandish",
+        "commander",
+        "tactic"
+      ],
+      "category": "offensive",
+      "frequency": "once per day",
+      "requirements": "",
+      "trigger": "",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "brandish",
+          "slug": "brandish"
+        },
+        {
+          "label": "commander",
+          "slug": "commander"
+        },
+        {
+          "label": "tactic",
+          "slug": "tactic"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "brandish",
+      "commander",
+      "remaster",
+      "tactic"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "84C274FE-CD5C-536F-BBB2-73793FE0E429",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Intercept Attack",
+    "slug": "intercept-attack-battlecry",
+    "descr": "**Trigger** An ally within 10 feet of you takes physical damage.\n\nYou fling yourself in the way of oncoming harm to protect an ally. You can Step, but you must end your movement adjacent to the triggering ally. You take the damage instead of the triggering ally. Apply your own immunities, weaknesses, and resistances to the damage, not the ally's.\n\n**Special** You can extend this ability to an ally within 15 feet of you if the damage comes from your taunted enemy. If this ally is farther than you can Step to reach, you can Stride instead of Stepping; you still must end the movement adjacent to your ally.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "guardian"
+      ],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "An ally within 10 feet of you takes physical damage",
+      "actions": "reaction",
+      "traitLinks": [
+        {
+          "label": "guardian",
+          "slug": "guardian"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "guardian",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1B09588C-806B-57A1-9CE1-6A581054572B",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Mirrored Wall",
+    "slug": "mirrored-wall-battlecry",
+    "descr": "**Frequency** once per 10 minutes\n\n**Requirements** At least one of your squadmates is in bright light or has a focused light source available, such as a bull's-eye lantern.\n\nYour squadmates have polished their shields to a reflective sheen and now position them to reflect a blinding light into your enemy's eyes. All of your squadmates can Raise a Shield or cast [Shield](/spell/shield-player-core) as a reaction.\n\nThen, signal a squadmate within the aura of your commander's banner who currently has a shield raised (including spellcasting allies with an active casting of the *shield* cantrip), and choose an enemy within 60 feet. The formation bounces light off the raised shield and into the enemy's eyes; the target must succeed at a Fortitude saving throw against your class DC or become [Blinded](/condition/blinded-player-core) for 1 round (on a critical failure, the creature remains [Dazzled](/condition/dazzled-player-core) for 3 rounds after the blindness ends).\n\nYou can signal additional allies with raised shields to participate in this tactic; the target takes a circumstance penalty on this save equal to the number of additional participating squadmates (to a maximum –4 circumstance penalty to the target's save).",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "commander",
+        "tactic",
+        "visual"
+      ],
+      "category": "offensive",
+      "frequency": "once per 10 minutes",
+      "requirements": "At least one of your squadmates is in bright light or has a focused light source available, such as a bull's-eye lantern",
+      "trigger": "",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "commander",
+          "slug": "commander"
+        },
+        {
+          "label": "tactic",
+          "slug": "tactic"
+        },
+        {
+          "label": "visual",
+          "slug": "visual"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "commander",
+      "remaster",
+      "tactic",
+      "visual"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "FFC69317-A010-55A1-8280-B6BA001B39E6",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Mobbing Assault",
+    "slug": "mobbing-assault-battlecry",
+    "descr": "**Requirements** Your horde has been raised\n\n**Effect** Each enemy in a 5-foot emanation around your horde takes 2d6 bludgeoning damage (if your horde is zombies) or 2d6 slashing damage (if your horde is skeletons) with a basic Reflex save against your spell DC. At 10th level and every 4 levels thereafter, the damage increases by 2d6.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "concentrate"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "Your horde has been raised",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "concentrate",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E5FBEF23-BE48-54A3-BDA9-800B28CF9C43",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Mountaineering Training",
+    "slug": "mountaineering-training-battlecry",
+    "descr": "Your instructions make it easier for you and your allies to scale dangerous surfaces. Signal all squadmates; until the end of your next turn, you and each ally gain a climb Speed of 20 feet.\n\nEffect: Mountaineering Training\n\n**Special** If you have this tactic prepared, you can use Warfare Lore in place of Athletics for checks you make to Climb.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "commander",
+        "tactic"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "commander",
+          "slug": "commander"
+        },
+        {
+          "label": "tactic",
+          "slug": "tactic"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "commander",
+      "remaster",
+      "tactic"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1FCD8DEC-3826-5504-8175-32C8140FF67E",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Naval Training",
+    "slug": "naval-training-battlecry",
+    "descr": "Your instructions make it easier for you and your allies to swim through dangerous waters. Signal all squadmates; until the end of your next turn, you and each ally gain a swim Speed of 20 feet.\n\nEffect: Naval Training\n\n**Special** If you have this tactic prepared, you can use Warfare Lore in place of Athletics for checks you make to Swim.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "commander",
+        "tactic"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "commander",
+          "slug": "commander"
+        },
+        {
+          "label": "tactic",
+          "slug": "tactic"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "commander",
+      "remaster",
+      "tactic"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3CD2C8FD-1213-5FDE-84D5-8480BB55BB65",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Passage of Lines",
+    "slug": "passage-of-lines-battlecry",
+    "descr": "You command your allies to regroup, allowing endangered units to fall back while rested units press the advantage. Signal all squadmates within the aura of your commander's banner; each can swap positions with another willing ally adjacent to them. An ally can't swap into a space it can't fit into, and if one of the allies occupies more squares than the other, the smaller ally can move into any part of the larger ally's space as long as the two remain adjacent after the swap.\n\n*PFS Note:* This tactic can be used by [Prone](/condition/prone-player-core) PCs, but not PCs who are [Grabbed](/condition/grabbed-player-core), [Immobilized](/condition/immobilized-player-core), or otherwise unable to move of their own volition.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "commander",
+        "tactic"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "commander",
+          "slug": "commander"
+        },
+        {
+          "label": "tactic",
+          "slug": "tactic"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "commander",
+      "remaster",
+      "tactic"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B987B640-DC01-556A-A66A-04A68351CBB8",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Pincer Attack",
+    "slug": "pincer-attack-battlecry",
+    "descr": "You call for an aggressive formation designed for exploiting enemies' vulnerabilities. Signal all squadmates; each can Step as a reaction. If any of your allies ends this movement adjacent to an opponent, that opponent is [Off Guard](/condition/off-guard-player-core) to melee attacks from you and all other squadmates who responded to Pincer Attack until the start of your next turn.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "commander",
+        "tactic"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "commander",
+          "slug": "commander"
+        },
+        {
+          "label": "tactic",
+          "slug": "tactic"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "commander",
+      "remaster",
+      "tactic"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "665A3769-593C-59AC-B2FC-D764AEF43320",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Piranha Assault",
+    "slug": "piranha-assault-battlecry",
+    "descr": "**Frequency** once per 10 minutes\n\nYou know that a thousand small bites can fell a large foe just as surely a single well-placed hit. Designate a creature within the aura of your commander's banner and signal all squadmates; for 1 minute, each time they attack that creature and deal damage to it of a type the creature resists, they ignore an amount of that creature's resistance equal to your level.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "commander",
+        "tactic"
+      ],
+      "category": "offensive",
+      "frequency": "once per 10 minutes",
+      "requirements": "",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "commander",
+          "slug": "commander"
+        },
+        {
+          "label": "tactic",
+          "slug": "tactic"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "commander",
+      "remaster",
+      "tactic"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C39F8CE6-5E50-513D-953A-E57A13BCA05B",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Pop, Drop, and Lock",
+    "slug": "pop-drop-and-lock-battlecry",
+    "descr": "**Frequency** once per 10 minutes\n\nYou command your squadmates to perform a devastating coordinated takedown. Signal up to three squadmates within the aura of your commander's banner who all have the same enemy within their reach; the squadmates can attempt to Strike, [Trip](/action/trip-player-core), or [Grapple](/action/grapple-player-core) the opponent as a reaction. Each squadmate can only attempt one specific action granted by this tactic, the actions can be attempted in any order and a specific action can only be attempted once as part of this tactic.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "brandish",
+        "commander",
+        "tactic"
+      ],
+      "category": "offensive",
+      "frequency": "once per 10 minutes",
+      "requirements": "",
+      "trigger": "",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "brandish",
+          "slug": "brandish"
+        },
+        {
+          "label": "commander",
+          "slug": "commander"
+        },
+        {
+          "label": "tactic",
+          "slug": "tactic"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "brandish",
+      "commander",
+      "remaster",
+      "tactic"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E39DD575-9554-5E8D-B2DC-0567BF209B5F",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Protective Screen",
+    "slug": "protective-screen-battlecry",
+    "descr": "You've trained your allies in a technique designed to protect war mages. Signal one squadmate; as a reaction, that squadmate Strides directly toward any other squadmate who is within the aura of your banner. If the first squadmate ends their movement adjacent to another squadmate, the second squadmate does not trigger reactions when casting spells or making ranged attacks until the end of their next turn or until they are no longer adjacent to the first squadmate, whichever comes first. If the first squadmate ends their movement adjacent to more than one other squadmate, the first squadmate must choose which of the adjacent squadmates gains this benefit.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "brandish",
+        "commander",
+        "tactic"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "brandish",
+          "slug": "brandish"
+        },
+        {
+          "label": "commander",
+          "slug": "commander"
+        },
+        {
+          "label": "tactic",
+          "slug": "tactic"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "brandish",
+      "commander",
+      "remaster",
+      "tactic"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "128AEFE9-BE7A-5130-8E65-739F8D744B29",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Raise the Horde",
+    "slug": "raise-the-horde-battlecry",
+    "descr": "**Frequency** once per 10 minutes\n\n**Effect** Your undead horde appears in an unoccupied space within 30 feet. Choose whether your horde consists of skeletons or zombies, which affects the type of damage it deals with Mobbing Assault. Your horde remains summoned until the end of your next turn, but you can Sustain the effect for up to 1 minute. The effect also ends if you end your turn more than 120 feet away from the horde. When you first use Raise the Horde and each time you Sustain the effect, you can have the horde Stride.\n\nWhen Raise the Horde ends, the undead that comprise your horde collapse lifelessly to the ground and quickly rot away. They can no longer be targeted or used for actions.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "magical",
+        "manipulate"
+      ],
+      "category": "offensive",
+      "frequency": "once per 10 minutes",
+      "requirements": "",
+      "trigger": "",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "concentrate",
+      "magical",
+      "manipulate",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3BABA41D-A14F-5C9C-B40F-706ACD08A15E",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Ready, Aim, Fire!",
+    "slug": "ready-aim-fire-battlecry",
+    "descr": "**Frequency** once per 10 minutes\n\nYou signal a volley of ranged attacks from your allies. Choose an enemy and signal up to three squadmates within the aura of your commander's banner; your squadmates can Interact to reload as a free action and attempt a ranged Strike against the enemy as a reaction\n\n**Special** If one of your squadmates knows or has prepared a cantrip with a range of 30 feet or more that deals damage and requires 2 or fewer actions to cast, they can cast it targeting the enemy instead of taking the other actions normally granted by this tactic.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "brandish",
+        "commander",
+        "tactic"
+      ],
+      "category": "offensive",
+      "frequency": "once per 10 minutes",
+      "requirements": "",
+      "trigger": "",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "brandish",
+          "slug": "brandish"
+        },
+        {
+          "label": "commander",
+          "slug": "commander"
+        },
+        {
+          "label": "tactic",
+          "slug": "tactic"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "brandish",
+      "commander",
+      "remaster",
+      "tactic"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "890AA125-18D7-5B94-B9EB-794B643A90BC",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Redistribute",
+    "slug": "redistribute-battlecry",
+    "descr": "**Frequency** once per 10 minutes\n\n**Trigger** An enemy's Strike against your eidolon is a critical hit.\n\nYour eidolon rearranges its component bodies in response to a powerful blow, mitigating the worst of the damage they would have taken. The triggering critical hit becomes a hit. Your eidolon immediately switches forms, from condensed to dispersed or from dispersed to condensed.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "eidolon"
+      ],
+      "category": "defensive",
+      "frequency": "once per 10 minutes",
+      "requirements": "",
+      "trigger": "An enemy's Strike against your eidolon is a critical hit",
+      "actions": "reaction",
+      "traitLinks": [
+        {
+          "label": "eidolon",
+          "slug": "eidolon"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "eidolon",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "AD48EFB7-1B58-5CC5-8441-60C3AA2DF5B9",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Reload!",
+    "slug": "reload-battlecry",
+    "descr": "Your drill instruction kicks in, and your allies rapidly reload their weapons to prepare for the next volley. Signal all squadmates; each can immediately Interact to reload as a reaction.\n\n**Special** When leading a siege weapon crew, you can use this tactic to command your squadmates to Load a siege weapon instead.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "commander",
+        "tactic"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "commander",
+          "slug": "commander"
+        },
+        {
+          "label": "tactic",
+          "slug": "tactic"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "commander",
+      "remaster",
+      "tactic"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E8E6D729-0784-5F2E-981D-8CA7800BBE76",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Roaring Charge",
+    "slug": "roaring-charge-battlecry",
+    "descr": "**Frequency** once per 10 minutes\n\nYou and your squad surge forward with a mighty roar. Signal all squadmates within the aura of your commander's banner. As a reaction, these squadmates can Stride up to twice their Speed directly toward any enemy they are observing.\n\nAny creature within 10 feet of a squadmate once all movement from this tactic has been completed must attempt a Will save against your class DC with the following results. This is an emotion, fear, incapacitation, and mental effect.\n\n**Critical Success** No effect.\n\n**Success** The target is [Frightened 1](/condition/frightened-player-core).\n\n**Failure** The target is Frightened 2.\n\n**Critical Failure** The target is Frightened 3 and [Fleeing](/condition/fleeing-player-core) for 1 round.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "commander",
+        "tactic"
+      ],
+      "category": "offensive",
+      "frequency": "once per 10 minutes",
+      "requirements": "",
+      "trigger": "",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "commander",
+          "slug": "commander"
+        },
+        {
+          "label": "tactic",
+          "slug": "tactic"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "commander",
+      "remaster",
+      "tactic"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "63E8AD7C-19E0-52A8-9C05-753790AABFAE",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Sanguine Revitalization",
+    "slug": "sanguine-revitalization-battlecry",
+    "descr": "**Frequency** once per day\n\nYour squad is rejuvenated by the arterial spray of your enemies. Choose a creature within the aura of your commander's banner and signal all squadmates within the aura who are wielding a piercing or slashing melee weapon, or who have a piercing or slashing melee unarmed attack. Those allies can Stride up to half their Speed as a free action. If they end this movement within reach of the designated target, they can Strike the target with the required weapon or unarmed attack as a reaction.\n\nOnce all Strikes are completed, if the target took damage and is not immune to bleed damage, it must succeed at a Fortitude saving throw against your class DC or take 10 points of persistent bleed damage. The target takes a circumstance penalty on their save equal to the number of successful Strikes made as part of this tactic (up to a maximum –4 circumstance penalty).\n\nEffect: Sanguine Revitalization\n\nYour squadmates are energized by the display of your enemy's imminent defeat; each squadmate in a 20-foot emanation is healed for 10d6 healing Hit Points.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "commander",
+        "tactic"
+      ],
+      "category": "offensive",
+      "frequency": "once per day",
+      "requirements": "",
+      "trigger": "",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "commander",
+          "slug": "commander"
+        },
+        {
+          "label": "tactic",
+          "slug": "tactic"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "commander",
+      "remaster",
+      "tactic"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "987A5EFF-7FFE-50FB-BBDF-1233B445D683",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Shields Up!",
+    "slug": "shields-up-battlecry",
+    "descr": "You signal your allies to ready their defenses. Signal all squadmates within the aura of your commander's banner; each can immediately Raise a Shield as a reaction. Squadmates who are wielding a parry weapon can instead position that weapon defensively as a reaction.\n\n**Special** If one of your squadmates knows or has prepared the [Shield](/spell/shield-player-core) cantrip, they can cast it as a reaction instead of taking the actions normally granted by this tactic.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "commander",
+        "tactic"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "commander",
+          "slug": "commander"
+        },
+        {
+          "label": "tactic",
+          "slug": "tactic"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "commander",
+      "remaster",
+      "tactic"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8B8A2529-1EBB-5330-B28A-A1D5D7E66972",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Shootist's Draw",
+    "slug": "shootist-s-draw-battlecry",
+    "descr": "**Frequency** once per round\n\n**Effect** You Interact to draw a [Hand Crossbow](/item/hand-crossbow-player-core) and Strike with it, or you Strike with a loaded hand crossbow you're already holding and then Interact to stow it.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "offensive",
+      "frequency": "once per round",
+      "requirements": "",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "538B0F75-C272-5E1A-B51B-A52BA1A4F6C1",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Sickening Assault",
+    "slug": "sickening-assault-battlecry",
+    "descr": "**Frequency** once per minute\n\n**Requirements** Your eidolon is dispersed.\n\nYour eidolon focuses on inflicting the most damage possible on its foes. If your eidolon's next action is to use [Swarming Assault](/action/swarming-assault-battlecry), the number of damage dice of the Swarming Assault are doubled. Additionally, creatures that fail their Reflex save against that Swarming Assault are [Sickened 2](/condition/sickened-player-core) (Sickened 4 on a critical failure).",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "eidolon"
+      ],
+      "category": "offensive",
+      "frequency": "once per minute",
+      "requirements": "Your eidolon is dispersed",
+      "trigger": "",
+      "actions": "free",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "eidolon",
+          "slug": "eidolon"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "concentrate",
+      "eidolon",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "96E528E9-5787-5200-9A81-7784CD9D8256",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Slip and Sizzle",
+    "slug": "slip-and-sizzle-battlecry",
+    "descr": "Your team executes a brutal technique designed to knock down an opponent and blast them with magical devastation. Signal up to two squadmates within the aura of your commander's banner; one of these squadmates must be adjacent to an opponent and the other must be capable of casting a spell that deals damage. The first squadmate can attempt to [Trip](/action/trip-player-core) the adjacent opponent as a reaction. If this Trip is successful, the second squadmate can cast a ranged spell that deals damage and takes 2 or fewer actions to cast. This spell is cast as a reaction and must either target the tripped opponent or include the tripped opponent in the spell's area.\n\nIf the second squadmate cast a spell using slots or Focus Points as part of this tactic, they are [Slowed 1](/condition/slowed-player-core) until the end of their next turn and do not gain a reaction when they regain actions at the start of their next turn.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "commander",
+        "tactic"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "commander",
+          "slug": "commander"
+        },
+        {
+          "label": "tactic",
+          "slug": "tactic"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "commander",
+      "remaster",
+      "tactic"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "467B1C31-F2CA-5402-B947-CFA2123EF05D",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spread Propaganda",
+    "slug": "spread-propaganda-battlecry",
+    "descr": "You spread propaganda about a faction (which may include an army, organization, or other particular group of people). This takes as long as it would normally take for you to Gather Information (typically 2 hours). At the end of this time, the GM rolls a secret Deception check to see how effective you were at spreading propaganda.\n\n**Critical Success** Your propaganda spreads effectively, and for the next month, creatures that succeed on checks to Gather Information learn your propaganda over facts about the subject. It cannot be traced back to you. You also learn information as if you succeeded at a [Recall Knowledge](/action/recall-knowledge-player-core) check about the faction.\n\n**Success** As critical success, but the propaganda persists for 1 week and can be traced back to you by a character who critically succeeds at the skill check to Gather Information.\n\n**Failure** Your propaganda fails to take hold.\n\n**Critical Failure** Your propaganda is stunningly ineffective, and you take a –4 circumstance penalty to Deception checks to spread propaganda about the same subject for 1 week. In addition, the subject and its enemies become aware that you attempted to spread propaganda.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "exploration",
+        "secret"
+      ],
+      "category": "interaction",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": [
+        {
+          "label": "exploration",
+          "slug": "exploration"
+        },
+        {
+          "label": "secret",
+          "slug": "secret"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "exploration",
+      "remaster",
+      "secret"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F60C1539-AED4-558A-90B5-5EA194D7A0B6",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Strike Hard!",
+    "slug": "strike-hard-battlecry",
+    "descr": "You command an ally to attack. Signal a squadmate within the aura of your commander's banner. That ally immediately attempts a Strike as a reaction.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "brandish",
+        "commander",
+        "tactic"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "brandish",
+          "slug": "brandish"
+        },
+        {
+          "label": "commander",
+          "slug": "commander"
+        },
+        {
+          "label": "tactic",
+          "slug": "tactic"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "brandish",
+      "commander",
+      "remaster",
+      "tactic"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D7AAA722-5F3B-51C8-A819-7539C334C372",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Stupefying Raid",
+    "slug": "stupefying-raid-battlecry",
+    "descr": "Your team dashes about in a series of maneuvers that leave the enemy befuddled. Signal up to two squadmates within the aura of your commander's banner; these squadmates can Stride up to their Speed as a reaction. Each enemy they are adjacent to at any point during this movement must attempt a Will save against your class DC or become [Stupefied 1](/condition/stupefied-player-core) for 1 round (Stupefied 2 on a critical failure); this is a mental effect.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "commander",
+        "tactic"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "commander",
+          "slug": "commander"
+        },
+        {
+          "label": "tactic",
+          "slug": "tactic"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "commander",
+      "remaster",
+      "tactic"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "00C9A273-9FC3-5779-A252-4B8EF7701115",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Swarming Assault",
+    "slug": "swarming-assault-battlecry",
+    "descr": "**Requirements** Your eidolon is dispersed.\n\nYour eidolon swarms over each creature occupying its space, biting, pecking, clawing, or making similar attacks with its component bodies. It deals 1d4 rounds.\n\nAt 3rd level and every 2 levels thereafter, the damage increases by 1d6.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "eidolon"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "Your eidolon is dispersed",
+      "trigger": "",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "eidolon",
+          "slug": "eidolon"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "eidolon",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "BA6D74F7-89F8-5D90-8CDB-129D197555A4",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Tactical Takedown",
+    "slug": "tactical-takedown-battlecry",
+    "descr": "You direct a coordinated maneuver that sends an enemy tumbling down. Signal up to two squadmates within the aura of your commander's banner. Each of those allies can Stride up to half their Speed as a reaction. If they both end this movement adjacent to an enemy, that enemy must succeed at a Reflex save against your class DC or fall [Prone](/condition/prone-player-core).",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "commander",
+        "tactic"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "commander",
+          "slug": "commander"
+        },
+        {
+          "label": "tactic",
+          "slug": "tactic"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "commander",
+      "remaster",
+      "tactic"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2E3D87FD-5CBD-503A-A842-0A03EDAB1B2E",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Take the High Ground",
+    "slug": "take-the-high-ground-battlecry",
+    "descr": "Your ally leaps to secure the high ground with a little help from the squad. Signal a squadmate within the aura of your commander's banner; as a free action, that squadmate can Stride directly toward any other squadmate you are both observing. If the first squadmate ends this movement adjacent to another squadmate, the first squadmate can immediately [Leap](/action/leap-player-core) up to 25 feet horizontally or 15 feet vertically as a reaction, boosted by the other squadmate. This distance increases to 40 feet horizontally or 25 feet vertically if you have legendary proficiency in Warfare Lore.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "commander",
+        "tactic"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "commander",
+          "slug": "commander"
+        },
+        {
+          "label": "tactic",
+          "slug": "tactic"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "commander",
+      "remaster",
+      "tactic"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A48498D7-CF1A-5A41-A200-F40E668B7225",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Taunt",
+    "slug": "taunt-battlecry",
+    "descr": "With an attention-grabbing gesture, noise, cutting remark, or threatening shout, you attempt to draw an enemy to you instead of your allies. Taunt gains the [auditory](/trait/auditory) trait, [visual](/trait/visual) trait, or both, depending on how you draw the target's attention. Even mindless creatures are drawn to your taunts. Choose an enemy within 30 feet to be your taunted enemy. If your taunted enemy takes a hostile action that includes at least one of your allies but doesn't include you, they take a –1 circumstance penalty to their attack rolls and DCs for that action, and they also become [Off Guard](/condition/off-guard-player-core) until the start of their next turn.\n\nYour enemy remains taunted until the start of your next turn, and you can have only one Taunt in effect at a time. Taunting a new enemy ends this effect on any current target.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "guardian"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "guardian",
+          "slug": "guardian"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "concentrate",
+      "guardian",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "081B0798-B903-573E-8235-6D5C688EE62F",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "The Bigger They Are",
+    "slug": "the-bigger-they-are-battlecry",
+    "descr": "Regardless of your individual strengths, collectively your squad has the power to move mountains and topple giants. Signal a squadmate within the aura of your commander's banner. That squadmate can attempt to [Reposition](/action/reposition-player-core), [Shove](/action/shove-player-core), or [Trip](/action/trip-player-core) a target within their reach. Each other squadmate who is adjacent to the original squadmate or the target can attempt to assist with the maneuver as a reaction\n\nFor each squadmate who assists in this way, the original squadmate increases the maximum size of creature they can target (for example, if a total of two squadmates participated in this maneuver, the initial squadmate could target a creature up to two sizes larger than them.) The original squadmate gains a circumstance bonus on their check to Reposition, Shove, or Trip equal to the number of additional squadmates who assisted in the maneuver (maximum +4).\n\nEffect: The Bigger They Are (Commander)",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "brandish",
+        "commander",
+        "tactic"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "brandish",
+          "slug": "brandish"
+        },
+        {
+          "label": "commander",
+          "slug": "commander"
+        },
+        {
+          "label": "tactic",
+          "slug": "tactic"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "brandish",
+      "commander",
+      "remaster",
+      "tactic"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3D193B04-B66F-5170-81D3-65EA6D131790",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Valkyrie's Charge",
+    "slug": "valkyrie-s-charge-battlecry",
+    "descr": "**Frequency** once per day\n\nYou and your allies defy death and defeat to make a glorious final charge. You restore 80 healing Hit Points to each squadmate within the aura of your commander's banner; this effect has the [healing](/trait/healing) trait. If an affected ally was [Unconscious](/condition/unconscious-player-core) due to their Hit Points being reduced to 0, they can immediately Stand and pick up any dropped weapons as a free action. Then, each affected squadmate can, as a free action, [Stride](/action/stride-player-core) up to twice their Speed directly toward an enemy they are observing; if they end this movement with an enemy within their reach, they can attempt to Strike that enemy as a reaction.\n\nSquadmates can use Valkyrie's Charge while Burrowing, Climbing, Flying, or Swimming instead of Striding if they have the corresponding movement type.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "brandish",
+        "commander",
+        "tactic"
+      ],
+      "category": "offensive",
+      "frequency": "once per day",
+      "requirements": "",
+      "trigger": "",
+      "actions": "three",
+      "traitLinks": [
+        {
+          "label": "brandish",
+          "slug": "brandish"
+        },
+        {
+          "label": "commander",
+          "slug": "commander"
+        },
+        {
+          "label": "tactic",
+          "slug": "tactic"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "brandish",
+      "commander",
+      "remaster",
+      "tactic"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

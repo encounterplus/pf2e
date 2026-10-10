@@ -1,0 +1,70 @@
+[
+  {
+    "id": "F30F3A8B-2FF1-5166-BE89-B6012A0A4BA7",
+    "kind": "Trait",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Coagulant",
+    "slug": "coagulant",
+    "descr": "Healing alchemical items with the coagulant trait lose effectiveness when many are applied in a short period of time. If a creature heals Hit Points from an item with the coagulant trait, that creature is temporarily immune to healing Hit Points from subsequent items with the coagulant trait for 10 minutes (but not immune to any other effects of those items).",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core-2",
+      "remaster",
+      "trait"
+    ],
+    "sources": [
+      {
+        "name": "Player Core 2",
+        "url": "https://2e.aonprd.com/Traits.aspx?ID=796",
+        "page": 61
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "7A6665B0-C007-5854-A196-CAED913F0581",
+    "kind": "Trait",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Venomous",
+    "slug": "venomous",
+    "descr": "These weapons inject poison into every hit. When you hit a creature with this weapon, it deals an additional 1 [persistent poison damage](/condition/persistent-damage-player-core). This increases to 2 persistent poison damage if the weapon has a [greater striking rune](/item/striking-gm-core).",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core-2",
+      "remaster",
+      "trait"
+    ],
+    "sources": [
+      {
+        "name": "Player Core 2",
+        "url": "https://2e.aonprd.com/Traits.aspx?ID=785",
+        "page": 119
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  }
+]

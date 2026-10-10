@@ -1,0 +1,2213 @@
+[
+  {
+    "id": "8160DF15-7760-509E-AE3D-78E096A7BBF0",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Aura: Fuming Cloak",
+    "slug": "aura-fuming-cloak-howl-of-the-wild",
+    "descr": "Granted by [Nightmare'S Lament](/item/nightmare-s-lament-howl-of-the-wild)\n\nThe *nightmare's lament* continually vents thick, black smoke that creates concealment in a 15-foot aura around the gun's wielder.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "894E1DC1-DE58-582D-995C-80620628E2DD",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: All Are One",
+    "slug": "effect-all-are-one-howl-of-the-wild",
+    "descr": "The area of bioluminescent maelstrom and the reach of their tentacle Strike increase by 10 feet, to a maximum of an additional 30 feet.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "BF3907F8-CF9C-5CB1-B4C3-E9B206353D3F",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Amphisbaena Spittle",
+    "slug": "effect-amphisbaena-spittle-howl-of-the-wild",
+    "descr": "Granted by [Amphisbaena Spittle](/item/amphisbaena-spittle-howl-of-the-wild)\n\nThe target cannot be flanked until the start of its next turn.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0A777ABC-EF80-5AC2-998B-4ACD90165708",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Animal Blind",
+    "slug": "effect-animal-blind-howl-of-the-wild",
+    "descr": "Granted by [Animal Blind](/item/animal-blind-howl-of-the-wild)\n\nYou gain a +4 circumstance bonus to Stealth checks to Hide.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B3933550-D2E9-5ABF-8CC8-F936C34C49F9",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Bolstering Croak",
+    "slug": "effect-bolstering-croak-howl-of-the-wild",
+    "descr": "Granted by [Whip Tongue Sling](/item/whip-tongue-sling-howl-of-the-wild)\n\nAllies gain a +1 status bonus to saves against fear effects.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "24DD236D-A4A5-5E76-A22C-847492196AB8",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Catch Pole",
+    "slug": "effect-catch-pole-howl-of-the-wild",
+    "descr": "Granted by [Catch Pole](/item/catch-pole-howl-of-the-wild), [Giant Catch Pole](/item/giant-catch-pole-howl-of-the-wild), [Superior Catch Pole](/item/superior-catch-pole-howl-of-the-wild)\n\nA creature [grabbed](/condition/grabbed-player-core) by the catch pole receives a –2 circumstance penalty to attack rolls when Striking with an unarmed attack.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4F49FA3B-456D-53F4-A462-60B2C5DF50BF",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Caustic Jabs",
+    "slug": "effect-caustic-jabs-howl-of-the-wild",
+    "descr": "Granted by [Ankhrav Duster](/item/ankhrav-duster-howl-of-the-wild)\n\nYour Strikes with the *ankhrav duster* deal an additional 1d6 persistent acid damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "114B9E36-59E5-5459-9B3D-DE31C98594B2",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Change Shape (Werecreature)",
+    "slug": "effect-change-shape-werecreature-howl-of-the-wild",
+    "descr": "Granted by [Change Shape](/action/change-shape-monster-core)\n\nYou transform into your hybrid or animal shape. Your equipment transforms with you and continues to provide bonuses, but your animal shape cannot use weapons, shields, or other held items and cannot use manipulate actions. You gain a movement speed, unarmed attacks, and potentially other abilities based on your werecreature type. These unarmed attacks are in the brawling group. You can Dismiss the effect to return to your humanoid shape, and you resume your humanoid shape automatically if you're reduced to 0 Hit Points.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "EAAFB4C7-4A0F-59B3-9F9F-4323D957FD66",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Conduct",
+    "slug": "effect-conduct-howl-of-the-wild",
+    "descr": "The concert frog and all allies within 60 feet gain one of the following three effects until the beginning of the concert frog's next turn.\n\n**Red** Grants a +10-foot status bonus to their Speeds.\n**Blue** Grants a +1 status bonus to AC and Fortitude saving throws.\n**Yellow** Allies gain a +1 status bonus to attack rolls and deal an additional 1d4 sonic damage on successful melee Strikes.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D7B9F3AA-8100-5B5C-9E16-54C8ACFBA6BF",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Deceptive Heads",
+    "slug": "effect-deceptive-heads-howl-of-the-wild",
+    "descr": "The number of deceptive heads the tyrafdir currently has.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "53711BBE-8924-5A1E-9FBE-8A00982E65DF",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Echolocation",
+    "slug": "effect-echolocation-howl-of-the-wild",
+    "descr": "Granted by [Echolocation](/feat/echolocation-howl-of-the-wild)\n\nYou can use hearing as a precise sense with a range of 40 feet.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "AF10DB53-DD8C-5331-91F4-92F02065BDEF",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Feel No Pain",
+    "slug": "effect-feel-no-pain-howl-of-the-wild",
+    "descr": "The swarm gains 10 temporary Hit Points.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C375BF36-6279-5B2B-AC17-F42F2C5849D9",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Force of Nature (Silver Damage)",
+    "slug": "effect-force-of-nature-silver-damage-howl-of-the-wild",
+    "descr": "Granted by [Force Of Nature](/feat/force-of-nature-howl-of-the-wild)\n\nYour fast healing deactivates.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "FF13B8A0-0C95-5EFB-98A2-6340B2CBB0BA",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Fox's Wager",
+    "slug": "effect-fox-s-wager-howl-of-the-wild",
+    "descr": "The target gains a +1 status bonus to attack rolls and a +5 status bonus to damage against constructs, objects, and structures constructed by humanoids. It also gains a +2 status bonus to Stealth checks against humanoids.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A8DBE20D-E5BA-5DF2-BC1B-6E8D72CFCB2F",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Fuming Cloak",
+    "slug": "effect-fuming-cloak-howl-of-the-wild",
+    "descr": "Granted by [Nightmare'S Lament](/item/nightmare-s-lament-howl-of-the-wild)\n\nEverything within the aura is concealed by thick, black smoke.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E3443019-36AB-57B9-A3BA-B613F091402B",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Grab Debris",
+    "slug": "effect-grab-debris-howl-of-the-wild",
+    "descr": "The scroungefeather gains access to the listed abilities until it uses Tossed Scraps to discard the debris or until it Releases the debris. The scroungefeather can't use its beak attack while it is using its beak to Grab Debris.\n\n**Armor scrap** The scroungefeather gains a +2 circumstance bonus to its AC.\n\n**Shattered blade** The scroungefeather gains a broken blade melee Strike with a +12 attack modifier that deals 2d10+6 slashing damage.\n\n**Unexploded bomb** When the scroungefeather throws this with Tossed Scraps, all the damage is fire damage, and the bomb also deals 3 fire splash damage.\n\n**Faulty wand** The scroungefeather gains a magic bolt ranged Strike with a +14 attack modifier that deals 2d6+6 force damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "FB674466-B053-52C0-84F6-AE5EC2FF1935",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Grasp of the Deep",
+    "slug": "effect-grasp-of-the-deep-howl-of-the-wild",
+    "descr": "The creature gains cold weakness 10 and take a –2 status penalty to Fortitude saves.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "472F8727-1245-52DB-B210-7803CA8B4736",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Hopeful Athamaru",
+    "slug": "effect-hopeful-athamaru-howl-of-the-wild",
+    "descr": "Granted by [Hopeful Athamaru](/heritage/hopeful-athamaru-howl-of-the-wild)\n\nYou gain a +1 circumstance bonus to saving throws against fear.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "02B8F39F-79C1-57FD-AEAA-8C29D025029D",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Hydra Mutagen",
+    "slug": "effect-hydra-mutagen-howl-of-the-wild",
+    "descr": "Granted by [Hydra Mutagen](/item/hydra-mutagen-howl-of-the-wild)\n\n**Benefit** You gain all-around vision and a +3 item bonus to all Intelligence- and Wisdom-based skill checks.\n\n**Drawback** You are clumsy 1.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 10,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "334B3EC1-C796-5918-911B-3DACB7FA7B64",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Kettle Up (Boiling)",
+    "slug": "effect-kettle-up-boiling-howl-of-the-wild",
+    "descr": "You take a –2 penalty to Perception checks to hear sources other than the flynkett.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A233CBD8-8826-59B9-BD23-DC3E944D5B6F",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Lightning Rod",
+    "slug": "effect-lightning-rod-howl-of-the-wild",
+    "descr": "Granted by [Fulmination Fang](/item/fulmination-fang-howl-of-the-wild)\n\nThe next melee Strike you make with the *fulmination fang* deals an additional 1d6 electricity damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "FBE8A7EF-5136-5337-B69A-C685AD7E8724",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Luminous Lure",
+    "slug": "effect-luminous-lure-howl-of-the-wild",
+    "descr": "Granted by [Mamlambo Scale](/item/mamlambo-scale-howl-of-the-wild)\n\nThe *mamlambo scale* sheds dim light in a 20-foot emanation.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "06495535-65CC-54C7-96E2-16572108208F",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Mammoth Land Star Limbs",
+    "slug": "effect-mammoth-land-star-limbs-howl-of-the-wild",
+    "descr": "The number of limbs the mammoth land star currently has.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5B7039A7-C44D-58B3-8715-5B1F54BB792F",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Mentor of Legends",
+    "slug": "effect-mentor-of-legends-howl-of-the-wild",
+    "descr": "Granted by [Mentor Of Legends](/feat/mentor-of-legends-howl-of-the-wild)\n\nThe target gains temporary Hit Points equal to half your level.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 10,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "DA566B80-E289-5541-8C52-739E6E427958",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Misty Chill",
+    "slug": "effect-misty-chill-howl-of-the-wild",
+    "descr": "Granted by [Arctic Worm Chitin Shield](/item/arctic-worm-chitin-shield-howl-of-the-wild)\n\nYou Raise the Shield and you gain resistance 5 to cold.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5D2C1D3D-FE26-5269-BF0F-2A6E2A7AE780",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Noxious Exhalation",
+    "slug": "effect-noxious-exhalation-howl-of-the-wild",
+    "descr": "The creature gains weakness to mental 10 and a –1 status penalty to Will saves.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 24,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "97C53B1F-C75C-5905-A83F-3216ABCEE44B",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Ommatophoric Mutagen",
+    "slug": "effect-ommatophoric-mutagen-howl-of-the-wild",
+    "descr": "Granted by [Ommatophoric Mutagen](/item/ommatophoric-mutagen-howl-of-the-wild)\n\n**Benefit** You gain all-around vision, a +2 item bonus to visual Perception checks, and low-light vision if you don't already have it.\n\n**Drawback** You take a –2 penalty to saving throws against effects that have the [visual](/trait/visual) trait.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "499FB3CA-EF9F-51AE-A904-B3697550D3D2",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Paired Spikes",
+    "slug": "effect-paired-spikes-howl-of-the-wild",
+    "descr": "The creature gains weakness 15 to electricity damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2D1CD1B8-A5CD-52A8-BE01-2D5F85E823FA",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Pallesthetic Mutagen",
+    "slug": "effect-pallesthetic-mutagen-howl-of-the-wild",
+    "descr": "Granted by [Pallesthetic Mutagen](/item/pallesthetic-mutagen-howl-of-the-wild)\n\n**Benefit** You gain precise echolocation out to 40 feet, imprecise tremorsense out to 60 feet, and a +2 item bonus to Perception checks using either of these senses.\n\n**Drawback** You are blinded.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "7A016E3D-A9AB-5462-A3DE-E7681C87B600",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Portable Animal Blind",
+    "slug": "effect-portable-animal-blind-howl-of-the-wild",
+    "descr": "Granted by [Portable Animal Blind](/item/portable-animal-blind-howl-of-the-wild)\n\nYou gain a +2 circumstance bonus to Stealth checks to Hide.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B85E852E-6062-55D0-8921-BF1AB54478D2",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Portents of the Haruspex",
+    "slug": "effect-portents-of-the-haruspex-howl-of-the-wild",
+    "descr": "Granted by [Portents Of The Haruspex](/feat/portents-of-the-haruspex-howl-of-the-wild)\n\nRoll 1d12 to determine the damage type. The next time before the end of your next turn that you or your allies deals that damage type to an enemy, that enemy has weakness equal to your level against that damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "96A42F58-D127-5460-9F92-A0C8D699DA27",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Proud Mentor",
+    "slug": "effect-proud-mentor-howl-of-the-wild",
+    "descr": "Granted by [Proud Mentor](/feat/proud-mentor-howl-of-the-wild)\n\nYou gain temporary Hit Points equal to your level.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "81165ADA-B2AA-5A3B-9BA6-20F55E64563D",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Repel Ambient Magic",
+    "slug": "effect-repel-ambient-magic-howl-of-the-wild",
+    "descr": "Granted by [Repel Ambient Magic](/action/repel-ambient-magic-howl-of-the-wild)\n\nYou gain a +1 circumstance bonus to AC and saving throws against the next magical attack, cantrip, or spell that targets you. This bonus increases to +2 at 12th level.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "681E5EDF-7E49-514A-BA3A-99EA96000B9C",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Shielding Wave",
+    "slug": "effect-shielding-wave-howl-of-the-wild",
+    "descr": "Granted by [Shielding Wave](/action/shielding-wave-howl-of-the-wild)\n\nYou gain resistance to acid or fire damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "50A027F7-ACCE-5B8A-8288-27C48742CCB5",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Siphon Torment",
+    "slug": "effect-siphon-torment-howl-of-the-wild",
+    "descr": "Granted by [Siphon Torment](/feat/siphon-torment-howl-of-the-wild)\n\nYou gain temporary Hit Points equal to the origin's level.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 5,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "BB06092C-4BFF-5CBB-A156-AA8456C0116B",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Song of the Skies",
+    "slug": "effect-song-of-the-skies-howl-of-the-wild",
+    "descr": "You gain a fly speed of 60 ft.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F7A19299-E9C1-5F03-923C-34C84BD44A8A",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Static Field",
+    "slug": "effect-static-field-howl-of-the-wild",
+    "descr": "Plant creatures gain 5 temporary Hit Points.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4313D772-C96C-5ADC-BED6-0B28B844A27A",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Turn Aside Ambient Magic",
+    "slug": "effect-turn-aside-ambient-magic-howl-of-the-wild",
+    "descr": "Granted by [Turn Aside Ambient Magic](/action/turn-aside-ambient-magic-howl-of-the-wild)\n\nChoose acid, cold, electricity, fire, or sonic damage. You gain resistance against the chosen damage type equal to half your level.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A844DF1F-DD1B-55E4-A4E5-B63F78F5730A",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Viperous Elixir (Greater)",
+    "slug": "effect-viperous-elixir-greater-howl-of-the-wild",
+    "descr": "Granted by [Viperous Elixir (Greater)](/item/viperous-elixir-greater-howl-of-the-wild)\n\nYou gain a fangs unarmed attack that deals 1d6 piercing damage. You gain a +3 item bonus to unarmed attack and damage rolls when you Strike with your fangs or another bite attack.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 10,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "99250CB1-7F9C-59DD-97E2-0FE021F354B3",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Viperous Elixir (Lesser)",
+    "slug": "effect-viperous-elixir-lesser-howl-of-the-wild",
+    "descr": "Granted by [Viperous Elixir (Lesser)](/item/viperous-elixir-lesser-howl-of-the-wild)\n\nYou gain a fangs unarmed attack that deals 1d6 piercing damage. You gain a +1 item bonus to unarmed attack and damage rolls when you Strike with your fangs or another bite attack.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2F541B5D-CD18-59C5-9EB6-3677F3DB185D",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Viperous Elixir (Moderate)",
+    "slug": "effect-viperous-elixir-moderate-howl-of-the-wild",
+    "descr": "Granted by [Viperous Elixir (Moderate)](/item/viperous-elixir-moderate-howl-of-the-wild)\n\nYou gain a fangs unarmed attack that deals 1d6 piercing damage. You gain a +2 item bonus to unarmed attack and damage rolls when you Strike with your fangs or another bite attack.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 10,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1D5B4F42-159E-582D-BA41-7D6F07E92579",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Watery Form",
+    "slug": "effect-watery-form-howl-of-the-wild",
+    "descr": "Granted by [Orm Choker](/item/orm-choker-howl-of-the-wild)\n\nYou gain a swim Speed of 45 feet, and you gain a +4 circumstance bonus to Stealth checks in water.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5F708280-43A1-5B7F-9C6B-D97E610F5286",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Web",
+    "slug": "effect-web-howl-of-the-wild",
+    "descr": "The target takes a –10-foot circumstance penalty to its Speeds.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2171A5C0-C258-5EA0-B5CF-3221B26994A1",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Wemmuth Trinket",
+    "slug": "effect-wemmuth-trinket-howl-of-the-wild",
+    "descr": "Granted by [Wemmuth Trinket](/item/wemmuth-trinket-howl-of-the-wild)\n\nCreatures who fail or critically fail their Reflex saves against *entangling flora* also take piercing damage equal to the spell's rank.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 0,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "00DFE1F5-B706-5F46-A184-4EA372A8A457",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Wild Mimic Dedication",
+    "slug": "effect-wild-mimic-dedication-howl-of-the-wild",
+    "descr": "Granted by [Wild Mimic Dedication](/feat/wild-mimic-dedication-howl-of-the-wild)\n\nYou gain a +1 circumstance bonus to your saving throws against the next attack or ability that the subject of your Recall Knowledge targets you with.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B68FB7A7-079A-5DFC-B970-253D614631C2",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Albatross Curse",
+    "slug": "spell-effect-albatross-curse-howl-of-the-wild",
+    "descr": "Granted by [Albatross Curse](/spell/albatross-curse-howl-of-the-wild).\n\nYou and allies within 30 feet of the target gain a +1 circumstance bonus to attacks against the target.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "CC36AA77-744A-50F3-8C85-E6DAB27B692F",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Albatross Curse (Circumstance Bonus)",
+    "slug": "spell-effect-albatross-curse-circumstance-bonus-howl-of-the-wild",
+    "descr": "Granted by [Albatross Curse](/spell/albatross-curse-howl-of-the-wild)\n\nYou gain a +1 circumstance bonus to attacks against the target of the Albatross Curse.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "DAA1A913-C516-5FF6-A72D-B544C506C794",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Albatross Curse (Critical Failure)",
+    "slug": "spell-effect-albatross-curse-critical-failure-howl-of-the-wild",
+    "descr": "Granted by [Albatross Curse](/spell/albatross-curse-howl-of-the-wild)\n\nYou must roll twice and take the worse result on your next Will save.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9FCC63E4-6244-53AA-A2C6-2BEAABD02DEC",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Albatross Curse (Failure)",
+    "slug": "spell-effect-albatross-curse-failure-howl-of-the-wild",
+    "descr": "Granted by [Albatross Curse](/spell/albatross-curse-howl-of-the-wild)\n\nYou must roll twice and take the worse result on your next Will save.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "57948CAD-5C1E-557E-BC3F-DF42069BAD7B",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Animal Form (Crab)",
+    "slug": "spell-effect-animal-form-crab-howl-of-the-wild",
+    "descr": "Granted by [Animal Form](/spell/animal-form-player-core)\n\nYou transform yourself into a Medium animal battle form. While in this form, you gain the [animal](/trait/animal) trait. You gain the following statistics and abilities regardless of which battle form you choose:\n\nAC = 16 + your level. Ignore your armor's check penalty and Speed reduction.5 temporary Hit Points.Low-light vision and imprecise scent 30 feet.One or more unarmed melee attacks specific to the battle form you choose, which are the only attacks you can Strike with. You're trained with them. Your attack modifier is +9, and your damage bonus is +1. These attacks are Strength based (for the purpose of the [Enfeebled](/condition/enfeebled-player-core) condition, for example). If your unarmed attack bonus is higher, you can use it instead.Athletics modifier of +9, unless your own modifier is higher.\n\nYou also gain specific abilities based on the type of animal you choose:\n\n**Crab**\n\nSpeed 25 feet, swim Speed 15 feet;**Melee** 1 big claw, **Damage** 2d8 piercing;**Melee** 1 little claw (agile), **Damage** 2d4 piercing.can breathe in water and in air.\n\n---\n\n**Heightened (3rd)** You instead gain 10 temporary HP, AC = 17 + your level, attack modifier +14, damage bonus +5, and Athletics +14.\n\n**Heightened (4th)** Your battle form is Large and your attacks have 10-foot reach. You must have enough space to expand into or the spell is lost. You instead gain 15 temporary HP, AC = 18 + your level, attack modifier +16, damage bonus +9, and Athletics +16.\n\n**Heightened (5th)** Your battle form is Huge and your attacks have 15-foot reach. You must have enough space to expand into or the spell is lost. You instead gain 20 temporary HP, AC = 18 + your level, attack modifier +18, damage bonus +7 and double the number of damage dice, and Athletics +20.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D4BAF296-A4DB-5E6C-ACD0-D7B7E9EB96AA",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Animal Form (Crocodile)",
+    "slug": "spell-effect-animal-form-crocodile-howl-of-the-wild",
+    "descr": "Granted by [Animal Form](/spell/animal-form-player-core)\n\nYou transform yourself into a Medium animal battle form. While in this form, you gain the [animal](/trait/animal) trait. You gain the following statistics and abilities regardless of which battle form you choose:\n\nAC = 16 + your level. Ignore your armor's check penalty and Speed reduction.5 temporary Hit Points.Low-light vision and imprecise scent 30 feet.One or more unarmed melee attacks specific to the battle form you choose, which are the only attacks you can Strike with. You're trained with them. Your attack modifier is +9, and your damage bonus is +1. These attacks are Strength based (for the purpose of the [Enfeebled](/condition/enfeebled-player-core) condition, for example). If your unarmed attack bonus is higher, you can use it instead.Athletics modifier of +9, unless your own modifier is higher.\n\nYou also gain specific abilities based on the type of animal you choose:\n\n**Crocodile**\n\nSpeed 25 feet, swim Speed 30 feet;**Melee** 1 jaws, **Damage** 2d8 piercing;**Melee** 1 tail (agile), **Damage** 1d8 bludgeoning.can hold your breath for the duration of the transformation.\n\n---\n\n**Heightened (3rd)** You instead gain 10 temporary HP, AC = 17 + your level, attack modifier +14, damage bonus +5, and Athletics +14.\n\n**Heightened (4th)** Your battle form is Large and your attacks have 10-foot reach. You must have enough space to expand into or the spell is lost. You instead gain 15 temporary HP, AC = 18 + your level, attack modifier +16, damage bonus +9, and Athletics +16.\n\n**Heightened (5th)** Your battle form is Huge and your attacks have 15-foot reach. You must have enough space to expand into or the spell is lost. You instead gain 20 temporary HP, AC = 18 + your level, attack modifier +18, damage bonus +7 and double the number of damage dice, and Athletics +20.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "94290B35-A5C1-52BC-85EE-DB91ACBF635B",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Animal Form (Orca)",
+    "slug": "spell-effect-animal-form-orca-howl-of-the-wild",
+    "descr": "Granted by [Animal Form](/spell/animal-form-player-core)\n\nYou call upon primal energy to transform yourself into a Medium animal battle form. When you first cast this spell, choose a form.\n\nYou can decide the specific type of animal (such as lion or snow leopard for cat), but this has no effect on the form's Size or statistics. While in this form, you gain the [animal](/trait/animal) trait. You can Dismiss the spell.\n\nYou gain the following statistics and abilities regardless of which battle form you choose:\n\nAC = 16 + your level. Ignore your armor's check penalty and Speed reduction.5 temporary Hit Points.Low-light vision and imprecise scent 30 feet.One or more unarmed melee attacks specific to the battle form you choose, which are the only attacks you can Strike with. You're trained with them. Your attack modifier is +9, and your damage bonus is +1. These attacks are Strength based (for the purpose of the [Enfeebled](/condition/enfeebled-player-core) condition, for example). If your unarmed attack bonus is higher, you can use it instead.Athletics modifier of +9, unless your own modifier is higher.\n\nYou also gain specific abilities based on the type of animal you choose:\n\n**Orca**\n\nswim Speed 35 feet;**Melee** 1 jaws, **Damage** 2d8 piercing;can hold your breath for the duration of the transformation.\n\n---\n\n**Heightened (3rd)** You instead gain 10 temporary HP, AC = 17 + your level, attack modifier +14, damage bonus +5, and Athletics +14.\n\n**Heightened (4th)** Your battle form is Large and your attacks have 10-foot reach. You must have enough space to expand into or the spell is lost. You instead gain 15 temporary HP, AC = 18 + your level, attack modifier +16, damage bonus +9, and Athletics +16.\n\n**Heightened (5th)** Your battle form is Huge and your attacks have 15-foot reach. You must have enough space to expand into or the spell is lost. You instead gain 20 temporary HP, AC = 18 + your level, attack modifier +18, damage bonus +7 and double the number of damage dice, and Athletics +20.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "CE897AF4-08B5-5C11-883F-1E1D8671AD02",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Animal Form (Seal)",
+    "slug": "spell-effect-animal-form-seal-howl-of-the-wild",
+    "descr": "Granted by [Animal Form](/spell/animal-form-player-core)\n\nYou call upon primal energy to transform yourself into a Medium animal battle form. When you first cast this spell, choose a form.\n\nYou can decide the specific type of animal (such as lion or snow leopard for cat), but this has no effect on the form's Size or statistics. While in this form, you gain the [animal](/trait/animal) trait. You can Dismiss the spell.\n\nYou gain the following statistics and abilities regardless of which battle form you choose:\n\nAC = 16 + your level. Ignore your armor's check penalty and Speed reduction.5 temporary Hit Points.Low-light vision and imprecise scent 30 feet.One or more unarmed melee attacks specific to the battle form you choose, which are the only attacks you can Strike with. You're trained with them. Your attack modifier is +9, and your damage bonus is +1. These attacks are Strength based (for the purpose of the [Enfeebled](/condition/enfeebled-player-core) condition, for example). If your unarmed attack bonus is higher, you can use it instead.Athletics modifier of +9, unless your own modifier is higher.\n\nYou also gain specific abilities based on the type of animal you choose:\n\n**Seal**\n\nSpeed 20 feet, swim Speed 30 feet;**Melee** 1 jaws (grapple), **Damage** 2d6 piercing;can hold your breath for the duration of the transformation.\n\n---\n\n**Heightened (3rd)** You instead gain 10 temporary HP, AC = 17 + your level, attack modifier +14, damage bonus +5, and Athletics +14.\n\n**Heightened (4th)** Your battle form is Large and your attacks have 10-foot reach. You must have enough space to expand into or the spell is lost. You instead gain 15 temporary HP, AC = 18 + your level, attack modifier +16, damage bonus +9, and Athletics +16.\n\n**Heightened (5th)** Your battle form is Huge and your attacks have 15-foot reach. You must have enough space to expand into or the spell is lost. You instead gain 20 temporary HP, AC = 18 + your level, attack modifier +18, damage bonus +7 and double the number of damage dice, and Athletics +20.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "6D26B297-3A5B-5FD1-BEC3-A29146E678BD",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Canopy Crawler",
+    "slug": "spell-effect-canopy-crawler-howl-of-the-wild",
+    "descr": "Granted by [Canopy Crawler](/spell/canopy-crawler-howl-of-the-wild)\n\nYou gain a climb Speed equal to your highest Speed.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 10,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "6449089B-B10E-5FCD-8D51-0422B8D20CC8",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Claws of the Otter",
+    "slug": "spell-effect-claws-of-the-otter-howl-of-the-wild",
+    "descr": "Granted by [Claws Of The Otter](/spell/claws-of-the-otter-howl-of-the-wild)\n\nYou gain a +1 status bonus to Athletics checks to Swim and you gain a claws unarmed attack. They're an agile, finesse, unarmed attack that deals slashing damage and additional cold damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "23FB07F4-0F74-5385-A73D-7CB184B8B43C",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Distracting Decoy",
+    "slug": "spell-effect-distracting-decoy-howl-of-the-wild",
+    "descr": "Granted by [Distracting Decoy](/spell/distracting-decoy-howl-of-the-wild)\n\n**Failure** The creature is off-guard until the start of your next turn.\n\n**Critical Failure** As failure, but the creature also takes a –2 circumstance penalty to attacks while it's off-guard.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "6E6DE399-27C7-5603-997A-4E6FCA9384A1",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Hidebound",
+    "slug": "spell-effect-hidebound-howl-of-the-wild",
+    "descr": "Granted by [Hidebound](/spell/hidebound-howl-of-the-wild)\n\nYou gain resistance to physical damage, except adamantine, until the beginning of its next turn.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "DD1F5A7F-CAF8-5209-B74E-F899D70125AC",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Hippocampus Retreat",
+    "slug": "spell-effect-hippocampus-retreat-howl-of-the-wild",
+    "descr": "Granted by [Hippocampus Retreat](/spell/hippocampus-retreat-howl-of-the-wild)\n\nIf you already have a swim Speed, you can Swim up to your Speed with a +10-foot circumstance bonus. You gain a +2 circumstance bonus to your AC against reactions triggered by this movement.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "81F840FF-BAD6-5AD7-AB6A-A7410C47E850",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Imitate Fauna",
+    "slug": "spell-effect-imitate-fauna-howl-of-the-wild",
+    "descr": "Granted by [Imitate Fauna](/spell/imitate-fauna-howl-of-the-wild)\n\nYou gain a +4 status bonus to Deception checks to prevent other animals from seeing through their disguise",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "72519C75-2DA9-5826-B71C-8CFEB2F2044B",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Keen Smell",
+    "slug": "spell-effect-keen-smell-howl-of-the-wild",
+    "descr": "Granted by [Keen Smell](/spell/keen-smell-howl-of-the-wild)\n\nFor the spell's duration, you gain scent as an imprecise sense.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A9D690BC-AF48-57BB-8BF4-6B232E44A1E4",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Murmuration",
+    "slug": "spell-effect-murmuration-howl-of-the-wild",
+    "descr": "Granted by [Murmuration](/spell/murmuration-howl-of-the-wild)\n\nYou take a –2 status penalty to your attack roll or hostile skill check.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "092B56C2-BB46-56E1-BDB7-CE8DE89302B5",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Snake Fangs",
+    "slug": "spell-effect-snake-fangs-howl-of-the-wild",
+    "descr": "Granted by [Snake Fangs](/spell/snake-fangs-howl-of-the-wild)\n\nYou gain a fangs unarmed attack. They're a finesse, grapple, unarmed attack that deals piercing damage and extra poison damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "85B9FE50-15D8-5C50-8030-83D2FC3497EC",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Spirit of the Beast",
+    "slug": "spell-effect-spirit-of-the-beast-howl-of-the-wild",
+    "descr": "Granted by [Spirit Of The Beast](/spell/spirit-of-the-beast-howl-of-the-wild)\n\nSelect from one of the following aspects.\n\n**Aspect of Might:** You gain a status bonus to Athletics checks, Intimidation checks to Demoralize, and Fortitude saves.**Aspect of Swiftness:** You gain a status bonus to Acrobatics checks, Stealth checks to Hide or Sneak, and Reflex saves.**Aspect of Insight:** You gain a status bonus to Perception checks to Seek, Survival checks to Sense Direction or Track, and Will saves.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "38E33BEE-2048-5508-AA60-B30F70197FE0",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Sting of the Sea",
+    "slug": "spell-effect-sting-of-the-sea-howl-of-the-wild",
+    "descr": "Granted by [Sting Of The Sea](/spell/sting-of-the-sea-howl-of-the-wild)\n\nThe target takes a –2 penalty to Perception checks involving vision.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "DC614FE5-9794-5C27-8E39-B2A19A97E75A",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Stance: Claw Stance",
+    "slug": "stance-claw-stance-howl-of-the-wild",
+    "descr": "Granted by [Claw Stance](/action/claw-stance-howl-of-the-wild)\n\nThe only Strikes you can make are frenzied claw unarmed attacks. These deal 1d6 slashing damage, are in the brawling group, and have the agile, finesse, grapple, unarmed, and versatile piercing traits.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "7E257698-EF95-54A9-BB9B-1E182727F04C",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Stance: Stretching Reach",
+    "slug": "stance-stretching-reach-howl-of-the-wild",
+    "descr": "Granted by [Stretching Reach](/feat/stretching-reach-howl-of-the-wild)\n\nWhen you wield a melee weapon that requires two hands and doesn't have reach, the weapon gains a reach of 10 feet.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F6FAD665-A4D0-5D23-9172-EDAF90A426F2",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Stance: Talon Stance",
+    "slug": "stance-talon-stance-howl-of-the-wild",
+    "descr": "Granted by [Talon Stance](/action/talon-stance-howl-of-the-wild)\n\nThe only Strikes you can make are spinning talon unarmed attacks. These deal 1d8 slashing damage, are in the brawling group, and have the finesse, sweep, and [unarmed](/trait/unarmed) traits. You don't need a free hand to use spinning talon strikes.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

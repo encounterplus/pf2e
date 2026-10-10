@@ -1,0 +1,614 @@
+[
+  {
+    "id": "B23FD02F-0C39-5805-A1F4-44D8E83F616A",
+    "kind": "Trait",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "City",
+    "slug": "city",
+    "descr": "Settlements with this trait tend to be relatively large, with levels typically ranging from 5 to 7.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster",
+      "trait"
+    ],
+    "sources": [
+      {
+        "name": "GM Core",
+        "url": "https://2e.aonprd.com/Traits.aspx?ID=553",
+        "page": 170
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "A88BED7F-C67E-59F5-B672-301CCD2E6175",
+    "kind": "Trait",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Erratic",
+    "slug": "erratic",
+    "descr": "Time slows down and speeds up, so an individual might lose or gain time as they move between planes. When a creature moves from a plane with erratic time to one with normal time, roll a DC 11 flat check. Creatures that leave an erratic time plane together share the same result.\n\n**Success** Time passed normally on the erratic time plane.\n**Failure** For each hour spent on the erratic time plane, 1 day passed on the normal time plane.\n**Critical Failure** For each round spent on the erratic time plane, 1 day passed on the normal time plane.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster",
+      "trait"
+    ],
+    "sources": [
+      {
+        "name": "GM Core",
+        "url": "https://2e.aonprd.com/Traits.aspx?ID=592",
+        "page": 172
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "4D24A197-C7DB-583D-88D0-EA3D69AFE6E0",
+    "kind": "Trait",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Finite",
+    "slug": "finite",
+    "descr": "Finite planes consist of a limited amount of space.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster",
+      "trait"
+    ],
+    "sources": [
+      {
+        "name": "GM Core",
+        "url": "https://2e.aonprd.com/Traits.aspx?ID=603",
+        "page": 172
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "42978124-365F-5DE6-BDA5-EE685AA8FF99",
+    "kind": "Trait",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Flowing",
+    "slug": "flowing",
+    "descr": "The flow of time is consistently faster or slower. A creature might travel to one of these planes, spend a year there, and find that only an hour passed in the Universe; alternatively, they might spend a minute on this plane and find out an hour passed in the Universe.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster",
+      "trait"
+    ],
+    "sources": [
+      {
+        "name": "GM Core",
+        "url": "https://2e.aonprd.com/Traits.aspx?ID=607",
+        "page": 172
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "F382BF4D-52B7-5AA6-9D0C-D99FE6635FE0",
+    "kind": "Trait",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "High Gravity",
+    "slug": "high-gravity",
+    "descr": "As in normal gravity, bodies of great mass act as centers of gravity, but the force relative to the size of the body is greater than in the Universe. The Bulk of all creatures and objects is doubled, meaning creatures acclimated to normal gravity can carry only half as much. Creatures used to normal gravity move at half Speed and can jump only half as high and far. Physical ranged attacks are impossible beyond the third range increment (instead of the sixth). Creatures that fall in high gravity take bludgeoning damage equal to the distance they fell.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster",
+      "trait"
+    ],
+    "sources": [
+      {
+        "name": "GM Core",
+        "url": "https://2e.aonprd.com/Traits.aspx?ID=625",
+        "page": 172
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "C9500558-306D-5243-ABE3-ACF1618C4E0F",
+    "kind": "Trait",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Immeasurable",
+    "slug": "immeasurable",
+    "descr": "Immeasurable planes are immeasurably large, perhaps infinite.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster",
+      "trait"
+    ],
+    "sources": [
+      {
+        "name": "GM Core",
+        "url": "https://2e.aonprd.com/Traits.aspx?ID=630",
+        "page": 172
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "F23F7AA3-DF32-512D-A07D-A05DFA6A56C7",
+    "kind": "Trait",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Low Gravity",
+    "slug": "low-gravity",
+    "descr": "As in normal gravity, bodies of great mass act as centers of gravity, but the force relative to the size of the body is less than in the Universe. The Bulk of all creatures and objects is halved, meaning creatures acclimated to normal gravity can carry twice as much and jump twice as high and far. Physical ranged attacks are possible up to the twelfth range increment (instead of the sixth). Creatures that fall in low gravity take no damage for the first 10 feet of a fall, and then take bludgeoning damage equal to a quarter of the remaining distance it fell.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster",
+      "trait"
+    ],
+    "sources": [
+      {
+        "name": "GM Core",
+        "url": "https://2e.aonprd.com/Traits.aspx?ID=643",
+        "page": 172
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "A1A8612E-FAE8-553D-ABEF-26865DA7148C",
+    "kind": "Trait",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Metamorphic",
+    "slug": "metamorphic",
+    "descr": "Things change by means other than physical force or magic. Sometimes spells have morphic effects. Other times, the plane’s nature is under the control of a deity or power, or the plane simply changes at random.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster",
+      "trait"
+    ],
+    "sources": [
+      {
+        "name": "GM Core",
+        "url": "https://2e.aonprd.com/Traits.aspx?ID=649",
+        "page": 173
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "92396A8B-3A9B-51B2-89A8-A458D86ED161",
+    "kind": "Trait",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Metropolis",
+    "slug": "metropolis",
+    "descr": "Settlements with this trait are the largest of cities, often with a level of 8 or higher.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster",
+      "trait"
+    ],
+    "sources": [
+      {
+        "name": "GM Core",
+        "url": "https://2e.aonprd.com/Traits.aspx?ID=650",
+        "page": 170
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "8E607E8C-FC40-508A-B98B-787E43C65BA8",
+    "kind": "Trait",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Microgravity",
+    "slug": "microgravity",
+    "descr": "There’s little to no gravity on this plane. Creatures float in space unless they can push off a surface or use some force to propel themselves throughout the plane.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster",
+      "trait"
+    ],
+    "sources": [
+      {
+        "name": "GM Core",
+        "url": "https://2e.aonprd.com/Traits.aspx?ID=651",
+        "page": 172
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "81FB8EE2-CBB5-5608-9570-17A2DDFC24A5",
+    "kind": "Trait",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Sentient",
+    "slug": "sentient",
+    "descr": "The plane changes based on its own whims.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster",
+      "trait"
+    ],
+    "sources": [
+      {
+        "name": "GM Core",
+        "url": "https://2e.aonprd.com/Traits.aspx?ID=691",
+        "page": 173
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "A8C8261E-FF20-599A-B61B-2A20BC336EBC",
+    "kind": "Trait",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Static",
+    "slug": "static",
+    "descr": "Visitors can’t affect living residents of the plane or objects the denizens carry in any way. Any spells that would affect those on the plane have no effect unless the static trait is somehow removed or suppressed.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster",
+      "trait"
+    ],
+    "sources": [
+      {
+        "name": "GM Core",
+        "url": "https://2e.aonprd.com/Traits.aspx?ID=702",
+        "page": 173
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "8BB34EAE-8A26-5846-B81F-C5643370ADDC",
+    "kind": "Trait",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Strange Gravity",
+    "slug": "strange-gravity",
+    "descr": "All bodies of mass are centers of gravity with roughly the same force. A creature can stand on any solid objects that’s as large as or larger than themself.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster",
+      "trait"
+    ],
+    "sources": [
+      {
+        "name": "GM Core",
+        "url": "https://2e.aonprd.com/Traits.aspx?ID=703",
+        "page": 172
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "FF69BA32-F646-5140-9776-162961EA78C7",
+    "kind": "Trait",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Subjective Gravity",
+    "slug": "subjective-gravity",
+    "descr": "All bodies of mass can be centers of gravity with the same force, but only if a non-mindless creature wills it. Unattended items, objects, and mindless creatures treat the plane as having microgravity. Creatures on a plane with subjective gravity can move normally along a solid surface by imagining “down” near their feet. Designating this downward direction is a free action that has the concentration trait. If suspended in midair, a creature can replicate flight by choosing a “down” direction and falling in that direction, moving up to their Speed or fly Speed. This pseudo-flight uses the [Fly](/action/fly-player-core) action.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster",
+      "trait"
+    ],
+    "sources": [
+      {
+        "name": "GM Core",
+        "url": "https://2e.aonprd.com/Traits.aspx?ID=705",
+        "page": 172
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "9D5D2BC9-B2E6-5C5A-916C-5F553C259B36",
+    "kind": "Trait",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Timeless",
+    "slug": "timeless",
+    "descr": "Time still passes, but the effects of time are diminished. Creatures on these planes don’t feel hunger, thirst, or the effects of aging or natural healing. The effects of poison, diseases, and other kinds of healing might also be diminished on certain timeless planes. Spell energy and other effects still dissipate, so the durations of spells and other effects function as normal. The danger of this trait is that when a creature leaves a timeless plane and enters a plane with another [time](/trait/time) trait, the effects of hunger, thirst, aging, and other effects slowed or arrested by the timeless trait occur retroactively in the instant of transition, possibly causing the creature to immediately starve or die of old age.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster",
+      "trait"
+    ],
+    "sources": [
+      {
+        "name": "GM Core",
+        "url": "https://2e.aonprd.com/Traits.aspx?ID=713",
+        "page": 172
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "E1D0D5EC-9A48-5ABC-9086-9E7D3C0DF8C0",
+    "kind": "Trait",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Town",
+    "slug": "town",
+    "descr": "Settlements with this trait are modest in size, with a level usually ranging from 2–4.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster",
+      "trait"
+    ],
+    "sources": [
+      {
+        "name": "GM Core",
+        "url": "https://2e.aonprd.com/Traits.aspx?ID=714",
+        "page": 170
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "A2B42077-DB09-5F0A-8CBE-407C6A161CF8",
+    "kind": "Trait",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Unbounded",
+    "slug": "unbounded",
+    "descr": "Unbounded planes loop back on themselves when a creature reaches the plane’s “edge.”",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster",
+      "trait"
+    ],
+    "sources": [
+      {
+        "name": "GM Core",
+        "url": "https://2e.aonprd.com/Traits.aspx?ID=720",
+        "page": 172
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "92F1C2F4-8667-5C81-9D59-EA8EC6CA06CD",
+    "kind": "Trait",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Village",
+    "slug": "village",
+    "descr": "Settlements with this trait tend to be small and usually have a level no higher than 1.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster",
+      "trait"
+    ],
+    "sources": [
+      {
+        "name": "GM Core",
+        "url": "https://2e.aonprd.com/Traits.aspx?ID=725",
+        "page": 170
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  }
+]

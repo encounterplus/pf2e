@@ -1,0 +1,276 @@
+[
+  {
+    "id": "27362DA5-6D0F-5931-9FDC-970E3BB99C64",
+    "kind": "Class",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Commander",
+    "slug": "commander-battlecry",
+    "descr": "",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "summary": "",
+      "attributes": [
+        "intelligence"
+      ],
+      "hp": 8,
+      "perception": "expert",
+      "fortitude": "trained",
+      "reflex": "expert",
+      "will": "expert",
+      "skills": "society",
+      "attacks": "martial, simple, unarmed",
+      "defenses": "heavy, light, medium, unarmored",
+      "classAdvancement": "| Your Level | Class Features |\n| --- | --- |\n| 1 | Ancestry and background, attribute boosts, initial proficiencies, commander's banner, tactics, drilled reactions, shield block, commander feat |\n| 2 | Commander feat, skill feat |\n| 3 | General feat, skill increase, warfare expertise |\n| 4 | Commander feat, skill feat |\n| 5 | Ancestry feat, attribute boosts, military expertise, skill increase |\n| 6 | Commander feat, skill feat |\n| 7 | Expert tactician, general feat, skill increase, weapon specialization |\n| 8 | Commander feat, skill feat |\n| 9 | Ancestry feat, fortitude expertise, skill increase |\n| 10 | Attribute boosts, commander feat, skill feat |\n| 11 | Armor expertise, commanding will, general feat, skill increase |\n| 12 | Commander feat, skill feat |\n| 13 | Ancestry feat, skill increase, perception mastery, weapon mastery |\n| 14 | Commander feat, skill feat |\n| 15 | Attribute boosts, battlefield intuition, general feat, greater weapon specialization, master tactician, skill increase |\n| 16 | Commander feat, skill feat |\n| 17 | Ancestry feat, armor mastery, skill increase |\n| 18 | Commander feat, skill feat |\n| 19 | General feat, legendary tactician, skill increase |\n| 20 | Attribute boosts, commander feat, skill feat |",
+      "classFeaturesText": "You gain these features as a Commander. Abilities gained at higher levels list the levels at which you gain them next to the features' names.",
+      "classFeatures": [
+        {
+          "name": "Commander's Banner",
+          "level": 1,
+          "text": "A commander needs a battle standard to help guide their allies on the field. You start play with a custom banner that you can use to signal allies when using tactics (see below) or to deploy specific abilities. Your banner can be affixed to a weapon or shield you are wielding, attached to a simple pole or handle and held in one hand, or worn affixed to a pole alongside your backpack. Your banner might be a literal flag or pennant, a decorated fan, a personalized totem, or some other highly visible and item of negligible or light Bulk. Your banner requires customization and influences your allies' morale, so you can have only one banner at a time designated as your commander's banner; designating a new banner or standard as your commander's banner takes 1 minute.\n\nAs long as your banner is visible and in your possession, it provides an aura that gives you and all allies in a 30-foot emanation a +1 status bonus to Will saves and DCs against fear effects. You can pause or resume this effect as part of any action you would typically use to stow or retrieve your banner. If your banner is destroyed or stolen, allies currently benefiting from its bonuses become [Frightened 1](/condition/frightened-player-core). This effect has the aura, emotion, mental, and [visual](/trait/visual) traits.\n\nSome abilities allow you to place your banner in a specialized manner, such as the Commander's Companion and [Plant Banner](/feat/plant-banner-battlecry) feats. As long as you have placed your banner in this way, any banner abilities originate from your banner's space instead of your own, and you gain the same basic benefits as when it is in your possession. An unattended banner has the base Hardness and Hit Points of a standard item of its type (usually cloth, thin leather, or thin wood) or the Hardness and Hit Points of the object it is affixed to, whichever is greater."
+        },
+        {
+          "name": "Drilled Reactions",
+          "level": 1,
+          "text": "Your time spent training your allies allows them to respond quickly and instinctively to your commands. Once per round when you use a tactic, you can grant one ally of your choice benefiting from that tactic an extra reaction. This reaction has to be used for that tactic and is lost if not used."
+        },
+        {
+          "name": "Shield Block",
+          "level": 1,
+          "text": "You gain the Shield Block general feat, a reaction that lets you reduce damage with your shield."
+        },
+        {
+          "name": "Tactics",
+          "level": 1,
+          "text": "By studying and practicing the strategic arts of war, you can guide your allies to victory. You begin play with a folio containing five tactics. These are combat techniques and coordinated maneuvers you can instruct your allies in, enabling them to respond to your signals in combat. As you increase in level, you gain the ability to learn more potent tactics. When you gain the Expert Tactician class feature, you gain the ability to add expert tactics to your folio; when you gain the Master Tactician class feature, you can add master tactics to your folio; and when you gain the Legendary Tactician class feature, you can add legendary tactics to your folio.\n\n## Preparing and Changing Tactics\n\nEach day during your daily preparations, you prepare three tactics from your folio and drill in them alongside your allies, enabling you to use these tactics until your next daily preparations. When you drill, you can instruct a total number of allies equal to 2 + your Intelligence modifier, enabling these allies to respond to your tactics in combat. These allies are your squadmates. A squadmate always has the option not to respond to your tactical signal if they do not wish to. You count as one of your squadmates for the purposes of participating in or benefiting from a tactic (though you do not count against your own maximum number of squadmates). The tactics trait is explained in more detail in the key terms sidebar on this page.\n\nYou can change which tactics you have prepared from those in your folio by spending 10 minutes to drill, replacing all previously prepared tactics and squadmates. This does not prevent your allies from performing their own activities during this time frame. Some tactics have a limited usage, such as the Valkyrie's Charge tactic, which can be used once per day. These tactics can never exceed their indicated use limit even if you replace them with a different tactic and then prepare them again later that same day, but you can replace a tactic whose limited use has been expended with another tactic you know any time you are able to change your prepared tactics.\n\n## Gaining New Tactics\n\nYou add additional tactics to your folio and increase the number of tactics you can prepare when you gain the expert tactician, master tactician, and legendary tactician class features. You can also add tactics to your folio with the [Tactical Expansion](/feat/tactical-expansion-battlecry) feat, though this does not change the number you can have prepared. Because tactics folios use shorthand and signals unique to each commander, there is typically no benefit to using (or stealing) another commander's folio, though you can train with another commander to retrain one tactic in your folio to another that they know."
+        },
+        {
+          "name": "Warfare Expertise",
+          "level": 3,
+          "text": "Your knowledge of war and strategy grows and guides your decisions in battle. You gain expert proficiency in Warfare Lore. You can use Warfare Lore to Recall Knowledge about most creatures regardless of type, but typically only to determine whether they can be reasoned with, their most notable offensive abilities, and whether one of their saving throws is particularly weak. In addition, as long as you are observing at least one opponent when initiative is rolled, you can use Warfare Lore for your initiative roll."
+        },
+        {
+          "name": "Military Expertise",
+          "level": 5,
+          "text": "You've studied in a wide variety of weapons and learned to apply their principles in combat. Your proficiency rank for martial weapons, simple weapons, and unarmed attacks increases to expert. When you critically succeed at an attack roll with a weapon you are at least an expert with, you apply the weapon's critical specialization effect."
+        },
+        {
+          "name": "Expert Tactician",
+          "level": 7,
+          "text": "Your time spent leading and training others on battlefield tactics has improved your combat acumen. Your proficiency rank for your commander class DC increases to expert, and you add two new tactics to your folio; these can be any mobility or offensive tactics you don't already know, or you can choose from expert tactics you have access to. The total number of tactics you can have prepared increases to four. In addition, your proficiency rank in Warfare Lore increases to master."
+        },
+        {
+          "name": "Weapon Specialization",
+          "level": 7,
+          "text": "You've learned how to inflict greater injuries with the weapons you know best. You deal an additional 2 damage with weapons and unarmed attacks in which you are an expert. This damage increases to 3 if you're a master, and 4 if you're legendary."
+        },
+        {
+          "name": "Fortitude Expertise",
+          "level": 9,
+          "text": "Your physique has grown hardy in your adventures. Your proficiency rank for Fortitude saves increases to expert."
+        },
+        {
+          "name": "Armor Expertise",
+          "level": 11,
+          "text": "You have spent so much time in armor that you know how to make the most of its protection. Your proficiency ranks for light, medium, and heavy armor, as well as for unarmored defense, increase to expert. You gain the armor specialization effects of medium and heavy armor."
+        },
+        {
+          "name": "Commanding Will",
+          "level": 11,
+          "text": "You know that if you break, so too will those who follow you, and so you have cultivated a will that bends to no outside force. Your proficiency rank for Will saves increases to master. When you roll a success on a Will save, you get a critical success instead."
+        },
+        {
+          "name": "Perception Mastery",
+          "level": 13,
+          "text": "You've developed the ability to see a scenario from every side. Your proficiency rank for Perception increases to master."
+        },
+        {
+          "name": "Weapon Mastery",
+          "level": 13,
+          "text": "You've drilled extensively in your weapons. Your proficiency ranks for unarmed attacks, simple weapons, and martial weapons increase to master."
+        },
+        {
+          "name": "Battlefield Intuition",
+          "level": 15,
+          "text": "Your experience across a wide array of battlefields gives you a preternatural ability to predict and avoid damaging effects. Your proficiency rank for Reflex saves increases to master. When you roll a success on a Reflex save, you get a critical success instead."
+        },
+        {
+          "name": "Greater Weapon Specialization",
+          "level": 15,
+          "text": "Your damage from weapon specialization increases to 4 with weapons and unarmed attacks in which you're an expert, 6 if you're a master, and 8 if you're legendary."
+        },
+        {
+          "name": "Master Tactician",
+          "level": 15,
+          "text": "You are among the greatest tacticians to have ever led forces on the field of battle. Your proficiency rank for commander class DC increases to master, and you add two new tactics to your folio; these can be any mobility or offensive tactics you don't already have in your folio, or you can choose from expert tactics or master tactics you have access to. The total number of tactics you can have prepared increases to five. In addition, you gain legendary proficiency in Warfare Lore."
+        },
+        {
+          "name": "Armor Mastery",
+          "level": 17,
+          "text": "Your skill with armor improves, helping you avoid more blows. Your proficiency ranks for light, medium, and heavy armor, as well as for unarmored defense, increase to master."
+        },
+        {
+          "name": "Legendary Tactician",
+          "level": 19,
+          "text": "You are an unrivaled legend in your use of battlefield tactics. Your proficiency rank for your commander class DC increases to legendary, and you add two new tactics to your folio; these can be any mobility or offensive tactics you don't already have in your folio, or you can choose from expert tactics, master tactics, or legendary tactics you have access to. The total number of tactics you can have prepared increases to six."
+        }
+      ],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F4B48BB5-3941-5D6C-89ED-F2D8F20A58E5",
+    "kind": "Class",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Guardian",
+    "slug": "guardian-battlecry",
+    "descr": "",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "summary": "",
+      "attributes": [
+        "strength"
+      ],
+      "hp": 12,
+      "perception": "trained",
+      "fortitude": "expert",
+      "reflex": "trained",
+      "will": "expert",
+      "skills": "athletics",
+      "attacks": "martial, simple, unarmed",
+      "defenses": "heavy, light, medium, unarmored",
+      "classAdvancement": "| Your Level | Class Features |\n| --- | --- |\n| 1 | Ancestry and background, attribute boosts, initial proficiencies, guardian feat, guardian's armor, shield block, taunt, guardian's techniques |\n| 2 | Guardian feat, skill feat |\n| 3 | General feat, skill increase, tough to kill |\n| 4 | Guardian feat, skill feat |\n| 5 | Ancestry feat, attribute boosts, skill increase, unbreakable expertise, weapon expertise |\n| 6 | Guardian feat, skill feat |\n| 7 | General feat, reaction time, reflex expertise, skill increase |\n| 8 | Guardian feat, skill feat |\n| 9 | Ancestry feat, battle hardened, guardian expertise, skill increase |\n| 10 | Attribute boosts, guardian feat, skill feat |\n| 11 | General feat, skill increase, unbreakable mastery, weapon specialization |\n| 12 | Guardian feat, skill feat |\n| 13 | Ancestry feat, skill increase, weapon mastery |\n| 14 | Guardian feat, skill feat |\n| 15 | Attribute boosts, general feat, skill increase, unbreakable legend |\n| 16 | Guardian feat, skill feat |\n| 17 | Ancestry feat, greater weapon specialization, skill increase, unyielding resolve |\n| 18 | Guardian feat, skill feat |\n| 19 | General feat, guardian mastery, skill increase |\n| 20 | Attribute boosts, guardian feat, skill feat |",
+      "classFeaturesText": "You gain these features as a Guardian. Abilities gained at higher levels list the levels at which you gain them next to the features' names.",
+      "classFeatures": [
+        {
+          "name": "Guardian's Armor",
+          "level": 1,
+          "text": "Even when you are struck, your armor protects you from some harm. While wearing medium or heavy armor, you gain resistance to physical damage equal to 1 + half your level. In addition, you can rest normally while wearing medium and heavy armor."
+        },
+        {
+          "name": "Guardian's Techniques",
+          "level": 1,
+          "text": "As a guardian, you have learned certain techniques to help keep your allies safe.\n\n### Ever Ready\n\nYou always gain a reaction whenever you roll initiative for combat, but you can use it only for reactions from guardian feats or class features. The GM might still rule that you can use other reactions before your first turn based on the situation, as normal.\n\n### Intercept Attack\n\nYou keep your charges safe from harm, even if it means you get hurt yourself. You gain the Intercept Attack reaction."
+        },
+        {
+          "name": "Shield Block",
+          "level": 1,
+          "text": "You gain the Shield Block general feat, a reaction that lets you reduce damage with your shield."
+        },
+        {
+          "name": "Taunt",
+          "level": 1,
+          "text": "Often, the best way to protect your allies is to have the enemy want to attack you instead. You gain the [Taunt](/action/taunt-battlecry) action."
+        },
+        {
+          "name": "Tough To Kill",
+          "level": 3,
+          "text": "The protectiveness of your armor ensures that even if you fall, you take longer to die. You gain the Diehard general feat. If you already have the [Diehard](/feat/diehard-player-core) feat, you can retrain it when you get Tough to Kill. Additionally, the first time each day you'd be reduced to Dying 3 or higher, you stay at dying 2 instead."
+        },
+        {
+          "name": "Unbreakable Expertise",
+          "level": 5,
+          "text": "With training, you understand how to best block hits with your armor. Your proficiency rank with medium armor and heavy armor increases to expert."
+        },
+        {
+          "name": "Weapon Expertise",
+          "level": 5,
+          "text": "Sometimes, the best defense is a good offense. Your proficiency ranks for simple weapons, martial weapons, and unarmed attacks increase to expert."
+        },
+        {
+          "name": "Reaction Time",
+          "level": 7,
+          "text": "You're always on the lookout for danger and can react to it in an instant. Your proficiency rank for Perception increases to expert. At the start of each of your turns, you gain an additional reaction that you can use only for reactions from guardian feats or class features (including Shield Block). If you have the Ever Ready class feature, you also gain this additional reaction when you roll initiative for combat."
+        },
+        {
+          "name": "Reflex Expertise",
+          "level": 7,
+          "text": "Even in the heaviest of armors, you can brace yourself against widespread effects. Your proficiency rank for Reflex saves increases to expert."
+        },
+        {
+          "name": "Battle Hardened",
+          "level": 9,
+          "text": "Your experience in battle helps protect you against magic and toxins alike. Your proficiency rank for Fortitude saves increases to master. When you roll a success on a Fortitude save, you get a critical success instead."
+        },
+        {
+          "name": "Guardian Expertise",
+          "level": 9,
+          "text": "Your armored form is more imposing. Your proficiency rank for your guardian class DC increases to expert."
+        },
+        {
+          "name": "Unbreakable Mastery",
+          "level": 11,
+          "text": "When clad in steel, you fend off most attacks. Your proficiency rank with medium armor and heavy armor increases to master. Your proficiency rank with light armor and unarmored defense increases to expert."
+        },
+        {
+          "name": "Weapon Specialization",
+          "level": 11,
+          "text": "You've learned how to inflict greater injuries with the weapons you know best. You deal an additional 2 damage with weapons and unarmed attacks in which you are an expert. This damage increases to 3 if you're a master, and 4 if you're legendary."
+        },
+        {
+          "name": "Weapon Mastery",
+          "level": 13,
+          "text": "Your hours of battlefield experience grant you greater prowess. Your proficiency ranks for simple weapons, martial weapons, and unarmed attacks increase to master."
+        },
+        {
+          "name": "Unbreakable Legend",
+          "level": 15,
+          "text": "You have become an almost-impenetrable bulwark. Your proficiency ranks for medium and heavy armor increase to legendary. Your proficiency ranks for light armor and unarmored defense increase to master."
+        },
+        {
+          "name": "Greater Weapon Specialization",
+          "level": 17,
+          "text": "Your damage from weapon specialization increases to 4 with weapons and unarmed attacks in which you're an expert, 6 if you're a master, and 8 if you're legendary."
+        },
+        {
+          "name": "Unyielding Resolve",
+          "level": 17,
+          "text": "Stalwart as your armor, you refuse to break. Your proficiency ranks for Will saves increases to master. When you roll a success on a Will save, you get a critical success instead."
+        },
+        {
+          "name": "Guardian Mastery",
+          "level": 19,
+          "text": "You are known for your suit of armor more than the person inside. Your proficiency rank for your guardian class DC increases to master. While wearing armor, when you attempt a Reflex save to avoid a damaging effect, such as a Fireball, you can add your armor's item bonus to AC instead of your Dexterity modifier; if your armor has the [bulwark](/trait/bulwark) trait, increase this bonus by 1. If you get a success when you do this, you get a critical success instead."
+        }
+      ],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

@@ -1,0 +1,791 @@
+[
+  {
+    "id": "8559A59C-3E45-5EDA-8C50-74DB4FD373FD",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Artillerist",
+    "slug": "artillerist-guns-and-gears-remastered",
+    "descr": "Artillery is a team sport, where every member of the crew has to rely on the other members. At best, a mistake might just waste time. At worst, a misaligned fuse or a badly set pin could cause the whole thing to explode. You've taken these lessons to heart, and so your presence on an artillery team assists the entire team at every aspect of the siege weapon's deployment and usage. If you're serving on a siege weapon crew, you and all other members gain a +2 circumstance bonus to any checks to Load, Aim, move, or Repair the weapon. When you Aim a siege weapon, you can move the weapon's aim twice as far as normal.\n\nArtillerist",
+    "data": {
+      "level": 2,
+      "rarity": "common",
+      "traits": [
+        "archetype",
+        "dedication"
+      ],
+      "prerequisites": "trained in martial weapons",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "Artillery is a team sport, where every member of the crew has to rely on the other members. At best, a mistake might just waste time. At worst, a misaligned fuse or a badly set pin could cause the whole thing to explode. You've taken these lessons to heart, and so your presence on an artillery team assists the entire team at every aspect of the siege weapon's deployment and usage. If you're serving on a siege weapon crew, you and all other members gain a +2 circumstance bonus to any checks to Load, Aim, move, or Repair the weapon. When you Aim a siege weapon, you can move the weapon's aim twice as far as normal.\n\nArtillerist",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "dedication",
+          "slug": "dedication"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "dedication",
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A4DF4492-40A1-56C6-B911-B5711A8454F2",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Beast Gunner",
+    "slug": "beast-gunner-guns-and-gears-remastered",
+    "descr": "You've unlocked the first hints of your weapon's hidden potential. You treat all beast guns as martial firearms when determining your proficiency with them, even beast guns that are normally advanced weapons. You can change your bonded beast gun to another beast gun you own each day during your daily preparations, as long as you've previously performed a ritual hunt associated with the new beast gun.\n\nThe beast gun also acts as a conduit, amplifying any latent or active magic power you have. Unlocking this ability allows you to master it with other magical firearms. You learn to cast spontaneous spells and gain the Cast a Spell activity. You gain a spell repertoire with one cantrip of your choice, from either the arcane or primal spell list. You choose this cantrip from the common spells on your chosen spell list or from other spells you have access to on the list. This cantrip must require a spell attack roll. You're trained in the spell attack modifier and spell DC statistics. Your key spellcasting ability for these spells is either Charisma or Intelligence, chosen when you take this feat.\n\nIf you already cast arcane or primal spells from spell slots, you learn one additional cantrip from that tradition. If you're a prepared caster, you can prepare this spell in addition to your usual cantrips per day; if you're a spontaneous caster, you add this cantrip to your spell repertoire.\n\nYou also gain Spellsling.\n\n**Spellsling** 3\n\nBeast Gunner",
+    "data": {
+      "level": 6,
+      "rarity": "uncommon",
+      "traits": [
+        "archetype",
+        "dedication",
+        "magical"
+      ],
+      "prerequisites": "expert with at least one type of firearm; trained in Arcana or Crafting; you own a beast gun and have slain the type of creature associated with your beast gun in a fair hunt",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "You've unlocked the first hints of your weapon's hidden potential. You treat all beast guns as martial firearms when determining your proficiency with them, even beast guns that are normally advanced weapons. You can change your bonded beast gun to another beast gun you own each day during your daily preparations, as long as you've previously performed a ritual hunt associated with the new beast gun.\n\nThe beast gun also acts as a conduit, amplifying any latent or active magic power you have. Unlocking this ability allows you to master it with other magical firearms. You learn to cast spontaneous spells and gain the Cast a Spell activity. You gain a spell repertoire with one cantrip of your choice, from either the arcane or primal spell list. You choose this cantrip from the common spells on your chosen spell list or from other spells you have access to on the list. This cantrip must require a spell attack roll. You're trained in the spell attack modifier and spell DC statistics. Your key spellcasting ability for these spells is either Charisma or Intelligence, chosen when you take this feat.\n\nIf you already cast arcane or primal spells from spell slots, you learn one additional cantrip from that tradition. If you're a prepared caster, you can prepare this spell in addition to your usual cantrips per day; if you're a spontaneous caster, you add this cantrip to your spell repertoire.\n\nYou also gain Spellsling.\n\n**Spellsling** 3\n\nBeast Gunner",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "dedication",
+          "slug": "dedication"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "dedication",
+      "guns-and-gears-remastered",
+      "magical",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5BF85DE4-EB48-541E-BA77-299DB15A927C",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Bullet Dancer",
+    "slug": "bullet-dancer-guns-and-gears-remastered",
+    "descr": "You mix guns and melee into a deadly art. You gain the [Bullet Dancer Stance](/action/bullet-dancer-stance-guns-and-gears-remastered) action. You are also granted familiarity with bayonets, reinforced stocks, martial firearms, and martial combination weapons; for the purposes of proficiency and abilities from this archetype, you treat bayonets, reinforced stocks, martial firearms, and martial combination weapons as simple weapons. You gain access to uncommon combination weapons that have a firearm ranged form.\n\n**Bullet Dancer Stance** 1 (stance)\n\nBullet Dancer",
+    "data": {
+      "level": 2,
+      "rarity": "uncommon",
+      "traits": [
+        "archetype",
+        "dedication"
+      ],
+      "prerequisites": "expert in unarmored defense",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "You mix guns and melee into a deadly art. You gain the Bullet Dancer Stance action. You are also granted familiarity with bayonets, reinforced stocks, martial firearms, and martial combination weapons; for the purposes of proficiency and abilities from this archetype, you treat bayonets, reinforced stocks, martial firearms, and martial combination weapons as simple weapons. You gain access to uncommon combination weapons that have a firearm ranged form.\n\n**Bullet Dancer Stance** 1 (stance)\n\nBullet Dancer",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "dedication",
+          "slug": "dedication"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "dedication",
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "35D5ABE8-5C50-52DC-AE61-D119733DE2FB",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Demolitionist",
+    "slug": "demolitionist-guns-and-gears-remastered",
+    "descr": "You know how to set explosives to cause the maximum possible damage to buildings and other structures. You become trained in Engineering Lore or become an expert in it if you were already trained. You gain the [Set Explosives](/action/set-explosives-guns-and-gears-remastered) action.\n\n**Set Explosives** 2 (concentrate)\n\nDemolitionist",
+    "data": {
+      "level": 2,
+      "rarity": "uncommon",
+      "traits": [
+        "archetype",
+        "dedication"
+      ],
+      "prerequisites": "",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "You know how to set explosives to cause the maximum possible damage to buildings and other structures. You become trained in Engineering Lore or become an expert in it if you were already trained. You gain the Set Explosives action.\n\n**Set Explosives** 2 (concentrate)\n\nDemolitionist",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "dedication",
+          "slug": "dedication"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "dedication",
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "EB71AB60-F6F6-58CB-BB63-31AC541977C8",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Firework Technician",
+    "slug": "firework-technician-guns-and-gears-remastered",
+    "descr": "You've learned the secrets of making fire and sound bloom using black powder, metals, and paper. You most likely came by this knowledge through formal training with a fireworks house in Tian Xia or a fireworks company from Vudra, though perhaps you mastered fireworks completely by yourself after finding a secret stash in an old shipwreck.\n\nYou become trained in Fireworks Lore or become an expert if you were already trained in it. You gain the quick alchemy benefits, creating up to 4 pyrotechnic versatile vials during your daily preparations. These vials have the [fire](/trait/fire) trait and deal fire damage instead of acid. You can use pyrotechnic versatile vials only to throw as bombs, for the [Launch Fireworks](/action/launch-fireworks-guns-and-gears-remastered) action or with [Quick Alchemy](/action/quick-alchemy-player-core-2) to create fireworks consumables, including [Doses](/item/black-powder-dose-guns-and-gears-remastered) or rounds of black powder, the [Sparkler](/item/sparkler-treasure-vault-remastered) item, and other items determined by the GM. You can replenish your versatile vials during exploration the same way an alchemist can.\n\nYou can create fireworks displays to have distinctive effects you can use to make onlookers marvel and even to gain an advantage in combat. You gain the Launch Fireworks action and learn some basic effects. You can learn additional, more complex displays that use your versatile vials through other firework technician feats. These add a new fireworks display to your options for Launch Fireworks, each of which lists its number of actions and effects. The DC for Launch Fireworks is equal to your class DC or spell DC, whichever is higher.\n\n---\n\n**Special** If you have Quick Alchemy from another source (such as the [alchemist](/class/alchemist-player-core-2) class or multiclass archetype), you can use standard versatile vials to Launch Fireworks or create fireworks consumables. Each time you create a versatile vial, you choose whether it's a standard vial or pyrotechnic vial. Both types count toward your maximum number of versatile vials. You can replenish only pyrotechnic vials during exploration unless another ability lets you replenish standard versatile vials (such as the benefit of the alchemist class), in which case you can choose the type each time you replenish.\n\nFirework Technician",
+    "data": {
+      "level": 2,
+      "rarity": "uncommon",
+      "traits": [
+        "archetype",
+        "dedication"
+      ],
+      "prerequisites": "trained in Crafting",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "You've learned the secrets of making fire and sound bloom using black powder, metals, and paper. You most likely came by this knowledge through formal training with a fireworks house in Tian Xia or a fireworks company from Vudra, though perhaps you mastered fireworks completely by yourself after finding a secret stash in an old shipwreck.\n\nYou become trained in Fireworks Lore or become an expert if you were already trained in it. You gain the quick alchemy benefits, creating up to 4 pyrotechnic versatile vials during your daily preparations. These vials have the fire trait and deal fire damage instead of acid. You can use pyrotechnic versatile vials only to throw as bombs, for the Launch Fireworks action or with Quick Alchemy to create fireworks consumables, including Doses or rounds of black powder, the Sparkler item, and other items determined by the GM. You can replenish your versatile vials during exploration the same way an alchemist can.\n\nYou can create fireworks displays to have distinctive effects you can use to make onlookers marvel and even to gain an advantage in combat. You gain the Launch Fireworks action and learn some basic effects. You can learn additional, more complex displays that use your versatile vials through other firework technician feats. These add a new fireworks display to your options for Launch Fireworks, each of which lists its number of actions and effects. The DC for Launch Fireworks is equal to your class DC or spell DC, whichever is higher.\n\n---\n\n**Special** If you have Quick Alchemy from another source (such as the alchemist class or multiclass archetype), you can use standard versatile vials to Launch Fireworks or create fireworks consumables. Each time you create a versatile vial, you choose whether it's a standard vial or pyrotechnic vial. Both types count toward your maximum number of versatile vials. You can replenish only pyrotechnic vials during exploration unless another ability lets you replenish standard versatile vials (such as the benefit of the alchemist class), in which case you can choose the type each time you replenish.\n\nFirework Technician",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "dedication",
+          "slug": "dedication"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "dedication",
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3939DBB6-6A7C-5AE6-A93D-F49310A14467",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Gunslinger",
+    "slug": "gunslinger-guns-and-gears-remastered",
+    "descr": "You excel in using specific types of ranged weapons. You have familiarity with martial crossbows and firearms, treating them as simple weapons for the purposes of proficiency.\n\nYou gain access to uncommon martial and simple crossbows and firearms that do not have an ancestry trait. You become trained in [gunslinger](/class/gunslinger-guns-and-gears-remastered) class DC.\n\nChoose a gunslinger way. You become trained in your way's associated skill; if you were already trained in this skill, you become trained in a skill of your choice. You don't gain any other abilities from your choice of way.\n\nGunslinger",
+    "data": {
+      "level": 2,
+      "rarity": "uncommon",
+      "traits": [
+        "archetype",
+        "dedication",
+        "multiclass"
+      ],
+      "prerequisites": "Dexterity +2",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "You excel in using specific types of ranged weapons. You have familiarity with martial crossbows and firearms, treating them as simple weapons for the purposes of proficiency.\n\nYou gain access to uncommon martial and simple crossbows and firearms that do not have an ancestry trait. You become trained in gunslinger class DC.\n\nChoose a gunslinger way. You become trained in your way's associated skill; if you were already trained in this skill, you become trained in a skill of your choice. You don't gain any other abilities from your choice of way.\n\nGunslinger",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "dedication",
+          "slug": "dedication"
+        },
+        {
+          "label": "multiclass",
+          "slug": "multiclass"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "dedication",
+      "guns-and-gears-remastered",
+      "multiclass",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2ED6C1E2-AA4E-5201-A6A3-C046AB5F3CEA",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Inventor",
+    "slug": "inventor-guns-and-gears-remastered",
+    "descr": "You become trained in Crafting and [inventor](/class/inventor-guns-and-gears-remastered) class DC. You gain the [Inventor](/feat/inventor-player-core) skill feat, even if you don't meet the skill feat's requirements. Choose an innovation. You gain that innovation, though you don't gain any other abilities that modify or use that innovation, such as modifications or Explode.\n\nInventor",
+    "data": {
+      "level": 2,
+      "rarity": "uncommon",
+      "traits": [
+        "archetype",
+        "dedication",
+        "multiclass"
+      ],
+      "prerequisites": "Intelligence +2",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "You become trained in Crafting and inventor class DC. You gain the Inventor skill feat, even if you don't meet the skill feat's requirements. Choose an innovation. You gain that innovation, though you don't gain any other abilities that modify or use that innovation, such as modifications or Explode.\n\nInventor",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "dedication",
+          "slug": "dedication"
+        },
+        {
+          "label": "multiclass",
+          "slug": "multiclass"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "dedication",
+      "guns-and-gears-remastered",
+      "multiclass",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D960C07B-CFD2-5096-BF9F-649BC209E5FC",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Overwatch",
+    "slug": "overwatch-guns-and-gears-remastered",
+    "descr": "You have an innate knack for tactical observation, and you've innovated to apply that knack in a variety of ways that allow you to assist your allies. With the help of enhanced visual gear (such as a specially modified telescope, goggled visor, or binoculars) and a set of carefully curated signals to share the information you uncover with your allies, you and your team are always keenly aware of the movement of combatants on the battlefield. You quickly and efficiently disperse the information you discover to your nearby allies so they can use it to direct their own observations and reactions to danger.\n\nYou're surrounded by an overwatch field aura in a 30-foot emanation. Your overwatch field aura grants you increased perception and allows you to call out warnings to your allies within the aura to point out threats. This aura has the auditory and [visual](/trait/visual) traits. When you roll Perception for initiative, you and allies within your overwatch field receive a +2 circumstance bonus on your initiative rolls.\n\nEffect: Overwatch Field\n\nOverwatch",
+    "data": {
+      "level": 2,
+      "rarity": "uncommon",
+      "traits": [
+        "archetype",
+        "dedication"
+      ],
+      "prerequisites": "expert in Perception",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "You have an innate knack for tactical observation, and you've innovated to apply that knack in a variety of ways that allow you to assist your allies. With the help of enhanced visual gear (such as a specially modified telescope, goggled visor, or binoculars) and a set of carefully curated signals to share the information you uncover with your allies, you and your team are always keenly aware of the movement of combatants on the battlefield. You quickly and efficiently disperse the information you discover to your nearby allies so they can use it to direct their own observations and reactions to danger.\n\nYou're surrounded by an overwatch field aura in a 30-foot emanation. Your overwatch field aura grants you increased perception and allows you to call out warnings to your allies within the aura to point out threats. This aura has the auditory and visual traits. When you roll Perception for initiative, you and allies within your overwatch field receive a +2 circumstance bonus on your initiative rolls.\n\nEffect: Overwatch Field\n\nOverwatch",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "dedication",
+          "slug": "dedication"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "dedication",
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D479D1EC-588C-58B2-AAB6-40F8CE7E4D2C",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Pistol Phenom",
+    "slug": "pistol-phenom-guns-and-gears-remastered",
+    "descr": "You catch an opponent [Off Guard](/condition/off-guard-player-core) by spinning your weapon. You gain the Pistol Twirl gunslinger feat, enabling you to [Feint](/action/feint-player-core) against creatures within your weapon's first range increment. This otherwise serves as [Pistol Twirl](/feat/pistol-twirl-guns-and-gears-remastered) for the purpose of meeting prerequisites, although as normal, it doesn't count as another pistol phenom feat for the purpose of meeting Pistol Phenom Dedication's special entry and taking another archetype. Whenever you Feint with a one-handed firearm, you can choose to attempt a Performance check instead of a Deception check.\n\nPistol Phenom",
+    "data": {
+      "level": 2,
+      "rarity": "uncommon",
+      "traits": [
+        "archetype",
+        "dedication"
+      ],
+      "prerequisites": "trained in at least one type of one-handed firearm; trained in Deception; trained in Performance",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "You catch an opponent Off Guard by spinning your weapon. You gain the Pistol Twirl gunslinger feat, enabling you to Feint against creatures within your weapon's first range increment. This otherwise serves as Pistol Twirl for the purpose of meeting prerequisites, although as normal, it doesn't count as another pistol phenom feat for the purpose of meeting Pistol Phenom Dedication's special entry and taking another archetype. Whenever you Feint with a one-handed firearm, you can choose to attempt a Performance check instead of a Deception check.\n\nPistol Phenom",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "dedication",
+          "slug": "dedication"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "dedication",
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "321DDD7E-CB9A-577B-83B2-D3BA778E50FB",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Sniping Duo",
+    "slug": "sniping-duo-guns-and-gears-remastered",
+    "descr": "When you take this dedication, choose one willing, non-minion ally to act as your spotter. This character does not need to specialize in ranged attacks; a melee partner can be just as effective and maybe even preferable depending on your preferred tactics and weaponry!\n\nAs part of your training in this archetype, you train your spotter in the necessary habits and techniques to use your abilities automatically; your spotter doesn't need to spend any feats of their own to grant the effects. You only gain the benefits of your Sniping Duo archetype feats if both you and your spotter are alive and conscious. You and your spotter don't grant your foes lesser cover against one another's Strikes. Whenever you or your spotter successfully Strikes a target, the other member of your duo gains a +1 circumstance bonus per weapon damage die on the damage roll of their next Strike made against that target before the end of their next turn. You can change your designated spotter by spending 3 days of downtime training with another ally to teach them your techniques and signals.\n\nEffect: Sniping Duo Dedication",
+    "data": {
+      "level": 2,
+      "rarity": "common",
+      "traits": [
+        "archetype",
+        "dedication"
+      ],
+      "prerequisites": "trained in at least one type of weapon in the bow or firearm groups; trained in Stealth",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "When you take this dedication, choose one willing, non-minion ally to act as your spotter. This character does not need to specialize in ranged attacks; a melee partner can be just as effective and maybe even preferable depending on your preferred tactics and weaponry!\n\nAs part of your training in this archetype, you train your spotter in the necessary habits and techniques to use your abilities automatically; your spotter doesn't need to spend any feats of their own to grant the effects. You only gain the benefits of your Sniping Duo archetype feats if both you and your spotter are alive and conscious. You and your spotter don't grant your foes lesser cover against one another's Strikes. Whenever you or your spotter successfully Strikes a target, the other member of your duo gains a +1 circumstance bonus per weapon damage die on the damage roll of their next Strike made against that target before the end of their next turn. You can change your designated spotter by spending 3 days of downtime training with another ally to teach them your techniques and signals.\n\nEffect: Sniping Duo Dedication",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "dedication",
+          "slug": "dedication"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "dedication",
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8A8A1FDC-7752-553A-A487-507C51DAFB03",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spellshot",
+    "slug": "spellshot-guns-and-gears-remastered",
+    "descr": "You cast arcane spells like a wizard, gaining a spellbook with four common arcane cantrips of your choice. You gain the Cast a Spell activity. You can prepare two cantrips each day from your spellbook. You're trained in the spell attack modifier and spell DC statistics. Your key spellcasting attribute for spellshot archetype spells is Intelligence, and they are arcane spells. You become trained in Arcana; if you were already trained in Arcana, you instead become trained in a skill of your choice. This feat counts as [Wizard Dedication](/feat/wizard-dedication-player-core) for the prerequisites of [Basic Wizard Spellcasting](/feat/basic-wizard-spellcasting-player-core).\n\n---\n\n**Special** You can't select another dedication feat other than [Beast Gunner Dedication](/feat/beast-gunner-dedication-guns-and-gears-remastered) until you've gained two other feats from the Spellshot or [Beast Gunner](/archetype/beast-gunner-guns-and-gears-remastered) archetypes.",
+    "data": {
+      "level": 2,
+      "rarity": "common",
+      "traits": [
+        "archetype",
+        "class",
+        "dedication"
+      ],
+      "prerequisites": "way of the spellshot",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "You cast arcane spells like a wizard, gaining a spellbook with four common arcane cantrips of your choice. You gain the Cast a Spell activity. You can prepare two cantrips each day from your spellbook. You're trained in the spell attack modifier and spell DC statistics. Your key spellcasting attribute for spellshot archetype spells is Intelligence, and they are arcane spells. You become trained in Arcana; if you were already trained in Arcana, you instead become trained in a skill of your choice. This feat counts as Wizard Dedication for the prerequisites of Basic Wizard Spellcasting.\n\n---\n\n**Special** You can't select another dedication feat other than Beast Gunner Dedication until you've gained two other feats from the Spellshot or Beast Gunner archetypes.",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "class",
+          "slug": "class"
+        },
+        {
+          "label": "dedication",
+          "slug": "dedication"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "class",
+      "dedication",
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "BA5E275E-24AC-5677-B477-49A60DEF7A33",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Sterling Dynamo",
+    "slug": "sterling-dynamo-guns-and-gears-remastered",
+    "descr": "You obtain a sterling dynamo prosthetic, which allows you to replace or augment a limb, or even add a simple new non-prehensile limb, such as a tail. While your sterling dynamo prosthetic can replace a missing prehensile limb, such as an arm, choosing to add a new limb can never increases your character's number of hands or prehensile limbs beyond two, even in combination with other abilities or effects.\n\nYour sterling dynamo prosthesis is especially optimized for combat, granting you a dynamo melee unarmed attack that is in the brawling weapon group and is made of silver (which makes it more effective against certain types of creatures, such as devils and werewolves).\n\nYou have several options to customize your sterling dynamo. First, choose whether you have a power driver dynamo, which deals 1d6 bludgeoning damage and has the [shove](/trait/shove) trait, or a percussive striker dynamo, which deals 1d4 bludgeoning damage and has the agile and [finesse](/trait/finesse) traits.\n\nMost dynamos are automated, so they don't require a free hand to use, like other unarmed attacks. However, you can instead choose to make your dynamo be manually controlled via a handheld switch, lever, or other device; to make an attack with a manually controlled dynamo, you must have a hand free to operate it, but the benefit is great control and a more devastating strike. This increases the damage die by one size, to a 1d8 for a power drive dynamo or 1d6 for a percussive striker dynamo. Arm dynamos are always manual, but they use the hand on that arm to operate the dynamo when making strikes. Manual control is required only in the heat of combat, not for less strenuous adventuring or everyday activities.\n\nYou need to keep your sterling dynamo wound, but the process isn't particularly onerous, so in most situations, it won't be an issue. If you spend 1 minute winding up your dynamo, it can remain active for 24 hours before needing additional winding. However, enemies can attempt to Disable the dynamo, which has a level equal to your own, to reduce the remaining operational time by 1 hour, or 2 hours on a critical success. Certain other abilities that adversely affect technology might also reduce the dynamo's remaining operational time. When your dynamo is out of operational time, you can still use it as a normal prosthetic, but you cannot use your dynamo unarmed attack or any other abilities from this archetype until you wind the dynamo again. You can wind the dynamo for 1 minute at any time to return it to the maximum 24 hours of operational time.\n\nSterling Dynamo",
+    "data": {
+      "level": 2,
+      "rarity": "uncommon",
+      "traits": [
+        "archetype",
+        "dedication"
+      ],
+      "prerequisites": "",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "You obtain a sterling dynamo prosthetic, which allows you to replace or augment a limb, or even add a simple new non-prehensile limb, such as a tail. While your sterling dynamo prosthetic can replace a missing prehensile limb, such as an arm, choosing to add a new limb can never increases your character's number of hands or prehensile limbs beyond two, even in combination with other abilities or effects.\n\nYour sterling dynamo prosthesis is especially optimized for combat, granting you a dynamo melee unarmed attack that is in the brawling weapon group and is made of silver (which makes it more effective against certain types of creatures, such as devils and werewolves).\n\nYou have several options to customize your sterling dynamo. First, choose whether you have a power driver dynamo, which deals 1d6 bludgeoning damage and has the shove trait, or a percussive striker dynamo, which deals 1d4 bludgeoning damage and has the agile and finesse traits.\n\nMost dynamos are automated, so they don't require a free hand to use, like other unarmed attacks. However, you can instead choose to make your dynamo be manually controlled via a handheld switch, lever, or other device; to make an attack with a manually controlled dynamo, you must have a hand free to operate it, but the benefit is great control and a more devastating strike. This increases the damage die by one size, to a 1d8 for a power drive dynamo or 1d6 for a percussive striker dynamo. Arm dynamos are always manual, but they use the hand on that arm to operate the dynamo when making strikes. Manual control is required only in the heat of combat, not for less strenuous adventuring or everyday activities.\n\nYou need to keep your sterling dynamo wound, but the process isn't particularly onerous, so in most situations, it won't be an issue. If you spend 1 minute winding up your dynamo, it can remain active for 24 hours before needing additional winding. However, enemies can attempt to Disable the dynamo, which has a level equal to your own, to reduce the remaining operational time by 1 hour, or 2 hours on a critical success. Certain other abilities that adversely affect technology might also reduce the dynamo's remaining operational time. When your dynamo is out of operational time, you can still use it as a normal prosthetic, but you cannot use your dynamo unarmed attack or any other abilities from this archetype until you wind the dynamo again. You can wind the dynamo for 1 minute at any time to return it to the maximum 24 hours of operational time.\n\nSterling Dynamo",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "dedication",
+          "slug": "dedication"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "dedication",
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "47ECE7D7-EEE5-5549-BC32-D0A7BDD8B91F",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Trapsmith",
+    "slug": "trapsmith-guns-and-gears-remastered",
+    "descr": "You use glimmering gears and gnashing mechanisms to manufacture snares using specialized parts. Your snares include clockwork and steam-powered cogwheels and gears, and their gush of steam can hinder those you ensnare. If you choose to construct a snare using gears and a creature fails their saving throw against the snare, all creatures are [Concealed](/condition/concealed-player-core) to that creature for 1 round, as a burst of steam obscures its vision.\n\n---\n\n**Special** You can select the dedication feat for the Trapsmith archetype even if you haven't yet gained three feats from the [Snarecrafter](/archetype/snarecrafter-player-core-2) archetype.",
+    "data": {
+      "level": 4,
+      "rarity": "uncommon",
+      "traits": [
+        "archetype",
+        "dedication"
+      ],
+      "prerequisites": "Snarecrafter Dedication",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "You use glimmering gears and gnashing mechanisms to manufacture snares using specialized parts. Your snares include clockwork and steam-powered cogwheels and gears, and their gush of steam can hinder those you ensnare. If you choose to construct a snare using gears and a creature fails their saving throw against the snare, all creatures are Concealed to that creature for 1 round, as a burst of steam obscures its vision.\n\n---\n\n**Special** You can select the dedication feat for the Trapsmith archetype even if you haven't yet gained three feats from the Snarecrafter archetype.",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "dedication",
+          "slug": "dedication"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "dedication",
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2A46A8AB-40E2-563B-B17E-A9FEFD122EDC",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Trick Driver",
+    "slug": "trick-driver-guns-and-gears-remastered",
+    "descr": "You are equally at home piloting any vehicle, adapting yourself instantly to varied controls, movements, and handling. Whenever piloting a vehicle requires a Piloting Lore or Sailing Lore check, you can use your Driving Lore proficiency instead. You can use Dexterity in place of Intelligence when attempting piloting checks with Driving Lore. You become an expert in Driving Lore. At 7th level, you become a master in Driving Lore, and at 15th level, you become legendary in Driving Lore.\n\nTrick Driver",
+    "data": {
+      "level": 2,
+      "rarity": "uncommon",
+      "traits": [
+        "archetype",
+        "dedication"
+      ],
+      "prerequisites": "trained in Driving Lore",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "You are equally at home piloting any vehicle, adapting yourself instantly to varied controls, movements, and handling. Whenever piloting a vehicle requires a Piloting Lore or Sailing Lore check, you can use your Driving Lore proficiency instead. You can use Dexterity in place of Intelligence when attempting piloting checks with Driving Lore. You become an expert in Driving Lore. At 7th level, you become a master in Driving Lore, and at 15th level, you become legendary in Driving Lore.\n\nTrick Driver",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "dedication",
+          "slug": "dedication"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "dedication",
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "29EB9113-E398-5464-A6CF-D0C31DC28B3B",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Vehicle Mechanic",
+    "slug": "vehicle-mechanic-guns-and-gears-remastered",
+    "descr": "You are adept at designing and maintaining mechanical vehicles, and you lavish your attention and ingenuity on one vehicle in particular. You become an expert in Crafting, and you choose one vehicle you own—or your party owns collectively—to be your signature vehicle: the vehicle you spend time customizing to grant it various advantages. You can spend 1 week of downtime with a new vehicle to designate it as your signature vehicle instead. Due to your amazing customizations and adjustments, pilots gain a +1 circumstance bonus to any piloting checks they make to control your signature vehicle. If you are a master in Crafting, this bonus increases to +2.\n\nVehicle Mechanic",
+    "data": {
+      "level": 2,
+      "rarity": "uncommon",
+      "traits": [
+        "archetype",
+        "dedication"
+      ],
+      "prerequisites": "Intelligence +2; trained in Crafting",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "You are adept at designing and maintaining mechanical vehicles, and you lavish your attention and ingenuity on one vehicle in particular. You become an expert in Crafting, and you choose one vehicle you own—or your party owns collectively—to be your signature vehicle: the vehicle you spend time customizing to grant it various advantages. You can spend 1 week of downtime with a new vehicle to designate it as your signature vehicle instead. Due to your amazing customizations and adjustments, pilots gain a +1 circumstance bonus to any piloting checks they make to control your signature vehicle. If you are a master in Crafting, this bonus increases to +2.\n\nVehicle Mechanic",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "dedication",
+          "slug": "dedication"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "dedication",
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <base href="{{env.baseURL|default: '/'}}" />
+  <title>{{name}}</title>
+  <link href="styles/pico.min.css" rel="stylesheet" type="text/css">
+  <link href="styles/default.css?v=1.701.8" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <main id="deity" class="container-fluid">
+    <section class="core-page deity-page">
+      <header class="core-page-header">
+        <h1>{{name}}</h1>
+        <div>{{'Entity.Deity'|l}}</div>
+      </header>
+
+      {% if data.rarity or data.traits %}
+      <div class="traits">
+        {% if data.rarity and data.rarity != 'common' %}
+        <a class="trait trait-rarity-{{data.rarity}}" href="/trait/{{data.rarity}}">{{data.rarity|map: 'Rarity'}}</a>
+        {% endif %}
+        {% if data.traitLinks %}
+          {% for trait in data.traitLinks %}
+          {% if trait.slug %}<a class="trait" href="/trait/{{trait.slug}}">{{trait.label}}</a>{% else %}<span class="trait">{{trait.label}}</span>{% endif %}
+          {% endfor %}
+        {% else %}
+          {% for trait in data.traits %}
+          <a class="trait" href="/trait/{{trait}}">{{trait}}</a>
+          {% endfor %}
+        {% endif %}
+      </div>
+      {% endif %}
+
+      <table class="deity-stat-table">
+        <tbody>
+          {% if data.areasOfConcern %}
+          <tr><th>Areas of Concern</th><td>{% markdown -%}{% if data.areasOfConcern in data.deityReferenceKeys.areasOfConcern %}{% for reference in data.deityReferences.areasOfConcern %}{% if reference.value == data.areasOfConcern %}{{reference.text}}{% endif %}{% endfor %}{% else %}{{data.areasOfConcern}}{% endif %}{% endmarkdown %}</td></tr>
+          {% endif %}
+          {% if data.deityDirectiveFormat == 'text' or data.edictsText != nil %}{% if data.edictsText %}<tr><th>Edicts</th><td>{{data.edictsText|md}}</td></tr>{% endif %}{% else %}{% if data.edicts %}
+          <tr><th>Edicts</th><td>{% markdown -%}{% for value in data.edicts %}{% if value in data.deityReferenceKeys.edicts %}{% for reference in data.deityReferences.edicts %}{% if reference.value == value %}{{reference.text}}{% endif %}{% endfor %}{% else %}{{value}}{% endif %}{% if not forloop.last %}; {% endif %}{% endfor %}{% endmarkdown %}</td></tr>
+          {% endif %}{% endif %}
+          {% if data.deityDirectiveFormat == 'text' or data.anathemaText != nil %}{% if data.anathemaText %}<tr><th>Anathema</th><td>{{data.anathemaText|md}}</td></tr>{% endif %}{% else %}{% if data.anathema %}
+          <tr><th>Anathema</th><td>{% markdown -%}{% for value in data.anathema %}{% if value in data.deityReferenceKeys.anathema %}{% for reference in data.deityReferences.anathema %}{% if reference.value == value %}{{reference.text}}{% endif %}{% endfor %}{% else %}{{value}}{% endif %}{% if not forloop.last %}; {% endif %}{% endfor %}{% endmarkdown %}</td></tr>
+          {% endif %}{% endif %}
+          {% if data.divineAttribute %}
+          <tr><th><a href="/background/raised-by-belief-player-core">Divine Attribute</a></th><td>{% markdown -%}{% for value in data.divineAttribute %}{{value|map: 'DeityAttribute'}}{% if not forloop.last %}; {% endif %}{% endfor %}{% endmarkdown %}</td></tr>
+          {% endif %}
+          {% if data.divineAttributeNotes %}<tr><th>Divine Attribute Notes</th><td>{{data.divineAttributeNotes|md}}</td></tr>{% endif %}
+          {% if data.clericFont %}
+          <tr><th>Divine Font</th><td>{% markdown -%}{% for value in data.clericFont %}{% if value in data.deityReferenceKeys.clericFont %}{% for reference in data.deityReferences.clericFont %}{% if reference.value == value %}{{reference.text}}{% endif %}{% endfor %}{% else %}{{value}}{% endif %}{% if not forloop.last %}; {% endif %}{% endfor %}{% endmarkdown %}</td></tr>
+          {% endif %}
+          {% if data.deitySanctificationFormat == 'text' or data.sanctificationText != nil %}{% if data.sanctificationText %}
+          <tr class="deity-emphasis"><th>Sanctification</th><td>{{data.sanctificationText|md}}</td></tr>
+          {% endif %}{% else %}{% if data.sanctification %}<tr class="deity-emphasis"><th>Sanctification</th><td>{{data.sanctification|map: 'Sanctification'}}</td></tr>{% else %}{% if data.sanctificationOptions %}
+          <tr class="deity-emphasis"><th>Sanctification</th><td>{% markdown -%}{% for value in data.sanctificationOptions %}{% if value in data.deityReferenceKeys.sanctificationOptions %}{% for reference in data.deityReferences.sanctificationOptions %}{% if reference.value == value %}{{reference.text}}{% endif %}{% endfor %}{% else %}{{value}}{% endif %}{% if not forloop.last %}; {% endif %}{% endfor %}{% endmarkdown %}</td></tr>
+          {% endif %}{% endif %}{% endif %}
+          {% if data.divineSkill %}
+          <tr><th>Divine Skill</th><td>{% markdown -%}{% if data.divineSkill in data.deityReferenceKeys.divineSkill %}{% for reference in data.deityReferences.divineSkill %}{% if reference.value == data.divineSkill %}{{reference.text}}{% endif %}{% endfor %}{% else %}{% set skillName %}{{data.divineSkill|lowercase}}{% endset %}{% set skillRoute %}{{skillName|valueMap: 'SkillReference'}}{% endset %}{% if skillRoute and skillRoute != skillName %}[{{data.divineSkill|map: 'Skill'}}](<{{skillRoute}}>){% else %}{{data.divineSkill|map: 'Skill'}}{% endif %}{% endif %}{% endmarkdown %}</td></tr>
+          {% endif %}
+          {% if data.favoredWeapon %}
+          <tr><th>Favored Weapon</th><td>{% markdown -%}{% for value in data.favoredWeapon %}{% if value in data.deityReferenceKeys.favoredWeapon %}{% for reference in data.deityReferences.favoredWeapon %}{% if reference.value == value %}{{reference.text}}{% endif %}{% endfor %}{% else %}{{value}}{% endif %}{% if not forloop.last %}; {% endif %}{% endfor %}{% endmarkdown %}</td></tr>
+          {% endif %}
+          {% if data.domains %}
+          <tr class="deity-emphasis"><th>Domains</th><td>{% markdown -%}{% for value in data.domains %}{% if value in data.deityReferenceKeys.domains %}{% for reference in data.deityReferences.domains %}{% if reference.value == value %}{{reference.text}}{% endif %}{% endfor %}{% else %}{{value}}{% endif %}{% if not forloop.last %}; {% endif %}{% endfor %}{% endmarkdown %}</td></tr>
+          {% endif %}
+          {% if data.alternateDomains %}
+          <tr><th>Alternate Domains</th><td>{% markdown -%}{% for value in data.alternateDomains %}{% if value in data.deityReferenceKeys.alternateDomains %}{% for reference in data.deityReferences.alternateDomains %}{% if reference.value == value %}{{reference.text}}{% endif %}{% endfor %}{% else %}{{value}}{% endif %}{% if not forloop.last %}; {% endif %}{% endfor %}{% endmarkdown %}</td></tr>
+          {% endif %}
+          {% if data.spells %}
+          <tr class="deity-emphasis"><th>Cleric Spells</th><td>{% markdown -%}{% for value in data.spells %}{% if value in data.deityReferenceKeys.spells %}{% for reference in data.deityReferences.spells %}{% if reference.value == value %}{{reference.text}}{% endif %}{% endfor %}{% else %}{{value}}{% endif %}{% if not forloop.last %}; {% endif %}{% endfor %}{% endmarkdown %}</td></tr>
+          {% endif %}
+        </tbody>
+      </table>
+
+      {% if descr and descr != data.rulesText %}
+      <section class="core-section">{{descr|md}}</section>
+      {% endif %}
+
+      {% if notes %}
+      <section class="core-section">
+        <h2>{{'Common.Notes'|l}}</h2>
+        {{notes|md}}
+      </section>
+      {% endif %}
+    </section>
+
+    {% include "footer.html" %}
+  </main>
+</body>
+
+</html>

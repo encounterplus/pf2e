@@ -1,0 +1,19 @@
+{
+  "title": "Action",
+  "sections": [
+    {
+      "type": "group",
+      "fields": [
+        { "title": "Common.Actions", "type": "picker", "attribute": "data.actions", "attributeType": "Action" },
+        { "title": "Common.Rarity", "type": "picker", "attribute": "data.rarity", "attributeType": "Rarity" },
+        { "title": "Common.Traits", "type": "tags", "attribute": "data.traits", "attributeType": "Trait" },
+        { "title": "Feat.Frequency", "attribute": "data.frequency" },
+        { "title": "Feat.Requirements", "attribute": "data.requirements" },
+        { "title": "Feat.Trigger", "attribute": "data.trigger" }
+      ]
+    },
+    { "title": "Common.Description", "type": "group", "fields": [
+      { "type": "textArea", "attribute": "descr", "custom": { "lines": 10 } }
+    ] }
+  ]
+}

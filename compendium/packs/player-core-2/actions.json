@@ -1,0 +1,1851 @@
+[
+  {
+    "id": "3D80F533-17A7-5382-A42D-6ED34DDF151A",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Basic Finisher",
+    "slug": "basic-finisher-player-core-2",
+    "descr": "You make a graceful, deadly attack. Make a Strike; if you hit and your weapon qualifies for Precise Strike, you deal the full 1d6 damage from precise strike.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "finisher"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "finisher",
+          "slug": "finisher"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "finisher",
+      "player-core-2",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "69421AA9-804D-5859-9BE9-D5B7F3D1BB64",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Boarding Assault",
+    "slug": "boarding-assault-player-core-2",
+    "descr": "Either Stride twice or attempt an Acrobatics check (DC determined by the GM, but usually DC 20) to swing up to twice your Speed on a rope or similar object, then Strike.\n\nIf you boarded or disembarked from a boat or similar vehicle during this movement, the Strike deals one additional weapon damage die.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "flourish"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "flourish",
+          "slug": "flourish"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "flourish",
+      "player-core-2",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "628C2F77-E2DF-5B57-A2B4-5704F2640821",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Call Companion",
+    "slug": "call-companion-player-core-2",
+    "descr": "You spend 1 minute calling for a different animal companion, switching your active companion for another of your animal companions.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "exploration"
+      ],
+      "category": "interaction",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": [
+        {
+          "label": "exploration",
+          "slug": "exploration"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "exploration",
+      "player-core-2",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "BB073DF5-C080-5105-9AE2-275FB787C5EC",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Clue In",
+    "slug": "clue-in-player-core-2",
+    "descr": "**Frequency** once per 10 minutes\n\n**Trigger** Another creature attempts a check that could help get you closer to answering the question at the heart of one of your active investigations.\n\nYou share information with the triggering creature. They gain a circumstance bonus to their check equal to your investigation bonus from Pursue a Lead. The GM can add any relevant traits to this reaction depending on the situation, such as auditory and linguistic if you're conveying information verbally.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "investigator"
+      ],
+      "category": "interaction",
+      "frequency": "once per 10 minutes",
+      "requirements": "",
+      "trigger": "Another creature attempts a check that could help get you closer to answering the question at the heart of one of your active investigations",
+      "actions": "reaction",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "investigator",
+          "slug": "investigator"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "investigator",
+      "player-core-2",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "822AD5E2-A2B4-5053-94E9-62D42D07EE31",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Cobble Together",
+    "slug": "cobble-together-player-core-2",
+    "descr": "You [Craft](/action/craft-player-core) a temporary item out of anything, anywhere, with whatever materials happen to be on hand, spending only 10 minutes to perform the initial Crafting check.\n\nThe temporary item must be one you've memorized or have the formula for, and must be common, non-magical, half your level or lower, and must be a weapon, armor, or a non-consumable piece of adventuring gear (non-consumable adventuring gear appears on page 291 of Player Core). Instead of a single item, you can create 10 pieces of a single type of ammunition. You can create only the physical item, not any information or magic, so for example, while you could create a blank journal or one with random pages, you couldn't use it as a scholarly journal or a religious text",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "exploration"
+      ],
+      "category": "interaction",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": [
+        {
+          "label": "exploration",
+          "slug": "exploration"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "exploration",
+      "player-core-2",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0193F416-E6B3-5FC8-91D8-6640B7AFA6EB",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Confident Finisher",
+    "slug": "confident-finisher-player-core-2",
+    "descr": "You make an incredibly graceful attack, piercing your foe's defenses. Make a Strike with the following failure effect.\n\n**Failure** You deal half your [Precise Strike](/feat/precise-strike-player-core-2) damage to the target. This damage type is that of the weapon or unarmed attack you used for the Strike.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "finisher"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "finisher",
+          "slug": "finisher"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "finisher",
+      "player-core-2",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "91C95B8D-CD05-5EA1-83EA-2FE796CBD8C8",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Destructive Vengeance",
+    "slug": "destructive-vengeance-player-core-2",
+    "descr": "**Trigger** An enemy in your champion's aura damages you\n\n**Effect** Bloodshed begets bloodshed as you drag your enemy toward oblivion. You increase the amount of damage you take by 1d6, and you deal 1d6 spirit damage to the triggering enemy. The damage you take and deal when you use this reaction increases to 2d6 at 5th level, 3d6 at 9th level, 4d6 at 12th level, 5d6 at 16th level, and 6d6 at 19th level.\n\nIn addition, until the end of your next turn, your Strikes against the triggering creature deal 2 extra spirit damage. This extra damage increases to 4 at 9th level and 6 at 16th level.\n\nEffect: Champion'S Extra Damage",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "champion",
+        "divine"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "An enemy in your champion's aura damages you",
+      "actions": "reaction",
+      "traitLinks": [
+        {
+          "label": "champion",
+          "slug": "champion"
+        },
+        {
+          "label": "divine",
+          "slug": "divine"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "champion",
+      "divine",
+      "player-core-2",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "AE030AA3-370F-509A-9132-C4FAC86A5D5E",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Devise a Stratagem",
+    "slug": "devise-a-stratagem-player-core-2",
+    "descr": "**Frequency** once per round\n\nYou assess a foe's weaknesses in combat and use them to formulate a plan of attack. Choose a creature you can see. You can Devise a Stratagem as a free action if you're aware that creature could help answer the question at the heart of one of your active investigations. Roll a d20, then decide on an attack stratagem or skill stratagem.\n\n**Attack Stratagem** If you Strike the chosen creature before the start of your next turn, your Strike gains the [fortune](/trait/fortune) trait and you must use the result of the d20 roll for your Strike's attack roll instead of rolling. You make this substitution only for the first Strike you make against the creature this round, not any subsequent ones. When you make this substitution, you can add your Intelligence modifier to your attack roll instead of your Strength or Dexterity modifier. If you Strike with a melee weapon, melee unarmed attack, or thrown weapon, it must have the agile or [finesse](/trait/finesse) trait to benefit from the substitution.\n\n**Skill Stratagem** You can't attempt to Strike the target until the start of your next turn. You gain a +1 circumstance bonus to your next Intelligence-, Wisdom-, or Charisma-based skill check or Perception check involving the target before the start of your next turn. If you would gain your Pursue a Lead investigation bonus to such a check, that bonus increases by 1 instead of you gaining the +1 bonus listed.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "investigator"
+      ],
+      "category": "offensive",
+      "frequency": "once per round",
+      "requirements": "",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "investigator",
+          "slug": "investigator"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "investigator",
+      "player-core-2",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1D9E9182-967A-5829-A16B-AD3F9BF4FB27",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Eldritch Shot",
+    "slug": "eldritch-shot-player-core-2",
+    "descr": "**Requirements** You are wielding a bow or a loaded crossbow\n\n**Effect** You Cast a Spell that takes 1 or 2 actions to cast and requires a spell attack roll. The effects of the spell do not occur immediately but are imbued into the bow you're wielding. Make a Strike with that bow. Your spell flies with the ammunition, using your attack roll result to determine the effects of both the Strike and the spell. This counts as two attacks for your multiple attack penalty, but you don't apply the penalty until after you've completed the Eldritch Shot. Combine the Strike and spell's damage for the purpose of resistances and weaknesses.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "You are wielding a bow or a loaded crossbow",
+      "trigger": "",
+      "actions": "three",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core-2",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "52B2FC4B-4250-5B8F-9A83-08495162C09B",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Expeditious Inspection",
+    "slug": "expeditious-inspection-player-core-2",
+    "descr": "**Frequency** once per 10 minutes\n\nYou observe and assess your surroundings with great speed. You [Recall Knowledge](/action/recall-knowledge-player-core), [Seek](/action/seek-player-core), or [Sense Motive](/action/sense-motive-player-core).",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "investigator"
+      ],
+      "category": "interaction",
+      "frequency": "once per 10 minutes",
+      "requirements": "",
+      "trigger": "",
+      "actions": "free",
+      "traitLinks": [
+        {
+          "label": "investigator",
+          "slug": "investigator"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "investigator",
+      "player-core-2",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E038D0A5-EFD9-5E25-B4C3-1E897F7312B0",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Extra Alchemy",
+    "slug": "extra-alchemy-player-core-2",
+    "descr": "Your familiar helps you brew items at the start of the day. You can create one additional item with [Advanced Alchemy](/feat/advanced-alchemy-player-core-2) during your daily preparations. You must have the Advanced Alchemy ability to select this ability.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "familiar",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core-2",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8464AA0A-984C-5AF8-B76A-A29E2E530204",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Extra Vial",
+    "slug": "extra-vial-player-core-2",
+    "descr": "Your familiar accretes alchemical liquids in its body. Once per day, you can Interact when your familiar is adjacent to you to gain a versatile vial. You must have the [Versatile Vials](/feat/versatile-vials-player-core-2) ability to select this ability.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "familiar",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core-2",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "7823EF43-4885-554E-9DBC-6889D080870E",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Fey's Fortune",
+    "slug": "fey-s-fortune-player-core-2",
+    "descr": "**Frequency** once per day\n\n**Trigger** You attempt a skill check and haven't yet rolled\n\n**Effect** Roll the skill check twice and use the better result",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "fortune"
+      ],
+      "category": "interaction",
+      "frequency": "once per day",
+      "requirements": "",
+      "trigger": "You attempt a skill check and haven't yet rolled",
+      "actions": "free",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "fortune",
+          "slug": "fortune"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "fortune",
+      "player-core-2",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "17EA6F4D-B071-53F1-9692-D869BC84B329",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Final Surge",
+    "slug": "final-surge-player-core-2",
+    "descr": "You Stride twice. The [Drakeheart Mutagen](/item/drakeheart-mutagen-lesser-player-core-2)'s duration ends.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core-2",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "466D9C32-9353-53DF-8105-5B6A64D1D37C",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Flash of Grandeur",
+    "slug": "flash-of-grandeur-player-core-2",
+    "descr": "**Trigger** An enemy damages your ally, and both are in your champion's aura\n\n**Effect** Imperious divine light flashes out from you to surround your foe. The ally gains resistance to all damage against the triggering damage equal to 2 + your level. Until the end of your next turn, the attacker is affected by [Revealing Light](/spell/revealing-light-player-core).\n\nEffect: Champion'S Resistance",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "champion",
+        "divine"
+      ],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "An enemy damages your ally, and both are in your champion's aura",
+      "actions": "reaction",
+      "traitLinks": [
+        {
+          "label": "champion",
+          "slug": "champion"
+        },
+        {
+          "label": "divine",
+          "slug": "divine"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "champion",
+      "divine",
+      "player-core-2",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3893B86B-1C81-53EB-B41A-CF0AF17AFC5A",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Glimpse of Redemption",
+    "slug": "glimpse-of-redemption-player-core-2",
+    "descr": "**Trigger** An enemy damages your ally, and both are in your champion's aura\n\n**Effect** Your enemy hesitates under the weight of sin as visions of redemption play in their mind's eye. The enemy must choose to repent or refuse, with the following effects. If the enemy is mindless or otherwise unable to repent, use the refuse result.\n\n**Repent** The ally is unharmed by the triggering damage.\n\n**Refuse** The ally gains resistance to all damage against the triggering damage equal to 2 + your level. After the damaging effect is applied, the enemy becomes [Enfeebled 2](/condition/enfeebled-player-core) until the end of its next turn.\n\nEffect: Champion'S Resistance",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "champion",
+        "divine"
+      ],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "An enemy damages your ally, and both are in your champion's aura",
+      "actions": "reaction",
+      "traitLinks": [
+        {
+          "label": "champion",
+          "slug": "champion"
+        },
+        {
+          "label": "divine",
+          "slug": "divine"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "champion",
+      "divine",
+      "player-core-2",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F5BB1BCD-F84D-503F-A716-3147A93626EA",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Influence Rumor",
+    "slug": "influence-rumor-player-core-2",
+    "descr": "You spend at least 1 day of downtime attempting to manipulate the course, tone, or content of a rumor to your benefit. You need to succeed at a Diplomacy check to shift the rumor as you intend. The difficulty is determined by the GM based on the size of the community, the relative perceptiveness of the inhabitants, and the agency of other rumormongers, but it typically is no lower than DC 15 for a small village, DC 20 for a town, DC 30 for a city, or DC 40 for a metropolis.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "downtime"
+      ],
+      "category": "interaction",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": [
+        {
+          "label": "downtime",
+          "slug": "downtime"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "downtime",
+      "player-core-2",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "805E68B0-2054-534F-AC65-8E277CF853F8",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Iron Command",
+    "slug": "iron-command-player-core-2",
+    "descr": "**Trigger** An enemy in your champion's aura damages you\n\n**Effect** You put an impertinent foe who dared harm you in their proper place. You command your enemy to kneel before you in obedience. If they dare to refuse, they must pay the price in pain and anguish. The enemy must choose one of the following options.\n\n**Kneel** The enemy drops [Prone](/condition/prone-player-core) as a free action.\n\n**Refuse** You deal 1d6 mental damage to the enemy. This damage increases to 2d6 at 5th level, 3d6 at 9th level, 4d6 at 12th level, 5d6 at 16th level, and 6d6 at 19th level.\n\nRegardless of which option the enemy chose, your Strikes against it deal 1 extra spirit damage until the end of your next turn. This extra damage increases to 2 at 9th level and 3 at 16th level.\n\nEffect: Champion'S Extra Damage",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "champion",
+        "divine",
+        "emotion",
+        "mental"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "An enemy in your champion's aura damages you",
+      "actions": "reaction",
+      "traitLinks": [
+        {
+          "label": "champion",
+          "slug": "champion"
+        },
+        {
+          "label": "divine",
+          "slug": "divine"
+        },
+        {
+          "label": "emotion",
+          "slug": "emotion"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "champion",
+      "divine",
+      "emotion",
+      "mental",
+      "player-core-2",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "139AAA2B-83A8-50B0-8476-8BB9074B4A60",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Item Delivery",
+    "slug": "item-delivery-player-core-2",
+    "descr": "If your familiar is adjacent to you, you can Command it to deliver an item. Instead of its normal 2 actions, your familiar Interacts to take an item you're holding of light Bulk or less, then takes one move action, then finally Interacts to pass off the item to another willing creature.\n\nIt can instead administer the item to the creature if it can do so with 1 action and has an appropriate type of item (such as alchemical elixir). If your familiar doesn't reach the target this turn, it holds the item until commanded otherwise. Your familiar must have the manual dexterity ability to select this.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "familiar",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core-2",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3830D90B-8403-577B-9615-D3D6CC175B56",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Liberating Step",
+    "slug": "liberating-step-player-core-2",
+    "descr": "**Trigger** An enemy damages, [grabs](/condition/grabbed-player-core), or [restrains](/condition/restrained-player-core) your ally, and both are in your champion's aura\n\nYou free an ally from restraint.\n\nIf the trigger was an ally taking damage, the ally gains resistance to all damage against the triggering damage equal to 2 + your level.\n\nThe ally can attempt to break free of effects grabbing, Restraining, [Immobilizing](/condition/immobilized-player-core), or [Paralyzing](/condition/paralyzed-player-core) them. They either attempt a new save against one such effect that allows a save, or attempt to [Escape](/action/escape-player-core) from one effect as a free action.\n\nIf they can move, the ally can Step as a free action, even if they didn't need to escape.\n\nEffect: Champion'S Resistance",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "champion"
+      ],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "An enemy damages, grabs, or restrains your ally, and both are in your champion's aura",
+      "actions": "reaction",
+      "traitLinks": [
+        {
+          "label": "champion",
+          "slug": "champion"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "champion",
+      "player-core-2",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "098398D1-7E46-57F1-A47E-1F7182F2E17D",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Mark for Death",
+    "slug": "mark-for-death-player-core-2",
+    "descr": "**Requirements** The creature you intend to mark is observed by you\n\n**Effect** You designate a single creature as your mark. Using Mark for Death while [Hidden](/condition/hidden-player-core) or [Undetected](/condition/undetected-player-core) doesn't make you [Observed](/condition/observed-player-core). Mark for Death lasts until the mark dies or you use Mark for Death again. You gain a +2 circumstance bonus to Perception checks to [Seek](/action/seek-player-core) your mark, as well as to Deception checks to [Feint](/action/feint-player-core) against your mark. Your mark takes a –2 circumstance penalty to all Perception checks to Seek you.\n\nIn addition, when attacking your mark, you have the [Sneak Attack](/feat/sneak-attack-player-core) class feature, except it deals 1d4 precision damage and you don't increase the number of dice as you gain levels. At 6th level, the damage increases to 1d6. If you already have the sneak attack class feature, you instead deal an additional 1 precision damage with your sneak attacks made against your mark, increasing to 2 precision damage at 6th level.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "concentrate"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "The creature you intend to mark is observed by you",
+      "trigger": "",
+      "actions": "three",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "player-core-2",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "CBAC7A06-1592-5710-B054-F79E6C1B9138",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Once Bitten",
+    "slug": "once-bitten-player-core-2",
+    "descr": "**Trigger** A creature adjacent to you hits you with a melee unarmed Strike\n\n**Requirements** You have prepared your clothing to poison attackers\n\n**Effect** The triggering creature is exposed to the suffused poison, and the poison becomes inert.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "You have prepared your clothing to poison attackers",
+      "trigger": "A creature adjacent to you hits you with a melee unarmed Strike",
+      "actions": "reaction",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core-2",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "EFDF4C19-8847-5A6A-AB78-EC6D434A22ED",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Opportune Riposte",
+    "slug": "opportune-riposte-player-core-2",
+    "descr": "**Trigger** A foe within your reach critically fails a Strike against you\n\nYou take advantage of an opening from your enemy's fumbled attack. You either make a melee Strike against the triggering foe or attempt to [Disarm](/action/disarm-player-core) it of the weapon it used for the Strike.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "bravado",
+        "swashbuckler"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "A foe within your reach critically fails a Strike against you",
+      "actions": "reaction",
+      "traitLinks": [
+        {
+          "label": "bravado",
+          "slug": "bravado"
+        },
+        {
+          "label": "swashbuckler",
+          "slug": "swashbuckler"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "bravado",
+      "player-core-2",
+      "remaster",
+      "swashbuckler"
+    ],
+    "sources": [
+      {
+        "name": "Player Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3B39D769-9F19-5CA0-88DA-17465D41E6C4",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Plummeting Roll",
+    "slug": "plummeting-roll-player-core-2",
+    "descr": "**Trigger** You fall at least 10 feet and take no damage from the fall\n\n**Effect** You tuck and roll with the motion. You land on your feet and Stride up to half your Speed",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "You fall at least 10 feet and take no damage from the fall",
+      "actions": "reaction",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core-2",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8DF64F3C-722A-50D9-837F-D662FEF14B3A",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Pointed Question",
+    "slug": "pointed-question-player-core-2",
+    "descr": "You ask a question that charms or needles someone in just the right way. Ask a question of a non-allied creature that you can see. Attempt a Diplomacy check against the creature's Will DC. The creature is then temporarily immune for 1 hour.\n\n**Critical Success** The target must directly answer your question. It doesn't have to answer truthfully, but you gain a +4 circumstance bonus to your Perception DC if the creature attempts to [Lie](/action/lie-player-core) to you.\n\nWhether it answers truthfully or not, you glean something from its body language, and it is [Off Guard](/condition/off-guard-player-core) to the Strike you make using [Devise A Stratagem](/action/devise-a-stratagem-player-core-2) against it before the end of your turn.\n\n**Success** As critical success, but the circumstance bonus to your Perception DC is +2.\n\nEffect: Pointed Question\n\n**Failure** The target can refuse to answer you as normal.\n\n**Critical Failure** The target can refuse to answer you as normal, and its attitude toward you decreases by one step due to your aggravating attention.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "auditory",
+        "concentrate",
+        "investigator",
+        "linguistic",
+        "mental"
+      ],
+      "category": "interaction",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "auditory",
+          "slug": "auditory"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "investigator",
+          "slug": "investigator"
+        },
+        {
+          "label": "linguistic",
+          "slug": "linguistic"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "auditory",
+      "concentrate",
+      "investigator",
+      "linguistic",
+      "mental",
+      "player-core-2",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "DF28BDE0-92DC-5A01-AE0E-F12746AA6475",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Poison Reservoir",
+    "slug": "poison-reservoir-player-core-2",
+    "descr": "Your familiar has a reservoir for poison, allowing it to apply an injury poison to an adjacent ally's exposed weapon with a single [Interact](/action/interact-player-core) action. You must supply the poison and instill it into this reservoir using two consecutive Interact actions. You must have a homunculus familiar to select this ability",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "familiar",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core-2",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4FF32060-9D5E-5EA7-88F2-C356167708C7",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Pursue a Lead",
+    "slug": "pursue-a-lead-player-core-2",
+    "descr": "**Frequency** once per 10 minutes\n\nYou name one detail you've identified that you think is part of a larger mystery, then spend 1 minute examining it. The detail is typically either obvious or something you've already discovered using [Recall Knowledge](/action/recall-knowledge-player-core), [Sense Motive](/action/sense-motive-player-core), [Gather Information](/action/gather-information-player-core), or a similar action. After the minute passes, the GM either confirms there's a larger mystery or tells you there's nothing more to learn (the detail is inconsequential or you know all the information already). If there is in fact a larger mystery at play, you can't Pursue a Lead again for 10 minutes, but you can choose to open an investigation. To do so, define the question at the heart of the mystery, such as \"Where has the priceless work of art that was supposed to hang here been taken?\" or \"Who or what killed this priest?\" Work with your GM to refine the question if need be. You can also give your investigation a name to better keep track of it (such as \"The Case of the Cheated Goblin\" or \"The Skinsaw Murders\").\n\n**Investigation Bonus** Whenever you attempt a Perception check or skill check to attempt to get closer to answering the question at the heart of an active investigation, you gain a +1 circumstance bonus to the check. The exact checks this applies to depend on the actions you use to investigate and are determined by the GM, but checks to investigate are typically Perception checks or skill checks that use Intelligence, Wisdom, or Charisma.\n\n**Active Investigations** You can maintain two active investigations at a time. If you Pursue another Lead after that, the case must be different from any of your current investigations (as far as you are aware), and you give up on a current investigation of your choice. Once you've given up pursuit of an investigation, you can't Pursue a Lead into it again until after the next time you make your daily preparations.\n\n**Solving an Investigation** If you answer the question at the heart of your investigation, the GM tells you that you've done so. You don't lose the bonus or other benefits until you choose to close the investigation by Pursuing a Lead again or voluntarily Dismissing it. If what you discover points to an even larger mystery, you can work with the GM to adapt the question and name of the investigation to the new information.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "exploration",
+        "investigator"
+      ],
+      "category": "interaction",
+      "frequency": "once per 10 minutes",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "exploration",
+          "slug": "exploration"
+        },
+        {
+          "label": "investigator",
+          "slug": "investigator"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "exploration",
+      "investigator",
+      "player-core-2",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A71F4F38-79A6-5D04-B2A7-3BDFC75FCFA7",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Quick Alchemy",
+    "slug": "quick-alchemy-player-core-2",
+    "descr": "**Requirements** You're either holding or wearing an [Alchemist'S Toolkit](/item/alchemist-s-toolkit-player-core). and you have a free hand.\n\nYou can either use up a versatile vial to make another alchemical consumable at a moment's notice or create an especially short-lived versatile vial. Any effect created by an item made with Quick Alchemy that would have a duration longer than 10 minutes lasts for 10 minutes instead.\n\n**Create Consumable** You expend one of your versatile vials to create a single alchemical consumable item of your level or lower that's in your formula book. You don't have to spend the normal monetary cost in alchemical raw materials or need to attempt a Crafting check. This item has the [infused](/trait/infused) trait, but it remains potent only until the start of your next turn. (As normal, you need only one formula for an item to create any level of that item.)\n\n**Quick Vial** You create a versatile vial that can be used only as a bomb or for the versatile vial option from your research field (it can't be used to create a consumable, for example). This item has the infused trait, but it remains potent only until the end of your current turn.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "alchemist",
+        "manipulate"
+      ],
+      "category": "interaction",
+      "frequency": "",
+      "requirements": "You're either holding or wearing an Alchemist'S Toolkit. and you have a free hand",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "alchemist",
+          "slug": "alchemist"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "alchemist",
+      "manipulate",
+      "player-core-2",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A094AF5E-D835-5CD7-8298-385F87D23119",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Quick Tincture",
+    "slug": "quick-tincture-player-core-2",
+    "descr": "**Cost** 1 versatile vial\n\n**Requirements** You know the formula for the alchemical item you're creating, you are holding or wearing alchemist's toolkit, and you have a free hand.\n\nYou quickly brew up a short-lived tincture. You create a single alchemical elixir or tool of your level or lower without having to spend the normal monetary cost in alchemical reagents or needing to attempt a Crafting check. This item has the [infused](/trait/infused) trait, but it remains potent only until the end of the current turn.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "investigator",
+        "manipulate"
+      ],
+      "category": "interaction",
+      "frequency": "",
+      "requirements": "You know the formula for the alchemical item you're creating, you are holding or wearing alchemist's toolkit, and you have a free hand",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "investigator",
+          "slug": "investigator"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "investigator",
+      "manipulate",
+      "player-core-2",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "AB11CA4C-A631-5CBA-94A1-3A7BCFA624CA",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Quick-Tempered",
+    "slug": "quick-tempered-player-core-2",
+    "descr": "**Trigger** You roll initiative.\n\n**Requirements** You are not [Encumbered](/condition/encumbered-player-core) or wearing heavy armor.\n\nSo long as you are able to move freely, your fury is instinctive and instantaneous. You [Rage](/action/rage-player-core-2).",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "barbarian"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "You are not Encumbered or wearing heavy armor",
+      "trigger": "You roll initiative",
+      "actions": "free",
+      "traitLinks": [
+        {
+          "label": "barbarian",
+          "slug": "barbarian"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "barbarian",
+      "player-core-2",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "6133FF6F-8B87-5125-BE0E-383EF0A0C476",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Rage",
+    "slug": "rage-player-core-2",
+    "descr": "**Requirements** You aren't [Fatigued](/condition/fatigued-player-core) or raging.\n\nYou tap into your inner fury and begin raging. You gain a number of temporary Hit Points equal to your level plus your Constitution modifier. While you are raging:\n\nYou deal 2 additional damage on melee Strikes. This additional damage is halved if your weapon or unarmed attack is agile.\n\nYou can't use actions with the [concentrate](/trait/concentrate) trait unless they also have the [rage](/trait/rage) trait. You can [Seek](/action/seek-player-core) while raging.\n\nRage lasts for 1 minute, until you fall [Unconscious](/condition/unconscious-player-core), or until the encounter ends, whichever comes first. You can't voluntarily stop raging. When you stop raging, you lose any remaining temporary Hit Points from Rage, and can't gain temporary Hit Points from using the Rage action again for 1 minute.\n\nEffect: Rage Temporary Hit Points Immunity",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "barbarian",
+        "concentrate",
+        "emotion",
+        "mental"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "You aren't Fatigued or raging",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "barbarian",
+          "slug": "barbarian"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "emotion",
+          "slug": "emotion"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "barbarian",
+      "concentrate",
+      "emotion",
+      "mental",
+      "player-core-2",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "788AD5CC-CC09-549F-96A6-3B71C589F1A4",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Resist Elf Magic",
+    "slug": "resist-elf-magic-player-core-2",
+    "descr": "**Trigger** You attempt a saving throw against a magical effect but haven't rolled yet\n\nYour ancestral resistance to magic protects you. You gain a +1 circumstance bonus to the triggering saving throw. If the triggering effect is arcane, you gain a +2 circumstance bonus instead.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "You attempt a saving throw against a magical effect but haven't rolled yet",
+      "actions": "reaction",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core-2",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "20729836-B142-5252-B362-357CF73B69D9",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Retributive Strike",
+    "slug": "retributive-strike-player-core-2",
+    "descr": "**Trigger** An enemy damages your ally, and both are in your champion's aura\n\n**Effect** You protect your ally and strike your enemy. The ally gains resistance to all damage against the triggering damage equal to 2 + your level. If the enemy is within reach, make a melee Strike against it.\n\nEffect: Champion'S Resistance",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "champion",
+        "divine"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "An enemy damages your ally, and both are in your champion's aura",
+      "actions": "reaction",
+      "traitLinks": [
+        {
+          "label": "champion",
+          "slug": "champion"
+        },
+        {
+          "label": "divine",
+          "slug": "divine"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "champion",
+      "divine",
+      "player-core-2",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "741A8396-67C8-5EDA-8966-C3F1644BFDCB",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Second Opinion",
+    "slug": "second-opinion-player-core-2",
+    "descr": "Your familiar is your academic confidant. Despite being a minion, your familiar gains 1 reaction at the start of its turns, which it can use only to [Aid](/action/aid-player-core) you on a Recall Knowledge skill check for a skill in which it has the [Skilled](/action/skilled-player-core) familiar ability (it still has to prepare to help you as normal for the Aid reaction).\n\nIt automatically succeeds at its check to Aid you with those skills or automatically critically succeeds if you're a master of the skill in question. Your familiar must have the skilled ability to select this.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "familiar",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core-2",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A804BCCC-F558-5E1A-953F-67673CAA2C5C",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Selfish Shield",
+    "slug": "selfish-shield-player-core-2",
+    "descr": "**Trigger** An enemy in your champion's aura damages you\n\n**Effect** Your self-interest keeps you safe. You gain resistance against the triggering damage equal to 2 + half your level, regardless of damage type.\n\nEffect: Selfish Shield\n\nIn addition, your Strikes against the triggering creature deal 1 extra spirit damage until the end of your next turn. This extra damage increases to 2 at 9th level and 3 at 16th level.\n\nEffect: Champion'S Extra Damage",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "champion",
+        "divine"
+      ],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "An enemy in your champion's aura damages you",
+      "actions": "reaction",
+      "traitLinks": [
+        {
+          "label": "champion",
+          "slug": "champion"
+        },
+        {
+          "label": "divine",
+          "slug": "divine"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "champion",
+      "divine",
+      "player-core-2",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "802A9469-17DA-50C5-BBDB-17BE24AA51E2",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Tail Toxin",
+    "slug": "tail-toxin-player-core-2",
+    "descr": "**Frequency** once per day\n\n**Requirements** You are wielding a piercing or slashing weapon\n\nYou apply your tail's venom to a piercing or slashing weapon. If your next Strike with that weapon before the end of your next turn hits and deals damage, you deal persistent poison damage equal to your level to the target.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "kobold",
+        "poison"
+      ],
+      "category": "interaction",
+      "frequency": "once per day",
+      "requirements": "You are wielding a piercing or slashing weapon",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "kobold",
+          "slug": "kobold"
+        },
+        {
+          "label": "poison",
+          "slug": "poison"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "kobold",
+      "player-core-2",
+      "poison",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "049B5E0A-7605-5044-933F-A03F8E2BA51D",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Threatening Approach",
+    "slug": "threatening-approach-player-core-2",
+    "descr": "You Stride to be adjacent to a foe and Demoralize that foe. If you succeed, the foe is [Frightened 2](/condition/frightened-player-core) instead of frightened 1.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "two",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core-2",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "6A565F19-0FBC-5483-B488-8238632E0045",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Toxic Skin",
+    "slug": "toxic-skin-player-core-2",
+    "descr": "**Frequency** once per hour\n\n**Trigger** A creature touches you, such as by [Grappling](/action/grapple-player-core) you, successfully hitting you with an unarmed attack, or using a touch-range spell against you\n\n**Effect** You exude a deadly toxin. The triggering creature takes 0d4 poison damage (basic Fortitude save using your class DC or spell DC, whichever is higher). At 3rd level and every 2 levels thereafter, the damage increases by 1d4.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "poison",
+        "tripkee"
+      ],
+      "category": "defensive",
+      "frequency": "once per hour",
+      "requirements": "",
+      "trigger": "A creature touches you, such as by Grappling you, successfully hitting you with an unarmed attack, or using a touch-range spell against you",
+      "actions": "reaction",
+      "traitLinks": [
+        {
+          "label": "poison",
+          "slug": "poison"
+        },
+        {
+          "label": "tripkee",
+          "slug": "tripkee"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core-2",
+      "poison",
+      "remaster",
+      "tripkee"
+    ],
+    "sources": [
+      {
+        "name": "Player Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "21FC885E-3593-5962-8406-543573B68FA0",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Transform Ammunition",
+    "slug": "transform-ammunition-player-core-2",
+    "descr": "**Frequency** once per round\n\n**Effect** You transform a non-magical arrow or bolt on your person into a piece of magical ammunition of one type you chose for the [Magic Ammunition](/feat/magic-ammunition-player-core-2) feat. You must shoot the ammunition before the end of your turn or the magic dissipates. If the ammunition has an Activate entry, you still need to spend the required actions to activate the ammunition before shooting it.\n\nYou can choose a type of magical ammunition that is typically not available to the type of ammunition you're using—for example, you can use [Climbing Bolt](/item/climbing-bolt-gm-core) on an arrow, even though that magical ammunition is normally only found on bolts.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "magical"
+      ],
+      "category": "offensive",
+      "frequency": "once per round",
+      "requirements": "",
+      "trigger": "",
+      "actions": "free",
+      "traitLinks": [
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "magical",
+      "player-core-2",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "99366A12-1732-5AA2-809C-0E4EBE0438BB",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Upstage",
+    "slug": "upstage-player-core-2",
+    "descr": "**Trigger** An enemy attempts a skill check and doesn't get a critical success\n\nAfter your foe has tried their best, you show everyone how it's really done. Attempt a check using the same skill that triggered this reaction.\n\n**Critical Success** You gain a +1 status bonus to attack rolls, Perception checks, saving throws, and skill checks until the end of your next turn.\n\n**Success** As critical success, except you gain the benefits only if the triggering creature failed their skill check.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "An enemy attempts a skill check and doesn't get a critical success",
+      "actions": "reaction",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "player-core-2",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0E508A87-59B8-5ADD-941B-6FE4D6E5DE30",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Warding Sign",
+    "slug": "warding-sign-player-core-2",
+    "descr": "**Frequency** once per minute\n\n**Trigger** You attempt a saving throw against a magical effect, but you haven't rolled yet\n\n**Effect** You call on the power of a personal, eldritch sign of protection, which flares brightly before slowly fading. You gain a +2 circumstance bonus to the triggering saving throw, or a +3 circumstance bonus if the effect is a curse.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "concentrate"
+      ],
+      "category": "defensive",
+      "frequency": "once per minute",
+      "requirements": "",
+      "trigger": "You attempt a saving throw against a magical effect, but you haven't rolled yet",
+      "actions": "reaction",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "player-core-2",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

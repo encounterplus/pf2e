@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1E507270-DC1D-5CF1-9C66-651DDA59D18D",
+    "kind": "Trait",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Dragonet",
+    "slug": "dragonet",
+    "descr": "Dragonets are miniature dragons, complete with wings, dagger-like teeth, and magical breath. They can be fiercely independent and proud, at times protective or avaricious, and they delight in the finer things in life.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "dragonet"
+      ],
+      "traitLinks": [
+        {
+          "label": "dragonet",
+          "slug": "dragonet"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "draconic-codex",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "draconic-codex",
+      "dragonet",
+      "remaster",
+      "trait"
+    ],
+    "sources": [
+      {
+        "name": "Draconic Codex",
+        "url": "https://2e.aonprd.com/Traits.aspx?ID=893",
+        "page": 208
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  }
+]

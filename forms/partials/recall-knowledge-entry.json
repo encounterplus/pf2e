@@ -1,0 +1,21 @@
+{
+  "sections": [
+    {
+      "type": "group",
+      "fields": [
+        {
+          "title": "Creature.RecallKnowledgeSubjects",
+          "type": "picker",
+          "attribute": "subject",
+          "attributeType": "Trait"
+        },
+        {
+          "title": "Creature.RecallKnowledgeSkills",
+          "type": "multiPicker",
+          "attribute": "skills",
+          "attributeType": "Skill"
+        }
+      ]
+    }
+  ]
+}

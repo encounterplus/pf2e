@@ -1,0 +1,40 @@
+[
+  {
+    "id": "992682EA-B41A-5944-A445-563B0BC1799B",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Adamantine Weapon",
+    "slug": "adamantine-weapon-gm-core",
+    "descr": "Adamantine weapons have a shiny black appearance and cut through lesser items with ease. They treat any object they hit as if it had half as much Hardness as usual, unless the object's Hardness is greater than that of the adamantine weapon.\n\n## Adamantine Weapon (Standard-Grade)\n\n**Level** 11\n\n**Price** 1,400 gp (+140 gp per Bulk)\n\n**Craft Requirements** at least 175 gp of adamantine + 17.5 gp per Bulk\n\n## Adamantine Weapon (High-Grade)\n\n**Level** 17\n\n**Price** 13,500 gp (+1,350 gp per Bulk)\n\n**Craft Requirements** at least 6,750 gp of adamantine + 675 gp per Bulk",
+    "data": {
+      "level": 11,
+      "rarity": "uncommon",
+      "traits": [],
+      "category": "weapon",
+      "subcategory": "preciousMaterialWeapon",
+      "price": "1,400 gp (+140 gp per Bulk)",
+      "usage": "varies-by-weapon",
+      "bulk": "—"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "contentOrigin": "GM Core (ORC)"
+    },
+    "tags": [
+      "gm-core",
+      "remaster",
+      "weapon"
+    ],
+    "sources": [
+      {
+        "name": "GM Core",
+        "page": 240
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

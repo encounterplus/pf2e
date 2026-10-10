@@ -9,7 +9,7 @@
         {
           "title": "Movement.Walk",
           "type": "decimal",
-          "attribute": "walk"
+          "attribute": "data.movement.walk"
         }
       ]
     },
@@ -21,22 +21,22 @@
         {
           "title": "Movement.Burrow",
           "type": "decimal",
-          "attribute": "burrow",
+          "attribute": "data.movement.burrow",
         },
         {
           "title": "Movement.Climb",
           "type": "decimal",
-          "attribute": "climb"
+          "attribute": "data.movement.climb"
         },
         {
           "title": "Movement.Fly",
           "type": "decimal",
-          "attribute": "fly"
+          "attribute": "data.movement.fly"
         },
         {
           "title": "Movement.Swim",
           "type": "decimal",
-          "attribute": "swim"
+          "attribute": "data.movement.swim"
         }
       ]
     },
@@ -47,7 +47,7 @@
         {
           "placeholder": "Common.Other",
           "type": "textArea",
-          "attribute": "other"
+          "attribute": "data.movement.other"
         }
       ]
     },

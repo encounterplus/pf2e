@@ -1,0 +1,1590 @@
+[
+  {
+    "id": "4E5F7F08-185C-54F5-ADBE-BCFC1747517D",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Adaptable Paddleboat",
+    "slug": "adaptable-paddleboat-guns-and-gears-remastered",
+    "descr": "",
+    "data": {
+      "level": 2,
+      "rarity": "uncommon",
+      "traits": [],
+      "size": "large",
+      "price": "110 gp",
+      "space": {
+        "high": 4,
+        "long": 10,
+        "wide": 5
+      },
+      "crew": "1 pilot",
+      "passengers": "1",
+      "pilotingCheck": "Driving Lore (DC 16), Sailing Lore (DC 16), or Crafting (DC 18)",
+      "speed": "swim 15 feet (clockwork)",
+      "ac": {
+        "value": 13,
+        "details": ""
+      },
+      "hp": {
+        "value": 30,
+        "details": "",
+        "bt": 15
+      },
+      "hardness": 5,
+      "fortitude": 8,
+      "collisionDC": 16,
+      "collisionDamage": "2d6",
+      "abilities": [
+        {
+          "name": "Deploy Wheels",
+          "text": "The pilot engages a lever that activates the clockwork components to transform the adaptable paddleboat's waterwheels into wheels for rolling along the ground. This grants the adaptable paddleboat Speed 20 feet and reduces its swim Speed to 5 feet. This transformation lasts until the pilot disengages the wheels by using this activity again.",
+          "traits": [],
+          "actions": "three"
+        },
+        {
+          "name": "Wind-Up",
+          "text": "10 minutes of wind-up, 1 hour of operational time, DC 16, standby",
+          "traits": []
+        }
+      ],
+      "traitLinks": [],
+      "immunities": [
+        "object immunities"
+      ],
+      "description": "A clockwork amphibious boat whose waterwheels can be shifted into wheels for travel on land."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "41027B4F-1E0B-5B7D-890E-D2479842DD26",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Ambling Surveyor",
+    "slug": "ambling-surveyor-guns-and-gears-remastered",
+    "descr": "",
+    "data": {
+      "level": 14,
+      "rarity": "rare",
+      "traits": [],
+      "size": "huge",
+      "price": "13,000 gp",
+      "space": {
+        "high": 20,
+        "long": 15,
+        "wide": 15
+      },
+      "crew": "1 pilot, 2 crew",
+      "passengers": "7",
+      "pilotingCheck": "Driving Lore (DC 32) or Crafting (DC 34)",
+      "speed": "15 feet (clockwork, magical)",
+      "ac": {
+        "value": 33,
+        "details": ""
+      },
+      "hp": {
+        "value": 190,
+        "details": "",
+        "bt": 95
+      },
+      "hardness": 20,
+      "fortitude": 25,
+      "collisionDC": 30,
+      "collisionDamage": "8d12",
+      "abilities": [
+        {
+          "name": "Continous Track",
+          "text": "This vehicle travels on a continuous band of heavy treads driven by a series of gears and wheels, enabling it to travel over rugged land with ease. Earth, rock, rubble, slopes, and underbrush are not difficult terrain to an ambling surveyor. The ambling surveyor ignores difficult terrain from earth, rock, rubble, slopes, and underbrush, and greater difficult terrain caused by those features is normal difficult terrain to the ambling surveyor.",
+          "traits": []
+        },
+        {
+          "name": "Sluggish",
+          "text": "This vehicle must move twice its length for each 90-degree turn it makes.",
+          "traits": []
+        },
+        {
+          "name": "Survey",
+          "text": "**Requirements** The ambling surveyor is not in motion\n\n---\n\n**Effect** The pilot and crew release a collection of six clockwork birds, which spend two hours flying over the surrounding area within a 1-mile radius around the ambling surveyor. Everything the birds see is magically transmitted back to the ambling surveyor's crew as illusory images, which the crew must catalogue in real-time if they want to use the information to fully survey the area and create a map. After two hours, the birds return. The birds use the base statistics of a [Clockwork Spy](/creature/clockwork-spy-monster-core-2) if they are attacked, or if their Perception is important to determine what they can see, although they only perform the Survey action and they don't have any of the other abilities of a clockwork spy. Replacement birds cost 250 gp each.",
+          "traits": [
+            "concentrate",
+            "exploration",
+            "magical",
+            "manipulate",
+            "visual"
+          ]
+        },
+        {
+          "name": "Wind-Up",
+          "text": "10 minutes of wind-up, 1 hour of operational time, DC 32, standby",
+          "traits": []
+        }
+      ],
+      "traitLinks": [],
+      "immunities": [
+        "critical hits",
+        "object immunities",
+        "precision damage"
+      ],
+      "description": "A slow-moving clockwork survey vehicle assisted by magic."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D0AE8D2C-65CD-51CB-9D9C-AF463B08222F",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Apparatus of the Octopus",
+    "slug": "apparatus-of-the-octopus-guns-and-gears-remastered",
+    "descr": "",
+    "data": {
+      "level": 11,
+      "rarity": "uncommon",
+      "traits": [],
+      "size": "large",
+      "price": "4,000 gp",
+      "space": {
+        "high": 5,
+        "long": 10,
+        "wide": 10
+      },
+      "crew": "1 pilot",
+      "passengers": "1 (the passenger can optionally act as crew but more crew isn't necessary)",
+      "pilotingCheck": "Driving Lore (DC 28) or Crafting (DC 30)",
+      "speed": "5 feet, swim 40 feet (clockwork, magical)",
+      "ac": {
+        "value": 25,
+        "details": ""
+      },
+      "hp": {
+        "value": 150,
+        "details": "",
+        "bt": 75
+      },
+      "hardness": 15,
+      "fortitude": 20,
+      "collisionDC": 28,
+      "collisionDamage": "7d10",
+      "abilities": [
+        {
+          "name": "Manipulate Hands",
+          "text": "A crew member operates a lever set up like a joystick, allowing that crew member to extend and manipulate the apparatus's hands. While the hands can't attack and can't perform fine actions such as [Disable A Device](/action/disable-a-device-player-core), [Steal](/action/steal-player-core) something, or opening the stopper on a potion bottle, but they can grasp and hold up to 50 Bulk.",
+          "traits": [
+            "manipulate"
+          ],
+          "actions": "two"
+        },
+        {
+          "name": "Open Eyes",
+          "text": "A crew member pulls a lever to open the apparatus's eyes, which shine bright light within 20 feet and dim light for the next 20 feet. A crew member can take this action again to close the eyes.",
+          "traits": [
+            "manipulate"
+          ],
+          "actions": "two"
+        },
+        {
+          "name": "Open Portholes",
+          "text": "A crew member pulls a lever to open two portholes, allowing the crew to see outside the apparatus and other creatures to see into it. A crew member can take this action again to close the portholes.",
+          "traits": [
+            "manipulate"
+          ],
+          "actions": "two"
+        },
+        {
+          "name": "Submersible",
+          "text": "The apparatus of the octopus can protect its crew and passengers from water pressure to a maximum depth of 5,000 feet and contains enough air for 12 hours for a pilot alone or 6 hours for a pilot and passenger or crew member.",
+          "traits": []
+        }
+      ],
+      "traitLinks": [],
+      "immunities": [
+        "critical hits",
+        "object immunities",
+        "precision damage"
+      ],
+      "description": "A clockwork vessel that travels more quickly through water than on land."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E123AB29-8138-5B47-9A51-5C47EDE23E4A",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Armored Carriage",
+    "slug": "armored-carriage-guns-and-gears-remastered",
+    "descr": "",
+    "data": {
+      "level": 5,
+      "rarity": "uncommon",
+      "traits": [],
+      "size": "large",
+      "price": "400 gp",
+      "space": {
+        "high": 10,
+        "long": 10,
+        "wide": 10
+      },
+      "crew": "1 pilot",
+      "passengers": "3",
+      "pilotingCheck": "Driving Lore (DC 20) or Crafting (DC 22)",
+      "speed": "25 feet (clockwork)",
+      "ac": {
+        "value": 19,
+        "details": ""
+      },
+      "hp": {
+        "value": 70,
+        "details": "",
+        "bt": 35
+      },
+      "hardness": 5,
+      "fortitude": 12,
+      "collisionDC": 20,
+      "collisionDamage": "3d10",
+      "abilities": [
+        {
+          "name": "Weapon Mount",
+          "text": "This vehicle has one rear weapon mount that can be equipped with a ranged weapon. At purchase, this weapon mount is empty. Installing or uninstalling a weapon into this mount requires 10 minutes, a successful Crafting DC 20, as well as an appropriate weapon to install.",
+          "traits": []
+        },
+        {
+          "name": "Wind-Up",
+          "text": "10 minutes of wind-up, 1 hour of operational time, DC 20, standby",
+          "traits": []
+        }
+      ],
+      "traitLinks": [],
+      "immunities": [
+        "critical hits",
+        "object immunities",
+        "precision damage"
+      ],
+      "description": "A clockwork carriage with protective armor."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "00D9BEBE-564A-5E5E-BC24-52105C8F4355",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Automated Cycle",
+    "slug": "automated-cycle-guns-and-gears-remastered",
+    "descr": "",
+    "data": {
+      "level": 1,
+      "rarity": "uncommon",
+      "traits": [],
+      "size": "large",
+      "price": "50 gp",
+      "space": {
+        "high": 3,
+        "long": 5,
+        "wide": 10
+      },
+      "crew": "1 pilot",
+      "passengers": "2",
+      "pilotingCheck": "Driving Lore (DC 15) or Crafting (DC 17)",
+      "speed": "30 feet (clockwork)",
+      "ac": {
+        "value": 11,
+        "details": ""
+      },
+      "hp": {
+        "value": 18,
+        "details": "",
+        "bt": 9
+      },
+      "hardness": 5,
+      "fortitude": 7,
+      "collisionDC": 15,
+      "collisionDamage": "1d10",
+      "abilities": [
+        {
+          "name": "Sidecars",
+          "text": "Each of the two sidecars can hold 1 passenger or 10 Bulk. The automated cycle's Speed is reduced by 5 feet for each sidecar that contains a passenger or cargo.",
+          "traits": []
+        },
+        {
+          "name": "Wind-Up",
+          "text": "10 minutes of wind-up, 1 hour of operational time, DC 14, standby",
+          "traits": []
+        }
+      ],
+      "traitLinks": [],
+      "immunities": [
+        "critical hits",
+        "object immunities",
+        "precision damage"
+      ],
+      "description": "A clockwork cycle that travels without a pulling creature."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B5B2416C-DBCD-567D-AE68-67F81ABEE0EC",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Battery Tower",
+    "slug": "battery-tower-guns-and-gears-remastered",
+    "descr": "",
+    "data": {
+      "level": 1,
+      "rarity": "rare",
+      "traits": [],
+      "size": "gargantuan",
+      "price": "30,000 gp",
+      "space": {
+        "high": 90,
+        "long": 50,
+        "wide": 50
+      },
+      "crew": "1 pilot, 150 turners, 2,200 pushers",
+      "passengers": "204",
+      "pilotingCheck": "Diplomacy (DC 37), Intimidation (DC 37), or Warfare Lore (DC 35)",
+      "speed": "10 feet (pushed, turned)",
+      "ac": {
+        "value": 34,
+        "details": ""
+      },
+      "hp": {
+        "value": 150,
+        "details": "",
+        "bt": 75
+      },
+      "hardness": 25,
+      "fortitude": 28,
+      "collisionDC": 32,
+      "collisionDamage": "8d10",
+      "abilities": [
+        {
+          "name": "Sluggish",
+          "text": "This vehicle must move twice its length for each 90-degree turn it makes.",
+          "traits": []
+        },
+        {
+          "name": "Tiered",
+          "text": "A battery tower has five levels. The crew operate at the bottom tier, turning a giant capstan, and up to four passengers can fit on that floor, enough for a full crew for a bombard. The remaining levels carry 50 passengers each. The tiers are specifically meant to be protective, and give those within the battery tower greater cover (or standard cover if the battery tower is broken). A massive ladder runs diagonally through the center of the battery tower, from the front of the top tier to the rear of the bottom tier. The ladder is wide enough for two crew or passengers to climb simultaneously.",
+          "traits": []
+        },
+        {
+          "name": "Weaponry",
+          "text": "A battery tower is usually loaded with black powder siege weapons for heavy assaults, with bombards on the bottom two floors and cannons on the other floors. Their Price is included in that of the battery tower. When building a battery tower, you can choose to replace any of these with other siege weapons of a lower Price. If you want a more expensive siege weapon, you must Craft it separately. Passengers of the battery tower can crew these siege weapons.",
+          "traits": []
+        }
+      ],
+      "traitLinks": [],
+      "immunities": [
+        "object immunities"
+      ],
+      "description": "A mobile tower pushed and steered by its operators."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F6397A82-066A-5EC1-9992-9A05E5C18DED",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Clockwork Borer",
+    "slug": "clockwork-borer-guns-and-gears-remastered",
+    "descr": "",
+    "data": {
+      "level": 9,
+      "rarity": "rare",
+      "traits": [],
+      "size": "huge",
+      "price": "2,100 gp",
+      "space": {
+        "high": 8,
+        "long": 20,
+        "wide": 8
+      },
+      "crew": "1 pilot",
+      "passengers": "5",
+      "pilotingCheck": "Driving Lore (DC 26) or Crafting (DC 28)",
+      "speed": "20 feet, burrow 10 feet (clockwork)",
+      "ac": {
+        "value": 24,
+        "details": ""
+      },
+      "hp": {
+        "value": 110,
+        "details": "",
+        "bt": 55
+      },
+      "hardness": 15,
+      "fortitude": 18,
+      "collisionDC": 26,
+      "collisionDamage": "6d10 piercing",
+      "abilities": [
+        {
+          "name": "Adamantine Drill",
+          "text": "While most burrow Speeds only allow a creature or vehicle to move through loose dirt or earth, this vehicle is equipped with an adamantine drill and can burrow through bedrock and stone at a rate of 5 feet per minute.",
+          "traits": []
+        },
+        {
+          "name": "Pivoting Seats",
+          "text": "This vehicle's seats are mounted on a weighted platform that pivots as the vehicle moves, automatically adjusting position with gravity. Seated creatures remain upright no matter the position or angle of the vehicle.",
+          "traits": []
+        },
+        {
+          "name": "Sluggish",
+          "text": "Because it is sluggish, this vehicle must move twice its length for each 90-degree turn it makes.",
+          "traits": []
+        },
+        {
+          "name": "Wind-Up",
+          "text": "10 minutes of wind-up, 1 hour of operational time, DC 26, standby",
+          "traits": []
+        }
+      ],
+      "traitLinks": [],
+      "immunities": [
+        "critical hits",
+        "object immunities",
+        "precision damage"
+      ],
+      "description": "A clockwork machine that can burrow beneath the ground."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "82BC3A6D-979C-5133-ADA5-29152DA04998",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Clockwork Castle",
+    "slug": "clockwork-castle-guns-and-gears-remastered",
+    "descr": "",
+    "data": {
+      "level": 16,
+      "rarity": "rare",
+      "traits": [],
+      "size": "gargantuan",
+      "price": "30,000 gp",
+      "space": {
+        "high": 35,
+        "long": 30,
+        "wide": 30
+      },
+      "crew": "1 pilot, 2 crew",
+      "passengers": "10",
+      "pilotingCheck": "Driving Lore (DC 35), Arcana (DC 39), or Crafting (DC 37)",
+      "speed": "40 feet (clockwork, magical)",
+      "ac": {
+        "value": 36,
+        "details": ""
+      },
+      "hp": {
+        "value": 250,
+        "details": "",
+        "bt": 125
+      },
+      "hardness": 20,
+      "fortitude": 28,
+      "collisionDC": 35,
+      "collisionDamage": "11d10",
+      "abilities": [
+        {
+          "name": "Environmental Protections",
+          "text": "This vehicle's interior temperature is magically maintained. Creatures inside this vehicle are protected from severe cold, severe heat, extreme cold, and extreme heat.",
+          "traits": []
+        },
+        {
+          "name": "Luxurious Accommodations",
+          "text": "This vehicle contains a bridge, engineering room, private sleeping quarters for up to 13 creatures, and four additional rooms (typically a dining room, kitchen, lavatory, and meeting room).",
+          "traits": []
+        },
+        {
+          "name": "Maneuverable",
+          "text": "This vehicle is mounted on ten spider-like legs that enable it to turn swiftly, turn in place, and even move backward. Each 90-degree turn made in less than a vehicle length costs 5 extra feet of movement; so, for example, it costs 10 feet of movement for the vehicle to turn around and begin moving backward. This vehicle loses these benefits when [Broken](/condition/broken-player-core).",
+          "traits": []
+        },
+        {
+          "name": "Weapon Mounts",
+          "text": "This vehicle has four rooftop weapon mounts; one mount on each corner of the vehicle. At purchase, these weapon mounts are initially empty. Installing or uninstalling a weapon into a weapon mount requires 10 minutes, a successful Crafting DC 35, and an appropriate weapon. Three of these weapon mounts can be equipped with ranged weapons, and the fourth can be equipped with a ranged siege weapon of size Large or smaller.",
+          "traits": []
+        },
+        {
+          "name": "Skewering Step",
+          "text": "Two crew members each perform a 3-action activity on their turn to skewer nearby enemies with the clockwork castle's legs. All creatures under or adjacent to the vehicle at the end of the second character's turn take 7d8 piercing damage (basic Reflex DC 35).",
+          "traits": [
+            "attack"
+          ],
+          "actions": "three"
+        },
+        {
+          "name": "Wind-Up",
+          "text": "10 minutes of wind-up, 1 hour of operational time, DC 35, standby",
+          "traits": []
+        }
+      ],
+      "traitLinks": [],
+      "immunities": [
+        "critical hits",
+        "object immunities",
+        "precision damage"
+      ],
+      "description": "A large magical clockwork structure capable of moving on its own."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D962FCEC-10EF-52D9-A494-ACC5906C9FFA",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Clockwork Hopper",
+    "slug": "clockwork-hopper-guns-and-gears-remastered",
+    "descr": "",
+    "data": {
+      "level": 6,
+      "rarity": "uncommon",
+      "traits": [],
+      "size": "large",
+      "price": "750 gp",
+      "space": {
+        "high": 12,
+        "long": 10,
+        "wide": 10
+      },
+      "crew": "1 pilot",
+      "passengers": "2",
+      "pilotingCheck": "Driving Lore (DC 22) or Crafting (DC 24)",
+      "speed": "Speed 35 feet (clockwork)",
+      "ac": {
+        "value": 19,
+        "details": ""
+      },
+      "hp": {
+        "value": 80,
+        "details": "",
+        "bt": 40
+      },
+      "hardness": 5,
+      "fortitude": 14,
+      "collisionDC": 22,
+      "collisionDamage": "4d10",
+      "abilities": [
+        {
+          "name": "Hopper",
+          "text": "This vehicle hops across the terrain as it moves across the ground. The clockwork hopper ignores difficult terrain from earth, rock, rubble, slopes, and underbrush, and greater difficult terrain caused by those features is normal difficult terrain to the clockwork hopper.",
+          "traits": []
+        },
+        {
+          "name": "Wind-Up",
+          "text": "10 minutes of wind-up, 1 hour of operational time, DC 22, standby",
+          "traits": []
+        },
+        {
+          "name": "Massive Jump",
+          "text": "The pilot engages a spring-driven mechanism that rockets the clockwork hopper into the air, in a grand leap. The vehicle jumps in a straight line in the direction of its current heading without touching the ground, landing in a space of solid ground up to 70 feet forward and up to 30 feet up. Creatures adjacent to the spaces a hopper lands in take 4d10 bludgeoning damage with a basic Reflex DC 22, and are knocked [Prone](/condition/prone-player-core) on a critical failure. The clockwork hopper can't use Massive Jump again for 1 minute. Massive Jump stops working if the clockwork hopper is [Broken](/condition/broken-player-core).",
+          "traits": [
+            "move",
+            "reckless"
+          ],
+          "actions": "three"
+        }
+      ],
+      "traitLinks": [],
+      "immunities": [
+        "critical hits",
+        "object immunities",
+        "precision damage"
+      ],
+      "description": "A clockwork vehicle built for land travel."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "36EC0387-B929-5B2E-98A8-F8A1A4729F28",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Clockwork Wagon",
+    "slug": "clockwork-wagon-guns-and-gears-remastered",
+    "descr": "",
+    "data": {
+      "level": 3,
+      "rarity": "uncommon",
+      "traits": [],
+      "size": "large",
+      "price": "160 gp",
+      "space": {
+        "high": 7,
+        "long": 10,
+        "wide": 10
+      },
+      "crew": "1 pilot",
+      "passengers": "2",
+      "pilotingCheck": "Driving Lore (DC 18) or Crafting (DC 20)",
+      "speed": "20 feet (clockwork)",
+      "ac": {
+        "value": 14,
+        "details": ""
+      },
+      "hp": {
+        "value": 48,
+        "details": "",
+        "bt": 24
+      },
+      "hardness": 5,
+      "fortitude": 9,
+      "collisionDC": 16,
+      "collisionDamage": "3d6",
+      "abilities": [
+        {
+          "name": "Hauler",
+          "text": "This vehicle is designed to transport heavy cargo over long distances. It can hold 400 Bulk of cargo.",
+          "traits": []
+        },
+        {
+          "name": "Sluggish",
+          "text": "This vehicle must move twice its length for each 90-degree turn it makes.",
+          "traits": []
+        },
+        {
+          "name": "Wind-Up",
+          "text": "1 hour of wind-up, 8 hours of operational time, DC 18, standby",
+          "traits": []
+        }
+      ],
+      "traitLinks": [],
+      "immunities": [
+        "critical hits",
+        "object immunities",
+        "precision damage"
+      ],
+      "description": "A self-propelled clockwork wagon."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "6F761842-3D51-5490-9AAE-82F8E6929D74",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Clunkerjunker",
+    "slug": "clunkerjunker-guns-and-gears-remastered",
+    "descr": "",
+    "data": {
+      "level": 1,
+      "rarity": "uncommon",
+      "traits": [],
+      "size": "medium",
+      "price": "30 gp",
+      "space": {
+        "high": 5,
+        "long": 10,
+        "wide": 5
+      },
+      "crew": "1 pilot",
+      "passengers": "1",
+      "pilotingCheck": "Driving Lore (DC 16) or Crafting (DC 18)",
+      "speed": "30 feet (alchemical)",
+      "ac": {
+        "value": 13,
+        "details": ""
+      },
+      "hp": {
+        "value": 18,
+        "details": "",
+        "bt": 9
+      },
+      "hardness": 5,
+      "fortitude": 7,
+      "collisionDC": 15,
+      "collisionDamage": "2d6",
+      "abilities": [
+        {
+          "name": "Volatile Flamethrower",
+          "text": "The pilot performs a three-action activity on their turn to vent alchemical fire out the sides of this vehicle. This requires three flasks of minor alchemist's fire, which the pilot loads into the vent as part of the activity. The pilot must then attempt a Flat DC 5. On a success, creatures adjacent to this vehicle take 1d8 fire damage (basic Reflex DC 15). On a failure, it backfires, dealing 1d8 fire damage to the pilot and any passengers, with no save.",
+          "traits": [
+            "fire"
+          ],
+          "actions": "three"
+        },
+        {
+          "name": "Fall Apart",
+          "text": "When this vehicle takes physical damage the pilot must attempt a Flat DC 11 (or a Flat DC 20 when it takes a critical hit). On a failure, the armored hull fractures and the vehicle loses its Hardness and takes a -4 circumstance penalty to AC.",
+          "traits": []
+        },
+        {
+          "name": "Smog",
+          "text": "10 feet. Whenever this vehicle is being piloted, it continually emits a thin haze of smoke and chemicals. Creatures in the aura (including the pilot and passengers) take a -1 circumstance penalty to visual Perception checks.",
+          "traits": [
+            "aura",
+            "fire"
+          ]
+        }
+      ],
+      "traitLinks": [],
+      "immunities": [
+        "critical hits",
+        "object immunities",
+        "precision damage"
+      ],
+      "description": "An alchemical land vehicle."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5EF72D91-E031-57DC-B913-00CCF864CE50",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Firefly",
+    "slug": "firefly-guns-and-gears-remastered",
+    "descr": "",
+    "data": {
+      "level": 5,
+      "rarity": "uncommon",
+      "traits": [],
+      "size": "large",
+      "price": "450 gp",
+      "space": {
+        "high": 10,
+        "long": 10,
+        "wide": 10
+      },
+      "crew": "1 pilot",
+      "passengers": "3",
+      "pilotingCheck": "Piloting Lore (DC 20), Arcana (DC 22), or Crafting (DC 22)",
+      "speed": "hover 20 feet (electrical, magical)",
+      "ac": {
+        "value": 16,
+        "details": ""
+      },
+      "hp": {
+        "value": 60,
+        "details": "",
+        "bt": 30
+      },
+      "hardness": 5,
+      "fortitude": 12,
+      "collisionDC": 20,
+      "collisionDamage": "3d8",
+      "abilities": [
+        {
+          "name": "Flash",
+          "text": "The pilot overcharges the vehicle, causing it to create a brilliant flash of light. All creatures in the bright light from its glow aura must succeed at a Fortitude DC 19 or be [Dazzled](/condition/dazzled-player-core) for 1 minute. The firefly's light dims for 10 minutes, reducing its glow to 10 feet of dim light, during which time it can't use flash. Flash stops working if the firefly is broken.",
+          "traits": [
+            "light"
+          ],
+          "actions": "three"
+        },
+        {
+          "name": "Glow",
+          "text": "Powered by magical lightning, this vehicle sheds bright light within 20 feet, and dim light for a further 20 feet.",
+          "traits": [
+            "electricity",
+            "light",
+            "magical"
+          ]
+        },
+        {
+          "name": "Hover",
+          "text": "This vehicle is held aloft by rapidly spinning propellers that enable it to hover 1 foot in the air. It is incapable of flying any higher, and when the pilot stops the magic or the vehicle breaks, it descends 1 foot to the ground.",
+          "traits": []
+        }
+      ],
+      "traitLinks": [],
+      "immunities": [
+        "critical hits",
+        "object immunities",
+        "precision damage"
+      ],
+      "resistances": "electricity 10",
+      "description": "An electrically powered magical vehicle that hovers above the ground."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "40E4DF0A-F5E9-5BB6-BC01-90FFCB04C4C7",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Mobile Inn",
+    "slug": "mobile-inn-guns-and-gears-remastered",
+    "descr": "",
+    "data": {
+      "level": 8,
+      "rarity": "rare",
+      "traits": [],
+      "size": "huge",
+      "price": "1,500 gp",
+      "space": {
+        "high": 13,
+        "long": 20,
+        "wide": 20
+      },
+      "crew": "1 pilot",
+      "passengers": "3 (can hold up to 5 by stripping accommodations)",
+      "pilotingCheck": "Driving Lore (DC 24) or Crafting (DC 26)",
+      "speed": "Speed 30 feet (alchemical)",
+      "ac": {
+        "value": 22,
+        "details": ""
+      },
+      "hp": {
+        "value": 100,
+        "details": "",
+        "bt": 50
+      },
+      "hardness": 10,
+      "fortitude": 18,
+      "collisionDC": 24,
+      "collisionDamage": "5d10",
+      "abilities": [],
+      "traitLinks": [],
+      "immunities": [
+        "critical hits",
+        "object immunities",
+        "precision damage"
+      ],
+      "description": "A traveling inn on an alchemically powered chassis."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "AB91AFFF-6216-558B-B719-A298059247F0",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Sand Diver",
+    "slug": "sand-diver-guns-and-gears-remastered",
+    "descr": "",
+    "data": {
+      "level": 3,
+      "rarity": "uncommon",
+      "traits": [],
+      "size": "large",
+      "price": "155 gp",
+      "space": {
+        "high": 6,
+        "long": 15,
+        "wide": 6
+      },
+      "crew": "1 pilot",
+      "passengers": "2",
+      "pilotingCheck": "Driving Lore (DC 18) or Crafting (DC 20)",
+      "speed": "20 feet, burrow 10 feet (alchemical)",
+      "ac": {
+        "value": 14,
+        "details": ""
+      },
+      "hp": {
+        "value": 42,
+        "details": "",
+        "bt": 21
+      },
+      "hardness": 5,
+      "fortitude": 9,
+      "collisionDC": 18,
+      "collisionDamage": "2d10",
+      "abilities": [
+        {
+          "name": "Shard Trail",
+          "text": "A sand diver can only [Burrow](/action/burrow-player-core) through sand, using the heat and flame from its alchemical core to slowly dig its way through. The alchemical fumes left behind become trapped belowground as it Burrows, temporarily catalyzing fragments of sand into a glass-like byproduct. Creatures that Burrow through a space this vehicle has Burrowed through within the last 24 hours take 1d12 piercing damage from the shards (basic Fortitude DC 17). A creature that continues Burrowing through a stretch of the same space the sand diver recently Burrowed through must continue to attempt this save the first time each round that it Burrows through the shards.",
+          "traits": []
+        },
+        {
+          "name": "Sluggish",
+          "text": "This vehicle must move twice its length for each 90-degree turn it makes.",
+          "traits": []
+        }
+      ],
+      "traitLinks": [],
+      "immunities": [
+        "critical hits",
+        "object immunities",
+        "precision damage"
+      ],
+      "description": "An alchemical vehicle able to travel overland or burrow beneath it."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "7AE209CD-91CD-553C-9982-D4C9A7BD7EF0",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Snail Coach",
+    "slug": "snail-coach-guns-and-gears-remastered",
+    "descr": "",
+    "data": {
+      "level": 7,
+      "rarity": "uncommon",
+      "traits": [],
+      "size": "huge",
+      "price": "1,000 gp",
+      "space": {
+        "high": 15,
+        "long": 30,
+        "wide": 10
+      },
+      "crew": "1 pilot",
+      "passengers": "6",
+      "pilotingCheck": "Driving Lore (DC 23) or Crafting (DC 25)",
+      "speed": "15 feet, climb 15 feet (alchemical, magical)",
+      "ac": {
+        "value": 21,
+        "details": ""
+      },
+      "hp": {
+        "value": 100,
+        "details": "",
+        "bt": 50
+      },
+      "hardness": 10,
+      "fortitude": 15,
+      "collisionDC": 21,
+      "collisionDamage": "7d6",
+      "abilities": [
+        {
+          "name": "Adhesive Secretions",
+          "text": "This vehicle secretes an alchemical adhesive that allows it to stick to and climb up solid surfaces. Spaces the snail coach moves through become difficult terrain for 1 round. Any creature that ends their turn on the adhesive must succeed at a Reflex DC 23 or take a –10-foot status penalty to its Speeds for 1 round. On a critical failure, the creature is also [Immobilized](/condition/immobilized-player-core) for 1 round (Escape).",
+          "traits": []
+        }
+      ],
+      "traitLinks": [],
+      "immunities": [
+        "critical hits",
+        "object immunities",
+        "precision damage"
+      ],
+      "description": "A slow magical coach that can climb as well as travel on the ground."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D4944E2A-A066-5C27-BBC0-6022573AA95D",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Speedster",
+    "slug": "speedster-guns-and-gears-remastered",
+    "descr": "",
+    "data": {
+      "level": 10,
+      "rarity": "rare",
+      "traits": [],
+      "size": "large",
+      "price": "2,900 gp",
+      "space": {
+        "high": 5,
+        "long": 10,
+        "wide": 5
+      },
+      "crew": "1 pilot",
+      "passengers": "1",
+      "pilotingCheck": "Driving Lore (DC 27) or Crafting (DC 29)",
+      "speed": "50 feet (alchemical, clockwork)",
+      "ac": {
+        "value": 23,
+        "details": ""
+      },
+      "hp": {
+        "value": 130,
+        "details": "",
+        "bt": 65
+      },
+      "hardness": 15,
+      "fortitude": 19,
+      "collisionDC": 27,
+      "collisionDamage": "7d10",
+      "abilities": [
+        {
+          "name": "Speed Boost",
+          "text": "The pilot releases built up pressure in the speedster's alchemical steam engine in order to temporarily increase its speed. For 1d4 rounds, the speedster's Speed becomes 80 feet and all move actions the pilot takes gain the [reckless](/trait/reckless) trait. When the pilot takes an action that already would have the reckless trait, the pilot uses the degree of success one worse than the one they rolled on the piloting check. The speedster can't use Speed Boost again for 1 hour, as the pressure requires time to rebuild.",
+          "traits": [],
+          "actions": "one"
+        },
+        {
+          "name": "Streamlined",
+          "text": "This lightweight vehicle has no additional storage space for cargo.",
+          "traits": []
+        },
+        {
+          "name": "Wind-Up",
+          "text": "10 minutes of wind-up, 2 hours of operational time, DC 28, standby",
+          "traits": []
+        }
+      ],
+      "traitLinks": [],
+      "immunities": [
+        "critical hits",
+        "object immunities",
+        "precision damage"
+      ],
+      "description": "A fast land vehicle driven by alchemical and clockwork machinery."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B28A5996-8030-5BA7-AF9E-2F99F675FBCD",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Steam Cart",
+    "slug": "steam-cart-guns-and-gears-remastered",
+    "descr": "",
+    "data": {
+      "level": 2,
+      "rarity": "rare",
+      "traits": [],
+      "size": "large",
+      "price": "120 gp",
+      "space": {
+        "high": 4,
+        "long": 10,
+        "wide": 5
+      },
+      "crew": "1 pilot",
+      "passengers": "1",
+      "pilotingCheck": "Driving Lore (DC 16) or Crafting (DC 18)",
+      "speed": "25 feet (alchemical)",
+      "ac": {
+        "value": 12,
+        "details": ""
+      },
+      "hp": {
+        "value": 30,
+        "details": "",
+        "bt": 15
+      },
+      "hardness": 5,
+      "fortitude": 8,
+      "collisionDC": 16,
+      "collisionDamage": "2d8",
+      "abilities": [
+        {
+          "name": "Steam Cloud",
+          "text": "Whenever the steam cart takes collision damage, its engine expels a dense cloud of steam in a 5-foot emanation. The steam cart and all creatures in the steam become [Concealed](/condition/concealed-player-core), and creatures outside the steam become [concealed](/condition/concealed-player-core) to creatures within it. The steam dissipates in 1 round.",
+          "traits": []
+        }
+      ],
+      "traitLinks": [],
+      "immunities": [
+        "critical hits",
+        "object immunities",
+        "precision damage"
+      ],
+      "description": "A compact alchemically propelled cart."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5659F2B3-EB27-55D1-B908-8F846F1BFA6D",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Steam Trolley",
+    "slug": "steam-trolley-guns-and-gears-remastered",
+    "descr": "",
+    "data": {
+      "level": 4,
+      "rarity": "rare",
+      "traits": [],
+      "size": "large",
+      "price": "250 gp",
+      "space": {
+        "high": 8,
+        "long": 15,
+        "wide": 10
+      },
+      "crew": "1 pilot, 1 crew",
+      "passengers": "6",
+      "pilotingCheck": "Driving Lore (DC 19) or Crafting (DC 21)",
+      "speed": "25 feet (alchemical)",
+      "ac": {
+        "value": 15,
+        "details": ""
+      },
+      "hp": {
+        "value": 50,
+        "details": "",
+        "bt": 25
+      },
+      "hardness": 5,
+      "fortitude": 11,
+      "collisionDC": 19,
+      "collisionDamage": "3d8",
+      "abilities": [],
+      "traitLinks": [],
+      "immunities": [
+        "critical hits",
+        "object immunities",
+        "precision damage"
+      ],
+      "description": "An alchemically powered trolley for carrying passengers."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "361FADBF-87A9-57CC-8477-F0C240786696",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Titanic Stomper",
+    "slug": "titanic-stomper-guns-and-gears-remastered",
+    "descr": "",
+    "data": {
+      "level": 15,
+      "rarity": "rare",
+      "traits": [],
+      "size": "gargantuan",
+      "price": "19,000 gp",
+      "space": {
+        "high": 60,
+        "long": 60,
+        "wide": 30
+      },
+      "crew": "1 pilot, 3 crew",
+      "passengers": "6",
+      "pilotingCheck": "Driving Lore (DC 34) or Crafting",
+      "speed": "40 feet, (electrical, magical)",
+      "ac": {
+        "value": 34,
+        "details": ""
+      },
+      "hp": {
+        "value": 230,
+        "details": "",
+        "bt": 115
+      },
+      "hardness": 20,
+      "fortitude": 26,
+      "collisionDC": 32,
+      "collisionDamage": "9d12",
+      "abilities": [
+        {
+          "name": "Bolt Blast",
+          "text": "Two crew members each perform a three-action activity on their turn to fire a line of lightning at the end of the second character's turn. This line of lightning erupts from the front of the titanic stomper at an angle of the crew members' choice and deals 5d12 electricity damage to each creature in a 120-foot line (basic Reflex DC 34). The Bolt Blast stops working if the titanic stomper is [Broken](/condition/broken-player-core).",
+          "traits": [],
+          "actions": "three"
+        },
+        {
+          "name": "Electrical Absorption",
+          "text": "**Trigger** The titanic stomper is targeted by, or in the area of, an effect that deals electricity damage\n\n---\n\n**Effect** The pilot uses their reaction to activate the Stasian coils, which funnels the electricity into the titanic stomper's electrical engine. The next time Bolt Blast is used within the next minute, the damage it deals increases to 7d12 electricity damage.",
+          "traits": [],
+          "actions": "reaction"
+        },
+        {
+          "name": "Quaking Step",
+          "text": "The ground shakes with every step a titanic stomper takes. Whenever this vehicle moves, creatures on the ground within 20 feet of its movement path must attempt a Reflex DC 32. On a failure, they are [Off Guard](/condition/off-guard-player-core) for 1 round, and on a critical failure, they're knocked [Prone](/condition/prone-player-core).",
+          "traits": []
+        }
+      ],
+      "traitLinks": [],
+      "immunities": [
+        "critical hits",
+        "object immunities",
+        "precision damage"
+      ],
+      "resistances": "electricity 20",
+      "description": "A large electrical and magical walking vehicle."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "254A80E5-5584-5A7A-BEB4-EEA17001C70B",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Vonthos's Golden Bridge",
+    "slug": "vonthos-s-golden-bridge-guns-and-gears-remastered",
+    "descr": "",
+    "data": {
+      "level": 17,
+      "rarity": "unique",
+      "traits": [],
+      "size": "large",
+      "price": "50,000 gp",
+      "space": {
+        "high": 9,
+        "long": 9,
+        "wide": 9
+      },
+      "crew": "1 pilot",
+      "passengers": "",
+      "pilotingCheck": "Driving Lore (DC 36) or Arcana (DC 38)",
+      "speed": "fly 40 feet (clockwork, magical)",
+      "ac": {
+        "value": 39,
+        "details": ""
+      },
+      "hp": {
+        "value": 310,
+        "details": "",
+        "bt": 155
+      },
+      "hardness": 20,
+      "fortitude": 29,
+      "collisionDC": 36,
+      "collisionDamage": "11d10",
+      "abilities": [
+        {
+          "name": "Captivating Wealth",
+          "text": "40 feet. The gold, gems, and other embellishments that adorn this flying sphere emit a sparkling resplendence capable of enthralling creatures. Each creature that begins its turn within the aura must attempt a Will DC 36; on a failure, the creature is [Fascinated](/condition/fascinated-player-core) and [Stupefied 2](/condition/stupefied-player-core) for as long as it remains within the aura. A creature that succeeds is temporarily immune for 1 hour. Each time Prismatic Defense is activated, the area of Captivating Wealth is reduced by 10 feet for 1 hour, to a minimum of 0 feet.",
+          "traits": [
+            "aura",
+            "magical",
+            "mental",
+            "visual"
+          ]
+        },
+        {
+          "name": "Protective Barrier",
+          "text": "While the swirling rings of the vehicle don't fully cover the pilot, they offer incredible protection, magically maintaining the temperature within and ablating physical attacks. The pilot is protected from severe cold, severe heat, extreme cold, and extreme heat. The pilot also gains resistance 10 to all physical damage (except adamantine).\n\nEffect: Protective Barrier",
+          "traits": []
+        },
+        {
+          "name": "Prismatic Defense",
+          "text": "The pilot harnesses power from the magical gemstones hidden among this vehicle's extravagant embellishments to grant the vehicle additional defenses. This vehicle gains resistance 20 to one of the following energy damage types: acid, cold, electricity, fire, force, or sonic. This immunity lasts until Prismatic Defense is next activated.",
+          "traits": [
+            "magical"
+          ],
+          "actions": "one"
+        },
+        {
+          "name": "Wind-Up",
+          "text": "10 minutes of wind-up, 1 hour of operational time, DC 37, standby",
+          "traits": []
+        }
+      ],
+      "traitLinks": [],
+      "immunities": [
+        "critical hits",
+        "object immunities",
+        "precision damage"
+      ],
+      "description": "A clockwork vessel that flies with magical assistance."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

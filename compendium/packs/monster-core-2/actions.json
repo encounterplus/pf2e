@@ -1,0 +1,1422 @@
+[
+  {
+    "id": "2E15FEE0-8FF8-5D7F-A5AD-87349C718227",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Divine Warden) Divine Destruction",
+    "slug": "divine-warden-divine-destruction-monster-core-2",
+    "descr": "When the divine warden is reduced to 0 HP, it erupts with divine energy in a 30-foot emanation, dealing 1d6 spirit damage per level. Each creature in the area must attempt a Will DC 0 save with the following outcomes.\n\n**Critical Success** The creature takes half damage.\n\n**Success** The creature takes full damage.\n\n**Failure** The creature takes full damage and becomes temporarily cursed by the patron deity. The creature becomes [Enfeebled 1](/condition/enfeebled-player-core) and [Stupefied 1](/condition/stupefied-player-core) for 1 day; this is a curse effect that uses the Will save DC as the counteract DC.\n\n**Critical Failure** As failure, except the creature becomes Enfeebled 2 and Stupefied 2.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "divine",
+        "spirit"
+      ],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": [
+        {
+          "label": "divine",
+          "slug": "divine"
+        },
+        {
+          "label": "spirit",
+          "slug": "spirit"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "divine",
+      "monster-core-2",
+      "remaster",
+      "spirit"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F4F2BBE9-408C-5051-B69A-4FD74CFCBAD9",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Divine Warden) Divine Domain Spells",
+    "slug": "divine-warden-divine-domain-spells-monster-core-2",
+    "descr": "The divine warden selects two of its patron deity's domains. The divine warden can cast the basic domain spell for its chosen domains. The divine warden has a focus pool of 1 Focus Point. It can't [Refocus](/action/refocus-player-core), but its focus pool automatically refills 24 hours after it last used a Focus Point. If the divine warden is at least 10th level, it also gains the advanced domain spells for its chosen domains, and its focus pool increases to 2 Focus Points.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core-2",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "AE2D40BE-ADB5-5F0D-A105-0F49B9A0B541",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Divine Warden) Divine Innate Spells",
+    "slug": "divine-warden-divine-innate-spells-monster-core-2",
+    "descr": "A divine warden gains [Divine Lance](/spell/divine-lance-player-core) as an innate cantrip.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core-2",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2EBAE37E-1021-5F92-8DE7-9A917E7B2F6B",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Divine Warden) Faith Bound",
+    "slug": "divine-warden-faith-bound-monster-core-2",
+    "descr": "A divine warden can't attack a creature that openly wears or displays the religious symbol of the divine warden's patron deity unless that creature uses a hostile action against the divine warden first. If the divine warden is intelligent, it can also attack a creature it believes isn't faithful to its deity or who wears the religious symbol as a ruse (typically after succeeding at a Perception check to Sense Motive).",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "divine"
+      ],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": [
+        {
+          "label": "divine",
+          "slug": "divine"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "divine",
+      "monster-core-2",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "6DE66B79-3C5F-5E20-9A5D-8327E2090E9C",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Divine Warden) Faithful Weapon",
+    "slug": "divine-warden-faithful-weapon-monster-core-2",
+    "descr": "A divine warden always wields its patron deity's favored weapon. If the weapon is a ranged weapon, the divine warden automatically generates new ammunition with each attack. For a divine warden of 4th level or higher, the deity's favored weapon gains the effects of a *[striking](/item/striking-gm-core) rune* while the divine warden wields it; at 12th level, these effects are of a *greater striking rune*, and at 19th level, they're instead of a *major striking rune*.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core-2",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9C1C570C-48E0-5921-9212-D3698E52626E",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Divine Warden) Instrument of Faith",
+    "slug": "divine-warden-instrument-of-faith-monster-core-2",
+    "descr": "The divine warden is a beacon for its deity's faith. A cleric of the divine warden's patron deity can channel a [Heal](/spell/heal-player-core) spell through a divine warden they can see within 60 feet. The cleric determines any targets or area for the spell as if they were standing in the divine warden's space.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core-2",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C34A7E93-573D-523A-BDCB-9CE74482B2BB",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Divine Warden) Sanctification",
+    "slug": "divine-warden-sanctification-monster-core-2",
+    "descr": "Divine wardens are often sanctified, gaining the holy or [unholy](/trait/unholy) traits as preferred by their deity. If the deity doesn't have a preference, the warden isn't sanctified.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core-2",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0B7874D8-D684-52B3-8F8F-434DA4D6E969",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Graveknight) Graveknight's Shield",
+    "slug": "graveknight-graveknight-s-shield-monster-core-2",
+    "descr": "The graveknight's curse extends to their shield, or the graveknight's armor uses a portion of itself to produce a shield.\n\nThe graveknight has a shield that uses the statistics of a *[Sturdy Shield](/item/sturdy-shield-minor-gm-core)* of a level no higher than the graveknight's level - 1.\n\nThe shield is quasi-independent of the graveknight and automatically protects the graveknight from harm. When the shield is raised, it automatically uses Shield Block to reduce the damage of the first attack against the graveknight each round without the graveknight needing to spend their reaction to do so.\n\nThe shield automatically rejuvenates with the rest of the graveknight and must be destroyed in the same manner as the graveknight's armor.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "arcane"
+      ],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": [
+        {
+          "label": "arcane",
+          "slug": "arcane"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "arcane",
+      "monster-core-2",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "7DB96965-C826-55CD-92CC-40F2EF43AF1B",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Spawn of Rovagug) Absolute Regeneration",
+    "slug": "spawn-of-rovagug-absolute-regeneration-monster-core-2",
+    "descr": "This functions as regeneration, though it requires very specific actions to be deactivated. A Spawn of Rovagug's regeneration is powerful enough to revive it even if slain by a death effect. If the Spawn fails a save against an effect that would kill it instantly, it rises from death 3 rounds later with 1 Hit Point. A Spawn can still be banished, imprisoned, or transported away as a means to save a region or kept in a state of dying by an effect that deals constant damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core-2",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "6FD3EE7F-AABA-5207-BC62-BA748822F8B2",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Spawn of Rovagug) Slumbering Armageddon",
+    "slug": "spawn-of-rovagug-slumbering-armageddon-monster-core-2",
+    "descr": "Spawn of Rovagug can sleep for centuries in a regenerative hibernation. While slumbering, a Spawn doesn't need to eat, drink, or even breathe, and its resistances double in value. It can't be located by detection, revelation, or scrying effects, and for any saving throw, it uses the outcome one degree of success better than the result. With no outlet while the Spawn slumbers, its massive destructive energies turn outward and infect its surroundings, causing natural disasters of a type matching the Spawn to occur more frequently and with greater severity in a 1-mile emanation from the Spawn's resting place, increasing in radius by roughly a mile every decade the Spawn slumbers.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "interaction",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core-2",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "84F99D55-5C5D-5AAE-8292-0751095428D8",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Spawning Soulrider) Celestial Flare",
+    "slug": "spawning-soulrider-celestial-flare-monster-core-2",
+    "descr": "Each enemy within 30 feet of the soulrider takes 2d6 spirit damage (basic Will DC 17 save). Creatures that fail the save are Blinded for 1 round. The spawning soulrider can't use Celestial Flare again for 1 minute.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "holy",
+        "light",
+        "visual"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "holy",
+          "slug": "holy"
+        },
+        {
+          "label": "light",
+          "slug": "light"
+        },
+        {
+          "label": "visual",
+          "slug": "visual"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "holy",
+      "light",
+      "monster-core-2",
+      "remaster",
+      "visual"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2C7C66C2-7458-5C0E-BE87-E988BFB12DAD",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Spawning Soulrider) Fiendish Lunge",
+    "slug": "spawning-soulrider-fiendish-lunge-monster-core-2",
+    "descr": "The spawning soulrider Strides or Swims twice, making a tail Strike at any point during its movement. The Strike deals an additional 1d4 spirit damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "unholy"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "unholy",
+          "slug": "unholy"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core-2",
+      "remaster",
+      "unholy"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2736F258-94D0-5CC8-BDF1-571B659C2804",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Spawning Soulrider) Monitor Escape",
+    "slug": "spawning-soulrider-monitor-escape-monster-core-2",
+    "descr": "The soulrider's form blurs as it exploits loopholes in the multiverse. It teleports to an empty space within 60 feet.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "teleportation"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "teleportation",
+          "slug": "teleportation"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "monster-core-2",
+      "remaster",
+      "teleportation"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "02622D19-4C0B-51F4-BA21-0EC6145C6F52",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Swarm Strider) Clinging Remnants",
+    "slug": "swarm-strider-clinging-remnants-monster-core-2",
+    "descr": "A swarm strider's melee Strikes and ranged Strikes made against targets within their weapon's first range increment deposit biting vermin on the target, dealing 1d4 persistent piercing damage, increasing to 2d4 at 5th level, 3d4 at 10th level, 4d4 at 15th level, and 5d4 at 20th level.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core-2",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "ECEAE6E3-0C48-562A-97DC-6337CB54123C",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Swarm Strider) Discorporate",
+    "slug": "swarm-strider-discorporate-monster-core-2",
+    "descr": "When the swarm strider is reduced to 0 HP, their constituent creatures collapse, scattering on the ground under their space and each adjacent square. If even one of the creatures gets away, the swarm strider can eventually re-form over 1d10 days (potentially longer in areas where there are few invertebrates).\n\nThe scattered invertebrates must be destroyed within 1 round to destroy the swarm strider permanently. The invertebrates have a collective pool of HP, typically equal to 1/4 of the swarm strider's maximum HP, and the same AC, saves, immunities, resistances, and weaknesses as the swarm strider. The invertebrates can't take actions but they escape automatically once the round elapses. At the GM's discretion, clever means of trapping or eliminating the creatures might be sufficient to destroy the swarm strider.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core-2",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A9A4A865-E9E8-5522-9A6E-D02A1BE74C12",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Swarm Strider) Draw Bugs",
+    "slug": "swarm-strider-draw-bugs-monster-core-2",
+    "descr": "The swarm strider draws more arthropods from the environment around them to reconstitute some of their damaged body. They regain the listed number of HP, which is typically 5 HP, increasing to 10 at 5th level, 15 at 10th level, and 20 at 15th level. At the GM's discretion, the swarm strider doesn't recover HP in areas where there aren't enough arthropods to call to themselves.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "healing"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "healing",
+          "slug": "healing"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "healing",
+      "monster-core-2",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C64836CD-6225-5A1B-9783-29608FADEBFF",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Swarm Strider) Squirming Embrace",
+    "slug": "swarm-strider-squirming-embrace-monster-core-2",
+    "descr": "The swarm strider Strides. If they end their movement sharing a space with a creature, they deal 1d6 piercing damage to the creature, with a basic Reflex save. The save DC is the high spell DC for the swarm strider's level. The damage increases by 1d6 at 4th level and every 3 levels thereafter. The swarm strider can Burrow, Climb, Fly, or Swim instead of Striding if they have the corresponding movement type.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core-2",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A9CC9199-4CF4-53D0-AC4E-121BB23753AE",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Swarm Strider) Swarm Shape",
+    "slug": "swarm-strider-swarm-shape-monster-core-2",
+    "descr": "The swarm strider collapses into a shapeless swarm of their constituent creatures. They drops all items in their possession. In this form, the swarm strider can't use attack actions and can't cast spells, but they can move through areas small enough for their constituent creatures to fit without having to Squeeze. They can use the same action to coalesce from their swarm shape back into their normal form.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "concentrate"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "monster-core-2",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "22CDE50E-1F53-5A3F-86D4-76554781B3D6",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Vampire, Nosferatu Overlord) Air of Sickness",
+    "slug": "vampire-nosferatu-overlord-air-of-sickness-monster-core-2",
+    "descr": "30 feet. A creature entering or starting its turn in the aura must attempt a Fortitude save with a moderate DC for the nosferatu's level. On a failure, the creature is [Sickened 1](/condition/sickened-player-core) and takes a –2 status penalty to saves made to resist diseases and remove the sickened condition for 1 hour.\n\nEffect: Air Of Sickness",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "aura"
+      ],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": [
+        {
+          "label": "aura",
+          "slug": "aura"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "aura",
+      "monster-core-2",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B2A07CB5-3E97-5F4D-8CBA-FD8F3721C662",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Vampire, Nosferatu Overlord) Paralytic Fear",
+    "slug": "vampire-nosferatu-overlord-paralytic-fear-monster-core-2",
+    "descr": "**Requirements** The nosferatu overlord's last action was a successful claw Strike\n\n**Effect** The nosferatu drags the target of the Strike close and freezes its mind in terror. The target must attempt a Will save with a moderate DC for the nosferatu's level.\n\n**Critical Success** The target is unaffected.\n\n**Success** The target is [Immobilized](/condition/immobilized-player-core) by fear until the end of the nosferatu's next turn.\n\n**Failure** The target is [Restrained](/condition/restrained-player-core) and takes a –2 circumstance penalty to its Fortitude DC against the nosferatu's Drink Blood ability until the end of the nosferatu's next turn.\n\n**Critical Failure** As failure, and the target is [Frightened 2](/condition/frightened-player-core).",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "divine",
+        "emotion",
+        "fear",
+        "incapacitation",
+        "mental"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "The nosferatu overlord's last action was a successful claw Strike",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "divine",
+          "slug": "divine"
+        },
+        {
+          "label": "emotion",
+          "slug": "emotion"
+        },
+        {
+          "label": "fear",
+          "slug": "fear"
+        },
+        {
+          "label": "incapacitation",
+          "slug": "incapacitation"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "divine",
+      "emotion",
+      "fear",
+      "incapacitation",
+      "mental",
+      "monster-core-2",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "7F0C6DE2-8E2F-5854-AF2C-39CAAB902968",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Vampire, Nosferatu Thrall) Mindbound",
+    "slug": "vampire-nosferatu-thrall-mindbound-monster-core-2",
+    "descr": "A nosferatu master exerts a fierce hold over their thrall's mind. If any creature other than the thrall's master targets them with an effect that would give them the [Controlled](/condition/controlled-player-core) condition, the thrall's master rolls a counteract check against it using their Dominate DC – 10 as the counteract check modifier.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "divine"
+      ],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": [
+        {
+          "label": "divine",
+          "slug": "divine"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "divine",
+      "monster-core-2",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "82FF99D3-A380-582D-9C89-65A64C234455",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Vampire, Nosferatu Thrall) Mortal Shield",
+    "slug": "vampire-nosferatu-thrall-mortal-shield-monster-core-2",
+    "descr": "**Trigger** The thrall's master would take damage from a Strike or spell attack and is in an adjacent square\n\n**Effect** The thrall throws themself in front of their master, taking half the damage of the attack (before applying any weaknesses or resistances). The thrall's master takes the remaining damage, applying any weaknesses or resistances as normal.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "The thrall's master would take damage from a Strike or spell attack and is in an adjacent square",
+      "actions": "reaction",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core-2",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E21F0B16-D77D-58A1-A676-7AE6306A5738",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Vampire, Nosferatu Thrall) Rally",
+    "slug": "vampire-nosferatu-thrall-rally-monster-core-2",
+    "descr": "**Trigger** The thrall ends their turn more than 30 feet away from their master\n\n**Effect** The thrall Strides up to their Speed toward their master.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "The thrall ends their turn more than 30 feet away from their master",
+      "actions": "reaction",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core-2",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D33C28B1-987A-5CC8-B62C-B9F9E9F614C1",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Vampire, Nosferatu) Change Shape",
+    "slug": "vampire-nosferatu-change-shape-monster-core-2",
+    "descr": "The nosferatu transforms into a swarm of pale-gray rats. They gain a land Speed of 30 feet and a climb Speed of 10 feet, and they become Large. In this swarm form, the nosferatu can take an action to deal each enemy in the swarm's space 2d10 piercing damage with a basic Reflex save, with a high DC for the nosferatu's level. A creature that fails its save is also exposed to plague of ancients.\n\nThe monster changes its shape indefinitely. It can use this action again to return to its natural shape or adopt a new shape. Unless otherwise noted, a monster cannot use Change Shape to appear as a specific individual. Using Change Shape counts as creating a disguise for the [Impersonate](/action/impersonate-player-core) use of Deception. The monster's transformation automatically defeats Perception DCs to determine whether the creature is a member of the ancestry or creature type into which it transformed, and it gains a +4 status bonus to its Deception DC to prevent others from seeing through its disguise. Change Shape abilities specify what shapes the monster can adopt. The monster doesn't gain any special abilities of the new shape, only its physical form. For example, in each shape, it replaces its normal Speeds and Strikes, and might potentially change its senses or size. Any changes are listed in its stat block.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "divine",
+        "polymorph"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "divine",
+          "slug": "divine"
+        },
+        {
+          "label": "polymorph",
+          "slug": "polymorph"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "divine",
+      "monster-core-2",
+      "polymorph",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4631CE00-347F-5898-85DE-7F2BE5C54E95",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Vampire, Nosferatu) Command Thrall",
+    "slug": "vampire-nosferatu-command-thrall-monster-core-2",
+    "descr": "**Requirements** One of the nosferatu's thralls is present and can hear the nosferatu\n\n**Effect** The nosferatu gives a single command to one of their thralls, which the thrall follows to the best of its ability during its next turn.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "auditory",
+        "divine",
+        "mental"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "One of the nosferatu's thralls is present and can hear the nosferatu",
+      "trigger": "",
+      "actions": "free",
+      "traitLinks": [
+        {
+          "label": "auditory",
+          "slug": "auditory"
+        },
+        {
+          "label": "divine",
+          "slug": "divine"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "auditory",
+      "divine",
+      "mental",
+      "monster-core-2",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F1901A51-ED73-5499-B3DE-19EBFB0337A6",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Vampire, Nosferatu) Dominate",
+    "slug": "vampire-nosferatu-dominate-monster-core-2",
+    "descr": "The nosferatu can cast [Dominate](/spell/dominate-player-core) at will as a divine innate spell. Casting it requires staring into the target's eyes, giving the spell the [visual](/trait/visual) trait. The save DC uses a high DC for the nosferatu's level, and a creature that succeeds is temporarily immune to that nosferatu's Dominate for 24 hours. Fully destroying the nosferatu ends the domination, but merely reducing the nosferatu to 0 HP is insufficient to break the spell.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "divine",
+        "incapacitation",
+        "mental",
+        "visual"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "divine",
+          "slug": "divine"
+        },
+        {
+          "label": "incapacitation",
+          "slug": "incapacitation"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        },
+        {
+          "label": "visual",
+          "slug": "visual"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "divine",
+      "incapacitation",
+      "mental",
+      "monster-core-2",
+      "remaster",
+      "visual"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E3722742-3D79-5D97-895E-7841D3A8FCC2",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Vampire, Nosferatu) Drink Blood",
+    "slug": "vampire-nosferatu-drink-blood-monster-core-2",
+    "descr": "**Requirements** The nosferatu's last action was a successful fangs Strike\n\n**Effect** The nosferatu sinks their fangs into the targeted creature to drink its blood. This requires an Athletics check against the creature's Fortitude DC. On a success, the creature becomes [Drained 1](/condition/drained-player-core), and the nosferatu regains HP equal to 10% of their maximum HP, gaining any excess HP as temporary Hit Points. Drinking Blood from a creature that's already drained doesn't restore any HP to the nosferatu but increases the creature's drained condition value by 1, killing the victim when it reaches Drained 5. A nosferatu can also consume blood that's been emptied into a vessel for sustenance, but they gain no HP from doing so.\n\nThe target creature's drained condition value decreases by 1 per week. A blood transfusion, which requires a successful Medicine DC 20 check and sufficient blood or a blood donor, reduces the drained value by 1 after 10 minutes.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "divine"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "The nosferatu's last action was a successful fangs Strike",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "divine",
+          "slug": "divine"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "divine",
+      "monster-core-2",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8E05F48D-6E4D-5BD6-B81F-4B0DD92004AE",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Vampire, Nosferatu) Nosferatu Vulnerabilities",
+    "slug": "vampire-nosferatu-nosferatu-vulnerabilities-monster-core-2",
+    "descr": "**Revulsion** A nosferatu can't voluntarily come within 10 feet of brandished garlic or a brandished religious symbol of a deity with a holy sanctification option. To brandish garlic or a religious symbol, a creature must Interact to do so for 1 round (similar to Raising a Shield). If the nosferatu involuntarily comes within 10 feet of an object of their revulsion, they gain the [Fleeing](/condition/fleeing-player-core) condition, running from the object of their revulsion until they end an action beyond 10 feet. After 1 round of being exposed to the subject of their revulsion, a nosferatu can attempt a Will DC 25 save as a single action, which has the [concentrate](/trait/concentrate) trait. On a success, they overcome their revulsions for 1d6 rounds (or 1 hour on a critical success).**Stake** A magical wooden stake (such as one affected by a weapon *potency rune*, Runic Weapon, or similar magic) driven through the nosferatu's heart drops the nosferatu to 0 HP and prevents them from healing above 0 HP, even in their coffin. Staking a nosferatu requires 3 actions and works only if the nosferatu is Unconscious. If the stake is removed, the nosferatu can heal above 0 HP again, and if they're in their coffin, the 1-hour rest period begins once the stake is removed. If the nosferatu's head is severed and anointed with Holy Water while the stake is in place, the nosferatu is destroyed.\n\n**Sunlight** If exposed to direct sunlight, a nosferatu immediately becomes Slowed 1. The slowed value increases by 1 each time the nosferatu ends their turn in sunlight, and the condition ends when they're no longer in sunlight. If the nosferatu loses all their actions in this way, they're destroyed.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core-2",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1C82ADE3-6D44-597B-801F-D177F767DB0A",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Vampire, Nosferatu) Plague of Ancients",
+    "slug": "vampire-nosferatu-plague-of-ancients-monster-core-2",
+    "descr": "**Saving Throw** Fortitude (use a high DC for the nosferatu's level)\n\n**Onset** 1 day\n\n**Stage 1** [Drained 1](/condition/drained-player-core) (1 day)\n\n**Stage 2** Drained 2 and [Enfeebled 2](/condition/enfeebled-player-core) (1 day)\n\n**Stage 3** [Doomed 1](/condition/doomed-player-core), Drained 3, and Enfeebled 3 (1 day)\n\n**Stage 4** Doomed 2, drained 3, and enfeebled 3 (1 day)\n\n**Stage 5** [Unconscious](/condition/unconscious-player-core) (1 day)\n\n**Stage 6** death",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "disease",
+        "virulent"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": [
+        {
+          "label": "disease",
+          "slug": "disease"
+        },
+        {
+          "label": "virulent",
+          "slug": "virulent"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "disease",
+      "monster-core-2",
+      "remaster",
+      "virulent"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "6BCBFEE9-840D-5611-8FA5-2E706EFC4455",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Vampire, Nosferatu) Plagued Coffin Restoration",
+    "slug": "vampire-nosferatu-plagued-coffin-restoration-monster-core-2",
+    "descr": "Unlike other undead, a nosferatu isn't destroyed at 0 HP. Instead, they disperse into an immense number of rats heading in every direction in an attempt to return to their coffin. If even a single rat reaches the coffin, the nosferatu can recover. A nosferatu regains their strength through resting in earth taken from the grave of a creature that died of plague. If their body rests in their earth-filled coffin for 1 hour, the nosferatu gains 1 HP, after which their fast healing begins to function normally. If the coffin doesn't contain this plagued grave dirt, they instead need to rest in their coffin for 1 day before they gain 1 HP and regain their fast healing.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "divine",
+        "void"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": [
+        {
+          "label": "divine",
+          "slug": "divine"
+        },
+        {
+          "label": "void",
+          "slug": "void"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "divine",
+      "monster-core-2",
+      "remaster",
+      "void"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2AFBB21F-CD91-5D43-B7B9-E16DF37543C9",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Zombie) Ankle Biter",
+    "slug": "zombie-ankle-biter-monster-core-2",
+    "descr": "This zombie fights just as well on the ground as it does standing. While [Prone](/condition/prone-player-core), the zombie isn't [Off Guard](/condition/off-guard-player-core), it ignores the status penalty to its attack rolls, and it gains a +2 circumstance bonus to Athletics checks to [Trip](/action/trip-player-core). The zombie can also move up to half its Speed when it Crawls.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core-2",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "7E79B398-5392-5CF9-B0D4-5A48F818DBA4",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Zombie) Persistent Limbs",
+    "slug": "zombie-persistent-limbs-monster-core-2",
+    "descr": "The first time the zombie is critically hit with a melee or ranged Strike, a limb falls off its body and continues to attack. The limb acts on the zombie's initiative; each round it can Stride up to half the zombie's Speed and make a Strike. The limb uses and contributes to the zombie's multiple attack penalty.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core-2",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F0BD682A-4BA1-5423-85E3-7A3FB4AFD6C4",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "(Zombie) Putrid Stench",
+    "slug": "zombie-putrid-stench-monster-core-2",
+    "descr": "15 feet. The zombie's rotting flesh is particularly malodorous. A creature that enters the area must attempt a Fortitude save. On a failure, the creature is [Sickened 1](/condition/sickened-player-core), and on a critical failure, the creature also takes a –5-foot status penalty to its Speeds for 1 round. While within the aura, the creature takes a -2 circumstance penalty to saves to recover from the sickened condition. A creature that succeeds at its save is temporarily immune to all zombies' putrid stenches for 1 minute.\n\nEffect: Putrid Stench",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "aura",
+        "olfactory"
+      ],
+      "category": "defensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": [
+        {
+          "label": "aura",
+          "slug": "aura"
+        },
+        {
+          "label": "olfactory",
+          "slug": "olfactory"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "aura",
+      "monster-core-2",
+      "olfactory",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

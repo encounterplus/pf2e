@@ -1,0 +1,180 @@
+[
+  {
+    "id": "71AB7E00-B1E7-5E18-B0F1-978BFC63E6A5",
+    "kind": "Hazard",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Central Spears (BB)",
+    "slug": "central-spears-bb-beginner-box-remaster",
+    "descr": "",
+    "data": {
+      "level": 1,
+      "rarity": "common",
+      "traits": [],
+      "complexity": "simple",
+      "stealth": 10,
+      "ac": {
+        "value": 0,
+        "details": ""
+      },
+      "hp": {
+        "value": null,
+        "details": ""
+      },
+      "hardness": 0,
+      "saves": {
+        "fortitude": 0,
+        "reflex": 0,
+        "will": 0
+      },
+      "disable": "A hero must succeed at a Thievery DC 18 check on the triggering floor tiles or the wall sockets in the western wall.",
+      "routine": "",
+      "reset": "The central spears reset after 1 minute.",
+      "abilities": [
+        {
+          "name": "Spear Barrage",
+          "text": "When a creature moves into any of the squares in the outlined area, the trap shoots three spears from the western wall. It makes one ranged Strike against the westernmost creature in each row.",
+          "traits": [],
+          "actions": "reaction"
+        }
+      ],
+      "traitLinks": [],
+      "description": "Floor tiles trigger spears aimed across rows of the chamber.",
+      "stealthDC": 20
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "beginner-box-remaster",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "beginner-box-remaster",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Beginner Box (Remaster)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C43861C0-E5C9-5D05-8F66-10B6B798115A",
+    "kind": "Hazard",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Falling Ceiling (BB)",
+    "slug": "falling-ceiling-bb-beginner-box-remaster",
+    "descr": "",
+    "data": {
+      "level": 1,
+      "rarity": "common",
+      "traits": [],
+      "complexity": "simple",
+      "stealth": 10,
+      "ac": {
+        "value": 0,
+        "details": ""
+      },
+      "hp": {
+        "value": 10,
+        "details": "",
+        "bt": 5
+      },
+      "hardness": 0,
+      "saves": {
+        "fortitude": 0,
+        "reflex": 0,
+        "will": 0
+      },
+      "disable": "A hero must succeed at a Thievery DC 18 check on the triggering square or the ceiling to prevent the stone blocks from falling.",
+      "routine": "",
+      "reset": "",
+      "abilities": [
+        {
+          "name": "Falling Stones",
+          "text": "When a creature steps on the square closest to the north door, the trap drops blocks of stone all along the hallway. It makes one ranged Strike against each creature between the two doors.",
+          "traits": [],
+          "actions": "reaction"
+        }
+      ],
+      "traitLinks": [],
+      "description": "A pressure tile drops stone blocks along the hall.",
+      "stealthDC": 20
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "beginner-box-remaster",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "beginner-box-remaster",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Beginner Box (Remaster)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F0A17E96-044D-5676-A095-DAF9AAF46F23",
+    "kind": "Hazard",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Mermaid Fountain (BB)",
+    "slug": "mermaid-fountain-bb-beginner-box-remaster",
+    "descr": "",
+    "data": {
+      "level": 3,
+      "rarity": "common",
+      "traits": [],
+      "complexity": "complex",
+      "stealth": 10,
+      "ac": {
+        "value": 18,
+        "details": ""
+      },
+      "hp": {
+        "value": 15,
+        "details": "",
+        "bt": 7
+      },
+      "hardness": 8,
+      "saves": {
+        "fortitude": 7,
+        "reflex": 5,
+        "will": 0
+      },
+      "disable": "Thievery DC 20 on each corner mechanism (must disable all three working corners to disable the trap)\n\nEach corner mechanism has hardness 8 and 15 HP",
+      "routine": "Each turn, the fountain uses 1 action. Roll a 1d10 and look up the result on the following list to determine which action it uses that round.\n\n**1-4 Single Target** The statue spins about and sprays water at a single random target in the room. Roll a 1d4 and count to the number you rolled, starting with the player on your left, to determine which hero gets attacked. The spray is a ranged Strike.**5-7 Corner Spray** The statue spins about, firing a spray of water at each corner of the room that still has a functioning corner mechanism. This hits any creature adjacent to the corner mechanism, dealing 2d6 bludgeoning damage. Each hero must attempt a basic Reflex DC 15, taking no damage on a critical success, half damage on a success, full damage on a failure, and double damage on a critical failure.**8-9 Half Room** The statue spins about, spraying half of the room with water. Roll any die. If the result is even, it sprays the west half; otherwise, it sprays the east half. This deals 2d6 bludgeoning damage to each creature in that half of the room, and each hero must attempt a basic Reflex DC 15 save.**10 Full Room** This works just like the half-room attack, but it targets everyone in the room.",
+      "reset": "",
+      "abilities": [],
+      "traitLinks": [],
+      "stealthDetails": "Notice Perception DC 20 check",
+      "description": "A rotating fountain statue sprays the room while corner mechanisms remain active."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "beginner-box-remaster",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "beginner-box-remaster",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Beginner Box (Remaster)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

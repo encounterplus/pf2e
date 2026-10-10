@@ -1,0 +1,34 @@
+{
+  "sections": [
+    {
+      "type": "group",
+      "fields": [
+        {
+          "placeholder": "Common.Name",
+          "attribute": "name"
+        },
+        {
+          "title": "Spell.Rank",
+          "type": "number",
+          "attribute": "rank"
+        },
+        {
+          "placeholder": "Common.Details",
+          "attribute": "details"
+        }
+      ]
+    },
+    {
+      "title": "Reference",
+      "type": "group",
+      "fields": [
+        {
+          "title": "Reference",
+          "type": "reference",
+          "attribute": "reference",
+          "attributeType": "Ritual"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,472 @@
+[
+  {
+    "id": "86DC2C28-BBCA-5FAF-8FFE-61CAA4E33895",
+    "kind": "Ritual",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Antimagic Artifice",
+    "slug": "antimagic-artifice-battlecry",
+    "descr": "You anoint a seemingly harmless item with the power to disrupt magic. As part of performing this ritual, you set a trigger for when the target object activates. The object remains enchanted for 1 week or until it's activated, whichever comes first.\n\nFor 10 minutes after the object is activated, magic is suppressed within an emanation centered on the object. Spells can't penetrate the area, magic items cease to function within it, and no one inside can cast spells or use magic abilities. Likewise, spells—such as dispel magic—can't affect the emanation unless they're of a higher rank than the ritual. Magic effects resume the moment they pass outside the emanation. For example, a caster outside of the emanation could target a fireball on a spot on the other side of the emanation, even if the line of effect passes through the emanation. A summoned creature winks out of existence if it enters the emanation but reappears if the emanation ends. Invested magic items cease to function, but they remain invested and resume functioning when they exit the emanation; the attribute boost from an apex item isn't suppressed within the field. Spells of a higher rank than antimagic artifice overcome its effects and can even be cast by a creature within the field.\n\nThe emanation disrupts only magic, so a +3 longsword still functions as a longsword. Magically created creatures (such as constructs with the [magical](/trait/magical) trait) function normally within the emanation.\n\n---\n\n**Critical Success** When triggered, the antimagic emanation has a radius of 100 feet. The ritual casters are unaffected by the emanation.\n\n**Success** When triggered, the antimagic emanation has a radius of 50 feet.\n\n**Failure** The ritual has no effect.\n\n**Critical Failure** The magic of the ritual backfires, scrambling the casters' minds. Each caster is [Stupefied 4](/condition/stupefied-player-core). The value of this condition is reduced by 1 for each day that passes, and it can't be removed or reduced by any other means.",
+    "data": {
+      "rank": 9,
+      "rarity": "rare",
+      "traits": [],
+      "cost": "reagents and oils worth a total value of 4,500 gp",
+      "cast": "1 day",
+      "range": "touch",
+      "targets": "one inanimate object of 1 Bulk or less",
+      "duration": "1 week (see text)",
+      "requirements": "",
+      "secondaryCasters": 2,
+      "primaryChecks": "Arcana (master), Nature (master), Occultism (master), or Religion (master)",
+      "secondaryChecks": "Arcana, Nature, Occultism, or Religion (whichever is used for the primary check) and Warfare Lore",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F3A5483E-E35D-587F-B0D1-77C8BA5D5EBC",
+    "kind": "Ritual",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Army of Shadows",
+    "slug": "army-of-shadows-battlecry",
+    "descr": "You conjure a squadron of shadows to surge forth and plunge your enemies into darkness. All non-magical light sources in the area are extinguished and can't be lit again during the duration. Any dim light from sources outside the area can't penetrate the area, and sources of bright light from outside the area shed only dim light into the area. The shadows also attempt to counteract any magical light in the area, with a counteract rank of 2 and a counteract modifier of +13. If a new magical light effect enters the area during the duration, the shadows immediately attempt to counteract it.\n\n---\n\n**Critical Success** The shadows are particularly powerful. Their counteract rank increases by 1, and they gain a +2 circumstance bonus to their counteract check.\n\n**Success** The shadows are of normal power.\n\n**Failure** The ritual has no effect.\n\n**Critical Failure** The shadows instead cling to you and obscure your vision, rendering you Blinded for 24 hours.\n\n---\n\n**Heightened (4th)** The shadows have a counteract rank of 4 and a counteract modifier of +18.\n\n**Heightened (6th)** The shadows have a counteract rank of 6 and a counteract modifier of +24.\n\n**Heightened (8th)** The shadows have a counteract rank of 8 and a counteract modifier of +29.",
+    "data": {
+      "rank": 2,
+      "rarity": "uncommon",
+      "traits": [
+        "darkness"
+      ],
+      "cost": "",
+      "cast": "4 hours",
+      "range": "1,000 feet",
+      "targets": "",
+      "duration": "1 hour",
+      "requirements": "",
+      "area": "200-foot burst",
+      "secondaryCasters": 0,
+      "primaryChecks": "Occultism (expert) or Warfare Lore (expert)",
+      "secondaryChecks": "",
+      "traitLinks": [
+        {
+          "label": "darkness",
+          "slug": "darkness"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "darkness",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "7413DEB8-55A7-5CF9-BF84-7DB64DE86A3A",
+    "kind": "Ritual",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Encroaching Woods",
+    "slug": "encroaching-woods-battlecry",
+    "descr": "You entreat the spirits of a nearby wood to cloak the movements of you and your allies. Each day at dawn following the successful completion of the ritual, the trees and other plants of the affected area move up to 500 feet in a direction of your choosing. There must be enough open space for the trees to move into, maintaining the general shape and size of the affected area. Large fortifications, such as city walls, and inhospitable natural features, such as wide rivers, will stop the trees, but the forest can shape itself around small buildings and streams. The trees traverse the distance over the course of 5 minutes, which is slow enough for most creatures within the forest to move along with them if they desire. However, anyone watching the forest from outside doesn't immediately perceive the movement unless they succeed at a Perception check against the ritual's casting DC. After this movement, the fact that the trees have changed their positions is obvious.\n\nDuring the ritual's duration, creatures within the forest are obscured to those outside the forest, as determined by the ritual's degree of success. This cover is usually used to stealthily approach opposing armies or settlements.\n\nOnce the ritual's duration has ended, the trees remain in their last location. They are affected normally by anything in their current environment that would prevent or stunt plant growth, such as a change of soil type or water quality, though such issues occur at the usual rate.\n\n---\n\n**Critical Success** The affected trees sprout obscuring foliage, causing any creature within the forest to be undetected to creatures outside the forest. Each creature in the forest also gains greater cover.\n\n**Success** As critical success, but the creatures inside the forest are [Hidden](/condition/hidden-player-core) to creatures outside the forest and gain standard cover.\n\n**Failure** The ritual has no effect.\n\n**Critical Failure** The primal energy of the forest lashes out at you, cursing you to become one of the trees you sought to control. Each caster immediately gains the [petrified](/condition/petrified-player-core) condition, though they're solid wood instead of stone. Instead of the normal Hardness, a petrified caster has a Hardness of 5 and a weakness to axes equal to their level. The DC to counteract this condition is the ritual's casting DC.",
+    "data": {
+      "rank": 8,
+      "rarity": "uncommon",
+      "traits": [
+        "plant"
+      ],
+      "cost": "",
+      "cast": "1 day",
+      "range": "100 feet",
+      "targets": "a section of forest no larger than 1,000 square feet",
+      "duration": "1 week",
+      "requirements": "",
+      "secondaryCasters": 2,
+      "primaryChecks": "Nature (master)",
+      "secondaryChecks": "Survival, Warfare Lore",
+      "traitLinks": [
+        {
+          "label": "plant",
+          "slug": "plant"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "plant",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "6BB7A26A-DF42-5C2B-B9A7-F8ED2E315330",
+    "kind": "Ritual",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Halt Death",
+    "slug": "halt-death-battlecry",
+    "descr": "While death may be war's stock and trade, you attempt to momentarily delay the inevitable. Upon the successful completion of the ritual, the sands of the hourglass begin to slowly float upward into the upper bulb over the course of the next 24 hours. The hourglass shatters at the end of the ritual's duration, ending the protective magic.\n\n---\n\n**Critical Success** All living creatures within the area are guarded against death, gaining a +4 status bonus to saving throws against death effects. In addition, when a living creature in the area succeeds at a recovery check, they get a critical success instead. Finally, the first time during the duration that a living creature would be reduced to dying 2 or higher, that creature remains at dying 1 instead.\n\n**Success** All living creatures within the area are guarded against death, gaining a +2 status bonus to saving throws against death effects. In addition, the first time during the duration that a living creature would be reduced to dying 3 or higher, that creature remains at dying 2 instead.\n\n**Failure** The ritual has no effect.\n\n**Critical Failure** Attempting to stave off death earns Pharasma's ire. You and all the secondary casters become [Doomed 2](/condition/doomed-player-core). This condition can't be reduced or removed for 1 week.\n\nEffect: Halt Death",
+    "data": {
+      "rank": 10,
+      "rarity": "rare",
+      "traits": [
+        "vitality"
+      ],
+      "cost": "an hourglass filled with ebon sand, worth at least 10,000 gp",
+      "cast": "8 hours",
+      "range": "",
+      "targets": "all living creatures",
+      "duration": "1 day",
+      "requirements": "",
+      "area": "5280-foot emanation",
+      "secondaryCasters": 3,
+      "primaryChecks": "Warfare Lore (legendary)",
+      "secondaryChecks": "Medicine, Occultism, Pharasma Lore",
+      "traitLinks": [
+        {
+          "label": "vitality",
+          "slug": "vitality"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster",
+      "vitality"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F81BD3FC-930A-54AC-8F10-6CF0D9815FDB",
+    "kind": "Ritual",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Oil-Slicked Walls",
+    "slug": "oil-slicked-walls-battlecry",
+    "descr": "The outer walls are a city's first defense against invaders, and you want to make certain no attackers can climb over them. Upon successful completion of this ritual, the surfaces of a settlement's walls within the area are covered with a thin, slippery sheen that can't be washed away.\n\n---\n\n**Critical Success** The oil covering the walls also coats any climber's hands. The DC for Athletics checks to Climb the affected walls increases by 10, and a creature who fails a check to climb also drops anything they are carrying.\n\n**Success** The DC for Athletics checks to Climb the affected walls increases by 5.\n\n**Failure** The ritual has no effect.\n\n**Critical Failure** Phantom oil constantly pools around your feet during times of stress. For 1 week, the first time each encounter that a primary or secondary caster takes an action to move, they must attempt a Reflex save or Acrobatics check to [Balance](/action/balance-player-core) against the ritual's casting DC or fall [Prone](/condition/prone-player-core). A caster can Step or [Crawl](/action/crawl-player-core) without having to attempt a check or save.",
+    "data": {
+      "rank": 2,
+      "rarity": "uncommon",
+      "traits": [],
+      "cost": "",
+      "cast": "8 hours",
+      "range": "",
+      "targets": "the outer walls of a settlement",
+      "duration": "1 week",
+      "requirements": "",
+      "area": "36960-foot emanation",
+      "secondaryCasters": 1,
+      "primaryChecks": "Warfare Lore (expert)",
+      "secondaryChecks": "Architecture Lore or Crafting",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0B3C0750-0C7E-5827-91BD-187962DC2535",
+    "kind": "Ritual",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Plague Shot",
+    "slug": "plague-shot-battlecry",
+    "descr": "You imbue several pieces of siege weapon ammunition with an infectious disease that can bring an opposing force low over time. Once the ritual is successfully concluded, the affected pieces of ammunition glow a sickly green and must be launched within the hour or the enchantment fades. In addition to its normal damage or other effects, a successful attack with a piece of the affected ammunition exposes every creature within a 60-foot-radius emanation from the point of impact to siege sickness.\n\n**Siege Sickness** (disease) Level 8\n\n**Saving Throw** Fortitude DC 24\n\n**Onset** 1 day\n\n**Stage 1** [Sickened 2](/condition/sickened-player-core) (1 day)\n\n**Stage 2** [Enfeebled 1](/condition/enfeebled-player-core) and sickened 2 (1 day)\n\n**Stage 3** Enfeebled 2 and Sickened 3 (1 day)\n\n**Stage 4** Enfeebled 3, sickened 3, and a creature who comes into physical contact with the afflicted is exposed to siege sickness (1 day)\n\n**Stage 5** death, and a creature who comes into physical contact with the corpse is exposed to siege sickness\n\n---\n\n**Critical Success** The siege sickness gains the [virulent](/trait/virulent) trait.\n\n**Success** The siege sickness is normal.\n\n**Failure** The ritual has no effect.\n\n**Critical Failure** Instead of being imbued in the ammunition, the disease becomes airborne at the site of the ritual. Each creature within a 60-foot emanation centered on the primary caster is exposed to siege sickness at stage 2.",
+    "data": {
+      "rank": 5,
+      "rarity": "uncommon",
+      "traits": [
+        "disease"
+      ],
+      "cost": "",
+      "cast": "4 hours",
+      "range": "touch",
+      "targets": "10 pieces of siege weapon ammunition, such as a ballista bolt or catapult stone",
+      "duration": "1 hour",
+      "requirements": "",
+      "secondaryCasters": 1,
+      "primaryChecks": "Medicine (expert)",
+      "secondaryChecks": "Warfare Lore",
+      "traitLinks": [
+        {
+          "label": "disease",
+          "slug": "disease"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "disease",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "89A364C2-80C9-5098-AB4E-47C85D3D6331",
+    "kind": "Ritual",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Reinforced Rations",
+    "slug": "reinforced-rations-battlecry",
+    "descr": "An army marches on its stomach, and a city under siege is often cut off from its normal food supplies, so preserving comestibles is of utmost importance during a prolonged conflict. You enchant food and water in the area to not decay or spoil for the duration and grant better nourishment according to the success of the ritual. At the end of the duration, the food and water return to the state they were before the ritual.\n\n---\n\n**Critical Success** A single meal of the affected food contains enough nourishment to sustain a typical human for 3 days.\n\n**Success** A single meal of the affected food contains enough nourishment to sustain a typical human for 1 day.\n\n**Failure** The ritual has no effect.\n\n**Critical Failure** The food and water in the area rots and spoils rapidly, releasing noxious fumes. Each living creature in the area becomes [Sickened 2](/condition/sickened-player-core) and can't reduce the value of this condition for 24 hours.",
+    "data": {
+      "rank": 4,
+      "rarity": "uncommon",
+      "traits": [],
+      "cost": "",
+      "cast": "4 hours",
+      "range": "",
+      "targets": "all food and drink in the area",
+      "duration": "1 month",
+      "requirements": "",
+      "area": "50-foot emanation",
+      "secondaryCasters": 0,
+      "primaryChecks": "Cooking Lore (expert) or Crafting (expert)",
+      "secondaryChecks": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9879103D-1FCC-5305-83F2-46C386782C61",
+    "kind": "Ritual",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Secure Siege Weapons",
+    "slug": "secure-siege-weapons-battlecry",
+    "descr": "You strengthen your army's siege weapons and prevent them from being commandeered by enemy hands. At the successful conclusion of the ritual, each allied siege weapon in the area gains an increase to its Hardness and Hit Points for the duration. In addition, enemies who try to operate or move an affected mounted siege weapon or pick up an affected portable siege weapon must succeed at a Will DC 20 saving throw or be forced to roll twice and take the worse result on any check to Load or Strike with the siege weapon; this is a misfortune effect. Finally, if an enemy Launches an affected siege weapon, their targets can roll twice and take the better result for any resulting saving throw; this is a fortune effect.\n\n---\n\n**Critical Success** Each affected siege weapon's Hardness increases by 10, and its maximum Hit Points increase by an amount equal to three times the siege weapon's level.\n\n**Success** Each affected siege weapon's Hardness increases by 5, and its maximum Hit Points increase by an amount equal to twice the siege weapon's level.\n\n**Failure** The ritual has no effect.\n\n**Critical Failure** All allied siege weapons in the area gain the [broken](/condition/broken-player-core) condition.",
+    "data": {
+      "rank": 3,
+      "rarity": "uncommon",
+      "traits": [],
+      "cost": "",
+      "cast": "2 hours",
+      "range": "",
+      "targets": "siege weapons operated by allied crews",
+      "duration": "1 month",
+      "requirements": "",
+      "area": "250-foot burst",
+      "secondaryCasters": 1,
+      "primaryChecks": "Crafting (expert) or Warfare Lore (expert)",
+      "secondaryChecks": "Engineering Lore",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8383DDA5-BB3B-53F2-8383-AE8F7F3B8029",
+    "kind": "Ritual",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Sleepless Season",
+    "slug": "sleepless-season-battlecry",
+    "descr": "You attempt to inflict a curse of sleeplessness upon individuals in the target area to weaken their resolve, possibly making it easier to conquer them. As you successfully complete the ritual, the amethyst pendant crumbles into sand that travels on an unfelt wind to drift down onto the target area. Each living creature in the target area must attempt a Fortitude saving throw against the ritual's casting DC or become unable to gain the benefits of a full night's rest for 1 week. The curse can be removed before that time with cleanse affliction or similar magic.\n\n---\n\n**Critical Success** Sleep is unattainable for anyone in the target area who fails the saving throw. As usual, a living creature who goes more than 16 hours without sleeping becomes [Fatigued](/condition/fatigued-player-core). A target who becomes fatigued in this way is also [Enfeebled 1](/condition/enfeebled-player-core); the value of this condition can't be reduced while they're fatigued. For every subsequent day an affected target is fatigued, the value of their enfeebled condition increases by 1 (to a maximum of 4).\n\n**Success** Sleep can only be caught in short bursts for anyone in the target area who fails the saving throw. As critical success, but a fatigued target doesn't become enfeebled.\n\n**Failure** The ritual has no effect.\n\n**Critical Failure** The notion of sleep itself abandons the casters. The casters become fatigued and can't gain the benefits of a full night's rest for 1 month. This is a curse effect.",
+    "data": {
+      "rank": 6,
+      "rarity": "uncommon",
+      "traits": [
+        "curse",
+        "mental"
+      ],
+      "cost": "an amethyst pendant worth at least 75 gp",
+      "cast": "4 hours",
+      "range": "5 miles",
+      "targets": "",
+      "duration": "1 week",
+      "requirements": "",
+      "area": "5280-foot square",
+      "secondaryCasters": 1,
+      "primaryChecks": "Herbalism Lore (master) or Occultism (master)",
+      "secondaryChecks": "Medicine or Warfare Lore",
+      "traitLinks": [
+        {
+          "label": "curse",
+          "slug": "curse"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "curse",
+      "mental",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D61A7BE6-0CC1-56FF-9699-FEC265727683",
+    "kind": "Ritual",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Sprawling Tunnels",
+    "slug": "sprawling-tunnels-battlecry",
+    "descr": "You spill the ink on an accurate map of the area, which transforms into a series of lines that correspond to a new network of tunnels under the earth. A momentary shift, like the aftershock of a distant earthquake, is the only aboveground sign that anything has occurred. You choose a single entrance and exit to these tunnels, which must be locations within range that are known to you, though you need not be familiar with them. For example, you could name \"the basement of the town hall\" as an exit if you knew the town hall had a basement but had never seen it with your own eyes. If either named entrance or exit doesn't exist, the ritual fails. The entrance and exit are difficult to spot, requiring a successful Perception DC 35 check to see; the casters automatically succeed at this check.\n\nThe tunnels avoid existing subterranean features and underground structures, unless they're designated as an entrance or an exit. The tunnels are 10 feet wide and 15 feet high, providing room for most armies, but the passageways twist and turn, making navigation difficult. A creature can lead groups through the tunnels with a successful Survival DC 32 check to Sense Direction. On a success, the group reaches the other end of the tunnels in 2 hours. Failure on this check means the group gets lost within the tunnels for 4 hours, after which the leader can attempt the check again. A critical failure means that the group spends 8 hours wandering through the tunnels, only to arrive where they entered; the leader can attempt the check again the next day.\n\nIf any creature is in the tunnels when the ritual's duration ends, it's harmlessly pushed to the nearest entrance or exit.\n\n---\n\n**Critical Success** The map provides some indication of the layout of the tunnels. A creature with the map gains a +2 circumstance bonus to the Survival check to navigate the tunnels. Any creatures not allied with the casters take a –2 circumstance penalty to the Perception check to spot the entrance and exit.\n\n**Success** As critical success, but the bonus to the Survival check is +1, and the penalty to the Perception check is –1.\n\n**Failure** The ritual has no effect.\n\n**Critical Failure** The ground beneath your feet rebels against your attempt to control it. The casters are attacked by a pair of elite [Elemental Avalanches](/creature/elemental-avalanche-monster-core).",
+    "data": {
+      "rank": 7,
+      "rarity": "uncommon",
+      "traits": [
+        "earth"
+      ],
+      "cost": "fine ink worth 50 gp",
+      "cast": "8 hours",
+      "range": "5 miles",
+      "targets": "",
+      "duration": "1 week",
+      "requirements": "",
+      "secondaryCasters": 2,
+      "primaryChecks": "Mining Lore (expert) or Nature (expert)",
+      "secondaryChecks": "Engineering Lore, Warfare Lore",
+      "traitLinks": [
+        {
+          "label": "earth",
+          "slug": "earth"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "earth",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

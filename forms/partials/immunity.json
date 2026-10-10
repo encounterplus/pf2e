@@ -1,0 +1,37 @@
+{
+  "sections": [
+    {
+      "type": "group",
+      "fields": [
+        {
+          "title": "Creature.Immunity",
+          "type": "picker",
+          "attribute": "name",
+          "attributeType": "ImmunityChoice"
+        }
+      ]
+    },
+    {
+      "title": "Creature.CustomImmunityText",
+      "type": "group",
+      "fields": [
+        {
+          "type": "textArea",
+          "attribute": "customText"
+        }
+      ]
+    },
+    {
+      "title": "Reference",
+      "type": "group",
+      "visibleIf": "{% if customText %}true{% endif %}",
+      "fields": [
+        {
+          "title": "Reference",
+          "type": "reference",
+          "attribute": "reference"
+        }
+      ]
+    }
+  ]
+}

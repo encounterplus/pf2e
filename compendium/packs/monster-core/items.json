@@ -1,0 +1,304 @@
+[
+  {
+    "id": "1B29898D-72F6-51A1-A1CC-8C73F9A33D58",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Blackaxe",
+    "slug": "blackaxe-monster-core",
+    "descr": "This potent weapon used by Treerazer is a *+4 greater corrosive major striking obsidian greataxe* that grants a +4 item bonus to attack rolls, deals an extra 2d6 damage to plants, and has the properties of adamantine. It deals an additional die of damage when wielded by Treerazer.\n\n---",
+    "data": {
+      "level": 25,
+      "rarity": "unique",
+      "traits": [
+        "artifact",
+        "cursed",
+        "primal",
+        "sweep",
+        "unholy"
+      ],
+      "category": "weapon",
+      "price": "",
+      "usage": "held-in-two-hands",
+      "bulk": "2",
+      "damage": "1d12 slashing",
+      "hands": "twos",
+      "weaponType": "melee",
+      "weaponCategory": "martial",
+      "weaponGroup": "axe",
+      "traitLinks": [
+        {
+          "label": "artifact",
+          "slug": "artifact"
+        },
+        {
+          "label": "cursed",
+          "slug": "cursed"
+        },
+        {
+          "label": "primal",
+          "slug": "primal"
+        },
+        {
+          "label": "sweep",
+          "slug": "sweep"
+        },
+        {
+          "label": "unholy",
+          "slug": "unholy"
+        }
+      ],
+      "activations": [
+        {
+          "actions": "one",
+          "traits": [
+            "concentrate",
+            "scrying"
+          ],
+          "name": "Owner's Authority",
+          "text": "**Requirements** You aren't wielding Blackaxe and you are its true owner\n\n---\n\n**Effect** You sense the world around Blackaxe as though you were in its location and can use any of your innate spells through the link as if it were the source of the spell. If another creature is wielding Blackaxe, it must succeed at a Will DC 50 save or be [Slowed 2](/condition/slowed-player-core) until it relinquishes the weapon.\n\n---",
+          "effect": "You sense the world around Blackaxe as though you were in its location and can use any of your innate spells through the link as if it were the source of the spell. If another creature is wielding Blackaxe, it must succeed at a Will DC 50 save or be [Slowed 2](/condition/slowed-player-core) until it relinquishes the weapon.\n\n---",
+          "description": "**Requirements** You aren't wielding Blackaxe and you are its true owner\n\n---"
+        },
+        {
+          "actions": "free",
+          "traits": [
+            "concentrate",
+            "teleportation"
+          ],
+          "name": "Owner's Reclamation",
+          "text": "**Requirements** You aren't wielding Blackaxe and you are its true owner\n\n---\n\n**Effect** Blackaxe appears in your hands, teleporting instantly from its prior location.\n\n---",
+          "effect": "Blackaxe appears in your hands, teleporting instantly from its prior location.\n\n---",
+          "description": "**Requirements** You aren't wielding Blackaxe and you are its true owner\n\n---"
+        },
+        {
+          "actions": "one",
+          "name": "Rejuvenating Deforestation",
+          "text": "(concentrate, death, healing, positive)\n\n**Frequency** once per minute\n\n---\n\n**Effect** Make a Strike against a living tree with Blackaxe. If it hits, the tree withers to ash and you heal 250 Hit Points and gain the benefit of a 6th-rank Restoration (6th) and [Sound Body](/spell/sound-body-player-core) spell.\n\n---\n\n**Destruction** Chop a powerful magical tree with Blackaxe, and while the sap is still fresh, sever one of Cyth-V'sug's limbs. This makes Blackaxe explode violently.",
+          "effect": "Make a Strike against a living tree with Blackaxe. If it hits, the tree withers to ash and you heal 250 Hit Points and gain the benefit of a 6th-rank Restoration (6th) and [Sound Body](/spell/sound-body-player-core) spell.\n\n---\n\n**Destruction** Chop a powerful magical tree with Blackaxe, and while the sap is still fresh, sever one of Cyth-V'sug's limbs. This makes Blackaxe explode violently.",
+          "description": "(concentrate, death, healing, positive)\n\n**Frequency** once per minute\n\n---"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "artifact",
+      "cursed",
+      "monster-core",
+      "primal",
+      "remaster",
+      "sweep",
+      "unholy"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9E642A88-411C-5DBE-8D30-2DE7F29E1ABD",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Cytillesh Toolkit",
+    "slug": "cytillesh-toolkit-monster-core",
+    "descr": "These [healer's toolkits](/item/healer-s-toolkit-player-core) are collections of crystalline scalpels and gritty salves made of cytillesh. They all glow the same sickly blue. While the toolkit is outside its opaque container, it sheds dim light in a 5-foot radius. Any non-dero using or wearing the toolkit is [Sickened 1](/condition/sickened-player-core) until 1 hour after they've stopped, which cannot be reduced during that time.",
+    "data": {
+      "level": 0,
+      "rarity": "common",
+      "traits": [],
+      "category": "other",
+      "price": "5 gp",
+      "usage": "other",
+      "bulk": "1",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F5DDFF48-909B-5F50-80A5-C30E9D8AC4FA",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Darkening Poison",
+    "slug": "darkening-poison-monster-core",
+    "descr": "Many calignis keep several doses of darkening poison, an uncommon injury poison made from Darklands spider venom, on hand to incapacitate foes.\n\n---\n\n**Saving Throw** Fortitude DC 16\n\n**Maximum Duration** 6 rounds\n\n---\n\n**Stage 1** 1d6 poison (1 round)\n\n**Stage 2** 1d6 poison and creatures you can see only with darkvision are [Concealed](/condition/concealed-player-core) from you (1 round)\n\n**Stage 3** 1d6 poison and creatures you can see only with darkvision are [Hidden](/condition/hidden-player-core) from you (1 round).",
+    "data": {
+      "level": 0,
+      "rarity": "common",
+      "traits": [
+        "consumable"
+      ],
+      "category": "consumable",
+      "price": "5 gp",
+      "usage": "held-in-two-hands",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B8C6918C-7160-5CEC-B773-2872C5AE4229",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Hag Eye",
+    "slug": "hag-eye-monster-core",
+    "descr": "This item appears to be an ordinary semiprecious stone and is typically mounted on a brooch or ring, but the stone is, in fact, an eyeball. This illusion can be seen through with [Truesight](/spell/truesight-player-core) or similar magic, and anyone who interacts with the item feels its wet, sticky surface, allowing them to attempt to disbelieve the illusion (Perception DC 19). Many hags claim a hag eye is more effective if plucked from a living, awake creature, but this is likely just a convenient excuse for sadism.\n\nThe hag eye produces no direct benefit for the wearer, but allows the hag who created it, or any member of their coven, to peer through the eye using the [Seek](/action/seek-player-core) action. This has no range limit, provided the hag is on the same plane.\n\nAny damage dealt to the eye destroys it. If this happens while a hag is looking through it, the hag is [Blinded](/condition/blinded-player-core) for 1 hour.\n\n---",
+    "data": {
+      "level": 3,
+      "rarity": "rare",
+      "traits": [
+        "invested",
+        "occult",
+        "scrying"
+      ],
+      "category": "worn",
+      "price": "50 gp",
+      "usage": "worn",
+      "bulk": "—",
+      "traitLinks": [
+        {
+          "label": "invested",
+          "slug": "invested"
+        },
+        {
+          "label": "occult",
+          "slug": "occult"
+        },
+        {
+          "label": "scrying",
+          "slug": "scrying"
+        }
+      ],
+      "craftRequirements": "You are a hag."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "invested",
+      "monster-core",
+      "occult",
+      "remaster",
+      "scrying"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "61AFFA97-A187-52A7-B435-5599AD84261D",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Shears",
+    "slug": "shears-monster-core",
+    "descr": "",
+    "data": {
+      "level": 0,
+      "rarity": "uncommon",
+      "traits": [
+        "deadly-d8",
+        "finesse",
+        "versatile-p"
+      ],
+      "category": "weapon",
+      "price": "5 sp",
+      "usage": "held-in-one-hand",
+      "bulk": "L",
+      "damage": "1d4 slashing",
+      "hands": "one",
+      "weaponType": "melee",
+      "weaponCategory": "simple",
+      "weaponGroup": "knife",
+      "traitLinks": [
+        {
+          "label": "deadly-d8",
+          "slug": "deadly"
+        },
+        {
+          "label": "finesse",
+          "slug": "finesse"
+        },
+        {
+          "label": "versatile-p",
+          "slug": "versatile"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "deadly-d8",
+      "finesse",
+      "monster-core",
+      "remaster",
+      "versatile-p"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

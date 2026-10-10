@@ -1,0 +1,2609 @@
+[
+  {
+    "id": "3DE90259-E419-5AF4-877D-292B4001BAA8",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Aura: Righteous Call",
+    "slug": "aura-righteous-call-gm-core",
+    "descr": "Granted by [Righteous Call](/action/righteous-call-gm-core)\n\nStrikes your allies make while they're within 30 feet of you gain the [holy](/trait/holy) trait.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "461DD464-2D42-510A-ADF7-D922274A2771",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Aura: Searing Blade (Greater)",
+    "slug": "aura-searing-blade-greater-gm-core",
+    "descr": "Granted by [Searing Blade (Greater)](/item/searing-blade-greater-gm-core)\n\nA 10-foot emanation of flame radiates from the *greater searing blade* for 1 minute. All weapon and unarmed attacks by you and your allies within the area gain the effect of the *flaming* property rune.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B8C79FE2-585C-5F2F-ACF2-2344227B625E",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Aura: Shining Symbol",
+    "slug": "aura-shining-symbol-gm-core",
+    "descr": "Granted by [Shining Symbol](/item/shining-symbol-gm-core), [Shining Symbol (Greater)](/item/shining-symbol-greater-gm-core), [Shining Symbol (Major)](/item/shining-symbol-major-gm-core)\n\nThe light cast by the symbol becomes bright light. Creatures in the light receive a status penalty to Deception and Stealth checks and your enemies gain weakness to spirit damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 10,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F777AD9B-7612-5BFA-8812-4601E7369BB4",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Aeon Stone (Sprouting)",
+    "slug": "effect-aeon-stone-sprouting-gm-core",
+    "descr": "Granted by [Aeon Stone (Sprouting)](/item/aeon-stone-sprouting-gm-core)\n\nYou gain 8 temporary Hit Points.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "16544A32-0186-564E-ADE6-2AAB1D487C6D",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Aeon Stone Resonance (Amplifying)",
+    "slug": "effect-aeon-stone-resonance-amplifying-gm-core",
+    "descr": "Granted by [Aeon Stone (Amplifying)](/item/aeon-stone-amplifying-gm-core)\n\nThe resonant power grants you a +2 item bonus to Arcana, Nature, Occultism, or Religion checks-whichever corresponds to the tradition of the last spell you enhanced with this *aeon stone*.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 0,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0E566FC7-C73D-5697-9A46-ED1348038F97",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Alloy Orb (Exquisite High-Grade)",
+    "slug": "effect-alloy-orb-exquisite-high-grade-gm-core",
+    "descr": "Granted by [Alloy Orb (Exquisite High Grade)](/item/alloy-orb-exquisite-high-grade-gm-core)\n\nWhen you activate the *alloy orb*, select adamantine, cold iron, or dawnsilver. The affixed weapon functions as the chosen material.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9841219F-F743-57F1-AA1B-75B1975DDB31",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Alloy Orb (Exquisite Standard-Grade)",
+    "slug": "effect-alloy-orb-exquisite-standard-grade-gm-core",
+    "descr": "Granted by [Alloy Orb (Exquisite Standard Grade)](/item/alloy-orb-exquisite-standard-grade-gm-core)\n\nWhen you activate the *alloy orb*, select adamantine, cold iron, or dawnsilver. The affixed weapon functions as the chosen material.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "DE2936C3-D6C4-50D9-A484-120D1FDCD26B",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Alloy Orb (High-Grade)",
+    "slug": "effect-alloy-orb-high-grade-gm-core",
+    "descr": "Granted by [Alloy Orb (High Grade)](/item/alloy-orb-high-grade-gm-core)\n\nWhen you activate the *alloy orb*, select cold iron or silver. The affixed weapon functions as the chosen material.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0645B07D-4DD1-5F07-A6C0-E635431B7849",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Alloy Orb (Low-Grade)",
+    "slug": "effect-alloy-orb-low-grade-gm-core",
+    "descr": "Granted by [Alloy Orb (Low Grade)](/item/alloy-orb-low-grade-gm-core)\n\nWhen you activate the *alloy orb*, select cold iron or silver. The affixed weapon functions as the chosen material.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A20C98BF-BF52-5388-8878-95A1D12322A2",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Alloy Orb (Standard-Grade)",
+    "slug": "effect-alloy-orb-standard-grade-gm-core",
+    "descr": "Granted by [Alloy Orb (Standard Grade)](/item/alloy-orb-standard-grade-gm-core)\n\nWhen you activate the *alloy orb*, select cold iron or silver. The affixed weapon functions as the chosen material.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "640D8925-5253-5B57-B52F-19D3FB013A53",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Antidote",
+    "slug": "effect-antidote-gm-core",
+    "descr": "Granted by [Antidote (Lesser)](/item/antidote-lesser-gm-core), [Antidote (Greater)](/item/antidote-greater-gm-core), [Antidote (Moderate)](/item/antidote-moderate-gm-core), [Antidote (Major)](/item/antidote-major-gm-core)\n\nYou gain an item bonus to Fortitude saves against poisons.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 6,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "37371A0A-E527-50E5-BE76-582C59F2345C",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Antiplague",
+    "slug": "effect-antiplague-gm-core",
+    "descr": "Granted by [Antiplague (Lesser)](/item/antiplague-lesser-gm-core), [Antiplague (Moderate)](/item/antiplague-moderate-gm-core), [Antiplague (Greater)](/item/antiplague-greater-gm-core), [Antiplague (Major)](/item/antiplague-major-gm-core)\n\nYou gain an item bonus to Fortitude saves against diseases.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 24,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "27290AB4-E50B-5169-A630-2AB8392473FA",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Barding of the Zephyr",
+    "slug": "effect-barding-of-the-zephyr-gm-core",
+    "descr": "Granted by [Barding Of The Zephyr](/item/barding-of-the-zephyr-gm-core)\n\nYou trace a finger along the wind motifs on the barding, granting your companion wearing the barding a fly Speed of 30 feet for 10 minutes. Even if the companion doesn't have the mount special ability, it can still Fly while being ridden.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 10,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "933EFE52-3765-571A-8912-4795B2AD377C",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Bloodseeker Beak",
+    "slug": "effect-bloodseeker-beak-gm-core",
+    "descr": "Granted by [Bloodseeker Beak](/item/bloodseeker-beak-gm-core), [Bloodseeker Beak (Greater)](/item/bloodseeker-beak-greater-gm-core)\n\nYou deal an extra d4 precision damage on your damage roll.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8D65F322-C3E6-59D4-B6E5-5E133223141B",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Bomber's Eye Elixir",
+    "slug": "effect-bomber-s-eye-elixir-gm-core",
+    "descr": "Granted by [Bomber'S Eye Elixir (Lesser)](/item/bomber-s-eye-elixir-lesser-gm-core), [Bomber'S Eye Elixir (Greater)](/item/bomber-s-eye-elixir-greater-gm-core)\n\nYour alchemical bomb Strikes reduce the circumstance bonus to AC your targets gain from cover.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 5,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9D2151F8-8D10-5203-8868-26CF00BF0892",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Bomber's Eye Elixir Cover Reduction",
+    "slug": "effect-bomber-s-eye-elixir-cover-reduction-gm-core",
+    "descr": "Granted by Effect: Bomber'S Eye Elixir\n\nYour bonus to AC from cover is reduced.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D05432C0-97C5-5F5A-BCCB-1D31FC3C243C",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Bravo's Brew",
+    "slug": "effect-bravo-s-brew-gm-core",
+    "descr": "Granted by [Bravo'S Brew (Lesser)](/item/bravo-s-brew-lesser-gm-core), [Bravo'S Brew (Moderate)](/item/bravo-s-brew-moderate-gm-core), [Bravo'S Brew (Greater)](/item/bravo-s-brew-greater-gm-core)\n\nYou gain an item bonus to Will saves. This bonus increases when attempting Will saves against fear. If you consumed a *greater bravo's brew*, when you roll a success on a save against fear, you get a critical success instead.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "CB3F7176-1B90-55E9-8D69-56DA11ADF5E6",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Bronze Bull Pendant",
+    "slug": "effect-bronze-bull-pendant-gm-core",
+    "descr": "Granted by [Bronze Bull Pendant](/item/bronze-bull-pendant-gm-core)\n\nYou gain a +1 item bonus to attempt an Athletics check to Shove.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3E991D16-72FF-5234-BA62-C771B5A7E4BC",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Call Upon the Ancient Life",
+    "slug": "effect-call-upon-the-ancient-life-gm-core",
+    "descr": "Granted by [Belt Of Long Life](/item/belt-of-long-life-gm-core)\n\nYou recover 15 Hit Points at the start of your turn.\n\n*Note: Adjust duration based on roll results.*",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 2,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5F4B58FE-8288-5C15-B2FB-54B05743AD39",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Cheetah's Elixir (Greater)",
+    "slug": "effect-cheetah-s-elixir-greater-gm-core",
+    "descr": "Granted by [Cheetah'S Elixir (Greater)](/item/cheetah-s-elixir-greater-gm-core)\n\nYou gain a +10 foot status bonus to your Speed.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "465C70D1-EF3F-5FE2-93CD-5830857C2949",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Cheetah's Elixir (Lesser)",
+    "slug": "effect-cheetah-s-elixir-lesser-gm-core",
+    "descr": "Granted by [Cheetah'S Elixir (Lesser)](/item/cheetah-s-elixir-lesser-gm-core)\n\nYou gain a +5 foot status bonus to your Speed.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5ACBE1BF-265F-57B8-8D2A-D1451A0202D3",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Cheetah's Elixir (Moderate)",
+    "slug": "effect-cheetah-s-elixir-moderate-gm-core",
+    "descr": "Granted by [Cheetah'S Elixir (Moderate)](/item/cheetah-s-elixir-moderate-gm-core)\n\nYou gain a +10 foot status bonus to your Speed.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 10,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "DC50CB53-0227-5705-97EF-D0113D460364",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Clawed Bracers",
+    "slug": "effect-clawed-bracers-gm-core",
+    "descr": "Granted by [Clawed Bracers](/item/clawed-bracers-gm-core)\n\nYou gain a climb Speed of 20 feet and a claw unarmed attack with the agile and [finesse](/trait/finesse) traits that deals 1d6 slashing damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 10,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9D064D14-50E4-5E99-BB4C-41C3DAA25615",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Cloak of Swiftness",
+    "slug": "effect-cloak-of-swiftness-gm-core",
+    "descr": "Granted by [Cloak Of Swiftness](/item/cloak-of-swiftness-gm-core)\n\nYou gain a fly Speed of 30 feet and become concealed.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "AFA47520-A2B6-52CD-BB3E-03EEF9090115",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Darkvision Elixir (Greater)",
+    "slug": "effect-darkvision-elixir-greater-gm-core",
+    "descr": "Granted by [Darkvision Elixir (Greater)](/item/darkvision-elixir-greater-gm-core)\n\nYou gain Darkvision",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 24,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "23E0B985-E418-5505-92DB-F0EB5805A177",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Darkvision Elixir (Lesser)",
+    "slug": "effect-darkvision-elixir-lesser-gm-core",
+    "descr": "Granted by [Darkvision Elixir (Lesser)](/item/darkvision-elixir-lesser-gm-core)\n\nYou gain Darkvision.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 10,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "EA2D74AA-D0B3-5A11-A036-78C07F8F35DE",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Darkvision Elixir (Moderate)",
+    "slug": "effect-darkvision-elixir-moderate-gm-core",
+    "descr": "Granted by [Darkvision Elixir (Moderate)](/item/darkvision-elixir-moderate-gm-core)\n\nYou gain Darkvision",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1442D69E-7303-57F2-82DC-37F2ABDF699B",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Diplomat's Badge",
+    "slug": "effect-diplomat-s-badge-gm-core",
+    "descr": "Granted by [Diplomat'S Badge](/item/diplomat-s-badge-gm-core)\n\nThe badge's bonus increases to +2 for Diplomacy checks with creatures of that group for the rest of the day.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "14142674-41B7-56A1-81A9-93717E9C9080",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Dragon Turtle Scale",
+    "slug": "effect-dragon-turtle-scale-gm-core",
+    "descr": "Granted by [Dragon Turtle Scale](/item/dragon-turtle-scale-gm-core), [Dragon Turtle Scale (Greater)](/item/dragon-turtle-scale-greater-gm-core)\n\nYou gain a swim Speed equal to half your land Speed or equal to your land Speed (*greater*) .",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "19E3A026-EF43-5280-8FA4-9038E1429CFB",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Eagle Eye Elixir",
+    "slug": "effect-eagle-eye-elixir-gm-core",
+    "descr": "Granted by [Eagle Eye Elixir (Lesser)](/item/eagle-eye-elixir-lesser-gm-core), [Eagle Eye Elixir (Moderate)](/item/eagle-eye-elixir-moderate-gm-core), [Eagle Eye Elixir (Greater)](/item/eagle-eye-elixir-greater-gm-core), [Eagle Eye Elixir (Major)](/item/eagle-eye-elixir-major-gm-core)\n\nYou gain an item bonus to Perception checks that is greater when attempting to find secret doors and traps.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D7DD98FD-8F9C-5540-A131-E261E92EA355",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Elixir of Life",
+    "slug": "effect-elixir-of-life-gm-core",
+    "descr": "Granted by [Elixir Of Life (Minor)](/item/elixir-of-life-minor-gm-core), [Elixir Of Life (Lesser)](/item/elixir-of-life-lesser-gm-core), [Elixir Of Life (Moderate)](/item/elixir-of-life-moderate-gm-core), [Elixir Of Life (Greater)](/item/elixir-of-life-greater-gm-core), [Elixir Of Life (Major)](/item/elixir-of-life-major-gm-core), [Elixir Of Life (True)](/item/elixir-of-life-true-gm-core)\n\nYou gain an item bonus to saving throws against diseases and poisons.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 10,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "34AEEE13-3737-50F1-87F4-28B270531F4A",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Force Shield",
+    "slug": "effect-force-shield-gm-core",
+    "descr": "Granted by [Force Shield](/item/force-shield-gm-core)\n\nThe shield surrounds you with a bubble of force that protects you from harm, granting you resistance 5 to physical damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "29108B7E-1CAF-5C37-8293-A2EC4E40E257",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Forge Warden",
+    "slug": "effect-forge-warden-gm-core",
+    "descr": "Granted by [Forge Warden](/item/forge-warden-gm-core)\n\nYou and any adjacent allies have fire resistance 5 while you have the shield raised.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A056ED21-4B53-521C-A21A-61FE1C1D591B",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Forgefather's Seal",
+    "slug": "effect-forgefather-s-seal-gm-core",
+    "descr": "Granted by [Forgefather'S Seal](/item/forgefather-s-seal-gm-core)\n\nYou gain fire resistance 40. You ignore the armor's check penalty and Speed penalty (if any); if the armor is light or medium, increase its item bonus to AC by 1.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "BA792DC0-6B43-5BBF-A31C-89C1F885EB18",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Forgefather's Seal (Stalwart Sacrifice)",
+    "slug": "effect-forgefather-s-seal-stalwart-sacrifice-gm-core",
+    "descr": "Granted by [Forgefather'S Seal](/item/forgefather-s-seal-gm-core)\n\nThe chosen creatures also gain a +4 status bonus to AC and saving throws, and fast healing 15.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C6665BC2-0556-53EC-819C-F6596AA35E03",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Glow Rod",
+    "slug": "effect-glow-rod-gm-core",
+    "descr": "Granted by [Glow Rod](/item/glow-rod-gm-core)\n\nThe rod sheds bright light in a 20-foot radius (and dim light to the next 40 feet).",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 6,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "02D3A93C-B82D-5394-BDB1-91377E444386",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Glue Bomb",
+    "slug": "effect-glue-bomb-gm-core",
+    "descr": "Granted by [Glue Bomb (Lesser)](/item/glue-bomb-lesser-gm-core), [Glue Bomb (Moderate)](/item/glue-bomb-moderate-gm-core), [Glue Bomb (Greater)](/item/glue-bomb-greater-gm-core), [Glue Bomb (Major)](/item/glue-bomb-major-gm-core)\n\nThe target takes a status penalty to its speeds.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "48F96C4A-60AF-5232-B607-4448D278EFF5",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Horn of Exorcism (Sacred Seeds)",
+    "slug": "effect-horn-of-exorcism-sacred-seeds-gm-core",
+    "descr": "Granted by [Horn Of Exorcism](/item/horn-of-exorcism-gm-core)\n\nThe horn grants you the *ghost touch* property rune on all of your weapon and unarmed Strikes.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "29731754-BDA1-5374-BD2E-64E510323FC3",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Impenetrable Scale",
+    "slug": "effect-impenetrable-scale-gm-core",
+    "descr": "Granted by [Impenetrable Scale](/item/impenetrable-scale-gm-core)\n\nYou gain resistance to physical damage equal to the number of violet scales, to a maximum of 8.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "268A4056-B937-5AAF-8545-BB1313B5C537",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Iron Medallion",
+    "slug": "effect-iron-medallion-gm-core",
+    "descr": "Granted by [Iron Medallion](/item/iron-medallion-gm-core)\n\nYou gain a +2 status bonus to the triggering save and other saves against fear.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0C840E9E-6F8B-52B8-934F-BAB4FD4082B5",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Lion's Bite",
+    "slug": "effect-lion-s-bite-gm-core",
+    "descr": "Granted by [Lion'S Shield](/item/lion-s-shield-gm-core)\n\nThe shield's biting maw is a martial melee weapon that deals 2d6 piercing damage and has the [deadly d6](/trait/deadly) trait; it can't be enhanced by runes.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5B25B936-51E9-51B2-A150-10E4C7E6A809",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Mummified Bat",
+    "slug": "effect-mummified-bat-gm-core",
+    "descr": "Granted by [Mummified Bat](/item/mummified-bat-gm-core)\n\nIf you have the [Blind-Fight](/feat/blind-fight-player-core) feat, you gain imprecise echolocation with a range of 30 feet.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "003AF230-D1F7-5792-B591-C3E290A25BC5",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Obsidian Goggles",
+    "slug": "effect-obsidian-goggles-gm-core",
+    "descr": "Granted by [Obsidian Goggles](/item/obsidian-goggles-gm-core)\n\nYou gain darkvision for 1 hour.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "286A4583-01FD-502D-845D-642DD544A57B",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Obsidian Goggles (Greater)",
+    "slug": "effect-obsidian-goggles-greater-gm-core",
+    "descr": "Granted by [Obsidian Goggles (Greater)](/item/obsidian-goggles-greater-gm-core)\n\nYou gain darkvision until you deactivate it as an [Interact](/action/interact-player-core) action or the item is no longer invested by you, whichever comes first.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5848CC5A-9FA7-5D20-B65F-FDBF9A23FCDF",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Obsidian Goggles (Major)",
+    "slug": "effect-obsidian-goggles-major-gm-core",
+    "descr": "Granted by [Obsidian Goggles (Major)](/item/obsidian-goggles-major-gm-core)\n\nYou gain *greater darkvision* until you deactivate it as an [Interact](/action/interact-player-core) action or the item is no longer invested by you, whichever comes first.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "816263BB-4DAC-5420-BEC1-7FC169A91E1D",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Oil of Keen Edges",
+    "slug": "effect-oil-of-keen-edges-gm-core",
+    "descr": "Granted by [Oil Of Keen Edges](/item/oil-of-keen-edges-gm-core)\n\nThe weapon grows sharper and more dangerous, granting it the benefits of the *[keen](/item/keen-gm-core)* rune.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "840D4302-334C-5B39-B1AB-AC1F6B4D17CC",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Oil of Potency",
+    "slug": "effect-oil-of-potency-gm-core",
+    "descr": "Granted by [Oil Of Potency](/item/oil-of-potency-gm-core), [Oil Of Potency (Greater)](/item/oil-of-potency-greater-gm-core), [Oil Of Potency (Major)](/item/oil-of-potency-major-gm-core)\n\nA weapon temporarily becomes a *+1 [striking](/item/striking-gm-core) weapon*, a *+2 greater striking weapon*, or a *+3 major striking weapon*.Armor temporarily becomes *+1 [resilient](/item/resilient-gm-core) armor*, *+2 greater resilient armor*, or *+3 major resilient armor*.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2DA82D49-5478-5A17-83E9-9C43433C445A",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Potency Crystal",
+    "slug": "effect-potency-crystal-gm-core",
+    "descr": "Granted by [Potency Crystal](/item/potency-crystal-gm-core), [Potency Crystal (Greater)](/item/potency-crystal-greater-gm-core), [Potency Crystal (Major)](/item/potency-crystal-major-gm-core)\n\nThe weapon becomes a *+1 [striking](/item/striking-gm-core) weapon*, a *+2 greater striking weapon*, or a *+3 major striking weapon*.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 0,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "DAB4225E-280D-5851-8B3F-48D299FF4464",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Potion of Acid Resistance",
+    "slug": "effect-potion-of-acid-resistance-gm-core",
+    "descr": "Granted by [Potion Of Acid Resistance (Lesser)](/item/potion-of-acid-resistance-lesser-gm-core), [Potion Of Acid Resistance (Moderate)](/item/potion-of-acid-resistance-moderate-gm-core), [Potion Of Acid Resistance (Greater)](/item/potion-of-acid-resistance-greater-gm-core)\n\nYou gain resistance against acid damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "345F0FB6-B28E-50D4-B10F-9E558005D404",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Potion of Electricity Resistance",
+    "slug": "effect-potion-of-electricity-resistance-gm-core",
+    "descr": "Granted by [Potion Of Electricity Resistance (Lesser)](/item/potion-of-electricity-resistance-lesser-gm-core), [Potion Of Electricity Resistance (Moderate)](/item/potion-of-electricity-resistance-moderate-gm-core), Potion Of Electricity Resistance (Lesser)\n\nYou gain resistance against electricity damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4B87BAB6-2D78-579A-B014-E4C0A1DE5690",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Potion of Emergency Escape",
+    "slug": "effect-potion-of-emergency-escape-gm-core",
+    "descr": "Granted by [Potion Of Emergency Escape](/item/potion-of-emergency-escape-gm-core)\n\nYou become fleeing and you gain a +40-foot status bonus to all your Speeds for the duration as long as you are fleeing.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3D51016C-ECAF-505A-ABB6-C863F77E2487",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Potion of Fire Resistance",
+    "slug": "effect-potion-of-fire-resistance-gm-core",
+    "descr": "Granted by [Potion Of Fire Resistance (Lesser)](/item/potion-of-fire-resistance-lesser-gm-core), Potion Of Fire Resistance (Moderate), [Potion Of Fire Resistance (Greater)](/item/potion-of-fire-resistance-greater-gm-core)\n\nYou gain resistance to fire damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "35640C82-05E4-52E0-808D-267D3C52225F",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Potion of Flying (Greater)",
+    "slug": "effect-potion-of-flying-greater-gm-core",
+    "descr": "Granted by [Potion Of Flying (Greater)](/item/potion-of-flying-greater-gm-core)\n\nYou gain a fly Speed of 40 feet.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A54C466D-D413-5063-84D1-4FFE183D07F4",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Potion of Flying (Standard)",
+    "slug": "effect-potion-of-flying-standard-gm-core",
+    "descr": "Granted by [Potion Of Flying (Standard)](/item/potion-of-flying-standard-gm-core)\n\nYou gain a fly Speed of 40 feet.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E3B7C62D-DA74-5F20-BF1B-B2614627F559",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Potion of Sonic Resistance",
+    "slug": "effect-potion-of-sonic-resistance-gm-core",
+    "descr": "Granted by [Potion Of Sonic Resistance (Lesser)](/item/potion-of-sonic-resistance-lesser-gm-core), [Potion Of Sonic Resistance (Moderate)](/item/potion-of-sonic-resistance-moderate-gm-core), [Potion Of Sonic Resistance (Greater)](/item/potion-of-sonic-resistance-greater-gm-core)\n\nYou gain resistance against sonic damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C01902B4-72D6-5F6E-A708-6F4D7C1432A4",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Potion of Swimming",
+    "slug": "effect-potion-of-swimming-gm-core",
+    "descr": "Granted by [Potion Of Swimming](/item/potion-of-swimming-gm-core)\n\nYou gain a swim Speed equal to your land Speed.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 10,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "940CF375-EFF7-53B7-B337-2A4BA86C9F71",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Potion of Swimming (Greater)",
+    "slug": "effect-potion-of-swimming-greater-gm-core",
+    "descr": "Granted by [Potion Of Swimming (Greater)](/item/potion-of-swimming-greater-gm-core)\n\nYou gain a swim Speed equal to your land Speed.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E5EDBA5A-3C47-55AA-A936-C89E58E90CF4",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Powder Burst",
+    "slug": "effect-powder-burst-gm-core",
+    "descr": "-2 status penalty to Perception checks and saves against mental effects.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 4,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A1CF25EC-F38A-51F3-90C9-3922A474A2F1",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Predator's Claw",
+    "slug": "effect-predator-s-claw-gm-core",
+    "descr": "Granted by [Predator'S Claw](/item/predator-s-claw-gm-core)\n\nThe triggering attack gains the weapon's critical specialization effect.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "97955F0B-2FE7-5007-A8B7-FA6D46D27593",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Righteous Call",
+    "slug": "effect-righteous-call-gm-core",
+    "descr": "Granted by [Righteous Call](/action/righteous-call-gm-core)\n\nYour Strikes gain the [holy](/trait/holy) trait.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E2DA41B0-6F68-5FEB-8094-96DC1EF48D27",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Sea Touch Elixir (Greater)",
+    "slug": "effect-sea-touch-elixir-greater-gm-core",
+    "descr": "Granted by [Sea Touch Elixir (Greater)](/item/sea-touch-elixir-greater-gm-core)\n\nYou gain a swim Speed of 20 feet.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 24,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2D65E8C1-2829-539D-93DE-D3059D2A95D2",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Sea Touch Elixir (Lesser)",
+    "slug": "effect-sea-touch-elixir-lesser-gm-core",
+    "descr": "Granted by [Sea Touch Elixir (Lesser)](/item/sea-touch-elixir-lesser-gm-core)\n\nYou gain a swim Speed of 20 feet.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 10,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4D71ADA9-D13A-5F4A-9864-9AF8EBE3AB6D",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Sea Touch Elixir (Moderate)",
+    "slug": "effect-sea-touch-elixir-moderate-gm-core",
+    "descr": "Granted by [Sea Touch Elixir (Moderate)](/item/sea-touch-elixir-moderate-gm-core)\n\nYou gain a swim Speed of 20 feet.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "52275618-C3E5-5807-BCF7-0D6EEF3D0B98",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Searing Blade (Greater)",
+    "slug": "effect-searing-blade-greater-gm-core",
+    "descr": "Granted by [Searing Blade (Greater)](/item/searing-blade-greater-gm-core)\n\nAll weapon and unarmed attacks by you and your allies within the area gain the effect of the *flaming* property rune.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "14193CF2-E0FF-5E02-AD56-0C5CECC367F4",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Shark Tooth Charm",
+    "slug": "effect-shark-tooth-charm-gm-core",
+    "descr": "Granted by [Shark Tooth Charm](/item/shark-tooth-charm-gm-core)\n\nYou receive a +1 item bonus to your attempt to Escape using Acrobatics. If you roll a success, you get a critical success instead (if you roll a critical failure, you get a failure instead).",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "20C37E9D-2EFA-5E06-8A92-F53A17765349",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Shining Ammunition",
+    "slug": "effect-shining-ammunition-gm-core",
+    "descr": "Granted by [Shining Ammunition](/item/shining-ammunition-gm-core)\n\nYou shed bright light in a 20-foot radius (and dim light to the next 20 feet).",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 10,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "081E9027-337A-5935-B64D-2318911AC5A2",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Shining Symbol",
+    "slug": "effect-shining-symbol-gm-core",
+    "descr": "Granted by [Shining Symbol](/item/shining-symbol-gm-core), [Shining Symbol (Greater)](/item/shining-symbol-greater-gm-core), [Shining Symbol (Major)](/item/shining-symbol-major-gm-core)\n\nCreatures in the light receive a status penalty to Deception and Stealth checks.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F1556DD1-AD6A-5529-A841-D95CDDDE79F0",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Shining Symbol Weakness",
+    "slug": "effect-shining-symbol-weakness-gm-core",
+    "descr": "Granted by [Shining Symbol](/item/shining-symbol-gm-core), [Shining Symbol (Greater)](/item/shining-symbol-greater-gm-core), [Shining Symbol (Major)](/item/shining-symbol-major-gm-core)\n\nYour enemies gain weakness to spirit damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "39A2154D-90C3-5777-B028-5A45A0639D55",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Shrinking Potion",
+    "slug": "effect-shrinking-potion-gm-core",
+    "descr": "Granted by [Shrinking Potion](/item/shrinking-potion-gm-core)\n\nYou gain the effects of the *[shrink](/spell/shrink-player-core)* spell.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 10,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "10EEE04F-F102-53C1-9B23-9A36AEF264FF",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Shrinking Potion (Greater)",
+    "slug": "effect-shrinking-potion-greater-gm-core",
+    "descr": "Granted by [Shrinking Potion (Greater)](/item/shrinking-potion-greater-gm-core)\n\nYou gain the effects of a 4th-rank *[shrink](/spell/shrink-player-core)* spell and a +2 item bonus to Stealth checks while shrunken.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "721B916E-5A7A-53A3-83DF-9708FEA673A0",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Silver Salve",
+    "slug": "effect-silver-salve-gm-core",
+    "descr": "Granted by [Silver Salve](/item/silver-salve-gm-core)\n\nThe weapon or ammunition counts as silver instead of its normal material (such as cold iron) for any physical damage it deals.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "470ABC53-979E-5E73-935E-2BE91C3E1E48",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Sneaky Key",
+    "slug": "effect-sneaky-key-gm-core",
+    "descr": "Granted by [Sneaky Key](/item/sneaky-key-gm-core)\n\nYou gain a +1 status bonus to Thievery checks to Pick a Lock.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C001A4FE-6DF3-52B6-8193-3B3ECD36F007",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Staff of Illumination",
+    "slug": "effect-staff-of-illumination-gm-core",
+    "descr": "Granted by [Staff Of Illumination](/item/staff-of-illumination-gm-core)\n\nYou shed bright light in a 20-foot radius (and dim light to the next 20 feet).",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 10,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "492FBF31-6CD0-5D19-B0D3-3A33817475F1",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Swift Block Cabochon",
+    "slug": "effect-swift-block-cabochon-gm-core",
+    "descr": "Granted by [Swift Block Cabochon](/item/swift-block-cabochon-gm-core)\n\nIncrease the shield's Hardness by 5 against the triggering attack.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "98B6D2C7-5A98-5A1E-9012-CF22994408F9",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Thurible of Revelation",
+    "slug": "effect-thurible-of-revelation-gm-core",
+    "descr": "Granted by [Thurible Of Revelation (Lesser)](/item/thurible-of-revelation-lesser-gm-core), [Thurible Of Revelation (Moderate)](/item/thurible-of-revelation-moderate-gm-core), [Thurible Of Revelation (Greater)](/item/thurible-of-revelation-greater-gm-core)\n\nYou gain an item bonus to Religion checks and any critical failure you roll when you Decipher Writing of a religious nature is a failure instead.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F7247BF2-67CE-5640-83E9-6710DC16CECF",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Tiger Menuki",
+    "slug": "effect-tiger-menuki-gm-core",
+    "descr": "Granted by [Tiger Menuki](/item/tiger-menuki-gm-core)\n\nThe weapon gains the forceful and [sweep](/trait/sweep) traits on the triggering Strike and all other Strikes.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "75186898-DFC1-562E-B47B-6E3A25037CAE",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Wind Barrier",
+    "slug": "effect-wind-barrier-gm-core",
+    "descr": "Granted by [Wind Barrier](/action/wind-barrier-gm-core)\n\nYou gain a +2 circumstance bonus to AC against ranged attacks. At 13th level, this increases to a +3 circumstance bonus to AC against ranged attacks.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "201C8F79-97D1-5918-8949-7CA54A322823",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Winged Sandals",
+    "slug": "effect-winged-sandals-gm-core",
+    "descr": "Granted by [Winged Sandals](/item/winged-sandals-gm-core)\n\nYou gain a fly Speed of 30 feet.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 10,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1645F2AC-E6C2-51E7-ACF4-99A8AD1ED957",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spell Effect: Hidden Mind",
+    "slug": "spell-effect-hidden-mind-gm-core",
+    "descr": "Granted by [Hidden Mind](/spell/hidden-mind-gm-core)\n\nYou gain a +4 status bonus to saves against mental effects.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gm-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

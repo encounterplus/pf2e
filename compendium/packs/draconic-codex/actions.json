@@ -1,0 +1,49 @@
+[
+  {
+    "id": "E34BC285-5624-5E79-AD47-A010CFB46621",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Enamoring Exhalation",
+    "slug": "enamoring-exhalation-draconic-codex-action-action-3480",
+    "descr": "**Frequency** once per 10 minutes\n\nYour riding dragonet enraptures those nearby, exhaling a 15-foot [cone](/rule/cone-rules-2386) of pheromones that fascinates those within it. Each creature in the area is [fascinated](/condition/fascinated-player-core) with you and your dragonet until the end of your next turn unless it succeeds at a Fortitude save. This uses a trained DC using the dragonet’s Charisma modifier, or an expert DC if the dragonet is [specialized](/rule/specialized-animal-companions-rules-2120).",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "olfactory"
+      ],
+      "category": "action",
+      "frequency": "once per 10 minutes",
+      "requirements": "",
+      "trigger": "",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "olfactory",
+          "slug": "olfactory"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "draconic-codex",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "action",
+      "draconic-codex",
+      "olfactory",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Draconic Codex",
+        "url": "https://2e.aonprd.com/Actions.aspx?ID=3480",
+        "page": 221
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  }
+]

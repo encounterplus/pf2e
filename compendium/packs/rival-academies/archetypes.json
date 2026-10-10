@@ -1,0 +1,212 @@
+[
+  {
+    "id": "2086F7D7-7448-599E-A481-9E63834313D6",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Campfire Chronicler",
+    "slug": "campfire-chronicler-rival-academies",
+    "descr": "You've gained Isthralei's attention and can now offer stories up to him, either passing on your own stories or collecting those of travelers as he did. You become trained in Religion and Survival; for either of these skills in which you were already trained, you instead become trained in a skill of your choice. You gain the [Offer Story](/action/offer-story-rival-academies) action.\n\nCampfire Chronicler",
+    "data": {
+      "level": 2,
+      "rarity": "uncommon",
+      "traits": [
+        "archetype",
+        "dedication"
+      ],
+      "prerequisites": "",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "You've gained Isthralei's attention and can now offer stories up to him, either passing on your own stories or collecting those of travelers as he did. You become trained in Religion and Survival; for either of these skills in which you were already trained, you instead become trained in a skill of your choice. You gain the Offer Story action.\n\nCampfire Chronicler",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "dedication",
+          "slug": "dedication"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "dedication",
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "69A1BD69-0F25-5263-B82F-900E5CA4B41A",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Kitharodian Actor",
+    "slug": "kitharodian-actor-rival-academies",
+    "descr": "**Access** You are from Taldor or have attended Kitharodian Academy.\n\n---\n\nYou've studied classic Taldan theater and learned to embody various roles to a sublime degree. You become trained in Society and in Theater Lore; if you were already trained in either, you become an expert in that skill instead. In addition, when you attempt a Deception or Performance check to portray a famous figure, you gain a +2 circumstance bonus to your check. This bonus changes to +3 at 10th level and +4 at 17th level. However, you don't gain this bonus while Impersonating a figure whose death is common knowledge (as determined by the GM).\n\nKitharodian Actor",
+    "data": {
+      "level": 2,
+      "rarity": "rare",
+      "traits": [
+        "archetype",
+        "dedication"
+      ],
+      "prerequisites": "trained in Performance",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "**Access** You are from Taldor or have attended Kitharodian Academy.\n\n---\n\nYou've studied classic Taldan theater and learned to embody various roles to a sublime degree. You become trained in Society and in Theater Lore; if you were already trained in either, you become an expert in that skill instead. In addition, when you attempt a Deception or Performance check to portray a famous figure, you gain a +2 circumstance bonus to your check. This bonus changes to +3 at 10th level and +4 at 17th level. However, you don't gain this bonus while Impersonating a figure whose death is common knowledge (as determined by the GM).\n\nKitharodian Actor",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "dedication",
+          "slug": "dedication"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "dedication",
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "CA5AD295-1379-5F5E-A24B-81A5357B4510",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Lepidstadt Surgeon",
+    "slug": "lepidstadt-surgeon-rival-academies",
+    "descr": "Before everything else, before the blood and the monsters and the Stasian technology and the horror, you are a doctor. You are, in fact, an exceptionally good doctor. You become an expert in Medicine.\n\nWhen you successfully [Administer First Aid](/action/administer-first-aid-player-core) to stabilize a [dying](/condition/dying-player-core) creature that doesn't yet have the [Wounded](/condition/wounded-player-core) condition, it regains 2d8 healing Hit Points; this healing increases by 10 when you are a master of Medicine and by another 10 when you are legendary in Medicine.\n\nWhen you successfully Administer First Aid to stop bleeding, the target rolls the flat check (with lowered DC for an assisted recovery) twice and takes the better result; this is a fortune effect.\n\nEffect: Lepidstadt Surgeon Dedication (Stop Bleeding)\n\nLepidstadt Surgeon",
+    "data": {
+      "level": 2,
+      "rarity": "uncommon",
+      "traits": [
+        "archetype",
+        "dedication"
+      ],
+      "prerequisites": "trained in Medicine; attended the University of Lepidstadt",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "Before everything else, before the blood and the monsters and the Stasian technology and the horror, you are a doctor. You are, in fact, an exceptionally good doctor. You become an expert in Medicine.\n\nWhen you successfully [Administer First Aid](/action/administer-first-aid-player-core) to stabilize a [dying](/condition/dying-player-core) creature that doesn't yet have the [Wounded](/condition/wounded-player-core) condition, it regains 2d8 healing Hit Points; this healing increases by 10 when you are a master of Medicine and by another 10 when you are legendary in Medicine.\n\nWhen you successfully Administer First Aid to stop bleeding, the target rolls the flat check (with lowered DC for an assisted recovery) twice and takes the better result; this is a fortune effect.\n\nEffect: Lepidstadt Surgeon Dedication (Stop Bleeding)\n\nLepidstadt Surgeon",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "dedication",
+          "slug": "dedication"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "dedication",
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E5A51CA7-BF0E-5030-9948-0F128F67F168",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Runelord",
+    "slug": "runelord-rival-academies",
+    "descr": "Your connection to your sin suffuses all magic you use. When you contemplate or indulge in your sin to Refocus, you can also exchange one spell you have prepared for one of your curriculum or sin spells of the same rank.\n\nRunelord (Class Archetype)",
+    "data": {
+      "level": 2,
+      "rarity": "rare",
+      "traits": [
+        "archetype",
+        "class",
+        "dedication"
+      ],
+      "prerequisites": "runelord",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "Your connection to your sin suffuses all magic you use. When you contemplate or indulge in your sin to Refocus, you can also exchange one spell you have prepared for one of your curriculum or sin spells of the same rank.\n\nRunelord (Class Archetype)",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "class",
+          "slug": "class"
+        },
+        {
+          "label": "dedication",
+          "slug": "dedication"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "class",
+      "dedication",
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

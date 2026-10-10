@@ -1,0 +1,1 @@
+**{{ability.name}}**{% if ability.actions %} ![Action](/icons/actions/{{ability.actions}}.png#height=18){% endif %}{% if ability.traits %} ({% for trait in ability.traits %}[{{trait|map: 'Trait'|lowercase}}](/trait/{{trait}}){% if not forloop.last %}, {% endif %}{% endfor %}){% endif %} {{ability.text}}

@@ -1,0 +1,308 @@
+[
+  {
+    "id": "89C22290-84E9-58E7-8612-82EAF4EAEF7B",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Blackjacket",
+    "slug": "blackjacket-shining-kingdoms",
+    "descr": "**Access** You're from Druma.\n\n---\n\nYou have entered the ranks of the Mercenary League and now wear the black uniform that's the source of the organization's popular epithet. You become trained in Intimidation; if you were already trained, you become an expert instead. You gain the [Additional Lore](/feat/additional-lore-player-core) skill feat for Warfare Lore; if you were already trained in Warfare Lore, you also become trained in a Lore skill of your choice. While wearing medium or heavy armor, you gain a +1 circumstance bonus to Intimidation checks.\n\nBlackjacket",
+    "data": {
+      "level": 2,
+      "rarity": "uncommon",
+      "traits": [
+        "archetype",
+        "dedication"
+      ],
+      "prerequisites": "trained in medium armor and martial weapons",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "**Access** You're from Druma.\n\n---\n\nYou have entered the ranks of the Mercenary League and now wear the black uniform that's the source of the organization's popular epithet. You become trained in Intimidation; if you were already trained, you become an expert instead. You gain the Additional Lore skill feat for Warfare Lore; if you were already trained in Warfare Lore, you also become trained in a Lore skill of your choice. While wearing medium or heavy armor, you gain a +1 circumstance bonus to Intimidation checks.\n\nBlackjacket",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "dedication",
+          "slug": "dedication"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "dedication",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A67D4009-E684-5E29-B823-BB448C2F6885",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Eagle Knight",
+    "slug": "eagle-knight-shining-kingdoms",
+    "descr": "**Access** You're invited by a current member of the Eagle Knights or the People's Council.\n\n---\n\nEagle Knights are the marshals and envoys of Andoran and are committed to keeping the peace. On the first round of combat, if you roll Diplomacy for initiative, creatures that haven't acted are [Off Guard](/condition/off-guard-player-core) to you. You gain the [Additional Lore](/feat/additional-lore-player-core) skill feat for Politics Lore. If you were already trained in Politics Lore, you also become trained in a Lore skill of your choice. You can use Politics Lore to Make An Impression on or make a Request of government officials (or similar figures) or to Gather Information about them. If you critically succeed at a check to [Gather Information](/action/gather-information-player-core) with Politics Lore, you know the information without having to spend any time gathering it.\n\nEagle Knight",
+    "data": {
+      "level": 2,
+      "rarity": "uncommon",
+      "traits": [
+        "archetype",
+        "dedication"
+      ],
+      "prerequisites": "trained in Diplomacy and Society",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "**Access** You're invited by a current member of the Eagle Knights or the People's Council.\n\n---\n\nEagle Knights are the marshals and envoys of Andoran and are committed to keeping the peace. On the first round of combat, if you roll Diplomacy for initiative, creatures that haven't acted are Off Guard to you. You gain the Additional Lore skill feat for Politics Lore. If you were already trained in Politics Lore, you also become trained in a Lore skill of your choice. You can use Politics Lore to Make An Impression on or make a Request of government officials (or similar figures) or to Gather Information about them. If you critically succeed at a check to Gather Information with Politics Lore, you know the information without having to spend any time gathering it.\n\nEagle Knight",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "dedication",
+          "slug": "dedication"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "dedication",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "FE4DF55B-5ABD-5F9D-B2BA-078BC9940C7A",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Lion Blade",
+    "slug": "lion-blade-shining-kingdoms",
+    "descr": "**Access** You're from Taldor.\n\n---\n\nYour Lion Blade spy training helps you conceal yourself and your identity. You become trained in your choice of Deception or Stealth; if you were already trained in that skill, you become an expert instead. You also gain the [Additional Lore](/feat/additional-lore-player-core) skill feat for Espionage Lore. If you were already trained in Espionage Lore, you also become trained in a Lore skill of your choice.\n\nYou never take circumstance penalties for attempting to take a disguise of a different ancestry, age, and so on, as long as the disguised form is appropriate for your size.\n\nLion Blade",
+    "data": {
+      "level": 2,
+      "rarity": "uncommon",
+      "traits": [
+        "archetype",
+        "dedication"
+      ],
+      "prerequisites": "member of the Lion Blades; trained in Performance",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "**Access** You're from Taldor.\n\n---\n\nYour Lion Blade spy training helps you conceal yourself and your identity. You become trained in your choice of Deception or Stealth; if you were already trained in that skill, you become an expert instead. You also gain the Additional Lore skill feat for Espionage Lore. If you were already trained in Espionage Lore, you also become trained in a Lore skill of your choice.\n\nYou never take circumstance penalties for attempting to take a disguise of a different ancestry, age, and so on, as long as the disguised form is appropriate for your size.\n\nLion Blade",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "dedication",
+          "slug": "dedication"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "dedication",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A2EC0975-0E0C-58F1-9E27-C088B4629928",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Prophet of Kalistrade",
+    "slug": "prophet-of-kalistrade-shining-kingdoms",
+    "descr": "**Access** You're from Druma\n\n---\n\nAfter induction into the ranks of the Kalistocrats, you learned the skills necessary to succeed in business and rise above others by following a set of detailed strictures. Unless you take measures to hide your affiliation, anyone who has heard of the Prophets of Kalistrade will know you're one of them when they see you. You become an expert in Society and can use Society instead of Diplomacy to [Make An Impression](/action/make-an-impression-player-core) on merchants and traders.\n\nAdditionally, if you don't already cast spells from spell slots, you learn to cast spontaneous spells and gain the Cast a Spell activity. You gain a spell repertoire with two common occult cantrips, plus either [Prestidigitation](/spell/prestidigitation-player-core) or [Read Aura](/spell/read-aura-player-core). You're trained in the spell attack modifier and spell DC statistics. Your key spellcasting attribute for these spells is Charisma, and they're occult spells.\n\nProphet of Kalistrade",
+    "data": {
+      "level": 2,
+      "rarity": "uncommon",
+      "traits": [
+        "archetype",
+        "dedication"
+      ],
+      "prerequisites": "trained in Mercantile Lore and Society; Charisma +2",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "**Access** You're from Druma\n\n---\n\nAfter induction into the ranks of the Kalistocrats, you learned the skills necessary to succeed in business and rise above others by following a set of detailed strictures. Unless you take measures to hide your affiliation, anyone who has heard of the Prophets of Kalistrade will know you're one of them when they see you. You become an expert in Society and can use Society instead of Diplomacy to Make An Impression on merchants and traders.\n\nAdditionally, if you don't already cast spells from spell slots, you learn to cast spontaneous spells and gain the Cast a Spell activity. You gain a spell repertoire with two common occult cantrips, plus either Prestidigitation or Read Aura. You're trained in the spell attack modifier and spell DC statistics. Your key spellcasting attribute for these spells is Charisma, and they're occult spells.\n\nProphet of Kalistrade",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "dedication",
+          "slug": "dedication"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "dedication",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5C4C6B79-D4E6-59C4-BBF4-339A40317FA9",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Ulfen Guard",
+    "slug": "ulfen-guard-shining-kingdoms",
+    "descr": "**Access** At least one of your parents is Ulfen.\n\n---\n\nCentral to your Ulfen Guard training is the ability to protect an ally. You gain the [Additional Lore](/feat/additional-lore-player-core) skill feat for Warfare Lore. If you were already trained in Warfare Lore, you also become trained in a Lore skill of your choice. You gain the [Designate Ally](/action/designate-ally-shining-kingdoms) action.\n\nIt's anathema for you to abandon your designated ally or allow your designated ally to die when you can prevent it. If you violate this anathema, you lose the ability to Designate Ally and any feats that use this ability until you spend 1 day of downtime reaffirming your dedication to your allies.\n\nUlfen Guard",
+    "data": {
+      "level": 2,
+      "rarity": "uncommon",
+      "traits": [
+        "archetype",
+        "dedication"
+      ],
+      "prerequisites": "member of the Ulfen Guard, trained in Athletics and Intimidation",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "**Access** At least one of your parents is Ulfen.\n\n---\n\nCentral to your Ulfen Guard training is the ability to protect an ally. You gain the Additional Lore skill feat for Warfare Lore. If you were already trained in Warfare Lore, you also become trained in a Lore skill of your choice. You gain the Designate Ally action.\n\nIt's anathema for you to abandon your designated ally or allow your designated ally to die when you can prevent it. If you violate this anathema, you lose the ability to Designate Ally and any feats that use this ability until you spend 1 day of downtime reaffirming your dedication to your allies.\n\nUlfen Guard",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "dedication",
+          "slug": "dedication"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "dedication",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B86D5721-FEF2-50F2-B791-326F1F4F521A",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Wylderheart",
+    "slug": "wylderheart-shining-kingdoms",
+    "descr": "**Access** You're from Kyonin.\n\n---\n\nYou're primed to face off against threats from the Outer Rifts. You gain the [Additional Lore](/feat/additional-lore-player-core) skill feat for Demon Lore. If you were already trained in Demon Lore, you also become trained in a Lore skill of your choice. You gain a +1 circumstance bonus to initiative rolls in encounters against fiends, and if you tie with a fiend's initiative roll, you go first.\n\nCertain wylderheart feats give you focus spells. When you gain your first wylderheart focus spell, you become trained in the spell attack modifier and spell DC statistics. Your key spellcasting attribute for the wylderheart archetype spells is Wisdom, and they're primal spells. You can Refocus by celebrating life or spending time in nature.\n\nWylderheart",
+    "data": {
+      "level": 2,
+      "rarity": "uncommon",
+      "traits": [
+        "archetype",
+        "dedication"
+      ],
+      "prerequisites": "member of the Wylderhearts; you're from Kyonin",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "**Access** You're from Kyonin.\n\n---\n\nYou're primed to face off against threats from the Outer Rifts. You gain the Additional Lore skill feat for Demon Lore. If you were already trained in Demon Lore, you also become trained in a Lore skill of your choice. You gain a +1 circumstance bonus to initiative rolls in encounters against fiends, and if you tie with a fiend's initiative roll, you go first.\n\nCertain wylderheart feats give you focus spells. When you gain your first wylderheart focus spell, you become trained in the spell attack modifier and spell DC statistics. Your key spellcasting attribute for the wylderheart archetype spells is Wisdom, and they're primal spells. You can Refocus by celebrating life or spending time in nature.\n\nWylderheart",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "dedication",
+          "slug": "dedication"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "dedication",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

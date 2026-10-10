@@ -5,15 +5,11 @@
       "fields": [
         {
           "placeholder": "Common.Name",
-          "attribute": "name"
+          "attribute": "name",
+          "title": "Common.Name"
         },
-      ]
-    },
-    {
-      "type": "group",
-      "fields": [
         {
-          "title": "Common.Actions",
+          "title": "Ability.ActionCost",
           "type": "picker",
           "attribute": "actions",
           "attributeType": "Action"
@@ -23,16 +19,42 @@
           "type": "tags",
           "attribute": "traits",
           "attributeType": "Trait"
-        }, 
+        }
       ]
     },
     {
-      "title": "Common.Description",
+      "title": "Ability.RulesText",
       "type": "group",
       "fields": [
         {
           "type": "textArea",
-          "attribute": "text"
+          "attribute": "trigger",
+          "title": "Ability.Trigger",
+          "placeholder": "Ability.TriggerPrompt"
+        },
+        {
+          "type": "textArea",
+          "attribute": "description",
+          "title": "Common.Description",
+          "placeholder": "Ability.DescriptionPrompt"
+        },
+        {
+          "type": "textArea",
+          "attribute": "effect",
+          "title": "Common.Effect",
+          "placeholder": "Ability.EffectPrompt"
+        }
+      ]
+    },
+    {
+      "title": "Reference",
+      "type": "group",
+      "fields": [
+        {
+          "title": "Ability.LinkedAction",
+          "type": "reference",
+          "attribute": "reference",
+          "attributeType": "Action"
         }
       ]
     }

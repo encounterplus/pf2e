@@ -1,0 +1,28 @@
+{
+  "sections": [
+    {
+      "type": "group",
+      "fields": [
+        {
+          "placeholder": "Creature.RitualLevelHint",
+          "attribute": "label",
+          "title": "Creature.RitualLevel"
+        }
+      ]
+    },
+    {
+      "title": "Creature.Rituals",
+      "type": "list",
+      "attribute": "rituals",
+      "attributeType": "Ritual",
+      "custom": {
+        "itemTitle": "{{name}}",
+        "itemDetail": "{% if rank != nil %}{{'Spell.Rank'|l}} {{rank}}{% endif %}{% if details %}{% if rank != nil %} \u2022 {% endif %}{{details}}{% endif %}"
+      },
+      "form": {
+        "title": "Entity.Ritual",
+        "partial": "ritual-entry"
+      }
+    }
+  ]
+}

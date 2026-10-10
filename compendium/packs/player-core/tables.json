@@ -1,0 +1,331 @@
+[
+  {
+    "id": "8FBD8575-3202-5C4A-8200-59FB2E2ABEF2",
+    "kind": "Table",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Cover",
+    "slug": "cover-player-core",
+    "descr": "[Open the full rule](/rule/cover-rules-2372) for context. Reference table; entries are not random outcomes.",
+    "sources": [
+      {
+        "name": "Player Core",
+        "page": 424,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=2372"
+      }
+    ],
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "table",
+      "reference",
+      "player-core"
+    ],
+    "columns": [
+      {
+        "name": "Type of Cover",
+        "size": 0.3333333333333333,
+        "align": null
+      },
+      {
+        "name": "Bonus",
+        "size": 0.3333333333333333,
+        "align": null
+      },
+      {
+        "name": "Can Hide",
+        "size": 0.3333333333333333,
+        "align": null
+      }
+    ],
+    "rows": [
+      [
+        "Lesser",
+        "+1 to AC",
+        "No"
+      ],
+      [
+        "Standard",
+        "+2 to AC, Reflex, Stealth",
+        "Yes"
+      ],
+      [
+        "Greater",
+        "+4 to AC, Reflex, Stealth",
+        "Yes"
+      ]
+    ]
+  },
+  {
+    "id": "E2BDE6D6-085F-5316-96ED-AA4D3F355E8A",
+    "kind": "Table",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Counteract Results by Rank",
+    "slug": "counteract-results-by-rank-player-core",
+    "descr": "[Open the full rule](/rule/counteracting-rules-3280) for context. Reference table; entries are not random outcomes.",
+    "sources": [
+      {
+        "name": "Player Core",
+        "page": 431,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3280"
+      }
+    ],
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "table",
+      "reference",
+      "player-core"
+    ],
+    "columns": [
+      {
+        "name": "Counteract Rank",
+        "size": 0.25,
+        "align": null
+      },
+      {
+        "name": "Failure",
+        "size": 0.25,
+        "align": null
+      },
+      {
+        "name": "Success",
+        "size": 0.25,
+        "align": null
+      },
+      {
+        "name": "Critical Success",
+        "size": 0.25,
+        "align": null
+      }
+    ],
+    "rows": [
+      [
+        "0",
+        "—",
+        "1 (1 to 2)",
+        "3 (5 to 6)"
+      ],
+      [
+        "1",
+        "0 (–1 to 0)",
+        "2 (3 to 4)",
+        "4 (7 to 8)"
+      ],
+      [
+        "2",
+        "1 (1 to 2)",
+        "3 (5 to 6)",
+        "5 (9 to 10)"
+      ],
+      [
+        "3",
+        "2 (3 to 4)",
+        "4 (7 to 8)",
+        "6 (11 to 12)"
+      ],
+      [
+        "4",
+        "3 (5 to 6)",
+        "5 (9 to 10)",
+        "7 (13 to 14)"
+      ],
+      [
+        "5",
+        "4 (7 to 8)",
+        "6 (11 to 12)",
+        "8 (15 to 16)"
+      ],
+      [
+        "6",
+        "5 (9 to 10)",
+        "7 (13 to 14)",
+        "9 (17 to 18)"
+      ],
+      [
+        "7",
+        "6 (11 to 12)",
+        "8 (15 to 16)",
+        "10 (19 to 20)"
+      ],
+      [
+        "8",
+        "7 (13 to 14)",
+        "9 (17 to 18)",
+        "11 (21 to 22)"
+      ],
+      [
+        "9",
+        "8 (15 to 16)",
+        "10 (19 to 20)",
+        "12 (23 to 24)"
+      ],
+      [
+        "10",
+        "9 (17 to 18)",
+        "11 (21 to 22)",
+        "13 (25 to 26)"
+      ]
+    ]
+  },
+  {
+    "id": "272E9562-B98B-5F9C-9691-AE14EDB9A6F0",
+    "kind": "Table",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Creative Splash Color",
+    "slug": "creative-splash-color-player-core",
+    "descr": "Roll 1d4 and use the matching result range. [Open the source entry](/spell/creative-splash-player-core) for context.",
+    "sources": [
+      {
+        "name": "Player Core"
+      }
+    ],
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "table",
+      "rollable",
+      "player-core"
+    ],
+    "columns": [
+      {
+        "name": "1d4",
+        "size": 0.25,
+        "align": null
+      },
+      {
+        "name": "Color",
+        "size": 0.25,
+        "align": null
+      },
+      {
+        "name": "Failure",
+        "size": 0.25,
+        "align": null
+      },
+      {
+        "name": "Critical Failure",
+        "size": 0.25,
+        "align": null
+      }
+    ],
+    "rows": [
+      [
+        "1",
+        "White",
+        "Dazzled for 1 round",
+        "Dazzled for 1 minute"
+      ],
+      [
+        "2",
+        "Red",
+        "Enfeebled 1 for 1 round",
+        "Enfeebled 2 for 1 round"
+      ],
+      [
+        "3",
+        "Yellow",
+        "Frightened 1",
+        "Frightened 2"
+      ],
+      [
+        "4",
+        "Blue",
+        "Clumsy 1 for 1 round",
+        "Clumsy 2 for 1 round"
+      ]
+    ],
+    "rollMode": "normal"
+  },
+  {
+    "id": "8A8F75E1-5FFB-56CF-9041-ED2B58D304F1",
+    "kind": "Table",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Detection and Targeting",
+    "slug": "detection-and-targeting-player-core",
+    "descr": "[Open the detection rules](/rule/perception-and-detection-rules-2277). Targeting depends on the observer and the target.",
+    "sources": [
+      {
+        "name": "Player Core",
+        "page": 399,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=2277"
+      },
+      {
+        "name": "Player Core",
+        "page": 434,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=2415"
+      }
+    ],
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "table",
+      "reference",
+      "player-core"
+    ],
+    "columns": [
+      {
+        "name": "State",
+        "size": 0.3333333333333333,
+        "align": null
+      },
+      {
+        "name": "Reminder",
+        "size": 0.3333333333333333,
+        "align": null
+      },
+      {
+        "name": "Targeting flat check",
+        "size": 0.3333333333333333,
+        "align": null
+      }
+    ],
+    "rows": [
+      [
+        "[Observed](/rule/observed-rules-2415)",
+        "Space known; target normally",
+        "—"
+      ],
+      [
+        "[Hidden](/rule/hidden-rules-2416)",
+        "Space known; targeting requires a flat check",
+        "DC 11"
+      ],
+      [
+        "[Undetected](/rule/undetected-rules-2417)",
+        "Space unknown; choose a square; GM rolls in secret",
+        "DC 11"
+      ],
+      [
+        "[Unnoticed](/rule/unnoticed-rules-2418)",
+        "You are unaware of the creature",
+        "—"
+      ],
+      [
+        "[Concealed](/rule/concealed-rules-2419)",
+        "Obscured; can coexist with observed",
+        "DC 5"
+      ],
+      [
+        "[Invisible](/rule/invisible-rules-2420)",
+        "Usually undetected by sight; Seek can make it hidden",
+        "See rule"
+      ]
+    ]
+  }
+]

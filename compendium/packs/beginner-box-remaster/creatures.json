@@ -1,0 +1,4102 @@
+[
+  {
+    "id": "70CEEB41-45CE-5BA6-B9AE-6F4ED81B705C",
+    "kind": "Creature",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Brine Shark (BB)",
+    "slug": "brine-shark-bb-beginner-box-remaster",
+    "descr": "",
+    "data": {
+      "level": 3,
+      "rarity": "common",
+      "size": "medium",
+      "traits": [
+        "aquatic",
+        "elemental",
+        "water"
+      ],
+      "attributes": {
+        "str": 3,
+        "dex": 2,
+        "con": 2,
+        "int": -4,
+        "wis": 1,
+        "cha": 0
+      },
+      "perception": 8,
+      "ac": {
+        "value": 19,
+        "details": ""
+      },
+      "hp": {
+        "value": 45,
+        "details": ""
+      },
+      "saves": {
+        "fortitude": 9,
+        "reflex": 11,
+        "will": 6
+      },
+      "skills": {
+        "athletics": 10,
+        "stealth": 11,
+        "survival": 8
+      },
+      "languages": [],
+      "senses": "[Darkvision](/action/darkvision-monster-core)",
+      "immunities": [
+        "Bleed",
+        "[Poison](/trait/poison)",
+        "[Sleep](/trait/sleep)"
+      ],
+      "weaknesses": {},
+      "resistances": {
+        "fire": 5
+      },
+      "movement": {
+        "walk": 15,
+        "swim": 50
+      },
+      "attacks": [
+        {
+          "name": "Jaws",
+          "type": "melee",
+          "actions": "one",
+          "attack": 11,
+          "traits": [],
+          "damage": "1d12+7 piercing",
+          "effects": [
+            {
+              "name": "Grab",
+              "reference": "/action/grab-monster-core"
+            }
+          ]
+        }
+      ],
+      "abilities": {
+        "interaction": [],
+        "defensive": [],
+        "offensive": [
+          {
+            "name": "Deep Plunge",
+            "text": "The brine shark dives straight down into the water, swimming up to 100 feet in a straight vertical line. It can use this ability while [Grabbing](/condition/grabbed-player-core) a creature.",
+            "traits": [],
+            "actions": "one",
+            "description": "The brine shark dives straight down into the water, swimming up to 100 feet in a straight vertical line. It can use this ability while [Grabbing](/condition/grabbed-player-core) a creature."
+          }
+        ]
+      },
+      "recallKnowledge": {
+        "dc": 18,
+        "skills": [
+          "arcana",
+          "nature"
+        ],
+        "subjects": [
+          "elemental"
+        ],
+        "entries": [
+          {
+            "subject": "elemental",
+            "skills": [
+              "arcana",
+              "nature"
+            ]
+          }
+        ]
+      },
+      "languagesText": "",
+      "recallKnowledgeText": "DC 18 (Arcana)",
+      "traitLinks": [
+        {
+          "label": "aquatic",
+          "slug": "aquatic"
+        },
+        {
+          "label": "elemental",
+          "slug": "elemental"
+        },
+        {
+          "label": "water",
+          "slug": "water"
+        }
+      ],
+      "senseEntries": [
+        {
+          "name": "Darkvision",
+          "reference": "/action/darkvision-monster-core"
+        }
+      ],
+      "immunityEditor": {
+        "entries": [
+          {
+            "name": "Bleed"
+          },
+          {
+            "name": "Poison",
+            "reference": "/trait/poison"
+          },
+          {
+            "name": "Sleep",
+            "reference": "/trait/sleep"
+          }
+        ]
+      },
+      "skillsEditor": {
+        "skills": {
+          "athletics": 10,
+          "stealth": 11,
+          "survival": 8
+        },
+        "loreSkills": []
+      },
+      "resistanceEntries": [
+        {
+          "type": "fire",
+          "value": 5
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "beginner-box-remaster",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "aquatic",
+      "beginner-box-remaster",
+      "elemental",
+      "remaster",
+      "water"
+    ],
+    "sources": [
+      {
+        "name": "Beginner Box (Remaster)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "659BD043-B7F9-5527-A393-446B6B316BDA",
+    "kind": "Creature",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Caligni Dancer (BB)",
+    "slug": "caligni-dancer-bb-beginner-box-remaster",
+    "descr": "",
+    "data": {
+      "level": 1,
+      "rarity": "common",
+      "size": "medium",
+      "traits": [
+        "caligni",
+        "humanoid"
+      ],
+      "attributes": {
+        "str": 0,
+        "dex": 4,
+        "con": 2,
+        "int": -1,
+        "wis": 1,
+        "cha": 3
+      },
+      "perception": 6,
+      "ac": {
+        "value": 17,
+        "details": ""
+      },
+      "hp": {
+        "value": 18,
+        "details": ""
+      },
+      "saves": {
+        "fortitude": 7,
+        "reflex": 9,
+        "will": 4
+      },
+      "skills": {
+        "acrobatics": 7,
+        "diplomacy": 8,
+        "performance": 6,
+        "stealth": 7,
+        "thievery": 7
+      },
+      "languages": [],
+      "senses": "[Darkvision](/action/darkvision-monster-core)",
+      "immunities": [],
+      "weaknesses": {},
+      "resistances": {},
+      "movement": {
+        "walk": 25
+      },
+      "attacks": [
+        {
+          "name": "Mace",
+          "type": "melee",
+          "actions": "one",
+          "attack": 9,
+          "traits": [
+            "shove"
+          ],
+          "damage": "1d4 bludgeoning"
+        },
+        {
+          "name": "Dagger",
+          "type": "ranged",
+          "actions": "one",
+          "attack": 9,
+          "traits": [
+            "agile",
+            "finesse",
+            "thrown-10",
+            "versatile-s"
+          ],
+          "damage": "1d4 piercing"
+        }
+      ],
+      "abilities": {
+        "interaction": [
+          {
+            "name": "Light Blindness",
+            "text": "When first exposed to bright light, the caligni can't see until the end of their next turn. All squares are difficult terrain for them, and they take a -4 status penalty to Perception. If they try to attack a creature, the attack fails unless they succeed at a Flat DC 11. Light doesn't blind them again for 1 hour.",
+            "traits": [],
+            "reference": "/action/light-blindness-monster-core",
+            "description": "When first exposed to bright light, the caligni can't see until the end of their next turn. All squares are difficult terrain for them, and they take a -4 status penalty to Perception. If they try to attack a creature, the attack fails unless they succeed at a Flat DC 11. Light doesn't blind them again for 1 hour."
+          }
+        ],
+        "defensive": [
+          {
+            "name": "Final Dance",
+            "text": "When a caligni dancer dies, their body dissolves into a swirl of darkness and light. All creatures within 10 feet must succeed at a Will DC 17 save or take a -2 circumstance penalty on all attack rolls for 1 round.",
+            "traits": [],
+            "description": "When a caligni dancer dies, their body dissolves into a swirl of darkness and light. All creatures within 10 feet must succeed at a Will DC 17 save or take a -2 circumstance penalty on all attack rolls for 1 round."
+          }
+        ],
+        "offensive": [
+          {
+            "name": "Sneak Attack",
+            "text": "The caligni dancer deals an additional 1d6 damage to [Off Guard](/condition/off-guard-player-core) creatures.",
+            "traits": [],
+            "description": "The caligni dancer deals an additional 1d6 damage to [Off Guard](/condition/off-guard-player-core) creatures."
+          }
+        ]
+      },
+      "recallKnowledge": {
+        "dc": 15,
+        "skills": [
+          "society"
+        ],
+        "subjects": [
+          "humanoid"
+        ],
+        "entries": [
+          {
+            "subject": "humanoid",
+            "skills": [
+              "society"
+            ]
+          }
+        ]
+      },
+      "languagesText": "",
+      "recallKnowledgeText": "DC 15 (Society)",
+      "items": "[Dagger](/item/dagger-player-core), [Mace](/item/mace-player-core)",
+      "traitLinks": [
+        {
+          "label": "caligni",
+          "slug": "caligni"
+        },
+        {
+          "label": "humanoid",
+          "slug": "humanoid"
+        }
+      ],
+      "senseEntries": [
+        {
+          "name": "Darkvision",
+          "reference": "/action/darkvision-monster-core"
+        }
+      ],
+      "itemEntries": [
+        {
+          "name": "Dagger",
+          "reference": "/item/dagger-player-core"
+        },
+        {
+          "name": "Mace",
+          "reference": "/item/mace-player-core"
+        }
+      ],
+      "skillsEditor": {
+        "skills": {
+          "acrobatics": 7,
+          "diplomacy": 8,
+          "performance": 6,
+          "stealth": 7,
+          "thievery": 7
+        },
+        "loreSkills": []
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "beginner-box-remaster",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "beginner-box-remaster",
+      "caligni",
+      "humanoid",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Beginner Box (Remaster)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5BA57672-192D-559D-A0EF-6EFBBC84BD10",
+    "kind": "Creature",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Caligni Hunter (BB)",
+    "slug": "caligni-hunter-bb-beginner-box-remaster",
+    "descr": "",
+    "data": {
+      "level": 4,
+      "rarity": "common",
+      "size": "medium",
+      "traits": [
+        "caligni",
+        "humanoid"
+      ],
+      "attributes": {
+        "str": 2,
+        "dex": 5,
+        "con": 2,
+        "int": -1,
+        "wis": 2,
+        "cha": 1
+      },
+      "perception": 10,
+      "ac": {
+        "value": 21,
+        "details": ""
+      },
+      "hp": {
+        "value": 60,
+        "details": ""
+      },
+      "saves": {
+        "fortitude": 10,
+        "reflex": 13,
+        "will": 8
+      },
+      "skills": {
+        "acrobatics": 13,
+        "athletics": 8,
+        "stealth": 13,
+        "survival": 12,
+        "thievery": 11
+      },
+      "languages": [],
+      "senses": "[Darkvision](/action/darkvision-monster-core)",
+      "immunities": [],
+      "weaknesses": {},
+      "resistances": {},
+      "movement": {
+        "walk": 25
+      },
+      "attacks": [
+        {
+          "name": "Shortsword",
+          "type": "melee",
+          "actions": "one",
+          "attack": 13,
+          "traits": [
+            "agile",
+            "finesse",
+            "versatile-s"
+          ],
+          "damage": "1d6+7 piercing",
+          "effects": [
+            {
+              "name": "Darkening Poison"
+            }
+          ]
+        }
+      ],
+      "abilities": {
+        "interaction": [
+          {
+            "name": "Light Blindness",
+            "text": "When first exposed to bright light, the caligni can't see until the end of their next turn. All squares are difficult terrain for them, and they take a -4 status penalty to Perception. If they try to attack a creature, the attack fails unless they succeed at a Flat DC 11. Light doesn't blind them again for 1 hour.",
+            "traits": [],
+            "reference": "/action/light-blindness-monster-core",
+            "description": "When first exposed to bright light, the caligni can't see until the end of their next turn. All squares are difficult terrain for them, and they take a -4 status penalty to Perception. If they try to attack a creature, the attack fails unless they succeed at a Flat DC 11. Light doesn't blind them again for 1 hour."
+          },
+          {
+            "name": "Sneak Attack",
+            "text": "The caligni hunter deals an extra 1d6 damage to creatures that have the [Off Guard](/condition/off-guard-player-core) condition.",
+            "traits": [],
+            "description": "The caligni hunter deals an extra 1d6 damage to creatures that have the [Off Guard](/condition/off-guard-player-core) condition."
+          }
+        ],
+        "defensive": [
+          {
+            "name": "Final Fate",
+            "text": "When a caligni hunter dies, their body explodes. All creatures within 20 feet must take 5d6 fire. Each creature in the area must attempt a basic Reflex DC 19 save.",
+            "traits": [],
+            "description": "When a caligni hunter dies, their body explodes. All creatures within 20 feet must take 5d6 fire. Each creature in the area must attempt a basic Reflex DC 19 save."
+          }
+        ],
+        "offensive": [
+          {
+            "name": "Darkening Poison",
+            "text": "The next time the hunter deals damage with a shortsword [Strike](/action/strike-player-core), the target must succeed at a Fortitude DC 16 save or take 1d8 poison damage and treat all creatures as [Concealed](/condition/concealed-player-core) for 1 round.",
+            "traits": [
+              "poison"
+            ],
+            "actions": "one",
+            "description": "The next time the hunter deals damage with a shortsword [Strike](/action/strike-player-core), the target must succeed at a Fortitude DC 16 save or take 1d8 poison damage and treat all creatures as [Concealed](/condition/concealed-player-core) for 1 round."
+          }
+        ]
+      },
+      "recallKnowledge": {
+        "dc": 19,
+        "skills": [
+          "society"
+        ],
+        "subjects": [
+          "humanoid"
+        ],
+        "entries": [
+          {
+            "subject": "humanoid",
+            "skills": [
+              "society"
+            ]
+          }
+        ]
+      },
+      "languagesText": "",
+      "recallKnowledgeText": "DC 19 (Society)",
+      "items": "[Shortsword](/item/shortsword-player-core) (2), [Leather Armor](/item/leather-armor-player-core)",
+      "traitLinks": [
+        {
+          "label": "caligni",
+          "slug": "caligni"
+        },
+        {
+          "label": "humanoid",
+          "slug": "humanoid"
+        }
+      ],
+      "spellcasting": [
+        {
+          "name": "Occult Innate Spells",
+          "spellGroups": [
+            {
+              "label": "2nd",
+              "spells": [
+                {
+                  "name": "See the Unseen",
+                  "rank": 2,
+                  "reference": "/spell/see-the-unseen-player-core",
+                  "atWill": true
+                }
+              ]
+            },
+            {
+              "label": "Cantrips (2nd)",
+              "spells": [
+                {
+                  "name": "Figment",
+                  "rank": 2,
+                  "reference": "/spell/figment-player-core"
+                }
+              ]
+            }
+          ],
+          "spellDC": 19,
+          "spellAttack": 11
+        }
+      ],
+      "senseEntries": [
+        {
+          "name": "Darkvision",
+          "reference": "/action/darkvision-monster-core"
+        }
+      ],
+      "itemEntries": [
+        {
+          "name": "Shortsword",
+          "reference": "/item/shortsword-player-core",
+          "quantity": 2
+        },
+        {
+          "name": "Leather Armor",
+          "reference": "/item/leather-armor-player-core"
+        }
+      ],
+      "skillsEditor": {
+        "skills": {
+          "acrobatics": 13,
+          "athletics": 8,
+          "stealth": 13,
+          "survival": 12,
+          "thievery": 11
+        },
+        "loreSkills": []
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "beginner-box-remaster",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "beginner-box-remaster",
+      "caligni",
+      "humanoid",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Beginner Box (Remaster)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D798C032-037C-5F0A-AB06-9CD8A4DD5D66",
+    "kind": "Creature",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Caligni Skulker (BB)",
+    "slug": "caligni-skulker-bb-beginner-box-remaster",
+    "descr": "",
+    "data": {
+      "level": 2,
+      "rarity": "common",
+      "size": "medium",
+      "traits": [
+        "caligni",
+        "humanoid"
+      ],
+      "attributes": {
+        "str": 0,
+        "dex": 4,
+        "con": 3,
+        "int": -1,
+        "wis": 2,
+        "cha": 1
+      },
+      "perception": 8,
+      "ac": {
+        "value": 19,
+        "details": ""
+      },
+      "hp": {
+        "value": 30,
+        "details": ""
+      },
+      "saves": {
+        "fortitude": 9,
+        "reflex": 10,
+        "will": 6
+      },
+      "skills": {
+        "acrobatics": 8,
+        "athletics": 4,
+        "stealth": 10,
+        "thievery": 8
+      },
+      "languages": [],
+      "senses": "[Darkvision](/action/darkvision-monster-core)",
+      "immunities": [],
+      "weaknesses": {},
+      "resistances": {},
+      "movement": {
+        "walk": 25
+      },
+      "attacks": [
+        {
+          "name": "Dagger",
+          "type": "melee",
+          "actions": "one",
+          "attack": 10,
+          "traits": [
+            "agile",
+            "finesse",
+            "versatile-s"
+          ],
+          "damage": "1d4+4 piercing"
+        },
+        {
+          "name": "Dagger",
+          "type": "ranged",
+          "actions": "one",
+          "attack": 10,
+          "traits": [
+            "agile",
+            "finesse",
+            "thrown-10",
+            "versatile-s"
+          ],
+          "damage": "1d4+4 piercing"
+        }
+      ],
+      "abilities": {
+        "interaction": [
+          {
+            "name": "Light Blindness",
+            "text": "When first exposed to bright light, the caligni can't see until the end of their next turn. All squares are difficult terrain for them, and they take a -4 status penalty to Perception. If they try to attack a creature, the attack fails unless they succeed at a Flat DC 11. Light doesn't blind them again for 1 hour.",
+            "traits": [],
+            "reference": "/action/light-blindness-monster-core",
+            "description": "When first exposed to bright light, the caligni can't see until the end of their next turn. All squares are difficult terrain for them, and they take a -4 status penalty to Perception. If they try to attack a creature, the attack fails unless they succeed at a Flat DC 11. Light doesn't blind them again for 1 hour."
+          }
+        ],
+        "defensive": [
+          {
+            "name": "Final Night",
+            "text": "When a caligni skulker dies, their body dissolves fog of inky darkness. All light sources within 20 feet are extinguished. Any [light](/spell/light-player-core) spells in the area go out for 1 round.",
+            "traits": [],
+            "description": "When a caligni skulker dies, their body dissolves fog of inky darkness. All light sources within 20 feet are extinguished. Any [light](/spell/light-player-core) spells in the area go out for 1 round."
+          }
+        ],
+        "offensive": [
+          {
+            "name": "Darkening Poison",
+            "text": "The next time the skulker deals damage with a dagger [Strike](/action/strike-player-core), the target must succeed at a Fortitude DC 16 save or take 1d8 poison damage and treat all creatures as [Concealed](/condition/concealed-player-core) for 1 round.",
+            "traits": [
+              "poison"
+            ],
+            "actions": "one",
+            "description": "The next time the skulker deals damage with a dagger [Strike](/action/strike-player-core), the target must succeed at a Fortitude DC 16 save or take 1d8 poison damage and treat all creatures as [Concealed](/condition/concealed-player-core) for 1 round."
+          },
+          {
+            "name": "Sneak Attack",
+            "text": "The caligni skulker deals an extra 1d6 damage to creatures that have the [Off Guard](/condition/off-guard-player-core) condition.",
+            "traits": [],
+            "description": "The caligni skulker deals an extra 1d6 damage to creatures that have the [Off Guard](/condition/off-guard-player-core) condition."
+          }
+        ]
+      },
+      "recallKnowledge": {
+        "dc": 16,
+        "skills": [
+          "society"
+        ],
+        "subjects": [
+          "humanoid"
+        ],
+        "entries": [
+          {
+            "subject": "humanoid",
+            "skills": [
+              "society"
+            ]
+          }
+        ]
+      },
+      "languagesText": "",
+      "recallKnowledgeText": "DC 16 (Society)",
+      "items": "[Dagger](/item/dagger-player-core)",
+      "traitLinks": [
+        {
+          "label": "caligni",
+          "slug": "caligni"
+        },
+        {
+          "label": "humanoid",
+          "slug": "humanoid"
+        }
+      ],
+      "senseEntries": [
+        {
+          "name": "Darkvision",
+          "reference": "/action/darkvision-monster-core"
+        }
+      ],
+      "itemEntries": [
+        {
+          "name": "Dagger",
+          "reference": "/item/dagger-player-core"
+        }
+      ],
+      "skillsEditor": {
+        "skills": {
+          "acrobatics": 8,
+          "athletics": 4,
+          "stealth": 10,
+          "thievery": 8
+        },
+        "loreSkills": []
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "beginner-box-remaster",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "beginner-box-remaster",
+      "caligni",
+      "humanoid",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Beginner Box (Remaster)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "6F5F70EB-01D4-5D1F-9657-044F4B8487FB",
+    "kind": "Creature",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Cinder Rat (BB)",
+    "slug": "cinder-rat-bb-beginner-box-remaster",
+    "descr": "",
+    "data": {
+      "level": 3,
+      "rarity": "common",
+      "size": "small",
+      "traits": [
+        "elemental",
+        "fire"
+      ],
+      "attributes": {
+        "str": 2,
+        "dex": 3,
+        "con": 2,
+        "int": -4,
+        "wis": 2,
+        "cha": 0
+      },
+      "perception": 9,
+      "ac": {
+        "value": 18,
+        "details": ""
+      },
+      "hp": {
+        "value": 45,
+        "details": ""
+      },
+      "saves": {
+        "fortitude": 9,
+        "reflex": 12,
+        "will": 6
+      },
+      "skills": {
+        "acrobatics": 10,
+        "stealth": 10,
+        "survival": 9
+      },
+      "languages": [],
+      "senses": "[Darkvision](/action/darkvision-monster-core), smoke vision",
+      "immunities": [
+        "Bleed",
+        "[Fire](/trait/fire)",
+        "[Poison](/trait/poison)",
+        "[Sleep](/trait/sleep)"
+      ],
+      "weaknesses": {
+        "cold": 5
+      },
+      "resistances": {},
+      "movement": {
+        "walk": 40
+      },
+      "attacks": [
+        {
+          "name": "Jaws",
+          "type": "melee",
+          "actions": "one",
+          "attack": 10,
+          "traits": [
+            "finesse"
+          ],
+          "damage": "1d8+4 fire; 1d4 fire"
+        }
+      ],
+      "abilities": {
+        "interaction": [
+          {
+            "name": "Smoke Vision",
+            "text": "The cinder rat ignores the [Concealed](/condition/concealed-player-core) condition from smoke.",
+            "traits": [],
+            "description": "The cinder rat ignores the [Concealed](/condition/concealed-player-core) condition from smoke."
+          }
+        ],
+        "defensive": [
+          {
+            "name": "Fetid Fumes",
+            "text": "A cloud of smoke surrounds the cinder rat. All creatures within 5 feet, including the cinder rat, gain the [Concealed](/condition/concealed-player-core) condition from this smoke. A creature that comes within 5 feet of the cinder rat or begins its turn within 5 feet must succeed at a Fortitude DC 22 save or take a -1 status penalty to all checks and DCs for 1 round *(Use [Sickened 1](/condition/sickened-player-core))*.",
+            "traits": [],
+            "description": "A cloud of smoke surrounds the cinder rat. All creatures within 5 feet, including the cinder rat, gain the [Concealed](/condition/concealed-player-core) condition from this smoke. A creature that comes within 5 feet of the cinder rat or begins its turn within 5 feet must succeed at a Fortitude DC 22 save or take a -1 status penalty to all checks and DCs for 1 round *(Use [Sickened 1](/condition/sickened-player-core))*."
+          }
+        ],
+        "offensive": []
+      },
+      "recallKnowledge": {
+        "dc": 18,
+        "skills": [
+          "arcana",
+          "nature"
+        ],
+        "subjects": [
+          "elemental"
+        ],
+        "entries": [
+          {
+            "subject": "elemental",
+            "skills": [
+              "arcana",
+              "nature"
+            ]
+          }
+        ]
+      },
+      "languagesText": "",
+      "recallKnowledgeText": "DC 18 (Arcana)",
+      "traitLinks": [
+        {
+          "label": "elemental",
+          "slug": "elemental"
+        },
+        {
+          "label": "fire",
+          "slug": "fire"
+        }
+      ],
+      "senseEntries": [
+        {
+          "name": "Darkvision",
+          "reference": "/action/darkvision-monster-core"
+        },
+        {
+          "name": "smoke vision"
+        }
+      ],
+      "immunityEditor": {
+        "entries": [
+          {
+            "name": "Bleed"
+          },
+          {
+            "name": "Fire",
+            "reference": "/trait/fire"
+          },
+          {
+            "name": "Poison",
+            "reference": "/trait/poison"
+          },
+          {
+            "name": "Sleep",
+            "reference": "/trait/sleep"
+          }
+        ]
+      },
+      "skillsEditor": {
+        "skills": {
+          "acrobatics": 10,
+          "stealth": 10,
+          "survival": 9
+        },
+        "loreSkills": []
+      },
+      "weaknessEntries": [
+        {
+          "type": "cold",
+          "value": 5
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "beginner-box-remaster",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "beginner-box-remaster",
+      "elemental",
+      "fire",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Beginner Box (Remaster)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "428A510B-C3EB-5B21-AFC6-24BD84972F70",
+    "kind": "Creature",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Kobold Boss Zolgran (BB)",
+    "slug": "kobold-boss-zolgran-bb-beginner-box-remaster",
+    "descr": "",
+    "data": {
+      "level": 2,
+      "rarity": "common",
+      "size": "small",
+      "traits": [
+        "humanoid",
+        "kobold"
+      ],
+      "attributes": {
+        "str": -1,
+        "dex": 3,
+        "con": 0,
+        "int": 2,
+        "wis": 1,
+        "cha": 4
+      },
+      "perception": 5,
+      "ac": {
+        "value": 17,
+        "details": ""
+      },
+      "hp": {
+        "value": 25,
+        "details": ""
+      },
+      "saves": {
+        "fortitude": 4,
+        "reflex": 7,
+        "will": 7
+      },
+      "skills": {
+        "arcana": 6,
+        "deception": 8,
+        "diplomacy": 8,
+        "intimidation": 8,
+        "stealth": 7
+      },
+      "languages": [
+        "draconic"
+      ],
+      "senses": "[Darkvision](/action/darkvision-monster-core)",
+      "immunities": [],
+      "weaknesses": {},
+      "resistances": {
+        "poison": 5
+      },
+      "movement": {
+        "walk": 25
+      },
+      "attacks": [
+        {
+          "name": "Claw",
+          "type": "melee",
+          "actions": "one",
+          "attack": 7,
+          "traits": [
+            "agile",
+            "finesse"
+          ],
+          "damage": "1d6-1 slashing"
+        },
+        {
+          "name": "Staff",
+          "type": "melee",
+          "actions": "one",
+          "attack": 3,
+          "traits": [],
+          "damage": "1d8-1 bludgeoning"
+        }
+      ],
+      "abilities": {
+        "interaction": [],
+        "defensive": [],
+        "offensive": [
+          {
+            "name": "Sneak Attack",
+            "text": "Zolgran deals an extra 1d6 damage to creatures that have the [Off Guard](/condition/off-guard-player-core) condition.",
+            "traits": [],
+            "description": "Zolgran deals an extra 1d6 damage to creatures that have the [Off Guard](/condition/off-guard-player-core) condition."
+          }
+        ]
+      },
+      "recallKnowledge": {
+        "dc": 16,
+        "skills": [
+          "society"
+        ],
+        "subjects": [
+          "humanoid"
+        ],
+        "entries": [
+          {
+            "subject": "humanoid",
+            "skills": [
+              "society"
+            ]
+          }
+        ]
+      },
+      "languagesText": "Draconic",
+      "recallKnowledgeText": "DC 16 (Society)",
+      "items": "[Staff](/item/staff-player-core), Eggshell Necklace, Iron Key",
+      "traitLinks": [
+        {
+          "label": "humanoid",
+          "slug": "humanoid"
+        },
+        {
+          "label": "kobold",
+          "slug": "kobold"
+        }
+      ],
+      "loreSkills": [
+        {
+          "name": "Dragon Lore",
+          "value": 10
+        }
+      ],
+      "spellcasting": [
+        {
+          "name": "Wizard Spells",
+          "spellGroups": [
+            {
+              "label": "1st (4 slots)",
+              "spells": [
+                {
+                  "name": "Command",
+                  "rank": 1,
+                  "reference": "/spell/command-player-core"
+                },
+                {
+                  "name": "Force Barrage",
+                  "rank": 1,
+                  "reference": "/spell/force-barrage-player-core",
+                  "details": "×3"
+                }
+              ]
+            },
+            {
+              "label": "Cantrips (1st)",
+              "spells": [
+                {
+                  "name": "Detect Magic",
+                  "rank": 1,
+                  "reference": "/spell/detect-magic-player-core"
+                },
+                {
+                  "name": "Figment",
+                  "rank": 1,
+                  "reference": "/spell/figment-player-core"
+                },
+                {
+                  "name": "Gouging Claw",
+                  "rank": 1,
+                  "reference": "/spell/gouging-claw-player-core"
+                },
+                {
+                  "name": "Message",
+                  "rank": 1,
+                  "reference": "/spell/message-player-core"
+                }
+              ]
+            }
+          ],
+          "spellDC": 20,
+          "spellAttack": 12
+        }
+      ],
+      "senseEntries": [
+        {
+          "name": "Darkvision",
+          "reference": "/action/darkvision-monster-core"
+        }
+      ],
+      "itemEntries": [
+        {
+          "name": "Staff",
+          "reference": "/item/staff-player-core"
+        },
+        {
+          "name": "Eggshell Necklace"
+        },
+        {
+          "name": "Iron Key"
+        }
+      ],
+      "skillsEditor": {
+        "skills": {
+          "arcana": 6,
+          "deception": 8,
+          "diplomacy": 8,
+          "intimidation": 8,
+          "stealth": 7
+        },
+        "loreSkills": [
+          {
+            "name": "Dragon Lore",
+            "value": 10
+          }
+        ]
+      },
+      "resistanceEntries": [
+        {
+          "type": "poison",
+          "value": 5
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "beginner-box-remaster",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "beginner-box-remaster",
+      "humanoid",
+      "kobold",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Beginner Box (Remaster)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2814012D-6898-57CF-9E75-DDFFCE298064",
+    "kind": "Creature",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Kobold Mage (Black, BB)",
+    "slug": "kobold-mage-black-bb-beginner-box-remaster",
+    "descr": "",
+    "data": {
+      "level": 2,
+      "rarity": "common",
+      "size": "small",
+      "traits": [
+        "humanoid",
+        "kobold"
+      ],
+      "attributes": {
+        "str": 2,
+        "dex": 2,
+        "con": -1,
+        "int": 2,
+        "wis": 1,
+        "cha": 4
+      },
+      "perception": 5,
+      "ac": {
+        "value": 16,
+        "details": ""
+      },
+      "hp": {
+        "value": 20,
+        "details": ""
+      },
+      "saves": {
+        "fortitude": 5,
+        "reflex": 6,
+        "will": 7
+      },
+      "skills": {
+        "arcana": 7,
+        "deception": 8,
+        "diplomacy": 8,
+        "intimidation": 8,
+        "stealth": 6
+      },
+      "languages": [],
+      "senses": "[Darkvision](/action/darkvision-monster-core)",
+      "immunities": [],
+      "weaknesses": {},
+      "resistances": {
+        "acid": 5
+      },
+      "movement": {
+        "walk": 25
+      },
+      "attacks": [
+        {
+          "name": "Claw",
+          "type": "melee",
+          "actions": "one",
+          "attack": 6,
+          "traits": [
+            "agile",
+            "finesse"
+          ],
+          "damage": "1d6+2 slashing"
+        },
+        {
+          "name": "Staff",
+          "type": "melee",
+          "actions": "one",
+          "attack": 6,
+          "traits": [],
+          "damage": "1d8+2 bludgeoning"
+        }
+      ],
+      "abilities": {
+        "interaction": [],
+        "defensive": [],
+        "offensive": [
+          {
+            "name": "Scamper",
+            "text": "If the kobold is adjacent to at least one enemy, the kobold Strides up to 30 feet and gains a +2 circumstance bonus to AC against reactions triggered by this movement. The kobold must end this movement in a space that's not adjacent to any enemy.",
+            "traits": [],
+            "actions": "one",
+            "description": "If the kobold is adjacent to at least one enemy, the kobold Strides up to 30 feet and gains a +2 circumstance bonus to AC against reactions triggered by this movement. The kobold must end this movement in a space that's not adjacent to any enemy."
+          }
+        ]
+      },
+      "recallKnowledge": {
+        "dc": 16,
+        "skills": [
+          "society"
+        ],
+        "subjects": [
+          "humanoid"
+        ],
+        "entries": [
+          {
+            "subject": "humanoid",
+            "skills": [
+              "society"
+            ]
+          }
+        ]
+      },
+      "languagesText": "",
+      "recallKnowledgeText": "DC 16 (Society)",
+      "items": "[Staff](/item/staff-player-core)",
+      "traitLinks": [
+        {
+          "label": "humanoid",
+          "slug": "humanoid"
+        },
+        {
+          "label": "kobold",
+          "slug": "kobold"
+        }
+      ],
+      "loreSkills": [
+        {
+          "name": "Dragon Lore",
+          "value": 10
+        }
+      ],
+      "spellcasting": [
+        {
+          "name": "Wizard Spells",
+          "spellGroups": [
+            {
+              "label": "1st",
+              "spells": [
+                {
+                  "name": "Command",
+                  "rank": 1,
+                  "reference": "/spell/command-player-core"
+                },
+                {
+                  "name": "Force Barrage",
+                  "rank": 1,
+                  "reference": "/spell/force-barrage-player-core",
+                  "details": "×3"
+                }
+              ]
+            },
+            {
+              "label": "Cantrips (1st)",
+              "spells": [
+                {
+                  "name": "Detect Magic",
+                  "rank": 1,
+                  "reference": "/spell/detect-magic-player-core"
+                },
+                {
+                  "name": "Figment",
+                  "rank": 1,
+                  "reference": "/spell/figment-player-core"
+                },
+                {
+                  "name": "Shield",
+                  "rank": 1,
+                  "reference": "/spell/shield-player-core"
+                },
+                {
+                  "name": "Telekinetic Projectile",
+                  "rank": 1,
+                  "reference": "/spell/telekinetic-projectile-player-core"
+                }
+              ]
+            }
+          ],
+          "spellDC": 18,
+          "spellAttack": 8
+        }
+      ],
+      "senseEntries": [
+        {
+          "name": "Darkvision",
+          "reference": "/action/darkvision-monster-core"
+        }
+      ],
+      "itemEntries": [
+        {
+          "name": "Staff",
+          "reference": "/item/staff-player-core"
+        }
+      ],
+      "skillsEditor": {
+        "skills": {
+          "arcana": 7,
+          "deception": 8,
+          "diplomacy": 8,
+          "intimidation": 8,
+          "stealth": 6
+        },
+        "loreSkills": [
+          {
+            "name": "Dragon Lore",
+            "value": 10
+          }
+        ]
+      },
+      "resistanceEntries": [
+        {
+          "type": "acid",
+          "value": 5
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "beginner-box-remaster",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "beginner-box-remaster",
+      "humanoid",
+      "kobold",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Beginner Box (Remaster)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2943D580-C85E-57B7-BAA6-26C5F5F9FC80",
+    "kind": "Creature",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Kobold Mage (Blue, BB)",
+    "slug": "kobold-mage-blue-bb-beginner-box-remaster",
+    "descr": "",
+    "data": {
+      "level": 2,
+      "rarity": "common",
+      "size": "small",
+      "traits": [
+        "humanoid",
+        "kobold"
+      ],
+      "attributes": {
+        "str": 2,
+        "dex": 2,
+        "con": -1,
+        "int": 2,
+        "wis": 1,
+        "cha": 4
+      },
+      "perception": 5,
+      "ac": {
+        "value": 16,
+        "details": ""
+      },
+      "hp": {
+        "value": 20,
+        "details": ""
+      },
+      "saves": {
+        "fortitude": 5,
+        "reflex": 6,
+        "will": 7
+      },
+      "skills": {
+        "arcana": 7,
+        "deception": 8,
+        "diplomacy": 8,
+        "intimidation": 8,
+        "stealth": 6
+      },
+      "languages": [],
+      "senses": "[Darkvision](/action/darkvision-monster-core)",
+      "immunities": [],
+      "weaknesses": {},
+      "resistances": {
+        "electricity": 5
+      },
+      "movement": {
+        "walk": 25
+      },
+      "attacks": [
+        {
+          "name": "Claw",
+          "type": "melee",
+          "actions": "one",
+          "attack": 6,
+          "traits": [
+            "agile",
+            "finesse"
+          ],
+          "damage": "1d6+2 slashing"
+        },
+        {
+          "name": "Staff",
+          "type": "melee",
+          "actions": "one",
+          "attack": 6,
+          "traits": [],
+          "damage": "1d8+2 bludgeoning"
+        }
+      ],
+      "abilities": {
+        "interaction": [],
+        "defensive": [],
+        "offensive": [
+          {
+            "name": "Scamper",
+            "text": "If the kobold is adjacent to at least one enemy, the kobold Strides up to 30 feet and gains a +2 circumstance bonus to AC against reactions triggered by this movement. The kobold must end this movement in a space that's not adjacent to any enemy.",
+            "traits": [],
+            "actions": "one",
+            "description": "If the kobold is adjacent to at least one enemy, the kobold Strides up to 30 feet and gains a +2 circumstance bonus to AC against reactions triggered by this movement. The kobold must end this movement in a space that's not adjacent to any enemy."
+          }
+        ]
+      },
+      "recallKnowledge": {
+        "dc": 16,
+        "skills": [
+          "society"
+        ],
+        "subjects": [
+          "humanoid"
+        ],
+        "entries": [
+          {
+            "subject": "humanoid",
+            "skills": [
+              "society"
+            ]
+          }
+        ]
+      },
+      "languagesText": "",
+      "recallKnowledgeText": "DC 16 (Society)",
+      "items": "[Staff](/item/staff-player-core)",
+      "traitLinks": [
+        {
+          "label": "humanoid",
+          "slug": "humanoid"
+        },
+        {
+          "label": "kobold",
+          "slug": "kobold"
+        }
+      ],
+      "loreSkills": [
+        {
+          "name": "Dragon Lore",
+          "value": 10
+        }
+      ],
+      "spellcasting": [
+        {
+          "name": "Wizard Spells",
+          "spellGroups": [
+            {
+              "label": "1st",
+              "spells": [
+                {
+                  "name": "Command",
+                  "rank": 1,
+                  "reference": "/spell/command-player-core"
+                },
+                {
+                  "name": "Force Barrage",
+                  "rank": 1,
+                  "reference": "/spell/force-barrage-player-core",
+                  "details": "×3"
+                }
+              ]
+            },
+            {
+              "label": "Cantrips (1st)",
+              "spells": [
+                {
+                  "name": "Detect Magic",
+                  "rank": 1,
+                  "reference": "/spell/detect-magic-player-core"
+                },
+                {
+                  "name": "Figment",
+                  "rank": 1,
+                  "reference": "/spell/figment-player-core"
+                },
+                {
+                  "name": "Shield",
+                  "rank": 1,
+                  "reference": "/spell/shield-player-core"
+                },
+                {
+                  "name": "Telekinetic Projectile",
+                  "rank": 1,
+                  "reference": "/spell/telekinetic-projectile-player-core"
+                }
+              ]
+            }
+          ],
+          "spellDC": 18,
+          "spellAttack": 8
+        }
+      ],
+      "senseEntries": [
+        {
+          "name": "Darkvision",
+          "reference": "/action/darkvision-monster-core"
+        }
+      ],
+      "itemEntries": [
+        {
+          "name": "Staff",
+          "reference": "/item/staff-player-core"
+        }
+      ],
+      "skillsEditor": {
+        "skills": {
+          "arcana": 7,
+          "deception": 8,
+          "diplomacy": 8,
+          "intimidation": 8,
+          "stealth": 6
+        },
+        "loreSkills": [
+          {
+            "name": "Dragon Lore",
+            "value": 10
+          }
+        ]
+      },
+      "resistanceEntries": [
+        {
+          "type": "electricity",
+          "value": 5
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "beginner-box-remaster",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "beginner-box-remaster",
+      "humanoid",
+      "kobold",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Beginner Box (Remaster)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "81ABB8C4-578F-5359-BE84-562015312538",
+    "kind": "Creature",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Kobold Mage (Green, BB)",
+    "slug": "kobold-mage-green-bb-beginner-box-remaster",
+    "descr": "",
+    "data": {
+      "level": 2,
+      "rarity": "common",
+      "size": "small",
+      "traits": [
+        "humanoid",
+        "kobold"
+      ],
+      "attributes": {
+        "str": 2,
+        "dex": 2,
+        "con": -1,
+        "int": 2,
+        "wis": 1,
+        "cha": 4
+      },
+      "perception": 5,
+      "ac": {
+        "value": 16,
+        "details": ""
+      },
+      "hp": {
+        "value": 20,
+        "details": ""
+      },
+      "saves": {
+        "fortitude": 5,
+        "reflex": 6,
+        "will": 7
+      },
+      "skills": {
+        "arcana": 7,
+        "deception": 8,
+        "diplomacy": 8,
+        "intimidation": 8,
+        "stealth": 6
+      },
+      "languages": [],
+      "senses": "[Darkvision](/action/darkvision-monster-core)",
+      "immunities": [],
+      "weaknesses": {},
+      "resistances": {
+        "poison": 5
+      },
+      "movement": {
+        "walk": 25
+      },
+      "attacks": [
+        {
+          "name": "Claw",
+          "type": "melee",
+          "actions": "one",
+          "attack": 6,
+          "traits": [
+            "agile",
+            "finesse"
+          ],
+          "damage": "1d6+2 slashing"
+        },
+        {
+          "name": "Staff",
+          "type": "melee",
+          "actions": "one",
+          "attack": 6,
+          "traits": [],
+          "damage": "1d8+2 bludgeoning"
+        }
+      ],
+      "abilities": {
+        "interaction": [],
+        "defensive": [],
+        "offensive": [
+          {
+            "name": "Scamper",
+            "text": "If the kobold is adjacent to at least one enemy, the kobold Strides up to 30 feet and gains a +2 circumstance bonus to AC against reactions triggered by this movement. The kobold must end this movement in a space that's not adjacent to any enemy.",
+            "traits": [],
+            "actions": "one",
+            "description": "If the kobold is adjacent to at least one enemy, the kobold Strides up to 30 feet and gains a +2 circumstance bonus to AC against reactions triggered by this movement. The kobold must end this movement in a space that's not adjacent to any enemy."
+          }
+        ]
+      },
+      "recallKnowledge": {
+        "dc": 16,
+        "skills": [
+          "society"
+        ],
+        "subjects": [
+          "humanoid"
+        ],
+        "entries": [
+          {
+            "subject": "humanoid",
+            "skills": [
+              "society"
+            ]
+          }
+        ]
+      },
+      "languagesText": "",
+      "recallKnowledgeText": "DC 16 (Society)",
+      "items": "[Staff](/item/staff-player-core)",
+      "traitLinks": [
+        {
+          "label": "humanoid",
+          "slug": "humanoid"
+        },
+        {
+          "label": "kobold",
+          "slug": "kobold"
+        }
+      ],
+      "loreSkills": [
+        {
+          "name": "Dragon Lore",
+          "value": 10
+        }
+      ],
+      "spellcasting": [
+        {
+          "name": "Wizard Spells",
+          "spellGroups": [
+            {
+              "label": "1st",
+              "spells": [
+                {
+                  "name": "Command",
+                  "rank": 1,
+                  "reference": "/spell/command-player-core"
+                },
+                {
+                  "name": "Force Barrage",
+                  "rank": 1,
+                  "reference": "/spell/force-barrage-player-core",
+                  "details": "×3"
+                }
+              ]
+            },
+            {
+              "label": "Cantrips (1st)",
+              "spells": [
+                {
+                  "name": "Detect Magic",
+                  "rank": 1,
+                  "reference": "/spell/detect-magic-player-core"
+                },
+                {
+                  "name": "Figment",
+                  "rank": 1,
+                  "reference": "/spell/figment-player-core"
+                },
+                {
+                  "name": "Shield",
+                  "rank": 1,
+                  "reference": "/spell/shield-player-core"
+                },
+                {
+                  "name": "Telekinetic Projectile",
+                  "rank": 1,
+                  "reference": "/spell/telekinetic-projectile-player-core"
+                }
+              ]
+            }
+          ],
+          "spellDC": 18,
+          "spellAttack": 8
+        }
+      ],
+      "senseEntries": [
+        {
+          "name": "Darkvision",
+          "reference": "/action/darkvision-monster-core"
+        }
+      ],
+      "itemEntries": [
+        {
+          "name": "Staff",
+          "reference": "/item/staff-player-core"
+        }
+      ],
+      "skillsEditor": {
+        "skills": {
+          "arcana": 7,
+          "deception": 8,
+          "diplomacy": 8,
+          "intimidation": 8,
+          "stealth": 6
+        },
+        "loreSkills": [
+          {
+            "name": "Dragon Lore",
+            "value": 10
+          }
+        ]
+      },
+      "resistanceEntries": [
+        {
+          "type": "poison",
+          "value": 5
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "beginner-box-remaster",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "beginner-box-remaster",
+      "humanoid",
+      "kobold",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Beginner Box (Remaster)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "851451C6-6613-5C79-95AD-81A84DBBD833",
+    "kind": "Creature",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Kobold Mage (Red, BB)",
+    "slug": "kobold-mage-red-bb-beginner-box-remaster",
+    "descr": "",
+    "data": {
+      "level": 2,
+      "rarity": "common",
+      "size": "small",
+      "traits": [
+        "humanoid",
+        "kobold"
+      ],
+      "attributes": {
+        "str": 2,
+        "dex": 2,
+        "con": -1,
+        "int": 2,
+        "wis": 1,
+        "cha": 4
+      },
+      "perception": 5,
+      "ac": {
+        "value": 16,
+        "details": ""
+      },
+      "hp": {
+        "value": 20,
+        "details": ""
+      },
+      "saves": {
+        "fortitude": 5,
+        "reflex": 6,
+        "will": 7
+      },
+      "skills": {
+        "arcana": 7,
+        "deception": 8,
+        "diplomacy": 8,
+        "intimidation": 8,
+        "stealth": 6
+      },
+      "languages": [],
+      "senses": "[Darkvision](/action/darkvision-monster-core)",
+      "immunities": [],
+      "weaknesses": {},
+      "resistances": {
+        "fire": 5
+      },
+      "movement": {
+        "walk": 25
+      },
+      "attacks": [
+        {
+          "name": "Claw",
+          "type": "melee",
+          "actions": "one",
+          "attack": 6,
+          "traits": [
+            "agile",
+            "finesse"
+          ],
+          "damage": "1d6+2 slashing"
+        },
+        {
+          "name": "Staff",
+          "type": "melee",
+          "actions": "one",
+          "attack": 6,
+          "traits": [],
+          "damage": "1d8+2 bludgeoning"
+        }
+      ],
+      "abilities": {
+        "interaction": [],
+        "defensive": [],
+        "offensive": [
+          {
+            "name": "Scamper",
+            "text": "If the kobold is adjacent to at least one enemy, the kobold Strides up to 30 feet and gains a +2 circumstance bonus to AC against reactions triggered by this movement. The kobold must end this movement in a space that's not adjacent to any enemy.",
+            "traits": [],
+            "actions": "one",
+            "description": "If the kobold is adjacent to at least one enemy, the kobold Strides up to 30 feet and gains a +2 circumstance bonus to AC against reactions triggered by this movement. The kobold must end this movement in a space that's not adjacent to any enemy."
+          }
+        ]
+      },
+      "recallKnowledge": {
+        "dc": 16,
+        "skills": [
+          "society"
+        ],
+        "subjects": [
+          "humanoid"
+        ],
+        "entries": [
+          {
+            "subject": "humanoid",
+            "skills": [
+              "society"
+            ]
+          }
+        ]
+      },
+      "languagesText": "",
+      "recallKnowledgeText": "DC 16 (Society)",
+      "items": "[Staff](/item/staff-player-core)",
+      "traitLinks": [
+        {
+          "label": "humanoid",
+          "slug": "humanoid"
+        },
+        {
+          "label": "kobold",
+          "slug": "kobold"
+        }
+      ],
+      "loreSkills": [
+        {
+          "name": "Dragon Lore",
+          "value": 10
+        }
+      ],
+      "spellcasting": [
+        {
+          "name": "Wizard Spells",
+          "spellGroups": [
+            {
+              "label": "1st",
+              "spells": [
+                {
+                  "name": "Command",
+                  "rank": 1,
+                  "reference": "/spell/command-player-core"
+                },
+                {
+                  "name": "Force Barrage",
+                  "rank": 1,
+                  "reference": "/spell/force-barrage-player-core",
+                  "details": "×3"
+                }
+              ]
+            },
+            {
+              "label": "Cantrips (1st)",
+              "spells": [
+                {
+                  "name": "Detect Magic",
+                  "rank": 1,
+                  "reference": "/spell/detect-magic-player-core"
+                },
+                {
+                  "name": "Figment",
+                  "rank": 1,
+                  "reference": "/spell/figment-player-core"
+                },
+                {
+                  "name": "Shield",
+                  "rank": 1,
+                  "reference": "/spell/shield-player-core"
+                },
+                {
+                  "name": "Telekinetic Projectile",
+                  "rank": 1,
+                  "reference": "/spell/telekinetic-projectile-player-core"
+                }
+              ]
+            }
+          ],
+          "spellDC": 18,
+          "spellAttack": 8
+        }
+      ],
+      "senseEntries": [
+        {
+          "name": "Darkvision",
+          "reference": "/action/darkvision-monster-core"
+        }
+      ],
+      "itemEntries": [
+        {
+          "name": "Staff",
+          "reference": "/item/staff-player-core"
+        }
+      ],
+      "skillsEditor": {
+        "skills": {
+          "arcana": 7,
+          "deception": 8,
+          "diplomacy": 8,
+          "intimidation": 8,
+          "stealth": 6
+        },
+        "loreSkills": [
+          {
+            "name": "Dragon Lore",
+            "value": 10
+          }
+        ]
+      },
+      "resistanceEntries": [
+        {
+          "type": "fire",
+          "value": 5
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "beginner-box-remaster",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "beginner-box-remaster",
+      "humanoid",
+      "kobold",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Beginner Box (Remaster)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8FA2956B-7740-5A84-A19D-4F1A587460E2",
+    "kind": "Creature",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Kobold Mage (White, BB)",
+    "slug": "kobold-mage-white-bb-beginner-box-remaster",
+    "descr": "",
+    "data": {
+      "level": 2,
+      "rarity": "common",
+      "size": "small",
+      "traits": [
+        "humanoid",
+        "kobold"
+      ],
+      "attributes": {
+        "str": 2,
+        "dex": 2,
+        "con": -1,
+        "int": 2,
+        "wis": 1,
+        "cha": 4
+      },
+      "perception": 5,
+      "ac": {
+        "value": 16,
+        "details": ""
+      },
+      "hp": {
+        "value": 20,
+        "details": ""
+      },
+      "saves": {
+        "fortitude": 5,
+        "reflex": 6,
+        "will": 7
+      },
+      "skills": {
+        "arcana": 7,
+        "deception": 8,
+        "diplomacy": 8,
+        "intimidation": 8,
+        "stealth": 6
+      },
+      "languages": [],
+      "senses": "[Darkvision](/action/darkvision-monster-core)",
+      "immunities": [],
+      "weaknesses": {},
+      "resistances": {
+        "cold": 5
+      },
+      "movement": {
+        "walk": 25
+      },
+      "attacks": [
+        {
+          "name": "Claw",
+          "type": "melee",
+          "actions": "one",
+          "attack": 6,
+          "traits": [
+            "agile",
+            "finesse"
+          ],
+          "damage": "1d6+2 slashing"
+        },
+        {
+          "name": "Staff",
+          "type": "melee",
+          "actions": "one",
+          "attack": 6,
+          "traits": [],
+          "damage": "1d8+2 bludgeoning"
+        }
+      ],
+      "abilities": {
+        "interaction": [],
+        "defensive": [],
+        "offensive": [
+          {
+            "name": "Scamper",
+            "text": "If the kobold is adjacent to at least one enemy, the kobold Strides up to 30 feet and gains a +2 circumstance bonus to AC against reactions triggered by this movement. The kobold must end this movement in a space that's not adjacent to any enemy.",
+            "traits": [],
+            "actions": "one",
+            "description": "If the kobold is adjacent to at least one enemy, the kobold Strides up to 30 feet and gains a +2 circumstance bonus to AC against reactions triggered by this movement. The kobold must end this movement in a space that's not adjacent to any enemy."
+          }
+        ]
+      },
+      "recallKnowledge": {
+        "dc": 16,
+        "skills": [
+          "society"
+        ],
+        "subjects": [
+          "humanoid"
+        ],
+        "entries": [
+          {
+            "subject": "humanoid",
+            "skills": [
+              "society"
+            ]
+          }
+        ]
+      },
+      "languagesText": "",
+      "recallKnowledgeText": "DC 16 (Society)",
+      "items": "[Staff](/item/staff-player-core)",
+      "traitLinks": [
+        {
+          "label": "humanoid",
+          "slug": "humanoid"
+        },
+        {
+          "label": "kobold",
+          "slug": "kobold"
+        }
+      ],
+      "loreSkills": [
+        {
+          "name": "Dragon Lore",
+          "value": 10
+        }
+      ],
+      "spellcasting": [
+        {
+          "name": "Wizard Spells",
+          "spellGroups": [
+            {
+              "label": "1st",
+              "spells": [
+                {
+                  "name": "Command",
+                  "rank": 1,
+                  "reference": "/spell/command-player-core"
+                },
+                {
+                  "name": "Force Barrage",
+                  "rank": 1,
+                  "reference": "/spell/force-barrage-player-core",
+                  "details": "×3"
+                }
+              ]
+            },
+            {
+              "label": "Cantrips (1st)",
+              "spells": [
+                {
+                  "name": "Detect Magic",
+                  "rank": 1,
+                  "reference": "/spell/detect-magic-player-core"
+                },
+                {
+                  "name": "Figment",
+                  "rank": 1,
+                  "reference": "/spell/figment-player-core"
+                },
+                {
+                  "name": "Shield",
+                  "rank": 1,
+                  "reference": "/spell/shield-player-core"
+                },
+                {
+                  "name": "Telekinetic Projectile",
+                  "rank": 1,
+                  "reference": "/spell/telekinetic-projectile-player-core"
+                }
+              ]
+            }
+          ],
+          "spellDC": 18,
+          "spellAttack": 8
+        }
+      ],
+      "senseEntries": [
+        {
+          "name": "Darkvision",
+          "reference": "/action/darkvision-monster-core"
+        }
+      ],
+      "itemEntries": [
+        {
+          "name": "Staff",
+          "reference": "/item/staff-player-core"
+        }
+      ],
+      "skillsEditor": {
+        "skills": {
+          "arcana": 7,
+          "deception": 8,
+          "diplomacy": 8,
+          "intimidation": 8,
+          "stealth": 6
+        },
+        "loreSkills": [
+          {
+            "name": "Dragon Lore",
+            "value": 10
+          }
+        ]
+      },
+      "resistanceEntries": [
+        {
+          "type": "cold",
+          "value": 5
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "beginner-box-remaster",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "beginner-box-remaster",
+      "humanoid",
+      "kobold",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Beginner Box (Remaster)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2FC25A1C-18FA-5789-B0F2-9C9FA23634AF",
+    "kind": "Creature",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Kobold Scout (BB)",
+    "slug": "kobold-scout-bb-beginner-box-remaster",
+    "descr": "",
+    "data": {
+      "level": 1,
+      "rarity": "common",
+      "size": "small",
+      "traits": [
+        "humanoid",
+        "kobold"
+      ],
+      "attributes": {
+        "str": 0,
+        "dex": 4,
+        "con": 1,
+        "int": 0,
+        "wis": 3,
+        "cha": 1
+      },
+      "perception": 8,
+      "ac": {
+        "value": 16,
+        "details": ""
+      },
+      "hp": {
+        "value": 16,
+        "details": ""
+      },
+      "saves": {
+        "fortitude": 5,
+        "reflex": 9,
+        "will": 6
+      },
+      "skills": {
+        "acrobatics": 7,
+        "crafting": 3,
+        "nature": 6,
+        "stealth": 7,
+        "survival": 6
+      },
+      "languages": [],
+      "senses": "[Darkvision](/action/darkvision-monster-core)",
+      "immunities": [],
+      "weaknesses": {},
+      "resistances": {},
+      "movement": {
+        "walk": 25
+      },
+      "attacks": [
+        {
+          "name": "Shortsword",
+          "type": "melee",
+          "actions": "one",
+          "attack": 9,
+          "traits": [
+            "agile",
+            "finesse",
+            "versatile-s"
+          ],
+          "damage": "1d6 piercing"
+        },
+        {
+          "name": "Crossbow",
+          "type": "ranged",
+          "actions": "one",
+          "attack": 9,
+          "traits": [
+            "reload-1",
+            "range-increment-120"
+          ],
+          "damage": "1d8 piercing"
+        }
+      ],
+      "abilities": {
+        "interaction": [],
+        "defensive": [],
+        "offensive": [
+          {
+            "name": "Scamper",
+            "text": "If the kobold is adjacent to at least one enemy, the kobold Strides up to 30 feet and gains a +2 circumstance bonus to AC against reactions triggered by this movement. The kobold must end this movement in a space that's not adjacent to any enemy.",
+            "traits": [],
+            "actions": "one",
+            "description": "If the kobold is adjacent to at least one enemy, the kobold Strides up to 30 feet and gains a +2 circumstance bonus to AC against reactions triggered by this movement. The kobold must end this movement in a space that's not adjacent to any enemy."
+          },
+          {
+            "name": "Sneak Attack",
+            "text": "The kobold scout deals an extra 1d6 damage to creatures that have the [Off Guard](/condition/off-guard-player-core) condition.",
+            "traits": [],
+            "description": "The kobold scout deals an extra 1d6 damage to creatures that have the [Off Guard](/condition/off-guard-player-core) condition."
+          }
+        ]
+      },
+      "recallKnowledge": {
+        "dc": 15,
+        "skills": [
+          "society"
+        ],
+        "subjects": [
+          "humanoid"
+        ],
+        "entries": [
+          {
+            "subject": "humanoid",
+            "skills": [
+              "society"
+            ]
+          }
+        ]
+      },
+      "languagesText": "",
+      "recallKnowledgeText": "DC 15 (Society)",
+      "items": "[Crossbow](/item/crossbow-player-core), [Shortsword](/item/shortsword-player-core), [Leather Armor](/item/leather-armor-player-core)",
+      "traitLinks": [
+        {
+          "label": "humanoid",
+          "slug": "humanoid"
+        },
+        {
+          "label": "kobold",
+          "slug": "kobold"
+        }
+      ],
+      "senseEntries": [
+        {
+          "name": "Darkvision",
+          "reference": "/action/darkvision-monster-core"
+        }
+      ],
+      "itemEntries": [
+        {
+          "name": "Crossbow",
+          "reference": "/item/crossbow-player-core"
+        },
+        {
+          "name": "Shortsword",
+          "reference": "/item/shortsword-player-core"
+        },
+        {
+          "name": "Leather Armor",
+          "reference": "/item/leather-armor-player-core"
+        }
+      ],
+      "skillsEditor": {
+        "skills": {
+          "acrobatics": 7,
+          "crafting": 3,
+          "nature": 6,
+          "stealth": 7,
+          "survival": 6
+        },
+        "loreSkills": []
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "beginner-box-remaster",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "beginner-box-remaster",
+      "humanoid",
+      "kobold",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Beginner Box (Remaster)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "43AF887F-AB9C-5357-B107-2AE768D0A291",
+    "kind": "Creature",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Kobold Trapmaster (BB)",
+    "slug": "kobold-trapmaster-bb-beginner-box-remaster",
+    "descr": "",
+    "data": {
+      "level": 2,
+      "rarity": "common",
+      "size": "small",
+      "traits": [
+        "humanoid",
+        "kobold"
+      ],
+      "attributes": {
+        "str": 2,
+        "dex": 4,
+        "con": 1,
+        "int": 4,
+        "wis": 3,
+        "cha": 1
+      },
+      "perception": 6,
+      "ac": {
+        "value": 19,
+        "details": ""
+      },
+      "hp": {
+        "value": 28,
+        "details": ""
+      },
+      "saves": {
+        "fortitude": 7,
+        "reflex": 10,
+        "will": 5
+      },
+      "skills": {
+        "acrobatics": 7,
+        "crafting": 8,
+        "stealth": 7
+      },
+      "languages": [],
+      "senses": "[Darkvision](/action/darkvision-monster-core)",
+      "immunities": [],
+      "weaknesses": {},
+      "resistances": {},
+      "movement": {
+        "walk": 25
+      },
+      "attacks": [
+        {
+          "name": "Shortsword",
+          "type": "melee",
+          "actions": "one",
+          "attack": 8,
+          "traits": [
+            "agile",
+            "finesse",
+            "versatile-s"
+          ],
+          "damage": "1d6+2 piercing"
+        },
+        {
+          "name": "Spear",
+          "type": "ranged",
+          "actions": "one",
+          "attack": 10,
+          "traits": [
+            "thrown-20"
+          ],
+          "damage": "1d6+2 piercing"
+        }
+      ],
+      "abilities": {
+        "interaction": [],
+        "defensive": [],
+        "offensive": [
+          {
+            "name": "Quick Trap",
+            "text": "The kobold trapmaster deploys one of their spike traps in an adjacent square.\n\nOnce this trap is deployed in a square, it deals 2d8 piercing|name:Spike Trap] damage to anyone who steps on that square and they must attempt a basic Reflex DC 17 saving throw. A hero takes no damage on a critical success, half damage on a success, full damage on a failure, and double damage on a critical failure. These traps can be disabled with a successful Thievery DC 15 check.",
+            "traits": [],
+            "actions": "three",
+            "description": "The kobold trapmaster deploys one of their spike traps in an adjacent square.\n\nOnce this trap is deployed in a square, it deals 2d8 piercing|name:Spike Trap] damage to anyone who steps on that square and they must attempt a basic Reflex DC 17 saving throw. A hero takes no damage on a critical success, half damage on a success, full damage on a failure, and double damage on a critical failure. These traps can be disabled with a successful Thievery DC 15 check."
+          },
+          {
+            "name": "Scamper",
+            "text": "If the kobold is adjacent to at least one enemy, the kobold Strides up to 30 feet and gains a +2 circumstance bonus to AC against reactions triggered by this movement. The kobold must end this movement in a space that's not adjacent to any enemy.",
+            "traits": [],
+            "actions": "one",
+            "description": "If the kobold is adjacent to at least one enemy, the kobold Strides up to 30 feet and gains a +2 circumstance bonus to AC against reactions triggered by this movement. The kobold must end this movement in a space that's not adjacent to any enemy."
+          },
+          {
+            "name": "Sneak Attack",
+            "text": "The kobold trapmaster deals an extra 1d6 damage to creatures that have the [Off Guard](/condition/off-guard-player-core) condition.",
+            "traits": [],
+            "description": "The kobold trapmaster deals an extra 1d6 damage to creatures that have the [Off Guard](/condition/off-guard-player-core) condition."
+          }
+        ]
+      },
+      "recallKnowledge": {
+        "dc": 16,
+        "skills": [
+          "society"
+        ],
+        "subjects": [
+          "humanoid"
+        ],
+        "entries": [
+          {
+            "subject": "humanoid",
+            "skills": [
+              "society"
+            ]
+          }
+        ]
+      },
+      "languagesText": "",
+      "recallKnowledgeText": "DC 16 (Society)",
+      "items": "[Shortsword](/item/shortsword-player-core), [Spear](/item/spear-player-core) (3), [Leather Armor](/item/leather-armor-player-core), Spike Trap",
+      "traitLinks": [
+        {
+          "label": "humanoid",
+          "slug": "humanoid"
+        },
+        {
+          "label": "kobold",
+          "slug": "kobold"
+        }
+      ],
+      "senseEntries": [
+        {
+          "name": "Darkvision",
+          "reference": "/action/darkvision-monster-core"
+        }
+      ],
+      "itemEntries": [
+        {
+          "name": "Shortsword",
+          "reference": "/item/shortsword-player-core"
+        },
+        {
+          "name": "Spear",
+          "reference": "/item/spear-player-core",
+          "quantity": 3
+        },
+        {
+          "name": "Leather Armor",
+          "reference": "/item/leather-armor-player-core"
+        },
+        {
+          "name": "Spike Trap"
+        }
+      ],
+      "skillsEditor": {
+        "skills": {
+          "acrobatics": 7,
+          "crafting": 8,
+          "stealth": 7
+        },
+        "loreSkills": []
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "beginner-box-remaster",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "beginner-box-remaster",
+      "humanoid",
+      "kobold",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Beginner Box (Remaster)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "698DBA6A-9E39-5B24-A8F3-DD60D3BF1B89",
+    "kind": "Creature",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Kobold Warrior (BB)",
+    "slug": "kobold-warrior-bb-beginner-box-remaster",
+    "descr": "",
+    "data": {
+      "level": -1,
+      "rarity": "common",
+      "size": "small",
+      "traits": [
+        "humanoid",
+        "kobold"
+      ],
+      "attributes": {
+        "str": 1,
+        "dex": 3,
+        "con": 0,
+        "int": 0,
+        "wis": 1,
+        "cha": -1
+      },
+      "perception": 3,
+      "ac": {
+        "value": 16,
+        "details": ""
+      },
+      "hp": {
+        "value": 7,
+        "details": ""
+      },
+      "saves": {
+        "fortitude": 4,
+        "reflex": 7,
+        "will": 3
+      },
+      "skills": {
+        "acrobatics": 5,
+        "crafting": 2,
+        "stealth": 5
+      },
+      "languages": [],
+      "senses": "[Darkvision](/action/darkvision-monster-core)",
+      "immunities": [],
+      "weaknesses": {},
+      "resistances": {},
+      "movement": {
+        "walk": 25
+      },
+      "attacks": [
+        {
+          "name": "Spear",
+          "type": "melee",
+          "actions": "one",
+          "attack": 3,
+          "traits": [],
+          "damage": "1d6+1 piercing"
+        },
+        {
+          "name": "Spear",
+          "type": "ranged",
+          "actions": "one",
+          "attack": 5,
+          "traits": [
+            "thrown-20"
+          ],
+          "damage": "1d6+1 piercing"
+        }
+      ],
+      "abilities": {
+        "interaction": [],
+        "defensive": [],
+        "offensive": [
+          {
+            "name": "Scamper",
+            "text": "If the kobold is adjacent to at least one enemy, the kobold Strides up to 30 feet and gains a +2 circumstance bonus to AC against reactions triggered by this movement. The kobold must end this movement in a space that's not adjacent to any enemy.",
+            "traits": [],
+            "actions": "one",
+            "description": "If the kobold is adjacent to at least one enemy, the kobold Strides up to 30 feet and gains a +2 circumstance bonus to AC against reactions triggered by this movement. The kobold must end this movement in a space that's not adjacent to any enemy."
+          },
+          {
+            "name": "Sneak Attack",
+            "text": "The kobold warrior deals an extra 1d4 damage to creatures that have the [Off Guard](/condition/off-guard-player-core) condition.",
+            "traits": [],
+            "description": "The kobold warrior deals an extra 1d4 damage to creatures that have the [Off Guard](/condition/off-guard-player-core) condition."
+          }
+        ]
+      },
+      "recallKnowledge": {
+        "dc": 13,
+        "skills": [
+          "society"
+        ],
+        "subjects": [
+          "humanoid"
+        ],
+        "entries": [
+          {
+            "subject": "humanoid",
+            "skills": [
+              "society"
+            ]
+          }
+        ]
+      },
+      "languagesText": "",
+      "recallKnowledgeText": "DC 13 (Society)",
+      "items": "[Spear](/item/spear-player-core), [Leather Armor](/item/leather-armor-player-core)",
+      "traitLinks": [
+        {
+          "label": "humanoid",
+          "slug": "humanoid"
+        },
+        {
+          "label": "kobold",
+          "slug": "kobold"
+        }
+      ],
+      "senseEntries": [
+        {
+          "name": "Darkvision",
+          "reference": "/action/darkvision-monster-core"
+        }
+      ],
+      "itemEntries": [
+        {
+          "name": "Spear",
+          "reference": "/item/spear-player-core"
+        },
+        {
+          "name": "Leather Armor",
+          "reference": "/item/leather-armor-player-core"
+        }
+      ],
+      "skillsEditor": {
+        "skills": {
+          "acrobatics": 5,
+          "crafting": 2,
+          "stealth": 5
+        },
+        "loreSkills": []
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "beginner-box-remaster",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "beginner-box-remaster",
+      "humanoid",
+      "kobold",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Beginner Box (Remaster)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0DE8124F-D908-5A1F-AA01-54060CCF9CFF",
+    "kind": "Creature",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Pugwampi (BB)",
+    "slug": "pugwampi-bb-beginner-box-remaster",
+    "descr": "",
+    "data": {
+      "level": 0,
+      "rarity": "common",
+      "size": "tiny",
+      "traits": [
+        "fey",
+        "gremlin"
+      ],
+      "attributes": {
+        "str": -3,
+        "dex": 3,
+        "con": 0,
+        "int": 0,
+        "wis": 2,
+        "cha": -2
+      },
+      "perception": 6,
+      "ac": {
+        "value": 14,
+        "details": ""
+      },
+      "hp": {
+        "value": 17,
+        "details": ""
+      },
+      "saves": {
+        "fortitude": 5,
+        "reflex": 8,
+        "will": 6
+      },
+      "skills": {
+        "crafting": 2,
+        "deception": 2,
+        "nature": 4,
+        "stealth": 5,
+        "thievery": 5
+      },
+      "languages": [],
+      "senses": "[Darkvision](/action/darkvision-monster-core), (-2 to hear things)",
+      "immunities": [],
+      "weaknesses": {
+        "cold-iron": 2
+      },
+      "resistances": {},
+      "movement": {
+        "walk": 25
+      },
+      "attacks": [
+        {
+          "name": "Shortsword",
+          "type": "melee",
+          "actions": "one",
+          "attack": 8,
+          "traits": [
+            "agile",
+            "finesse",
+            "magical",
+            "versatile-s"
+          ],
+          "damage": "1d6-1 slashing"
+        },
+        {
+          "name": "Shortbow",
+          "type": "ranged",
+          "actions": "one",
+          "attack": 8,
+          "traits": [
+            "deadly-d10",
+            "magical",
+            "reload-0",
+            "range-increment-60"
+          ],
+          "damage": "1d6-1 piercing"
+        }
+      ],
+      "abilities": {
+        "interaction": [
+          {
+            "name": "Animal Talker",
+            "text": "Pugwampis can talk to and understand animals.",
+            "traits": [],
+            "description": "Pugwampis can talk to and understand animals."
+          }
+        ],
+        "defensive": [
+          {
+            "name": "Unluck Aura",
+            "text": "Creatures other than animals, gremlins, and kholo within 20 feet become extremely unlucky. They must attempt a Will DC 16 save, rolling this Will save twice and using the worse result.\n\nOn a successful save, the creature can't be affected by pugwampi unluck auras for 24 hours. On a failure, the creature must roll twice and use the worse result on all checks as long as it's within 20 feet of the pugwampi.\n\nMultiple pugwampis don't create any increased effect.",
+            "traits": [
+              "mental",
+              "primal"
+            ],
+            "description": "Creatures other than animals, gremlins, and kholo within 20 feet become extremely unlucky. They must attempt a Will DC 16 save, rolling this Will save twice and using the worse result.\n\nOn a successful save, the creature can't be affected by pugwampi unluck auras for 24 hours. On a failure, the creature must roll twice and use the worse result on all checks as long as it's within 20 feet of the pugwampi.\n\nMultiple pugwampis don't create any increased effect."
+          }
+        ],
+        "offensive": []
+      },
+      "recallKnowledge": {
+        "dc": 14,
+        "skills": [
+          "nature"
+        ],
+        "subjects": [
+          "fey"
+        ],
+        "entries": [
+          {
+            "subject": "fey",
+            "skills": [
+              "nature"
+            ]
+          }
+        ]
+      },
+      "languagesText": "",
+      "recallKnowledgeText": "DC 14 (Nature)",
+      "items": "[Shortbow](/item/shortbow-player-core), [Shortsword](/item/shortsword-player-core)",
+      "traitLinks": [
+        {
+          "label": "fey",
+          "slug": "fey"
+        },
+        {
+          "label": "gremlin",
+          "slug": "gremlin"
+        }
+      ],
+      "senseEntries": [
+        {
+          "name": "Darkvision",
+          "reference": "/action/darkvision-monster-core"
+        },
+        {
+          "name": "(-2 to hear things)"
+        }
+      ],
+      "itemEntries": [
+        {
+          "name": "Shortbow",
+          "reference": "/item/shortbow-player-core"
+        },
+        {
+          "name": "Shortsword",
+          "reference": "/item/shortsword-player-core"
+        }
+      ],
+      "skillsEditor": {
+        "skills": {
+          "crafting": 2,
+          "deception": 2,
+          "nature": 4,
+          "stealth": 5,
+          "thievery": 5
+        },
+        "loreSkills": []
+      },
+      "weaknessEntries": [
+        {
+          "type": "cold-iron",
+          "value": 2
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "beginner-box-remaster",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "beginner-box-remaster",
+      "fey",
+      "gremlin",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Beginner Box (Remaster)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "80012C13-C27B-589F-8831-90E0E8A3A189",
+    "kind": "Creature",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Reefclaw (BB)",
+    "slug": "reefclaw-bb-beginner-box-remaster",
+    "descr": "",
+    "data": {
+      "level": 1,
+      "rarity": "common",
+      "size": "small",
+      "traits": [
+        "aberration",
+        "aquatic"
+      ],
+      "attributes": {
+        "str": 1,
+        "dex": 4,
+        "con": 2,
+        "int": -3,
+        "wis": 1,
+        "cha": 1
+      },
+      "perception": 8,
+      "ac": {
+        "value": 20,
+        "details": ""
+      },
+      "hp": {
+        "value": 17,
+        "details": ""
+      },
+      "saves": {
+        "fortitude": 7,
+        "reflex": 9,
+        "will": 4
+      },
+      "skills": {
+        "acrobatics": 7,
+        "athletics": 4
+      },
+      "languages": [],
+      "senses": "[Darkvision](/action/darkvision-monster-core)",
+      "immunities": [],
+      "weaknesses": {},
+      "resistances": {},
+      "movement": {
+        "walk": 5,
+        "swim": 30
+      },
+      "attacks": [
+        {
+          "name": "Claw",
+          "type": "melee",
+          "actions": "one",
+          "attack": 9,
+          "traits": [
+            "finesse"
+          ],
+          "damage": "1d6+1 slashing",
+          "effects": [
+            {
+              "name": "Grab",
+              "reference": "/action/grab-monster-core"
+            },
+            {
+              "name": "Reefclaw Venom"
+            }
+          ]
+        }
+      ],
+      "abilities": {
+        "interaction": [],
+        "defensive": [
+          {
+            "name": "Death Frenzy",
+            "text": "When the reefclaw is reduced to 0 hit points it can spend this reaction to make a claw [Strike](/action/strike-player-core) before dying.",
+            "traits": [],
+            "actions": "reaction",
+            "description": "When the reefclaw is reduced to 0 hit points it can spend this reaction to make a claw [Strike](/action/strike-player-core) before dying."
+          }
+        ],
+        "offensive": [
+          {
+            "name": "Constrict",
+            "text": "If the reefclaw has a creature [Grabbed](/condition/grabbed-player-core) or [Restrained](/condition/restrained-player-core), it can spend one action to crush them in its coils. The creature takes 1d6 bludgeoning damage depending on its basic Fortitude DC 17 save.",
+            "traits": [],
+            "actions": "one",
+            "reference": "/action/constrict-monster-core",
+            "description": "If the reefclaw has a creature [Grabbed](/condition/grabbed-player-core) or [Restrained](/condition/restrained-player-core), it can spend one action to crush them in its coils. The creature takes 1d6 bludgeoning damage depending on its basic Fortitude DC 17 save."
+          },
+          {
+            "name": "Reefclaw Venom",
+            "text": "A target that takes slashing damage from the reefclaw's claw [Strike](/action/strike-player-core) must succeed at a Fortitude DC 17 save or take 1d6 poison damage.",
+            "traits": [
+              "poison"
+            ],
+            "description": "A target that takes slashing damage from the reefclaw's claw [Strike](/action/strike-player-core) must succeed at a Fortitude DC 17 save or take 1d6 poison damage."
+          }
+        ]
+      },
+      "recallKnowledge": {
+        "dc": 15,
+        "skills": [
+          "occultism"
+        ],
+        "subjects": [
+          "aberration"
+        ],
+        "entries": [
+          {
+            "subject": "aberration",
+            "skills": [
+              "occultism"
+            ]
+          }
+        ]
+      },
+      "languagesText": "",
+      "recallKnowledgeText": "DC 15 (Occultism)",
+      "traitLinks": [
+        {
+          "label": "aberration",
+          "slug": "aberration"
+        },
+        {
+          "label": "aquatic",
+          "slug": "aquatic"
+        }
+      ],
+      "senseEntries": [
+        {
+          "name": "Darkvision",
+          "reference": "/action/darkvision-monster-core"
+        }
+      ],
+      "skillsEditor": {
+        "skills": {
+          "acrobatics": 7,
+          "athletics": 4
+        },
+        "loreSkills": []
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "beginner-box-remaster",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "aberration",
+      "aquatic",
+      "beginner-box-remaster",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Beginner Box (Remaster)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3234BDA3-C26C-5FE7-BC23-D2A0FF091832",
+    "kind": "Creature",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Sewer Ooze (BB)",
+    "slug": "sewer-ooze-bb-beginner-box-remaster",
+    "descr": "",
+    "data": {
+      "level": 1,
+      "rarity": "common",
+      "size": "medium",
+      "traits": [
+        "mindless",
+        "ooze"
+      ],
+      "attributes": {
+        "str": 2,
+        "dex": -5,
+        "con": 4,
+        "int": -5,
+        "wis": 0,
+        "cha": -5
+      },
+      "perception": 3,
+      "ac": {
+        "value": 8,
+        "details": ""
+      },
+      "hp": {
+        "value": 40,
+        "details": ""
+      },
+      "saves": {
+        "fortitude": 9,
+        "reflex": 1,
+        "will": 3
+      },
+      "skills": {
+        "stealth": 1
+      },
+      "languages": [],
+      "senses": "Motion Sense ([precise](/rule/precise-senses-rules-2406)) 60 feet",
+      "immunities": [
+        "Acid",
+        "Critical Hits",
+        "[Mental](/trait/mental)",
+        "[Unconscious](/condition/unconscious-player-core)"
+      ],
+      "weaknesses": {},
+      "resistances": {},
+      "movement": {
+        "walk": 10
+      },
+      "attacks": [
+        {
+          "name": "Pseudopod",
+          "type": "melee",
+          "actions": "one",
+          "attack": 9,
+          "traits": [],
+          "damage": "1d6+1 bludgeoning; 1d4 acid"
+        }
+      ],
+      "abilities": {
+        "interaction": [
+          {
+            "name": "Motion Sense 60 feet",
+            "text": "A sewer ooze can sense nearby motion through vibration and air movement, allowing it to fight as well as if it could see. However, a sewer ooze can't see, so effects that depend on vision or seeing don't work on it.",
+            "traits": [],
+            "description": "A sewer ooze can sense nearby motion through vibration and air movement, allowing it to fight as well as if it could see. However, a sewer ooze can't see, so effects that depend on vision or seeing don't work on it."
+          }
+        ],
+        "defensive": [],
+        "offensive": [
+          {
+            "name": "Filth Wave",
+            "text": "The sewer ooze unleashes a wave of filth, covering all creatures within 20 feet of itself. Each creature in the area must succeed at a Reflex DC 17 save or take 1d4 acid damage and a –10-foot penalty to its Speeds for 1 minute (on a critical failure, the creature also falls over and gains the [Prone](/condition/prone-player-core) condition). A creature can [Interact](/action/interact-player-core) to clean someone off. This decreases the Speed penalty to -5 feet after 1 action, or to no penalty after 2 actions. After using Filth Wave, the ooze can't use it again for 1 minute.",
+            "traits": [],
+            "actions": "one",
+            "description": "The sewer ooze unleashes a wave of filth, covering all creatures within 20 feet of itself. Each creature in the area must succeed at a Reflex DC 17 save or take 1d4 acid damage and a –10-foot penalty to its Speeds for 1 minute (on a critical failure, the creature also falls over and gains the [Prone](/condition/prone-player-core) condition). A creature can [Interact](/action/interact-player-core) to clean someone off. This decreases the Speed penalty to -5 feet after 1 action, or to no penalty after 2 actions. After using Filth Wave, the ooze can't use it again for 1 minute."
+          }
+        ]
+      },
+      "recallKnowledge": {
+        "dc": 15,
+        "skills": [
+          "occultism"
+        ],
+        "subjects": [
+          "ooze"
+        ],
+        "entries": [
+          {
+            "subject": "ooze",
+            "skills": [
+              "occultism"
+            ]
+          }
+        ]
+      },
+      "languagesText": "",
+      "recallKnowledgeText": "DC 15",
+      "traitLinks": [
+        {
+          "label": "mindless",
+          "slug": "mindless"
+        },
+        {
+          "label": "ooze",
+          "slug": "ooze"
+        }
+      ],
+      "senseEntries": [
+        {
+          "name": "Motion Sense",
+          "acuity": "precise",
+          "acuityReference": "/rule/precise-senses-rules-2406",
+          "details": "60 feet"
+        }
+      ],
+      "immunityEditor": {
+        "entries": [
+          {
+            "name": "Acid"
+          },
+          {
+            "name": "Critical Hits"
+          },
+          {
+            "name": "Mental",
+            "reference": "/trait/mental"
+          },
+          {
+            "name": "Unconscious",
+            "reference": "/condition/unconscious-player-core"
+          }
+        ]
+      },
+      "skillsEditor": {
+        "skills": {
+          "stealth": 1
+        },
+        "loreSkills": []
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "beginner-box-remaster",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "beginner-box-remaster",
+      "mindless",
+      "ooze",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Beginner Box (Remaster)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4D2288E3-1C97-505D-8CC9-A6FA2382BBF4",
+    "kind": "Creature",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Skeletal Giant (BB)",
+    "slug": "skeletal-giant-bb-beginner-box-remaster",
+    "descr": "",
+    "data": {
+      "level": 3,
+      "rarity": "common",
+      "size": "large",
+      "traits": [
+        "mindless",
+        "skeleton",
+        "undead",
+        "unholy"
+      ],
+      "attributes": {
+        "str": 5,
+        "dex": 1,
+        "con": 3,
+        "int": -5,
+        "wis": 0,
+        "cha": 2
+      },
+      "perception": 7,
+      "ac": {
+        "value": 17,
+        "details": ""
+      },
+      "hp": {
+        "value": 50,
+        "details": ""
+      },
+      "saves": {
+        "fortitude": 10,
+        "reflex": 8,
+        "will": 7
+      },
+      "skills": {
+        "athletics": 12,
+        "intimidation": 9
+      },
+      "languages": [],
+      "senses": "[Darkvision](/action/darkvision-monster-core)",
+      "immunities": [
+        "Bleed",
+        "[Mental](/trait/mental)",
+        "[Poison](/trait/poison)",
+        "[Unconscious](/condition/unconscious-player-core)",
+        "[Void](/trait/void)"
+      ],
+      "weaknesses": {},
+      "resistances": {
+        "cold": 5,
+        "electricity": 5,
+        "fire": 5,
+        "piercing": 5,
+        "slashing": 5
+      },
+      "movement": {
+        "walk": 30
+      },
+      "attacks": [
+        {
+          "name": "Greataxe",
+          "type": "melee",
+          "actions": "one",
+          "attack": 12,
+          "traits": [
+            "reach-10"
+          ],
+          "damage": "1d12+5 slashing"
+        },
+        {
+          "name": "Horns",
+          "type": "melee",
+          "actions": "one",
+          "attack": 12,
+          "traits": [
+            "agile"
+          ],
+          "damage": "1d10+5 piercing"
+        }
+      ],
+      "abilities": {
+        "interaction": [],
+        "defensive": [],
+        "offensive": [
+          {
+            "name": "Broad Swipe",
+            "text": "The skeletal giant makes two Strikes with its greataxe against two adjacent foes, both of whom are within its reach. The second attack uses the same multiple attack penalty as the first, but attacks it makes after this take a -10 multiple attack penalty (or a -8 multiple attack penalty for its horns).",
+            "traits": [],
+            "actions": "two",
+            "description": "The skeletal giant makes two Strikes with its greataxe against two adjacent foes, both of whom are within its reach. The second attack uses the same multiple attack penalty as the first, but attacks it makes after this take a -10 multiple attack penalty (or a -8 multiple attack penalty for its horns)."
+          },
+          {
+            "name": "Terrifying Charge",
+            "text": "The giant Strides and makes a horns [Strike](/action/strike-player-core) with a +4 circumstance bonus to damage.\n\nIf the strike hits, the giant attempts to Demoralize the target.",
+            "traits": [],
+            "actions": "two",
+            "description": "The giant Strides and makes a horns [Strike](/action/strike-player-core) with a +4 circumstance bonus to damage.\n\nIf the strike hits, the giant attempts to Demoralize the target."
+          }
+        ]
+      },
+      "recallKnowledge": {
+        "dc": 18,
+        "skills": [
+          "religion"
+        ],
+        "subjects": [
+          "undead"
+        ],
+        "entries": [
+          {
+            "subject": "undead",
+            "skills": [
+              "religion"
+            ]
+          }
+        ]
+      },
+      "languagesText": "",
+      "recallKnowledgeText": "DC 18 (Religion)",
+      "sanctification": "unholy",
+      "items": "[Greataxe](/item/greataxe-player-core), [Half Plate](/item/half-plate-player-core)",
+      "traitLinks": [
+        {
+          "label": "mindless",
+          "slug": "mindless"
+        },
+        {
+          "label": "skeleton",
+          "slug": "skeleton"
+        },
+        {
+          "label": "undead",
+          "slug": "undead"
+        },
+        {
+          "label": "unholy",
+          "slug": "unholy"
+        }
+      ],
+      "senseEntries": [
+        {
+          "name": "Darkvision",
+          "reference": "/action/darkvision-monster-core"
+        }
+      ],
+      "itemEntries": [
+        {
+          "name": "Greataxe",
+          "reference": "/item/greataxe-player-core"
+        },
+        {
+          "name": "Half Plate",
+          "reference": "/item/half-plate-player-core"
+        }
+      ],
+      "immunityEditor": {
+        "entries": [
+          {
+            "name": "Bleed"
+          },
+          {
+            "name": "Mental",
+            "reference": "/trait/mental"
+          },
+          {
+            "name": "Poison",
+            "reference": "/trait/poison"
+          },
+          {
+            "name": "Unconscious",
+            "reference": "/condition/unconscious-player-core"
+          },
+          {
+            "name": "Void",
+            "reference": "/trait/void"
+          }
+        ]
+      },
+      "skillsEditor": {
+        "skills": {
+          "athletics": 12,
+          "intimidation": 9
+        },
+        "loreSkills": []
+      },
+      "resistanceEntries": [
+        {
+          "type": "cold",
+          "value": 5
+        },
+        {
+          "type": "electricity",
+          "value": 5
+        },
+        {
+          "type": "fire",
+          "value": 5
+        },
+        {
+          "type": "piercing",
+          "value": 5
+        },
+        {
+          "type": "slashing",
+          "value": 5
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "beginner-box-remaster",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "beginner-box-remaster",
+      "mindless",
+      "remaster",
+      "skeleton",
+      "undead",
+      "unholy"
+    ],
+    "sources": [
+      {
+        "name": "Beginner Box (Remaster)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "548849B6-4DE1-5F76-827F-E40F6E85213D",
+    "kind": "Creature",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Sod Hound (BB)",
+    "slug": "sod-hound-bb-beginner-box-remaster",
+    "descr": "",
+    "data": {
+      "level": 3,
+      "rarity": "common",
+      "size": "small",
+      "traits": [
+        "earth",
+        "elemental"
+      ],
+      "attributes": {
+        "str": 4,
+        "dex": -1,
+        "con": 3,
+        "int": -4,
+        "wis": 2,
+        "cha": -1
+      },
+      "perception": 9,
+      "ac": {
+        "value": 19,
+        "details": ""
+      },
+      "hp": {
+        "value": 44,
+        "details": ""
+      },
+      "saves": {
+        "fortitude": 12,
+        "reflex": 6,
+        "will": 7
+      },
+      "skills": {
+        "athletics": 11,
+        "survival": 9
+      },
+      "languages": [],
+      "senses": "[Darkvision](/action/darkvision-monster-core), crystal sense 60 feet",
+      "immunities": [
+        "Bleed",
+        "[Poison](/trait/poison)",
+        "[Sleep](/trait/sleep)"
+      ],
+      "weaknesses": {},
+      "resistances": {},
+      "movement": {
+        "walk": 30
+      },
+      "attacks": [
+        {
+          "name": "Jaws",
+          "type": "melee",
+          "actions": "one",
+          "attack": 11,
+          "traits": [],
+          "damage": "1d10+6 piercing",
+          "effects": [
+            {
+              "name": "Knockdown",
+              "reference": "/action/knockdown-monster-core"
+            }
+          ]
+        }
+      ],
+      "abilities": {
+        "interaction": [
+          {
+            "name": "Crystal Sense 60 feet",
+            "text": "A sod hound can sense crystals or gems within 60 feet.",
+            "traits": [],
+            "description": "A sod hound can sense crystals or gems within 60 feet."
+          }
+        ],
+        "defensive": [],
+        "offensive": [
+          {
+            "name": "Earth Glide",
+            "text": "The sod hound burrows through any earthen matter, including rock. It moves up to 20 feet, leaving no tunnels or signs of its passing.",
+            "traits": [],
+            "actions": "one",
+            "description": "The sod hound burrows through any earthen matter, including rock. It moves up to 20 feet, leaving no tunnels or signs of its passing."
+          }
+        ]
+      },
+      "recallKnowledge": {
+        "dc": 18,
+        "skills": [
+          "arcana",
+          "nature"
+        ],
+        "subjects": [
+          "elemental"
+        ],
+        "entries": [
+          {
+            "subject": "elemental",
+            "skills": [
+              "arcana",
+              "nature"
+            ]
+          }
+        ]
+      },
+      "languagesText": "",
+      "recallKnowledgeText": "DC 18 (Arcana)",
+      "traitLinks": [
+        {
+          "label": "earth",
+          "slug": "earth"
+        },
+        {
+          "label": "elemental",
+          "slug": "elemental"
+        }
+      ],
+      "senseEntries": [
+        {
+          "name": "Darkvision",
+          "reference": "/action/darkvision-monster-core"
+        },
+        {
+          "name": "crystal sense 60 feet"
+        }
+      ],
+      "immunityEditor": {
+        "entries": [
+          {
+            "name": "Bleed"
+          },
+          {
+            "name": "Poison",
+            "reference": "/trait/poison"
+          },
+          {
+            "name": "Sleep",
+            "reference": "/trait/sleep"
+          }
+        ]
+      },
+      "skillsEditor": {
+        "skills": {
+          "athletics": 11,
+          "survival": 9
+        },
+        "loreSkills": []
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "beginner-box-remaster",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "beginner-box-remaster",
+      "earth",
+      "elemental",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Beginner Box (Remaster)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "6E4BA28C-936D-5F82-81B8-1696EA617152",
+    "kind": "Creature",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Viper (BB)",
+    "slug": "viper-bb-beginner-box-remaster",
+    "descr": "",
+    "data": {
+      "level": -1,
+      "rarity": "common",
+      "size": "tiny",
+      "traits": [
+        "animal"
+      ],
+      "attributes": {
+        "str": -3,
+        "dex": 4,
+        "con": 0,
+        "int": -4,
+        "wis": 1,
+        "cha": -2
+      },
+      "perception": 5,
+      "ac": {
+        "value": 14,
+        "details": ""
+      },
+      "hp": {
+        "value": 8,
+        "details": ""
+      },
+      "saves": {
+        "fortitude": 2,
+        "reflex": 7,
+        "will": 5
+      },
+      "skills": {
+        "acrobatics": 5,
+        "athletics": 1,
+        "stealth": 5,
+        "survival": 3
+      },
+      "languages": [],
+      "senses": "[Low-Light Vision](/action/low-light-vision-monster-core)",
+      "immunities": [],
+      "weaknesses": {},
+      "resistances": {},
+      "movement": {
+        "walk": 20,
+        "climb": 20,
+        "swim": 20
+      },
+      "attacks": [
+        {
+          "name": "Fangs",
+          "type": "melee",
+          "actions": "one",
+          "attack": 6,
+          "traits": [
+            "agile",
+            "finesse"
+          ],
+          "damage": "1d8-3 piercing",
+          "effects": [
+            {
+              "name": "Viper Venom"
+            }
+          ]
+        }
+      ],
+      "abilities": {
+        "interaction": [],
+        "defensive": [
+          {
+            "name": "Slink",
+            "text": "If a creature ends its movement adjacent to the viper or within the viper's space, the viper can use its reaction to [Stride](/action/stride-player-core), [Climb](/action/climb-player-core), or [Swim](/action/swim-player-core) up to 10 feet. It must end its movement in a location that isn't within 5 feet of a foe. This movement doesn't trigger reactions.",
+            "traits": [],
+            "actions": "reaction",
+            "description": "If a creature ends its movement adjacent to the viper or within the viper's space, the viper can use its reaction to [Stride](/action/stride-player-core), [Climb](/action/climb-player-core), or [Swim](/action/swim-player-core) up to 10 feet. It must end its movement in a location that isn't within 5 feet of a foe. This movement doesn't trigger reactions."
+          }
+        ],
+        "offensive": [
+          {
+            "name": "Viper Venom",
+            "text": "A target damaged by the viper's fangs must succeed at a Fortitude DC 16 save or take 1d10 poison damage.",
+            "traits": [
+              "poison"
+            ],
+            "description": "A target damaged by the viper's fangs must succeed at a Fortitude DC 16 save or take 1d10 poison damage."
+          }
+        ]
+      },
+      "recallKnowledge": {
+        "dc": 13,
+        "skills": [
+          "nature"
+        ],
+        "subjects": [
+          "animal"
+        ],
+        "entries": [
+          {
+            "subject": "animal",
+            "skills": [
+              "nature"
+            ]
+          }
+        ]
+      },
+      "languagesText": "",
+      "recallKnowledgeText": "DC 13 (Nature)",
+      "traitLinks": [
+        {
+          "label": "animal",
+          "slug": "animal"
+        }
+      ],
+      "senseEntries": [
+        {
+          "name": "Low-Light Vision",
+          "reference": "/action/low-light-vision-monster-core"
+        }
+      ],
+      "skillsEditor": {
+        "skills": {
+          "acrobatics": 5,
+          "athletics": 1,
+          "stealth": 5,
+          "survival": 3
+        },
+        "loreSkills": []
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "beginner-box-remaster",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "animal",
+      "beginner-box-remaster",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Beginner Box (Remaster)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "58B4D590-29B3-5950-868D-F610124CEC3B",
+    "kind": "Creature",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Zephyr Hawk (BB)",
+    "slug": "zephyr-hawk-bb-beginner-box-remaster",
+    "descr": "",
+    "data": {
+      "level": 3,
+      "rarity": "common",
+      "size": "small",
+      "traits": [
+        "air",
+        "elemental"
+      ],
+      "attributes": {
+        "str": 2,
+        "dex": 4,
+        "con": 1,
+        "int": -4,
+        "wis": 0,
+        "cha": 0
+      },
+      "perception": 7,
+      "ac": {
+        "value": 18,
+        "details": ""
+      },
+      "hp": {
+        "value": 36,
+        "details": ""
+      },
+      "saves": {
+        "fortitude": 6,
+        "reflex": 13,
+        "will": 7
+      },
+      "skills": {
+        "acrobatics": 13,
+        "stealth": 11
+      },
+      "languages": [],
+      "senses": "[Darkvision](/action/darkvision-monster-core)",
+      "immunities": [
+        "Bleed",
+        "[Poison](/trait/poison)",
+        "[Sleep](/trait/sleep)"
+      ],
+      "weaknesses": {},
+      "resistances": {},
+      "movement": {
+        "fly": 50
+      },
+      "attacks": [
+        {
+          "name": "Wing",
+          "type": "melee",
+          "actions": "one",
+          "attack": 11,
+          "traits": [
+            "agile",
+            "finesse"
+          ],
+          "damage": "1d8+4 slashing"
+        }
+      ],
+      "abilities": {
+        "interaction": [],
+        "defensive": [],
+        "offensive": [
+          {
+            "name": "Circling Attack",
+            "text": "The zephyr hawk flies up to half its Speed, makes two wing Strikes, then flies up to half its Speed again to return to its original location. The second half of this movement doesn't trigger reactions like Reactive [Strike](/action/strike-player-core). The second attack uses the same multiple attack penalty as the first, but attacks it makes after this take a -8 multiple attack penalty.",
+            "traits": [],
+            "actions": "two",
+            "description": "The zephyr hawk flies up to half its Speed, makes two wing Strikes, then flies up to half its Speed again to return to its original location. The second half of this movement doesn't trigger reactions like Reactive [Strike](/action/strike-player-core). The second attack uses the same multiple attack penalty as the first, but attacks it makes after this take a -8 multiple attack penalty."
+          }
+        ]
+      },
+      "recallKnowledge": {
+        "dc": 18,
+        "skills": [
+          "arcana",
+          "nature"
+        ],
+        "subjects": [
+          "elemental"
+        ],
+        "entries": [
+          {
+            "subject": "elemental",
+            "skills": [
+              "arcana",
+              "nature"
+            ]
+          }
+        ]
+      },
+      "languagesText": "",
+      "recallKnowledgeText": "DC 18 (Arcana)",
+      "traitLinks": [
+        {
+          "label": "air",
+          "slug": "air"
+        },
+        {
+          "label": "elemental",
+          "slug": "elemental"
+        }
+      ],
+      "senseEntries": [
+        {
+          "name": "Darkvision",
+          "reference": "/action/darkvision-monster-core"
+        }
+      ],
+      "immunityEditor": {
+        "entries": [
+          {
+            "name": "Bleed"
+          },
+          {
+            "name": "Poison",
+            "reference": "/trait/poison"
+          },
+          {
+            "name": "Sleep",
+            "reference": "/trait/sleep"
+          }
+        ]
+      },
+      "skillsEditor": {
+        "skills": {
+          "acrobatics": 13,
+          "stealth": 11
+        },
+        "loreSkills": []
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "beginner-box-remaster",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "air",
+      "beginner-box-remaster",
+      "elemental",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Beginner Box (Remaster)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

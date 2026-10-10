@@ -1,0 +1,2920 @@
+[
+  {
+    "id": "F7D3C93C-9B74-5710-9B0B-7EE5FAB3C174",
+    "kind": "Creature",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Aurosrath",
+    "slug": "aurosrath-shining-kingdoms",
+    "descr": "",
+    "data": {
+      "level": 5,
+      "rarity": "uncommon",
+      "size": "large",
+      "traits": [
+        "metal",
+        "undead",
+        "unholy"
+      ],
+      "attributes": {
+        "str": 5,
+        "dex": 2,
+        "con": 4,
+        "int": 0,
+        "wis": 1,
+        "cha": 4
+      },
+      "perception": 12,
+      "ac": {
+        "value": 19,
+        "details": ""
+      },
+      "hp": {
+        "value": 95,
+        "details": ""
+      },
+      "saves": {
+        "fortitude": 14,
+        "reflex": 9,
+        "will": 13
+      },
+      "skills": {
+        "athletics": 13,
+        "intimidation": 12,
+        "stealth": 10
+      },
+      "languages": [
+        "common",
+        "necril"
+      ],
+      "senses": "[Darkvision](/action/darkvision-monster-core)",
+      "immunities": [
+        "Bleed",
+        "[Death Effects](/rule/death-effects-rules-2331)",
+        "[Disease](/trait/disease)",
+        "[Paralyzed](/condition/paralyzed-player-core)",
+        "[Poison](/trait/poison)",
+        "[Unconscious](/condition/unconscious-player-core)"
+      ],
+      "weaknesses": {},
+      "resistances": {},
+      "movement": {
+        "walk": 25
+      },
+      "attacks": [
+        {
+          "name": "Fist",
+          "type": "melee",
+          "actions": "one",
+          "attack": 15,
+          "traits": [
+            "reach-10"
+          ],
+          "damage": "2d6+5 bludgeoning",
+          "effects": [
+            {
+              "name": "Grab",
+              "reference": "/action/grab-monster-core"
+            }
+          ]
+        }
+      ],
+      "abilities": {
+        "interaction": [],
+        "defensive": [
+          {
+            "name": "Smeltable",
+            "text": "If an aurosrath takes 5 or more fire damage from a single attack, the precious metals within their body enter a molten state until the end of their next turn. While in this state, the aurosrath takes a –10-foot status penalty to their Speeds, and their strikes deal an extra 1d6 fire damage. They also lose their weakness to slashing damage and their resistance to electricity damage. Finally, any creature currently [Grabbed](/condition/grabbed-player-core) or [Restrained](/condition/restrained-player-core) by the aurosrath loses 1 round of air if it's holding its breath.",
+            "traits": [],
+            "description": "If an aurosrath takes 5 or more fire damage from a single attack, the precious metals within their body enter a molten state until the end of their next turn. While in this state, the aurosrath takes a –10-foot status penalty to their Speeds, and their strikes deal an extra 1d6 fire damage. They also lose their weakness to slashing damage and their resistance to electricity damage. Finally, any creature currently [Grabbed](/condition/grabbed-player-core) or [Restrained](/condition/restrained-player-core) by the aurosrath loses 1 round of air if it's holding its breath."
+          },
+          {
+            "name": "Void Healing",
+            "text": "",
+            "traits": [],
+            "reference": "/action/void-healing-monster-core",
+            "description": ""
+          }
+        ],
+        "offensive": [
+          {
+            "name": "Fetters of Debt",
+            "text": "**Frequency** once per 10 minutes; **Effect** The aurosrath bellows a plea for gold, remarking that their foes are overladen. Creatures in a 15-foot emanation must succeed at a Will DC 19 save or become [Encumbered](/condition/encumbered-player-core) for 1 minute. The creature is aware that it can immediately end the condition by giving the aurosrath items or treasure worth at least 20 gp. Handing a held item to the aurosrath is a single [Interact](/action/interact-player-core) action. If the aurosrath's hands are full, the item falls in their space, but the condition still ends.",
+            "traits": [
+              "auditory",
+              "curse",
+              "linguistic",
+              "mental",
+              "occult"
+            ],
+            "actions": "two",
+            "effect": "The aurosrath bellows a plea for gold, remarking that their foes are overladen. Creatures in a 15-foot emanation must succeed at a Will DC 19 save or become [Encumbered](/condition/encumbered-player-core) for 1 minute. The creature is aware that it can immediately end the condition by giving the aurosrath items or treasure worth at least 20 gp. Handing a held item to the aurosrath is a single [Interact](/action/interact-player-core) action. If the aurosrath's hands are full, the item falls in their space, but the condition still ends.",
+            "description": "**Frequency** once per 10 minutes"
+          },
+          {
+            "name": "Suffocating Wealth",
+            "text": "As the aurosrath holds their victim, the victim is smothered in a stream of phantom coins. A creature who begins its turn [Grabbed](/condition/grabbed-player-core) or [Restrained](/condition/restrained-player-core) by an aurosrath can't speak and must hold its breath or it begins to suffocate. The coins produced are ephemeral and melt away to nothing when removed from the aurosrath's presence for more than 1 round.",
+            "traits": [],
+            "description": "As the aurosrath holds their victim, the victim is smothered in a stream of phantom coins. A creature who begins its turn [Grabbed](/condition/grabbed-player-core) or [Restrained](/condition/restrained-player-core) by an aurosrath can't speak and must hold its breath or it begins to suffocate. The coins produced are ephemeral and melt away to nothing when removed from the aurosrath's presence for more than 1 round."
+          }
+        ]
+      },
+      "recallKnowledge": {
+        "dc": 22,
+        "skills": [
+          "religion"
+        ],
+        "subjects": [
+          "undead"
+        ],
+        "entries": [
+          {
+            "subject": "undead",
+            "skills": [
+              "religion"
+            ]
+          }
+        ]
+      },
+      "languagesText": "Common, Necril",
+      "recallKnowledgeText": "DC 22 (Religion)",
+      "sanctification": "unholy",
+      "traitLinks": [
+        {
+          "label": "metal",
+          "slug": "metal"
+        },
+        {
+          "label": "undead",
+          "slug": "undead"
+        },
+        {
+          "label": "unholy",
+          "slug": "unholy"
+        }
+      ],
+      "loreSkills": [
+        {
+          "name": "Mercantile Lore",
+          "value": 12
+        }
+      ],
+      "senseEntries": [
+        {
+          "name": "Darkvision",
+          "reference": "/action/darkvision-monster-core"
+        }
+      ],
+      "immunityEditor": {
+        "entries": [
+          {
+            "name": "Bleed"
+          },
+          {
+            "name": "Death Effects",
+            "reference": "/rule/death-effects-rules-2331"
+          },
+          {
+            "name": "Disease",
+            "reference": "/trait/disease"
+          },
+          {
+            "name": "Paralyzed",
+            "reference": "/condition/paralyzed-player-core"
+          },
+          {
+            "name": "Poison",
+            "reference": "/trait/poison"
+          },
+          {
+            "name": "Unconscious",
+            "reference": "/condition/unconscious-player-core"
+          }
+        ]
+      },
+      "skillsEditor": {
+        "skills": {
+          "athletics": 13,
+          "intimidation": 12,
+          "stealth": 10
+        },
+        "loreSkills": [
+          {
+            "name": "Mercantile Lore",
+            "value": 12
+          }
+        ]
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "metal",
+      "remaster",
+      "shining-kingdoms",
+      "undead",
+      "unholy"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3760A7D0-9A1E-5973-9BD2-2DC12CB095EC",
+    "kind": "Creature",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Beiran Frosthunt",
+    "slug": "beiran-frosthunt-shining-kingdoms",
+    "descr": "",
+    "data": {
+      "level": 3,
+      "rarity": "common",
+      "size": "gargantuan",
+      "traits": [
+        "cold",
+        "fey",
+        "troop"
+      ],
+      "attributes": {
+        "str": 1,
+        "dex": 4,
+        "con": 0,
+        "int": 1,
+        "wis": 1,
+        "cha": 3
+      },
+      "perception": 12,
+      "ac": {
+        "value": 18,
+        "details": ""
+      },
+      "hp": {
+        "value": 54,
+        "details": "(4 segments); Thresholds 36 (3 segments), 18 (2 segments)"
+      },
+      "saves": {
+        "fortitude": 6,
+        "reflex": 12,
+        "will": 9
+      },
+      "skills": {
+        "acrobatics": 10,
+        "athletics": 8,
+        "deception": 8,
+        "diplomacy": 8,
+        "stealth": 10
+      },
+      "languages": [],
+      "senses": "",
+      "immunities": [
+        "Cold"
+      ],
+      "weaknesses": {
+        "area-damage": 5,
+        "cold-iron": 5,
+        "splash-damage": 5
+      },
+      "resistances": {},
+      "movement": {
+        "walk": 25,
+        "fly": 30,
+        "other": "troop movement"
+      },
+      "attacks": [],
+      "abilities": {
+        "interaction": [],
+        "defensive": [
+          {
+            "name": "Troop Defenses",
+            "text": "",
+            "traits": [],
+            "reference": "/action/troop-defenses-npc-core",
+            "description": ""
+          },
+          {
+            "name": "Troop Movement",
+            "text": "",
+            "traits": [],
+            "reference": "/action/troop-movement-npc-core",
+            "description": ""
+          },
+          {
+            "name": "Unseasonable Cold",
+            "text": "Wherever the frosthunt goes, winter follows. The temperature within a quarter mile of a frosthunt drops to mild cold, then to severe cold within 500 feet, and extreme cold within 50 feet.",
+            "traits": [
+              "aura",
+              "cold",
+              "primal"
+            ],
+            "description": "Wherever the frosthunt goes, winter follows. The temperature within a quarter mile of a frosthunt drops to mild cold, then to severe cold within 500 feet, and extreme cold within 50 feet."
+          }
+        ],
+        "offensive": [
+          {
+            "name": "Icy Japes",
+            "text": "1 to 3\n\n**Frequency** once per round; **Effect** The beirans descend on their prey, biting and clawing at each enemy in a 5-foot emanation, with a basic Reflex DC 17 save. The damage depends on the number of actions.\n\n1 1d6 slashing damage plus 1 cold damage\n\n2 2d6+2 slashing damage plus 1d4 cold damage\n\n3 2d6+5 cold damage plus 1d4 cold damage",
+            "traits": [
+              "cold"
+            ],
+            "actions": "one",
+            "effect": "The beirans descend on their prey, biting and clawing at each enemy in a 5-foot emanation, with a basic Reflex DC 17 save. The damage depends on the number of actions.\n\n1 1d6 slashing damage plus 1 cold damage\n\n2 2d6+2 slashing damage plus 1d4 cold damage\n\n3 2d6+5 cold damage plus 1d4 cold damage",
+            "description": "1 to 3\n\n**Frequency** once per round"
+          }
+        ]
+      },
+      "recallKnowledge": {
+        "dc": 18,
+        "skills": [
+          "nature"
+        ],
+        "subjects": [
+          "fey"
+        ],
+        "entries": [
+          {
+            "subject": "fey",
+            "skills": [
+              "nature"
+            ]
+          }
+        ]
+      },
+      "languagesText": "",
+      "recallKnowledgeText": "DC 18 (Nature)",
+      "traitLinks": [
+        {
+          "label": "cold",
+          "slug": "cold"
+        },
+        {
+          "label": "fey",
+          "slug": "fey"
+        },
+        {
+          "label": "troop",
+          "slug": "troop"
+        }
+      ],
+      "spellcasting": [
+        {
+          "name": "Primal Innate Spells",
+          "spellGroups": [
+            {
+              "label": "2nd",
+              "spells": [
+                {
+                  "name": "Chilling Spray",
+                  "rank": 2,
+                  "reference": "/spell/chilling-spray-player-core-2",
+                  "details": "×3"
+                }
+              ]
+            },
+            {
+              "label": "Cantrips (2nd)",
+              "spells": [
+                {
+                  "name": "Frostbite",
+                  "rank": 2,
+                  "reference": "/spell/frostbite-player-core"
+                }
+              ]
+            }
+          ],
+          "spellDC": 17,
+          "spellAttack": 0
+        }
+      ],
+      "immunityEditor": {
+        "entries": [
+          {
+            "name": "Cold"
+          }
+        ]
+      },
+      "skillsEditor": {
+        "skills": {
+          "acrobatics": 10,
+          "athletics": 8,
+          "deception": 8,
+          "diplomacy": 8,
+          "stealth": 10
+        },
+        "loreSkills": []
+      },
+      "weaknessEntries": [
+        {
+          "type": "area-damage",
+          "value": 5
+        },
+        {
+          "type": "cold-iron",
+          "value": 5
+        },
+        {
+          "type": "splash-damage",
+          "value": 5
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "cold",
+      "fey",
+      "remaster",
+      "shining-kingdoms",
+      "troop"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5024AFC3-CE6A-519A-815F-BA73F27C5A65",
+    "kind": "Creature",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Bibliodaemon",
+    "slug": "bibliodaemon-shining-kingdoms",
+    "descr": "",
+    "data": {
+      "level": 8,
+      "rarity": "uncommon",
+      "size": "medium",
+      "traits": [
+        "daemon",
+        "fiend",
+        "unholy"
+      ],
+      "attributes": {
+        "str": 2,
+        "dex": 3,
+        "con": 2,
+        "int": 6,
+        "wis": 2,
+        "cha": 4
+      },
+      "perception": 18,
+      "ac": {
+        "value": 26,
+        "details": ""
+      },
+      "hp": {
+        "value": 130,
+        "details": ""
+      },
+      "saves": {
+        "fortitude": 15,
+        "reflex": 16,
+        "will": 19
+      },
+      "skills": {
+        "deception": 18,
+        "diplomacy": 16,
+        "intimidation": 16,
+        "society": 18,
+        "stealth": 16
+      },
+      "languages": [],
+      "senses": "[Darkvision](/action/darkvision-monster-core), Thoughtsense ([imprecise](/rule/imprecise-senses-rules-2407)) 60 feet",
+      "immunities": [
+        "[Death Effects](/rule/death-effects-rules-2331)"
+      ],
+      "weaknesses": {
+        "holy": 10
+      },
+      "resistances": {
+        "mental": 10
+      },
+      "movement": {
+        "walk": 25
+      },
+      "attacks": [
+        {
+          "name": "Gavel",
+          "type": "melee",
+          "actions": "one",
+          "attack": 18,
+          "traits": [
+            "finesse",
+            "magical"
+          ],
+          "damage": "2d4+8 bludgeoning"
+        },
+        {
+          "name": "Claw",
+          "type": "melee",
+          "actions": "one",
+          "attack": 18,
+          "traits": [
+            "agile",
+            "finesse"
+          ],
+          "damage": "2d8+8 slashing"
+        }
+      ],
+      "abilities": {
+        "interaction": [
+          {
+            "name": "Thoughtsense",
+            "text": "The bibliodaemon is aware of non-mindless creatures within 60 feet as an imprecise sense.",
+            "traits": [
+              "mental"
+            ],
+            "description": "The bibliodaemon is aware of non-mindless creatures within 60 feet as an imprecise sense."
+          }
+        ],
+        "defensive": [
+          {
+            "name": "Red Tape",
+            "text": "30 feet.\n\nWhen a non-daemon enters or begins its turn within the aura, it must attempt a Will DC 23 save. On a failure, it takes a –2 status penalty to saving throws against linguistic effects for 1 round.",
+            "traits": [
+              "aura",
+              "divine"
+            ],
+            "description": "30 feet.\n\nWhen a non-daemon enters or begins its turn within the aura, it must attempt a Will DC 23 save. On a failure, it takes a –2 status penalty to saving throws against linguistic effects for 1 round."
+          }
+        ],
+        "offensive": [
+          {
+            "name": "Change Shape",
+            "text": "The bibliodaemon can take on the appearance of any Small or Medium humanoid. This doesn't change their Speed or their attack and damage modifiers with their Strikes, but it might change the damage type their claw Strikes deal (typically to bludgeoning).",
+            "traits": [
+              "concentrate",
+              "divine",
+              "polymorph"
+            ],
+            "actions": "one",
+            "reference": "/action/change-shape-monster-core",
+            "description": "The bibliodaemon can take on the appearance of any Small or Medium humanoid. This doesn't change their Speed or their attack and damage modifiers with their Strikes, but it might change the damage type their claw Strikes deal (typically to bludgeoning)."
+          },
+          {
+            "name": "Death by 1,000 Papercuts",
+            "text": "The bibliodaemon launches a torrent of sharp papers from the sleeves of their robes. All creatures in a 15-foot [cone](/rule/cone-rules-2386) take 9d6 slashing damage (basic Reflex DC 23 save). Creatures that fail their save also take 2d4 bleed damage. The bibliodaemon can't use Death by 1,000 Papercuts again for 1d4 rounds.",
+            "traits": [
+              "divine"
+            ],
+            "actions": "two",
+            "description": "The bibliodaemon launches a torrent of sharp papers from the sleeves of their robes. All creatures in a 15-foot [cone](/rule/cone-rules-2386) take 9d6 slashing damage (basic Reflex DC 23 save). Creatures that fail their save also take 2d4 bleed damage. The bibliodaemon can't use Death by 1,000 Papercuts again for 1d4 rounds."
+          },
+          {
+            "name": "Inevitable Delays",
+            "text": "**Requirements** The bibliodaemon's last action was a successful [Strike](/action/strike-player-core) that dealt damage; **Effect** The bibliodaemon intuits the next actions the creature they just damaged will take and explains how it doesn't have the proper clearance to perform those actions. The creature must succeed at a Will DC 23 save or become [Slowed 1](/condition/slowed-player-core).",
+            "traits": [
+              "auditory",
+              "concentrate",
+              "divine",
+              "linguistic",
+              "mental"
+            ],
+            "actions": "one",
+            "effect": "The bibliodaemon intuits the next actions the creature they just damaged will take and explains how it doesn't have the proper clearance to perform those actions. The creature must succeed at a Will DC 23 save or become [Slowed 1](/condition/slowed-player-core).",
+            "description": "**Requirements** The bibliodaemon's last action was a successful [Strike](/action/strike-player-core) that dealt damage"
+          }
+        ]
+      },
+      "recallKnowledge": {
+        "dc": 26,
+        "skills": [
+          "religion"
+        ],
+        "subjects": [
+          "fiend"
+        ],
+        "entries": [
+          {
+            "subject": "fiend",
+            "skills": [
+              "religion"
+            ]
+          }
+        ]
+      },
+      "languagesText": "",
+      "recallKnowledgeText": "DC 26 (Religion)",
+      "sanctification": "unholy",
+      "items": "Gavel",
+      "traitLinks": [
+        {
+          "label": "daemon",
+          "slug": "daemon"
+        },
+        {
+          "label": "fiend",
+          "slug": "fiend"
+        },
+        {
+          "label": "unholy",
+          "slug": "unholy"
+        }
+      ],
+      "loreSkills": [
+        {
+          "name": "Legal Lore",
+          "value": 16
+        }
+      ],
+      "spellcasting": [
+        {
+          "name": "Divine Innate Spells",
+          "spellGroups": [
+            {
+              "label": "4th",
+              "spells": [
+                {
+                  "name": "Dull Ambition",
+                  "rank": 4,
+                  "reference": "/spell/dull-ambition-player-core-2"
+                }
+              ]
+            },
+            {
+              "label": "3rd",
+              "spells": [
+                {
+                  "name": "Crisis of Faith",
+                  "rank": 3,
+                  "reference": "/spell/crisis-of-faith-player-core"
+                },
+                {
+                  "name": "Dispel Magic",
+                  "rank": 3,
+                  "reference": "/spell/dispel-magic-player-core"
+                }
+              ]
+            },
+            {
+              "label": "2nd",
+              "spells": [
+                {
+                  "name": "Dispel Magic",
+                  "rank": 2,
+                  "reference": "/spell/dispel-magic-player-core"
+                },
+                {
+                  "name": "Silence",
+                  "rank": 2,
+                  "reference": "/spell/silence-player-core"
+                }
+              ]
+            },
+            {
+              "label": "1st",
+              "spells": [
+                {
+                  "name": "Command",
+                  "rank": 1,
+                  "reference": "/spell/command-player-core"
+                },
+                {
+                  "name": "Enfeeble",
+                  "rank": 1,
+                  "reference": "/spell/enfeeble-player-core"
+                }
+              ]
+            },
+            {
+              "label": "Cantrips (4th)",
+              "spells": [
+                {
+                  "name": "Detect Magic",
+                  "rank": 4,
+                  "reference": "/spell/detect-magic-player-core"
+                },
+                {
+                  "name": "Divine Lance",
+                  "rank": 4,
+                  "reference": "/spell/divine-lance-player-core"
+                },
+                {
+                  "name": "Sigil",
+                  "rank": 4,
+                  "reference": "/spell/sigil-player-core"
+                }
+              ]
+            }
+          ],
+          "spellDC": 26,
+          "spellAttack": 18
+        }
+      ],
+      "senseEntries": [
+        {
+          "name": "Darkvision",
+          "reference": "/action/darkvision-monster-core"
+        },
+        {
+          "name": "Thoughtsense",
+          "acuity": "imprecise",
+          "acuityReference": "/rule/imprecise-senses-rules-2407",
+          "details": "60 feet"
+        }
+      ],
+      "itemEntries": [
+        {
+          "name": "Gavel"
+        }
+      ],
+      "immunityEditor": {
+        "entries": [
+          {
+            "name": "Death Effects",
+            "reference": "/rule/death-effects-rules-2331"
+          }
+        ]
+      },
+      "skillsEditor": {
+        "skills": {
+          "deception": 18,
+          "diplomacy": 16,
+          "intimidation": 16,
+          "society": 18,
+          "stealth": 16
+        },
+        "loreSkills": [
+          {
+            "name": "Legal Lore",
+            "value": 16
+          }
+        ]
+      },
+      "weaknessEntries": [
+        {
+          "type": "holy",
+          "value": 10
+        }
+      ],
+      "resistanceEntries": [
+        {
+          "type": "mental",
+          "value": 10
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "daemon",
+      "fiend",
+      "remaster",
+      "shining-kingdoms",
+      "unholy"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2841013F-AC03-5517-B61C-93653D43C338",
+    "kind": "Creature",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Corbayrant",
+    "slug": "corbayrant-shining-kingdoms",
+    "descr": "",
+    "data": {
+      "level": 16,
+      "rarity": "rare",
+      "size": "huge",
+      "traits": [
+        "beast",
+        "fey",
+        "plant"
+      ],
+      "attributes": {
+        "str": 9,
+        "dex": 5,
+        "con": 6,
+        "int": 4,
+        "wis": 5,
+        "cha": 1
+      },
+      "perception": 28,
+      "ac": {
+        "value": 38,
+        "details": ""
+      },
+      "hp": {
+        "value": 295,
+        "details": ""
+      },
+      "saves": {
+        "fortitude": 30,
+        "reflex": 27,
+        "will": 27
+      },
+      "skills": {
+        "athletics": 33,
+        "nature": 29,
+        "stealth": 27,
+        "survival": 27
+      },
+      "languages": [
+        "common",
+        "fey",
+        "muan"
+      ],
+      "senses": "blindsight ([precise](/rule/precise-senses-rules-2406)) 100 feet",
+      "immunities": [
+        "Blinded",
+        "Visual"
+      ],
+      "weaknesses": {
+        "cold": 15
+      },
+      "resistances": {
+        "fire": 10,
+        "piercing": 15
+      },
+      "movement": {
+        "walk": 40,
+        "climb": 40
+      },
+      "attacks": [
+        {
+          "name": "Fangs",
+          "type": "melee",
+          "actions": "one",
+          "attack": 32,
+          "traits": [],
+          "damage": "3d12+18 piercing",
+          "effects": [
+            {
+              "name": "Grab",
+              "reference": "/action/grab-monster-core"
+            }
+          ]
+        },
+        {
+          "name": "Stinger",
+          "type": "melee",
+          "actions": "one",
+          "attack": 32,
+          "traits": [
+            "reach-15"
+          ],
+          "damage": "3d10+15 piercing",
+          "effects": [
+            {
+              "name": "Corbayrant Venom"
+            }
+          ]
+        },
+        {
+          "name": "Spine",
+          "type": "ranged",
+          "actions": "one",
+          "attack": 32,
+          "traits": [
+            "propulsive",
+            "range-increment-40"
+          ],
+          "damage": "3d6+15 piercing",
+          "effects": [
+            {
+              "name": "Thorn Paralysis"
+            }
+          ]
+        }
+      ],
+      "abilities": {
+        "interaction": [
+          {
+            "name": "Vitriolic Miasma",
+            "text": "30 feet.\n\nNon-corbayrants take a –2 circumstance penalty to saves against poison effects and gain weakness 10 to poison damage while within the aura.",
+            "traits": [
+              "aura"
+            ],
+            "description": "30 feet.\n\nNon-corbayrants take a –2 circumstance penalty to saves against poison effects and gain weakness 10 to poison damage while within the aura."
+          }
+        ],
+        "defensive": [
+          {
+            "name": "Regeneration 20 (deactivated by cold)",
+            "text": "",
+            "traits": [],
+            "reference": "/action/regeneration-monster-core",
+            "description": ""
+          },
+          {
+            "name": "Reactive Strike",
+            "text": "**Trigger** A creature within your reach uses a manipulate action or a [move](/trait/move) action, makes a ranged attack, or leaves a square during a move action it's using.\n\nYou lash out at a foe that leaves an opening. Make a melee [Strike](/action/strike-player-core) against the triggering creature. If your attack is a critical hit and the trigger was a manipulate action, you disrupt that action. This Strike doesn't count toward your multiple attack penalty, and your multiple attack penalty doesn't apply to this Strike.",
+            "traits": [],
+            "actions": "reaction",
+            "reference": "/action/reactive-strike-monster-core",
+            "trigger": "A creature within your reach uses a manipulate action or a [move](/trait/move) action, makes a ranged attack, or leaves a square during a move action it's using.",
+            "triggerBeforeDescription": true,
+            "triggerParagraphBreak": true,
+            "description": "You lash out at a foe that leaves an opening. Make a melee [Strike](/action/strike-player-core) against the triggering creature. If your attack is a critical hit and the trigger was a manipulate action, you disrupt that action. This Strike doesn't count toward your multiple attack penalty, and your multiple attack penalty doesn't apply to this Strike."
+          },
+          {
+            "name": "Thorny Hide",
+            "text": "A corbayrant's body is covered in jagged spines. Adjacent creatures that hit them with a melee attack, as well as creatures that touch them or hit them with an unarmed attack, take 4d6 piercing damage and are exposed to thorn paralysis.",
+            "traits": [],
+            "description": "A corbayrant's body is covered in jagged spines. Adjacent creatures that hit them with a melee attack, as well as creatures that touch them or hit them with an unarmed attack, take 4d6 piercing damage and are exposed to thorn paralysis."
+          }
+        ],
+        "offensive": [
+          {
+            "name": "Corbayrant Venom",
+            "text": "**Saving Throw** Fortitude DC 37\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 8d6 poison damage (1 round)\n\n**Stage 2** 9d6 poison damage (1 round)\n\n**Stage 3** 9d6 poison damage and [Drained 1](/condition/drained-player-core) (1 round)",
+            "traits": [],
+            "description": "**Saving Throw** Fortitude DC 37\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 8d6 poison damage (1 round)\n\n**Stage 2** 9d6 poison damage (1 round)\n\n**Stage 3** 9d6 poison damage and [Drained 1](/condition/drained-player-core) (1 round)"
+          },
+          {
+            "name": "Spine Volley",
+            "text": "The corbayrant makes four spine Strikes, each against a different target. These attacks all count toward the corbayrant's multiple attack penalty, but the penalty doesn't increase until after the corbayrant makes their attacks.",
+            "traits": [],
+            "actions": "two",
+            "description": "The corbayrant makes four spine Strikes, each against a different target. These attacks all count toward the corbayrant's multiple attack penalty, but the penalty doesn't increase until after the corbayrant makes their attacks."
+          },
+          {
+            "name": "Swallow Whole",
+            "text": "Large, 9d6 piercing plus thorn paralysis, Rupture 30",
+            "traits": [
+              "attack"
+            ],
+            "actions": "one",
+            "reference": "/action/swallow-whole-monster-core",
+            "description": "Large, 9d6 piercing plus thorn paralysis, Rupture 30"
+          },
+          {
+            "name": "Thorn Paralysis",
+            "text": "The corbayrant's spines are covered in a paralyzing toxin that cause verdurous thorns to sprout from their victim's body. When a non-corbayrant creature is exposed, it attempts a Fortitude DC 37 save.\n **Critical Success** The creature is unaffected.\n **Success** The creature sprouts spines like those of the corbayrant. For 1 minute, the creature gains the corbayrant's thorny hide ability. Allies attempting to aid the victim with touch-range spells and abilities run the risk of becoming infected themselves. At the end of the duration, the spines fall off harmlessly.\n **Failure** As success, but the creature is also [Paralyzed](/condition/paralyzed-player-core) for 1 minute. It can attempt another Fortitude save at the end of each turn to end the paralysis, but not the spines.\n **Critical Failure** As failure, but the creature doesn't receive a save at the end of its turn to end the paralysis.",
+            "traits": [
+              "incapacitation",
+              "poison"
+            ],
+            "description": "The corbayrant's spines are covered in a paralyzing toxin that cause verdurous thorns to sprout from their victim's body. When a non-corbayrant creature is exposed, it attempts a Fortitude DC 37 save.\n **Critical Success** The creature is unaffected.\n **Success** The creature sprouts spines like those of the corbayrant. For 1 minute, the creature gains the corbayrant's thorny hide ability. Allies attempting to aid the victim with touch-range spells and abilities run the risk of becoming infected themselves. At the end of the duration, the spines fall off harmlessly.\n **Failure** As success, but the creature is also [Paralyzed](/condition/paralyzed-player-core) for 1 minute. It can attempt another Fortitude save at the end of each turn to end the paralysis, but not the spines.\n **Critical Failure** As failure, but the creature doesn't receive a save at the end of its turn to end the paralysis."
+          }
+        ]
+      },
+      "recallKnowledge": {
+        "dc": 40,
+        "skills": [
+          "nature",
+          "arcana"
+        ],
+        "subjects": [
+          "beast",
+          "fey",
+          "plant"
+        ],
+        "entries": [
+          {
+            "subject": "beast",
+            "skills": [
+              "arcana",
+              "nature"
+            ]
+          },
+          {
+            "subject": "fey",
+            "skills": [
+              "nature"
+            ]
+          },
+          {
+            "subject": "plant",
+            "skills": [
+              "nature"
+            ]
+          }
+        ]
+      },
+      "languagesText": "Common, Fey, Muan",
+      "recallKnowledgeText": "DC 40 (Nature)",
+      "traitLinks": [
+        {
+          "label": "beast",
+          "slug": "beast"
+        },
+        {
+          "label": "fey",
+          "slug": "fey"
+        },
+        {
+          "label": "plant",
+          "slug": "plant"
+        }
+      ],
+      "senseEntries": [
+        {
+          "name": "blindsight",
+          "acuity": "precise",
+          "acuityReference": "/rule/precise-senses-rules-2406",
+          "details": "100 feet"
+        }
+      ],
+      "immunityEditor": {
+        "entries": [
+          {
+            "name": "Blinded"
+          },
+          {
+            "name": "Visual"
+          }
+        ]
+      },
+      "skillsEditor": {
+        "skills": {
+          "athletics": 33,
+          "nature": 29,
+          "stealth": 27,
+          "survival": 27
+        },
+        "loreSkills": []
+      },
+      "weaknessEntries": [
+        {
+          "type": "cold",
+          "value": 15
+        }
+      ],
+      "resistanceEntries": [
+        {
+          "type": "fire",
+          "value": 10
+        },
+        {
+          "type": "piercing",
+          "value": 15
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "beast",
+      "fey",
+      "plant",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "DBADDA47-3D10-5A75-AB27-74A896DA6CE9",
+    "kind": "Creature",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Failed Prophet",
+    "slug": "failed-prophet-shining-kingdoms",
+    "descr": "",
+    "data": {
+      "level": 10,
+      "rarity": "rare",
+      "size": "medium",
+      "traits": [
+        "construct"
+      ],
+      "attributes": {
+        "str": 7,
+        "dex": 3,
+        "con": 5,
+        "int": 5,
+        "wis": 7,
+        "cha": 6
+      },
+      "perception": 20,
+      "ac": {
+        "value": 30,
+        "details": ""
+      },
+      "hp": {
+        "value": 175,
+        "details": ""
+      },
+      "saves": {
+        "fortitude": 20,
+        "reflex": 17,
+        "will": 23
+      },
+      "skills": {
+        "diplomacy": 20,
+        "occultism": 23,
+        "thievery": 23
+      },
+      "languages": [
+        "common",
+        "dwarven"
+      ],
+      "senses": "[Darkvision](/action/darkvision-monster-core), wealthsense ([imprecise](/rule/imprecise-senses-rules-2407)) 60 feet",
+      "immunities": [
+        "Bleed",
+        "[Death Effects](/rule/death-effects-rules-2331)",
+        "[Disease](/trait/disease)",
+        "[Doomed](/condition/doomed-player-core)",
+        "[Drained](/condition/drained-player-core)",
+        "[Fatigued](/condition/fatigued-player-core)",
+        "[Healing](/trait/healing)",
+        "[Mental](/trait/mental)",
+        "[Nonlethal Attacks](/rule/nonlethal-attacks-rules-2311)",
+        "[Paralyzed](/condition/paralyzed-player-core)",
+        "[Poison](/trait/poison)",
+        "[Sickened](/condition/sickened-player-core)",
+        "[Spirit](/trait/spirit)",
+        "[Unconscious](/condition/unconscious-player-core)",
+        "[Vitality](/trait/vitality)",
+        "[Void](/trait/void)"
+      ],
+      "weaknesses": {
+        "spirit": 10
+      },
+      "resistances": {
+        "cold": 10,
+        "electricity": 10
+      },
+      "movement": {
+        "walk": 25
+      },
+      "attacks": [
+        {
+          "name": "Fist",
+          "type": "melee",
+          "actions": "one",
+          "attack": 24,
+          "traits": [
+            "magical",
+            "reach-10"
+          ],
+          "damage": "2d10+11 bludgeoning",
+          "effects": [
+            {
+              "name": "Greedy Grab"
+            }
+          ]
+        }
+      ],
+      "abilities": {
+        "interaction": [
+          {
+            "name": "Wealthsense",
+            "text": "150 gp\n\nThe failed prophet can detect concentrations of coinage and other valuables as an imprecise sense with a range of 60 feet. The failed prophet detects any creature carrying coins and treasure totaling at least the average cost of a consumable item of the failed prophet's level.",
+            "traits": [],
+            "description": "150 gp\n\nThe failed prophet can detect concentrations of coinage and other valuables as an imprecise sense with a range of 60 feet. The failed prophet detects any creature carrying coins and treasure totaling at least the average cost of a consumable item of the failed prophet's level."
+          }
+        ],
+        "defensive": [
+          {
+            "name": "Broken Mindscape",
+            "text": "30 feet. A creature entering the aura or starting its turn in the aura must attempt a Will DC 27 save.\n **Critical Success** The creature is unaffected and becomes immune to broken mindscape for 1 minute.\n **Success** The creature is [Stunned 1](/condition/stunned-player-core) as disjointed visions of the failed prophet's mindscape assail its senses.\n **Failure** The creature's mind is pulled into the failed prophet's mindscape. It's [Paralyzed](/condition/paralyzed-player-core) for 1 round. While paralyzed, the creature can take any actions with the mental or [spirit](/trait/spirit) traits, or that deal mental or spirit damage, as though those actions were purely mental. Such actions only have line of effect to the originating failed prophet and other creatures currently paralyzed by broken mindscape, though they treat all such creatures as though they were adjacent.\n **Critical Failure** As failure, but the duration is 1 minute or until the failed prophet is destroyed, whichever happens first.",
+            "traits": [
+              "aura",
+              "illusion",
+              "incapacitation",
+              "mental"
+            ],
+            "description": "30 feet. A creature entering the aura or starting its turn in the aura must attempt a Will DC 27 save.\n **Critical Success** The creature is unaffected and becomes immune to broken mindscape for 1 minute.\n **Success** The creature is [Stunned 1](/condition/stunned-player-core) as disjointed visions of the failed prophet's mindscape assail its senses.\n **Failure** The creature's mind is pulled into the failed prophet's mindscape. It's [Paralyzed](/condition/paralyzed-player-core) for 1 round. While paralyzed, the creature can take any actions with the mental or [spirit](/trait/spirit) traits, or that deal mental or spirit damage, as though those actions were purely mental. Such actions only have line of effect to the originating failed prophet and other creatures currently paralyzed by broken mindscape, though they treat all such creatures as though they were adjacent.\n **Critical Failure** As failure, but the duration is 1 minute or until the failed prophet is destroyed, whichever happens first."
+          },
+          {
+            "name": "Taboos",
+            "text": "Despite the failed prophet's transformed body, a lifelong adherence to the strictures of the Prophecies of Kalistrade has ingrained the philosophical prohibitions into their soul. Whenever a failed prophet is critically hit by an unarmed attack, is critically hit by or critically fails a save against a touch spell, or is exposed to a disease or poison effect (even though immune), they take a –2 status penalty to their AC, attack bonuses, DCs, Perception, saving throws, and skill modifiers for 1 minute. Breaking other Kalistocratic taboos can also trigger this penalty at the GM's discretion.",
+            "traits": [],
+            "description": "Despite the failed prophet's transformed body, a lifelong adherence to the strictures of the Prophecies of Kalistrade has ingrained the philosophical prohibitions into their soul. Whenever a failed prophet is critically hit by an unarmed attack, is critically hit by or critically fails a save against a touch spell, or is exposed to a disease or poison effect (even though immune), they take a –2 status penalty to their AC, attack bonuses, DCs, Perception, saving throws, and skill modifiers for 1 minute. Breaking other Kalistocratic taboos can also trigger this penalty at the GM's discretion."
+          }
+        ],
+        "offensive": [
+          {
+            "name": "Greedy Grab",
+            "text": "**Requirements** The failed prophet's last action was a successful fist [Strike](/action/strike-player-core) that dealt damage; **Effect** The failed prophet attempts a Thievery check against the target's Reflex DC. On a success, the failed prophet pilfers coins and gems from the target with a total value as indicated in the table, to a maximum of what the target is carrying. Valuables in unlocked containers on the target's person can be taken just as easily as those carried. On a critical success, the failed prophet steals double that amount. The failed prophet gains a number of temporary Hit Points equal to the value stolen that last for 1 minute.\n\n| Level | Value Stolen |\n| --- | --- |\n| 10–12 | 5d10 gp |\n| 13–15 | 6d10 gp |\n| 16–18 | 7d10 gp |\n| 19–20 | 8d10 gp |",
+            "traits": [],
+            "actions": "one",
+            "effect": "The failed prophet attempts a Thievery check against the target's Reflex DC. On a success, the failed prophet pilfers coins and gems from the target with a total value as indicated in the table, to a maximum of what the target is carrying. Valuables in unlocked containers on the target's person can be taken just as easily as those carried. On a critical success, the failed prophet steals double that amount. The failed prophet gains a number of temporary Hit Points equal to the value stolen that last for 1 minute.\n\n| Level | Value Stolen |\n| --- | --- |\n| 10–12 | 5d10 gp |\n| 13–15 | 6d10 gp |\n| 16–18 | 7d10 gp |\n| 19–20 | 8d10 gp |",
+            "description": "**Requirements** The failed prophet's last action was a successful fist [Strike](/action/strike-player-core) that dealt damage"
+          },
+          {
+            "name": "This Is My Reality!",
+            "text": "6d6 spirit, basic Will DC 30\n\nThe failed prophet exerts control over their crumbling mindscape to inflict harm upon those trapped within. This can take the form of falling debris, natural disasters, or anything else the failed prophet can imagine. No matter the form, each creature currently [Paralyzed](/condition/paralyzed-player-core) by the failed prophet's broken mindscape takes spirit damage with a [basic Will save](/rule/basic-saving-throws-rules-2297). The save DC uses the high spell DC for the failed prophet's level and the unlimited use area damage for the failed prophet's level.",
+            "traits": [
+              "concentrate"
+            ],
+            "actions": "two",
+            "description": "6d6 spirit, basic Will DC 30\n\nThe failed prophet exerts control over their crumbling mindscape to inflict harm upon those trapped within. This can take the form of falling debris, natural disasters, or anything else the failed prophet can imagine. No matter the form, each creature currently [Paralyzed](/condition/paralyzed-player-core) by the failed prophet's broken mindscape takes spirit damage with a [basic Will save](/rule/basic-saving-throws-rules-2297). The save DC uses the high spell DC for the failed prophet's level and the unlimited use area damage for the failed prophet's level."
+          }
+        ]
+      },
+      "recallKnowledge": {
+        "dc": 32,
+        "skills": [
+          "arcana",
+          "crafting"
+        ],
+        "subjects": [
+          "construct"
+        ],
+        "entries": [
+          {
+            "subject": "construct",
+            "skills": [
+              "arcana",
+              "crafting"
+            ]
+          }
+        ]
+      },
+      "languagesText": "Common, Dwarven",
+      "recallKnowledgeText": "DC 32 (Arcana)",
+      "traitLinks": [
+        {
+          "label": "construct",
+          "slug": "construct"
+        }
+      ],
+      "loreSkills": [
+        {
+          "name": "Mercantile Lore",
+          "value": 26
+        }
+      ],
+      "spellcasting": [
+        {
+          "name": "Occult Spontaneous Spells",
+          "spellGroups": [
+            {
+              "label": "5th (3 slots)",
+              "spells": [
+                {
+                  "name": "Invoke Spirits",
+                  "rank": 5,
+                  "reference": "/spell/invoke-spirits-player-core"
+                },
+                {
+                  "name": "Shadow Blast",
+                  "rank": 5,
+                  "reference": "/spell/shadow-blast-player-core"
+                },
+                {
+                  "name": "Telekinetic Haul",
+                  "rank": 5,
+                  "reference": "/spell/telekinetic-haul-player-core"
+                }
+              ]
+            },
+            {
+              "label": "4th (4 slots)",
+              "spells": [
+                {
+                  "name": "Confusion",
+                  "rank": 4,
+                  "reference": "/spell/confusion-player-core"
+                },
+                {
+                  "name": "Translocate",
+                  "rank": 4,
+                  "reference": "/spell/translocate-player-core"
+                },
+                {
+                  "name": "Vision of Death",
+                  "rank": 4,
+                  "reference": "/spell/vision-of-death-player-core"
+                }
+              ]
+            },
+            {
+              "label": "3rd (4 slots)",
+              "spells": [
+                {
+                  "name": "Locate",
+                  "rank": 3,
+                  "reference": "/spell/locate-player-core"
+                },
+                {
+                  "name": "Paralyze",
+                  "rank": 3,
+                  "reference": "/spell/paralyze-player-core"
+                },
+                {
+                  "name": "Force Barrage",
+                  "rank": 3,
+                  "reference": "/spell/force-barrage-player-core"
+                }
+              ]
+            },
+            {
+              "label": "2nd (4 slots)",
+              "spells": [
+                {
+                  "name": "Paranoia",
+                  "rank": 2,
+                  "reference": "/spell/paranoia-player-core"
+                },
+                {
+                  "name": "Stupefy",
+                  "rank": 2,
+                  "reference": "/spell/stupefy-player-core"
+                },
+                {
+                  "name": "Telekinetic Maneuver",
+                  "rank": 2,
+                  "reference": "/spell/telekinetic-maneuver-player-core"
+                }
+              ]
+            },
+            {
+              "label": "1st (5 slots)",
+              "spells": [
+                {
+                  "name": "Ill Omen",
+                  "rank": 1,
+                  "reference": "/spell/ill-omen-player-core"
+                },
+                {
+                  "name": "Item Facade",
+                  "rank": 1,
+                  "reference": "/spell/item-facade-player-core"
+                },
+                {
+                  "name": "Phantasmal Minion",
+                  "rank": 1,
+                  "reference": "/spell/phantasmal-minion-player-core"
+                }
+              ]
+            },
+            {
+              "label": "Cantrips (5th)",
+              "spells": [
+                {
+                  "name": "Daze",
+                  "rank": 5,
+                  "reference": "/spell/daze-player-core"
+                },
+                {
+                  "name": "Figment",
+                  "rank": 5,
+                  "reference": "/spell/figment-player-core"
+                },
+                {
+                  "name": "Shield",
+                  "rank": 5,
+                  "reference": "/spell/shield-player-core"
+                },
+                {
+                  "name": "Telekinetic Hand",
+                  "rank": 5,
+                  "reference": "/spell/telekinetic-hand-player-core"
+                },
+                {
+                  "name": "Telekinetic Projectile",
+                  "rank": 5,
+                  "reference": "/spell/telekinetic-projectile-player-core"
+                }
+              ]
+            }
+          ],
+          "spellDC": 27,
+          "spellAttack": 19
+        }
+      ],
+      "senseEntries": [
+        {
+          "name": "Darkvision",
+          "reference": "/action/darkvision-monster-core"
+        },
+        {
+          "name": "wealthsense",
+          "acuity": "imprecise",
+          "acuityReference": "/rule/imprecise-senses-rules-2407",
+          "details": "60 feet"
+        }
+      ],
+      "immunityEditor": {
+        "entries": [
+          {
+            "name": "Bleed"
+          },
+          {
+            "name": "Death Effects",
+            "reference": "/rule/death-effects-rules-2331"
+          },
+          {
+            "name": "Disease",
+            "reference": "/trait/disease"
+          },
+          {
+            "name": "Doomed",
+            "reference": "/condition/doomed-player-core"
+          },
+          {
+            "name": "Drained",
+            "reference": "/condition/drained-player-core"
+          },
+          {
+            "name": "Fatigued",
+            "reference": "/condition/fatigued-player-core"
+          },
+          {
+            "name": "Healing",
+            "reference": "/trait/healing"
+          },
+          {
+            "name": "Mental",
+            "reference": "/trait/mental"
+          },
+          {
+            "name": "Nonlethal Attacks",
+            "reference": "/rule/nonlethal-attacks-rules-2311"
+          },
+          {
+            "name": "Paralyzed",
+            "reference": "/condition/paralyzed-player-core"
+          },
+          {
+            "name": "Poison",
+            "reference": "/trait/poison"
+          },
+          {
+            "name": "Sickened",
+            "reference": "/condition/sickened-player-core"
+          },
+          {
+            "name": "Spirit",
+            "reference": "/trait/spirit"
+          },
+          {
+            "name": "Unconscious",
+            "reference": "/condition/unconscious-player-core"
+          },
+          {
+            "name": "Vitality",
+            "reference": "/trait/vitality"
+          },
+          {
+            "name": "Void",
+            "reference": "/trait/void"
+          }
+        ]
+      },
+      "skillsEditor": {
+        "skills": {
+          "diplomacy": 20,
+          "occultism": 23,
+          "thievery": 23
+        },
+        "loreSkills": [
+          {
+            "name": "Mercantile Lore",
+            "value": 26
+          }
+        ]
+      },
+      "weaknessEntries": [
+        {
+          "type": "spirit",
+          "value": 10
+        }
+      ],
+      "resistanceEntries": [
+        {
+          "type": "cold",
+          "value": 10
+        },
+        {
+          "type": "electricity",
+          "value": 10
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "construct",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "858B9A7F-72F1-5AD2-883E-D6A722381832",
+    "kind": "Creature",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Goldpebble",
+    "slug": "goldpebble-shining-kingdoms",
+    "descr": "",
+    "data": {
+      "level": 5,
+      "rarity": "common",
+      "size": "large",
+      "traits": [
+        "aquatic",
+        "beast"
+      ],
+      "attributes": {
+        "str": 5,
+        "dex": 3,
+        "con": 4,
+        "int": -3,
+        "wis": 1,
+        "cha": 1
+      },
+      "perception": 9,
+      "ac": {
+        "value": 21,
+        "details": ""
+      },
+      "hp": {
+        "value": 90,
+        "details": ""
+      },
+      "saves": {
+        "fortitude": 15,
+        "reflex": 12,
+        "will": 9
+      },
+      "skills": {
+        "acrobatics": 12,
+        "athletics": 12,
+        "stealth": 13
+      },
+      "languages": [
+        "common"
+      ],
+      "senses": "[Darkvision](/action/darkvision-monster-core), [Low-Light Vision](/action/low-light-vision-monster-core), [Wavesense](/action/wavesense-monster-core) ([imprecise](/rule/imprecise-senses-rules-2407)) 60 feet",
+      "immunities": [],
+      "weaknesses": {
+        "electricity": 5
+      },
+      "resistances": {
+        "cold": 5
+      },
+      "movement": {
+        "walk": 25,
+        "swim": 25
+      },
+      "attacks": [
+        {
+          "name": "Fangs",
+          "type": "melee",
+          "actions": "one",
+          "attack": 15,
+          "traits": [],
+          "damage": "1d8 cold; 1d8+5 piercing",
+          "effects": [
+            {
+              "name": "Pebblefang Poison"
+            }
+          ]
+        },
+        {
+          "name": "Tail",
+          "type": "melee",
+          "actions": "one",
+          "attack": 13,
+          "traits": [
+            "agile",
+            "reach-10"
+          ],
+          "damage": "2d6+5 bludgeoning",
+          "effects": [
+            {
+              "name": "Grab",
+              "reference": "/action/grab-monster-core"
+            }
+          ]
+        }
+      ],
+      "abilities": {
+        "interaction": [],
+        "defensive": [],
+        "offensive": [
+          {
+            "name": "Chilling Currents",
+            "text": "A goldpebble can cause the temperature of all water within a 30-foot emanation centered on itself to plummet for 1 minute. Any creature that starts its turn or enters the affected water takes 2d6 cold damage (basic Fortitude DC 19 save).",
+            "traits": [],
+            "actions": "one",
+            "description": "A goldpebble can cause the temperature of all water within a 30-foot emanation centered on itself to plummet for 1 minute. Any creature that starts its turn or enters the affected water takes 2d6 cold damage (basic Fortitude DC 19 save)."
+          },
+          {
+            "name": "Pebblefang Poison",
+            "text": "**Saving Throw** Fortitude DC 21\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 1d6 cold damage (2 rounds)\n\n**Stage 2** 2d6 cold damage (2 rounds)\n\n**Stage 3** 2d6 cold damage and [Drained 1](/condition/drained-player-core)",
+            "traits": [
+              "poison"
+            ],
+            "description": "**Saving Throw** Fortitude DC 21\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 1d6 cold damage (2 rounds)\n\n**Stage 2** 2d6 cold damage (2 rounds)\n\n**Stage 3** 2d6 cold damage and [Drained 1](/condition/drained-player-core)"
+          }
+        ]
+      },
+      "recallKnowledge": {
+        "dc": 20,
+        "skills": [
+          "nature",
+          "arcana"
+        ],
+        "subjects": [
+          "beast"
+        ],
+        "entries": [
+          {
+            "subject": "beast",
+            "skills": [
+              "arcana",
+              "nature"
+            ]
+          }
+        ]
+      },
+      "languagesText": "Common",
+      "recallKnowledgeText": "DC 20 (Nature)",
+      "traitLinks": [
+        {
+          "label": "aquatic",
+          "slug": "aquatic"
+        },
+        {
+          "label": "beast",
+          "slug": "beast"
+        }
+      ],
+      "senseEntries": [
+        {
+          "name": "Darkvision",
+          "reference": "/action/darkvision-monster-core"
+        },
+        {
+          "name": "Low-Light Vision",
+          "reference": "/action/low-light-vision-monster-core"
+        },
+        {
+          "name": "Wavesense",
+          "reference": "/action/wavesense-monster-core",
+          "acuity": "imprecise",
+          "acuityReference": "/rule/imprecise-senses-rules-2407",
+          "details": "60 feet"
+        }
+      ],
+      "skillsEditor": {
+        "skills": {
+          "acrobatics": 12,
+          "athletics": 12,
+          "stealth": 13
+        },
+        "loreSkills": []
+      },
+      "weaknessEntries": [
+        {
+          "type": "electricity",
+          "value": 5
+        }
+      ],
+      "resistanceEntries": [
+        {
+          "type": "cold",
+          "value": 5
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "aquatic",
+      "beast",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "733FF0E4-9ED7-566E-9D27-77F1601C3FF3",
+    "kind": "Creature",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Lamp Blighter",
+    "slug": "lamp-blighter-shining-kingdoms",
+    "descr": "",
+    "data": {
+      "level": 6,
+      "rarity": "common",
+      "size": "small",
+      "traits": [
+        "fey"
+      ],
+      "attributes": {
+        "str": 1,
+        "dex": 5,
+        "con": 1,
+        "int": 2,
+        "wis": 3,
+        "cha": 2
+      },
+      "perception": 15,
+      "ac": {
+        "value": 23,
+        "details": ""
+      },
+      "hp": {
+        "value": 75,
+        "details": ""
+      },
+      "saves": {
+        "fortitude": 11,
+        "reflex": 17,
+        "will": 14,
+        "details": "+1 status to all saves vs. magic"
+      },
+      "skills": {
+        "acrobatics": 15,
+        "deception": 13,
+        "intimidation": 13,
+        "nature": 13,
+        "stealth": 15
+      },
+      "languages": [
+        "aklo",
+        "common",
+        "fey"
+      ],
+      "senses": "[Darkvision](/action/darkvision-monster-core), [Low-Light Vision](/action/low-light-vision-monster-core)",
+      "immunities": [
+        "Blinded"
+      ],
+      "weaknesses": {
+        "cold-iron": 5,
+        "fire": 5
+      },
+      "resistances": {},
+      "movement": {
+        "walk": 25
+      },
+      "attacks": [
+        {
+          "name": "Claw",
+          "type": "melee",
+          "actions": "one",
+          "attack": 16,
+          "traits": [
+            "agile",
+            "finesse",
+            "magical"
+          ],
+          "damage": "2d4+7 slashing"
+        },
+        {
+          "name": "Shortbow",
+          "type": "ranged",
+          "actions": "one",
+          "attack": 17,
+          "traits": [
+            "deadly-d10",
+            "reload-0",
+            "range-increment-60"
+          ],
+          "damage": "1d6+6 piercing"
+        }
+      ],
+      "abilities": {
+        "interaction": [],
+        "defensive": [],
+        "offensive": [
+          {
+            "name": "Eye Pluck",
+            "text": "**Frequency** once per round; **Requirements** The lamp blighter's last action was a successful claw [Strike](/action/strike-player-core) against a creature with eyes; **Effect** The lamp blighter attempts to pluck out one of the required creature's eyes. The target must attempt a Fortitude DC 21 save. On a failure, the target takes 4 persistent bleed damage and is [Dazzled](/condition/dazzled-player-core) for 1 round. On a critical failure, the target's eye is also severely damaged, taking a –4 circumstance penalty on all sight-based Perception checks until the target returns to full Hit Points or the wound is otherwise healed (by magic such as [Sound Body](/spell/sound-body-player-core) or [Regenerate](/spell/regenerate-player-core)). If all a creature's eyes are severely damaged in this way, that creature is [Blinded](/condition/blinded-player-core) for the same duration.",
+            "traits": [
+              "manipulate"
+            ],
+            "actions": "one",
+            "effect": "The lamp blighter attempts to pluck out one of the required creature's eyes. The target must attempt a Fortitude DC 21 save. On a failure, the target takes 4 persistent bleed damage and is [Dazzled](/condition/dazzled-player-core) for 1 round. On a critical failure, the target's eye is also severely damaged, taking a –4 circumstance penalty on all sight-based Perception checks until the target returns to full Hit Points or the wound is otherwise healed (by magic such as [Sound Body](/spell/sound-body-player-core) or [Regenerate](/spell/regenerate-player-core)). If all a creature's eyes are severely damaged in this way, that creature is [Blinded](/condition/blinded-player-core) for the same duration.",
+            "description": "**Frequency** once per round; **Requirements** The lamp blighter's last action was a successful claw [Strike](/action/strike-player-core) against a creature with eyes"
+          },
+          {
+            "name": "Fear the Darkness",
+            "text": "**Requirements** The lamp blighter must be in an area of darkness; **Effect** The lamp blighter evokes the terror of being unable to see in the dark. Each creature within a 20-foot emanation that doesn't have darkvision must succeed at a Will DC 23 save or become [Frightened 2](/condition/frightened-player-core).",
+            "traits": [
+              "concentrate",
+              "emotion",
+              "fear",
+              "mental",
+              "primal"
+            ],
+            "actions": "two",
+            "effect": "The lamp blighter evokes the terror of being unable to see in the dark. Each creature within a 20-foot emanation that doesn't have darkvision must succeed at a Will DC 23 save or become [Frightened 2](/condition/frightened-player-core).",
+            "description": "**Requirements** The lamp blighter must be in an area of darkness"
+          },
+          {
+            "name": "Snuff the Light",
+            "text": "The lamp blighter extinguishes light sources in a 10-foot emanation. They extinguish all non-magical light sources automatically and attempt to extinguish magical light sources with a +16 counteract modifier and a counteract rank of 3. If the lamp blighter successfully extinguishes any light, their next successful claw or shortbow [Strike](/action/strike-player-core) deals 1d6 persistent fire damage.",
+            "traits": [
+              "concentrate",
+              "fire",
+              "primal"
+            ],
+            "actions": "one",
+            "description": "The lamp blighter extinguishes light sources in a 10-foot emanation. They extinguish all non-magical light sources automatically and attempt to extinguish magical light sources with a +16 counteract modifier and a counteract rank of 3. If the lamp blighter successfully extinguishes any light, their next successful claw or shortbow [Strike](/action/strike-player-core) deals 1d6 persistent fire damage."
+          }
+        ]
+      },
+      "recallKnowledge": {
+        "dc": 22,
+        "skills": [
+          "nature"
+        ],
+        "subjects": [
+          "fey"
+        ],
+        "entries": [
+          {
+            "subject": "fey",
+            "skills": [
+              "nature"
+            ]
+          }
+        ]
+      },
+      "languagesText": "Aklo, Common, Fey",
+      "recallKnowledgeText": "DC 22 (Nature)",
+      "items": "[Shortbow](/item/shortbow-player-core)",
+      "traitLinks": [
+        {
+          "label": "fey",
+          "slug": "fey"
+        }
+      ],
+      "spellcasting": [
+        {
+          "name": "Primal Innate Spells",
+          "spellGroups": [
+            {
+              "label": "4th",
+              "spells": [
+                {
+                  "name": "Darkness",
+                  "rank": 4,
+                  "reference": "/spell/darkness-player-core"
+                }
+              ]
+            },
+            {
+              "label": "3rd",
+              "spells": [
+                {
+                  "name": "Blindness",
+                  "rank": 3,
+                  "reference": "/spell/blindness-player-core"
+                },
+                {
+                  "name": "Dispel Magic",
+                  "rank": 3,
+                  "reference": "/spell/dispel-magic-player-core"
+                }
+              ]
+            },
+            {
+              "label": "2nd",
+              "spells": [
+                {
+                  "name": "Floating Flame",
+                  "rank": 2,
+                  "reference": "/spell/floating-flame-player-core"
+                }
+              ]
+            },
+            {
+              "label": "Cantrips (3rd)",
+              "spells": [
+                {
+                  "name": "Detect Magic",
+                  "rank": 3,
+                  "reference": "/spell/detect-magic-player-core"
+                },
+                {
+                  "name": "Ignition",
+                  "rank": 3,
+                  "reference": "/spell/ignition-player-core"
+                },
+                {
+                  "name": "Prestidigitation",
+                  "rank": 3,
+                  "reference": "/spell/prestidigitation-player-core"
+                },
+                {
+                  "name": "Shield",
+                  "rank": 3,
+                  "reference": "/spell/shield-player-core"
+                }
+              ]
+            }
+          ],
+          "spellDC": 24,
+          "spellAttack": 16
+        }
+      ],
+      "senseEntries": [
+        {
+          "name": "Darkvision",
+          "reference": "/action/darkvision-monster-core"
+        },
+        {
+          "name": "Low-Light Vision",
+          "reference": "/action/low-light-vision-monster-core"
+        }
+      ],
+      "itemEntries": [
+        {
+          "name": "Shortbow",
+          "reference": "/item/shortbow-player-core"
+        }
+      ],
+      "immunityEditor": {
+        "entries": [
+          {
+            "name": "Blinded"
+          }
+        ]
+      },
+      "skillsEditor": {
+        "skills": {
+          "acrobatics": 15,
+          "deception": 13,
+          "intimidation": 13,
+          "nature": 13,
+          "stealth": 15
+        },
+        "loreSkills": []
+      },
+      "weaknessEntries": [
+        {
+          "type": "cold-iron",
+          "value": 5
+        },
+        {
+          "type": "fire",
+          "value": 5
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "fey",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "CF4C0FEB-154F-59EA-A616-FC38074B1C8A",
+    "kind": "Creature",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Shroudwing",
+    "slug": "shroudwing-shining-kingdoms",
+    "descr": "",
+    "data": {
+      "level": 4,
+      "rarity": "common",
+      "size": "medium",
+      "traits": [],
+      "attributes": {
+        "str": 5,
+        "dex": 4,
+        "con": 3,
+        "int": -3,
+        "wis": 1,
+        "cha": 0
+      },
+      "perception": 12,
+      "ac": {
+        "value": 20,
+        "details": ""
+      },
+      "hp": {
+        "value": 60,
+        "details": ""
+      },
+      "saves": {
+        "fortitude": 12,
+        "reflex": 13,
+        "will": 8
+      },
+      "skills": {
+        "acrobatics": 12,
+        "athletics": 13
+      },
+      "languages": [
+        "common",
+        "necril"
+      ],
+      "senses": "[Darkvision](/action/darkvision-monster-core)",
+      "immunities": [],
+      "weaknesses": {},
+      "resistances": {},
+      "movement": {
+        "walk": 20,
+        "fly": 30
+      },
+      "attacks": [
+        {
+          "name": "Beak",
+          "type": "melee",
+          "actions": "one",
+          "attack": 12,
+          "traits": [
+            "reach-10"
+          ],
+          "damage": "2d8+5 piercing",
+          "effects": [
+            {
+              "name": "Knockdown",
+              "reference": "/action/knockdown-monster-core"
+            }
+          ]
+        },
+        {
+          "name": "Talon",
+          "type": "melee",
+          "actions": "one",
+          "attack": 12,
+          "traits": [
+            "agile"
+          ],
+          "damage": "2d6+5 bludgeoning",
+          "effects": [
+            {
+              "name": "Grave Blight"
+            }
+          ]
+        }
+      ],
+      "abilities": {
+        "interaction": [],
+        "defensive": [],
+        "offensive": [
+          {
+            "name": "Death Rattle",
+            "text": "The shroudwing emits a guttural, haunting call that instills a sense of fear almost impossible to shake. Each non-shroudwing creature within a 30-foot emanation must attempt a Will DC 18 save. Regardless of the result, creatures are then temporarily immune to Death Rattle for 1 minute.\n **Critical Success** The creature is unaffected.\n **Success** The creature is [Off Guard](/condition/off-guard-player-core) until the start of the shroudwing's next turn.\n **Failure** The creature is [Frightened 1](/condition/frightened-player-core).\n **Critical Failure** The creature is Frightened 2.",
+            "traits": [
+              "concentrate",
+              "emotion",
+              "fear",
+              "mental"
+            ],
+            "actions": "one",
+            "description": "The shroudwing emits a guttural, haunting call that instills a sense of fear almost impossible to shake. Each non-shroudwing creature within a 30-foot emanation must attempt a Will DC 18 save. Regardless of the result, creatures are then temporarily immune to Death Rattle for 1 minute.\n **Critical Success** The creature is unaffected.\n **Success** The creature is [Off Guard](/condition/off-guard-player-core) until the start of the shroudwing's next turn.\n **Failure** The creature is [Frightened 1](/condition/frightened-player-core).\n **Critical Failure** The creature is Frightened 2."
+          },
+          {
+            "name": "Grave Blight",
+            "text": "**Saving Throw** Fortitude DC 18\n\n**Stage 1** carrier with no ill effect (1 day)\n\n**Stage 2** 1d6 persistent poison damage every hour, [Sickened 1](/condition/sickened-player-core), and can't reduce the value of the sickened condition while taking persistent poison damage (1 day)\n\n**Stage 3** 2d6 persistent poison damage every hour, Sickened 2, and can't reduce the value of the sickened condition while taking persistent poison damage (1 day)",
+            "traits": [
+              "disease"
+            ],
+            "description": "**Saving Throw** Fortitude DC 18\n\n**Stage 1** carrier with no ill effect (1 day)\n\n**Stage 2** 1d6 persistent poison damage every hour, [Sickened 1](/condition/sickened-player-core), and can't reduce the value of the sickened condition while taking persistent poison damage (1 day)\n\n**Stage 3** 2d6 persistent poison damage every hour, Sickened 2, and can't reduce the value of the sickened condition while taking persistent poison damage (1 day)"
+          },
+          {
+            "name": "Soul Feeding",
+            "text": "**Requirements** The shroudwing is adjacent to a [dying](/condition/dying-player-core) creature; **Effect** The shroudwing attempts to devour the dying creature's soul. The creature must attempt a Will DC 18 save or their dying condition increases by 1 and the shroudwing regains 2d8 healing Hit Points.",
+            "traits": [
+              "concentrate",
+              "death",
+              "divine",
+              "manipulate"
+            ],
+            "actions": "two",
+            "effect": "The shroudwing attempts to devour the dying creature's soul. The creature must attempt a Will DC 18 save or their dying condition increases by 1 and the shroudwing regains 2d8 healing Hit Points.",
+            "description": "**Requirements** The shroudwing is adjacent to a [dying](/condition/dying-player-core) creature"
+          }
+        ]
+      },
+      "recallKnowledge": {
+        "dc": 19,
+        "skills": []
+      },
+      "languagesText": "Common, Necril",
+      "recallKnowledgeText": "DC 19",
+      "traitLinks": [],
+      "languagesDetails": "can't speak any language",
+      "senseEntries": [
+        {
+          "name": "Darkvision",
+          "reference": "/action/darkvision-monster-core"
+        }
+      ],
+      "skillsEditor": {
+        "skills": {
+          "acrobatics": 12,
+          "athletics": 13
+        },
+        "loreSkills": []
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "683E8553-A116-52C4-A9A8-0304C49D6CE7",
+    "kind": "Creature",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Torn Quartet",
+    "slug": "torn-quartet-shining-kingdoms",
+    "descr": "",
+    "data": {
+      "level": 13,
+      "rarity": "uncommon",
+      "size": "medium",
+      "traits": [
+        "undead"
+      ],
+      "attributes": {
+        "str": 5,
+        "dex": 8,
+        "con": 2,
+        "int": -2,
+        "wis": 4,
+        "cha": 2
+      },
+      "perception": 23,
+      "ac": {
+        "value": 33,
+        "details": ""
+      },
+      "hp": {
+        "value": 240,
+        "details": "void healing"
+      },
+      "saves": {
+        "fortitude": 20,
+        "reflex": 26,
+        "will": 23
+      },
+      "skills": {
+        "acrobatics": 27,
+        "athletics": 27
+      },
+      "languages": [
+        "common",
+        "necril"
+      ],
+      "senses": "[Darkvision](/action/darkvision-monster-core)",
+      "immunities": [
+        "Bleed",
+        "[Death Effects](/rule/death-effects-rules-2331)",
+        "[Disease](/trait/disease)",
+        "[Paralyzed](/condition/paralyzed-player-core)",
+        "[Poison](/trait/poison)",
+        "[Unconscious](/condition/unconscious-player-core)"
+      ],
+      "weaknesses": {
+        "slashing": 10
+      },
+      "resistances": {},
+      "movement": {
+        "walk": 10,
+        "fly": 30
+      },
+      "attacks": [
+        {
+          "name": "Limb",
+          "type": "melee",
+          "actions": "one",
+          "attack": 25,
+          "traits": [
+            "agile",
+            "magical",
+            "reach-15"
+          ],
+          "damage": "3d8+13 bludgeoning",
+          "effects": [
+            {
+              "name": "Improved Grab",
+              "reference": "/action/improved-grab-monster-core"
+            }
+          ]
+        }
+      ],
+      "abilities": {
+        "interaction": [],
+        "defensive": [
+          {
+            "name": "Bound Limbs",
+            "text": "A torn quartet ordinarily has four severed limbs tethered to a central point by near-incorporeal ropes. A limb is essentially cut away from the central point and rendered nonfunctional each time the torn quartet loses 60 Hit Points (so at 180 Hit Points, the torn quartet has three functional limbs, at 120 Hit Points, it has two functional limbs, and so on). Each functioning limb can [Grapple](/action/grapple-player-core) separate creatures within reach, or multiple functioning limbs can Grapple the same creature; for each additional limb used to Grapple a creature, the [Escape](/action/escape-player-core) DC increases by 2.",
+            "traits": [],
+            "description": "A torn quartet ordinarily has four severed limbs tethered to a central point by near-incorporeal ropes. A limb is essentially cut away from the central point and rendered nonfunctional each time the torn quartet loses 60 Hit Points (so at 180 Hit Points, the torn quartet has three functional limbs, at 120 Hit Points, it has two functional limbs, and so on). Each functioning limb can [Grapple](/action/grapple-player-core) separate creatures within reach, or multiple functioning limbs can Grapple the same creature; for each additional limb used to Grapple a creature, the [Escape](/action/escape-player-core) DC increases by 2."
+          },
+          {
+            "name": "Reactive Strike",
+            "text": "",
+            "traits": [],
+            "actions": "reaction",
+            "reference": "/action/reactive-strike-monster-core",
+            "description": ""
+          },
+          {
+            "name": "Replacement Parts",
+            "text": "A torn quartet can spend 1 minute tearing apart the corpse of a humanoid creature that was killed within the last hour to regain 60 Hit Points and restore one of its nonfunctioning limbs. A torn quartet can't have more than four limbs.",
+            "traits": [],
+            "description": "A torn quartet can spend 1 minute tearing apart the corpse of a humanoid creature that was killed within the last hour to regain 60 Hit Points and restore one of its nonfunctioning limbs. A torn quartet can't have more than four limbs."
+          },
+          {
+            "name": "Void Healing",
+            "text": "",
+            "traits": [],
+            "reference": "/action/void-healing-monster-core",
+            "description": ""
+          }
+        ],
+        "offensive": [
+          {
+            "name": "Flurry of Limbs",
+            "text": "The torn quartet makes a number of limb Strikes up to its number of functioning limbs, each against a different target. These attacks count toward the torn quartet's multiple attack penalty, but the multiple attack penalty doesn't increase until after the torn quartet makes all its attacks.",
+            "traits": [],
+            "actions": "two",
+            "description": "The torn quartet makes a number of limb Strikes up to its number of functioning limbs, each against a different target. These attacks count toward the torn quartet's multiple attack penalty, but the multiple attack penalty doesn't increase until after the torn quartet makes all its attacks."
+          },
+          {
+            "name": "Split Reactions",
+            "text": "A torn quartet has a number of reactions per round equal to its number of still-functioning limbs, which it can use only to make Reactive Strikes. It can't use more than 1 reaction on the same triggering action, even if a creature leaves several squares within its reach, and the torn quartet must use a different limb for each Reactive [Strike](/action/strike-player-core) it makes. Whenever one of the torn quartet's limbs is rendered nonfunctional, the torn quartet loses one of its reactions.",
+            "traits": [],
+            "description": "A torn quartet has a number of reactions per round equal to its number of still-functioning limbs, which it can use only to make Reactive Strikes. It can't use more than 1 reaction on the same triggering action, even if a creature leaves several squares within its reach, and the torn quartet must use a different limb for each Reactive [Strike](/action/strike-player-core) it makes. Whenever one of the torn quartet's limbs is rendered nonfunctional, the torn quartet loses one of its reactions."
+          },
+          {
+            "name": "Tear Asunder",
+            "text": "**Requirements** The torn quartet has a creature [Grabbed](/condition/grabbed-player-core) or [Restrained](/condition/restrained-player-core) by at least two limbs; **Effect** The creature takes 5d6 slashing damage for each limb currently grabbing or restraining it (maximum 15d6), with a basic Fortitude DC 30 save. On a critical failure, the creature also loses a random body part, and one of the torn quartet's limbs is now no longer grabbing or restraining it.",
+            "traits": [],
+            "actions": "one",
+            "effect": "The creature takes 5d6 slashing damage for each limb currently grabbing or restraining it (maximum 15d6), with a basic Fortitude DC 30 save. On a critical failure, the creature also loses a random body part, and one of the torn quartet's limbs is now no longer grabbing or restraining it.",
+            "description": "**Requirements** The torn quartet has a creature [Grabbed](/condition/grabbed-player-core) or [Restrained](/condition/restrained-player-core) by at least two limbs"
+          }
+        ]
+      },
+      "recallKnowledge": {
+        "dc": 33,
+        "skills": [
+          "religion"
+        ],
+        "subjects": [
+          "undead"
+        ],
+        "entries": [
+          {
+            "subject": "undead",
+            "skills": [
+              "religion"
+            ]
+          }
+        ]
+      },
+      "languagesText": "Common, Necril",
+      "recallKnowledgeText": "DC 33 (Religion)",
+      "traitLinks": [
+        {
+          "label": "undead",
+          "slug": "undead"
+        }
+      ],
+      "languagesDetails": "can't speak any language",
+      "senseEntries": [
+        {
+          "name": "Darkvision",
+          "reference": "/action/darkvision-monster-core"
+        }
+      ],
+      "immunityEditor": {
+        "entries": [
+          {
+            "name": "Bleed"
+          },
+          {
+            "name": "Death Effects",
+            "reference": "/rule/death-effects-rules-2331"
+          },
+          {
+            "name": "Disease",
+            "reference": "/trait/disease"
+          },
+          {
+            "name": "Paralyzed",
+            "reference": "/condition/paralyzed-player-core"
+          },
+          {
+            "name": "Poison",
+            "reference": "/trait/poison"
+          },
+          {
+            "name": "Unconscious",
+            "reference": "/condition/unconscious-player-core"
+          }
+        ]
+      },
+      "skillsEditor": {
+        "skills": {
+          "acrobatics": 27,
+          "athletics": 27
+        },
+        "loreSkills": []
+      },
+      "weaknessEntries": [
+        {
+          "type": "slashing",
+          "value": 10
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "shining-kingdoms",
+      "undead"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C0E34973-6309-5BA9-A5D0-5AE562A5B23F",
+    "kind": "Creature",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Vorvorak",
+    "slug": "vorvorak-shining-kingdoms",
+    "descr": "",
+    "data": {
+      "level": 10,
+      "rarity": "common",
+      "size": "huge",
+      "traits": [
+        "beast"
+      ],
+      "attributes": {
+        "str": 7,
+        "dex": 2,
+        "con": 5,
+        "int": 1,
+        "wis": 3,
+        "cha": 2
+      },
+      "perception": 19,
+      "ac": {
+        "value": 29,
+        "details": ""
+      },
+      "hp": {
+        "value": 200,
+        "details": ""
+      },
+      "saves": {
+        "fortitude": 22,
+        "reflex": 18,
+        "will": 16
+      },
+      "skills": {
+        "athletics": 22,
+        "intimidation": 19,
+        "stealth": 15
+      },
+      "languages": [
+        "common"
+      ],
+      "senses": "[Darkvision](/action/darkvision-monster-core), [Low-Light Vision](/action/low-light-vision-monster-core)",
+      "immunities": [
+        "[Poison](/trait/poison)"
+      ],
+      "weaknesses": {
+        "cold": 10
+      },
+      "resistances": {},
+      "movement": {
+        "walk": 40,
+        "climb": 30,
+        "swim": 30,
+        "other": "canal walker"
+      },
+      "attacks": [
+        {
+          "name": "Jaws",
+          "type": "melee",
+          "actions": "one",
+          "attack": 23,
+          "traits": [
+            "reach-10"
+          ],
+          "damage": "2d4+13 piercing"
+        },
+        {
+          "name": "Claw",
+          "type": "melee",
+          "actions": "one",
+          "attack": 21,
+          "traits": [
+            "reach-15"
+          ],
+          "damage": "2d6+13 bludgeoning"
+        },
+        {
+          "name": "Spit",
+          "type": "ranged",
+          "actions": "one",
+          "attack": 17,
+          "traits": [
+            "range-increment-60"
+          ],
+          "damage": "2d12+6 acid",
+          "effects": [
+            {
+              "name": "Vorvorak Bile"
+            }
+          ]
+        }
+      ],
+      "abilities": {
+        "interaction": [],
+        "defensive": [
+          {
+            "name": "Sweeping Tail",
+            "text": "**Trigger** A creature within reach of the vorvorak's tail uses a [move](/trait/move) action or leaves a square during a move action it's using; **Effect** The vorvorak attempts a tail [Strike](/action/strike-player-core) against the triggering creature. If the attack is a critical hit, the vorvorak disrupts the action.",
+            "traits": [],
+            "actions": "reaction",
+            "effect": "The vorvorak attempts a tail [Strike](/action/strike-player-core) against the triggering creature. If the attack is a critical hit, the vorvorak disrupts the action.",
+            "trigger": "A creature within reach of the vorvorak's tail uses a [move](/trait/move) action or leaves a square during a move action it's using",
+            "triggerBeforeDescription": true,
+            "description": ""
+          }
+        ],
+        "offensive": [
+          {
+            "name": "Canal Walker",
+            "text": "A vorvorak ignores difficult terrain caused by swamp terrain features.",
+            "traits": [],
+            "description": "A vorvorak ignores difficult terrain caused by swamp terrain features."
+          },
+          {
+            "name": "Vorvorak Bile",
+            "text": "**Saving Throw** Fortitude DC 28\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 2d8 poison and [Sickened 1](/condition/sickened-player-core) (2 rounds)\n\n**Stage 2** 3d8 poison and Sickened 2 (2 rounds)\n\n**Stage 3** 4d8 poison and Sickened 3 (2 rounds)",
+            "traits": [
+              "poison"
+            ],
+            "description": "**Saving Throw** Fortitude DC 28\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 2d8 poison and [Sickened 1](/condition/sickened-player-core) (2 rounds)\n\n**Stage 2** 3d8 poison and Sickened 2 (2 rounds)\n\n**Stage 3** 4d8 poison and Sickened 3 (2 rounds)"
+          }
+        ]
+      },
+      "recallKnowledge": {
+        "dc": 27,
+        "skills": [
+          "nature",
+          "arcana"
+        ],
+        "subjects": [
+          "beast"
+        ],
+        "entries": [
+          {
+            "subject": "beast",
+            "skills": [
+              "arcana",
+              "nature"
+            ]
+          }
+        ]
+      },
+      "languagesText": "Common",
+      "recallKnowledgeText": "DC 27 (Nature)",
+      "traitLinks": [
+        {
+          "label": "beast",
+          "slug": "beast"
+        }
+      ],
+      "spellcasting": [
+        {
+          "name": "Primal Innate Spells",
+          "spellGroups": [
+            {
+              "label": "5th",
+              "spells": [
+                {
+                  "name": "Control Water",
+                  "rank": 5,
+                  "reference": "/spell/control-water-player-core"
+                }
+              ]
+            },
+            {
+              "label": "4th",
+              "spells": [
+                {
+                  "name": "Hydraulic Torrent",
+                  "rank": 4,
+                  "reference": "/spell/hydraulic-torrent-player-core"
+                },
+                {
+                  "name": "Mirage",
+                  "rank": 4,
+                  "reference": "/spell/mirage-player-core"
+                }
+              ]
+            },
+            {
+              "label": "3rd",
+              "spells": [
+                {
+                  "name": "Aqueous Orb",
+                  "rank": 3,
+                  "reference": "/spell/aqueous-orb-player-core"
+                },
+                {
+                  "name": "Slow",
+                  "rank": 3,
+                  "reference": "/spell/slow-player-core"
+                }
+              ]
+            },
+            {
+              "label": "2nd",
+              "spells": [
+                {
+                  "name": "Mist",
+                  "rank": 2,
+                  "reference": "/spell/mist-player-core"
+                },
+                {
+                  "name": "Vanishing Tracks",
+                  "rank": 2,
+                  "reference": "/spell/vanishing-tracks-player-core"
+                }
+              ]
+            }
+          ],
+          "spellDC": 26,
+          "spellAttack": 0
+        }
+      ],
+      "senseEntries": [
+        {
+          "name": "Darkvision",
+          "reference": "/action/darkvision-monster-core"
+        },
+        {
+          "name": "Low-Light Vision",
+          "reference": "/action/low-light-vision-monster-core"
+        }
+      ],
+      "immunityEditor": {
+        "entries": [
+          {
+            "name": "Poison",
+            "reference": "/trait/poison"
+          }
+        ]
+      },
+      "skillsEditor": {
+        "skills": {
+          "athletics": 22,
+          "intimidation": 19,
+          "stealth": 15
+        },
+        "loreSkills": []
+      },
+      "weaknessEntries": [
+        {
+          "type": "cold",
+          "value": 10
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "beast",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "DA503794-5BA3-5614-8DD2-C4E18313E72C",
+    "kind": "Creature",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Walcofinde",
+    "slug": "walcofinde-shining-kingdoms",
+    "descr": "",
+    "data": {
+      "level": 2,
+      "rarity": "common",
+      "size": "medium",
+      "traits": [
+        "undead",
+        "unholy"
+      ],
+      "attributes": {
+        "str": 3,
+        "dex": 1,
+        "con": 3,
+        "int": 2,
+        "wis": 1,
+        "cha": 0
+      },
+      "perception": 5,
+      "ac": {
+        "value": 17,
+        "details": ""
+      },
+      "hp": {
+        "value": 35,
+        "details": ""
+      },
+      "saves": {
+        "fortitude": 10,
+        "reflex": 4,
+        "will": 7
+      },
+      "skills": {
+        "athletics": 8,
+        "stealth": 11
+      },
+      "languages": [
+        "common",
+        "necril"
+      ],
+      "senses": "[Darkvision](/action/darkvision-monster-core), [Tremorsense](/action/tremorsense-monster-core) ([imprecise](/rule/imprecise-senses-rules-2407)) 30 feet",
+      "immunities": [
+        "Bleed",
+        "[Death Effects](/rule/death-effects-rules-2331)",
+        "[Disease](/trait/disease)",
+        "[Paralyzed](/condition/paralyzed-player-core)",
+        "[Poison](/trait/poison)",
+        "[Sleep](/trait/sleep)",
+        "[Unconscious](/condition/unconscious-player-core)"
+      ],
+      "weaknesses": {
+        "vitality": 5
+      },
+      "resistances": {},
+      "movement": {
+        "walk": 25,
+        "other": "Wall Glide"
+      },
+      "attacks": [
+        {
+          "name": "Claw",
+          "type": "melee",
+          "actions": "one",
+          "attack": 9,
+          "traits": [],
+          "damage": "1d8+3 bludgeoning",
+          "effects": [
+            {
+              "name": "Grab",
+              "reference": "/action/grab-monster-core"
+            }
+          ]
+        }
+      ],
+      "abilities": {
+        "interaction": [],
+        "defensive": [
+          {
+            "name": "Void Healing",
+            "text": "",
+            "traits": [],
+            "reference": "/action/void-healing-monster-core",
+            "description": ""
+          }
+        ],
+        "offensive": [
+          {
+            "name": "Sneak Attack",
+            "text": "A walcofinde deals an additional 1d6 precision damage to [Off Guard](/condition/off-guard-player-core) creatures.",
+            "traits": [],
+            "description": "A walcofinde deals an additional 1d6 precision damage to [Off Guard](/condition/off-guard-player-core) creatures."
+          },
+          {
+            "name": "Structural Possession",
+            "text": "A walcofinde can merge themself with any wall they can touch within their sealed chamber and can create a manifestation of themself through any part of that wall on either side within 100 feet. This manifestation appears as the rotting upper half of the walcofinde protruding from the wall, but their skin is patterned as if they were the same structural material as the wall they're emerging from. While manifested, the walcofinde's claw attack gains a reach of 10 feet, but they can move only by using Wall Glide. Any damage done to the manifestation affects the walcofinde themself. A walcofinde can Dismiss their structural possession to retreat back into their sealed chamber.",
+            "traits": [
+              "manipulate",
+              "morph"
+            ],
+            "actions": "one",
+            "description": "A walcofinde can merge themself with any wall they can touch within their sealed chamber and can create a manifestation of themself through any part of that wall on either side within 100 feet. This manifestation appears as the rotting upper half of the walcofinde protruding from the wall, but their skin is patterned as if they were the same structural material as the wall they're emerging from. While manifested, the walcofinde's claw attack gains a reach of 10 feet, but they can move only by using Wall Glide. Any damage done to the manifestation affects the walcofinde themself. A walcofinde can Dismiss their structural possession to retreat back into their sealed chamber."
+          },
+          {
+            "name": "Wall Blend",
+            "text": "**Requirements** The walcofinde is manifested using Structural Possession and isn't observed by any enemies; **Effect** Until the next time they act, the walcofinde's manifestation changes their visual appearance to match the surrounding wall. They have an automatic result of 31 on their Stealth checks to Hide.",
+            "traits": [
+              "concentrate"
+            ],
+            "actions": "one",
+            "effect": "Until the next time they act, the walcofinde's manifestation changes their visual appearance to match the surrounding wall. They have an automatic result of 31 on their Stealth checks to Hide.",
+            "description": "**Requirements** The walcofinde is manifested using Structural Possession and isn't observed by any enemies"
+          },
+          {
+            "name": "Wall Glide",
+            "text": "**Requirements** The walcofinde is manifested using Structural Possession; **Effect** The walcofinde's manifestation Strides, submerging into the wall and reemerging from the wall at the end of their movement. If the walcofinde takes 2 actions to Wall Glide, their manifestation can [Stride](/action/stride-player-core) twice before reemerging. In either case, they can move only within walls that are within 100 feet of their sealed chamber.",
+            "traits": [
+              "concentrate"
+            ],
+            "actions": "one",
+            "effect": "The walcofinde's manifestation Strides, submerging into the wall and reemerging from the wall at the end of their movement. If the walcofinde takes 2 actions to Wall Glide, their manifestation can [Stride](/action/stride-player-core) twice before reemerging. In either case, they can move only within walls that are within 100 feet of their sealed chamber.",
+            "description": "**Requirements** The walcofinde is manifested using Structural Possession"
+          }
+        ]
+      },
+      "recallKnowledge": {
+        "dc": 16,
+        "skills": [
+          "religion"
+        ],
+        "subjects": [
+          "undead"
+        ],
+        "entries": [
+          {
+            "subject": "undead",
+            "skills": [
+              "religion"
+            ]
+          }
+        ]
+      },
+      "languagesText": "Common, Necril",
+      "recallKnowledgeText": "DC 16 (Religion)",
+      "sanctification": "unholy",
+      "traitLinks": [
+        {
+          "label": "undead",
+          "slug": "undead"
+        },
+        {
+          "label": "unholy",
+          "slug": "unholy"
+        }
+      ],
+      "senseEntries": [
+        {
+          "name": "Darkvision",
+          "reference": "/action/darkvision-monster-core"
+        },
+        {
+          "name": "Tremorsense",
+          "reference": "/action/tremorsense-monster-core",
+          "acuity": "imprecise",
+          "acuityReference": "/rule/imprecise-senses-rules-2407",
+          "details": "30 feet"
+        }
+      ],
+      "immunityEditor": {
+        "entries": [
+          {
+            "name": "Bleed"
+          },
+          {
+            "name": "Death Effects",
+            "reference": "/rule/death-effects-rules-2331"
+          },
+          {
+            "name": "Disease",
+            "reference": "/trait/disease"
+          },
+          {
+            "name": "Paralyzed",
+            "reference": "/condition/paralyzed-player-core"
+          },
+          {
+            "name": "Poison",
+            "reference": "/trait/poison"
+          },
+          {
+            "name": "Sleep",
+            "reference": "/trait/sleep"
+          },
+          {
+            "name": "Unconscious",
+            "reference": "/condition/unconscious-player-core"
+          }
+        ]
+      },
+      "skillsEditor": {
+        "skills": {
+          "athletics": 8,
+          "stealth": 11
+        },
+        "loreSkills": []
+      },
+      "weaknessEntries": [
+        {
+          "type": "vitality",
+          "value": 5
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "shining-kingdoms",
+      "undead",
+      "unholy"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

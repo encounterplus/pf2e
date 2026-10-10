@@ -14,10 +14,12 @@
       "fields": [
         {
           "title": "Spellcasting.SpellAttack",
+          "type": "number",
           "attribute": "spellAttack"
         },
         {
           "title": "Spellcasting.SpellDC",
+          "type": "number",
           "attribute": "spellDC"
         },
         {
@@ -26,6 +28,19 @@
           "attribute": "focusPoints"
         },
       ]
+    },
+    {
+      "title": "Entity.Spell.many",
+      "type": "list",
+      "attribute": "spellGroups",
+      "custom": {
+        "itemTitle": "{{label}}",
+        "itemDetail": "{% for spell in spells %}{{spell.name}}{% if spell.atWill or spell.details %} ({% if spell.atWill %}{{'Spellcasting.AtWill'|l}}{% endif %}{% if spell.details %}{% if spell.atWill %}; {% endif %}{{spell.details}}{% endif %}){% endif %}{% if not forloop.last %}, {% endif %}{% endfor %}"
+      },
+      "form": {
+        "title": "Entity.Spell.many",
+        "partial": "spellcasting-group"
+      }
     },
     {
       "title": "Common.Description",

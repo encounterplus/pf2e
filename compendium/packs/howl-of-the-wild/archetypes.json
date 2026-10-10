@@ -1,0 +1,359 @@
+[
+  {
+    "id": "F54BDFCF-E034-5A1F-AB93-C1A95B47F2EF",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Clawdancer",
+    "slug": "clawdancer-howl-of-the-wild",
+    "descr": "You've practiced the art of fighting with your natural claws, hooking them into prey and thrashing at targets surrounding you. You gain the following two actions, which let you assume specific stances to strike more effectively with your claws.\n\n[Claw Stance](/action/claw-stance-howl-of-the-wild)\n\n[Talon Stance](/action/talon-stance-howl-of-the-wild)\n\nClawdancer",
+    "data": {
+      "level": 2,
+      "rarity": "common",
+      "traits": [
+        "archetype",
+        "dedication"
+      ],
+      "prerequisites": "permanent unarmed claw or talon attack (such as one granted by your ancestry or a graft)",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "You've practiced the art of fighting with your natural claws, hooking them into prey and thrashing at targets surrounding you. You gain the following two actions, which let you assume specific stances to strike more effectively with your claws.\n\nClaw Stance\n\nTalon Stance\n\nClawdancer",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "dedication",
+          "slug": "dedication"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "dedication",
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A8E0E9D5-7ACF-5C2D-A889-5D78F387BEA3",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Ostilli Host",
+    "slug": "ostilli-host-howl-of-the-wild",
+    "descr": "**Access** [surki](/ancestry/surki-howl-of-the-wild) ancestry\n\n---\n\nYou've bonded with an attached symbiote known as an ostilli. You can bond with only one ostilli at a time since the symbiote emits low-frequency magical pulses that repel other ostillis. You become trained in Ostilli Lore; if you were already trained, you become an expert.\n\nThe ostilli is a Tiny creature grafted to your body. Like other grafts, it has no Hit Points or Speeds of its own and can't be targeted separately. It can't be removed and dies when you do; in the event of your demise and resurrection, you can bond to a new ostilli during a week of downtime, though you lose any abilities granted by your ostilli bond during that time. Your ostilli is obvious, unless you attempt to cover it with clothing or armor. In such a case, an onlooker can determine you're bonded to an ostilli with a successful Nature, Perception, or Surki Lore check against your Deception DC. Your ostilli must be visible for you to use any of the actions it grants.\n\nYour ostilli is constantly siphoning ambient magic from the surroundings, granting you the [Repel Ambient Magic](/action/repel-ambient-magic-howl-of-the-wild) and [Spit Ambient Magic](/action/spit-ambient-magic-howl-of-the-wild) actions.\n\nOstilli Host",
+    "data": {
+      "level": 2,
+      "rarity": "uncommon",
+      "traits": [
+        "archetype",
+        "dedication"
+      ],
+      "prerequisites": "trained in Arcana or Nature",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "**Access** surki ancestry\n\n---\n\nYou've bonded with an attached symbiote known as an ostilli. You can bond with only one ostilli at a time since the symbiote emits low-frequency magical pulses that repel other ostillis. You become trained in Ostilli Lore; if you were already trained, you become an expert.\n\nThe ostilli is a Tiny creature grafted to your body. Like other grafts, it has no Hit Points or Speeds of its own and can't be targeted separately. It can't be removed and dies when you do; in the event of your demise and resurrection, you can bond to a new ostilli during a week of downtime, though you lose any abilities granted by your ostilli bond during that time. Your ostilli is obvious, unless you attempt to cover it with clothing or armor. In such a case, an onlooker can determine you're bonded to an ostilli with a successful Nature, Perception, or Surki Lore check against your Deception DC. Your ostilli must be visible for you to use any of the actions it grants.\n\nYour ostilli is constantly siphoning ambient magic from the surroundings, granting you the Repel Ambient Magic and Spit Ambient Magic actions.\n\nOstilli Host",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "dedication",
+          "slug": "dedication"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "dedication",
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "7E013DDE-5E54-5D28-86CD-CCE157433F3D",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Swarmkeeper",
+    "slug": "swarmkeeper-howl-of-the-wild",
+    "descr": "Your body has become a symbiotic hive for a swarm of crawling insects. You can emit your swarm using the [Swarm Forth](/action/swarm-forth-howl-of-the-wild) action, and you can use the [Bite And Sting](/action/bite-and-sting-howl-of-the-wild) action while your swarm is outside your body to command it to attack. Your deep connection to your swarm precludes you from also having an animal companion, though if an ability allows you to have more than one animal companion (such as the [beastmaster](/archetype/beastmaster-player-core-2) archetype), you can count your swarm as one. You're immune to any damage from your swarm, and during your daily preparations you can anoint up to five willing creatures with a concoction made from your pheromones to grant them immunity as well.\n\nWhile outside your body, your swarm is Large and has a Speed of 15 feet and a climb Speed of 15 feet. It can occupy the same space as other creatures. While outside your body, the swarm can be attacked. It uses your statistics for defenses but is immune to [Grabbed](/condition/grabbed-player-core), [Prone](/condition/prone-player-core), [Restrained](/condition/restrained-player-core), and mental effects that target only a specific number of creatures. The swarm has resistance equal to your level to physical damage and weakness equal to your level to area and splash damage. Any damage that would be dealt to the swarm is dealt to you instead, though you take damage only once from any ability that includes both you and the swarm in the area of effect (though you take the greater amount of damage).\n\nSwarmkeeper",
+    "data": {
+      "level": 2,
+      "rarity": "uncommon",
+      "traits": [
+        "archetype",
+        "dedication"
+      ],
+      "prerequisites": "trained in Nature",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "Your body has become a symbiotic hive for a swarm of crawling insects. You can emit your swarm using the Swarm Forth action, and you can use the Bite And Sting action while your swarm is outside your body to command it to attack. Your deep connection to your swarm precludes you from also having an animal companion, though if an ability allows you to have more than one animal companion (such as the beastmaster archetype), you can count your swarm as one. You're immune to any damage from your swarm, and during your daily preparations you can anoint up to five willing creatures with a concoction made from your pheromones to grant them immunity as well.\n\nWhile outside your body, your swarm is Large and has a Speed of 15 feet and a climb Speed of 15 feet. It can occupy the same space as other creatures. While outside your body, the swarm can be attacked. It uses your statistics for defenses but is immune to Grabbed, Prone, Restrained, and mental effects that target only a specific number of creatures. The swarm has resistance equal to your level to physical damage and weakness equal to your level to area and splash damage. Any damage that would be dealt to the swarm is dealt to you instead, though you take damage only once from any ability that includes both you and the swarm in the area of effect (though you take the greater amount of damage).\n\nSwarmkeeper",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "dedication",
+          "slug": "dedication"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "dedication",
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "60C7D0D4-FE53-54C5-95DA-DF4C719E2109",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Thlipit Contestant",
+    "slug": "thlipit-contestant-howl-of-the-wild",
+    "descr": "Grueling practice has strengthened your tongue or tail to the point where it's become a formidable weapon. You gain a lash melee unarmed attack that is in the [flail](/item/flail-player-core) weapon group, deals 1d4 bludgeoning damage, and has the grapple and [reach](/trait/reach) traits. The attack can be performed with any appendages you used to qualify for this feat.\n\nThlipit Contestant",
+    "data": {
+      "level": 2,
+      "rarity": "common",
+      "traits": [
+        "archetype",
+        "dedication"
+      ],
+      "prerequisites": "You have a long prehensile tongue or a tail. At the GM's discretion, similar flexible appendages, such as tentacles, can be used to qualify instead.",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "Grueling practice has strengthened your tongue or tail to the point where it's become a formidable weapon. You gain a lash melee unarmed attack that is in the [flail](/item/flail-player-core) weapon group, deals 1d4 bludgeoning damage, and has the grapple and [reach](/trait/reach) traits. The attack can be performed with any appendages you used to qualify for this feat.\n\nThlipit Contestant",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "dedication",
+          "slug": "dedication"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "dedication",
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "74F9CF9D-2932-5504-87F1-E355E6D88F5B",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Werecreature",
+    "slug": "werecreature-howl-of-the-wild",
+    "descr": "**Requirements** You were born into a lineage of true werecreatures or were afflicted with the curse of the werecreature.\n\n---\n\nYou're a werecreature, able to shift between your humanoid shape, an animal shape, and a monstrous hybrid of the two. You gain the beast and [werecreature](/trait/werecreature) traits. Choose your werecreature type.\n\nOnce chosen, this can't be changed. You gain the [Toughness](/feat/toughness-player-core) feat but also a weakness to silver equal to half your level. You gain the [Change Shape](/action/change-shape-monster-core) action. On the night of the full moon, you automatically use Change Shape to assume your hybrid shape, and you can't voluntarily activate or dismiss Change Shape until sunrise.\n\nWerecreature\n\n---\n\n**Special** If you're a beastkin, you can use unarmed attacks from your hybrid shape while you're in your werecreature hybrid shape. These forms are otherwise separate.",
+    "data": {
+      "level": 2,
+      "rarity": "rare",
+      "traits": [
+        "archetype",
+        "dedication"
+      ],
+      "prerequisites": "",
+      "frequency": "",
+      "requirements": "You were born into a lineage of true werecreatures or were afflicted with the curse of the werecreature",
+      "trigger": "",
+      "benefits": "**Requirements** You were born into a lineage of true werecreatures or were afflicted with the curse of the werecreature.\n\n---\n\nYou're a werecreature, able to shift between your humanoid shape, an animal shape, and a monstrous hybrid of the two. You gain the beast and werecreature traits. Choose your werecreature type.\n\nOnce chosen, this can't be changed. You gain the Toughness feat but also a weakness to silver equal to half your level. You gain the Change Shape action. On the night of the full moon, you automatically use Change Shape to assume your hybrid shape, and you can't voluntarily activate or dismiss Change Shape until sunrise.\n\nWerecreature\n\n---\n\n**Special** If you're a beastkin, you can use unarmed attacks from your hybrid shape while you're in your werecreature hybrid shape. These forms are otherwise separate.",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "dedication",
+          "slug": "dedication"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "dedication",
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0720A391-B585-5760-9454-AE1F029E17BC",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Wild Mimic",
+    "slug": "wild-mimic-howl-of-the-wild",
+    "descr": "Fighting in the wilds has honed your understanding of the unique abilities many creatures have. You're trained in Wild Mimic Lore, a special Lore skill that can be used only to [Recall Knowledge](/action/recall-knowledge-player-core) about creatures to learn their abilities. If you have legendary proficiency in Nature, you gain expert proficiency in Wild Mimic Lore, but you can't increase your proficiency in Wild Mimic Lore by any other means. When you succeed at a Wild Mimic Lore to Recall Knowledge, you gain a +1 circumstance bonus to your saving throws against the next attack or ability that the subject of your Recall Knowledge targets you with.\n\nEffect: Wild Mimic Dedication\n\nWild Mimic",
+    "data": {
+      "level": 2,
+      "rarity": "common",
+      "traits": [
+        "archetype",
+        "dedication"
+      ],
+      "prerequisites": "trained in Nature",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "Fighting in the wilds has honed your understanding of the unique abilities many creatures have. You're trained in Wild Mimic Lore, a special Lore skill that can be used only to Recall Knowledge about creatures to learn their abilities. If you have legendary proficiency in Nature, you gain expert proficiency in Wild Mimic Lore, but you can't increase your proficiency in Wild Mimic Lore by any other means. When you succeed at a Wild Mimic Lore to Recall Knowledge, you gain a +1 circumstance bonus to your saving throws against the next attack or ability that the subject of your Recall Knowledge targets you with.\n\nEffect: Wild Mimic Dedication\n\nWild Mimic",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "dedication",
+          "slug": "dedication"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "dedication",
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "EF5320CD-6C61-5B2D-883E-717454D77730",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Winged Warrior",
+    "slug": "winged-warrior-howl-of-the-wild",
+    "descr": "Through rigorous training, you have strengthened your wings, granting you enough thrust to gain additional altitude. When you make a horizontal [Leap](/action/leap-player-core), increase the distance by 10 feet up to a maximum of your Speed. Any fly Speed granted by ancestry feats and other permanent wings increases by 5 feet.\n\nWinged Warrior",
+    "data": {
+      "level": 2,
+      "rarity": "common",
+      "traits": [
+        "archetype",
+        "dedication"
+      ],
+      "prerequisites": "you have permanent wings (such as from an ancestry or graft)",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "Through rigorous training, you have strengthened your wings, granting you enough thrust to gain additional altitude. When you make a horizontal Leap, increase the distance by 10 feet up to a maximum of your Speed. Any fly Speed granted by ancestry feats and other permanent wings increases by 5 feet.\n\nWinged Warrior",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "dedication",
+          "slug": "dedication"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "howl-of-the-wild",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "dedication",
+      "howl-of-the-wild",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Howl of the Wild"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

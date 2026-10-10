@@ -1,0 +1,141 @@
+[
+  {
+    "id": "6FDAC930-2D43-5E80-AC62-24620643361A",
+    "kind": "Ritual",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Angelic Messenger",
+    "slug": "angelic-messenger-monster-core",
+    "descr": "You transport yourself to either a celestial plane or a world in the Universe where worshippers of your patron can be found. You must be of no higher level than double *angelic messenger*'s spell rank.\n\n---\n\n**Critical Success** As success, but if you've never visited that plane or world before, you appear right in front of the message's intended recipient.\n\n**Success** You arrive on the target plane or world at the last location you visited on that plane or world, or to a random location within 10d10 miles of your message's intended recipient if you've never visited that plane or world before.\n\n**Failure** You don't travel.\n\n**Critical Failure** You accidentally travel to the wrong plane, possibly a dangerous plane.",
+    "data": {
+      "rank": 1,
+      "rarity": "uncommon",
+      "traits": [],
+      "cost": "",
+      "cast": "1 day",
+      "range": "",
+      "targets": "",
+      "duration": "",
+      "requirements": "",
+      "secondaryCasters": 0,
+      "primaryChecks": "Religion (expert; you must be an angel)",
+      "secondaryChecks": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3DA5C0A7-864B-57CC-BF98-DE8FA2A92654",
+    "kind": "Ritual",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Demonic Pact",
+    "slug": "demonic-pact-monster-core",
+    "descr": "You call in a favor from one demon of level 2 or lower, two demons of level 0 or lower, or three demons of level –1 or lower.\n\n---\n\n**Critical Success** You conjure the demon or demons. They are eager to pursue the task, so they don't ask for a favor.\n\n**Success** You conjure the demon or demons. They are not eager to pursue the task, so they require a favor in return.\n\n**Failure** You don't conjure any demons.\n\n**Critical Failure** The demon or demons are angry that you disturbed them. They appear before you, but they immediately attack you.\n\n---\n\n**Heightened (+1)** Increase the level of demon you call by 2 for each option.",
+    "data": {
+      "rank": 1,
+      "rarity": "uncommon",
+      "traits": [
+        "unholy"
+      ],
+      "cost": "",
+      "cast": "1 day",
+      "range": "",
+      "targets": "",
+      "duration": "",
+      "requirements": "",
+      "secondaryCasters": 0,
+      "primaryChecks": "Religion (expert; you must be a demon)",
+      "secondaryChecks": "",
+      "traitLinks": [
+        {
+          "label": "unholy",
+          "slug": "unholy"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster",
+      "unholy"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "6927EB02-935F-5CE0-B19A-87A4A41267D7",
+    "kind": "Ritual",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Diabolic Pact",
+    "slug": "diabolic-pact-monster-core",
+    "descr": "You make an appeal to a powerful devil, asking them to bind some of their subordinates to your service. If you succeed, the devil sends you their choice of one devil of level 2 or lower, two devils of level 0 or lower, or three devils of level –1 or lower.\n\n---\n\n**Critical Success** The devils are sent to you and serve you for 1d4 weeks.\n\n**Success** The devils are sent to you and serve you for 1d4 days.\n\n**Failure** Your request is denied.\n\n**Critical Failure** Not only is your request denied, but the powerful devil sends word of its displeasure to your master.\n\n---\n\n**Heightened (+1)** Increase the level of devil sent to you by 2 for each option.",
+    "data": {
+      "rank": 1,
+      "rarity": "uncommon",
+      "traits": [
+        "unholy"
+      ],
+      "cost": "",
+      "cast": "1 day",
+      "range": "",
+      "targets": "",
+      "duration": "",
+      "requirements": "",
+      "secondaryCasters": 0,
+      "primaryChecks": "Religion (expert; you must be a devil)",
+      "secondaryChecks": "",
+      "traitLinks": [
+        {
+          "label": "unholy",
+          "slug": "unholy"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "monster-core",
+      "remaster",
+      "unholy"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

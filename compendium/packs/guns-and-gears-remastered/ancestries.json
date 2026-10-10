@@ -1,0 +1,61 @@
+[
+  {
+    "id": "2D4C9973-43C7-5497-98D9-C68209194D51",
+    "kind": "Ancestry",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Automaton",
+    "slug": "automaton-guns-and-gears-remastered",
+    "descr": "",
+    "data": {
+      "rarity": "rare",
+      "traits": [
+        "automaton",
+        "construct"
+      ],
+      "hp": 8,
+      "size": "medium",
+      "movement": {
+        "walk": 25
+      },
+      "attributeBoosts": [
+        "strength"
+      ],
+      "attributeFlaws": [],
+      "languages": [
+        "common",
+        "utopian"
+      ],
+      "summary": "",
+      "traitLinks": [
+        {
+          "label": "automaton",
+          "slug": "automaton"
+        },
+        {
+          "label": "construct",
+          "slug": "construct"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "automaton",
+      "construct",
+      "guns-and-gears-remastered",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

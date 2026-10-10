@@ -1,0 +1,2259 @@
+[
+  {
+    "id": "5623FA0F-A161-54ED-AA05-87D8CDDD608B",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Barbed Spear",
+    "slug": "barbed-spear-battlecry",
+    "descr": "You conjure a vicious barbed spear and hurl it at a foe. Make a ranged spell attack roll, dealing 1d8 piercing damage on a success and double damage on a critical success. The spear remains lodged within a creature it hits, making the target [Clumsy 1](/condition/clumsy-player-core) (or increasing its clumsy condition by 1 if it is already clumsy) for 1 minute or until the spear is removed with a successful Athletics check against your spell DC as an [Interact](/action/interact-player-core) action, whichever comes first.\n\n---\n\n**Heightened (+1)** The initial damage increases by 1d8.",
+    "data": {
+      "rank": 1,
+      "rarity": "uncommon",
+      "traits": [
+        "attack",
+        "concentrate",
+        "focus",
+        "manipulate",
+        "sorcerer"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "30 feet",
+      "targets": "1 creature",
+      "requirements": "",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "focus",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "attack",
+          "slug": "attack"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "focus",
+          "slug": "focus"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "sorcerer",
+          "slug": "sorcerer"
+        }
+      ],
+      "durationText": "varies",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "attack",
+      "battlecry",
+      "concentrate",
+      "focus",
+      "manipulate",
+      "remaster",
+      "sorcerer"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "81824777-FE02-568E-A87E-D561AA4C197B",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Blinding Bottle",
+    "slug": "blinding-bottle-battlecry",
+    "descr": "You conjure an exploding glass container filled with a sight-stealing poison and hurl it across enemy lines. Upon impact, the bottle bursts and exposes all creatures in the area to the toxin within. Each creature in the area must attempt a Fortitude save.\n\n---\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature takes 3d6 poison damage.\n\n**Failure** The creature is afflicted with blinding poison at stage 1.\n\n**Critical Failure** The creature is afflicted with blinding poison at stage 2.\n\n---\n\n**Blinding Poison** (incapacitation, poison) Level 9\n\n**Maximum Duration** 4 rounds\n\n**Stage 1** 3d6 poison damage and [Blinded](/condition/blinded-player-core) for 1 round (1 round)\n\n**Stage 2** 4d6 poison damage and blinded for 1 round (1 round)\n\n**Stage 3** 5d6 poison poison damage and blinded for 1 round (1 round)\n\n**Stage 4** 6d6 poison poison damage and blinded for 1 minute (1 round)\n\n---\n\n*PFS Note:* The poison inflicted by this spell has the [incapacitation](/trait/incapacitation) trait, but the spell itself does not. This means that a creature which fails the save against the spell begins at stage 1 for the poison.",
+    "data": {
+      "rank": 5,
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "manipulate",
+        "poison"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "100 feet",
+      "targets": "",
+      "requirements": "",
+      "area": "30-foot burst",
+      "defense": "fortitude",
+      "traditions": [
+        "arcane",
+        "occult"
+      ],
+      "traditionsText": "Arcane, Occult",
+      "type": "spell",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "poison",
+          "slug": "poison"
+        }
+      ],
+      "areaEffectShape": "sphere",
+      "areaEffectSize": 30,
+      "durationText": "",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "concentrate",
+      "manipulate",
+      "poison",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 85
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "CF76E019-75D9-55A4-83C3-70ACE8CD8A62",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Blister Bomb",
+    "slug": "blister-bomb-battlecry",
+    "descr": "You launch a small bomb enchanted with a fast-acting skin disease at your foes, causing their skin to break out in horrible bleeding sores. All creatures in the area of the burst must attempt a Fortitude save.\n\n---\n\n**Critical Success** The creature is unaffected and is immune to blister pox for 1 week.\n\n**Success** The creature is [Sickened 2](/condition/sickened-player-core).\n\n**Failure** The creature is afflicted with blister pox at stage 1.\n\n**Critical Failure** The creature is afflicted with blister pox at stage 2.\n\n---\n\n**Blister Pox** (disease) Level 5; A creature can't reduce its sickened value below 1 while it's taking persistent bleed damage from blister pox\n\n**Stage 1** sickened 2 (1 round)\n\n**Stage 2** sickened 2 and 1d6 persistent bleed damage (1 round)\n\n**Stage 3** sickened 2 and 2d6 persistent bleed damage (1 round)\n\n**Stage 4** Sickened 3 and 2d6 persistent bleed damage (1 day)",
+    "data": {
+      "rank": 3,
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "disease",
+        "manipulate"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "100 feet",
+      "targets": "",
+      "requirements": "",
+      "area": "5-foot burst",
+      "defense": "fortitude",
+      "traditions": [
+        "arcane",
+        "primal"
+      ],
+      "traditionsText": "Arcane, Primal",
+      "type": "spell",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "disease",
+          "slug": "disease"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ],
+      "areaEffectShape": "sphere",
+      "areaEffectSize": 5,
+      "durationText": "",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "concentrate",
+      "disease",
+      "manipulate",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 85
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "491CEA9D-2850-5A8E-9D8C-F692AD7B0168",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Boots on the Ground",
+    "slug": "boots-on-the-ground-battlecry",
+    "descr": "You craft the illusion of your army being much bigger than it actually is, hoping to overwhelm the opposing forces and shatter their hopes. Your illusion can create up to three illusory Gargantuan duplicates of troops within range. You can give the illusion a basic task to perform, such as standing in formation, marching, mimicking guard movements, or unloading illusory boxes; however, the illusion can't perform any actual tasks and can't create intelligible sounds, such as music or clear speech. If you and any of the illusory troops are ever farther than 500 feet apart, the spell ends.\n\nAn illusory troop's AC is equal to your spell DC. Its saving throws modifiers are equal to your spell DC – 10. If an illusory troop is hit by an attack or fails a save, you must attempt a Flat DC 11. On success, the illusion of that troop is destroyed. On failure, the entire illusion shatters, and all illusory troops are destroyed.\n\n---\n\n**Heightened (8th)** The DC of the is lowered to 8 (Flat DC 8), and you can create up to five illusory troops.",
+    "data": {
+      "rank": 6,
+      "rarity": "common",
+      "traits": [
+        "auditory",
+        "concentrate",
+        "illusion",
+        "manipulate",
+        "visual"
+      ],
+      "cost": "",
+      "cast": "3",
+      "range": "100 feet",
+      "targets": "",
+      "requirements": "",
+      "traditions": [
+        "arcane",
+        "occult"
+      ],
+      "traditionsText": "Arcane, Occult",
+      "type": "spell",
+      "castActions": [
+        "three"
+      ],
+      "actions": "three",
+      "traitLinks": [
+        {
+          "label": "auditory",
+          "slug": "auditory"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "illusion",
+          "slug": "illusion"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "visual",
+          "slug": "visual"
+        }
+      ],
+      "durationText": "Until you next make your daily preparations",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "auditory",
+      "battlecry",
+      "concentrate",
+      "illusion",
+      "manipulate",
+      "remaster",
+      "visual"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 85
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A8FCD0A2-2969-5410-9B57-AA597875A4BC",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Clockwork Devotion",
+    "slug": "clockwork-devotion-battlecry",
+    "descr": "You toss a handful of magical cogs before you, summoning a battalion of clockwork soldiers to fight your enemies. The clockwork soldiers occupy the space of a Huge creature and have a Speed of 60 feet.\n\n**Arrive** *Clockwork Assault* Clockwork soldiers slash at your enemies with their halberds, dealing 4d10 slashing damage (basic Reflex save) to all enemy creatures in its location or within 15 feet.\n\n**Depart** (fire) *Ticking Bomb* The clockwork soldiers freeze abruptly before exploding into a mass of flying cogs and metal shrapnel, dealing 4d8 slashing damage and 4d8 fire damage in a 30-foot emanation (basic Reflex save). On a critical failure, a creature takes an additional 2d8 persistent fire damage.",
+    "data": {
+      "rank": 8,
+      "rarity": "uncommon",
+      "traits": [
+        "concentrate",
+        "incarnate",
+        "manipulate"
+      ],
+      "cost": "",
+      "cast": "3",
+      "range": "100 feet",
+      "targets": "",
+      "requirements": "",
+      "defense": "basicreflex",
+      "traditions": [
+        "arcane"
+      ],
+      "traditionsText": "Arcane",
+      "type": "spell",
+      "castActions": [
+        "three"
+      ],
+      "actions": "three",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "incarnate",
+          "slug": "incarnate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ],
+      "durationText": "until the end of your next turn",
+      "duration": 1,
+      "durationType": "sourceEndNextTurn",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "concentrate",
+      "incarnate",
+      "manipulate",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 84
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1A3AB95B-36AC-5A6C-816D-DA7B8F6B7C72",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Conquering Soldiers",
+    "slug": "conquering-soldiers-battlecry",
+    "descr": "You tap into the glories of the armies of old, bringing forth their might to your battlefield and making their strength and power your own. This army manifests as glimmering forms of a conquering military of old, replete with banners and colors of their nation. The army occupies the space of a Gargantuan creature and has a Speed of 80 feet.\n\n**Arrive** (auditory, emotion, fear, mental) *Banner's Call* The conquering army manifests before you and your allies, letting out a battle cry of victory and devotion. Each enemy within an 80-foot emanation must attempt a Will save.\n\n---\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature is [Frightened 2](/condition/frightened-player-core).\n\n**Failure** The creature takes 6d12 mental damage and is Frightened 3.\n\n**Critical Failure** The creature takes 12d12 mental damage, is Frightened 4, and is [Fleeing](/condition/fleeing-player-core) for 1 round.\n\n**Depart** (emotion, healing, mental) *Trumpets of War* As the conquering soldiers begin to fade, their military musicians play one more triumphant song in your honor. You and all allies within 100 feet of the soldiers immediately reduce the value of any [Clumsy](/condition/clumsy-player-core), [Drained](/condition/drained-player-core), [Enfeebled](/condition/enfeebled-player-core), Frightened, [Sickened](/condition/sickened-player-core), and [Stupefied](/condition/stupefied-player-core) conditions by 2 and gain a +2 status bonus to all attacks, saving throws, skill checks, and DCs for 3 rounds.\n\nSpell Effect: Conquering Soldiers (Depart)",
+    "data": {
+      "rank": 10,
+      "rarity": "uncommon",
+      "traits": [
+        "concentrate",
+        "incarnate",
+        "manipulate"
+      ],
+      "cost": "",
+      "cast": "3",
+      "range": "500 feet",
+      "targets": "",
+      "requirements": "",
+      "traditions": [
+        "arcane",
+        "divine"
+      ],
+      "traditionsText": "Arcane, Divine",
+      "type": "spell",
+      "castActions": [
+        "three"
+      ],
+      "actions": "three",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "incarnate",
+          "slug": "incarnate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ],
+      "durationText": "until the end of your next turn",
+      "duration": 1,
+      "durationType": "sourceEndNextTurn",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "concentrate",
+      "incarnate",
+      "manipulate",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 86
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4C1FED7A-7B9F-5496-A774-3D5358146122",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Curse of Recoil",
+    "slug": "curse-of-recoil-battlecry",
+    "descr": "You curse an enemy to suffer a kickback as they make a ranged attack, potentially causing them to miss. The triggering enemy attempts a Will save.\n\n---\n\n**Critical Success** The target is unaffected.\n\n**Success** The recoil from their ranged attack causes the target to be [Off Guard](/condition/off-guard-player-core) until the beginning of their next turn.\n\n**Failure** The recoil imposes a –1 status penalty to the ranged attack and renders the target off-guard until the beginning of their next turn.\n\nSpell Effect: Curse Of Recoil (Failure)\n\n**Critical Failure** The recoil imposes a –2 status penalty to the ranged attack and renders the target off-guard until the beginning of their next turn. Until the start of their next turn, any additional ranged attacks made with the same weapon, spell, or ability take the same penalty.\n\nSpell Effect: Curse Of Recoil (Critical Failure)",
+    "data": {
+      "rank": 1,
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "curse"
+      ],
+      "cost": "",
+      "cast": "reaction",
+      "range": "120 feet",
+      "targets": "1 creature",
+      "requirements": "",
+      "defense": "will",
+      "traditions": [
+        "divine",
+        "occult"
+      ],
+      "traditionsText": "Divine, Occult",
+      "type": "spell",
+      "castActions": [
+        "reaction"
+      ],
+      "actions": "reaction",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "curse",
+          "slug": "curse"
+        }
+      ],
+      "durationText": "1 round",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "round",
+      "trigger": "An enemy you can see is about to make a ranged attack."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "concentrate",
+      "curse",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 86
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8B5FD6E8-DB56-5D7F-AD8F-3FD3D04F0FC3",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Dancing Shield",
+    "slug": "dancing-shield-battlecry",
+    "descr": "You levitate the touched shield and send it to orbit around a creature. When you Cast the Spell and Sustain it, the shield uses the [Raise a Shield](/action/raise-a-shield-player-core) action to protect the target creature.\n\n[Spell Effect: Dancing Shield](/condition/spell-effect-dancing-shield-battlecry)\n\n---\n\n**Heightened (4th)** If you have the [Shield Block](/feat/shield-block-player-core) reaction, you can use your reaction to have the target shield use Shield Block when the target creature would take damage from a physical attack, in addition to the usual trigger. In this case, Shield Block protects the target creature, rather than you. Since the shield is using Shield Block and not you, additional effects or abilities that normally apply when you Shield Block don't apply.",
+    "data": {
+      "rank": 2,
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "manipulate"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "60 feet",
+      "targets": "1 touched shield (unattended or in your possession) and 1 willing creature",
+      "requirements": "",
+      "traditions": [
+        "arcane",
+        "divine",
+        "occult",
+        "primal"
+      ],
+      "traditionsText": "Arcane, Divine, Occult, Primal",
+      "type": "spell",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ],
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "concentrate",
+      "manipulate",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 86
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "849525BD-09B3-5694-8F39-21288A81AF9B",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Desperate Repair",
+    "slug": "desperate-repair-battlecry",
+    "descr": "You hold a shield together with the power of your magic, forcing wood and steel to fuse back together. The shield remains at 1 Hit Point and isn't destroyed. Its construction is weakened until someone takes the time to repair it, preventing *desperate repair* or a similar ability from saving the same shield until your next daily preparations.",
+    "data": {
+      "rank": 5,
+      "rarity": "common",
+      "traits": [
+        "concentrate"
+      ],
+      "cost": "",
+      "cast": "reaction",
+      "range": "60 feet",
+      "targets": "1 shield",
+      "requirements": "The triggering shield had more than 1 Hit Point before taking damage.",
+      "traditions": [
+        "arcane",
+        "primal"
+      ],
+      "traditionsText": "Arcane, Primal",
+      "type": "spell",
+      "castActions": [
+        "reaction"
+      ],
+      "actions": "reaction",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        }
+      ],
+      "durationText": "",
+      "durationUnit": "round",
+      "trigger": "A shield within range would be reduced to 0 Hit Points by a damaging effect"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "concentrate",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 87
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5146A3CD-546A-5BA0-B39F-0518B4AA9789",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Dividing Trench",
+    "slug": "dividing-trench-battlecry",
+    "descr": "You dig an earthen trench across the surrounding terrain, which must be soil, clay, sand, or other soft earth, but not flooring or stone. The trench is 5 feet wide, 5 feet deep, and up to 15 feet long. You can shape the trench's path, but it must be one continuous line. You must conjure the trench in an open space so it doesn't pass through any creatures or objects. Creatures inside the trench have cover from creatures outside the trench, and creatures outside the trench have cover from creatures inside the trench. Small or smaller creatures in the trench might have greater cover against other creatures who aren't close to the trench's edge, and in turn, those creatures might have more cover against small creatures in the trench; the GM determines the amount of additional cover, if any. Entering or leaving the trench requires an additional 5 feet of movement but doesn't require any kind of check and isn't considered difficult terrain. At the end of the spell's duration, the trench disappears, and all creatures in the trench remain in their spaces on solid ground.\n\n---\n\n**Heightened (+2)** The trench's maximum length increases by 15 feet.",
+    "data": {
+      "rank": 3,
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "earth",
+        "manipulate"
+      ],
+      "cost": "",
+      "cast": "3",
+      "range": "120 feet",
+      "targets": "",
+      "requirements": "",
+      "traditions": [
+        "arcane",
+        "primal"
+      ],
+      "traditionsText": "Arcane, Primal",
+      "type": "spell",
+      "castActions": [
+        "three"
+      ],
+      "actions": "three",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "earth",
+          "slug": "earth"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ],
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "concentrate",
+      "earth",
+      "manipulate",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 87
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "ED7550BB-802A-5F33-A27D-F5060914223C",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Explosive Barrage",
+    "slug": "explosive-barrage-battlecry",
+    "descr": "**Area** (continued) 20-foot burst plus additional 5-foot bursts\n\n---\n\nYou fire a booming, fiery explosion followed by a salvo of smaller blasts, each cracking the air with the sound of thunder. You create a 20-foot burst and 1d4 additional 5-foot bursts each within the range and within 20 feet of another burst. None of the bursts can intersect. Each creature caught in at least one of these bursts takes 6d8 fire damage and 6d4 sonic damage (basic Fortitude save). On a failed save, a creature is also Deafened for 1 minute.\n\n---\n\n**Heightened (+1)** The fire damage increases by 1d8 and the sonic damage increases by 1d4.",
+    "data": {
+      "rank": 6,
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "fire",
+        "manipulate",
+        "sonic"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "100 feet",
+      "targets": "",
+      "requirements": "",
+      "area": "20-foot burst",
+      "defense": "basicfortitude",
+      "traditions": [
+        "arcane",
+        "primal"
+      ],
+      "traditionsText": "Arcane, Primal",
+      "type": "spell",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "fire",
+          "slug": "fire"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "sonic",
+          "slug": "sonic"
+        }
+      ],
+      "areaEffectShape": "sphere",
+      "areaEffectSize": 20,
+      "durationText": "",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "concentrate",
+      "fire",
+      "manipulate",
+      "remaster",
+      "sonic"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 87
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "47E12408-98E1-54AB-98BF-C883654BDED6",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Fallen Soldier's Lament",
+    "slug": "fallen-soldier-s-lament-battlecry",
+    "descr": "You raise an illusion in the space of a fallen foe, crafting it to resemble a ghost of your target before parading it across the battlefield. Whenever you Cast this Spell or Sustain this spell, you move the illusion up to 30 feet and cause each enemy in a 30-foot emanation of the spirit to attempt a Will save against your spell DC. Enemies who fail become [Frightened 1](/condition/frightened-player-core) (or Frightened 2 on a critical failure).\n\n---\n\n**Heightened (6th)** You can target a corpse of any size that has died within the past 8 hours.",
+    "data": {
+      "rank": 4,
+      "rarity": "rare",
+      "traits": [
+        "concentrate",
+        "illusion",
+        "manipulate",
+        "mental",
+        "visual"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "100 feet",
+      "targets": "1 corpse of a Medium or smaller creature that has died within the past 8 hours",
+      "requirements": "",
+      "defense": "will",
+      "traditions": [
+        "divine",
+        "occult"
+      ],
+      "traditionsText": "Divine, Occult",
+      "type": "spell",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "illusion",
+          "slug": "illusion"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        },
+        {
+          "label": "visual",
+          "slug": "visual"
+        }
+      ],
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "concentrate",
+      "illusion",
+      "manipulate",
+      "mental",
+      "remaster",
+      "visual"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "75410DB1-BE0F-526C-BD66-19FC1CBB87C0",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Filter Air",
+    "slug": "filter-air-battlecry",
+    "descr": "You suck in a rough breath of air, and your body automatically filters out the harmful molecules that would infest your lungs. As you breathe for the duration of the spell, you get the outcome one degree of success higher on your saving throws against inhaled poisons and diseases.\n\nSpell Effect: Filter Air",
+    "data": {
+      "rank": 4,
+      "rarity": "common",
+      "traits": [
+        "air",
+        "concentrate",
+        "manipulate",
+        "subtle"
+      ],
+      "cost": "",
+      "cast": "reaction",
+      "range": "",
+      "targets": "",
+      "requirements": "You breathe air.",
+      "traditions": [
+        "arcane",
+        "divine",
+        "primal"
+      ],
+      "traditionsText": "Arcane, Divine, Primal",
+      "type": "spell",
+      "castActions": [
+        "reaction"
+      ],
+      "actions": "reaction",
+      "traitLinks": [
+        {
+          "label": "air",
+          "slug": "air"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "subtle",
+          "slug": "subtle"
+        }
+      ],
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute",
+      "trigger": "You're exposed to a poison or disease that has the [inhaled](/trait/inhaled) trait, and you're aware of the exposure"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "air",
+      "battlecry",
+      "concentrate",
+      "manipulate",
+      "remaster",
+      "subtle"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 87
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8B69DA27-E84A-5268-B3D3-1DCA0D41E295",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Forced Mercy",
+    "slug": "forced-mercy-battlecry",
+    "descr": "You soften the target's blows, ensuring they avoid vital areas and cause no lasting harm. All physical damage dealt by the target to living creatures becomes nonlethal and all persistent bleed damage dealt by the target is reduced to 0. This effect doesn't incur the typical –2 circumstance penalty for nonlethal attacks with a lethal weapon or attack. An unwilling target must attempt a Will save. A willing target can choose to critically fail their saving throw.\n\n---\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature is affected for 1 round.\n\n**Failure** The creature is affected for 1d4 rounds.\n\n**Critical Failure** The creature is affected for 1 minute.\n\n---\n\n**Heightened (4th)** The range increases to 100 feet, and you can target up to 8 creatures.",
+    "data": {
+      "rank": 1,
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "emotion",
+        "manipulate",
+        "mental"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "30 feet",
+      "targets": "1 creature",
+      "requirements": "",
+      "defense": "will",
+      "traditions": [
+        "divine",
+        "occult"
+      ],
+      "traditionsText": "Divine, Occult",
+      "type": "spell",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "emotion",
+          "slug": "emotion"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        }
+      ],
+      "durationText": "varies",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "concentrate",
+      "emotion",
+      "manipulate",
+      "mental",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 87
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "CC072555-7411-5786-A358-E80474DF6CE4",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Frozen Fog",
+    "slug": "frozen-fog-battlecry",
+    "descr": "You conjure a chilling mist that settles into the bones and makes it difficult to move. This has the effects of [Mist](/spell/mist-player-core), except that you can Sustain the spell once per round to move the fog up to 10 feet. A creature that starts its turn in the area takes 6d8 cold damage with a basic Fortitude save. A creature that fails its save is also [Clumsy 1](/condition/clumsy-player-core) for 1 minute (Clumsy 2 on a critical failure) and takes a –10-foot status penalty to Speeds for as long as it's clumsy.\n\nSpell Effect: Frozen Fog\n\n---\n\n**Heightened (+2)** The damage increases by 3d8.",
+    "data": {
+      "rank": 6,
+      "rarity": "common",
+      "traits": [
+        "cold",
+        "concentrate",
+        "manipulate"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "120 feet",
+      "targets": "",
+      "requirements": "",
+      "area": "20-foot burst",
+      "defense": "basicfortitude",
+      "traditions": [
+        "arcane",
+        "primal"
+      ],
+      "traditionsText": "Arcane, Primal",
+      "type": "spell",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "cold",
+          "slug": "cold"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ],
+      "areaEffectShape": "sphere",
+      "areaEffectSize": 20,
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "cold",
+      "concentrate",
+      "manipulate",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 86
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "029FDD53-5263-5DE8-847B-E745377ABA02",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Helpful Reload",
+    "slug": "helpful-reload-battlecry",
+    "descr": "With a quick gesture, you reload your ally's weapon, allowing them to focus on fighting the enemy. You reload their weapon with a piece of mundane ammunition from the triggering creature's inventory.\n\n---\n\n**Heightened (4th)** You reload your ally's weapon and grant them a +1 status bonus to their next Strike with this weapon.\n\nSpell Effect: Helpful Reload\n\n**Heightened (6th)** You reload your ally's weapon with the ammunition of their choice from their inventory. Your ally gains a +1 status bonus to their next Strike with this weapon.\n\n**Heightened (8th)** The spell no longer requires your ally to have appropriate ammunition available. You summon a single piece of common magical ammunition of 10th level or lower to reload your ally's weapon with. Your ally gains a +1 status bonus to their next Strike with this weapon.",
+    "data": {
+      "rank": 2,
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "manipulate"
+      ],
+      "cost": "",
+      "cast": "reaction",
+      "range": "30 feet",
+      "targets": "the triggering creature",
+      "requirements": "Your ally has more ammunition for their ranged weapon available.",
+      "traditions": [
+        "arcane",
+        "divine",
+        "occult"
+      ],
+      "traditionsText": "Arcane, Divine, Occult",
+      "type": "spell",
+      "castActions": [
+        "reaction"
+      ],
+      "actions": "reaction",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ],
+      "durationText": "",
+      "durationUnit": "round",
+      "trigger": "One of your allies makes a ranged Strike with a weapon with a reload of 1 or less"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "concentrate",
+      "manipulate",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 88
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "EA235EFC-86FC-532D-8A89-10D1055C1C3A",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Holy Host",
+    "slug": "holy-host-battlecry",
+    "descr": "In stories, armies with just and righteous causes win with little difficulty, conquering unholy legions. However, many holy armies know that an extra hand never hurts in the fight to exterminate cruelty and unholy forces, and they might call upon the assistance of a holy army. The holy army occupies the space of a Huge creature. When you Cast this Spell, choose one of the holy militaries below to summon.\n\n**Agathions** Speed 30 feet\n\n**Arrive** (fire) *Pranks for All* A squadron of procyals arrives, eager to see your enemies learn their lesson in this fight. All enemies in a 60-foot cone take 8d6 fire damage (basic Reflex save) as the procyals bombard them with popping firecrackers**Depart** *Parting Lesson* (emotion, mental) The procyals laugh uproariously as they leave, each throwing out a piece of unrelated advice to a nearby enemy. Enemies in a 20-foot emanation take 4d6 mental damage (basic Will save). On a failure, a creature is also [Stunned 1](/condition/stunned-player-core). On a critical failure, they're Stunned 2.\n\n**Angels** Speed 30 feet, fly 40 feet\n\n**Arrive** (spirit) *Flaming Truth* A legion of balisses arrive in a burst of holy flame, dealing 8d6 spirit damage to all creatures in a 20-foot emanation with a basic Fortitude save. On a critical failure, a creature is also [Blinded](/condition/blinded-player-core) for 1 round**Depart** *Hidden Departure* With a plume of smoke, the balisses vanish, spreading a thick cloud of smoke in a 10-foot emanation. All creatures within the smoke are [Concealed](/condition/concealed-player-core). Unholy creatures within the smoke are [Enfeebled 2](/condition/enfeebled-player-core), and holy creatures within the smoke gain the effects of truesight and ignore the concealment granted by the smoke.\n\n**Archons** Speed 30 feet, fly 60 feet\n\n**Arrive** (spirit) *Justice Prevails* A battalion of aesras, also known as legion archons, swoop in to provide assistance. Enemies within a 60-foot cone take 8d6 spirit damage (basic Reflex save)**Depart** (fire) *Eyes of Judgment* With one final examination of the battlefield, the aesras take their leave, but not before bringing down their fiery swords to create a corridor of sacred flame. Enemies in a 60-foot line take 4d6 slashing, 2d6 persistent fire damage (basic Reflex save).\n\n**Azatas** Speed 30 feet, fly 80 feet\n\n**Arrive** (auditory, sonic) *Inspiring Song* Kanya muses arrive to embolden your allies while pushing back your foes. Enemies in a 20-foot emanation take 6d6 sonic damage (basic Fortitude save). A creature that fails the save is also pushed 10 feet away from the kanyas. Allies in the emanation gain a +2 status bonus to attack rolls and saving throws, as well as +4 status bonus to damage rolls for the duration of the spell**Depart** (emotion, fear, mental) *Booming Finale* With a thunderous chord that stirs the hearts of your forces, the kanyas depart. Enemies in a 60-foot cone must attempt a Will save. On a failure, they're [Frightened 2](/condition/frightened-player-core), and on a critical failure, they're Frightened 3 and [Deafened](/condition/deafened-player-core) for 1 round. Allies in this cone regain 4d10+16 healing Hit Points.\n\n**Garudas** Speed 25 feet, fly 60 feet\n\n**Arrive** *Swooping Dive* A battalion of garudas sweep through enemy lines, dealing 6d10 slashing damage to enemies in a 120-foot line (basic Reflex save)**Depart** *Winds of Freedom* The garudas flap their wings in tandem, focusing on a 20-foot burst within 60 feet of them. All allies in that area gain a +1 circumstance bonus to all skill checks and DCs for 1 round, and enemies must succeed a Reflex save or be knocked [Prone](/condition/prone-player-core).\n\n---\n\nSpell Effect: Holy Host (Azata)\n\nSpell Effect: Holy Host (Garuda)",
+    "data": {
+      "rank": 8,
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "holy",
+        "incarnate",
+        "manipulate"
+      ],
+      "cost": "",
+      "cast": "3",
+      "range": "100 feet",
+      "targets": "",
+      "requirements": "",
+      "traditions": [
+        "divine",
+        "occult"
+      ],
+      "traditionsText": "Divine, Occult",
+      "type": "spell",
+      "castActions": [
+        "three"
+      ],
+      "actions": "three",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "holy",
+          "slug": "holy"
+        },
+        {
+          "label": "incarnate",
+          "slug": "incarnate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ],
+      "durationText": "until the end of your next turn",
+      "duration": 1,
+      "durationType": "sourceEndNextTurn",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "concentrate",
+      "holy",
+      "incarnate",
+      "manipulate",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 88
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E5510EE6-688E-580F-8095-418654B057A9",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Instant Minefield",
+    "slug": "instant-minefield-battlecry",
+    "descr": "You create several hidden mines throughout the area that explode when stepped on. Choose up to 6 unoccupied squares within range. A mine appears in each chosen square, visible only to you and your allies. A mine can't be targeted and isn't affected by area effects, but if it hasn't been triggered by the end of the spell's duration, it dissipates harmlessly. A creature that can see [Invisible](/condition/invisible-player-core) creatures and objects can see the mines. A creature can also attempt a Perception check against your spell DC to Seek to find an invisible mine.\n\nA creature who enters a square with an invisible mine triggers it, causing an explosion that deals 3d6 fire damage and 3d6 piercing damage (basic Reflex save) to the creature and every creature in a 5-foot emanation from the mine's square.\n\n---\n\n**Heightened (+1)** The fire damage and piercing damage dealt by a mine each increase by 1d6.",
+    "data": {
+      "rank": 5,
+      "rarity": "common",
+      "traits": [
+        "fire",
+        "illusion",
+        "manipulate",
+        "subtle"
+      ],
+      "cost": "",
+      "cast": "3",
+      "range": "100 feet",
+      "targets": "",
+      "requirements": "",
+      "defense": "basicreflex",
+      "traditions": [
+        "arcane",
+        "occult"
+      ],
+      "traditionsText": "Arcane, Occult",
+      "type": "spell",
+      "castActions": [
+        "three"
+      ],
+      "actions": "three",
+      "traitLinks": [
+        {
+          "label": "fire",
+          "slug": "fire"
+        },
+        {
+          "label": "illusion",
+          "slug": "illusion"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "subtle",
+          "slug": "subtle"
+        }
+      ],
+      "durationText": "10 minutes",
+      "duration": 10,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "fire",
+      "illusion",
+      "manipulate",
+      "remaster",
+      "subtle"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 89
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "13F6A6F3-7D92-57EB-816F-EA00BB52B5DB",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Jassim's Allegiance",
+    "slug": "jassim-s-allegiance-battlecry",
+    "descr": "You bartered for this spell in some strange market or perhaps gained it while wandering the desert, hopelessly lost and surrounded by nothing but the remnants of time and fallen empires. With a gesture and words of a language not spoken since the fall of the Hanging City of Teskra, you summon Jassim the Wanderer. Jassim, a true Jistkan automaton, occupies the space of a Gargantuan creature and has a Speed of 60 feet.\n\n**Arrive** (fire) *Eyes of Fire* Jassim emerges from the ground and glares at your enemies, a fearsome look forming on a face of ancient metal and glass. He shoots an energy beam in a 60-foot line, dealing 5d12 fire damage and 5d12 piercing damage (basic Reflex save). Enemies that critically fail are Drained 2.\n\n**Depart** (metal) *Heart of Rust* Jassim takes a metal piece from his chest and holds it out, crushing it in his fist and allowing the powder to spread across a 60-foot emanation. These particles deal 10d6 slashing damage to all creatures and unattended objects within the area (basic Fortitude save). A metal creature that fails its save also takes 2d8 persistent,slashing|traits:[metal](/trait/metal)] damage. A non-metal creature that fails this save is also Sickened 2.",
+    "data": {
+      "rank": 10,
+      "rarity": "rare",
+      "traits": [
+        "concentrate",
+        "incarnate",
+        "manipulate"
+      ],
+      "cost": "",
+      "cast": "3",
+      "range": "500 feet",
+      "targets": "",
+      "requirements": "",
+      "traditions": [
+        "arcane",
+        "occult"
+      ],
+      "traditionsText": "Arcane, Occult",
+      "type": "spell",
+      "castActions": [
+        "three"
+      ],
+      "actions": "three",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "incarnate",
+          "slug": "incarnate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ],
+      "durationText": "until the end of your next turn",
+      "duration": 1,
+      "durationType": "sourceEndNextTurn",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "concentrate",
+      "incarnate",
+      "manipulate",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "546F2C0E-7A20-5668-9447-54B61ED6BFA4",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Let Not the Fallen Rest",
+    "slug": "let-not-the-fallen-rest-battlecry",
+    "descr": "You exhort your fallen comrades to return to the battle. Each allied creature within the emanation whose [Dying](/condition/dying-player-core) value is 2 or less regains 4d10 Hit Points and can Stand as a free action, which doesn't provoke reactions.\n\n---\n\n**Heightened (+1)** The amount of healing increases by 1d10.\n\n---\n\n*PFS Note:* This spell affects unconscious allies with a dying value of 2 or less, in addition conscious allies with the dying 1 or 2 condition. Conscious characters are not considered to have the dying 0 condition and are unaffected.",
+    "data": {
+      "rank": 5,
+      "rarity": "uncommon",
+      "traits": [
+        "concentrate",
+        "focus",
+        "healing",
+        "manipulate",
+        "sorcerer"
+      ],
+      "cost": "",
+      "cast": "3",
+      "range": "",
+      "targets": "",
+      "requirements": "",
+      "area": "30-foot emanation",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "focus",
+      "castActions": [
+        "three"
+      ],
+      "actions": "three",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "focus",
+          "slug": "focus"
+        },
+        {
+          "label": "healing",
+          "slug": "healing"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "sorcerer",
+          "slug": "sorcerer"
+        }
+      ],
+      "areaEffectShape": "sphere",
+      "areaEffectSize": 30,
+      "durationText": "",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "concentrate",
+      "focus",
+      "healing",
+      "manipulate",
+      "remaster",
+      "sorcerer"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8E4863F4-465F-53D5-BBA6-C2E0092CAE93",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Lock Item",
+    "slug": "lock-item-battlecry",
+    "descr": "One object held by a creature becomes fused to that creature's hand and can't be put down. To [Disarm](/action/disarm-player-core) or [Steal](/action/steal-player-core) the item, the result of the skill check must exceed the spell's DC or the normal DC, whichever is higher. To voluntarily drop the weapon, the target must spend an [Interact](/action/interact-player-core) action rather than a free action, and then succeed at a Reflex save; the target must also attempt a Reflex save to Interact to put away or swap the object. On a failed save, the action is wasted, but on a success, they drop the item and the spell ends. An unwilling creature must attempt an initial Reflex save against lock item. A willing creature can choose to critically fail the saving throw.\n\n---\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature is affected for 1 round.\n\n**Failure** The creature is affected for 4 rounds.\n\n**Critical Failure** The creature is affected for 1 minute.\n\n---\n\n**Heightened (+2)** You can target either one additional object held by the same creature or one additional object held by one additional creature.",
+    "data": {
+      "rank": 2,
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "manipulate"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "30 feet",
+      "targets": "1 object held by 1 creature and the creature holding it",
+      "requirements": "",
+      "defense": "reflex",
+      "traditions": [
+        "arcane",
+        "primal"
+      ],
+      "traditionsText": "Arcane, Primal",
+      "type": "spell",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ],
+      "durationText": "varies",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "concentrate",
+      "manipulate",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 88
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3F408C4F-DA53-5C14-A514-6C85A96537A8",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Pest Swarm",
+    "slug": "pest-swarm-battlecry",
+    "descr": "Sometimes the most common irritations can band together and become threats to your enemies. You reach out to the pests and nuisances around you, forming a small squadron of them to harass and occupy your opponents. They swarm from the forests, the air, and even the dirt beneath your feet. The pest squadron occupies the space of a Large creature, and like a swarm, they can occupy the same space as other creatures. When you Cast this Spell, choose one of the pest squadrons below to summon.\n\n**Cockroaches** Speed 30 feet, climb 30 feet.\n\n**Arrive** *Scurrying Swarm* The swarm of cockroaches scuttles toward the enemy, swarming them and climbing up the bodies of any enemy touching the ground. They deal 4d6 piercing damage (basic Reflex save) to all enemies within their space and in a 5-foot emanation. On a critical failure, a creature can't use concentrate actions for 1 round as they try and brush away the insects.\n\n**Depart** *Farewell Dirt* The cockroaches disperse, climbing down from the creatures and leaving behind their debris and dirt. All enemies in their space must attempt a Fortitude save. On a failure, a creature is Sickened 2 (Sickened 3 on a critical failure).\n\n**Mosquitoes** Speed 30 feet, fly 50 feet.\n\n**Arrive** *Biting Flight* The mosquitoes arrive in a hazy cloud, landing on the exposed skin of your opponents and dealing 4d6 piercing damage to enemies in their space (basic Reflex save).**Depart** *Parting Gift* The swarm attempts to drain their opponents before flying off. All enemies in their space and in a 5-foot emanation must succeed at a Fortitude save or become Drained 1 (Drained 2 on a critical failure).\n\n**Pigeons** Speed 20 feet, fly 40 feet.\n\n**Arrive** *Dive Bomb* The swarm of pigeons dives into the crowd of enemies and attacks with beaks and talons. Each enemy within their space takes 2d8 piercing,2d4 slashing damage (basic Reflex save). On a critical failure, a creature is Dazzled for 1 round.**Depart** (sonic) *Wing Snap* The pigeon swarm snaps their wingtips together to startle their opponents before leaving. Each enemy within their space takes 4d6 sonic damage (basic Fortitude save).\n\n**Rats** Speed 30 feet, burrow 20 feet.\n\n**Arrive** *Chittering Race* Rats swarm the legs of your enemies, biting at them and digging their sharp nails into whatever exposed flesh reveals itself. Each enemy in their space takes 4d6 piercing damage (basic Reflex save).**Depart** *Underfoot* The rats scurry underfoot, tripping up enemies and burrowing underground to make a swift getaway. Each enemy in their space must succeed a Reflex save or be knocked Prone and take 2d6 bludgeoning damage. The area the rat swarm was in becomes difficult terrain for 1 round.\n\n**Skunks** Speed 30 feet, climb 20 feet;\n\n**Arrive** *Mustelid Charge* Skunks race to the scene, and each enemy within their space and within a 5-foot emanation take 4d6 piercing damage (basic Reflex save) as the skunks snarl and bite.**Depart** (acid) *Stink Bomb* Before leaving, the skunks launch a final offensive maneuver and release their stink glands in a 15-foot cone. All creatures in the area take 2d6 acid damage (basic Fortitude save). On a failure, a creature is also Sickened 1 (sickened 2 on a critical failure).\n\n**Spiders** Speed 30 feet, climb 30 feet.\n\n**Arrive** (poison) *Venomous Swarm* A horde of violin spiders crawls up from the ground, climbing onto enemies within their space and in a 5-foot emanation and biting them. Each enemy takes 3d6 piercing damage (basic Fortitude save). Enemies who fail are exposed to violin spider venom.\n\n**Depart** *Spinning Webs* As the violin spiders depart, they spray sticky webs at their enemies in a 30-foot cone. All creatures in this cone must attempt a Reflex save. On a failure, a creature takes a –10-foot circumstance penalty to their Speeds (–20-foot circumstance penalty on a critical failure) for 1 minute; a creature can remove this penalty with a successful Escape against your spell DC. The area of the cone is also difficult terrain for 1 round.\n\n---\n\n**Violin Spider Venom** (poison)\n\n**Saving Throw** Fortitude DC 24\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 1d6 poison (1 round)\n\n**Stage 2** 2d6 poison and Clumsy 1 (1 round)\n\n**Stage 3** 2d6 poison, 1d6 persistent bleed, and clumsy 1 (1 round)\n\n**Stage 4** 2d6 poison, 2d6 persistent bleed, and clumsy 1 (1 round)",
+    "data": {
+      "rank": 4,
+      "rarity": "uncommon",
+      "traits": [
+        "concentrate",
+        "incarnate",
+        "manipulate"
+      ],
+      "cost": "",
+      "cast": "3",
+      "range": "30 feet",
+      "targets": "",
+      "requirements": "",
+      "traditions": [
+        "arcane",
+        "occult",
+        "primal"
+      ],
+      "traditionsText": "Arcane, Occult, Primal",
+      "type": "spell",
+      "castActions": [
+        "three"
+      ],
+      "actions": "three",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "incarnate",
+          "slug": "incarnate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ],
+      "durationText": "until the end of your next turn",
+      "duration": 1,
+      "durationType": "sourceEndNextTurn",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "concentrate",
+      "incarnate",
+      "manipulate",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 90
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "037AEB1F-9445-523F-92C2-1D96527C5665",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Shielding Formation",
+    "slug": "shielding-formation-battlecry",
+    "descr": "You conjure magical shields of force to protect your allies around you. You and each ally who ends their turn within the emanation gain a +1 circumstance bonus to AC until they leave the emanation or the spell ends, whichever comes first. If an ally takes physical damage or damage from a spell or magical effect while being granted this bonus, they can choose to end the bonus for themselves as a free action to gain resistance 10 to all damage against the triggering damage. If they do, they become temporarily immune to the effects of *shielding formation* for 10 minutes. You can do the same by spending your reaction; if you do, you can't cast *shielding formation* again for 10 minutes, though you can continue Sustaining the benefits for others.\n\nSpell Effect: Shielding Formation",
+    "data": {
+      "rank": 4,
+      "rarity": "uncommon",
+      "traits": [
+        "concentrate",
+        "focus",
+        "force",
+        "manipulate",
+        "wizard"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "",
+      "targets": "",
+      "requirements": "",
+      "area": "30-foot emanation",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "focus",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "focus",
+          "slug": "focus"
+        },
+        {
+          "label": "force",
+          "slug": "force"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "wizard",
+          "slug": "wizard"
+        }
+      ],
+      "areaEffectShape": "sphere",
+      "areaEffectSize": 30,
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "concentrate",
+      "focus",
+      "force",
+      "manipulate",
+      "remaster",
+      "wizard"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D8BC7562-3DD9-5026-B443-B4509685859E",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Shock and Awe",
+    "slug": "shock-and-awe-battlecry",
+    "descr": "You create the illusion of cannons exploding, bullets and arrows flying, and magical ballistics firing, as an overwhelming torrent of information, both visual and auditory. Enemies in the area must attempt a Will save.\n\n---\n\n**Critical Success** The enemy is unaffected.\n\n**Success** The target is [Frightened 1](/condition/frightened-player-core).\n\n**Failure** The enemy is Frightened 2 and [Stunned 1](/condition/stunned-player-core).\n\n**Critical Failure** The enemy is Frightened 3 and Stunned 2.",
+    "data": {
+      "rank": 5,
+      "rarity": "common",
+      "traits": [
+        "auditory",
+        "concentrate",
+        "emotion",
+        "fear",
+        "illusion",
+        "manipulate",
+        "mental",
+        "visual"
+      ],
+      "cost": "",
+      "cast": "3",
+      "range": "100 feet",
+      "targets": "",
+      "requirements": "",
+      "area": "50-foot burst",
+      "defense": "will",
+      "traditions": [
+        "arcane",
+        "occult"
+      ],
+      "traditionsText": "Arcane, Occult",
+      "type": "spell",
+      "castActions": [
+        "three"
+      ],
+      "actions": "three",
+      "traitLinks": [
+        {
+          "label": "auditory",
+          "slug": "auditory"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "emotion",
+          "slug": "emotion"
+        },
+        {
+          "label": "fear",
+          "slug": "fear"
+        },
+        {
+          "label": "illusion",
+          "slug": "illusion"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        },
+        {
+          "label": "visual",
+          "slug": "visual"
+        }
+      ],
+      "areaEffectShape": "sphere",
+      "areaEffectSize": 50,
+      "durationText": "1 round",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "auditory",
+      "battlecry",
+      "concentrate",
+      "emotion",
+      "fear",
+      "illusion",
+      "manipulate",
+      "mental",
+      "remaster",
+      "visual"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 90
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "63FF1639-77A2-571B-8823-29951B5C600E",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Siege Weapon's Blessing",
+    "slug": "siege-weapon-s-blessing-battlecry",
+    "descr": "You trace a magic rune onto the body of a siege weapon, calling upon fate or your faith to guide the attacks your allies make with this machine. For the spell's duration, any skill checks attempted to Load the siege weapon can be rolled twice, taking the better result; these skill checks gain the [fortune](/trait/fortune) trait. In addition, any saving throws attempted by creatures caught in the siege weapon's Launch area must be rolled twice, taking the worse result; these saving throws gain the [misfortune](/trait/misfortune) trait.\n\n---\n\n**Heightened (9th)** The duration is 8 hours.",
+    "data": {
+      "rank": 6,
+      "rarity": "uncommon",
+      "traits": [
+        "concentrate",
+        "manipulate"
+      ],
+      "cost": "",
+      "cast": "3",
+      "range": "touch",
+      "targets": "one mounted siege weapon",
+      "requirements": "",
+      "traditions": [
+        "arcane",
+        "divine",
+        "occult"
+      ],
+      "traditionsText": "Arcane, Divine, Occult",
+      "type": "spell",
+      "castActions": [
+        "three"
+      ],
+      "actions": "three",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ],
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "concentrate",
+      "manipulate",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "18C16E2D-7B95-518F-B5EF-345CCDCF5E89",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Skeleton Army",
+    "slug": "skeleton-army-battlecry",
+    "descr": "With a fistful of compressed bones, you summon a legion of skeletal hulks to fight in your war, refusing to let them rest until they've given up their last inches of usefulness to your cause. The undead army occupies the space of a Huge creature and has a Speed of 40 feet.\n\n**Arrive** *Bone March* The skeletal hulks rise from the dirt, slashing through your enemies and attacking with their dirt-encrusted, bony hands. Enemies within a 20-foot emanation take 4d8 slashing damage (basic Reflex save). On a critical failure, a creature also take 2d8 persistent bleed damage.\n\n**Depart** *Tossed Heads* Before crumpling into a pile of bones, the skeleton army removes their skulls and throws them at the enemy lines, chattering and howling, dealing 6d6 piercing damage to enemies in a 20-foot burst (basic Reflex save) within 30 feet. On a critical failure, a creature is also [Frightened 2](/condition/frightened-player-core).",
+    "data": {
+      "rank": 6,
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "incarnate",
+        "manipulate"
+      ],
+      "cost": "",
+      "cast": "3",
+      "range": "100 feet",
+      "targets": "",
+      "requirements": "",
+      "traditions": [
+        "arcane",
+        "divine",
+        "occult"
+      ],
+      "traditionsText": "Arcane, Divine, Occult",
+      "type": "spell",
+      "castActions": [
+        "three"
+      ],
+      "actions": "three",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "incarnate",
+          "slug": "incarnate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ],
+      "durationText": "until the end of your next turn",
+      "duration": 1,
+      "durationType": "sourceEndNextTurn",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "concentrate",
+      "incarnate",
+      "manipulate",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 91
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "CACEF087-B276-578A-B77A-AB3DA724CDA3",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Steel Fortifications",
+    "slug": "steel-fortifications-battlecry",
+    "descr": "You conjure several metal structures that consist of angled beams attached to one another at a central point, which can help block attacks. You creature up to three Large structures within range in unoccupied squares; each fortification is 8 feet long, 8 feet wide, and 8 feet tall. There must be enough room for a fortification in order to conjure it. A single fortification has an AC of 10 and is immune to critical hits and precision damage. It has Hardness 9, 60 Hit Points, and a BT of 30. Once a fortification is broken, it crumbles into sharp metal bits. Any creature adjacent to or sharing a space with a fortification when it is broken must attempt a Reflex save or take 2d6 persistent bleed damage.\n\nCreatures can pass through the spaces of a fortification, though Medium and larger creatures treat these spaces as difficult terrain. A Small or smaller creature can occupy the same spaces as a fortification; doing so grants them standard cover. Similarly, a [Prone](/condition/prone-player-core) Medium creature can occupy the same spaces as a fortification, gaining standard cover in the process. A Medium or smaller creature can climb a fortification with a successful Athletics DC 15 check.",
+    "data": {
+      "rank": 2,
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "manipulate",
+        "metal"
+      ],
+      "cost": "",
+      "cast": "3",
+      "range": "120 feet",
+      "targets": "",
+      "requirements": "",
+      "traditions": [
+        "arcane",
+        "primal"
+      ],
+      "traditionsText": "Arcane, Primal",
+      "type": "spell",
+      "castActions": [
+        "three"
+      ],
+      "actions": "three",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "metal",
+          "slug": "metal"
+        }
+      ],
+      "durationText": "10 minutes",
+      "duration": 10,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "concentrate",
+      "manipulate",
+      "metal",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 90
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "836ADD44-1F39-5D09-A152-7F8CEE9E6442",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Sticky Fire",
+    "slug": "sticky-fire-battlecry",
+    "descr": "You send a bubble of viscous liquid that sparks into flame. Make a spell attack roll against the target's AC, dealing 1d8 fire damage and 1d8 persistent fire damage on a hit. The target is [Enfeebled 1](/condition/enfeebled-player-core) until they recover from their persistent fire damage.\n\n---\n\n**Heightened (+2)** The initial and persistent fire damage increase by 1d8.",
+    "data": {
+      "rank": 2,
+      "rarity": "common",
+      "traits": [
+        "attack",
+        "concentrate",
+        "fire",
+        "manipulate"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "60 feet",
+      "targets": "1 creature",
+      "requirements": "",
+      "traditions": [
+        "arcane",
+        "primal"
+      ],
+      "traditionsText": "Arcane, Primal",
+      "type": "spell",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "attack",
+          "slug": "attack"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "fire",
+          "slug": "fire"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ],
+      "durationText": "",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "attack",
+      "battlecry",
+      "concentrate",
+      "fire",
+      "manipulate",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 92
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F7A4C569-BC37-5F2E-942D-F2A6C5707E47",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Unholy Army",
+    "slug": "unholy-army-battlecry",
+    "descr": "Reaching out to the legions of the wicked, you call upon them for assistance. They emerge, bubbling up from the ground, and stand to face your enemies, malevolent and ready for bloodshed. The unholy army occupies the space of a Huge creature. When you Cast this Spell, choose one of the unholy squadrons below to summon.\n\n**Asuras** Speed 40 feet\n\n**Arrive** *Dance of Duality* A legion of adhukaits arrive on the field, dancing and scurrying in and among your enemy's front line. All enemies in a 10-foot emanation take 10d6 slashing damage (basic Reflex save) as the adhukaits slash at them with their kukris.**Depart** *Split Remembrance* As the adhukaits begin to retreat, they argue about who did the most damage and decide to see which half is stronger. All enemies in a 20-foot emanation take 6d6 bludgeoning damage (basic Fortitude save) as they're violently yanked by adhukaits. On a failure, a creature is Clumsy 1 for 1 minute (Clumsy 2 on a critical failure).\n\n**Daemons** Speed 25 feet, fly 40 feet\n\n**Arrive** (disease) *Winds of Pestilence* Leukodaemons fly into position, their wings beating with the dust of a thousand diseases of a thousand years. Enemies in a 60-foot cone take 8d8 piercing damage (basic Fortitude save). On a failure, a creature is also Sickened 1 (Sickened 2 on a critical failure).**Depart** (disease) *Remember Me* The leukodaemons claw at your enemies with their infected nails. All enemies in a 10-foot emanation take 6d6 slashing damage (basic Reflex save). On a failure, a creature is also Drained 1 (Drained 2 on a critical failure).\n\n**Demons** Speed 25 feet\n\n**Arrive** (fire) *Fuming Entrance* A legion of brimoraks arrive in clouds of thick black smoke. The army's space and every square in a 20-foot emanation is choked with burning ash and smog, making all creatures outside the smoke Concealed to creatures within it and all creatures within the smoke concealed to creatures outside the smoke and other creatures within it. This smoke lasts for 1 minute, and a creature who enters or begins its turn within the smoke must attempt a Fortitude save or take 2d6 persistent fire damage and become sickened 1 (3d6 persistent fire damage and sickened 2 on a critical failure).**Depart** (fire) *Swords of Flame* The arson demons swing their flaming swords through your enemies' ranks. All enemies in a 10-foot emanation take (4d8) slashing,(3d6) fire (basic Reflex save). On a critical failure, a creature also takes 2d8 persistent fire damage.\n\n**Devils** Speed 25 feet\n\n**Arrive** (spirit) *Diabolic Infantry* A legion of vordines swarm the battlefield. All enemies in a 20-foot emanation take 4d10 piercing,2d6 spirit damage (basic Reflex save) as the vordines impale them with their tridents.**Depart** (nonlethal) *Whipped and Tripped* The devils' whips lengthen impossibly to flense flesh from soul. Enemies in two non-intersecting 40-foot lines take 6d8 bludgeoning damage (basic Reflex save). On a failure, a creature is also knocked Prone. On a critical failure, it's also knocked prone and Immobilized for 1 round.\n\n**Divs** Speed 35 feet\n\n**Arrive** (mental) *Deceptive Delight* A battalion of sepids arrives to torment your enemies. Enemies in a 60-foot cone take 6d6 mental damage (basic Will save). On a failure, a creature is Confused for 1 round.**Depart** (spirit) *Battle Debris* The sepids slam their falchions into the remnants of the chaos of battle, shattering bones, which explode out in a 30-foot emanation. All non-fiends in the area take 8d6 slashing,3d6 spirit damage from debris (basic Reflex save).\n\n**Qlippoths** Speed 40 feet, climb 40 feet, fly 40 feet\n\n**Arrive** (visual) *Terrifying Scuttle* A horde of gongorinans opens their maws to reveal the horror inside. All enemies in a 60-foot cone must succeed at a Will save or be sickened 2 (sickened 2 and Blinded for 1 round on a critical failure).**Depart** *Pincer Assault* The gongorinans lash out at everyone. All enemies in a 20-foot emanation take 6d12 slashing damage (basic Reflex save).\n\n**Velstracs** Speed 25 feet\n\n**Arrive** *Chains of Pain* A legion of sacristans emerges from the shadows, their barbed chains wrapping around enemy limbs to prevent all escape. Enemies in a 20-foot emanation must attempt a Reflex save. On a failure, they take a –10-foot circumstance penalty to their Speeds and 2d6 bleed damage. On a critical failure they take a –20-foot circumstance penalty to their Speeds and 4d6 bleed damage. This penalty to Speeds lasts until they recover from their persistent bleed damage**Depart** *Pleasant Screams* The sacristans rip their chains from their victims, screaming in unison with their pain. Any enemies who failed the initial Reflex save during the sacristans' arrival take 4d8 piercing damage (basic Fortitude). In addition, everyone in a 60-foot cone must attempt a Will save. On a failure, they're Frightened 2 and Deafened for 1 minute (Frightened 3 and deafened for 1 minute on a critical failure); this effect has the auditory, emotion, fear, and [mental](/trait/mental) traits.",
+    "data": {
+      "rank": 8,
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "incarnate",
+        "manipulate",
+        "unholy"
+      ],
+      "cost": "",
+      "cast": "3",
+      "range": "100 feet",
+      "targets": "",
+      "requirements": "",
+      "traditions": [
+        "divine",
+        "occult"
+      ],
+      "traditionsText": "Divine, Occult",
+      "type": "spell",
+      "castActions": [
+        "three"
+      ],
+      "actions": "three",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "incarnate",
+          "slug": "incarnate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "unholy",
+          "slug": "unholy"
+        }
+      ],
+      "durationText": "until the end of your next turn",
+      "duration": 1,
+      "durationType": "sourceEndNextTurn",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "concentrate",
+      "incarnate",
+      "manipulate",
+      "remaster",
+      "unholy"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!",
+        "page": 92
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "CFF87289-6ACA-581C-8A77-EC0D2CC054CB",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Wings of the Valkyrie",
+    "slug": "wings-of-the-valkyrie-battlecry",
+    "descr": "Powerful feathered wings—usually vibrant white or jet black—emerge from your back, granting you a fly Speed equal to your Speed. You can use these wings to attempt to [Shove](/action/shove-player-core) a creature; you don't need a free hand to do so, and you can roll using your spell attack modifier instead of your Athletics skill for the check. When this spell's duration ends, if you're still flying, you float to the ground, as [Gentle Landing](/spell/gentle-landing-player-core).\n\nSpell Effect: Wings Of The Valkyrie\n\n---\n\n**Heightened (5th)** The duration increases to 1 minute.\n\nSpell Effect: Wings Of The Valkyrie (Heightened)",
+    "data": {
+      "rank": 3,
+      "rarity": "uncommon",
+      "traits": [
+        "concentrate",
+        "focus",
+        "manipulate",
+        "sorcerer"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "",
+      "targets": "",
+      "requirements": "",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "focus",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "focus",
+          "slug": "focus"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "sorcerer",
+          "slug": "sorcerer"
+        }
+      ],
+      "durationText": "3 rounds",
+      "duration": 3,
+      "durationType": "time",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "concentrate",
+      "focus",
+      "manipulate",
+      "remaster",
+      "sorcerer"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

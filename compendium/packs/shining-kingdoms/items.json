@@ -1,0 +1,1907 @@
+[
+  {
+    "id": "E06B1CDD-AD5E-5FB7-9B2B-36953BED62DB",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Bolka's Blessing",
+    "slug": "bolka-s-blessing-shining-kingdoms",
+    "descr": "This filigree grants you a +1 item bonus to Diplomacy checks and to Perception checks to Sense Motive. Additionally, once per day, the filigree symbol can be activated for a healing effect.",
+    "data": {
+      "level": 5,
+      "rarity": "uncommon",
+      "traits": [
+        "divine",
+        "magical"
+      ],
+      "category": "other",
+      "price": "160 gp",
+      "usage": "etched-onto-clan-dagger",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "divine",
+          "slug": "divine"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ],
+      "activations": [
+        {
+          "actions": "one",
+          "traits": [
+            "concentrate",
+            "healing",
+            "vitality"
+          ],
+          "name": "Gift of Life",
+          "text": "**Frequency** once per day\n\n---\n\n**Effect** You regain 3d10 healing,vitality|shortLabel] Hit Points.",
+          "effect": "You regain 3d10 healing,vitality|shortLabel] Hit Points.",
+          "description": "**Frequency** once per day\n\n---"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "divine",
+      "magical",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E333F74C-7B10-573E-8C1A-D2BE60F591FC",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Bolka's Blessing (Greater)",
+    "slug": "bolka-s-blessing-greater-shining-kingdoms",
+    "descr": "This filigree grants you a +2 item bonus to Diplomacy checks and to Perception checks to Sense Motive. Additionally, once per day, the filigree symbol can be activated for a healing effect.",
+    "data": {
+      "level": 11,
+      "rarity": "uncommon",
+      "traits": [
+        "divine",
+        "magical"
+      ],
+      "category": "other",
+      "price": "1400 gp",
+      "usage": "etched-onto-clan-dagger",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "divine",
+          "slug": "divine"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ],
+      "activations": [
+        {
+          "actions": "one",
+          "traits": [
+            "concentrate",
+            "healing",
+            "vitality"
+          ],
+          "name": "Gift of Life",
+          "text": "**Frequency** once per day\n\n---\n\n**Effect** You regain 6d10 healing,vitality|shortLabel] Hit Points.",
+          "effect": "You regain 6d10 healing,vitality|shortLabel] Hit Points.",
+          "description": "**Frequency** once per day\n\n---"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "divine",
+      "magical",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "82843486-44DA-55CD-B2F1-77D59A056BF3",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Breath of Freedom",
+    "slug": "breath-of-freedom-shining-kingdoms",
+    "descr": "---\n\nThis delicate feather ornament looks fragile but is solid as stone. When you Activate the talisman, you can immediately attempt to [Escape](/action/escape-player-core).",
+    "data": {
+      "level": 4,
+      "rarity": "common",
+      "traits": [
+        "consumable",
+        "magical",
+        "talisman"
+      ],
+      "category": "talisman",
+      "price": "18 gp",
+      "usage": "affixed-to-armor",
+      "bulk": "—",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "talisman",
+          "slug": "talisman"
+        }
+      ],
+      "activation": {
+        "actions": "reaction",
+        "traits": [
+          "concentrate"
+        ],
+        "text": "**Trigger** You become [Grabbed](/condition/grabbed-player-core), [Immobilized](/condition/immobilized-player-core), or [Restrained](/condition/restrained-player-core)\n\n**Requirements** You're an expert in Reflex saves."
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "magical",
+      "remaster",
+      "shining-kingdoms",
+      "talisman"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0F810A5C-31F2-58F9-88BB-A82E73A676AD",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Crimson Godsblood Serum (Greater)",
+    "slug": "crimson-godsblood-serum-greater-shining-kingdoms",
+    "descr": "---\n\nThough it contains but a tiny drop of Gorum's blood, drinking this thick, swirling potion fills the user with divine wrath and resilience. While under the effect of the potion, you gain a +4 status bonus to physical damage rolls for 1 minute.\n\nEffect: Crimson Godsblood Serum\n\nThe first time during that minute you're reduced to 0 Hit Points but not immediately killed, you avoid being knocked out, regain (6d8+20) healing Hit Points, and become Confused for 1 round, and your [Wounded](/condition/wounded-player-core) condition increases by 1.",
+    "data": {
+      "level": 18,
+      "rarity": "rare",
+      "traits": [
+        "consumable",
+        "magical",
+        "potion"
+      ],
+      "category": "potion",
+      "price": "5000 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "potion",
+          "slug": "potion"
+        }
+      ],
+      "activation": {
+        "actions": "one",
+        "traits": [
+          "manipulate"
+        ],
+        "text": ""
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "magical",
+      "potion",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4DAF2B5A-1F27-5870-81BA-A397E88C0338",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Crimson Godsblood Serum (Lesser)",
+    "slug": "crimson-godsblood-serum-lesser-shining-kingdoms",
+    "descr": "---\n\nThough it contains but a tiny drop of Gorum's blood, drinking this thick, swirling potion fills the user with divine wrath and resilience. While under the effect of the potion, you gain a +2 status bonus to physical damage rolls for 1 minute.\n\nEffect: Crimson Godsblood Serum\n\nThe first time during that minute you're reduced to 0 Hit Points but not immediately killed, you avoid being knocked out, regain (2d8+5) healing Hit Points, and become Confused for 1 round, and your [Wounded](/condition/wounded-player-core) condition increases by 1.",
+    "data": {
+      "level": 6,
+      "rarity": "rare",
+      "traits": [
+        "consumable",
+        "magical",
+        "potion"
+      ],
+      "category": "potion",
+      "price": "50 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "potion",
+          "slug": "potion"
+        }
+      ],
+      "activation": {
+        "actions": "one",
+        "traits": [
+          "manipulate"
+        ],
+        "text": ""
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "magical",
+      "potion",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C0020091-6A15-559A-AE01-0D09E868B8BD",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Crimson Godsblood Serum (Moderate)",
+    "slug": "crimson-godsblood-serum-moderate-shining-kingdoms",
+    "descr": "---\n\nThough it contains but a tiny drop of Gorum's blood, drinking this thick, swirling potion fills the user with divine wrath and resilience. While under the effect of the potion, you gain a +3 status bonus to physical damage rolls for 1 minute.\n\nEffect: Crimson Godsblood Serum\n\nThe first time during that minute you're reduced to 0 Hit Points but not immediately killed, you avoid being knocked out, regain (3d8+10) healing Hit Points, and become Confused for 1 round, and your [Wounded](/condition/wounded-player-core) condition increases by 1.",
+    "data": {
+      "level": 12,
+      "rarity": "rare",
+      "traits": [
+        "consumable",
+        "magical",
+        "potion"
+      ],
+      "category": "potion",
+      "price": "400 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "potion",
+          "slug": "potion"
+        }
+      ],
+      "activation": {
+        "actions": "one",
+        "traits": [
+          "manipulate"
+        ],
+        "text": ""
+      }
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "magical",
+      "potion",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1C3F5FAB-EE58-507E-980C-FE2D07EF5BB7",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Emperor's Peak Quartz Bracelet",
+    "slug": "emperor-s-peak-quartz-bracelet-shining-kingdoms",
+    "descr": "While most residents of—and travelers to—the Five Kings Mountains live underground, a significant number of people explore the regions' awe-inspiring peaks. Among their many discoveries on Emperor's Peak is a deposit of rainbow-colored rock crystal quartz with inherent magical properties that aid in survival, especially in the mountains. Dwarven artisans fashion chunks of this translucent quartz into fashionable bracelets.\n\nWearing such a bracelet grants you a +1 item bonus to Survival checks to [Sense Direction](/action/sense-direction-player-core) and [Subsist](/action/subsist-player-core). This bonus increases to +3 when in mountainous terrain. If you attempt a Survival check to Subsist after 8 hours or less of exploration, you take only a –2 penalty instead of a –5 penalty.",
+    "data": {
+      "level": 3,
+      "rarity": "uncommon",
+      "traits": [
+        "invested",
+        "magical"
+      ],
+      "category": "worn",
+      "price": "5 gp",
+      "usage": "worn",
+      "bulk": "—",
+      "traitLinks": [
+        {
+          "label": "invested",
+          "slug": "invested"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "invested",
+      "magical",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "598BB88E-0409-5029-9DBF-3A4A96C55087",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Fan Buckler",
+    "slug": "fan-buckler-shining-kingdoms",
+    "descr": "**Access** You're a member of the Lion Blades.\n\n---\n\nWhen collapsed, a *fan buckler* appears to be no more than an elegant wooden fan. Any attempts to discern that there's more to the item require a successful Perception check against the Deception DC of the wielder.",
+    "data": {
+      "level": 3,
+      "rarity": "uncommon",
+      "traits": [
+        "magical"
+      ],
+      "category": "held",
+      "price": "50 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ],
+      "activations": [
+        {
+          "actions": "one",
+          "traits": [
+            "manipulate"
+          ],
+          "name": "Unfurl Fan",
+          "text": "---\n\n**Effect** You transform the fan into a wooden [Buckler](/item/buckler-player-core) (Hardness 3, HP 6, BT 3) or vice versa.",
+          "effect": "You transform the fan into a wooden [Buckler](/item/buckler-player-core) (Hardness 3, HP 6, BT 3) or vice versa.",
+          "description": "---"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "magical",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "39848174-C8CE-51F8-ACF5-49E52AAB311B",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Godrending Ammunition",
+    "slug": "godrending-ammunition-shining-kingdoms",
+    "descr": "Embedded in this piece of ammunition is a shining sliver of a warshard. When an activated godrending ammunition hits a target, the body of the struck creature attempts to tear itself apart, causing nauseating pain. Instead of its normal damage, the ammunition deals 10d8 slashing damage. The target can attempt a Fortitude DC 30 saving throw; it takes a –2 circumstance penalty to this save if the Strike was a critical hit.\n\n---\n\n**Critical Success** The foe takes the normal damage from the ammunition, instead of the 10d8 slashing damage.\n\n**Success** The foe takes half damage.\n\n**Failure** The foe takes full damage and is [Sickened 1](/condition/sickened-player-core).\n\n**Critical Failure** The foe takes double damage and is Sickened 2. A creature reduced to 0 HP from this damage is ripped limb from limb, and it instantly dies; its gear remains.",
+    "data": {
+      "level": 13,
+      "rarity": "rare",
+      "traits": [
+        "consumable",
+        "magical"
+      ],
+      "category": "ammunition",
+      "price": "440 gp",
+      "usage": "",
+      "bulk": "—",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "magical",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "6092544F-0E98-5154-9BD2-E98DF38FE072",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Godrending Ammunition (Greater)",
+    "slug": "godrending-ammunition-greater-shining-kingdoms",
+    "descr": "Embedded in this piece of ammunition is a shining sliver of a warshard. When an activated godrending ammunition hits a target, the body of the struck creature attempts to tear itself apart, causing nauseating pain. Instead of its normal damage, the ammunition deals 15d8 slashing damage. The target can attempt a Fortitude DC 38 saving throw; it takes a –2 circumstance penalty to this save if the Strike was a critical hit.\n\n---\n\n**Critical Success** The foe takes the normal damage from the ammunition, instead of the 15d8 slashing damage.\n\n**Success** The foe takes half damage.\n\n**Failure** The foe takes full damage and is [Sickened 1](/condition/sickened-player-core).\n\n**Critical Failure** The foe takes double damage and is Sickened 2. A creature reduced to 0 HP from this damage is ripped limb from limb, and it instantly dies; its gear remains.",
+    "data": {
+      "level": 18,
+      "rarity": "rare",
+      "traits": [
+        "consumable",
+        "magical"
+      ],
+      "category": "ammunition",
+      "price": "3300 gp",
+      "usage": "",
+      "bulk": "—",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "magical",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "DF20519B-D539-5865-A3B7-5FE1920D4E8C",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Jaws of the Grogrisant",
+    "slug": "jaws-of-the-grogrisant-shining-kingdoms",
+    "descr": "The teeth that fell off the Mantle of the Grogrisant were given to the scholars of Houses Fahlspar, Lotheed, Nicodemius, and Zespire, who—after much heated discussion—created this regal circlet. You gain a +3 item bonus to Diplomacy and Intimidation skill checks and [Sense Motive](/action/sense-motive-player-core) checks against creatures that have the [primal](/trait/primal) trait. When you invest in the headband, you either increase your Wisdom modifier by 1 or increase it to +4, whichever would give you a higher value.",
+    "data": {
+      "level": 17,
+      "rarity": "unique",
+      "traits": [
+        "apex",
+        "invested",
+        "primal"
+      ],
+      "category": "worn",
+      "price": "15000 gp",
+      "usage": "worncirclet",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "apex",
+          "slug": "apex"
+        },
+        {
+          "label": "invested",
+          "slug": "invested"
+        },
+        {
+          "label": "primal",
+          "slug": "primal"
+        }
+      ],
+      "activations": [
+        {
+          "actions": "two",
+          "traits": [
+            "concentrate",
+            "mental"
+          ],
+          "name": "Primal Empathy",
+          "text": "**Frequency** once per hour\n\n---\n\n**Effect** You gain the ability to communicate with nature as if you were a part of it. You cast [Telepathy](/spell/telepathy-player-core) at 6th rank, which can only be used to communicate with creatures that have the primal trait.",
+          "effect": "You gain the ability to communicate with nature as if you were a part of it. You cast [Telepathy](/spell/telepathy-player-core) at 6th rank, which can only be used to communicate with creatures that have the primal trait.",
+          "description": "**Frequency** once per hour\n\n---"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "apex",
+      "invested",
+      "primal",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4B65E1C5-FC18-5A59-8292-CABB5474AB5D",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Jorngarl's Harm",
+    "slug": "jorngarl-s-harm-shining-kingdoms",
+    "descr": "This oversized greataxe, infamous for the chilling laughter it emits whenever it takes a life, was crafted by the frost giant sorcerer Jorngarl from the final blade named Toothy Morris after it was stolen in an attack on a Gray Gardener convoy. It functions as a *+3 major striking vorpal greataxe* that retains the unique properties of a Final Blade, trapping the souls of any it slays and preventing them from being returned to life by any means short of divine intervention, even a [Wish](/ritual/wish-player-core) ritual or similar magic.",
+    "data": {
+      "level": 20,
+      "rarity": "unique",
+      "traits": [
+        "occult"
+      ],
+      "category": "weapon",
+      "price": "",
+      "usage": "held-in-two-hands",
+      "bulk": "2",
+      "damage": "1d12 slashing",
+      "hands": "twos",
+      "weaponType": "melee",
+      "weaponCategory": "martial",
+      "weaponGroup": "axe",
+      "traitLinks": [
+        {
+          "label": "occult",
+          "slug": "occult"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "occult",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4A74EBFF-FEEB-593D-B4AD-06930BF8B418",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Keep Stone Amulet",
+    "slug": "keep-stone-amulet-shining-kingdoms",
+    "descr": "The superior adamantine-lead alloy known as keep stone is as highly prized as it is expensive, and for good reason: keep stone combines the Hardness and durability of the finest metal with inherent magical protection. Not only does the metal itself resist magical effects, but anyone in proximity to a large amount of it also enjoys a degree of protection from divination magic. Dwarven crafters have attempted to make this extra protection more portable and more affordable in the form of *keep stone amulets*. Each amulet is unique in its exact shape, size, thickness, and decorations, but typically, a keep stone amulet is roughly palm-sized and engraved with clan symbols, holy aphorisms, or a favorite line of poetry.\n\nWhile wearing a *keep stone amulet*, if you're the target of a spell with the detection or [scrying](/trait/scrying) trait, the caster must succeed at a Flat DC 5 or lose the spell.\n\n---",
+    "data": {
+      "level": 19,
+      "rarity": "rare",
+      "traits": [
+        "invested",
+        "magical"
+      ],
+      "category": "worn",
+      "price": "38000 gp",
+      "usage": "worn",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "invested",
+          "slug": "invested"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ],
+      "activations": [
+        {
+          "actions": "reaction",
+          "traits": [
+            "concentrate",
+            "misfortune"
+          ],
+          "name": "Rebuff Magic",
+          "text": "**Frequency** once per day\n\n**Trigger** You're the target of a spell with a spell attack roll\n\n---\n\n**Effect** The caster must roll the spell attack roll twice and take the worse result.",
+          "effect": "The caster must roll the spell attack roll twice and take the worse result.",
+          "trigger": "You're the target of a spell with a spell attack roll",
+          "triggerBeforeDescription": false,
+          "triggerParagraphBreak": true,
+          "description": "**Frequency** once per day; ---"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "invested",
+      "magical",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E6855446-1347-5A71-8B90-D540B99DB56D",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Kols's Oath",
+    "slug": "kols-s-oath-shining-kingdoms",
+    "descr": "This filigree grants you, as the clan dagger's owner, a +1 item bonus to Society checks and to Diplomacy checks to Request. Additionally, once per day, the filigree symbol can be activated to compel an enemy to act.",
+    "data": {
+      "level": 5,
+      "rarity": "uncommon",
+      "traits": [
+        "divine",
+        "magical"
+      ],
+      "category": "other",
+      "price": "160 gp",
+      "usage": "etched-onto-clan-dagger",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "divine",
+          "slug": "divine"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ],
+      "activations": [
+        {
+          "actions": "one",
+          "traits": [
+            "auditory",
+            "concentrate",
+            "linguistic",
+            "mental"
+          ],
+          "name": "Vow Unbreakable",
+          "text": "**Frequency** once per day\n\n---\n\n**Effect** You command a creature within 30 feet to Stride away from you, drop Prone, or release one item it's holding. The creature can choose to perform that action as the first action on its next turn; if it doesn't, it takes 4d6 mental damage (basic Will DC 20 save).",
+          "effect": "You command a creature within 30 feet to Stride away from you, drop Prone, or release one item it's holding. The creature can choose to perform that action as the first action on its next turn; if it doesn't, it takes 4d6 mental damage (basic Will DC 20 save).",
+          "description": "**Frequency** once per day\n\n---"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "divine",
+      "magical",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "BBA0C9C3-1B31-50FE-9EF2-8A8D303EE35F",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Kols's Oath (Greater)",
+    "slug": "kols-s-oath-greater-shining-kingdoms",
+    "descr": "This filigree grants you, as the clan dagger's owner, a +2 item bonus to Society checks and to Diplomacy checks to Request. Additionally, once per day, the filigree symbol can be activated to compel an enemy to act.",
+    "data": {
+      "level": 11,
+      "rarity": "uncommon",
+      "traits": [
+        "divine",
+        "magical"
+      ],
+      "category": "other",
+      "price": "1400 gp",
+      "usage": "etched-onto-clan-dagger",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "divine",
+          "slug": "divine"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ],
+      "activations": [
+        {
+          "actions": "one",
+          "traits": [
+            "auditory",
+            "concentrate",
+            "linguistic",
+            "mental"
+          ],
+          "name": "Vow Unbreakable",
+          "text": "**Frequency** once per day\n\n---\n\n**Effect** You command a creature within 30 feet to Stride away from you, drop Prone, or release one item it's holding. The creature can choose to perform that action as the first action on its next turn; if it doesn't, it takes 8d6 mental damage (basic Will DC 28 save).",
+          "effect": "You command a creature within 30 feet to Stride away from you, drop Prone, or release one item it's holding. The creature can choose to perform that action as the first action on its next turn; if it doesn't, it takes 8d6 mental damage (basic Will DC 28 save).",
+          "description": "**Frequency** once per day\n\n---"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "divine",
+      "magical",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "6040820D-6BAA-59F2-B0E5-4FEAC486E01D",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Lion's Call",
+    "slug": "lion-s-call-shining-kingdoms",
+    "descr": "**Access** You're a member of the Lion Blades.\n\n---\n\nGiven only to highly trusted agents by the grand princes back when Lion Blades protected the Primogen Crown, these historic *+1 striking authorized shortswords* allow a Lion Blade wielder to locate resources.",
+    "data": {
+      "level": 10,
+      "rarity": "uncommon",
+      "traits": [
+        "agile",
+        "finesse",
+        "versatile-s"
+      ],
+      "category": "weapon",
+      "price": "900 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "L",
+      "damage": "1d6 piercing",
+      "hands": "one",
+      "weaponType": "melee",
+      "weaponCategory": "martial",
+      "weaponGroup": "sword",
+      "traitLinks": [
+        {
+          "label": "agile",
+          "slug": "agile"
+        },
+        {
+          "label": "finesse",
+          "slug": "finesse"
+        },
+        {
+          "label": "versatile-s",
+          "slug": "versatile"
+        }
+      ],
+      "activations": [
+        {
+          "actions": "three",
+          "traits": [
+            "arcane",
+            "concentrate",
+            "manipulate"
+          ],
+          "name": "Find the Pride",
+          "text": "**Frequency** once per day\n\n---\n\n**Effect** You cast [Locate](/spell/locate-player-core) at 5th rank to learn the location of one of the following of your choice: the nearest Lion Blade safe house, shadow school, Lion Blade agent, Lion Blade kith, or a person other than yourself who's in possession of a *lion's call*.\n\n---",
+          "effect": "You cast [Locate](/spell/locate-player-core) at 5th rank to learn the location of one of the following of your choice: the nearest Lion Blade safe house, shadow school, Lion Blade agent, Lion Blade kith, or a person other than yourself who's in possession of a *lion's call*.\n\n---",
+          "description": "**Frequency** once per day\n\n---"
+        },
+        {
+          "actions": "reaction",
+          "traits": [
+            "arcane",
+            "concentrate"
+          ],
+          "name": "Echo the Call",
+          "text": "**Frequency** once per day\n\n**Trigger** A creature locates you using another *lion's call*\n\n---\n\n**Effect** You immediately learn the location and appearance of the triggering creature. You can communicate telepathically with the triggering creature while you remain within 1 mile of each other for the next hour",
+          "effect": "You immediately learn the location and appearance of the triggering creature. You can communicate telepathically with the triggering creature while you remain within 1 mile of each other for the next hour",
+          "trigger": "A creature locates you using another *lion's call*",
+          "triggerBeforeDescription": false,
+          "triggerParagraphBreak": true,
+          "description": "**Frequency** once per day; ---"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "agile",
+      "finesse",
+      "remaster",
+      "shining-kingdoms",
+      "versatile-s"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5ACBA082-687F-5155-8081-6C5563DF347C",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Lion's Pelt (Chain)",
+    "slug": "lion-s-pelt-chain-shining-kingdoms",
+    "descr": "**Access** You're a member of the Lion Blades.\n\n---\n\nLaurisa Tromaine ordered these as prototype uniforms. The fur-lined pauldrons bear the insignia of a lion with a blade in its mouth. The type of blade indicates which bard school one graduated from. When you disguise the armor via its [Raiment](/item/raiment-gm-core) rune, you can choose whether to conceal this symbol or not. You can also use the rune's activation to quickly display or hide the insignia.",
+    "data": {
+      "level": 6,
+      "rarity": "uncommon",
+      "traits": [
+        "flexible",
+        "noisy"
+      ],
+      "category": "armor",
+      "price": "250 gp",
+      "usage": "",
+      "bulk": "1",
+      "ac": 2,
+      "dexCap": 3,
+      "checkPenalty": -1,
+      "speedPenalty": 0,
+      "str": 0,
+      "armorCategory": "light",
+      "armorGroup": "chain",
+      "traitLinks": [
+        {
+          "label": "flexible",
+          "slug": "flexible"
+        },
+        {
+          "label": "noisy",
+          "slug": "noisy"
+        }
+      ],
+      "activations": [
+        {
+          "actions": "one",
+          "traits": [
+            "arcane",
+            "concentrate"
+          ],
+          "name": "Contact Ally",
+          "text": "**Frequency** once per hour\n\n---\n\n**Effect** You cast [Message](/spell/message-player-core) at 1st rank to a target that you know is also wearing a *lion's pelt* uniform. If you and the target share an insignia, the spell is heightened to 3rd rank.",
+          "effect": "You cast [Message](/spell/message-player-core) at 1st rank to a target that you know is also wearing a *lion's pelt* uniform. If you and the target share an insignia, the spell is heightened to 3rd rank.",
+          "description": "**Frequency** once per hour\n\n---"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "flexible",
+      "noisy",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "7F9BE405-7815-5C20-922E-24E6E798D5C4",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Lion's Pelt (Leather)",
+    "slug": "lion-s-pelt-leather-shining-kingdoms",
+    "descr": "**Access** You're a member of the Lion Blades.\n\n---\n\nLaurisa Tromaine ordered these as prototype uniforms. The fur-lined pauldrons bear the insignia of a lion with a blade in its mouth. The type of blade indicates which bard school one graduated from. When you disguise the armor via its [Raiment](/item/raiment-gm-core) rune, you can choose whether to conceal this symbol or not. You can also use the rune's activation to quickly display or hide the insignia.",
+    "data": {
+      "level": 6,
+      "rarity": "uncommon",
+      "traits": [],
+      "category": "armor",
+      "price": "250 gp",
+      "usage": "",
+      "bulk": "1",
+      "ac": 1,
+      "dexCap": 4,
+      "checkPenalty": -1,
+      "speedPenalty": 0,
+      "str": 0,
+      "armorCategory": "light",
+      "armorGroup": "leather",
+      "traitLinks": [],
+      "activations": [
+        {
+          "actions": "one",
+          "traits": [
+            "arcane",
+            "concentrate"
+          ],
+          "name": "Contact Ally",
+          "text": "**Frequency** once per hour\n\n---\n\n**Effect** You cast [Message](/spell/message-player-core) at 1st rank to a target that you know is also wearing a *lion's pelt* uniform. If you and the target share an insignia, the spell is heightened to 3rd rank.",
+          "effect": "You cast [Message](/spell/message-player-core) at 1st rank to a target that you know is also wearing a *lion's pelt* uniform. If you and the target share an insignia, the spell is heightened to 3rd rank.",
+          "description": "**Frequency** once per hour\n\n---"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "6F5B4C05-8F20-5992-9BBD-9EC36F24B261",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Memory Ribbon",
+    "slug": "memory-ribbon-shining-kingdoms",
+    "descr": "The time-honored tradition of weaving beautiful, embroidered glory ribbons throughout one's hair and beard remains an important cultural practice among some dwarven clans, with the choice of colors and style of presentation representing status, achievements, and other significant aspects of someone's position. Magical versions also exist that help enhance the wearer's memory. These magical ribbons are especially popular when someone has been invited to serve as a toastmaster at a guild banquet or as a master of ceremonies at an important festival. Their use in final oral exams for high positions is, however, hotly debated.\n\n---",
+    "data": {
+      "level": 4,
+      "rarity": "uncommon",
+      "traits": [
+        "consumable",
+        "magical"
+      ],
+      "category": "consumable",
+      "price": "20 gp",
+      "usage": "worn",
+      "bulk": "—",
+      "traitLinks": [
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ],
+      "activations": [
+        {
+          "actions": "free",
+          "traits": [
+            "concentrate"
+          ],
+          "name": "Read the Ribbon's Story",
+          "text": "**Trigger** You attempt a skill check to Recall Knowledge but haven't rolled yet\n\n---\n\n**Effect** The memory ribbon grants you a +2 item bonus to the triggering skill check to Recall Knowledge. Afterward, the ribbon becomes non-magical.",
+          "effect": "The memory ribbon grants you a +2 item bonus to the triggering skill check to Recall Knowledge. Afterward, the ribbon becomes non-magical.",
+          "trigger": "You attempt a skill check to Recall Knowledge but haven't rolled yet",
+          "triggerBeforeDescription": true,
+          "triggerParagraphBreak": true,
+          "description": "---"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "consumable",
+      "magical",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "7C315465-DD22-55AA-921A-3815DAD8D9E3",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Paws of the Grogrisant",
+    "slug": "paws-of-the-grogrisant-shining-kingdoms",
+    "descr": "Princess Eutropia commissioned Taldor's Imperial College of Heralds to preserve the paws that fell off the Mantle of the Grogrisant. A few weeks later, the college presented this pair of boots. You gain a +3 item bonus to Athletics checks and saves against forced movement. When you invest in the boots, you either increase your Strength modifier by 1 or increase it to +4, whichever would give you a higher value.",
+    "data": {
+      "level": 17,
+      "rarity": "unique",
+      "traits": [
+        "apex",
+        "invested",
+        "primal"
+      ],
+      "category": "worn",
+      "price": "15000 gp",
+      "usage": "wornshoes",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "apex",
+          "slug": "apex"
+        },
+        {
+          "label": "invested",
+          "slug": "invested"
+        },
+        {
+          "label": "primal",
+          "slug": "primal"
+        }
+      ],
+      "activations": [
+        {
+          "actions": "one",
+          "traits": [
+            "concentrate"
+          ],
+          "name": "Grogrisant Leap",
+          "text": "**Frequency** once per day\n\n---\n\n**Effect** The Grogrisant's legendary strength and reflexes empower your movement. You Leap, doubling the vertical and horizontal distance of your [Leap](/action/leap-player-core) action. If you land adjacent to a creature, you can Strike that creature once as part of this action.",
+          "effect": "The Grogrisant's legendary strength and reflexes empower your movement. You Leap, doubling the vertical and horizontal distance of your [Leap](/action/leap-player-core) action. If you land adjacent to a creature, you can Strike that creature once as part of this action.",
+          "description": "**Frequency** once per day\n\n---"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "apex",
+      "invested",
+      "primal",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F4770B2C-8E3A-5B49-834C-EC241B853C99",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Resonating Crystal Boots",
+    "slug": "resonating-crystal-boots-shining-kingdoms",
+    "descr": "These supple leather boots are studded with tiny crystals.",
+    "data": {
+      "level": 8,
+      "rarity": "uncommon",
+      "traits": [
+        "invested",
+        "magical"
+      ],
+      "category": "worn",
+      "price": "475 gp",
+      "usage": "worn",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "invested",
+          "slug": "invested"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ],
+      "activations": [
+        {
+          "actions": "one",
+          "traits": [
+            "auditory",
+            "concentrate",
+            "sonic"
+          ],
+          "name": "Chiming Steps",
+          "text": "**Frequency** once per day\n\n---\n\n**Effect** Stride up to half your Speed. The crystals ring out with pleasant-sounding chimes that reverberate painfully in the ears of others. Each creature that you pass adjacent to during your Stride takes 4d8 sonic damage (basic Fortitude DC 24 save); a creature takes this damage only once. A creature who critically fails the save is also Deafened for 1 minute.",
+          "effect": "Stride up to half your Speed. The crystals ring out with pleasant-sounding chimes that reverberate painfully in the ears of others. Each creature that you pass adjacent to during your Stride takes 4d8 sonic damage (basic Fortitude DC 24 save); a creature takes this damage only once. A creature who critically fails the save is also Deafened for 1 minute.",
+          "description": "**Frequency** once per day\n\n---"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "invested",
+      "magical",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "804DBDBE-24C4-5110-9C34-CF890132CDA8",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Screaming Pinion",
+    "slug": "screaming-pinion-shining-kingdoms",
+    "descr": "This *+2 greater striking flintlock musket* is an innovation of the Platinum Wing, and possession of one by a civilian is a high crime in Andoran. The gun's secret is the chip of a warshard used as the hammer in the striking mechanism.",
+    "data": {
+      "level": 13,
+      "rarity": "rare",
+      "traits": [
+        "concussive",
+        "fatal-d10"
+      ],
+      "category": "weapon",
+      "price": "3000 gp",
+      "usage": "held-in-two-hands",
+      "bulk": "1",
+      "damage": "1d6 piercing",
+      "range": 70,
+      "reload": "1",
+      "hands": "twos",
+      "weaponType": "ranged",
+      "weaponCategory": "simple",
+      "weaponGroup": "firearm",
+      "traitLinks": [
+        {
+          "label": "concussive",
+          "slug": "concussive"
+        },
+        {
+          "label": "fatal-d10",
+          "slug": "fatal"
+        }
+      ],
+      "activations": [
+        {
+          "actions": "one",
+          "traits": [
+            "manipulate"
+          ],
+          "name": "Transcendent Shot",
+          "text": "**Requirements** The screaming pinion is unloaded\n\n---\n\n**Effect** You call on the power of the warshard to load the screaming pinion with a bullet made of divine fury. The next attack from the gun deals spirit damage, rather than its typical type, and on a critical hit, the target is subject to the weapon's critical specialization effect. If the gun isn't fired before the end of your next turn, the bullet disappears, and the gun becomes unloaded.\n\n---",
+          "effect": "You call on the power of the warshard to load the screaming pinion with a bullet made of divine fury. The next attack from the gun deals spirit damage, rather than its typical type, and on a critical hit, the target is subject to the weapon's critical specialization effect. If the gun isn't fired before the end of your next turn, the bullet disappears, and the gun becomes unloaded.\n\n---",
+          "description": "**Requirements** The screaming pinion is unloaded\n\n---"
+        },
+        {
+          "actions": "two",
+          "traits": [
+            "concentrate",
+            "manipulate",
+            "sonic"
+          ],
+          "name": "Eagle's Cry",
+          "text": "**Frequency** once per day\n\n---\n\n**Effect** The musket unleashes a piercing sound wave in a 70-foot line. Each creature in the area takes 8d10 sonic damage with a basic Fortitude DC 30 save. A creature that critically fails its save is also Deafened. If the screaming pinion has a +3 potency rune, the DC increases to 35 (basic Fortitude DC 35), and the damage increases to 10d10 sonic.",
+          "effect": "The musket unleashes a piercing sound wave in a 70-foot line. Each creature in the area takes 8d10 sonic damage with a basic Fortitude DC 30 save. A creature that critically fails its save is also Deafened. If the screaming pinion has a +3 potency rune, the DC increases to 35 (basic Fortitude DC 35), and the damage increases to 10d10 sonic.",
+          "description": "**Frequency** once per day\n\n---"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concussive",
+      "fatal-d10",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8BE59C79-2388-5195-ADB7-F1B977207AE3",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Shawl of Seasons",
+    "slug": "shawl-of-seasons-shining-kingdoms",
+    "descr": "This woven shawl changes its color, material, and abilities with the seasons. In its usual state, it reflects the current season of the environment the wearer is in. The handsome embroidery grants you a +2 item bonus to Diplomacy checks to [Make An Impression](/action/make-an-impression-player-core).",
+    "data": {
+      "level": 5,
+      "rarity": "uncommon",
+      "traits": [
+        "invested",
+        "magical"
+      ],
+      "category": "worn",
+      "price": "150 gp",
+      "usage": "worn",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "invested",
+          "slug": "invested"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ],
+      "activations": [
+        {
+          "name": "Change of Seasons",
+          "text": "10 minutes (concentrate)\n\n**Frequency** once per day\n\n---\n\n**Effect** You arrange the shawl on your shoulders to gain the benefits of a season of your choice until your next daily preparations. If the season you choose is the current season, you also gain a +1 item bonus to Fortitude saving throws.\n\n**Spring** The shawl becomes smooth silk covered in delicate flowers. You gain a +5-foot item bonus to your Speed.**Summer** The shawl becomes light cotton with the hues of fresh grass. You're protected from the effects of severe heat.**Fall** The shawl becomes thin leather with an ombre of red and orange leaves. You treat falls as 10 feet shorter.**Winter** The shawl becomes warm wool as white as snow. You're protected from the effects of severe cold.",
+          "effect": "You arrange the shawl on your shoulders to gain the benefits of a season of your choice until your next daily preparations. If the season you choose is the current season, you also gain a +1 item bonus to Fortitude saving throws.\n\n**Spring** The shawl becomes smooth silk covered in delicate flowers. You gain a +5-foot item bonus to your Speed.**Summer** The shawl becomes light cotton with the hues of fresh grass. You're protected from the effects of severe heat.**Fall** The shawl becomes thin leather with an ombre of red and orange leaves. You treat falls as 10 feet shorter.**Winter** The shawl becomes warm wool as white as snow. You're protected from the effects of severe cold.",
+          "description": "10 minutes (concentrate)\n\n**Frequency** once per day\n\n---"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "invested",
+      "magical",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "91007C97-5265-52A2-9657-056EFCAFECC9",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spectral Dagger",
+    "slug": "spectral-dagger-shining-kingdoms",
+    "descr": "Granted by [Spectral Dagger](/feat/spectral-dagger-shining-kingdoms)",
+    "data": {
+      "level": 0,
+      "rarity": "unique",
+      "traits": [
+        "agile",
+        "finesse",
+        "thrown-10",
+        "versatile-s"
+      ],
+      "category": "weapon",
+      "price": "",
+      "usage": "held-in-one-hand",
+      "bulk": "L",
+      "damage": "1d4 slashing",
+      "hands": "one",
+      "weaponType": "melee",
+      "weaponCategory": "simple",
+      "weaponGroup": "knife",
+      "traitLinks": [
+        {
+          "label": "agile",
+          "slug": "agile"
+        },
+        {
+          "label": "finesse",
+          "slug": "finesse"
+        },
+        {
+          "label": "thrown-10",
+          "slug": "thrown"
+        },
+        {
+          "label": "versatile-s",
+          "slug": "versatile"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "agile",
+      "finesse",
+      "remaster",
+      "shining-kingdoms",
+      "thrown-10",
+      "versatile-s"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1FFEE04B-0BB5-51A4-96A2-3A4E1CD08474",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Splinter of Finality",
+    "slug": "splinter-of-finality-shining-kingdoms",
+    "descr": "The sharpness of this dark metal splinter never dulls. By plunging it into your neck, you anchor your soul to the fragment, granting you protection from those that would harm it at the cost of weakening your body. You take a –1 status penalty to saving throws against effects that would give you the [Clumsy](/condition/clumsy-player-core), [Drained](/condition/drained-player-core), or [Enfeebled](/condition/enfeebled-player-core) condition. At 10th level, the penalty increases to –2. However, you gain spirit resistance equal to your level and a +2 status bonus to saving throws against spirits or haunts and effects that would give you the [Confused](/condition/confused-player-core), [Controlled](/condition/controlled-player-core), [Doomed](/condition/doomed-player-core), or [Stupefied](/condition/stupefied-player-core) conditions.\n\n---\n\n**Destruction** All 13 splinters of finality must be gathered and used to reconstruct *Silent Lenore*, which must then be destroyed by means of the Blunt The Final Blade ritual.\n\nSplinter of Finality",
+    "data": {
+      "level": 2,
+      "rarity": "rare",
+      "traits": [
+        "artifact",
+        "invested",
+        "occult"
+      ],
+      "category": "held",
+      "price": "",
+      "usage": "held-in-one-hand",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "artifact",
+          "slug": "artifact"
+        },
+        {
+          "label": "invested",
+          "slug": "invested"
+        },
+        {
+          "label": "occult",
+          "slug": "occult"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "artifact",
+      "invested",
+      "occult",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "89A90547-9716-599E-81C0-702F474DC28C",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Taldogis Badge",
+    "slug": "taldogis-badge-shining-kingdoms",
+    "descr": "This badge depicting a hunting dog is used by Eutropia's supporters to indicate their allegiances.",
+    "data": {
+      "level": 2,
+      "rarity": "uncommon",
+      "traits": [
+        "invested",
+        "magical"
+      ],
+      "category": "worn",
+      "price": "28 gp",
+      "usage": "worn",
+      "bulk": "—",
+      "traitLinks": [
+        {
+          "label": "invested",
+          "slug": "invested"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ],
+      "activations": [
+        {
+          "actions": "two",
+          "traits": [
+            "concentrate",
+            "manipulate",
+            "subtle"
+          ],
+          "name": "Bark",
+          "text": "**Frequency** once per hour\n\n---\n\n**Effect** The hunting dog makes a single bark that only you and a single target of your choice within 30 feet can hear. If the target is a supporter of Eutropia, you gain a +2 circumstance bonus to Diplomacy checks against them for the next minute.\n\nEffect: Taldogis Badge",
+          "effect": "The hunting dog makes a single bark that only you and a single target of your choice within 30 feet can hear. If the target is a supporter of Eutropia, you gain a +2 circumstance bonus to Diplomacy checks against them for the next minute.\n\nEffect: Taldogis Badge",
+          "description": "**Frequency** once per hour\n\n---"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "invested",
+      "magical",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "036004F5-85B9-50A7-A659-1BB521C749F5",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "The Dancers' Song",
+    "slug": "the-dancers-song-shining-kingdoms",
+    "descr": "A pair of conjoined sahkils known as The Dancers created this poison for the Ninth Army. While stupefied by this poison, a creature can't treat any creature as its ally.\n\n**Saving Throw** Fortitude DC 23\n\n**Onset** 1 minute\n\n**Maximum Duration** 6 days\n\n**Stage 1** 2d8 poison damage and [Stupefied 1](/condition/stupefied-player-core) (1 day)\n\n**Stage 2** 3d8 poison damage and Stupefied 2 (2 days)\n\n**Stage 3** 4d8 poison damage and Stupefied 4 (3 days)",
+    "data": {
+      "level": 7,
+      "rarity": "rare",
+      "traits": [
+        "alchemical",
+        "consumable",
+        "ingested",
+        "poison"
+      ],
+      "category": "consumable",
+      "price": "50 gp",
+      "usage": "held-in-one-hand",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "alchemical",
+          "slug": "alchemical"
+        },
+        {
+          "label": "consumable",
+          "slug": "consumable"
+        },
+        {
+          "label": "ingested",
+          "slug": "ingested"
+        },
+        {
+          "label": "poison",
+          "slug": "poison"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "alchemical",
+      "consumable",
+      "ingested",
+      "poison",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "20FFADCC-52E8-56A7-8685-D61FBF26AC8F",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Trudd's Strength",
+    "slug": "trudd-s-strength-shining-kingdoms",
+    "descr": "This filigree depiction of a warhammer in front of a kite-shaped shield grants you a +1 item bonus to Athletics checks and to Intimidation checks to [Coerce](/action/coerce-player-core). Additionally, once per day, the filigree symbol can be activated to protect your allies.",
+    "data": {
+      "level": 5,
+      "rarity": "uncommon",
+      "traits": [
+        "divine",
+        "magical"
+      ],
+      "category": "other",
+      "price": "160 gp",
+      "usage": "etched-onto-clan-dagger",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "divine",
+          "slug": "divine"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ],
+      "activations": [
+        {
+          "actions": "one",
+          "traits": [
+            "concentrate"
+          ],
+          "name": "Protect the Clan!",
+          "text": "**Frequency** once per day\n\n---\n\n**Effect** Protective energy releases in a 10-foot emanation, granting a +1 status bonus to Armor Class to all allies within the area. The bonus lasts for 1 minute.\n\nEffect: Trudd'S Strength",
+          "effect": "Protective energy releases in a 10-foot emanation, granting a +1 status bonus to Armor Class to all allies within the area. The bonus lasts for 1 minute.\n\nEffect: Trudd'S Strength",
+          "description": "**Frequency** once per day\n\n---"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "divine",
+      "magical",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "00A562D1-9E43-5170-8265-DC2B85D108D8",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Trudd's Strength (Greater)",
+    "slug": "trudd-s-strength-greater-shining-kingdoms",
+    "descr": "This filigree depiction of a warhammer in front of a kite-shaped shield grants you a +2 item bonus to Athletics checks and to Intimidation checks to [Coerce](/action/coerce-player-core). Additionally, once per day, the filigree symbol can be activated to protect your allies.",
+    "data": {
+      "level": 11,
+      "rarity": "uncommon",
+      "traits": [
+        "divine",
+        "magical"
+      ],
+      "category": "other",
+      "price": "1400 gp",
+      "usage": "etched-onto-clan-dagger",
+      "bulk": "L",
+      "traitLinks": [
+        {
+          "label": "divine",
+          "slug": "divine"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        }
+      ],
+      "activations": [
+        {
+          "actions": "one",
+          "traits": [
+            "concentrate"
+          ],
+          "name": "Protect the Clan!",
+          "text": "**Frequency** once per day\n\n---\n\n**Effect** Protective energy releases in a 10-foot emanation, granting a +2 status bonus to Armor Class to all allies within the area. The bonus lasts for 1 minute.\n\nEffect: Trudd'S Strength",
+          "effect": "Protective energy releases in a 10-foot emanation, granting a +2 status bonus to Armor Class to all allies within the area. The bonus lasts for 1 minute.\n\nEffect: Trudd'S Strength",
+          "description": "**Frequency** once per day\n\n---"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "divine",
+      "magical",
+      "remaster",
+      "shining-kingdoms"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "834A6A86-95EF-51AD-83F4-817BC420DE9D",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Twilight Tattoo",
+    "slug": "twilight-tattoo-shining-kingdoms",
+    "descr": "**Access** You're a member of the Twilight Talons.\n\n---\n\nThis tattoo of a black eagle gripping a sword and arrows in its talons identifies the bearer as a member of the Twilight Talons. Agents typically keep the tattoo hidden unless they need to prove their identity to another member. The bearer gains a +1 item bonus to Deception checks.",
+    "data": {
+      "level": 5,
+      "rarity": "uncommon",
+      "traits": [
+        "invested",
+        "magical",
+        "tattoo"
+      ],
+      "category": "worn",
+      "price": "125 gp",
+      "usage": "worn",
+      "bulk": "—",
+      "traitLinks": [
+        {
+          "label": "invested",
+          "slug": "invested"
+        },
+        {
+          "label": "magical",
+          "slug": "magical"
+        },
+        {
+          "label": "tattoo",
+          "slug": "tattoo"
+        }
+      ],
+      "activations": [
+        {
+          "actions": "one",
+          "traits": [
+            "concentrate",
+            "illusion"
+          ],
+          "name": "Fade",
+          "text": "---\n\n**Effect** You hide your tattoo from view. The tattoo is invisible for 1 day and can't be detected by effects such as detect magic and read aura. You can Dismiss this effect.\n\n---",
+          "effect": "You hide your tattoo from view. The tattoo is invisible for 1 day and can't be detected by effects such as detect magic and read aura. You can Dismiss this effect.\n\n---",
+          "description": "---"
+        },
+        {
+          "actions": "two",
+          "traits": [
+            "concentrate",
+            "illusion",
+            "manipulate"
+          ],
+          "name": "Inscribe",
+          "text": "**Frequency** once per day\n\n---\n\n**Effect** You lay your hand on a piece of text, and your tattoo makes a perfect copy of it, storing it as a ring of swirling letters surrounding the design. The tattoo can hold text equivalent to two pages of a book, a single scroll, or a similar area of other surfaces, though it doesn't replicate any magical effect or other special properties of the original words. You can Dismiss this effect, and when you Dismiss it, the tattoo copies the original text onto a blank writing surface you're touching.",
+          "effect": "You lay your hand on a piece of text, and your tattoo makes a perfect copy of it, storing it as a ring of swirling letters surrounding the design. The tattoo can hold text equivalent to two pages of a book, a single scroll, or a similar area of other surfaces, though it doesn't replicate any magical effect or other special properties of the original words. You can Dismiss this effect, and when you Dismiss it, the tattoo copies the original text onto a blank writing surface you're touching.",
+          "description": "**Frequency** once per day\n\n---"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "shining-kingdoms",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "invested",
+      "magical",
+      "remaster",
+      "shining-kingdoms",
+      "tattoo"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Shining Kingdoms"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

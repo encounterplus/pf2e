@@ -1,0 +1,541 @@
+[
+  {
+    "id": "7C97C72C-7BEC-5152-9D05-0EB5067B60A7",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Augustana's Pride",
+    "slug": "augustana-s-pride-hellfire-dispatches-vehicle-vehicle-145",
+    "descr": "",
+    "data": {
+      "level": 20,
+      "rarity": "unique",
+      "traits": [],
+      "size": "gargantuan",
+      "price": "240,000 gp",
+      "space": {
+        "long": 280,
+        "wide": 40,
+        "high": 30
+      },
+      "crew": "1 pilot, 50 crew",
+      "passengers": "50",
+      "pilotingCheck": "Sailing Lore (DC 40), Diplomacy (DC 42), or Intimidation (DC 42)",
+      "speed": "swim 35 feet (wind)",
+      "ac": {
+        "value": 40,
+        "details": ""
+      },
+      "hp": {
+        "value": 300,
+        "details": "",
+        "bt": 150
+      },
+      "hardness": 20,
+      "fortitude": 34,
+      "collisionDC": 40,
+      "collisionDamage": "14d10",
+      "abilities": [
+        {
+          "name": "Inspiring Presence",
+          "text": "300 feet. The sight of the Andoren navy's flagship bolsters its fleet and its crew. At the beginning of their turns or when they enter the aura, allied creatures on board the ship and allied creatures within a 300-foot-emanation who can see the ship gain a +1 status bonus to attack rolls, damage rolls, and saves against fear for 1 round.",
+          "traits": [
+            "aura",
+            "emotion",
+            "mental",
+            "visual"
+          ]
+        },
+        {
+          "name": "Weapon Mounts",
+          "text": "This vehicle has 6 weapon mounts, three on each side of the vehicle. At purchase, these weapon mounts are initially empty. Installing or uninstalling a weapon into a mount requires 1 day, a successful DC 40 Crafting check, and an appropriate weapon. The weapon mounts can be equipped with Huge or smaller ranged [siege weapons](/rule/siege-weapons-rules-1622).",
+          "traits": []
+        }
+      ],
+      "traitLinks": [],
+      "immunities": [
+        "object immunities"
+      ],
+      "weaknesses": "fire 20 until broken",
+      "description": "A wind-driven ship with additional abilities and equipment detailed below."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "hellfire-dispatches",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "hellfire-dispatches",
+      "remaster",
+      "vehicle"
+    ],
+    "sources": [
+      {
+        "name": "Hellfire Dispatches",
+        "url": "https://2e.aonprd.com/Vehicles.aspx?ID=145",
+        "page": 94
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "2572B5D0-286A-5F9E-A2D5-21A1EB582B51",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Duskwood Corvette",
+    "slug": "duskwood-corvette-hellfire-dispatches-vehicle-vehicle-144",
+    "descr": "",
+    "data": {
+      "level": 12,
+      "rarity": "uncommon",
+      "traits": [],
+      "size": "gargantuan",
+      "price": "7,500 gp",
+      "space": {
+        "long": 90,
+        "wide": 20,
+        "high": 20
+      },
+      "crew": "1 pilot, 10 crew, 10 rowers",
+      "passengers": "20",
+      "pilotingCheck": "Sailing Lore (DC 28), Diplomacy (DC 31), or Intimidation (DC 31)",
+      "speed": "swim 40 feet (rowed, wind)",
+      "ac": {
+        "value": 28,
+        "details": ""
+      },
+      "hp": {
+        "value": 200,
+        "details": "",
+        "bt": 100
+      },
+      "hardness": 20,
+      "fortitude": 22,
+      "collisionDC": 30,
+      "collisionDamage": "8d10",
+      "abilities": [
+        {
+          "name": "Stealthy",
+          "text": "Due to its ebony coloration, a duskwood corvette is difficult to detect under certain conditions. It is [concealed](/condition/concealed-player-core) in dim light.",
+          "traits": []
+        },
+        {
+          "name": "Weapon Mounts",
+          "text": "This vehicle has 2 weapon mounts, one on each side of the vehicle. At purchase, these weapon mounts are initially empty. Installing or uninstalling a weapon into a mount requires 1 day, a successful DC 28 [Crafting](/rule/crafting-skill-player-core) check, and an appropriate weapon. The weapon mounts can be equipped with Huge or smaller ranged [siege weapons](/rule/siege-weapons-rules-1622).",
+          "traits": []
+        }
+      ],
+      "traitLinks": [],
+      "immunities": [
+        "object immunities"
+      ],
+      "weaknesses": "fire 15 until broken",
+      "description": "A ship propelled by rowing or sail."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "hellfire-dispatches",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "hellfire-dispatches",
+      "remaster",
+      "vehicle"
+    ],
+    "sources": [
+      {
+        "name": "Hellfire Dispatches",
+        "url": "https://2e.aonprd.com/Vehicles.aspx?ID=144",
+        "page": 94
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "F0C408D7-2FA8-5623-B2E2-13094F08F786",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Hellclad Trireme",
+    "slug": "hellclad-trireme-hellfire-dispatches-vehicle-vehicle-146",
+    "descr": "",
+    "data": {
+      "level": 13,
+      "rarity": "uncommon",
+      "traits": [],
+      "size": "gargantuan",
+      "price": "9,000 gp",
+      "space": {
+        "long": 120,
+        "wide": 15,
+        "high": 25
+      },
+      "crew": "1 pilot, 10 crew, 10 rowers",
+      "passengers": "20",
+      "pilotingCheck": "Sailing Lore (DC 31), Diplomacy (DC 33), or Intimidation (DC 33)",
+      "speed": "swim 30 feet (rowed, wind)",
+      "ac": {
+        "value": 30,
+        "details": ""
+      },
+      "hp": {
+        "value": 200,
+        "details": "",
+        "bt": 100
+      },
+      "hardness": 20,
+      "fortitude": 23,
+      "collisionDC": 31,
+      "collisionDamage": "9d10",
+      "abilities": [
+        {
+          "name": "Armor of Nessus",
+          "text": "Over the course of 1 minute, the ship's crew lowers spiky metal plates across key sections of the hull. The ship gains a +2 circumstance bonus to its AC and immunity to precision damage. Its collision damage becomes piercing damage. Its weakness to fire is reduced to 5, but its swim Speed is reduced to 15 feet and it can no longer be rowed. The crew can retract the plates by taking another minute.",
+          "traits": []
+        },
+        {
+          "name": "Weapon Mounts",
+          "text": "This vehicle has 2 weapon mounts, one on each side of the vehicle. At purchase, these weapon mounts are initially empty. Installing or uninstalling a weapon into a mount requires 1 day, a successful DC 31 Crafting check, and an appropriate weapon. The weapon mounts can be equipped with Huge or smaller ranged [siege weapons](/rule/siege-weapons-rules-1622).",
+          "traits": []
+        }
+      ],
+      "traitLinks": [],
+      "immunities": [
+        "object immunities"
+      ],
+      "weaknesses": "fire 15 until broken",
+      "description": "A vessel that can move under sail or by rowing."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "hellfire-dispatches",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "hellfire-dispatches",
+      "remaster",
+      "vehicle"
+    ],
+    "sources": [
+      {
+        "name": "Hellfire Dispatches",
+        "url": "https://2e.aonprd.com/Vehicles.aspx?ID=146",
+        "page": 94
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "0852173A-E223-53CF-B178-C45B544A35F0",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Smuggler's Speronara",
+    "slug": "smuggler-s-speronara-hellfire-dispatches-vehicle-vehicle-148",
+    "descr": "",
+    "data": {
+      "level": 7,
+      "rarity": "uncommon",
+      "traits": [],
+      "size": "huge",
+      "price": "1,080 gp",
+      "space": {
+        "long": 45,
+        "wide": 20,
+        "high": 15
+      },
+      "crew": "1 pilot, 2 crew, 4 rowers",
+      "passengers": "5",
+      "pilotingCheck": "Sailing Lore (DC 23), Diplomacy (DC 25), or Intimidation (DC 25)",
+      "speed": "swim 30 feet (rowed, wind)",
+      "ac": {
+        "value": 21,
+        "details": ""
+      },
+      "hp": {
+        "value": 110,
+        "details": "",
+        "bt": 55
+      },
+      "hardness": 10,
+      "fortitude": 14,
+      "collisionDC": 23,
+      "collisionDamage": "4d10",
+      "abilities": [
+        {
+          "name": "Maneuverable",
+          "text": "With a full complement of skilled rowers, a rowed speronara can turn swiftly, turn in place, and even row backward. Each 90-degree turn made in less than a vehicle length costs 5 extra feet of movement. It can row backward no faster than half its speed, and it can't turn while rowing backward.",
+          "traits": []
+        },
+        {
+          "name": "Smuggling",
+          "text": "Compartments The speronara can hold up to 20 Bulk of items in secret compartments that require a successful DC 23 Perception check to find.",
+          "traits": []
+        }
+      ],
+      "traitLinks": [],
+      "immunities": [
+        "object immunities"
+      ],
+      "weaknesses": "fire 10 until broken",
+      "description": "A wind-driven vessel that travels on the water."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "hellfire-dispatches",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "hellfire-dispatches",
+      "remaster",
+      "vehicle"
+    ],
+    "sources": [
+      {
+        "name": "Hellfire Dispatches",
+        "url": "https://2e.aonprd.com/Vehicles.aspx?ID=148",
+        "page": 95
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "73CAFBD9-8978-508E-9DAB-6FCC91E7F910",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "The Dark Prince",
+    "slug": "the-dark-prince-hellfire-dispatches-vehicle-vehicle-147",
+    "descr": "",
+    "data": {
+      "level": 20,
+      "rarity": "unique",
+      "traits": [],
+      "size": "gargantuan",
+      "price": "210,000 gp",
+      "space": {
+        "long": 280,
+        "wide": 60,
+        "high": 30
+      },
+      "crew": "1 pilot, 50 crew",
+      "passengers": "50",
+      "pilotingCheck": "Sailing Lore (DC 40), Diplomacy (DC 42), or Intimidation (DC 42)",
+      "speed": "swim 20 feet (wind)",
+      "ac": {
+        "value": 42,
+        "details": ""
+      },
+      "hp": {
+        "value": 320,
+        "details": "",
+        "bt": 160
+      },
+      "hardness": 18,
+      "fortitude": 35,
+      "collisionDC": 40,
+      "collisionDamage": "14d10",
+      "abilities": [
+        {
+          "name": "Dreadful Aura",
+          "text": "The flagship of the Chelaxian navy exudes a malevolent air. At the beginning of their turns or when they enter the aura, enemy creatures on board the ship and enemy creatures within a 300-foot-emanation who can see the ship must succeed at a DC 39 Will save or become [frightened](/condition/frightened-player-core) 1 (or [frightened 2](/condition/frightened-player-core) on a critical failure). Regardless of the result, the creature is temporarily immune to this aura for 1 minute. However, an enemy creature on board can't reduce its [frightened](/condition/frightened-player-core) condition below 1 until it is no longer on board.",
+          "traits": [
+            "aura",
+            "emotion",
+            "mental",
+            "visual"
+          ]
+        },
+        {
+          "name": "Weapon Mounts",
+          "text": "This vehicle has 6 weapon mounts, three on each side of the vehicle. At purchase, these weapon mounts are initially empty. Installing or uninstalling a weapon into a mount requires 1 day, a successful DC 40 Crafting check, and an appropriate weapon. The weapon mounts can be equipped with Huge or smaller ranged [siege weapons](/rule/siege-weapons-rules-1622).",
+          "traits": []
+        }
+      ],
+      "traitLinks": [],
+      "immunities": [
+        "object immunities"
+      ],
+      "resistances": "fire 20 until broken",
+      "description": "A wind-driven ship with additional abilities detailed below."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "hellfire-dispatches",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "hellfire-dispatches",
+      "remaster",
+      "vehicle"
+    ],
+    "sources": [
+      {
+        "name": "Hellfire Dispatches",
+        "url": "https://2e.aonprd.com/Vehicles.aspx?ID=147",
+        "page": 95
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "B0250569-071D-5246-AA00-8048981B3E37",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Undersurf Boat",
+    "slug": "undersurf-boat-hellfire-dispatches-vehicle-vehicle-149",
+    "descr": "",
+    "data": {
+      "level": 5,
+      "rarity": "uncommon",
+      "traits": [],
+      "size": "large",
+      "price": "480 gp",
+      "space": {
+        "long": 15,
+        "wide": 10,
+        "high": 5
+      },
+      "crew": "1 pilot, 2 rowers",
+      "passengers": "2",
+      "pilotingCheck": "Sailing Lore (DC 20), Diplomacy (DC 22), Intimidation (DC 22), or Nature (DC 22)",
+      "speed": "swim 30 feet (rowed)",
+      "ac": {
+        "value": 18,
+        "details": ""
+      },
+      "hp": {
+        "value": 60,
+        "details": "",
+        "bt": 30
+      },
+      "hardness": 10,
+      "fortitude": 12,
+      "collisionDC": 20,
+      "collisionDamage": "3d10",
+      "abilities": [
+        {
+          "name": "Submersible",
+          "text": "This vehicle can travel below the surface of the water, usually to a depth of no deeper than 60 feet. Though enclosed, it is not watertight, so crew and passengers must hold their breath or be able to breathe underwater.",
+          "traits": []
+        }
+      ],
+      "traitLinks": [],
+      "immunities": [
+        "object immunities"
+      ],
+      "resistances": "fire 5",
+      "description": "A boat that travels through water under its own power."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "hellfire-dispatches",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "hellfire-dispatches",
+      "remaster",
+      "vehicle"
+    ],
+    "sources": [
+      {
+        "name": "Hellfire Dispatches",
+        "url": "https://2e.aonprd.com/Vehicles.aspx?ID=149",
+        "page": 95
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "656EE874-BB77-5C1E-956F-F17D99A57E15",
+    "kind": "Vehicle",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Yellow-Sailed Schooner",
+    "slug": "yellow-sailed-schooner-hellfire-dispatches-vehicle-vehicle-150",
+    "descr": "",
+    "data": {
+      "level": 9,
+      "rarity": "uncommon",
+      "traits": [],
+      "size": "gargantuan",
+      "price": "2,100 gp",
+      "space": {
+        "long": 85,
+        "wide": 25,
+        "high": 20
+      },
+      "crew": "1 pilot, 10 crew",
+      "passengers": "30",
+      "pilotingCheck": "Sailing Lore (DC 23), Diplomacy (DC 25), or Intimidation (DC 25)",
+      "speed": "swim 30 feet (wind)",
+      "ac": {
+        "value": 22,
+        "details": ""
+      },
+      "hp": {
+        "value": 150,
+        "details": "",
+        "bt": 75
+      },
+      "hardness": 15,
+      "fortitude": 17,
+      "collisionDC": 26,
+      "collisionDamage": "6d10",
+      "abilities": [
+        {
+          "name": "Unfurl Yellow Sails",
+          "text": "With the pull of a rope, the pilot or one of the crew unfurls the yellow sails that Okeno freebooters are so infamous for. Each enemy creature within a 100-foot emanation who can see the sails must succeed at a DC 26 Will save or become [frightened](/condition/frightened-player-core) 1 (or [frightened 2](/condition/frightened-player-core) on a critical failure). Regardless of the save's results, the creature is temporarily immune to Unfurl Yellow Sails for 24 hours.",
+          "traits": [
+            "emotion",
+            "fear",
+            "manipulate",
+            "mental",
+            "visual"
+          ],
+          "actions": "one"
+        }
+      ],
+      "traitLinks": [],
+      "immunities": [
+        "object immunities"
+      ],
+      "weaknesses": "fire 15 until broken",
+      "description": "A wind-driven schooner."
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "hellfire-dispatches",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "hellfire-dispatches",
+      "remaster",
+      "vehicle"
+    ],
+    "sources": [
+      {
+        "name": "Hellfire Dispatches",
+        "url": "https://2e.aonprd.com/Vehicles.aspx?ID=150",
+        "page": 95
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  }
+]

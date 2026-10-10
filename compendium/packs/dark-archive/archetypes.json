@@ -1,0 +1,575 @@
+[
+  {
+    "id": "5A09EB64-1E71-5AEB-BF29-8F7C200B4E1E",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Alter Ego",
+    "slug": "alter-ego-dark-archive",
+    "descr": "You make yourself into a living mirror, becoming a double of someone unremarkable, and you slip into exactly the role that can get you past security or into a sensitive facility. You become an expert in Deception. You gain the [Assume A Role](/action/assume-a-role-dark-archive) activity.\n\nAlter Ego",
+    "data": {
+      "level": 2,
+      "rarity": "uncommon",
+      "traits": [
+        "archetype",
+        "dedication"
+      ],
+      "prerequisites": "trained in Deception and Stealth",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "You make yourself into a living mirror, becoming a double of someone unremarkable, and you slip into exactly the role that can get you past security or into a sensitive facility. You become an expert in Deception. You gain the Assume A Role activity.\n\nAlter Ego",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "dedication",
+          "slug": "dedication"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "dark-archive",
+      "dedication",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B2967ED3-38D2-5CE0-9C5D-60CBBC06AA18",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Chronoskimmer",
+    "slug": "chronoskimmer-dark-archive",
+    "descr": "You became partially unstuck from time and have learned how to manipulate your place in the flow of time. When you roll initiative, you can choose one of three options: either do nothing and roll initiative normally, stabilize your timestream, or destabilize your timestream and send it into intense fluctuations.\n\n**Stabilize your Timestream** (fortune) You don't roll initiative, and instead your initiative is equal to 10 + the modifier you would have used for initiative.**Destabilize your Timestream** (fortune) You don't roll initiative, and instead attempt a Flat DC 11. On a success, your initiative is equal to 19 + the modifier you would have used for initiative, and on a failure, your initiative is equal to 1 + that modifier.\n\nAdditionally, if your initiative roll result is tied with an opponent's initiative roll, you go first.\n\nYour manipulation of time grants you access to a number of abilities, some of which require a saving throw. The DC for these abilities is either your class DC or spell DC, whichever is higher, and is called your chronoskimmer DC\n\nChronoskimmer",
+    "data": {
+      "level": 2,
+      "rarity": "rare",
+      "traits": [
+        "archetype",
+        "dedication"
+      ],
+      "prerequisites": "",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "You became partially unstuck from time and have learned how to manipulate your place in the flow of time. When you roll initiative, you can choose one of three options: either do nothing and roll initiative normally, stabilize your timestream, or destabilize your timestream and send it into intense fluctuations.\n\n**Stabilize your Timestream** (fortune) You don't roll initiative, and instead your initiative is equal to 10 + the modifier you would have used for initiative.**Destabilize your Timestream** (fortune) You don't roll initiative, and instead attempt a Flat DC 11. On a success, your initiative is equal to 19 + the modifier you would have used for initiative, and on a failure, your initiative is equal to 1 + that modifier.\n\nAdditionally, if your initiative roll result is tied with an opponent's initiative roll, you go first.\n\nYour manipulation of time grants you access to a number of abilities, some of which require a saving throw. The DC for these abilities is either your class DC or spell DC, whichever is higher, and is called your chronoskimmer DC\n\nChronoskimmer",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "dedication",
+          "slug": "dedication"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "dark-archive",
+      "dedication",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D9EEF5A6-0326-5881-8C64-E9BFB7476DE8",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Curse Maelstrom",
+    "slug": "curse-maelstrom-dark-archive",
+    "descr": "A horrible curse has left a lingering stain on your soul, and its effects continue to plague you even if the curse's other effects have ended. You can choose to suppress it, but if you instead let it manifest, you can channel its power in your favor. During an encounter, when you succeed at a check, the GM can offer to have you roll again, taking the second result. This is a misfortune effect. If you do so, you enter a curse maelstrom state. If the misfortune effect is somehow canceled or negated (by a fortune effect, for example), you don't enter a curse maelstrom state.\n\nEffect: Curse Maelstrom State\n\nIn addition, the curse is jealous of its place within your soul and gladly lashes out whenever others dare to usurp that position, granting you its power without the usual price. If a foe places a misfortune effect on your roll and the effect applies to your roll, you enter a curse maelstrom state, and if you fail a saving throw against a foe's curse effect and are affected by the curse, you also enter a curse maelstrom state. No matter the source, you can only enter a curse maelstrom state during an encounter, and if you don't end the state on your own, it ends at the end of the encounter. Once it ends, you can't enter a curse maelstrom state again for 1 minute.\n\nWhile in a curse maelstrom state, you can't benefit from fortune effects, and they also don't cancel misfortune effects on you; they simply have no effect. While in this state, all creatures other than you within a 10-foot emanation take a -1 status penalty to all saving throws and skill checks due to the storm of bad luck swirling out of your body. You gain the [Expel Maelstrom](/action/expel-maelstrom-dark-archive) action, which you can use to focus the brunt of your curses onto an unlucky target.\n\nCurse Maelstrom",
+    "data": {
+      "level": 2,
+      "rarity": "rare",
+      "traits": [
+        "archetype",
+        "dedication"
+      ],
+      "prerequisites": "You are cursed or have previously been cursed.",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "A horrible curse has left a lingering stain on your soul, and its effects continue to plague you even if the curse's other effects have ended. You can choose to suppress it, but if you instead let it manifest, you can channel its power in your favor. During an encounter, when you succeed at a check, the GM can offer to have you roll again, taking the second result. This is a misfortune effect. If you do so, you enter a curse maelstrom state. If the misfortune effect is somehow canceled or negated (by a fortune effect, for example), you don't enter a curse maelstrom state.\n\nEffect: Curse Maelstrom State\n\nIn addition, the curse is jealous of its place within your soul and gladly lashes out whenever others dare to usurp that position, granting you its power without the usual price. If a foe places a misfortune effect on your roll and the effect applies to your roll, you enter a curse maelstrom state, and if you fail a saving throw against a foe's curse effect and are affected by the curse, you also enter a curse maelstrom state. No matter the source, you can only enter a curse maelstrom state during an encounter, and if you don't end the state on your own, it ends at the end of the encounter. Once it ends, you can't enter a curse maelstrom state again for 1 minute.\n\nWhile in a curse maelstrom state, you can't benefit from fortune effects, and they also don't cancel misfortune effects on you; they simply have no effect. While in this state, all creatures other than you within a 10-foot emanation take a -1 status penalty to all saving throws and skill checks due to the storm of bad luck swirling out of your body. You gain the [Expel Maelstrom](/action/expel-maelstrom-dark-archive) action, which you can use to focus the brunt of your curses onto an unlucky target.\n\nCurse Maelstrom",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "dedication",
+          "slug": "dedication"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "dark-archive",
+      "dedication",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8B6379FF-427D-5B76-B47B-ED2520199365",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Living Vessel",
+    "slug": "living-vessel-dark-archive",
+    "descr": "Whether willingly or not, you've become a vessel for a being of unimaginable power. You and your GM should work together to determine the being's nature and decide how much you know and how much remains a mystery to you for now. Some decisions might influence your options later. You might need to decide whether the entity is a demon, for instance, to know if you qualify for later feats.\n\nYou need to spend at least an hour each day assuaging the entity within you or you take a –1 penalty to Will saves for 24 hours. The process of assuaging the entity is determined together between you and the GM. It might be as simple as meditating with the entity to learn more about them, but it might be as extreme as committing gruesome, unspeakable sacrifices to keep their unknowable blessings. After a full week of failing to assuage your entity, you become [Doomed 1](/condition/doomed-player-core), and you can't remove or ameliorate the condition until you allow your entity to take full possession of your body for 24 hours, during which time it pursues its own agenda.\n\nYou also gain the [Entity'S Resurgence](/action/entity-s-resurgence-dark-archive) reaction, allowing you to unleash your entity in lieu of falling [Unconscious](/condition/unconscious-player-core), though at the risk of letting it enact its will.\n\nLiving Vessel",
+    "data": {
+      "level": 2,
+      "rarity": "rare",
+      "traits": [
+        "archetype",
+        "dedication"
+      ],
+      "prerequisites": "",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "Whether willingly or not, you've become a vessel for a being of unimaginable power. You and your GM should work together to determine the being's nature and decide how much you know and how much remains a mystery to you for now. Some decisions might influence your options later. You might need to decide whether the entity is a demon, for instance, to know if you qualify for later feats.\n\nYou need to spend at least an hour each day assuaging the entity within you or you take a –1 penalty to Will saves for 24 hours. The process of assuaging the entity is determined together between you and the GM. It might be as simple as meditating with the entity to learn more about them, but it might be as extreme as committing gruesome, unspeakable sacrifices to keep their unknowable blessings. After a full week of failing to assuage your entity, you become Doomed 1, and you can't remove or ameliorate the condition until you allow your entity to take full possession of your body for 24 hours, during which time it pursues its own agenda.\n\nYou also gain the Entity'S Resurgence reaction, allowing you to unleash your entity in lieu of falling Unconscious, though at the risk of letting it enact its will.\n\nLiving Vessel",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "dedication",
+          "slug": "dedication"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "dark-archive",
+      "dedication",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9C036AE7-744E-5DE4-8311-05DA23DA93CE",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Mind Smith",
+    "slug": "mind-smith-dark-archive",
+    "descr": "You've learned to imagine a shape in your mind, to envision it so strongly it takes form in the material world. You gain a single melee weapon of your choosing, called a mind weapon. Your mind weapon is a martial melee weapon. The overall shape and design of your mind weapon can be of your choosing but it has one of the following four basic statistics:\n\nA one-handed weapon that deals 1d4 damage and has the agile and finesse traitsA one-handed weapon that deals 1d6 damage and has the finesse traitA one-handed weapon that deals 1d8 damageA two-handed weapon that deals 1d10 damage and has the [reach](/trait/reach) trait\n\nEach day during your daily preparations, you can decide if you want your weapon to deal bludgeoning damage and be in the [club](/item/club-player-core) weapon group, deal piercing damage and be in the [spear](/item/spear-player-core) weapon group, or deal slashing damage and be in the sword weapon group. Your mind weapon is an extension of your mind-it has no Hardness, and any ability that would damage your mind weapon instead damages you directly, pushing back against the weapon's corporeal form and becoming mental damage of the same amount the weapon would've taken.\n\nYou can project your mind weapon using an [Interact](/action/interact-player-core) action, just as you would draw any other weapon. Only you can hold, carry, or wield your mind weapon; if held by another person, it quickly disappears from their hand, reforming in your mind for you to project again. If you're disarmed of your mind weapon, it dematerializes, but you can draw it again with an Interact action starting at the beginning of your next turn.\n\nUpon creating your mind weapon, you also learn to use a mind smith's keepsake: an object of light Bulk, such as a bracelet or figurine, that you wear or keep on your person and inscribe with weapon runes. Your keepsake can't be a magic item, nor can it have any significant monetary value beyond the value of any runes you inscribe on it. You can buy and inscribe fundamental runes and weapon property runes onto your keepsake in the same way you would for a regular weapon, and you can move runes to and from your keepsake to other weapons or runestones for the usual cost. Any runes inscribed on the keepsake apply to your mind weapon when you create it. If your keepsake is ever lost or destroyed, you can spend 1 week of downtime imprinting a new object with your weapon's mental properties, though this new keepsake won't have any of the runes that were inscribed on the prior keepsake.\n\nMind Smith",
+    "data": {
+      "level": 2,
+      "rarity": "common",
+      "traits": [
+        "archetype",
+        "dedication"
+      ],
+      "prerequisites": "",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "You've learned to imagine a shape in your mind, to envision it so strongly it takes form in the material world. You gain a single melee weapon of your choosing, called a mind weapon. Your mind weapon is a martial melee weapon. The overall shape and design of your mind weapon can be of your choosing but it has one of the following four basic statistics:\n\nA one-handed weapon that deals 1d4 damage and has the agile and finesse traitsA one-handed weapon that deals 1d6 damage and has the finesse traitA one-handed weapon that deals 1d8 damageA two-handed weapon that deals 1d10 damage and has the reach trait\n\nEach day during your daily preparations, you can decide if you want your weapon to deal bludgeoning damage and be in the club weapon group, deal piercing damage and be in the spear weapon group, or deal slashing damage and be in the sword weapon group. Your mind weapon is an extension of your mind-it has no Hardness, and any ability that would damage your mind weapon instead damages you directly, pushing back against the weapon's corporeal form and becoming mental damage of the same amount the weapon would've taken.\n\nYou can project your mind weapon using an Interact action, just as you would draw any other weapon. Only you can hold, carry, or wield your mind weapon; if held by another person, it quickly disappears from their hand, reforming in your mind for you to project again. If you're disarmed of your mind weapon, it dematerializes, but you can draw it again with an Interact action starting at the beginning of your next turn.\n\nUpon creating your mind weapon, you also learn to use a mind smith's keepsake: an object of light Bulk, such as a bracelet or figurine, that you wear or keep on your person and inscribe with weapon runes. Your keepsake can't be a magic item, nor can it have any significant monetary value beyond the value of any runes you inscribe on it. You can buy and inscribe fundamental runes and weapon property runes onto your keepsake in the same way you would for a regular weapon, and you can move runes to and from your keepsake to other weapons or runestones for the usual cost. Any runes inscribed on the keepsake apply to your mind weapon when you create it. If your keepsake is ever lost or destroyed, you can spend 1 week of downtime imprinting a new object with your weapon's mental properties, though this new keepsake won't have any of the runes that were inscribed on the prior keepsake.\n\nMind Smith",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "dedication",
+          "slug": "dedication"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "dark-archive",
+      "dedication",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "FFB7CD5A-5A2E-5171-962A-58A22B249C6F",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Pactbinder",
+    "slug": "pactbinder-dark-archive",
+    "descr": "The first step toward forming a successful pact is an understanding of the magic behind it, along with skill at negotiation. It doesn't hurt that you also learned how to magically bind yourself to keep your word, enabling you to bargain more easily. You increase your proficiency from trained to expert in Diplomacy and in one of the following: Arcana, Nature, Occultism, or Religion. Many feats from this archetype involve swearing specific pacts. You typically can't retrain out of these feats.\n\nYou gain the Binding Vow action.\n\nPactbinder",
+    "data": {
+      "level": 2,
+      "rarity": "uncommon",
+      "traits": [
+        "archetype",
+        "dedication"
+      ],
+      "prerequisites": "trained in Diplomacy as well as either Arcana, Nature Occultism, or Religion",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "The first step toward forming a successful pact is an understanding of the magic behind it, along with skill at negotiation. It doesn't hurt that you also learned how to magically bind yourself to keep your word, enabling you to bargain more easily. You increase your proficiency from trained to expert in Diplomacy and in one of the following: Arcana, Nature, Occultism, or Religion. Many feats from this archetype involve swearing specific pacts. You typically can't retrain out of these feats.\n\nYou gain the Binding Vow action.\n\nPactbinder",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "dedication",
+          "slug": "dedication"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "dark-archive",
+      "dedication",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "219DB3E5-1AFD-5AD3-8023-05B38F757144",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Psychic",
+    "slug": "psychic-dark-archive",
+    "descr": "You feel something awaken within your mind. You become trained in Occultism; if you were already trained in Occultism, you become trained in a skill of your choice.\n\nYou cast spells like a psychic and gain the Cast a Spell activity; as you don't have a subconscious mind class feature, your thoughtforms are simple intentions. Choose a conscious mind. You gain a spell repertoire with one standard psi cantrip of your choice from your conscious mind, which you cast as a psi cantrip.\n\nYou gain the normal benefits for this psi cantrip, but not any other benefits from the conscious mind. You're trained in the spell attack modifier and spell DC statistics. Your key spellcasting attribute for psychic archetype spells is the attribute you used to qualify for the archetype, and they are occult psychic spells.\n\nPsychic",
+    "data": {
+      "level": 2,
+      "rarity": "common",
+      "traits": [
+        "archetype",
+        "dedication",
+        "multiclass"
+      ],
+      "prerequisites": "Intelligence +2 or Charisma +2",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "You feel something awaken within your mind. You become trained in Occultism; if you were already trained in Occultism, you become trained in a skill of your choice.\n\nYou cast spells like a psychic and gain the Cast a Spell activity; as you don't have a subconscious mind class feature, your thoughtforms are simple intentions. Choose a conscious mind. You gain a spell repertoire with one standard psi cantrip of your choice from your conscious mind, which you cast as a psi cantrip.\n\nYou gain the normal benefits for this psi cantrip, but not any other benefits from the conscious mind. You're trained in the spell attack modifier and spell DC statistics. Your key spellcasting attribute for psychic archetype spells is the attribute you used to qualify for the archetype, and they are occult psychic spells.\n\nPsychic",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "dedication",
+          "slug": "dedication"
+        },
+        {
+          "label": "multiclass",
+          "slug": "multiclass"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "dark-archive",
+      "dedication",
+      "multiclass",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "BA8AB661-0EB1-5077-B75A-FEB3640A5701",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Psychic Duelist",
+    "slug": "psychic-duelist-dark-archive",
+    "descr": "Through experience and in-depth visualizations of mental battles, you've grown adept at psychic duels. You gain a +2 circumstance bonus to your initiative rolls for psychic duels. Each time you enter a psychic duel, choose one of the following benefits for the duration of that duel.\n\n**Mind Mace** You gain a status bonus to mental damage with spells you cast equal to the spell's rank.\n\n**Psychic Fist** You can use your standard attribute modifier for Strike damage instead of your highest mental modifier, and you can use your full AC instead of using your Will DC in place of your AC.\n\nPsychic Duelist",
+    "data": {
+      "level": 4,
+      "rarity": "rare",
+      "traits": [
+        "archetype",
+        "dedication"
+      ],
+      "prerequisites": "trained in Occultism; you have been in a psychic duel",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "Through experience and in-depth visualizations of mental battles, you've grown adept at psychic duels. You gain a +2 circumstance bonus to your initiative rolls for psychic duels. Each time you enter a psychic duel, choose one of the following benefits for the duration of that duel.\n\n**Mind Mace** You gain a status bonus to mental damage with spells you cast equal to the spell's rank.\n\n**Psychic Fist** You can use your standard attribute modifier for Strike damage instead of your highest mental modifier, and you can use your full AC instead of using your Will DC in place of your AC.\n\nPsychic Duelist",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "dedication",
+          "slug": "dedication"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "dark-archive",
+      "dedication",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C988A67E-81B3-598E-881B-D82EF0483A6A",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Sleepwalker",
+    "slug": "sleepwalker-dark-archive",
+    "descr": "You've learned to manipulate states of consciousness, beginning with your own. You can send yourself into a half-awake, daydreaming state and gain the [Daydream Trance](/action/daydream-trance-dark-archive) action.\n\nSleepwalker",
+    "data": {
+      "level": 4,
+      "rarity": "common",
+      "traits": [
+        "archetype",
+        "dedication"
+      ],
+      "prerequisites": "expert in Occultism",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "You've learned to manipulate states of consciousness, beginning with your own. You can send yourself into a half-awake, daydreaming state and gain the Daydream Trance action.\n\nSleepwalker",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "dedication",
+          "slug": "dedication"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "dark-archive",
+      "dedication",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "07F91909-52E5-558A-A8D7-F9A98109CD22",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Thaumaturge",
+    "slug": "thaumaturge-dark-archive",
+    "descr": "You've uncovered the hidden art of basic thaumaturgy. You become trained in [thaumaturge](/class/thaumaturge-dark-archive) class DC. Choose an implement; you can use it to Glimpse Vulnerability, but don't gain its benefits. You also gain a few esoterica, allowing you to use esoterica actions. You become trained in your choice of Arcana, Nature, Occultism, or Religion; if you were already trained in these, you become trained in a skill of your choice. You gain the [Glimpse Vulnerability](/action/glimpse-vulnerability-dark-archive) action.\n\nThaumaturge",
+    "data": {
+      "level": 2,
+      "rarity": "common",
+      "traits": [
+        "archetype",
+        "dedication",
+        "multiclass"
+      ],
+      "prerequisites": "Charisma +2",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "You've uncovered the hidden art of basic thaumaturgy. You become trained in thaumaturge class DC. Choose an implement; you can use it to Glimpse Vulnerability, but don't gain its benefits. You also gain a few esoterica, allowing you to use esoterica actions. You become trained in your choice of Arcana, Nature, Occultism, or Religion; if you were already trained in these, you become trained in a skill of your choice. You gain the Glimpse Vulnerability action.\n\nThaumaturge",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "dedication",
+          "slug": "dedication"
+        },
+        {
+          "label": "multiclass",
+          "slug": "multiclass"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "dark-archive",
+      "dedication",
+      "multiclass",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C85DB39D-3216-5A5E-89E2-203A757CA795",
+    "kind": "Archetype",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Time Mage",
+    "slug": "time-mage-dark-archive",
+    "descr": "You might be a novice in the temporal arts now, but in the future, you'll hold time in the palm of your hand. As some of your future knowledge leaks back to your present self, you gain the [Delay Consequence](/spell/delay-consequence-divine-mysteries-spell-spell-2415) domain spell. You can Refocus by revisiting moments from your past and contemplating futures yet to come. If you already knew *delay consequence* from a feat or ability that allows you to gain your choice of domain spell, such as the [Domain Initiate](/feat/domain-initiate-player-core) feat, then when you take Time Mage Dedication, you can retrain that option to select a different domain spell instead as your personal timeline rearranges itself. You also gain [Time Sense](/spell/time-sense-dark-archive) as an innate cantrip usable at will. This innate spell and your focus spells from the time mage archetype are of the same tradition as the spells you used to meet the archetype's prerequisites.\n\nTime Mage",
+    "data": {
+      "level": 6,
+      "rarity": "uncommon",
+      "traits": [
+        "archetype",
+        "dedication"
+      ],
+      "prerequisites": "You have a spellcasting class feature.",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "benefits": "You might be a novice in the temporal arts now, but in the future, you'll hold time in the palm of your hand. As some of your future knowledge leaks back to your present self, you gain the Delay Consequence domain spell. You can Refocus by revisiting moments from your past and contemplating futures yet to come. If you already knew *delay consequence* from a feat or ability that allows you to gain your choice of domain spell, such as the Domain Initiate feat, then when you take Time Mage Dedication, you can retrain that option to select a different domain spell instead as your personal timeline rearranges itself. You also gain Time Sense as an innate cantrip usable at will. This innate spell and your focus spells from the time mage archetype are of the same tradition as the spells you used to meet the archetype's prerequisites.\n\nTime Mage",
+      "traitLinks": [
+        {
+          "label": "archetype",
+          "slug": "archetype"
+        },
+        {
+          "label": "dedication",
+          "slug": "dedication"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "dark-archive",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "archetype",
+      "dark-archive",
+      "dedication",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Dark Archive (Remastered)"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "F3E1838E-E8EF-5672-9060-7DEC33ADB95A",
+    "kind": "Trait",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Trial",
+    "slug": "trial",
+    "descr": "Rituals with the trial trait extend beyond the initial checks necessary when the ritual is first performed, and they typically have a following condition or set of conditions that must be met before they grant their full benefits. The particulars of the conditions are specified in each individual ritual and can vary from defeating a set number of a particular type of monster to performing some other notable deed or accomplishment.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "trial"
+      ],
+      "traitLinks": [
+        {
+          "label": "trial",
+          "slug": "trial"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "tian-xia-world-guide",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "tian-xia-world-guide",
+      "trait",
+      "trial"
+    ],
+    "sources": [
+      {
+        "name": "Tian Xia World Guide",
+        "url": "https://2e.aonprd.com/Traits.aspx?ID=740",
+        "page": 51
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  }
+]

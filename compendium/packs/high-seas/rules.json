@@ -1,0 +1,1041 @@
+[
+  {
+    "id": "3C5CC7DF-2B3E-5F3B-8600-7B8429DB098D",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Abandon Ship!",
+    "slug": "abandon-ship-high-seas-rules-rules-3679",
+    "descr": "If a ship becomes [broken](/condition/broken-player-core), the fight continues, but if it’s destroyed, the sailing combat is over! The ship will eventually sink, though it takes long enough that you have time for another scene. It might be time to play out a final duel atop the slowly sinking remains!\n\nCrew members can typically swim, surviving the destruction of their ship as long as they get taken aboard another vessel without too much delay or have a large enough piece of flotsam to rest on.",
+    "data": {
+      "type": "other",
+      "category": "Rules",
+      "breadcrumbs": [
+        "Naval Conflicts",
+        "Sailing Combat"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3679"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "high-seas",
+      "remaster",
+      "rules"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3679",
+        "page": 37
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "B8C5D470-2BD6-5100-AAF9-4098F40AE853",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Attack!",
+    "slug": "attack-high-seas-rules-rules-3675",
+    "descr": "Battles in sailing combat should be kept to a close enough distance to allow for a variety of ranged offensives between ships. It’s much harder to get melee attacks in the mix, so if your party is heavily melee-focused, it might be better to skip sailing combat and stick to the other types of naval conflicts. Alternatively, you can make sure they have options to get to the other ship, such as separate rowboats or teleportation.\n\nSome of the attack options include:\n\n- **Ranged Weapon Attacks:** Creatures can attack with their normal ranged weapons and use any appropriate feats, magic item abilities, and the like.\n- **Ranged Spells:** Spells with a range can also be used normally, and some [cones](/rule/cone-rules-2386), [lines](/rule/line-rules-2388), or [emanations](/rule/emanation-rules-2387) might even reach in some situations. You might want to make such spells harder to aim on a moving ship, similarly to the penalties noted in [Ranged Attack Challenges](/rule/ranged-attack-challenges-high-seas-rules-rules-3676).\n- **Siege Weapon Attacks**: The crew can attack using the [siege weapons](/rule/siege-weapons-rules-1622) mounted on a ship. This usually takes multiple rounds, the effort of multiple crew members, or both.\n- **Ramming:** One ship can ram another using the [Run Over](/action/run-over-gm-core) action. This is very dangerous for the pilot and their own vehicle and is a last resort for most captains.",
+    "data": {
+      "type": "other",
+      "category": "Rules",
+      "breadcrumbs": [
+        "Naval Conflicts",
+        "Sailing Combat"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3675"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "high-seas",
+      "remaster",
+      "rules"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3675",
+        "page": 36
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "6400DA08-02C7-5F47-BAFB-98E29E2EDAD9",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Boarding Combat",
+    "slug": "boarding-combat-high-seas-rules-rules-3666",
+    "descr": "The most familiar type of combat to players, boarding combat is essentially a standard combat encounter that takes place aboard two ships that are next to one another. You can implement the following optional rules for beginning the combat, for introducing thematic challenges for fighting aboard ships, and for disengaging from combat.",
+    "data": {
+      "type": "other",
+      "category": "Rules",
+      "breadcrumbs": [
+        "Naval Conflicts"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3666"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "high-seas",
+      "remaster",
+      "rules"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3666",
+        "page": 34
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "933DA4A9-1866-5DA0-B87B-0383F39F80AB",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Cephalopod",
+    "slug": "cephalopod-high-seas-animal-companion-animal-companion-127",
+    "descr": "Your companion is an octopus, squid, nautilus, or other cephalopod.\n\n**Size** Small\n\n**Melee**\n**Single Action**\nbeak ([Finesse](/trait/finesse)),\n**Damage** 1d6 piercing\n\n**Melee**\n**Single Action**\narm (Finesse, [Agile](/trait/agile)),\n**Damage** 1d4 bludgeoning\n\n**Str** +2\n\n**Dex** +3\n\n**Con** +2\n\n**Int** -4\n\n**Wis** +1\n\n**Cha** +0\n\n**Hit Points** 6\n\n**Skill** Stealth\n\n**Senses** [low-light vision](/rule/low-light-vision-rules-2411)\n\n**Speed** 30 feet\n\n**Support Benefit** Your cephalopod squirts ink into your foe’s face. Until the start of your next turn, if you hit and deal damage to a creature in your cephalopod’s reach, the creature takes a –1 circumstance penalty to their attacks until the start of your next turn.\n\n**Advanced Maneuver** Crushing Embrace",
+    "data": {
+      "type": "other",
+      "category": "Animal Companion",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/AnimalCompanions.aspx?ID=127"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "animal",
+      "animal-companion",
+      "high-seas",
+      "minion",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/AnimalCompanions.aspx?ID=127",
+        "page": 109
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "FC048F28-9870-5D6B-96CB-53D1EED87FC7",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Disengaging",
+    "slug": "disengaging-high-seas-rules-rules-3670",
+    "descr": "Ships might attempt to disengage and leave the fight if it’s going badly for their side. The vessel’s pilot can use the Disengage activity to attempt to free the ship. Disengage might not be an option if the ship is securely tethered to another or is otherwise held in place.\n\n**Disengaging PCs:** If the PCs succeed, it’s best to end the encounter and let them escape. If the battle is a climactic encounter in an adventure or campaign, however, you might want to evolve it into sailing combat or a naval chase to keep the drama high.\n\n**Disengaging Enemies:** Enemies should Disengage only as a last-ditch effort when they’re admitting defeat. If their attempt fails, have them surrender or otherwise accelerate the end of the fight. If the enemies succeed and the PCs truly want to play out the rest of the battle, it’s usually preferable to tweak the details to let the PCs easily catch up and defeat the foes, or to have them narrate how they secure victory. If you expect your players will not accept their foes escaping in defeat, it’s better to have the enemies surrender instead of attempting to Disengage in the first place.",
+    "data": {
+      "type": "other",
+      "category": "Rules",
+      "breadcrumbs": [
+        "Naval Conflicts",
+        "Boarding Combat"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3670"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "high-seas",
+      "remaster",
+      "rules"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3670",
+        "page": 35
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "EA4A3C42-BB53-5395-BC37-B62897947D5B",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Fascinating Flutter",
+    "slug": "fascinating-flutter-high-seas-familiar-ability-familiar-ability-192",
+    "descr": "**Ability Type** Specific Familiar - Royal Gull\n\nThe royal gull flaps its wings releasing iridescent dust in a 10-foot [cone](/rule/cone-rules-2386). Each creature in the area must attempt a Will save against your class DC or spell DC, whichever is higher. A creature that fails its save is [dazzled](/condition/dazzled-player-core) for 1 round; on a critical failure, the duration is 1 minute.",
+    "data": {
+      "type": "other",
+      "category": "Familiar Ability",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Familiars.aspx?ID=192"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "familiar-ability",
+      "high-seas",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Familiars.aspx?ID=192",
+        "page": 51
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "8B7BADD8-2B85-5CEF-80C6-C7CFEE7B1386",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Fruity Ambrosia",
+    "slug": "fruity-ambrosia-high-seas-familiar-ability-familiar-ability-193",
+    "descr": "**Ability Type** Specific Familiar - Wildtwig\n\nThe peach growing from a wildtwig’s horn is magical, tasting like the favorite fruit of the one who consumes it, providing them some temporary rejuvenation. A single fruit lasts for 8 hours after picked. When consumed as an [Interact](/action/interact-player-core) action, the peach provides [temporary Hit Points](/rule/temporary-hit-points-rules-2321) equal to the creature’s level for 1 hour. Eating a second fruit within an hour provides no benefits, instead making the creature [sickened](/condition/sickened-player-core) 1 for 10 minutes. It takes 10 minutes for the wildtwig to grown another, and during this time, they must remain calm and focused on producing the fruit; they are unable to perform any other actions.",
+    "data": {
+      "type": "other",
+      "category": "Familiar Ability",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Familiars.aspx?ID=193"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "familiar-ability",
+      "high-seas",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Familiars.aspx?ID=193",
+        "page": 51
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "16A44745-F51E-5374-A6AD-06A88BC70760",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Gold Scent",
+    "slug": "gold-scent-high-seas-familiar-ability-familiar-ability-190",
+    "descr": "**Ability Type** Specific Familiar - Golden Ermine\n\nYour golden stoat familiar gains an [imprecise sense](/rule/imprecise-senses-rules-2407) with a range of 30 feet that enables it to smell objects made of gold.",
+    "data": {
+      "type": "other",
+      "category": "Familiar Ability",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Familiars.aspx?ID=190"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "familiar-ability",
+      "high-seas",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Familiars.aspx?ID=190",
+        "page": 51
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "C1CDB376-1B34-5F77-BB95-AF981557BA8A",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Golden Ermine",
+    "slug": "golden-ermine-high-seas-familiar-specific-familiar-specific-57",
+    "descr": "**Access**\nYou're from Hermea\n\n**Required Number of Abilities** 4\n\n**Granted Abilities** Climber, Darkvision, Touch Telepathy, Valet\n\nThe golden ermine is a small mammal with a slender, elongated body. Their white fur is soft and dense, though their golden tails are what make them stand out the most from other stoats. The ermine’s legs are short, and it has sharp claws. Its head is small, with dark eyes and a pointed nose.\n\nStoats inhabit many different regions of Golarion, with their fur colors and markings differing based on location. These colors can range from pure white to dark brown and every color in between. The colors that they are most prized for are the hues on their tails, which appear as silver, bronze, or even gold. Unfortunately, their fur was so highly prized for making clothing that hunters began to kill them until they were almost extinct. Today, those with golden tails remain only in Hermea, where they are protected to ensure their survival.\n\nGolden ermines are regarded as symbols of good fortune. When a citizen of Promise seeks a blessing of luck to overcome a significant challenge, they visit Rortinos Forest or the Altinar Mountains, where the stoats are known to establish their dens, bringing an offering of fresh rabbit. If an ermine comes out to eat the offering, it is considered the greatest honor, bestowing the good fortune that is being sought.",
+    "data": {
+      "type": "other",
+      "category": "Specific Familiar",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Familiars.aspx?ID=57&Specific=true"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "beast",
+      "familiar-specific",
+      "high-seas",
+      "remaster",
+      "specific-familiar"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Familiars.aspx?ID=57&Specific=true",
+        "page": 50
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "D7F8833B-3965-54BF-A81F-54D73404B212",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Iridescent Salamander",
+    "slug": "iridescent-salamander-high-seas-animal-companion-animal-companion-128",
+    "descr": "Your companion is an iridescent salamander, an unusually large amphibian that uses its reflective color-changing skin to confuse its enemies.\n\n**Size** Small\n\n**Melee**\n**Single Action**\njaws ([Finesse](/trait/finesse)),\n**Damage** 1d6 piercing\n\n**Str** +2\n\n**Dex** +3\n\n**Con** +2\n\n**Int** -4\n\n**Wis** +1\n\n**Cha** +0\n\n**Hit Points** 6\n\n**Skill** Survival\n\n**Senses** darkvision\n\n**Speed** 20 feet\n\n**Support Benefit** Your salamander reflects the light on its scales that shine brightly. Until the start of your next turn, if you hit and deal damage to a creature adjacent to your salamander, the creature is [dazzled](/condition/dazzled-player-core) until the start of your next turn unless its level is higher than yours.\n\n**Advanced Maneuver** Color Swirl",
+    "data": {
+      "type": "other",
+      "category": "Animal Companion",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/AnimalCompanions.aspx?ID=128"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "animal",
+      "animal-companion",
+      "high-seas",
+      "minion",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/AnimalCompanions.aspx?ID=128",
+        "page": 109
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "14BF3694-9E76-5559-AD9C-D00522D51603",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Naval Chase",
+    "slug": "naval-chase-high-seas-rules-rules-3680",
+    "descr": "Most naval chases use “chase down” or “run away” as PCs pursue a ship or are pursued themselves. The competitive chase type is perfect for a race to find a buried treasure or when the PCs are trying to get a message to allies before enemy raiders reach the destination in their ships.",
+    "data": {
+      "type": "other",
+      "category": "Rules",
+      "breadcrumbs": [
+        "Naval Conflicts"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3680"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "high-seas",
+      "remaster",
+      "rules"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3680",
+        "page": 37
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "4F55C6F8-AA33-5808-8634-C21FEE432A91",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Naval Conflicts",
+    "slug": "naval-conflicts-high-seas-rules-rules-3665",
+    "descr": "Fantasy and historical fiction are filled with daring battles on the high seas! In your Pathfinder game, you can play out a hard-bitten cutlass skirmish aboard a pirate ship or infernal navy vessel, a series of cannonades and risky maneuvers between ships at sail, or even a high seas pursuit. These different styles of naval encounters can be broken down into three categories ranging from the most like a normal combat encounter to the loosest, most narrative-heavy option. All three use existing rules or subsystems, though some have been tweaked to make the better suit seafaring themes.\n\n- **Boarding Combat:** Ships are locked in position, and the crews battle! Essentially a standard combat encounter, this clash takes place on a static grid. If your players want to use their full combat abilities or prefer not to engage with detailed subsystems, boarding combat imparts naval themes with little added complexity.\n- **Sailing Combat:** Mixing both ship movement and tactical combat, ships move to outmaneuver one another, and the crew make ranged attacks against the enemy vessel. This is the most complex of the three options and requires using multiple systems; it mixes large-scale ship movement and tactical combat. If your players want to dig deep into the details of running a ship during a close-range naval engagement, this is an excellent choice.\n- **Naval Chase:** Using the chase subsystem, ships pursue one another or race to a destination. If your players want a cat-and-mouse game played out over hours or days of in-game travel, you’ll need a naval chase.\n\n## Switching Modes\n\nYou might want to transition from one type of naval conflict to another. Most commonly, this happens when one crew in sailing combat wants to move to boarding combat. Check at the end of the round whether the ships are close enough for the crews to board one another.\n\nIf one ship is pursuing another in a naval chase, you might switch modes when they catch their quarry. Let the pursuer decide the terms on the engagement, including whether they jump to sailing combat or boarding combat and where their ship ends up positioned. This is especially important so that a faster ship cannot simply run away again after being caught.",
+    "data": {
+      "type": "other",
+      "category": "Rules",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3665"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "high-seas",
+      "remaster",
+      "rules"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3665",
+        "page": 34
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "FF6BFCD1-11F3-5143-BBBB-4AC996478E1A",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "NPC Crew Actions",
+    "slug": "npc-crew-actions-high-seas-rules-rules-3677",
+    "descr": "If the ships have larger crews, you can easily end up with allied NPC crew members attacking unimportant enemy crew members. To keep the game moving quickly, avoid playing out every single attack roll for these characters. Instead, play these NPC clashes narratively. Thin the numbers as the fight goes on, with the minor characters being defeated or knocked overboard.\n\nIf you’re using [siege weapons](/rule/siege-weapons-rules-1622), you can also put NPCs to work [Aiming](/rule/aiming-rules-1624) and [Loading](/rule/loading-rules-1625) them. You can place all of the crew who are helping with siege weapons together in initiative so all the maintenance of the siege engines happens at once.",
+    "data": {
+      "type": "other",
+      "category": "Rules",
+      "breadcrumbs": [
+        "Naval Conflicts",
+        "Sailing Combat"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3677"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "high-seas",
+      "remaster",
+      "rules"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3677",
+        "page": 36
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "57D3D743-A60B-50E3-8C39-32836A7A5332",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "NPC Pilot",
+    "slug": "npc-pilot-high-seas-rules-rules-3674",
+    "descr": "The PCs might want to have an NPC pilot their ship. If an NPC is piloting a ship during a naval battle and the PCs are primarily fighting, it’s best to assume that the ship is staying on course to allow for combat to take center stage rather than have the pilot make tricky maneuvers. Have the NPC pilot [Drive](/action/drive-gm-core) with 1 action; assume they succeed rather than rolling. A PC can spend a single action to give specific orders to the NPC, in which case the NPC typically tries to enact those orders the next time they Drive.",
+    "data": {
+      "type": "other",
+      "category": "Rules",
+      "breadcrumbs": [
+        "Naval Conflicts",
+        "Sailing Combat"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3674"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "high-seas",
+      "remaster",
+      "rules"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3674",
+        "page": 36
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "FB0CED99-946D-5DBF-A883-8D09BBBA2FA8",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "PC Pilot",
+    "slug": "pc-pilot-high-seas-rules-rules-3673",
+    "descr": "If a player character is piloting the ship, let them decide how to [Drive](/action/drive-gm-core) it and roll normally. The Drive action is built to work well when multitasking, so if the pilot has few things to do, the player might be too strongly tempted to take complicated Drive actions. It’s best to make sure the pilot has other options for the remaining 2 actions during their turn, such as casting spells, making ranged attacks, or commanding NPC sailors.",
+    "data": {
+      "type": "other",
+      "category": "Rules",
+      "breadcrumbs": [
+        "Naval Conflicts",
+        "Sailing Combat"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3673"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "high-seas",
+      "remaster",
+      "rules"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3673",
+        "page": 36
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "64121B33-9801-5DE4-AC16-BEC114D1379E",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Piloting and Initiative",
+    "slug": "piloting-and-initiative-high-seas-rules-rules-3672",
+    "descr": "You can simplify initiative to make sailing combat run more smoothly. The easiest option is to place the ships’ pilots at the top of the initiative order, rolling Sailing Lore for initiative but comparing their results only to one another. This ensures that both ships maneuver into position before anyone else on board takes their actions. The two sides of the conflict need to deal with the same circumstances for their attacks, spells, and other actions.",
+    "data": {
+      "type": "other",
+      "category": "Rules",
+      "breadcrumbs": [
+        "Naval Conflicts",
+        "Sailing Combat"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3672"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "high-seas",
+      "remaster",
+      "rules"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3672",
+        "page": 35
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "820FBF7C-57A8-5BDF-B203-26144CD4F9F0",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Pufferfish",
+    "slug": "pufferfish-high-seas-animal-companion-animal-companion-129",
+    "descr": "Your companion is a pufferfish, a round fish that can inflate its body and is covered in sharp spines.\n\n**Size** Small\n\n**Melee**\n**Single Action**\nspines ([Finesse](/trait/finesse)),\n**Damage** 1d6 piercing plus poison\n\n**Str** +2\n\n**Dex** +3\n\n**Con** +1\n\n**Int** -4\n\n**Wis** +1\n\n**Cha** +1\n\n**Hit Points** 4\n\n**Skill** Intimidation\n\n**Senses** [low-light vision](/rule/low-light-vision-rules-2411)\n\n**Speed** 35 feet\n\n**Special** The pufferfish’s spines attack deals an additional 1d4 poison damage or 2d4 poison damage if the pufferfish is a [specialized companion](/rule/specialized-animal-companions-rules-2120).\n\n**Support Benefit** Your pufferfish inflates, thrusting its spines into your enemies. Until the start of your next turn, your [Strikes](/action/strike-player-core) that damage a creature in your pufferfish’s reach also deal 1d6 [persistent poison damage](/condition/persistent-damage-player-core). If your pufferfish is nimble or savage, the persistent poison damage increases to 2d6.\n\n**Advanced Maneuver** Barbed Dash",
+    "data": {
+      "type": "other",
+      "category": "Animal Companion",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/AnimalCompanions.aspx?ID=129"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "animal",
+      "animal-companion",
+      "high-seas",
+      "minion",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/AnimalCompanions.aspx?ID=129",
+        "page": 109
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "A8D40116-39D5-5A04-B061-A7E3177300C2",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Ranged Attack Challenges",
+    "slug": "ranged-attack-challenges-high-seas-rules-rules-3676",
+    "descr": "The [Vehicles in Combat](/rule/vehicles-in-combat-rules-3132) rules note that attacks made while on a vehicle that has moved within the last round take a –2 penalty, or a –4 penalty if the vehicle is [uncontrolled](/rule/uncontrolled-vehicles-rules-3131) or any action in the last round had the [reckless](/trait/reckless) trait.\n\nThat section also describes the rules on cover. In sailing combat, creatures on a ship’s top deck don’t get [cover](/rule/cover-rules-2372) against attacks from the other ship’s top deck, though they might be able to find cover behind masts or cargo on the deck. Creatures using hatches on the decks below typically have standard cover and can [Take Cover](/action/take-cover-player-core) as normal.",
+    "data": {
+      "type": "other",
+      "category": "Rules",
+      "breadcrumbs": [
+        "Naval Conflicts",
+        "Sailing Combat"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3676"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "high-seas",
+      "remaster",
+      "rules"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3676",
+        "page": 36
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "5E58840B-2627-57FA-B6F1-6751C3546A50",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Royal Gull",
+    "slug": "royal-gull-high-seas-familiar-specific-familiar-specific-58",
+    "descr": "**Access**\nYou're from Hermea\n\n**Required Number of Abilities** 2\n\n**Granted Abilities** Flier, Speech\n\nThe royal gull is a medium-sized bird with multicolored plumage and a golden beak. When it flaps its wings, its feathers release fine iridescent dust, leaving a shiny trail wherever it flies.\n\nAdult royal gulls inhabit the rocky coastal areas of Hermea where they can easily find a wide variety of fish, which are their primary food source. However, royal gull chicks are unable to eat fish, and for their first year feed only on numchryes, a shrub-like fruit found only in the Rortinos Forest. This unique diet contributes to the vibrant colors of their plumage. During mating season, males fly in flocks over Promise, creating the illusion of moving rainbows as their fluttering wings release iridescent dust over the city. During this time, tailors and other artisans work quickly to collect this iridescent dust, as they can infuse it within dyes to create unique lustrous effects that can be used throughout the year.",
+    "data": {
+      "type": "other",
+      "category": "Specific Familiar",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Familiars.aspx?ID=58&Specific=true"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "beast",
+      "familiar-specific",
+      "high-seas",
+      "remaster",
+      "specific-familiar"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Familiars.aspx?ID=58&Specific=true",
+        "page": 51
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "C934E36E-5A6F-5782-AA99-494F6BB141F5",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Sailing Combat",
+    "slug": "sailing-combat-high-seas-rules-rules-3671",
+    "descr": "To play out a full-scale naval battle with moving ships and crews attacking one another from a distance requires combining both the [vehicle](/rule/vehicles-rules-3116) rules subsystem and tactical combat. You can also include [siege weapons](/rule/siege-weapons-rules-1622) aboard the ships using the rules, as described in the Arming a Ship sidebar.\n\nTo prepare for a sailing combat encounter, start by reviewing _GM Core_ for both the vehicle rules and sea vehicles. If you want to use siege weapons, also brush up on the [mounted siege weapons](/rule/mounted-siege-weapons-rules-1623) rules. Because the encounter will involve several complicated rules systems, it’s wise to tell your players a basic overview of your plans for the encounter significantly before the session so they can prepare and strategize. It can be especially useful to delegate responsibility for different subsystems to different players. For example, having the player whose character is most likely going to be steering the ship be in charge of the vehicle rules.\n\n## Arming a Ship\n\nA sailing ship unloading a burst of cannon fire on their enemy is one of the most popular images of naval warfare. Though most ship stat blocks don’t include shipboard weapons by default, if PCs are preparing to have naval battles or are joining a ship that’s already armed, you might want to add siege weapons to the ship. The most common siege weapons to mount on a ship are ballistae (level 5) and heavy ballistae (level 8). If the navy or ship’s crew has access to black powder, these typically get supplanted by cannons (level 8) or hwachas (level 4). It’s usually best to keep the weapons close to the PCs’ level. Ranged weapons, especially cannons, are often mounted below the main deck and shoot out of hatches, so each one can shoot from only one side of the ship. The most common placement is a row of siege weapons on the port and starboard sides of the ship to make broadsides with a large number of weapons at once, but chase guns at the bow of the ship can be useful in pursuits.",
+    "data": {
+      "type": "other",
+      "category": "Rules",
+      "breadcrumbs": [
+        "Naval Conflicts"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3671"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "high-seas",
+      "remaster",
+      "rules"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3671",
+        "page": 35
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "6E9837D5-0A68-5ECF-A97B-EC723B407AEE",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Sailing Lore in Naval Chases",
+    "slug": "sailing-lore-in-naval-chases-high-seas-rules-rules-3681",
+    "descr": "Since it’s a catch-all skill for many different shipboard tasks, the Sailing Lore skill can often be used in place of other skills during a naval chase. If a character is highly skilled in Sailing Lore, this is their time to shine! Allow liberal substitutions if you have a player who’s highly invested in the skill. Nature can be used instead of Sailing Lore for wind-powered vehicles, but only for Sailing Lore tasks related to actually steering the ship, not for other shipboard tasks.\n\n## Naval Chase Obstacles\n\n| **Damaged Sail (1st)** | DC 13 Crafting to repair, DC 15 Survival to scavenge materials; **Damaged Steering (5th)** DC 20 Crafting, DC 22 Survival |\n| --- | --- |\n| **Take Advantage of Favorable Winds (1st)** | DC 13 Sailing Lore to speed ahead; DC 15 Athletics to adjust the rigging; **Powerful Tailwinds (4th)** DC 18 Sailing Lore, DC 22 Athletics |\n| **Squall (2nd)** | DC 14 Nature or Survival to avoid the worst, DC 16 Sailing Lore to cut through the storm; **Perfect Storm (8th)** DC 22 Nature or Survival, DC 24 Sailing Lore |\n| **Athamaru Outpost (3rd)** | DC 16 Diplomacy or Society to ask for safe passage, DC 18 Crafting to make goods to trade; **Quatoid Colony (8th)** DC 22 Diplomacy or Society, DC 24 Crafting |\n| **Doldrums (3rd)** | DC 16 Medicine to keep the crew healthy, DC 20 Arcana or Nature to use magic for temporary propulsion; **Magical Stagnation (7th)** DC 21 Medicine, DC 25 Arcana or Nature |\n| **Floating Debris (3rd)** | DC 16 Survival to scout a safe course, DC 18 Sailing Lore to steer carefully... very carefully; **Dangerous Rocks (6th)** DC 20 Survival, DC 22 Sailing Lore |\n| **Cannon on the Shore (4th)** | DC 17 Deception to outfox the attackers, DC 19 Intimidation to cow them with return fire; **Fort on the Shore (9th)** DC 24 Deception, DC 26 Intimidation |\n| **Lurking Sea Monster (6th)** | DC 20 Nature to soothe the savage beast, DC 24 Stealth to sail quietly; **Lurking Kraken (12th)** DC 28 Nature, DC 32 Stealth |",
+    "data": {
+      "type": "other",
+      "category": "Rules",
+      "breadcrumbs": [
+        "Naval Conflicts",
+        "Naval Chase"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3681"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "high-seas",
+      "remaster",
+      "rules"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3681",
+        "page": 37
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "A0027C21-CDB1-50A5-BCFD-8B40C026A8BB",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Shipboard Weapons",
+    "slug": "shipboard-weapons-high-seas-rules-rules-3669",
+    "descr": "Though the focus of boarding combat should be on tactical combat, siege weapons aboard the ships might still come into play. If weapons like ballistae are mounted on the top deck, the crew can use them using the standard [siege weapon rules](/rule/siege-weapons-rules-1622). These weapons can also be disabled as described here.",
+    "data": {
+      "type": "other",
+      "category": "Rules",
+      "breadcrumbs": [
+        "Naval Conflicts",
+        "Boarding Combat"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3669"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "high-seas",
+      "remaster",
+      "rules"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3669",
+        "page": 35
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "C944E3DE-0918-5170-B3FF-6D264BBB6851",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Silt Frog",
+    "slug": "silt-frog-high-seas-animal-companion-animal-companion-130",
+    "descr": "Your companion is a silt frog, an oversized frog with a natural ability to detect magic, its main food source.\n\n**Size** Small\n\n**Melee**\n**Single Action**\njaws,\n**Damage** 1d6 piercing\n\n**Melee**\n**Single Action**\ntongue ([reach 10 feet](/trait/reach)),\n**Damage** 1d4 bludgeoning\n\n**Str** +3\n\n**Dex** +2\n\n**Con** +2\n\n**Int** -4\n\n**Wis** +1\n\n**Cha** +0\n\n**Hit Points** 6\n\n**Skill** Stealth\n\n**Senses** [low-light vision](/rule/low-light-vision-rules-2411), magic sense ([imprecise](/rule/imprecise-senses-rules-2407)) 30 feet (the silt frog can sense the presence of magical auras within 30 feet as an imprecise sense)\n\n**Speed** 25 feet\n\n**Support Benefit** Your silt frog unleashes an eardrum-rattling croak when you create an opening. Until the start of your next turn, if you hit and deal damage to a creature within your silt frog’s reach, the creature is [deafened](/condition/deafened-player-core) until the start of your next turn.\n\n**Advanced Maneuver** Ingest Magic",
+    "data": {
+      "type": "other",
+      "category": "Animal Companion",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/AnimalCompanions.aspx?ID=130"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "animal",
+      "animal-companion",
+      "high-seas",
+      "minion",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/AnimalCompanions.aspx?ID=130",
+        "page": 109
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "BD2A4FC4-D689-5ACA-8108-D35E13136B75",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Starting Boarding Combat",
+    "slug": "starting-boarding-combat-high-seas-rules-rules-3667",
+    "descr": "Begin a boarding combat with two ships that have a gap of 5 feet or less between each other, since a [Leap](/action/leap-player-core) action or a typical gangplank can cover that distance. Ten feet might also work if the boarding party has grappling hooks or other suitable tools. You can leave the ships static on the game map rather than dealing with any ship movement or piloting. For a fun tweak, you can also use two battle maps next to one another—one for each ship—and move one of them 5 or 10 feet at the end each round to mimic their motion on the sea.\n\nSwinging on rigging or grappling hooks is a classic trope and can be a good way to get combat started. Swinging from one ship to another on a rope typically lets a character swing up to double their Speed with a single action if they succeed at a DC 20 Acrobatics check.",
+    "data": {
+      "type": "other",
+      "category": "Rules",
+      "breadcrumbs": [
+        "Naval Conflicts",
+        "Boarding Combat"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3667"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "high-seas",
+      "remaster",
+      "rules"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3667",
+        "page": 34
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "C0F50FB6-9428-5256-9766-9381413F73E5",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Terrain",
+    "slug": "terrain-high-seas-rules-rules-3668",
+    "descr": "The decks of ships, their rigging, and the motion of the waves can come together to create interesting terrain on the battle grid. Some common terrain effects include the following.\n\n**Damaged Decks:** Portions of deck that have been damaged by combat or collisions might fall apart when pressure is put on them. When a creature steps on one, they can attempt an Acrobatics checks or Reflex save (typically DC 20) to leap out of the way. If they fall, they can try to [Grab an Edge](/action/grab-an-edge-player-core) as normal. Falling through usually involves landing belowdecks and needing to reach a ladder or stairs to climb back out.\n\n**Flotsam and Jetsam:** Debris from a ship or objects thrown overboard can float near a vessel. Characters knocked overboard might use these as platforms to fight from or return to the ship.\n\n**Gangplank:** Walking the plank requires using the [Balance](/action/balance-player-core) action.\n\n**Rigging:** [Climbing](/action/climb-player-core) rigging requires a DC 15 Athletics check in most cases. Some rigging features ropes under tension that can let someone move more quickly if they undo or sever a certain knot.\n\n**Unstable Decks:** The movement of the water or impacts against other ships can shift a deck so it’s harder to traverse. It’s best to use this sparingly, typically no more than every 2 rounds of combat. Declare what the terrain’s effect will be at the start of a round. If the ship is pitched or rolling, decide whether the fore, aft, port, or starboard is elevated. Moving toward that side of the ship is [difficult terrain](/rule/difficult-terrain-rules-2366). Extreme movement of the ship on the water can cause the deck of a ship to be [uneven ground](/rule/uneven-ground-rules-2370) instead. Since this is a significant drawback and makes combat much more difficult, use uneven ground even less frequently.\n\n**Weather:** Some of the [weather effects described here](/rule/weather-high-seas-rules-rules-3678), which primarily affect sailing combat, could also apply during boarding combat.",
+    "data": {
+      "type": "other",
+      "category": "Rules",
+      "breadcrumbs": [
+        "Naval Conflicts",
+        "Boarding Combat"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3668"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "high-seas",
+      "remaster",
+      "rules"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3668",
+        "page": 35
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "C1898DCC-4F04-5756-9D57-60F9FD03801B",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Twinkle Tail",
+    "slug": "twinkle-tail-high-seas-familiar-ability-familiar-ability-191",
+    "descr": "**Ability Type** Specific Familiar - Golden Ermine\n\nThe golden stoat shakes its tail and grants a good fortune boon to a willing target within 30 feet of it. The boon allows the target to roll an attack roll or saving throw twice and use the higher result. The target chooses which roll to use the boon on before rolling. Once the target uses the boon, or after 1 minute, it fades away.",
+    "data": {
+      "type": "other",
+      "category": "Familiar Ability",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Familiars.aspx?ID=191"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "familiar-ability",
+      "high-seas",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Familiars.aspx?ID=191",
+        "page": 51
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "69BF5338-1059-5C4B-BBE8-D7142CB53707",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Weather",
+    "slug": "weather-high-seas-rules-rules-3678",
+    "descr": "The weather at sea can transform a sailing combat encounter. Including a weather condition is optional! It’s usually best to use only one type of inclement weather and to avoid combining it with other major complications.\n\n**Dense Fog or Rain:** The normal rules for [fog](/rule/fog-rules-2815) or rain causing concealment matter at fairly large distances. If you want extremely dense fog or rain to affect naval combat, you can create concealment at a much shorter range. Because this adds a further detriment to ranged attacks, dense fog is typically better used in boarding combat.\n\n**Winds:** Strong Winds have the strongest impact on sailing combat. The [default rules](/rule/wind-rules-2821) should mostly be reserved for flying creatures. Imposing penalties on ranged attacks is less interesting, especially when the penalties for moving vehicles are likely already hurting ranged attack accuracy.\n\nWinds can have a greater and more interesting impact on the movement of ships. At the start of a round, tell the players the direction of any high wind, such as blowing from the northeast, and tell them how many feet it will push all ships at the end of the round (usually 5 or 10). Movement against the wind is [difficult terrain](/rule/difficult-terrain-rules-2366), and moving with the wind moves the ship 10 feet (2 squares) each time it would move 5 feet (1 square). At the end of the round, the ships are pushed the amount you stated at the start of the fight. As the new round starts, say whether there are any changes to the wind. Typically, the wind’s direction changes no more than 45º per round, such as going from blowing from the northeast to blowing from the north.",
+    "data": {
+      "type": "other",
+      "category": "Rules",
+      "breadcrumbs": [
+        "Naval Conflicts",
+        "Sailing Combat"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3678"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "high-seas",
+      "remaster",
+      "rules"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3678",
+        "page": 37
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "7E35304D-1002-5CDE-902C-97C02204654F",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Wildtwig",
+    "slug": "wildtwig-high-seas-familiar-specific-familiar-specific-59",
+    "descr": "**Access**\nYou're from Hermea\n\n**Required Number of Abilities** 6\n\n**Granted Abilities** Darkvision, Plant, Plant Form, resistance (poison), Speech, Tough\n\nThis canine is unique, as its fur is made of soft leaves, rather than hair. Wildtwigs also have two wooden horns protruding from their head, which curve as they grow with age, similar to those of a ram. The color of their body changes with the seasons; in spring and summer they are vibrant shades of green, with vibrant flowers spotting their fur, whereas in the autumn and winter their fur changes to more muted shades of browns, reds, and oranges. No matter the season, a single, yellow-spotted, red peach grows from one of their horns, fruit that is believed to provide healing powers to those who eat it.\n\nWildtwigs are only found within on Hermea. In fact, their existence was unknown until Mengkare visited Two Tree Island. Wildtwigs spend their lives near trees, helping them grow as their shedding leaves provide them with essential nutrients during the seasons when they need them most. Today, it is common to find wildtwigs in the shade of the island’s two main trees, changing their body tones as they do so. Additionally, on days Mengkare was on the island, a pair of wildtwigs could always be found at his side.",
+    "data": {
+      "type": "other",
+      "category": "Specific Familiar",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Familiars.aspx?ID=59&Specific=true"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "beast",
+      "familiar-specific",
+      "high-seas",
+      "remaster",
+      "specific-familiar"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Familiars.aspx?ID=59&Specific=true",
+        "page": 51
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  }
+]

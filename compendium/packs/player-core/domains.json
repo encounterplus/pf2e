@@ -1,0 +1,1450 @@
+[
+  {
+    "id": "8904A788-D9DB-5FFD-9971-C5EFDE5AC9DA",
+    "kind": "Domain",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Air",
+    "slug": "air",
+    "descr": "You can control winds and the weather.\n\n**Domain Spell** [Pushing Gust](/spell/pushing-gust-player-core)\n\n**Advanced Domain Spell** [Disperse into Air](/spell/disperse-into-air-player-core)",
+    "data": {
+      "traits": [],
+      "domainSpell": "Pushing Gust",
+      "advancedDomainSpell": "Disperse into Air",
+      "code": "air",
+      "rarity": "common",
+      "referenceUrl": "https://2e.aonprd.com/Domains.aspx?ID=65",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "common",
+      "domain",
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core",
+        "page": 39,
+        "url": "https://2e.aonprd.com/Domains.aspx?ID=65"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "7D2F2B82-34E0-5E43-96C9-608C1D5D0F49",
+    "kind": "Domain",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Ambition",
+    "slug": "ambition",
+    "descr": "You strive to keep up with and outpace the competition.\n\n**Domain Spell** [Ignite Ambition](/spell/ignite-ambition-player-core)\n\n**Advanced Domain Spell** [Competitive Edge](/spell/competitive-edge-player-core)\n\n**Apocryphal Domain Spell** [Hollow Heart](/spell/hollow-heart-dark-archive)",
+    "data": {
+      "traits": [],
+      "domainSpell": "Ignite Ambition",
+      "advancedDomainSpell": "Competitive Edge",
+      "apocryphalSpell": "Hollow Heart",
+      "code": "ambition",
+      "rarity": "common",
+      "referenceUrl": "https://2e.aonprd.com/Domains.aspx?ID=64",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "common",
+      "domain",
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core",
+        "page": 39,
+        "url": "https://2e.aonprd.com/Domains.aspx?ID=64"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3FE910F4-E9DE-5C77-ACBF-CD51B0F1E04E",
+    "kind": "Domain",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Cities",
+    "slug": "cities",
+    "descr": "You have powers over urban environments and denizens.\n\n**Domain Spell** [Face in the Crowd](/spell/face-in-the-crowd-player-core)\n\n**Advanced Domain Spell** [Pulse of Civilization](/spell/pulse-of-civilization-player-core)",
+    "data": {
+      "traits": [],
+      "domainSpell": "Face in the Crowd",
+      "advancedDomainSpell": "Pulse of Civilization",
+      "code": "cities",
+      "rarity": "common",
+      "referenceUrl": "https://2e.aonprd.com/Domains.aspx?ID=66",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "common",
+      "domain",
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core",
+        "page": 39,
+        "url": "https://2e.aonprd.com/Domains.aspx?ID=66"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F7D0E34E-349B-5C55-8942-6D971BB0EF66",
+    "kind": "Domain",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Confidence",
+    "slug": "confidence",
+    "descr": "You overcome your fear and project pride.\n\n**Domain Spell** [Veil of Confidence](/spell/veil-of-confidence-player-core)\n\n**Advanced Domain Spell** [Delusional Pride](/spell/delusional-pride-player-core)",
+    "data": {
+      "traits": [],
+      "domainSpell": "Veil of Confidence",
+      "advancedDomainSpell": "Delusional Pride",
+      "code": "confidence",
+      "rarity": "common",
+      "referenceUrl": "https://2e.aonprd.com/Domains.aspx?ID=67",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "common",
+      "domain",
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core",
+        "page": 39,
+        "url": "https://2e.aonprd.com/Domains.aspx?ID=67"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "712270C5-548F-5F96-82F5-518745F7E7EA",
+    "kind": "Domain",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Creation",
+    "slug": "creation",
+    "descr": "You have divine abilities related to crafting and art.\n\n**Domain Spell** [Creative Splash](/spell/creative-splash-player-core)\n\n**Advanced Domain Spell** [Artistic Flourish](/spell/artistic-flourish-player-core)",
+    "data": {
+      "traits": [],
+      "domainSpell": "Creative Splash",
+      "advancedDomainSpell": "Artistic Flourish",
+      "code": "creation",
+      "rarity": "common",
+      "referenceUrl": "https://2e.aonprd.com/Domains.aspx?ID=68",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "common",
+      "domain",
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core",
+        "page": 39,
+        "url": "https://2e.aonprd.com/Domains.aspx?ID=68"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "686E2DFF-471D-5498-9CF5-81F5BC3A787A",
+    "kind": "Domain",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Darkness",
+    "slug": "darkness",
+    "descr": "You operate in the darkness and take away the light.\n\n**Domain Spell** [Cloak of Shadow](/spell/cloak-of-shadow-player-core)\n\n**Advanced Domain Spell** [Darkened Sight](/spell/darkened-sight-player-core)",
+    "data": {
+      "traits": [],
+      "domainSpell": "Cloak of Shadow",
+      "advancedDomainSpell": "Darkened Sight",
+      "code": "darkness",
+      "rarity": "common",
+      "referenceUrl": "https://2e.aonprd.com/Domains.aspx?ID=69",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "common",
+      "domain",
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core",
+        "page": 39,
+        "url": "https://2e.aonprd.com/Domains.aspx?ID=69"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5875CB2B-C077-5F53-A646-9062965BB0FA",
+    "kind": "Domain",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Death",
+    "slug": "death",
+    "descr": "You have the power to end lives and destroy undead.\n\n**Domain Spell** [Death's Call](/spell/death-s-call-player-core)\n\n**Advanced Domain Spell** [Eradicate Undeath](/spell/eradicate-undeath-player-core)",
+    "data": {
+      "traits": [],
+      "domainSpell": "Death's Call",
+      "advancedDomainSpell": "Eradicate Undeath",
+      "code": "death",
+      "rarity": "common",
+      "referenceUrl": "https://2e.aonprd.com/Domains.aspx?ID=70",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "common",
+      "domain",
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core",
+        "page": 39,
+        "url": "https://2e.aonprd.com/Domains.aspx?ID=70"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "DB305910-43EF-5284-A754-0D2E2C8B3154",
+    "kind": "Domain",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Destruction",
+    "slug": "destruction",
+    "descr": "You are a conduit for divine devastation.\n\n**Domain Spell** [Cry of Destruction](/spell/cry-of-destruction-player-core)\n\n**Advanced Domain Spell** [Destructive Aura](/spell/destructive-aura-player-core)",
+    "data": {
+      "traits": [],
+      "domainSpell": "Cry of Destruction",
+      "advancedDomainSpell": "Destructive Aura",
+      "code": "destruction",
+      "rarity": "common",
+      "referenceUrl": "https://2e.aonprd.com/Domains.aspx?ID=71",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "common",
+      "domain",
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core",
+        "page": 39,
+        "url": "https://2e.aonprd.com/Domains.aspx?ID=71"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3C559E95-B043-53B1-9498-81402E30B05A",
+    "kind": "Domain",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Dreams",
+    "slug": "dreams",
+    "descr": "You have the power to enter and manipulate dreams.\n\n**Domain Spell** [Sweet Dream](/spell/sweet-dream-player-core)\n\n**Advanced Domain Spell** [Dreamer's Call](/spell/dreamer-s-call-player-core)",
+    "data": {
+      "traits": [],
+      "domainSpell": "Sweet Dream",
+      "advancedDomainSpell": "Dreamer's Call",
+      "code": "dreams",
+      "rarity": "common",
+      "referenceUrl": "https://2e.aonprd.com/Domains.aspx?ID=72",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "common",
+      "domain",
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core",
+        "page": 39,
+        "url": "https://2e.aonprd.com/Domains.aspx?ID=72"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "FB7AC53E-F0E4-59E6-AFCC-114C3E9329A4",
+    "kind": "Domain",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Earth",
+    "slug": "earth",
+    "descr": "You control soil and stone.\n\n**Domain Spell** [Hurtling Stone](/spell/hurtling-stone-player-core)\n\n**Advanced Domain Spell** [Localized Quake](/spell/localized-quake-player-core)",
+    "data": {
+      "traits": [],
+      "domainSpell": "Hurtling Stone",
+      "advancedDomainSpell": "Localized Quake",
+      "code": "earth",
+      "rarity": "common",
+      "referenceUrl": "https://2e.aonprd.com/Domains.aspx?ID=73",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "common",
+      "domain",
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core",
+        "page": 39,
+        "url": "https://2e.aonprd.com/Domains.aspx?ID=73"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B16161BB-441D-55A4-9E6C-46CBFF1A508B",
+    "kind": "Domain",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Family",
+    "slug": "family",
+    "descr": "You aid and protect your family and community more effectively.\n\n**Domain Spell** [Soothing Words](/spell/soothing-words-player-core)\n\n**Advanced Domain Spell** [Unity](/spell/unity-player-core)",
+    "data": {
+      "traits": [],
+      "domainSpell": "Soothing Words",
+      "advancedDomainSpell": "Unity",
+      "code": "family",
+      "rarity": "common",
+      "referenceUrl": "https://2e.aonprd.com/Domains.aspx?ID=74",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "common",
+      "domain",
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core",
+        "page": 39,
+        "url": "https://2e.aonprd.com/Domains.aspx?ID=74"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "51849D1B-F3C2-5157-8530-5EBE2DBE753C",
+    "kind": "Domain",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Fate",
+    "slug": "fate",
+    "descr": "You see and understand hidden inevitabilities.\n\n**Domain Spell** [Read Fate](/spell/read-fate-player-core)\n\n**Advanced Domain Spell** [Tempt Fate](/spell/tempt-fate-player-core)\n\n**Apocryphal Domain Spell** [String of Fate](/spell/string-of-fate-dark-archive)",
+    "data": {
+      "traits": [],
+      "domainSpell": "Read Fate",
+      "advancedDomainSpell": "Tempt Fate",
+      "apocryphalSpell": "String of Fate",
+      "code": "fate",
+      "rarity": "common",
+      "referenceUrl": "https://2e.aonprd.com/Domains.aspx?ID=75",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "common",
+      "domain",
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core",
+        "page": 39,
+        "url": "https://2e.aonprd.com/Domains.aspx?ID=75"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "765DDAA3-BA06-5E7D-A767-69CFBE11E610",
+    "kind": "Domain",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Fire",
+    "slug": "fire",
+    "descr": "You control flame.\n\n**Domain Spell** [Fire Ray](/spell/fire-ray-player-core)\n\n**Advanced Domain Spell** [Flame Barrier](/spell/flame-barrier-player-core)\n\n**Apocryphal Domain Spell** [Cinder Gaze](/spell/cinder-gaze-dark-archive)",
+    "data": {
+      "traits": [],
+      "domainSpell": "Fire Ray",
+      "advancedDomainSpell": "Flame Barrier",
+      "apocryphalSpell": "Cinder Gaze",
+      "code": "fire",
+      "rarity": "common",
+      "referenceUrl": "https://2e.aonprd.com/Domains.aspx?ID=76",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "common",
+      "domain",
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core",
+        "page": 39,
+        "url": "https://2e.aonprd.com/Domains.aspx?ID=76"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B9087013-8E5A-5D1C-BA7E-49D5E98DCCF5",
+    "kind": "Domain",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Freedom",
+    "slug": "freedom",
+    "descr": "You liberate yourself and others from shackles and constraints.\n\n**Domain Spell** [Unimpeded Stride](/spell/unimpeded-stride-player-core)\n\n**Advanced Domain Spell** [Word of Freedom](/spell/word-of-freedom-player-core)",
+    "data": {
+      "traits": [],
+      "domainSpell": "Unimpeded Stride",
+      "advancedDomainSpell": "Word of Freedom",
+      "code": "freedom",
+      "rarity": "common",
+      "referenceUrl": "https://2e.aonprd.com/Domains.aspx?ID=77",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "common",
+      "domain",
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core",
+        "page": 39,
+        "url": "https://2e.aonprd.com/Domains.aspx?ID=77"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F30FA7C2-FD05-549D-9D6A-5FAA828D3DE4",
+    "kind": "Domain",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Healing",
+    "slug": "healing",
+    "descr": "Your healing magic is particularly potent.\n\n**Domain Spell** [Healer's Blessing](/spell/healer-s-blessing-player-core)\n\n**Advanced Domain Spell** [Rebuke Death](/spell/rebuke-death-player-core)",
+    "data": {
+      "traits": [],
+      "domainSpell": "Healer's Blessing",
+      "advancedDomainSpell": "Rebuke Death",
+      "code": "healing",
+      "rarity": "common",
+      "referenceUrl": "https://2e.aonprd.com/Domains.aspx?ID=78",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "common",
+      "domain",
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core",
+        "page": 39,
+        "url": "https://2e.aonprd.com/Domains.aspx?ID=78"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "6F8E7669-10B8-5FE3-9015-B9D904A63AE5",
+    "kind": "Domain",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Indulgence",
+    "slug": "indulgence",
+    "descr": "You feast mightily and can shake off the effects of overindulging.\n\n**Domain Spell** [Overstuff](/spell/overstuff-player-core)\n\n**Advanced Domain Spell** [Take its Course](/spell/take-its-course-player-core)\n\n**Apocryphal Domain Spell** [Frenzied Revelry](/spell/frenzied-revelry-dark-archive)",
+    "data": {
+      "traits": [],
+      "domainSpell": "Overstuff",
+      "advancedDomainSpell": "Take its Course",
+      "apocryphalSpell": "Frenzied Revelry",
+      "code": "indulgence",
+      "rarity": "common",
+      "referenceUrl": "https://2e.aonprd.com/Domains.aspx?ID=79",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "common",
+      "domain",
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core",
+        "page": 39,
+        "url": "https://2e.aonprd.com/Domains.aspx?ID=79"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8E66BC20-A1EB-544C-A4BF-1CB09D5368FD",
+    "kind": "Domain",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Knowledge",
+    "slug": "knowledge",
+    "descr": "You receive divine insights.\n\n**Domain Spell** [Scholarly Recollection](/spell/scholarly-recollection-player-core)\n\n**Advanced Domain Spell** [Know the Enemy](/spell/know-the-enemy-player-core)",
+    "data": {
+      "traits": [],
+      "domainSpell": "Scholarly Recollection",
+      "advancedDomainSpell": "Know the Enemy",
+      "code": "knowledge",
+      "rarity": "common",
+      "referenceUrl": "https://2e.aonprd.com/Domains.aspx?ID=80",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "common",
+      "domain",
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core",
+        "page": 39,
+        "url": "https://2e.aonprd.com/Domains.aspx?ID=80"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "22558598-BCD6-5070-A946-244AEF355F66",
+    "kind": "Domain",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Luck",
+    "slug": "luck",
+    "descr": "You’re unnaturally lucky and keep out of harm’s way.\n\n**Domain Spell** [Bit of Luck](/spell/bit-of-luck-player-core)\n\n**Advanced Domain Spell** [Lucky Break](/spell/lucky-break-player-core)",
+    "data": {
+      "traits": [],
+      "domainSpell": "Bit of Luck",
+      "advancedDomainSpell": "Lucky Break",
+      "code": "luck",
+      "rarity": "common",
+      "referenceUrl": "https://2e.aonprd.com/Domains.aspx?ID=81",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "common",
+      "domain",
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core",
+        "page": 39,
+        "url": "https://2e.aonprd.com/Domains.aspx?ID=81"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1ADEB971-DC64-5FAC-9378-94542A8C8969",
+    "kind": "Domain",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Magic",
+    "slug": "magic",
+    "descr": "You perform the unexpected and inexplicable.\n\n**Domain Spell** [Magic's Vessel](/spell/magic-s-vessel-player-core)\n\n**Advanced Domain Spell** [Mystic Beacon](/spell/mystic-beacon-player-core)",
+    "data": {
+      "traits": [],
+      "domainSpell": "Magic's Vessel",
+      "advancedDomainSpell": "Mystic Beacon",
+      "code": "magic",
+      "rarity": "common",
+      "referenceUrl": "https://2e.aonprd.com/Domains.aspx?ID=82",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "common",
+      "domain",
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core",
+        "page": 39,
+        "url": "https://2e.aonprd.com/Domains.aspx?ID=82"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4BA79840-A0D5-5668-A363-089F427A681B",
+    "kind": "Domain",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Might",
+    "slug": "might",
+    "descr": "Your physical power is bolstered by divine strength.\n\n**Domain Spell** [Athletic Rush](/spell/athletic-rush-player-core)\n\n**Advanced Domain Spell** [Enduring Might](/spell/enduring-might-player-core)\n\n**Apocryphal Domain Spell** [Victory Cry](/spell/victory-cry-dark-archive)",
+    "data": {
+      "traits": [],
+      "domainSpell": "Athletic Rush",
+      "advancedDomainSpell": "Enduring Might",
+      "apocryphalSpell": "Victory Cry",
+      "code": "might",
+      "rarity": "common",
+      "referenceUrl": "https://2e.aonprd.com/Domains.aspx?ID=83",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "common",
+      "domain",
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core",
+        "page": 39,
+        "url": "https://2e.aonprd.com/Domains.aspx?ID=83"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "08D213CA-B2DD-5739-813B-701DDEC5253A",
+    "kind": "Domain",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Moon",
+    "slug": "moon",
+    "descr": "You command powers associated with the moon.\n\n**Domain Spell** [Moonbeam](/spell/moonbeam-player-core)\n\n**Advanced Domain Spell** [Touch of the Moon](/spell/touch-of-the-moon-player-core)",
+    "data": {
+      "traits": [],
+      "domainSpell": "Moonbeam",
+      "advancedDomainSpell": "Touch of the Moon",
+      "code": "moon",
+      "rarity": "common",
+      "referenceUrl": "https://2e.aonprd.com/Domains.aspx?ID=84",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "common",
+      "domain",
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core",
+        "page": 39,
+        "url": "https://2e.aonprd.com/Domains.aspx?ID=84"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "128FA573-9DF4-5119-9936-12A6B7AF5EB0",
+    "kind": "Domain",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Nature",
+    "slug": "nature",
+    "descr": "You hold power over animals and plants.\n\n**Domain Spell** [Vibrant Thorns](/spell/vibrant-thorns-player-core)\n\n**Advanced Domain Spell** [Nature's Bounty](/spell/nature-s-bounty-player-core)",
+    "data": {
+      "traits": [],
+      "domainSpell": "Vibrant Thorns",
+      "advancedDomainSpell": "Nature's Bounty",
+      "code": "nature",
+      "rarity": "common",
+      "referenceUrl": "https://2e.aonprd.com/Domains.aspx?ID=85",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "common",
+      "domain",
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core",
+        "page": 39,
+        "url": "https://2e.aonprd.com/Domains.aspx?ID=85"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2D9C923B-7F59-55BF-A4BF-22BFC427439F",
+    "kind": "Domain",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Nightmares",
+    "slug": "nightmares",
+    "descr": "You fill minds with horror and dread.\n\n**Domain Spell** [Waking Nightmare](/spell/waking-nightmare-player-core)\n\n**Advanced Domain Spell** [Shared Nightmare](/spell/shared-nightmare-player-core)",
+    "data": {
+      "traits": [],
+      "domainSpell": "Waking Nightmare",
+      "advancedDomainSpell": "Shared Nightmare",
+      "code": "nightmares",
+      "rarity": "common",
+      "referenceUrl": "https://2e.aonprd.com/Domains.aspx?ID=86",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "common",
+      "domain",
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core",
+        "page": 39,
+        "url": "https://2e.aonprd.com/Domains.aspx?ID=86"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "838E11B8-4827-5A0F-97D3-CF666E2ACFCF",
+    "kind": "Domain",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Pain",
+    "slug": "pain",
+    "descr": "You punish those who displease you with the sharp sting of pain.\n\n**Domain Spell** [Savor the Sting](/spell/savor-the-sting-player-core)\n\n**Advanced Domain Spell** [Retributive Pain](/spell/retributive-pain-player-core)",
+    "data": {
+      "traits": [],
+      "domainSpell": "Savor the Sting",
+      "advancedDomainSpell": "Retributive Pain",
+      "code": "pain",
+      "rarity": "common",
+      "referenceUrl": "https://2e.aonprd.com/Domains.aspx?ID=87",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "common",
+      "domain",
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core",
+        "page": 39,
+        "url": "https://2e.aonprd.com/Domains.aspx?ID=87"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F92564A6-8048-5C3F-A6A8-B507041EF8C1",
+    "kind": "Domain",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Passion",
+    "slug": "passion",
+    "descr": "You evoke passion, whether as love or lust.\n\n**Domain Spell** [Charming Touch](/spell/charming-touch-player-core)\n\n**Advanced Domain Spell** [Captivating Adoration](/spell/captivating-adoration-player-core)",
+    "data": {
+      "traits": [],
+      "domainSpell": "Charming Touch",
+      "advancedDomainSpell": "Captivating Adoration",
+      "code": "passion",
+      "rarity": "common",
+      "referenceUrl": "https://2e.aonprd.com/Domains.aspx?ID=88",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "common",
+      "domain",
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core",
+        "page": 39,
+        "url": "https://2e.aonprd.com/Domains.aspx?ID=88"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A6A5A0D9-2CDE-5CA1-8064-41769024C511",
+    "kind": "Domain",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Perfection",
+    "slug": "perfection",
+    "descr": "You strive to perfect your mind, body, and spirit.\n\n**Domain Spell** [Perfected Mind](/spell/perfected-mind-player-core)\n\n**Advanced Domain Spell** [Perfected Body](/spell/perfected-body-player-core)",
+    "data": {
+      "traits": [],
+      "domainSpell": "Perfected Mind",
+      "advancedDomainSpell": "Perfected Body",
+      "code": "perfection",
+      "rarity": "common",
+      "referenceUrl": "https://2e.aonprd.com/Domains.aspx?ID=89",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "common",
+      "domain",
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core",
+        "page": 39,
+        "url": "https://2e.aonprd.com/Domains.aspx?ID=89"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1C21663C-0F8F-5CA5-84A2-28804BDEF6A8",
+    "kind": "Domain",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Protection",
+    "slug": "protection",
+    "descr": "You ward yourself and others.\n\n**Domain Spell** [Protector's Sacrifice](/spell/protector-s-sacrifice-player-core)\n\n**Advanced Domain Spell** [Protector's Sphere](/spell/protector-s-sphere-player-core)",
+    "data": {
+      "traits": [],
+      "domainSpell": "Protector's Sacrifice",
+      "advancedDomainSpell": "Protector's Sphere",
+      "code": "protection",
+      "rarity": "common",
+      "referenceUrl": "https://2e.aonprd.com/Domains.aspx?ID=90",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "common",
+      "domain",
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core",
+        "page": 39,
+        "url": "https://2e.aonprd.com/Domains.aspx?ID=90"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "86A46F98-527A-595C-A8A1-688E1CA16963",
+    "kind": "Domain",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Secrecy",
+    "slug": "secrecy",
+    "descr": "You protect secrets and keep them hidden.\n\n**Domain Spell** [Whispering Quiet](/spell/whispering-quiet-player-core)\n\n**Advanced Domain Spell** [Safeguard Secret](/spell/safeguard-secret-player-core)",
+    "data": {
+      "traits": [],
+      "domainSpell": "Whispering Quiet",
+      "advancedDomainSpell": "Safeguard Secret",
+      "code": "secrecy",
+      "rarity": "common",
+      "referenceUrl": "https://2e.aonprd.com/Domains.aspx?ID=91",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "common",
+      "domain",
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core",
+        "page": 39,
+        "url": "https://2e.aonprd.com/Domains.aspx?ID=91"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "65A3D1BB-7F33-5698-B857-43382CEE8D0E",
+    "kind": "Domain",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Sun",
+    "slug": "sun",
+    "descr": "You harness the power of the sun and other light sources, and punish undead.\n\n**Domain Spell** [Dazzling Flash](/spell/dazzling-flash-player-core)\n\n**Advanced Domain Spell** Vital Luminance",
+    "data": {
+      "traits": [],
+      "domainSpell": "Dazzling Flash",
+      "advancedDomainSpell": "Vital Luminance",
+      "code": "sun",
+      "rarity": "common",
+      "referenceUrl": "https://2e.aonprd.com/Domains.aspx?ID=92",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "common",
+      "domain",
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core",
+        "page": 39,
+        "url": "https://2e.aonprd.com/Domains.aspx?ID=92"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "040B6CB9-B4FE-5DB9-9DB3-133919EF771B",
+    "kind": "Domain",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Travel",
+    "slug": "travel",
+    "descr": "You have power over movement and journeys.\n\n**Domain Spell** [Agile Feet](/spell/agile-feet-player-core)\n\n**Advanced Domain Spell** [Traveler's Transit](/spell/traveler-s-transit-player-core)",
+    "data": {
+      "traits": [],
+      "domainSpell": "Agile Feet",
+      "advancedDomainSpell": "Traveler's Transit",
+      "code": "travel",
+      "rarity": "common",
+      "referenceUrl": "https://2e.aonprd.com/Domains.aspx?ID=93",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "common",
+      "domain",
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core",
+        "page": 39,
+        "url": "https://2e.aonprd.com/Domains.aspx?ID=93"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "66933337-72A2-5169-A94E-945D01C3E0A6",
+    "kind": "Domain",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Trickery",
+    "slug": "trickery",
+    "descr": "You deceive others and cause mischief.\n\n**Domain Spell** [Sudden Shift](/spell/sudden-shift-player-core)\n\n**Advanced Domain Spell** [Trickster's Twin](/spell/trickster-s-twin-player-core)",
+    "data": {
+      "traits": [],
+      "domainSpell": "Sudden Shift",
+      "advancedDomainSpell": "Trickster's Twin",
+      "code": "trickery",
+      "rarity": "common",
+      "referenceUrl": "https://2e.aonprd.com/Domains.aspx?ID=94",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "common",
+      "domain",
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core",
+        "page": 39,
+        "url": "https://2e.aonprd.com/Domains.aspx?ID=94"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E150CDA4-4E6F-547D-B812-675F8CCF9ECA",
+    "kind": "Domain",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Truth",
+    "slug": "truth",
+    "descr": "You pierce lies and discover the truth.\n\n**Domain Spell** [Word of Truth](/spell/word-of-truth-player-core)\n\n**Advanced Domain Spell** [Glimpse the Truth](/spell/glimpse-the-truth-player-core)",
+    "data": {
+      "traits": [],
+      "domainSpell": "Word of Truth",
+      "advancedDomainSpell": "Glimpse the Truth",
+      "code": "truth",
+      "rarity": "common",
+      "referenceUrl": "https://2e.aonprd.com/Domains.aspx?ID=95",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "common",
+      "domain",
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core",
+        "page": 39,
+        "url": "https://2e.aonprd.com/Domains.aspx?ID=95"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "DF6547A4-6298-5202-B397-9CECF3D452C6",
+    "kind": "Domain",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Tyranny",
+    "slug": "tyranny",
+    "descr": "You wield power to rule and enslave others.\n\n**Domain Spell** [Touch of Obedience](/spell/touch-of-obedience-player-core)\n\n**Advanced Domain Spell** [Commanding Lash](/spell/commanding-lash-player-core)",
+    "data": {
+      "traits": [],
+      "domainSpell": "Touch of Obedience",
+      "advancedDomainSpell": "Commanding Lash",
+      "code": "tyranny",
+      "rarity": "common",
+      "referenceUrl": "https://2e.aonprd.com/Domains.aspx?ID=96",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "common",
+      "domain",
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core",
+        "page": 39,
+        "url": "https://2e.aonprd.com/Domains.aspx?ID=96"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4A179F40-F7E7-5B37-8470-4A49A46C0B00",
+    "kind": "Domain",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Undeath",
+    "slug": "undeath",
+    "descr": "Your magic carries close ties to the undead.\n\n**Domain Spell** [Touch of Undeath](/spell/touch-of-undeath-player-core)\n\n**Advanced Domain Spell** [Malignant Sustenance](/spell/malignant-sustenance-player-core)",
+    "data": {
+      "traits": [],
+      "domainSpell": "Touch of Undeath",
+      "advancedDomainSpell": "Malignant Sustenance",
+      "code": "undeath",
+      "rarity": "common",
+      "referenceUrl": "https://2e.aonprd.com/Domains.aspx?ID=97",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "common",
+      "domain",
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core",
+        "page": 39,
+        "url": "https://2e.aonprd.com/Domains.aspx?ID=97"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "88933DD8-6676-580E-8CFB-7AF34EAABA03",
+    "kind": "Domain",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Water",
+    "slug": "water",
+    "descr": "You control water and bodies of water.\n\n**Domain Spell** [Tidal Surge](/spell/tidal-surge-player-core)\n\n**Advanced Domain Spell** [Downpour](/spell/downpour-player-core)",
+    "data": {
+      "traits": [],
+      "domainSpell": "Tidal Surge",
+      "advancedDomainSpell": "Downpour",
+      "code": "water",
+      "rarity": "common",
+      "referenceUrl": "https://2e.aonprd.com/Domains.aspx?ID=98",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "common",
+      "domain",
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core",
+        "page": 39,
+        "url": "https://2e.aonprd.com/Domains.aspx?ID=98"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8FD1EB1C-55F2-5B89-AF79-83ECCF8E879E",
+    "kind": "Domain",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Wealth",
+    "slug": "wealth",
+    "descr": "You hold power over wealth, trade, and treasure.\n\n**Domain Spell** [Appearance of Wealth](/spell/appearance-of-wealth-player-core)\n\n**Advanced Domain Spell** [Precious Metals](/spell/precious-metals-player-core)",
+    "data": {
+      "traits": [],
+      "domainSpell": "Appearance of Wealth",
+      "advancedDomainSpell": "Precious Metals",
+      "code": "wealth",
+      "rarity": "common",
+      "referenceUrl": "https://2e.aonprd.com/Domains.aspx?ID=99",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "common",
+      "domain",
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core",
+        "page": 39,
+        "url": "https://2e.aonprd.com/Domains.aspx?ID=99"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9E84F321-61C3-5EC3-A05E-7C75B5E5643E",
+    "kind": "Domain",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Zeal",
+    "slug": "zeal",
+    "descr": "Your inner fire increases your combat prowess.\n\n**Domain Spell** [Weapon Surge](/spell/weapon-surge-player-core)\n\n**Advanced Domain Spell** [Zeal for Battle](/spell/zeal-for-battle-player-core)",
+    "data": {
+      "traits": [],
+      "domainSpell": "Weapon Surge",
+      "advancedDomainSpell": "Zeal for Battle",
+      "code": "zeal",
+      "rarity": "common",
+      "referenceUrl": "https://2e.aonprd.com/Domains.aspx?ID=100",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "common",
+      "domain",
+      "player-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core",
+        "page": 39,
+        "url": "https://2e.aonprd.com/Domains.aspx?ID=100"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

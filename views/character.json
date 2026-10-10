@@ -1,0 +1,34 @@
+{
+  "debug": false,
+  "spacing": 8,
+  "padding": [20, 20, 20, 20],
+  "footer": true,
+  "images": false,
+  "views": [
+    {
+      "type": "vStack",
+      "spacing": -1,
+      "views": [
+        {
+          "type": "hStack",
+          "alignment": "bottom",
+          "views": [
+            { "value": "{{name|uppercase}}", "style": "stats-title" },
+            { "value": "{{'Entity.Character'|l|uppercase}} {{data.level|default: '1'}}", "alignment": "trailing", "style": "stats-title", "width": -1 }
+          ]
+        },
+        { "type": "divider", "bgColor": "#000000", "height": 1.5, "padding": [0] }
+      ]
+    },
+    { "type": "text", "style": "stats-body", "value": "{% include \"character-primary.md\" %}" },
+    { "type": "divider", "padding": [0] },
+    { "type": "text", "style": "stats-body", "value": "{% include \"character-secondary.md\" %}" },
+    { "type": "divider", "padding": [0] },
+    { "type": "text", "style": "stats-body", "value": "{% include \"character-tertiary.md\" %}" },
+    { "type": "divider", "padding": [0] },
+    { "type": "text", "value": "{{descr}}", "style": "stats-body" },
+    { "type": "text", "title": "Common.Notes", "value": "{{notes}}" },
+    { "type": "image", "value": "{{image}}", "link": "{{image}}" },
+    { "type": "tags", "attribute": "tags" }
+  ]
+}

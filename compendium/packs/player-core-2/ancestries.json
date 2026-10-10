@@ -1,0 +1,495 @@
+[
+  {
+    "id": "0E7959B2-9651-52D4-A569-393EA092DAAF",
+    "kind": "Ancestry",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Catfolk",
+    "slug": "catfolk-player-core-2",
+    "descr": "",
+    "data": {
+      "rarity": "uncommon",
+      "traits": [
+        "catfolk",
+        "humanoid"
+      ],
+      "hp": 8,
+      "size": "medium",
+      "movement": {
+        "walk": 25
+      },
+      "attributeBoosts": [
+        "charisma",
+        "dexterity"
+      ],
+      "attributeFlaws": [
+        "wisdom"
+      ],
+      "languages": [
+        "amurrun",
+        "common"
+      ],
+      "summary": "",
+      "traitLinks": [
+        {
+          "label": "catfolk",
+          "slug": "catfolk"
+        },
+        {
+          "label": "humanoid",
+          "slug": "humanoid"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "catfolk",
+      "humanoid",
+      "player-core-2",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B6202A8B-FB2F-5653-BFFE-CA3E17F21119",
+    "kind": "Ancestry",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Hobgoblin",
+    "slug": "hobgoblin-player-core-2",
+    "descr": "",
+    "data": {
+      "rarity": "uncommon",
+      "traits": [
+        "hobgoblin",
+        "humanoid"
+      ],
+      "hp": 8,
+      "size": "medium",
+      "movement": {
+        "walk": 25
+      },
+      "attributeBoosts": [
+        "constitution",
+        "intelligence"
+      ],
+      "attributeFlaws": [
+        "wisdom"
+      ],
+      "languages": [
+        "common",
+        "goblin"
+      ],
+      "summary": "",
+      "traitLinks": [
+        {
+          "label": "hobgoblin",
+          "slug": "hobgoblin"
+        },
+        {
+          "label": "humanoid",
+          "slug": "humanoid"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "hobgoblin",
+      "humanoid",
+      "player-core-2",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "96D0B9BF-6BCD-5968-AD03-52158384A32B",
+    "kind": "Ancestry",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Kholo",
+    "slug": "kholo-player-core-2",
+    "descr": "",
+    "data": {
+      "rarity": "uncommon",
+      "traits": [
+        "humanoid",
+        "kholo"
+      ],
+      "hp": 8,
+      "size": "medium",
+      "movement": {
+        "walk": 25
+      },
+      "attributeBoosts": [
+        "strength",
+        "intelligence"
+      ],
+      "attributeFlaws": [
+        "wisdom"
+      ],
+      "languages": [
+        "common",
+        "kholo"
+      ],
+      "summary": "",
+      "traitLinks": [
+        {
+          "label": "humanoid",
+          "slug": "humanoid"
+        },
+        {
+          "label": "kholo",
+          "slug": "kholo"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "humanoid",
+      "kholo",
+      "player-core-2",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "BC371A47-1894-583C-9686-EDB527D02AC2",
+    "kind": "Ancestry",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Kobold",
+    "slug": "kobold-player-core-2",
+    "descr": "",
+    "data": {
+      "rarity": "uncommon",
+      "traits": [
+        "humanoid",
+        "kobold"
+      ],
+      "hp": 6,
+      "size": "small",
+      "movement": {
+        "walk": 25
+      },
+      "attributeBoosts": [
+        "charisma",
+        "dexterity"
+      ],
+      "attributeFlaws": [
+        "constitution"
+      ],
+      "languages": [
+        "common",
+        "sakvroth"
+      ],
+      "summary": "",
+      "traitLinks": [
+        {
+          "label": "humanoid",
+          "slug": "humanoid"
+        },
+        {
+          "label": "kobold",
+          "slug": "kobold"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "humanoid",
+      "kobold",
+      "player-core-2",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3AA03956-5C64-5702-850C-7BCB83E165B3",
+    "kind": "Ancestry",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Lizardfolk",
+    "slug": "lizardfolk-player-core-2",
+    "descr": "",
+    "data": {
+      "rarity": "uncommon",
+      "traits": [
+        "humanoid",
+        "lizardfolk"
+      ],
+      "hp": 8,
+      "size": "medium",
+      "movement": {
+        "walk": 25
+      },
+      "attributeBoosts": [
+        "strength",
+        "wisdom"
+      ],
+      "attributeFlaws": [
+        "intelligence"
+      ],
+      "languages": [
+        "common",
+        "iruxi"
+      ],
+      "summary": "",
+      "traitLinks": [
+        {
+          "label": "humanoid",
+          "slug": "humanoid"
+        },
+        {
+          "label": "lizardfolk",
+          "slug": "lizardfolk"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "humanoid",
+      "lizardfolk",
+      "player-core-2",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "35F4E246-3D53-566D-A9B9-61F3F02DE23A",
+    "kind": "Ancestry",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Ratfolk",
+    "slug": "ratfolk-player-core-2",
+    "descr": "",
+    "data": {
+      "rarity": "uncommon",
+      "traits": [
+        "humanoid",
+        "ratfolk"
+      ],
+      "hp": 6,
+      "size": "small",
+      "movement": {
+        "walk": 25
+      },
+      "attributeBoosts": [
+        "dexterity",
+        "intelligence"
+      ],
+      "attributeFlaws": [
+        "strength"
+      ],
+      "languages": [
+        "common",
+        "ysoki"
+      ],
+      "summary": "",
+      "traitLinks": [
+        {
+          "label": "humanoid",
+          "slug": "humanoid"
+        },
+        {
+          "label": "ratfolk",
+          "slug": "ratfolk"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "humanoid",
+      "player-core-2",
+      "ratfolk",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Player Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "6F850798-D428-53B0-967F-DFFAE5CE8690",
+    "kind": "Ancestry",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Tengu",
+    "slug": "tengu-player-core-2",
+    "descr": "",
+    "data": {
+      "rarity": "uncommon",
+      "traits": [
+        "humanoid",
+        "tengu"
+      ],
+      "hp": 6,
+      "size": "medium",
+      "movement": {
+        "walk": 25
+      },
+      "attributeBoosts": [
+        "dexterity"
+      ],
+      "attributeFlaws": [],
+      "languages": [
+        "common",
+        "tengu"
+      ],
+      "summary": "",
+      "traitLinks": [
+        {
+          "label": "humanoid",
+          "slug": "humanoid"
+        },
+        {
+          "label": "tengu",
+          "slug": "tengu"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "humanoid",
+      "player-core-2",
+      "remaster",
+      "tengu"
+    ],
+    "sources": [
+      {
+        "name": "Player Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "95967357-D965-5C87-B664-E88EB97863FD",
+    "kind": "Ancestry",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Tripkee",
+    "slug": "tripkee-player-core-2",
+    "descr": "",
+    "data": {
+      "rarity": "uncommon",
+      "traits": [
+        "humanoid",
+        "tripkee"
+      ],
+      "hp": 6,
+      "size": "small",
+      "movement": {
+        "walk": 25
+      },
+      "attributeBoosts": [
+        "dexterity",
+        "wisdom"
+      ],
+      "attributeFlaws": [
+        "strength"
+      ],
+      "languages": [
+        "common",
+        "tripkee"
+      ],
+      "summary": "",
+      "traitLinks": [
+        {
+          "label": "humanoid",
+          "slug": "humanoid"
+        },
+        {
+          "label": "tripkee",
+          "slug": "tripkee"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "player-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "humanoid",
+      "player-core-2",
+      "remaster",
+      "tripkee"
+    ],
+    "sources": [
+      {
+        "name": "Player Core 2"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

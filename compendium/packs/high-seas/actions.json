@@ -1,0 +1,205 @@
+[
+  {
+    "id": "7D9B6B83-53DB-591A-9027-3CF7685B9715",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Barbed Dash",
+    "slug": "barbed-dash-high-seas-action-action-4233",
+    "descr": "---\n\nThe pufferfish inflates and swims past an enemy, piercing it with its spines. It attempts to [Tumble Through](/action/tumble-through-player-core) a foe. On a success, the pufferfish deals 1 piercing damage and an additional 1d6 [persistent poison damage](/condition/persistent-damage-player-core) to the foe as it passes through its space. If your pufferfish is nimble or savage, the persistent poison increases to 2d6.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "action",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "two",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "action",
+      "high-seas",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Actions.aspx?ID=4233",
+        "page": 109
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "F8F5A1AB-DB44-56CF-AA3C-A0164308360D",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Color Swirl",
+    "slug": "color-swirl-high-seas-action-action-4232",
+    "descr": "---\n\nYour salamander rapidly changes color in a dizzying pattern. A creature within 30 feet must attempt a Fortitude save against the higher of your class DC or spell DC. On a failure, the creature is [sickened](/condition/sickened-player-core) 1, or sickened 2 on a critical failure.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "action",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "two",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "action",
+      "high-seas",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Actions.aspx?ID=4232",
+        "page": 109
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "00267DFA-C385-523F-B152-582F5C64B4A8",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Crushing Embrace",
+    "slug": "crushing-embrace-high-seas-action-action-4231",
+    "descr": "---\n\nThe cephalopod wraps its tentacles around a foe and crushes them. It makes an arm [Strike](/action/strike-player-core). If the Strike hits, the target creature automatically becomes [grabbed](/condition/grabbed-player-core) by the cephalopod, then takes 1d6 bludgeoning damage. If your cephalopod is nimble or savage, the bludgeoning damage increases to 2d6.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "action",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "two",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "action",
+      "high-seas",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Actions.aspx?ID=4231",
+        "page": 109
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "37E3C33E-37E1-57BF-A14A-3879598D3484",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Disengage",
+    "slug": "disengage-high-seas-action-action-4230",
+    "descr": "**Requirements** You are piloting a sea vehicle during boarding combat.\n\nYou attempt to break your ship free and escape the battle. Attempt a check to pilot against a very hard DC. This is typically a Sailing Lore check against the standard DC of the vessel’s level + 5 (for the very hard adjustment). Piloting checks are described [here](/rule/piloting-checks-rules-3128).\n\n**Success** The vehicle pulls free and moves up to its Speed. It can turn normally provided it moves away from the ship it disengaged from.\n\n**Failure** The boarding combat continues.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "move"
+      ],
+      "category": "action",
+      "frequency": "",
+      "requirements": "You are piloting a sea vehicle during boarding combat.",
+      "trigger": "",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "move",
+          "slug": "move"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "action",
+      "high-seas",
+      "move",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Actions.aspx?ID=4230",
+        "page": 35
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "6A999D74-CB7F-5212-8EDE-DDF8595D38F2",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Ingest Magic",
+    "slug": "ingest-magic-high-seas-action-action-4234",
+    "descr": "---\n\nThe silt frog makes a jaws [Strike](/action/strike-player-core). If the Strike hits, it attempts to [counteract](/rule/specialized-animal-companions-rules-2120) a spell or [magical](/trait/magical) effect on the target (its counteract modifier is equal to its attack modifier with its tongue Strike, unmodified by any bonuses or effects that apply to attack rolls, and its counteract rank is equal to half its level, rounded up).",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "action",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "two",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "action",
+      "high-seas",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Actions.aspx?ID=4234",
+        "page": 109
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "attributes": [
+    {
+      "data.armor": "#{{data.ac.value|integer}}",
+      "data.initiativeBonus": "#{{data.stealth|default: 0}}",
+    },
+    {
+      "inCombatDetail": "{{'Common.AC'|l}} {{data.armor}}",
+      "outCombatDetail": "{{'Common.AC'|l}} {{data.armor}}",
+    }
+  ]
+}

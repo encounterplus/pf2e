@@ -1,0 +1,54 @@
+[
+  {
+    "id": "4734706C-2D7B-58E4-AE7E-63D78E2960D0",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Razmiri Mask",
+    "slug": "razmiri-mask-divine-mysteries-equipment-equipment-3593",
+    "descr": "**Usage** worn mask\n\n---\n\n_Nethys Note: Only a PC with the [Razmiran Priest](/archetype/razmiran-priest-divine-mysteries-archetype-archetype-307) Archetype may gain the item's benefits. _\n\nThis mask is made of iron, though more potent versions crafted by powerful Razmiran priests can be made of silver, gold, or even porcelain. The wearer of this mask gains a +1 item bonus to Deception checks to [Lie](/action/lie-player-core) or [Feint](/action/feint-player-core).",
+    "data": {
+      "level": 2,
+      "rarity": "common",
+      "traits": [],
+      "category": "worn",
+      "usage": "worn mask",
+      "traitLinks": [],
+      "activations": [
+        {
+          "actions": "two",
+          "traits": [
+            "concentrate",
+            "manipulate",
+            "occult"
+          ],
+          "name": "Call Upon Razmir’s Benevolence",
+          "text": "**Frequency** once per minute; **Effect** You bend \"divine\" power to your will using the techniques taught you by the Razmiri priesthood. You grant a single target you touch a number of temporary Hit Points equal to twice your level that last for 24 hours. If the target was unconscious, it regains consciousness and doesn't lose consciousness again due to Hit Point loss as long as it has temporary Hit Points from this effect remaining.",
+          "effect": "You bend \"divine\" power to your will using the techniques taught you by the Razmiri priesthood. You grant a single target you touch a number of temporary Hit Points equal to twice your level that last for 24 hours. If the target was unconscious, it regains consciousness and doesn't lose consciousness again due to Hit Point loss as long as it has temporary Hit Points from this effect remaining.",
+          "description": "**Frequency** once per minute"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "divine-mysteries",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "divine-mysteries",
+      "equipment",
+      "remaster",
+      "worn"
+    ],
+    "sources": [
+      {
+        "name": "Divine Mysteries",
+        "url": "https://2e.aonprd.com/Equipment.aspx?ID=3593",
+        "page": 290
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  }
+]

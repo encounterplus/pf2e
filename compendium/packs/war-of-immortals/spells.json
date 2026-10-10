@@ -1,0 +1,2335 @@
+[
+  {
+    "id": "8D74011A-5B2D-51F7-9569-9273F7D4074D",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Arcane Explosion",
+    "slug": "arcane-explosion-war-of-immortals",
+    "descr": "Your body is temporarily converted into a ball of pure magic, rapidly exploding outward and reforming as a glowing sphere, after which you eventually regain your normal form. All creatures and objects in the emanation take 16d6 force damage (basic Fortitude saving throw). Creatures that fail are also pushed 10 feet directly away from you; creatures that can't complete this forced movement are knocked [Prone](/condition/prone-player-core) (but creatures who reduce this movement, such as with an ability or feat, don't fall prone). You become unfiltered magic; you gain the [incorporeal](/trait/incorporeal) trait, are immune to disease, poison, and precision damage, and gain resistance to all damage equal to your level (except force damage, spirit damage, and damage from Strikes with the [Ghost Touch](/item/ghost-touch-gm-core) property rune), with double the resistance against non-magical damage. While incorporeal, you can't Strike, Cast a Spell, or take any actions with the [manipulate](/trait/manipulate) trait. Any creature that ends its turn adjacent to you while you're in this state takes 6d6 force damage. You remain as pure magic until you Dismiss your new form, returning to your normal state at maximum Hit Points.\n\nSpell Effect: Arcane Explosion",
+    "data": {
+      "rank": 9,
+      "rarity": "uncommon",
+      "traits": [
+        "concentrate",
+        "focus",
+        "force",
+        "manipulate",
+        "mythic"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "",
+      "targets": "",
+      "requirements": "",
+      "area": "30-foot emanation",
+      "defense": "basicfortitude",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "focus",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "focus",
+          "slug": "focus"
+        },
+        {
+          "label": "force",
+          "slug": "force"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "mythic",
+          "slug": "mythic"
+        }
+      ],
+      "areaEffectShape": "sphere",
+      "areaEffectSize": 30,
+      "durationText": "",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "focus",
+      "force",
+      "manipulate",
+      "mythic",
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E088EE63-4A78-5479-81AC-7069E85C2FEF",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Banishing Touch",
+    "slug": "banishing-touch-war-of-immortals",
+    "descr": "Your touch projects a surge of magic that launches your target safely away. Make a melee spell attack at mythic proficiency against your target's AC. If you hit, you deal 1d6 bludgeoning damage, and you launch the target into the air and away from you; the target takes falling damage as normal. The number of actions you spend while Casting the Spell determines the damage dealt by your touch and how far the target is launched.\n\n1 The target is launched 10 feet into the air and knocked back 10 feet.\n\n2 Your touch deals 2d6 bludgeoning damage instead. The target is launched 20 feet into the air and pushed back 10 feet.\n\n3 Your touch deals 2d6 bludgeoning damage instead. The target is launched 30 feet into the air and pushed back 20 feet.\n\n---\n\n**Heightened (4th)** The initial damage increases by 1d6, and all distances increase by 10 feet for the 1-action version or 20 feet for the 2- and 3-action versions.\n\n**Heightened (6th)** The initial damage increases by 2d6, and all distances increase by 20 feet for the 1-action version or 60 feet for the 2- and 3-action versions.\n\n**Heightened (8th)** The initial damage increases by 3d6, and all distances increase by 30 feet for the 1-action version or 100 feet for the 2- and 3-action versions.",
+    "data": {
+      "rank": 2,
+      "rarity": "rare",
+      "traits": [
+        "attack",
+        "concentrate",
+        "manipulate",
+        "mythic"
+      ],
+      "cost": "",
+      "cast": "1 to 3",
+      "range": "touch",
+      "targets": "1 creature",
+      "requirements": "",
+      "traditions": [
+        "arcane",
+        "divine",
+        "occult",
+        "primal"
+      ],
+      "traditionsText": "Arcane, Divine, Occult, Primal",
+      "type": "spell",
+      "castActions": [
+        "one",
+        "two",
+        "three"
+      ],
+      "traitLinks": [
+        {
+          "label": "attack",
+          "slug": "attack"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "mythic",
+          "slug": "mythic"
+        }
+      ],
+      "durationText": "",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "attack",
+      "concentrate",
+      "manipulate",
+      "mythic",
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1A2F7455-13EC-5CAB-917C-C4A35D5D3375",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Beseech Arcanotheign",
+    "slug": "beseech-arcanotheign-war-of-immortals",
+    "descr": "With a whispered prayer or arcane sending, you conjure Arcanotheign, herald of Nethys. She's a storm of magic, half white and half black, roiling in a vaguely humanoid shape. She occupies the space of a Medium creature and has a Speed of 40 feet and a fly Speed of 60 feet.\n\n**Arrive** (sonic) *Storm's Unbridled Destruction* Arcanotheign arrives with a flash of light and a cacophonous crash of colliding magic. All enemies in a 60-foot emanation take 8d12 sonic damage with a basic Reflex save. A creature that critically fails is additionally [Deafened](/condition/deafened-player-core) for 10 minutes.\n\n**Depart** (electricity, healing) *Flash of Brilliance* Arcanotheign fires a powerful arcane blast at one target within 100 feet, dealing 5d12 electricity damage with a basic Reflex save, and a powerful divine blast at one ally, healing 5d12 Hit Points. Then, Arcanotheign asks for payment in the form of a fond memory. If you pay this cost, you lose this memory, Arcanotheign gains this memory, and Arcanotheign whispers a secret into your mind; you can immediately [Recall Knowledge](/action/recall-knowledge-player-core) on any subject at mythic proficiency.",
+    "data": {
+      "rank": 9,
+      "rarity": "rare",
+      "traits": [
+        "concentrate",
+        "incarnate",
+        "manipulate",
+        "mythic"
+      ],
+      "cost": "",
+      "cast": "3",
+      "range": "100 feet",
+      "targets": "",
+      "requirements": "",
+      "traditions": [
+        "arcane",
+        "divine",
+        "occult",
+        "primal"
+      ],
+      "traditionsText": "Arcane, Divine, Occult, Primal",
+      "type": "spell",
+      "castActions": [
+        "three"
+      ],
+      "actions": "three",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "incarnate",
+          "slug": "incarnate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "mythic",
+          "slug": "mythic"
+        }
+      ],
+      "durationText": "until the end of your next turn",
+      "duration": 1,
+      "durationType": "sourceEndNextTurn",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "incarnate",
+      "manipulate",
+      "mythic",
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals",
+        "page": 154
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "213CC489-4356-5D7E-8014-044C7A175914",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Bounty of the Sky",
+    "slug": "bounty-of-the-sky-war-of-immortals",
+    "descr": "You call forth a flock of geese that drop restorative fruits and breads from the sky as they fly overhead. You or an ally in the area can Interact to collect one of these gifts, and can then either consume it as part of the same action or do so with a separate [Interact](/action/interact-player-core) action later in the spell's duration. Enemies who attempt to pick up one of these gifts find that it turns to ash in their hands. Each time a character consumes one of these gifts, they can select one of the following benefits.\n\nThe character regains 4d6 Hit Points.The character reduces the stage of one poison or disease they suffer from by one stage. This can't reduce the stage below 1 or cure the affliction.The character reduces the value of their [Clumsy](/condition/clumsy-player-core), [Drained](/condition/drained-player-core), [Enfeebled](/condition/enfeebled-player-core), or [Stupefied](/condition/stupefied-player-core) condition by 2, or reduces two of the listed conditions by 1 each.\n\n---\n\n**Heightened (+2)** The amount of Hit Points a character regains from consuming a gift increases by 2d6.",
+    "data": {
+      "rank": 6,
+      "rarity": "rare",
+      "traits": [
+        "concentrate",
+        "healing",
+        "manipulate",
+        "mythic"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "",
+      "targets": "",
+      "requirements": "",
+      "area": "30-foot emanation",
+      "traditions": [
+        "divine",
+        "primal"
+      ],
+      "traditionsText": "Divine, Primal",
+      "type": "spell",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "healing",
+          "slug": "healing"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "mythic",
+          "slug": "mythic"
+        }
+      ],
+      "areaEffectShape": "sphere",
+      "areaEffectSize": 30,
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "healing",
+      "manipulate",
+      "mythic",
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals",
+        "page": 156
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "44ABDB9E-E7AC-56C8-9A67-412076062904",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Darkened Forest Form",
+    "slug": "darkened-forest-form-war-of-immortals",
+    "descr": "Your apparition casts a feral shadow over your form. You can polymorph into any form listed in [Pest Form](/spell/pest-form-player-core). When you transform into a form granted by a spell, you gain all the effects of the form you chose from a version of the spell heightened to darkened forest form's rank. Each time you Sustain this Spell, you can choose to change to a different shape from those available via any of the associated spells.\n\n---\n\n**Heightened (2nd)** You can also transform into the forms listed in [Animal Form](/spell/animal-form-player-core).\n\n**Heightened (5th)** You can also transform into the forms listed in [Elemental Form](/spell/elemental-form-player-core).",
+    "data": {
+      "rank": 1,
+      "rarity": "uncommon",
+      "traits": [
+        "animist",
+        "focus",
+        "polymorph"
+      ],
+      "cost": "",
+      "cast": "1",
+      "range": "",
+      "targets": "",
+      "requirements": "",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "focus",
+      "castActions": [
+        "one"
+      ],
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "animist",
+          "slug": "animist"
+        },
+        {
+          "label": "focus",
+          "slug": "focus"
+        },
+        {
+          "label": "polymorph",
+          "slug": "polymorph"
+        }
+      ],
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "animist",
+      "focus",
+      "polymorph",
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "AABE7162-264C-5E14-B78E-FB53790DA701",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Devouring Dark Form",
+    "slug": "devouring-dark-form-war-of-immortals",
+    "descr": "Your apparition's dark power blends with your physical body, allowing you to take on terrifying characteristics of creatures that lurk in dark places. Your arms and legs transform into twisting tentacles. You gain a tentacle unarmed attack with 10-foot reach that deals 1d8 bludgeoning damage and has the [grapple](/trait/grapple) trait. The first time you Sustain this spell each round, you can attempt a single [Grapple](/action/grapple-player-core) check with your tentacle against a creature within its reach.\n\nSpell Effect: Devouring Dark Form\n\n---\n\n**Heightened (2nd)** You can choose to take on the shark battle form from [Animal Form](/spell/animal-form-player-core) instead of gaining a tentacle unarmed attack, heightened to the same level as this vessel spell. When you do, this spell loses the [morph](/trait/morph) trait and gains the [polymorph](/trait/polymorph) trait. You can attempt a jaws unarmed Strike against a creature within your reach each time you Sustain this spell.\n\n**Heightened (5th)** You can choose to take on the water elemental battle form from [Elemental Form](/spell/elemental-form-player-core) instead of gaining a tentacle unarmed attack, heightened to the same level as this vessel spell. When you do, this spell loses the morph trait and gains the polymorph trait. You can attempt an unarmed attack Strike against a creature within your reach each time you Sustain this spell.",
+    "data": {
+      "rank": 1,
+      "rarity": "uncommon",
+      "traits": [
+        "animist",
+        "focus",
+        "morph"
+      ],
+      "cost": "",
+      "cast": "1",
+      "range": "",
+      "targets": "",
+      "requirements": "",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "focus",
+      "castActions": [
+        "one"
+      ],
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "animist",
+          "slug": "animist"
+        },
+        {
+          "label": "focus",
+          "slug": "focus"
+        },
+        {
+          "label": "morph",
+          "slug": "morph"
+        }
+      ],
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "animist",
+      "focus",
+      "morph",
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "931C55F4-5758-55F1-9056-D651D30FBD90",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Diadem of Divine Radiance",
+    "slug": "diadem-of-divine-radiance-war-of-immortals",
+    "descr": "You don a diadem of radiant light, which sheds bright light to a range of 60 feet and dim light to a further 60 feet. When you Cast the Spell and when you Sustain it during the duration, you can draw a disc of spiraling light from the diadem and throw it at a creature within 120 feet. Make a ranged spell attack at mythic proficiency against the target's AC. This action has the attack and [spirit](/trait/spirit) traits. On a hit, you deal 4d8 spirit damage, 1d4 persistent spirit damage, and the target is [Dazzled](/condition/dazzled-player-core) for 1 round (3 rounds on a critical hit). The persistent damage isn't doubled on a critical hit.\n\nIf the disc passes through an area of magical darkness or targets a creature affected by magical darkness, the disc's glow attempts to counteract the darkness using your Religion or Occultism skill modifier as the counteract check modifier and half your level as the counteract rank.\n\nSpell Effect: Diadem Of Divine Radiance\n\n---\n\n**Heightened (+2)** The disc's spirit damage increases by 2d8, and the persistent damage increases by 1d4.",
+    "data": {
+      "rank": 5,
+      "rarity": "rare",
+      "traits": [
+        "concentrate",
+        "light",
+        "manipulate",
+        "mythic",
+        "sanctified"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "",
+      "targets": "",
+      "requirements": "",
+      "traditions": [
+        "arcane",
+        "divine",
+        "occult",
+        "primal"
+      ],
+      "traditionsText": "Arcane, Divine, Occult, Primal",
+      "type": "spell",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "light",
+          "slug": "light"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "mythic",
+          "slug": "mythic"
+        },
+        {
+          "label": "sanctified",
+          "slug": "sanctified"
+        }
+      ],
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "light",
+      "manipulate",
+      "mythic",
+      "remaster",
+      "sanctified",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals",
+        "page": 158
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F9051A82-F33F-5BC6-B1EE-34793C8CA278",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Discomfiting Whispers",
+    "slug": "discomfiting-whispers-war-of-immortals",
+    "descr": "You are surrounded by an aura of spiteful murmurings that incite bad luck and punish failure. Each creature that starts their turn within the area of this spell must succeed at a Will save or roll twice on their first attack roll that round and take the lower result. If an attack roll modified in this way results in a failure, the creature that rolled the failed attack takes 1d6 void damage.\n\nSpell Effect: Discomfiting Whispers\n\n---\n\n**Heightened (+2)** The void damage dealt on a failure increases by 1d6.",
+    "data": {
+      "rank": 1,
+      "rarity": "uncommon",
+      "traits": [
+        "animist",
+        "aura",
+        "focus",
+        "misfortune",
+        "void"
+      ],
+      "cost": "",
+      "cast": "1",
+      "range": "",
+      "targets": "",
+      "requirements": "",
+      "area": "5-foot emanation",
+      "defense": "will",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "focus",
+      "castActions": [
+        "one"
+      ],
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "animist",
+          "slug": "animist"
+        },
+        {
+          "label": "aura",
+          "slug": "aura"
+        },
+        {
+          "label": "focus",
+          "slug": "focus"
+        },
+        {
+          "label": "misfortune",
+          "slug": "misfortune"
+        },
+        {
+          "label": "void",
+          "slug": "void"
+        }
+      ],
+      "areaEffectShape": "sphere",
+      "areaEffectSize": 5,
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "animist",
+      "aura",
+      "focus",
+      "misfortune",
+      "remaster",
+      "void",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1518099C-D923-5E3D-BAF6-466A36A5A7D7",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Earth's Bile",
+    "slug": "earth-s-bile-war-of-immortals",
+    "descr": "Your apparition is the will of lava and magma made manifest, the earth's molten blood unleashing devastating bursts of liquid stone and unquenchable fire at your command. When you Cast this Spell and the first time you Sustain it each round thereafter, choose an area within range. Each creature in the area takes 1d4 fire damage, 1d4 bludgeoning damage, and 1 persistent fire damage (the persistent fire damage is negated on a successful save).\n\n---\n\n**Heightened (+2)** The fire and bludgeoning damage each increase by 1d4, and the persistent fire damage increases by 1.",
+    "data": {
+      "rank": 1,
+      "rarity": "uncommon",
+      "traits": [
+        "animist",
+        "earth",
+        "fire",
+        "focus"
+      ],
+      "cost": "",
+      "cast": "1",
+      "range": "30 feet",
+      "targets": "",
+      "requirements": "",
+      "area": "10-foot burst",
+      "defense": "basicreflex",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "focus",
+      "castActions": [
+        "one"
+      ],
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "animist",
+          "slug": "animist"
+        },
+        {
+          "label": "earth",
+          "slug": "earth"
+        },
+        {
+          "label": "fire",
+          "slug": "fire"
+        },
+        {
+          "label": "focus",
+          "slug": "focus"
+        }
+      ],
+      "areaEffectShape": "sphere",
+      "areaEffectSize": 10,
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "animist",
+      "earth",
+      "fire",
+      "focus",
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5E47BABE-C6C4-53D3-A0C4-8BE379E8FB14",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Embodiment of Battle",
+    "slug": "embodiment-of-battle-war-of-immortals",
+    "descr": "Your apparition guides your attacks and imparts its skill to your movements. For the duration, your proficiency with martial weapons is equal to your proficiency with simple weapons, you gain a +1 status bonus to attack and damage rolls made with weapons or unarmed attacks, and you gain the [Reactive Strike](/action/reactive-strike-player-core) reaction; this reaction gains the [apparition](/trait/apparition) trait. The instincts of an apparition of battle run contrary to the use of magic; for the duration of this spell, you take a –2 status penalty to your spell attack modifiers and your spell DCs.\n\nSpell Effect: Embodiment Of Battle\n\n---\n\n**Heightened (4th)** The status bonus to attack and damage rolls granted by this spell is increased to +2.\n\n**Heightened (7th)** The status bonus to attack and damage rolls granted by this spell is increased to +3.",
+    "data": {
+      "rank": 1,
+      "rarity": "uncommon",
+      "traits": [
+        "animist",
+        "focus"
+      ],
+      "cost": "",
+      "cast": "1",
+      "range": "",
+      "targets": "",
+      "requirements": "",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "focus",
+      "castActions": [
+        "one"
+      ],
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "animist",
+          "slug": "animist"
+        },
+        {
+          "label": "focus",
+          "slug": "focus"
+        }
+      ],
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "animist",
+      "focus",
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "78AAB065-9CDD-52D2-990A-A8EA4E66AA26",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Final Fate of the Locust Host",
+    "slug": "final-fate-of-the-locust-host-war-of-immortals",
+    "descr": "You conjure the rotting corpse of Deskari, previously Lord of the Locust Hosts, to the battlefield. Deskari's corpse occupies the space of a Gargantuan creature. The corpse is riddled with vermin, including countless locusts, whose collective movement grants the corpse a Speed of 60 feet and a fly Speed of 60 feet.\n\n**Arrive** *Behold the Rotten Lord* Deskari's corpse is unspeakably foul, emitting a putrid stench, and constantly twitches thanks to the movement of the millions of insects and vermin that consume it. A loud, persistent buzzing is created by the clouds of locusts surrounding it like a haze. Each living enemy creature within a 60-foot emanation must attempt a Fortitude save with the following effects.\n\n---\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature is [Sickened 2](/condition/sickened-player-core).\n\n**Failure** The creature is Sickened 3 and [Deafened](/condition/deafened-player-core) for the duration.\n\n**Critical Failure** The creature is Sickened 4, [Stunned 1](/condition/stunned-player-core), and deafened for the duration.\n\n---\n\n**Depart** (poison) *Feast of the Locust Host* The millions of insects and vermin feasting on Deskari pour out of its corpse and surge across the battlefield, consuming your enemies. This swarm deals 5d8 piercing damage and 5d8 poison damage to enemy creatures in a 60-foot emanation with a basic Reflex save. A creature that critically fails is additionally [Drained 2](/condition/drained-player-core).",
+    "data": {
+      "rank": 7,
+      "rarity": "rare",
+      "traits": [
+        "concentrate",
+        "incarnate",
+        "manipulate",
+        "mythic"
+      ],
+      "cost": "",
+      "cast": "3",
+      "range": "500 feet",
+      "targets": "",
+      "requirements": "",
+      "traditions": [
+        "arcane",
+        "divine",
+        "occult",
+        "primal"
+      ],
+      "traditionsText": "Arcane, Divine, Occult, Primal",
+      "type": "spell",
+      "castActions": [
+        "three"
+      ],
+      "actions": "three",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "incarnate",
+          "slug": "incarnate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "mythic",
+          "slug": "mythic"
+        }
+      ],
+      "durationText": "until the end of your next turn",
+      "duration": 1,
+      "durationType": "sourceEndNextTurn",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "incarnate",
+      "manipulate",
+      "mythic",
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals",
+        "page": 156
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "BFFA59FB-9684-5C28-A4E7-34BBF5DCB701",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Garden of Healing",
+    "slug": "garden-of-healing-war-of-immortals",
+    "descr": "Spirits of comfort and respite swirl around you, trailing visions of growing grass and blooming blossoms. When you cast this spell and the first time you Sustain it on each subsequent round, you generate a pulse of renewing energy that heals each creature within the emanation for 1d4 Hit Points. The calm of this effect lingers; once this spell ends, any creature that has been affected by its healing gains a +1 circumstance bonus to saves against emotion effects for 10 minutes but does not receive any healing from additional castings of the spell while the bonus persists.\n\nSpell Effect: Garden Of Healing\n\n---\n\n**Heightened (+1)** The healing granted by the spell's pulse increases by 1d4 Hit Points.",
+    "data": {
+      "rank": 1,
+      "rarity": "uncommon",
+      "traits": [
+        "animist",
+        "aura",
+        "emotion",
+        "focus",
+        "healing",
+        "mental"
+      ],
+      "cost": "",
+      "cast": "1",
+      "range": "",
+      "targets": "",
+      "requirements": "",
+      "area": "10-foot emanation",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "focus",
+      "castActions": [
+        "one"
+      ],
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "animist",
+          "slug": "animist"
+        },
+        {
+          "label": "aura",
+          "slug": "aura"
+        },
+        {
+          "label": "emotion",
+          "slug": "emotion"
+        },
+        {
+          "label": "focus",
+          "slug": "focus"
+        },
+        {
+          "label": "healing",
+          "slug": "healing"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        }
+      ],
+      "areaEffectShape": "sphere",
+      "areaEffectSize": 10,
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "animist",
+      "aura",
+      "emotion",
+      "focus",
+      "healing",
+      "mental",
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "DCB79B82-D0F7-5AF4-BBA8-FF63B05FA044",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Garden of the Green Man's Growth",
+    "slug": "garden-of-the-green-man-s-growth-war-of-immortals",
+    "descr": "You cast your magic into the earth, calling out to a powerful green man, a verdant lesser deity of nature, to come to your aid. They occupy the space of a Medium creature, have a Speed of 40 feet, and a climb Speed of 40 feet.\n\n**Arrive** (plant) *Verdant Bloom* The green man erupts from the ground in a burst of lush growth, dealing 10d8 bludgeoning damage to creatures in a 60-foot emanation with a basic Reflex save. Creatures that fail this save are pushed 30 feet away from the green man and are knocked [Prone](/condition/prone-player-core). The area becomes greater difficult terrain for 24 hours.\n\n**Depart** (plant) *Forest of Grasping Vines* The green man casts out their arms, causing vines to rise from the ground, lash at up to six different creatures, and coil them up. Each of these vines targets a different enemy within 100 feet of the green man and deals 12d6 slashing damage with a basic Reflex save. A creature that fails is [Grabbed](/condition/grabbed-player-core) until it Escapes (on a critical failure it is [Restrained](/condition/restrained-player-core) until it Escapes). The [Escape](/action/escape-player-core) DC is your spell DC. Each creature that begins its turn grabbed or [Immobilized](/condition/immobilized-player-core) by these vines takes an additional 4d6 bludgeoning damage, as the vines continue to squeeze the life from it.",
+    "data": {
+      "rank": 10,
+      "rarity": "rare",
+      "traits": [
+        "concentrate",
+        "incarnate",
+        "manipulate",
+        "mythic"
+      ],
+      "cost": "",
+      "cast": "3",
+      "range": "100 feet",
+      "targets": "",
+      "requirements": "",
+      "traditions": [
+        "divine",
+        "primal"
+      ],
+      "traditionsText": "Divine, Primal",
+      "type": "spell",
+      "castActions": [
+        "three"
+      ],
+      "actions": "three",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "incarnate",
+          "slug": "incarnate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "mythic",
+          "slug": "mythic"
+        }
+      ],
+      "durationText": "until the end of your next turn",
+      "duration": 1,
+      "durationType": "sourceEndNextTurn",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "incarnate",
+      "manipulate",
+      "mythic",
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "05E33DFB-057F-5C66-8D55-5BB038C6A73C",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "It is Written",
+    "slug": "it-is-written-war-of-immortals",
+    "descr": "You envision a future for yourself, confident in the certainty that this vision is your destiny. Before the duration ends, if you would attempt an attack roll, Perception check, saving throw, or skill check that would aid in the fulfillment of this destiny, you can attempt this roll at mythic proficiency. You choose which roll to use this benefit on before rolling. If you use this benefit, the spell ends. Either way, you're then temporarily immune to it is written for 1 hour.",
+    "data": {
+      "rank": 4,
+      "rarity": "rare",
+      "traits": [
+        "concentrate",
+        "mythic",
+        "prediction"
+      ],
+      "cost": "",
+      "cast": "1",
+      "range": "",
+      "targets": "",
+      "requirements": "",
+      "traditions": [
+        "arcane",
+        "divine",
+        "occult"
+      ],
+      "traditionsText": "Arcane, Divine, Occult",
+      "type": "spell",
+      "castActions": [
+        "one"
+      ],
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "mythic",
+          "slug": "mythic"
+        },
+        {
+          "label": "prediction",
+          "slug": "prediction"
+        }
+      ],
+      "durationText": "until the end of your next turn",
+      "duration": 1,
+      "durationType": "sourceEndNextTurn",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "mythic",
+      "prediction",
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals",
+        "page": 157
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "89BE8AE6-DCE1-548B-B7C2-FC7C78841349",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Manifest Will",
+    "slug": "manifest-will-war-of-immortals",
+    "descr": "You unleash energy from the broken connection to your patron. You are [Concealed](/condition/concealed-player-core) from creatures beyond the edge of the emanation but can't use that concealment to [Hide](/action/hide-player-core). Any creature that begins its turn in the emanation is affected based on your patron's tradition.\n\nAura: Manifest Will\n\n**Arcane** Raw energy and magical formulae circulate around you. A creature that begins its turn in the emanation gains weakness 1 to spell damage for 1 round.**Divine** Divine power crashes in a cycle of life and death. A living or undead creature that begins its turn in the emanation gains 2 temporary Hit Points for 1 round. This effect has the [spirit](/trait/spirit) trait.**Occult** Esoteric symbology etches the air. An allied creature that begins its turn in the emanation has [Lesser Cover](/condition/effect-cover-player-core) while inside the emanation, and for 1 round after it leaves.**Primal** Plants and fungus symbolic of your patron constantly grow and wither in the emanation. A creature that begins its turn in the emanation has a –10-foot status penalty to all its Speeds for 1 round or until it [Escapes](/action/escape-player-core). This effect has the fungus, plant, and [wood](/trait/wood) traits.\n\nSpell Effect: Manifest Will\n\n---\n\n**Heightened (+1)** An arcane manifestation increases its weakness by 1 and a divine manifestation increases its temporary Hit Points by 2.",
+    "data": {
+      "rank": 1,
+      "rarity": "rare",
+      "traits": [
+        "aura",
+        "cantrip",
+        "concentrate",
+        "hex",
+        "witch"
+      ],
+      "cost": "",
+      "cast": "1",
+      "range": "",
+      "targets": "",
+      "requirements": "",
+      "area": "10-foot emanation",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "cantrip",
+      "castActions": [
+        "one"
+      ],
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "aura",
+          "slug": "aura"
+        },
+        {
+          "label": "cantrip",
+          "slug": "cantrip"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "hex",
+          "slug": "hex"
+        },
+        {
+          "label": "witch",
+          "slug": "witch"
+        }
+      ],
+      "areaEffectShape": "sphere",
+      "areaEffectSize": 10,
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "aura",
+      "cantrip",
+      "concentrate",
+      "hex",
+      "remaster",
+      "war-of-immortals",
+      "witch"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals",
+        "page": 64
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "115BE212-055B-536A-9D83-9BEFA3E2C082",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Nymph's Grace",
+    "slug": "nymph-s-grace-war-of-immortals",
+    "descr": "Your apparition manifests as a mask of unearthly beauty that bewilders your enemies. The first time an enemy enters the aura each round, or if they start their turn within the aura, they must succeed at a Will saving throw or become [Confused](/condition/confused-player-core) for 1 round. While confused by this effect, the creature's confused actions never include harming you.",
+    "data": {
+      "rank": 1,
+      "rarity": "uncommon",
+      "traits": [
+        "animist",
+        "aura",
+        "emotion",
+        "focus",
+        "incapacitation",
+        "mental",
+        "visual"
+      ],
+      "cost": "",
+      "cast": "1",
+      "range": "",
+      "targets": "",
+      "requirements": "",
+      "area": "10-foot emanation",
+      "defense": "will",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "focus",
+      "castActions": [
+        "one"
+      ],
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "animist",
+          "slug": "animist"
+        },
+        {
+          "label": "aura",
+          "slug": "aura"
+        },
+        {
+          "label": "emotion",
+          "slug": "emotion"
+        },
+        {
+          "label": "focus",
+          "slug": "focus"
+        },
+        {
+          "label": "incapacitation",
+          "slug": "incapacitation"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        },
+        {
+          "label": "visual",
+          "slug": "visual"
+        }
+      ],
+      "areaEffectShape": "sphere",
+      "areaEffectSize": 10,
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "animist",
+      "aura",
+      "emotion",
+      "focus",
+      "incapacitation",
+      "mental",
+      "remaster",
+      "visual",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1C4AA447-6578-5B1A-B871-1693C2120B9A",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Part the Mists to Paradise",
+    "slug": "part-the-mists-to-paradise-war-of-immortals",
+    "descr": "You conjure a pathway to paradise, visible only to you and your allies through a dense cloud of magical mist. You and the other targets within range are transported through this mist to an extradimensional paradise of idyllic geographical features. Creatures within this paradise don't need to eat or drink. For each minute you spend within this paradise, all creatures within experience the benefits of 24 hours passing, gaining the healing benefits of a full night's rest, as well as the elapse of any afflictions or spells with day-long intervals. However, for any afflictions or spells with intervals measured in shorter periods of time, only one of those intervals passes for every minute spent within the paradise. This means that at the end of a minute, a creature can attempt a saving throw against a disease whose interval is 1 day, a poison whose interval is 1 minute, and a harmful spell that allows a saving throw each round. Each saving throw attempted while within the paradise gains a +4 status bonus.\n\nYou and your allies can act normally while within the paradise and can use the time to cast spells, Refocus, or perform other exploration activities that take less than 10 minutes. When the spell ends, you and all other targets depart the paradise, returning through the mists to your previous locations or in the nearest unoccupied spaces. You can Dismiss this spell.",
+    "data": {
+      "rank": 8,
+      "rarity": "rare",
+      "traits": [
+        "concentrate",
+        "exploration",
+        "extradimensional",
+        "healing",
+        "manipulate",
+        "mythic"
+      ],
+      "cost": "",
+      "cast": "1 minute",
+      "range": "30 feet",
+      "targets": "you and up to 6 willing creatures",
+      "requirements": "",
+      "traditions": [
+        "arcane",
+        "divine",
+        "occult",
+        "primal"
+      ],
+      "traditionsText": "Arcane, Divine, Occult, Primal",
+      "type": "spell",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "exploration",
+          "slug": "exploration"
+        },
+        {
+          "label": "extradimensional",
+          "slug": "extradimensional"
+        },
+        {
+          "label": "healing",
+          "slug": "healing"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "mythic",
+          "slug": "mythic"
+        }
+      ],
+      "durationText": "10 minutes",
+      "duration": 10,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "exploration",
+      "extradimensional",
+      "healing",
+      "manipulate",
+      "mythic",
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals",
+        "page": 157
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "BE6C40AF-F4FF-5C30-99D1-7BD2B56D88FC",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Perceive the Threads of Fate",
+    "slug": "perceive-the-threads-of-fate-war-of-immortals",
+    "descr": "You open your mind to the grand design of existence, enabling you to view the threads of fate in all their complex, tangled glory. You attempt Perception checks and Reflex saving throws at mythic proficiency for the duration.\n\nYou can Sustain the spell once per round to untangle these threads. When you do, if your next action requires you to attempt an attack roll or skill check, you roll this check twice and use the higher result. You can untangle the threads of fate up to three times. After the third time, the spell ends.",
+    "data": {
+      "rank": 3,
+      "rarity": "rare",
+      "traits": [
+        "concentrate",
+        "fortune",
+        "mythic",
+        "prediction"
+      ],
+      "cost": "",
+      "cast": "1",
+      "range": "",
+      "targets": "",
+      "requirements": "",
+      "traditions": [
+        "arcane",
+        "divine",
+        "occult"
+      ],
+      "traditionsText": "Arcane, Divine, Occult",
+      "type": "spell",
+      "castActions": [
+        "one"
+      ],
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "fortune",
+          "slug": "fortune"
+        },
+        {
+          "label": "mythic",
+          "slug": "mythic"
+        },
+        {
+          "label": "prediction",
+          "slug": "prediction"
+        }
+      ],
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "fortune",
+      "mythic",
+      "prediction",
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals",
+        "page": 157
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4E826C28-0EA6-5EE9-B437-943F53CC4C71",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Rainbow's End",
+    "slug": "rainbow-s-end-war-of-immortals",
+    "descr": "You reach upward to wrest down a rainbow and harness its power to connect this world to the heavens. Each creature in the area takes 1d4 spirit damage with a basic Fortitude save. Any creature that fails this save is additionally [Dazzled](/condition/dazzled-player-core) for 1 round. For the spell's duration, an ally who's adjacent to you can Interact and be instantly teleported to an unoccupied space in the spell's area, as long as they don't travel more than 60 feet. This effect has the [teleportation](/trait/teleportation) trait.\n\n---\n\n**Heightened (+2)** The damage increases by 2d4, the duration of the dazzled condition on a failed save increases by 1 round, and the maximum distance an ally can use the rainbow to teleport increases by 10 feet.",
+    "data": {
+      "rank": 1,
+      "rarity": "rare",
+      "traits": [
+        "concentrate",
+        "light",
+        "manipulate",
+        "mythic",
+        "spirit"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "60 feet",
+      "targets": "",
+      "requirements": "",
+      "area": "10-foot burst",
+      "defense": "basicfortitude",
+      "traditions": [
+        "arcane",
+        "divine",
+        "primal",
+        "occult"
+      ],
+      "traditionsText": "Arcane, Divine, Primal, Occult",
+      "type": "spell",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "light",
+          "slug": "light"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "mythic",
+          "slug": "mythic"
+        },
+        {
+          "label": "spirit",
+          "slug": "spirit"
+        }
+      ],
+      "areaEffectShape": "sphere",
+      "areaEffectSize": 10,
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "light",
+      "manipulate",
+      "mythic",
+      "remaster",
+      "spirit",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D1C0DB22-F71C-5F4F-BB32-2C2502974700",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "River Carving Mountains",
+    "slug": "river-carving-mountains-war-of-immortals",
+    "descr": "Your apparition solidifies around you into roaring water and spraying mist. For the duration of this spell, you have lesser cover against ranged attacks and gain a +10-foot status bonus to each Speed you have. When you first cast this spell and each time you Sustain it, you can Stride up to your speed while your apparition fills each square you pass through with the lingering energy of a coursing river. These squares become difficult terrain until the start of your next turn. You can use *river carving mountains* while Burrowing, Climbing, Flying, or Swimming instead of Striding if you have the corresponding movement type.\n\nSpell Effect: River Carving Mountains",
+    "data": {
+      "rank": 1,
+      "rarity": "uncommon",
+      "traits": [
+        "animist",
+        "focus",
+        "water"
+      ],
+      "cost": "",
+      "cast": "1",
+      "range": "",
+      "targets": "",
+      "requirements": "",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "focus",
+      "castActions": [
+        "one"
+      ],
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "animist",
+          "slug": "animist"
+        },
+        {
+          "label": "focus",
+          "slug": "focus"
+        },
+        {
+          "label": "water",
+          "slug": "water"
+        }
+      ],
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "animist",
+      "focus",
+      "remaster",
+      "war-of-immortals",
+      "water"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8CB1FDCC-28C5-5BBC-BB1B-FD67126D110D",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Seize Identity",
+    "slug": "seize-identity-war-of-immortals",
+    "descr": "With a gleeful cackle, you seize an individual's voice and swallow it. For the duration, you look and sound like the target, and the target can't speak. The effects depend on the result of the target's Will saving throw.\n\n---\n\n**Critical Success** The creature is unaffected.\n\n**Success** You take on the target's appearance, with the same effects of a 3rd-rank [Illusory Disguise](/spell/illusory-disguise-player-core) spell, and the target can't speak, with the same effects of a 2nd-rank [Silence](/spell/silence-player-core) spell.\n\n**Failure** As success, but the target also takes 4d6 mental damage from the transformation.\n\n**Critical Failure** As success, but the target also takes 8d6 mental damage from the transformation.\n\nThe first time each round you Sustain this spell after you cast this spell, the target ages rapidly, taking 2d8 void damage (basic Will save). On a failure, the target also becomes [Enfeebled 1](/condition/enfeebled-player-core) or increases the value of its enfeebled condition by 1.\n\n---\n\n**Heightened (9th)** The mental damage increases by 4d6, and the void damage increases by 1d8.",
+    "data": {
+      "rank": 6,
+      "rarity": "rare",
+      "traits": [
+        "concentrate",
+        "illusion",
+        "manipulate",
+        "mental",
+        "mythic",
+        "visual"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "30 feet",
+      "targets": "1 intelligent creature",
+      "requirements": "",
+      "defense": "will",
+      "traditions": [
+        "arcane",
+        "occult"
+      ],
+      "traditionsText": "Arcane, Occult",
+      "type": "spell",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "illusion",
+          "slug": "illusion"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        },
+        {
+          "label": "mythic",
+          "slug": "mythic"
+        },
+        {
+          "label": "visual",
+          "slug": "visual"
+        }
+      ],
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "illusion",
+      "manipulate",
+      "mental",
+      "mythic",
+      "remaster",
+      "visual",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals",
+        "page": 156
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "896AF63C-13E6-539C-B7F9-F69243ED2256",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Spellsurge",
+    "slug": "spellsurge-war-of-immortals",
+    "descr": "Magic surges to life around you, feeding on the raw power you radiate. Choose one of the following abilities to affect creatures in your aura. You can choose a different effect, ending the previous one, by Sustaining the spell. You can Dismiss the aura.\n\n**Interference** The excess magic surrounding you creates a mental static. All saving throws against mental effects gain a +2 circumstance bonus.**Mana Well** You become a source of pure magic that allows spells to be cast more freely. Allied creatures that would normally be required to attempt a flat check to Cast a Spell (such as from the [Stupefied](/condition/stupefied-player-core) condition) automatically succeed.**Overpower Resistance** Surging magic penetrates most defenses. Any time a spell affects a creature within the aura, that spell ignores an amount of the creature's resistance equal to your level. This applies to all damage the spell deals, including persistent damage and damage caused by an ongoing effect of the spell. This doesn't cause the spell to ignore immunities.**Ward** Stray magical energy diffuses damaging spells. Any time a spell affects a creature within the aura, the damage dealt by the spell is reduced by an amount equal to your level. This applies to all damage the spell deals, including persistent damage and damage caused by an ongoing effect of the spell.",
+    "data": {
+      "rank": 6,
+      "rarity": "uncommon",
+      "traits": [
+        "concentrate",
+        "focus",
+        "mythic"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "",
+      "targets": "",
+      "requirements": "",
+      "area": "10-foot emanation",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "focus",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "focus",
+          "slug": "focus"
+        },
+        {
+          "label": "mythic",
+          "slug": "mythic"
+        }
+      ],
+      "areaEffectShape": "sphere",
+      "areaEffectSize": 10,
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "focus",
+      "mythic",
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "87665CCD-41BF-513E-AB0D-0B74034807FD",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Store Time",
+    "slug": "store-time-war-of-immortals",
+    "descr": "You store time for later use. When you Cast this Spell and the first time you Sustain it each round, you gain a bonus reaction that you can use for any animist or apparition reaction you have. As normal, this reaction is lost if you do not use it before you regain your actions at the start of your next turn.",
+    "data": {
+      "rank": 1,
+      "rarity": "uncommon",
+      "traits": [
+        "animist",
+        "focus"
+      ],
+      "cost": "",
+      "cast": "1",
+      "range": "",
+      "targets": "",
+      "requirements": "",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "focus",
+      "castActions": [
+        "one"
+      ],
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "animist",
+          "slug": "animist"
+        },
+        {
+          "label": "focus",
+          "slug": "focus"
+        }
+      ],
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "animist",
+      "focus",
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "EEE8FEEF-7EAB-5441-853C-D8325EBC20C3",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Summon Oliphaunt of Jandelay",
+    "slug": "summon-oliphaunt-of-jandelay-war-of-immortals",
+    "descr": "You briefly summon the mythical Oliphaunt of Jandelay, unleashing a manifestation of pure destruction that obliterates everything unfortunate enough to stand in its path. The summoned Oliphaunt occupies the space of a Gargantuan creature. It has a Speed of 200 feet.\n\n**Arrive** *(force) Devastating Displacement* Using hidden magics and long-lost techniques, you conjure an immense gate to Jandelay, compelling the Oliphaunt to step through. The Oliphaunt arrives in a 60-foot burst. Each creature in the area takes 8d10 force damage (basic Reflex save). On a failure, the creature is also pushed 60 feet away from the Oliphaunt.\n\n**Depart** *Annihilating Trample* The Oliphaunt becomes aware that it has been summoned to a world that isn't on the verge of annihilation. It summons another enormous gate to Jandelay 200 feet in front of it. The Oliphaunt then rages forward through the gate, crushing everything in its path, before closing the gate behind it and disappearing. The Oliphaunt creates an 80-foot-wide path of devastation that extends 200 feet. Each creature and vehicle in the area takes 8d8 bludgeoning damage (basic Fortitude save). A creature or vehicle reduced to 0 Hit Points is smashed into fine powder; its gear, passengers, and cargo remain. An unattended object in the area is destroyed unless it succeeds at a Fortitude save, regardless of Hardness, or unless it's an artifact or similarly hard to destroy. This trample automatically destroys any force effect, such as a wall of force.",
+    "data": {
+      "rank": 10,
+      "rarity": "rare",
+      "traits": [
+        "concentrate",
+        "incarnate",
+        "manipulate",
+        "mythic"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "500 feet",
+      "targets": "",
+      "requirements": "",
+      "traditions": [
+        "arcane",
+        "occult"
+      ],
+      "traditionsText": "Arcane, Occult",
+      "type": "spell",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "incarnate",
+          "slug": "incarnate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "mythic",
+          "slug": "mythic"
+        }
+      ],
+      "durationText": "until the end of your next turn",
+      "duration": 1,
+      "durationType": "sourceEndNextTurn",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "incarnate",
+      "manipulate",
+      "mythic",
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals",
+        "page": 158
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3C6BA19F-AD1A-547F-8159-43DFAEC5CBBF",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Travel by Turtle",
+    "slug": "travel-by-turtle-war-of-immortals",
+    "descr": "You conjure an intelligent sea turtle, who agrees to carry you upon its shell on a water journey. This turtle must be conjured into a large body of water within range, such as a lake or broad river. The turtle conjured is Large, is capable of carrying one Medium creature or up to four Small creatures, and has a swim Speed of 30 feet. The turtle doesn't engage in combat and doesn't put itself intentionally into harm's way, but it does convey you to a destination of your choice and follows your suggestions. The turtle otherwise functions as a boat, save that it controls itself and doesn't need to be piloted.\n\n---\n\n**Heightened (5th)** The turtle's size increases to Huge, making it capable of carrying one Large creature, up to four Medium creatures, or up to 16 Small creatures. Its swim Speed increases to 40 feet, and the duration increases to 1 day.\n\n**Heightened (7th)** The turtle's size increases to Gargantuan, making it capable of carrying one Huge creature, up to four Large creatures, up to 16 Medium creatures, or up to 32 Small creatures. Its swim Speed increases to 50 feet, and the duration increases to 1 week.\n\n**Heightened (9th)** The turtle's size increases to Gargantuan, making it capable of carrying two Huge creatures, up to eight Large creatures, up to 32 Medium creatures, or up to 64 Small creatures. Its swim Speed increases to 60 feet, and the duration increases to 1 month.",
+    "data": {
+      "rank": 3,
+      "rarity": "rare",
+      "traits": [
+        "concentrate",
+        "manipulate",
+        "mythic"
+      ],
+      "cost": "",
+      "cast": "3",
+      "range": "60 feet",
+      "targets": "",
+      "requirements": "",
+      "traditions": [
+        "arcane",
+        "primal"
+      ],
+      "traditionsText": "Arcane, Primal",
+      "type": "spell",
+      "castActions": [
+        "three"
+      ],
+      "actions": "three",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "mythic",
+          "slug": "mythic"
+        }
+      ],
+      "durationText": "1 hour",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "hour"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "manipulate",
+      "mythic",
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals",
+        "page": 158
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9738D3F2-8DF1-571D-B68C-151DA110C39D",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Traveling Workshop",
+    "slug": "traveling-workshop-war-of-immortals",
+    "descr": "Your apparition guides you through complex procedures while using your magic to provide you with whatever tools you need. For the duration of this spell, you are trained in Crafting and Thievery. When you Cast the Spell and as long as you Sustain it, your apparition provides you with an array of simple tools, granting you use of an alchemist's toolkit, a repair kit, and a thieves' toolkit; these tools are made of ephemeral magic and disappear if they leave your [possession](/spell/possession-player-core).\n\nSpell Effect: Traveling Workshop\n\nYou can cast this spell as an exploration or downtime activity with a casting time of 10 minutes; when you do, its duration increases to 8 hours (enough to complete 1 day of work), and you also gain an alchemist's lab and functioning forge. You are always treated as having spent a day of work setting up when using this spell to help you Craft an item and have whatever materials you need to Repair an item in your possession. You can't use a traveling workshop to [Earn Income](/action/earn-income-player-core) and any item you Craft using it disappears moments after it leaves your possession, making it unwise to Craft anything other than consumable items you intend to use yourself. A crafter in the vault is extremely proud of work you do together when using the spell in this way and demands to see the results of your work together. When you cast traveling workshop as an exploration or downtime activity, you must continue to choose crafter in the vault as one of your attuned apparitions during your next daily preparations until such time as you've used any Crafted items in combat.\n\n---\n\n**Heightened (3rd)** Your proficiency in Crafting and Thievery is expert.\n\n**Heightened (5th)** Your proficiency in Crafting and Thievery is master.\n\n**Heightened (9th)** Your proficiency in Crafting and Thievery is legendary.",
+    "data": {
+      "rank": 1,
+      "rarity": "uncommon",
+      "traits": [
+        "animist",
+        "focus",
+        "manipulate"
+      ],
+      "cost": "",
+      "cast": "1",
+      "range": "",
+      "targets": "",
+      "requirements": "",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "focus",
+      "castActions": [
+        "one"
+      ],
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "animist",
+          "slug": "animist"
+        },
+        {
+          "label": "focus",
+          "slug": "focus"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ],
+      "durationText": "1 minute, or 8 hours",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "animist",
+      "focus",
+      "manipulate",
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "49F5CE04-4C25-52FD-A4BE-C451FE35B06C",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Trickster's Feathers",
+    "slug": "trickster-s-feathers-war-of-immortals",
+    "descr": "You conjure four magic feathers, each with the potential to hold a single illusory guise. These feathers have negligible Bulk and remain potent for the duration. As an [Interact](/action/interact-player-core) action, you can place one of these feathers into your hair or cap, or remove an already donned feather. When worn in this way, the feather causes you to appear as another creature of the same body shape, and with roughly similar height (within 6 inches) and weight (within 50 pounds), as yourself. The disguise is typically good enough to hide your identity but not to impersonate a specific individual. This disguise also changes your voice and scent, but it doesn't disguise your mannerisms or behavior. You can change the appearance of your clothing and worn items, such as making your armor look like a dress. Held items are unaffected, and any worn item you remove returns to its true appearance.\n\nWhen you don a feather for the first time, you determine the illusory appearance that feather grants you, selecting the ancestry, age, gender, attire, and other visual features. For the duration, this feather is linked to that disguise. Wearing it in your hair or hat always imparts the linked appearance. Selecting a feather's appearance for the first time counts as setting up a disguise for the [Impersonate](/action/impersonate-player-core) use of Deception; attempt this Deception check at mythic proficiency.\n\nYou can only wear one feather at a time. When you remove a feather, you revert to your true appearance. If you give a feather to another creature, it can no longer impart a disguise.",
+    "data": {
+      "rank": 4,
+      "rarity": "rare",
+      "traits": [
+        "concentrate",
+        "illusion",
+        "manipulate",
+        "mythic",
+        "visual"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "",
+      "targets": "",
+      "requirements": "",
+      "traditions": [
+        "arcane",
+        "divine",
+        "occult",
+        "primal"
+      ],
+      "traditionsText": "Arcane, Divine, Occult, Primal",
+      "type": "spell",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "illusion",
+          "slug": "illusion"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "mythic",
+          "slug": "mythic"
+        },
+        {
+          "label": "visual",
+          "slug": "visual"
+        }
+      ],
+      "durationText": "24 hours",
+      "duration": 24,
+      "durationType": "time",
+      "durationUnit": "hour"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "illusion",
+      "manipulate",
+      "mythic",
+      "remaster",
+      "visual",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3BFEFA93-32CC-5030-9B20-C595E4BADEA5",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Trickster's Mirrors",
+    "slug": "trickster-s-mirrors-war-of-immortals",
+    "descr": "You are surrounded by up to 3 mirrors that reflect twisted and distorted images of you, making it hard to tell where you actually are within your space and potentially causing those who attack you to hit one of the mirrors instead. You start with 1 mirror and gain an additional mirror each time you Sustain this spell, up to a maximum of 3 mirrors. Any attack that would hit you has a random chance of hitting one of your mirrors instead of you. With one mirror, the chances are 1 in 2 (1–3 on 1d6). With two mirrors, there is a 1 in 3 chance of hitting you (1–2 on 1d6). With three mirrors, there is a 1 in 4 chance of hitting you (1 on 1d4).\n\nOnce an image is hit, it is destroyed. If an attack roll fails to hit your AC but doesn't critically fail, it destroys a mirror. If the attacker was within 5 feet, they must succeed at a basic Will save or take 1d4 mental damage as they believe themselves cut by a shower of glass shards from the breaking mirror. A damaging effect that affects all targets within your space (such as [Caustic Blast](/spell/caustic-blast-player-core)) destroys all of the mirrors.\n\n---\n\n**Heightened (+1)** The mental damage dealt by a broken mirror increases by 1d4.",
+    "data": {
+      "rank": 1,
+      "rarity": "uncommon",
+      "traits": [
+        "animist",
+        "focus",
+        "illusion",
+        "mental",
+        "visual"
+      ],
+      "cost": "",
+      "cast": "1",
+      "range": "",
+      "targets": "",
+      "requirements": "",
+      "defense": "basicwill",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "focus",
+      "castActions": [
+        "one"
+      ],
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "animist",
+          "slug": "animist"
+        },
+        {
+          "label": "focus",
+          "slug": "focus"
+        },
+        {
+          "label": "illusion",
+          "slug": "illusion"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        },
+        {
+          "label": "visual",
+          "slug": "visual"
+        }
+      ],
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "animist",
+      "focus",
+      "illusion",
+      "mental",
+      "remaster",
+      "visual",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A4E6A8E4-BFFB-5A4F-AF69-CE22686E26CD",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Vindicator's Judgment",
+    "slug": "vindicator-s-judgment-war-of-immortals",
+    "descr": "You pronounce a terrible judgment upon your quarry that causes all of your attacks and divine spells to strike with deadly efficacy. The target takes extra damage from your attacks, depending on the result of its Fortitude save. The spell ends immediately if the target is no longer your hunted prey.\n\n---\n\n**Critical Success** The target is unaffected.\n\n**Success** The target has weakness 5 to the next Strike you make against it or damaging divine spell you cast that includes it as a target before the end of your next turn.\n\n**Failure** The target has weakness 5 to all Strikes you make against it or damaging divine spells you cast that includes it as a target for the duration of the spell.\n\n**Critical Failure** As failure, but the target is [Off Guard](/condition/off-guard-player-core) against the first Strike or divine spell attack you make against it each round for the duration of the spell.\n\n---\n\n**Heightened (7th)** The weakness is 10.\n\n**Heightened (9th)** The weakness is 15.",
+    "data": {
+      "rank": 5,
+      "rarity": "uncommon",
+      "traits": [
+        "focus",
+        "manipulate"
+      ],
+      "cost": "",
+      "cast": "1",
+      "range": "60 feet",
+      "targets": "your hunted prey",
+      "requirements": "",
+      "defense": "fortitude",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "focus",
+      "castActions": [
+        "one"
+      ],
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "focus",
+          "slug": "focus"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ],
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "focus",
+      "manipulate",
+      "remaster",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "28DB8D2F-3723-5548-8B15-0E8D14A6957A",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Vindicator's Mark",
+    "slug": "vindicator-s-mark-war-of-immortals",
+    "descr": "You launch a magical dart at your hunted prey, which marks them with a nimbus only you can detect. Make a spell attack against the target. On a hit, you deal 2d4 spirit damage and the target is marked by a glowing nimbus of energy that only you can see. For the duration of your spell, the marked target takes an additional +2 damage from all your weapon or unarmed attacks. [Invisible](/condition/invisible-player-core) targets marked by your *vindicator's mark* are [Concealed](/condition/concealed-player-core) to you, rather than [Undetected](/condition/undetected-player-core).\n\nYou can Dismiss the spell on your turn if your last action dealt damage to the target with a weapon or unarmed attack, instantly dealing an additional 2d6 spirit damage to it.\n\nSpell Effect: Vindicator'S Mark\n\n---\n\n**Heightened (+2)** The initial damage increases by 2d4, the additional damage you deal increases by 1, and the damage dealt when the spell is Dismissed increases by 1d6.",
+    "data": {
+      "rank": 1,
+      "rarity": "uncommon",
+      "traits": [
+        "attack",
+        "focus",
+        "manipulate",
+        "sanctified"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "60 feet",
+      "targets": "your hunted prey",
+      "requirements": "",
+      "traditions": [],
+      "traditionsText": "",
+      "type": "focus",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "attack",
+          "slug": "attack"
+        },
+        {
+          "label": "focus",
+          "slug": "focus"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "sanctified",
+          "slug": "sanctified"
+        }
+      ],
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "war-of-immortals",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "attack",
+      "focus",
+      "manipulate",
+      "remaster",
+      "sanctified",
+      "war-of-immortals"
+    ],
+    "sources": [
+      {
+        "name": "War of Immortals"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

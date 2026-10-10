@@ -1,0 +1,59 @@
+[
+  {
+    "id": "64315ED4-B836-56BB-A256-9B114447B8DC",
+    "kind": "Item",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Flawless Celestial Shawl",
+    "slug": "flawless-celestial-shawl-monster-core-2",
+    "descr": "Each *flawless celestial shawl* functions only for a specifc tennin and is the culmination of their immortal cultivation. The sash is made of celestial silken threads stronger than adamantine yet lighter than gossamer. The tennin can draw thread from the *flawless celestial shawl* to serve as a [sterling artisan's toolkit](/item/artisan-s-toolkit-sterling-player-core) and workshop to [Craft](/action/craft-player-core). The sash can be used to work with precious materials of any grade. On any Crafting check the tennin attempts using the shawl, they use the outcome one degree of success better than the result of their roll.\n\n---\n\n**Activation—Reweave** 3\n\nThe tennin uses the sash to [Repair](/action/repair-player-core) an item. This Repair activity loses the [exploration](/trait/exploration) trait.",
+    "data": {
+      "level": 9,
+      "rarity": "rare",
+      "traits": [
+        "artifact",
+        "divine",
+        "invested"
+      ],
+      "category": "worn",
+      "price": "",
+      "usage": "worngarment",
+      "bulk": "—",
+      "traitLinks": [
+        {
+          "label": "artifact",
+          "slug": "artifact"
+        },
+        {
+          "label": "divine",
+          "slug": "divine"
+        },
+        {
+          "label": "invested",
+          "slug": "invested"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "monster-core-2",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "artifact",
+      "divine",
+      "invested",
+      "monster-core-2",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Monster Core 2",
+        "page": 28
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

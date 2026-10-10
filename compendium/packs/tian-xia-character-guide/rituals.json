@@ -1,0 +1,131 @@
+[
+  {
+    "id": "304E1C76-EEE3-598F-8473-18E1DAB67BDE",
+    "kind": "Ritual",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Bonding Meal",
+    "slug": "bonding-meal-tian-xia-character-guide-ritual-ritual-169",
+    "descr": "**Cast** 1 day\n\n**Cost** 10 gp\n\n**Primary Check** Cooking Lore, Crafting, Performance, or Survival (trained)\n\n---\n\nMany grow up and spend their lives eating with others, and doing so binds them—to their families, communities, and cultures. Food can form long-lasting bonds, and with a bit of extra work, those bonds can be shared.\n\nYou prepare a meal for a small gathering of up to 10 close friends, enough people to comfortably eat together at one table or in one circle. As you collect and prepare the food, you call upon spirits of home and memory. As they work through you and guide you, you perfectly recreate a dish that emotionally connects you to a place of your past: perhaps your mother’s cooking when you were a child, or the way you and your comrades-in-arms cooked [rations](/item/rations-player-core) together when you fought in the war. When you’re done, you share the meal and tell your new friends the story that comes with it. As they eat and drink, any participants of 4th level or lower sink into a snapshot of your past and can borrow insights from it for future use.\n\n**Critical Success** Your friends are vividly taken through your memories as you relive them, and they hold onto the experience even after the fugue ends. For the next week, they have a +4 circumstance bonus to Deception and Diplomacy checks to convince anyone from the community where the meal originated from that they are from that area or were present for events you described. Even after the raw magic infusing the memories fade, the memories don’t, and your friends will be able to make the dish just as well as you can. Chances are, they like it just as much as you did.\n\n**Success** As critical success, except your friends get a +2 circumstance bonus to Deception and Diplomacy checks instead. They also can’t make the meal themselves but probably look forward to tasting it the way you make it if you ever offer to cook it again.\n\n**Failure** Your friends see the vision as planned, but the magic doesn’t quite take. As success, but no one receives any bonus. The real treasure will have to be the friends you fed along the way.\n\n**Critical Failure** Your friends see the vision as planned, and the magic takes hold—but it goes wrong, like a bad case of indigestion. The memories are scattered around the rest of their psyches, and it takes a week to settle down properly. They confuse parts of your past for theirs, and they take a –2 circumstance bonus to Deception and Diplomacy checks for the next week against anyone from your old community, as they confidently apply the wrong expectations from their lives across the one you were trying to introduce them to.\n\n---\n**Heightened (4th)** Participants up to 8th level can gain the\nbenefits, and the cost is 40 gp.\n\n**Heightened (6th)** Participants up to 12th level can gain the\nbenefits, and the cost is 150 gp.\n\n**Heightened (8th)** Participants up to 16th level can gain the\nbenefits, and the cost is 480 gp.\n\n**Heightened (10th)** Participants of any level can gain the\nbenefits, and the cost is 2000 gp.",
+    "data": {
+      "rank": 2,
+      "rarity": "uncommon",
+      "traits": [],
+      "cost": "10 gp",
+      "cast": "1 day",
+      "secondaryCasters": "",
+      "primaryChecks": "Cooking Lore, Crafting, Performance, or Survival (trained)",
+      "secondaryChecks": "",
+      "range": "",
+      "targets": "",
+      "duration": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "tian-xia-character-guide",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "ritual",
+      "tian-xia-character-guide"
+    ],
+    "sources": [
+      {
+        "name": "Tian Xia Character Guide",
+        "url": "https://2e.aonprd.com/Rituals.aspx?ID=169",
+        "page": 102
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "26FA0489-468C-5D8A-8659-983A6941264A",
+    "kind": "Ritual",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Butterfly Bender",
+    "slug": "butterfly-bender-tian-xia-character-guide-ritual-ritual-170",
+    "descr": "**Cast** 2 hours\n\n**Cost** Alcohol worth a total of 20 gp x the ritual level\n\n**Secondary Casters** 2\n\n**Primary Check** Medicine (trained)\n\n**Secondary Checks** Diplomacy\n\n---\n\nSometimes, the problems in your life are too oppressive. Sometimes, you have a case you need to crack and you have no idea where to start. When you’ve exhausted all options and willpower, you might as well just get drunk and call it a night. The butterfly bender is a ritual to kill two birds with one stone. By twisting fate around a session of hard drinking, you and a small party (no more than five people) suspend judgment, memory, and even consciousness as you all hurl yourselves into the arms of destiny and politely ask for a favor. You all get blackout drunk and, if all goes according to plan, you’ll wake up with some progress upon a quest you’ve all undertaken—hopefully, without too much collateral damage.\n\nThe participants of the ritual wake up the next day with some of the following, determined by the results of the ritual. Any options that aren’t chosen are temporarily lost to you.\n\n- Your dignity.\n- A common item that has the [consumable](/trait/consumable) trait of a level no higher than that of the ritual, which might be useful for an upcoming challenge. If lost, you misplace all of your currently carried items—including keys to where your equipment might be stored. With a modicum of effort, you recover your items within 1 day.\n- A new friend or connection, as though you’d succeeded at a Diplomacy check to [Make an Impression](/action/make-an-impression-player-core) with a relevant NPC up to the ritual’s level. If this is one of things lost, an existing friend refuses to speak to you for 1 day.\n- A useful piece of information, as though you’d succeeded at a Diplomacy check to [Gather Information](/action/gather-information-player-core). If lost, you take a –4 status penalty to your next check to [Recall Knowledge](/action/recall-knowledge-player-core).\n- A convenient opportunity of the GM’s choice. If there’s no immediately relevant opportunity, you find an opportunity to [Earn Income](/action/earn-income-player-core) at the ritual’s level + 1. If lost, the result of your next attempt to Earn Income is one degree of success worse.\n\n**Critical Success** Pick two options from the above list. The GM then gives you a bonus 3rd option of their choice.\n\n**Success** Pick two options from the above list.\n\n**Failure** Pick one option from the above list.\n\n**Critical Failure** Pick two options from the above list. The GM gives you one of them.",
+    "data": {
+      "rank": 3,
+      "rarity": "uncommon",
+      "traits": [],
+      "cost": "Alcohol worth a total of 20 gp x the ritual level",
+      "cast": "2 hours",
+      "secondaryCasters": "2",
+      "primaryChecks": "Medicine (trained)",
+      "secondaryChecks": "Diplomacy",
+      "range": "",
+      "targets": "",
+      "duration": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "tian-xia-character-guide",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "ritual",
+      "tian-xia-character-guide"
+    ],
+    "sources": [
+      {
+        "name": "Tian Xia Character Guide",
+        "url": "https://2e.aonprd.com/Rituals.aspx?ID=170",
+        "page": 102
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "A9AF124C-ED92-5D1A-82BB-3387FC82F9FB",
+    "kind": "Ritual",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Feast of Supplication",
+    "slug": "feast-of-supplication-tian-xia-character-guide-ritual-ritual-171",
+    "descr": "**Cast** 3 hours\n\n**Cost** 25 gp\n\n**Secondary Casters** 2\n\n**Primary Check** Cooking Lore, Crafting, Performance or Survival (expert)\n\n**Secondary Checks** Deception or Thievery\n\n---\n\nWhen mortals attempt to sway gods, spirits, and other beings of great spiritual power to take sides in mortal affairs, those powers demand to be impressed. And what better way to impress than a cook-off? This old ritual has roots in the spirited-judicated village festival contests of rural Tian Xia. Two or more rival parties must participate, performing the ritual simultaneously as assistants gather and prepare ingredients while each team’s head chef does their best to create the ultimate dish to satisfy their patron’s palate. Cheering bystanders are usually involved. While the primary caster—the chef—is always busy with cooking, it’s very normal for the secondary caster assistants to spend most of their time interfering with the other teams and slowing them down.\n\n**Critical Success** You’ve truly blown your patron away with the competition and the meal you’ve expertly crafted. The supernatural patrons you sought to impress grant a request as if you’d received a critical success to Make a [Request](/action/request-player-core) of them, even if they’re [indifferent](/condition/indifferent-player-core) or [unfriendly](/condition/unfriendly-player-core) to you. If there’s some argument or confusion on what request should be granted, the patrons grant the request of the team that achieved the highest overall result. At the GM’s discretion, the attitude of any patrons pleased by the ritual can permanently increase toward all participants in the ritual. In addition, the sheer theatricality and flair of your cooking has earned you deep respect and die-hard fans from the spectators, doubly so if you tied with another contender.\n\n**Success** You’ve created a wonderful meal that your patron loves. The supernatural patrons you sought to impress grant a request as if you’d received a success to Make a Request of them, even if they’re indifferent to you. If there’s some argument or confusion on what request should be granted, the patrons grant the request of the team that achieved the highest overall result. At the GM’s discretion, the attitude of any patrons pleased by the ritual can permanently increase toward all participants in the ritual. All contestants have still earned the jovial respect and appreciation of the crowd for cooking something entertaining and lovely.\n\n**Failure** You’ve created a dish that doesn’t impress. The winner of the competition is declared in the most unsatisfying and mechanical of manners— someone has to win, but no one is happy about it. The supernatural patrons you sought to impress politely make their excuses and leave as soon as they have a chance. At the GM’s discretion, the attitude of any patrons who experienced the meal can permanently decrease toward all participants in the ritual.\n\n**Critical Failure** Your team’s dish is ruined at the last possible moment in a spectacular manner. You completely embarrass yourself, and the attitude of the supernatural patrons who experienced this farce permanently decreases by one step toward you. If you haven’t earned the ire of your patron host, you’ve definitely lost the respect of any onlookers or spectators.",
+    "data": {
+      "rank": 5,
+      "rarity": "rare",
+      "traits": [],
+      "cost": "25 gp",
+      "cast": "3 hours",
+      "secondaryCasters": "2",
+      "primaryChecks": "Cooking Lore, Crafting, Performance or Survival (expert)",
+      "secondaryChecks": "Deception or Thievery",
+      "range": "",
+      "targets": "",
+      "duration": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "tian-xia-character-guide",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "ritual",
+      "tian-xia-character-guide"
+    ],
+    "sources": [
+      {
+        "name": "Tian Xia Character Guide",
+        "url": "https://2e.aonprd.com/Rituals.aspx?ID=171",
+        "page": 103
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  }
+]

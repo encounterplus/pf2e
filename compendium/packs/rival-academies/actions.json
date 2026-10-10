@@ -1,0 +1,255 @@
+[
+  {
+    "id": "B35B153D-C6E8-59EB-BBBB-0B646125E89C",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Entreat Pact",
+    "slug": "entreat-pact-rival-academies",
+    "descr": "**Trigger** You attempt a skill check directly related to the conditions of the pact\n\n**Frequency** once per hour\n\n**Effect** You call upon the occult energies powering your pact to help you fulfill your promise. Roll twice on the triggering check and take the better result.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "fortune"
+      ],
+      "category": "offensive",
+      "frequency": "once per hour",
+      "requirements": "",
+      "trigger": "You attempt a skill check directly related to the conditions of the pact",
+      "actions": "free",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "fortune",
+          "slug": "fortune"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "fortune",
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9DAB42AD-5F8A-5C55-8EE8-2213ED2DF0E2",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Familiar of Insightful Observation",
+    "slug": "familiar-of-insightful-observation-rival-academies",
+    "descr": "Your familiar boasts a third eye upon their head or body, resembling the one set in Cobyslarni's forehead. When you Cast or Sustain a hex, your familiar can attempt a check to Recall Knowledge as a free action with any skill in which you are trained or better, using your bonus, and psychically transmit the information to you.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "familiar",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "97FFF0BC-C66C-5A2D-A087-25C1F6F2781E",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Fey Jump",
+    "slug": "fey-jump-rival-academies",
+    "descr": "**Frequency** once per hour\n\n**Effect** You jump through the First World for a brief second, teleporting up 60 feet away to an empty space you can see. If this would bring another creature with you—even if you're carrying it in an extradimensional container—the action is lost.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "primal",
+        "teleportation"
+      ],
+      "category": "offensive",
+      "frequency": "once per hour",
+      "requirements": "",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "primal",
+          "slug": "primal"
+        },
+        {
+          "label": "teleportation",
+          "slug": "teleportation"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "primal",
+      "remaster",
+      "rival-academies",
+      "teleportation"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "36F2FE10-06D8-531E-8583-510B919999C5",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Forced Pact",
+    "slug": "forced-pact-rival-academies",
+    "descr": "**Frequency** once per hour\n\n**Effect** You force a temporary pact on both yourself and another creature you can see within 60 feet. Choose attack, move, manipulate, or concentrate. The target must attempt a Will saving throw.\n\n**Success** The target is unaffected.\n\n**Failure** If you or the target uses an action with the chosen trait within the next minute, they take 10d6 mental damage, and this pact ends for both of you.\n\n**Critical Failure** As failure, except your target takes the damage if either of you uses an action with the chosen trait.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "concentrate"
+      ],
+      "category": "offensive",
+      "frequency": "once per hour",
+      "requirements": "",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C066976F-7DA4-51DD-8E9C-CDDC136D1219",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Offer Story",
+    "slug": "offer-story-rival-academies",
+    "descr": "You share a story of your travels with a creature within 30 feet. You gain the blessing of Isthralei as a +1 status bonus to AC and Will saves until the end of your next turn. On their next turn, the creature you shared a story with can take a single action, which has the auditory, concentrate, linguistic, and [mental](/trait/mental) traits, to respond with their own story to gain the same benefits until the end of the following turn.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "auditory",
+        "concentrate",
+        "divine",
+        "linguistic",
+        "mental"
+      ],
+      "category": "offensive",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": [
+        {
+          "label": "auditory",
+          "slug": "auditory"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "divine",
+          "slug": "divine"
+        },
+        {
+          "label": "linguistic",
+          "slug": "linguistic"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "rival-academies",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "auditory",
+      "concentrate",
+      "divine",
+      "linguistic",
+      "mental",
+      "remaster",
+      "rival-academies"
+    ],
+    "sources": [
+      {
+        "name": "Lost Omens: Rival Academies"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

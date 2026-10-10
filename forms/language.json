@@ -1,0 +1,15 @@
+{
+  "title": "Language",
+  "sections": [
+    { "type": "group", "fields": [
+      { "title": "Common.Rarity", "type": "picker", "attribute": "data.rarity", "attributeType": "Rarity" },
+      { "title": "Common.Traits", "type": "tags", "attribute": "data.traits", "attributeType": "Trait" },
+      { "title": "Code", "attribute": "data.code" },
+      { "title": "Script", "attribute": "data.script" },
+      { "title": "Speakers", "attribute": "data.speakers" }
+    ] },
+    { "title": "Common.Description", "type": "group", "fields": [
+      { "type": "textArea", "attribute": "descr", "custom": { "lines": 8 } }
+    ] }
+  ]
+}

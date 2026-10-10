@@ -1,0 +1,65 @@
+[
+  {
+    "id": "1220968A-68A9-59A5-9A46-5DF43DEFC022",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Hidden Mind",
+    "slug": "hidden-mind-gm-core",
+    "descr": "Powerful wards hide a creature from magic that would spy on it or affect its mind. The target gains a +4 status bonus to saves against mental effects. *Hidden mind* attempts to counteract any detection, revelation, and scrying effects as if its spell rank were 1 higher than its actual rank. On a success, the effect functions normally except that it detects nothing about the target and its possessions. For instance, *detect magic* would still detect other magic in the area, but not any magic on the target.\n\nSpell Effect: Hidden Mind",
+    "data": {
+      "rank": 8,
+      "rarity": "uncommon",
+      "traits": [
+        "concentrate",
+        "manipulate"
+      ],
+      "cost": "",
+      "cast": "2",
+      "range": "30 feet",
+      "targets": "1 creature",
+      "requirements": "",
+      "traditions": [
+        "arcane",
+        "occult"
+      ],
+      "traditionsText": "Arcane, Occult",
+      "type": "spell",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ],
+      "durationText": "until the next time you make your daily preparations",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "gm-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "gm-core",
+      "manipulate",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "GM Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

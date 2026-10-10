@@ -1,0 +1,22 @@
+{
+  "spacing": 8,
+  "padding": [20],
+  "footer": true,
+  "views": [
+    {
+      "type": "hStack",
+      "alignment": "bottom",
+      "views": [
+        { "value": "{{name|uppercase}}", "style": "stats-title" },
+        { "value": "DEITY", "alignment": "trailing", "style": "stats-title", "width": -1 }
+      ]
+    },
+    { "type": "divider", "bgColor": "#000000", "height": 1.5, "padding": [0] },
+    { "type": "tags", "attribute": "data.traits" },
+    { "type": "text", "value": "{% if data.rulesText and data.deityReferenceKeys == nil %}{{descr}}{% else %}{% include 'deity-stats.md' %}{% endif %}", "style": "stats-body" },
+    { "type": "text", "value": "{% if descr and descr != data.rulesText %}{{descr}}{% endif %}", "style": "stats-body", "visibleIf": "{% if data.rulesText == nil or data.deityReferenceKeys != nil %}true{% endif %}" },
+    { "type": "text", "title": "Common.Notes", "value": "{{notes}}" },
+    { "type": "text", "value": "{% if data.sourceName %}**{{'Common.Source'|l}}:** {{data.sourceName}}{% else %}{{footer}}{% endif %}" },
+    { "type": "tags", "attribute": "tags" }
+  ]
+}

@@ -4,6 +4,25 @@
 .LSOverride
 .system
 .module
+*.system
+*.module
+*.pdf
+*.epub
+*.sqlite
+*.sqlite3
+
+# Private source material and build products never belong in the repository.
+# The reviewed ORC compendium under compendium/ is intentionally tracked.
+modules/
+content/
+generated/
+dist/
+reference/
+private/
+.upstream-git/
+__pycache__/
+*.py[cod]
+.venv/
 
 # Icon must end with two \r
 Icon

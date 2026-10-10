@@ -1,0 +1,27 @@
+{
+  "title": "Deity",
+  "sections": [
+    { "type": "group", "fields": [
+      { "title": "Common.Rarity", "type": "picker", "attribute": "data.rarity", "attributeType": "Rarity" },
+      { "title": "Common.Sanctification", "type": "textArea", "attribute": "data.sanctificationText", "placeholder": "e.g. Can choose holy, Must choose unholy, or None", "custom": { "lines": 2 }, "visibleIf": "{% if data.deitySanctificationFormat == 'text' or data.sanctificationText != nil or data.sanctification == nil %}true{% endif %}" },
+      { "title": "Common.Sanctification", "type": "picker", "attribute": "data.sanctification", "attributeType": "Sanctification", "visibleIf": "{% if data.deitySanctificationFormat != 'text' and data.sanctificationText == nil and data.sanctification != nil %}true{% endif %}" },
+      { "title": "Common.Traits", "type": "tags", "attribute": "data.traits", "attributeType": "Trait" },
+      { "title": "Areas of Concern", "attribute": "data.areasOfConcern" },
+      { "title": "Edicts", "type": "textArea", "attribute": "data.edictsText", "custom": { "lines": 2 }, "visibleIf": "{% if data.deityDirectiveFormat == 'text' or data.edictsText != nil or data.edicts == nil %}true{% endif %}" },
+      { "title": "Edicts", "type": "list", "attribute": "data.edicts", "visibleIf": "{% if data.deityDirectiveFormat != 'text' and data.edictsText == nil and data.edicts != nil %}true{% endif %}" },
+      { "title": "Anathema", "type": "textArea", "attribute": "data.anathemaText", "custom": { "lines": 2 }, "visibleIf": "{% if data.deityDirectiveFormat == 'text' or data.anathemaText != nil or data.anathema == nil %}true{% endif %}" },
+      { "title": "Anathema", "type": "list", "attribute": "data.anathema", "visibleIf": "{% if data.deityDirectiveFormat != 'text' and data.anathemaText == nil and data.anathema != nil %}true{% endif %}" },
+      { "title": "Divine Attribute", "type": "multiPicker", "attribute": "data.divineAttribute", "attributeType": "DeityAttribute" },
+      { "title": "Divine Attribute Notes", "type": "textArea", "attribute": "data.divineAttributeNotes", "placeholder": "Optional restrictions or special rules", "custom": { "lines": 2 } },
+      { "title": "Divine Font", "type": "list", "attribute": "data.clericFont" },
+      { "title": "Divine Skill", "attribute": "data.divineSkill" },
+      { "title": "Favored Weapon", "type": "list", "attribute": "data.favoredWeapon" },
+      { "title": "Domains", "type": "list", "attribute": "data.domains" },
+      { "title": "Alternate Domains", "type": "list", "attribute": "data.alternateDomains" },
+      { "title": "Cleric Spells", "type": "list", "attribute": "data.spells" }
+    ] },
+    { "title": "Common.Description", "type": "group", "fields": [
+      { "type": "textArea", "attribute": "descr", "custom": { "lines": 10 } }
+    ] }
+  ]
+}

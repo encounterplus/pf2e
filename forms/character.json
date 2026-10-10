@@ -1,36 +1,151 @@
 {
-  "title": "Character",
-  "sections": [
+  "title": "Entity.Character",
+  "tabs": [
     {
-      "type": "group",
-      "fields": [
+      "title": "Character.Main",
+      "icon": "person",
+      "sections": [
         {
-          "title": "Level",
-          "type": "number",
-          "attribute": "data.level"
+          "title": "Character.Identity",
+          "type": "group",
+          "fields": [
+            { "title": "Common.Level", "type": "number", "attribute": "data.level" },
+            { "title": "Entity.Ancestry", "attribute": "data.ancestry" },
+            { "title": "Entity.Heritage", "attribute": "data.heritage" },
+            { "title": "Entity.Background", "attribute": "data.background" },
+            { "title": "Entity.Class", "attribute": "data.class" },
+            { "title": "Entity.Deity", "attribute": "data.deity" }
+          ]
+        },
+        {
+          "title": "Common.BaseTraits",
+          "type": "group",
+          "fields": [
+            { "title": "Common.Size", "type": "picker", "attribute": "data.size", "attributeType": "Size" },
+            { "title": "Common.Traits", "type": "tags", "attribute": "data.traits", "attributeType": "Trait" },
+            { "title": "Common.Languages", "type": "multiPicker", "attribute": "data.languages", "attributeType": "Language" }
+          ]
+        },
+        {
+          "title": "Common.HitPoints",
+          "type": "group",
+          "fields": [
+            { "title": "Character.Maximum", "type": "number", "attribute": "data.hp.maximum" },
+            { "title": "Character.Current", "type": "number", "attribute": "data.hp.current" },
+            { "title": "Character.Temporary", "type": "number", "attribute": "data.hp.temporary" }
+          ]
+        },
+        {
+          "title": "Character.CoreStatistics",
+          "type": "group",
+          "fields": [
+            { "title": "Common.AC", "type": "number", "attribute": "data.ac.value" },
+            { "title": "Creature.Perception", "type": "number", "attribute": "data.perception" },
+            { "title": "Character.Initiative", "type": "number", "attribute": "data.initiative" },
+            { "title": "Character.ClassDC", "type": "number", "attribute": "data.classDC" }
+          ]
+        },
+        {
+          "title": "Common.Movement",
+          "type": "group",
+          "fields": [
+            {
+              "title": "Common.Speed",
+              "type": "form",
+              "text": "{% include \"movement.md\" data.movement %}",
+              "form": { "partial": "movement" }
+            }
+          ]
+        },
+        {
+          "title": "Character.Resources",
+          "type": "group",
+          "fields": [
+            { "title": "Character.HeroPoints", "type": "number", "attribute": "data.heroPoints.current" },
+            { "title": "Character.HeroPointsMaximum", "type": "number", "attribute": "data.heroPoints.maximum" },
+            { "title": "Character.FocusPoints", "type": "number", "attribute": "data.focusPoints.current" },
+            { "title": "Character.FocusPointsMaximum", "type": "number", "attribute": "data.focusPoints.maximum" }
+          ]
         }
       ]
     },
     {
-      "title": "Hit Points",
-      "type": "group",
-      "fields": [
+      "title": "Character.AbilitiesAndSkills",
+      "icon": "flag.fill",
+      "sections": [
         {
-          "title": "Maximum",
-          "type": "number",
-          "attribute": "data.hp.maximum"
+          "title": "Creature.AttributeModifiers",
+          "type": "group",
+          "fields": [
+            {
+              "type": "hStack",
+              "fields": [
+                { "title": "Attribute.STR", "type": "number", "alignment": "top", "attribute": "data.attributes.str" },
+                { "title": "Attribute.DEX", "type": "number", "alignment": "top", "attribute": "data.attributes.dex" },
+                { "title": "Attribute.CON", "type": "number", "alignment": "top", "attribute": "data.attributes.con" },
+                { "title": "Attribute.INT", "type": "number", "alignment": "top", "attribute": "data.attributes.int" },
+                { "title": "Attribute.WIS", "type": "number", "alignment": "top", "attribute": "data.attributes.wis" },
+                { "title": "Attribute.CHA", "type": "number", "alignment": "top", "attribute": "data.attributes.cha" }
+              ]
+            }
+          ]
         },
         {
-          "title": "Current",
-          "type": "number",
-          "attribute": "data.hp.current"
+          "title": "Creature.SavingThrows",
+          "type": "group",
+          "fields": [
+            { "title": "SavingThrow.Fortitude", "type": "number", "attribute": "data.saves.fortitude" },
+            { "title": "SavingThrow.Reflex", "type": "number", "attribute": "data.saves.reflex" },
+            { "title": "SavingThrow.Will", "type": "number", "attribute": "data.saves.will" }
+          ]
         },
         {
-          "title": "Temporary",
-          "type": "number",
-          "attribute": "data.hp.temporary"
+          "title": "Creature.Skills",
+          "type": "group",
+          "fields": [
+            { "title": "Creature.Skills", "type": "attributes", "attribute": "data.skills", "attributeType": "Skill" }
+          ]
         },
+        {
+          "title": "Creature.Attacks",
+          "type": "list",
+          "attribute": "data.attacks",
+          "custom": {
+            "itemTitle": "{{name}}",
+            "itemDetail": "{{type|default: 'melee'|map: 'Attack'}}{% if actions %} • {{actions|map: 'Action'}}{% endif %}{% if attack != nil %} • {{'Common.Attack'|l}} {{attack|signed}}{% endif %}{% if damageParts %}{% for part in damageParts %}{% if forloop.first %} • {% else %}{{part.connector|default: ' + '}}{% endif %}{% if part.name %}{{part.name}}{% else %}{{part.formula}}{% endif %}{% if part.details %} {{part.details}}{% endif %}{% endfor %}{% else %}{% if damage %} • {{damage}}{% endif %}{% endif %}{% if effects %}{% for effect in effects %}{% if forloop.first %} • {% endif %}{{effect.name}}{% if not forloop.last %}, {% endif %}{% endfor %}{% endif %}"
+          },
+          "form": { "title": "Creature.Attack", "partial": "attack" }
+        }
       ]
     },
+    {
+      "title": "Character.Inventory",
+      "icon": "archivebox",
+      "sections": [
+        {
+          "title": "Creature.Items",
+          "type": "group",
+          "fields": [
+            { "placeholder": "Creature.Items", "type": "textArea", "attribute": "data.items" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Character.Spells",
+      "icon": "bolt",
+      "sections": [
+        {
+          "title": "Creature.Spellcasting",
+          "type": "list",
+          "attribute": "data.spellcasting",
+          "custom": {
+            "itemTitle": "{{name}}",
+            "itemDetail": "{% if spellDC != nil and spellDC != '' %}{{'Common.DC'|l}} {{spellDC}}{% endif %}{% if spellAttack != nil and spellAttack != '' %}{% if spellDC != nil and spellDC != '' %} • {% else %}{% endif %}{{'Common.Attack'|l}} {{spellAttack|signed}}{% endif %}{% if focusPoints != nil and focusPoints != '' %}{% if spellDC != nil and spellDC != '' %} • {% else %}{% if spellAttack != nil and spellAttack != '' %} • {% else %}{% endif %}{% endif %}{{'Spellcasting.FocusPoints'|l}} {{focusPoints}}{% endif %}{% for group in spellGroups %}{% if forloop.first %}{% if spellDC != nil and spellDC != '' %} • {% else %}{% if spellAttack != nil and spellAttack != '' %} • {% else %}{% if focusPoints != nil and focusPoints != '' %} • {% else %}{% endif %}{% endif %}{% endif %}{% endif %}{{group.label}}{% if not forloop.last %}, {% endif %}{% endfor %}"
+          },
+          "form": { "title": "Creature.Spellcasting", "partial": "spellcasting" }
+        }
+      ]
+    }
   ]
 }

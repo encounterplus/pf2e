@@ -1,0 +1,405 @@
+[
+  {
+    "id": "50C11BFF-08AA-5984-B40E-5BC86A589734",
+    "kind": "Background",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Aeronaut",
+    "slug": "aeronaut-battlecry",
+    "descr": "Choose two attribute boosts. One must be to **Strength** or **Dexterity**, and one is a free attribute boost.\n\nYou're trained in the Athletics skill and the Piloting Lore skill. You gain the [Assurance](/feat/assurance-player-core) skill feat with Piloting Lore.",
+    "data": {
+      "rarity": "uncommon",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "23370CCE-FA8A-53E2-8A3B-AD0652DD5EFA",
+    "kind": "Background",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Arcane Revolutionary",
+    "slug": "arcane-revolutionary-battlecry",
+    "descr": "Choose two attribute boosts. One must be to **Dexterity** or **Intelligence**, and one is a free attribute boost.\n\nYou're trained in the Arcana skill and the Lore skill related to the settlement you liberated. You gain the [Quick Identification](/feat/quick-identification-player-core) skill feat.",
+    "data": {
+      "rarity": "uncommon",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "40DCD26E-4D70-5057-BAEB-0FF03995E219",
+    "kind": "Background",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Battle Mechanic",
+    "slug": "battle-mechanic-battlecry",
+    "descr": "Choose two attribute boosts. One must be to **Intelligence** or **Wisdom**, and one is a free attribute boost.\n\nYou're trained in the Crafting skill and the Vehicle Lore skill. You gain the [Quick Repair](/feat/quick-repair-player-core) skill feat.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E5498C58-F3D3-5B71-BAC6-A27371760E9C",
+    "kind": "Background",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Battlefield Scrounger",
+    "slug": "battlefield-scrounger-battlecry",
+    "descr": "Choose two attribute boosts. One must be to **Strength** or **Intelligence**, and one is a free attribute boost.\n\nYou're trained in the Crafting skill and the Warfare Lore skill. You gain the [Improvise Tool](/feat/improvise-tool-player-core-2) skill feat.",
+    "data": {
+      "rarity": "uncommon",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "07908A44-CA35-575E-B354-1D258F77E98D",
+    "kind": "Background",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Combat Carpenter",
+    "slug": "combat-carpenter-battlecry",
+    "descr": "Choose two attribute boosts. One must be to **Dexterity** or **Intelligence**, and one is a free attribute boost.\n\nYou're trained in the Crafting skill and the Engineering Lore skill. You gain the [Specialty Crafting](/feat/specialty-crafting-player-core) skill feat.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "56E1C559-C058-5146-8ACA-71457654CA0B",
+    "kind": "Background",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Combat Chaplain",
+    "slug": "combat-chaplain-battlecry",
+    "descr": "Choose two attribute boosts. One must be to **Wisdom** or **Charisma**, and one is a free attribute boost.\n\nYou're trained in the Religion skill and the Lore skill associated with the deity you worship. You gain the [Recognize Spell](/feat/recognize-spell-player-core) skill feat.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "CA194306-FE57-56A6-9914-1AA93356A0A2",
+    "kind": "Background",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Conscript",
+    "slug": "conscript-battlecry",
+    "descr": "Choose two attribute boosts. One must be to **Strength** or **Constitution**, and one is a free attribute boost.\n\nYou're trained in the Society skill and the Warfare Lore skill. You gain the [Dubious Knowledge](/feat/dubious-knowledge-player-core) skill feat.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "476DCF60-4141-5469-AA9D-1FA0E85847F6",
+    "kind": "Background",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Martial Musician",
+    "slug": "martial-musician-battlecry",
+    "descr": "Choose two attribute boosts. One must be to **Dexterity** or **Charisma**, and one is a free attribute boost.\n\nYou're trained in the Performance skill and the Warfare Lore skill. You gain the [Impressive Performance](/feat/impressive-performance-player-core) skill feat.",
+    "data": {
+      "rarity": "uncommon",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0879F1FF-138A-5C6E-8CBC-C7F84B3459F0",
+    "kind": "Background",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Plague Doctor",
+    "slug": "plague-doctor-battlecry",
+    "descr": "Choose two attribute boosts. One must be in **Constitution** or **Wisdom**, and one is a free attribute boost.\n\nYou're trained in the Medicine skill and the Herbalism Lore skill. You gain the [Inoculation](/feat/inoculation-player-core-2) skill feat.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "6490899E-ABED-5952-AADB-CA1BB792CA88",
+    "kind": "Background",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Quartermaster",
+    "slug": "quartermaster-battlecry",
+    "descr": "Choose two attribute boosts. One must be to **Intelligence** or **Charisma**, and one is a free attribute boost.\n\nYou're trained in the Intimidation skill and the Legal Lore skill. You gain the [Intimidating Glare](/feat/intimidating-glare-player-core) skill feat.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3E5A9A06-5E14-5CDB-B75F-34B0B07CE549",
+    "kind": "Background",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Report Runner",
+    "slug": "report-runner-battlecry",
+    "descr": "Choose two attribute boosts. One must be to **Strength** or **Wisdom**, and one is a free attribute boost.\n\nYou're trained in the Nature skill and the Stabling Lore skill. You gain the [Express Rider](/feat/express-rider-player-core-2) skill feat.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "CD59F0C1-0C51-59B0-B800-A3C8C420489E",
+    "kind": "Background",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Veteran",
+    "slug": "veteran-battlecry",
+    "descr": "Choose two attribute boosts. One must be to **Constitution** or **Wisdom**, and one is a free attribute boost.\n\nYou're trained in the Athletics skill and the Warfare Lore skill. You gain the [Armor Assist](/feat/armor-assist-player-core-2) skill feat.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "856F47CD-7AD6-5CD3-9358-CF6BD75D4AA0",
+    "kind": "Background",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "War Orphan",
+    "slug": "war-orphan-battlecry",
+    "descr": "Choose two attribute boosts. One must be to **Dexterity** or **Constitution**, and one is a free attribute boost.\n\nYou're trained in the Thievery skill and the Underworld Lore skill. You gain the [Dirty Trick](/feat/dirty-trick-player-core-2) skill feat.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "battlecry",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "battlecry",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "Battlecry!"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

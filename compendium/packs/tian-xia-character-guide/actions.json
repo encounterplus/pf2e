@@ -1,0 +1,381 @@
+[
+  {
+    "id": "4C6B6172-9B4A-5770-ADA5-44E37CCD035C",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Crab Cannon",
+    "slug": "crab-cannon-tian-xia-character-guide-action-action-2974",
+    "descr": "---\n\nYour durian crab curls itself up tightly, taking the shape of a ball. It then launches itself with its powerful claw at a target within 20 feet. When it lands, it makes a claw [Strike](/action/strike-player-core), except the damage is bludgeoning instead of piercing. On a hit, the target becomes [dazzled](/condition/dazzled-player-core) for 1 round and the Strike deals an additional 1d8 damage, or 2d8 additional damage if your crab is [specialized](/rule/specialized-animal-companions-rules-2120).",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "action",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "two",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "tian-xia-character-guide",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "action",
+      "remaster",
+      "tian-xia-character-guide"
+    ],
+    "sources": [
+      {
+        "name": "Tian Xia Character Guide",
+        "url": "https://2e.aonprd.com/Actions.aspx?ID=2974",
+        "page": 122
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "A9B3BD99-4CE7-5DCF-8256-4952481ADFA5",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Create Familiar Fulu",
+    "slug": "create-familiar-fulu-tian-xia-character-guide-action-action-2945",
+    "descr": "**Frequency** once per day or greater\n\n**Requirements** Your familiar is within 30 feet, and you have one hand free\n\n([concentrate](/trait/concentrate), [manipulate](/trait/manipulate)) You make a pinching motion, and your familiar dissolves into magical energy that re-forms between your fingers as a fulu magical item. The fulu must be at least two levels lower than your level, and you don’t need to spend the normal monetary cost in magical components or attempt a Crafting check. You can then choose to [Affix a Talisman](/action/affix-a-talisman-gm-core) as part of this activity to affix your familiar fulu. While transformed, your familiar doesn’t grant its normal benefits, and it remains transformed until your next daily preparations or until you Activate the fulu, at which point your familiar reappears in an unoccupied space adjacent to you.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "action",
+      "frequency": "once per day or greater",
+      "requirements": "Your familiar is within 30 feet, and you have one hand free",
+      "trigger": "",
+      "actions": "two",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "tian-xia-character-guide",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "action",
+      "remaster",
+      "tian-xia-character-guide"
+    ],
+    "sources": [
+      {
+        "name": "Tian Xia Character Guide",
+        "url": "https://2e.aonprd.com/Actions.aspx?ID=2945",
+        "page": 116
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "37016639-C59D-5C10-84A9-53954DE4B852",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Defensive Curl",
+    "slug": "defensive-curl-tian-xia-character-guide-action-action-2975",
+    "descr": "---\n\nThe hermit krait pulls its heads into its shell to protect itself. It gains a +2 circumstance bonus to AC and a +4 circumstance bonus to any check to pretend to be a mundane shell. Any creature that hits the hermit krait with a melee unarmed attack while it’s in its Defensive Curl takes 2d6 [persistent poison damage](/condition/persistent-damage-player-core) as one of the krait’s heads lashes out from within the shell. While in its shell, the hermit krait can’t [move](/trait/move) or take other actions that require using its limbs, but it can extend out of the shell as a single action, ending the effects of Defensive Curl.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "action",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "tian-xia-character-guide",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "action",
+      "remaster",
+      "tian-xia-character-guide"
+    ],
+    "sources": [
+      {
+        "name": "Tian Xia Character Guide",
+        "url": "https://2e.aonprd.com/Actions.aspx?ID=2975",
+        "page": 122
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "843E2A6A-4F6C-58FE-9110-1DAC9063729B",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Disarming Interception",
+    "slug": "disarming-interception-tian-xia-character-guide-action-action-2944",
+    "descr": "**Trigger** An enemy within your reach targets you or an ally with a weapon Strike\n\n**Requirements** You have your fist positioned to parry\n\nYou attempt to [Disarm](/action/disarm-player-core) the weapon the enemy is attacking with. You gain a +2 status bonus to this Disarm check, and if the check is successful, the triggering attack is disrupted. If the Disarm attempt is a critical success and you have a hand free, you can catch the disarmed weapon in your hand instead of it falling to the ground in the target's space.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "action",
+      "frequency": "",
+      "requirements": "You have your fist positioned to parry",
+      "trigger": "An enemy within your reach targets you or an ally with a weapon Strike",
+      "actions": "reaction",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "tian-xia-character-guide",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "action",
+      "remaster",
+      "tian-xia-character-guide"
+    ],
+    "sources": [
+      {
+        "name": "Tian Xia Character Guide",
+        "url": "https://2e.aonprd.com/Actions.aspx?ID=2944",
+        "page": 93
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "C7B95171-48F0-5D08-9844-21FFA1A73DE0",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Enlightenment in Adversity",
+    "slug": "enlightenment-in-adversity-tian-xia-character-guide-action-action-2935",
+    "descr": "**Frequency** once per day\n\n**Trigger** You critically fail a skill check with a skill you gained from the [banished celestial](/background/banished-celestial-tian-xia-character-guide-background-background-483) background\n\nThe next time you attempt a skill check using the skill that triggered this ability within the next minute, roll twice and take the higher result.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "action",
+      "frequency": "once per day",
+      "requirements": "",
+      "trigger": "You critically fail a skill check with a skill you gained from the banished celestial background",
+      "actions": "reaction",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "tian-xia-character-guide",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "action",
+      "remaster",
+      "tian-xia-character-guide"
+    ],
+    "sources": [
+      {
+        "name": "Tian Xia Character Guide",
+        "url": "https://2e.aonprd.com/Actions.aspx?ID=2935",
+        "page": 12
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "174A66CF-8A5E-5EB0-ABC6-E5EF63988944",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Flower Dance",
+    "slug": "flower-dance-tian-xia-character-guide-action-action-2976",
+    "descr": "---\n\nThe sundaflora stands tall on its hind legs and begins to wave and dance, showing off its dazzling beauty to distract your attackers. It attempts to [Feint](/action/feint-player-core) the target creature, using its Performance skill instead of Deception. If successful (or critically successful), the target is [off-guard](/condition/off-guard-player-core) to you, rather than to your sundaflora.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "move",
+        "visual"
+      ],
+      "category": "action",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "move",
+          "slug": "move"
+        },
+        {
+          "label": "visual",
+          "slug": "visual"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "tian-xia-character-guide",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "action",
+      "move",
+      "remaster",
+      "tian-xia-character-guide",
+      "visual"
+    ],
+    "sources": [
+      {
+        "name": "Tian Xia Character Guide",
+        "url": "https://2e.aonprd.com/Actions.aspx?ID=2976",
+        "page": 123
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "3F588FC2-3335-5EED-9550-C73D757DAD75",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Name Drop",
+    "slug": "name-drop-tian-xia-character-guide-action-action-2936",
+    "descr": "**Frequency** once per day\n\n**Trigger** You fail or critically fail a Deception, Diplomacy, Intimidation, or Society check\n\nReroll the skill check. You must use the second result, even if it’s worse.",
+    "data": {
+      "rarity": "common",
+      "traits": [
+        "auditory",
+        "fortune"
+      ],
+      "category": "action",
+      "frequency": "once per day",
+      "requirements": "",
+      "trigger": "You fail or critically fail a Deception, Diplomacy, Intimidation, or Society check",
+      "actions": "reaction",
+      "traitLinks": [
+        {
+          "label": "auditory",
+          "slug": "auditory"
+        },
+        {
+          "label": "fortune",
+          "slug": "fortune"
+        }
+      ]
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "tian-xia-character-guide",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "action",
+      "auditory",
+      "fortune",
+      "remaster",
+      "tian-xia-character-guide"
+    ],
+    "sources": [
+      {
+        "name": "Tian Xia Character Guide",
+        "url": "https://2e.aonprd.com/Actions.aspx?ID=2936",
+        "page": 12
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "F7C25223-A80A-51BA-AA44-2A0D8FEB9E39",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Raging Stampede",
+    "slug": "raging-stampede-tian-xia-character-guide-action-action-2978",
+    "descr": "---\n\nThe yzobu [Strides](/action/stride-player-core) and then makes a horn [Strike](/action/strike-player-core). If the Strike hits, the target is pushed 10 feet.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "action",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "two",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "tian-xia-character-guide",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "action",
+      "remaster",
+      "tian-xia-character-guide"
+    ],
+    "sources": [
+      {
+        "name": "Tian Xia Character Guide",
+        "url": "https://2e.aonprd.com/Actions.aspx?ID=2978",
+        "page": 123
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "79A5489C-286B-51AF-BF3A-444198B71A86",
+    "kind": "Action",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Wrapping Tendrils",
+    "slug": "wrapping-tendrils-tian-xia-character-guide-action-action-2977",
+    "descr": "---\n\nThe urchinpad makes another tendril [Strike](/action/strike-player-core) against the same target. If this Strike hits, the target is also [grabbed](/condition/grabbed-player-core), as if the urchinpad had successfully [Grappled](/action/grapple-player-core) the target.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "category": "action",
+      "frequency": "",
+      "requirements": "",
+      "trigger": "",
+      "actions": "one",
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "tian-xia-character-guide",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "action",
+      "remaster",
+      "tian-xia-character-guide"
+    ],
+    "sources": [
+      {
+        "name": "Tian Xia Character Guide",
+        "url": "https://2e.aonprd.com/Actions.aspx?ID=2977",
+        "page": 123
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  }
+]

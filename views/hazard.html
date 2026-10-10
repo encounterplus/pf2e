@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+{% block content %}
+<main id="hazard" class="container-fluid">
+  <section class="stat-block">
+    <div class="header">
+      <h1 class="title">{{name}}</h1>
+      <div>HAZARD {{data.level|default: '0'}}</div>
+    </div>
+
+    <div class="traits">
+      {% if data.rarity and data.rarity != 'common' %}
+      <a class="trait trait-rarity-{{data.rarity}}" href="/trait/{{data.rarity}}">{{data.rarity|map: 'Rarity'}}</a>
+      {% endif %}
+
+      {% if data.traitLinks %}
+        {% for trait in data.traitLinks %}
+        {% if trait.slug %}<a class="trait" href="/trait/{{trait.slug}}">{{trait.label}}</a>{% else %}<span class="trait">{{trait.label}}</span>{% endif %}
+        {% endfor %}
+      {% else %}
+        {% for trait in data.traits %}
+        <a class="trait" href="/trait/{{trait}}">{{trait}}</a>
+        {% endfor %}
+      {% endif %}
+    </div>
+
+    <div class="stat-section">
+      {% markdown -%}
+      {% include "hazard-stats.md" %}
+      {% endmarkdown %}
+    </div>
+
+    {% if descr %}
+    <hr>
+    {{descr|md}}
+    {% endif %}
+  </section>
+
+  <section class="other">
+    {% if notes %}
+    <h3>{{'Common.Notes'|l}}</h3>
+    {{notes|md}}
+    {% endif %}
+
+    {% if image %}
+    <a href="{{env.dataURL}}{{image}}" target="_blank"><img style="width: 100%" src="{{env.dataURL}}{{image}}" /></a>
+    {% endif %}
+  </section>
+
+  {% include "footer.html" %}
+</main>
+{% endblock %}

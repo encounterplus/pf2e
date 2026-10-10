@@ -1,0 +1,2646 @@
+[
+  {
+    "id": "1ED36A7A-31BD-5AC6-8216-D1DCEB8430C0",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Ability Modifiers",
+    "slug": "ability-modifiers-rules-1607",
+    "type": "attribute",
+    "descr": "A construct companion begins with base ability modifiers of Str +3, Dex +3, Con +2, Int –4, Wis +1, Cha +0.",
+    "data": {
+      "type": "attribute",
+      "breadcrumbs": [
+        "Gears Characters",
+        "Construct Companions",
+        "Prototype Construct Companions"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=1607"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "attribute",
+      "construct-companions",
+      "gears-characters",
+      "guns-and-gears-remastered",
+      "prototype-construct-companions",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)",
+        "page": 32,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=1607"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F4C52F42-C5D9-5B2E-84D0-ABC7104CBF71",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Access Entries",
+    "slug": "access-entries-rules-1637",
+    "type": "other",
+    "descr": "Most of the rules content in this book is [uncommon](/trait/uncommon) or [rare](/trait/rare) because such technology is unusual in Golarion. However, sometimes a stat block for an uncommon rules element includes an Access entry that lists specific criteria. A character who meets the criteria listed in the Access entry, such as hailing from a particular locale, gains access to the rules element. This book often groups access requirements by section. For example, the introduction to the Gears Characters chapter (page 12) details the areas of Golarion that grant access to the [inventor](/class/inventor-guns-and-gears-remastered) class and its related uncommon weapons and gadgetry, so the areas detailed there as granting access serve the role of access requirements for most of the section (not including rare items and certain other elements called out as needing additional approval from the GM, such as vehicles).\n\n As always, the GM has the final say on who can access uncommon or rarer options or whether to allow specific options in the game at all. They might decide that a character's upbringing or abilities make sense for a specific rules option and grant them access even if the character doesn't automatically qualify, or they might decide those same options can't be taken by anyone.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Introduction",
+        "How to Use this Book"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=1637"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "how-to-use-this-book",
+      "introduction",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)",
+        "page": 5,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=1637"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E6B78E88-4B61-5538-BDE2-1E3F74EC2122",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Acting in Concert",
+    "slug": "acting-in-concert-rules-1629",
+    "type": "other",
+    "descr": "Because portable siege weapons require coordination, operating one requires following a crew leader. The rest of the crew must [Ready](/action/ready-player-core) an action to be taken when the crew leader calls to attack with the siege weapon. The siege weapon's special activity lists what action they need to Ready. For example, all of the crew operating a battering ram—except the crew leader—need to Ready to Stride. Each portable siege weapon has a special activity the crew leader can take if all the rest of the crew have Readied the necessary action. The number of actions it requires and the other specifics can vary greatly depending on what it takes to operate the weapon. It typically requires the crew leader to make a Strike.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Gears Equipment",
+        "Siege Weapons",
+        "Portable Siege Weapons"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=1629"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gears-equipment",
+      "guns-and-gears-remastered",
+      "other",
+      "portable-siege-weapons",
+      "remaster",
+      "rule",
+      "siege-weapons"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)",
+        "page": 73,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=1629"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4F74870C-2FDF-599B-84F3-74D47A5343C9",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Advanced Construct Companions",
+    "slug": "advanced-construct-companions-rules-1612",
+    "type": "other",
+    "descr": "To advance a prototype construct companion to an advanced construct companion (usually a result of one of your class feat choices), make the following adjustments.\n\n- Increase its Strength, Dexterity, Constitution, and Wisdom modifiers by 1.\n- Increase its unarmed attack damage from one die to two dice (for instance, 1d8 to 2d8).\n- Increase its proficiency rank for Perception and all saving throws to expert.\n- Increase its proficiency ranks in Intimidation, Stealth, and Survival to trained. If the construct is your innovation and it was already trained in those skills from a modification, increase its proficiency rank in those skills to expert.\n- You can change your companion's Size, if you want, to either Small, Medium, or Large.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Gears Characters",
+        "Construct Companions"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=1612"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "construct-companions",
+      "gears-characters",
+      "guns-and-gears-remastered",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)",
+        "page": 33,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=1612"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "BD598BAB-2A58-5C00-98A7-8636DD0324B5",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Aiming",
+    "slug": "aiming-rules-1624",
+    "type": "other",
+    "descr": "A cumbersome mounted siege weapon can't be Aimed in a moment like a bow could be. A member of the weapon's crew needs to take the Aim activity to adjust a mounted siege weapon's aim. At a given time, the weapon is Aimed in a particular way, depending on the target or area the weapon uses.\n\n- **Single Target**: Aimed at one square\n- **Burst**: Aimed at one grid corner (that will be the center of the burst)\n- **Cone or Line**: Aimed in a particular direction, to the nearest 45º angle.\n When a siege crew member takes the Aim activity, they can move the aim of a mounted siege weapon only a certain distance (or rotate the weapon a certain amount for a cone or line). Typically, the aim for a single target or burst can't be placed too close to the weapon due to the arc in which the weapon shoots. The distance moved or rotated can be found in each weapon's stat block, as is the minimum distance, if applicable. The Launch entry notes whether the attack is against a single target or in a burst, cone, or line.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Gears Equipment",
+        "Siege Weapons",
+        "Mounted Siege Weapons"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=1624"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gears-equipment",
+      "guns-and-gears-remastered",
+      "mounted-siege-weapons",
+      "other",
+      "remaster",
+      "rule",
+      "siege-weapons"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)",
+        "page": 72,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=1624"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5D0F087D-109C-5E6B-9D01-170A0FA8E10B",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Alchemy's Influence on Technology",
+    "slug": "alchemy-s-influence-on-technology-rules-1642",
+    "type": "other",
+    "descr": "Considering that certain technologies have seen more refinement or followed divergent development paths on Golarion in comparison to Earth, the influence of alchemy on Golarion's technology can't be understated. In addition to enabling the creation of elemental weapons, such as alchemist's fire and bottled lightning, alchemical techniques have often been applied to a variety of other fields and industries. Alchemical treatments for armor can create stronger materials; alchemical distillations allow for a variety of different forms and potencies in black powder; alchemy and the people who practice it even influence the most basic of needs, like preserving volatile substances for transport.\n\n Much like firearms, alchemy is something of an everyman's tool, usable by most anyone who can get their hands on its components without requiring the specialized training or unique bloodlines of wizards and sorcerers. A single alchemist who makes their home in a community can quickly improve the quality of life for everyone there, reducing death by disease, improving the community's ability to defend itself from outside threats, and providing other benefits both large and small. While it stands as a distinct science of its own, alchemy inextricably has ties to black powder weapons and other technologies of Golarion, enabling the development of sturdier metals and more volatile explosives to allow creations on a grand scale. For example, while steam technology is extremely new on Golarion, steam engines are much more likely to use alchemically derived heat sources than the coal furnaces used in our world.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Introduction",
+        "World-Building and Tone"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=1642"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "introduction",
+      "other",
+      "remaster",
+      "rule",
+      "world-building-and-tone"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)",
+        "page": 7,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=1642"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "EF24C8E4-ED5A-5FE9-AE93-70E74FB17CD1",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Ammunition",
+    "slug": "ammunition-rules-1650",
+    "type": "other",
+    "descr": "Firearms require ammunition consisting of a projectile and black powder. A round of ammo can vary in its composition but is typically either a prepackaged paper cartridge, including wadding, bullet, and black powder, or loose shot packed in manually. Some weapons, like hand cannons and blunderbusses, can fire other materials, but their ammunition has the same Price due to the cost of the black powder. Because making rounds of firearm ammunition requires creating black powder, you need the [Alchemical Crafting](/feat/alchemical-crafting-player-core) skill feat to make them. Firearm rounds are a valid option for magical ammunition, just like arrows or bolts. Crafting magical firearm ammunition requires you to be able to craft both alchemical and magical items.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Guns Equipment",
+        "Classic Firearms"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=1650"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "classic-firearms",
+      "guns-and-gears-remastered",
+      "guns-equipment",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)",
+        "page": 150,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=1650"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1BE7ED42-5151-5433-B8CF-E169B34C9DD7",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Aren't Guns More Powerful than Bows?",
+    "slug": "aren-t-guns-more-powerful-than-bows-rules-1640",
+    "type": "other",
+    "descr": "The guns presented in this book are representative of fairly early firearms with just a few unique twists, as explained in the introduction of the Guns Equipment chapter (page 146). Those old guns, which used black powder that did not exhibit the refinements of modern ammunition and lacked the rifle barrel technology for increasing range and accuracy, were extremely inaccurate and no more lethal with a glancing blow than most bows and crossbows; however, these firearms' penetrating power was superior, and a wound to a vital area could prove incredibly deadly. This lethality is represented mechanically by the [fatal](/trait/fatal) trait given to most firearms, with a critical hit indicating a gunshot to a vital organ or other important body part. This mechanic allows a firearm to do far more damage in the correct circumstances than a weapon with a similar damage die while still maintaining a balanced gaming ecosystem that allows each player to shine.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Introduction",
+        "World-Building and Tone"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=1640"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "introduction",
+      "other",
+      "remaster",
+      "rule",
+      "world-building-and-tone"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)",
+        "page": 6,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=1640"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "99C1BD5F-2605-5023-BBDF-D54D49D9217A",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Armor and Persistent Technology",
+    "slug": "armor-and-persistent-technology-rules-1641",
+    "type": "other",
+    "descr": "In Golarion, technology has moved much slower than on Earth. Many modern conveniences still have yet to be invented or discovered. That doesn't mean technology has stood still, however. Because certain types of technology persisted for centuries on Golarion instead of being replaced as they were on Earth, many fantastic innovations remain prevalent since competing technologies developed more slowly or didn't spread as quickly.\n\n While clockwork dragons and alchemical boots that rocket their wearer through the sky are manifestations of less frequent technological replacement, many other, more subtle examples are scattered throughout the game. At its height in the 16th century, a suit of full plate could stop even the penetrating power, if not the full force, of a shot from a firearm, though its expense and weight made it impractical for all but the wealthiest of individuals. Golarion, on the other hand, is a fantasy world where dragons and other supernatural monsters with destructive power akin to or in excess of a firearm are relatively common, and where adventurers accrue great wealth that they constantly reinvest into better arms and armor. Moreover, Golarion's armaments can be enhanced with magical runes that elevate them far beyond anything that could be replicated on Earth without the application of advanced technology from beyond the age of swords and plate armor.\n\n Similarly for lighter armors, on Earth, techniques for incorporating silk that can stop bullets from penetrating into armor and other techniques for creating bullet-resistant armaments, such as painting layers of paper with lacquer to create a rudimentary analogue to modern-day Kevlar, have existed for a very long time, but didn't often come into popular use before evolving into a form that is no longer recognizable. Several nations in Tian Xia have techniques for creating black powder weapons, like the hand cannon and fire lance, and lacquered armor. The intersection of these technologies means it's not unlikely to find variants of studded leather armor or chainmail lined with layers of such early bulletproofing. In Avistan and the Inner Sea, knights who have encountered firearms imported or stolen from Alkenstar likely know armorers who know techniques to craft layered plates and silk surcoats or undergarments that provide additional protection from bullets.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Introduction",
+        "World-Building and Tone"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=1641"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "introduction",
+      "other",
+      "remaster",
+      "rule",
+      "world-building-and-tone"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)",
+        "page": 7,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=1641"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "FF1831B1-9464-5C71-92A6-0E0E1154C5A1",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Beast Guns",
+    "slug": "beast-guns-rules-1652",
+    "type": "other",
+    "descr": "Arcadia's history of gunsmithing goes back centuries, and Arcadia may very well have been the first continent on Golarion in which firearms were developed. While Arcadia's Deadshot Lands are famous for their rare and prestigious skymetal guns, patterned after the star guns of old, more common in other regions are beast guns, created as part of a long-standing rite of passage.\n\n While they don't look much like ancient star guns and use a different kind of magic, beast guns are particularly notable in that, like star guns, they rely on magic rather than black powder. Beast guns can produce unique effects beyond simply damaging their targets.\n\n Beast guns aren't loaded with the same ammunition as other guns, but they do still use ammunition, rather than shooting magical energy like a star gun. This ammunition comes as specially designed rounds, such as miniature tentacles fired from the _tentacle gun_ or javelin-like spikes from the _spike gun_. Unless otherwise stated, these rounds come in packs of 10 that cost 1 sp and have light Bulk. The only weapon in this section that works significantly differently is the [_growth gun_](/item/growth-gun-guns-and-gears-remastered), which grows back a gob of its own ammunition once per round, ensuring you always have enough ammunition to fire a shot every round.\n\n Monster hunters of all kinds roam Arcadia slaying beasts and harvesting their body parts to produce new beast guns, both new examples of established models and brand new types never seen or imagined before. Even after thousands of years, innovators expand the possibilities of what a beast gun can do.\n\n The following pages contain a small sample of the many kinds of beast guns crafted in Arcadia. Each beast gun is a specific magic item. You can find more information on the ritual used in hunting the beasts to create a beast gun on page 130.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Guns Equipment",
+        "Fantasy Firearms"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=1652"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "fantasy-firearms",
+      "guns-and-gears-remastered",
+      "guns-equipment",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)",
+        "page": 154,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=1652"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "BEC534B2-4AB6-50AE-852E-1F961DB14C98",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Black Powder Siege Weapons",
+    "slug": "black-powder-siege-weapons-rules-1656",
+    "type": "other",
+    "descr": "The advent of black powder is beginning to offer a new sort of weapon to warriors in Golarion, one that isn't dependent on the physical strength of the wielder. Siege weapons like ballistae and trebuchets create tremendous force at a distance with the efforts of multiple operators, allowing for destructive power to rival even mighty spellcasters. Black powder siege weapons take the potential of such machines of war and amplify it to the next level, adding explosive power to the cooperative efforts of the crew. In addition to the force of the black powder ignition itself, black powder siege weapons are able to funnel and direct the energy through a reinforced barrel or muzzle in ways torsion and counterweights cannot, increasing the accuracy, range, and impact of the weapon.\n\n Siege weapons of all kinds operate largely the same way whether they incorporate black powder in their design or not. The Aiming, Loading, Launching, and Move Siege Weapon actions are all identical to the rules found on page 72. The most notable change is the chance of misfire; just like a firearm, improper use, inadequate cleaning, and a number of other factors can lead to deficiencies in a piece of artillery. The construction of the weapons and ammunition are also more expensive and harder to find due to the more advanced makeup.\n\n## Chain Shot\n\nA special type of ammunition for siege weapons, chain shot is built to demolish masts, sails, and airship gasbags. Each chain shot costs 2 gp. It resembles a cannonball in shape and can be loaded only into a siege weapon that hurls stones or similar ammunition. When launched, the ball divides into its two halves, connected by a sturdy chain.\n\n When a siege weapon launches chain shot, it targets one object instead of using its normal targets or area. The target takes no damage, but on a failed Reflex save, the object's mast, sail, or gasbag becomes broken. The pilot can attempt a piloting check in place of this Reflex save. A broken mast, sail, or gasbag prevents a wind- propelled vessel from moving, except by other means of propulsion if available. For instance, a galley could still be rowed if it had enough rowers. An airship with a broken gasbag instead begins to slowly descend as it leaks gas, automatically descending 20 feet at the start of each of the pilot's turns.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Guns Equipment"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=1656"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "guns-equipment",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)",
+        "page": 172,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=1656"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "AAA9E6ED-A662-5904-8B77-FA911EB250EC",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Borders and Change",
+    "slug": "borders-and-change-rules-1645",
+    "type": "other",
+    "descr": "When constructing a fantasy world or playing in a world like Golarion where wizards live next door to gunslingers and even the most magical of realms might have technological clockwork soldiers and other scientific discoveries that simulate, enhance, or even replace magic—it can become hard to picture how all these disparate elements coexist alongside each other. Why don't firearms get adopted by other nearby nations? Why would someone spend vast troves of gold to build a clockwork dragon when they could teleport an egg away from a nest and get the real thing much more cheaply?\n\n There are quite a few possible answers to these questions, and figuring out those answers can help make your campaign setting more vibrant and relatable. To start, we'll talk about some of the ways in which Golarion answers these questions before diving into ways to integrate these kinds of themes deeper into your own original setting.\n\n Dongun Hold and Alkenstar are strong examples of areas in Golarion that can have a technology level that's significantly above the average technology level for the rest of the world, without undermining or significantly changing the general dynamics of Golarion and nearby regions. Wedged between two warring nations ruled by wizard kings, Alkenstar and Dongun Hold have no significant ports of their own and are surrounded by a wasteland filled with mutants and monsters. Moreover, the ancient magical wars that scarred the Mana Wastes also created pockets of unstable magic or magical dead zones where magic remains unreliable at best and virtually nonexistent at worst. As a result, it makes sense that the hearty smiths of Dongun Hold craft firearms as the primary method to protect themselves from dangerous creatures and threats, as does the fact that the weapons have remained available only in this small region of the Inner Sea until quite recently.\n\n In your homebrew world, you can use similar levers to partition the different countries and regions you create according to similar circumstances, or you can use completely different options as appropriate. For example, if your campaign world is one in which firearms exist but are limited to a very specific part of the world, ask yourself _why_ these weapons have been restricted. Is there a powerful organization that relies on its stranglehold over the secrets of firearm production to protect its interests? Perhaps magic is so prevalent that only a rare, aberrant individual who lacks a talent for magic would be interested in pursuing technological advancements. Maybe the dynamics of the world itself comes into play; for example, some element in the atmosphere or properties of the metals drawn from below the surface resist being shaped and manipulated to the degree necessary for creating firearms or other technological weapons and gadgets, so the only way to obtain such items is to purchase them from extraplanar merchants who import them from distant planes. The possibilities are endless, and it doesn't matter so much what reason you decide on, as long as you have some understanding of how the world you create weaves together.\n\n Of course, your world could also be a wild and boundless convergence of planar nexuses, where gunslingers fight alongside sword-swinging knights and psychic snakes. Anything is possible and only needs to make as much sense as is required for you and your friends to enjoy yourselves and tell the kinds of stories you want!",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Introduction",
+        "World-Building and Tone"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=1645"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "introduction",
+      "other",
+      "remaster",
+      "rule",
+      "world-building-and-tone"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)",
+        "page": 9,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=1645"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "61CC1328-8F02-58C1-B18D-EFC0FBFF49FD",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Bulk",
+    "slug": "bulk-rules-1631",
+    "type": "other",
+    "descr": "A portable siege weapon has a Bulk entry. This is primarily used when someone is carrying the portable siege weapon around. When it's being used by a crew, this Bulk is distributed among them as they see fit, and it's usually not worth tracking the Bulk unless they're already heavily loaded. If characters try to have more than one of them carry the portable siege weapon when it's not being used (dragging it around a dungeon, for example), this is cumbersome, and they're [encumbered](/condition/encumbered-player-core) due to the challenge of constantly coordinating their movement.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Gears Equipment",
+        "Siege Weapons",
+        "Portable Siege Weapons"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=1631"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gears-equipment",
+      "guns-and-gears-remastered",
+      "other",
+      "portable-siege-weapons",
+      "remaster",
+      "rule",
+      "siege-weapons"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)",
+        "page": 74,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=1631"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3E11402E-D1C0-5322-BC50-E3E168BAD371",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Character Options",
+    "slug": "character-options-rules-1647",
+    "type": "other",
+    "descr": "Guns and the people who use them remain [uncommon](/trait/uncommon) in the world of Golarion, as the technology required to produce firearms and black powder is limited to a few technological strongholds scattered across the globe. Despite their rarity, or perhaps because of it, firearms leave a lasting impression on those who witness their destructive power and startling impact. Residents of the Inner Sea from outside of the Impossible Lands who behold a gunslinger or other wielder of firearms in action might undertake a pilgrimage to Alkenstar and attempt to negotiate with the Alkenstar Gunworks in order to obtain one of these unusual but potent weapons for themselves.\n\n Even people who never see or obtain a firearm might have a compelling reason to take these options, however. Crossbows are vastly more common than firearms but serve a similar purpose and can be put to many of the same uses. An artillerist leading a cannon team in Alkenstar might have a counterpart in Taldor who uses similar abilities with catapults. The sniping duos who use their arquebuses to guard the walls of Alkenstar from monsters in the Mana Wastes are not terribly different than the elven archers who patrol the forests of Kyonin and brave the demon-haunted swamps of Tanglebriar. In the islands of the Shackles, pirate captains fight with swords and pistols while their crew, most of whom can't afford a rare and expensive handgun, might use the same combat style with a similar weapon such as a crossbow or hand crossbow.\n\n While firearms are still relatively rare in the Inner Sea, the stories they inspire and the combat styles that incorporate them have spread faster than the technology itself. Snipers, drifters, weapon performers, and more have a place in Golarion that is larger than the impact of firearms alone. Even if your world or region doesn't include guns, there might be options perfect for your next character in this section. The options presented here can add new choices and exciting abilities for characters of any campaign world, regardless of the setting's technology level.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Guns Characters"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=1647"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "guns-characters",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)",
+        "page": 121,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=1647"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2A5086B6-D004-5BF2-9D8A-43DB279FCCE7",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Classic Firearms",
+    "slug": "classic-firearms-rules-1649",
+    "type": "other",
+    "descr": "The following rules [cover](/rule/cover-rules-2372) the use of firearms and includes the firearms and ammunition types available. All firearms are subject to misfires if they're not properly maintained, as described in the sidebar.\n\n The [clan pistol](/feat/clan-pistol-guns-and-gears-remastered) and [dwarven scattergun](/item/dwarven-scattergun-guns-and-gears-remastered) have the [dwarf](/trait/dwarf) trait, the mithral tree has the [elf](/trait/elf) trait, and the [flingflenser](/item/flingflenser-guns-and-gears-remastered) has the [goblin](/trait/goblin) trait. However, feats such as [Dwarven Weapon Familiarity](/feat/dwarven-weapon-familiarity-player-core), which normally grants access to all uncommon weapons with the dwarf trait, don't grant access to firearms with the listed traits unless the character separately has access to firearms. For instance, dwarves who've never seen a firearm and then train in traditional dwarven weapons don't have access to clan pistols and dwarven scatterguns. You can find more information on this and other firearm access details on page 148.\n\n## Misfires\n\nFirearms that are improperly maintained or subjected to unusual strain can misfire. If you attempt to fire a firearm that was fired the previous day or earlier and hasn't been cleaned since then, roll a DC 5 flat check before making your attack roll. If you fail this misfire check, the weapon misfires and jams. The attack is an automatic critical failure, and you must use an [Interact](/action/interact-player-core) action to clear the jam before you can reload the weapon and fire again. Once you have spent at least an hour cleaning a weapon, you don't need to roll for a misfire until the next day unless an effect says otherwise. You can clean multiple firearms during this hour, up to a reasonable limit as determined by the GM (typically no more than five).\n\n Some abilities cause a weapon to misfire as part of their effects. If such a misfire happens as a result of an attack (due to an action that causes a misfire on a failed attack, for example), it retroactively makes the attack a critical failure.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Guns Equipment"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=1649"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "guns-equipment",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)",
+        "page": 150,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=1649"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "CBFC570B-A7AD-519D-84DE-8F34ABCEF5A8",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Clockwork Technology",
+    "slug": "clockwork-technology-rules-1618",
+    "type": "other",
+    "descr": "Clockwork technology is the least rare technology in this book, though it's still quite uncommon. Clockwork represents, if not a majority of the new inventions, then at least a plurality, spurred by cutting-edge research at the Clockwork Cathedral in Absalom and the return of New Thassilon, which surfaced some of the secrets of clockwork discovered by the ancient empire's first emperor, Xin. Most clockwork items need to be wound in order to work, but aside from a few extraordinary devices, the time and effort needed to wind up a clockwork item are far less than the duration and magnitude of its effects.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Gears Equipment",
+        "Three Innovations"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=1618"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gears-equipment",
+      "guns-and-gears-remastered",
+      "other",
+      "remaster",
+      "rule",
+      "three-innovations"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)",
+        "page": 60,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=1618"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E0960292-BBEE-5182-9034-6C045B145856",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Cobbled Firearms",
+    "slug": "cobbled-firearms-rules-1653",
+    "type": "other",
+    "descr": "Goblins are nothing if not creative and adaptable, and have a unique gift for recognizing an advantage when they see one. Even with the relative rarity of firearms, only the most secluded goblins are unaware of the deadly metal tubes that fling death over long distances using fire and explosive powder. The goblin gunsmiths of the Motaku Isle Ironworks in Absalom's Shackles constantly experiment with new weapon designs using spare parts from their clients' weapons shipments and whatever happens to be lying around. The more successful versions of these junk guns often get added to the catalogue of weapons available from the ironworks, while the less effective ones usually kill their creators before the unfortunate gunsmiths have a chance to iterate on their designs. All cobbled firearms have the [cobbled](/trait/cobbled) trait, which causes them to misfire on a failure.\n\n The [big boom gun](/item/big-boom-gun-guns-and-gears-remastered) and [spoon gun](/item/spoon-gun-guns-and-gears-remastered) both have the [goblin](/trait/goblin) trait. However, feats such as [Goblin Weapon Familiarity](/feat/goblin-weapon-familiarity-player-core), which normally grants access to all uncommon weapons with the goblin trait, do not grant access to firearms with the goblin trait unless the character separately has access to firearms. You can find more information on this and other firearm access details on page 148.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Guns Equipment",
+        "Fantasy Firearms"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=1653"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "fantasy-firearms",
+      "guns-and-gears-remastered",
+      "guns-equipment",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)",
+        "page": 157,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=1653"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "49BC6FE8-03AD-5CA0-A17C-C3D0D110CC98",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Combination Weapons",
+    "slug": "combination-weapons-rules-1654",
+    "type": "other",
+    "descr": "With the advent of firearms, there have been a number of gunslingers, inventors, and alchemists who have created a variety of combination weapons using black powder. The [explosive dogslicer](/item/explosive-dogslicer-guns-and-gears-remastered), [gnome amalgam musket](/item/gnome-amalgam-musket-guns-and-gears-remastered), and [three peaked tree](/item/three-peaked-tree-guns-and-gears-remastered) all have traits corresponding to an ancestry. However, feats such as [Elven Weapon Familiarity](/feat/elven-weapon-familiarity-player-core), which normally grants access to all uncommon weapons with the [elf](/trait/elf) trait, do not grant access to firearms with the given trait unless the character separately has access to firearms. You can find more information on this and other firearm access details on page 148.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Guns Equipment",
+        "Fantasy Firearms"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=1654"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "fantasy-firearms",
+      "guns-and-gears-remastered",
+      "guns-equipment",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)",
+        "page": 158,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=1654"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E2B5177D-742E-5190-A36D-4E96FB3B0B27",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Construct Companions",
+    "slug": "construct-companions-rules-1600",
+    "type": "other",
+    "descr": "A construct companion is a loyal, semi-sentient construct who follows your orders obediently and is roughly as intelligent as an animal. Your construct companion has the [minion](/trait/minion) trait, and you gain the [Command a Construct](/action/command-a-construct-guns-and-gears-remastered) action.\n\nIf your companion is destroyed, you can spend 1 day of downtime and attempt a Crafting check with a high DC for your level. On a success, you rebuild your companion. You can have only one construct companion at a time, and you can have either a construct companion or an animal companion, but not both.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Gears Characters"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=1600"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gears-characters",
+      "guns-and-gears-remastered",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)",
+        "page": 32,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=1600"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "191F8306-1C15-5DFF-96B4-2042B3B735F3",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Construct Trait",
+    "slug": "construct-trait-rules-1603",
+    "type": "other",
+    "descr": "A construct companion has the [construct](/trait/construct) trait. It's not a living creature, nor is it [undead](/trait/undead).",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Gears Characters",
+        "Construct Companions",
+        "Prototype Construct Companions"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=1603"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "construct-companions",
+      "gears-characters",
+      "guns-and-gears-remastered",
+      "other",
+      "prototype-construct-companions",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)",
+        "page": 32,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=1603"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "DCB9367A-BED2-55A5-BA3F-A93FCBD4FDAF",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Customization Options",
+    "slug": "customization-options-rules-1658",
+    "type": "other",
+    "descr": "The potent stopping power, solid range, and relative ease of use of firearms make them attractive options for almost any warrior who can both obtain one and maintain a healthy supply of ammunition, but these benefits are only the most basic offered by the firearms being produced in Golarion today. Everything from bandoliers for the discerning pirate to specialized scopes for snipers can be obtained from the talented gunsmiths who ply their trades in Dongun Hold, Alkenstar, or Arcadia for the right price.\n\n## Attached Customization Options\n\nThis section introduces two new types of item that can be attached to a firearm: scopes and firing mechanisms. A given firearm can only have one of each type of item attached. For instance, a firearm couldn't have more than one scope attached at the same time. To indicate this, in much the same way that a magic item's usage entry might say “worn shoes” to indicate it can't be worn with other shoes, the usage entry for these attached options lists “attached (scope)” or “attached (firing mechanism).”",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Guns Equipment"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=1658"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "guns-equipment",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)",
+        "page": 179,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=1658"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F3813306-8B29-5631-B65C-239BCB7746DC",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Fantasy Firearms",
+    "slug": "fantasy-firearms-rules-1651",
+    "type": "other",
+    "descr": "While their power and rarity make Golarion firearms fantastical in their own right, this hasn't stopped engineers, craftsman, and even fey smiths from attempting to improve the weapons or create their own versions. Whether these fantastic weapons include the beast guns of Arcadia, the combination weapons wielded by gunners of the Inner Sea seeking to stretch their meager supplies of black powder, or the goblin-forged “cobbled firearms” of the Shackles, Golarion is home to a diverse and unlikely array of unusual black powder weapons.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Guns Equipment"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=1651"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "guns-equipment",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)",
+        "page": 154,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=1651"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "87312279-5321-50C4-B275-61C01378D51B",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Functionality and Balance",
+    "slug": "functionality-and-balance-rules-1639",
+    "type": "other",
+    "descr": "Golarion is a world of magic with rune-bedecked swords forged out of metal fallen from the sky, [full plate](/item/full-plate-player-core) armor similar to that produced on Earth during the 15th century, and other armaments unlike anything the people of Earth ever had access to. As such, the black powder weapons and technological gadgets presented in this book are mechanically balanced to the other options available to all characters. Firearms, though capable of devastating critical hits, work alongside crossbows and composite longbows rather than replace them, in much the same way firearms and bows were both actively used in Asia for nearly 900 years of human history.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Introduction",
+        "World-Building and Tone"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=1639"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "introduction",
+      "other",
+      "remaster",
+      "rule",
+      "world-building-and-tone"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)",
+        "page": 6,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=1639"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F74238AC-175D-5C87-ABD0-55AC813F1533",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Gadgets",
+    "slug": "gadgets-rules-1621",
+    "type": "other",
+    "descr": "Gadgets are consumable technological inventions with innovative uses. Gadgets take a variety of forms, some handheld, others worn, and they often take a while to put on or take off. Depending on their forms, gadgets also have a variety of different effects. Due to the use of technology, all gadgets are [uncommon](/trait/uncommon) or [rare](/trait/rare), though inventors and regions with access to inventors have access to uncommon gadgets.\n\n Gadgets are particularly important to inventors, some of whom learn tricks and techniques to create a number of temporary gadgets each day from spare parts without needing to spend additional time and money on the project. This, in turn, leads those inventors to be particularly profligate in the use of gadgets, which leads to an even stronger association between the two.\n\n Gadgets are not, however, exclusive to inventors. In truth, anyone can make a gadget if they have the time, money, skill, and knowledge of how to do so. This sometimes leads others to misidentify a particularly technologically-savvy investigator or wizard using gadgets as an inventor.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Gears Equipment"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=1621"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gears-equipment",
+      "guns-and-gears-remastered",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)",
+        "page": 66,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=1621"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8BE288BD-91E1-59BA-9DB3-6922BF870832",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Gears Character Options",
+    "slug": "gears-character-options-rules-1615",
+    "type": "other",
+    "descr": "Golarion is a world of fantasy, one that is incredibly vast and diverse. This means that numerous reflections of the genre, in all its permutations, can be found somewhere the world, as long as you know where to look. The Shining Kingdoms are a land of knights and chivalry similar to those imagined in the legends of King Arthur, the Saga Lands remain home to fierce vikings and time-displaced wizards, and the High Seas embody the spirit of exploration and the fearsome naval combat of the age of piracy.\n\n Fantasy has more to offer than just knights in shining armor and wizards in tall towers. Ingenious goblins and ratfolk cobbling together technology from half a dozen different disciplines and schematics, industrious dwarves smithing intricate technological marvels, and humans meticulously assembling clockwork creatures and weapons piece by painstaking piece all have their places within the genre of fantasy and in the world of Golarion. For the automatons of the Jistka Imperium, their place in the world remains complicated. They represent the last remnants of an ancient society that mastered magic and machines in equal measure, then left them behind after the society fell as a relic of their lost nation's greatest achievement. For trick drivers and their trusty vehicle mechanics, their place might be almost anywhere, though they're unlikely to learn their craft outside of port cities like Absalom, or countries where technology grew at a steady pace alongside magic, like the continent of Arcadia or the nation of New Thassilon. Meanwhile, trapsmiths and their cogwheel snares find a home in Absalom, with its Clockwork Cathedral; in the gritty Grand Duchy of Alkenstar or their dwarven allies in Dongun Hold; or in Arcadia or New Thassilon as well.\n\n Even characters whose classes typically represent the embodiments of classic fantasy and high magic might have a spark of technology hidden away somewhere, perhaps waiting for just the right moment to reveal the ace up their sleeves. The old wizard, his body failing but his magic strong, might choose to replace a failing heart with a clockwork organ rather than succumb to the temptation of undeath. A construct might successfully seek out a soul and life as a living creature to start anew and attain a different perspective about the world. Even an elven archer in a forest far away from any center of technology might create devices that are entirely new to their culture, such as scopes and eyewear that use the scientific power of crystals and lenses to see hidden targets and enable otherwise impossible shots. In all these cases, players should work together with their GMs to build context and story behind these ideas and ground the character in the world.\n\n Fantasy is as broad and deep as human imagination. Let the ancestry, backgrounds, and archetypes that follow take your imagination even farther down the road of what a such a world can be.\n\n## Variations on a Theme\n\nThe [inventor](/class/inventor-guns-and-gears-remastered) class, [automaton](/ancestry/automaton-guns-and-gears-remastered) ancestry, new backgrounds, and other elements located in this book give players ways to embody different aesthetics that infuse mechanical concepts or fantastic science into their character designs. The degree to which you combine these elements is something that can help you impact the development of your character and the tone and feel of your game in a variety of ways.\n\n An automaton character with a Pathfinder _Core Rulebook_ class like [fighter](/class/fighter-player-core) or [monk](/class/monk-player-core-2) can be an interesting twist on a classic idea. An automaton inventor with the [Disciple of the Gear](/background/disciple-of-the-gear-guns-and-gears-remastered) background who multiclasses as a [cleric](/class/cleric-player-core) of Brigh, goddess of invention, can be the focal point of an entire campaign arc themed around the spread of technology and the search to understand the mortal soul. A [gnome](/ancestry/gnome-player-core) [vehicle mechanic](/archetype/vehicle-mechanic-guns-and-gears-remastered) who maintains and makes improvements upon a single vehicle can serve as an unusual character whose existence begs the question of the prevalence of technology throughout the world, or as an established member of a robust mechanics' guild that creates and maintains a small fleet of vehicles used for a particular purpose by a city or civilization.\n\n The way that you combine the elements presented in this section can enable you to tell a vast array of different stories. The extent to which magic and technology coexist in your fantasy setting is up to you. Players and GMs should work together to discover how their respective ideas can influence each other as they explore how much influence technology has on the world, as well as discuss methods they might employ as the campaign unfolds to demonstrate its importance, or lack thereof.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Gears Characters"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=1615"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gears-characters",
+      "guns-and-gears-remastered",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)",
+        "page": 36,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=1615"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "04788CFF-C665-501F-A6B3-FFC7825C75EC",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Gears Characters",
+    "slug": "gears-characters-rules-1599",
+    "type": "other",
+    "descr": "In the world of Golarion, technology moves at its own unusual pace. The widespread use of magic advanced the ability for certain developments and discoveries, as spells provided a natural way to discover new data or solve a technological issue that required generations of innovation on Earth. However, magic has been equally a hindrance in the development of other technologies, as the relative advancement and availability of low-level magic meant it simply wasn't worth the development cost and time it would take to devote resources to expanding other technologies whose benefits were easily replicable by magic.\n\n Another influencing factor in the development of technology has been the many horrific cataclysms that have befallen the planet of Golarion as a whole, and various regions and nations in turn. Sometimes, a technology discovered in ancient times is lost to Golarion for millennia, only to resurface much later. For instance, Xin, the first emperor of the ancient empire of Thassilon, mastered the creation of clockworks over 10,000 years ago, only to see his palace sink to the bottom of the ocean and his discoveries lost to the ages.\n\n Across much of Golarion, the options presented in this chapter are uncommon at best, and some of them, like Stasian technology, are rare or even unique in the world. If you're playing in a different setting than Golarion, your group should decide if some or all of the technologies in this chapter are more widely available, or if they aren't available at all.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=1599"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)",
+        "page": 12,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=1599"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "AA4A7DE4-CE88-53E6-A5A3-653430572C2E",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Gears Equipment",
+    "slug": "gears-equipment-rules-1616",
+    "type": "other",
+    "descr": "Stories about gear and technology don't just focus on the innovative genius of inventors who toil and tinker until inspiration strikes and they discover something new. The inventions themselves are often what capture the imagination, sparking stories about these complex and unusual items. This chapter includes everything you need to add items of weird science to your fantasy game. While the equipment presented here tends toward clockwork and steampunk instead of science fiction, in a world that contains both magic and technology, that line can blur in multitudinous, marvelous ways.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=1616"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)",
+        "page": 60,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=1616"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B52F6092-76E6-53B7-A437-AAE9A7E41A7D",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Gears, Guns, or Both",
+    "slug": "gears-guns-or-both-rules-1635",
+    "type": "other",
+    "descr": "_Guns & Gears_ is presented as three smaller but interconnected “books” bundled inside a single cover. The Gears “book” is split into two chapters: Gears Characters and Gears Equipment. The first chapter features the [inventor](/class/inventor-guns-and-gears-remastered) class and [automaton](/ancestry/automaton-guns-and-gears-remastered) ancestry, along with several archetypes that support innovation as a theme. The second chapter presents an array of gadgets and vehicles that embrace themes of inventiveness. This chapter includes rules for clockwork and steam-tech mechanisms as well as other more esoteric forms of technology.\n\n The Guns “book” has also been separated into two chapters: Guns Characters and Guns Equipment. The first section presents the [gunslinger](/class/gunslinger-guns-and-gears-remastered) class along with an array of archetypes that support exciting combat styles built around firearms and crossbows. The second chapter offers a wide array of new firearms, from classic black powder weapons like the flintlock musket and arquebus to more fantastic options like versatile combination weapons or magical beast guns. Support for firearms and crossbows goes beyond just new weapons and includes other exciting accessories for customizing your weapon of choice, like bayonets and reinforced stocks to attach a melee option to your guns, magical scopes to improve your visual prowess, magical bandoliers and holsters, and even replacement barrels and firing mechanisms to change your weapon's parameters.\n\n The final “book,” The Rotating Gear, offers a standalone gazetteer describing different areas of Golarion where black powder, clockworks, and other forms of technology are likely to be found. This chapter isn't limited to just the Inner Sea. It explores continents like Arcadia, Casmaron, and Tian Xia, describing the technological traditions of those regions and how they've influenced the growth and proliferation of technology across the entire planet.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Introduction"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=1635"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "introduction",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)",
+        "page": 5,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=1635"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C0838F70-376A-568B-98DC-FDBDF556A91F",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Guns Characters",
+    "slug": "guns-characters-rules-1646",
+    "type": "other",
+    "descr": "Several regions on Golarion have developed their own versions of firearms, their cultural and intellectual traditions each shaping how these weapons are beginning to spread throughout the globe. While multiple cultures having their own techniques and signature styles, guns are still incredibly scarce worldwide. Despite their rarity, rifles and pistols loom large in tales told throughout the Inner Sea, thanks to the chronicles of the Pathfinder Society and stories spread by other adventurers who have come into contact with guns in battle or traveled through a region where they are used. The following regions have access to firearms.\n\n Perhaps the most famous home for black powder firearms on Golarion is the grand duchy of Alkenstar. Located on the continent of Garund, this primarily human duchy, along with their neighbors, the dwarven sky citadel of Dongun Hold produce black powder and high-quality firearms, continually perfecting their craft and supplementing the art of gunsmithing with ancillary technologies like scopes for long-distance sniping. For many years, Alkenstar and Dongun Hold were the only reliable sources of firearms found in the Inner Sea, but the ingenuity of the pirates of the Shackles has introduced a competing market for those looking to acquire a black powder weapon. Buyers must beware however, as the weapons produced in the Shackles lack the quality and reliability of firearms produced on the opposite side of Garund. Alkenstar is a good place to encounter adventurers who wield high-quality equipment, such as sniping duos or demolitionists, while the Shackles is known for being home to many types of pistol phenoms, who remain quick to draw and fire at a moment's notice.\n\n The continent Tian Xia and the subcontinent Vudra, have also traded in black powder for centuries, though in relatively small amounts, with a focus more on explosives than firearms. Nonetheless, merchants making the cross-continent trek from the trade ports in Tian Xia on the eastern side of the continent to the Qadiran ports far to the west will occasionally hire guards armed with jezails or Tian mercenaries bearing hand cannons and fire lances from their homelands. The demolitionist and fireworks technician archetypes are relatively popular in Tian Xia and Vudra due to the continents' extremely long histories with those uses of black powder.\n\n On the western continent of Arcadia, firearm technology has become more common and more diverse than anywhere else in the world. That said, firearms that use black powder are a substantially new development in this region, having only recently been smuggled halfway across the world from Alkenstar. Instead, Arcadia is home to several of its own distinct traditions of firearms, from beast guns, created through ritualized hunts against mighty monsters using magical taxidermic techniques, to the legendary magical star guns that predated the apocalypse of Earthfall. Aside from beast guns and magical guns constructed to imitate the legendary star guns, the core of basic firearms in Arcadia has been based on air gun technology for centuries.\n\n The most notable region of Arcadia to produce firearms and firearm wielders is the central basin known as the Deadshot Lands, which is also home to the few regions in Arcadia that are beginning to use black powder firearms in tandem with the traditional Arcadian arsenal. The [beast gunner](/archetype/beast-gunner-guns-and-gears-remastered) archetype is a perfect match for Arcadian characters focused on connecting with the magic of their beast gun, and the spellshot class archetype is an excellent fit with the storied Arcadian tradition of using magical firearms. In this way, Arcadia is home to some of the most diverse and magical traditions of gunslingers in the world.\n\n## Why No Gun Proficiency\n\nWhile most of the character options in this section provide benefits that are particularly useful or even specifically tailored for firearms, remarkably few of them outside of the gunslinger give a firearm-specific proficiency progression. You might be asking yourself why that is and there's a very simple answer: for the vast majority of characters, it isn't necessary.\n\n Just like knives, swords, spears, and every other category of weapon, firearms come in simple, martial, and advanced variants. As long as a character has [access to firearms](/rule/guns-equipment-rules-1648), they're also likely to have a selection of firearms with which they are already proficient. Additionally, many of the character options in this section work equally well with crossbows as they do with firearms. This means the options in this chapter automatically support whichever category of weapons (simple, martial, or advanced) your character knows how to use.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=1646"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)",
+        "page": 103,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=1646"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "831A1D6C-449A-58D8-AC05-846110579AE1",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Guns Equipment",
+    "slug": "guns-equipment-rules-1648",
+    "type": "other",
+    "descr": "Black powder weapons have many permutations throughout history, from simple, handheld affairs built for self-defense to mighty cannons designed to blast holes in castle walls and fortifications. In the world in which you, the reader, live, the history of firearms followed a meandering course around the globe, developing in a slow and uneven arc with many dead-ends and tributaries of varying success and longevity. On Golarion, a world of spells and myths, creatures and cataclysms, this developmental arc is even more diverse, with unexpected leaps forward and unique variations incorporating elements only possible in a world of magic and fantastical creatures.\n\n This chapter will showcase a variety of firearms. Some have historical inspirations, while others are more unusual black powder weapons, never seen on Earth due to the differences in the two worlds' technological advancements, historical eras, and societal shifts. We've also included a short segment here to talk about the ways in which the development, spread, and evolution of firearms on Golarion differs significantly from those on Earth.\n\n## Firearms and Access\n\nIn the world of Golarion, firearms and black powder weaponry remain largely limited to specific regions. In Avistan, reckless scientists and innovative undead hunters in the nation of Ustalav have championed a technological renaissance, spurring the development of basic but effective muskets copied off Alkenstar originals and, in the process, creating a burgeoning market for silver bullets and bayonets. In the Shackles, Motaku Isle Ironworks continues to pump out shoddy, but deadly, replicas of firearms and cannons stolen from Alkenstar, as well as create new (usually unstable) black powder weaponry. Alkenstar itself boasts the premier black powder gunsmiths on the planet and is the undisputed center of modern innovation for firearm accessories. In Tian Xia, the nations of Goka, Ling Shen, Po Li, and Quain have long worked with black powder, using it to spur other technological advancements. The continent of Arcadia has seen decades of relatively uninterrupted peace and might contain more gunslingers than the rest of Golarion combined, though their firearms are a more diverse array of magical star guns, technological air guns, and ceremonial beast guns, with no black powder whatsoever. Characters from these regions have access to the [gunslinger](/class/gunslinger-guns-and-gears-remastered) class and firearms. Other than Arcadia, they have access to black powder siege weapons if the GM has opened up siege weapons as an option for the campaign.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=1648"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)",
+        "page": 146,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=1648"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "BC4BB4EC-D50D-54AB-B264-B46C4F1B4AA0",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Hit Points",
+    "slug": "hit-points-rules-1608",
+    "type": "other",
+    "descr": "Your construct companion has 10 Hit Points, plus a number of Hit Points equal to 6 plus its Constitution modifier for each level you have.\n\n While constructs are usually immediately destroyed at 0 Hit Points, your construct companion is a little harder to destroy than other constructs are. When your construct reaches 0 Hit Points, it becomes [broken](/condition/broken-player-core) and begins sparking and might be destroyed if you don't [Repair](/action/repair-player-core) it. This works the same as the normal [dying](/rule/dying-rules-2325) rules and determines if your construct is destroyed, with the following two changes. First, most effects that end the [dying](/condition/dying-player-core) condition don't work to save a construct companion, but a construct can be stabilized using the [Administer First Aid](/action/administer-first-aid-player-core) action, using the Crafting skill instead of Medicine. Second, instead of gaining and tracking the [wounded](/condition/wounded-player-core) condition, if your construct becomes broken in this way more than twice within a 10-minute period, it's destroyed, and you'll need to reconstruct it by spending a day of downtime.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Gears Characters",
+        "Construct Companions",
+        "Prototype Construct Companions"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=1608"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "construct-companions",
+      "gears-characters",
+      "guns-and-gears-remastered",
+      "other",
+      "prototype-construct-companions",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)",
+        "page": 32,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=1608"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "CA34CDE0-6274-53DD-B1C4-58AD8FF36658",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Holsters",
+    "slug": "holsters-rules-1659",
+    "type": "other",
+    "descr": "Firearms and crossbows are generally efficient weapons designed with an eye towards ease of use. However, the act of managing ammunition, reloading, and keeping a grip on a weapon can become cumbersome without a good bandolier or holster to hold your weapons and ammunition in a convenient position until they become necessary in combat.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Guns Equipment",
+        "Customization Options"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=1659"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "customization-options",
+      "guns-and-gears-remastered",
+      "guns-equipment",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)",
+        "page": 179,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=1659"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A8D0058C-429C-558D-91BA-04320F77C56C",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "How to Use this Book",
+    "slug": "how-to-use-this-book-rules-1636",
+    "type": "other",
+    "descr": "The options here expand upon the rules contained in the _Core Rulebook_, and that book is required to use _Guns & Gears_. Some rules indicate other material found in this book with page references. Other products referencing the rules [in this book](/rule/in-this-book-rules-2089) might do so using the superscript citation “G&G.”",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Introduction"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=1636"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "introduction",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)",
+        "page": 5,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=1636"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "6A81D658-C43D-5595-BE30-2AEFAA509329",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Immunities",
+    "slug": "immunities-rules-1609",
+    "type": "other",
+    "descr": "Because it’s a construct, your construct companion is immune to bleed, [death](/trait/death) effects, [disease](/trait/disease), [doomed](/condition/doomed-player-core), [drained](/condition/drained-player-core), [fatigued](/condition/fatigued-player-core), [healing](/trait/healing), [nonlethal](/trait/nonlethal) attacks, paralyzed, [poison](/trait/poison), [sickened](/condition/sickened-player-core), [unconscious](/condition/unconscious-player-core), [vitality](/trait/vitality), and [void](/trait/void). It does not need to eat or breathe. Because the construct isn’t a living creature, effects that heal living creatures can’t help it recover Hit Points. Restoring Hit Points to it requires using the [Repair](/action/repair-player-core) action or other means that can restore Hit Points to objects and nonliving creatures.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Gears Characters",
+        "Construct Companions",
+        "Prototype Construct Companions"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=1609"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "construct-companions",
+      "gears-characters",
+      "guns-and-gears-remastered",
+      "other",
+      "prototype-construct-companions",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)",
+        "page": 33,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=1609"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F960B3A8-B93A-5ED1-92A0-4AADC8380515",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Incredible Construct Companions",
+    "slug": "incredible-construct-companions-rules-1613",
+    "type": "other",
+    "descr": "To improve an advanced construct companion to an incredible construct companion, make the following adjustments.\n\n- Increase its Strength, Dexterity, Constitution and Wisdom modifiers by 2.\n- It deals 2 additional damage with its unarmed attacks. Its attacks become [magical](/trait/magical), allowing it to bypass resistances to non-magical attacks.\n- Increase its proficiency ranks in Athletics and Acrobatics to expert.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Gears Characters",
+        "Construct Companions"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=1613"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "construct-companions",
+      "gears-characters",
+      "guns-and-gears-remastered",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)",
+        "page": 33,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=1613"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E8026FA9-9AA2-5F78-89B2-433A59051AC1",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Introduction",
+    "slug": "introduction-rules-1587",
+    "type": "other",
+    "descr": "The Pathfinder Roleplaying Game features a high-fantasy setting where almost any story can be told. Where the _Core Rulebook_ provides classic options for play and _Secrets of Magic_ provides options for characters to delve deep into the magical mysteries of Golarion, _Guns & Gears_ presents the secrets of black powder weapons and clockwork technology, combining grit and steampunk to produce a flavor all its own.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=1587"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)",
+        "page": 5,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=1587"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9C717634-3199-5C2F-AC49-F49F38D3366D",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Launching",
+    "slug": "launching-rules-1626",
+    "type": "other",
+    "descr": "A member of the crew adjacent to the siege weapon's release can use the Launch action to shoot the siege weapon. After the weapon has been Launched, it must be Loaded fully to be Launched again. No matter how quickly it's Loaded, a single siege weapon can never be Launched more than once per round. The aim remains where it was, and the weapon needs to be Aimed again only if the crew wishes to change the aim. Launch **Single Action** ([attack](/trait/attack)) **Requirements** The siege weapon is Loaded; **Effect** The siege weapon launches its payload, which targets or has an area where the weapon is Aimed.\n\n- **Single target** Targets a creature, unattended object, or structure in the square the weapon is Aimed at\n- **Burst** Centered on the grid corner the weapon is Aimed at\n- **Cone or Line** Directed where the weapon is Aimed\n Each creature, unattended object, and structure the siege weapon is Aimed at or that is in the area takes the amount of damage listed in the Launch action, with a basic saving throw against the DC listed in the stat block. If you're trained in any weapons of the category listed in the siege weapon's proficiency entry, you can use your class DC instead of the weapon's default save DC. The weapon's range increment penalty applies to the Launch DC, as does your multiple attack penalty. If the weapon is mounted on a vehicle, the penalties for attacking from a vehicle in combat also apply. Though a siege weapon doesn't require an attack roll, the Launch action still has the attack trait and therefore counts toward your multiple attack penalty.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Gears Equipment",
+        "Siege Weapons",
+        "Mounted Siege Weapons"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=1626"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gears-equipment",
+      "guns-and-gears-remastered",
+      "mounted-siege-weapons",
+      "other",
+      "remaster",
+      "rule",
+      "siege-weapons"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)",
+        "page": 73,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=1626"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "AD5ED8CB-A192-5537-B352-05A2D1DA5B75",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Loading",
+    "slug": "loading-rules-1625",
+    "type": "other",
+    "descr": "Any member of the crew can take the Load activity to prepare the weapon, resetting its machinery or helping Load the payload. The stat block lists how many times the activity must be taken to prepare the weapon to Launch. Some Load activities require successful checks to be effective, such as ones that require an Athletics check to Load heavy ammunition into the siege weapon. Once the weapon is Loaded, trying to Load it further has no effect. It doesn't matter in what order the siege weapon is Aimed and Loaded, and the crew could partially Load the weapon, Aim it, and then continue Loading it without disrupting the process.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Gears Equipment",
+        "Siege Weapons",
+        "Mounted Siege Weapons"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=1625"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gears-equipment",
+      "guns-and-gears-remastered",
+      "mounted-siege-weapons",
+      "other",
+      "remaster",
+      "rule",
+      "siege-weapons"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)",
+        "page": 73,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=1625"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2CD87FB3-AB50-5F90-AB27-F2ACBE205250",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Mobility Devices",
+    "slug": "mobility-devices-rules-1633",
+    "type": "other",
+    "descr": "Over the history of Golarion, countless cultures have used innovative mobility devices. While you can find more information, as well as several magical mobility devices and additional add-ons, on page 66 of Pathfinder Lost Omens Grand Bazaar, additional devices appropriate to the themes of invention and innovation can be found in this section.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Gears Equipment"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=1633"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gears-equipment",
+      "guns-and-gears-remastered",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)",
+        "page": 90,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=1633"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "214068C5-8048-5614-8EAB-76EA717987EE",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Modularity",
+    "slug": "modularity-rules-1644",
+    "type": "other",
+    "descr": "As mentioned at the beginning of this introduction, _Guns & Gears_ has been organized so that you can use as much, or as little, of the book as is appropriate for your game world. While some obvious elements can help make this intent apparent, such as the border art changing between the Gears “book,” Guns “book,” and The Rotating Gear “book,” we've taken other steps as well that might not be immediately obvious. Vehicles and siege weapons, which can be fun and engaging rules but might not be an appropriate fit for all campaigns, each have their own separate section. The firearms section is divided between “Classic Firearms” and “Fantasy Firearms,” so that if your preferred setting has smooth-bore black powder weapons as the technological “ceiling,” you can allow only the classic firearms in your campaign. If your high fantasy setting blends the highlights of Earth's renaissance with fantastical or outright magical technology, like firearms that transform into swords or axes, or gun-like weapons made from the taxidermic bodies of supernatural creatures, you can add those fantasy firearms to your game as well.\n\n With all the possible permutations of a fantasy world, we've endeavored to create a book that speaks to as many people and settings as possible, allowing people to include the storytelling elements they most enjoy without feeling overly pressured to include those that negatively impact their immersion or gaming experience. Whether you want to play a swashbuckling pirate with a black powder pistol or a ysoki engineer with a tesla coil backpack that disrupts magical energy and a grappling hook with a retractable clockwork cord, this book is for you. Feel free to use the elements of this book that align strongly with your vision for the characters, adventures, and game world you create while leaving the rest behind!",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Introduction",
+        "World-Building and Tone"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=1644"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "introduction",
+      "other",
+      "remaster",
+      "rule",
+      "world-building-and-tone"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)",
+        "page": 8,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=1644"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "058224CB-8D1D-5787-B90F-C0D3C14C4F30",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Mounted Siege Weapons",
+    "slug": "mounted-siege-weapons-rules-1623",
+    "type": "other",
+    "descr": "Properly using a mounted siege weapon involves three activities: Loading, Aiming, and Launching the payload. Generally, none of these activities can be taken unless the weapon has enough crew, but the GM might allow a smaller crew or even an individual to perform simpler parts of the process, like Launching—especially at a dramatic moment!",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Gears Equipment",
+        "Siege Weapons"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=1623"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gears-equipment",
+      "guns-and-gears-remastered",
+      "other",
+      "remaster",
+      "rule",
+      "siege-weapons"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)",
+        "page": 72,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=1623"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3F3A6CA6-F15F-5ECE-8A32-3ED15A5D6593",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Moving a Mounted Siege Weapon",
+    "slug": "moving-a-mounted-siege-weapon-rules-1627",
+    "type": "other",
+    "descr": "A mounted siege weapon has to be built on solid ground and remains stationary while being operated. Some are on wheels or are otherwise easier to move, but none can be prepared or shot while being moved. The GM might allow a mounted siege weapon to be placed on a large enough vessel, such as a sailing ship.\n\n Moving a mounted siege weapon takes concerted effort from the whole crew pulling and pushing. This requires acting in concert, as described under Portable Siege Weapons, with the crew leader taking the Move Siege Weapon activity. This requires the minimum number of crew required to operate the siege weapon and gets no extra benefit for additional crew helping. If a siege weapon doesn't list this action, it can't be moved this way; it has to be disassembled and reassembled.\n\n **Move Siege Weapon** **Two Actions** **Requirements** The rest of the crew have Readied to Stride on your order; **Effect** You and the crew Stride, moving the mounted siege weapon with you. The maximum distance equals the slowest crew member's Speed, or the maximum Speed listed in the siege weapon's Move Siege Weapon entry, whichever is lower. The siege weapon's aim moves the same distance and direction the siege weapon moved.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Gears Equipment",
+        "Siege Weapons",
+        "Mounted Siege Weapons"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=1627"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gears-equipment",
+      "guns-and-gears-remastered",
+      "mounted-siege-weapons",
+      "other",
+      "remaster",
+      "rule",
+      "siege-weapons"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)",
+        "page": 73,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=1627"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9325E217-99ED-57E1-B6D9-C59ED7CB59E6",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Other Modifications",
+    "slug": "other-modifications-rules-1662",
+    "type": "other",
+    "descr": "While holsters, scopes, and stabilizers are some of the more common accessories associated with firearms and crossbows, they're far from the only innovations that support such weapons. The variety of accessories is matched only by the inventors' creativity. Blazons and emblems for paired weapons are popular purchases for fashion-oriented aristocrats who like their weapons to match aesthetically and magically. Talented gunsmiths produce replaceable barrels, high-end firing mechanisms, and other commodities for firearm enthusiasts to further customize their weapons to their preferences.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Guns Equipment",
+        "Customization Options"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=1662"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "customization-options",
+      "guns-and-gears-remastered",
+      "guns-equipment",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)",
+        "page": 183,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=1662"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F7D455E7-BC62-51F2-A54C-787C4ABBC911",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Paragon Construct Companions",
+    "slug": "paragon-construct-companions-rules-1614",
+    "type": "other",
+    "descr": "To improve an incredible construct companion to a paragon construct companion, make the following adjustments.\n\n- Increase its Strength, Dexterity, Constitution, and Wisdom modifiers by 1.\n- Increase its proficiency rank for unarmed attacks and unarmored defense to expert.\n- Increase its proficiency ranks for Athletics, Acrobatics, saving throws, and Perception to master.\n- Increase its unarmed attack damage from two dice to three dice, and its additional damage with unarmed attacks from 2 to 4.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Gears Characters",
+        "Construct Companions"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=1614"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "construct-companions",
+      "gears-characters",
+      "guns-and-gears-remastered",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)",
+        "page": 33,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=1614"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3EDA8F2C-F108-59D5-B1FE-6D3E9819EBE1",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Portable Siege Weapons",
+    "slug": "portable-siege-weapons-rules-1628",
+    "type": "other",
+    "descr": "Portable siege weapons require moving in concert and making a single attack supported by the full crew.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Gears Equipment",
+        "Siege Weapons"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=1628"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gears-equipment",
+      "guns-and-gears-remastered",
+      "other",
+      "remaster",
+      "rule",
+      "siege-weapons"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)",
+        "page": 73,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=1628"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D17DB4A0-BD1D-5C0E-A337-D206E073A62B",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Proficiencies",
+    "slug": "proficiencies-rules-1604",
+    "type": "other",
+    "descr": "Your construct companion is trained in its unarmed attacks, unarmored defense, all saving throws, Perception, Acrobatics, and Athletics. Construct companions can't use abilities that require greater Intelligence, such as [Coerce](/action/coerce-player-core) or [Decipher Writing](/action/decipher-writing-player-core), even if trained in the appropriate skill, unless they have an ability that allows it.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Gears Characters",
+        "Construct Companions",
+        "Prototype Construct Companions"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=1604"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "construct-companions",
+      "gears-characters",
+      "guns-and-gears-remastered",
+      "other",
+      "prototype-construct-companions",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)",
+        "page": 32,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=1604"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5464D573-44A0-5E5D-AAD8-4562455B815B",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Prototype Construct Companions",
+    "slug": "prototype-construct-companions-rules-1602",
+    "type": "other",
+    "descr": "The following are the base statistics for a prototype construct companion, the first construct companion most characters get. A companion has the same level you do. As you gain levels, you might make further adjustments as your companion grows more powerful. Construct companions calculate their modifiers and DCs just as you do, with one difference: the only item bonuses they can benefit from are to Speed.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Gears Characters",
+        "Construct Companions"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=1602"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "construct-companions",
+      "gears-characters",
+      "guns-and-gears-remastered",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)",
+        "page": 32,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=1602"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9E11A556-2849-5739-A59F-5ABC81925023",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Rare and Unique Firearms",
+    "slug": "rare-and-unique-firearms-rules-1655",
+    "type": "other",
+    "descr": "While firearms are relatively uncommon in Golarion, they are nonetheless an attractive choice for use in crafting unique signature weapons and other great works. The [fey](/trait/fey) of Arcadia created their own firearm in the form of the [_Rowan Rifle_](/item/rowan-rifle-guns-and-gears-remastered) to gift to their champions, while in the Inner Sea heroes from several countries and regions have traveled to Alkenstar to have their trophies immortalized as part of a powerful and unusual weapon.\n\nThe following are rare and unique specific magic firearms, possessing unusual and sometimes outlandish special effects. Some among these firearms are cursed, haunted, or even intelligent. You can find more information on cursed items [here](/rule/cursed-items-rules-3245), and more information on intelligent items [here](/rule/intelligent-items-rules-3235). A haunted firearm is simply a cursed firearm whose curse derives from a confused, enraged, or tormented spirit attached to the weapon. It is often possible, though difficult, to discover and resolve the unfinished business that will put that spirit to rest. In this case, the firearm’s curse might be forever lifted as the spirit goes free to the afterlife, never to bother the firearm’s wielder again.\n\n## Integrated Firearms\n\nIn addition to the many rare and unique weapons presented here, there exists a special type of rare firearm known as an integrated firearm that anyone who knows the proper techniques can craft. An integrated firearm replaces a creature's forelimb, usually in place of a prosthesis or one of an automaton's arms. An integrated weapon can be a one or two-handed firearm or combination weapon, though weapons with the reach property are typically too ungainly for this treatment and one-handed weapons are usually preferred since two-handed weapons still require the use of a second arm for proper wielding. Opponents can't disarm an integrated firearm and they take 10 minutes to attach or remove. Integrated firearms can be fired using the same arm they are attached to, with careful and complex mechanics that use the wearer's posture or even directly attach to the muscles or other infrastructure that used to control the severed or detached limb. A creature with an integrated firearm can't use the arm replaced by the firearm for any actions or tasks other than wielding and firing the firearm.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Guns Equipment",
+        "Fantasy Firearms"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=1655"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "fantasy-firearms",
+      "guns-and-gears-remastered",
+      "guns-equipment",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)",
+        "page": 160,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=1655"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A4D8602A-AB88-5595-B281-6304FA49D62C",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Riding Construct Companions",
+    "slug": "riding-construct-companions-rules-1601",
+    "type": "other",
+    "descr": "You or an ally can ride your construct companion as long as your construct companion is at least one size larger than the rider.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Gears Characters",
+        "Construct Companions"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=1601"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "construct-companions",
+      "gears-characters",
+      "guns-and-gears-remastered",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)",
+        "page": 32,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=1601"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D328366F-96D3-5DFF-BA7B-BAE1D43A5EDC",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Scopes",
+    "slug": "scopes-rules-1660",
+    "type": "other",
+    "descr": "Scopes for firearms and crossbows have existed, in one form or another, for many years, though they've recently become one of the most soughtafter luxury items for gun enthusiasts in Alkenstar and in various regions that have gotten their hands on Alkenstar firearms (whether through legal means or otherwise). Leatherworkers, metalsmiths, crystal cutters, and spellcasters specializing in the creation and development of magical items all have a part to play in the burgeoning industry. The finest crafters often incorporate signature techniques or styles into the scopes they produce, such as crystal cutters espousing the merits of their flawless lenses and spellcasters promoting the benefits of the particular spells and techniques they use to increase the amount and clarity of information conveyed by scopes they enchant.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Guns Equipment",
+        "Customization Options"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=1660"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "customization-options",
+      "guns-and-gears-remastered",
+      "guns-equipment",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)",
+        "page": 180,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=1660"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B1F82702-748D-5968-AF1A-830F79329B65",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Senses",
+    "slug": "senses-rules-1610",
+    "type": "sense",
+    "descr": "Your construct companion has precise vision, imprecise hearing, and vague touch senses, but no sense of smell or taste.",
+    "data": {
+      "type": "sense",
+      "breadcrumbs": [
+        "Gears Characters",
+        "Construct Companions",
+        "Prototype Construct Companions"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=1610"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "construct-companions",
+      "gears-characters",
+      "guns-and-gears-remastered",
+      "prototype-construct-companions",
+      "remaster",
+      "rule",
+      "sense"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)",
+        "page": 33,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=1610"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "71EB9856-8CBE-509C-88E1-6DB2BE8C2EFC",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Siege Weapon Misfire",
+    "slug": "siege-weapon-misfire-rules-1657",
+    "type": "other",
+    "descr": "Just as personal firearms require a meticulous regimen of proper care and cleaning to operate at peak performance, black powder siege weapons must be properly maintained on a regular basis to avoid the risk of terrible consequences that might otherwise befall those who use them. If you attempt to fire a black powder siege weapon that was used or assembled prior to the current day and hasn't been properly cleaned and maintained since the last time it was used or assembled, you must attempt a DC 5 flat check before making your attack roll, risking misfire on a failure. A black powder siege weapon can also potentially misfire as a result of using a specific ability or due to using an unreliable black powder siege weapon with the [cobbled](/trait/cobbled) trait, such as a siege weapon created at the risky pirate volcano foundry known as the Motaku Ironworks.\n\n If you fail this misfire flat check, the siege weapon misfires and jams, and the attack also becomes a critical failure. To clear the jam, the crew must collectively use a number of [Interact](/action/interact-player-core) actions equal to the number of actions required to complete a single Load activity for the siege weapon. The weapon can then be reloaded and fired again. Once the crew has spent at least an hour cleaning and maintaining the weapon, they don't need to roll for a misfire until the next day unless an effect says otherwise.\n\n If you critically fail a misfire check when attempting to fire a siege weapon, the siege weapon explodes, dealing the damage listed in its Launch entry to all creatures in a 30-foot emanation with a basic Reflex save. The DC of the save is the standard DC of the siege weapon's level (Core Rulebook 503). When it explodes in this way, the siege weapon is destroyed.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Guns Equipment",
+        "Black Powder Siege Weapons"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=1657"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "black-powder-siege-weapons",
+      "guns-and-gears-remastered",
+      "guns-equipment",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)",
+        "page": 172,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=1657"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9268C8BA-D3E9-5106-87A1-6AB29EF904E4",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Siege Weapon Statistics",
+    "slug": "siege-weapon-statistics-rules-1632",
+    "type": "other",
+    "descr": "A siege weapon uses the following stat block format. An individual siege weapon might omit some of these sections, especially a portable siege weapon.\n\n## Siege Weapon Name\n\n **Price** This entry lists the siege weapon's Price; Ammunition If the siege weapon requires special ammunition, the ammunition's name appears here, along with the Price and Bulk of each piece.\n\n---\n\n **Usage** This entry shows whether the siege weapon is mounted or held. The number of hands required for a held siege weapon reflects how many the entire crew needs to use to operate the weapon; **Bulk** A portable siege weapon has Bulk; Space A mounted siege weapon has this entry to indicate its dimensions, not including any creatures crewing it.\n **Crew** The number of creatures needed to operate the siege weapon is listed here. If additional creatures can assist, there's a second number to indicate the maximum number that's practical. For instance, “4 to 8” indicates the weapon can't be operated by fewer than four creatures, and that no more than eight creatures total can crew the weapon at a time; **Proficiency** This entry shows the proficiency required to use your class DC when Launching a mounted weapon (see the Launch action) or the proficiency used for your attack roll with a portable siege weapon.\n\n---\n\n **AC** The siege weapon's AC. This section appears only if the siege weapon can normally be attacked and is more typical of mounted siege weapons; **Saving Throws** The siege weapon's saves, which typically include only Fortitude and Reflex.\n **Hardness** The siege weapon's hardness; **HP** The siege weapon's Hit Points, with its Broken Threshold in parentheses; **Immunities** The siege weapon's immunities; **Weaknesses** The siege weapon's weaknesses, if any; **Resistances** The siege weapon's resistances, if any.\n\n---\n\n **Speed** This is the maximum Speed you can move the mounted siege weapon using the [Move Siege Weapon](/rule/moving-a-mounted-siege-weapon-rules-1627) activity.\n The description of the siege weapon.\n **Aim** The entry for Aim shows the distance a creature can move the aim by taking this activity and the minimum distance away from the siege weapon the aim can be placed. **Load** This entry shows how many actions the Load activity takes and how many times this must be done to finish Loading the weapon. **Launch** This gives the specifics of the Launch action, including the traits, damage, size and shape of the area, and default DC.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Gears Equipment",
+        "Siege Weapons"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=1632"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gears-equipment",
+      "guns-and-gears-remastered",
+      "other",
+      "remaster",
+      "rule",
+      "siege-weapons"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)",
+        "page": 74,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=1632"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8F86CEEC-E4C3-50D6-874F-ED2754F59D29",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Siege Weapons",
+    "slug": "siege-weapons-rules-1622",
+    "type": "other",
+    "descr": "Shattering towering palisades. Mowing down hordes of soldiers. Breaking through barred castle gates. All of these tasks call for something heftier than the typical armaments carried by the common soldier: siege weapons. These massive, often-complex devices require full crews to operate. In significant numbers, they allow attackers to lay siege to entire fortifications, just as their name would suggest.\n\n There are two categories of siege weapons: mounted and portable. Mounted siege weapons take up a certain size and space, typically have defensive statistics, and are used for large-scale warfare. More adaptable are portable siege weapons, such as battering rams, which can be carried more easily and can serve a valuable role during large-scale warfare, smaller conflicts, or even exploration.\n\n All siege weapons need more than one person to operate them, working together as a crew. These crew members all need to be adjacent to the siege weapon for it to operate. A siege weapon's stat block lists the minimum number needed and the maximum crew size. Adding additional crew beyond the minimum is useful for ensuring a quick and successful Load in uncertain conditions and allowing for enough time to Aim the siege weapon when firing at a moving target.\n\n## Building Siege Weapons\n\nJust like other items, building a siege weapon requires using the [Craft](/action/craft-player-core) activity. However, due to the size, it typically takes more than one person to prepare some of the materials (such as felling tall trees and working them to create a trebuchet arm) and assemble the weapon. You typically need a number of workers equal to the minimum crew size for the siege weapon to complete it in the standard amount of time. It can take much longer or even be impossible for a smaller team or individual. Due to their specific uses, you might be able to use Engineering Lore or Warfare Lore instead of the Crafting skill when you Craft a siege weapon. The GM determines whether you can—some strange or more complex engines might not be constructible with Warfare Lore.\n\n## Disabling Siege Weapons\n\n[Disable a Device](/action/disable-a-device-player-core) can be used to deactivate most siege weapons that have complex moving parts. This typically doesn't require thieves' tools, takes one success, and uses the standard DC for the item level of the siege weapon.\n\n## Disassembling and Reassembling\n\nA mounted siege weapon without a Speed must be disassembled to be moved, then reassembled in its new location. The GM determines how long this takes, but it's typically 1 day or half a day of downtime to disassemble a siege weapon and 1 to 2 days to rebuild it. As with building a siege weapon, you need a larger crew to disassemble or reassemble a siege weapon at full speed.\n\n## Siege Weapons vs. Normal Weapons\n\nMany of the benefits that apply to standard weapons— daggers, bows, battleaxes, and the like—don't work on siege weapons. They're simply too different in form and function. The GM might allow using them in certain circumstances, but this is fairly rare.\n\n Character abilities that affect their attacks might work with portable siege weapons. For example, a battering ram might get the benefit of a character's bonuses that apply to attacks with two-handed weapons. The GM can determine what's reasonable and what's not. Because siege weapons require special actions to operate, a character can't use their special actions with them. Sorry, no Attacks of Opportunity with a battering ram!",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Gears Equipment"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=1622"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gears-equipment",
+      "guns-and-gears-remastered",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)",
+        "page": 72,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=1622"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B4D1E5F9-4526-521A-A8C9-D07AA908EDE5",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Size",
+    "slug": "size-rules-1605",
+    "type": "other",
+    "descr": "Your construct companion is either Small or Medium, chosen by you when you first gain the companion.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Gears Characters",
+        "Construct Companions",
+        "Prototype Construct Companions"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=1605"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "construct-companions",
+      "gears-characters",
+      "guns-and-gears-remastered",
+      "other",
+      "prototype-construct-companions",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)",
+        "page": 32,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=1605"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "12AC7B03-F292-5695-8392-C9D544766D77",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Speed",
+    "slug": "speed-rules-1611",
+    "type": "other",
+    "descr": "Your construct companion has a Speed of 25 feet.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Gears Characters",
+        "Construct Companions",
+        "Prototype Construct Companions"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=1611"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "construct-companions",
+      "gears-characters",
+      "guns-and-gears-remastered",
+      "other",
+      "prototype-construct-companions",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)",
+        "page": 33,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=1611"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "6F79EA6A-118A-5A17-BAFF-64F7436803FD",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Stabilizers",
+    "slug": "stabilizers-rules-1661",
+    "type": "other",
+    "descr": "The ferocious kickback of firearms is part of the functionality that makes them so appealing as weapons, but it can also present a barrier in wielding them effectively. To increase the functionality of firearms and make them more accessible to a wider audience, gunsmiths and engineers have created a large array of supporting stabilization over the years. From the humble [tripod](/item/tripod-guns-and-gears-remastered) to more elaborate arrays like the gunner's saddle, these tools can be an invaluable part of any gunner's loadout.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Guns Equipment",
+        "Customization Options"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=1661"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "customization-options",
+      "guns-and-gears-remastered",
+      "guns-equipment",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)",
+        "page": 182,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=1661"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "6CC011AF-0004-512F-9CEA-8E0B76951448",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Stasian Technology",
+    "slug": "stasian-technology-rules-1619",
+    "type": "other",
+    "descr": "Stasian technology is the rarest of the three types, channeling electricity from a limited supply of Stasian coils smuggled out of Irrisen, the land of eternal winter, which owns few Stasian coils to begin with. However, enough smuggled coils have spread to the mist-haunted principality of Ustalav to inspire a technological renaissance in the highest halls of Ustalavic academia. While Stasian technology is the newest form of electrical technology, and the one least dependent on magic, it's hardly the first time in Golarion's history that a civilization has attempted to harness electricity. Most notably, aeromantic infadibulum technology allowed the sky cities of the Shory empire to soar through the sky. However, such previous electrical technologies relied heavily on magic as a key component, as this made the inventions that harnessed them drastically more stable and powerful than a purely technological solution. After all, magic-users could create lightning bolts—what need was there for a non-magical alternative? While it might seem frivolous on magic-soaked Golarion, Stasian technology exists because it originates from another world where magic is much rarer. By utilizing less magical energy, Stasian tech offers a viable alternative. The core Stasian technology can be found on page 82, but other sections of this chapter have a few pieces of Stasian technology sprinkled in as well.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Gears Equipment",
+        "Three Innovations"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=1619"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gears-equipment",
+      "guns-and-gears-remastered",
+      "other",
+      "remaster",
+      "rule",
+      "three-innovations"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)",
+        "page": 60,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=1619"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4E9BE1F2-4F12-5EA8-A88C-8FC47FB30BAA",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Steam-Powered Technology",
+    "slug": "steam-powered-technology-rules-1620",
+    "type": "other",
+    "descr": "Steam technology is also an extremely recent invention, making it far less known than clockwork but still more accessible than Stasian technology, since it doesn't require the use of the heavily limited Stasian coils. Many regarded the idea to use steam for power as particularly novel simply because the world of Golarion contained so many other power sources that seemed more obvious or useful than the energy generated by the transition from water to steam. Most steam engines currently in use include a magical component used to heat the steam; for instance, a fire elemental generates a steady supply of heat on its own, though prior inventors would have used that energy directly rather than through the creation of steam. Nonetheless, several small proof-of-concept steam engines have successfully run safely and stably without the use of magic, through the use of a furnace to heat the water. Purely technological steam power will remain mostly a curiosity, though, as long as it continues to be less effective and convenient than steam power sourced through magical means.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Gears Equipment",
+        "Three Innovations"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=1620"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gears-equipment",
+      "guns-and-gears-remastered",
+      "other",
+      "remaster",
+      "rule",
+      "three-innovations"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)",
+        "page": 61,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=1620"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C43933D6-7E87-5E63-8365-31E708087B2C",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Strikes",
+    "slug": "strikes-rules-1606",
+    "type": "other",
+    "descr": "Your construct companion has two kinds of melee [unarmed](/trait/unarmed) attacks. Its first unarmed attack deals 1d8 bludgeoning damage. Depending on the shape of your construct this could be a fist, tendril, or other similar unarmed attack. Its other unarmed attack deals 1d6 slashing or piercing damage (choose when you first gain the companion) and has the [agile](/trait/agile) and [finesse](/trait/finesse) traits. Depending on the shape of your construct, this could be a spine or spike, jaws or fangs, a retractable blade, or other similar unarmed attack.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Gears Characters",
+        "Construct Companions",
+        "Prototype Construct Companions"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=1606"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "construct-companions",
+      "gears-characters",
+      "guns-and-gears-remastered",
+      "other",
+      "prototype-construct-companions",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)",
+        "page": 32,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=1606"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F937E6C2-A890-5EDA-9551-11015EAEE665",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Striking",
+    "slug": "striking-rules-1630",
+    "type": "other",
+    "descr": "A Strike with a siege weapon uses the crew leader's attack bonus. The siege weapon's Proficiency entry indicates the weapon category for the siege weapon. The crew leader rolls an attack roll against the target. Any bonuses or penalties the crew leader is taking apply to the attack roll. See the sidebar above for more on how attack abilities work with portable siege weapons.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Gears Equipment",
+        "Siege Weapons",
+        "Portable Siege Weapons"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=1630"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gears-equipment",
+      "guns-and-gears-remastered",
+      "other",
+      "portable-siege-weapons",
+      "remaster",
+      "rule",
+      "siege-weapons"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)",
+        "page": 73,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=1630"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "539EB4F3-E8C6-5B9B-AA71-1247F6BDB4CB",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Technology in Golarion Today",
+    "slug": "technology-in-golarion-today-rules-1643",
+    "type": "other",
+    "descr": "Over the last two decades, Golarion, and especially the Inner Sea region comprised of the continent of Avistan and the northern portion of the continent of Garund, have been beset by catastrophe after catastrophe. Armies of demons pouring forth from a wound in the world itself, time-displaced wizards inciting chaos to restore their faded glory, armies of giants and hobgoblins, and an evil lich leading undead hordes have all assaulted the people of Golarion and set them reeling time and time again. While these events have delayed certain technological advancements, they have spurred others. Firearms are more prevalent in Golarion than they've ever been before, and artificers in Varisia, Absalom, and northern Garund constantly create new devices both wondrous and terrible. Golarion stands on a cusp, with alchemy prominent, clockworks poised to expand, and steam-powered technology just entering its early days of exciting innovation. These technologies may be limited in their spread now but are positioned to bring great change and advancement to Golarion. That isn't a guarantee, however. These advancements might all come crashing down if the forces that seek the dissolution of science and social cohesion have their way. Fortunately, Golarion is also a world where heroes inevitably rise up to face such challenges and take action to secure a future of limitless possibility.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Introduction",
+        "World-Building and Tone"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=1643"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "introduction",
+      "other",
+      "remaster",
+      "rule",
+      "world-building-and-tone"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)",
+        "page": 8,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=1643"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "FC51A845-B8B7-5ED4-B071-2574674D7035",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Three Innovations",
+    "slug": "three-innovations-rules-1617",
+    "type": "other",
+    "descr": "While many of the items here contain their own unique blend of engineering, science, and, sometimes, magic, three major types of technology appear in several sections.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Gears Equipment"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=1617"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gears-equipment",
+      "guns-and-gears-remastered",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)",
+        "page": 60,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=1617"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "08563AA6-9F72-59BD-9E70-B6ABAFC8E39E",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Wheelchairs",
+    "slug": "wheelchairs-rules-1634",
+    "type": "other",
+    "descr": "Wheelchairs provide comfort and support when traveling. You can use the item either in an ambulatory manner or every day, depending on your character. Wheelchairs come in a variety of sizes to suit every person regardless of height or body type. Each wheelchair has the following features.\n\n **Adjustable Seat Belts**: These belts strap around your waist, knees, and shins to keep you in the chair if it's thrown, knocked or handled roughly. You can open and release all of your belts with an [Interact](/action/interact-player-core) action.\n\n **Bulk Limit**: A wheelchair is strong enough to support you and any amount of Bulk you could typically hold or carry (Core Rulebook 272). Sum up the Bulk of all the items you are wearing, carrying, and stowing on your wheelchair. You take the usual consequences when there is too much Bulk on you and your wheelchair: if there is more than 5 + your Strength modifier, you're [encumbered](/condition/encumbered-player-core), and you and your wheelchair can't hold or carry more than 10 + your Strength modifier. The wheelchair's own Bulk does not count against your Bulk limit while riding in the wheelchair; it's listed in case you need to carry the wheelchair separately.\n\n **Frame**: A wheelchair is typically made from common materials like wood. It can also be made from other materials such as steel, or rarer materials like mithral. The wheelchairs presented in this section are assumed to be made from durable wood.\n\n **Magic**: The wheelchair is considered an extension of yourself. Spells or abilities that change your bodily form are also applied to the chair and it transforms with you so long as you're using it. You can choose what appearance this has. For example, when you transform with wild shape, you can choose to have full mobility of your limbs or have the chair transform to become a wheelchair appropriate for that shape, such as wheelchair harnesses for dogs.\n\n **Movement**: While using a chair, you Stride at your normal Speed (the Speed listed for your ancestry, with any additional bonuses, penalties, and adjustments applied). You propel a wheelchair by using the handrims. You can propel the wheelchair even while holding something in your hands, but not if you've restrained or otherwise unable to move your hands freely. You are still affected by difficult terrain and other terrain features, and any effect that would immobilize you, give a penalty to your Speeds, and so on based on entangling or hindering with your legs applies to the wheelchair as well. You can use all of your actions while in a wheelchair. The impulse control add-on allows you to direct a wheelchair with your fingers or nerve impulses instead.\n\n **Quick-Righting**: If the chair is tipped or you are knocked [prone](/condition/prone-player-core) while in the chair, you can right yourself using the [Stand](/action/stand-player-core) action, though in this case you are righting the wheelchair instead. An ally can use an Interact action to help right you, allowing you to Stand as a free action triggered by their Interact action.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Gears Equipment",
+        "Mobility Devices"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=1634"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "gears-equipment",
+      "guns-and-gears-remastered",
+      "mobility-devices",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)",
+        "page": 90,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=1634"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0FE1D603-BF86-5B32-9A43-F54D4B84D44E",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "World-Building and Tone",
+    "slug": "world-building-and-tone-rules-1638",
+    "type": "other",
+    "descr": "_Guns & Gears_ introduces elements of fantasy that might not fit into every game. The world of Golarion has a lot in common with the Renaissance period of Earth, supplemented with magic and old-fashioned technologies that were replaced on Earth before being refined to the point they've reached in Golarion. This high fantasy world is home to pirates with bandoliers of flintlock pistols, reckless scientists animating the dead with electric coils, knights in shining armor riding mighty griffons, and wizards casting spells in tall towers. Each of those character concepts has a place in Golarion; it's just that to find some of the technological elements, you need to know where to look.\n\n For a home campaign, especially in a homebrew setting, some GMs might prefer a world that embraces the age of piracy and includes cannons and firearms with greater frequency than Golarion without the presence of steam-powered jetpacks and clockwork grappling hooks. Other GMs might prefer a world where clockworks and steam engines exist, but guns and other black powder weapons are absent. Guns & Gears takes steps to facilitate this world-building. As mentioned, this tome is divided into three smaller “books.” A GM who only wants to allow black powder weaponry without adding weird science to the game can allow their players to use the Guns chapters, eschewing the Gears chapters. A GM who wants to create a world of clockwork constructs and fantastic inventions unmarred by black powder weaponry can instead allow players to use the Gears chapters without giving access to the Guns chapters. Finally, a GM who remains unsure how any of these elements might fit into their game world is encouraged to read The Rotating Gear at the back of this book to see how these technologies have grown and spread through Golarion, and perhaps gain inspiration regarding how these elements might fit into their game.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Introduction"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=1638"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "guns-and-gears-remastered",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "guns-and-gears-remastered",
+      "introduction",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "Guns & Gears (Remastered)",
+        "page": 5,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=1638"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

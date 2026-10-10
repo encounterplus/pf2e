@@ -1,0 +1,39 @@
+{
+  "sections": [
+    {
+      "type": "group",
+      "fields": [
+        {
+          "placeholder": "Spell.Name",
+          "attribute": "name"
+        },
+        {
+          "title": "Spell.Rank",
+          "type": "number",
+          "attribute": "rank"
+        },
+        {
+          "title": "Spellcasting.AtWill",
+          "type": "toggle",
+          "attribute": "atWill"
+        },
+        {
+          "placeholder": "Common.Details",
+          "attribute": "details"
+        }
+      ]
+    },
+    {
+      "title": "Reference",
+      "type": "group",
+      "fields": [
+        {
+          "title": "Reference",
+          "type": "reference",
+          "attribute": "reference",
+          "attributeType": "Spell"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,460 @@
+[
+  {
+    "id": "1F0D2E6A-CE76-5FFE-82D5-791A7C36EB9C",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Anchoring Air",
+    "slug": "anchoring-air-high-seas-spell-spell-2621",
+    "descr": "You solidify the air around an incoming attack, catching it in a vise-like grip. The triggering creature must attempt a Reflex save.\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature takes a –2 circumstance penalty to the triggering Strike’s attack roll.\n\n**Failure** The creature takes a –2 circumstance penalty to all attack rolls until the end of its turn.\n\n**Critical Failure** As failure, but the creature is also [immobilized](/condition/immobilized-player-core) until the start of its next turn.",
+    "data": {
+      "rank": 4,
+      "rarity": "common",
+      "traits": [
+        "air",
+        "concentrate"
+      ],
+      "cost": "",
+      "cast": "Reaction",
+      "range": "",
+      "targets": "",
+      "requirements": "",
+      "trigger": "A creature attempts a melee [Strike](/action/strike-player-core) against you.",
+      "defense": "reflex",
+      "traditions": [
+        "occult",
+        "primal"
+      ],
+      "traditionsText": "Occult, Primal",
+      "type": "spell",
+      "castActions": [
+        "reaction"
+      ],
+      "actions": "reaction",
+      "traitLinks": [
+        {
+          "label": "air",
+          "slug": "air"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        }
+      ],
+      "durationText": "",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "air",
+      "concentrate",
+      "high-seas",
+      "remaster",
+      "spell"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Spells.aspx?ID=2621",
+        "page": 79
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "16955170-94A6-5D46-80AD-9B9CDDDCD223",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Connective Current",
+    "slug": "connective-current-high-seas-spell-spell-2622",
+    "descr": "You create a magical connection between you and an enemy, as if you were both caught in the same current. When the target takes a [move](/trait/move) action, you can [Stride](/action/stride-player-core) up to half your Speed in the same direction as the target as a reaction.\n\n---\n**Heightened (4th)** You can Stride up to your Speed.\n\n**Heightened (6th)** As 4th, and you gain an additional reaction when you [Cast this Spell](/action/cast-a-spell-player-core) and at the start of each of your turns that you can use only to make this movement.",
+    "data": {
+      "rank": 1,
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "manipulate"
+      ],
+      "cost": "",
+      "cast": "Two Actions",
+      "range": "30 feet",
+      "targets": "1 enemy",
+      "requirements": "",
+      "trigger": "",
+      "defense": "",
+      "traditions": [
+        "occult"
+      ],
+      "traditionsText": "Occult",
+      "type": "spell",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ],
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "high-seas",
+      "manipulate",
+      "remaster",
+      "spell"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Spells.aspx?ID=2622",
+        "page": 79
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "0FCF8E37-EA57-5ECF-BC86-886DD95063B6",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Shipwreck",
+    "slug": "shipwreck-high-seas-spell-spell-2623",
+    "descr": "You gesture toward a vehicle and the vessel wrenches itself apart. It must attempt a Fortitude save.\n\n**Critical Success** The vehicle is unaffected.\n\n**Success** The vehicle becomes [uncontrolled](/rule/uncontrolled-vehicles-rules-3131), and spaces within it become [difficult terrain](/rule/difficult-terrain-rules-2366).\n\n**Failure** As success, plus the vehicle gains the [broken](/condition/broken-player-core) condition. If it already had the broken condition, it’s destroyed.\n\n**Critical Failure** The vehicle is reduced to 0 HP and is destroyed.",
+    "data": {
+      "rank": 8,
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "incapacitation",
+        "manipulate"
+      ],
+      "cost": "",
+      "cast": "Two Actions",
+      "range": "500 feet",
+      "targets": "1 vehicle",
+      "requirements": "",
+      "trigger": "",
+      "defense": "fortitude",
+      "traditions": [
+        "occult"
+      ],
+      "traditionsText": "Occult",
+      "type": "spell",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "incapacitation",
+          "slug": "incapacitation"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        }
+      ],
+      "durationText": "",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "high-seas",
+      "incapacitation",
+      "manipulate",
+      "remaster",
+      "spell"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Spells.aspx?ID=2623",
+        "page": 79
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "282EB787-F66A-5C26-98B3-F79271D1CD43",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Undertow",
+    "slug": "undertow-high-seas-spell-spell-2624",
+    "descr": "**Area** 20-foot [burst](/rule/burst-rules-2385)\n\n---\n\nYou create an area of water 20 feet deep. The DC for Athletics checks to [Swim](/action/swim-player-core) in the area is equal to your spell DC. A creature that starts its turn in the area must attempt a Fortitude save.\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature takes 2d6 bludgeoning damage.\n\n**Failure** The creature takes 4d6 bludgeoning damage and takes a –2 circumstance penalty to Athletics checks to Swim and a –10-foot circumstance penalty to its [swim Speed](/rule/swim-speed-rules-2351), if it has one, until it leaves the area.\n\n**Critical Failure** As failure, and the creature is pulled 10 feet down.",
+    "data": {
+      "rank": 3,
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "incapacitation",
+        "water"
+      ],
+      "cost": "",
+      "cast": "Two Actions",
+      "range": "120 feet",
+      "targets": "",
+      "requirements": "",
+      "trigger": "",
+      "defense": "",
+      "traditions": [
+        "primal"
+      ],
+      "traditionsText": "Primal",
+      "type": "spell",
+      "area": "20-foot burst",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "incapacitation",
+          "slug": "incapacitation"
+        },
+        {
+          "label": "water",
+          "slug": "water"
+        }
+      ],
+      "areaEffectShape": "sphere",
+      "areaEffectSize": 20,
+      "durationText": "1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "high-seas",
+      "incapacitation",
+      "remaster",
+      "spell",
+      "water"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Spells.aspx?ID=2624",
+        "page": 79
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "8237B25A-1120-586C-9052-4F3B5BE5E32B",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Whispers of a Dead Goddess",
+    "slug": "whispers-of-a-dead-goddess-high-seas-spell-spell-2625",
+    "descr": "**Area** 15-foot [burst](/rule/burst-rules-2385)\n\n**Duration** [sustained](/action/sustain-player-core) up to 1 minute\n\n---\n\nThe mysterious whispers that fill the Mordant Spire, which some believe to be the voice of the dead goddess [Acavna](/deity/acavna-the-shield-divine-mysteries-deity-deity-402), become audible. A creature in the area when this Spell is Cast or who enters the area must attempt a Will save.\n\n**Critical Success** The creature is unaffected and becomes temporarily immune for 1 hour.\n\n**Success** The target becomes [stunned](/condition/stunned-player-core) 1, listening to the whispers.\n\n**Failure** As success, and the creature will not voluntarily leave the area for 1 round.\n\n**Critical Failure** As failure, and you can whisper a single course of action to each creature that critically failed, with the effects of [_suggestion_](/spell/suggestion-player-core). The effect ends on a creature if you stop sustaining the spell or the creature leaves the area.",
+    "data": {
+      "rank": 5,
+      "rarity": "common",
+      "traits": [
+        "auditory",
+        "concentrate",
+        "incapacitation",
+        "manipulate",
+        "mental"
+      ],
+      "cost": "",
+      "cast": "Two Actions",
+      "range": "60 feet",
+      "targets": "",
+      "requirements": "",
+      "trigger": "",
+      "defense": "will",
+      "traditions": [
+        "divine",
+        "occult"
+      ],
+      "traditionsText": "Divine, Occult",
+      "type": "spell",
+      "area": "15-foot burst",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "auditory",
+          "slug": "auditory"
+        },
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "incapacitation",
+          "slug": "incapacitation"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        }
+      ],
+      "areaEffectShape": "sphere",
+      "areaEffectSize": 15,
+      "durationText": "sustained up to 1 minute",
+      "duration": 1,
+      "durationType": "time",
+      "durationUnit": "minute"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "auditory",
+      "concentrate",
+      "high-seas",
+      "incapacitation",
+      "manipulate",
+      "mental",
+      "remaster",
+      "spell"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Spells.aspx?ID=2625",
+        "page": 79
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  },
+  {
+    "id": "929BE6BB-818A-5407-8816-484E5B214426",
+    "kind": "Spell",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "With Friends Like These",
+    "slug": "with-friends-like-these-high-seas-spell-spell-2626",
+    "descr": "You create a subtle dissonance between creatures, driving them apart.\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature becomes [sickened](/condition/sickened-player-core) 1.\n\n**Failure** The creature becomes sickened 2. While sickened this way, it doesn’t treat any other target of the spell as an ally.\n\n**Critical Failure** As failure, and it can’t end a [move](/trait/move) action within 10 feet of any other target as long as it is sickened.\n\n---\n**Heightened (+2)** You can target one additional creature.",
+    "data": {
+      "rank": 2,
+      "rarity": "common",
+      "traits": [
+        "concentrate",
+        "emotion",
+        "manipulate",
+        "mental"
+      ],
+      "cost": "",
+      "cast": "Two Actions",
+      "range": "30 feet",
+      "targets": "2 creatures",
+      "requirements": "",
+      "trigger": "",
+      "defense": "will",
+      "traditions": [
+        "occult"
+      ],
+      "traditionsText": "Occult",
+      "type": "spell",
+      "castActions": [
+        "two"
+      ],
+      "actions": "two",
+      "traitLinks": [
+        {
+          "label": "concentrate",
+          "slug": "concentrate"
+        },
+        {
+          "label": "emotion",
+          "slug": "emotion"
+        },
+        {
+          "label": "manipulate",
+          "slug": "manipulate"
+        },
+        {
+          "label": "mental",
+          "slug": "mental"
+        }
+      ],
+      "durationText": "",
+      "durationUnit": "round"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "high-seas",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "concentrate",
+      "emotion",
+      "high-seas",
+      "manipulate",
+      "mental",
+      "remaster",
+      "spell"
+    ],
+    "sources": [
+      {
+        "name": "High Seas",
+        "url": "https://2e.aonprd.com/Spells.aspx?ID=2626",
+        "page": 79
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-09T00:00:00Z",
+    "modified": "2026-09-09T00:00:00Z"
+  }
+]

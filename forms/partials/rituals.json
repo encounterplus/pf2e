@@ -1,0 +1,42 @@
+{
+  "sections": [
+    {
+      "type": "group",
+      "fields": [
+        {
+          "placeholder": "Creature.RitualHeadingHint",
+          "attribute": "type",
+          "title": "Creature.RitualHeading"
+        },
+        {
+          "title": "Ritual.DC",
+          "type": "number",
+          "attribute": "dc"
+        }
+      ]
+    },
+    {
+      "title": "Creature.Rituals",
+      "type": "list",
+      "attribute": "ritualGroups",
+      "custom": {
+        "itemTitle": "{{label}}",
+        "itemDetail": "{% for ritual in rituals %}{{ritual.name}}{% if ritual.details %} ({{ritual.details}}){% endif %}{% if not forloop.last %}, {% endif %}{% endfor %}"
+      },
+      "form": {
+        "title": "Creature.Rituals",
+        "partial": "ritual-group"
+      }
+    },
+    {
+      "title": "Common.Description",
+      "type": "group",
+      "fields": [
+        {
+          "type": "textArea",
+          "attribute": "text"
+        }
+      ]
+    }
+  ]
+}

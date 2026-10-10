@@ -1,0 +1,2510 @@
+[
+  {
+    "id": "2C37BF0F-795D-544C-A004-0B7E0EDAF963",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Acquainted",
+    "slug": "acquainted-rules-3404",
+    "type": "other",
+    "descr": "The NPC is aware of the PCs but is generally neutral about their relationship with them. These connections are the most common, and most acquainted connections don't need to be tracked. Examples include a wholesale supplier of goods, a classmate, an undeclared crush, or a member of the same faction.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Relationships and Advancement",
+        "Connection Subsystem",
+        "Creating a Connection",
+        "Bonded"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3404"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "bonded",
+      "connection-subsystem",
+      "creating-a-connection",
+      "npc-core",
+      "other",
+      "relationships-and-advancement",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core",
+        "page": 227,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3404"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4FB0C170-0A89-52AB-AD7F-54461B147F59",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Adjusting Creatures",
+    "slug": "adjusting-creatures-rules-3356",
+    "type": "other",
+    "descr": "This section guides you through some basic strategies you can use to adjust an NPC's power level and specifics.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Introduction"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3356"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "introduction",
+      "npc-core",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core",
+        "page": 5,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3356"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "78342966-6B81-5B2C-8D12-8AE0CCA86DC2",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Ancestry Adjustments",
+    "slug": "ancestry-adjustments-rules-3369",
+    "type": "other",
+    "descr": "Many kinds of people call Golarion home. While most are humans, many are not. For important NPCs, it is generally more effective to use the full creature creation rules if you have time. Sometimes, though, you need an NPC with a different ancestry in a hurry. Like the elite and weak adjustments detailed in Monster Core, the special adjustments found here can be used to quickly customize any human into one of many different ancestries.\n\n As with any adjustments, these are meant to be fast, not comprehensive. It's best to check whether the adjustment makes the creature too powerful or contradicts other cultural precedents set in place. For example, when adding the lizardfolk adjustment to iruxi adapted to a desert environment, adding a swim Speed may not make sense.\n\n These adjustments don't include ancestral weaponry, Hit Points, or attribute preferences. Additional adjustments to account for these should refer to the full [character creation](/rule/character-creation-rules-2027) rules to ensure changes stay within level expectations.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Chapter 1: NPC Gallery"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3369"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "chapter-1-npc-gallery",
+      "npc-core",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core",
+        "page": 167,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3369"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "89723A83-1EA7-5814-852D-B93D7E9BBDB4",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Animal Companions",
+    "slug": "animal-companions-rules-3379",
+    "type": "other",
+    "descr": "Some NPCs, such as the beast tamer, the orc gamekeeper, and the pack leader, take on and train animal companions to help them with their endeavors. The creatures from _Monster Core_ listed below work well in this role. Unlike a PC's animal companion, an NPC's animal companion has the standard number of actions, uses its normal stat block, and counts toward the encounter's XP budget normally.\n\n Several new creatures suitable for animal companions are presented beginning on page 218. You can use the weak and elite adjustments to scale their level to be appropriate for an encounter's budget.\n\n **Level -1**: compsognathus, eagle, flash beetle, giant centipede, giant rat, guard dog, viper\n **Level 0**: bottlenose dolphin, riding dog\n **Level 1**: electric eel, giant gecko, goblin dog, hippocampus, hunting spider, hyena, python, riding dog, riding horse, velociraptor, war pony, wolf\n **Level 2**: boar, crocodile, deinonychus, giant ant, giant monitor lizard, giant viper, hippogriff, leopard, pteranodon, slurk, war horse\n **Level 3**: ankhrav, dire wolf, giant mantis, giant scorpion, giant wasp, gorilla, grizzly bear, hell hound, hyaenodon, lion, pachycephalosaurus, snapping flytrap\n **Level 4**: daeodon, giant stag beetle, griffon, rhinoceros, tiger\n **Level 5**: giant frilled lizard, giant moray eel\n **Level 6**: cave bear, giant tarantula, smilodon, woolly rhinoceros\n **Level 8**: krooth\n **Level 9**: greater hell hound\n **Level 10**: gezullon\n\n## Riding Animal Companions\n\nAn NPC can ride a creature that works alongside them as long as the creature is at least one size larger than the rider. Generally, a creature that is carrying a rider can use only its land Speed and can't grant its support benefit. However, certain creatures that have been trained to be ridden, such as horses and riding drakes, ignores those restrictions.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Creature Companions"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3379"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "creature-companions",
+      "npc-core",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core",
+        "page": 217,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3379"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2C13AD31-FBFF-5CE7-AA1D-23E975F4AC85",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Animalist",
+    "slug": "animalist-rules-3384",
+    "type": "other",
+    "descr": "**Tradition** primal\n **10th** [_moon frenzy_](/spell/moon-frenzy-player-core), [_primal herd_](/spell/primal-herd-player-core-2); **9th** [_metamorphosis_](/spell/metamorphosis-player-core), [_nature's enmity_](/spell/nature-s-enmity-player-core-2), [_summon animal_](/spell/summon-animal-player-core), [_unfettered pack_](/spell/unfettered-pack-player-core); **8th** [_chameleon coat_](/spell/chameleon-coat-player-core-2), [_cursed metamorphosis_](/spell/cursed-metamorphosis-player-core), [_migration_](/spell/migration-player-core), _summon animal_; **7th** _cursed metamorphosis_, [_dinosaur form_](/spell/dinosaur-form-player-core), _summon animal_, _unfettered pack_; **6th** _chameleon coat_, _cursed metamorphosis_, _moon frenzy_, _summon animal_; **5th** [_animal form_](/spell/animal-form-player-core) or _dinosaur form_, _chameleon coat_, _moon frenzy_, _summon animal_; **4th** _animal form_ or _dinosaur form_, [_bestial curse_](/spell/bestial-curse-player-core-2), _summon animal_, [_unfettered movement_](/spell/unfettered-movement-player-core); **3rd** _animal form_, [_animal vision_](/spell/animal-vision-player-core-2), [_familiar's face_](/spell/familiar-s-face-player-core-2), [_mad monkeys_](/spell/mad-monkeys-player-core); **2nd** _animal form_, [_animal messenger_](/spell/animal-messenger-player-core), [_gecko grip_](/spell/gecko-grip-player-core), [_speak with animals_](/spell/speak-with-animals-player-core); **1st** [_pest form_](/spell/pest-form-player-core), [_pet cache_](/spell/pet-cache-player-core), [_spider sting_](/spell/spider-sting-player-core), _summon animal_; **Cantrips** [_gouging claw_](/spell/gouging-claw-player-core), [_guidance_](/spell/guidance-player-core), [_know the way_](/spell/know-the-way-player-core), [_puff of poison_](/spell/puff-of-poison-player-core-2), [_stabilize_](/spell/stabilize-player-core)",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Themed Spell Lists"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3384"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "other",
+      "remaster",
+      "rule",
+      "themed-spell-lists"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core",
+        "page": 220,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3384"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "CF9D0203-6835-5120-A756-9E758800B09A",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Aquatic",
+    "slug": "aquatic-rules-3372",
+    "type": "other",
+    "descr": "**Examples** fish, octopus, otter, turtle\n **Splash** **Single Action** ([auditory](/trait/auditory), [concentrate](/trait/concentrate)) **Requirements** The NPC is in water; **Effect** The NPC commands their companion to splash water on an enemy within 15 feet. That target is [dazzled](/condition/dazzled-player-core) until the beginning of the NPC's next turn.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Creature Companions",
+        "Pets and Familiars"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3372"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "creature-companions",
+      "npc-core",
+      "other",
+      "pets-and-familiars",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core",
+        "page": 216,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3372"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "EFA4EE55-784C-5EE0-8A6F-748FC9D73DBD",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Associated",
+    "slug": "associated-rules-3403",
+    "type": "other",
+    "descr": "The NPC knows the PC well and is usually friendly to them. These connections are mostly friendly relationships. Examples of this connection include the innkeeper at a favorite tavern, a cousin, or the early stages of a romantic relationship.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Relationships and Advancement",
+        "Connection Subsystem",
+        "Creating a Connection",
+        "Bonded"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3403"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "bonded",
+      "connection-subsystem",
+      "creating-a-connection",
+      "npc-core",
+      "other",
+      "relationships-and-advancement",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core",
+        "page": 227,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3403"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "6F64BC49-EC35-50E5-B493-9FA9F435F341",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Avoided",
+    "slug": "avoided-rules-3405",
+    "type": "other",
+    "descr": "The NPC doesn't want to be associated with the connection and avoids interacting with them. While the NPC doesn't mean harm, they won't provide assistance unless they're convinced to do so. Examples include a noble who was insulted, a stiffed merchant, participant in a lousy date, or member of a rival faction.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Relationships and Advancement",
+        "Connection Subsystem",
+        "Creating a Connection",
+        "Bonded"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3405"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "bonded",
+      "connection-subsystem",
+      "creating-a-connection",
+      "npc-core",
+      "other",
+      "relationships-and-advancement",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core",
+        "page": 227,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3405"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "62F10414-504C-5535-B33D-83D8CA385A89",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Bonded",
+    "slug": "bonded-rules-3401",
+    "type": "other",
+    "descr": "The NPC considers this relationship to be one of the most important in their lives. These connections are typically intended to be lifelong, though they may still recede if neglected. If asked, a bonded connection provides any favor if able. Examples of this type of connection include sworn siblings, spouses, and queerplatonic partners.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Relationships and Advancement",
+        "Connection Subsystem",
+        "Creating a Connection"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3401"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "connection-subsystem",
+      "creating-a-connection",
+      "npc-core",
+      "other",
+      "relationships-and-advancement",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core",
+        "page": 226,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3401"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4F112674-ECEC-592C-A22D-054C3266064A",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Burrowing",
+    "slug": "burrowing-rules-3373",
+    "type": "other",
+    "descr": "**Examples** fox, giant ant, mole\n **Churn Earth** **Single Action** ([auditory](/trait/auditory), [concentrate](/trait/concentrate)) The NPC commands their companion to burrow through the nearby soil, creating a 10-foot-square area of [difficult terrain](/rule/difficult-terrain-rules-2366) within 15 feet.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Creature Companions",
+        "Pets and Familiars"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3373"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "creature-companions",
+      "npc-core",
+      "other",
+      "pets-and-familiars",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core",
+        "page": 216,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3373"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "DDCE234E-FDC8-59F5-A9D4-ECDD5714EAB9",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Chapter 1: NPC Gallery",
+    "slug": "chapter-1-npc-gallery-rules-3363",
+    "type": "other",
+    "descr": "In this chapter, you'll find all kinds of NPCs across a variety of categories and roles. Each section includes stat blocks that fit a theme, sidebars with extra details, and a section of tidbits a GM can drop into a game using these NPCs. If you need to find an NPC by level, use the [search feature](Search.aspx?q=type%3Acreature+source%3A) and filter by the level range you need.\n\n Because humans make up the majority of the population in most areas of Golarion, the stat blocks in this chapter are all humans. If you want to change the ancestry of a stat block, use the ancestry adjustments found here!",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3363"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core",
+        "page": 7,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3363"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E1F7A269-C43C-5D51-9452-F52B83299F7C",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Chapter 2: Ancestry NPCs",
+    "slug": "chapter-2-ancestry-npcs-rules-3367",
+    "type": "other",
+    "descr": "This chapter presents entries for every ancestry appearing in _Pathfinder Player Core_ and _Pathfinder Player Core 2_. Each one includes several stat blocks and ideas to spice up your NPCs, come up with quick names, or evoke the ancestries' cultures. If an ancestry also has a section in _Pathfinder Monster Core_, that information is included in the entry's introductory text.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3367"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core",
+        "page": 167,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3367"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5E9904A6-8150-5F48-818E-2123324C1080",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Combat Power",
+    "slug": "combat-power-rules-3357",
+    "type": "combat",
+    "descr": "In many cases, you can make relatively minor adjustments to a creature's statistics, called elite and weak adjustments, to raise or lower its level by 1. Elite and weak adjustments work best with creatures that focus on physical combat.\n\n These adjustments overstate the normal numerical gains the creature would make from increasing its level to make up for the lack of new special abilities. Creatures that cast spells or rely on noncombat abilities typically need specific adjustments. Applying the elite or weak more than once to a creature should be avoided. For major changes, see the Pathfinder GM Core guidance on building creatures.\n\n## Specialist Levels\n\nThe level on an NPC's stat block is their level for a combat encounter. But many of these NPCs are primarily noncombatants much more skilled in their occupation than in combat. Specialist NPCs' stat blocks include an entry noting that they have a higher level when the PCs have to compete against them in their area of expertise.",
+    "data": {
+      "type": "combat",
+      "breadcrumbs": [
+        "Introduction",
+        "Adjusting Creatures"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3357"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "adjusting-creatures",
+      "combat",
+      "introduction",
+      "npc-core",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core",
+        "page": 5,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3357"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "EBA91521-2173-5E82-89C5-C0EE0CF3BA11",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Committed",
+    "slug": "committed-rules-3402",
+    "type": "other",
+    "descr": "The NPC is invested in the relationship with the PC and actively seeks them out to spend time together. These connections are typically long-term or deep relationships. Examples include an established mentor, a steady romantic partner, or an ongoing business partnership.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Relationships and Advancement",
+        "Connection Subsystem",
+        "Creating a Connection",
+        "Bonded"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3402"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "bonded",
+      "connection-subsystem",
+      "creating-a-connection",
+      "npc-core",
+      "other",
+      "relationships-and-advancement",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core",
+        "page": 226,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3402"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E73878AE-4EF6-511F-8F01-30C6C5CE85D2",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Common Support Abilities",
+    "slug": "common-support-abilities-rules-3381",
+    "type": "other",
+    "descr": "**Ape** The ape threatens the NPC's foes with menacing growls. Until the start of the NPC's next turn, if the NPC hits and deals damage to a creature in the ape's reach, the creature becomes [frightened 1](/condition/frightened-player-core).\n\n **Badger** The badger digs around a foe's position, upending the ground and interfering with its footing. Until the start of the NPC's next turn, if the NPC hits and deals damage to a creature the badger threatens, the target can't use a [Step](/action/step-player-core) action (unless it can Step through [difficult terrain](/rule/difficult-terrain-rules-2366)) until it moves from its current position.\n\n **Bat** The bat flaps around a foe's arms and faces, screeching and getting in the way of their attacks. Until the start of the NPC's next turn, creatures in the bat's reach that the NPC damages with Strikes take a –1 circumstance penalty to their attack rolls.\n\n **Bear** The bear mauls the NPC's enemies when the NPC creates an opening. Until the start of the NPC's next turn, each time they hit a creature in the bear's reach with a Strike, the creature takes 1d8 slashing damage from the bear (or 2d8 if the bear is 8th level or higher).\n\n **Bird** The bird pecks at foes' eyes when the NPC creates an opening. Until the start of the NPC's next turn, the NPC's Strikes that damage a creature that the bird threatens also deal 1d4 [persistent bleed damage](/condition/persistent-damage-player-core) (or 2d4 if the bird is 8th level or higher), and the target is [dazzled](/condition/dazzled-player-core) until the bleed damage ends.\n\n **Boar** The boar gores the NPC's foes. Until the start of the NPC's next turn, the NPC's Strikes that damage a creature in the boar's reach deal an extra 1d6 persistent bleed damage (or 2d6 if the boar is 8th level or higher).\n\n **Cat** The cat throws enemies off-balance when the NPC creates an opening. Until the start of the NPC's next turn, the NPC's Strikes that deal damage to a creature within the cat's reach make the target [off-guard](/condition/off-guard-player-core) until the end of the NPC's next turn.\n\n **Crocodile** The crocodile clamps its jaws on a foe, refusing to let go. Until the start of the NPC's next turn, if the NPC's Strike damages a creature in the crocodile's reach, the crocodile can latch onto the creature. While thus attached, the crocodile can move along with the target whenever the target moves until the end of the NPC's next turn. The crocodile can latch onto only one creature in this way, and it must release the creature to make a jaws Strike. If the target is smaller than the crocodile, it takes a –10-foot circumstance penalty to its Speeds and can't [Fly](/action/fly-player-core) while the crocodile is latched on.\n\n **Dromaesaur** The raptor constantly darts into flanking position. Until the start of the NPC's next turn, it counts as being in its space or an empty space of the NPC's choice within 10 feet of the NPC when determining whether the NPC and the dromaesaur are flanking; the NPC can choose a different space for each of their attacks.\n\n **Horse** Until the start of the NPC's next turn, if the NPC is mounted on the horse and moved 10 feet or more on the action before a melee Strike, the NPC gains a circumstance bonus to the damage roll equal to double the number of weapon damage dice. If the NPC's weapon already has the [jousting](/trait/jousting) weapon trait, instead increase the trait's damage bonus by 2 per die.\n\n **Scorpion** The scorpion drips poison from its stinger when the NPC creates an opening. Until the start of the NPC's next turn, the NPC's Strikes that damage a creature in the scorpion's reach deal an extra 1d6 persistent poison damage (or 2d6 if the scorpion is 8th level or higher).\n\n **Shark** When the shark senses blood, it tears into the NPC's enemies. Until the start of the NPC's next turn, each time the NPC hits a creature in the shark's reach with a Strike and deals slashing or piercing damage, the creature takes 1d8 slashing damage from the shark (or 2d8 if the shark is 8th level or higher).\n\n **Snake** The snake holds enemies with its coils, interfering with reactions. Until the start of the NPC's next turn, any creature the snake threatens can't use reactions triggered by the NPC's actions unless the creature's level is higher than the NPC's.\n\n **Wolf** The wolf tears tendons with each opening. Until the start of the NPC's next turn, the NPC's Strikes that damage creatures the wolf threatens give the target a –5-foot status penalty to its Speeds for 1 minute (–10 on a critical success).",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Creature Companions",
+        "Animal Companions"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3381"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "animal-companions",
+      "creature-companions",
+      "npc-core",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core",
+        "page": 217,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3381"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "65228D74-24D6-54F7-8D93-41CA56610C71",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Conjurer",
+    "slug": "conjurer-rules-3385",
+    "type": "other",
+    "descr": "**Tradition** arcane\n **10th** [_gate_](/spell/gate-player-core), [_remake_](/spell/remake-player-core); **9th** [_resplendent mansion_](/spell/resplendent-mansion-player-core-2), [_impaling spike_](/spell/impaling-spike-player-core), [_summon construct_](/spell/summon-construct-player-core), [_summon dragon_](/spell/summon-dragon-player-core); **8th** [_duplicate foe_](/spell/duplicate-foe-player-core), _impaling spike_, [_quandary_](/spell/quandary-player-core), _summon dragon_; **7th** _duplicate foe_, [_interplanar teleport_](/spell/interplanar-teleport-player-core), [_planar palace_](/spell/planar-palace-player-core), _summon dragon_; **6th** [_collective transposition_](/spell/collective-transposition-player-core-2), _summon dragon_, [_teleport_](/spell/teleport-player-core), [_wall of force_](/spell/wall-of-force-player-core); **5th** [_creation_](/spell/creation-player-core), _impaling spike_, _summon dragon_, [_translocate_](/spell/translocate-player-core); **4th** _creation_, [_flicker_](/spell/flicker-player-core), _summon construct_, _translocate_; **3rd** [_aqueous orb_](/spell/aqueous-orb-player-core), [_cozy cabin_](/spell/cozy-cabin-player-core), _summon construct_, [_summon elemental_](/spell/summon-elemental-player-core); **2nd** [_create food_](/spell/create-food-player-core), [_marvelous mount_](/spell/marvelous-mount-player-core), [_mist_](/spell/mist-player-core), _summon elemental_; **1st** [_carryall_](/spell/carryall-player-core-2), [_grease_](/spell/grease-player-core), [_summon animal_](/spell/summon-animal-player-core), _summon construct_; **Cantrips** [_detect magic_](/spell/detect-magic-player-core), [_light_](/spell/light-player-core), [_prestidigitation_](/spell/prestidigitation-player-core), [_telekinetic hand_](/spell/telekinetic-hand-player-core), [_telekinetic projectile_](/spell/telekinetic-projectile-player-core)",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Themed Spell Lists"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3385"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "other",
+      "remaster",
+      "rule",
+      "themed-spell-lists"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core",
+        "page": 220,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3385"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C820ABC6-BA8C-5A33-A01E-8CE1E64DDA66",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Connection Advancement",
+    "slug": "connection-advancement-rules-3408",
+    "type": "other",
+    "descr": "Connections advance and recede in conjunction with the actions and investments of the PCs. The Connections table shows how connections advance and recede. Tokens of affection advance connection tiers, while insults recede them.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Relationships and Advancement",
+        "Connection Subsystem"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3408"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "connection-subsystem",
+      "npc-core",
+      "other",
+      "relationships-and-advancement",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core",
+        "page": 227,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3408"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5FF2AB06-5391-5EDB-91DC-8F0B2ED16EB9",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Connection Subsystem",
+    "slug": "connection-subsystem-rules-3398",
+    "type": "other",
+    "descr": "The connection subsystem is designed to be used for adventure arcs or campaigns that span multiple sessions and is flexible for a range of relationship types. It can be used to track the changes in a romantic relationship, friendship, business partnership, or the bond between siblings. A PC advances through Connection Tiers by investing in relationships with NPCs or loses Connection Tiers by affronting NPCs.\n\n This subsystem has many similarities to [reputation](/rule/reputations-rules-3075) but is simplified since it's meant to be overall more interpersonal and less campaign-shaping. It's also notably harder to improve from the worst depths of a hostile connection.\n\n## Consent, Safety, and In-Game Relationships\n\nGames that focus heavily on relationships come with additional considerations around consent and player safety. In particular, games that focus on roleplaying dating and flirting can blur the line between acting out a scene and using a scene to flirt in real life. Your group should consider the feelings of all players and any bystanders to the game, not just those engaging in romantic arcs or roleplaying.\n\n## Bleed And Boundaries\n\n Bleed—the blurring of boundaries between the player's feelings and those of their characters—is a common occurrence when focusing on relationships. This sometimes shows up when two characters dating in the campaign story leads to the players dating outside the game. However, it can also appear when in-character rivalries cause tension between the players. Bleed is a common experience in games, since acting out social interactions makes them feel real as a result. It also affects players and Game Masters equally, so all participants need to be aware of how the game may affect their out-of-game feelings.\n\n## Check-Ins And Calibrations\n\n Participants—Game Masters and players—should never be forced into roleplaying a romantic relationship without their consent. When it seems like romantic relationships may come up in the game, all participants should discuss their boundaries. This should include both the type of relationship they're interested in exploring in the game and the amount of detail involved. For example, a player may want to have an NPC as a background relationship that rarely comes into the spotlight, while another player may want to be more detailed. When considering these boundaries, consider the relationship between the players and the level of trust. [Specific safety tools](/rule/the-pathfinder-baseline-rules-2471) can be helpful in defining these boundaries and providing a safety net during play.\n\n Out-of-character check-ins and calibrations are useful after big moments between two characters (such as a rejection of an advance or a pivotal moment that makes a relationship more intense). However, they should also occur any time events in a game seem to affect the relationship between players. Check-ins can occur mid-scene, particularly if a participant is reacting negatively to the way the game is playing out. Since the excitement of playing can influence emotions, it's also good practice to do occasional check-ins outside of gaming sessions.\n\n These check-ins should focus on whether the participants feel like they have appropriate agency in the way a relationship is playing out, that they meaningfully consent to the interaction, and that they're aware of any effect this has on the relationship between those at the table. Check-ins can also include participants and bystanders who aren't directly in the scene.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Relationships and Advancement"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3398"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "other",
+      "relationships-and-advancement",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core",
+        "page": 226,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3398"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "6FACA714-1C43-54C9-8382-C28D97DAE075",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Connection Tiers",
+    "slug": "connection-tiers-rules-3400",
+    "type": "other",
+    "descr": "Connections fall into tiers, which correspond to how invested the NPC is in the connection. Most NPC relationships will not reach the highest tiers but may still be useful to track.\n\n Most connections start at the acquainted tier. However, at the GM's discretion, a relationship may begin at a higher or lower tier. For example, the academic rival of a PC may begin as a despised connection but slowly come around to being an associated relationship. Likewise, the long-lost brother may start as an associated connection instead of an acquaintance due to the familial history.\n\nThese tiers only indicate the other party's feelings toward the PC or group that has the connection. The feelings of a PC can vary in reciprocity, and should be roleplayed rather than measured.\n\n## Connections\n\n| **Connection** | **Advanced By** | **Receded By** |\n| --- | --- | --- |\n| Bonded | — | Moderate or major insult |\n| Committed | Major token | Any insult |\n| Associated | Moderate or major token | Any insult |\n| Acquainted | Any token | Any insult |\n| Avoided | Any token | Moderate or major insult |\n| Despised | Moderate or major token | Major insult |\n| Vindictive | Major token | — |",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Relationships and Advancement",
+        "Connection Subsystem",
+        "Creating a Connection"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3400"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "connection-subsystem",
+      "creating-a-connection",
+      "npc-core",
+      "other",
+      "relationships-and-advancement",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core",
+        "page": 226,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3400"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B11320ED-9B0E-5159-A5A6-F2FE6057616C",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Creating a Connection",
+    "slug": "creating-a-connection-rules-3399",
+    "type": "other",
+    "descr": "Connections are between either an individual PC or a group of characters. When a connection is first made, determine who it is between. If it's between an individual PC and NPC, only that PC's actions [influence](/action/influence-gm-core) the Connection Tier. If it's between a group of player characters and an NPC, all the PCs' actions influence the Connection Tier. For group relationships, multiply all requirements to advance or recede a connection by the number of PCs. Group connections can be divided into individual connections, and individual connections can be combined into a group connection as suits the dynamic of your group and story.\n\n There's no limit on the number of connections that an individual PC or group may have, though maintaining many connections may prove difficult.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Relationships and Advancement",
+        "Connection Subsystem"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3399"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "connection-subsystem",
+      "npc-core",
+      "other",
+      "relationships-and-advancement",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core",
+        "page": 226,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3399"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "FF919F57-EA33-5288-AFBF-DFEA96995A74",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Creature Companions",
+    "slug": "creature-companions-rules-3370",
+    "type": "other",
+    "descr": "NPCs often have companions, pets, or familiars that travel with them. While some types of companions might serve only a narrative purpose, others might present the NPC with additional actions or abilities.\n\n When creating an NPC with a companion creature, it's important to decide what general category that creature will fit and how it will affect the encounter. Pets and familiars provide NPCs with flavorful extra abilities without using an additional stat block. Animal companions and eidolons function as separate creatures with their own abilities.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3370"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core",
+        "page": 216,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3370"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9A6C0632-7966-5AE2-96E1-8A228CD0590C",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Crossover Ancestry NPCs",
+    "slug": "crossover-ancestry-npcs-rules-3368",
+    "type": "other",
+    "descr": "Several of the NPCs in this chapter can fit well in the groups from Chapter 1.\n\n **Artisan**: Dwarf smith (level 0), forlorn artist (level 2), goblin chef (level 1), halfling head chef (level 2), tengu bladesmith (level 6)\n **Courtier**: Aiuvarin translator (level 0)\n **Criminal**: Gnome daredevil (level 2), halfling smuggler (level 6), leaping thief (level 3)\n**Devotee**: Spirit priest (level 5)\n**Engineer**: Goblin scavenger (level 4), kobold trapper (level 2)\n**Explorer**: Bleachling survivor (level 2), orc gamekeeper (level 4), tripkee camoufleur (level 2), tripkee scout (level 1), woodland scouts (level 8)\n**Laborer**: Orc agriculturalist (level 1), root leshy groundskeeper (level –1), tumbleweed leshy courier (level 3)\n**Martial Artist**: Orc veteran master (level 10)\n**Maverick**: Bill-band (level 5), gambling companion (level 3), goblin get gang (level 5)\n**Mercenary**: Bone scavenger (level 0), kholo outrider (level 7), kholo pragmatist (level 1), lucky courser (level 8), tunnel viper (level 1)\n**Military**: Corn leshy throng (level 4), demonbane warrior (level 5), dwarf battalion (level 6), dwarf general (level 8), hobgoblin battalion (level 5), hobgoblin spellbreaker (level 3), hobgoblin vanguard (level 8), orc skullcrushers (level 7)\n**Mystic**: Bone mother (level 6), gourd leshy witch (level 6), tripkee fiend keeper (level 7)\n**Official**: Big boss goblin (level 6), elven court guard (level 13), kobold egg guardian (level 3), swarm voice (level 3), tidewater guard (level 4)\n**Performer**: Halfling yarnspinner (level 7), iruxi masked mummer (level 9), razzle dazzler (level 5)\n**Primalist**: Gnome conservationist (level 6), kobold earth diver (level 4)\n**Scholar**: Catfolk name collector (level 6), dromaar lorekeeper (level 5), gnome philomath (level –1)\n**Seafarer**: Jinx eater (level 4)",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Chapter 2: Ancestry NPCs"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3368"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "chapter-2-ancestry-npcs",
+      "npc-core",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core",
+        "page": 167,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3368"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "DB0A5FED-4DBB-5250-BE66-7BA32E34A098",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Despised",
+    "slug": "despised-rules-3406",
+    "type": "other",
+    "descr": "The NPC strongly dislikes the connection and avoids any association with them. They may actively sabotage the connection if given the opportunity. Examples include a bitter former friend, jilted former suitor, or long-term personal rival.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Relationships and Advancement",
+        "Connection Subsystem",
+        "Creating a Connection",
+        "Bonded"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3406"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "bonded",
+      "connection-subsystem",
+      "creating-a-connection",
+      "npc-core",
+      "other",
+      "relationships-and-advancement",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core",
+        "page": 227,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3406"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "7DD4F17D-C5B6-505A-B8F2-798FD0A3E142",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Downtime and Exploration Abilities",
+    "slug": "downtime-and-exploration-abilities-rules-3378",
+    "type": "other",
+    "descr": "A pet or familiar might also grant their NPC aid during downtime and exploration mode. If an ability mentions a familiar, that NPC must have a familiar and not a pet.\n\n **Eavesdropper** The NPC's familiar can [Gather Information](/action/gather-information-player-core) through careful positioning and tact. While in a settlement the NPC is familiar with, their familiar can use Gather Information on any topic by eavesdropping in key locations. The NPC can learn about topics that would normally be kept secret, but it must be information someone could reasonably be discussing within the settlement. This takes 1 hour instead of the normal amount of time, and the NPC does not risk alerting others of their intentions and can take other actions during this time.\n\n **Ritual Assistant** The NPC's companion provides assistance during rituals. The familiar qualifies as a single secondary caster for rituals they cast, though the NPC uses their skill modifiers for any checks. If a ritual does not need secondary casters, the NPC instead gains a +2 circumstance bonus to any skill checks related to casting the ritual.\n\n **Suspicious Familiar** ([misfortune](/trait/misfortune)) The NPC's companion has a skeptical nature and can express it. When a creature attempts to [Lie](/action/lie-player-core) to or [Make an Impression](/action/make-an-impression-player-core) on the NPC, the creature must roll twice and take the lower of the two results",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Creature Companions",
+        "Pets and Familiars"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3378"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "creature-companions",
+      "npc-core",
+      "other",
+      "pets-and-familiars",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core",
+        "page": 216,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3378"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "00E857F3-5559-5386-B1B9-E3472A29783A",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Earthkeeper",
+    "slug": "earthkeeper-rules-3386",
+    "type": "other",
+    "descr": "**Tradition** primal\n **10th** [_nature incarnate_](/spell/nature-incarnate-player-core), [_tree of seasons_](/spell/tree-of-seasons-player-core); **9th** [_impaling spike_](/spell/impaling-spike-player-core), [_summon elemental_](/spell/summon-elemental-player-core) (earth only), _tree of seasons_, [_wall of stone_](/spell/wall-of-stone-player-core); **8th** [_earthquake_](/spell/earthquake-player-core), [_mountain resilience_](/spell/mountain-resilience-player-core), [_nature's pathway_](/spell/nature-s-pathway-player-core), [_protector tree_](/spell/protector-tree-player-core-2); **7th** _impaling spike_, [_lifewood cage_](/spell/lifewood-cage-player-core-2), _tree of seasons_, [_wall of thorns_](/spell/wall-of-thorns-player-core); **6th** _mountain resilience_, [_petrify_](/spell/petrify-player-core), [_speak with stones_](/spell/speak-with-stones-player-core), [_tangling creepers_](/spell/tangling-creepers-player-core); **5th** _impaling spike_, [_plant form_](/spell/plant-form-player-core), [_summon plant or fungus_](/spell/summon-plant-or-fungus-player-core), _wall of stone_; **4th** _mountain resilience_, [_pummeling rubble_](/spell/pummeling-rubble-player-core), [_shape stone_](/spell/shape-stone-player-core), _wall of thorns_; **3rd** [_earthbind_](/spell/earthbind-player-core), [_one with stone_](/spell/one-with-stone-player-core), _pummeling rubble_, _summon plant or fungus_; **2nd** [_dismantle_](/spell/dismantle-player-core-2), [_entangling flora_](/spell/entangling-flora-player-core), [_oaken resilience_](/spell/oaken-resilience-player-core), [_shape wood_](/spell/shape-wood-player-core); **1st** [_leaden steps_](/spell/leaden-steps-player-core-2), [_mud pit_](/spell/mud-pit-player-core-2), [_noxious vapors_](/spell/noxious-vapors-player-core-2), _pummeling rubble_; **Cantrips** [_guidance_](/spell/guidance-player-core), [_know the way_](/spell/know-the-way-player-core), [_read aura_](/spell/read-aura-player-core), [_scatter scree_](/spell/scatter-scree-player-core-2), [_tangle vine_](/spell/tangle-vine-player-core)",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Themed Spell Lists"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3386"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "other",
+      "remaster",
+      "rule",
+      "themed-spell-lists"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core",
+        "page": 220,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3386"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "DAC43450-0BF0-5CCB-A780-25A40CE55095",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Eidolons",
+    "slug": "eidolons-rules-3382",
+    "type": "other",
+    "descr": "Similar to animal companions, eidolons for summoner NPCs should be treated as separate creatures. An eidolon has the standard number of actions, uses a normal stat block, and counts toward the encounter's XP budget normally. Usually, an eidolon must remain within 100 feet of its summoner, or its physical form will dissolve. A summoner can make their eidolon take form or disappear with the [Manifest Eidolon](/action/manifest-eidolon-impossible-magic-action-action-4267) action, which gains a tradition trait related to the type of eidolon it manifests (examples include [arcane](/trait/arcane) for construct eidolons; divine for angel, devil, and demon eidolons; [occult](/trait/occult) for phantom eidolons; and [primal](/trait/primal) for beast and elemental eidolons).\n\n For most eidolons, you can use standard stat blocks of appropriate types and levels. Even though they have the standard abilities, you can alter the descriptions of such creatures to make them seem more like eidolons. You might even replace one or more of their resistances or weaknesses to energy damage with different types of energy to make them more unique.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Creature Companions"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3382"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "creature-companions",
+      "npc-core",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core",
+        "page": 217,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3382"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "CDDAF786-6479-5770-A19D-31DA741C83DD",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Eldritch Occultist",
+    "slug": "eldritch-occultist-rules-3387",
+    "type": "other",
+    "descr": "**Tradition** occult\n **10th** [_fabricated truth_](/spell/fabricated-truth-player-core), [_gate_](/spell/gate-player-core); **9th** [_overwhelming presence_](/spell/overwhelming-presence-player-core), [_phantasmagoria_](/spell/phantasmagoria-player-core), [_spirit song_](/spell/spirit-song-player-core-2), [_unfathomable song_](/spell/unfathomable-song-player-core); **8th** [_quandary_](/spell/quandary-player-core), _spirit song_, [_spiritual epidemic_](/spell/spiritual-epidemic-player-core-2), [_unrelenting observation_](/spell/unrelenting-observation-player-core); **7th** [_mask of terror_](/spell/mask-of-terror-player-core), [_vampiric exsanguination_](/spell/vampiric-exsanguination-player-core), [_visions of danger_](/spell/visions-of-danger-player-core-2), [_warp mind_](/spell/warp-mind-player-core); **6th** [_cursed metamorphosis_](/spell/cursed-metamorphosis-player-core), [_phantasmal calamity_](/spell/phantasmal-calamity-player-core), [_scrying_](/spell/scrying-player-core), _vampiric exsanguination_; **5th** [_blister_](/spell/blister-player-core-2), [_slither_](/spell/slither-player-core), [_synesthesia_](/spell/synesthesia-player-core-2), [_wall of flesh_](/spell/wall-of-flesh-player-core-2); **4th** [_confusion_](/spell/confusion-player-core), [_darkness_](/spell/darkness-player-core), [_nightmare_](/spell/nightmare-player-core), [_vision of death_](/spell/vision-of-death-player-core); **3rd** [_curse of lost time_](/spell/curse-of-lost-time-player-core-2), [_fear_](/spell/fear-player-core), [_mind reading_](/spell/mind-reading-player-core), [_vampiric feast_](/spell/vampiric-feast-player-core); **2nd** _darkness_, [_paranoia_](/spell/paranoia-player-core), [_stupefy_](/spell/stupefy-player-core), [_vomit swarm_](/spell/vomit-swarm-player-core-2); **1st** [_déjà vu_](/spell/deja-vu-player-core-2), [_enfeeble_](/spell/enfeeble-player-core), [_grim tendrils_](/spell/grim-tendrils-player-core), [_phantom pain_](/spell/phantom-pain-player-core); **Cantrips** [_daze_](/spell/daze-player-core), [_detect magic_](/spell/detect-magic-player-core), [_figment_](/spell/figment-player-core), [_light_](/spell/light-player-core), [_void warp_](/spell/void-warp-player-core)",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Themed Spell Lists"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3387"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "other",
+      "remaster",
+      "rule",
+      "themed-spell-lists"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core",
+        "page": 220,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3387"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "6746880B-312B-5203-80D6-6183BA1A0AA9",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Elite Adjustments",
+    "slug": "elite-adjustments-rules-3358",
+    "type": "combat",
+    "descr": "Sometimes you'll want a creature that's just a bit more powerful than normal so that you can present a challenge that would otherwise be trivial or show that one enemy is stronger than its kin. To do this quickly and easily, apply the elite adjustments to its statistics as follows:\n\n- Increase the creature's level by 1; if the creature is level –1 or 0, instead increase its level by 2.\n- Increase the creature's AC, attack modifiers, DCs, saving throws, Perception, and skill modifiers by 2.\n- Increase the damage of its Strikes and other offensive abilities by 2. If the creature has limits on how many times or how often it can use an ability (such as a spellcaster's spells or a dragon's breath), increase the damage by 4 instead.\n- Increase the creature's Hit Points based on its starting level (see table below).\n\n## Elite Adjustment\n\n| **Starting Level** | **HP Increase** |\n| --- | --- |\n| 1 or lower | 10 |\n| 2-4 | 15 |\n| 5-19 | 20 |\n| 20+ | 30 |",
+    "data": {
+      "type": "combat",
+      "breadcrumbs": [
+        "Introduction",
+        "Adjusting Creatures",
+        "Combat Power"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3358"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "adjusting-creatures",
+      "combat",
+      "combat-power",
+      "introduction",
+      "npc-core",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core",
+        "page": 5,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3358"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A25A5482-EA06-5418-9A83-EB8132274759",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Encounter Abilities",
+    "slug": "encounter-abilities-rules-3380",
+    "type": "combat",
+    "descr": "Player characters can receive the support of their animal companions in combat using the Support action. To give an NPC that close bond with their animal companion, you can grant them the Receive Support action. **Receive Support** **Single Action** **Requirements** The NPC has a companion creature; **Effect** The NPC's animal ally supports them. The NPC gains the support benefit appropriate to that animal (or a similar animal).",
+    "data": {
+      "type": "combat",
+      "breadcrumbs": [
+        "Creature Companions",
+        "Animal Companions"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3380"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "animal-companions",
+      "combat",
+      "creature-companions",
+      "npc-core",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core",
+        "page": 217,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3380"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2603F950-7FAF-562D-8E88-D84BE9EB9DC9",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Flying",
+    "slug": "flying-rules-3374",
+    "type": "other",
+    "descr": "**Examples** bat, parrot, raven\n **Dive Bomb** **Single Action** ([auditory](/trait/auditory), [concentrate](/trait/concentrate)) The NPC commands their companion to fly at an enemy within 30 feet and flap its wings in their face. The target is [off-guard](/condition/off-guard-player-core) until the end of the NPC's turn.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Creature Companions",
+        "Pets and Familiars"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3374"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "creature-companions",
+      "npc-core",
+      "other",
+      "pets-and-familiars",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core",
+        "page": 216,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3374"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9E64B8CB-8D35-5360-BD13-357F4B78C410",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Gear",
+    "slug": "gear-rules-3361",
+    "type": "other",
+    "descr": "Most NPCs rely on gear, like armor and weapons. If an NPC loses a crucial piece of gear, follow the advice listed [here](/rule/gear-rules-3267).",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Introduction",
+        "Adjusting Creatures"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3361"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "adjusting-creatures",
+      "introduction",
+      "npc-core",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core",
+        "page": 5,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3361"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "CE43CF0E-A9DE-5B2B-BA5C-525BC8323E1B",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Hierophant",
+    "slug": "hierophant-rules-3388",
+    "type": "other",
+    "descr": "**Tradition** divine\n **10th** [_avatar_](/spell/avatar-player-core), [_revival_](/spell/revival-player-core); **9th** [_banishment_](/spell/banishment-player-core), [_foresight_](/spell/foresight-player-core), [_heal_](/spell/heal-player-core), [_overwhelming presence_](/spell/overwhelming-presence-player-core); **8th** [_divine inspiration_](/spell/divine-inspiration-player-core), _heal_, [_moment of renewal_](/spell/moment-of-renewal-player-core), [_sacred form_](/spell/sacred-form-player-core-2); **7th** [_divine decree_](/spell/divine-decree-player-core), _heal_, [_planar seal_](/spell/planar-seal-player-core), [_regenerate_](/spell/regenerate-player-core); **6th** [_field of life_](/spell/field-of-life-player-core), _heal_, [_raise dead_](/spell/raise-dead-player-core), _sacred form_; **5th** _banishment_, [_breath of life_](/spell/breath-of-life-player-core), _heal_, [_spiritual guardian_](/spell/spiritual-guardian-player-core); **4th** [_cleanse affliction_](/spell/cleanse-affliction-player-core), [_divine wrath_](/spell/divine-wrath-player-core), _heal_, [_vital beacon_](/spell/vital-beacon-player-core); **3rd** _cleanse affliction_, _heal_, [_protection_](/spell/protection-player-core), [_safe passage_](/spell/safe-passage-player-core); **2nd** [_calm_](/spell/calm-player-core), _cleanse affliction_, _heal_, [_share life_](/spell/share-life-player-core); **1st** [_bless_](/spell/bless-player-core), _heal_, _protection_, [_sanctuary_](/spell/sanctuary-player-core); **Cantrips** [_divine lance_](/spell/divine-lance-player-core), [_guidance_](/spell/guidance-player-core), [_forbidding ward_](/spell/forbidding-ward-player-core), [_stabilize_](/spell/stabilize-player-core), [_vitality lash_](/spell/vitality-lash-player-core)",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Themed Spell Lists"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3388"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "other",
+      "remaster",
+      "rule",
+      "themed-spell-lists"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core",
+        "page": 220,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3388"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2DA66F16-6C2A-5779-90E4-90A05FAC3003",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Insults",
+    "slug": "insults-rules-3411",
+    "type": "other",
+    "descr": "Insults are acts that harm an NPC, offend them, or negatively impact their standing.\n\n- Minor insults are small acts that may be unintentional, such as forgetting to tip a server, not responding to a letter within a reasonable timeframe, or snubbing an NPC at a party.\n- Moderate insults are purposeful acts that may cause slight harm to the NPC. Examples include talking poorly about the NPC within earshot, unintentional property damage, insulting the NPC to their face, or making the NPC look incompetent.\n- Major insults are acts that cause purposeful and lasting harm to the NPC. These include injuring the NPC on purpose, spreading negative rumors about the NPC, undercutting them in a business deal, or betraying the NPC.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Relationships and Advancement",
+        "Connection Subsystem",
+        "Connection Advancement"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3411"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "connection-advancement",
+      "connection-subsystem",
+      "npc-core",
+      "other",
+      "relationships-and-advancement",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core",
+        "page": 227,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3411"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0F133ECD-510E-5B45-AC54-CA1BEFC5A11A",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Introduction",
+    "slug": "introduction-rules-3355",
+    "type": "other",
+    "descr": "Welcome to _Pathfinder NPC Core_! Here you'll find hundreds of characters to populate your towns, castles, guildhouses, slums, caravans, and even the wilds beyond. To use this book, you'll need the rules and guidance of _Pathfinder Player Core_ and _Pathfinder GM Core_.\n\n Each section of this book includes a group of related creatures, presenting their game statistics, illustrating their place within the game world, and providing details about their behavior or society. Chapter 1 includes broadly useful human NPCs, Chapter 2 covers a few iconic NPCs for non-[human](/ancestry/human-player-core) ancestries, and the appendix contains numerous tools, from pets to spell lists to a relationship subsystem.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3355"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core",
+        "page": 5,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3355"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "58C1934E-0BB4-558A-9550-B7735CF34167",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Languages",
+    "slug": "languages-rules-3360",
+    "type": "other",
+    "descr": "You can freely add or remove languages from stat blocks! The main languages are listed can be found here.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Introduction",
+        "Adjusting Creatures"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3360"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "adjusting-creatures",
+      "introduction",
+      "npc-core",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core",
+        "page": 5,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3360"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "22C9FC67-3DC3-5071-B208-78A7B242F6C6",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Magus",
+    "slug": "magus-rules-3389",
+    "type": "other",
+    "descr": "When giving an NPC this list, give them two spell slots for the highest two spell ranks available for their level, and none for any lower spell ranks. They should also have better combat stats and combat-themed actions than a typical spellcaster, such as the watchmage's Spellbound Strike.\n\n**Tradition** arcane\n **10th** [_freeze time_](/spell/freeze-time-player-core), [_indestructibility_](/spell/indestructibility-player-core); **9th** [_blazing bolt_](/spell/blazing-bolt-player-core), [_disintegrate_](/spell/disintegrate-player-core), [_foresight_](/spell/foresight-player-core), [_hydraulic push_](/spell/hydraulic-push-player-core); **8th** _blazing bolt_, [_collective transposition_](/spell/collective-transposition-player-core-2), [_disappearance_](/spell/disappearance-player-core), _hydraulic push_; **7th** [_haste_](/spell/haste-player-core), _hydraulic push_, [_slow_](/spell/slow-player-core), [_true target_](/spell/true-target-player-core); **6th** _blazing bolt_, _collective transposition_, _disintegrate_, _hydraulic push_; **5th** _blazing bolt_, [_cloak of colors_](/spell/cloak-of-colors-player-core-2), _hydraulic push_, [_translocate_](/spell/translocate-player-core); **4th** _blazing bolt_, [_fly_](/spell/fly-player-core), [_mountain resilience_](/spell/mountain-resilience-player-core), _translocate_; **3rd** _blazing bolt_, _haste_, _hydraulic push_, _slow_; **2nd** _blazing bolt_, [_blur_](/spell/blur-player-core), _hydraulic push_, [_telekinetic maneuver_](/spell/telekinetic-maneuver-player-core); **1st** [_fleet step_](/spell/fleet-step-player-core), _hydraulic push_, [_jump_](/spell/jump-player-core), [_sure strike_](/spell/sure-strike-player-core); **Cantrips** [_gouging claw_](/spell/gouging-claw-player-core), [_ignition_](/spell/ignition-player-core), [_live wire_](/spell/live-wire-player-core-2), [_shield_](/spell/shield-player-core), [_telekinetic projectile_](/spell/telekinetic-projectile-player-core)",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Themed Spell Lists"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3389"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "other",
+      "remaster",
+      "rule",
+      "themed-spell-lists"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core",
+        "page": 220,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3389"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "BE543BD3-FE33-5D97-BCA2-A9AA61B7CD16",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Maintaining Relationship and Decay",
+    "slug": "maintaining-relationship-and-decay-rules-3409",
+    "type": "other",
+    "descr": "Connections don't naturally stay at the same intensity over time if the PC stops interacting with the NPC. If a long period passes where the PC doesn't spend time or communicate with the NPC, the connection recedes one tier. Relationship decay doesn't reduce a relationship's status to avoided or despised; this degree of dislike requires an active insult or other narrative complications to occur.\n\n Relationship decay typically takes several months of in-game time to occur and doesn't usually happen while the PCs are actively adventuring, except in extreme cases. Relationship decay should be the result of the PCs actively making story choices to spend their time and attention elsewhere rather than a situation they need to manage that keeps them from going on adventures.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Relationships and Advancement",
+        "Connection Subsystem",
+        "Connection Advancement"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3409"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "connection-advancement",
+      "connection-subsystem",
+      "npc-core",
+      "other",
+      "relationships-and-advancement",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core",
+        "page": 227,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3409"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "69A1D865-8508-570A-95A4-7A126D46152E",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Mentalist",
+    "slug": "mentalist-rules-3390",
+    "type": "other",
+    "descr": "**Tradition** arcane or occult\n **10th** [_dominate_](/spell/dominate-player-core), [_manifestation_](/spell/manifestation-player-core); **9th** [_foresight_](/spell/foresight-player-core), [_project image_](/spell/project-image-player-core), [_subconscious suggestion_](/spell/subconscious-suggestion-player-core), [_telepathic demand_](/spell/telepathic-demand-player-core-2); **8th** [_charm_](/spell/charm-player-core), [_confusion_](/spell/confusion-player-core), [_disappearance_](/spell/disappearance-player-core), [_hallucination_](/spell/hallucination-player-core); **7th** [_illusory disguise_](/spell/illusory-disguise-player-core), [_mask of terror_](/spell/mask-of-terror-player-core), _project image_, [_warp mind_](/spell/warp-mind-player-core); **6th** _hallucination_, [_illusory scene_](/spell/illusory-scene-player-core), [_mislead_](/spell/mislead-player-core), [_phantasmal calamity_](/spell/phantasmal-calamity-player-core); **5th**_hallucination_, [_illusory object_](/spell/illusory-object-player-core), _illusory scene_, _subconscious suggestion_; **4th** _confusion_, _illusory disguise_, [_invisibility_](/spell/invisibility-player-core), [_mirage_](/spell/mirage-player-core); **3rd** [_enthrall_](/spell/enthrall-player-core), [_hypnotize_](/spell/hypnotize-player-core), _illusory disguise_, [_item facade_](/spell/item-facade-player-core); **2nd** [_disguise magic_](/spell/disguise-magic-player-core), [_illusory creature_](/spell/illusory-creature-player-core), _invisibility_, [_paranoia_](/spell/paranoia-player-core); **1st** _charm_, [_dizzying colors_](/spell/dizzying-colors-player-core), _illusory disguise_, _illusory object_; **Cantrips** [_daze_](/spell/daze-player-core), [_figment_](/spell/figment-player-core), [_light_](/spell/light-player-core), [_message_](/spell/message-player-core), [_telekinetic hand_](/spell/telekinetic-hand-player-core)",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Themed Spell Lists"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3390"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "other",
+      "remaster",
+      "rule",
+      "themed-spell-lists"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core",
+        "page": 221,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3390"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3D52DEE4-F119-5B3D-9264-8F8370262E5B",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Necromancer",
+    "slug": "necromancer-rules-3391",
+    "type": "other",
+    "descr": "**Tradition** arcane, divine, or occult\n **10th** [_massacre_](/spell/massacre-player-core), [_summon undead_](/spell/summon-undead-player-core); **9th** _massacre_, _summon undead_, [_vampiric exsanguination_](/spell/vampiric-exsanguination-player-core), [_vampiric feast_](/spell/vampiric-feast-player-core); **8th** [_eclipse burst_](/spell/eclipse-burst-player-core), [_final sacrifice_](/spell/final-sacrifice-player-core-2), _summon undead_, _vampiric exsanguination_; **7th** _eclipse burst_, _final sacrifice_, _summon undead_, _vampiric exsanguination_; **6th** _final sacrifice_, _summon undead_, _vampiric exsanguination_, [_vampiric maiden_](/spell/vampiric-maiden-player-core-2); **5th** _final sacrifice_, _summon undead_, _vampiric feast_, _vampiric maiden_; **4th** [_blood vendetta_](/spell/blood-vendetta-player-core), _summon undead_, _vampiric feast_, _vampiric maiden_; **3rd** [_bind undead_](/spell/bind-undead-player-core), _final sacrifice_, _summon undead_, _vampiric feast_; **2nd** _blood vendetta_, [_darkvision_](/spell/darkvision-player-core), _final sacrifice_, _summon undead_; **1st** [_enfeeble_](/spell/enfeeble-player-core), [_fear_](/spell/fear-player-core), [_runic body_](/spell/runic-body-player-core), _summon undead_; **Cantrips** [_daze_](/spell/daze-player-core), [_detect magic_](/spell/detect-magic-player-core), [_light_](/spell/light-player-core), [_sigil_](/spell/sigil-player-core), [_void warp_](/spell/void-warp-player-core)",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Themed Spell Lists"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3391"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "other",
+      "remaster",
+      "rule",
+      "themed-spell-lists"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core",
+        "page": 221,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3391"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4CE577E3-7351-5E67-AB97-F1F528647E31",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "NPC Advancement",
+    "slug": "npc-advancement-rules-3412",
+    "type": "other",
+    "descr": "While the PCs are adventuring and growing in their skills, notable NPCs can do the same. Advancing an NPC allows for an adversary to maintain an equal footing or for an ally to continue to provide useful aid. Recurring NPCs serve an important role in campaigns by maintaining a sense of continuity. They also add to the feeling of a dynamic, changing world, particularly when they build skills in response to how the PCs are changing.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Relationships and Advancement"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3412"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "other",
+      "relationships-and-advancement",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core",
+        "page": 228,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3412"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "02397647-16E5-5DD3-887E-10355E4FA0B7",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Numerical Advancement",
+    "slug": "numerical-advancement-rules-3414",
+    "type": "other",
+    "descr": "You can upgrade an NPC's statistics and level using the [Building Creatures](/rule/building-creatures-rules-2874) rules. Usually you can find the creature's new level on the relevant stats tables and increase their stats by the difference between the current level and the next. However, you might want to add new abilities if the NPC started out at a low level and is now much higher, and you can update spells, items, and the like to suit the new level. You might also want to add [more extreme increases](/rule/extreme-increases-rules-2878) at 11th level or higher.\n\n If you expect the NPC will continue leveling up, you might save yourself some work by using the elite adjustments the first time they level up. Then you can level them up by 3 levels the next time and temporarily use the [weak adjustments](/rule/weak-adjustments-rules-3359). Then repeat the process. For example, you'd use the following progression for an NPC as they advance from 1st level: **1st** starting stat block, **2nd** starting stat block with elite adjustments, **3rd** creature increased to 4th level with the weak adjustments, **4th** the 4th-level stat block.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Relationships and Advancement",
+        "NPC Advancement"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3414"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-advancement",
+      "npc-core",
+      "other",
+      "relationships-and-advancement",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core",
+        "page": 228,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3414"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4C79A653-CAD2-55F6-AE8B-F69A1BAF2776",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Other Encounter Abilties",
+    "slug": "other-encounter-abilties-rules-3377",
+    "type": "combat",
+    "descr": "An NPC with a pet or familiar might also have one of the following abilities, no matter the shape and form of their companion. If an ability mentions a familiar, that NPC must have a familiar and not a pet.\n\n **Go Fetch** **Single Action** ([auditory](/trait/auditory), [concentrate](/trait/concentrate)) **Requirements** The NPC has a free hand; **Effect** The NPC commands their companion to retrieve an item of 1 Bulk or less that is unattended and within 20 feet. The companion places the item in the NPC's free hand.\n\n **Spell Courier** **Single Action** (auditory, concentrate) If the next action the NPC uses is to Cast a Spell with a range of touch, they can command their familiar to deliver that spell to a target within 15 feet. This effectively increases the range of the spell.",
+    "data": {
+      "type": "combat",
+      "breadcrumbs": [
+        "Creature Companions",
+        "Pets and Familiars"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3377"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "combat",
+      "creature-companions",
+      "npc-core",
+      "pets-and-familiars",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core",
+        "page": 216,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3377"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1355E667-8034-5AA0-84B1-4366C3D48424",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Pets and Familiars",
+    "slug": "pets-and-familiars-rules-3371",
+    "type": "other",
+    "descr": "Pets are Tiny animals, while familiars can be nearly any other similar-sized creature with some magical abilities. A pet makes for a good companion of just about NPC, while familiars should be companions only of spellcasting NPCs. Because of their size, pets and familiars usually wouldn't make significant contributions to most encounters as their own creatures. Therefore, they can be represented by additional abilities used by their NPC owner. If used in this way, pets and familiars can't be targets by Strikes, spells, or other abilities, though they can represent interesting roleplaying opportunities after their NPC owner has been defeated.\n\n Pets and familiars can be broken down into the broad categories below, depending on what kind of ability they grant to their owner.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Creature Companions"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3371"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "creature-companions",
+      "npc-core",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core",
+        "page": 216,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3371"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "13396EB1-8CC3-5673-8FC1-2D55841E76FD",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Pyromancer",
+    "slug": "pyromancer-rules-3392",
+    "type": "other",
+    "descr": "**Tradition** primal\n **10th** [_cataclysm_](/spell/cataclysm-player-core), [_falling stars_](/spell/falling-stars-player-core) (asteroids only); **9th** _falling stars_ (asteroids only[_), fiery body_](/spell/fiery-body-player-core), [_fireball_](/spell/fireball-player-core), [_volcanic eruption_](/spell/volcanic-eruption-player-core); **8th** [_blazing bolt_](/spell/blazing-bolt-player-core), _fireball_, [_fire shield_](/spell/fire-shield-player-core), _volcanic eruption_; **7th** _blazing bolt_, _fiery body_, _fireball_, _volcanic eruption_; **6th** _blazing bolt_, [_elemental form_](/spell/elemental-form-player-core) (fire only), _fireball_, _fire shield_; **5th** _blazing bolt_, _elemental form_ (fire only), _fireball_, [_wall of fire_](/spell/wall-of-fire-player-core); **4th** _blazing bolt_, _fireball_, _fire shield_, _wall of fire_; **3rd** _blazing bolt_, [_environmental endurance_](/spell/environmental-endurance-player-core), _fireball_, [_floating flame_](/spell/floating-flame-player-core); **2nd** _blazing bolt_, [_breathe fire_](/spell/breathe-fire-player-core), _environmental endurance_, _floating flame_; **1st** _breathe fire_, [_cleanse cuisine_](/spell/cleanse-cuisine-player-core), [_grease_](/spell/grease-player-core), [_mending_](/spell/mending-player-core); **Cantrips** [_light_](/spell/light-player-core), [_detect magic_](/spell/detect-magic-player-core), [_ignition_](/spell/ignition-player-core), [_sigil_](/spell/sigil-player-core), [_stabilize_](/spell/stabilize-player-core)",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Themed Spell Lists"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3392"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "other",
+      "remaster",
+      "rule",
+      "themed-spell-lists"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core",
+        "page": 221,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3392"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5C4F48F9-3B3D-51D8-8984-04A68DE50289",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Relationships and Advancement",
+    "slug": "relationships-and-advancement-rules-3397",
+    "type": "other",
+    "descr": "Players can invest in relationships with NPCs to make your game world more dynamic. These relationships can be practical, emotional, or romantic. It's all down to what you and the other players want to explore and are comfortable including.\n\n Building NPC relationships is particularly appropriate for campaign-long arcs. In addition to the inherent enjoyment of building relationships, watching NPCs progress alongside PCs creates a lived-in world with interesting stakes. This is particularly true for campaigns with a tighter focus. While some campaigns may focus on saving the world, others may find that making it a better place for NPC friends and allies is equally important. Maybe the PCs can't fix everything, but they can pay off the debt of the innkeeper who provided them with a place to stay when they were starting out.\n\n This chapter includes the following sections:\n\n- **[Connection Subsystem](/rule/connection-subsystem-rules-3398)** tracks individual NPCs' relationships with the PCs as they gain favor or disfavor through their actions.\n- **[NPC Advancement](/rule/npc-advancement-rules-3412)** provides advice and tools to advance NPCs alongside the PCs, so that reoccurring characters provide meaningful aid or threats throughout a multilevel campaign.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3397"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core",
+        "page": 226,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3397"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "37D85294-E568-5C49-8229-95ED1EBA539A",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Running Troops",
+    "slug": "running-troops-rules-3365",
+    "type": "other",
+    "descr": "The rules for troops are found in the abilities troop defenses and troop movement. Troops are represented using four segments that are 10 feet on each edge and as tall as the members of the troop (usually Small or Medium creatures). They have roughly the footprint of a Gargantuan creature, but a more flexible shape. These squares are crowded with enemies, and when the troop is reduced to 2/3 or 1/3 of its initial HP, it loses a segment to represent the loss of forces. On a grid with miniatures, it's ideal to start out with 16 miniatures or tokens clustered in sets of four to represent troops; you can then remove four miniatures each time the troop's HP drops below a threshold. For troops made of Large creatures, (like cavalry), you can use four Large-size miniatures, and in some cases, you might want to use cardboard pawns or miniatures that represent multiple Medium or smaller creatures.\n\n Their troop defenses protect them to some degree against effects that have individual targets, and instead of standard Strikes, the troop has special actions representing their coordinated attacks. This usually includes an ability that attacks in an [emanation](/rule/emanation-rules-2387), acting as the troop's equivalent of a melee Strike.\n\n The rules for troops—especially troop defenses—cover many circumstances where it's important that troops are not all one entity. However, the rules can't cover every possibility, and it's best to use common sense. If a player uses an ability you don't think works on a troop, discuss with that player, and “refund” actions spent based on mistaken assumptions.\n\n Though troops lose four squares at a time to make the encounter easier to run, when they take damage troops are continually losing members, and it helps immerse the players in the fantasy of fighting against a huge troop of foes to describe this as it happens.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Chapter 1: NPC Gallery",
+        "Troops"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3365"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "chapter-1-npc-gallery",
+      "npc-core",
+      "other",
+      "remaster",
+      "rule",
+      "troops"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core",
+        "page": 7,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3365"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "797CD2AA-D32D-5D19-9CCF-3BB5A45E27D0",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Scent",
+    "slug": "scent-rules-3375",
+    "type": "other",
+    "descr": "**Examples** cat, compsognathus, dog\n **Point Out** **Single Action** ([auditory](/trait/auditory), [concentrate](/trait/concentrate)) The NPC commands their companion to root out an [undetected](/condition/undetected-player-core) creature. The NPC gains the benefits of [Point Out](/action/point-out-player-core) against an undetected creature within 20 feet.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Creature Companions",
+        "Pets and Familiars"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3375"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "creature-companions",
+      "npc-core",
+      "other",
+      "pets-and-familiars",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core",
+        "page": 216,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3375"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "6DECD2DF-AEE2-53AD-9B05-E3B8AD05CEAB",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Skills, Perception, and Proficiency",
+    "slug": "skills-perception-and-proficiency-rules-3362",
+    "type": "skill",
+    "descr": "If you need to know the creature's proficiency rank, creatures are trained in the skills listed in their stat blocks and untrained in the rest. Proficiency in listed skills usually upgrades to expert around 5th level, master around 9th level, and legendary around 17th level. Many creatures start with expert proficiency in Perception and improve to master proficiency around 7th level and legendary proficiency around 13th level. You might grant a creature with world-class aptitude for a particular skill or Perception a higher proficiency rank.",
+    "data": {
+      "type": "skill",
+      "breadcrumbs": [
+        "Introduction",
+        "Adjusting Creatures"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3362"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "adjusting-creatures",
+      "introduction",
+      "npc-core",
+      "remaster",
+      "rule",
+      "skill"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core",
+        "page": 5,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3362"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "017ECAAD-7B3D-51A9-875B-8E50FD244E7C",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Social Advancement",
+    "slug": "social-advancement-rules-3415",
+    "type": "other",
+    "descr": "You can follow the same process to increase an NPC's [non-combat level](/rule/non-combat-level-rules-2920) to improve their social or skill-based abilities. Each time you advance such an NPC, decide whether the story better suits increasing their combat level, non-combat level, or both at the same time.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Relationships and Advancement",
+        "NPC Advancement",
+        "Numerical Advancement"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3415"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-advancement",
+      "npc-core",
+      "numerical-advancement",
+      "other",
+      "relationships-and-advancement",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core",
+        "page": 228,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3415"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "72835E65-EA93-5CB0-9CD6-FDE4AE2D4877",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Special Perks",
+    "slug": "special-perks-rules-3416",
+    "type": "other",
+    "descr": "The story of your game will often suggest other types of advancement beyond stat increases and new combat, magic, or skill abilities. Look for opportunities to add these perks, which can give the PCs a clear picture of the NPC's new capabilities and enrich the game world. These perks could come as part of the numerical advancement described above, as a separate benefit, or due to other actions of the PCs. For example, an enemy NPC might take advantage of a slip-up by the PCs to gain an advancement listed here that fits that theme.\n\n## Special Perk Examples\n\n| **Ally Event** | **Perk** |\n| --- | --- |\n| A fence NPC receives a sterling artisan's toolkit. | The NPC can erase notable features of stolen goods so they can be sold easily. |\n| A playwright NPC stages an incredible play about the PCs. | The attitude of all residents of a settlement or district improve by one step for the NPC and the PCs. |\n| A student NPC graduates from an arcane academy. | The NPC can automatically identify magic items for the PCs up to the NPC's level + 2. |\n| The PCs help an innkeeper expand their building. | The innkeeper provides room and board to the PCs when they're in the settlement (a comfortable standard of living). |\n| **Enemy Event** | **Perk** |\n| A wealthy enemy colludes with merchants. | The price of all goods in the settlement increase by 10% for the PCs. |\n| A warrior enemy escapes a battle with the PCs. | The enemy chooses one PC, trains against their techniques, and gains a +1 circumstance bonus to all defenses against any of that PC's abilities they're aware of. |\n| A plotting enemy frames the PCs. | The attitude of all residents of a settlement or district worsens by one step for the PCs. |\n| The PCs show off their spells in a public place where the enemy's spies can see. | The enemy gains resistance to the spells that were witnessed, using the minimum value. |",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Relationships and Advancement",
+        "NPC Advancement"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3416"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-advancement",
+      "npc-core",
+      "other",
+      "relationships-and-advancement",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core",
+        "page": 228,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3416"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "7887F0C3-5E2E-5186-8210-8E0988EF10F9",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Stormcaller",
+    "slug": "stormcaller-rules-3393",
+    "type": "other",
+    "descr": "**Tradition** primal\n **10th** [_cataclysm_](/spell/cataclysm-player-core), [_wrathful storm_](/spell/wrathful-storm-player-core);**9th** [_arctic rift_](/spell/arctic-rift-player-core), [_chain lightning_](/spell/chain-lightning-player-core), [_falling stars_](/spell/falling-stars-player-core) (airbursts or comets only), [_howling blizzard_](/spell/howling-blizzard-player-core); **8th** _howling blizzard_, [_hydraulic torrent_](/spell/hydraulic-torrent-player-core), [_punishing winds_](/spell/punishing-winds-player-core), [_thunderstrike_](/spell/thunderstrike-player-core); **7th** _howling blizzard_, [_hydraulic push_](/spell/hydraulic-push-player-core), [_lightning storm_](/spell/lightning-storm-player-core-2), [_wall of ice_](/spell/wall-of-ice-player-core); **6th** _chain lightning_, [_crashing wave_](/spell/crashing-wave-player-core-2), _hydraulic push_, [_lightning bolt_](/spell/lightning-bolt-player-core); **5th** [_aerial form_](/spell/aerial-form-player-core), [_control water_](/spell/control-water-player-core), _howling blizzard_, _hydraulic torrent_, _wall of ice_; **4th** _crashing wave_, [_ice storm_](/spell/ice-storm-player-core-2), _lightning bolt_, [_water walk_](/spell/water-walk-player-core); **3rd** [_aqueous orb_](/spell/aqueous-orb-player-core), [_chilling spray_](/spell/chilling-spray-player-core-2), _crashing wave_, [_environmental endurance_](/spell/environmental-endurance-player-core); **2nd** _hydraulic push_, [_mist_](/spell/mist-player-core), _thunderstrike_, [_water breathing_](/spell/water-breathing-player-core); **1st** _chilling spray_, [_create water_](/spell/create-water-player-core), [_gust of wind_](/spell/gust-of-wind-player-core), _hydraulic push_; **Cantrips** [_frostbite_](/spell/frostbite-player-core), [_electric arc_](/spell/electric-arc-player-core), [_gale blast_](/spell/gale-blast-player-core-2), [_know the way_](/spell/know-the-way-player-core), [_spout_](/spell/spout-player-core-2)",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Themed Spell Lists"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3393"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "other",
+      "remaster",
+      "rule",
+      "themed-spell-lists"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core",
+        "page": 221,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3393"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "88E376AD-D405-5A76-829C-43F5FFD8EC2F",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Themed Spell Lists",
+    "slug": "themed-spell-lists-rules-3383",
+    "type": "other",
+    "descr": "For an existing NPC, use the same number of spells their stat block has. For a new NPC, divide their level in half, rounded up. This is the highest spell rank they can cast. If their level is odd, they get three spell slots of that level, plus four spell slots of each lower level. If their level is even, they get four spell slots of that level and each lower level. They also get five cantrips.\n\n You can typically switch the spell list to a different tradition if it makes sense for the NPC.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3383"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core",
+        "page": 220,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3383"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5363FED4-99A3-5769-A4C2-1B13E14AF415",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Tokens",
+    "slug": "tokens-rules-3410",
+    "type": "other",
+    "descr": "Tokens of affection are acts that engender goodwill or otherwise make the connection feel positively.\n\n- Minor tokens are small acts that don't take much time or investment from a PC. Examples include offering a simple or casual gift (like a bouquet of flowers from a nearby shop), apologizing for previous wrongdoing, talking to an NPC about how their day is going, spending a day of downtime strengthening the connection, or swearing a lowstakes oath.\n- Moderate tokens require considerable investment or resources. They typically require effort or commitment from the PC, such as fulfilling a complicated promise, spending a week of downtime strengthening the connection, giving a particularly thoughtful or effortful gift (like a bouquet of the NPC's favorite rare flowers, gathered from a nearby forest), or doing a favor that includes overcoming a moderate encounter.\n- Major tokens are taxing requests. These typically require a long-term commitment from the PC, such as cementing a relationship as legally binding (such as adding the NPC into the PC's will or giving a business partner a permanent ownership stake), spending a month of downtime strengthening the relationship, presenting a gift with significant personal meaning and long-term effort or investment (like building a garden or greenhouse so the NPC's favorite rare flowers can be enjoyed all year long), or fulfilling a request for the NPC that includes multiple moderate encounters.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Relationships and Advancement",
+        "Connection Subsystem",
+        "Connection Advancement"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3410"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "connection-advancement",
+      "connection-subsystem",
+      "npc-core",
+      "other",
+      "relationships-and-advancement",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core",
+        "page": 227,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3410"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "94B4D5A4-30E5-5861-BAD8-02897D5F7C2A",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Toxic",
+    "slug": "toxic-rules-3376",
+    "type": "other",
+    "descr": "**Examples** scorpion, spider, viper\n **Poison** **Single Action** ([auditory](/trait/auditory), [concentrate](/trait/concentrate)) The NPC commands their companion to deliver a dose of its natural venom to an enemy within 15 feet. That target takes 1d4 poison damage. This increases by 1d4 at 5th level and every 4 levels after that.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Creature Companions",
+        "Pets and Familiars"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3376"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "creature-companions",
+      "npc-core",
+      "other",
+      "pets-and-familiars",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core",
+        "page": 216,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3376"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D4A49967-87AE-5AD4-8D56-A8C7059F048E",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Troop Gear",
+    "slug": "troop-gear-rules-3366",
+    "type": "other",
+    "descr": "The gear that members of a troop carry is usually of negligible use to PCs of a suitable level to face the troops. Consequently, troop stat blocks don't list items.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Chapter 1: NPC Gallery",
+        "Troops"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3366"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "chapter-1-npc-gallery",
+      "npc-core",
+      "other",
+      "remaster",
+      "rule",
+      "troops"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core",
+        "page": 7,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3366"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "29567831-F865-5468-A440-5AE0BF4B76E6",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Troops",
+    "slug": "troops-rules-3364",
+    "type": "other",
+    "descr": "Many sections include a type of creature called a troop. Rather than being an individual, a “creature” with the [troop](/trait/troop) trait consists of multiple creatures working in tandem. Usually this means several weaker foes are combining forces to be a significant threat to a stronger enemy, such as the PCs. Think of them similar to swarms in that way—an individual spider isn't a threat to a low-level PC, and an individual soldier isn't a threat to a high-level PC.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Chapter 1: NPC Gallery"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3364"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "chapter-1-npc-gallery",
+      "npc-core",
+      "other",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core",
+        "page": 7,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3364"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "7B80D1D5-4852-5FF4-BD5D-54498315109B",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Vindictive",
+    "slug": "vindictive-rules-3407",
+    "type": "other",
+    "descr": "The NPC pursues the connection with the goal of destroying them and making their plans fail. This NPC appears to cause the connection trouble whenever possible. Examples include an embarrassed villain or a single-minded adversary.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Relationships and Advancement",
+        "Connection Subsystem",
+        "Creating a Connection",
+        "Bonded"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3407"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "bonded",
+      "connection-subsystem",
+      "creating-a-connection",
+      "npc-core",
+      "other",
+      "relationships-and-advancement",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core",
+        "page": 227,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3407"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F96A9A81-FCC6-5607-8491-E0A830FE499E",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "War Mage",
+    "slug": "war-mage-rules-3396",
+    "type": "other",
+    "descr": "**Tradition** arcane\n **10th** [_cataclysm_](/spell/cataclysm-player-core), [_earthquake_](/spell/earthquake-player-core); **9th** [_energy aegis_](/spell/energy-aegis-player-core), [_falling stars_](/spell/falling-stars-player-core), [_fireball_](/spell/fireball-player-core), [_implosion_](/spell/implosion-player-core); **8th** [_arctic rift_](/spell/arctic-rift-player-core), _earthquake_, _fireball_, [_unrelenting observation_](/spell/unrelenting-observation-player-core); **7th**, _energy aegis_, _fireball_, [_haste_](/spell/haste-player-core), [_true target_](/spell/true-target-player-core); **6th** [_chain lightning_](/spell/chain-lightning-player-core), [_disintegrate_](/spell/disintegrate-player-core), [_scrying_](/spell/scrying-player-core), [_wall of force_](/spell/wall-of-force-player-core); **5th** [_control water_](/spell/control-water-player-core), _fireball_, [_howling blizzard_](/spell/howling-blizzard-player-core), [_telekinetic haul_](/spell/telekinetic-haul-player-core); **4th** [_clairvoyance_](/spell/clairvoyance-player-core), [_ice storm_](/spell/ice-storm-player-core-2), [_wall of fire_](/spell/wall-of-fire-player-core), [_weapon storm_](/spell/weapon-storm-player-core); **3rd** _fireball_, _haste_, [_lightning bolt_](/spell/lightning-bolt-player-core), [_wall of wind_](/spell/wall-of-wind-player-core); **2nd** [_acid grip_](/spell/acid-grip-player-core), [_blur_](/spell/blur-player-core), [_enlarge_](/spell/enlarge-player-core), [_floating flame_](/spell/floating-flame-player-core); **1st** [_alarm_](/spell/alarm-player-core), [_breathe fire_](/spell/breathe-fire-player-core), [_force barrage_](/spell/force-barrage-player-core), [_thunderstrike_](/spell/thunderstrike-player-core); **Cantrips** [_caustic blast_](/spell/caustic-blast-player-core), [_electric arc_](/spell/electric-arc-player-core), [_frostbite_](/spell/frostbite-player-core), [_ignition_](/spell/ignition-player-core), [_shield_](/spell/shield-player-core)",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Themed Spell Lists"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3396"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "other",
+      "remaster",
+      "rule",
+      "themed-spell-lists"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core",
+        "page": 221,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3396"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "DB03DA30-BA56-516F-BDAF-B7985A601C58",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Warder",
+    "slug": "warder-rules-3394",
+    "type": "other",
+    "descr": "**Tradition** arcane\n **10th** [_indestructibility_](/spell/indestructibility-player-core), [_mountain resilience_](/spell/mountain-resilience-player-core); **9th** [_banishment_](/spell/banishment-player-core), [_detonate magic_](/spell/detonate-magic-player-core), [_dispel magic_](/spell/dispel-magic-player-core), [_dispelling globe_](/spell/dispelling-globe-player-core); **8th** _dispel magic_, [_hidden mind_](/spell/hidden-mind-gm-core), _mountain resilience_, [_safe passage_](/spell/safe-passage-player-core); **7th** _dispel magic_, _dispelling globe_, [_energy aegis_](/spell/energy-aegis-player-core), [_resist energy_](/spell/resist-energy-player-core); **6th** _dispel magic_, _mountain resilience_, [_repulsion_](/spell/repulsion-player-core), [_spellwrack_](/spell/spellwrack-player-core); **5th** _banishment_, _dispel magic_, _safe passage_, [_wall of stone_](/spell/wall-of-stone-player-core); **4th** _dispelling globe_, [_fire shield_](/spell/fire-shield-player-core), [_flicker_](/spell/flicker-player-core), _mountain resilience_; **3rd** _dispel magic_, _safe passage_, [_veil of privacy_](/spell/veil-of-privacy-player-core), [_wall of wind_](/spell/wall-of-wind-player-core); **2nd** _dispel magic_, [_environmental endurance_](/spell/environmental-endurance-player-core), _resist energy_, [_revealing light_](/spell/revealing-light-player-core); **1st** [_alarm_](/spell/alarm-player-core), [_gentle landing_](/spell/gentle-landing-player-core), [_gust of wind_](/spell/gust-of-wind-player-core), [_lock_](/spell/lock-player-core); **Cantrips** [_detect magic_](/spell/detect-magic-player-core), [_light_](/spell/light-player-core), [_message_](/spell/message-player-core), [_prestidigitation_](/spell/prestidigitation-player-core), [_shield_](/spell/shield-player-core)",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Themed Spell Lists"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3394"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "other",
+      "remaster",
+      "rule",
+      "themed-spell-lists"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core",
+        "page": 221,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3394"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4427919C-B7B6-5884-804F-A612F2DD91D5",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Warrior of Faith",
+    "slug": "warrior-of-faith-rules-3395",
+    "type": "other",
+    "descr": "**Tradition** divine\n **10th** [_avatar_](/spell/avatar-player-core), [_weapon of judgment_](/spell/weapon-of-judgment-player-core-2) ; **9th** [_divine decree_](/spell/divine-decree-player-core), [_divine immolation_](/spell/divine-immolation-player-core), [_overwhelming presence_](/spell/overwhelming-presence-player-core), _weapon of judgment_ ; **8th** _divine immolation_, [_divine inspiration_](/spell/divine-inspiration-player-core), [_spiritual armament_](/spell/spiritual-armament-player-core), [_sacred form_](/spell/sacred-form-player-core-2) ; **7th** [_blessed boundary_](/spell/blessed-boundary-player-core), _divine decree_, _divine immolation_, [_harm_](/spell/harm-player-core); **6th** _blessed boundary_, _divine immolation_, _sacred form_ , _spiritual armament_; **5th** [_banishment_](/spell/banishment-player-core), _divine immolation_, [_divine wrath_](/spell/divine-wrath-player-core), _harm_; **4th** _divine wrath_, [_crisis of faith_](/spell/crisis-of-faith-player-core), _harm_, _spiritual armament_; **3rd** [_anointed ground_](/spell/anointed-ground-player-core-2) , _crisis of faith_, _harm_, [_heroism_](/spell/heroism-player-core); **2nd** _harm_, [_resist energy_](/spell/resist-energy-player-core), [_see the unseen_](/spell/see-the-unseen-player-core), _spiritual armament_; **1st** [_bless_](/spell/bless-player-core), _harm_, [_mystic armor_](/spell/mystic-armor-player-core), [_runic weapon_](/spell/runic-weapon-player-core); **Cantrips** [_divine lance_](/spell/divine-lance-player-core), [_forbidding ward_](/spell/forbidding-ward-player-core), [_guidance_](/spell/guidance-player-core), [_shield_](/spell/shield-player-core), [_vitality lash_](/spell/vitality-lash-player-core) or [_void warp_](/spell/void-warp-player-core)",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Themed Spell Lists"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3395"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "other",
+      "remaster",
+      "rule",
+      "themed-spell-lists"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core",
+        "page": 221,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3395"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "58144DE9-97D5-5494-9FEA-E9DEDA64948B",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Weak Adjustments",
+    "slug": "weak-adjustments-rules-3359",
+    "type": "combat",
+    "descr": "Sometimes you'll want a creature that's weaker than normal so you can use a creature that would otherwise be too challenging or show that one enemy is weaker than its kin. To do this quickly and easily, apply the weak adjustments to its statistics as follows.\n\n- Decrease the creature's level by 1; if the creature is level 1, instead decrease its level by 2.\n- Decrease the creature's AC, attack modifiers, DCs, saving throws, Perception, and skill modifiers by 2.\n- Decrease the damage of its Strikes and other offensive abilities by 2. If the creature has limits on how many times or how often it can use an ability (such as a spellcaster's spells or a dragon's breath), decrease the damage by 4 instead.\n- Decrease the creature's HP based on its starting level.\n\n## Weak Adjustment\n\n| **Starting Level** | **HP Decrease** |\n| --- | --- |\n| 1-2 | -10 |\n| 3-5 | -15 |\n| 6-20 | -20 |\n| 21+ | -30 |",
+    "data": {
+      "type": "combat",
+      "breadcrumbs": [
+        "Introduction",
+        "Adjusting Creatures",
+        "Combat Power"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3359"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "adjusting-creatures",
+      "combat",
+      "combat-power",
+      "introduction",
+      "npc-core",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core",
+        "page": 5,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3359"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2027F63C-6091-5B06-B9D7-7CF0B0923FEB",
+    "kind": "Rule",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "When to Advance NPCSs",
+    "slug": "when-to-advance-npcss-rules-3413",
+    "type": "other",
+    "descr": "NPC allies typically advance at a slightly slower rate than PCs, and NPC enemies typically advance at the same rate. However, enemies might advance more slowly if they're building up alliances to face the PCs alongside or more quickly if they're achieving major accomplishments.\n\n It's best to advance NPCs based on specific events rather than automatically. This way the players can recognize the progress of the character by hearing about the event or seeing the NPC with new equipment, different garments, scars, or other markers that show their story has continued “off stage.”\n\n Some milestones an NPC might achieve to advance their level or abilities include:\n\n- The NPC accomplishes a significant goal. This might be a business milestone for a merchant, a major performance for an actor, or a lucrative kidnapping for a villainous rogue.\n- The NPC survives a major crisis. Usually this advancement also comes with a major change in their attitude and capabilities. Examples include a treacherous journey, a natural disaster, or a bloody battle. For enemy NPCs, this can include a battle against the PCs, after which it's usually best to both have the NPC level up and wait at least 1 level for the rematch so both sides come to the encounter with new abilities and counterplay tactics.\n- PCs help the NPC improve. This could involve doing a specific task for the NPC, helping them gain admittance to an institution, personally training them, or helping them realize their true potential. If you're using the [connections system](/rule/connection-subsystem-rules-3398), these types of tasks usually overlap with favors, so you can use increasing their Connection Tier as a good point to advance the NPC.",
+    "data": {
+      "type": "other",
+      "breadcrumbs": [
+        "Relationships and Advancement",
+        "NPC Advancement"
+      ],
+      "referenceUrl": "https://2e.aonprd.com/Rules.aspx?ID=3413"
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-advancement",
+      "npc-core",
+      "other",
+      "relationships-and-advancement",
+      "remaster",
+      "rule"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core",
+        "page": 228,
+        "url": "https://2e.aonprd.com/Rules.aspx?ID=3413"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]

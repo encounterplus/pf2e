@@ -1,0 +1,3203 @@
+[
+  {
+    "id": "366789ED-E3EB-5129-9581-C5C4C6DFB942",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Air of Authority",
+    "slug": "effect-air-of-authority-npc-core",
+    "descr": "You take a –2 status penalty to your Will DC against the origin's attempts to Coerce or Demoralize you.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5F935EA1-48A9-52F2-9B02-78C4126137CD",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Alchemical Embalming",
+    "slug": "effect-alchemical-embalming-npc-core",
+    "descr": "You take a –10‐foot penalty to all your Speeds.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "73E8472D-B320-58C8-B7D7-BB647168E6D6",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Apprentice's Ambition",
+    "slug": "effect-apprentice-s-ambition-npc-core",
+    "descr": "The apprentice gains a +2 circumstance bonus to attack rolls, damage rolls, saving throws, and skill checks.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "DA44771A-5ABC-5A03-99D7-D0165ABADF01",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Aura of Command",
+    "slug": "effect-aura-of-command-npc-core",
+    "descr": "You gain a +1 status bonus to your attack rolls and a +2 status bonus to your Will saves.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0BAB34EB-3259-55BC-8A5F-8CCA2625ECF4",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Avenge the Fallen",
+    "slug": "effect-avenge-the-fallen-npc-core",
+    "descr": "You roll the attack roll twice and use the higher result.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 0,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "22B94E72-580B-549D-A1FA-C323CD7FF77D",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Beguiling Presence",
+    "slug": "effect-beguiling-presence-npc-core",
+    "descr": "Creatures in the area that can observe the courtesan take a –2 status penalty on their Will DC against the courtesan's attempts to make a Request of them.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "6E48DF37-00F3-5B44-97DC-D30D907572F6",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Beseech the Spirits",
+    "slug": "effect-beseech-the-spirits-npc-core",
+    "descr": "You gain lifesense 60 feet and all-around vision.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 10,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9FFE70F3-0262-50F4-AA88-BC484A31DB82",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Bodyguard's Defense",
+    "slug": "effect-bodyguard-s-defense-npc-core",
+    "descr": "You gain a +2 circumstance bonus to AC.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C6C0BE49-E4D9-5DED-ADC3-D7E8655743BA",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Bosun's Command",
+    "slug": "effect-bosun-s-command-npc-core",
+    "descr": "You gain a +2 status bonus to your attack rolls or a +10 status bonus to your Speeds.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E4043471-3F2A-5E78-BF64-F79645629A4F",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Breach the Outer Rifts",
+    "slug": "effect-breach-the-outer-rifts-npc-core",
+    "descr": "The weapon deals an extra 2d6 damage. Roll 1d20 to determine the type: 1–7 acid, 8–9 cold, 10–11 electricity, 12–18 fire, 19–20 void.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5C9CDE12-ACD3-59FB-8051-7A48523D12C4",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Break Legs!",
+    "slug": "effect-break-legs-npc-core",
+    "descr": "You become clumsy 1, take a –5‐foot penalty to your Speeds, and have weakness 5 to the origin's Strikes.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "AD5DA542-7E39-5D44-AA1E-29A018684823",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Brutal Rally",
+    "slug": "effect-brutal-rally-npc-core",
+    "descr": "You gain a +1 circumstance bonus to attack rolls.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A7FA1BC3-8482-5896-89F0-9B024FB3A32D",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Call to Action",
+    "slug": "effect-call-to-action-npc-core",
+    "descr": "The creature gains a +1 status bonus to attack and damage rolls.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "58A7E109-9414-5AB6-BE7F-B6C6FD7AC37A",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Champion's Aura (Champion of Rovagug)",
+    "slug": "effect-champion-s-aura-champion-of-rovagug-npc-core",
+    "descr": "You take a –1 circumstance penalty to saves against fear.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "190962ED-5C7A-59BB-8889-FAEC598D9CAC",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Chant of Dominance",
+    "slug": "effect-chant-of-dominance-npc-core",
+    "descr": "Any creature damaged this turn also takes 1d6 persistent spirit damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "EA3481AB-E57C-5C54-A369-12F76B6E463C",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Cite Precedent",
+    "slug": "effect-cite-precedent-npc-core",
+    "descr": "You gain a -2 circumstance penalty on your next Diplomacy check in a legal argument.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "266235DE-EE66-569E-B8E6-61A98AF1A423",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Cleansing Earth",
+    "slug": "effect-cleansing-earth-npc-core",
+    "descr": "You gain 20 temporary Hit Points.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "76F349FC-538E-57EE-8B35-042D44C585B3",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Commanding Aura",
+    "slug": "effect-commanding-aura-npc-core",
+    "descr": "You gain 8 temporary Hit Points.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5EA93FC7-22B9-577E-B778-2C13C4FD35CE",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Competitive Taunt",
+    "slug": "effect-competitive-taunt-npc-core",
+    "descr": "You get a +2 circumstance bonus to your damage against the creature made off-guard by your taunt.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "70B071CA-0AB7-5623-9986-1DED07449793",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Conduct the Experiment",
+    "slug": "effect-conduct-the-experiment-npc-core",
+    "descr": "Your melee Strikes deal an extra 2d8 precision damage against the marked creature.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F1F920FD-15ED-5E92-A4D6-E449997F533E",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Construct Trap",
+    "slug": "effect-construct-trap-npc-core",
+    "descr": "You take a –5 status penalty to all Speeds.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "ECBD835D-44AF-59F0-BAF4-4C37715B1711",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Debilitating Sneak Attack",
+    "slug": "effect-debilitating-sneak-attack-npc-core",
+    "descr": "You either become enfeebled 1 or take a –10-foot status penalty to your Speeds.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "56EED3F2-AD12-50B6-99F0-037115D5B4AB",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Depth Charge",
+    "slug": "effect-depth-charge-npc-core",
+    "descr": "You take a –2 circumstance penalty to Acrobatics checks to Balance and Athletics checks to Swim. If you critically failed the save you are also deafened.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F2B19D12-B21C-59C3-AE84-C879600E90D9",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Diplomatic Immunity",
+    "slug": "effect-diplomatic-immunity-npc-core",
+    "descr": "The attacker gains weakness 2 to all damage from the envoy's allies while Diplomatic Immunity lasts, whether their attack was disrupted or not.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "158D9EC8-C880-542E-AAE3-9EF721655AFE",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Divine Frenzy",
+    "slug": "effect-divine-frenzy-npc-core",
+    "descr": "You take a –2 penalty to Perception checks and Will saves and gain a +2 status bonus to your spell DC and spell attack modifier. You can't use actions with the [concentrate](/trait/concentrate) trait unless you're Casting a Spell or Seeking.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "761D424E-0302-5F1F-983C-8E87814EF738",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Don Mask",
+    "slug": "effect-don-mask-npc-core",
+    "descr": "The mummer gains a primal boon:\n\n**Fiery Akkarok** The mummer's melee Strikes deal an additional 2d6 fire damage.**Hazi Zephyr-Borne** The mummer gains a fly Speed of 20 feet.**King of Storms** The mummer gains the Reactive Strike reaction that can be used only with their tail.**Nessek, the Wave Dancer** The mummer's claw Strikes deal an additional 2d4 persistent bleed damage.**Zalok, Who was Called to Black Harbor** The mummer gains a +10-foot status bonus to their land Speed and swim Speed.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D8409162-85B4-5F02-8E8D-FE90231A59D8",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Eat a Pickle",
+    "slug": "effect-eat-a-pickle-npc-core",
+    "descr": "You gain 4 temporary Hit Points.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "68F96BA6-9F83-53BE-94D4-357486C71302",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Exalted Retributive Strike",
+    "slug": "effect-exalted-retributive-strike-npc-core",
+    "descr": "You gain resistance 14 to all damage against the triggering damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2125D062-C95D-56E2-B90E-C6DA6C84D630",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Fanatical Frenzy",
+    "slug": "effect-fanatical-frenzy-npc-core",
+    "descr": "You gain a +1 status bonus to attack rolls and a +2 status bonus to damage rolls, and you take a –2 penalty to AC.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E8C62897-329B-5199-A2E6-6635726E04F1",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Fickle Prophecy",
+    "slug": "effect-fickle-prophecy-npc-core",
+    "descr": "You gain 1d8+4 temporary Hit Points.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "731EB721-12E5-5096-8B31-4C312345CDA7",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Fiery Rhetoric",
+    "slug": "effect-fiery-rhetoric-npc-core",
+    "descr": "You take a –2 status penalty to Perception and Will saves.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F9F030F4-D7F8-5429-9226-242D1ED8DAB0",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Flesh Mutation",
+    "slug": "effect-flesh-mutation-npc-core",
+    "descr": "You are affected by a mutation according to the result.\n\n**1 Spongy Flesh** You have weakness 5 to physical damage.\n\n**2 Caustic Blood** You take 2d4 persistent acid damage that can't be removed normally, but ends when the mutation does.\n\n**3 Sprouting Eyes** You are dazzled, but also immune to flanking.\n\n**4 Mutated Mind** You are confused. You can still recover as noted in the condition, but if you do you remain off-guard until the mutation ends.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "07A38755-FC72-5036-AC03-5B9F26A43DB8",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Follow Me",
+    "slug": "effect-follow-me-npc-core",
+    "descr": "You gain a +2 circumstance bonus to Deception and Stealth checks.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "92194412-ECF3-5CFC-9554-E0453CE53287",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Greased Palms",
+    "slug": "effect-greased-palms-npc-core",
+    "descr": "You gain a +2 status bonus to Gather Information in the sheriff's settlement.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 24,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "73606519-491D-5673-A1C9-DA5766DEF3E0",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Guard's Parry (Guard)",
+    "slug": "effect-guard-s-parry-guard-npc-core",
+    "descr": "The palace guard gains a +2 circumstance bonus to attack and damage rolls until the end of their next turn.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1892D967-7854-5D0F-A11B-F99919184D6F",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Guard's Parry (Liege)",
+    "slug": "effect-guard-s-parry-liege-npc-core",
+    "descr": "The liege gains a +2 circumstance bonus to AC against the triggering attack.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "7D7A7512-2832-54F3-A21E-BCFC79168411",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Guide's Warning",
+    "slug": "effect-guide-s-warning-npc-core",
+    "descr": "You gain a +1 circumstance bonus to your initiative rolls. This bonus increases to +2 if the guide was Scouting.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 0,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "87068229-270B-5E6E-B4CB-C09455FB7492",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Guiding Words (Guide)",
+    "slug": "effect-guiding-words-guide-npc-core",
+    "descr": "You gain a +1 circumstance bonus to attack rolls against the marked creature.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "921C9730-0E8D-5546-9796-3D1041506DE7",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Harness Wickedness",
+    "slug": "effect-harness-wickedness-npc-core",
+    "descr": "Your Strikes deal an additional die of damage and gain the [unholy](/trait/unholy) trait. You also gains 10 temporary Hit Points, a +5-foot status bonus to Speed, and weakness 5 to holy.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "0679AB16-00E0-5F06-8062-F0A8901CD2EB",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Hunter's Onslaught",
+    "slug": "effect-hunter-s-onslaught-npc-core",
+    "descr": "You become fascinated by the marked creature and you gain 10 temporary Hit Points that last as long as the onslaught does. You gain a +8 status bonus to damage rolls against the marked enemy, and allies in a 30-foot aura around the hunter gain half that bonus.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8E0439FD-F586-5DD1-9619-299E8F628A2A",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Hurl Net",
+    "slug": "effect-hurl-net-npc-core",
+    "descr": "On a hit, you are off-guard and take a –10-foot circumstance penalty to your Speeds. On a critical hit, you are restrained instead.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "387558EE-F7CF-5C74-96FA-7277AFD1FA5B",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: I Am the Law!",
+    "slug": "effect-i-am-the-law-npc-core",
+    "descr": "You can use your reaction to Grapple, Strike, or Trip with a +2 status bonus.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "54234FC4-83D1-593D-8BC2-2789E0B7C3FE",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Imbue Righteousness",
+    "slug": "effect-imbue-righteousness-npc-core",
+    "descr": "Your strikes with that weapon gain the [holy](/trait/holy) trait and deal an additional 1d6 spirit damage to unholy creatures.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B5B4F5D4-7519-57E4-946E-864D179B69F5",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Inspirational Presence",
+    "slug": "effect-inspirational-presence-npc-core",
+    "descr": "Any of the teacher's students in the aura gains a +1 circumstance bonus to Recall Knowledge.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "556EAF5E-30C9-5FD6-B226-BB5F30DF938F",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Inspiring Aura",
+    "slug": "effect-inspiring-aura-npc-core",
+    "descr": "You gain a +1 status bonus to initiative rolls and saves against fear effects.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "04E74B7B-C18B-543F-980F-ADD68CC551E0",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Interest is Due!",
+    "slug": "effect-interest-is-due-npc-core",
+    "descr": "Your Strike deals an an additional 1d6 mental damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F87FEB6B-DCF5-5972-AC55-1FE47CFCF9D0",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Keep Up With Me!",
+    "slug": "effect-keep-up-with-me-npc-core",
+    "descr": "You gain a +3 status bonus to your attack roll on the next Strike you make, or to the DC of your next offensive ability if you're a troop.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F8DB1157-7D12-5E8B-A10D-53C17A428DE4",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Kingpin's Presence",
+    "slug": "effect-kingpin-s-presence-npc-core",
+    "descr": "You gain a +2 status bonus to saving throws against mental effects.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "AB26B8B6-2B55-512E-9CEA-59D8D4D98FFD",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Liberating Step",
+    "slug": "effect-liberating-step-npc-core",
+    "descr": "You gain resistance 10 to all damage against the triggering damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "93C2AE67-8F46-5B01-882F-704FE58912CE",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Life Burn Aura",
+    "slug": "effect-life-burn-aura-npc-core",
+    "descr": "You are surrounded by a 30-foot emanation. While Life Burn Aura is active, your fist Strikes deal 2 additional die of weapon damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "132B3D74-5109-5958-A801-4F8C6584D422",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Magnificent…!",
+    "slug": "effect-magnificent-npc-core",
+    "descr": "You gain a +1 status bonus to attack and damage rolls against the marked creature.\n\nThe origin deals an extra 3d6 precision damage with their weapon and unarmed Strikes that hit that creature.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "DBB40E6A-737E-54B1-B39B-A0463625587A",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Mark of Fate",
+    "slug": "effect-mark-of-fate-npc-core",
+    "descr": "You gain weakness 10 to unholy and take a –2 circumstance penalty to Charisma-based skill checks against followers of Urgathoa.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3ECE3664-B8D6-56F6-AA63-898A5646BCF0",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Medical Malpractice",
+    "slug": "effect-medical-malpractice-npc-core",
+    "descr": "The surgeon's melee Strikes deal extra precision damage against the marked creature.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "C8D711AF-EB97-5981-A8B0-7CD547EFB643",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Monologue",
+    "slug": "effect-monologue-npc-core",
+    "descr": "You gain a +1 status bonus to Will saves and a +2 status bonus to damage rolls with your spells. Each time you take this action again, the bonuses increase by 1 and 2, respectively.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "A3FD6ACD-244E-5AD9-A72E-6B64871BF2B9",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Natural Disguise",
+    "slug": "effect-natural-disguise-npc-core",
+    "descr": "You gain a +2 item bonus to Stealth checks while in a natural environment until your next daily preparations or until its disguise is ruined, whichever comes first.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "50731DA1-4866-5277-ABA5-502E6B4AF8B3",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Never off the Hook",
+    "slug": "effect-never-off-the-hook-npc-core",
+    "descr": "You take a –3 circumstance penalty to your Will DC against the origin's attempts to Demoralize or Coerce you.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "07EC17AC-878E-5257-927D-0C1ECBD80C9A",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: No Fight Fair",
+    "slug": "effect-no-fight-fair-npc-core",
+    "descr": "You take a status penalty to your speed.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3DC91E1D-E014-58A7-8C1B-8BF8DB7ED89A",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: No Quarter!",
+    "slug": "effect-no-quarter-npc-core",
+    "descr": "You gain a +1 status bonus to attack rolls and damage rolls.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "133DA82B-7AF6-57B8-985C-E5FAA9093DAA",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: On Guard",
+    "slug": "effect-on-guard-npc-core",
+    "descr": "You gain a +2 circumstance bonus to your initiative roll.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "24C90335-7D3A-57E0-A19D-2D05A2D6FC0B",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: One for All",
+    "slug": "effect-one-for-all-npc-core",
+    "descr": "You gain a +1 circumstance bonus to AC. If you would benefit from more than one creature's One for All ability, the bonus is +2 instead of +1.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D0C83AAD-F197-598A-91D9-0BCB96CB6286",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Owe Money",
+    "slug": "effect-owe-money-npc-core",
+    "descr": "You owe money.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "575AD956-3D3B-508C-A11A-9CDF07F77D8E",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Perfect Formation",
+    "slug": "effect-perfect-formation-npc-core",
+    "descr": "The troop gains a +2 item bonus to AC and a +2 status bonus to Reflex saves.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "7F877561-FD71-590B-9F78-0E85F45BDAA9",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Posse's Edge",
+    "slug": "effect-posse-s-edge-npc-core",
+    "descr": "You gain a +1 circumstance bonus on initiative rolls.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F09AB643-1BC9-53B1-A81B-9904A8CBEF66",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Remember, You're Under Oath",
+    "slug": "effect-remember-you-re-under-oath-npc-core",
+    "descr": "You take a status penalty to Deception checks to Lie.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 10,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4E5B0B63-B15E-5349-B02B-B40CBDA49F62",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Repentant Defiance",
+    "slug": "effect-repentant-defiance-npc-core",
+    "descr": "You gain resistance 3 to physical damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "1E2C0EA1-6A31-56AF-AC7D-4367674703A1",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Root in Place",
+    "slug": "effect-root-in-place-npc-core",
+    "descr": "Your Speed is reduced to 0 and you gain a +1 circumstance bonus to AC and 2 temporary Hit Points.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B8C75E56-E45B-5906-AA44-8404C7969848",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Sage's Analysis",
+    "slug": "effect-sage-s-analysis-npc-core",
+    "descr": "You gain a +2 circumstance bonus to attack rolls and AC against the marked creature and deal an additional 2d6 damage to the creature with weapon attacks.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4279B3DB-372F-55DC-94AE-9A717EDF8F37",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Scent of Blood",
+    "slug": "effect-scent-of-blood-npc-core",
+    "descr": "You 10 temporary HP and a +4 status bonus to damage rolls with your unarmed attacks, but become off-guard.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "F148AB40-8CCB-5EA4-8A61-1D23F7CA838F",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Shared Confidence",
+    "slug": "effect-shared-confidence-npc-core",
+    "descr": "You gain a +1 status bonus to Will saves.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "040E9167-813E-53AC-B123-239AADF6475C",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Shields Up!",
+    "slug": "effect-shields-up-npc-core",
+    "descr": "You gain a +2 circumstance bonus to AC and Reflex saves.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "BCD0E3D9-AB4E-5310-8D9C-530134C2D4EB",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Sic 'Em!",
+    "slug": "effect-sic-em-npc-core",
+    "descr": "You gain a +1 status bonus to attack rolls and a +2 status bonus to damage rolls.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5407C285-2959-5D9D-88F3-CC7DE044458C",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Sight Prey",
+    "slug": "effect-sight-prey-npc-core",
+    "descr": "The warmonger's ranged Strikes against the marked creature gain a +1 circumstance bonus to the attack roll and deal an extra 3d6 precision damage. Each time the warmonger hits that creature with a ranged Strike, the creature takes a –10-foot penalty to its Speeds for 1 minute and falls 20 feet if it's flying.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 0,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "73997FD3-33F3-5839-8AA8-2F87AE0A79DF",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Sight Prey (Speed Penalty)",
+    "slug": "effect-sight-prey-speed-penalty-npc-core",
+    "descr": "You take a penalty to your Speeds.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "12008519-0D20-57D3-AB7B-67C20126D27D",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Solidarity",
+    "slug": "effect-solidarity-npc-core",
+    "descr": "You gain a +1 circumstance bonus to saving throws against fatigue and mental effects.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "135C8982-9C1A-512F-9642-3CF1E19C8A41",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Spear Parry",
+    "slug": "effect-spear-parry-npc-core",
+    "descr": "You gain a +1 circumstance bonus to AC until the start of your next turn.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "72507661-92DF-5F9B-8CB7-3FC0340CA604",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Spill Secrets",
+    "slug": "effect-spill-secrets-npc-core",
+    "descr": "You gain a +1 circumstance bonus to AC and saving throws against the marked creature.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "9810FF7E-9B2F-5DEE-A70F-59FEC2E14AC4",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Stab it! Stab it! Stab it!",
+    "slug": "effect-stab-it-stab-it-stab-it-npc-core",
+    "descr": "Your attacks against the marked target deal 1 additional damage dice.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "D68D1726-5857-52A8-B9ED-2822DA4D85BD",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Stay in the Fight!",
+    "slug": "effect-stay-in-the-fight-npc-core",
+    "descr": "You gain 10 temporary Hit Points.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8B418BFE-0579-5B22-8B9C-4C39304E70C9",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Stay Strong!",
+    "slug": "effect-stay-strong-npc-core",
+    "descr": "You gain a +1 circumstance bonus to the save.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 0,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "04B34992-9959-56D7-9AA5-F5E64EE8893D",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Steward of the Faithful",
+    "slug": "effect-steward-of-the-faithful-npc-core",
+    "descr": "Each ally in the aura who worships Pharasma gains resistance 5 to void and a +1 status bonus to Will saves, Diplomacy checks, and Medicine checks.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "5241DA63-949D-5148-9B90-38DF7CD2FDAE",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Still Got It!",
+    "slug": "effect-still-got-it-npc-core",
+    "descr": "The retired creature gains temporary Hit Points equal to its level that last until the end of the encounter. The retired creature also suppresses the effects of being rusty until the end of the encounter.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "91A9109B-CC92-58AA-A32F-DA9BB887BA54",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Super Qi Blast",
+    "slug": "effect-super-qi-blast-npc-core",
+    "descr": "For your next casting of the two-action version of *qi blast*, the size of the cone increases to 120 feet and the damage increases to 16d6. You also become one size category larger, dealing an additional +9 damage with your melee Strikes.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "3B39AE8B-5CAF-5B1E-B3A5-858FDB82A30E",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Swig",
+    "slug": "effect-swig-npc-core",
+    "descr": "You gain a +2 item bonus to melee damage rolls and saving throws against fear but are off-guard.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "60CBA74D-AB8F-50E3-86BE-835D3EB41D9C",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Symbol of Loyalty",
+    "slug": "effect-symbol-of-loyalty-npc-core",
+    "descr": "Allies in the aura who are 14th level and lower and are loyal to the grand inquisitor's cause get a +3 status bonus to Will saves.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "4C4B6B0B-5C83-5194-A2D3-618DF7470CA8",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Tactical Command",
+    "slug": "effect-tactical-command-npc-core",
+    "descr": "The creature gains a +2 status bonus to their Strike if the veteran noble has dealt with that creature or an organization that creature belongs to before, as the veteran offers hard-earned tactical advice.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "233B8E97-2BDE-583C-9B17-AB773325ABA1",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Temper Armament",
+    "slug": "effect-temper-armament-npc-core",
+    "descr": "Tempering armor or a shield increases its Hardness by 1. Tempering a weapon grants the weapon a +1 circumstance bonus to damage rolls.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 3,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "8E6D2A46-FEF2-51D8-A724-9EE50C9AF4C2",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Timely Advice",
+    "slug": "effect-timely-advice-npc-core",
+    "descr": "You gain a +2 circumstance bonus to the triggering roll.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "FD6DCFE0-214A-5DDE-99A6-15FD0E3EF78B",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Tip the Scales",
+    "slug": "effect-tip-the-scales-npc-core",
+    "descr": "You roll twice on your next d20 roll before the end of your next turn and take the better result.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E38ED73D-840B-5FA8-ADB9-3C3E622036D2",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Unbelievable Connection",
+    "slug": "effect-unbelievable-connection-npc-core",
+    "descr": "The marked creature is off-guard against your attacks until it is no longer stupefied.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "56A077BD-B0D3-5CBF-9864-F8F39B678669",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Under Command",
+    "slug": "effect-under-command-npc-core",
+    "descr": "You are commanded by a captain of the guard.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "2F85DDD9-535F-5FDC-A009-0C87F45A71E2",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Verdant Aria",
+    "slug": "effect-verdant-aria-npc-core",
+    "descr": "You gain a +2 status bonus to AC and saving throws.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B4273B70-3AA9-51D9-86CE-696EC1CC3997",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Void Tendrils",
+    "slug": "effect-void-tendrils-npc-core",
+    "descr": "When you would be healed by a vitality effect, the healing is reduced by 15.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "945E27C4-2F24-532D-BDE3-84F5E8574A3C",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: War Cry",
+    "slug": "effect-war-cry-npc-core",
+    "descr": "You deal an additional 1d6 damage with your Strikes.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "B0B8C7B3-3B32-5B9F-8839-2685FE656E93",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Will Not Falter",
+    "slug": "effect-will-not-falter-npc-core",
+    "descr": "You gain a +2 status bonus to attack rolls and saving throws against fear.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E15AE5C7-025F-5C0C-9D1B-A5EB083945FB",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: Words of Encouragement",
+    "slug": "effect-words-of-encouragement-npc-core",
+    "descr": "You ignore any circumstance and status penalties you have.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": 1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "E3234BDB-901A-550F-A736-10EA55B3432D",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Effect: You'll Pay for That",
+    "slug": "effect-you-ll-pay-for-that-npc-core",
+    "descr": "You gain a +5 status bonus to your next damage roll against the marked enemy.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  },
+  {
+    "id": "66217068-0260-5C3F-A5EF-6F3A103403FE",
+    "kind": "StatusEffect",
+    "system": "pf2e-remaster",
+    "systemVersion": "1.2.10",
+    "name": "Stance: Hunter's Precision",
+    "slug": "stance-hunter-s-precision-npc-core",
+    "descr": "Your Strikes deal an additional 2d8 precision damage, and the range increment for your ranged weapon Strikes is 20 feet longer than normal. On a critical hit with a weapon Strike, the target also takes 2d6 persistent bleed damage.",
+    "data": {
+      "rarity": "common",
+      "traits": [],
+      "stage": 0,
+      "duration": -1,
+      "traitLinks": []
+    },
+    "attributes": {
+      "remaster": true,
+      "sourceId": "npc-core",
+      "license": "ORC-1.0a"
+    },
+    "tags": [
+      "npc-core",
+      "remaster"
+    ],
+    "sources": [
+      {
+        "name": "NPC Core"
+      }
+    ],
+    "modifiers": [],
+    "created": "2026-09-07T00:00:00Z",
+    "modified": "2026-09-07T00:00:00Z"
+  }
+]
